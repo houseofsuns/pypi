@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/github3-py[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
+	>=dev-python/github3-py-3.2.0[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]"
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

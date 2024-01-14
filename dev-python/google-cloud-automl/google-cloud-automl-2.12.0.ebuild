@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="libcst pandas storage"
-DEPENDENCIES="dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/proto-plus[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	libcst? ( dev-python/libcst[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-1.0.5[${PYTHON_USEDEP}] )
 	storage? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/alchemize[${PYTHON_USEDEP}]
 	dev-python/pike[${PYTHON_USEDEP}]
 	dev-python/deepmerge[${PYTHON_USEDEP}]
-	cli? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
 	cli? ( dev-python/requests[${PYTHON_USEDEP}] )
 	cli? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	cli? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/cryptography-2.1.2[${PYTHON_USEDEP}] )
 	consul? ( dev-python/requests[${PYTHON_USEDEP}] )
 	etcd2? ( dev-python/requests[${PYTHON_USEDEP}] )
-	fernet? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	fernet? ( >=dev-python/cryptography-2.1.2[${PYTHON_USEDEP}] )
 	param_store? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	dev-python/sentence-splitter[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/tkitreadability[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]"
+	>=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

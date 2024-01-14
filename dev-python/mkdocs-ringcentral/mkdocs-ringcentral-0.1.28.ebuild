@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mkdocs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mkdocs-1.1[${PYTHON_USEDEP}]
 	dev-python/mkdocs-ringcentral-api-index[${PYTHON_USEDEP}]
 	dev-python/mkdocs-moonstone[${PYTHON_USEDEP}]
 	dev-python/mdx-include[${PYTHON_USEDEP}]"

@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.5.1[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-stubs[${PYTHON_USEDEP}]
 	dev-python/acryl-datahub[${PYTHON_USEDEP}]
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydantic-1.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	dev? ( dev-python/acryl-datahub[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-0.920[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-dataclasses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlalchemy-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-toml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-tidy-imports[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-freezegun[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/aldryn-addons[${PYTHON_USEDEP}]
 	dev-python/django-storages[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/aldryn-sites[${PYTHON_USEDEP}]
-	dev-python/easy-thumbnails[${PYTHON_USEDEP}]"
+	>=dev-python/easy-thumbnails-2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

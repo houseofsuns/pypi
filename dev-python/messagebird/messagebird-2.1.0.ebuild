@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.4.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mock-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

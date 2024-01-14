@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="codacy dev docs"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyrfc3339[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/pyrfc3339-1.1[${PYTHON_USEDEP}]
+	~dev-python/cachetools-3.1.1[${PYTHON_USEDEP}]
 	codacy? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.24.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-sugar-0.9.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-helpers-namespace[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-helpers-namespace-2019.1.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-4.6.11[${PYTHON_USEDEP}] )
 	dev? ( dev-python/prospector[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

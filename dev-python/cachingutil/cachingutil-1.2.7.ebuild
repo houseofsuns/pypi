@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pip-18.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.11.1[${PYTHON_USEDEP}]
 	dev-python/timingsutil[${PYTHON_USEDEP}]
 	dev-python/fdutil[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

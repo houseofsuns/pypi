@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extra"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.26[${PYTHON_USEDEP}]
+	>dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	dev-python/quimb[${PYTHON_USEDEP}]
 	dev-python/autoray[${PYTHON_USEDEP}]
-	dev-python/opt-einsum[${PYTHON_USEDEP}]
+	>=dev-python/opt-einsum-3.2[${PYTHON_USEDEP}]
 	dev-python/galois[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.9[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	extra? ( dev-python/graphix-ibmq[${PYTHON_USEDEP}] )
 	extra? ( dev-python/graphix-perceval[${PYTHON_USEDEP}] )"

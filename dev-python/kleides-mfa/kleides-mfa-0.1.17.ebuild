@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/django-otp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-otp-0.7.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/django-otp-yubikey[${PYTHON_USEDEP}] )
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-otp-yubikey[${PYTHON_USEDEP}] )
 	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )

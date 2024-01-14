@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/hyperactive[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pooch[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	bench? ( dev-python/jax[${PYTHON_USEDEP}] )

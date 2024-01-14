@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/pyqt5[${PYTHON_USEDEP}]
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )

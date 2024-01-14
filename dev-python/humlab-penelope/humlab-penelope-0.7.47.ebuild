@@ -34,25 +34,25 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/more_itertools[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	<dev-python/msgpack-2.0.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	full? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	full? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	full? ( dev-python/textacy[${PYTHON_USEDEP}] )
 	full? ( dev-python/wordcloud[${PYTHON_USEDEP}] )
 	full? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	full? ( dev-python/click[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/click-8.1[${PYTHON_USEDEP}] )
 	dev-python/smart-open[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]"
+	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	<dev-python/networkx-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

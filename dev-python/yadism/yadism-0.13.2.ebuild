@@ -29,11 +29,11 @@ DEPENDENCIES="dev-python/LeProHQ[${PYTHON_USEDEP}]
 	mark? ( dev-python/banana-hep[${PYTHON_USEDEP}] )
 	dev-python/eko[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	box? ( dev-python/pineappl[${PYTHON_USEDEP}] )
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	mark? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	mark? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

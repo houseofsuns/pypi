@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs voice"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-trio[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/sphinx-3.0.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-trio-1.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
 	voice? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

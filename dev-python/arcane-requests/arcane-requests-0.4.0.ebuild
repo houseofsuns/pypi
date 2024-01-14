@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
 	dev-python/arcane-firebase[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/google-auth-3.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

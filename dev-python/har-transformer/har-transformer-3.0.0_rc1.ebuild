@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/pendulum[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pendulum-3.0[${PYTHON_USEDEP}]
 	dev-python/chevron[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
+	<dev-python/docopt-0.7.0[${PYTHON_USEDEP}]
 	dev-python/ecological[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.21[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

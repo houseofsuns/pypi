@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs lint marine test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.21.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.8.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pysen[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/click[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	lint? ( <=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	lint? ( <=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/click-8.1.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/isort-5.2.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-decorator[${PYTHON_USEDEP}] )
 	marine? ( dev-python/marine[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

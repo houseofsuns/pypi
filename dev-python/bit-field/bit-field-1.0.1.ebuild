@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="json5"
-DEPENDENCIES="json5? ( dev-python/json5[${PYTHON_USEDEP}] )"
+DEPENDENCIES="json5? ( >=dev-python/json5-0.9.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

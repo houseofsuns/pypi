@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
 	dev-python/norenrestapipy[${PYTHON_USEDEP}]
 	dev-python/logzero[${PYTHON_USEDEP}]
 	dev-python/py-vollib[${PYTHON_USEDEP}]
-	dev-python/python-engineio[${PYTHON_USEDEP}]
+	~dev-python/python-engineio-3.13.0[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

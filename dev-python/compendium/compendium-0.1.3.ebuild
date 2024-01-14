@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="xml"
-DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	xml? ( dev-python/xmltodict[${PYTHON_USEDEP}] )"
+	<dev-python/tomlkit-0.8.0[${PYTHON_USEDEP}]
+	xml? ( <dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

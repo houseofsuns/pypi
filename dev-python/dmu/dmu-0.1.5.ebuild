@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]"
+	>=dev-python/docutils-0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

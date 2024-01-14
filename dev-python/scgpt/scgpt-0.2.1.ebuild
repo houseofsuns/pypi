@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/scvi-tools[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
 	dev-python/leidenalg[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/scib[${PYTHON_USEDEP}]
 	dev-python/cell-gears[${PYTHON_USEDEP}]
 	dev-python/orbax[${PYTHON_USEDEP}]"

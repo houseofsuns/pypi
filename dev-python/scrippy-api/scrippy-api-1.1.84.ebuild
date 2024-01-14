@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.37.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-breakpoint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-return[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-60.9.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pypirc-chappers[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pylint-2.12.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

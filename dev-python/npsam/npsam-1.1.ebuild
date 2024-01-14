@@ -27,16 +27,16 @@ IUSE=""
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/ipympl[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	~dev-python/PyQt5-5.15.9[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/ultralytics[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	~dev-python/jupyterlab-4.0.7[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

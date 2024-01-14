@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

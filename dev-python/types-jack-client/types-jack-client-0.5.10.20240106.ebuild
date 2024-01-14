@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/types-cffi[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

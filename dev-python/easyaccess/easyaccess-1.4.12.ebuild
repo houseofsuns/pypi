@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-0.14[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/fitsio[${PYTHON_USEDEP}]
+	~dev-python/fitsio-1.1.8[${PYTHON_USEDEP}]
 	dev-python/cx-Oracle[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
+	>=dev-python/future-0.15.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

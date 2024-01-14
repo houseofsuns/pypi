@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gabriel-protocol[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]"
+	~dev-python/websockets-9.1[${PYTHON_USEDEP}]
+	~dev-python/pyzmq-18.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-8.3.2[${PYTHON_USEDEP}]
 	dev-python/cherrypy[${PYTHON_USEDEP}]
 	dev-python/cssutils[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
+	>=dev-python/docutils-0.18.1[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/roman[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
 	dev-python/libgutenberg[${PYTHON_USEDEP}]
 	dev-python/cchardet[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]

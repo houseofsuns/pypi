@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dbapi[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]"
+	<dev-python/elasticsearch-7.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

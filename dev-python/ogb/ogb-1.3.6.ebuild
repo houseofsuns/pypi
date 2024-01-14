@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.29.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.24.0[${PYTHON_USEDEP}]
 	dev-python/outdated[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

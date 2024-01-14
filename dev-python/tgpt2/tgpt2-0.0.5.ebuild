@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/rich-13.3.4[${PYTHON_USEDEP}]
 	dev-python/clipman[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]"
+	~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

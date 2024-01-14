@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]"
+	<dev-python/pyperclip-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/poetry[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]"
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
+	~dev-python/poetry-1.3.2[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

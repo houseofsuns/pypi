@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docker-6.0.1[${PYTHON_USEDEP}]
+	>=dev-python/redis-4.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.0.0[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
+	>=dev-python/croniter-1.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/itsdangerous-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/Flask-Cors[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

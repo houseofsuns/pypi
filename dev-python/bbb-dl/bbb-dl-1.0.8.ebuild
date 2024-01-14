@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]
 	dev-python/python-ffmpeg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

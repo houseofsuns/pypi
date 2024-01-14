@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/boto3-5.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
+	<dev-python/emoji-3.0[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

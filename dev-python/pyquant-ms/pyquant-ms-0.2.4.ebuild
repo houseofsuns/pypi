@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/patsy[${PYTHON_USEDEP}]
 	dev-python/pythomics[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.18[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

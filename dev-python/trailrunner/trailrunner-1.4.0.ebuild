@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/pathspec[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pathspec-0.8.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/attribution[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/click-8.1.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-6.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flit-3.7.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/rich-13.3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ufmt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/usort[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-mdinclude[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

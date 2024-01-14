@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/nose2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/nose2-0.6.0[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

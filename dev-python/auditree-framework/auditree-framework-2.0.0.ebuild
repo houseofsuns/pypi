@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/inflection-0.3.1[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-2.1.3[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/ibm-cloud-security-advisor[${PYTHON_USEDEP}]
 	dev-python/ilcli[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	>=dev-python/cryptography-35.0.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )

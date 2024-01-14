@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/vispy[${PYTHON_USEDEP}]
-	dev-python/qtawesome[${PYTHON_USEDEP}]
+	>=dev-python/qtawesome-1.0.0[${PYTHON_USEDEP}]
 	dev-python/sty[${PYTHON_USEDEP}]
 	dev-python/si-prefix[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]"

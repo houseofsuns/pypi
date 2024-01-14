@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="markdown"
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	markdown? ( dev-python/markdown[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	markdown? ( <dev-python/markdown-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/pelican[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	<dev-python/setuptools-69.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

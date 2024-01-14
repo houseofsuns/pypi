@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev-server docs"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/django-cors-headers[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	<dev-python/asgiref-4.0[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0[${PYTHON_USEDEP}]
+	<dev-python/django-4.0[${PYTHON_USEDEP}]
+	<dev-python/django-cors-headers-4.0[${PYTHON_USEDEP}]
 	dev-python/django-environ[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-4.0[${PYTHON_USEDEP}]
 	dev-server? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	dev-server? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	docs? ( dev-python/readthedocs-sphinx-ext[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/readthedocs-sphinx-ext-3.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
+	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
 	dev-python/stellar-sdk[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-server? ( dev-python/watchdog[${PYTHON_USEDEP}] )
+	dev-server? ( <dev-python/watchdog-3.0[${PYTHON_USEDEP}] )
 	dev-python/whitenoise[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/aw-core[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/persist-queue[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

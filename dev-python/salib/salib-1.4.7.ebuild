@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev distributed doc test"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}]
 	dev-python/multiprocess[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/salib[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	distributed? ( dev-python/pathos[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/pydata-sphinx-theme-0.10[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

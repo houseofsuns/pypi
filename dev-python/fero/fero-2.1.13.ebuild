@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	<dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-3.16.0[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]"
+	<dev-python/pyarrow-15.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

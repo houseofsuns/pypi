@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/hug[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
+	<dev-python/mkdocs-1.4.0[${PYTHON_USEDEP}]
 	dev-python/pdocs[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-material-7.0[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pymdown-extensions-7.0[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]
-	dev-python/livereload[${PYTHON_USEDEP}]"
+	>=dev-python/livereload-2.6.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

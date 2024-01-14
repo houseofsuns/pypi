@@ -25,27 +25,27 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aioredis[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+	<dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.18.0[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/aiofiles-0.9.0[${PYTHON_USEDEP}]
+	<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi-login[${PYTHON_USEDEP}]
 	dev-python/pydal[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	<dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}]
+	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]
 	dev-python/runestone[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+	<dev-python/bleach-5.0.0[${PYTHON_USEDEP}]
 	dev-python/multi-await[${PYTHON_USEDEP}]
-	dev-python/pyflakes[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]"
+	<dev-python/pyflakes-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/flake8-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

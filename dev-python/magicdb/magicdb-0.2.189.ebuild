@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/firebase-admin[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/redis-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ujson-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/phonenumbers-9.0.0[${PYTHON_USEDEP}]
 	dev-python/python-google-places[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

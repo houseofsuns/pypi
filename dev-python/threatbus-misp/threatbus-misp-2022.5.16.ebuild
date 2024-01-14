@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/pymisp[${PYTHON_USEDEP}]
 	dev-python/stix2[${PYTHON_USEDEP}]
 	dev-python/threatbus[${PYTHON_USEDEP}]
 	kafka? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
-	zmq? ( dev-python/pyzmq[${PYTHON_USEDEP}] )"
+	zmq? ( >=dev-python/pyzmq-18.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

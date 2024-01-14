@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="anyio asyncio curio trio"
-DEPENDENCIES="anyio? ( dev-python/anyio[${PYTHON_USEDEP}] )
-	asyncio? ( dev-python/async-timeout[${PYTHON_USEDEP}] )
+DEPENDENCIES="anyio? ( <dev-python/anyio-5.0.0[${PYTHON_USEDEP}] )
+	asyncio? ( >=dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}] )
 	curio? ( dev-python/curio[${PYTHON_USEDEP}] )
-	trio? ( dev-python/trio[${PYTHON_USEDEP}] )"
+	trio? ( >=dev-python/trio-0.16.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

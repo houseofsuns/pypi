@@ -38,8 +38,8 @@ DEPENDENCIES="dev-python/ephyviewer[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/readthedocs-sphinx-ext[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/readthedocs-sphinx-ext-2.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )

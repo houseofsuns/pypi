@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	dev-python/azure-keyvault-secrets[${PYTHON_USEDEP}]
 	dev-python/cognite-sdk[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/jq[${PYTHON_USEDEP}]
-	dev-python/jq[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/decorator-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/jq-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/jq-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-11.0.0[${PYTHON_USEDEP}]
+	<=dev-python/prometheus-client-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

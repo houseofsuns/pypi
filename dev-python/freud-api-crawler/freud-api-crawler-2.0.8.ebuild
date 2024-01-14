@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/acdh-xml-pyutils[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.8[${PYTHON_USEDEP}]
 	dev-python/ndjson[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-7.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

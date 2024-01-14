@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all testing"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.38.0[${PYTHON_USEDEP}]
 	dev-python/linkeddeepdict[${PYTHON_USEDEP}]
 	dev-python/dewloosh-core[${PYTHON_USEDEP}]
 	dev-python/neumann[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2023.1.0[${PYTHON_USEDEP}]
 	dev-python/sectionproperties[${PYTHON_USEDEP}]
 	dev-python/meshio[${PYTHON_USEDEP}]
 	all? ( dev-python/pyvista[${PYTHON_USEDEP}] )

@@ -26,26 +26,26 @@ KEYWORDS="~amd64 ~x86"
 IUSE="check dev lint scripts test"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/kiwixstorage[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	dev-python/pif[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
+	~dev-python/python-slugify-3.0.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]
 	dev-python/zimscraperlib[${PYTHON_USEDEP}]
 	check? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/debugpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hatchling[${PYTHON_USEDEP}] )
-	dev? ( dev-python/humanfriendly[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/debugpy-1.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/hatchling-1.18.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/humanfriendly-10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/youtube2zim[${PYTHON_USEDEP}] )
 	dev? ( dev-python/youtube2zim[${PYTHON_USEDEP}] )
 	dev? ( dev-python/youtube2zim[${PYTHON_USEDEP}] )
 	dev? ( dev-python/youtube2zim[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	scripts? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

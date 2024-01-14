@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="plot testing"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	testing? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/numpy-1.14.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
+	plot? ( >=dev-python/matplotlib-2.2.5[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/matplotlib-2.2.5[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-5.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

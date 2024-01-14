@@ -27,7 +27,7 @@ IUSE="autobuild blendsearch graphs lmm mathchat retrievechat teachable test"
 DEPENDENCIES="dev-python/diskcache[${PYTHON_USEDEP}]
 	dev-python/flaml[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
@@ -35,11 +35,11 @@ DEPENDENCIES="dev-python/diskcache[${PYTHON_USEDEP}]
 	autobuild? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	autobuild? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	blendsearch? ( dev-python/flaml[${PYTHON_USEDEP}] )
-	graphs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	graphs? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	graphs? ( ~dev-python/matplotlib-3.8.1[${PYTHON_USEDEP}] )
+	graphs? ( ~dev-python/networkx-3.2.1[${PYTHON_USEDEP}] )
 	lmm? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	lmm? ( dev-python/replicate[${PYTHON_USEDEP}] )
-	mathchat? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	mathchat? ( ~dev-python/pydantic-1.10.9[${PYTHON_USEDEP}] )
 	mathchat? ( dev-python/sympy[${PYTHON_USEDEP}] )
 	mathchat? ( dev-python/wolframalpha[${PYTHON_USEDEP}] )
 	retrievechat? ( dev-python/chromadb[${PYTHON_USEDEP}] )
@@ -47,12 +47,12 @@ DEPENDENCIES="dev-python/diskcache[${PYTHON_USEDEP}]
 	retrievechat? ( dev-python/pypdf[${PYTHON_USEDEP}] )
 	retrievechat? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	teachable? ( dev-python/chromadb[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-6.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

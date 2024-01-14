@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/aiomysql[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]"
+	>=dev-python/pymysql-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/redis-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

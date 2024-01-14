@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/aiosqlite[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
 	dev-python/fake-useragent[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-httpx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.23.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-httpx-0.28.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="examples"
-DEPENDENCIES="dev-python/cycler[${PYTHON_USEDEP}]
-	dev-python/kiwisolver[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cycler-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/kiwisolver-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.3.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2018.9[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.1[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
 	examples? ( dev-python/torch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

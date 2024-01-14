@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/omero-py[${PYTHON_USEDEP}]
 	dev-python/concurrent-log-handler[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-pipeline[${PYTHON_USEDEP}]
-	dev-python/django-cors-headers[${PYTHON_USEDEP}]
+	~dev-python/django-cors-headers-3.7.0[${PYTHON_USEDEP}]
 	dev-python/whitenoise[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/omero-marshal[${PYTHON_USEDEP}]
@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/omero-py[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/portalocker[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	redis? ( dev-python/django-redis[${PYTHON_USEDEP}] )"
+	redis? ( ~dev-python/django-redis-5.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

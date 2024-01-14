@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.17.3[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.10[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/ConfigParser[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/ubiops[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

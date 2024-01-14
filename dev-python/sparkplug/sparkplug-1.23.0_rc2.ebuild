@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/amqp[${PYTHON_USEDEP}]
-	dev-python/lockfile[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/amqp-2.3.2[${PYTHON_USEDEP}]
+	<dev-python/lockfile-0.13[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

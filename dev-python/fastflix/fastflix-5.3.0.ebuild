@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/appdirs-2.0[${PYTHON_USEDEP}]
+	<dev-python/chardet-5.2.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-1.0[${PYTHON_USEDEP}]
+	<dev-python/coloredlogs-16.0[${PYTHON_USEDEP}]
 	dev-python/iso639-lang[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyside6[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/mistune-3.0[${PYTHON_USEDEP}]
+	<dev-python/pathvalidate-3.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	<dev-python/pyside6-7.0[${PYTHON_USEDEP}]
+	<dev-python/python-box-7.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/reusables[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

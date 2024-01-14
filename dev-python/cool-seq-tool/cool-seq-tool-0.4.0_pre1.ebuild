@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	dev-python/hgvs[${PYTHON_USEDEP}]
 	dev-python/biocommons-seqrepo[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/ga4gh-vrs[${PYTHON_USEDEP}]
@@ -40,15 +40,15 @@ DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.22.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.3.27[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-asyncio-0.18.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

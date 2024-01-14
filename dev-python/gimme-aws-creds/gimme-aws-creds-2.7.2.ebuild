@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/fido2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/keyring-21.4.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/fido2-0.10.0[${PYTHON_USEDEP}]
 	dev-python/okta[${PYTHON_USEDEP}]
 	dev-python/ctap-keyring-device[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

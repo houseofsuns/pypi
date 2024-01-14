@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev dev-complete dev-extras dist-conda dist-pypi docs nox test tools typing typing-extras"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.16[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/docstring-inheritance[${PYTHON_USEDEP}]
 	dev-python/module-utilities[${PYTHON_USEDEP}]
@@ -70,7 +70,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	tools? ( dev-python/scriv[${PYTHON_USEDEP}] )
 	typing? ( dev-python/cmomy[${PYTHON_USEDEP}] )
 	typing? ( dev-python/cmomy[${PYTHON_USEDEP}] )
-	typing-extras? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	typing-extras? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	typing-extras? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	typing-extras? ( dev-python/pytype[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

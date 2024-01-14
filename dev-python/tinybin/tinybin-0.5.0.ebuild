@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]"
+	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

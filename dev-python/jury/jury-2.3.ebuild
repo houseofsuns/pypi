@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev metrics prism"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.0.4[${PYTHON_USEDEP}]
 	dev-python/evaluate[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
@@ -33,13 +33,13 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/validators[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/deepdiff-5.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.9.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bert-score[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jiwer[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev? ( dev-python/unbabel-comet[${PYTHON_USEDEP}] )
 	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fairseq[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/numpy-1.24[${PYTHON_USEDEP}] )
 	metrics? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
 	metrics? ( dev-python/bert-score[${PYTHON_USEDEP}] )
 	metrics? ( dev-python/jiwer[${PYTHON_USEDEP}] )
@@ -57,8 +57,8 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	metrics? ( dev-python/unbabel-comet[${PYTHON_USEDEP}] )
 	metrics? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	metrics? ( dev-python/fairseq[${PYTHON_USEDEP}] )
-	metrics? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	metrics? ( <dev-python/numpy-1.24[${PYTHON_USEDEP}] )
 	prism? ( dev-python/fairseq[${PYTHON_USEDEP}] )
-	prism? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	prism? ( <dev-python/numpy-1.24[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

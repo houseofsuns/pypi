@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bertopic[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	<dev-python/setuptools-66.0.0[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]

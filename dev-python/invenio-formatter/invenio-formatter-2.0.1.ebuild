@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/arrow-0.7.0[${PYTHON_USEDEP}]
+	>=dev-python/bleach-3.1.0[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/invenio-i18n[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	tests? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Pillow[${PYTHON_USEDEP}] )"

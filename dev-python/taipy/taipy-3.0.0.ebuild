@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/taipy-rest[${PYTHON_USEDEP}]
 	dev-python/taipy-templates[${PYTHON_USEDEP}]
 	ngrok? ( dev-python/pyngrok[${PYTHON_USEDEP}] )
-	image? ( dev-python/python-magic[${PYTHON_USEDEP}] )
+	image? ( <dev-python/python-magic-0.5[${PYTHON_USEDEP}] )
 	rdp? ( dev-python/rdp[${PYTHON_USEDEP}] )
-	arrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	arrow? ( <dev-python/pyarrow-11.0[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

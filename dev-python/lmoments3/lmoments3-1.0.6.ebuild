@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

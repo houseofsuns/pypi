@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
-DEPENDENCIES="docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( >=dev-python/sphinx-1.7.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/GitPython-2.1.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx2rst[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

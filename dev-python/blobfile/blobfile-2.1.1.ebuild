@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]"
+	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9[${PYTHON_USEDEP}]
+	~dev-python/filelock-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

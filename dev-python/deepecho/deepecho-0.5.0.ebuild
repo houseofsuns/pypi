@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/setuptools-49.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
-	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pip-9.0.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/watchdog-0.11[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-absolute-import[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-sfs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-mock[${PYTHON_USEDEP}] )
@@ -54,21 +54,21 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-expression-complexity[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/autopep8-1.6[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.30.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.4.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-rerunfailures-10.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rundoc[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.4.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-rerunfailures-10.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/rundoc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

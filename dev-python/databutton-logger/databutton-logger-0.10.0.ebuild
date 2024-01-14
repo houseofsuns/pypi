@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/asgi-correlation-id[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]"
+	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

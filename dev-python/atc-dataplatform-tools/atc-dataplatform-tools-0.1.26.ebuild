@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/atc-dataplatform[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ipdb[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/ipdb-0.13.4[${PYTHON_USEDEP}]
 	dev-python/nptyping[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	~dev-python/tqdm-4.50.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

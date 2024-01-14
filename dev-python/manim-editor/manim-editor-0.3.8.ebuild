@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/manim[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]"
+	<dev-python/waitress-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

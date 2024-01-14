@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development testing"
-DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/docutils-0.19[${PYTHON_USEDEP}]
 	dev-python/Sphinx[${PYTHON_USEDEP}]
 	development? ( dev-python/build[${PYTHON_USEDEP}] )
 	development? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	development? ( dev-python/twine[${PYTHON_USEDEP}] )
 	development? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )

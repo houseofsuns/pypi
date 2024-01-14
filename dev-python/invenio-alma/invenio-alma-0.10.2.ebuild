@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0.0[${PYTHON_USEDEP}]
 	dev-python/click-option-group[${PYTHON_USEDEP}]
 	dev-python/invenio-records-marc21[${PYTHON_USEDEP}]
 	dev-python/invenio-config-tugraz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/invenio-cache[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )

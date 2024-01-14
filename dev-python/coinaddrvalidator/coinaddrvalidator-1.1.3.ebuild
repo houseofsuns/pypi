@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-17.4.0[${PYTHON_USEDEP}]
 	dev-python/pysha3[${PYTHON_USEDEP}]
 	dev-python/base58check[${PYTHON_USEDEP}]
-	dev-python/zope-interface[${PYTHON_USEDEP}]
+	>=dev-python/zope-interface-4.4.3[${PYTHON_USEDEP}]
 	dev-python/blake256[${PYTHON_USEDEP}]
 	dev-python/cbor[${PYTHON_USEDEP}]
 	dev-python/bech32[${PYTHON_USEDEP}]

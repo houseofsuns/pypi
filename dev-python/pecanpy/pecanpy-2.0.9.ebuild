@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/gensim[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/numba-progress[${PYTHON_USEDEP}]
 	dev-python/nptyping[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/parameterized-0.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-3.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-4.11.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/django-oscar[${PYTHON_USEDEP}]
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/coverage-5.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

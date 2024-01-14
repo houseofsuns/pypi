@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/dask-2022.2.0[${PYTHON_USEDEP}]
 	dev-python/pyzmq[${PYTHON_USEDEP}]
 	dev-python/ndtiff[${PYTHON_USEDEP}]
 	dev-python/docstring-inheritance[${PYTHON_USEDEP}]

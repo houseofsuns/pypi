@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/annotated-types[${PYTHON_USEDEP}]
+	<dev-python/inflection-0.6.0[${PYTHON_USEDEP}]
+	<dev-python/websockets-11.0[${PYTHON_USEDEP}]
+	<=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	<dev-python/annotated-types-0.5.0[${PYTHON_USEDEP}]
 	dev-python/rath[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

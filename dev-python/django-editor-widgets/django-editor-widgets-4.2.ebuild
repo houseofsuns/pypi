@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

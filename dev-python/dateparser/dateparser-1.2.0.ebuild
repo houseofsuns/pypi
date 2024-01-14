@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="calendars fasttext langdetect"
 DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	>dev-python/regex-2019.2.19[${PYTHON_USEDEP}]
 	dev-python/tzlocal[${PYTHON_USEDEP}]
 	calendars? ( dev-python/hijri-converter[${PYTHON_USEDEP}] )
 	calendars? ( dev-python/convertdate[${PYTHON_USEDEP}] )

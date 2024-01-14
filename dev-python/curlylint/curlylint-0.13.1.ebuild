@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/parsy[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/attrs-17.2.0[${PYTHON_USEDEP}]
+	>=dev-python/click-6.5[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]"
+	<dev-python/pathspec-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

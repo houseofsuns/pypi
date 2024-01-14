@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/alluka[${PYTHON_USEDEP}]
 	dev-python/hikari[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

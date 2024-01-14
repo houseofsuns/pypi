@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="apprise"
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/colorama-0.5[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>dev-python/ruamel-yaml-0.15.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	apprise? ( dev-python/apprise[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

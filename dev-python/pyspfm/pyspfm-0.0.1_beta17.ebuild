@@ -31,22 +31,22 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/nilearn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/pylops[${PYTHON_USEDEP}]
 	dev-python/pyproximal[${PYTHON_USEDEP}]
 	dev-python/pywavelets[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	all? ( dev-python/versioneer[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-1.5.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	all? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	all? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/flake8-3.7[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -55,14 +55,14 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/versioneer[${PYTHON_USEDEP}] )
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-1.5.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flake8-3.7[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyaes[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyaes-2.0.0[${PYTHON_USEDEP}]
 	dev-python/kimg4[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

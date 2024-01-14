@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/flask-httpauth[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/beautifulsoup4-4.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-3.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

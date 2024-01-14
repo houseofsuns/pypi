@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-zopeext[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-4.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

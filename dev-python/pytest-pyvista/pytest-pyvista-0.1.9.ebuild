@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/pytest-3.5.0[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/pydata-sphinx-theme-0.13.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-notfound-page-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/coverage-7.3.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-3.5.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/numpy-1.26[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

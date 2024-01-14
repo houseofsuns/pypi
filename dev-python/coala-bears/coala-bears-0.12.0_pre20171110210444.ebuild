@@ -28,78 +28,78 @@ DEPENDENCIES="dev-python/HTTPolice[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/apertium-lint[${PYTHON_USEDEP}]
 	dev-python/autoflake[${PYTHON_USEDEP}]
-	dev-python/autopep8[${PYTHON_USEDEP}]
-	dev-python/bandit[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/autopep8-1.2[${PYTHON_USEDEP}]
+	~dev-python/bandit-1.2[${PYTHON_USEDEP}]
+	~dev-python/click-6.6[${PYTHON_USEDEP}]
 	dev-python/cmakelint[${PYTHON_USEDEP}]
 	dev-python/coala[${PYTHON_USEDEP}]
 	dev-python/cppclean[${PYTHON_USEDEP}]
 	dev-python/cpplint[${PYTHON_USEDEP}]
 	dev-python/dennis[${PYTHON_USEDEP}]
 	dev-python/docutils-ast-writer[${PYTHON_USEDEP}]
-	dev-python/eradicate[${PYTHON_USEDEP}]
+	~dev-python/eradicate-0.1.6[${PYTHON_USEDEP}]
 	dev-python/guess-language-spirit[${PYTHON_USEDEP}]
 	dev-python/html-linter[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+	~dev-python/isort-4.2[${PYTHON_USEDEP}]
 	dev-python/memento-client[${PYTHON_USEDEP}]
 	dev-python/munkres3[${PYTHON_USEDEP}]
 	dev-python/mypy-lang[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
+	~dev-python/nbformat-4.1[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/proselint[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]
-	dev-python/pydocstyle[${PYTHON_USEDEP}]
-	dev-python/pyflakes[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
+	~dev-python/pycodestyle-2.2[${PYTHON_USEDEP}]
+	~dev-python/pydocstyle-2.0[${PYTHON_USEDEP}]
+	~dev-python/pyflakes-1.5.0[${PYTHON_USEDEP}]
+	~dev-python/pylint-1.6[${PYTHON_USEDEP}]
 	dev-python/pyroma[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/radon[${PYTHON_USEDEP}]
-	dev-python/restructuredtext-lint[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
+	~dev-python/radon-1.4.0[${PYTHON_USEDEP}]
+	~dev-python/restructuredtext-lint-1.0.0[${PYTHON_USEDEP}]
 	dev-python/rstcheck[${PYTHON_USEDEP}]
 	dev-python/safety[${PYTHON_USEDEP}]
 	dev-python/scspell3k[${PYTHON_USEDEP}]
 	dev-python/vim-vint[${PYTHON_USEDEP}]
 	dev-python/vulture[${PYTHON_USEDEP}]
 	dev-python/yamllint[${PYTHON_USEDEP}]
-	dev-python/yapf[${PYTHON_USEDEP}]
+	~dev-python/yapf-0.16.0[${PYTHON_USEDEP}]
 	alldeps? ( dev-python/HTTPolice[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/aenum[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/apertium-lint[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/click[${PYTHON_USEDEP}] )
+	alldeps? ( ~dev-python/autopep8-1.2[${PYTHON_USEDEP}] )
+	alldeps? ( ~dev-python/bandit-1.2[${PYTHON_USEDEP}] )
+	alldeps? ( ~dev-python/click-6.6[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/cmakelint[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/cppclean[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/cpplint[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/dennis[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/docutils-ast-writer[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/eradicate[${PYTHON_USEDEP}] )
+	alldeps? ( ~dev-python/eradicate-0.1.6[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/guess-language-spirit[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/html-linter[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/isort[${PYTHON_USEDEP}] )
+	alldeps? ( ~dev-python/isort-4.2[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/language-check[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	alldeps? ( ~dev-python/lxml-3.6.0[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/memento-client[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/munkres3[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/mypy-lang[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/nbformat[${PYTHON_USEDEP}] )
+	alldeps? ( ~dev-python/nbformat-4.1[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/proselint[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	alldeps? ( ~dev-python/pycodestyle-2.2[${PYTHON_USEDEP}] )
+	alldeps? ( ~dev-python/pydocstyle-2.0[${PYTHON_USEDEP}] )
+	alldeps? ( ~dev-python/pyflakes-1.5.0[${PYTHON_USEDEP}] )
+	alldeps? ( ~dev-python/pylint-1.6[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/pyroma[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/radon[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/restructuredtext-lint[${PYTHON_USEDEP}] )
+	alldeps? ( ~dev-python/pyyaml-3.12[${PYTHON_USEDEP}] )
+	alldeps? ( ~dev-python/radon-1.4.0[${PYTHON_USEDEP}] )
+	alldeps? ( ~dev-python/restructuredtext-lint-1.0.0[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/rstcheck[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/safety[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/scspell3k[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/vim-vint[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/vulture[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/yapf[${PYTHON_USEDEP}] )"
+	alldeps? ( ~dev-python/yapf-0.16.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

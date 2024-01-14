@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/jupyter-events[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jsonschema-4.18.0[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-events-0.7.0[${PYTHON_USEDEP}]
 	dev-python/jupyter-server-fileid[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]
+	<dev-python/jupyter-server-3.0.0[${PYTHON_USEDEP}]
 	dev-python/jupyter-ydoc[${PYTHON_USEDEP}]
 	dev-python/pycrdt-websocket[${PYTHON_USEDEP}]
 	dev? ( dev-python/click[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-releaser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jupyterlab-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/jupyter-server-fileid[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/jupyter-server-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/websockets[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

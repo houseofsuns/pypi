@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
 DEPENDENCIES="dev-python/pymultirole-plugins[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.2.3[${PYTHON_USEDEP}]
 	dev-python/collections-extended[${PYTHON_USEDEP}]
 	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

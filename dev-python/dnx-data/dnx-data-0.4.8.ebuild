@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/dnx-mysql-replication[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]"
+	~dev-python/pymysql-0.9.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="debug docs test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/casadi[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/breathe[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/breathe-4.35.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.8.19[${PYTHON_USEDEP}] )
 	debug? ( dev-python/alpaqa-debug[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/qpalm[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/scipy-1.12[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

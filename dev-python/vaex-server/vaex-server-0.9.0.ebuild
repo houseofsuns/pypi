@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/vaex-core[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	>dev-python/tornado-4.1[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/prettytable[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/prettytable-4.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

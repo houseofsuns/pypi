@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/nagiosplugin[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
+	<dev-python/nagiosplugin-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

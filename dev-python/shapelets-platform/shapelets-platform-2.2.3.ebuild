@@ -28,42 +28,42 @@ DEPENDENCIES="dev-python/adlfs[${PYTHON_USEDEP}]
 	dev-python/altair[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/blacksheep[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
+	~dev-python/dill-0.3[${PYTHON_USEDEP}]
+	~dev-python/email-validator-2.0[${PYTHON_USEDEP}]
 	dev-python/folium[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/jmespath-0.9[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.7[${PYTHON_USEDEP}]
+	~dev-python/mypy-1.4[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-14.0[${PYTHON_USEDEP}]
+	~dev-python/py-cpuinfo-9.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10[${PYTHON_USEDEP}]
 	dev-python/PyNaCl[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31[${PYTHON_USEDEP}]
+	~dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+	~dev-python/setuptools-scm-7.1[${PYTHON_USEDEP}]
 	dev-python/shapelets_native[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.9[${PYTHON_USEDEP}]
+	~dev-python/tomlkit-0.12[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/lockfile[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.23[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-1.5[${PYTHON_USEDEP}]
+	~dev-python/websockets-10.3[${PYTHON_USEDEP}]
+	~dev-python/lockfile-0.12[${PYTHON_USEDEP}]
 	dev-python/python_daemon[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
+	~dev-python/uvloop-0.17[${PYTHON_USEDEP}]
 	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/myst-parser-0.13[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-applehelp-1.0.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-devhelp-1.0.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-htmlhelp-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-qthelp-1.0.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-serializinghtml-1.1.5[${PYTHON_USEDEP}] )
 	vfs-all? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	vfs-all? ( dev-python/dropbox[${PYTHON_USEDEP}] )
 	vfs-all? ( dev-python/dropboxdrivefs[${PYTHON_USEDEP}] )

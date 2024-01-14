@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fastimport https pgp"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/urllib3-1.24.1[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	fastimport? ( dev-python/fastimport[${PYTHON_USEDEP}] )
-	https? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	https? ( >=dev-python/urllib3-1.24.1[${PYTHON_USEDEP}] )
 	pgp? ( dev-python/gpg[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

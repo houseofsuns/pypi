@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all braket cirq docs ionq pennylane pyquil pytket qasm3 qiskit visualization"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/networkx-4.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.27[${PYTHON_USEDEP}]
 	dev-python/openqasm3[${PYTHON_USEDEP}]
-	dev-python/ply[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/ply-3.6[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.0[${PYTHON_USEDEP}]
 	all? ( dev-python/amazon-braket-sdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/cirq-core[${PYTHON_USEDEP}] )
 	all? ( dev-python/cirq-ionq[${PYTHON_USEDEP}] )
@@ -41,10 +41,10 @@ DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
 	all? ( dev-python/qiskit-qasm3-import[${PYTHON_USEDEP}] )
 	braket? ( dev-python/amazon-braket-sdk[${PYTHON_USEDEP}] )
 	cirq? ( dev-python/cirq-core[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-autodoc-typehints-1.26[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.1[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/docutils-0.21[${PYTHON_USEDEP}] )
 	ionq? ( dev-python/cirq-core[${PYTHON_USEDEP}] )
 	ionq? ( dev-python/cirq-ionq[${PYTHON_USEDEP}] )
 	ionq? ( dev-python/pytket-braket[${PYTHON_USEDEP}] )

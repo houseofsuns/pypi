@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/h5py-3.1[${PYTHON_USEDEP}]
 	dev-python/holoviews[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/k3d[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.10.1[${PYTHON_USEDEP}]
 	dev-python/ubermagutil[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]

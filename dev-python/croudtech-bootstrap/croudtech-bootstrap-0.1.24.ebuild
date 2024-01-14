@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/boto3-1.26.56[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/redis-4.4.2[${PYTHON_USEDEP}]
 	dev-python/table2ascii[${PYTHON_USEDEP}]
 	dev-python/types-pyyaml[${PYTHON_USEDEP}]
-	dev-python/wcwidth[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/s3transfer[${PYTHON_USEDEP}]"
+	~dev-python/wcwidth-0.2.6[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.14[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.29.56[${PYTHON_USEDEP}]
+	~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
+	~dev-python/s3transfer-0.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

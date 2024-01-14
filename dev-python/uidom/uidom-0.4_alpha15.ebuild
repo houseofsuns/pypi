@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev fastapi fastapidev"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/marko[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
+	<dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytailwindcss[${PYTHON_USEDEP}] )
 	fastapidev? ( dev-python/pytailwindcss[${PYTHON_USEDEP}] )
 	dev? ( dev-python/watchgod[${PYTHON_USEDEP}] )
 	fastapidev? ( dev-python/watchgod[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	fastapidev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}] )
+	fastapi? ( <dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}] )
+	fastapidev? ( <dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	fastapidev? ( dev-python/fastapi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/intake[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2022.0[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/dask-2.2[${PYTHON_USEDEP}]
 	dev-python/netcdf4[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>dev-python/fsspec-2022.0[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async dotenv yaml"
-DEPENDENCIES="dev-python/apispec[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/apispec-6.0[${PYTHON_USEDEP}]
 	dev-python/flask-httpauth[${PYTHON_USEDEP}]
 	dev-python/flask-marshmallow[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.0[${PYTHON_USEDEP}]
 	dev-python/webargs[${PYTHON_USEDEP}]
-	async? ( dev-python/asgiref[${PYTHON_USEDEP}] )
+	async? ( >=dev-python/asgiref-3.2[${PYTHON_USEDEP}] )
 	dotenv? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

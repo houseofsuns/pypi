@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="freetype"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
 	dev-python/moderngl[${PYTHON_USEDEP}]
 	dev-python/pyglm[${PYTHON_USEDEP}]
 	dev-python/glfw[${PYTHON_USEDEP}]

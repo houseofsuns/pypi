@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.12.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.4[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.19.0[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.10.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/httplib2-0.12.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pyshp[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	>=dev-python/tables-3.4.4[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.21.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

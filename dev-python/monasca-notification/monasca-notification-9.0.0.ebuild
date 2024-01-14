@@ -25,28 +25,28 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="jira_plugin test"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/debtcollector[${PYTHON_USEDEP}]
+	>=dev-python/debtcollector-1.2.0[${PYTHON_USEDEP}]
 	dev-python/jira[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-3.4.0[${PYTHON_USEDEP}]
 	dev-python/monasca-common[${PYTHON_USEDEP}]
 	dev-python/monasca-statsd[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.36.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-2.18.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.8.1[${PYTHON_USEDEP}]
 	jira_plugin? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	test? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/Babel-2.3.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
 	test? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/bandit-1.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/docutils-0.11[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
-	test? ( dev-python/oslotest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/oslotest-3.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-1.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/testrepository[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,32 +25,32 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="notebook"
 DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	<dev-python/dask-2023.0.0[${PYTHON_USEDEP}]
 	dev-python/fastdtw[${PYTHON_USEDEP}]
 	dev-python/fastparquet[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	notebook? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
+	notebook? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
 	dev-python/ipympl[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	notebook? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	>=dev-python/ipywidgets-7.7.1[${PYTHON_USEDEP}]
+	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
+	notebook? ( <dev-python/jupyter-2.0.0[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/jupyterlab-h5web[${PYTHON_USEDEP}] )
-	dev-python/lmfit[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
+	<dev-python/lmfit-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/natsort-9.0.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	dev-python/pynxtools[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/symmetrize[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]"
+	<dev-python/threadpoolctl-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/tifffile-2023.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/xarray-0.21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

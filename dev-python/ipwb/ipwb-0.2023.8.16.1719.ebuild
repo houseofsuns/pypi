@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/warcio[${PYTHON_USEDEP}]
 	dev-python/ipfshttpclient[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.4.11[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.6.3[${PYTHON_USEDEP}]
+	~dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	dev-python/surt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

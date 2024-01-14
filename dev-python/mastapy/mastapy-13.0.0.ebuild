@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/lazy-imports[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	<dev-python/pillow-9.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.5[${PYTHON_USEDEP}]
 	dev-python/ptvsd[${PYTHON_USEDEP}]
-	dev-python/pythonnet[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]"
+	<dev-python/pythonnet-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/typeguard-4.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

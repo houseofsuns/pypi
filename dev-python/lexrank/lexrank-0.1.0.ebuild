@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
 	dev-python/path-py[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/pyrsistent-0.14.0[${PYTHON_USEDEP}]
+	>=dev-python/regex-2017.11.9[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.19.0[${PYTHON_USEDEP}]
 	dev-python/urlextract[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

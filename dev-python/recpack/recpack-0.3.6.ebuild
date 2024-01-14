@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.0[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.0[${PYTHON_USEDEP}]
 	dev-python/hyperopt[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	doc? ( ~dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

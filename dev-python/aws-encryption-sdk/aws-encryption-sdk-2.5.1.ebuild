@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/boto3-1.10.0[${PYTHON_USEDEP}]
+	<dev-python/cryptography-37.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-17.4.0[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.10.11[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

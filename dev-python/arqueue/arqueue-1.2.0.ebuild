@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/environs[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/environs-9.5.0[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-recording[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-recording-0.12.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/refurb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

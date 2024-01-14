@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/trio[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/trio-0.23.0[${PYTHON_USEDEP}]
 	dev-python/asyncclick[${PYTHON_USEDEP}]
 	dev-python/quilt3[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/quiltplus[${PYTHON_USEDEP}]
 	dev-python/benchling-sdk[${PYTHON_USEDEP}]
 	dev-python/un-yaml[${PYTHON_USEDEP}]"

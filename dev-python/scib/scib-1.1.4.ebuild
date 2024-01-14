@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="bbknn desc dev docs harmony louvain mnn rpy2 scanorama scgen scvi test trvae trvaep"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]

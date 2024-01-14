@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/python-igraph[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]"
+	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

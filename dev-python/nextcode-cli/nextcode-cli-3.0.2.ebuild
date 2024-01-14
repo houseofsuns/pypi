@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
 	dev-python/hjson[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw[${PYTHON_USEDEP}]
 	dev-python/nextcode-sdk[${PYTHON_USEDEP}]"

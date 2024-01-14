@@ -34,13 +34,13 @@ DEPENDENCIES="dev-python/awscli[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/slacker[${PYTHON_USEDEP}]
 	dev-python/tryagain[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+	~dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.3.2[${PYTHON_USEDEP}]
 	dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]"
+	~dev-python/google-api-python-client-1.7.11[${PYTHON_USEDEP}]
+	~dev-python/google-auth-1.11.2[${PYTHON_USEDEP}]
+	~dev-python/google-auth-httplib2-0.0.3[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

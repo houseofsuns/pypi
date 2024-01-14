@@ -27,9 +27,9 @@ IUSE="elasticsearch7 opensearch1 opensearch2 tests"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Menu[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
-	dev-python/github3-py[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+	>=dev-python/email-validator-1.0.5[${PYTHON_USEDEP}]
+	<dev-python/github3-py-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/humanize-0.5.1[${PYTHON_USEDEP}]
 	dev-python/invenio-assets[${PYTHON_USEDEP}]
 	dev-python/invenio-accounts[${PYTHON_USEDEP}]
 	dev-python/invenio-celery[${PYTHON_USEDEP}]
@@ -42,22 +42,22 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/invenio-records-rest[${PYTHON_USEDEP}]
 	dev-python/invenio-webhooks[${PYTHON_USEDEP}]
 	dev-python/invenio-records-resources[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/mistune-0.7.2[${PYTHON_USEDEP}]
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
 	dev-python/uritemplate-py[${PYTHON_USEDEP}]
 	elasticsearch7? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch1? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch2? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
-	tests? ( dev-python/httpretty[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/httpretty-0.8.14[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-app[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-files-rest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pluggy[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pluggy-1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black-ng[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-mock-2.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

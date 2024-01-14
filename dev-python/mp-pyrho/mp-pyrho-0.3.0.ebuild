@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs strict tests"
 DEPENDENCIES="dev-python/pymatgen[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/numpydoc-1.3.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.0.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2022.6.21[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ipython-8.4.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.18.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autoapi-1.8.4[${PYTHON_USEDEP}] )
 	strict? ( dev-python/pymatgen[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/hypothesis-6.40.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

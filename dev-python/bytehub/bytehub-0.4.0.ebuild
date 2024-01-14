@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws azure cloud dev gcp"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.1[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-3.0[${PYTHON_USEDEP}]
+	>=dev-python/dask-2021.0[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-1.3.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
+	>=dev-python/alembic-1.5[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-1.1[${PYTHON_USEDEP}]
 	aws? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	azure? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	cloud? ( dev-python/s3fs[${PYTHON_USEDEP}] )

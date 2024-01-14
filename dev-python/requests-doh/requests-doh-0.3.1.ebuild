@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/dnspython-2.3.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

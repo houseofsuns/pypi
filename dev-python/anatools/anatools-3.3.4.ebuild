@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/docker-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

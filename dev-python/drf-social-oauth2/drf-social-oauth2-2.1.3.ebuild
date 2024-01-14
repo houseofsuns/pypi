@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/djangorestframework[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/djangorestframework-3.10.3[${PYTHON_USEDEP}]
 	dev-python/django-oauth-toolkit[${PYTHON_USEDEP}]
 	dev-python/social-auth-app-django[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]"
+	>=dev-python/python-jose-3.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

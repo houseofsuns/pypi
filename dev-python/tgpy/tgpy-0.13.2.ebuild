@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/aiorun[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	dev-python/cryptg[${PYTHON_USEDEP}]
-	dev-python/python-socks[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/python-socks-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	dev-python/telethon-v1_24[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

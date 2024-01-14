@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-send-anything-anywhere[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-htmlrender[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-datastore[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]"
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

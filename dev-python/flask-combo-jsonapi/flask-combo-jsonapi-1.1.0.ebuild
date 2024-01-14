@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs tests"
 DEPENDENCIES="dev-python/simplejson[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.2.1[${PYTHON_USEDEP}]
 	dev-python/marshmallow-jsonapi[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

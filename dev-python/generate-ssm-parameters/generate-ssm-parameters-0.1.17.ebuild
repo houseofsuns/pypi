@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+DEPENDENCIES=">dev-python/boto3-1.24.0[${PYTHON_USEDEP}]
+	>dev-python/botocore-1.12.0[${PYTHON_USEDEP}]
+	>dev-python/click-7.0.0[${PYTHON_USEDEP}]
+	>dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
+	>dev-python/tqdm-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

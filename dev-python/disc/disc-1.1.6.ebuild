@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.21.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]"
+	>=dev-python/h5py-2.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

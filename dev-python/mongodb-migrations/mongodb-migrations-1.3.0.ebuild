@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pymongo-3.2.1[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

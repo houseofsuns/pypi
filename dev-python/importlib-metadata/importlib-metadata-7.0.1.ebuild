@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs perf testing"
-DEPENDENCIES="dev-python/zipp[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/zipp-0.5[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.2.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-packaging[${PYTHON_USEDEP}] )
-	docs? ( dev-python/rst-linker[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/rst-linker-1.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-lint[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-tidelift[${PYTHON_USEDEP}] )
 	perf? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-checkdocs[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-enabler[${PYTHON_USEDEP}] )

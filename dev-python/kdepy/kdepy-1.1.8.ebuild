@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev lint test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	dev? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/numpydoc-0.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nbsphinx-0.9.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-6.4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-2.2.2[${PYTHON_USEDEP}] )
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	lint? ( >=dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/matplotlib-2.2.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

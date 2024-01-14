@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/backports-tempfile[${PYTHON_USEDEP}]
 	dev-python/backports-csv[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	>=dev-python/lxml-4.2.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.2[${PYTHON_USEDEP}]
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

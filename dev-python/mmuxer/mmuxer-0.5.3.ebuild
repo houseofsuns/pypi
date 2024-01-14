@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev systemd"
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/imap-tools[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/watchfiles[${PYTHON_USEDEP}]
-	dev-python/boolean-py[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	>=dev-python/watchfiles-0.18[${PYTHON_USEDEP}]
+	>=dev-python/boolean-py-4.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-bg-process[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytz[${PYTHON_USEDEP}] )

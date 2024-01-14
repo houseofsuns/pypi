@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/elasticsearch8[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.13.1[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/unittest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

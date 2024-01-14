@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/imagecodecs[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
 	dev-python/ome-types[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	dev-python/scyjava[${PYTHON_USEDEP}]
 	dev-python/jpype1[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]
+	>=dev-python/tifffile-2022.8.12[${PYTHON_USEDEP}]
 	dev? ( dev-python/ome-zarr[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

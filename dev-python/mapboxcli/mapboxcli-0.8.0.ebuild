@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/mapbox[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-2.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/responses[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.2.0[${PYTHON_USEDEP}]
 	dev-python/ibm-cos-sdk-core[${PYTHON_USEDEP}]
 	dev-python/ibm-cos-sdk[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+	~dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
 	dev-python/isodate[${PYTHON_USEDEP}]

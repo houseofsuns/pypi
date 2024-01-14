@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
 DEPENDENCIES="dev-python/NumPy[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	>=dev-python/QtPy-1.9[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Coverage[${PYTHON_USEDEP}] )
 	doc? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/python-docs-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES="dev-python/sgp4[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/orbit-predictor[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/sgp4[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/timezonefinder[${PYTHON_USEDEP}]
 	dev? ( dev-python/Cython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

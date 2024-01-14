@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/intezer-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

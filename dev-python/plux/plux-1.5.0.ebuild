@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/stevedore[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/stevedore-3.4[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.9.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

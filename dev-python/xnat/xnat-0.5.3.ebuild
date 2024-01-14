@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/progressbar2[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/progressbar2-3.11.0[${PYTHON_USEDEP}]
+	>=dev-python/isodate-0.5.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.10.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0.0[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]"
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

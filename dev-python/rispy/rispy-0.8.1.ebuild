@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flit-3.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/coverage-7.2.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

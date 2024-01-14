@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/ultima-scraper-api[${PYTHON_USEDEP}]
 	dev-python/ultima-scraper-renamer[${PYTHON_USEDEP}]
 	dev-python/ultima-scraper-db[${PYTHON_USEDEP}]
-	dev-python/ffmpeg-python[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]
-	dev-python/sshtunnel[${PYTHON_USEDEP}]
+	<dev-python/ffmpeg-python-0.3.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/netifaces-0.12.0[${PYTHON_USEDEP}]
+	<dev-python/sshtunnel-0.5.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/ultima-scraper-detector[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+	<dev-python/inflection-0.6.0[${PYTHON_USEDEP}]
 	dev-python/alive-progress[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,26 +27,26 @@ IUSE="other pinecone"
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/google-generativeai[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	~dev-python/termcolor-2.3.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/chromadb[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
 	dev-python/anthropic[${PYTHON_USEDEP}]
 	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	dev-python/browse[${PYTHON_USEDEP}]
 	dev-python/kivy[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	~dev-python/flask-2.3.2[${PYTHON_USEDEP}]
 	other? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	other? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	other? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	other? ( ~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}] )
+	other? ( ~dev-python/numpy-1.24.3[${PYTHON_USEDEP}] )
 	other? ( dev-python/torch[${PYTHON_USEDEP}] )
-	other? ( dev-python/termcolor[${PYTHON_USEDEP}] )
+	other? ( ~dev-python/termcolor-2.3.0[${PYTHON_USEDEP}] )
 	other? ( dev-python/umap[${PYTHON_USEDEP}] )
 	pinecone? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all editable readme"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/consolekit[${PYTHON_USEDEP}]
 	dev-python/dist-meta[${PYTHON_USEDEP}]
 	dev-python/dom-toml[${PYTHON_USEDEP}]
 	dev-python/domdf-python-tools[${PYTHON_USEDEP}]
 	dev-python/handy-archives[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/natsort-7.1.1[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
 	dev-python/pyproject-parser[${PYTHON_USEDEP}]
 	dev-python/shippinglabel[${PYTHON_USEDEP}]
-	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	all? ( dev-python/editables[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/docutils-0.16[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/editables-0.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyproject-parser[${PYTHON_USEDEP}] )
-	editable? ( dev-python/editables[${PYTHON_USEDEP}] )
-	readme? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	editable? ( >=dev-python/editables-0.2[${PYTHON_USEDEP}] )
+	readme? ( ~dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	readme? ( dev-python/pyproject-parser[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

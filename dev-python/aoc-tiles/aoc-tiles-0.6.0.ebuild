@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]"
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

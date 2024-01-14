@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.9.0[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.7.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-copybutton[${PYTHON_USEDEP}]
 	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
 	dev-python/ipykernel[${PYTHON_USEDEP}]

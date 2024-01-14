@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-jutil[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]"
+	>=dev-python/django-filter-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

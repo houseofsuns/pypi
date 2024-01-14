@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/jupyterhub[${PYTHON_USEDEP}]
 	dev-python/bcrypt[${PYTHON_USEDEP}]
 	dev-python/onetimepass[${PYTHON_USEDEP}]
-	test? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/notebook-6.4.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

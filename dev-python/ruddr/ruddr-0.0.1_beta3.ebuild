@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs staticanalysis systemd test unittest"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/tldextract[${PYTHON_USEDEP}]
+	>=dev-python/netifaces-0.11.0[${PYTHON_USEDEP}]
+	~dev-python/dnspython-2.0[${PYTHON_USEDEP}]
+	~dev-python/tldextract-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruddr[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	staticanalysis? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	staticanalysis? ( >=dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	staticanalysis? ( dev-python/pytype[${PYTHON_USEDEP}] )
 	systemd? ( dev-python/PyGObject[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruddr[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	unittest? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tox-4.0[${PYTHON_USEDEP}] )
+	unittest? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

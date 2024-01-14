@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.60.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

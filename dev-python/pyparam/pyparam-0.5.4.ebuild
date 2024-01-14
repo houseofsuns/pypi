@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/python-simpleconf[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0[${PYTHON_USEDEP}]
 	dev-python/diot[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

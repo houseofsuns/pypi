@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/miditoolkit[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

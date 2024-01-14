@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="apollo-engine-reporting opencensus test"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/graphene[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	<dev-python/tornado-7.0[${PYTHON_USEDEP}]
 	dev-python/werkzeug[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	apollo-engine-reporting? ( dev-python/json-stable-stringify-python[${PYTHON_USEDEP}] )
@@ -36,9 +36,9 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	opencensus? ( dev-python/opencensus[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-tornado[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.4.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-tornado-0.8.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

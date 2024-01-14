@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
+	>=dev-python/chardet-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

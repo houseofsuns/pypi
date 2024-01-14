@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pydantic uritemplate uvloop"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.12.0[${PYTHON_USEDEP}]
 	dev-python/drf-serializer-inference[${PYTHON_USEDEP}]
 	dev-python/drf-openapi-schema[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
+	>=dev-python/asgiref-3.5.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	uritemplate? ( dev-python/uritemplate[${PYTHON_USEDEP}] )"
+	pydantic? ( >=dev-python/pydantic-1.6.2[${PYTHON_USEDEP}] )
+	uvloop? ( >=dev-python/uvloop-0.16.0[${PYTHON_USEDEP}] )
+	uritemplate? ( >=dev-python/uritemplate-4.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

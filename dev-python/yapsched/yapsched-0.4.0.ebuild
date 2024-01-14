@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/tzdata[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/wheel-0.41.2[${PYTHON_USEDEP}]
+	~dev-python/croniter-1.4.1[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0.21[${PYTHON_USEDEP}]
+	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.17.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-croniter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlalchemy-stubs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/lxml-4.9.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock-alchemy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

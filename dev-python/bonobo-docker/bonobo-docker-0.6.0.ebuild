@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/bonobo[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
+	~dev-python/docker-2.7[${PYTHON_USEDEP}]
+	~dev-python/requests-2.16[${PYTHON_USEDEP}]
+	~dev-python/semantic-version-2.6[${PYTHON_USEDEP}]
 	dev? ( dev-python/bonobo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="discord docs speed voice"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	discord? ( dev-python/discord-disnake[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-trio[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.0.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-trio-1.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-towncrier[${PYTHON_USEDEP}] )
-	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
-	speed? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	speed? ( dev-python/aiodns[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/towncrier-23.6.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-notfound-page-0.8.3[${PYTHON_USEDEP}] )
+	speed? ( ~dev-python/orjson-3.6[${PYTHON_USEDEP}] )
+	speed? ( >=dev-python/aiodns-1.1[${PYTHON_USEDEP}] )
 	speed? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	voice? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

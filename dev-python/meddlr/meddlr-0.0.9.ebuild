@@ -27,7 +27,7 @@ IUSE="all alldev benchmarking deployment dev docs metrics modeling"
 DEPENDENCIES="dev-python/pyxb[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/fvcore[${PYTHON_USEDEP}]
 	dev-python/mridata[${PYTHON_USEDEP}]
@@ -53,12 +53,12 @@ DEPENDENCIES="dev-python/pyxb[${PYTHON_USEDEP}]
 	alldev? ( dev-python/pooch[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/medpy[${PYTHON_USEDEP}] )
-	alldev? ( dev-python/tifffile[${PYTHON_USEDEP}] )
+	alldev? ( <=dev-python/tifffile-2022.5.4[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/wrapt[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	alldev? ( dev-python/black[${PYTHON_USEDEP}] )
+	alldev? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/pyxb[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -87,7 +87,7 @@ DEPENDENCIES="dev-python/pyxb[${PYTHON_USEDEP}]
 	dev? ( dev-python/pooch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gdown[${PYTHON_USEDEP}] )
 	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tifffile[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/tifffile-2022.5.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

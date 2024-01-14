@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
+	>=dev-python/greenlet-3.0.0[${PYTHON_USEDEP}]
 	dev-python/metrohash[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]"
+	>=dev-python/pymongo-3.12.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2020.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	>=dev-python/ujson-5.8.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.4[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.34.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/dclab[${PYTHON_USEDEP}]
 	dev-python/dcor-shared[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

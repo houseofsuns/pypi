@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	lxml? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	lxml? ( >=dev-python/lxml-4.4.1[${PYTHON_USEDEP}] )
 	soap? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	test? ( dev-python/lxml[${PYTHON_USEDEP}] )

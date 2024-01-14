@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/chalice[${PYTHON_USEDEP}]
 	dev-python/cuenca-validations[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]
+	<dev-python/blinker-1.5[${PYTHON_USEDEP}]
 	dev-python/mongoengine[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]"
+	<dev-python/dnspython-2.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

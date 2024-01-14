@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typing_extensions[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	<dev-python/multidict-6.0[${PYTHON_USEDEP}]
+	<dev-python/yarl-1.5[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
+	<dev-python/aiofiles-0.6[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
+	<dev-python/msgpack-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pycrud[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

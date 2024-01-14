@@ -30,17 +30,17 @@ DEPENDENCIES="dev-python/pyre-extensions[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/fsspec-2023.1.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-1.27[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ax-platform[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/boto3-1.24.59[${PYTHON_USEDEP}] )
 	dev? ( dev-python/captum[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docker[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/fsspec[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/fsspec-2023.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/google-api-core[${PYTHON_USEDEP}] )
 	dev? ( dev-python/google-cloud-batch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/pyre-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kfp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mlflow-skinny[${PYTHON_USEDEP}] )
-	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/moto-4.1.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyre-extensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyre-check[${PYTHON_USEDEP}] )

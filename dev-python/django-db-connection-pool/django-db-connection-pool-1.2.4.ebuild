@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all jdbc mysql odbc oracle postgresql"
 DEPENDENCIES="all? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
-	all? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mysqlclient-1.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlparams[${PYTHON_USEDEP}] )
 	jdbc? ( dev-python/JPype1[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/mysqlclient-1.3.0[${PYTHON_USEDEP}] )
 	odbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )

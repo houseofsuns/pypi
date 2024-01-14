@@ -31,12 +31,12 @@ DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	server? ( dev-python/starlette-prometheus[${PYTHON_USEDEP}] )
 	all? ( dev-python/starlette-prometheus[${PYTHON_USEDEP}] )
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	rabbitmq? ( dev-python/pika[${PYTHON_USEDEP}] )
-	all? ( dev-python/pika[${PYTHON_USEDEP}] )
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	rabbitmq? ( <dev-python/pika-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pika-2.0.0[${PYTHON_USEDEP}] )
 	rabbitmq? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	all? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/msgpack-asgi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

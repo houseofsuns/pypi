@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/google-api-core-2.15.0[${PYTHON_USEDEP}]
+	~dev-python/google-api-python-client-2.110.0[${PYTHON_USEDEP}]
+	~dev-python/google-auth-2.25.2[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]
 	dev-python/google-cloud-iam[${PYTHON_USEDEP}]
@@ -34,10 +34,10 @@ DEPENDENCIES="dev-python/google-api-core[${PYTHON_USEDEP}]
 	dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}]
 	dev-python/google-cloud-securitycenter[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
+	~dev-python/googleapis-common-protos-1.62.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

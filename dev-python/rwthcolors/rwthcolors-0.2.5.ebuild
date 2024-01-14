@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/cycler[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/cycler-0.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

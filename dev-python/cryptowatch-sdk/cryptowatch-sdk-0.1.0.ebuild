@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/marshmallow-3.13.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-1.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
+	>=dev-python/diskcache-4.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0.2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

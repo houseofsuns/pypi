@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/cron-descriptor[${PYTHON_USEDEP}]
-	dev-python/django-timezone-field[${PYTHON_USEDEP}]
+	>=dev-python/django-timezone-field-5.0[${PYTHON_USEDEP}]
 	dev-python/python-crontab[${PYTHON_USEDEP}]
 	dev-python/tzdata[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

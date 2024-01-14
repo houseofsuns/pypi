@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-2.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	~dev-python/lxml-4.8[${PYTHON_USEDEP}]
+	~dev-python/requests-2.27[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/selenium[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/selenium-4.8.2[${PYTHON_USEDEP}]
 	dev-python/browsermob-proxy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

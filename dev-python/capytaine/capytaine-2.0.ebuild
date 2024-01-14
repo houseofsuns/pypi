@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ci"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
 	ci? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	ci? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"

@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-help-colors[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]"
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-help-colors-0.10[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
+	<dev-python/pycountry-21.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

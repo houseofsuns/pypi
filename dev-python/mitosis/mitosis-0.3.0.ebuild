@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/papermill[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )

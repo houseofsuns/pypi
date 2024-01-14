@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jinja2 pydantic"
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/colorama-0.4[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.13[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}]
 	jinja2? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )"
+	pydantic? ( >=dev-python/pydantic-1.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

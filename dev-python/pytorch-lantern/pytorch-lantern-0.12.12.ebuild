@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="training"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	training? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic-core[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-core-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

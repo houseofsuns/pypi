@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	test? ( dev-python/flexmock[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/py[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/moto[${PYTHON_USEDEP}] )"
+	>=dev-python/python-magic-0.4.6[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.4.7[${PYTHON_USEDEP}]
+	test? ( >=dev-python/flexmock-0.9.7[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/freezegun-0.1.18[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/py-1.4.20[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-2.5.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/moto-1.3.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

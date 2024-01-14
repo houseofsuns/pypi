@@ -32,11 +32,11 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/prometheus-fastapi-instrumentator[${PYTHON_USEDEP}]
 	dev-python/prometheus_client[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.22.0[${PYTHON_USEDEP}]
+	<dev-python/requests-2.29.0[${PYTHON_USEDEP}]
 	dev-python/sqlmodel[${PYTHON_USEDEP}]
 	dev-python/types-pyyaml[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]"
+	<dev-python/uvicorn-0.21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

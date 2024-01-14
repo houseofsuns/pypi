@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/docopt-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	dev-python/hy[${PYTHON_USEDEP}]
 	dev-python/hyrule[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-magic-0.5.0[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]
 	dev-python/xtract[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/py-cpuinfo-9.0.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

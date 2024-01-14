@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/azure-storage-blob[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.26.3[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

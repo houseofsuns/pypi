@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs tests"
-DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cython-0.20[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipython-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/ipython-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

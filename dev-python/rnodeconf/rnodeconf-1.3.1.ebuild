@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/rns[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

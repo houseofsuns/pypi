@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/phx-filters[${PYTHON_USEDEP}]
 	dev-python/pysha3[${PYTHON_USEDEP}]
 	ccurl? ( dev-python/pyota-ccurl[${PYTHON_USEDEP}] )
-	docs-builder? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs-builder? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs-builder? ( >=dev-python/sphinx-2.4.2[${PYTHON_USEDEP}] )
+	docs-builder? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	pow? ( dev-python/pyota-pow[${PYTHON_USEDEP}] )
-	test-runner? ( dev-python/tox[${PYTHON_USEDEP}] )
+	test-runner? ( >=dev-python/tox-3.7[${PYTHON_USEDEP}] )
 	test-runner? ( dev-python/aiounittest[${PYTHON_USEDEP}] )
 	test-runner? ( dev-python/nose[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.4[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
 	dev-python/fs[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tableschema[${PYTHON_USEDEP}]
 	dev-python/ibm-cos-sdk[${PYTHON_USEDEP}]
 	dev-python/polling[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/ipyleaflet[${PYTHON_USEDEP}]

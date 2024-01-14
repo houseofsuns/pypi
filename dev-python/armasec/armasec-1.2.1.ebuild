@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="dev-python/python-jose[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/python-jose-4.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-1.0[${PYTHON_USEDEP}]
 	dev-python/snick[${PYTHON_USEDEP}]
 	dev-python/py-buzz[${PYTHON_USEDEP}]
 	dev-python/respx[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0[${PYTHON_USEDEP}]
 	dev-python/auto-name-enum[${PYTHON_USEDEP}]
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
-	cli? ( dev-python/loguru[${PYTHON_USEDEP}] )
-	cli? ( dev-python/rich[${PYTHON_USEDEP}] )
-	cli? ( dev-python/pendulum[${PYTHON_USEDEP}] )
-	cli? ( dev-python/pyperclip[${PYTHON_USEDEP}] )
-	dev-python/jmespath[${PYTHON_USEDEP}]"
+	cli? ( <dev-python/loguru-0.6.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/rich-14.0.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/pendulum-3.0.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/pyperclip-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

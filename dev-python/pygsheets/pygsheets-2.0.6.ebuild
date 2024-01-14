@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pandas"
-DEPENDENCIES="dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/google-api-python-client-2.50.0[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-oauthlib-0.7.1[${PYTHON_USEDEP}]
+	pandas? ( >=dev-python/pandas-0.14.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

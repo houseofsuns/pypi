@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/dtyper[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/dictdiffer[${PYTHON_USEDEP}]
+	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/dictdiffer-0.10.0[${PYTHON_USEDEP}]
 	dev-python/python-schema-registry-client[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]"
+	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

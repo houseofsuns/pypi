@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev testing"
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-4.4.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.710[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/lxml-4.3.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-3.12.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/markdown2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/black[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/lxml[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-4.4.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mypy-0.710[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/lxml-4.3.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

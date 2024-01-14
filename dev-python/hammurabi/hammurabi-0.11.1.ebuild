@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all ini slack-notifications templating ujson yaml"
-DEPENDENCIES="dev-python/github3-py[${PYTHON_USEDEP}]
-	all? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/configupdater[${PYTHON_USEDEP}] )
-	ini? ( dev-python/configupdater[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/github3-py-2.0.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}] )
+	yaml? ( <dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/configupdater-2.0.0[${PYTHON_USEDEP}] )
+	ini? ( <dev-python/configupdater-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	templating? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/slack-webhook[${PYTHON_USEDEP}] )
 	slack-notifications? ( dev-python/slack-webhook[${PYTHON_USEDEP}] )
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	all? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	ujson? ( dev-python/ujson[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/ujson-5.0[${PYTHON_USEDEP}] )
+	ujson? ( <dev-python/ujson-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

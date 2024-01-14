@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/transitions[${PYTHON_USEDEP}]"
+	<dev-python/transitions-0.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiofiles aiosqlite"
 DEPENDENCIES="dev-python/aiodbm[${PYTHON_USEDEP}]
-	aiofiles? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
-	aiosqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )"
+	aiofiles? ( >=dev-python/aiofiles-23.1.0[${PYTHON_USEDEP}] )
+	aiosqlite? ( >=dev-python/aiosqlite-0.19.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,9 +30,9 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	pyspark? ( dev-python/dagster-pyspark[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	test? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	test? ( dev-python/moto[${PYTHON_USEDEP}] )
+	test? ( >dev-python/botocore-1.32.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/moto-2.2.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/xmltodict[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

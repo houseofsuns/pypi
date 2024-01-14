@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gpl sklearn"
-DEPENDENCIES="dev-python/emoji[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/emoji-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
-	sklearn? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	sklearn? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	gpl? ( dev-python/unidecode[${PYTHON_USEDEP}] )"
+	gpl? ( <dev-python/unidecode-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

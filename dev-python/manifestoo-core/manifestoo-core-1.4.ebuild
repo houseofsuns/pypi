@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-towncrier[${PYTHON_USEDEP}] )
-	doc? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/towncrier-22.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pkg-metadata[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

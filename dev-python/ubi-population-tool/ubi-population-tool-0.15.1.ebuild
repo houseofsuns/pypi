@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pubtools-pulplib[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/fastpurge[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

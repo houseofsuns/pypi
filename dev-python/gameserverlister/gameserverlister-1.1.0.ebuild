@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/nslookup[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/pyq3serverlist[${PYTHON_USEDEP}]
 	dev-python/pyut2serverlist[${PYTHON_USEDEP}]
 	dev-python/pyvpsq[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+	~dev-python/click-8.1.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pybind11[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pybind11-2.2[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

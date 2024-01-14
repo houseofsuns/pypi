@@ -26,33 +26,33 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev scrapy"
 DEPENDENCIES="dev-python/apify-client[${PYTHON_USEDEP}]
 	dev-python/apify-shared[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
 	dev-python/aioshutil[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-39.0.0[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
 	dev-python/pyee[${PYTHON_USEDEP}]
 	dev-python/sortedcollections[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]
+	>=dev-python/websockets-10.1[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/filelock-3.12.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-only[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-timeout-2.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/respx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-colorama[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/types-psutil-5.9.5.17[${PYTHON_USEDEP}] )
 	scrapy? ( dev-python/scrapy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

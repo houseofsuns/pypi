@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/amici[${PYTHON_USEDEP}]
 	dev-python/kisao[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.7[${PYTHON_USEDEP}]
 	all? ( dev-python/biosimulators-utils[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
 	tests? ( dev-python/biosimulators-utils[${PYTHON_USEDEP}] )

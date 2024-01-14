@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/more-itertools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/more-itertools-2.6[${PYTHON_USEDEP}]
 	dev-python/jaraco-functools[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.8.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-packaging[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-tabs-1.1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinxcontrib-apidoc-0.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

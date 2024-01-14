@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

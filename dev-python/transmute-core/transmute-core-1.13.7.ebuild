@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-17.3.0[${PYTHON_USEDEP}]
+	>=dev-python/cattrs-0.9.0[${PYTHON_USEDEP}]
 	dev-python/jsonschema-extractor[${PYTHON_USEDEP}]
 	dev-python/schematics[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/swagger-schema[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	test? ( dev-python/babel[${PYTHON_USEDEP}] )
 	test? ( dev-python/flask[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	test? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
 	test? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	test? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

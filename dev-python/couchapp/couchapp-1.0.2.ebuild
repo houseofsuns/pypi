@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/restkit[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]"
+	~dev-python/watchdog-0.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

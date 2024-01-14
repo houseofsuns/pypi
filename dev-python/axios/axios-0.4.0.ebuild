@@ -39,6 +39,6 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	test? ( dev-python/types-Pygments[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	test? ( dev-python/urllib3[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/urllib3-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

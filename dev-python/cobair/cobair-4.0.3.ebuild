@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pgmpy[${PYTHON_USEDEP}]
 	dev-python/bnlearn[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]"
+	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	~dev-python/PyQt5-5.15.9[${PYTHON_USEDEP}]
+	~dev-python/pyqtgraph-0.13.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

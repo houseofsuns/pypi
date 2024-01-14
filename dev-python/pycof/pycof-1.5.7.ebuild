@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.16.19[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-1.12.8[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-httplib2-0.0.4[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-oauthlib-0.4.2[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-1.24.0[${PYTHON_USEDEP}]
+	>=dev-python/httplib2-0.18.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.1[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/sshtunnel[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]"
+	>=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-0.9.3[${PYTHON_USEDEP}]
+	>=dev-python/sshtunnel-0.3.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.35.0[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

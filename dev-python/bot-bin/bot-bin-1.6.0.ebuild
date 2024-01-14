@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/discord-py[${PYTHON_USEDEP}]
 	sql? ( dev-python/aiocontextvars[${PYTHON_USEDEP}] )
 	sql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	sql? ( dev-python/prettytable[${PYTHON_USEDEP}] )
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	uvloop? ( <dev-python/uvloop-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

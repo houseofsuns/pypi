@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]"
+	~dev-python/validators-0.22.0[${PYTHON_USEDEP}]
+	~dev-python/dnspython-2.4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

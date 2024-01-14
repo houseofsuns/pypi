@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/discord-py[${PYTHON_USEDEP}]
 	dev-python/async-eval[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]"
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

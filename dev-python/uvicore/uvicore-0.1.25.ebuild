@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="database redis web"
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/anyio-3.3.0[${PYTHON_USEDEP}]
 	dev-python/colored[${PYTHON_USEDEP}]
 	dev-python/prettyprinter[${PYTHON_USEDEP}]
-	dev-python/environs[${PYTHON_USEDEP}]
-	dev-python/argon2-cffi[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/environs-9.4.0[${PYTHON_USEDEP}]
+	<dev-python/argon2-cffi-20.2.0[${PYTHON_USEDEP}]
+	<dev-python/cryptography-3.5.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
 	dev-python/merge-args[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	database? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	database? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	<dev-python/httpx-0.20.0[${PYTHON_USEDEP}]
+	database? ( <dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
+	database? ( <dev-python/alembic-1.6.0[${PYTHON_USEDEP}] )
 	database? ( dev-python/databases[${PYTHON_USEDEP}] )
 	redis? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	web? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	web? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	web? ( <dev-python/uvicorn-0.14.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	web? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
+	web? ( <dev-python/aiofiles-0.7.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	web? ( dev-python/requests[${PYTHON_USEDEP}] )
-	web? ( dev-python/itsdangerous[${PYTHON_USEDEP}] )
-	web? ( dev-python/uvloop[${PYTHON_USEDEP}] )
+	web? ( <dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
+	web? ( <dev-python/itsdangerous-1.2.0[${PYTHON_USEDEP}] )
+	web? ( <dev-python/uvloop-0.17.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/httptools[${PYTHON_USEDEP}] )
-	web? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
+	web? ( <dev-python/python-multipart-0.1.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
-	database? ( dev-python/pydantic[${PYTHON_USEDEP}] )"
+	database? ( <dev-python/pydantic-1.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

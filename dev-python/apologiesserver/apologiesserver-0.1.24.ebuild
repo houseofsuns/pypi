@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/apologies[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	<dev-python/websockets-11.0[${PYTHON_USEDEP}]
 	dev-python/asyncio-periodic[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]"
+	<dev-python/ordered-set-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

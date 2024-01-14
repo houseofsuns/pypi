@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pandas-0.22.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.9.90[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.12.90[${PYTHON_USEDEP}]
+	>=dev-python/retrying-1.3.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

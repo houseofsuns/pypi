@@ -32,8 +32,8 @@ DEPENDENCIES="dev-python/billiard[${PYTHON_USEDEP}]
 	dev-python/progressbar2[${PYTHON_USEDEP}]
 	dev-python/python-irodsclient[${PYTHON_USEDEP}]
 	dev-python/python-redis-lock[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	<dev-python/redis-4.0.0[${PYTHON_USEDEP}]
 	dev-python/scandir[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]"
+	>=dev-python/structlog-18.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

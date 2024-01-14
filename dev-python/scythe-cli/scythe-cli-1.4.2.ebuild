@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]
 	dev-python/arc-cli[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
+	<dev-python/keyring-24.0.0[${PYTHON_USEDEP}]
 	dev-python/hishel[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

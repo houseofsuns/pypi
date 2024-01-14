@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

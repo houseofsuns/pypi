@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/playwright[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
 	dev-python/SpeechRecognition[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]"
+	~dev-python/tenacity-8.2.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

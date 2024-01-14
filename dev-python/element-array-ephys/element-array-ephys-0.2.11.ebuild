@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/datajoint[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/spikeinterface[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
+	>=dev-python/nbformat-4.2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

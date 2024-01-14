@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/envzy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

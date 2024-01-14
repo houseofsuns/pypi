@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="blender full open3d trimesh"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-numpy[${PYTHON_USEDEP}]
 	full? ( dev-python/bpy[${PYTHON_USEDEP}] )
 	blender? ( dev-python/bpy[${PYTHON_USEDEP}] )
 	full? ( dev-python/open3d-cpu[${PYTHON_USEDEP}] )
 	open3d? ( dev-python/open3d-cpu[${PYTHON_USEDEP}] )
-	full? ( dev-python/trimesh[${PYTHON_USEDEP}] )
-	trimesh? ( dev-python/trimesh[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
+	full? ( <dev-python/trimesh-4.0.0[${PYTHON_USEDEP}] )
+	trimesh? ( <dev-python/trimesh-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
 	dev-python/pymeshfix[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]"
+	<dev-python/ordered-set-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

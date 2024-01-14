@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/robotframework[${PYTHON_USEDEP}]
 	selenium? ( dev-python/robotframework-seleniumlibrary[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-regressions-1.0.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

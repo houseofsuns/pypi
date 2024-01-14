@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.23.0[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	<dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	dev-python/mercantile[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
 	dev-python/segment-geospatial[${PYTHON_USEDEP}]
 	dev-python/pystac[${PYTHON_USEDEP}]"

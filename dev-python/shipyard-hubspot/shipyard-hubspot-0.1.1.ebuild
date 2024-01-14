@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/hubspot-api-client[${PYTHON_USEDEP}]
 	dev-python/shipyard-templates[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

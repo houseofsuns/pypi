@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full gui native"
-DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cython-0.29.34[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/fastkml[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/lz4[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
+	~dev-python/lz4-4.3.2[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.1[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}]
 	dev-python/pyserde[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/tomli-w[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-1.5.1[${PYTHON_USEDEP}]
 	full? ( dev-python/PySide6[${PYTHON_USEDEP}] )
-	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/redvox-native[${PYTHON_USEDEP}] )
 	gui? ( dev-python/PySide6[${PYTHON_USEDEP}] )
-	gui? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	gui? ( ~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}] )
 	native? ( dev-python/redvox-native[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

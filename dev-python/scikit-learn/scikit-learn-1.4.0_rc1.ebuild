@@ -24,45 +24,45 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark docs examples tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]
-	benchmark? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/pandas[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/threadpoolctl-2.0.0[${PYTHON_USEDEP}]
+	benchmark? ( >=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}] )
+	benchmark? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	docs? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-gallery-0.15.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-1.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pooch[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pooch-1.6.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-prompt-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	docs? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/plotly-5.14.0[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}] )
 	examples? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	examples? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	examples? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	examples? ( dev-python/pooch[${PYTHON_USEDEP}] )
-	examples? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/pooch-1.6.0[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/plotly-5.14.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyamg[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mypy-1.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pyamg-4.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/polars[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	tests? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pooch[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/numpydoc-1.2.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pooch-1.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

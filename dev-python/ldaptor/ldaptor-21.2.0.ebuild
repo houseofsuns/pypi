@@ -27,16 +27,16 @@ IUSE="docs"
 DEPENDENCIES="dev-python/passlib[${PYTHON_USEDEP}]
 	dev-python/Twisted[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.7[${PYTHON_USEDEP}]
 	dev-python/zope-interface[${PYTHON_USEDEP}]
-	docs? ( dev-python/alabaster[${PYTHON_USEDEP}] )
-	docs? ( dev-python/commonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mock[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	docs? ( dev-python/readthedocs-sphinx-ext[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/commonmark-0.9.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/docutils-0.16.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mock-4.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pillow-7.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/readthedocs-sphinx-ext-2.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/recommonmark-0.6.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-3.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

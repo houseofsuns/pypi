@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-manager-utils[${PYTHON_USEDEP}]
 	dev-python/fleming[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+	>=dev-python/python-dateutil-2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

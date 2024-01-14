@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/request-id-django-log[${PYTHON_USEDEP}]
-	dev-python/stomp-py[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]"
+	~dev-python/stomp-py-8.0[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

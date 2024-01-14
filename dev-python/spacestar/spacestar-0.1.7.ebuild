@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/starlette-0.33.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.25.0[${PYTHON_USEDEP}]
+	<dev-python/itsdangerous-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/ormspace[${PYTHON_USEDEP}]
 	dev-python/hx-markup[${PYTHON_USEDEP}]"

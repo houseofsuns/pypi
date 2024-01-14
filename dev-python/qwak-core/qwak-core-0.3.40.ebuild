@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="feature-store"
-DEPENDENCIES="dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-json-logger-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.32.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/dependency-injector[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/python-jose[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/marshmallow-dataclass[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	feature-store? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	<dev-python/typeguard-3.0[${PYTHON_USEDEP}]
+	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
+	feature-store? ( >=dev-python/pyarrow-6.0.0[${PYTHON_USEDEP}] )
 	feature-store? ( dev-python/pyathena[${PYTHON_USEDEP}] )
-	feature-store? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	dev-python/retrying[${PYTHON_USEDEP}]"
+	feature-store? ( ~dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}] )
+	~dev-python/retrying-1.3.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

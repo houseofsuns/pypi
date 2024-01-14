@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/python-on-whales[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
+	<dev-python/semantic-version-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pysigma[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]"
+	<dev-python/certifi-2024.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

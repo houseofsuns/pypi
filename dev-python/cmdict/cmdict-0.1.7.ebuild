@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/click-7.1.2[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.5.1[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.48.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

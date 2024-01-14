@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/torchaudio[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.48.2[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/torchaudio[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.48.2[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyGithub[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/PyGithub-1.55[${PYTHON_USEDEP}]
 	dev-python/cffconvert[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]"
+	~dev-python/click-8.0.1[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

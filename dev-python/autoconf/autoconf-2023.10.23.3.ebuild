@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/typing-inspect[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	<=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

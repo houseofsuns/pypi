@@ -27,6 +27,6 @@ IUSE="test"
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

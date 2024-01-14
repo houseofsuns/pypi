@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all confv2 tests"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-3.0.0[${PYTHON_USEDEP}]
 	dev-python/astropy-sphinx-theme[${PYTHON_USEDEP}]
 	dev-python/numpydoc[${PYTHON_USEDEP}]
 	dev-python/sphinx-automodapi[${PYTHON_USEDEP}]

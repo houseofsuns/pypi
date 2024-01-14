@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/exabyte-api-client[${PYTHON_USEDEP}]
 	dev-python/express-py[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/coverage-5.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/numpy-1.17.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

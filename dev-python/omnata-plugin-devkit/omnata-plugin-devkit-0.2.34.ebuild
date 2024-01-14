@@ -30,9 +30,9 @@ DEPENDENCIES="dev-python/behave[${PYTHON_USEDEP}]
 	dev-python/omnata-plugin-runtime[${PYTHON_USEDEP}]
 	dev-python/omnata_cli[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/vcrpy[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-9.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10[${PYTHON_USEDEP}]
+	<dev-python/vcrpy-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

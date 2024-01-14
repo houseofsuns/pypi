@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/allianceauth-app-utils[${PYTHON_USEDEP}]
 	dev-python/dhooks-lite[${PYTHON_USEDEP}]
 	dev-python/django-ckeditor-youtube-plugin[${PYTHON_USEDEP}]
 	dev-python/django-ckeditor[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-1.3.3[${PYTHON_USEDEP}]
 	tests-allianceauth-stable? ( dev-python/aa-timezones[${PYTHON_USEDEP}] )
 	tests-allianceauth-stable? ( dev-python/allianceauth-discordbot[${PYTHON_USEDEP}] )
 	tests-allianceauth-stable? ( dev-python/coverage[${PYTHON_USEDEP}] )

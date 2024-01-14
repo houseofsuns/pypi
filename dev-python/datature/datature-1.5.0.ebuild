@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/google-crc32c[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
+	~dev-python/filetype-1.2.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/alive-progress[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-markdown-builder[${PYTHON_USEDEP}] )"

@@ -26,21 +26,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Cors[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/logzero[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-pubsub[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
+	<dev-python/redis-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/bcrypt-4.0.0[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-serializer[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/nats-python[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]"
+	<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

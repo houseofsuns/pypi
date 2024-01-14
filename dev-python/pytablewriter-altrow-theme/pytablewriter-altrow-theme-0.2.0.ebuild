@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/pytablewriter[${PYTHON_USEDEP}]
-	dev-python/tcolorpy[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	<dev-python/tcolorpy-1.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-discord[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

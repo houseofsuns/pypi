@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/fake-useragent[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/tls-client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/cubicweb[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/pyramid-openapi3[${PYTHON_USEDEP}]
-	dev-python/openapi-core[${PYTHON_USEDEP}]"
+	<dev-python/openapi-core-0.17.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

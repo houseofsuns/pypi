@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="plotting sampling testing"
 DEPENDENCIES="dev-python/ckmutil[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/particle[${PYTHON_USEDEP}]
 	dev-python/parton[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-3.3[${PYTHON_USEDEP}]
 	dev-python/wilson[${PYTHON_USEDEP}]
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	sampling? ( dev-python/iminuit[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/matplotlib-2.0[${PYTHON_USEDEP}] )
+	sampling? ( >=dev-python/iminuit-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nose2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/PyQt5-5.14[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]
 	dev-python/asyncudp[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
+	<dev-python/click-default-group-2.0.0[${PYTHON_USEDEP}]
 	dev-python/healpy[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
+	~dev-python/jsonpickle-1.3[${PYTHON_USEDEP}]
 	dev-python/keyboard[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.0[${PYTHON_USEDEP}]
 	dev-python/scikit_image[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7[${PYTHON_USEDEP}]
 	dev-python/sdss-basecam[${PYTHON_USEDEP}]
 	dev-python/sdss-cluplus[${PYTHON_USEDEP}]
 	dev-python/sdss-lvmtipo[${PYTHON_USEDEP}]
 	dev-python/sdsstools[${PYTHON_USEDEP}]
 	dev-python/sep[${PYTHON_USEDEP}]
-	dev-python/transitions[${PYTHON_USEDEP}]"
+	>dev-python/transitions-0.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

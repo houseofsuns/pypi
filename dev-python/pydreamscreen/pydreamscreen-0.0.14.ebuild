@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/crc8[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]"
+	>=dev-python/netifaces-0.10.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

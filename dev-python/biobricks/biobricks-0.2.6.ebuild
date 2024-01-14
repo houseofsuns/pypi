@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/cloup[${PYTHON_USEDEP}]
 	dev-python/dvc[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]"
+	~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

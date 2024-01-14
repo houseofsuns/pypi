@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/six-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.23.4[${PYTHON_USEDEP}]
 	dev-python/sh[${PYTHON_USEDEP}]
 	dev-python/singleton[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.4.0[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -26,29 +26,29 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all cf dev distributed doc performance s3 test"
 DEPENDENCIES="dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
 	dev-python/affine[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-18.1[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+	>=dev-python/click-5.0[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-0.4[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/deprecat[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.18[${PYTHON_USEDEP}]
 	dev-python/lark[${PYTHON_USEDEP}]
 	dev-python/netcdf4[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-2.5[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.9[${PYTHON_USEDEP}]
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
 	all? ( dev-python/moto[${PYTHON_USEDEP}] )
 	all? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pydata-sphinx-theme-0.9.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -86,7 +86,7 @@ DEPENDENCIES="dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
 	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydata-sphinx-theme-0.9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -101,7 +101,7 @@ DEPENDENCIES="dev-python/GeoAlchemy2[${PYTHON_USEDEP}]
 	doc? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	doc? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pydata-sphinx-theme-0.9.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )

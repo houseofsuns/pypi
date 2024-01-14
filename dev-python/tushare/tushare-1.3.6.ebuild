@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-0.57.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

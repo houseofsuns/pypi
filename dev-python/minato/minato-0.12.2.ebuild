@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all gcs huggingface s3"
-DEPENDENCIES="s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
+DEPENDENCIES="s3? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )

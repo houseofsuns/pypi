@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.6.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.2[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.5.0[${PYTHON_USEDEP}]
 	dev-python/computegraph[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-0.6.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/recommonmark-0.8.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/nbsphinx-0.9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/pygraphviz-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

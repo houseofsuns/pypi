@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/great-expectations[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.16[${PYTHON_USEDEP}]
 	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )

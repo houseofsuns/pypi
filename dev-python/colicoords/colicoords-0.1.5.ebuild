@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.2.0[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/mahotas[${PYTHON_USEDEP}]
 	dev-python/multiprocess[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/tifffile[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.27.0[${PYTHON_USEDEP}]
 	dev-python/symfit[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
 	dev-python/IPython[${PYTHON_USEDEP}]"

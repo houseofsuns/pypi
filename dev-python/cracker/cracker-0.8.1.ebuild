@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev test"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/python-vlc[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/boto3-1.24[${PYTHON_USEDEP}]
+	~dev-python/python-vlc-3.0[${PYTHON_USEDEP}]
 	dev-python/pyqt5[${PYTHON_USEDEP}]
 	dev-python/pynput[${PYTHON_USEDEP}]
 	dev-python/pyttsx3[${PYTHON_USEDEP}]
 	dev-python/google-cloud-texttospeech[${PYTHON_USEDEP}]
 	dev-python/darkdetect[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/setuptools-61.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

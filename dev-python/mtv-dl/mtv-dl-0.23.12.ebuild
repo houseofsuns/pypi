@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/certifi-2024.0.0[${PYTHON_USEDEP}]
+	<dev-python/docopt-0.7.0[${PYTHON_USEDEP}]
 	dev-python/durationpy[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	<dev-python/ijson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/iso8601-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

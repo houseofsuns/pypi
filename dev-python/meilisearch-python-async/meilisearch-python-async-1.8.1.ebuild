@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiofiles-0.7[${PYTHON_USEDEP}]
 	dev-python/camel-converter[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.17[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.8[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

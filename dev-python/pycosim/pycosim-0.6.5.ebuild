@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/pyOSPParser[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/xmlschema[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]"
+	~dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
+	~dev-python/xmlschema-1.2.5[${PYTHON_USEDEP}]
+	~dev-python/attrs-21.1.0[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.1[${PYTHON_USEDEP}]
+	~dev-python/lark-1.1.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

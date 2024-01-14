@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/orjson-3.6.9[${PYTHON_USEDEP}]
+	~dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

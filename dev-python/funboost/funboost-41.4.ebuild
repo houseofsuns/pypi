@@ -27,10 +27,10 @@ IUSE="all extra_brokers"
 DEPENDENCIES="dev-python/nb-log[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	~dev-python/pymongo-4.3.3[${PYTHON_USEDEP}]
 	dev-python/AMQPStorm[${PYTHON_USEDEP}]
 	dev-python/rabbitpy[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
+	~dev-python/decorator-5.1.1[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/flask-bootstrap[${PYTHON_USEDEP}]
 	dev-python/flask-wtf[${PYTHON_USEDEP}]
@@ -39,11 +39,11 @@ DEPENDENCIES="dev-python/nb-log[${PYTHON_USEDEP}]
 	dev-python/tomorrow3[${PYTHON_USEDEP}]
 	dev-python/persist-queue[${PYTHON_USEDEP}]
 	dev-python/elasticsearch[${PYTHON_USEDEP}]
-	dev-python/kafka-python[${PYTHON_USEDEP}]
+	~dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/gnsq[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
+	~dev-python/peewee-3.15.1[${PYTHON_USEDEP}]
 	dev-python/apscheduler[${PYTHON_USEDEP}]
 	dev-python/pikav0[${PYTHON_USEDEP}]
 	dev-python/pikav1[${PYTHON_USEDEP}]
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/nb-log[${PYTHON_USEDEP}]
 	dev-python/fabric2[${PYTHON_USEDEP}]
 	dev-python/nats-python[${PYTHON_USEDEP}]
 	dev-python/nb-filelock[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
 	dev-python/pysnooper[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
@@ -71,22 +71,22 @@ DEPENDENCIES="dev-python/nb-log[${PYTHON_USEDEP}]
 	all? ( dev-python/celery[${PYTHON_USEDEP}] )
 	all? ( dev-python/flower[${PYTHON_USEDEP}] )
 	all? ( dev-python/nameko[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sqlalchemy-1.4.8[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
 	all? ( dev-python/dramatiq[${PYTHON_USEDEP}] )
 	all? ( dev-python/huey[${PYTHON_USEDEP}] )
-	all? ( dev-python/rq[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/rq-1.15.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/kombu[${PYTHON_USEDEP}] )
 	all? ( dev-python/pulsar-client[${PYTHON_USEDEP}] )
 	extra_brokers? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	extra_brokers? ( dev-python/celery[${PYTHON_USEDEP}] )
 	extra_brokers? ( dev-python/flower[${PYTHON_USEDEP}] )
 	extra_brokers? ( dev-python/nameko[${PYTHON_USEDEP}] )
-	extra_brokers? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	extra_brokers? ( ~dev-python/sqlalchemy-1.4.8[${PYTHON_USEDEP}] )
 	extra_brokers? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
 	extra_brokers? ( dev-python/dramatiq[${PYTHON_USEDEP}] )
 	extra_brokers? ( dev-python/huey[${PYTHON_USEDEP}] )
-	extra_brokers? ( dev-python/rq[${PYTHON_USEDEP}] )
+	extra_brokers? ( ~dev-python/rq-1.15.0[${PYTHON_USEDEP}] )
 	extra_brokers? ( dev-python/kombu[${PYTHON_USEDEP}] )
 	extra_brokers? ( dev-python/pulsar-client[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

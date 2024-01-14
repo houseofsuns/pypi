@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pysam[${PYTHON_USEDEP}]
-	dev-python/bitarray[${PYTHON_USEDEP}]
+	>=dev-python/bitarray-1.2.0[${PYTHON_USEDEP}]
 	dev-python/pytabix[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]"
+	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

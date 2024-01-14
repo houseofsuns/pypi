@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/starlette-0.12.0[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/itsdangerous-1.1.0[${PYTHON_USEDEP}]
 	dev-python/aiofiles[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bitarray[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/bitarray-0.3.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

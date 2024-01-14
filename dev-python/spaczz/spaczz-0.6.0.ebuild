@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/catalogue[${PYTHON_USEDEP}]
 	dev-python/srsly[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]"
+	>=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
+	>=dev-python/rapidfuzz-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/regex-2020.6.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

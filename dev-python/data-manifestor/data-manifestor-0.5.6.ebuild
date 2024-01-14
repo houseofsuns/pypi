@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	~dev-python/rich-12.5.1[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/np-lims-tk[${PYTHON_USEDEP}]
-	dev-python/dparse[${PYTHON_USEDEP}]"
+	~dev-python/dparse-0.5.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

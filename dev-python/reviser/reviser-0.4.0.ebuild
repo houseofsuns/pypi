@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="shell"
-DEPENDENCIES="shell? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	shell? ( dev-python/colorama[${PYTHON_USEDEP}] )
+DEPENDENCIES="shell? ( >=dev-python/boto3-1.16.11[${PYTHON_USEDEP}] )
+	shell? ( >=dev-python/colorama-0.4.4[${PYTHON_USEDEP}] )
 	shell? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	shell? ( dev-python/prompt-toolkit[${PYTHON_USEDEP}] )
+	shell? ( >=dev-python/prompt-toolkit-3.0.8[${PYTHON_USEDEP}] )
 	shell? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	shell? ( dev-python/pipper[${PYTHON_USEDEP}] )
 	shell? ( dev-python/toml[${PYTHON_USEDEP}] )
-	shell? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	shell? ( >=dev-python/wheel-0.37.1[${PYTHON_USEDEP}] )
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

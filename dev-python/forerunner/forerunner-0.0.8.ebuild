@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/croniter-1.3.7[${PYTHON_USEDEP}]
+	~dev-python/prometheus-client-0.16.0[${PYTHON_USEDEP}]
+	~dev-python/rich-13.3.2[${PYTHON_USEDEP}]
+	~dev-python/structlog-22.3.0[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

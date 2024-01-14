@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/vivarium[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
 	dev-python/risk-distributions[${PYTHON_USEDEP}]
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	dev? ( dev-python/IPython[${PYTHON_USEDEP}] )
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/vivarium[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/IPython[${PYTHON_USEDEP}] )

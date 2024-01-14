@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tensorflow torch"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
 	dev-python/tensorboardX[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

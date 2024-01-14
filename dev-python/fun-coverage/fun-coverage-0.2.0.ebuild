@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/coverage-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/termcolor-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="orjson sqlite"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	sqlite? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
+	orjson? ( ~dev-python/orjson-3.8.9[${PYTHON_USEDEP}] )
+	sqlite? ( ~dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}] )
+	sqlite? ( ~dev-python/sqlalchemy-2.0.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

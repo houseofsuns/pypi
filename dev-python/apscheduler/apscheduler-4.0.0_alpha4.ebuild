@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="asyncpg cbor doc mongodb mqtt redis sqlalchemy test"
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/anyio-4.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-21.3[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.0[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-3.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	asyncpg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	cbor? ( dev-python/cbor2[${PYTHON_USEDEP}] )
+	cbor? ( >=dev-python/cbor2-5.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	mongodb? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	mqtt? ( dev-python/paho-mqtt[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-tabs-3.3.1[${PYTHON_USEDEP}] )
+	mongodb? ( >=dev-python/pymongo-4.0[${PYTHON_USEDEP}] )
+	mqtt? ( >=dev-python/paho-mqtt-1.5[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.4.0[${PYTHON_USEDEP}] )
+	sqlalchemy? ( >=dev-python/sqlalchemy-2.0.19[${PYTHON_USEDEP}] )
 	test? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
-	test? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/aiosqlite-0.19[${PYTHON_USEDEP}] )
 	test? ( dev-python/anyio[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/paho-mqtt[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/paho-mqtt-1.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	test? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pymongo-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-freezer[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="coverage testing"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-20.1[${PYTHON_USEDEP}]
 	coverage? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"

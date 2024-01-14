@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]"
+	>=dev-python/tox-3.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

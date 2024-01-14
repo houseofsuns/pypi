@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/pytaglib[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
 	testing? ( dev-python/Cython[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-3.24[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

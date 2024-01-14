@@ -31,9 +31,9 @@ DEPENDENCIES="dev-python/anyascii[${PYTHON_USEDEP}]
 	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-3.2.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.11.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-versions[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nose2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/numpy[${PYTHON_USEDEP}] )"

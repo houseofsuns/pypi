@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="audit build dev lint test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.27[${PYTHON_USEDEP}]
 	audit? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	audit? ( dev-python/pip-audit[${PYTHON_USEDEP}] )
 	build? ( dev-python/build[${PYTHON_USEDEP}] )

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/first[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-17.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

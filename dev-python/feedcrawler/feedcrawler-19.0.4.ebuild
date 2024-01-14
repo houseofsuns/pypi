@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/bottle[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	~dev-python/bottle-0.12.25[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	dev-python/pystray[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

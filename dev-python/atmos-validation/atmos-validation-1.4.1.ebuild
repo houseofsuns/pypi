@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/dask-2023.0.0[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/netcdf4[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]"
+	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/netcdf4-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/xarray-2023.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

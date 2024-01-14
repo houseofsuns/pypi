@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]"
+	~dev-python/numpy-1.24.4[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

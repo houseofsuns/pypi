@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
+	>=dev-python/decorator-4.4.2[${PYTHON_USEDEP}]
 	dev-python/gcs-oauth2-boto-plugin[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
-	dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+	>=dev-python/google-api-core-1.26.1[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-httplib2-0.1.0[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-oauthlib-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-1.28.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]
 	dev-python/google-cloud-firestore[${PYTHON_USEDEP}]
 	dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/google-reauth[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
+	>=dev-python/googleapis-common-protos-1.53.0[${PYTHON_USEDEP}]
+	>=dev-python/httplib2-0.19.0[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/oauthlib-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2021.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

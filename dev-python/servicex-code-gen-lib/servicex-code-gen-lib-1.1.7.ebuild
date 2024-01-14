@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	<dev-python/itsdangerous-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	<dev-python/requests-toolbelt-0.11.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dask"
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
+	dask? ( <dev-python/dask-2023.0.0[${PYTHON_USEDEP}] )
 	dev-python/ase[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/chemfiles[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

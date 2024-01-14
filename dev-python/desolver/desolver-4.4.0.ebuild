@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pyaudi pytorch"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.47.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	pyaudi? ( dev-python/pyaudi[${PYTHON_USEDEP}] )
-	pyaudi? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	pyaudi? ( >=dev-python/numpy-1.18[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	pytorch? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	pytorch? ( >=dev-python/numpy-1.18[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

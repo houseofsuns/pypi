@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ray-rllib sheeprl stable-baselines stable-baselines3 tests"
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pip-21.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
+	>=dev-python/distro-1.0[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/inputs[${PYTHON_USEDEP}]
 	dev-python/screeninfo[${PYTHON_USEDEP}]

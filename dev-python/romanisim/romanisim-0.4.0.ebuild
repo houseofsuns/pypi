@@ -27,16 +27,16 @@ IUSE="docs test"
 DEPENDENCIES="dev-python/asdf[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/crds[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.5.0[${PYTHON_USEDEP}]
 	dev-python/galsim[${PYTHON_USEDEP}]
 	dev-python/rad[${PYTHON_USEDEP}]
 	dev-python/roman-datamodels[${PYTHON_USEDEP}]
 	dev-python/gwcs[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.8[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/webbpsf[${PYTHON_USEDEP}]
 	dev-python/Cython[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/stsci-rtd-theme[${PYTHON_USEDEP}] )
@@ -44,13 +44,13 @@ DEPENDENCIES="dev-python/asdf[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-asdf[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	test? ( dev-python/ci-watson[${PYTHON_USEDEP}] )
-	test? ( dev-python/colorama[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/colorama-0.4.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/getch[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-openfiles[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/metrics-logger[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

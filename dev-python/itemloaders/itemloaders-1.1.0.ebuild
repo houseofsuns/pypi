@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/w3lib[${PYTHON_USEDEP}]
 	dev-python/parsel[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
+	>=dev-python/jmespath-0.9.5[${PYTHON_USEDEP}]
 	dev-python/itemadapter[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.0.0[${PYTHON_USEDEP}]
 	dev-python/cattrs[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-entity[${PYTHON_USEDEP}]
 	dev-python/django-entity-event[${PYTHON_USEDEP}]
 	dev-python/ambition-utils[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]"
+	>=dev-python/beautifulsoup4-4.3.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

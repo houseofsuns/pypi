@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="standard test"
-DEPENDENCIES="dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/h11[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asgiref-3.4.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/h11-0.8[${PYTHON_USEDEP}]
 	dev-python/Cython[${PYTHON_USEDEP}]
-	standard? ( dev-python/websockets[${PYTHON_USEDEP}] )
+	standard? ( >=dev-python/websockets-10.0[${PYTHON_USEDEP}] )
 	standard? ( dev-python/watchgod[${PYTHON_USEDEP}] )
-	standard? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
+	standard? ( >=dev-python/python-dotenv-0.13[${PYTHON_USEDEP}] )
 	standard? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	standard? ( dev-python/uvloop[${PYTHON_USEDEP}] )
+	standard? ( >=dev-python/uvloop-0.14.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/Cython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

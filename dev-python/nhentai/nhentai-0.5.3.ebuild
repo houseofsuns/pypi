@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/soupsieve[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/soupsieve-3.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/iso8601-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

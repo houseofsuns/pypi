@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/wget[${PYTHON_USEDEP}]
 	dev-python/pefile[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+	>=dev-python/pip-23.1[${PYTHON_USEDEP}]
 	dev-python/QPT-SDK[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

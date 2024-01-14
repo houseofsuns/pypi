@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
+	<=dev-python/sympy-1.9[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.8[${PYTHON_USEDEP}]
 	dev? ( dev-python/orquestra-python-dev[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

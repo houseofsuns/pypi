@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cache fastapi storages"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
+	>=dev-python/prometheus-client-0.12.0[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
 	dev-python/mmh3[${PYTHON_USEDEP}]
 	dev-python/nats-py[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
 	dev-python/nucliadb-protos[${PYTHON_USEDEP}]
 	dev-python/nucliadb-telemetry[${PYTHON_USEDEP}]
-	cache? ( dev-python/redis[${PYTHON_USEDEP}] )
-	cache? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	cache? ( >=dev-python/redis-4.3.4[${PYTHON_USEDEP}] )
+	cache? ( >=dev-python/orjson-3.6.7[${PYTHON_USEDEP}] )
 	cache? ( dev-python/lru-dict[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/starlette[${PYTHON_USEDEP}] )
+	fastapi? ( <dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}] )
+	fastapi? ( >=dev-python/starlette-0.21.0[${PYTHON_USEDEP}] )
 	storages? ( dev-python/oauth2client[${PYTHON_USEDEP}] )
 	storages? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
-	storages? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	storages? ( >=dev-python/google-api-python-client-2.37.0[${PYTHON_USEDEP}] )
 	storages? ( dev-python/opentelemetry-instrumentation-aiohttp-client[${PYTHON_USEDEP}] )
 	storages? ( dev-python/nucliadb-telemetry[${PYTHON_USEDEP}] )
 	storages? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
-	storages? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
-	storages? ( dev-python/backoff[${PYTHON_USEDEP}] )
-	storages? ( dev-python/google-auth[${PYTHON_USEDEP}] )"
+	storages? ( >=dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}] )
+	storages? ( >=dev-python/backoff-1.11.1[${PYTHON_USEDEP}] )
+	storages? ( >=dev-python/google-auth-2.4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

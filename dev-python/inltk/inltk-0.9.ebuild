@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/bottleneck[${PYTHON_USEDEP}]
 	dev-python/fastprogress[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numexpr[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	dev-python/nvidia-ml-py3[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]

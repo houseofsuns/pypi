@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/anyio-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/fast-depends[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fast-depends[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	doc? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-minify-plugin-1.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-8.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

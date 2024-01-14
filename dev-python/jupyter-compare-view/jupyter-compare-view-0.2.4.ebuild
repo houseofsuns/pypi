@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipython-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-5.0.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

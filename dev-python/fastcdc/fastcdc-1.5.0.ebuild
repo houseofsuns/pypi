@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hashes"
-DEPENDENCIES="hashes? ( dev-python/blake3[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
+DEPENDENCIES="hashes? ( <dev-python/blake3-0.4[${PYTHON_USEDEP}] )
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/click-default-group-2.0[${PYTHON_USEDEP}]
 	dev-python/codetiming[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
-	hashes? ( dev-python/xxhash[${PYTHON_USEDEP}] )"
+	<dev-python/humanize-5.0[${PYTHON_USEDEP}]
+	<dev-python/py-cpuinfo-10.0[${PYTHON_USEDEP}]
+	hashes? ( <dev-python/xxhash-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

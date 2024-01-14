@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/cryptography-41.0.4[${PYTHON_USEDEP}]
+	~dev-python/keyring-23.0.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/build-0.6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.4.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.37.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
 	test? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	test? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	test? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pycodestyle-2.6.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.7.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tox-4.2.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

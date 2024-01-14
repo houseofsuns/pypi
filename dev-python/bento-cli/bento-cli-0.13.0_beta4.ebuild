@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
+	<dev-python/docker-4.0[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-14.0[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/psutil-5.7.0[${PYTHON_USEDEP}]
 	dev-python/pymmh3[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/semantic-version-2.9.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-4.37.0[${PYTHON_USEDEP}]
 	dev-python/validate-email[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

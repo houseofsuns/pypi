@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/trio[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/trio-0.11.0[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/setuptools-39.0.1[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

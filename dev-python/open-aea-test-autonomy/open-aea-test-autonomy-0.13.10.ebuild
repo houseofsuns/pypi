@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/open-aea[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.2.1[${PYTHON_USEDEP}]
 	dev-python/open-aea-ledger-ethereum[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]"
+	~dev-python/docker-6.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

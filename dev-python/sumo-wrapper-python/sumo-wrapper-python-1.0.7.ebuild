@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/msal[${PYTHON_USEDEP}]
 	dev-python/msal-extensions[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

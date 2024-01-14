@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/textual[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]"
+	>=dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

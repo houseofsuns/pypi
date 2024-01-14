@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
 	dev-python/pyvista[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.45.0[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

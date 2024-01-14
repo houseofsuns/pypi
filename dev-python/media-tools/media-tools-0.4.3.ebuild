@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lxml-4.8.0[${PYTHON_USEDEP}]
 	dev-python/tinytag[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pylast[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/audioread[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	>=dev-python/pylast-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-magic-0.4.25[${PYTHON_USEDEP}]
+	>=dev-python/audioread-2.1.9[${PYTHON_USEDEP}]
 	dev-python/mutagen[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	>=dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
+	<dev-python/setuptools-69.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Migrate[${PYTHON_USEDEP}]
 	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/ldap3[${PYTHON_USEDEP}]"
+	>=dev-python/ldap3-2.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/websockets[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/websockets-13.0[${PYTHON_USEDEP}]
 	dev-python/livekit[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyee[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	<dev-python/setuptools-70.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

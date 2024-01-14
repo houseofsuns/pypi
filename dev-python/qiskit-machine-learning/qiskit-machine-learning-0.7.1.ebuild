@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="sparse torch"
 DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
 	dev-python/qiskit-algorithms[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/fastdtw[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-40.1.0[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.4[${PYTHON_USEDEP}]
 	sparse? ( dev-python/sparse[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

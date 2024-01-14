@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sh[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/sh-1.14.3[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/lz4[${PYTHON_USEDEP}]
 	dev-python/iso_639[${PYTHON_USEDEP}]
 	dev-python/pycountry[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	~dev-python/rdflib-6.1.1[${PYTHON_USEDEP}]
 	dev-python/rdflib-jsonld[${PYTHON_USEDEP}]
 	dev-python/pyshacl[${PYTHON_USEDEP}]
 	dev-python/rfc3986[${PYTHON_USEDEP}]
 	dev-python/thinc[${PYTHON_USEDEP}]
 	dev-python/plac[${PYTHON_USEDEP}]
 	dev-python/parsley[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
+	>=dev-python/peewee-3.14.10[${PYTHON_USEDEP}]
 	dev-python/odictliteral[${PYTHON_USEDEP}]
 	dev-python/torchbiggraph[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/sh[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
 	dev-python/pyrallel-lib[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.2[${PYTHON_USEDEP}]
 	dev-python/usc-isi-i2-mgzip[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

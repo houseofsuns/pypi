@@ -27,8 +27,8 @@ IUSE="dev full"
 DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/tables-3.4.4[${PYTHON_USEDEP}]
 	dev-python/traits[${PYTHON_USEDEP}]
 	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
 	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

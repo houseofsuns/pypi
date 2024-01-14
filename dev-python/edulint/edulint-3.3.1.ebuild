@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flake8[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flake8-6.2[${PYTHON_USEDEP}]
 	dev-python/flake8-json[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
+	<dev-python/pylint-3.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

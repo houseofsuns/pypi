@@ -26,20 +26,20 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/oci[${PYTHON_USEDEP}]
 	dev-python/oci-cli[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	~dev-python/cryptography-3.2.1[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	~dev-python/six-1.14.0[${PYTHON_USEDEP}]
 	dev-python/ansible[${PYTHON_USEDEP}]
-	dev-python/apache-libcloud[${PYTHON_USEDEP}]
+	~dev-python/apache-libcloud-3.1.0[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.14.56[${PYTHON_USEDEP}]
+	~dev-python/paramiko-2.7.2[${PYTHON_USEDEP}]
 	dev-python/jobio[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	<dev-python/urllib3-1.26[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

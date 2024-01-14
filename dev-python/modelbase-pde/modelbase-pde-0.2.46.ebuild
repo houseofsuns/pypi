@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pybind11[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pybind11-3.0.0[${PYTHON_USEDEP}]
 	dev-python/modelbase[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	<dev-python/setuptools-66.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

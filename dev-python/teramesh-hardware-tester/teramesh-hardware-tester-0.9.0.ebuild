@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev rpi ui"
 DEPENDENCIES="dev-python/asciimatics[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/esptool[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
 	dev-python/uModbus[${PYTHON_USEDEP}]
 	all? ( dev-python/RPi-GPIO[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	all? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/uvicorn-0.16.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/zest-releaser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/asciimatics[${PYTHON_USEDEP}]
 	rpi? ( dev-python/RPi-GPIO[${PYTHON_USEDEP}] )
 	ui? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	ui? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	ui? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	ui? ( ~dev-python/uvicorn-0.16.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

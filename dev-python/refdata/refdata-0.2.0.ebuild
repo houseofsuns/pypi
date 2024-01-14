@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests"
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/datasize[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
+	>=dev-python/pooch-1.3.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/tableprint[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	docs? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbshpinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

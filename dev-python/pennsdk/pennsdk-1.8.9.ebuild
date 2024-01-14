@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/nameparser[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.6.0[${PYTHON_USEDEP}]
+	~dev-python/html5lib-1.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

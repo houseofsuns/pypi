@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all"
 DEPENDENCIES="dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/dataclass-wizard[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

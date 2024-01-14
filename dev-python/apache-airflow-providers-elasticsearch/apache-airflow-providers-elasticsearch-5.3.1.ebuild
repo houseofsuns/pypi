@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="common-sql"
 DEPENDENCIES="dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	<dev-python/elasticsearch-9.0[${PYTHON_USEDEP}]
 	common-sql? ( dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,12 +33,12 @@ DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyrogram[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+	~dev-python/selenium-4.9.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.0.1[${PYTHON_USEDEP}]
+	~dev-python/black-23.1.0[${PYTHON_USEDEP}]
+	~dev-python/isort-5.10.1[${PYTHON_USEDEP}]
 	dev-python/pyclean[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]"
+	~dev-python/pylint-2.12.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/bech32[${PYTHON_USEDEP}]
 	dev-python/betterproto[${PYTHON_USEDEP}]
 	dev-python/bip32[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
+	~dev-python/ecdsa-0.15[${PYTHON_USEDEP}]
 	dev-python/grpclib[${PYTHON_USEDEP}]
 	dev-python/ledgerblue[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

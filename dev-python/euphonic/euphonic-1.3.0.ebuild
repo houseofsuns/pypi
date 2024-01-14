@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="brille matplotlib phonopy_reader"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scipy-1.10[${PYTHON_USEDEP}]
 	dev-python/seekpath[${PYTHON_USEDEP}]
 	dev-python/spglib[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]
+	>=dev-python/threadpoolctl-1.0.0[${PYTHON_USEDEP}]
 	brille? ( dev-python/brille[${PYTHON_USEDEP}] )
-	matplotlib? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	phonopy_reader? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	matplotlib? ( >=dev-python/matplotlib-3.2.0[${PYTHON_USEDEP}] )
+	phonopy_reader? ( >=dev-python/h5py-2.10.0[${PYTHON_USEDEP}] )
 	phonopy_reader? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

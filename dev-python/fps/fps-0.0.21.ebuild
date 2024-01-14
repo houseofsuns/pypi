@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="uvicorn"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
+	<dev-python/pluggy-2.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	uvicorn? ( dev-python/fps-uvicorn[${PYTHON_USEDEP}] )"

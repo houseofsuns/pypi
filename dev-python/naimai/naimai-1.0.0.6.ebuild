@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Unidecode[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/habanero[${PYTHON_USEDEP}]
 	dev-python/keybert[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.1[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.2[${PYTHON_USEDEP}]
 	dev-python/pyinflect[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
 	dev-python/seqeval[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/spacy-langdetect[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.3[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}]
+	tests? ( >=dev-python/pytest-3.3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
-	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	tests? ( dev-python/freezegun[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/hypothesis-6.24[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/freezegun-1.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

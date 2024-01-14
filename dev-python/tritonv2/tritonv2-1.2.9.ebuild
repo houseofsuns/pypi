@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.1.0[${PYTHON_USEDEP}]
 	dev-python/tritonclient[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyrate-limiter[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
+	~dev-python/pyrate-limiter-2.10.0[${PYTHON_USEDEP}]
 	dev-python/grpc-interceptor[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

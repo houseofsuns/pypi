@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc epics jupyter larix qtgui wxgui"
-DEPENDENCIES="dev-python/asteval[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/uncertainties[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asteval-0.9.28[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7[${PYTHON_USEDEP}]
+	>=dev-python/uncertainties-3.1.4[${PYTHON_USEDEP}]
+	>=dev-python/lmfit-1.2.1[${PYTHON_USEDEP}]
 	dev-python/pyshortcuts[${PYTHON_USEDEP}]
 	dev-python/xraydb[${PYTHON_USEDEP}]
 	dev-python/silx[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.2[${PYTHON_USEDEP}]
 	dev-python/hdf5plugin[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.3.2[${PYTHON_USEDEP}]
 	dev-python/numdifftools[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/asteval[${PYTHON_USEDEP}]
 	dev-python/pycifrw[${PYTHON_USEDEP}]
 	dev-python/fabio[${PYTHON_USEDEP}]
 	dev-python/pyfai[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]
+	>=dev-python/numexpr-2.8.7[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
@@ -69,13 +69,13 @@ DEPENDENCIES="dev-python/asteval[${PYTHON_USEDEP}]
 	all? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-argdoc[${PYTHON_USEDEP}] )
-	all? ( dev-python/wxpython[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/wxpython-4.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/wxutils[${PYTHON_USEDEP}] )
 	all? ( dev-python/wxmplot[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyter-core[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jupyter-core-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
 	all? ( dev-python/notebook[${PYTHON_USEDEP}] )
@@ -97,7 +97,7 @@ DEPENDENCIES="dev-python/asteval[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinxcontrib-argdoc[${PYTHON_USEDEP}] )
 	epics? ( dev-python/pyepics[${PYTHON_USEDEP}] )
 	epics? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/jupyter-core[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/jupyter-core-5.0[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/notebook[${PYTHON_USEDEP}] )
@@ -105,10 +105,10 @@ DEPENDENCIES="dev-python/asteval[${PYTHON_USEDEP}]
 	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/py3dmol[${PYTHON_USEDEP}] )
-	larix? ( dev-python/wxpython[${PYTHON_USEDEP}] )
+	larix? ( >=dev-python/wxpython-4.1[${PYTHON_USEDEP}] )
 	larix? ( dev-python/wxutils[${PYTHON_USEDEP}] )
 	larix? ( dev-python/wxmplot[${PYTHON_USEDEP}] )
-	larix? ( dev-python/jupyter-core[${PYTHON_USEDEP}] )
+	larix? ( >=dev-python/jupyter-core-5.0[${PYTHON_USEDEP}] )
 	larix? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	larix? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
 	larix? ( dev-python/notebook[${PYTHON_USEDEP}] )
@@ -119,7 +119,7 @@ DEPENDENCIES="dev-python/asteval[${PYTHON_USEDEP}]
 	qtgui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	qtgui? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
 	qtgui? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
-	wxgui? ( dev-python/wxpython[${PYTHON_USEDEP}] )
+	wxgui? ( >=dev-python/wxpython-4.1[${PYTHON_USEDEP}] )
 	wxgui? ( dev-python/wxutils[${PYTHON_USEDEP}] )
 	wxgui? ( dev-python/wxmplot[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

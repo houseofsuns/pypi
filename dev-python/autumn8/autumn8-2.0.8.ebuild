@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.31.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.20.15[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]

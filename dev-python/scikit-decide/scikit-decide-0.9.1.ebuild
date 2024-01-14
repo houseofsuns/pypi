@@ -25,30 +25,30 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all domains solvers"
 DEPENDENCIES="dev-python/gym[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.13.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
 	dev-python/pynng[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
 	dev-python/stable-baselines3[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	all? ( dev-python/gym[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/simplejson[${PYTHON_USEDEP}] )
-	all? ( dev-python/joblib[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpy-1.16.4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/simplejson-3.16.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/joblib-0.13.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/ray[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/stable-baselines3[${PYTHON_USEDEP}] )
 	domains? ( dev-python/gym[${PYTHON_USEDEP}] )
-	domains? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	domains? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	domains? ( dev-python/simplejson[${PYTHON_USEDEP}] )
+	domains? ( >=dev-python/numpy-1.16.4[${PYTHON_USEDEP}] )
+	domains? ( >=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}] )
+	domains? ( >=dev-python/simplejson-3.16.0[${PYTHON_USEDEP}] )
 	solvers? ( dev-python/gym[${PYTHON_USEDEP}] )
-	solvers? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	solvers? ( dev-python/joblib[${PYTHON_USEDEP}] )
+	solvers? ( >=dev-python/numpy-1.16.4[${PYTHON_USEDEP}] )
+	solvers? ( >=dev-python/joblib-0.13.2[${PYTHON_USEDEP}] )
 	solvers? ( dev-python/ray[${PYTHON_USEDEP}] )
 	solvers? ( dev-python/torch[${PYTHON_USEDEP}] )
 	solvers? ( dev-python/stable-baselines3[${PYTHON_USEDEP}] )"

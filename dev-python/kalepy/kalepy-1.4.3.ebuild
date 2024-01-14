@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

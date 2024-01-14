@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
 	dev-python/wagtail-metadata[${PYTHON_USEDEP}]
-	dev-python/readtime[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	<dev-python/readtime-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
 	dev-python/django-json-ld[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]"
+	~dev-python/django-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/nsepython[${PYTHON_USEDEP}]
 	dev-python/twine[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/multipledispatch[${PYTHON_USEDEP}]
+	~dev-python/multipledispatch-0.6.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"

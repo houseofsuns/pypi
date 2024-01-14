@@ -27,7 +27,7 @@ IUSE="dag doc psydata test"
 DEPENDENCIES="dev-python/pyparsing[${PYTHON_USEDEP}]
 	dev-python/fparser[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.0.2[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dag? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )

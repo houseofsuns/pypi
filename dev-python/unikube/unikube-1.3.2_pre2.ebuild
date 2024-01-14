@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.2[${PYTHON_USEDEP}]
 	dev-python/click-spinner[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	dev-python/inquirerpy[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	<dev-python/pydantic-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	<dev-python/requests-2.28.0[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
+	<dev-python/semantic-version-2.10.0[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]
+	~dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
 	dev-python/oic[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/click-didyoumean[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]"
+	<dev-python/python-slugify-6.2.0[${PYTHON_USEDEP}]
+	~dev-python/click-didyoumean-0.3.0[${PYTHON_USEDEP}]
+	~dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

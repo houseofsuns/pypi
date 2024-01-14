@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev opt"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/networkx-2.5.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/bottleneck[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.14[${PYTHON_USEDEP}]
+	>=dev-python/bottleneck-1.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-18.1[${PYTHON_USEDEP}]
+	>=dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
+	>=dev-python/tables-3.6[${PYTHON_USEDEP}]
 	dev-python/Cython[${PYTHON_USEDEP}]
 	dev-python/pylsl[${PYTHON_USEDEP}]
 	dev-python/python-osc[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.10[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	>=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-5.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docinit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	opt? ( dev-python/graphviz[${PYTHON_USEDEP}] )
+	opt? ( >=dev-python/graphviz-0.13[${PYTHON_USEDEP}] )
 	opt? ( dev-python/mne[${PYTHON_USEDEP}] )
 	opt? ( dev-python/pyedflib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

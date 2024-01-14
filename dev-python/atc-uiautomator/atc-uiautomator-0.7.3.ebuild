@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/urllib3-1.7.1[${PYTHON_USEDEP}]
+	>=dev-python/selenium-3.1[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/mmh3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.9.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

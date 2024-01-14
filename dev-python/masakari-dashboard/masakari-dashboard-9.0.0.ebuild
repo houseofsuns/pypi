@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/horizon[${PYTHON_USEDEP}]
-	dev-python/openstacksdk[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]"
+	>=dev-python/openstacksdk-0.26.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

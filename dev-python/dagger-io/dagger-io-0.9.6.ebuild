@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/beartype[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/anyio-3.6.2[${PYTHON_USEDEP}]
+	>=dev-python/beartype-0.11.0[${PYTHON_USEDEP}]
+	>=dev-python/cattrs-22.2.0[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/httpx-0.23.1[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-2.6.2[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.11.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

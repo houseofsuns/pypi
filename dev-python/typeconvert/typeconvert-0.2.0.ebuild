@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.26[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-45.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-scm-6.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

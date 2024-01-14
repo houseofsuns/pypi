@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="api-client"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
-	api-client? ( dev-python/requests[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/email-validator-1.3.1[${PYTHON_USEDEP}]
+	api-client? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

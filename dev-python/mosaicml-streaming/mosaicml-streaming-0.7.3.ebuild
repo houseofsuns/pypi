@@ -24,93 +24,93 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all databricks dev docs simulator spark"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/python-snappy[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
+	<dev-python/paramiko-4.0[${PYTHON_USEDEP}]
+	<dev-python/python-snappy-1.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]
-	dev-python/zstd[${PYTHON_USEDEP}]
+	<dev-python/xxhash-4.0[${PYTHON_USEDEP}]
+	<dev-python/zstd-2.0[${PYTHON_USEDEP}]
 	dev-python/oci[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
 	dev-python/azure-storage-file-datalake[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/GitPython-3.1.40[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	all? ( dev-python/altair[${PYTHON_USEDEP}] )
 	all? ( dev-python/databricks-sdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	all? ( dev-python/docformatter[${PYTHON_USEDEP}] )
-	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	all? ( dev-python/furo[${PYTHON_USEDEP}] )
-	all? ( dev-python/humanize[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	all? ( dev-python/moto[${PYTHON_USEDEP}] )
-	all? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	all? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/furo-2023.7.26[${PYTHON_USEDEP}] )
+	all? ( <dev-python/humanize-5.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/moto-5.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/nbsphinx-0.9.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/omegaconf[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	all? ( >dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pydantic-2.5.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-split[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-codeblocks[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-codeblocks-0.17.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sortedcollections[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-argparse-0.4.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-tabs-3.4.4[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )
-	all? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/uvicorn-0.25.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	all? ( dev-python/yamllint[${PYTHON_USEDEP}] )
 	databricks? ( dev-python/databricks-sdk[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	dev? ( >dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docformatter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-codeblocks[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-codeblocks-0.17.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/moto-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydantic-2.5.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/uvicorn-0.25.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-split[${PYTHON_USEDEP}] )
-	docs? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/GitPython-3.1.40[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.7.26[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.9.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-argparse-0.4.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-tabs-3.4.4[${PYTHON_USEDEP}] )
 	simulator? ( dev-python/sortedcollections[${PYTHON_USEDEP}] )
 	simulator? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	simulator? ( dev-python/altair[${PYTHON_USEDEP}] )
 	simulator? ( dev-python/omegaconf[${PYTHON_USEDEP}] )
 	simulator? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	simulator? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	simulator? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	simulator? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	simulator? ( dev-python/humanize[${PYTHON_USEDEP}] )
+	simulator? ( <dev-python/humanize-5.0[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

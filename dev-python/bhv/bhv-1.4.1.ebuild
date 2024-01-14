@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="np pytorch"
 DEPENDENCIES="pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )
-	np? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	np? ( >=dev-python/numpy-1.24.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

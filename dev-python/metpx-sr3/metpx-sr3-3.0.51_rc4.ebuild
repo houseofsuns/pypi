@@ -29,20 +29,20 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
 	dev-python/jsonpickle[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.3.0[${PYTHON_USEDEP}]
 	dev-python/watchdog[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
 	dev-python/xattr[${PYTHON_USEDEP}]
 	all? ( dev-python/amqp[${PYTHON_USEDEP}] )
 	all? ( dev-python/dateparser[${PYTHON_USEDEP}] )
 	all? ( dev-python/netifaces[${PYTHON_USEDEP}] )
-	all? ( dev-python/paho-mqtt[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/paho-mqtt-1.5.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-magic[${PYTHON_USEDEP}] )
 	all? ( dev-python/redis[${PYTHON_USEDEP}] )
 	amqp? ( dev-python/amqp[${PYTHON_USEDEP}] )
 	filetypes? ( dev-python/python-magic[${PYTHON_USEDEP}] )
 	ftppoll? ( dev-python/dateparser[${PYTHON_USEDEP}] )
-	mqtt? ( dev-python/paho-mqtt[${PYTHON_USEDEP}] )
+	mqtt? ( >=dev-python/paho-mqtt-1.5.1[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
 	vip? ( dev-python/netifaces[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

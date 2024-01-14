@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all caching mongo nosql sql tasks"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	tasks? ( dev-python/redis[${PYTHON_USEDEP}] )
-	caching? ( dev-python/redis[${PYTHON_USEDEP}] )
-	nosql? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	mongo? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	nosql? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	all? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	tasks? ( dev-python/dill[${PYTHON_USEDEP}] )
-	all? ( dev-python/dill[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	tasks? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	caching? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	nosql? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	mongo? ( <dev-python/pymongo-5.0.0[${PYTHON_USEDEP}] )
+	nosql? ( <dev-python/pymongo-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pymongo-5.0.0[${PYTHON_USEDEP}] )
+	sql? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
+	tasks? ( <dev-python/dill-0.4.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/dill-0.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

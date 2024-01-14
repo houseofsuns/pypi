@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.3[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-5.4[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

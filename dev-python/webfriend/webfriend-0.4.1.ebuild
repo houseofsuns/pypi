@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-6.7[${PYTHON_USEDEP}]
+	<dev-python/click-log-0.2.0[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/ephemeral-port-reserve[${PYTHON_USEDEP}]
 	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.2.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/textx[${PYTHON_USEDEP}]

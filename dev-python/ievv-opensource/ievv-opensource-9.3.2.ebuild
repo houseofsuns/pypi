@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	<dev-python/django-5.0.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/sh[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]

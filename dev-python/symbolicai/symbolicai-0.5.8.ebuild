@@ -24,60 +24,60 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all bard blip2 pinecone selenium serpapi services whisper wolframalpha"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-67.7.2[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]
-	dev-python/rpyc[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/natsort-8.3.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
+	>=dev-python/python-box-7.0.1[${PYTHON_USEDEP}]
+	>=dev-python/rpyc-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchaudio[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.12[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-8.14.0[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/tika[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.32[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0.39[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.12.3[${PYTHON_USEDEP}]
 	dev-python/pymongo[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
 	all? ( dev-python/wolframalpha[${PYTHON_USEDEP}] )
 	all? ( dev-python/openai-whisper[${PYTHON_USEDEP}] )
-	all? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/selenium-4.10.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )
 	all? ( dev-python/chromedriver-autoinstaller[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-search-results[${PYTHON_USEDEP}] )
 	all? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )
 	bard? ( dev-python/bardapi[${PYTHON_USEDEP}] )
 	blip2? ( dev-python/bitsandbytes[${PYTHON_USEDEP}] )
 	blip2? ( dev-python/decord[${PYTHON_USEDEP}] )
 	blip2? ( dev-python/salesforce-lavis[${PYTHON_USEDEP}] )
 	pinecone? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )
-	selenium? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	selenium? ( >=dev-python/selenium-4.10.0[${PYTHON_USEDEP}] )
 	selenium? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )
 	selenium? ( dev-python/chromedriver-autoinstaller[${PYTHON_USEDEP}] )
 	serpapi? ( dev-python/google-search-results[${PYTHON_USEDEP}] )
 	services? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	services? ( dev-python/redis[${PYTHON_USEDEP}] )
-	services? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	services? ( >=dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
+	services? ( >=dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )
 	whisper? ( dev-python/openai-whisper[${PYTHON_USEDEP}] )
 	wolframalpha? ( dev-python/wolframalpha[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

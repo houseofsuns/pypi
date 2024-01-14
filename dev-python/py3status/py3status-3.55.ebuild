@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dbus udev"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dbus? ( dev-python/dbus-python[${PYTHON_USEDEP}] )
-	dbus? ( dev-python/pygobject[${PYTHON_USEDEP}] )
-	udev? ( dev-python/pyudev[${PYTHON_USEDEP}] )"
+	dbus? ( ~dev-python/dbus-python-1.3.2[${PYTHON_USEDEP}] )
+	dbus? ( ~dev-python/pygobject-3.46.0[${PYTHON_USEDEP}] )
+	udev? ( >=dev-python/pyudev-0.21.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

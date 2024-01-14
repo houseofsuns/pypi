@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli dev docs"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.17.4[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0[${PYTHON_USEDEP}]
+	cli? ( ~dev-python/click-8.1.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/blacken-docs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/packaging-23.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-console-scripts-1.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tomli-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/cartopy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ipykernel-6.22[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupytext[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.9[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pydata-sphinx-theme-0.13[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/scipy-1.10.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

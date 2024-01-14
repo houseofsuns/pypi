@@ -27,7 +27,7 @@ IUSE="fiona rasterio"
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-2.1[${PYTHON_USEDEP}]
 	dev-python/netcdf4[${PYTHON_USEDEP}]
 	fiona? ( dev-python/fiona[${PYTHON_USEDEP}] )
 	rasterio? ( dev-python/rasterio[${PYTHON_USEDEP}] )"

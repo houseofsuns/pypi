@@ -32,16 +32,16 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/invenio-pidstore[${PYTHON_USEDEP}]
 	dev-python/invenio-records-rest[${PYTHON_USEDEP}]
 	dev-python/invenio-records[${PYTHON_USEDEP}]
-	dev-python/jsonref[${PYTHON_USEDEP}]
+	>=dev-python/jsonref-0.1[${PYTHON_USEDEP}]
 	dev-python/jsonresolver[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
 	dev-python/sickle[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/invenio-celery[${PYTHON_USEDEP}] )
 	all? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
-	all? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	all? ( dev-python/mock[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	elasticsearch2? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
@@ -50,8 +50,8 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	elasticsearch7? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-celery[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

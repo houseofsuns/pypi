@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/ipython-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

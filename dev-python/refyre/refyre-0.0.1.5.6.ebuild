@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.29.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/tzlocal[${PYTHON_USEDEP}]
 	lz4? ( dev-python/clickhouse-cityhash[${PYTHON_USEDEP}] )
 	lz4? ( dev-python/lz4[${PYTHON_USEDEP}] )
-	lz4? ( dev-python/lz4[${PYTHON_USEDEP}] )
-	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	numpy? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	lz4? ( <=dev-python/lz4-3.0.1[${PYTHON_USEDEP}] )
+	numpy? ( >=dev-python/numpy-1.12.0[${PYTHON_USEDEP}] )
+	numpy? ( >=dev-python/pandas-0.24.0[${PYTHON_USEDEP}] )
 	zstd? ( dev-python/zstd[${PYTHON_USEDEP}] )
 	zstd? ( dev-python/clickhouse-cityhash[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

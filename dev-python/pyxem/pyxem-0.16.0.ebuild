@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/diffsims[${PYTHON_USEDEP}]
 	dev-python/hyperspy[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/lmfit-0.9.12[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]
+	>dev-python/numexpr-2.8.6[${PYTHON_USEDEP}]
 	dev-python/orix[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pyfai[${PYTHON_USEDEP}]
@@ -46,23 +46,23 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/nbsphinx-0.7[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-3.0.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-copybutton-0.2.5[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-autodoc-typehints-1.10.3[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-gallery-0.6[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinxcontrib-bibtex-1.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-codeautolink[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/hyperspy-gui-ipywidgets[${PYTHON_USEDEP}] )
 	doc? ( dev-python/dask-image[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/cupy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

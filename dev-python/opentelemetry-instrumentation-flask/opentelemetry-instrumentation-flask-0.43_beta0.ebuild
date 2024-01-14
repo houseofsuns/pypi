@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-util-http[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	instruments? ( dev-python/flask[${PYTHON_USEDEP}] )
-	instruments? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	test? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
+	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
+	instruments? ( <dev-python/flask-3.0[${PYTHON_USEDEP}] )
+	instruments? ( <dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-flask[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

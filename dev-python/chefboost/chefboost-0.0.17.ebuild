@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pandas-0.22.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.30.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.4.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

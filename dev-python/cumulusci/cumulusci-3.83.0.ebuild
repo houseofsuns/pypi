@@ -24,44 +24,44 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs lint test"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/authlib[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
+	~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	~dev-python/cffi-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-3.2.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.6[${PYTHON_USEDEP}]
+	~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}]
+	~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+	~dev-python/docutils-0.16[${PYTHON_USEDEP}]
 	dev-python/faker-edu[${PYTHON_USEDEP}]
 	dev-python/faker-nonprofit[${PYTHON_USEDEP}]
 	dev-python/faker[${PYTHON_USEDEP}]
-	dev-python/fs[${PYTHON_USEDEP}]
-	dev-python/github3-py[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
+	~dev-python/fs-2.4.16[${PYTHON_USEDEP}]
+	~dev-python/github3-py-4.0.1[${PYTHON_USEDEP}]
+	~dev-python/greenlet-3.0.1[${PYTHON_USEDEP}]
 	dev-python/gvgen[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/jeepney[${PYTHON_USEDEP}]
+	~dev-python/idna-3.4[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}]
+	~dev-python/jeepney-0.8.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/mdurl[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	~dev-python/keyring-23.0.1[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
+	~dev-python/markdown-it-py-2.2.0[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}]
+	~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}]
+	~dev-python/natsort-8.4.0[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.6[${PYTHON_USEDEP}]
+	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.12[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.17.2[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	dev-python/python-baseconv[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests-futures[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/requests-futures-1.0.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.29.0[${PYTHON_USEDEP}]
+	~dev-python/rich-13.7.0[${PYTHON_USEDEP}]
 	dev-python/robotframework-pabot[${PYTHON_USEDEP}]
 	dev-python/robotframework-pythonlibcore[${PYTHON_USEDEP}]
 	dev-python/robotframework-requests[${PYTHON_USEDEP}]
@@ -70,23 +70,23 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
 	dev-python/rst2ansi[${PYTHON_USEDEP}]
 	dev-python/salesforce-bulk[${PYTHON_USEDEP}]
-	dev-python/sarge[${PYTHON_USEDEP}]
-	dev-python/secretstorage[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	~dev-python/sarge-0.1.7[${PYTHON_USEDEP}]
+	~dev-python/secretstorage-3.3.3[${PYTHON_USEDEP}]
+	~dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
 	dev-python/simple-salesforce[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	dev-python/snowfakery[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.49[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
 	dev-python/unicodecsv[${PYTHON_USEDEP}]
-	dev-python/uritemplate[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]
+	~dev-python/uritemplate-4.1.1[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
+	~dev-python/zipp-3.17.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
@@ -96,11 +96,11 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-random-order[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-vcr[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/responses[${PYTHON_USEDEP}] )
 	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/typeguard[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/typeguard-2.13.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/vcrpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

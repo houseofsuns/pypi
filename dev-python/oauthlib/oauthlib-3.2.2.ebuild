@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rsa signals signedtoken"
-DEPENDENCIES="rsa? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	signals? ( dev-python/blinker[${PYTHON_USEDEP}] )
-	signedtoken? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	signedtoken? ( dev-python/pyjwt[${PYTHON_USEDEP}] )"
+DEPENDENCIES="rsa? ( >=dev-python/cryptography-3.0.0[${PYTHON_USEDEP}] )
+	signals? ( >=dev-python/blinker-1.4.0[${PYTHON_USEDEP}] )
+	signedtoken? ( >=dev-python/cryptography-3.0.0[${PYTHON_USEDEP}] )
+	signedtoken? ( <dev-python/pyjwt-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

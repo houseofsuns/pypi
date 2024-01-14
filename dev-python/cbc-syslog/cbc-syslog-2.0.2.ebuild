@@ -27,16 +27,16 @@ IUSE="test"
 DEPENDENCIES="dev-python/carbon-black-cloud-sdk[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	test? ( dev-python/flask[${PYTHON_USEDEP}] )
 	test? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-colors[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/freezegun-1.2.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

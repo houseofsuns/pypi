@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
+	~dev-python/emoji-2.8.0[${PYTHON_USEDEP}]
 	dev-python/stanza[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

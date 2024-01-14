@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/kaitaistruct[${PYTHON_USEDEP}]
-	dev-python/versioneer[${PYTHON_USEDEP}]
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/kaitaistruct-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/versioneer-0.28[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.14.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/yapf-0.29.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-4.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jsonpickle[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jsonpickle-1.2[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]

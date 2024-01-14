@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.2.2[${PYTHON_USEDEP}]
 	dev-python/SPARQLWrapper[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/text-unidecode[${PYTHON_USEDEP}]
-	dev-python/munkres[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/text-unidecode-1.3[${PYTHON_USEDEP}]
+	~dev-python/munkres-1.1.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

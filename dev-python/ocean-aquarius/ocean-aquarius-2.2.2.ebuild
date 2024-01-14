@@ -24,41 +24,41 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Cors[${PYTHON_USEDEP}]
 	dev-python/flask-swagger[${PYTHON_USEDEP}]
 	dev-python/flask-swagger-ui[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/oceandb-driver-interface[${PYTHON_USEDEP}]
 	dev-python/oceandb-mongodb-driver[${PYTHON_USEDEP}]
 	dev-python/oceandb-elasticsearch-driver[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	~dev-python/pytz-2020.4[${PYTHON_USEDEP}]
 	dev-python/plecos[${PYTHON_USEDEP}]
 	dev-python/ocean-lib[${PYTHON_USEDEP}]
 	dev-python/eciespy[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pkginfo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pkginfo-1.6.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/watchdog-0.10.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/plecos[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mccabe[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-5.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/plecos[${PYTHON_USEDEP}] )
 	test? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	test? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/mccabe[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-5.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

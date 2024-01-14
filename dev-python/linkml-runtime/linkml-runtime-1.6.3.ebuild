@@ -30,12 +30,12 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/hbreader[${PYTHON_USEDEP}]
 	dev-python/json-flattener[${PYTHON_USEDEP}]
 	dev-python/jsonasobj2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/prefixcommons[${PYTHON_USEDEP}]
 	dev-python/prefixmaps[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	>=dev-python/rdflib-6.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mkdocs-1.0[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.3.7[${PYTHON_USEDEP}]
+	>=dev-python/pymdown-extensions-9.4[${PYTHON_USEDEP}]
 	dev-python/plantuml-markdown[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

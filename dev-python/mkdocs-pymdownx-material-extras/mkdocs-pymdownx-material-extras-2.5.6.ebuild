@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mkdocs-material[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/mkdocs-material-8.3.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

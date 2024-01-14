@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev excel"
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/Babel-3.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Babel[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/beancount[${PYTHON_USEDEP}]
-	dev-python/cheroot[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/markdown2[${PYTHON_USEDEP}]
+	<dev-python/cheroot-11.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/markdown2-3.0[${PYTHON_USEDEP}]
 	dev-python/ply[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+	<dev-python/simplejson-4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )

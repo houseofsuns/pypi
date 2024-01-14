@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="arrow image ngrok"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-3.1[${PYTHON_USEDEP}]
+	<dev-python/flask-cors-5.0[${PYTHON_USEDEP}]
 	dev-python/flask-socketio[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+	<dev-python/markdown-4.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-1.1[${PYTHON_USEDEP}]
+	<dev-python/pytz-2022.2[${PYTHON_USEDEP}]
+	<dev-python/tzlocal-5.0[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/gevent-websocket[${PYTHON_USEDEP}]
 	dev-python/kthread[${PYTHON_USEDEP}]
 	dev-python/taipy-config[${PYTHON_USEDEP}]
 	dev-python/gitignore-parser[${PYTHON_USEDEP}]
-	dev-python/simple-websocket[${PYTHON_USEDEP}]
-	dev-python/twisted[${PYTHON_USEDEP}]
+	<dev-python/simple-websocket-1.0[${PYTHON_USEDEP}]
+	<dev-python/twisted-24.0[${PYTHON_USEDEP}]
 	ngrok? ( dev-python/pyngrok[${PYTHON_USEDEP}] )
-	image? ( dev-python/python-magic[${PYTHON_USEDEP}] )
-	arrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"
+	image? ( <dev-python/python-magic-0.5[${PYTHON_USEDEP}] )
+	arrow? ( <dev-python/pyarrow-11.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="api"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	api? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	dev-python/openapi-spec-validator[${PYTHON_USEDEP}]
+	<dev-python/openapi-spec-validator-0.6.0[${PYTHON_USEDEP}]
 	dev-python/prance[${PYTHON_USEDEP}]
-	api? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	api? ( dev-python/redis[${PYTHON_USEDEP}] )
-	dev-python/rich[${PYTHON_USEDEP}]
-	api? ( dev-python/rq[${PYTHON_USEDEP}] )
-	api? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	api? ( <dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	api? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
+	api? ( <dev-python/rq-2.0.0[${PYTHON_USEDEP}] )
+	api? ( <dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="borrowing cluster dev test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.3[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/csvw[${PYTHON_USEDEP}]
 	dev-python/clldutils[${PYTHON_USEDEP}]

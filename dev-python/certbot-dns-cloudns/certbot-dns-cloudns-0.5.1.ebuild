@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev-python/certbot[${PYTHON_USEDEP}]
 	dev-python/cloudns-api[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/zope-interface[${PYTHON_USEDEP}]"
+	~dev-python/dnspython-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/zope-interface-5.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

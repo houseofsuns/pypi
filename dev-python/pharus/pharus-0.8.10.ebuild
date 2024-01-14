@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.2.2[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/datajoint[${PYTHON_USEDEP}]

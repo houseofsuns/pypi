@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
+	<dev-python/termcolor-2.0[${PYTHON_USEDEP}]
 	dev-python/loggable-jdv[${PYTHON_USEDEP}]
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tox-conda[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

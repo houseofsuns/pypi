@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.16.0[${PYTHON_USEDEP}]
 	dev-python/opentracing[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.10.11[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
 	dev-python/enum-compat[${PYTHON_USEDEP}]
 	dev-python/pep440-rs[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
+	~dev-python/jsonpickle-1.3[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.18[${PYTHON_USEDEP}]
 	dev-python/fastcounter[${PYTHON_USEDEP}]
 	dev-python/pympler[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

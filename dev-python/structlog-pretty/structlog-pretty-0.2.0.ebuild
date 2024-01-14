@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fast"
-DEPENDENCIES="dev-python/pygments[${PYTHON_USEDEP}]
-	fast? ( dev-python/lxml[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/pygments-2.0[${PYTHON_USEDEP}]
+	fast? ( ~dev-python/lxml-3.0[${PYTHON_USEDEP}] )
 	fast? ( dev-python/python-rapidjson[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

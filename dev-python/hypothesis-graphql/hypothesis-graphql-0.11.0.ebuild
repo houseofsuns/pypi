@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cov dev tests"
 DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev-python/hypothesis[${PYTHON_USEDEP}]
+	<dev-python/hypothesis-7.0[${PYTHON_USEDEP}]
 	cov? ( dev-python/coverage-enable-subprocess[${PYTHON_USEDEP}] )
-	cov? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	cov? ( >=dev-python/coverage-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hypothesis-graphql[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/coverage-7.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-xdist-3.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

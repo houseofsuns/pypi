@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/setuptools-51.0.0[${PYTHON_USEDEP}]
 	dev-python/flask-swagger-ui[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

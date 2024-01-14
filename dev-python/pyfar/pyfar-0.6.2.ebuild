@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
+	<=dev-python/matplotlib-3.7[${PYTHON_USEDEP}]
 	dev-python/sofar[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/deepdiff[${PYTHON_USEDEP}]

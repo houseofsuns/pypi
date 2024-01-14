@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]"
+	>=dev-python/keystoneauth1-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-5.0.1[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-4.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-5.5.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-3.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

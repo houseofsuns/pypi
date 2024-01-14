@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev? ( dev-python/apache-airflow-providers-docker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kfp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/argo-workflows-dsl[${PYTHON_USEDEP}] )
-	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/moto-1.3.14[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )

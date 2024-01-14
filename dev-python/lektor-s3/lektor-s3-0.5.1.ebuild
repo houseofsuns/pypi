@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Lektor[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.1.4[${PYTHON_USEDEP}]
 	dev-python/s3transfer[${PYTHON_USEDEP}]
 	dev-python/inifile[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

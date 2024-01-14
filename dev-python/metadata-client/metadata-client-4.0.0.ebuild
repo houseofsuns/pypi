@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-2.30[${PYTHON_USEDEP}]
 	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
 	dev-python/oauth2-xfel-client[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]

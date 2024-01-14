@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/jwcrypto[${PYTHON_USEDEP}]
+	<dev-python/jwcrypto-1.4[${PYTHON_USEDEP}]
 	dev-python/django-xently[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dicom excel full hdf image pytrip"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
 	dicom? ( dev-python/pydicom[${PYTHON_USEDEP}] )
 	dicom? ( dev-python/pydicom[${PYTHON_USEDEP}] )
 	excel? ( dev-python/xlwt[${PYTHON_USEDEP}] )

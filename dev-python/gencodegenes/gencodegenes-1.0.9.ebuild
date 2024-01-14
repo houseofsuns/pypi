@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cython-0.27.0[${PYTHON_USEDEP}]
 	dev-python/pyfaidx[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

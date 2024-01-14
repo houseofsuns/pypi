@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/selenium-4.9.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

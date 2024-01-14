@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pocketsphinx"
-DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/argcomplete-1.10.0[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.8.0[${PYTHON_USEDEP}]
+	~dev-python/chardet-3.0[${PYTHON_USEDEP}]
 	dev-python/docx2txt[${PYTHON_USEDEP}]
 	dev-python/extract-msg[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
 	dev-python/python-pptx[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	~dev-python/six-1.12.0[${PYTHON_USEDEP}]
 	dev-python/SpeechRecognition[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
 	pocketsphinx? ( dev-python/pocketsphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

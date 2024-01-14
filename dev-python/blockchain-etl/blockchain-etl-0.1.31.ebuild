@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/neocore[${PYTHON_USEDEP}]
 	dev-python/octopus[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.7.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/switcheo[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/ndjson[${PYTHON_USEDEP}]
 	dev-python/ps2-census[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-5.0[${PYTHON_USEDEP}]
 	dev-python/methodtools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev pre_commit tests"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/click-spinner[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/docker-5.0.3[${PYTHON_USEDEP}]
+	~dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.19.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	~dev-python/requests-cache-0.9.1[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dunamai[${PYTHON_USEDEP}] )
 	pre_commit? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/responses[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-asyncio-0.20.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/responses-0.22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

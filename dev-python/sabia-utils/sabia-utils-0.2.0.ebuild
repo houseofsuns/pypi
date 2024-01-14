@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	dev-python/alei-utils[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

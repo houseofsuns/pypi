@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/OpenAIAuth[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-apscheduler[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-htmlrender[${PYTHON_USEDEP}]

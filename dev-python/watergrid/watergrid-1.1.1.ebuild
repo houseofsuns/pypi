@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="lock-redis metrics-elasticsearch"
 DEPENDENCIES="dev-python/pycron[${PYTHON_USEDEP}]
-	lock-redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	lock-redis? ( ~dev-python/redis-4.2.2[${PYTHON_USEDEP}] )
 	metrics-elasticsearch? ( dev-python/elastic-apm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

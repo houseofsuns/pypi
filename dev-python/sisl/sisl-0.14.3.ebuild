@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="analysis test viz viz-ase viz-blender viz-matplotlib viz-plotly"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.13[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-1.5.7[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.10.0[${PYTHON_USEDEP}]
 	analysis? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	viz? ( dev-python/dill[${PYTHON_USEDEP}] )
+	viz? ( >=dev-python/dill-0.3.2[${PYTHON_USEDEP}] )
 	viz? ( dev-python/pathos[${PYTHON_USEDEP}] )
 	viz? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	viz? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	viz? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	viz? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	viz? ( dev-python/ase[${PYTHON_USEDEP}] )
-	viz-plotly? ( dev-python/dill[${PYTHON_USEDEP}] )
+	viz-plotly? ( >=dev-python/dill-0.3.2[${PYTHON_USEDEP}] )
 	viz-plotly? ( dev-python/pathos[${PYTHON_USEDEP}] )
 	viz-plotly? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	viz-plotly? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	viz-plotly? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	viz-matplotlib? ( dev-python/dill[${PYTHON_USEDEP}] )
+	viz-matplotlib? ( >=dev-python/dill-0.3.2[${PYTHON_USEDEP}] )
 	viz-matplotlib? ( dev-python/pathos[${PYTHON_USEDEP}] )
 	viz-matplotlib? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	viz-matplotlib? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	viz-matplotlib? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	viz-blender? ( dev-python/dill[${PYTHON_USEDEP}] )
+	viz-blender? ( >=dev-python/dill-0.3.2[${PYTHON_USEDEP}] )
 	viz-blender? ( dev-python/pathos[${PYTHON_USEDEP}] )
 	viz-blender? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	viz-blender? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	viz-ase? ( dev-python/dill[${PYTHON_USEDEP}] )
+	viz-ase? ( >=dev-python/dill-0.3.2[${PYTHON_USEDEP}] )
 	viz-ase? ( dev-python/pathos[${PYTHON_USEDEP}] )
 	viz-ase? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	viz-ase? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-faulthandler[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	test? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	test? ( dev-python/dill[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/dill-0.3.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pathos[${PYTHON_USEDEP}] )
 	test? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-image[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="timedelta yaml"
-DEPENDENCIES="timedelta? ( dev-python/pytimeparse[${PYTHON_USEDEP}] )
+DEPENDENCIES="timedelta? ( >=dev-python/pytimeparse-1.1.7[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

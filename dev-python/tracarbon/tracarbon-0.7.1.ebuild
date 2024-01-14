@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="datadog kubernetes prometheus"
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiocache[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/loguru-0.8[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiocache-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/msgpack-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/ec2-metadata[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-1.1[${PYTHON_USEDEP}]
 	dev-python/asyncer[${PYTHON_USEDEP}]
 	datadog? ( dev-python/datadog[${PYTHON_USEDEP}] )
-	prometheus? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
+	prometheus? ( <dev-python/prometheus-client-0.18[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

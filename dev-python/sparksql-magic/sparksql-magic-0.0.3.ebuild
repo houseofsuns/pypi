@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyspark[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]"
+	>=dev-python/ipython-7.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

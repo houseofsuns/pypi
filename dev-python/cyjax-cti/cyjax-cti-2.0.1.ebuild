@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.27.0[${PYTHON_USEDEP}]
+	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/responses-0.17[${PYTHON_USEDEP}] )
 	test? ( dev-python/twine[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

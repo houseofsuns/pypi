@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyngrok[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]"
+	~dev-python/nest-asyncio-1.4.3[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.13.1[${PYTHON_USEDEP}]
+	~dev-python/jupyterlab-3.0.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

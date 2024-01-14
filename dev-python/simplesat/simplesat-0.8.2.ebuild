@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-17.4.0[${PYTHON_USEDEP}]
 	dev-python/okonomiyaki[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.30.0[${PYTHON_USEDEP}]
 	dev-python/isodatetimehandler[${PYTHON_USEDEP}]
 	dev-python/moesifapi[${PYTHON_USEDEP}]
 	dev-python/moesifpythonrequest[${PYTHON_USEDEP}]

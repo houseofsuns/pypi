@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.8[${PYTHON_USEDEP}]
 	dev-python/more_itertools[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/deepdiff[${PYTHON_USEDEP}]
@@ -46,25 +46,25 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	cmdline-extras? ( dev-python/python-gitlab[${PYTHON_USEDEP}] )
 	cmdline-extras? ( dev-python/pymatgen-io-fleur[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/sphinx-autodoc-typehints-1.19.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	pre-commit? ( >=dev-python/yapf-0.30.0[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/pylint-2.14[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/lxml-stubs[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/types-click[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/types-pygments[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-mpl-0.12[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-regressions-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

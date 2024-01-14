@@ -26,21 +26,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc rapids11 rapids12 test"
 DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/decoupler[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
 	dev-python/scikit-misc[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.12.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/nbsphinx-0.8.12[${PYTHON_USEDEP}] )
 	doc? ( dev-python/readthedocs-sphinx-ext[${PYTHON_USEDEP}] )
 	doc? ( dev-python/scanpydoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	rapids11? ( dev-python/cudf-cu11[${PYTHON_USEDEP}] )
 	rapids11? ( dev-python/cugraph-cu11[${PYTHON_USEDEP}] )
 	rapids11? ( dev-python/cuml-cu11[${PYTHON_USEDEP}] )

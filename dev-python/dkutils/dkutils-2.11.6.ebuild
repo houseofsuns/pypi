@@ -27,14 +27,14 @@ IUSE=""
 DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev-python/events-ingestion-client[${PYTHON_USEDEP}]
 	dev-python/jira[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.2[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.10.4[${PYTHON_USEDEP}]
 	dev-python/scp[${PYTHON_USEDEP}]
 	dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
+	>=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-1.10.1[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-httplib2-0.0.4[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-oauthlib-0.4.2[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.27[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

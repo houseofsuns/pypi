@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.4[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/specutils[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

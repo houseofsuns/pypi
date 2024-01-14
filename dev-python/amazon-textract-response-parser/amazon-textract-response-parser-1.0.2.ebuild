@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]"
+	<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

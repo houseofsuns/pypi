@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/shapely[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
 	dev-python/pikepdf[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]

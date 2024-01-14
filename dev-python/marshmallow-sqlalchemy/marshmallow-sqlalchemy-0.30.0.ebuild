@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs lint tests"
-DEPENDENCIES="dev-python/marshmallow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/marshmallow-3.0.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-lazy-fixture-0.6.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/alabaster[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-issues-3.0.1[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-lazy-fixture-0.6.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

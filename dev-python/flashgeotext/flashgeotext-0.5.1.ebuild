@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/flashtext[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	>=dev-python/loguru-0.5.3[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

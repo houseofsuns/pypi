@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/pyphen[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	>=dev-python/pyphen-0.10.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

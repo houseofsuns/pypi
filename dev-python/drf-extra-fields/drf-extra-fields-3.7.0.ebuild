@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="base64imagefield"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.9.2[${PYTHON_USEDEP}]
+	>=dev-python/filetype-1.2.0[${PYTHON_USEDEP}]
 	base64imagefield? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

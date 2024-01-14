@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/linkify-it-py[${PYTHON_USEDEP}]
-	dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	dev-python/mdit-py-plugins[${PYTHON_USEDEP}]
-	dev-python/mdurl[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}]
+	~dev-python/linkify-it-py-2.0.2[${PYTHON_USEDEP}]
+	~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/mdit-py-plugins-0.4.0[${PYTHON_USEDEP}]
+	~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/rich-13.6.0[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]
-	dev-python/tree-sitter[${PYTHON_USEDEP}]
+	~dev-python/tree-sitter-0.20.2[${PYTHON_USEDEP}]
 	dev-python/tree-sitter-languages[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/uc-micro-py[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]"
+	~dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
+	~dev-python/uc-micro-py-1.0.2[${PYTHON_USEDEP}]
+	~dev-python/zipp-3.17.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

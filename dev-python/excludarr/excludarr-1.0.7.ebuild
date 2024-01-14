@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.4.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/pyarr[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

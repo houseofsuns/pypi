@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pymongo-3.0[${PYTHON_USEDEP}]
+	>=dev-python/blinker-1.2[${PYTHON_USEDEP}]
 	dev-python/WebOb[${PYTHON_USEDEP}]
 	dev-python/Mako[${PYTHON_USEDEP}]
-	dev-python/bottle[${PYTHON_USEDEP}]"
+	>=dev-python/bottle-0.12.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

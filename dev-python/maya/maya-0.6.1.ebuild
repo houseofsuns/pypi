@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/humanize[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	>=dev-python/pendulum-2.0.2[${PYTHON_USEDEP}]
 	dev-python/snaptime[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

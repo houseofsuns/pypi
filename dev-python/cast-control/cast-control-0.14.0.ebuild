@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/appdirs-1.5.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/daemons[${PYTHON_USEDEP}]
 	dev-python/iteration-utilities[${PYTHON_USEDEP}]
 	dev-python/PyChromecast[${PYTHON_USEDEP}]
-	dev-python/pydbus[${PYTHON_USEDEP}]
+	<dev-python/pydbus-0.7.0[${PYTHON_USEDEP}]
 	dev-python/PyGObject[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
+	<dev-python/validators-0.23.0[${PYTHON_USEDEP}]
 	dev-python/mpris-server[${PYTHON_USEDEP}]
 	dev-python/app-paths[${PYTHON_USEDEP}]
 	dev-python/aiopath[${PYTHON_USEDEP}]"

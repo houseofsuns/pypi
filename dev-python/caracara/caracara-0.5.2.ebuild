@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/py7zr[${PYTHON_USEDEP}]
 	dev-python/crowdstrike-falconpy[${PYTHON_USEDEP}]
 	dev-python/caracara-filters[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	<dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

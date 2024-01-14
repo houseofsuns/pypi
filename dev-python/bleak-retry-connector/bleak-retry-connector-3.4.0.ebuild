@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
 	dev-python/bleak[${PYTHON_USEDEP}]
 	dev-python/bluetooth-adapters[${PYTHON_USEDEP}]
 	dev-python/dbus-fast[${PYTHON_USEDEP}]"

@@ -24,39 +24,39 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.11[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.10.0[${PYTHON_USEDEP}]
 	dev-python/sdss-tree[${PYTHON_USEDEP}]
 	dev-python/sdsstools[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.46.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
-	dev? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-bootstrap-theme-0.4.12[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/recommonmark-0.6[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-issues-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/importlib-metadata-1.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.9.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/doc8-0.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-1.13.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-sugar-0.9.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipdb-0.12.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sdsstools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.33.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
-	docs? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-bootstrap-theme-0.4.12[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/recommonmark-0.6[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-issues-1.2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/importlib-metadata-1.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

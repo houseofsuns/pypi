@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fastjsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/fastjsonschema-2.14.4[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

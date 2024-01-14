@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cheminfo docs optimization tests xgb"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	cheminfo? ( dev-python/rdkit[${PYTHON_USEDEP}] )
 	cheminfo? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
@@ -35,15 +35,15 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-0.18[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings-python-legacy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mike[${PYTHON_USEDEP}] )
 	optimization? ( dev-python/botorch[${PYTHON_USEDEP}] )
 	optimization? ( dev-python/multiprocess[${PYTHON_USEDEP}] )
 	optimization? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	optimization? ( dev-python/formulaic[${PYTHON_USEDEP}] )
-	optimization? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	optimization? ( dev-python/sympy[${PYTHON_USEDEP}] )
+	optimization? ( >=dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}] )
+	optimization? ( >=dev-python/sympy-1.12[${PYTHON_USEDEP}] )
 	optimization? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mopti[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/configobj[${PYTHON_USEDEP}]
-	dev-python/ntplib[${PYTHON_USEDEP}]
-	dev-python/pkginfo[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/configobj-5.0.8[${PYTHON_USEDEP}]
+	>=dev-python/ntplib-0.3.3[${PYTHON_USEDEP}]
+	>=dev-python/pkginfo-1.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

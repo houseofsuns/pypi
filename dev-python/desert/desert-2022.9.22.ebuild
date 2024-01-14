@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/marshmallow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/marshmallow-3.0[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )

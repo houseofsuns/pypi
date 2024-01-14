@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	formatting? ( dev-python/isort[${PYTHON_USEDEP}] )
 	linting? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	linting? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	pytesting? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	pytesting? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	pytesting? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	pytesting? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
 	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )

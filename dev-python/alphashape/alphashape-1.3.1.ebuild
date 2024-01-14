@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/trimesh[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/click-log-0.3.2[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/trimesh-3.9.8[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	dev-python/rtree[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]"
+	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

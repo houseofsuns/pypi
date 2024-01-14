@@ -25,37 +25,37 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs lint plot test"
 DEPENDENCIES="dev-python/frozendict[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyfredapi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyfredapi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyfredapi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyfredapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.9.1[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-frozendict[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	lint? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	plot? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/types-setuptools-67.6.0.6[${PYTHON_USEDEP}] )
+	plot? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-7.2.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-vcr[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tox-4.4.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

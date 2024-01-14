@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dask dev docs polars test"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dask? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( ~dev-python/dask-2023.11.0[${PYTHON_USEDEP}] )
 	dask? ( dev-python/requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -37,12 +37,12 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-8.1.11[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.18.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-extensions-1.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-autorefs-0.3.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mike[${PYTHON_USEDEP}] )
 	polars? ( dev-python/polars[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

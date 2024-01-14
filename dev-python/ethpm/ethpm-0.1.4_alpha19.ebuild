@@ -26,32 +26,32 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev doc lint test"
 DEPENDENCIES="dev-python/eth-utils[${PYTHON_USEDEP}]
 	dev-python/ipfshttpclient[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/rlp[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/ipython-8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-ethereum[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/tox-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-20.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-0.800[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/black-20.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/isort-5.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/mypy-0.800[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-ethereum[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/tox-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/pyfftw[${PYTHON_USEDEP}]
 	dev-python/ipyparallel[${PYTHON_USEDEP}]
 	dev-python/pyqt5[${PYTHON_USEDEP}]
 	dev-python/numexpr[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.6.2[${PYTHON_USEDEP}]
 	dev-python/inputimeout[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev flake8 opencv opencv-contrib opencv-headless"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	build? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
 DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/doc8-0.8.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-xdist-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/aboutcode-toolkit[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	testing? ( dev-python/black[${PYTHON_USEDEP}] )
-	testing? ( dev-python/isort[${PYTHON_USEDEP}] )
-	testing? ( dev-python/doc8[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pycodestyle-2.8.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/doc8-0.11.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

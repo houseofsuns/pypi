@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pymbse-commons[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/papermill[${PYTHON_USEDEP}]
 	dev-python/scrapbook[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]"
+	<dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

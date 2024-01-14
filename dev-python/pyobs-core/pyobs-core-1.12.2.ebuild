@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]
-	dev-python/slixmpp[${PYTHON_USEDEP}]
+	<dev-python/slixmpp-2.0.0[${PYTHON_USEDEP}]
 	dev-python/single-source[${PYTHON_USEDEP}]
-	dev-python/dbus-next[${PYTHON_USEDEP}]
+	<dev-python/dbus-next-0.3.0[${PYTHON_USEDEP}]
 	full? ( dev-python/asyncinotify[${PYTHON_USEDEP}] )
 	full? ( dev-python/sep[${PYTHON_USEDEP}] )
-	full? ( dev-python/python-daemon[${PYTHON_USEDEP}] )
+	full? ( <dev-python/python-daemon-4.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/reproject[${PYTHON_USEDEP}] )
-	full? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	full? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/astroplan[${PYTHON_USEDEP}]
-	full? ( dev-python/paramiko[${PYTHON_USEDEP}] )
+	full? ( <dev-python/paramiko-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/py-expression-eval[${PYTHON_USEDEP}]
-	full? ( dev-python/requests[${PYTHON_USEDEP}] )
+	full? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/ccdproc[${PYTHON_USEDEP}] )
 	full? ( dev-python/photutils[${PYTHON_USEDEP}] )
-	full? ( dev-python/lmfit[${PYTHON_USEDEP}] )
-	full? ( dev-python/tornado[${PYTHON_USEDEP}] )
+	full? ( <dev-python/lmfit-2.0.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/tornado-7.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/python-telegram-bot[${PYTHON_USEDEP}] )
-	full? ( dev-python/aiohttp[${PYTHON_USEDEP}] )"
+	full? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

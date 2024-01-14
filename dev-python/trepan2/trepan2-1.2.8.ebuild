@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/columnize[${PYTHON_USEDEP}]
-	dev-python/nose[${PYTHON_USEDEP}]
+	<=dev-python/nose-1.3.7[${PYTHON_USEDEP}]
 	dev-python/pyficache[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.2.0[${PYTHON_USEDEP}]
 	dev-python/spark-parser[${PYTHON_USEDEP}]
 	dev-python/uncompyle6[${PYTHON_USEDEP}]
 	dev-python/term-background[${PYTHON_USEDEP}]

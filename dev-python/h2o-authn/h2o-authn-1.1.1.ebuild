@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="discovery"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httpx-0.16[${PYTHON_USEDEP}]
 	discovery? ( dev-python/h2o-cloud-discovery[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/construct[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/construct-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

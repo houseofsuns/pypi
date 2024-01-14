@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/aeon[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinx-gallery[${PYTHON_USEDEP}]
-	dev-python/numpydoc[${PYTHON_USEDEP}]
-	dev-python/alabaster[${PYTHON_USEDEP}]"
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.11.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-4.2.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-gallery-0.10.1[${PYTHON_USEDEP}]
+	>=dev-python/numpydoc-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

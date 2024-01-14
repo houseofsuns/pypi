@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/django-environ[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.9.4[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/social-auth-app-django[${PYTHON_USEDEP}]
 	dev-python/whitenoise[${PYTHON_USEDEP}]"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/decorator-4.0.9[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.23.2[${PYTHON_USEDEP}]
+	>=dev-python/pillow-5.2.0[${PYTHON_USEDEP}]
+	~dev-python/prettytable-0.7.2[${PYTHON_USEDEP}]
 	dev-python/resampy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/llvmlite[${PYTHON_USEDEP}]
 	dev-python/coremltools[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]"

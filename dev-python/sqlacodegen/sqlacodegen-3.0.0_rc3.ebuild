@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="citext geoalchemy2 sqlmodel test"
 DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
+	>=dev-python/inflect-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/greenlet-3.0.0[${PYTHON_USEDEP}]
 	citext? ( dev-python/sqlalchemy-citext[${PYTHON_USEDEP}] )
 	geoalchemy2? ( dev-python/geoalchemy2[${PYTHON_USEDEP}] )
 	sqlmodel? ( dev-python/sqlmodel[${PYTHON_USEDEP}] )

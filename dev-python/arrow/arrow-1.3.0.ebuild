@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}]
 	dev-python/types-python-dateutil[${PYTHON_USEDEP}]
 	doc? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	test? ( dev-python/simplejson[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytz-2021.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/simplejson-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

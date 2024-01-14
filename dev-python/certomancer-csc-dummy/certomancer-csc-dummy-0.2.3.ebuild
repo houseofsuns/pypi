@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asn1crypto-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.3.1[${PYTHON_USEDEP}]
 	dev-python/certomancer[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	dev-python/python-pae[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

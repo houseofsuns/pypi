@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/minty[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/redis-4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

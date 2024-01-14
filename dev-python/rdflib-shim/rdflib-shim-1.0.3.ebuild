@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rdflib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/rdflib-5.0.0[${PYTHON_USEDEP}]
 	dev-python/rdflib-jsonld[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

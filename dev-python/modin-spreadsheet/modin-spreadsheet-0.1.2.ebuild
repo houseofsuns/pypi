@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/notebook-6.0.3[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.0.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-2.8.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

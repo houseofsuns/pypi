@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
 	dev-python/linux-utils[${PYTHON_USEDEP}]
 	dev-python/oslo-concurrency[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
 	dev-python/shakenfist-utilities[${PYTHON_USEDEP}]
 	dev-python/symbolicmode[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

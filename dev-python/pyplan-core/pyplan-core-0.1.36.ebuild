@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/autopep8[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpydoc[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/pytest-5.4.1[${PYTHON_USEDEP}]
+	>=dev-python/autopep8-1.4.4[${PYTHON_USEDEP}]
+	~dev-python/jsonpickle-1.2[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-2.6.2[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.17.5[${PYTHON_USEDEP}]
+	~dev-python/numpydoc-0.9.1[${PYTHON_USEDEP}]
+	~dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
+	~dev-python/xarray-0.14.1[${PYTHON_USEDEP}]
+	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

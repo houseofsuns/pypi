@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.26[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	~dev-python/docker-5.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.0[${PYTHON_USEDEP}]
+	~dev-python/click-default-group-1.2[${PYTHON_USEDEP}]
 	dev-python/neon-mq-connector[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

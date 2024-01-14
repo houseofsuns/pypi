@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.10.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.1.3[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-1.3.7[${PYTHON_USEDEP}]
 	dev-python/obonet[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]"
+	>=dev-python/regex-2.5.135[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

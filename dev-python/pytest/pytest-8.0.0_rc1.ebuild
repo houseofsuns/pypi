@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES="dev-python/iniconfig[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	<dev-python/pluggy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/exceptiongroup-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.0.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
-	testing? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	testing? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/attrs-19.2.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/hypothesis-3.56[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nose[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pygments-2.7.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/requests[${PYTHON_USEDEP}] )
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/xmlschema[${PYTHON_USEDEP}] )"

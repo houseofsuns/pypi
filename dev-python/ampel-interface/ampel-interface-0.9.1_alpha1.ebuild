@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/xxhash-4.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
+	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/tomlkit[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/tomlkit-0.13.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.0.3[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	~dev-python/setuptools-49.6.0[${PYTHON_USEDEP}]
 	dev-python/snakemake[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/basefunctions[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.1[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
 	dev-python/stockstats[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

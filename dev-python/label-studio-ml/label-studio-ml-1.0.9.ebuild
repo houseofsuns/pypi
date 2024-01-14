@@ -27,14 +27,14 @@ IUSE=""
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	dev-python/attr[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	~dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
 	dev-python/label-studio-tools[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]"
+	>=dev-python/lxml-4.2.5[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

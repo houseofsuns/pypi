@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/hatchling[${PYTHON_USEDEP}]
+	>=dev-python/hatchling-1.11.0[${PYTHON_USEDEP}]
 	dev-python/ninja[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

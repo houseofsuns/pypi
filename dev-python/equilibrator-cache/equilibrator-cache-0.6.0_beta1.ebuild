@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deployment development test"
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/Levenshtein[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.11[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5[${PYTHON_USEDEP}]
+	~dev-python/Levenshtein-0.21[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/periodictable[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.24[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31[${PYTHON_USEDEP}]
+	~dev-python/tenacity-6.3[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.0[${PYTHON_USEDEP}]
+	~dev-python/appdirs-1.4[${PYTHON_USEDEP}]
+	~dev-python/pooch-1.8[${PYTHON_USEDEP}]
 	deployment? ( dev-python/click[${PYTHON_USEDEP}] )
 	deployment? ( dev-python/click-log[${PYTHON_USEDEP}] )
 	deployment? ( dev-python/openbabel[${PYTHON_USEDEP}] )

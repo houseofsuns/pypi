@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/flytekit[${PYTHON_USEDEP}]
 	dev-python/papermill[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]"
+	>=dev-python/nbconvert-6.0.7[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,15 +27,15 @@ IUSE=""
 DEPENDENCIES="dev-python/Flask-Compress[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/Twisted[${PYTHON_USEDEP}]
-	dev-python/autobahn[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	<dev-python/autobahn-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/flask-3.0[${PYTHON_USEDEP}]
 	dev-python/flask-restx[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
-	dev-python/plumbum[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]"
+	<dev-python/ijson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/plumbum-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.18.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/semver-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/optuna[${PYTHON_USEDEP}]
 	checking? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	checking? ( dev-python/types-redis[${PYTHON_USEDEP}] )
 	checking? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	checking? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	checking? ( >=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}] )
 	document? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	document? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

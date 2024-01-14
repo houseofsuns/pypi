@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="postgresql"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/alembic-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-0.4.0[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/progress[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.10.0[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/progress-1.4[${PYTHON_USEDEP}]
 	postgresql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

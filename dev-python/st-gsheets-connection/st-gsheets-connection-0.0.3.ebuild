@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/gspread-pandas[${PYTHON_USEDEP}]
 	dev-python/gspread-dataframe[${PYTHON_USEDEP}]
 	dev-python/gspread-formatting[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/duckdb[${PYTHON_USEDEP}]
 	dev-python/sql-metadata[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]"
+	>=dev-python/validators-0.22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

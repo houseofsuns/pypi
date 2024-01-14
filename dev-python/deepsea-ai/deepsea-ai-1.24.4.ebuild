@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/awscli[${PYTHON_USEDEP}]
 	dev-python/sagemaker[${PYTHON_USEDEP}]
 	dev-python/pydantic-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

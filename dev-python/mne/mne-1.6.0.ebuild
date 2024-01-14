@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc full hdf5 test test_extra"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
+	>=dev-python/pooch-1.5[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/lazy-loader[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
 	dev? ( dev-python/mne[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pydata-sphinx-theme-0.13.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinxcontrib-bibtex-2.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
 	doc? ( dev-python/neo[${PYTHON_USEDEP}] )
-	doc? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	doc? ( >dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-youtube[${PYTHON_USEDEP}] )
@@ -50,11 +50,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	doc? ( dev-python/pyxdf[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mne-connectivity[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mne-gui-addons[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/pygments-2.13[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	doc? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
-	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	doc? ( >dev-python/pyzmq-24.0.0[${PYTHON_USEDEP}] )
+	doc? ( >dev-python/ipython-8.7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	full? ( dev-python/mne[${PYTHON_USEDEP}] )
 	full? ( dev-python/qtpy[${PYTHON_USEDEP}] )
@@ -76,8 +76,8 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	full? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	full? ( dev-python/nilearn[${PYTHON_USEDEP}] )
 	full? ( dev-python/xlrd[${PYTHON_USEDEP}] )
-	full? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	full? ( dev-python/imageio-ffmpeg[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/imageio-2.6.1[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/imageio-ffmpeg-0.4.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/traitlets[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyvistaqt[${PYTHON_USEDEP}] )
@@ -116,8 +116,8 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test_extra? ( dev-python/eeglabio[${PYTHON_USEDEP}] )
 	test_extra? ( dev-python/EDFlib-Python[${PYTHON_USEDEP}] )
 	test_extra? ( dev-python/pybv[${PYTHON_USEDEP}] )
-	test_extra? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	test_extra? ( dev-python/imageio-ffmpeg[${PYTHON_USEDEP}] )
+	test_extra? ( >=dev-python/imageio-2.6.1[${PYTHON_USEDEP}] )
+	test_extra? ( >=dev-python/imageio-ffmpeg-0.4.1[${PYTHON_USEDEP}] )
 	test_extra? ( dev-python/snirf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

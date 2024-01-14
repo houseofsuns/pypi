@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/docker-7.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pytest-xdist[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-xdist-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/black-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

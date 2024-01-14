@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Scrapy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/pytest-rerunfailures[${PYTHON_USEDEP}]
+	<dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/docker-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-rerunfailures-12.0.0[${PYTHON_USEDEP}]
 	dev-python/scrapy-fake-useragent[${PYTHON_USEDEP}]
 	dev-python/scrapy-splash[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

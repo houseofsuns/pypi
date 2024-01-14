@@ -32,35 +32,35 @@ DEPENDENCIES="dev-python/ampel-plot[${PYTHON_USEDEP}]
 	dev-python/ampel-alerts[${PYTHON_USEDEP}]
 	ligo? ( dev-python/sncosmo[${PYTHON_USEDEP}] )
 	sncosmo? ( dev-python/sncosmo[${PYTHON_USEDEP}] )
-	ligo? ( dev-python/iminuit[${PYTHON_USEDEP}] )
-	sncosmo? ( dev-python/iminuit[${PYTHON_USEDEP}] )
+	ligo? ( <dev-python/iminuit-3.0.0[${PYTHON_USEDEP}] )
+	sncosmo? ( <dev-python/iminuit-3.0.0[${PYTHON_USEDEP}] )
 	ligo? ( dev-python/sfdmap2[${PYTHON_USEDEP}] )
 	sncosmo? ( dev-python/sfdmap2[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/backoff-3.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.29.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
 	dev-python/adjustText[${PYTHON_USEDEP}]
 	extcats? ( dev-python/extcats[${PYTHON_USEDEP}] )
 	slack? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
 	elasticc? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	elasticc? ( dev-python/astro-parsnip[${PYTHON_USEDEP}] )
-	elasticc? ( dev-python/timeout-decorator[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	elasticc? ( <dev-python/timeout-decorator-0.6[${PYTHON_USEDEP}] )
+	notebook? ( <dev-python/jupyter-2.0.0[${PYTHON_USEDEP}] )
 	voevent? ( dev-python/voevent-parse[${PYTHON_USEDEP}] )
 	dev-python/ztfquery[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/uncertainties[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-10.0.0[${PYTHON_USEDEP}]
+	<dev-python/uncertainties-4.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/corner[${PYTHON_USEDEP}]
 	ligo? ( dev-python/healpy[${PYTHON_USEDEP}] )
 	dev-python/light-curve[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/ampel-lsst[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

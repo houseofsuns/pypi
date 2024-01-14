@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Xblock[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+	>=dev-python/bleach-6.0.0[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
 	dev-python/django[${PYTHON_USEDEP}]

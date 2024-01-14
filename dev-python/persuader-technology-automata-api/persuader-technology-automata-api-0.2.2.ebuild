@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.17.6[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	dev-python/persuader-technology-automata-core[${PYTHON_USEDEP}]
 	dev-python/persuader-technology-automata-utilities[${PYTHON_USEDEP}]
 	dev-python/persuader-technology-automata-logger[${PYTHON_USEDEP}]

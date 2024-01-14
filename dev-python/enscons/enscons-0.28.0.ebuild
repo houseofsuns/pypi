@@ -31,7 +31,7 @@ DEPENDENCIES="cli? ( dev-python/click[${PYTHON_USEDEP}] )
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/editables[${PYTHON_USEDEP}]"
+	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
+	~dev-python/editables-0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

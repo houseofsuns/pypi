@@ -38,9 +38,9 @@ DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )

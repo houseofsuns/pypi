@@ -32,11 +32,11 @@ DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	forecast? ( dev-python/sktime[${PYTHON_USEDEP}] )
-	forecast? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	forecast? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	forecast? ( <dev-python/numpy-1.25[${PYTHON_USEDEP}] )
+	forecast? ( <dev-python/scipy-2.0.0[${PYTHON_USEDEP}] )
 	viz? ( dev-python/altair[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

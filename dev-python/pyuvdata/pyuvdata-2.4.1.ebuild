@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all astroquery casa cst dev doc hdf5_compression healpix lunar novas test"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/pyerfa[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-61.0[${PYTHON_USEDEP}]
+	>dev-python/setuptools-scm-7.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/astroquery[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-casacore[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/hdf5plugin[${PYTHON_USEDEP}] )
 	all? ( dev-python/astropy-healpix[${PYTHON_USEDEP}] )
 	all? ( dev-python/lunarsky[${PYTHON_USEDEP}] )
@@ -42,16 +42,16 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	all? ( dev-python/novas-de405[${PYTHON_USEDEP}] )
 	astroquery? ( dev-python/astroquery[${PYTHON_USEDEP}] )
 	casa? ( dev-python/python-casacore[${PYTHON_USEDEP}] )
-	cst? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	cst? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/astroquery[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-casacore[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hdf5plugin[${PYTHON_USEDEP}] )
 	dev? ( dev-python/astropy-healpix[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lunarsky[${PYTHON_USEDEP}] )
 	dev? ( dev-python/novas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/novas-de405[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cases[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -69,13 +69,13 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	novas? ( dev-python/novas-de405[${PYTHON_USEDEP}] )
 	test? ( dev-python/astroquery[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-casacore[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/hdf5plugin[${PYTHON_USEDEP}] )
 	test? ( dev-python/astropy-healpix[${PYTHON_USEDEP}] )
 	test? ( dev-python/lunarsky[${PYTHON_USEDEP}] )
 	test? ( dev-python/novas[${PYTHON_USEDEP}] )
 	test? ( dev-python/novas-de405[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cases[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

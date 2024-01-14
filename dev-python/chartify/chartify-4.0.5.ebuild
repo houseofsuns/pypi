@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	>=dev-python/selenium-4.0.0[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-6.0[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.17.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jupyter-bokeh[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]"
+	>=dev-python/tornado-6.3.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

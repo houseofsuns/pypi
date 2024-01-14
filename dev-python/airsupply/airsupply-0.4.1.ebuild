@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-20.2.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/pyaxmlparser[${PYTHON_USEDEP}]
 	dev-python/pyipng[${PYTHON_USEDEP}]"

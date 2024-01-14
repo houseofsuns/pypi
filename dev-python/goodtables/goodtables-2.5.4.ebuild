@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop ods"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.9[${PYTHON_USEDEP}]
+	>=dev-python/click-6.6[${PYTHON_USEDEP}]
 	dev-python/click-default-group[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/simpleeval[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.10[${PYTHON_USEDEP}]
+	>=dev-python/simpleeval-0.9[${PYTHON_USEDEP}]
 	dev-python/statistics[${PYTHON_USEDEP}]
 	dev-python/tabulator[${PYTHON_USEDEP}]
 	dev-python/tableschema[${PYTHON_USEDEP}]
@@ -39,6 +39,6 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	ods? ( dev-python/ezodf[${PYTHON_USEDEP}] )
-	ods? ( dev-python/lxml[${PYTHON_USEDEP}] )"
+	ods? ( >=dev-python/lxml-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

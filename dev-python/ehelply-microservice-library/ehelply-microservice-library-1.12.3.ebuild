@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/ehelply-bootstrapper[${PYTHON_USEDEP}]
 	dev-python/ehelply-generator[${PYTHON_USEDEP}]
 	dev-python/ehelply-updater[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/pytest-mock[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
+	<dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/coverage-7.0.0[${PYTHON_USEDEP}]
 	dev-python/ehelply-python-experimental-sdk[${PYTHON_USEDEP}]
 	dev-python/ehelply-python-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rdkit"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	rdkit? ( dev-python/rdkit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

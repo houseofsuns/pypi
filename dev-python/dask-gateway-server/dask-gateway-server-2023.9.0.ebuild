@@ -27,15 +27,15 @@ IUSE="all_backends jobqueue kerberos kubernetes local yarn"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
-	all_backends? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	>=dev-python/traitlets-5.2.2[${PYTHON_USEDEP}]
+	all_backends? ( >=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	all_backends? ( dev-python/skein[${PYTHON_USEDEP}] )
 	all_backends? ( dev-python/kubernetes-asyncio[${PYTHON_USEDEP}] )
-	jobqueue? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	jobqueue? ( >=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	kerberos? ( dev-python/pykerberos[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/kubernetes-asyncio[${PYTHON_USEDEP}] )
-	local? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	yarn? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	local? ( >=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
+	yarn? ( >=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	yarn? ( dev-python/skein[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

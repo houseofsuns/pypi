@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/apscheduler[${PYTHON_USEDEP}]
 	dev-python/argos-translate-files[${PYTHON_USEDEP}]
 	dev-python/argostranslate[${PYTHON_USEDEP}]
 	dev-python/expiringdict[${PYTHON_USEDEP}]
-	dev-python/flask-babel[${PYTHON_USEDEP}]
+	~dev-python/flask-babel-3.1.0[${PYTHON_USEDEP}]
 	dev-python/flask-limiter[${PYTHON_USEDEP}]
 	dev-python/flask-session[${PYTHON_USEDEP}]
 	dev-python/flask-swagger-ui[${PYTHON_USEDEP}]
 	dev-python/flask-swagger[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	~dev-python/flask-2.2.5[${PYTHON_USEDEP}]
+	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
 	dev-python/lexilang[${PYTHON_USEDEP}]
 	dev-python/morfessor[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/polib[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.1[${PYTHON_USEDEP}]
+	~dev-python/polib-1.1.1[${PYTHON_USEDEP}]
+	~dev-python/prometheus-client-0.15.0[${PYTHON_USEDEP}]
+	~dev-python/redis-4.4.4[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/translatehtml[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	~dev-python/waitress-2.1.2[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.3.8[${PYTHON_USEDEP}]
 	test? ( dev-python/pip-audit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

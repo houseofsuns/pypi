@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.2.1[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.56.0[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.9.0[${PYTHON_USEDEP}]
 	dev-python/tweet-preprocessor[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	~dev-python/regex-2020.11.13[${PYTHON_USEDEP}]
 	dev-python/nlpaug[${PYTHON_USEDEP}]
-	dev-python/texttable[${PYTHON_USEDEP}]
+	~dev-python/texttable-1.6.3[${PYTHON_USEDEP}]
 	dev-python/wordcloud[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ntlm-auth[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	>=dev-python/cryptography-1.3[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

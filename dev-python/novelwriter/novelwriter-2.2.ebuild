@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyqt5[${PYTHON_USEDEP}]
-	dev-python/pyenchant[${PYTHON_USEDEP}]"
+	>=dev-python/pyenchant-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

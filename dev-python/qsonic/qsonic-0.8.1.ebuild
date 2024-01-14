@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc pub"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/healpy[${PYTHON_USEDEP}]
-	dev-python/fitsio[${PYTHON_USEDEP}]
-	dev-python/iminuit[${PYTHON_USEDEP}]
+	~dev-python/fitsio-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/iminuit-2.18.0[${PYTHON_USEDEP}]
 	dev-python/mpi4py[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

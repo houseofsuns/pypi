@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/websocket-client-1.2.3[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

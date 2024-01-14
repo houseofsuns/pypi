@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build-docs check-manifest dev lint-code lint-reuse ports-all ports-pygame ports-rtmidi ports-rtmidi-python release test-code"
-DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	build-docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	build-docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/packaging-23.1[${PYTHON_USEDEP}]
+	build-docs? ( ~dev-python/sphinx-4.3.2[${PYTHON_USEDEP}] )
+	build-docs? ( ~dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
 	check-manifest? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mido[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mido[${PYTHON_USEDEP}] )
@@ -40,9 +40,9 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	ports-all? ( dev-python/mido[${PYTHON_USEDEP}] )
 	ports-all? ( dev-python/mido[${PYTHON_USEDEP}] )
 	ports-pygame? ( dev-python/PyGame[${PYTHON_USEDEP}] )
-	ports-rtmidi? ( dev-python/python-rtmidi[${PYTHON_USEDEP}] )
+	ports-rtmidi? ( ~dev-python/python-rtmidi-1.5.4[${PYTHON_USEDEP}] )
 	ports-rtmidi-python? ( dev-python/rtmidi-python[${PYTHON_USEDEP}] )
-	release? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test-code? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	release? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	test-code? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

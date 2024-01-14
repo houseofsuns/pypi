@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev mypy telemetry tests"
 DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	>dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	dev-python/qrcode[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-futures[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-2.0.4[${PYTHON_USEDEP}]
 	dev-python/wipac-dev-tools[${PYTHON_USEDEP}]
 	dev? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

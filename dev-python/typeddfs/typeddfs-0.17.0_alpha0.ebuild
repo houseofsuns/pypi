@@ -24,39 +24,39 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all excel feather html main parquet toml xlsb xml yaml zstd"
-DEPENDENCIES="dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/wcwidth[${PYTHON_USEDEP}]
-	excel? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
-	main? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
-	all? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
-	feather? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	parquet? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	main? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	xml? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	main? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	excel? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	main? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/natsort-8.3[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.7[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/regex-2023.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8[${PYTHON_USEDEP}]
+	>=dev-python/wcwidth-0.2[${PYTHON_USEDEP}]
+	excel? ( >=dev-python/defusedxml-0.7[${PYTHON_USEDEP}] )
+	main? ( >=dev-python/defusedxml-0.7[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/defusedxml-0.7[${PYTHON_USEDEP}] )
+	feather? ( >=dev-python/pyarrow-11.0[${PYTHON_USEDEP}] )
+	parquet? ( >=dev-python/pyarrow-11.0[${PYTHON_USEDEP}] )
+	main? ( >=dev-python/pyarrow-11.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyarrow-11.0[${PYTHON_USEDEP}] )
+	xml? ( >=dev-python/lxml-4.9[${PYTHON_USEDEP}] )
+	main? ( >=dev-python/lxml-4.9[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/lxml-4.9[${PYTHON_USEDEP}] )
+	excel? ( >=dev-python/openpyxl-3.1[${PYTHON_USEDEP}] )
+	main? ( >=dev-python/openpyxl-3.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/openpyxl-3.1[${PYTHON_USEDEP}] )
 	xlsb? ( dev-python/pyxlsb[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyxlsb[${PYTHON_USEDEP}] )
-	html? ( dev-python/html5lib[${PYTHON_USEDEP}] )
-	all? ( dev-python/html5lib[${PYTHON_USEDEP}] )
-	html? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	toml? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
-	main? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
-	all? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	main? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	zstd? ( dev-python/zstandard[${PYTHON_USEDEP}] )
-	main? ( dev-python/zstandard[${PYTHON_USEDEP}] )
-	all? ( dev-python/zstandard[${PYTHON_USEDEP}] )"
+	html? ( >=dev-python/html5lib-1.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/html5lib-1.0[${PYTHON_USEDEP}] )
+	html? ( >=dev-python/beautifulsoup4-4.11[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/beautifulsoup4-4.11[${PYTHON_USEDEP}] )
+	toml? ( >=dev-python/tomlkit-0.11[${PYTHON_USEDEP}] )
+	main? ( >=dev-python/tomlkit-0.11[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tomlkit-0.11[${PYTHON_USEDEP}] )
+	yaml? ( >=dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}] )
+	main? ( >=dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}] )
+	zstd? ( >=dev-python/zstandard-0.21[${PYTHON_USEDEP}] )
+	main? ( >=dev-python/zstandard-0.21[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/zstandard-0.21[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

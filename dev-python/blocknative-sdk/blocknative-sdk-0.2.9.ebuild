@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/async-generator[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/h11[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/outcome[${PYTHON_USEDEP}]
-	dev-python/sniffio[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/trio[${PYTHON_USEDEP}]
-	dev-python/trio-websocket[${PYTHON_USEDEP}]
-	dev-python/wsproto[${PYTHON_USEDEP}]
-	dev-python/myst-parser[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]"
+	~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
+	~dev-python/h11-0.12.0[${PYTHON_USEDEP}]
+	~dev-python/idna-3.2[${PYTHON_USEDEP}]
+	~dev-python/outcome-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/sniffio-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
+	~dev-python/trio-0.19.0[${PYTHON_USEDEP}]
+	~dev-python/trio-websocket-0.9.2[${PYTHON_USEDEP}]
+	~dev-python/wsproto-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}]
+	~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/sphinx-5.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

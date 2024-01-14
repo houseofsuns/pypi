@@ -56,11 +56,11 @@ DEPENDENCIES="dev-python/decord[${PYTHON_USEDEP}]
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	all? ( dev-python/interrogate[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	all? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	all? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/xdoctest-0.10.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	mim? ( dev-python/mmcv[${PYTHON_USEDEP}] )
 	mim? ( dev-python/mmengine[${PYTHON_USEDEP}] )
@@ -81,11 +81,11 @@ DEPENDENCIES="dev-python/decord[${PYTHON_USEDEP}]
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/interrogate[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	tests? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/xdoctest-0.10.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/yapf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

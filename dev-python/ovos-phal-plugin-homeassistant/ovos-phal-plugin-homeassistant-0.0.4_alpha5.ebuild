@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/ovos-plugin-manager[${PYTHON_USEDEP}]
 	dev-python/ovos-config[${PYTHON_USEDEP}]
 	dev-python/youtube-search[${PYTHON_USEDEP}]
 	dev-python/pytube[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	~dev-python/websockets-10.4[${PYTHON_USEDEP}]
 	dev-python/ovos-PHAL-plugin-oauth[${PYTHON_USEDEP}]
 	dev-python/nested-lookup[${PYTHON_USEDEP}]
 	dev-python/ovos-bus-client[${PYTHON_USEDEP}]
-	dev-python/webcolors[${PYTHON_USEDEP}]"
+	~dev-python/webcolors-1.13[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

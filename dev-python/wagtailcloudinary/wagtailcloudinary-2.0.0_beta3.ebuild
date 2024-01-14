@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="development"
 DEPENDENCIES="dev-python/cloudinary[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7[${PYTHON_USEDEP}]
 	dev-python/wagtail[${PYTHON_USEDEP}]
-	development? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	development? ( dev-python/tox[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/flake8-3.3.0[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/tox-2.7.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/ipdb[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

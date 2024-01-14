@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/fastnumbers[${PYTHON_USEDEP}]
 	dev-python/lifeomic-logging[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	>=dev-python/natsort-8.3.1[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-67.6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

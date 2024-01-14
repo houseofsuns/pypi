@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/astroid[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/astroid-2.1.0[${PYTHON_USEDEP}]
+	<dev-python/pylint-2.13[${PYTHON_USEDEP}]
 	dev-python/pathlib2[${PYTHON_USEDEP}]
 	dev-python/pylev[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

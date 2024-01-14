@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/ashes[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/boltons[${PYTHON_USEDEP}]
+	>=dev-python/boltons-20.0.0[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
 	dev-python/secure-cookie[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

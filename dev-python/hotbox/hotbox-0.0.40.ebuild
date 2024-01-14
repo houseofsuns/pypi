@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.20.10[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.21.1[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.6.4[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.19.1[${PYTHON_USEDEP}]
+	>=dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.12.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	>=dev-python/uvicorn-0.15.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-21.10[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-6.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocs-material-9.1.5[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/packaging-21.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.20.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

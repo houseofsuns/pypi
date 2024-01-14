@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bioformats openslide"
 DEPENDENCIES="dev-python/wsidicom[${PYTHON_USEDEP}]
 	dev-python/opentile[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
 	dev-python/czifile[${PYTHON_USEDEP}]
 	dev-python/tiffslide[${PYTHON_USEDEP}]

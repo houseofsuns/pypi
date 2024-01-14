@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="codegen dev docs full jsonschema test xmlschema"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-3.1[${PYTHON_USEDEP}]
 	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.4.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/zeroconf[${PYTHON_USEDEP}]
 	codegen? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyproject-flake8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
 	full? ( dev-python/isort[${PYTHON_USEDEP}] )
 	full? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	full? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	full? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	full? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyproject-flake8[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

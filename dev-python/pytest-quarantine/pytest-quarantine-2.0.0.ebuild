@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-4.6[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

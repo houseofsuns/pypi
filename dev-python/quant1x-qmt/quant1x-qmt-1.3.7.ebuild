@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]
+	~dev-python/future-0.18.3[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/pywin32[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.18.1[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/path[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]"
+	~dev-python/path-16.7.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.7.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

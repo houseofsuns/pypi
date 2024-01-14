@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
 DEPENDENCIES="dev-python/coola[${PYTHON_USEDEP}]
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

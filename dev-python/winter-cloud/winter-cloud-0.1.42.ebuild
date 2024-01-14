@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/sqlmodel[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	dev-python/aiomysql[${PYTHON_USEDEP}]
 	dev-python/fastapi-async-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/fastapi-pagination[${PYTHON_USEDEP}]

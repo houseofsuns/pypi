@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pypdf[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pypdf-3.8.2[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]

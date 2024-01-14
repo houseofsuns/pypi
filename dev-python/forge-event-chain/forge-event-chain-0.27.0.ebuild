@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/forge-python-sdk[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/Flask-Markdown[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+	~dev-python/click-6.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

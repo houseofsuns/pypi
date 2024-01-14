@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiofiles-0.8[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

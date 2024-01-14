@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="openapi"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.12.0[${PYTHON_USEDEP}]
 	dev-python/django-ipware[${PYTHON_USEDEP}]
 	dev-python/django-settings-holder[${PYTHON_USEDEP}]
 	dev-python/magic-specs[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-36.0.0[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	openapi? ( dev-python/uritemplate[${PYTHON_USEDEP}] )
+	>=dev-python/cffi-1.15.0[${PYTHON_USEDEP}]
+	openapi? ( >=dev-python/uritemplate-4.1.1[${PYTHON_USEDEP}] )
 	openapi? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

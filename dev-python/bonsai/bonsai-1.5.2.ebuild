@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gevent tornado trio"
 DEPENDENCIES="gevent? ( dev-python/gevent[${PYTHON_USEDEP}] )
-	tornado? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	trio? ( dev-python/trio[${PYTHON_USEDEP}] )"
+	tornado? ( >=dev-python/tornado-5.1.1[${PYTHON_USEDEP}] )
+	trio? ( >=dev-python/trio-0.16.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

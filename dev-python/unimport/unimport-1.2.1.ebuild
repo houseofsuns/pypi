@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/pathspec[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pathspec-1.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/libcst[${PYTHON_USEDEP}]
 	dev-python/libcst[${PYTHON_USEDEP}]
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.4.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-minify-plugin-0.7.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-git-revision-date-localized-plugin-1.2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mike[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/semantic-version[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/semantic-version-2.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

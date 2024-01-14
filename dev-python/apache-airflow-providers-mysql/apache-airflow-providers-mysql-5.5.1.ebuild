@@ -27,7 +27,7 @@ IUSE="amazon common-sql openlineage presto trino vertica"
 DEPENDENCIES="dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python[${PYTHON_USEDEP}]
-	dev-python/mysqlclient[${PYTHON_USEDEP}]
+	>=dev-python/mysqlclient-1.3.6[${PYTHON_USEDEP}]
 	amazon? ( dev-python/apache-airflow-providers-amazon[${PYTHON_USEDEP}] )
 	common-sql? ( dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}] )
 	openlineage? ( dev-python/apache-airflow-providers-openlineage[${PYTHON_USEDEP}] )

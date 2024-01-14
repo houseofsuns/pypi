@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+	~dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
+	~dev-python/coverage-4.5.4[${PYTHON_USEDEP}]
+	~dev-python/flake8-3.9.2[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
+	~dev-python/pyopenssl-22.1.0[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-3.10.0.2[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.7[${PYTHON_USEDEP}]
+	~dev-python/watchdog-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.36.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

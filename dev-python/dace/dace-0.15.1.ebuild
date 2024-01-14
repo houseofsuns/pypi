@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	dev-python/astunparse[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	<=dev-python/sympy-1.9[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/ply[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
@@ -45,6 +45,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	testing? ( dev-python/click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

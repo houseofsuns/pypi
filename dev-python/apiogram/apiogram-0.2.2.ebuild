@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/aiogram[${PYTHON_USEDEP}]
 	dev-python/magic-config[${PYTHON_USEDEP}]
 	dev-python/geekjob-python-helpers[${PYTHON_USEDEP}]
 	dev-python/nosql-storage-wrapper[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs plotting tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pydata-sphinx-theme-0.8.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/maplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/mock-4.0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

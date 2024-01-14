@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/hikari[${PYTHON_USEDEP}]
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/furo-2022.1.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

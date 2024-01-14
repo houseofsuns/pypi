@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc openapi release test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.12[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >dev-python/sphinx-5.2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-1.1.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	openapi? ( dev-python/drf-spectacular[${PYTHON_USEDEP}] )
 	openapi? ( dev-python/inflection[${PYTHON_USEDEP}] )

@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/parse[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/dill-0.3.4[${PYTHON_USEDEP}]
+	~dev-python/parse-1.19.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/pyreadline[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	all? ( dev-python/sshtunnel[${PYTHON_USEDEP}] )
+	~dev-python/pymongo-3.12.1[${PYTHON_USEDEP}]
+	all? ( ~dev-python/sshtunnel-0.4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymssql[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/boto3-1.19.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
-	all? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
-	all? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
-	all? ( dev-python/docker[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/APScheduler-3.8.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/docker-5.0.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

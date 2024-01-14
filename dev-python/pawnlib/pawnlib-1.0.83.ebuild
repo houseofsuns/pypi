@@ -26,37 +26,37 @@ KEYWORDS="~amd64 ~x86"
 IUSE="brotli docker full wallet"
 DEPENDENCIES="dev-python/aiometer[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/asttokens[${PYTHON_USEDEP}]
+	>=dev-python/asttokens-2.0.5[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2020.12.15[${PYTHON_USEDEP}]
+	>=dev-python/charset-normalizer-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
 	dev-python/devtools[${PYTHON_USEDEP}]
-	dev-python/executing[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	>=dev-python/executing-0.8.3[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
+	>=dev-python/idna-2.5[${PYTHON_USEDEP}]
 	dev-python/inquirerpy[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/parameterized[${PYTHON_USEDEP}]
+	>=dev-python/parameterized-0.8.1[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.14.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.0.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-0.59.0[${PYTHON_USEDEP}]
 	brotli? ( dev-python/brotli[${PYTHON_USEDEP}] )
 	brotli? ( dev-python/brotlicffi[${PYTHON_USEDEP}] )
 	docker? ( dev-python/aiodocker[${PYTHON_USEDEP}] )
 	full? ( dev-python/aiodocker[${PYTHON_USEDEP}] )
 	full? ( dev-python/coincurve[${PYTHON_USEDEP}] )
 	full? ( dev-python/eth-keyfile[${PYTHON_USEDEP}] )
-	full? ( dev-python/rich[${PYTHON_USEDEP}] )
+	full? ( <dev-python/rich-14.0[${PYTHON_USEDEP}] )
 	wallet? ( dev-python/coincurve[${PYTHON_USEDEP}] )
 	wallet? ( dev-python/eth-keyfile[${PYTHON_USEDEP}] )
-	wallet? ( dev-python/rich[${PYTHON_USEDEP}] )"
+	wallet? ( <dev-python/rich-14.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

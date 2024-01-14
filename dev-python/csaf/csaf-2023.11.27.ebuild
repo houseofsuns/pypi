@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}]
 	dev-python/langcodes[${PYTHON_USEDEP}]
 	dev-python/lazr-uri[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/referencing[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.5.1[${PYTHON_USEDEP}]
+	>=dev-python/referencing-0.31.0[${PYTHON_USEDEP}]
 	dev-python/scooby[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )

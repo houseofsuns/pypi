@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	dev-python/aioxmpp[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/pyaes[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]"
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/colorlog-6.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

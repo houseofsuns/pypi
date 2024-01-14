@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/robotframework[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
 	xls? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	xls? ( dev-python/xlrd[${PYTHON_USEDEP}] )
+	xls? ( >=dev-python/xlrd-1.2.0[${PYTHON_USEDEP}] )
 	xls? ( dev-python/openpyxl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

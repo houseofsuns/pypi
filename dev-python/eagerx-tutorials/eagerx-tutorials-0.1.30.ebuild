@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/PyVirtualDisplay[${PYTHON_USEDEP}]
 	dev-python/eagerx[${PYTHON_USEDEP}]
 	dev-python/eagerx-ode[${PYTHON_USEDEP}]
 	dev-python/eagerx-pybullet[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
+	<dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/jupyterlab-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}]
 	dev-python/shimmy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

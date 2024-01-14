@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/snow-pyrepl[${PYTHON_USEDEP}]
 	dev-python/replit[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	<dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
 	dev-python/datauri[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

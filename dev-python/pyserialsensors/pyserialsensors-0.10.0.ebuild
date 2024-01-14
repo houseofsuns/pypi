@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/minimalmodbus[${PYTHON_USEDEP}]
-	dev-python/timeout-decorator[${PYTHON_USEDEP}]
+	~dev-python/timeout-decorator-0.4.1[${PYTHON_USEDEP}]
 	dev-python/pyftdi[${PYTHON_USEDEP}]
 	dev-python/pyserialsensors[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/distro[${PYTHON_USEDEP}]
 	dev-python/glean-sdk[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/python-hglib[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	>=dev-python/sentry-sdk-0.14.3[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]"
+	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/demjson3[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/jsonpickle-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/jsonpatch[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

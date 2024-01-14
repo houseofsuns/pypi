@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full socketio"
-DEPENDENCIES="dev-python/msgpack[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/msgpack-1.0.2[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
 	full? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	full? ( dev-python/zarr[${PYTHON_USEDEP}] )
-	full? ( dev-python/python-engineio[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/python-engineio-4.1.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/python-socketio[${PYTHON_USEDEP}] )
 	full? ( dev-python/aiortc[${PYTHON_USEDEP}] )
 	socketio? ( dev-python/python-socketio[${PYTHON_USEDEP}] )
-	socketio? ( dev-python/python-engineio[${PYTHON_USEDEP}] )"
+	socketio? ( >=dev-python/python-engineio-4.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

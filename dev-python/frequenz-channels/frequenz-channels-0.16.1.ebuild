@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/watchfiles[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/watchfiles-0.20.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/mike[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.1.17[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-section-index[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/mkdocstrings-0.22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

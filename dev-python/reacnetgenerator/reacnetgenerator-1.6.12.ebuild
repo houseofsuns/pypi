@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/hmmlearn[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/scour[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.9.0[${PYTHON_USEDEP}]
 	dev-python/coloredlogs[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/lz4[${PYTHON_USEDEP}]
@@ -48,9 +48,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	docs? ( dev-python/deepmodeling-sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pygments-lammps[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-bibtex-2.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/cython[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xvfb[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )

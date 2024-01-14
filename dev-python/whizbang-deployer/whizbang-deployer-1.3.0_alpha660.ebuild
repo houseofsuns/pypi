@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/az-cli[${PYTHON_USEDEP}]
 	dev-python/databricks-cli[${PYTHON_USEDEP}]
 	dev-python/pyodbc[${PYTHON_USEDEP}]
 	dev-python/dependency-injector[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/azure-cli[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]"
+	<dev-python/jsonpath-ng-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

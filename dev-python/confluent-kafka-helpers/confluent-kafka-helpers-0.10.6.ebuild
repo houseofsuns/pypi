@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="opentracing"
-DEPENDENCIES="dev-python/structlog[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/structlog-17.2.0[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	opentracing? ( dev-python/opentracing[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

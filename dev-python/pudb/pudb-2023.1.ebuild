@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="completion"
-DEPENDENCIES="dev-python/urwid[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/jedi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/urwid-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.7.4[${PYTHON_USEDEP}]
+	<dev-python/jedi-1.0[${PYTHON_USEDEP}]
 	dev-python/urwid_readline[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	completion? ( dev-python/shtab[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

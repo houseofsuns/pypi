@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/sphinx-2.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

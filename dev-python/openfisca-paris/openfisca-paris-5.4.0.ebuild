@@ -27,6 +27,6 @@ IUSE="test"
 DEPENDENCIES="dev-python/OpenFisca-Core[${PYTHON_USEDEP}]
 	dev-python/OpenFisca-France[${PYTHON_USEDEP}]
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-5.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

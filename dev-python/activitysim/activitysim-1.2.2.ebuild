@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/cytoolz[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.1[${PYTHON_USEDEP}]
 	dev-python/openmatrix[${PYTHON_USEDEP}]
 	dev-python/orca[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-4.1[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-2.0[${PYTHON_USEDEP}]
 	dev-python/pypyr[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.7[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/sharrow[${PYTHON_USEDEP}]
 	dev-python/simwrapper[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]"
+	>=dev-python/tables-3.5.1[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.21[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

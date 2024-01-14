@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev kafka-python"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.17.102[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
-	dev-python/fastjsonschema[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	kafka-python? ( dev-python/kafka-python[${PYTHON_USEDEP}] )"
+	~dev-python/fastjsonschema-2.15[${PYTHON_USEDEP}]
+	~dev-python/orjson-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.7.7[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.0[${PYTHON_USEDEP}] )
+	kafka-python? ( >=dev-python/kafka-python-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

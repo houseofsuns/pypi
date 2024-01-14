@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tool"
-DEPENDENCIES="dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	tool? ( dev-python/click[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/google-auth-2.15.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-0.7.0[${PYTHON_USEDEP}]
+	tool? ( >=dev-python/click-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

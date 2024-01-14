@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/dlib[${PYTHON_USEDEP}]
@@ -34,13 +34,13 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchaudio[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	<dev-python/flask-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/waitress-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pymatting[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
+	<dev-python/filetype-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]"
+	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

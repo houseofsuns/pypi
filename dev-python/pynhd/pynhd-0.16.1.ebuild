@@ -28,12 +28,12 @@ DEPENDENCIES="dev-python/async-retriever[${PYTHON_USEDEP}]
 	dev-python/cytoolz[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-1.0.1[${PYTHON_USEDEP}]
 	dev-python/pygeoogc[${PYTHON_USEDEP}]
 	dev-python/pygeoutils[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0[${PYTHON_USEDEP}]
 	nhdplus? ( dev-python/py7zr[${PYTHON_USEDEP}] )
 	nhdplus? ( dev-python/pyogrio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

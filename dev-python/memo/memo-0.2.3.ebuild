@@ -24,35 +24,35 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test web"
-DEPENDENCIES="dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/joblib-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.4.5[${PYTHON_USEDEP}]
+	>=dev-python/rich-9.2.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/flake8-3.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/joblib-1.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jupyterlab-0.35.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-material-6.1.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-1.1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-0.13.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mktestdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/numpy-1.19.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/orjson-3.4.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/joblib[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-4.0.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/rich-9.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tqdm-4.54.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/joblib-1.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/mktestdocs[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/numpy-1.19.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/orjson-3.4.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/rich[${PYTHON_USEDEP}] )
-	test? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	web? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	web? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	web? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	web? ( dev-python/rich[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-4.0.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/rich-9.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tqdm-4.54.0[${PYTHON_USEDEP}] )
+	web? ( >=dev-python/httpx-0.16.1[${PYTHON_USEDEP}] )
+	web? ( >=dev-python/joblib-1.0.1[${PYTHON_USEDEP}] )
+	web? ( >=dev-python/orjson-3.4.5[${PYTHON_USEDEP}] )
+	web? ( >=dev-python/rich-9.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

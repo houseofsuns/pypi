@@ -26,31 +26,31 @@ KEYWORDS="~amd64 ~x86"
 IUSE="keystone kmip_keymaster kms_keymaster test"
 DEPENDENCIES="dev-python/PasteDeploy[${PYTHON_USEDEP}]
 	dev-python/PyECLib[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.0.2[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/greenlet-0.3.2[${PYTHON_USEDEP}]
+	>=dev-python/lxml-3.4.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/xattr[${PYTHON_USEDEP}]
 	keystone? ( dev-python/keystonemiddleware[${PYTHON_USEDEP}] )
 	kmip_keymaster? ( dev-python/pykmip[${PYTHON_USEDEP}] )
 	kms_keymaster? ( dev-python/castellan[${PYTHON_USEDEP}] )
-	kms_keymaster? ( dev-python/oslo-config[${PYTHON_USEDEP}] )
-	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	test? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	test? ( dev-python/boto[${PYTHON_USEDEP}] )
-	test? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	kms_keymaster? ( >=dev-python/oslo-config-4.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/bandit-1.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/boto3-1.9[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/boto-2.32.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/botocore-1.12[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.0.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/docutils-0.11[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
 	test? ( dev-python/keystonemiddleware[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-keystoneclient[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-swiftclient[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/mock-2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6.11[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-keystoneclient-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-swiftclient-3.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-mock-1.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

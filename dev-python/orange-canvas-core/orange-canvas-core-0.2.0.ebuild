@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docbuild"
 DEPENDENCIES="dev-python/AnyQt[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/commonmark[${PYTHON_USEDEP}]
+	>=dev-python/commonmark-0.8.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-cache[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+	>=dev-python/pip-18.0[${PYTHON_USEDEP}]
 	dev-python/dictdiffer[${PYTHON_USEDEP}]
 	dev-python/qasync[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]

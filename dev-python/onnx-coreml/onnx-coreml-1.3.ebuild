@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.6.2.1[${PYTHON_USEDEP}]
 	dev-python/coremltools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

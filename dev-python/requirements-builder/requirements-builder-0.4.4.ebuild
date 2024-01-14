@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
+	<dev-python/mock-4.0[${PYTHON_USEDEP}]
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )

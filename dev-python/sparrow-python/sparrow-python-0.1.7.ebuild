@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli dev latex ml other torch"
 DEPENDENCIES="torch? ( dev-python/koila[${PYTHON_USEDEP}] )
-	dev-python/attrs[${PYTHON_USEDEP}]
+	~dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	dev-python/chevron[${PYTHON_USEDEP}]
 	dev-python/colour[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/mpire[${PYTHON_USEDEP}]
 	dev-python/pretty-errors[${PYTHON_USEDEP}]
@@ -57,16 +57,16 @@ DEPENDENCIES="torch? ( dev-python/koila[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gpustat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ordered-set[${PYTHON_USEDEP}] )
 	dev? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pendulum[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pendulum-2.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/psutil-5.9.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyahocorasick[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pysnooper[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ray[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/uvicorn-0.16.0[${PYTHON_USEDEP}] )
 	latex? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
 	latex? ( dev-python/pix2tex[${PYTHON_USEDEP}] )
 	ml? ( dev-python/fastapi[${PYTHON_USEDEP}] )
@@ -74,15 +74,15 @@ DEPENDENCIES="torch? ( dev-python/koila[${PYTHON_USEDEP}] )
 	ml? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	ml? ( dev-python/pysnooper[${PYTHON_USEDEP}] )
 	ml? ( dev-python/ray[${PYTHON_USEDEP}] )
-	ml? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	ml? ( >=dev-python/uvicorn-0.16.0[${PYTHON_USEDEP}] )
 	other? ( dev-python/aiortc[${PYTHON_USEDEP}] )
 	other? ( dev-python/arrayfire[${PYTHON_USEDEP}] )
 	other? ( dev-python/awkward[${PYTHON_USEDEP}] )
 	other? ( dev-python/cn2an[${PYTHON_USEDEP}] )
 	other? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	other? ( dev-python/grpcio-reflection[${PYTHON_USEDEP}] )
-	other? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
-	other? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	other? ( ~dev-python/grpcio-tools-1.46.3[${PYTHON_USEDEP}] )
+	other? ( ~dev-python/grpcio-1.46.3[${PYTHON_USEDEP}] )
 	other? ( dev-python/keyborad[${PYTHON_USEDEP}] )
 	other? ( dev-python/memray[${PYTHON_USEDEP}] )
 	other? ( dev-python/protobuf[${PYTHON_USEDEP}] )

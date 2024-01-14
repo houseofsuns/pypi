@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/setuptools-68.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-semantic-release[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/markdown-include[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.20.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.1.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/markdown-include-0.8.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

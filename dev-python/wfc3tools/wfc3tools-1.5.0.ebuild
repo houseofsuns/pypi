@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	dev-python/stsci-tools[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"

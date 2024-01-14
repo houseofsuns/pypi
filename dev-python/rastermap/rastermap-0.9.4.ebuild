@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gui"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	gui? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/pyqtgraph-0.11.0[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqt6-sip[${PYTHON_USEDEP}] )
 	gui? ( dev-python/qtpy[${PYTHON_USEDEP}] )

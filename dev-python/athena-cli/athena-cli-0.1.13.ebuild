@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/cmd2[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/boto3-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/cmd2-0.9.0.1[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

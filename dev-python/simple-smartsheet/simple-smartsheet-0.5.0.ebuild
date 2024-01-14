@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pandas"
-DEPENDENCIES="dev-python/marshmallow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/cattrs[${PYTHON_USEDEP}]
 	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	pandas? ( >=dev-python/pandas-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

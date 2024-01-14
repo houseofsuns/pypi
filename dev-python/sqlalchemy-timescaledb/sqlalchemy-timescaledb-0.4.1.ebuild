@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
+	test? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-factoryboy[${PYTHON_USEDEP}] )
-	test? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	test? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/alembic-1.9.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-asyncio-0.20.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/resilient[${PYTHON_USEDEP}]
 	dev-python/stompest[${PYTHON_USEDEP}]
 	dev-python/circuits[${PYTHON_USEDEP}]
 	dev-python/pysocks[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]"
+	~dev-python/filelock-3.2[${PYTHON_USEDEP}]
+	~dev-python/watchdog-2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

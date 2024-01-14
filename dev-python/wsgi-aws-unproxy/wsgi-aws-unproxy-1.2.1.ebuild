@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/netaddr-0.7.19[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-1.4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-5.0.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/requests-mock-1.3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-2.8.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.0.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-imports[${PYTHON_USEDEP}] )"

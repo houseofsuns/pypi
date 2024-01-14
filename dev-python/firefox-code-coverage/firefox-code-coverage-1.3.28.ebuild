@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-magic[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
 	dev-python/taskcluster[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]"
+	~dev-python/tenacity-8.2.3[${PYTHON_USEDEP}]
+	~dev-python/zstandard-0.22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

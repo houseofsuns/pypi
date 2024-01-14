@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/mpyq[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.14.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

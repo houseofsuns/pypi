@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="flaky pip-licenses sphinx"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
-	flaky? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.3[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
+	<dev-python/deprecation-3.0[${PYTHON_USEDEP}]
+	flaky? ( <dev-python/flaky-4.0[${PYTHON_USEDEP}] )
+	sphinx? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	pip-licenses? ( dev-python/pip-licenses[${PYTHON_USEDEP}] )
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
+	<dev-python/appdirs-2.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/treelib[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	dev-python/bson-extra[${PYTHON_USEDEP}]
 	dev-python/addict[${PYTHON_USEDEP}]
 	dev-python/troposphere[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/cryptography-36.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

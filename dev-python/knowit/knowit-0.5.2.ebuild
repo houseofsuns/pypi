@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/babelfish[${PYTHON_USEDEP}]
-	dev-python/enzyme[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/babelfish-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/enzyme-0.5.0[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/pymediainfo[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pymediainfo-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/trakit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

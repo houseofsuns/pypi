@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/bunch[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]"
+	>=dev-python/ipython-7.31.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

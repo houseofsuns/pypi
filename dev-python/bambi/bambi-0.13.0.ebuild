@@ -27,16 +27,16 @@ IUSE="dev jax"
 DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
 	dev-python/formulae[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pymc[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-5.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.17.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-4.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/quartodoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
 	jax? ( dev-python/blackjax[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jax[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jaxlib[${PYTHON_USEDEP}] )

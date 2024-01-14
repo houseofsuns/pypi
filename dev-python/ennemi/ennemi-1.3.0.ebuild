@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.7[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pandas-1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

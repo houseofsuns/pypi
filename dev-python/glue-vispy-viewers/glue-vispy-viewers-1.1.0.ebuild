@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/vispy[${PYTHON_USEDEP}]
 	all? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	qt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	qt? ( >=dev-python/PyQt5-5.9[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )

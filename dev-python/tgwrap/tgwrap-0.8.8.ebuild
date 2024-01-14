@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pydot[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydot-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/terrasafe[${PYTHON_USEDEP}]
 	dev-python/outdated[${PYTHON_USEDEP}]
-	dev-python/pyhcl[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyhcl-0.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/python-hcl2[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

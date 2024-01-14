@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/PySide2[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/lz4[${PYTHON_USEDEP}]"
+	>=dev-python/numpy-1.18[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
+	>=dev-python/lz4-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,6 +27,6 @@ IUSE="asymmetric_crypto"
 DEPENDENCIES="dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	asymmetric_crypto? ( dev-python/cryptography[${PYTHON_USEDEP}] )"
+	asymmetric_crypto? ( >=dev-python/cryptography-3.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

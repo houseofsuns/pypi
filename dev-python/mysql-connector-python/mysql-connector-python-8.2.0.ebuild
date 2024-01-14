@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="compression dns-srv gssapi opentelemetry"
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
-	compression? ( dev-python/lz4[${PYTHON_USEDEP}] )
-	compression? ( dev-python/zstandard[${PYTHON_USEDEP}] )
-	dns-srv? ( dev-python/dnspython[${PYTHON_USEDEP}] )
-	gssapi? ( dev-python/gssapi[${PYTHON_USEDEP}] )
+	compression? ( <=dev-python/lz4-4.3.2[${PYTHON_USEDEP}] )
+	compression? ( <=dev-python/zstandard-0.19.0[${PYTHON_USEDEP}] )
+	dns-srv? ( <=dev-python/dnspython-2.3.0[${PYTHON_USEDEP}] )
+	gssapi? ( <=dev-python/gssapi-1.8.2[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/Deprecated[${PYTHON_USEDEP}] )
-	opentelemetry? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	opentelemetry? ( dev-python/zipp[${PYTHON_USEDEP}] )"
+	opentelemetry? ( >=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}] )
+	opentelemetry? ( >=dev-python/zipp-0.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

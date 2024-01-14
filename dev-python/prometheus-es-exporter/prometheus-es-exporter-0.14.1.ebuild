@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/click-config-file[${PYTHON_USEDEP}]
 	dev-python/elasticsearch[${PYTHON_USEDEP}]
 	dev-python/jog[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]"
+	>=dev-python/prometheus-client-0.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

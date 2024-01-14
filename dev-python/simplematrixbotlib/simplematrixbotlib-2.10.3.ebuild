@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/matrix-nio[${PYTHON_USEDEP}]
 	dev-python/python-cryptography-fernet-wrapper[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
+	<dev-python/markdown-4.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

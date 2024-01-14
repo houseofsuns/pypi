@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.2[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	dev-python/coinaddrng[${PYTHON_USEDEP}]
 	dev-python/cfscrape[${PYTHON_USEDEP}]
 	dev-python/ethereum-input-decoder[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.4.1[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
 	dev-python/marko[${PYTHON_USEDEP}]
 	dev-python/fake-useragent[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/pytest-vcr[${PYTHON_USEDEP}]
-	dev-python/requests-mock[${PYTHON_USEDEP}]"
+	>=dev-python/requests-mock-1.9.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

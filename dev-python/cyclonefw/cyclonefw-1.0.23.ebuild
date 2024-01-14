@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-0.16.1[${PYTHON_USEDEP}]
 	dev-python/flask-restx[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0.9[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-zipkin-proto-http[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-jaeger[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]

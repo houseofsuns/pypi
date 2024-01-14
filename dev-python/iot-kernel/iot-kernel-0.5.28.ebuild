@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ipykernel[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipykernel-6.0[${PYTHON_USEDEP}]
 	dev-python/iot-device[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]

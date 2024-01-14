@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev ha log metric ob schema security"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/mako[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.5[${PYTHON_USEDEP}]
+	~dev-python/mako-1.2.4[${PYTHON_USEDEP}]
 	dev-python/nameko[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4.0[${PYTHON_USEDEP}]
 	dev-python/python-on-whales[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
-	ha? ( dev-python/cachetools[${PYTHON_USEDEP}] )
+	ha? ( ~dev-python/cachetools-5.3.0[${PYTHON_USEDEP}] )
 	ha? ( dev-python/circuitbreaker[${PYTHON_USEDEP}] )
-	ha? ( dev-python/tenacity[${PYTHON_USEDEP}] )
+	ha? ( ~dev-python/tenacity-8.2.2[${PYTHON_USEDEP}] )
 	ob? ( dev-python/nameko-sentry[${PYTHON_USEDEP}] )
 	ob? ( dev-python/nameko-tracer[${PYTHON_USEDEP}] )
 	log? ( dev-python/logstash_formatter[${PYTHON_USEDEP}] )
-	log? ( dev-python/loguru[${PYTHON_USEDEP}] )
-	metric? ( dev-python/statsd[${PYTHON_USEDEP}] )
-	schema? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
+	log? ( ~dev-python/loguru-0.7.2[${PYTHON_USEDEP}] )
+	metric? ( ~dev-python/statsd-4.0.1[${PYTHON_USEDEP}] )
+	schema? ( ~dev-python/marshmallow-3.20.1[${PYTHON_USEDEP}] )
 	security? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	dev? ( dev-python/environs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/environs-9.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.2[${PYTHON_USEDEP}]
 	dev-python/ndjson[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-distro[${PYTHON_USEDEP}]
 	dev-python/otel-extensions[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pika-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.0[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-2.0[${PYTHON_USEDEP}]
 	dev-python/ciso8601[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/structlog-23.1.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

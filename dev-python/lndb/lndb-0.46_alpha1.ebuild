@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/lnhub_rest[${PYTHON_USEDEP}]
 	django? ( dev-python/django[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/nox[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbproject-test[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbproject[${PYTHON_USEDEP}] )"

@@ -27,10 +27,10 @@ IUSE="all datasets dev prompting remote torch torchdata"
 DEPENDENCIES="dev-python/necessary[${PYTHON_USEDEP}]
 	dev-python/trouting[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-2.5.0[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	all? ( dev-python/smashed[${PYTHON_USEDEP}] )
 	all? ( dev-python/smashed[${PYTHON_USEDEP}] )
 	all? ( dev-python/smashed[${PYTHON_USEDEP}] )
@@ -40,24 +40,24 @@ DEPENDENCIES="dev-python/necessary[${PYTHON_USEDEP}]
 	datasets? ( dev-python/smashed[${PYTHON_USEDEP}] )
 	datasets? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	datasets? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	datasets? ( dev-python/dill[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
+	datasets? ( >=dev-python/dill-0.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-21.12[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.971[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-8.4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/autopep8-1.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipdb-0.13.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-pyi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
-	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/moto-4.0.0[${PYTHON_USEDEP}] )
 	prompting? ( dev-python/smashed[${PYTHON_USEDEP}] )
 	prompting? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	prompting? ( dev-python/promptsource[${PYTHON_USEDEP}] )
 	prompting? ( dev-python/blingfire[${PYTHON_USEDEP}] )
 	remote? ( dev-python/smart-open[${PYTHON_USEDEP}] )
-	remote? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	remote? ( >=dev-python/boto3-1.25.5[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	torchdata? ( dev-python/torch[${PYTHON_USEDEP}] )
 	torchdata? ( dev-python/torchdata[${PYTHON_USEDEP}] )"

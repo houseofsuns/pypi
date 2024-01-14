@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/asttokens[${PYTHON_USEDEP}]
-	dev-python/executing[${PYTHON_USEDEP}]
-	dev-python/pure-eval[${PYTHON_USEDEP}]
-	dev-python/stack-data[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/asttokens-2.0.4[${PYTHON_USEDEP}]
+	>=dev-python/executing-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pure-eval-0.2.1[${PYTHON_USEDEP}]
+	>=dev-python/stack-data-0.6.2[${PYTHON_USEDEP}]
+	>=dev-python/six-1.16[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

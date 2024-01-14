@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/jellyfish[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/natsort-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/jellyfish-2.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/core-commands[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

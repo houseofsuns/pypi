@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/six-2.0[${PYTHON_USEDEP}]
+	<dev-python/django-4.2[${PYTHON_USEDEP}]
 	dev-python/apysigner[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

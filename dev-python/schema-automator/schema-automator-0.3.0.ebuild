@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bioregistry[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
+	<dev-python/click-log-0.5.0[${PYTHON_USEDEP}]
 	dev-python/funowl[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
-	dev-python/jsonpatch[${PYTHON_USEDEP}]
+	<dev-python/inflect-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonpatch-2.0[${PYTHON_USEDEP}]
 	dev-python/linkml[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
+	<dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}]
 	dev-python/oaklib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/quantulum3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/schemasheets[${PYTHON_USEDEP}]
 	dev-python/strsimpy[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+	<dev-python/tomlkit-0.12.0[${PYTHON_USEDEP}]
+	<dev-python/xmltodict-0.14.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

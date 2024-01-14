@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="crypto dev"
 DEPENDENCIES="dev-python/tortoise-orm[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-1.7.0[${PYTHON_USEDEP}]
 	dev-python/captcha[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/argon2-cffi[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
+	>=dev-python/argon2-cffi-20.1.0[${PYTHON_USEDEP}]
 	dev-python/sanic[${PYTHON_USEDEP}]
-	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	crypto? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/httpx-0.13.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/cryptography-3.3.1[${PYTHON_USEDEP}] )
+	crypto? ( >=dev-python/cryptography-3.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/blacken-docs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdoc3[${PYTHON_USEDEP}] )"

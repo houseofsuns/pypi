@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/djangorestframework-simplejwt[${PYTHON_USEDEP}]
 	dev-python/social-auth-app-django[${PYTHON_USEDEP}]
 	djet? ( dev-python/djet[${PYTHON_USEDEP}] )
 	webauthn? ( dev-python/webauthn[${PYTHON_USEDEP}] )
-	dev-python/django[${PYTHON_USEDEP}]"
+	>=dev-python/django-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

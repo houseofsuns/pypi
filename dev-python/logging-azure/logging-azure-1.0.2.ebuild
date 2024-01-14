@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/injector[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.29.14[${PYTHON_USEDEP}]
 	dev-python/grequests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

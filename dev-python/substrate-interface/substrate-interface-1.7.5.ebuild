@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/websocket-client[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/websocket-client-2.0[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2019.3.9[${PYTHON_USEDEP}]
+	<dev-python/idna-4.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/xxhash-4.0[${PYTHON_USEDEP}]
+	<dev-python/ecdsa-1.0[${PYTHON_USEDEP}]
 	dev-python/eth-keys[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0[${PYTHON_USEDEP}]
 	dev-python/PyNaCl[${PYTHON_USEDEP}]
 	dev-python/scalecodec[${PYTHON_USEDEP}]
 	dev-python/py-sr25519-bindings[${PYTHON_USEDEP}]

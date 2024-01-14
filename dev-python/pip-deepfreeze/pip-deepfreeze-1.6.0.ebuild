@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mypy test"
 DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )

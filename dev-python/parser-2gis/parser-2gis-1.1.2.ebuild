@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev gui"
 DEPENDENCIES="dev-python/pychrome[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/xlsxwriter[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.4.8[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.13.0[${PYTHON_USEDEP}]
+	>=dev-python/xlsxwriter-3.0.5[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/wheel-0.38[${PYTHON_USEDEP}] )
 	gui? ( dev-python/PySimpleGUI[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

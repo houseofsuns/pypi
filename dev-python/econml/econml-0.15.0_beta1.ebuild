@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all automl dowhy plt ray tf"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>dev-python/scipy-1.4.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/sparse[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.13.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.10[${PYTHON_USEDEP}]
+	>dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
 	all? ( dev-python/azure-cli[${PYTHON_USEDEP}] )
 	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( <dev-python/numpy-1.24[${PYTHON_USEDEP}] )
 	all? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/dowhy[${PYTHON_USEDEP}] )
@@ -46,6 +46,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	plt? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
 	tf? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	tf? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	tf? ( <dev-python/numpy-1.24[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

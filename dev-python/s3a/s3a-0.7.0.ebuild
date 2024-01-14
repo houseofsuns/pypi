@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
+	>=dev-python/pyqtgraph-0.13.1[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/qdarkstyle[${PYTHON_USEDEP}]
 	dev-python/qtextras[${PYTHON_USEDEP}]

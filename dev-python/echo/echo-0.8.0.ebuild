@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	qt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	qt? ( >=dev-python/PyQt5-5.9[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

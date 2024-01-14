@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docker jupyter sqlalchemy"
-DEPENDENCIES="dev-python/cached-property[${PYTHON_USEDEP}]
-	dev-python/fs[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cached-property-1.5[${PYTHON_USEDEP}]
+	~dev-python/fs-2.4[${PYTHON_USEDEP}]
+	~dev-python/graphviz-0.8.4[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/mondrian[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
+	~dev-python/packaging-19.0[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.6[${PYTHON_USEDEP}]
+	~dev-python/python-slugify-1.2.6[${PYTHON_USEDEP}]
+	~dev-python/requests-2.22[${PYTHON_USEDEP}]
+	~dev-python/stevedore-1.30[${PYTHON_USEDEP}]
 	dev-python/whistle[${PYTHON_USEDEP}]
 	dev? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-4.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-4.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.7[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-timeout-2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
 	docker? ( dev-python/bonobo-docker[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	jupyter? ( ~dev-python/ipywidgets-6.0[${PYTHON_USEDEP}] )
+	jupyter? ( ~dev-python/jupyter-1.0[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/bonobo-sqlalchemy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,24 +26,24 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev doc"
 DEPENDENCIES="dev-python/PySide6[${PYTHON_USEDEP}]
 	dev-python/PyVCF3[${PYTHON_USEDEP}]
-	dev-python/textX[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	~dev-python/textX-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-4.2.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/progressbar2[${PYTHON_USEDEP}]
 	dev-python/columnar[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-4.2.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.0[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-qt-3.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/schema[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	dev? ( dev-python/zest-releaser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/recommonmark-0.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

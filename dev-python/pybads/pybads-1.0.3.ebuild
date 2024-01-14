@@ -26,21 +26,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/cma[${PYTHON_USEDEP}]
 	dev-python/gpyreg[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-mock[${PYTHON_USEDEP}]
-	dev-python/pytest-rerunfailures[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev? ( dev-python/imageio[${PYTHON_USEDEP}] )
+	>=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
+	>=dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-rerunfailures-10.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/imageio-2.13.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/corner[${PYTHON_USEDEP}] )
-	dev? ( dev-python/dill[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/dill-0.3.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/numpydoc-1.2.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.15.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-4.3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/build-0.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

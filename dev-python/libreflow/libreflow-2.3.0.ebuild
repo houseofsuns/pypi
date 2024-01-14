@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/kabaret[${PYTHON_USEDEP}]
-	dev-python/pyside2[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	~dev-python/pyside2-5.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.0[${PYTHON_USEDEP}]
 	dev-python/kabaret-script-view[${PYTHON_USEDEP}]
 	dev-python/kabaret-subprocess-manager[${PYTHON_USEDEP}]
 	dev-python/kabaret-flow-contextaul-dict[${PYTHON_USEDEP}]

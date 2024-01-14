@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiosqlite[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/aiosqlite-0.17[${PYTHON_USEDEP}]
+	<dev-python/iso8601-0.2[${PYTHON_USEDEP}]
+	<dev-python/multidict-6.0[${PYTHON_USEDEP}]
+	<dev-python/wrapt-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

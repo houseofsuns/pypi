@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	complete? ( dev-python/selenium[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

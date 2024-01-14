@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/onnx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	dev-python/onnx2torch[${PYTHON_USEDEP}]
 	dev-python/onnxruntime-silicon[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

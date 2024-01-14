@@ -31,22 +31,22 @@ DEPENDENCIES="dev-python/colored-traceback[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	dev-python/rtree[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-3.0[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
 	dev-python/triangle[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/utm[${PYTHON_USEDEP}]
-	documentation? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	documentation? ( <dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	documentation? ( ~dev-python/mistune-0.8.4[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pylint-2.14[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

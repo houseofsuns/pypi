@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-6.7[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
 	dev-python/pyrser[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.0.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.6.7[${PYTHON_USEDEP}]
 	dev-python/py3nvml[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	>=dev-python/docker-4.1.0[${PYTHON_USEDEP}]
 	dev-python/aimrecords[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	~dev-python/alembic-1.6.0[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Cors[${PYTHON_USEDEP}]
 	dev-python/Flask-Migrate[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/pysqlite3[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	~dev-python/pytz-2020.1[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

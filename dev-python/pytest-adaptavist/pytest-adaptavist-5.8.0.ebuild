@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/adaptavist[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-5.4.0[${PYTHON_USEDEP}]
 	dev-python/pytest-assume[${PYTHON_USEDEP}]
-	dev-python/pytest-metadata[${PYTHON_USEDEP}]
+	>=dev-python/pytest-metadata-1.6.0[${PYTHON_USEDEP}]
 	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )"

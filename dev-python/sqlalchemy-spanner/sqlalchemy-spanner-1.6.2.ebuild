@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tracing"
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlalchemy-1.1.13[${PYTHON_USEDEP}]
 	dev-python/google-cloud-spanner[${PYTHON_USEDEP}]
 	dev-python/alembic[${PYTHON_USEDEP}]
 	tracing? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )

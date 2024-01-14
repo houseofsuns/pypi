@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/reahl-component[${PYTHON_USEDEP}]
 	dev-python/reahl-tofu[${PYTHON_USEDEP}]
 	dev-python/reahl-stubble[${PYTHON_USEDEP}]
 	dev-python/reahl-sqlalchemysupport[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	<dev-python/Babel-2.12.999[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+	<dev-python/twine-4.0.9999[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.34.0[${PYTHON_USEDEP}]
+	<dev-python/tzlocal-5.0.9999[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-51.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pip-21.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="coverage docs pep8 test"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/webob[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.7.0[${PYTHON_USEDEP}]
 	dev-python/reg[${PYTHON_USEDEP}]
 	dev-python/dectate[${PYTHON_USEDEP}]
 	dev-python/importscan[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	docs? ( dev-python/WebTest[${PYTHON_USEDEP}] )
 	pep8? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	pep8? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-2.9.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-remove-stale-bytecode[${PYTHON_USEDEP}] )
 	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

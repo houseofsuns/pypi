@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/multidict-5.2.0[${PYTHON_USEDEP}]
+	~dev-python/pyasn1-modules-0.2.8[${PYTHON_USEDEP}]
+	~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
 	dev-python/aioxmpp[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	dev-python/aiohttp-jinja2[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jinja2-time[${PYTHON_USEDEP}]
+	~dev-python/jinja2-time-0.2.0[${PYTHON_USEDEP}]
 	dev-python/timeago[${PYTHON_USEDEP}]
 	dev-python/singletonify[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+	~dev-python/pytz-2022.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

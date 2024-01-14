@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiomysql aioodbc aiopg aiosqlite asyncmy asyncpg dev doc mysql postgresql sqlite test testing"
-DEPENDENCIES="dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.1[${PYTHON_USEDEP}]
 	aiomysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	aioodbc? ( dev-python/aioodbc[${PYTHON_USEDEP}] )
 	aiopg? ( dev-python/aiopg[${PYTHON_USEDEP}] )
@@ -35,34 +35,34 @@ DEPENDENCIES="dev-python/nest-asyncio[${PYTHON_USEDEP}]
 	dev? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aioodbc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aiopg[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/aiosqlite-0.20.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/asyncmy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipdb-0.13.13[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkautodoc[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkautodoc-0.3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocs-material-9.1.5[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocstrings-0.21.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
 	test? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( <dev-python/black-24.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/esmerald[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )
+	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mypy-2.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/starlette[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/starlette-0.26.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

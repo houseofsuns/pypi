@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/cvxpy[${PYTHON_USEDEP}]
-	dev-python/cvxopt[${PYTHON_USEDEP}]
+	>=dev-python/cvxopt-1.3.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

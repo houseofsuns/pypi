@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	dev-python/easydict[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/async-timeout[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]"
+	>=dev-python/networkx-2.8.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

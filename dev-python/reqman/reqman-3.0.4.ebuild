@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/junit-xml[${PYTHON_USEDEP}]
 	dev-python/py-dom-xpath-six[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
 	dev-python/stpl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

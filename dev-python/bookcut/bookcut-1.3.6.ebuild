@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]

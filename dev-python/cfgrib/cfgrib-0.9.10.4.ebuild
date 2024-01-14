@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests xarray"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-19.2[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/eccodes[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/xarray[${PYTHON_USEDEP}] )
-	xarray? ( dev-python/xarray[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/xarray-0.15[${PYTHON_USEDEP}] )
+	xarray? ( >=dev-python/xarray-0.15[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/passlib-1.7[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.10[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.6[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.3[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.4[${PYTHON_USEDEP}]
 	dev-python/aget[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+	>=dev-python/chardet-5.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.19[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]"
+	>=dev-python/cryptography-38.0[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.29[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

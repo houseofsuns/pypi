@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aiohttp httpx signing websockets"
 DEPENDENCIES="dev-python/koil[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	websockets? ( dev-python/websockets[${PYTHON_USEDEP}] )
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	aiohttp? ( dev-python/certifi[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	signing? ( dev-python/cryptography[${PYTHON_USEDEP}] )"
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	websockets? ( <dev-python/websockets-11.0[${PYTHON_USEDEP}] )
+	aiohttp? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
+	aiohttp? ( >dev-python/certifi-2021.0[${PYTHON_USEDEP}] )
+	httpx? ( <dev-python/httpx-0.24.0[${PYTHON_USEDEP}] )
+	signing? ( <dev-python/cryptography-42.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

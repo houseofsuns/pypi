@@ -27,7 +27,7 @@ IUSE="dev docs"
 DEPENDENCIES="dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.931[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )

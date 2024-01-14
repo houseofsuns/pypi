@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/asttokens[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/asttokens-3.0[${PYTHON_USEDEP}]
 	dev-python/tuck[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

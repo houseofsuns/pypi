@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
 	dev-python/paste[${PYTHON_USEDEP}]
 	dev-python/webob[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

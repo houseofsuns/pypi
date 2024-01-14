@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tomlkit[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tomlkit-1.0.0[${PYTHON_USEDEP}]
 	dev-python/python-box[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-3.3[${PYTHON_USEDEP}]
 	dev-python/injecta[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

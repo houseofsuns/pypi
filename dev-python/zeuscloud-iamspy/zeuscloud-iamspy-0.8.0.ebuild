@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/z3-solver[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

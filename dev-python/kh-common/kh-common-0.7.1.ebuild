@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aerospike auth build logging mq sql"
-DEPENDENCIES="build? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="build? ( ~dev-python/pytest-6.2.1[${PYTHON_USEDEP}] )
+	~dev-python/setuptools-66.1.1[${PYTHON_USEDEP}]
+	~dev-python/ujson-5.5.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.7.3[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
 	aerospike? ( dev-python/aerospike[${PYTHON_USEDEP}] )
-	auth? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	auth? ( ~dev-python/cryptography-3.0[${PYTHON_USEDEP}] )
 	auth? ( dev-python/aerospike[${PYTHON_USEDEP}] )
-	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	build? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	build? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	build? ( dev-python/isort[${PYTHON_USEDEP}] )
-	build? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
-	build? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	build? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	build? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/wheel-0.38.4[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/twine-3.4.2[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/pytest-asyncio-0.14.0[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/pytest-mock-3.4.0[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/isort-5.11.4[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/pytest-aiohttp-0.3.0[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/pytest-env-0.6.2[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/httpx-0.23.1[${PYTHON_USEDEP}] )
 	logging? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
-	mq? ( dev-python/pika[${PYTHON_USEDEP}] )
+	mq? ( ~dev-python/pika-1.1.0[${PYTHON_USEDEP}] )
 	sql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

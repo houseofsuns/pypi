@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli sqlalchemy yaml"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	sqlalchemy? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandera[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.9[${PYTHON_USEDEP}]
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
 	all? ( dev-python/typer[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )

@@ -27,11 +27,11 @@ IUSE="tensorflow tensorflow_gpu tests"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/tensorflow-probability[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	<dev-python/h5py-3.0[${PYTHON_USEDEP}]
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow_gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dm-sonnet[${PYTHON_USEDEP}] )
-	tests? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	tests? ( <dev-python/numpy-1.20[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

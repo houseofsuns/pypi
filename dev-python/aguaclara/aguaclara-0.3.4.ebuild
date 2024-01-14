@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/onshape-client[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	~dev-python/numpy-1.22.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

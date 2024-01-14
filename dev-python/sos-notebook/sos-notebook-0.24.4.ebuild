@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyter-client[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jupyter-client-8.0.0[${PYTHON_USEDEP}]
 	dev-python/jupyter-core[${PYTHON_USEDEP}]
 	dev-python/sos[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-6.0.1[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-6.18.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
+	>=dev-python/notebook-5.0.0[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

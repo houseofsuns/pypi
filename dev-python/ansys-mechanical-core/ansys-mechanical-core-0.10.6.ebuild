@@ -29,39 +29,39 @@ DEPENDENCIES="dev-python/ansys_api_mechanical[${PYTHON_USEDEP}]
 	dev-python/ansys-platform-instancemanagement[${PYTHON_USEDEP}]
 	dev-python/ansys-pythonnet[${PYTHON_USEDEP}]
 	dev-python/ansys-tools-path[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/clr-loader[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/clr-loader-0.2.6[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.30.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.45.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	doc? ( dev-python/imageio-ffmpeg[${PYTHON_USEDEP}] )
-	doc? ( dev-python/imageio[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/grpcio-1.60.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/imageio-ffmpeg-0.4.9[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/imageio-2.33.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter_sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/jupyterlab-3.2.8[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/numpy-1.26.3[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pandas-2.1.4[${PYTHON_USEDEP}] )
 	doc? ( dev-python/panel[${PYTHON_USEDEP}] )
-	doc? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/plotly-5.18.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pytest-sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pythreejs[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-autodoc-typehints-1.25.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-gallery-0.15.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-notfound-page-1.0.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-websupport-1.2.6[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxemoji-0.2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-print[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

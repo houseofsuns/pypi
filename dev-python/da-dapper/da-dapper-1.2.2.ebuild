@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev lint qt test"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/jedi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scipy-1.1[${PYTHON_USEDEP}]
+	>=dev-python/ipython-5.1[${PYTHON_USEDEP}]
+	<dev-python/jedi-0.18[${PYTHON_USEDEP}]
 	dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}]
 	dev-python/mpl-tools[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.31[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/ipdb[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.1[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.3[${PYTHON_USEDEP}]
+	~dev-python/dill-0.3.2[${PYTHON_USEDEP}]
 	dev-python/patlib[${PYTHON_USEDEP}]
 	dev-python/struct-tools[${PYTHON_USEDEP}]
 	dev-python/multiprocessing-on-dill[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]
+	~dev-python/threadpoolctl-1.0.0[${PYTHON_USEDEP}]
 	qt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	qt? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )

@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc sqlalchemy test"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/urllib3-2.1[${PYTHON_USEDEP}]
+	doc? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/crate-docs-theme[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	sqlalchemy? ( <dev-python/sqlalchemy-2.1[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/geojson[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/zope-testing[${PYTHON_USEDEP}] )
+	test? ( <dev-python/tox-5.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/zope-testing-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/zope-testrunner[${PYTHON_USEDEP}] )
 	test? ( dev-python/zc-customdoctests[${PYTHON_USEDEP}] )
 	test? ( dev-python/certifi[${PYTHON_USEDEP}] )
 	test? ( dev-python/createcoverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/dask[${PYTHON_USEDEP}] )
 	test? ( dev-python/stopit[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytz[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

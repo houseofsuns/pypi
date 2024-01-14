@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="menu"
 DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.21.1[${PYTHON_USEDEP}]
 	menu? ( dev-python/nonebot-plugin-PicMenu[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

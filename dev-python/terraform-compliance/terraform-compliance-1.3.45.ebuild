@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="faster_parsing"
 DEPENDENCIES="dev-python/radish-bdd[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/colorful[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
-	dev-python/junit-xml[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	>=dev-python/netaddr-0.7.19[${PYTHON_USEDEP}]
+	>=dev-python/colorful-0.5.4[${PYTHON_USEDEP}]
+	>=dev-python/filetype-1.0.5[${PYTHON_USEDEP}]
+	>=dev-python/junit-xml-1.8[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.5.0[${PYTHON_USEDEP}]
+	>=dev-python/emoji-0.5.4[${PYTHON_USEDEP}]
+	>=dev-python/mock-3.0.5[${PYTHON_USEDEP}]
+	>=dev-python/semver-2.10.2[${PYTHON_USEDEP}]
 	dev-python/IPython[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	>=dev-python/diskcache-5.1.0[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.8.3[${PYTHON_USEDEP}]
 	faster_parsing? ( dev-python/orjson[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

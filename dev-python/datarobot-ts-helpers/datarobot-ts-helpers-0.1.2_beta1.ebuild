@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-40.3.0[${PYTHON_USEDEP}]
 	dev-python/datarobot[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.9[${PYTHON_USEDEP}]
+	>=dev-python/plotly-4.10[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.5[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	>=dev-python/matplotlib-2.2[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.9[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

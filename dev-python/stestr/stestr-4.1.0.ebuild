@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="sql test"
-DEPENDENCIES="dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/cliff[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/cliff-2.8.0[${PYTHON_USEDEP}]
 	dev-python/python-subunit[${PYTHON_USEDEP}]
-	dev-python/fixtures[${PYTHON_USEDEP}]
-	dev-python/testtools[${PYTHON_USEDEP}]
+	>=dev-python/fixtures-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/testtools-2.2.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/extras[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.8.9[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.11.6[${PYTHON_USEDEP}]
+	>=dev-python/extras-1.0.0[${PYTHON_USEDEP}]
 	sql? ( dev-python/subunit2sql[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/ddt[${PYTHON_USEDEP}] )
+	test? ( >dev-python/sphinx-2.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/ddt-1.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/iso8601[${PYTHON_USEDEP}] )
-	test? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/doc8-0.8.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

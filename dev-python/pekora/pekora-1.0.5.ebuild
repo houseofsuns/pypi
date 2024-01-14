@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/alianator[${PYTHON_USEDEP}]
-	dev-python/colour[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
+	<dev-python/colour-0.2.0[${PYTHON_USEDEP}]
+	<dev-python/decorator-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/inflect-7.0.0[${PYTHON_USEDEP}]
 	dev-python/inquirerpy[${PYTHON_USEDEP}]
 	dev-python/py-cord[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
+	~dev-python/pyperclip-1.8.1[${PYTHON_USEDEP}]
+	<dev-python/yarl-2.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

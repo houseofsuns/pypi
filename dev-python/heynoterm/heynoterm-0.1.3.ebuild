@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/textual[${PYTHON_USEDEP}]
 	dev-python/textual-dev[${PYTHON_USEDEP}]
 	dev-python/tree_sitter_languages[${PYTHON_USEDEP}]
-	dev-python/tree-sitter[${PYTHON_USEDEP}]"
+	<dev-python/tree-sitter-0.21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

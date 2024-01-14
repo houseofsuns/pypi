@@ -26,21 +26,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/fluxrpc[${PYTHON_USEDEP}]
 	dev-python/fluxwallet[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiofiles-23.0.0[${PYTHON_USEDEP}]
 	dev-python/aioshutil[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/python-daemon[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-daemon-3.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
+	<dev-python/dnspython-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
+	<dev-python/keyring-24.0.0[${PYTHON_USEDEP}]
 	dev-python/keyrings-cryptfile[${PYTHON_USEDEP}]
 	dev-python/ownca[${PYTHON_USEDEP}]
 	dev-python/randomname[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]"
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rewrite"
-DEPENDENCIES="rewrite? ( dev-python/tokenize-rt[${PYTHON_USEDEP}] )"
+DEPENDENCIES="rewrite? ( >=dev-python/tokenize-rt-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

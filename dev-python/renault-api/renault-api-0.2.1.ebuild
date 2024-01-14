@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
+	cli? ( >=dev-python/click-8.0.1[${PYTHON_USEDEP}] )
 	cli? ( dev-python/dateparser[${PYTHON_USEDEP}] )
 	dev-python/marshmallow-dataclass[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	cli? ( dev-python/tabulate[${PYTHON_USEDEP}] )"
+	>=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
+	cli? ( >=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

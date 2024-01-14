@@ -27,11 +27,11 @@ IUSE="test"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/cligj[${PYTHON_USEDEP}]
 	dev-python/mercantile[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.10[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	~dev-python/shapely-1.7.0[${PYTHON_USEDEP}]
 	dev-python/supermercado[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.0[${PYTHON_USEDEP}]
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES="dev? ( dev-python/attribution[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.2.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flit-3.7.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ufmt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/usort[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-mdinclude[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

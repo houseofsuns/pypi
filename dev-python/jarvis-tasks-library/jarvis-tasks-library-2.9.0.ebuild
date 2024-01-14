@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/types-python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

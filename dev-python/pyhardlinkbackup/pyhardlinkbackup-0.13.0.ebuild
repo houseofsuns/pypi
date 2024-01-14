@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	<dev-python/django-2.3.0[${PYTHON_USEDEP}]
 	dev-python/django-tools[${PYTHON_USEDEP}]
 	dev-python/iterfilesystem[${PYTHON_USEDEP}]
 	dev-python/pathlib_revised[${PYTHON_USEDEP}]

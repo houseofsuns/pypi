@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="sftp test"
-DEPENDENCIES="dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
-	sftp? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/semantic-version-2.7[${PYTHON_USEDEP}]
+	>=dev-python/pathvalidate-2.5[${PYTHON_USEDEP}]
+	sftp? ( >=dev-python/paramiko-3.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

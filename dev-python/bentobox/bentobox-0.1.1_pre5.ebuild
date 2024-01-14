@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/gast[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/gast-0.4.0[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.33.2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/astunparse[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/astunparse-1.6.3[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

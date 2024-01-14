@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	dev-python/regions[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-3.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

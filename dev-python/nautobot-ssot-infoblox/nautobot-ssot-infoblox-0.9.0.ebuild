@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dnspython[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/dnspython-3.0.0[${PYTHON_USEDEP}]
 	dev-python/nautobot[${PYTHON_USEDEP}]
 	dev-python/nautobot-ssot[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

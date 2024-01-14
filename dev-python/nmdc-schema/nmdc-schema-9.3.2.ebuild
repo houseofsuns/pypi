@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click-log[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-log-0.5.0[${PYTHON_USEDEP}]
 	dev-python/linkml[${PYTHON_USEDEP}]
 	dev-python/linkml-runtime[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

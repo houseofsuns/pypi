@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc stable test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
-	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pydata-sphinx-theme-0.8.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-panels-0.6.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-autodoc-typehints-1.18.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-inline-tabs-2022.1.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-spelling-7.3.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/ipython-8.2.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/myst-parser-0.17.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-asciinema[${PYTHON_USEDEP}] )
-	stable? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	stable? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	stable? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	stable? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

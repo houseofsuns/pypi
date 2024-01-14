@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+DEPENDENCIES="test? ( ~dev-python/flake8-5.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pycodestyle-2.9[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

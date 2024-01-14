@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.7[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.5[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-1.14.1[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/xai-tabular-widget[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

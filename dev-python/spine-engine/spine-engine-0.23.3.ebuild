@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/dagster[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>dev-python/networkx-2.5.1[${PYTHON_USEDEP}]
 	dev-python/datapackage[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-client-6.0[${PYTHON_USEDEP}]
 	dev-python/spinedb-api[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-21.0[${PYTHON_USEDEP}]
+	<dev-python/markupsafe-2.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

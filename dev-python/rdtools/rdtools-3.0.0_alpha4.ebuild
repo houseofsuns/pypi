@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc test"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.1[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.11.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/plotly-4.0.0[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	dev-python/pvlib[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -40,23 +40,23 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )
-	all? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/nbval[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/nbsphinx-0.8.8[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/nbval-0.9.6[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-3.6.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-gallery-0.8.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/nbsphinx-0.8.8[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-gallery-0.8.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.6.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbval[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/nbval-0.9.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

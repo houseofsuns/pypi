@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/hyperopt[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/pebble[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	<dev-python/joblib-0.14[${PYTHON_USEDEP}]
+	<=dev-python/pebble-4.3.10[${PYTHON_USEDEP}]
+	<dev-python/dill-0.3[${PYTHON_USEDEP}]
 	dev-python/son[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

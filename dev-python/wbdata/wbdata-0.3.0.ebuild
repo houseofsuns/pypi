@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs pandas"
-DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/decorator-4.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	pandas? ( >=dev-python/pandas-0.17[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.2[${PYTHON_USEDEP}] )
+	>=dev-python/tabulate-0.8.5[${PYTHON_USEDEP}]
+	<dev-python/appdirs-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

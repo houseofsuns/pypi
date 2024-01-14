@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pykeepass redshift s3 sqlalchemy"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pydantic-2.2[${PYTHON_USEDEP}]
 	dev-python/StrEnum[${PYTHON_USEDEP}]
 	sqlalchemy? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	redshift? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	redshift? ( >=dev-python/boto3-1.26[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/boto3-1.26[${PYTHON_USEDEP}] )
 	pykeepass? ( dev-python/pykeepass[${PYTHON_USEDEP}] )
 	dev-python/auto-all[${PYTHON_USEDEP}]
 	dev-python/pydicti[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

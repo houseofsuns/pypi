@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="redis"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-18.1.0[${PYTHON_USEDEP}]
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	redis? ( dev-python/rfc3986[${PYTHON_USEDEP}] )"
+	redis? ( >=dev-python/rfc3986-1.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]
 	all? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	all? ( dev-python/apache-airflow-providers-amazon[${PYTHON_USEDEP}] )
 	all? ( dev-python/apache-airflow-providers-apache-hive[${PYTHON_USEDEP}] )
@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	google? ( dev-python/gcloud-aio-bigquery[${PYTHON_USEDEP}] )
 	http? ( dev-python/apache-airflow-providers-http[${PYTHON_USEDEP}] )
 	microsoft-azure? ( dev-python/apache-airflow-providers-microsoft-azure[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	mypy? ( >=dev-python/mypy-0.950[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-boto[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-certifi[${PYTHON_USEDEP}] )

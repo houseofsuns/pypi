@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+	>dev-python/pip-20.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/python-libsbml[${PYTHON_USEDEP}]

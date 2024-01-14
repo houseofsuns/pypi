@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli dcat dev pandas polars sql"
-DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/fsspec-2023.1.0[${PYTHON_USEDEP}]
 	dev-python/jsonpath[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	cli? ( dev-python/rich[${PYTHON_USEDEP}] )
+	>=dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/python-slugify-6.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
+	cli? ( >=dev-python/rich-10.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
-	dcat? ( dev-python/rdflib[${PYTHON_USEDEP}] )
+	dcat? ( >=dev-python/rdflib-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
@@ -57,11 +57,11 @@ DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
 	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yattag[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/isodate[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/isodate-0.6[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/numpy-1.0[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-1.0[${PYTHON_USEDEP}] )
 	polars? ( dev-python/polars-lts-cpu[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	sql? ( >=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

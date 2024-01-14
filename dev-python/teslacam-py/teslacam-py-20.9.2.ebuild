@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
-	dev-python/sh[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/chump[${PYTHON_USEDEP}]"
+	>=dev-python/sh-1.12.14[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/chump-1.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-24.0.1[${PYTHON_USEDEP}]
 	dev-python/txl[${PYTHON_USEDEP}]
 	dev-python/txl-kernel[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

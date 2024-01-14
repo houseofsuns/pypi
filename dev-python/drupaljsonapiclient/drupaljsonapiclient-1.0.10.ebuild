@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	async? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	async? ( dev-python/aiofiles[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	async? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
+	async? ( <dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]"
+	>=dev-python/python-dotenv-1.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-41.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

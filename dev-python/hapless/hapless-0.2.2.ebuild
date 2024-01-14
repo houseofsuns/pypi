@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/humanize-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

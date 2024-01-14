@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/colorlog-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/pika-2.0.0[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]
-	dev-python/nox[${PYTHON_USEDEP}]"
+	<dev-python/nox-2024.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

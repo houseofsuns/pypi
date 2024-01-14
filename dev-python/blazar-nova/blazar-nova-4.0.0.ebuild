@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/oslo-config-8.6.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-5.1.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-4.6.1[${PYTHON_USEDEP}]
+	>=dev-python/pbr-5.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

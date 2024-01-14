@@ -24,50 +24,50 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pytz-2023.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
-	dev-python/wtforms[${PYTHON_USEDEP}]
+	<dev-python/wtforms-4.0.0[${PYTHON_USEDEP}]
 	dev-python/wtforms-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	<=dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-login[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/flask-2.3.0[${PYTHON_USEDEP}]
+	<dev-python/flask-login-1.0.0[${PYTHON_USEDEP}]
 	dev-python/flask-mail[${PYTHON_USEDEP}]
-	dev-python/flask-migrate[${PYTHON_USEDEP}]
-	dev-python/flask-babel[${PYTHON_USEDEP}]
+	<dev-python/flask-migrate-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/flask-babel-4.0.0[${PYTHON_USEDEP}]
 	dev-python/flask-principal[${PYTHON_USEDEP}]
 	dev-python/flask-wtf[${PYTHON_USEDEP}]
 	dev-python/flask-script[${PYTHON_USEDEP}]
-	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/flask-sqlalchemy-4.0.0[${PYTHON_USEDEP}]
 	dev-python/flask-debugtoolbar[${PYTHON_USEDEP}]
 	dev-python/flask-jsglue[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
+	<dev-python/dnspython-3.0.0[${PYTHON_USEDEP}]
 	dev-python/geoip2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/rrdtool[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/pydgets[${PYTHON_USEDEP}]
 	dev-python/pyzenkit[${PYTHON_USEDEP}]
 	dev-python/pynspect[${PYTHON_USEDEP}]
 	dev-python/ipranges[${PYTHON_USEDEP}]
 	dev-python/typedcols[${PYTHON_USEDEP}]
 	dev-python/idea-format[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-2.9.0[${PYTHON_USEDEP}]
 	dev-python/PyBabel-json-md[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nose2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	<dev-python/itsdangerous-2.2.0[${PYTHON_USEDEP}]
+	dev? ( <dev-python/setuptools-68.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/wheel-0.41.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/nose2-0.13.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-7.3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pyflakes-3.1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylint-2.18.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sendria[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/twine-4.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

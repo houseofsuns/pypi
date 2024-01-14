@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs test"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3[${PYTHON_USEDEP}]
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-astropy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )

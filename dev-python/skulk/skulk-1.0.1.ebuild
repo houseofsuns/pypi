@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/GitPython-2.1.15[${PYTHON_USEDEP}]
+	>=dev-python/twine-1.15.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

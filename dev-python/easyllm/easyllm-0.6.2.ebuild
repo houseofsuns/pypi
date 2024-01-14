@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bedrock dev docs test"
 DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/nanoid[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.1.1[${PYTHON_USEDEP}]
 	bedrock? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )

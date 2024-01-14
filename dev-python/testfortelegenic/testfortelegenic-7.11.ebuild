@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="json passport socks"
 DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/tornado-6.1[${PYTHON_USEDEP}]
+	~dev-python/APScheduler-3.6.3[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2018.6[${PYTHON_USEDEP}]
+	~dev-python/cachetools-4.2.2[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
 	json? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	passport? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	passport? ( >dev-python/cryptography-3.4[${PYTHON_USEDEP}] )
 	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

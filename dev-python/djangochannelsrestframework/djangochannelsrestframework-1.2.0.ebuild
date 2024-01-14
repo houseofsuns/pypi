@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/channels[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/channels[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-asyncio-0.18.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-6.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

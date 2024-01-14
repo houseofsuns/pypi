@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="diskcache postgres redis"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	diskcache? ( dev-python/diskcache[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
+	diskcache? ( >=dev-python/diskcache-5.2.1[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	redis? ( >=dev-python/redis-3.5.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,10 +27,10 @@ IUSE="docs"
 DEPENDENCIES="dev-python/gcloud[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
 	dev-python/python_jwt[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/toml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

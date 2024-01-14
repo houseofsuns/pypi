@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-0.32.2[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
+	>=dev-python/email-validator-1.0.3[${PYTHON_USEDEP}]
+	>=dev-python/idna-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/dnspython-1.15.0[${PYTHON_USEDEP}]
 	dev-python/inflection[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )

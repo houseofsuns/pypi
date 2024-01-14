@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/char[${PYTHON_USEDEP}]
 	dev-python/mpire[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]"
+	<dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

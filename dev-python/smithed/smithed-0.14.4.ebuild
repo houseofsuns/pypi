@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/backports-strenum[${PYTHON_USEDEP}]
 	dev-python/beet[${PYTHON_USEDEP}]
 	dev-python/mecha[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.6.0[${PYTHON_USEDEP}]
 	dev-python/tokenstream[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

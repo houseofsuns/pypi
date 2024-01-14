@@ -27,9 +27,9 @@ IUSE="dev"
 DEPENDENCIES="dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-autoapi-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

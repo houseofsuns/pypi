@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="totp webauthn"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/pypugjs[${PYTHON_USEDEP}]
+	<dev-python/pypugjs-6.0.0[${PYTHON_USEDEP}]
 	dev-python/bl-seth[${PYTHON_USEDEP}]
 	dev-python/isbnlib[${PYTHON_USEDEP}]
 	dev-python/jinja2-fragments[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/bl3d[${PYTHON_USEDEP}]
 	dev-python/fluent-runtime[${PYTHON_USEDEP}]
 	webauthn? ( dev-python/webauthn[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
-	totp? ( dev-python/pyotp[${PYTHON_USEDEP}] )"
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	totp? ( <dev-python/pyotp-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

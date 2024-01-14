@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="box mark"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	mark? ( dev-python/banana-hep[${PYTHON_USEDEP}] )
-	box? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev-python/lz4[${PYTHON_USEDEP}]
-	mark? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	box? ( <dev-python/click-9.0.0[${PYTHON_USEDEP}] )
+	<dev-python/lz4-5.0.0[${PYTHON_USEDEP}]
+	mark? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	mark? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	box? ( dev-python/rich[${PYTHON_USEDEP}] )
-	dev-python/scipy[${PYTHON_USEDEP}]
-	mark? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	mark? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	box? ( <dev-python/rich-13.0.0[${PYTHON_USEDEP}] )
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	mark? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

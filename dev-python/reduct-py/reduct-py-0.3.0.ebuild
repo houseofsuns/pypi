@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs format lint test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.9[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/mkdocs-1.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-8.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/plantuml-markdown[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-same-dir[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	format? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/mkdocstrings-0.19[${PYTHON_USEDEP}] )
+	format? ( ~dev-python/black-22.6[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pylint-2.14[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.18[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

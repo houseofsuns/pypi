@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-json-logger-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]"
+	<dev-python/httpx-0.26.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

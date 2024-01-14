@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pytest-selenium[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-3.0.0[${PYTHON_USEDEP}]
 	dev-python/axe-selenium-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

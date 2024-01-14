@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rsa[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/rsa-4.0[${PYTHON_USEDEP}]
+	>=dev-python/qrcode-6.1[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.0.0[${PYTHON_USEDEP}]
 	dev-python/PyExecJS[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.8.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
 	dev-python/gmssl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

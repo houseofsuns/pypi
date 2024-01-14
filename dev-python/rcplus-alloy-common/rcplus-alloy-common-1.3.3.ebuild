@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="airflow"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.6.1[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-json-logger-2.0.4[${PYTHON_USEDEP}]
 	airflow? ( dev-python/apache-airflow[${PYTHON_USEDEP}] )
-	airflow? ( dev-python/pytz[${PYTHON_USEDEP}] )"
+	airflow? ( <dev-python/pytz-2024.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

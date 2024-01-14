@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/prompt-toolkit-3.0.16[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]

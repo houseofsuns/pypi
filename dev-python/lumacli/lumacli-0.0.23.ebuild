@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-1.11.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="datetime test"
 DEPENDENCIES="dev-python/mbstrdecoder[${PYTHON_USEDEP}]
-	datetime? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	datetime? ( dev-python/pytz[${PYTHON_USEDEP}] )
+	datetime? ( <dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}] )
+	datetime? ( >=dev-python/pytz-2018.9[${PYTHON_USEDEP}] )
 	datetime? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/tcolorpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytz[${PYTHON_USEDEP}] )
+	test? ( <dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytz-2018.9[${PYTHON_USEDEP}] )
 	test? ( dev-python/packaging[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

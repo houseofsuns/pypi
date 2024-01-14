@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all analysis excel plot"
 DEPENDENCIES="dev-python/pyserde[${PYTHON_USEDEP}]
-	plot? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	plot? ( <dev-python/plotly-6.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/plotly-6.0[${PYTHON_USEDEP}] )
 	plot? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	all? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/ragraph[${PYTHON_USEDEP}] )
 	all? ( dev-python/ragraph[${PYTHON_USEDEP}] )
-	excel? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )"
+	excel? ( <dev-python/openpyxl-4.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/openpyxl-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

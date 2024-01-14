@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/sgqlc[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
 	dev-python/transliterate[${PYTHON_USEDEP}]
 	dev-python/marshmallow-dataclass[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]"
+	>=dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.7.0[${PYTHON_USEDEP}]
+	<dev-python/deprecation-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev lint tests"
-DEPENDENCIES="dev-python/apispec[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/apispec-2.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bottle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/bottle-0.12.17[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	tests? ( dev-python/bottle[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/bottle-0.12.17[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

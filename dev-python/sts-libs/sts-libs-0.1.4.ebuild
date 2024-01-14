@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/configobj[${PYTHON_USEDEP}]
-	dev-python/pytest-testinfra[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/configobj-5.0.8[${PYTHON_USEDEP}]
+	~dev-python/pytest-testinfra-9.0.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4.3[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

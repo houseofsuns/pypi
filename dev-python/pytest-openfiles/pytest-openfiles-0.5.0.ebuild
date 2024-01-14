@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]"
+	>=dev-python/pytest-4.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

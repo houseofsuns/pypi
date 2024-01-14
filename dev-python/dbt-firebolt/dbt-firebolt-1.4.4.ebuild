@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/dbt-core[${PYTHON_USEDEP}]
 	dev-python/firebolt-sdk[${PYTHON_USEDEP}]
 	dev? ( dev-python/allure-pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dbt-tests-adapter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

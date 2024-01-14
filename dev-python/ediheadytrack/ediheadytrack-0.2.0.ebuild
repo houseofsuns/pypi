@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/mediapipe[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]

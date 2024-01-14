@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/bleach-7.0[${PYTHON_USEDEP}]
 	dev-python/django-mptt[${PYTHON_USEDEP}]
 	dev-python/django-nyt[${PYTHON_USEDEP}]
 	dev-python/django-sekizai[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+	<dev-python/django-4.3[${PYTHON_USEDEP}]
+	<dev-python/markdown-3.4[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/sorl-thumbnail[${PYTHON_USEDEP}]
-	docs? ( dev-python/bleach[${PYTHON_USEDEP}] )
-	docs? ( dev-python/django[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/bleach-7.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/django-3.1.13[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

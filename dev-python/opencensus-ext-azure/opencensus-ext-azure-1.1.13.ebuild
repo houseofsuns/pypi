@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/azure-core[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	dev-python/opencensus[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/psutil-5.6.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

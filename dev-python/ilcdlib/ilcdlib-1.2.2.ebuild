@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli lxml"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/openepd[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	lxml? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	>=dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	lxml? ( <dev-python/lxml-4.10.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/cli-rack[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

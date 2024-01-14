@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.7.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests-mock[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-mock-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.10.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-enum[${PYTHON_USEDEP}]
 	dev-python/WebOb[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.10.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.23.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pretend[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/freezegun-1.2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pretend-1.0.9[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-6.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-imports[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/mypy-0.931[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

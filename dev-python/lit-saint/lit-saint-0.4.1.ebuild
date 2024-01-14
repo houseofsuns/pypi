@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

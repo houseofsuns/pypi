@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="proxy"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.1[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.0[${PYTHON_USEDEP}]
+	~dev-python/paho-mqtt-1.5[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]
 	proxy? ( dev-python/aiohttp-socks[${PYTHON_USEDEP}] )
 	proxy? ( dev-python/pysocks[${PYTHON_USEDEP}] )"

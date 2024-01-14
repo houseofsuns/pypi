@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/filelock-4.0.0[${PYTHON_USEDEP}]
 	dev-python/graph-wrapper[${PYTHON_USEDEP}]
 	dev-python/hugedict[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
 	dev-python/nptyping[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-7.0.0[${PYTHON_USEDEP}]
 	dev-python/serde2[${PYTHON_USEDEP}]
 	dev-python/t2-yada[${PYTHON_USEDEP}]
 	dev-python/timer4[${PYTHON_USEDEP}]"

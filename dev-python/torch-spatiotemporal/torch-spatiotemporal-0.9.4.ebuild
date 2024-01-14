@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc experiment full"
 DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]

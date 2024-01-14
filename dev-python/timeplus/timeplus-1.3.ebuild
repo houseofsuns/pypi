@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/urllib3-1.15[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/sseclient-py[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.36[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cfgv[${PYTHON_USEDEP}]
-	dev-python/identify[${PYTHON_USEDEP}]
-	dev-python/nodeenv[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/cfgv-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/identify-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/nodeenv-0.11.1[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/virtualenv-20.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	dev-python/modelscope[${PYTHON_USEDEP}]
 	dev-python/seqeval[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

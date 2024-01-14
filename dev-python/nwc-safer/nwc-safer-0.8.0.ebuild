@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/netcdf4[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	<dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/xarray-2024.0.0[${PYTHON_USEDEP}]
+	<dev-python/netcdf4-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/dask-2024.0.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

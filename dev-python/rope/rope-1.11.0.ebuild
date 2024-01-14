@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc release"
-DEPENDENCIES="dev-python/pytoolconfig[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/pytoolconfig-1.2.2[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/build-0.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pytoolconfig[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-autodoc-typehints-1.18.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	release? ( dev-python/toml[${PYTHON_USEDEP}] )
-	release? ( dev-python/twine[${PYTHON_USEDEP}] )
+	release? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	release? ( dev-python/pip-tools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

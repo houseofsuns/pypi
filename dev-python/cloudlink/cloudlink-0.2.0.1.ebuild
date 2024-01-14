@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/snowflake-id[${PYTHON_USEDEP}]
-	dev-python/cerberus[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]"
+	>=dev-python/cerberus-1.3.4[${PYTHON_USEDEP}]
+	>=dev-python/websockets-10.4[${PYTHON_USEDEP}]
+	>=dev-python/ujson-5.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

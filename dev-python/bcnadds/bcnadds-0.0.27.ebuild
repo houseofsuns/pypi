@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pyrogram[${PYTHON_USEDEP}]
 	dev-python/TgCrypto[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
 	dev-python/conjure-python-client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

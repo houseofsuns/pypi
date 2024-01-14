@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cement[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/colorlog-6.6.0[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.25.0[${PYTHON_USEDEP}]
+	~dev-python/rich-11.2.0[${PYTHON_USEDEP}]
+	~dev-python/packaging-21.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

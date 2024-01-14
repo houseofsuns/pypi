@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.1.2[${PYTHON_USEDEP}]
 	dev-python/functions-framework[${PYTHON_USEDEP}]
 	dev-python/firebase-admin[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	dev-python/cloudevents[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	>=dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.5.0[${PYTHON_USEDEP}]
 	dev-python/google-events[${PYTHON_USEDEP}]
 	dev-python/google-cloud-firestore[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-63.4.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.16.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/yapf-0.32.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/google-cloud-tasks[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

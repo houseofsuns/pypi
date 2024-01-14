@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.0[${PYTHON_USEDEP}]
+	~dev-python/docker-6.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

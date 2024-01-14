@@ -26,26 +26,26 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop"
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.21.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/related[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.21.1[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
 	dev-python/kipoi-utils[${PYTHON_USEDEP}]
 	dev-python/kipoi-conda[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/deprecation-2.0.6[${PYTHON_USEDEP}]
+	<=dev-python/attrs-21.4.0[${PYTHON_USEDEP}]
 	develop? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	develop? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	develop? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	develop? ( dev-python/jedi[${PYTHON_USEDEP}] )
 	develop? ( dev-python/epc[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-3.3.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

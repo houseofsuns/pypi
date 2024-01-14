@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/APScheduler-4.0.0[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/django-cors-headers[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	<dev-python/django-cors-headers-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-4.0.0[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular-sidecar[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/rpyc[${PYTHON_USEDEP}]
+	<dev-python/rpyc-6.0.0[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	<dev-python/structlog-23.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytz-2023.0[${PYTHON_USEDEP}]
 	dev-python/AMQPStorm[${PYTHON_USEDEP}]
 	dev-python/uuid[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+	<dev-python/uvicorn-0.21.0[${PYTHON_USEDEP}]
+	<dev-python/tzlocal-5.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

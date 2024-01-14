@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs jurigged sentry speedup tests voice"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	dev-python/discord-typings[${PYTHON_USEDEP}]
 	dev-python/emoji[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]

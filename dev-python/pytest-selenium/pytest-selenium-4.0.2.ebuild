@@ -27,16 +27,16 @@ IUSE="appium test"
 DEPENDENCIES="dev-python/pytest-base-url[${PYTHON_USEDEP}]
 	dev-python/pytest-html[${PYTHON_USEDEP}]
 	dev-python/pytest-variables[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	>=dev-python/selenium-4.10.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-6.0.0[${PYTHON_USEDEP}]
 	appium? ( dev-python/appium-python-client[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tox-3.24.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

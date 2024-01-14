@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pycryptodome[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pycryptodome-0.0[${PYTHON_USEDEP}]
 	dev-python/pywin32[${PYTHON_USEDEP}]
 	dev-python/discum[${PYTHON_USEDEP}]
 	dev-python/Requests[${PYTHON_USEDEP}]
-	dev-python/pytesseract[${PYTHON_USEDEP}]"
+	>=dev-python/pytesseract-0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

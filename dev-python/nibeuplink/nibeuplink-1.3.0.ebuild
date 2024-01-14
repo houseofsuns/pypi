@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>dev-python/attrs-18.1[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >dev-python/pytest-3.6.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-cov-2.6[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	tests? ( dev-python/asynctest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aioresponses[${PYTHON_USEDEP}] )"

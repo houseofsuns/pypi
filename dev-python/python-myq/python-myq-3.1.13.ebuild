@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pkce[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

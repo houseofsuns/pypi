@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/jupyter-server-proxy[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/pynvml[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]"
+	~dev-python/jupyterlab-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

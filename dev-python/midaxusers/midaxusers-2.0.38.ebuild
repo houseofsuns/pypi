@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	~dev-python/alembic-1.0.0[${PYTHON_USEDEP}]
 	dev-python/astroid[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]"
+	>=dev-python/ujson-5.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

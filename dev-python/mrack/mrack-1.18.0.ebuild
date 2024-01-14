@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="krb-owner"
 DEPENDENCIES="dev-python/beaker-client[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.14.17[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.11.17[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0.0[${PYTHON_USEDEP}]
 	dev-python/asyncopenstackclient[${PYTHON_USEDEP}]
 	dev-python/testcloud[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/os-client-config[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-23.1.0[${PYTHON_USEDEP}]
+	>=dev-python/os-client-config-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
 	krb-owner? ( dev-python/gssapi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

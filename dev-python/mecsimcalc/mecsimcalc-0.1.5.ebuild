@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

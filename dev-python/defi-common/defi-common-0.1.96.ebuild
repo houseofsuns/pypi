@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pre-commit[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.22.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi-users[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

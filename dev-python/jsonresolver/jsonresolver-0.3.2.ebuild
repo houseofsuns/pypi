@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jsonref jsonschema tests"
-DEPENDENCIES="dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	jsonref? ( dev-python/jsonref[${PYTHON_USEDEP}] )
-	jsonschema? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/pluggy-1.0[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-1.0.0[${PYTHON_USEDEP}]
+	jsonref? ( >=dev-python/jsonref-1.0.0[${PYTHON_USEDEP}] )
+	jsonschema? ( >=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
-	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/requests-2.7.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jsonref[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jsonschema[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/jsonref-1.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

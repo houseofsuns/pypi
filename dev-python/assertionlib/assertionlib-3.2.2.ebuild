@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test test_no_optional"
 DEPENDENCIES="dev-python/Nano-Utils[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-2.4[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/sphinx-2.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test_no_optional? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test_no_optional? ( >=dev-python/pytest-5.4.0[${PYTHON_USEDEP}] )
 	test_no_optional? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

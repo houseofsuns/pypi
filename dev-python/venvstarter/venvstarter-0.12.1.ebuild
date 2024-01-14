@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="tests? ( dev-python/noseofyeti[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-helpers-namespace[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-helpers-namespace-2021.12.29[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-parallel[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

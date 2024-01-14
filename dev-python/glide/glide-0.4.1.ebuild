@@ -25,57 +25,57 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="celery complete dask dev rq"
 DEPENDENCIES="dev-python/consecution[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/imapclient[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/html5lib-1.0.1[${PYTHON_USEDEP}]
+	~dev-python/imapclient-2.2.0[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-2.0[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.0[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.1[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/pyexcel[${PYTHON_USEDEP}]
 	dev-python/pyexcel-xls[${PYTHON_USEDEP}]
 	dev-python/pyexcel-xlsx[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/pymysql-0.9.3[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.40[${PYTHON_USEDEP}]
 	dev-python/tlbx[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
-	celery? ( dev-python/kombu[${PYTHON_USEDEP}] )
+	celery? ( ~dev-python/kombu-4.5.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/black[${PYTHON_USEDEP}] )
 	complete? ( dev-python/celery[${PYTHON_USEDEP}] )
-	complete? ( dev-python/dask[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/dask-2020.12.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	complete? ( dev-python/fake-useragent[${PYTHON_USEDEP}] )
 	complete? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	complete? ( dev-python/kombu[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/kombu-4.5.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	complete? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/numpydoc-0.9.2[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pytest-redis[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pytest-xprocess[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	complete? ( dev-python/rq[${PYTHON_USEDEP}] )
-	complete? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	complete? ( dev-python/twine[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/pytest-xprocess-0.13.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/pytest-5.3.2[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/rq-1.5.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/sphinx-2.3.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
 	complete? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( ~dev-python/dask-2020.12.0[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fake-useragent[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/numpydoc-0.9.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-5.3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-redis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xprocess[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xprocess-0.13.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-2.3.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	rq? ( dev-python/rq[${PYTHON_USEDEP}] )"
+	rq? ( ~dev-python/rq-1.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

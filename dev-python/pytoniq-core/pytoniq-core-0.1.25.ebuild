@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	dev-python/bitarray[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/bitarray-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/x25519[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	dev-python/PyNaCl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

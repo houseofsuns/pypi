@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytools[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytools-2011.2[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
 	dev-python/mako[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

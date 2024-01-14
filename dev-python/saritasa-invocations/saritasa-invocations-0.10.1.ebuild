@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="env-settings"
 DEPENDENCIES="dev-python/invoke[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0[${PYTHON_USEDEP}]
 	env-settings? ( dev-python/python-decouple[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

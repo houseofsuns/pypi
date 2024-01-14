@@ -25,27 +25,27 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="fasttext nn omikuji spacy stwfsa voikko yake"
 DEPENDENCIES="dev-python/connexion[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	~dev-python/flask-2.2[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-4.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.1[${PYTHON_USEDEP}]
+	~dev-python/click-log-0.4[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.3[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.10[${PYTHON_USEDEP}]
+	~dev-python/rdflib-6.3[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
+	~dev-python/tomli-2.0[${PYTHON_USEDEP}]
 	dev-python/simplemma[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.17[${PYTHON_USEDEP}]
 	fasttext? ( dev-python/fasttext-wheel[${PYTHON_USEDEP}] )
 	voikko? ( dev-python/voikko[${PYTHON_USEDEP}] )
 	nn? ( dev-python/tensorflow-cpu[${PYTHON_USEDEP}] )
-	nn? ( dev-python/lmdb[${PYTHON_USEDEP}] )
+	nn? ( ~dev-python/lmdb-1.4.1[${PYTHON_USEDEP}] )
 	omikuji? ( dev-python/omikuji[${PYTHON_USEDEP}] )
 	yake? ( dev-python/yake[${PYTHON_USEDEP}] )
 	spacy? ( dev-python/spacy[${PYTHON_USEDEP}] )

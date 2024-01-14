@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/httpcore[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
+	>=dev-python/httpcore-0.16.3[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
 	dev-python/notion-client[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	>=dev-python/anyio-3.6.2[${PYTHON_USEDEP}]
 	dev-python/cos-python-sdk-v5[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.3.4[${PYTHON_USEDEP}]
 	dev-python/aiolimiter[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]"
+	>=dev-python/chardet-5.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

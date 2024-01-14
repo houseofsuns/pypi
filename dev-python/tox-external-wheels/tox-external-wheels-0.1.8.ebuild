@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES="dev-python/tox[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pygments-github-lexers[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-autoprogram[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/tox-4.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/towncrier-18.5.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pygments-github-lexers-0.0.5[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-autoprogram-0.1.5[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-mock-2.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-xdist-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

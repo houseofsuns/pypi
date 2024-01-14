@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]"
+	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
+	<dev-python/rsa-5.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.23.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

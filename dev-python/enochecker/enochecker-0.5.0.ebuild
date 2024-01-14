@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/certifi-2020.12.5[${PYTHON_USEDEP}]
+	~dev-python/chardet-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/enochecker-cli[${PYTHON_USEDEP}]
 	dev-python/enochecker-core[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	~dev-python/idna-2.10[${PYTHON_USEDEP}]
+	~dev-python/itsdangerous-1.1.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jsons[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.11.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/typish[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/pwntools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]
+	<dev-python/selenium-4.0[${PYTHON_USEDEP}]
 	dev-python/save-thread-result[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

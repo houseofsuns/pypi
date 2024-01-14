@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/elementpath[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+	~dev-python/elementpath-4.1.5[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/mdurl[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/xmlschema[${PYTHON_USEDEP}]"
+	~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}]
+	~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.17.1[${PYTHON_USEDEP}]
+	~dev-python/rich-13.7.0[${PYTHON_USEDEP}]
+	~dev-python/xmlschema-2.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

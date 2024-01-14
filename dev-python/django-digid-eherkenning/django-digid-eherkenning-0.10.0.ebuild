@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="coverage docs pep8 release tests"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2.0[${PYTHON_USEDEP}]
 	dev-python/django-sessionprofile[${PYTHON_USEDEP}]
 	dev-python/django-simple-certmanager[${PYTHON_USEDEP}]
 	dev-python/django-solo[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.7.0[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
 	dev-python/maykin-python3-saml[${PYTHON_USEDEP}]
 	coverage? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

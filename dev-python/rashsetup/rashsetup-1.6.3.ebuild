@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/webdriver_manager[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]"
+	~dev-python/selenium-4.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

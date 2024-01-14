@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/fsspec-0.8.7[${PYTHON_USEDEP}]
 	dev-python/oci[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

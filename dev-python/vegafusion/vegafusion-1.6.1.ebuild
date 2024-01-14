@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="embed"
 DEPENDENCIES="dev-python/altair[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-5.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]

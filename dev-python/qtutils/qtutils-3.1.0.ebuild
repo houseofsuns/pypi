@@ -31,8 +31,8 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	docs? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
 	docs? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/recommonmark-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	pyqt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/PySide2[${PYTHON_USEDEP}] )"

@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/pronto[${PYTHON_USEDEP}]
 	dev-python/rapidfuzz[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/laminci[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbproject-test[${PYTHON_USEDEP}] )

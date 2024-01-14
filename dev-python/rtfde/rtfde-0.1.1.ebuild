@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev msg_parse"
-DEPENDENCIES="dev-python/lark[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/lark-1.1.8[${PYTHON_USEDEP}]
 	dev-python/oletools[${PYTHON_USEDEP}]
-	dev? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pdoc3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/lxml-4.6[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pdoc3-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-7.2.2[${PYTHON_USEDEP}] )
 	msg_parse? ( dev-python/extract-msg[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

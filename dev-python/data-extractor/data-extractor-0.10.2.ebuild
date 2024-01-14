@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cssselect jsonpath-extractor jsonpath-rw jsonpath-rw-ext lxml"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	cssselect? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	cssselect? ( dev-python/cssselect[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
+	cssselect? ( <dev-python/lxml-5.0[${PYTHON_USEDEP}] )
+	cssselect? ( <dev-python/cssselect-2.0[${PYTHON_USEDEP}] )
 	jsonpath-extractor? ( dev-python/jsonpath-extractor[${PYTHON_USEDEP}] )
 	jsonpath-rw? ( dev-python/jsonpath-rw[${PYTHON_USEDEP}] )
 	jsonpath-rw-ext? ( dev-python/jsonpath-rw[${PYTHON_USEDEP}] )
 	jsonpath-rw-ext? ( dev-python/jsonpath-rw-ext[${PYTHON_USEDEP}] )
-	lxml? ( dev-python/lxml[${PYTHON_USEDEP}] )"
+	lxml? ( <dev-python/lxml-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

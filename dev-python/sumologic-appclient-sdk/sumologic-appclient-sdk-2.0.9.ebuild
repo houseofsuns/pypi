@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws azure dev gcp"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	all? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	all? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7.3[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.6[${PYTHON_USEDEP}]
+	all? ( >=dev-python/boto3-1.9.66[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/botocore-1.12.66[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/google-api-python-client-1.7.8[${PYTHON_USEDEP}] )
 	all? ( dev-python/oauth2client[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-datastore[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-cosmosdb-table[${PYTHON_USEDEP}] )
 	all? ( dev-python/bson[${PYTHON_USEDEP}] )
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	aws? ( dev-python/botocore[${PYTHON_USEDEP}] )
+	aws? ( >=dev-python/boto3-1.9.66[${PYTHON_USEDEP}] )
+	aws? ( >=dev-python/botocore-1.12.66[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-cosmosdb-table[${PYTHON_USEDEP}] )
 	azure? ( dev-python/bson[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aws-sam-cli[${PYTHON_USEDEP}] )
 	dev? ( dev-python/awscli[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	gcp? ( >=dev-python/google-api-python-client-1.7.8[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/oauth2client[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-datastore[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

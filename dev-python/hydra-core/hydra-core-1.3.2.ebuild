@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/omegaconf[${PYTHON_USEDEP}]
-	dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
+	~dev-python/antlr4-python3-runtime-4.9[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

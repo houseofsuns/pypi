@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/andi[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	dev-python/parsel[${PYTHON_USEDEP}]
 	dev-python/scrapy[${PYTHON_USEDEP}]
-	dev-python/sqlitedict[${PYTHON_USEDEP}]
-	dev-python/time-machine[${PYTHON_USEDEP}]
-	dev-python/twisted[${PYTHON_USEDEP}]
+	>=dev-python/sqlitedict-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/time-machine-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/twisted-18.9.0[${PYTHON_USEDEP}]
 	dev-python/url-matcher[${PYTHON_USEDEP}]
 	dev-python/web-poet[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

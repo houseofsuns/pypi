@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.0.0[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow3-annotations[${PYTHON_USEDEP}]
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-tidy-imports[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/isort-5.8.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
+	all? ( <dev-python/mypy-0.900[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.12.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-env-0.6.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/typed-ast[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

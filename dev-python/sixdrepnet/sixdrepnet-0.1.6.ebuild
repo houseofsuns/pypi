@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

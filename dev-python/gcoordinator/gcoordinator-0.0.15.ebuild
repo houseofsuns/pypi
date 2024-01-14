@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pyopengl[${PYTHON_USEDEP}]
 	dev-python/pyqt5[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]"
+	~dev-python/pyqtgraph-0.13.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

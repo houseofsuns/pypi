@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pycarol[${PYTHON_USEDEP}]
 	dev-python/nest_asyncio[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

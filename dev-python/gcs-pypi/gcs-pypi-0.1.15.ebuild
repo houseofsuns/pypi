@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/google-api-core[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/google-api-core-1.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/flake8-3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipdb-0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-4.6.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

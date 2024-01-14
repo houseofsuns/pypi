@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/greenlet[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/greenlet-0.4.17[${PYTHON_USEDEP}]
 	dev-python/sniffio[${PYTHON_USEDEP}]
 	dev-python/outcome[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -31,17 +31,17 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/lalsuite[${PYTHON_USEDEP}]
 	dev-python/ligo-gracedb[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15.4[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.44.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
@@ -60,17 +60,17 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	extras? ( dev-python/ligo-skymap[${PYTHON_USEDEP}] )
 	extras? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	extras? ( dev-python/pepredicates[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/flake8-3.7.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-bandit[${PYTHON_USEDEP}] )
 	test? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	test? ( dev-python/bilby-pipe[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
-	test? ( dev-python/cython[${PYTHON_USEDEP}] )
-	test? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/cython-0.28.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pycbc[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

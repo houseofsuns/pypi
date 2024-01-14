@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/hcai-nova-utils[${PYTHON_USEDEP}]
 	dev-python/waitress[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]

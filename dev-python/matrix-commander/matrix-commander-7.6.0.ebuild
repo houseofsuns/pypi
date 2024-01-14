@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-0.6.0[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/datetime[${PYTHON_USEDEP}]

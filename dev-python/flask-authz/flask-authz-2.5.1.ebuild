@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/casbin[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.1.0[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

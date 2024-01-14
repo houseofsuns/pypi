@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extra"
-DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/markdown-3.5[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	extra? ( dev-python/pygments[${PYTHON_USEDEP}] )"
+	extra? ( >=dev-python/pygments-2.12[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

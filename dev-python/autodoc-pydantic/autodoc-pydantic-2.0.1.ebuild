@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs erdantic test"
 DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-tabs-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-tabs-4.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	erdantic? ( dev-python/erdantic[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

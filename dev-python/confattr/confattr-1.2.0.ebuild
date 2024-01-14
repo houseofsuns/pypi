@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="platformdirs xdgappdirs"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	platformdirs? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
+	platformdirs? ( >=dev-python/platformdirs-2.0.0[${PYTHON_USEDEP}] )
 	xdgappdirs? ( dev-python/xdgappdirs[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

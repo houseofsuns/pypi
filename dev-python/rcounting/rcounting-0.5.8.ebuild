@@ -27,7 +27,7 @@ IUSE="analysis dev"
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/praw[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
 	analysis? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/seaborn[${PYTHON_USEDEP}] )

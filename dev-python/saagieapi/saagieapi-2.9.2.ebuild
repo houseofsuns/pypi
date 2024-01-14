@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/croniter-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/deprecation-3.0.0[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2021.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.29.0[${PYTHON_USEDEP}]
 	dev-python/requests_toolbelt[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

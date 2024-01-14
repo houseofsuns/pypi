@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc extra test"
 DEPENDENCIES="dev-python/nibabel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
 	dev-python/pybids[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/memori[${PYTHON_USEDEP}]
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/myst-parser-0.13.5[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/numpydoc-1.1.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/pydata-sphinx-theme-0.8.1[${PYTHON_USEDEP}] )
 	extra? ( dev-python/nipy[${PYTHON_USEDEP}] )
 	extra? ( dev-python/nipype[${PYTHON_USEDEP}] )
 	extra? ( dev-python/sdcflows[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

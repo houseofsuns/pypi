@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.26[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	dev-python/sagemaker[${PYTHON_USEDEP}]
 	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

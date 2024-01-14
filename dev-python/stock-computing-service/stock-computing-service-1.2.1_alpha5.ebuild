@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/datamodel-code-generator[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/gcloud[${PYTHON_USEDEP}]
@@ -34,10 +34,10 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/pulumi-kubernetes[${PYTHON_USEDEP}]
 	dev-python/pulumi-random[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]"
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-asyncio-0.22.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

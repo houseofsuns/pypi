@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/WebOb[${PYTHON_USEDEP}]
 	dev-python/Mako[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/logutils[${PYTHON_USEDEP}]"
+	>=dev-python/logutils-0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

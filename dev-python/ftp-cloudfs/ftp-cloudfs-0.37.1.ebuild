@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyftpdlib[${PYTHON_USEDEP}]
-	dev-python/python-swiftclient[${PYTHON_USEDEP}]
-	dev-python/python-daemon[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyftpdlib-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/python-swiftclient-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/python-daemon-1.5.5[${PYTHON_USEDEP}]
 	dev-python/python-memcached[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

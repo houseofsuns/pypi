@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/yara-python[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/yara-python-5.0.0[${PYTHON_USEDEP}]
 	dev-python/yls[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

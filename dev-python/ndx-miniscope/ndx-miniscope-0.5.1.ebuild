@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pynwb[${PYTHON_USEDEP}]
 	dev-python/hdmf-docutils[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]"
+	>=dev-python/natsort-8.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-plugins[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/keyrings-alt[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.1[${PYTHON_USEDEP}]
+	>=dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
+	~dev-python/keyring-18.0.1[${PYTHON_USEDEP}]
+	~dev-python/keyrings-alt-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.3[${PYTHON_USEDEP}]
 	dev-python/py42[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	>=dev-python/setuptools-66.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ipython-8.10.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-4.6.11[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-3.17.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-0.16[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

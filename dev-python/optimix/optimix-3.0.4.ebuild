@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/brent-search[${PYTHON_USEDEP}]
 	dev-python/ndarray-listener[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	>=dev-python/numpy-1.14.3[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.23.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

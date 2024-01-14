@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/alembic-1.5.4[${PYTHON_USEDEP}]
+	>=dev-python/arrow-0.17.0[${PYTHON_USEDEP}]
 	dev-python/flask-wtf[${PYTHON_USEDEP}]
 	dev-python/flask-validator[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
+	>=dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
+	>=dev-python/graphviz-0.16[${PYTHON_USEDEP}]
 	dev-python/manage-py[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.2[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
 	dev-python/pg8000[${PYTHON_USEDEP}]
 	dev-python/sadisplay[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<=dev-python/sqlalchemy-1.4.48[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-mixins[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-repr[${PYTHON_USEDEP}]
 	dev-python/wtforms-alchemy[${PYTHON_USEDEP}]"

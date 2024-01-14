@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.11[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	develop? ( dev-python/twine[${PYTHON_USEDEP}] )
 	develop? ( dev-python/tox[${PYTHON_USEDEP}] )"

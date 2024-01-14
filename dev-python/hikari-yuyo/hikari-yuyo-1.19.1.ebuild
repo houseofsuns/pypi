@@ -27,7 +27,7 @@ IUSE="asgi sake tanjun"
 DEPENDENCIES="dev-python/alluka[${PYTHON_USEDEP}]
 	dev-python/hikari[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
-	asgi? ( dev-python/asgiref[${PYTHON_USEDEP}] )
+	asgi? ( ~dev-python/asgiref-3.0[${PYTHON_USEDEP}] )
 	asgi? ( dev-python/hikari[${PYTHON_USEDEP}] )
 	sake? ( dev-python/hikari-sake[${PYTHON_USEDEP}] )
 	tanjun? ( dev-python/hikari-tanjun[${PYTHON_USEDEP}] )"

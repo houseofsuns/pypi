@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lxml pens"
-DEPENDENCIES="dev-python/fonttools[${PYTHON_USEDEP}]
-	lxml? ( dev-python/fonttools[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/fonttools-4.10.0[${PYTHON_USEDEP}]
+	lxml? ( >=dev-python/fonttools-4.10.0[${PYTHON_USEDEP}] )
 	pens? ( dev-python/fontPens[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

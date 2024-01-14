@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/Babel-2.6.0[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/confspirator[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
+	>=dev-python/decorator-4.4.0[${PYTHON_USEDEP}]
 	dev-python/django-rest-swagger[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	dev-python/jsonfield[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-3.14.0[${PYTHON_USEDEP}]
 	dev-python/keystonemiddleware[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/python-cinderclient[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
-	dev-python/python-neutronclient[${PYTHON_USEDEP}]
-	dev-python/python-novaclient[${PYTHON_USEDEP}]
+	>=dev-python/pbr-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/python-cinderclient-4.1.0[${PYTHON_USEDEP}]
+	>=dev-python/python-keystoneclient-3.19.0[${PYTHON_USEDEP}]
+	>=dev-python/python-neutronclient-6.12.0[${PYTHON_USEDEP}]
+	>=dev-python/python-novaclient-14.0.0[${PYTHON_USEDEP}]
 	dev-python/python-octaviaclient[${PYTHON_USEDEP}]
 	dev-python/python-troveclient[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

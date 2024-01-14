@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pycryptodome[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pycryptodome-3.15.0[${PYTHON_USEDEP}]
 	dev-python/pyperclip[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/passwordgenerator[${PYTHON_USEDEP}]

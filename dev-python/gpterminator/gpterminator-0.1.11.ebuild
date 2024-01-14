@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/inquirer[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/prompt-toolkit-3.0.38[${PYTHON_USEDEP}]
+	~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
+	~dev-python/rich-13.3.2[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/climage[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

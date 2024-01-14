@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/shiny[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	>=dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.11.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

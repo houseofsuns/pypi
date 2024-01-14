@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0.0[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi-utils[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/pygraphviz[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.21.0[${PYTHON_USEDEP}]
+	<dev-python/pygraphviz-2.0[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	<dev-python/cachetools-5.0.0[${PYTHON_USEDEP}]
 	dev-python/kubernetes-asyncio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/unicodecsv[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.2[${PYTHON_USEDEP}]
 	dev-python/editdistance[${PYTHON_USEDEP}]
 	dev-python/munkres[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

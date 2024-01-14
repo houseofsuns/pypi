@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]"
+DEPENDENCIES=">dev-python/botocore-1.4.45[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	<dev-python/docker-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/pluggy-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc ipython lint test wayland"
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/cairocffi[${PYTHON_USEDEP}]
-	dev-python/xcffib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cffi-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/cairocffi-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/xcffib-1.4.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
@@ -35,12 +35,12 @@ DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	lint? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/bowler[${PYTHON_USEDEP}] )
 	test? ( dev-python/dbus-next[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyGObject[${PYTHON_USEDEP}] )
-	wayland? ( dev-python/pywayland[${PYTHON_USEDEP}] )
-	wayland? ( dev-python/xkbcommon[${PYTHON_USEDEP}] )
-	wayland? ( dev-python/pywlroots[${PYTHON_USEDEP}] )"
+	wayland? ( >=dev-python/pywayland-0.4.14[${PYTHON_USEDEP}] )
+	wayland? ( >=dev-python/xkbcommon-0.3[${PYTHON_USEDEP}] )
+	wayland? ( ~dev-python/pywlroots-0.16.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

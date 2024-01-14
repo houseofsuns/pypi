@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/progress[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	~dev-python/humanize-3.12.0[${PYTHON_USEDEP}]
+	~dev-python/progress-1.6[${PYTHON_USEDEP}]
+	~dev-python/validators-0.18.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="gui pdf"
 DEPENDENCIES="dev-python/exif[${PYTHON_USEDEP}]
 	gui? ( dev-python/PySimpleGUI[${PYTHON_USEDEP}] )
-	dev-python/pytesseract[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/piexif[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/pytesseract-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
+	<dev-python/piexif-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/filedate[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.22.0[${PYTHON_USEDEP}]
 	dev-python/rich-argparse-plus[${PYTHON_USEDEP}]
-	pdf? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+	pdf? ( <dev-python/pycryptodome-4.0[${PYTHON_USEDEP}] )
 	dev-python/pyexiftool[${PYTHON_USEDEP}]
 	pdf? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
-	dev-python/pypdf[${PYTHON_USEDEP}]"
+	<dev-python/pypdf-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

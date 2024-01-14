@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	dev-python/attrs-mate[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.3.27[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.8.12[${PYTHON_USEDEP}] )
 	docs? ( dev-python/rstobj[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pygments-2.15.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ipython-8.10.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docfly[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
-	tests? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pathlib-mate[${PYTHON_USEDEP}] )
-	tests? ( dev-python/diskcache[${PYTHON_USEDEP}] )
-	tests? ( dev-python/fuzzywuzzy[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/diskcache-6.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/fuzzywuzzy-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/rich[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

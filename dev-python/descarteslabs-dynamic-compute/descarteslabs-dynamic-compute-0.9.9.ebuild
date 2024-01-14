@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	~dev-python/cloudpickle-1.6.0[${PYTHON_USEDEP}]
 	dev-python/descarteslabs[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
 	dev-python/ipyleaflet[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
+	<dev-python/pyproj-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/shapely-2.0[${PYTHON_USEDEP}]
+	>=dev-python/tifffile-2021.4.8[${PYTHON_USEDEP}]
 	dev-python/utm[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-19.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/poliastro[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/cloudshell-shell-core[${PYTHON_USEDEP}]
 	dev-python/cloudshell-logging[${PYTHON_USEDEP}]
 	dev-python/cloudshell-shell-standards[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]"
+	>=dev-python/attrs-21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

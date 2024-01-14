@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Twisted[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]"
+	>=dev-python/pyzmq-13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

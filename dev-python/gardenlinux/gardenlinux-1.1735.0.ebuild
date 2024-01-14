@@ -37,14 +37,14 @@ DEPENDENCIES="dev-python/gardener-cicd-libs[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-storage[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-subscription[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.10.1[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+	<dev-python/google-api-python-client-3.0[${PYTHON_USEDEP}]
+	<dev-python/google-auth-3.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
 	dev-python/msrestazure[${PYTHON_USEDEP}]
 	dev-python/oss2[${PYTHON_USEDEP}]
-	dev-python/openstacksdk[${PYTHON_USEDEP}]"
+	<dev-python/openstacksdk-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

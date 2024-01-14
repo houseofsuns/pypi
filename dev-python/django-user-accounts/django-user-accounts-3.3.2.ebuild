@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-appconf[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+	>=dev-python/pytz-2020.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

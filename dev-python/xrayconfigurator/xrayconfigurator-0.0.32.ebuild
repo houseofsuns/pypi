@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aws-xray-sdk[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/aws-xray-sdk-2.9.0[${PYTHON_USEDEP}]
+	>=dev-python/sentry-sdk-1.5.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

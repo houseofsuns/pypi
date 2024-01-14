@@ -30,10 +30,10 @@ DEPENDENCIES="dev-python/aiida-core[${PYTHON_USEDEP}]
 	dev-python/aiida-cp2k[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/aiida-gaussian[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.0.0[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev? ( dev-python/pgtest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )

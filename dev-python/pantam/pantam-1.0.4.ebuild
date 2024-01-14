@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/starlette[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/starlette-0.14.0[${PYTHON_USEDEP}]
 	dev-python/colored[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.12.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/shellingham[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	<dev-python/shellingham-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	dev-python/prompt_toolkit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

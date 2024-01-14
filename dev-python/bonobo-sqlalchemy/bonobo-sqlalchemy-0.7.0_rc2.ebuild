@@ -27,9 +27,9 @@ IUSE="dev"
 DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/bonobo[${PYTHON_USEDEP}]
 	dev? ( dev-python/bonobo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-4.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-4.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

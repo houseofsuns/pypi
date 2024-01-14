@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]
+	~dev-python/requests-2.0[${PYTHON_USEDEP}]
+	~dev-python/zeroconf-0.102.0[${PYTHON_USEDEP}]
 	dev-python/simplejpeg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

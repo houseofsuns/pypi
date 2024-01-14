@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/atlassian-python-api[${PYTHON_USEDEP}]
 	dev-python/cogapp[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.5.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-cache-1.1.0[${PYTHON_USEDEP}]
 	dev-python/scooby[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

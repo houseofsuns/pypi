@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
+	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
 	dev-python/ciso8601[${PYTHON_USEDEP}]
 	dev-python/navconfig[${PYTHON_USEDEP}]
 	dev-python/asyncdb[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
+	~dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
+	~dev-python/jsonpickle-3.0.1[${PYTHON_USEDEP}]
 	dev-python/aiofile[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]"
+	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
+	~dev-python/msgpack-1.0.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

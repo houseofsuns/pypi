@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="http lxml"
-DEPENDENCIES="lxml? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	http? ( dev-python/requests[${PYTHON_USEDEP}] )"
+DEPENDENCIES="lxml? ( <dev-python/lxml-5.0.0[${PYTHON_USEDEP}] )
+	http? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

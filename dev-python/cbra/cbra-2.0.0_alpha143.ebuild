@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/inflect[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
 	dev-python/unimatrix[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	all? ( dev-python/unimatrix-ext-kms[${PYTHON_USEDEP}] )
 	google? ( dev-python/aorta[${PYTHON_USEDEP}] )
 	google? ( dev-python/ckms[${PYTHON_USEDEP}] )
-	google? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	google? ( >=dev-python/google-api-python-client-2.80.0[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-datastore[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}] )

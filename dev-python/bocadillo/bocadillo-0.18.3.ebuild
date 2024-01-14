@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="files full sessions"
-DEPENDENCIES="dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/starlette-0.13[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.9[${PYTHON_USEDEP}]
 	dev-python/typesystem[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/whitenoise[${PYTHON_USEDEP}]

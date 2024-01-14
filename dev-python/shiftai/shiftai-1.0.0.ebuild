@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/interpret[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
 	dev-python/entsoe-py[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
 	dev-python/IPython[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

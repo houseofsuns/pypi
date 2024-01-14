@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/asynq[${PYTHON_USEDEP}]
 	dev-python/qcore[${PYTHON_USEDEP}]
 	dev-python/ast-decompiler[${PYTHON_USEDEP}]
 	dev-python/typeshed-client[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/codemod[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	tests? ( dev-python/attrs[${PYTHON_USEDEP}] )

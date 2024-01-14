@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gpytorch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/setuptools-58.0.4[${PYTHON_USEDEP}]
 	dev-python/properscoring[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
 	dev-python/tsaugmentation[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.3[${PYTHON_USEDEP}]
 	dev-python/sktime[${PYTHON_USEDEP}]
 	dev-python/scikit-optimize[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

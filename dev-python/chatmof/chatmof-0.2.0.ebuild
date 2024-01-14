@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="dev-python/moftransformer[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<=dev-python/urllib3-1.25.11[${PYTHON_USEDEP}]
+	<=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/pormake[${PYTHON_USEDEP}]

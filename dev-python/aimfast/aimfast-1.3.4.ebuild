@@ -40,7 +40,7 @@ DEPENDENCIES="aegean? ( dev-python/AegeanTools[${PYTHON_USEDEP}] )
 	dev-python/mock[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/regions[${PYTHON_USEDEP}]

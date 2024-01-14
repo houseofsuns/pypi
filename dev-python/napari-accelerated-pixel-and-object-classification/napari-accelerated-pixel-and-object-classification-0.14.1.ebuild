@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/napari-plugin-engine[${PYTHON_USEDEP}]
 	dev-python/napari-tools-menu[${PYTHON_USEDEP}]
 	dev-python/napari-time-slicer[${PYTHON_USEDEP}]
 	dev-python/superqt[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
+	>dev-python/imageio-2.22.1[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
 	dev-python/napari-assistant[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

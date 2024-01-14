@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
 	dev-python/types-python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]"
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

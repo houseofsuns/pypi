@@ -29,44 +29,44 @@ DEPENDENCIES="dev-python/typed-argument-parser[${PYTHON_USEDEP}]
 	dev-python/junitparser[${PYTHON_USEDEP}]
 	dev-python/junit2html[${PYTHON_USEDEP}]
 	dev-python/xmlrunner[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/radon[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
+	>=dev-python/mypy-0.99[${PYTHON_USEDEP}]
+	>=dev-python/coverage-7.0[${PYTHON_USEDEP}]
+	>=dev-python/radon-5.1[${PYTHON_USEDEP}]
+	<dev-python/pylint-3.0[${PYTHON_USEDEP}]
 	dev-python/pylint-json2html[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5[${PYTHON_USEDEP}]
+	>=dev-python/mypy-0.99[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-material-8.5[${PYTHON_USEDEP}]
 	dev-python/mkdocs-pymdownx-material-extras[${PYTHON_USEDEP}]
 	dev-python/mkdocs-localsearch[${PYTHON_USEDEP}]
-	dev-python/mkdocstrings[${PYTHON_USEDEP}]
+	>=dev-python/mkdocstrings-0.19[${PYTHON_USEDEP}]
 	dev-python/mkdocs-with-pdf[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/pymdown-extensions-9.0[${PYTHON_USEDEP}]
 	dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}]
 	dev-python/mkdocs-mermaid2-plugin[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
-	complexity-check? ( dev-python/radon[${PYTHON_USEDEP}] )
-	coverage-check? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	doc-gen? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc-gen? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	complexity-check? ( >=dev-python/radon-5.1[${PYTHON_USEDEP}] )
+	coverage-check? ( >=dev-python/coverage-7.0[${PYTHON_USEDEP}] )
+	doc-gen? ( >=dev-python/mkdocs-1.4.0[${PYTHON_USEDEP}] )
+	doc-gen? ( >=dev-python/mkdocs-material-8.5[${PYTHON_USEDEP}] )
 	doc-gen? ( dev-python/mkdocs-pymdownx-material-extras[${PYTHON_USEDEP}] )
 	doc-gen? ( dev-python/mkdocs-localsearch[${PYTHON_USEDEP}] )
-	doc-gen? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	doc-gen? ( >=dev-python/mkdocstrings-0.19[${PYTHON_USEDEP}] )
 	doc-gen? ( dev-python/mkdocs-with-pdf[${PYTHON_USEDEP}] )
-	doc-gen? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	doc-gen? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
+	doc-gen? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	doc-gen? ( >=dev-python/pymdown-extensions-9.0[${PYTHON_USEDEP}] )
 	doc-gen? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
 	doc-gen? ( dev-python/mkdocs-mermaid2-plugin[${PYTHON_USEDEP}] )
-	quality-check? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	quality-check? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	quality-check? ( dev-python/pylint-json2html[${PYTHON_USEDEP}] )
-	quality-check? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	quality-check? ( >=dev-python/pandas-1.5[${PYTHON_USEDEP}] )
 	quality-check? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	test? ( dev-python/junitparser[${PYTHON_USEDEP}] )
 	test? ( dev-python/junit2html[${PYTHON_USEDEP}] )
 	test? ( dev-python/xmlrunner[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	type-check? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/mypy-0.99[${PYTHON_USEDEP}] )
+	type-check? ( >=dev-python/mypy-0.99[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

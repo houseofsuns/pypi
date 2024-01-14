@@ -29,28 +29,28 @@ DEPENDENCIES="dev-python/boltons[${PYTHON_USEDEP}]
 	dev-python/funcsigs[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/owslib[${PYTHON_USEDEP}]
+	>=dev-python/owslib-0.19.2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbval[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nbsphinx-0.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nbval-0.9.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pip-20.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-3.8.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.8.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-3.5.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-1.12.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/watchdog-0.9.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.32.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

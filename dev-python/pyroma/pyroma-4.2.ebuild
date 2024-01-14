@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/build[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/build-0.7.0[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/trove-classifiers[${PYTHON_USEDEP}]
-	test? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	>=dev-python/setuptools-42.0[${PYTHON_USEDEP}]
+	>=dev-python/trove-classifiers-2022.6.26[${PYTHON_USEDEP}]
+	test? ( >=dev-python/setuptools-60.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/zest-releaser[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

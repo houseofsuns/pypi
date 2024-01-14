@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/testit-api-client[${PYTHON_USEDEP}]
 	dev-python/validators[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+	~dev-python/click-8.0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/deepdiff-5.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
 	dev-python/flatten-json[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/coolname[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,11 +30,11 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/libsass[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
 	dev-python/sigfig[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
+	~dev-python/natsort-8.4.0[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

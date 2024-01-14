@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	dev-python/NREL-rex[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpydoc[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
+	>=dev-python/numpydoc-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.2[${PYTHON_USEDEP}]
 	dev-python/pyjson5[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinx-copybutton[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-65.4.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}]
 	dev-python/sphinx-click[${PYTHON_USEDEP}]
-	dev-python/sphinx-tabs[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-tabs-3.4.1[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

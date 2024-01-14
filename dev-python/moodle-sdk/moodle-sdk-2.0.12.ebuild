@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/keyring[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/keyring-3.5[${PYTHON_USEDEP}]
 	dev-python/jenkinsapi[${PYTHON_USEDEP}]
-	dev-python/mysqlclient[${PYTHON_USEDEP}]
+	>=dev-python/mysqlclient-1.4.5[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-0.8.0[${PYTHON_USEDEP}]
 	dev-python/pyodbc[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

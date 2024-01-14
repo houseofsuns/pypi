@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="file_widgets mpi"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.10[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
 	dev-python/cytoolz[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/dask-0.10[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.0.0[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.11.0[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-5.2.2[${PYTHON_USEDEP}]
 	dev-python/ipykernel[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-6.0[${PYTHON_USEDEP}]
 	file_widgets? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

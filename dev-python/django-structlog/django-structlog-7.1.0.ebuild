@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="celery commands"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
+	>=dev-python/structlog-21.4.0[${PYTHON_USEDEP}]
+	>=dev-python/asgiref-3.6.0[${PYTHON_USEDEP}]
 	dev-python/django-ipware[${PYTHON_USEDEP}]
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	commands? ( dev-python/django-extensions[${PYTHON_USEDEP}] )"

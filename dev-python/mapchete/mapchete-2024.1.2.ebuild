@@ -27,32 +27,32 @@ IUSE="complete contours geobuf http profiling s3 serve spatial-index stac vrt"
 DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	dev-python/click-plugins[${PYTHON_USEDEP}]
 	dev-python/click-spinner[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.1[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	dev-python/fiona[${PYTHON_USEDEP}]
 	dev-python/fsspec[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/oyaml[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.3.0[${PYTHON_USEDEP}]
 	dev-python/pyproj[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tilematrix[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	complete? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	complete? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	complete? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/boto3-1.14.44[${PYTHON_USEDEP}] )
 	complete? ( dev-python/dask[${PYTHON_USEDEP}] )
 	complete? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	complete? ( dev-python/flask-rangerequest[${PYTHON_USEDEP}] )
-	complete? ( dev-python/flask[${PYTHON_USEDEP}] )
-	complete? ( dev-python/fsspec[${PYTHON_USEDEP}] )
+	complete? ( <dev-python/flask-3.0.0[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/fsspec-2023.12.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/geobuf[${PYTHON_USEDEP}] )
 	complete? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	complete? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	complete? ( dev-python/rtree[${PYTHON_USEDEP}] )
 	complete? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	complete? ( dev-python/tilebench[${PYTHON_USEDEP}] )
-	complete? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/werkzeug-0.15[${PYTHON_USEDEP}] )
 	contours? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	geobuf? ( dev-python/geobuf[${PYTHON_USEDEP}] )
 	geobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )
@@ -73,12 +73,12 @@ DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	profiling? ( dev-python/memray[${PYTHON_USEDEP}] )
 	profiling? ( dev-python/tilebench[${PYTHON_USEDEP}] )
 	s3? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/boto3-1.14.44[${PYTHON_USEDEP}] )
 	s3? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	s3? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	serve? ( dev-python/flask-rangerequest[${PYTHON_USEDEP}] )
-	serve? ( dev-python/flask[${PYTHON_USEDEP}] )
-	serve? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
+	serve? ( <dev-python/flask-3.0.0[${PYTHON_USEDEP}] )
+	serve? ( >=dev-python/werkzeug-0.15[${PYTHON_USEDEP}] )
 	spatial-index? ( dev-python/rtree[${PYTHON_USEDEP}] )
 	stac? ( dev-python/pystac-client[${PYTHON_USEDEP}] )
 	stac? ( dev-python/pystac[${PYTHON_USEDEP}] )

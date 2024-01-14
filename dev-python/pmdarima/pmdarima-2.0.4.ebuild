@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/joblib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/joblib-0.11[${PYTHON_USEDEP}]
 	dev-python/Cython[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.19[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.2[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.13.2[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]"
+	>=dev-python/setuptools-38.6.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-17.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

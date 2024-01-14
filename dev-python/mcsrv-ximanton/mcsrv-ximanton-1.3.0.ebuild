@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.6[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.5[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/dispenser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

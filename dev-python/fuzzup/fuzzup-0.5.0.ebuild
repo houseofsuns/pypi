@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/scipy-1.8.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
+	~dev-python/rapidfuzz-2.0.4[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	dev-python/cvr[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/python-can[${PYTHON_USEDEP}]
-	dev-python/pyusb[${PYTHON_USEDEP}]"
+	~dev-python/pyusb-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
 	dev-python/jijmodeling[${PYTHON_USEDEP}]
 	dev-python/jijzept[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/nbformat-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/streamlit-ace[${PYTHON_USEDEP}]
 	dev-python/streamlit-aggrid[${PYTHON_USEDEP}]

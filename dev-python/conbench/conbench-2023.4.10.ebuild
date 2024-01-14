@@ -29,7 +29,7 @@ DEPENDENCIES="dev? ( dev-python/flask-swagger-ui[${PYTHON_USEDEP}] )
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev? ( dev-python/alembic[${PYTHON_USEDEP}] )
@@ -56,7 +56,7 @@ DEPENDENCIES="dev? ( dev-python/flask-swagger-ui[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py-cpuinfo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
@@ -104,7 +104,7 @@ DEPENDENCIES="dev? ( dev-python/flask-swagger-ui[${PYTHON_USEDEP}] )
 	server? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	server? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	server? ( dev-python/py-cpuinfo[${PYTHON_USEDEP}] )
-	server? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	server? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	server? ( dev-python/requests[${PYTHON_USEDEP}] )

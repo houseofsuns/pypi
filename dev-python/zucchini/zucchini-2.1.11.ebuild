@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-6.7[${PYTHON_USEDEP}]
 	dev-python/gitdb2[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/smmap2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.26.42[${PYTHON_USEDEP}]
+	~dev-python/arrow-0.15.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

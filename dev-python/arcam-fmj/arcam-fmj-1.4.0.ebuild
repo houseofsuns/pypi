@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES=">dev-python/attrs-18.1[${PYTHON_USEDEP}]
+	tests? ( >dev-python/pytest-3.6.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-aiohttp-1.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aiohttp[${PYTHON_USEDEP}] )

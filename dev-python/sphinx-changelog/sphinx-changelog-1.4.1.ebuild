@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/towncrier[${PYTHON_USEDEP}]
+	~dev-python/towncrier-23.6.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/mne[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2023.8.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]

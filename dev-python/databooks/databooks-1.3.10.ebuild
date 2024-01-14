@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

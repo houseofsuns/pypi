@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-magic-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/packaging-22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

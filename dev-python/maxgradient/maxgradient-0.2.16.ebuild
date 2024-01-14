@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli dev"
 DEPENDENCIES="dev-python/lorem-text[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
+	>=dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.5.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.5.3[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/mkdocs-1.5.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocs-material-9.4.7[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocstrings-0.18[${PYTHON_USEDEP}] )
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

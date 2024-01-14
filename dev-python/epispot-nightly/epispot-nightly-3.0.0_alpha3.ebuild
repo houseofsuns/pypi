@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	~dev-python/plotly-5.1.0[${PYTHON_USEDEP}]
 	dev-python/SciencePlots[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
 	dev-python/blacksheep[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-39.0.1[${PYTHON_USEDEP}]
 	dev-python/haikunator[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
+	>=dev-python/redis-4.5.1[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-67.4.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]"
+	>=dev-python/uvicorn-0.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all imshow"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.14[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	imshow? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/matplotlib-2.2[${PYTHON_USEDEP}] )
+	imshow? ( >=dev-python/matplotlib-2.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

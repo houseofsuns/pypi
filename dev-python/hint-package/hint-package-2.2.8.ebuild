@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/h5py-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.1[${PYTHON_USEDEP}]
 	dev-python/cooler[${PYTHON_USEDEP}]
 	dev-python/pypairix[${PYTHON_USEDEP}]
 	dev-python/pairtools[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.23.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/multiprocess[${PYTHON_USEDEP}]
+	>=dev-python/multiprocess-0.70.5[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/pytabix[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

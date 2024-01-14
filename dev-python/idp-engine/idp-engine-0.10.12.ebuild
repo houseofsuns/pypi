@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/textX[${PYTHON_USEDEP}]
+	<dev-python/textX-3.0.0[${PYTHON_USEDEP}]
 	dev-python/z3-solver[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Cors[${PYTHON_USEDEP}]
 	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	dev-python/fast-html[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]"
+	<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

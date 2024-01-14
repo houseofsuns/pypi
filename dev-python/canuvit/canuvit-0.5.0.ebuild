@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.4[${PYTHON_USEDEP}]
+	>=dev-python/click-2.0[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

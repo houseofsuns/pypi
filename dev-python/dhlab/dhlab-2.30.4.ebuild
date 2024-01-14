@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ipython-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/networkx-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/python-louvain[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.14.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

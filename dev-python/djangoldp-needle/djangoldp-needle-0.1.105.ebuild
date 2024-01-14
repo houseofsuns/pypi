@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/djangoldp[${PYTHON_USEDEP}]
 	dev-python/djangoldp-uploader[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	~dev-python/selenium-3.14.1[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]
 	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	include_package_data? ( dev-python/True[${PYTHON_USEDEP}] )"

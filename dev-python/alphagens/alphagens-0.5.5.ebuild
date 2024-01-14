@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pandas-market-calendars[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
 	dev-python/pyperclip[${PYTHON_USEDEP}]
 	dev-python/tushare[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

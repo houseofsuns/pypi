@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pyparsing[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyparsing-2.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )

@@ -28,19 +28,19 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.27.0[${PYTHON_USEDEP}]
+	>dev-python/packaging-20.9[${PYTHON_USEDEP}]
 	dev-python/slicer[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.9.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-github-changelog[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/requests[${PYTHON_USEDEP}] )
 	others? ( dev-python/lime[${PYTHON_USEDEP}] )
 	plots? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]"
+	>=dev-python/cryptography-3.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

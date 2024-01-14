@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs dp-accounting examples test"
-DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/absl-py-0.7.1[${PYTHON_USEDEP}]
 	dev-python/chex[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	>=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-katex[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-bibtex-2.4.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.11.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ipykernel-5.3.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst_nb[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/docutils-0.16[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/dm-haiku[${PYTHON_USEDEP}] )
-	dp-accounting? ( dev-python/absl-py[${PYTHON_USEDEP}] )
-	dp-accounting? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	dp-accounting? ( dev-python/mpmath[${PYTHON_USEDEP}] )
-	dp-accounting? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dp-accounting? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	dp-accounting? ( >=dev-python/absl-py-1.0.0[${PYTHON_USEDEP}] )
+	dp-accounting? ( >=dev-python/attrs-21.4.0[${PYTHON_USEDEP}] )
+	dp-accounting? ( >=dev-python/mpmath-1.2.1[${PYTHON_USEDEP}] )
+	dp-accounting? ( >=dev-python/numpy-1.21.4[${PYTHON_USEDEP}] )
+	dp-accounting? ( >=dev-python/scipy-1.7.1[${PYTHON_USEDEP}] )
 	examples? ( dev-python/dm-haiku[${PYTHON_USEDEP}] )
 	examples? ( dev-python/tensorflow-datasets[${PYTHON_USEDEP}] )
 	examples? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

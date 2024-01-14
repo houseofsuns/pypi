@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/corsikaio[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]
+	>dev-python/zstandard-0.11.1[${PYTHON_USEDEP}]
 	dev-python/setuptools-scm[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

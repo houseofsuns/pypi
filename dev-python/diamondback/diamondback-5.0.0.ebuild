@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/jsonpickle[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jsonpickle-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	doc? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nox[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	doc? ( dev-python/requests[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	doc? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/jupyter-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mypy-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/nox-2025.4.22[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/pillow-11.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

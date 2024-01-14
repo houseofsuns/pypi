@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="apps dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.15.4[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.17.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.2.6[${PYTHON_USEDEP}]
 	apps? ( dev-python/petsc4py[${PYTHON_USEDEP}] )
-	apps? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
+	apps? ( >=dev-python/mpi4py-3.0.0[${PYTHON_USEDEP}] )
 	apps? ( dev-python/fenics[${PYTHON_USEDEP}] )
 	apps? ( dev-python/mpi4py-fft[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flakeheaven[${PYTHON_USEDEP}] )

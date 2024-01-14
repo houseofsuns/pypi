@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all encryption"
 DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	<dev-python/aiosqlite-0.19[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/commonmark[${PYTHON_USEDEP}]
+	>=dev-python/attrs-18.1.0[${PYTHON_USEDEP}]
+	<dev-python/bcrypt-5.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5[${PYTHON_USEDEP}]
+	<dev-python/commonmark-1.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/mautrix[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-10.0[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	all? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+	<dev-python/ruamel-yaml-0.18[${PYTHON_USEDEP}]
+	<dev-python/yarl-2.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/pycryptodome-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-olm[${PYTHON_USEDEP}] )
-	all? ( dev-python/unpaddedbase64[${PYTHON_USEDEP}] )
-	encryption? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+	all? ( <dev-python/unpaddedbase64-3.0[${PYTHON_USEDEP}] )
+	encryption? ( <dev-python/pycryptodome-4.0[${PYTHON_USEDEP}] )
 	encryption? ( dev-python/python-olm[${PYTHON_USEDEP}] )
-	encryption? ( dev-python/unpaddedbase64[${PYTHON_USEDEP}] )"
+	encryption? ( <dev-python/unpaddedbase64-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

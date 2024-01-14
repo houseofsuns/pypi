@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/colander[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
+	>=dev-python/ujson-1.35[${PYTHON_USEDEP}]
 	monitoring? ( dev-python/newrelic[${PYTHON_USEDEP}] )
 	monitoring? ( dev-python/raven[${PYTHON_USEDEP}] )
 	monitoring? ( dev-python/statsd[${PYTHON_USEDEP}] )

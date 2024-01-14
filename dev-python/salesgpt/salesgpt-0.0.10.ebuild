@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/chromadb[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
+	<dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/litellm[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-asyncio-0.24.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

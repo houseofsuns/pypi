@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/netmiko[${PYTHON_USEDEP}]
 	dev-python/discord-webhook[${PYTHON_USEDEP}]
 	dev-python/textfsm[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/pySMTP[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

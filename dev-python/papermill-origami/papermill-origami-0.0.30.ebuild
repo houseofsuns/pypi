@@ -27,7 +27,7 @@ IUSE="airflow dagster flyte prefect"
 DEPENDENCIES="dev-python/noteable-origami[${PYTHON_USEDEP}]
 	dev-python/papermill[${PYTHON_USEDEP}]
 	dagster? ( dev-python/dagstermill[${PYTHON_USEDEP}] )
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+	<dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
 	flyte? ( dev-python/flytekit[${PYTHON_USEDEP}] )
 	flyte? ( dev-python/flytekitplugins-papermill[${PYTHON_USEDEP}] )
 	airflow? ( dev-python/apache-airflow[${PYTHON_USEDEP}] )

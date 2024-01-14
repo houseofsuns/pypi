@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/path-py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/configobj[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.10[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.16[${PYTHON_USEDEP}]
+	>=dev-python/configobj-5.0[${PYTHON_USEDEP}]
+	>=dev-python/click-5.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.4[${PYTHON_USEDEP}]
 	dev-python/prody[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.3[${PYTHON_USEDEP}]
 	dev-python/BioPython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

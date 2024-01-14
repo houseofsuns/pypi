@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/black-24.0.0[${PYTHON_USEDEP}]
 	dev-python/duckdb[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/isort-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/mypy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
 	dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/sshtunnel[${PYTHON_USEDEP}]"
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/sshtunnel-0.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

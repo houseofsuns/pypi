@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiokafka[${PYTHON_USEDEP}]
-	dev-python/kafka-python[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/kafka-python-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.5.1[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.3.1[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/prometheus_client[${PYTHON_USEDEP}]
 	dev-python/opentracing[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]"
+	>=dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

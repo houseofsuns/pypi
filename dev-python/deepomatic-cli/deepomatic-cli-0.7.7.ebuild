@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="rpc"
 DEPENDENCIES="dev-python/opencv-python-headless[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/text-unidecode[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	~dev-python/text-unidecode-1.3[${PYTHON_USEDEP}]
+	<dev-python/greenlet-2.0[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/deepomatic-api[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]
+	<dev-python/GitPython-3.2.0[${PYTHON_USEDEP}]
+	<dev-python/argcomplete-2.0[${PYTHON_USEDEP}]
 	rpc? ( dev-python/deepomatic-rpc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

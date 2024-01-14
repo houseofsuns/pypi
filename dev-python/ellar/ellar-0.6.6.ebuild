@@ -25,50 +25,50 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc test"
 DEPENDENCIES="dev-python/injector[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/starlette-0.31.1[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	all? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
-	all? ( dev-python/itsdangerous[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	all? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	>=dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.22.0[${PYTHON_USEDEP}]
+	>=dev-python/passlib-1.7.4[${PYTHON_USEDEP}]
+	all? ( <dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}] )
+	all? ( <dev-python/itsdangerous-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/ujson-6.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/email_validator[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
 	doc? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	test? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
-	test? ( dev-python/anyio[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/orjson-3.2.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/ujson-4.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/anyio-3.2.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	test? ( dev-python/email_validator[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylibmc[${PYTHON_USEDEP}] )
 	test? ( dev-python/pymemcache[${PYTHON_USEDEP}] )
 	test? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
 	test? ( dev-python/redis[${PYTHON_USEDEP}] )
-	test? ( dev-python/itsdangerous[${PYTHON_USEDEP}] )
+	test? ( <dev-python/itsdangerous-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-ujson[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-orjson[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-redis[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-dataclasses[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-socketio[${PYTHON_USEDEP}] )
-	test? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	test? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	test? ( dev-python/argon2-cffi[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/uvicorn-0.25.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/argon2-cffi-23.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

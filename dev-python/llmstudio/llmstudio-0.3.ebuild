@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.26.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/anthropic[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	dev-python/cohere[${PYTHON_USEDEP}]
 	dev-python/tokenizer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

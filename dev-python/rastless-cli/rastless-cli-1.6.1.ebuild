@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/moto[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/moto-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/rio-cogeo[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+	<dev-python/simplejson-4.0.0[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

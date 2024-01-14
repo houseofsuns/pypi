@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/irc[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/irc-20.4[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18[${PYTHON_USEDEP}]
 	dev-python/mautrix[${PYTHON_USEDEP}]
-	dev-python/python-socks[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/python-socks-1.2.4[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/reorder-python-imports[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

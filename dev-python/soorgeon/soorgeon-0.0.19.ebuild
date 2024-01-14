@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/ploomber-core[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/isort[${PYTHON_USEDEP}]
 	dev-python/pyflakes[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
+	>=dev-python/black-22.6.0[${PYTHON_USEDEP}]
 	dev-python/papermill[${PYTHON_USEDEP}]
 	dev? ( dev-python/pkgmt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

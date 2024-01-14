@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fastcgi mysql postgresql tasks test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.0[${PYTHON_USEDEP}]
 	dev-python/django-simple-jsonfield[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="akafka all mongodb s3 test test-akafka test-mongodb test-s3"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	akafka? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
-	akafka? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	akafka? ( <dev-python/jsonschema-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/hexkit[${PYTHON_USEDEP}] )
 	mongodb? ( dev-python/motor[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	s3? ( dev-python/botocore[${PYTHON_USEDEP}] )
+	s3? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
+	s3? ( <dev-python/botocore-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/hexkit[${PYTHON_USEDEP}] )
 	test-akafka? ( dev-python/hexkit[${PYTHON_USEDEP}] )
 	test-akafka? ( dev-python/testcontainers[${PYTHON_USEDEP}] )

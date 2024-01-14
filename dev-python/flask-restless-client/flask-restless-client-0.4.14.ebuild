@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/cereal-lazer[${PYTHON_USEDEP}]
 	dev-python/crayons[${PYTHON_USEDEP}]
 	dev-python/dateutils[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]
+	~dev-python/ordered-set-3.1[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pbr[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]

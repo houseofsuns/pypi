@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev pil-measurement"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	dev? ( dev-python/fonttools[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/fonttools-3.26[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/xmldiff[${PYTHON_USEDEP}] )
 	pil-measurement? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

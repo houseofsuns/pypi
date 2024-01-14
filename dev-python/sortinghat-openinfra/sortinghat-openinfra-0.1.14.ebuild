@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/sortinghat[${PYTHON_USEDEP}]
 	dev-python/grimoirelab-toolkit[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]"
+	~dev-python/charset-normalizer-3.3.0[${PYTHON_USEDEP}]
+	~dev-python/cachetools-5.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

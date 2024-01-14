@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="auth search"
 DEPENDENCIES="auth? ( dev-python/authl[${PYTHON_USEDEP}] )
 	dev-python/misaka[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/atomicwrites[${PYTHON_USEDEP}]
+	<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/atomicwrites-2.0.0[${PYTHON_USEDEP}]
 	dev-python/awesome-slugify[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Caching[${PYTHON_USEDEP}]
@@ -35,6 +35,6 @@ DEPENDENCIES="auth? ( dev-python/authl[${PYTHON_USEDEP}] )
 	dev-python/Pygments[${PYTHON_USEDEP}]
 	search? ( dev-python/Whoosh[${PYTHON_USEDEP}] )
 	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]"
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

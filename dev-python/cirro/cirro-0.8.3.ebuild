@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.33.13[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/requests_aws4auth[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pygithub[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	dev-python/msal-extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

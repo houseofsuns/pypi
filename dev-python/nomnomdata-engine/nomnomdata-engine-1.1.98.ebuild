@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/dunamai[${PYTHON_USEDEP}]
-	dev-python/httmock[${PYTHON_USEDEP}]
+	<dev-python/httmock-2.0.0[${PYTHON_USEDEP}]
 	dev-python/nomnomdata-cli[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

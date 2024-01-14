@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
+	<dev-python/python-box-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/virtualenv-21.0.0[${PYTHON_USEDEP}]
 	dev-python/redbaron[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/rtd-poetry[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	<dev-python/semver-4.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]"
+	<dev-python/importlib-metadata-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

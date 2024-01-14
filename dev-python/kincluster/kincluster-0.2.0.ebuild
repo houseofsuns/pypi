@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/JPype1[${PYTHON_USEDEP}]
 	dev-python/konlpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

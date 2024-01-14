@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-42.0[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
+	>=dev-python/click-log-0.3[${PYTHON_USEDEP}]
 	dev-python/gdal[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flakes[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"

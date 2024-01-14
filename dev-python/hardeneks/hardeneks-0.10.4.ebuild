@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
 	dev-python/tox-gh-actions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

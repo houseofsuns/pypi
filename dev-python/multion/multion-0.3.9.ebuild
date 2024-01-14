@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-oauthlib-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
+	<dev-python/ipython-9.0.0[${PYTHON_USEDEP}]
 	dev-python/cognitojwt[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pytesseract[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]"
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytesseract-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

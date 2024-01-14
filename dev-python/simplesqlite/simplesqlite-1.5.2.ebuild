@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs logging test"
 DEPENDENCIES="dev-python/DataProperty[${PYTHON_USEDEP}]
 	dev-python/mbstrdecoder[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
+	<dev-python/pathvalidate-4.0[${PYTHON_USEDEP}]
 	dev-python/sqliteschema[${PYTHON_USEDEP}]
 	dev-python/tabledata[${PYTHON_USEDEP}]
 	dev-python/typepy[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	logging? ( dev-python/loguru[${PYTHON_USEDEP}] )
+	logging? ( <dev-python/loguru-1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytablereader[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytablewriter[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-discord[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-md-report[${PYTHON_USEDEP}] )
-	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/beautifulsoup4-4.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

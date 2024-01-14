@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiolimiter[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	dev-python/iniconfig[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
+	~dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/exceptiongroup-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.0[${PYTHON_USEDEP}]
+	~dev-python/pathspec-0.11.0[${PYTHON_USEDEP}]
+	~dev-python/platformdirs-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/pluggy-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pyactiveresource[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.5[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/ShopifyAPI[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

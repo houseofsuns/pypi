@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aip dask dev dill examples full gcp geopandas image matplotlib parallel standard viz"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-20.1[${PYTHON_USEDEP}]
 	dev-python/cattrs[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
+	>dev-python/pyrsistent-0.19.1[${PYTHON_USEDEP}]
+	<dev-python/decorator-5.0[${PYTHON_USEDEP}]
 	aip? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	aip? ( dev-python/docker[${PYTHON_USEDEP}] )
 	aip? ( dev-python/fsspec[${PYTHON_USEDEP}] )
@@ -58,23 +58,23 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/google-auth[${PYTHON_USEDEP}] )
 	dev? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hsluv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/loky[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-shard[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >dev-python/sphinx-3.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dill? ( dev-python/dill[${PYTHON_USEDEP}] )
 	examples? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	examples? ( dev-python/hsluv[${PYTHON_USEDEP}] )
-	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/matplotlib-3.1[${PYTHON_USEDEP}] )
 	examples? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	examples? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	examples? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
@@ -91,7 +91,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	full? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
 	full? ( dev-python/hsluv[${PYTHON_USEDEP}] )
 	full? ( dev-python/loky[${PYTHON_USEDEP}] )
-	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/matplotlib-3.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	full? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	full? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
@@ -100,12 +100,12 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	geopandas? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	image? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	matplotlib? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	matplotlib? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	matplotlib? ( >=dev-python/matplotlib-3.1[${PYTHON_USEDEP}] )
 	parallel? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	parallel? ( dev-python/loky[${PYTHON_USEDEP}] )
 	standard? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	standard? ( dev-python/hsluv[${PYTHON_USEDEP}] )
-	standard? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	standard? ( >=dev-python/matplotlib-3.1[${PYTHON_USEDEP}] )
 	standard? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	standard? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	viz? ( dev-python/Pillow[${PYTHON_USEDEP}] )

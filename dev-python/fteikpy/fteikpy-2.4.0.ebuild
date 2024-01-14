@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	full? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	full? ( dev-python/meshio[${PYTHON_USEDEP}] )"
+	full? ( >=dev-python/meshio-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

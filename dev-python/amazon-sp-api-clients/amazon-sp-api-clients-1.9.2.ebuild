@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/peewee[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/peewee-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/chardet-6.0.0[${PYTHON_USEDEP}]
 	dev-python/demjson3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

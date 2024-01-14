@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pyarrow[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

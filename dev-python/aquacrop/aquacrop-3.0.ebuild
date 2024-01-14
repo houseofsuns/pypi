@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]"
+	~dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
+	~dev-python/cffi-1.15.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/immutablecollections[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]"
+	>=dev-python/sortedcontainers-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

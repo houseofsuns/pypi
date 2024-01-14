@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/pdfrw[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/fonttools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-18.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pdfrw-0.4[${PYTHON_USEDEP}]
+	>=dev-python/pillow-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-3.44.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )

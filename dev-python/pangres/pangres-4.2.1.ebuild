@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.12[${PYTHON_USEDEP}]
+	>=dev-python/alembic-1.3.1[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

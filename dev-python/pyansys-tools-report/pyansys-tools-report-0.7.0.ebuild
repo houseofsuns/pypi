@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc tests"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	dev-python/scooby[${PYTHON_USEDEP}]
 	dev-python/pyvista[${PYTHON_USEDEP}]
 	doc? ( dev-python/ansys_sphinx_theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	doc? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

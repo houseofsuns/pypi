@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="readthedocs"
 DEPENDENCIES="dev-python/click-hotoffthehamster[${PYTHON_USEDEP}]
-	readthedocs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	readthedocs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	readthedocs? ( dev-python/tomli[${PYTHON_USEDEP}] )"
+	readthedocs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
+	readthedocs? ( <dev-python/sphinx-rtd-theme-3.0.0[${PYTHON_USEDEP}] )
+	readthedocs? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

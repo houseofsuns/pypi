@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.10[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
 	dev-python/robotframework-seleniumlibrary[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

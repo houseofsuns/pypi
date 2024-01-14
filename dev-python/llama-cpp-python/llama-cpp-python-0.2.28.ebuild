@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev server test"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/diskcache-5.6.1[${PYTHON_USEDEP}]
+	server? ( >=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	server? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )
 	server? ( dev-python/sse-starlette[${PYTHON_USEDEP}] )
 	server? ( dev-python/starlette-context[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/httpx-0.24.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scipy-1.10[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocs-1.4.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocstrings-0.22.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocs-material-9.1.18[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/httpx-0.24.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/llama_cpp_python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

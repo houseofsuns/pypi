@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/slackclient[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	>=dev-python/docker-4.2.1[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/giturlparse[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.6.2[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/sh[${PYTHON_USEDEP}]"
+	~dev-python/pytz-2019.1[${PYTHON_USEDEP}]
+	~dev-python/sh-1.13.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

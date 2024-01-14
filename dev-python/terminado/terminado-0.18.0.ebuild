@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test typing"
 DEPENDENCIES="dev-python/ptyprocess[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	>=dev-python/tornado-6.1.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	typing? ( dev-python/traitlets[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	typing? ( ~dev-python/mypy-1.6[${PYTHON_USEDEP}] )
+	typing? ( >=dev-python/traitlets-5.11.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

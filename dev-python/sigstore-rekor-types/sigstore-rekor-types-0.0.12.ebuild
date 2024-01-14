@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="codegen dev doc lint"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	codegen? ( dev-python/datamodel-code-generator[${PYTHON_USEDEP}] )
 	codegen? ( dev-python/sigstore-rekor-types[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sigstore-rekor-types[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pdoc[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	lint? ( >=dev-python/mypy-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

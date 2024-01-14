@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/coverage[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/coverage-8.0.0[${PYTHON_USEDEP}]
 	dev-python/mojo-errors[${PYTHON_USEDEP}]
 	dev-python/mojo-collections[${PYTHON_USEDEP}]
 	dev-python/mojo-config[${PYTHON_USEDEP}]

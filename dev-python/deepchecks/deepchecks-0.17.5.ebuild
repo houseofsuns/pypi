@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="nlp nlp-properties vision"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
+	>=dev-python/jsonpickle-2.0[${PYTHON_USEDEP}]
 	dev-python/PyNomaly[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
 	dev-python/category-encoders[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	<=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.13.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
+	<dev-python/pyzmq-24.0.0[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.13.5[${PYTHON_USEDEP}]
+	<dev-python/ipython-8.0[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-5.3.0[${PYTHON_USEDEP}]
+	<dev-python/ipywidgets-8.0[${PYTHON_USEDEP}]
 	nlp? ( dev-python/seqeval[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/textblob[${PYTHON_USEDEP}] )
@@ -53,8 +53,8 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	vision? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	vision? ( dev-python/albumentations[${PYTHON_USEDEP}] )
 	vision? ( dev-python/imgaug[${PYTHON_USEDEP}] )
-	vision? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	vision? ( >=dev-python/seaborn-0.1.0[${PYTHON_USEDEP}] )
 	vision? ( dev-python/imagehash[${PYTHON_USEDEP}] )
-	vision? ( dev-python/lxml[${PYTHON_USEDEP}] )"
+	vision? ( >=dev-python/lxml-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

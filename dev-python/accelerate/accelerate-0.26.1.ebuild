@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev quality rich sagemaker test_dev test_prod test_trackers testing"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/safetensors[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/urllib3-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
@@ -49,10 +49,10 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/bitsandbytes[${PYTHON_USEDEP}] )
 	dev? ( dev-python/timm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/black-23.1[${PYTHON_USEDEP}] )
 	quality? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	quality? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
-	quality? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	quality? ( <dev-python/urllib3-2.0.0[${PYTHON_USEDEP}] )
 	rich? ( dev-python/rich[${PYTHON_USEDEP}] )
 	sagemaker? ( dev-python/sagemaker[${PYTHON_USEDEP}] )
 	test_dev? ( dev-python/datasets[${PYTHON_USEDEP}] )

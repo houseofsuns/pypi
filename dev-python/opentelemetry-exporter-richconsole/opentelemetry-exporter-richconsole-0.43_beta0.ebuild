@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	>=dev-python/rich-10.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/parso[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/parso-0.6.0[${PYTHON_USEDEP}]
 	dev-python/tbtrim[${PYTHON_USEDEP}]
 	dev-python/bpc-utils[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"

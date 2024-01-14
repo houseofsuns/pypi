@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all azure docs google predict predict_no_cat_lgbm predict_no_lgbm server testing"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.9.1[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/auger-hub-api-client[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
+	<dev-python/docutils-0.16[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
 	dev-python/jsonpickle[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
 	dev-python/liac-arff[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
 	dev-python/multiprocess[${PYTHON_USEDEP}]
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
 	all? ( dev-python/mock[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -51,9 +51,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	all? ( dev-python/twine[${PYTHON_USEDEP}] )
 	all? ( dev-python/vcrpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	all? ( <dev-python/wheel-0.31.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/anyio[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/anyio-3.7.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	all? ( dev-python/celery[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	predict_no_cat_lgbm? ( dev-python/auger-ai-predict[${PYTHON_USEDEP}] )
 	predict_no_lgbm? ( dev-python/auger-ai-predict[${PYTHON_USEDEP}] )
 	predict_no_lgbm? ( dev-python/catboost[${PYTHON_USEDEP}] )
-	server? ( dev-python/anyio[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/anyio-3.7.1[${PYTHON_USEDEP}] )
 	server? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	server? ( dev-python/celery[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
@@ -78,7 +78,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	server? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	server? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	testing? ( <=dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -86,6 +86,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	testing? ( dev-python/twine[${PYTHON_USEDEP}] )
 	testing? ( dev-python/vcrpy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	testing? ( <dev-python/wheel-0.31.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

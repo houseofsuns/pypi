@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/jiwer[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/openai-whisper[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/jiwer[${PYTHON_USEDEP}]
 	dev-python/rouge[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-markdown-builder[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.22[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-favicon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/twine[${PYTHON_USEDEP}] )

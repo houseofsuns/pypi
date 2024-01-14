@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/DBUtils[${PYTHON_USEDEP}]
+	<dev-python/DBUtils-3.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/py2neo[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

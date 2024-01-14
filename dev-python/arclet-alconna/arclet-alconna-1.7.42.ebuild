@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev-python/nepattern[${PYTHON_USEDEP}]
 	dev-python/tarina[${PYTHON_USEDEP}]
 	full? ( dev-python/arclet-alconna-tools[${PYTHON_USEDEP}] )"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/deprecation-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.0.0[${PYTHON_USEDEP}]
+	test? ( <dev-python/mypy-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/python-ulid[${PYTHON_USEDEP}]
 	dev-python/repr-llm[${PYTHON_USEDEP}]
 	dev-python/types-aiofiles[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/vdom[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

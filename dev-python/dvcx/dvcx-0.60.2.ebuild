@@ -27,35 +27,35 @@ IUSE="cv dev pandas remote tests vector"
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
 	dev-python/adlfs[${PYTHON_USEDEP}]
 	dev-python/dvc-data[${PYTHON_USEDEP}]
 	dev-python/dvc-objects[${PYTHON_USEDEP}]
 	dev-python/shtab[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/multiprocess[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}]
+	~dev-python/multiprocess-0.70.15[${PYTHON_USEDEP}]
+	~dev-python/dill-0.3.7[${PYTHON_USEDEP}]
 	cv? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dvcx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	remote? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	remote? ( dev-python/requests[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
+	remote? ( <dev-python/msgpack-2.0[${PYTHON_USEDEP}] )
+	remote? ( >=dev-python/requests-2.22.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dvcx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-sugar-0.9.6[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-servers[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-virtualenv[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-asyncio-0.23.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dulwich[${PYTHON_USEDEP}] )
 	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	tests? ( dev-python/numpy[${PYTHON_USEDEP}] )

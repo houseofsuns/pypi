@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/grimoire-elk[${PYTHON_USEDEP}]
 	dev-python/perceval-public-inbox[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]"
+	~dev-python/charset-normalizer-3.3.0[${PYTHON_USEDEP}]
+	~dev-python/pylint-3.0.1[${PYTHON_USEDEP}]
+	~dev-python/cryptography-41.0.4[${PYTHON_USEDEP}]
+	~dev-python/cachetools-5.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

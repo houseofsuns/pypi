@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all gssapi invoke"
-DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
-	all? ( dev-python/pyasn1[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/bcrypt-3.2[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.3[${PYTHON_USEDEP}]
+	>=dev-python/pynacl-1.5[${PYTHON_USEDEP}]
+	all? ( >=dev-python/pyasn1-0.1.7[${PYTHON_USEDEP}] )
 	all? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	all? ( dev-python/gssapi[${PYTHON_USEDEP}] )
-	gssapi? ( dev-python/pyasn1[${PYTHON_USEDEP}] )
-	gssapi? ( dev-python/gssapi[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/gssapi-1.4.1[${PYTHON_USEDEP}] )
+	gssapi? ( >=dev-python/pyasn1-0.1.7[${PYTHON_USEDEP}] )
+	gssapi? ( >=dev-python/gssapi-1.4.1[${PYTHON_USEDEP}] )
 	invoke? ( dev-python/invoke[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

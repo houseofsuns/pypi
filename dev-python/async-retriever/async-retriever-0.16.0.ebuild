@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="notebook test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
 	dev-python/aiohttp-client-cache[${PYTHON_USEDEP}]
 	dev-python/aiosqlite[${PYTHON_USEDEP}]
 	dev-python/cytoolz[${PYTHON_USEDEP}]

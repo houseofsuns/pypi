@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pyarrow"
-DEPENDENCIES="pyarrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"
+DEPENDENCIES="pyarrow? ( >=dev-python/pyarrow-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

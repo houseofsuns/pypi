@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/xlwings[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]"
+	~dev-python/chardet-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

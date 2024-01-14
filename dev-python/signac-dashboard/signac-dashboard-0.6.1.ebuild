@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.1.0[${PYTHON_USEDEP}]
 	dev-python/flask-assets[${PYTHON_USEDEP}]
-	dev-python/flask-login[${PYTHON_USEDEP}]
+	>=dev-python/flask-login-0.6.1[${PYTHON_USEDEP}]
 	dev-python/flask-turbolinks[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/jsmin[${PYTHON_USEDEP}]
 	dev-python/libsass[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-2.0.0[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/signac[${PYTHON_USEDEP}]
 	dev-python/watchdog[${PYTHON_USEDEP}]
 	dev-python/webassets[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]"
+	>=dev-python/werkzeug-2.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

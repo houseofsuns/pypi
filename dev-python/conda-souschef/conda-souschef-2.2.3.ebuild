@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ruamel-yaml-0.15.3[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml-jinja2[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mock[${PYTHON_USEDEP}] )

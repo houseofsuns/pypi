@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docs fsspec http2 qa tests"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	all? ( dev-python/webdav4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/webdav4[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	fsspec? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	http2? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	qa? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2022.9.29[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.3[${PYTHON_USEDEP}] )
+	fsspec? ( >=dev-python/fsspec-2021.7[${PYTHON_USEDEP}] )
+	http2? ( <dev-python/httpx-1.0.0[${PYTHON_USEDEP}] )
+	qa? ( ~dev-python/mypy-0.982[${PYTHON_USEDEP}] )
 	qa? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	qa? ( dev-python/pylint-pytest[${PYTHON_USEDEP}] )
-	qa? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	qa? ( ~dev-python/pylint-2.15.5[${PYTHON_USEDEP}] )
 	qa? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )
 	qa? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	tests? ( dev-python/cheroot[${PYTHON_USEDEP}] )

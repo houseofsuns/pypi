@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/furiosa-common[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/mnist[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

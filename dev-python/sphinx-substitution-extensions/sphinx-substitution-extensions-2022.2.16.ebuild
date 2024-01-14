@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev prompt"
-DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docutils-0.15[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-4.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/doc8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/doc8-0.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-commas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.931[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-check-reqs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyenchant-3.2.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.12.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyroma[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/types-docutils-0.17.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vulture[${PYTHON_USEDEP}] )
-	prompt? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )"
+	prompt? ( >=dev-python/sphinx-prompt-0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

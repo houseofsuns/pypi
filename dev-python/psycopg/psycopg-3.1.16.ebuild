@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="binary c dev docs pool test"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typing-extensions-4.1[${PYTHON_USEDEP}]
 	binary? ( dev-python/psycopg-binary[${PYTHON_USEDEP}] )
 	c? ( dev-python/psycopg-c[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
-	dev? ( dev-python/dnspython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/dnspython-2.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/types-setuptools-57.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.37[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2022.6.21[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.12[${PYTHON_USEDEP}] )
 	pool? ( dev-python/psycopg-pool[${PYTHON_USEDEP}] )
-	test? ( dev-python/anyio[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( <dev-python/anyio-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pproxy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

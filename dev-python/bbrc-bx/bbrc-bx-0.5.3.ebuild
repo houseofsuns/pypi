@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bbrc-pyxnat[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/coverage-4.5[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.3[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-2.6[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	>=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.31[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.2[${PYTHON_USEDEP}]
 	dev-python/xlutils[${PYTHON_USEDEP}]
-	dev-python/xlwt[${PYTHON_USEDEP}]"
+	>=dev-python/xlwt-1.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

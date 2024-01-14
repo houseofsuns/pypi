@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev graph minimal mlflow postgres s3"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
@@ -34,16 +34,16 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/IPython[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
+	<dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/fsspec[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	~dev-python/alembic-1.8.0[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	dev-python/black[${PYTHON_USEDEP}]
 	dev-python/isort[${PYTHON_USEDEP}]
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/click-8.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	dev? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/networkx[${PYTHON_USEDEP}] )
@@ -53,13 +53,13 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/alembic-1.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/syrupy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdbpp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-virtualenv[${PYTHON_USEDEP}] )
@@ -95,7 +95,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/botocore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	graph? ( dev-python/click[${PYTHON_USEDEP}] )
+	graph? ( >=dev-python/click-8.0.0[${PYTHON_USEDEP}] )
 	graph? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	graph? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	graph? ( dev-python/networkx[${PYTHON_USEDEP}] )
@@ -105,18 +105,18 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	graph? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	graph? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	graph? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	graph? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	graph? ( <dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}] )
 	graph? ( dev-python/requests[${PYTHON_USEDEP}] )
 	graph? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	graph? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	graph? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	graph? ( ~dev-python/alembic-1.8.0[${PYTHON_USEDEP}] )
 	graph? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	graph? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	graph? ( >=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}] )
 	graph? ( dev-python/black[${PYTHON_USEDEP}] )
 	graph? ( dev-python/isort[${PYTHON_USEDEP}] )
 	graph? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	graph? ( dev-python/scour[${PYTHON_USEDEP}] )
-	minimal? ( dev-python/click[${PYTHON_USEDEP}] )
+	minimal? ( >=dev-python/click-8.0.0[${PYTHON_USEDEP}] )
 	minimal? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	minimal? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	minimal? ( dev-python/networkx[${PYTHON_USEDEP}] )
@@ -126,14 +126,14 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	minimal? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	minimal? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	minimal? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	minimal? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	minimal? ( <dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}] )
 	minimal? ( dev-python/requests[${PYTHON_USEDEP}] )
 	minimal? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	minimal? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	minimal? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	minimal? ( ~dev-python/alembic-1.8.0[${PYTHON_USEDEP}] )
 	minimal? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	minimal? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	mlflow? ( dev-python/click[${PYTHON_USEDEP}] )
+	minimal? ( >=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}] )
+	mlflow? ( >=dev-python/click-8.0.0[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/networkx[${PYTHON_USEDEP}] )
@@ -143,17 +143,17 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	mlflow? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	mlflow? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	mlflow? ( <dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/requests[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	mlflow? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	mlflow? ( ~dev-python/alembic-1.8.0[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	mlflow? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	mlflow? ( >=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/black[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/isort[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/click[${PYTHON_USEDEP}] )
+	postgres? ( >=dev-python/click-8.0.0[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/networkx[${PYTHON_USEDEP}] )
@@ -163,17 +163,17 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	postgres? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	postgres? ( <dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/requests[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	postgres? ( ~dev-python/alembic-1.8.0[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	postgres? ( >=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/black[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/isort[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	s3? ( dev-python/click[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/click-8.0.0[${PYTHON_USEDEP}] )
 	s3? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	s3? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	s3? ( dev-python/networkx[${PYTHON_USEDEP}] )
@@ -183,13 +183,13 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	s3? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	s3? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	s3? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	s3? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	s3? ( <dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}] )
 	s3? ( dev-python/requests[${PYTHON_USEDEP}] )
 	s3? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	s3? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	s3? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	s3? ( ~dev-python/alembic-1.8.0[${PYTHON_USEDEP}] )
 	s3? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	s3? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}] )
 	s3? ( dev-python/black[${PYTHON_USEDEP}] )
 	s3? ( dev-python/isort[${PYTHON_USEDEP}] )
 	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )

@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gtk test web"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.12[${PYTHON_USEDEP}]
+	~dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
+	~dev-python/emoji-2.8[${PYTHON_USEDEP}]
 	dev-python/es7s-commons[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9[${PYTHON_USEDEP}]
 	dev-python/pysuncalc[${PYTHON_USEDEP}]
 	dev-python/pytermor[${PYTHON_USEDEP}]
-	dev-python/python-daemon[${PYTHON_USEDEP}]
+	~dev-python/python-daemon-2.3[${PYTHON_USEDEP}]
 	dev-python/python-levenshtein[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/readchar[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	gtk? ( dev-python/pycairo[${PYTHON_USEDEP}] )
-	gtk? ( dev-python/pygobject[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	~dev-python/requests-2.28[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-3.0.1[${PYTHON_USEDEP}]
+	gtk? ( ~dev-python/pycairo-1.23[${PYTHON_USEDEP}] )
+	gtk? ( ~dev-python/pygobject-3.42[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-6.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydeps[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	web? ( dev-python/flask[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.1[${PYTHON_USEDEP}] )
+	web? ( ~dev-python/flask-2.2.2[${PYTHON_USEDEP}] )
 	web? ( dev-python/gunicorn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all pandas polars spark"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
+	~dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
 	all? ( dev-python/spinecore[${PYTHON_USEDEP}] )
 	all? ( dev-python/spinecore[${PYTHON_USEDEP}] )
 	all? ( dev-python/spinecore[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	pandas? ( ~dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	polars? ( dev-python/connectorx[${PYTHON_USEDEP}] )
 	polars? ( dev-python/polars[${PYTHON_USEDEP}] )
-	polars? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	polars? ( ~dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

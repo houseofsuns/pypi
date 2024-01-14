@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+DEPENDENCIES="cli? ( >=dev-python/click-8.0.1[${PYTHON_USEDEP}] )
+	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.1[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

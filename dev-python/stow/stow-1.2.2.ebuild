@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	test? ( dev-python/pyini[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/moto[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/moto-4.1.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

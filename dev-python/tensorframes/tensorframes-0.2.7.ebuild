@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-0.20.3[${PYTHON_USEDEP}]
 	dev-python/PyHive[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.4.1[${PYTHON_USEDEP}]
 	dev-python/selectors[${PYTHON_USEDEP}]
 	dev-python/sasl[${PYTHON_USEDEP}]
-	dev-python/thrift[${PYTHON_USEDEP}]
+	>=dev-python/thrift-0.11.0[${PYTHON_USEDEP}]
 	dev-python/thrift-sasl[${PYTHON_USEDEP}]
 	dev-python/hdfs[${PYTHON_USEDEP}]
 	dev-python/sklearn-pandas[${PYTHON_USEDEP}]

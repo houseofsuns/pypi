@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	<=dev-python/dill-0.3.5.1[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/jsons[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]

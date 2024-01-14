@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/binaryornot[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/binaryornot-0.4.4[${PYTHON_USEDEP}]
+	>=dev-python/docker-7.0.0[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/terminaltables[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	>=dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
+	>=dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]
 	dev-python/slug[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
+	~dev-python/deepdiff-6.2.2[${PYTHON_USEDEP}]
 	dev-python/pyroute2[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]
-	dev-python/fs[${PYTHON_USEDEP}]
+	>=dev-python/progressbar2-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/fs-2.4.16[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
 	dev-python/appscript[${PYTHON_USEDEP}]
-	dev-python/libtmux[${PYTHON_USEDEP}]
+	>=dev-python/libtmux-0.8.2[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

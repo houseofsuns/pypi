@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	~dev-python/PyQt5-5.15.7[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/QtAwesome[${PYTHON_USEDEP}]
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )"

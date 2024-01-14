@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.24[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.12[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]"
+	~dev-python/networkx-3.1[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.2.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

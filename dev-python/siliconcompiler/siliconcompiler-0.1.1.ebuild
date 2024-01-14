@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build docs test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	build? ( dev-python/scikit-build[${PYTHON_USEDEP}] )
+	>=dev-python/cryptography-3.4.7[${PYTHON_USEDEP}]
+	>=dev-python/graphviz-0.18.1[${PYTHON_USEDEP}]
+	build? ( >=dev-python/scikit-build-0.12[${PYTHON_USEDEP}] )
 	build? ( dev-python/cython[${PYTHON_USEDEP}] )
 	build? ( dev-python/cmake[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pip-licenses[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyvirtualdisplay[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

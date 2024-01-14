@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-1.4[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/holoviews[${PYTHON_USEDEP}]
 	dev-python/panel[${PYTHON_USEDEP}]
 	dev-python/html2image[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	~dev-python/selenium-4.4[${PYTHON_USEDEP}]
 	dev-python/chromedriver-binary[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]"

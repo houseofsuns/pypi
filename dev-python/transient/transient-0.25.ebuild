@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/beautifultable[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.6.1[${PYTHON_USEDEP}]
 	dev-python/lark-parser[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/progressbar2-3.51.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-1.1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.800[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyHamcrest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typing[${PYTHON_USEDEP}] )
 	dev? ( dev-python/behave[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.36.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/reformat-gherkin[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vulture[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

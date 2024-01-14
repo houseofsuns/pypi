@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PySocks[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/html2text[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/cssselect[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/PySocks-1.7.0[${PYTHON_USEDEP}]
+	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.8.0[${PYTHON_USEDEP}]
+	~dev-python/html2text-2019.8.11[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.3.2[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.3.7[${PYTHON_USEDEP}]
+	~dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
+	~dev-python/cssselect-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

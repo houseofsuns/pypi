@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ml mllib sql"
 DEPENDENCIES="dev-python/py4j[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	ml? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	mllib? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	sql? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	sql? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"
+	ml? ( >=dev-python/numpy-1.7[${PYTHON_USEDEP}] )
+	mllib? ( >=dev-python/numpy-1.7[${PYTHON_USEDEP}] )
+	sql? ( >=dev-python/pandas-0.23.2[${PYTHON_USEDEP}] )
+	sql? ( >=dev-python/pyarrow-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

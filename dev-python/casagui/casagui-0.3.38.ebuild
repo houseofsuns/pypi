@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/regions[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+	>=dev-python/websockets-10.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/arrow-0.17.0[${PYTHON_USEDEP}]
+	~dev-python/flask-sqlalchemy-2.5.1[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.39[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

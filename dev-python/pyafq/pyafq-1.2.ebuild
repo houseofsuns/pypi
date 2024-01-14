@@ -30,60 +30,60 @@ DEPENDENCIES="dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/pybids[${PYTHON_USEDEP}]
 	dev-python/templateflow[${PYTHON_USEDEP}]
 	dev-python/pimms[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.16.0[${PYTHON_USEDEP}]
+	>=dev-python/dask-1.1[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.14.0[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
+	<dev-python/setuptools-scm-5.1.0[${PYTHON_USEDEP}]
 	dev-python/funcargparse[${PYTHON_USEDEP}]
 	dev-python/popylar[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	~dev-python/plotly-5.3.0[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	afqbrowser? ( dev-python/AFQ-Browser[${PYTHON_USEDEP}] )
-	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	all? ( dev-python/astroid[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/docutils-0.15.2[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/astroid-2.15.8[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/numpydoc-1.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	all? ( dev-python/rapidfuzz[${PYTHON_USEDEP}] )
-	all? ( dev-python/xvfbwrapper[${PYTHON_USEDEP}] )
-	all? ( dev-python/moto[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/xvfbwrapper-0.2.9[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/moto-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pip-conflict-checker[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	all? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	all? ( dev-python/wget[${PYTHON_USEDEP}] )
 	all? ( dev-python/fury[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/ipython-7.20.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/fslpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/AFQ-Browser[${PYTHON_USEDEP}] )
 	all? ( dev-python/pingouin[${PYTHON_USEDEP}] )
-	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/seaborn-0.11.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/trx-python[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/astroid[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/docutils-0.15.2[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/astroid-2.15.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/numpydoc-1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rapidfuzz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/xvfbwrapper[${PYTHON_USEDEP}] )
-	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/xvfbwrapper-0.2.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/moto-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-conflict-checker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
@@ -91,11 +91,11 @@ DEPENDENCIES="dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev? ( dev-python/wget[${PYTHON_USEDEP}] )
 	fsl? ( dev-python/fslpy[${PYTHON_USEDEP}] )
 	fury? ( dev-python/fury[${PYTHON_USEDEP}] )
-	fury? ( dev-python/xvfbwrapper[${PYTHON_USEDEP}] )
-	fury? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	fury? ( ~dev-python/xvfbwrapper-0.2.9[${PYTHON_USEDEP}] )
+	fury? ( <=dev-python/ipython-7.20.0[${PYTHON_USEDEP}] )
 	plot? ( dev-python/pingouin[${PYTHON_USEDEP}] )
-	plot? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	plot? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	plot? ( >=dev-python/seaborn-0.11.0[${PYTHON_USEDEP}] )
+	plot? ( <=dev-python/ipython-7.20.0[${PYTHON_USEDEP}] )
 	trx? ( dev-python/trx-python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

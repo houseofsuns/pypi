@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/aserto-authorizer[${PYTHON_USEDEP}]
 	dev-python/aserto-directory[${PYTHON_USEDEP}]"

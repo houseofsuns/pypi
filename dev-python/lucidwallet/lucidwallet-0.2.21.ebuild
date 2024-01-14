@@ -27,11 +27,11 @@ IUSE=""
 DEPENDENCIES="dev-python/fluxwallet[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
+	<dev-python/pyperclip-2.0.0[${PYTHON_USEDEP}]
 	dev-python/python-bitcoinlib[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	<dev-python/keyring-25.0.0[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]"
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

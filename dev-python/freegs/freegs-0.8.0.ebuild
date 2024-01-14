@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.8[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.14[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-1.3[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	dev-python/Shapely[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-4.3[${PYTHON_USEDEP}]
 	dev-python/freeqdsk[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

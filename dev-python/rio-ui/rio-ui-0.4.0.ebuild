@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="window"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/introspection[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	window? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	window? ( dev-python/pygobject[${PYTHON_USEDEP}] )
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	window? ( <dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
+	window? ( <dev-python/pygobject-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]
+	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
 	window? ( dev-python/pywebview[${PYTHON_USEDEP}] )
 	dev-python/revel[${PYTHON_USEDEP}]
 	dev-python/timer-dict[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/unicall[${PYTHON_USEDEP}]
 	dev-python/uniserde[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}]
+	<dev-python/yarl-2.0.0[${PYTHON_USEDEP}]
 	dev-python/material-color-utilities-python[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/watchfiles[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
+	<dev-python/watchfiles-0.22.0[${PYTHON_USEDEP}]
 	dev-python/gitignore-parser[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
+	<dev-python/tomlkit-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/keyring-25.0.0[${PYTHON_USEDEP}]
+	<dev-python/fuzzywuzzy-0.19.0[${PYTHON_USEDEP}]
 	dev-python/python-levenshtein[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

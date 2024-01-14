@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.6.4[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>dev-python/pandas-0.20.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autodoc-annotation[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )

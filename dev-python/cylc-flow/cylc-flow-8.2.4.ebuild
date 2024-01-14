@@ -25,28 +25,28 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all empy graph main_loop-log_data_store main_loop-log_db main_loop-log_main_loop main_loop-log_memory report-timings tests tutorials"
 DEPENDENCIES="dev-python/ansimarkup[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
+	<=dev-python/colorama-1.0[${PYTHON_USEDEP}]
 	dev-python/graphene[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/metomi-isodatetime[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/urwid[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.6.0[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-22.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-49.0[${PYTHON_USEDEP}]
+	~dev-python/urwid-2.0[${PYTHON_USEDEP}]
 	dev-python/rx[${PYTHON_USEDEP}]
 	dev-python/promise[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/EmPy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/pympler[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlparse[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pandas-1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/async-generator[${PYTHON_USEDEP}] )
-	all? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/bandit-1.7.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/coverage-7.3.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-broken-line[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
@@ -54,21 +54,21 @@ DEPENDENCIES="dev-python/ansimarkup[${PYTHON_USEDEP}]
 	all? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-mutable[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
-	all? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/flake8-3.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-asyncio-0.17[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.8.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-xdist-2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-env-0.6.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-mock-3.7[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/testfixtures-6.11.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/towncrier-23.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-Jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-six[${PYTHON_USEDEP}] )
-	all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	empy? ( dev-python/EmPy[${PYTHON_USEDEP}] )
 	graph? ( dev-python/pillow[${PYTHON_USEDEP}] )
@@ -78,11 +78,11 @@ DEPENDENCIES="dev-python/ansimarkup[${PYTHON_USEDEP}]
 	main_loop-log_main_loop? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	main_loop-log_memory? ( dev-python/pympler[${PYTHON_USEDEP}] )
 	main_loop-log_memory? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	report-timings? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	report-timings? ( ~dev-python/pandas-1.0[${PYTHON_USEDEP}] )
 	report-timings? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	tests? ( dev-python/async-generator[${PYTHON_USEDEP}] )
-	tests? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/bandit-1.7.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/coverage-7.3.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-broken-line[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
@@ -90,21 +90,21 @@ DEPENDENCIES="dev-python/ansimarkup[${PYTHON_USEDEP}]
 	tests? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-mutable[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
-	tests? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flake8-3.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-asyncio-0.17[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.8.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-xdist-2.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-env-0.6.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-mock-3.7[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/testfixtures-6.11.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/towncrier-23.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-Jinja2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-six[${PYTHON_USEDEP}] )
-	tests? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

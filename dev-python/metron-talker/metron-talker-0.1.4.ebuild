@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/mokkari[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-encodings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-42.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-scm-3.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

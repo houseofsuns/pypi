@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-2.2.5[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/pennylane[${PYTHON_USEDEP}]
 	dev-python/pennylane-qulacs[${PYTHON_USEDEP}]
 	dev-python/qulacs-gpu[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

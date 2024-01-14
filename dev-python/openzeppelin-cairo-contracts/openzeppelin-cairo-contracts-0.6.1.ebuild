@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )"

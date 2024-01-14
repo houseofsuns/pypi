@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli fastapi flask"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/jwcrypto[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
+	<dev-python/jwcrypto-2.0.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/halo[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/makefun[${PYTHON_USEDEP}] )
+	fastapi? ( <dev-python/makefun-2.0.0[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

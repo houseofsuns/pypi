@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( >=dev-python/black-22.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cython[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/cython-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

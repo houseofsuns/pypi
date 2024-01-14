@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/WebOb[${PYTHON_USEDEP}]
 	test? ( dev-python/closure[${PYTHON_USEDEP}] )
 	test? ( dev-python/cssmin[${PYTHON_USEDEP}] )
 	test? ( dev-python/jsmin[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-2.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

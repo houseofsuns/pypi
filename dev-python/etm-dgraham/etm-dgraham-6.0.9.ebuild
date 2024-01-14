@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/icalendar[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/icalendar-4.0.3[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/lorem[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0.2[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/pyperclip-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7.3[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.15.88[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	dev-python/style[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
 	dev-python/tinydb-serialization[${PYTHON_USEDEP}]
 	dev-python/tinydb-smartcache[${PYTHON_USEDEP}]
-	dev-python/wcwidth[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]"
+	>=dev-python/wcwidth-0.1.7[${PYTHON_USEDEP}]
+	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

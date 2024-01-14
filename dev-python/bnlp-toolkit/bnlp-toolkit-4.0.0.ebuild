@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/sklearn-crfsuite[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
+	~dev-python/emoji-1.7.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	fasttext? ( dev-python/fasttext[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

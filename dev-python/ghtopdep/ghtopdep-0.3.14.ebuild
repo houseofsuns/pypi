@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/selectolax[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
-	dev-python/cachecontrol[${PYTHON_USEDEP}]
-	dev-python/lockfile[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/github3-py[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+	<dev-python/cachecontrol-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/lockfile-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/github3-py-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pipdate[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

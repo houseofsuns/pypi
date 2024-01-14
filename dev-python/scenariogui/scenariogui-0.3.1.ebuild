@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gui"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.1[${PYTHON_USEDEP}]
 	dev-python/PySide6[${PYTHON_USEDEP}]
-	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
+	gui? ( >=dev-python/pyside6-6.4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

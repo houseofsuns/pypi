@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiormq[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.1[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/roview[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]"

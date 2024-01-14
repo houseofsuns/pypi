@@ -26,21 +26,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/builddsl[${PYTHON_USEDEP}]
 	dev-python/databind-json[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
+	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/dill-0.3.6[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
+	<dev-python/keyring-24.0.0[${PYTHON_USEDEP}]
 	dev-python/mitmproxy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	<dev-python/networkx-4.0[${PYTHON_USEDEP}]
 	dev-python/nr-io-graphviz[${PYTHON_USEDEP}]
 	dev-python/nr-stream[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	dev-python/pex[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/tomli-w[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
+	<dev-python/termcolor-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]
 	dev-python/typeapi[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

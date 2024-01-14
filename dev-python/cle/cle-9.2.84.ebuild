@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ar docs minidump pcode testing uefi xbe"
 DEPENDENCIES="dev-python/archinfo[${PYTHON_USEDEP}]
 	dev-python/pefile[${PYTHON_USEDEP}]
-	dev-python/pyelftools[${PYTHON_USEDEP}]
+	>=dev-python/pyelftools-0.27[${PYTHON_USEDEP}]
 	dev-python/pyvex[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
+	>=dev-python/sortedcontainers-2.0[${PYTHON_USEDEP}]
 	ar? ( dev-python/arpy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )

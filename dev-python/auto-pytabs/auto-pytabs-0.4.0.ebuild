@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="markdown mkdocs sphinx"
 DEPENDENCIES="dev-python/ruff[${PYTHON_USEDEP}]
-	sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	markdown? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	mkdocs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )"
+	sphinx? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
+	markdown? ( >=dev-python/markdown-3.2.1[${PYTHON_USEDEP}] )
+	mkdocs? ( <dev-python/mkdocs-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

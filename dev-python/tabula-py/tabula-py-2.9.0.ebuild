@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc jpype test"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -33,8 +33,8 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	jpype? ( dev-python/jpype1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

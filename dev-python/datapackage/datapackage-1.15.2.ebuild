@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cchardet develop"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.10[${PYTHON_USEDEP}]
+	>=dev-python/click-6.7[${PYTHON_USEDEP}]
+	>=dev-python/chardet-3.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.8[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-2.5[${PYTHON_USEDEP}]
 	dev-python/unicodecsv[${PYTHON_USEDEP}]
-	dev-python/jsonpointer[${PYTHON_USEDEP}]
+	>=dev-python/jsonpointer-1.10[${PYTHON_USEDEP}]
 	dev-python/tableschema[${PYTHON_USEDEP}]
 	dev-python/tabulator[${PYTHON_USEDEP}]
-	cchardet? ( dev-python/cchardet[${PYTHON_USEDEP}] )
+	cchardet? ( >=dev-python/cchardet-2.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/mock[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )

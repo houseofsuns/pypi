@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/python-socketio[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.20.0[${PYTHON_USEDEP}]
 	dev-python/tuneflow-py[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	~dev-python/msgpack-1.0.4[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/msgpack-asgi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

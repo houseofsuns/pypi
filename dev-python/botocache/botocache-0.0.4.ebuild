@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]"
+	~dev-python/cachetools-4.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

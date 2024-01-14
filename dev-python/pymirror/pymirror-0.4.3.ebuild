@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/dracula[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.5.3[${PYTHON_USEDEP}]
+	>=dev-python/selenium-4.1.0[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.13.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.0[${PYTHON_USEDEP}]
 	dev-python/speedtest[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

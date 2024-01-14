@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/tinkoff[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	<dev-python/deprecation-3.0.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

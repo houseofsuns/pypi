@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/mypy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

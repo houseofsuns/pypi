@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/pymod2pkg[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]"
+	>=dev-python/packaging-16.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,12 +27,12 @@ IUSE=""
 DEPENDENCIES="dev-python/bayescd[${PYTHON_USEDEP}]
 	dev-python/changepy[${PYTHON_USEDEP}]
 	dev-python/hyperopt[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
 	dev-python/pykalman[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.13.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]"
+	>=dev-python/decorator-5.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

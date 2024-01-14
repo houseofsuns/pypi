@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyaes[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/pymediainfo[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
+	~dev-python/pymongo-4.3.3[${PYTHON_USEDEP}]
+	~dev-python/pymediainfo-6.0.1[${PYTHON_USEDEP}]
 	dev-python/pysocks[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

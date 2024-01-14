@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="turbo"
-DEPENDENCIES="turbo? ( dev-python/cython[${PYTHON_USEDEP}] )
+DEPENDENCIES="turbo? ( >=dev-python/cython-3.0[${PYTHON_USEDEP}] )
 	dev-python/blake3[${PYTHON_USEDEP}]
 	dev-python/xxhash[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]

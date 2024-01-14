@@ -26,37 +26,37 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev labjack picotech tiepie"
 DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/asyncua[${PYTHON_USEDEP}]
-	dev-python/bitstring[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/bitstring-3.1.9[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	dev-python/pymodbus[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	dev-python/pyvisa-py[${PYTHON_USEDEP}]
 	dev-python/pyvisa[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	>=dev-python/typeguard-3.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/hvl-ccb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipdb-0.13.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.19.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pip-21.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-3.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-profiling[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-xdist-2.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-4.0.15[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-3.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/watchdog-1.0.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.36.2[${PYTHON_USEDEP}] )
 	labjack? ( dev-python/labjack-ljm[${PYTHON_USEDEP}] )
 	picotech? ( dev-python/PicoSDK[${PYTHON_USEDEP}] )
 	tiepie? ( dev-python/python-libtiepie-bi[${PYTHON_USEDEP}] )"

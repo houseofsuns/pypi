@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs mkdocs quality test"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]

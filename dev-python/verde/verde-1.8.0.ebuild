@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fast"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.16[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/pooch-1.2[${PYTHON_USEDEP}]
+	>=dev-python/dask-2021.5.0[${PYTHON_USEDEP}]
 	fast? ( dev-python/numba[${PYTHON_USEDEP}] )
 	fast? ( dev-python/pykdtree[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
 DEPENDENCIES="dev-python/Wagtail[${PYTHON_USEDEP}]
-	docs? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/pyenchant-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst_parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-wagtail-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-spelling-9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_copybutton[${PYTHON_USEDEP}] )
-	testing? ( dev-python/dj-database-url[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/dj-database-url-2.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

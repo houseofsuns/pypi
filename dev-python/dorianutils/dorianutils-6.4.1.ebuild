@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/odfpy[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
+	~dev-python/cryptography-2.8[${PYTHON_USEDEP}]
+	~dev-python/odfpy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/opcua[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.1[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.5.0[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/pymodbus[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

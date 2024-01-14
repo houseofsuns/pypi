@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/wxpython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.7[${PYTHON_USEDEP}]
+	>=dev-python/wxpython-4.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pymzml[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]

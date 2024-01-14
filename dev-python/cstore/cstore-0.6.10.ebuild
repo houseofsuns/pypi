@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/rich-13.4.2[${PYTHON_USEDEP}]
 	dev-python/cryptocode[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.8[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/simple-term-menu[${PYTHON_USEDEP}]
 	dev-python/clipboard[${PYTHON_USEDEP}]"

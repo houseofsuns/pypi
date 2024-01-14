@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]"
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

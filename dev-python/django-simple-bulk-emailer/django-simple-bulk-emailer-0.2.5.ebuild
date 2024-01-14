@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-simple-file-handler[${PYTHON_USEDEP}]
 	dev-python/mailchimp3[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.27[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

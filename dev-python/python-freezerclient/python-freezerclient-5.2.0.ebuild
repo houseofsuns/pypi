@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cliff[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/cliff-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-3.4.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-2.25.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.33.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

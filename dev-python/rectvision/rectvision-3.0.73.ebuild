@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.22.9[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.25.9[${PYTHON_USEDEP}]
 	dev-python/dtw[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/imageio-ffmpeg[${PYTHON_USEDEP}]
+	~dev-python/imageio-ffmpeg-0.4.7[${PYTHON_USEDEP}]
 	dev-python/labelme[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
+	~dev-python/requests-oauthlib-1.3.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

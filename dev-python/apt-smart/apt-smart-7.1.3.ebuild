@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/capturer[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.4.1[${PYTHON_USEDEP}]
+	>=dev-python/capturer-2.1.1[${PYTHON_USEDEP}]
+	>=dev-python/coloredlogs-5.0[${PYTHON_USEDEP}]
 	dev-python/executor[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/humanfriendly-4.17[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/stopit[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.26.0[${PYTHON_USEDEP}]
 	dev-python/property-manager3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bergen[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	<dev-python/xarray-0.17.0[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	<dev-python/dask-2021.0.0[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

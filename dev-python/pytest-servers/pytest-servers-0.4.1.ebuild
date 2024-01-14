@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all azure dev docker gcs s3 tests"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-6.2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/fsspec[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.3.2[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-servers[${PYTHON_USEDEP}] )
 	azure? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	azure? ( dev-python/pytest-servers[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-servers[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-servers[${PYTHON_USEDEP}] )
-	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
+	docker? ( >dev-python/docker-6.0[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/pytest-servers[${PYTHON_USEDEP}] )
-	s3? ( dev-python/moto[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/moto-4.0[${PYTHON_USEDEP}] )
 	s3? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	s3? ( dev-python/botocore[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/botocore-1.31.17[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage-enable-subprocess[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	tests? ( >dev-python/coverage-6.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-sugar-0.9.7[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-xdist-3.5.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

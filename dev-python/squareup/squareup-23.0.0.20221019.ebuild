@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/apimatic-core[${PYTHON_USEDEP}]
 	dev-python/apimatic-core-interfaces[${PYTHON_USEDEP}]
 	dev-python/apimatic-requests-client-adapter[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]"
+	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	~dev-python/deprecation-2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

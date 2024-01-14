@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs live quality tests"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	docs? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	live? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	live? ( dev-python/pyaudio[${PYTHON_USEDEP}] )
-	live? ( dev-python/websockets[${PYTHON_USEDEP}] )
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/click-8.0.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/validators-0.20.0[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/mkdocs-git-revision-date-localized-plugin-1.1.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-8.5.4[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-1.4.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-0.20.0[${PYTHON_USEDEP}] )
+	live? ( >=dev-python/numpy-1.21.2[${PYTHON_USEDEP}] )
+	live? ( >=dev-python/pyaudio-0.2.11[${PYTHON_USEDEP}] )
+	live? ( >=dev-python/websockets-11.0.3[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/black-22.10.0[${PYTHON_USEDEP}] )
 	quality? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	quality? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	tests? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyaudio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/responses[${PYTHON_USEDEP}] )
-	tests? ( dev-python/websockets[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/httpx-0.23.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/numpy-1.21.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pyaudio-0.2.11[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/responses-0.23.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/websockets-11.0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-json-logger-0.1[${PYTHON_USEDEP}]
+	>=dev-python/structlog-19.0[${PYTHON_USEDEP}]
+	>=dev-python/starlette-0.13[${PYTHON_USEDEP}]
 	dev-python/dramatiq[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
+	>=dev-python/pika-1.2[${PYTHON_USEDEP}]
 	dev-python/typed-ast[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

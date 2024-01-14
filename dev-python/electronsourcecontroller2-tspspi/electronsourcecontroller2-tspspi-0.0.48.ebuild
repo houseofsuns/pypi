@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/daemonize[${PYTHON_USEDEP}]
-	dev-python/lockfile[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pyserial-3.4[${PYTHON_USEDEP}]
+	>=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/daemonize-2.5.0[${PYTHON_USEDEP}]
+	>=dev-python/lockfile-0.12.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

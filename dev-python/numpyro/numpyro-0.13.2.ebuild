@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
 	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorflow-probability[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/nbsphinx-0.8.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
@@ -55,13 +55,13 @@ DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
 	examples? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	examples? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	examples? ( dev-python/wordcloud[${PYTHON_USEDEP}] )
-	test? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( <dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-21.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/isort-5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyro-api[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scipy-1.9[${PYTHON_USEDEP}] )
 	tpu? ( dev-python/jax[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

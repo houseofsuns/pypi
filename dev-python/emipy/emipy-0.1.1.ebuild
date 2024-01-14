@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.3.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.16.12[${PYTHON_USEDEP}]
 	dev-python/descartes[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]"
+	>=dev-python/openpyxl-3.0.6[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

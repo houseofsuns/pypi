@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="accel bias-correction complete docs io regridding relative_entropy test viz vwmp"
 DEPENDENCIES="dev-python/cf-xarray[${PYTHON_USEDEP}]
-	dev-python/cftime[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/cftime-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/dask-2021.10.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
+	>=dev-python/pooch-1.4[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
 	dev-python/xskillscore[${PYTHON_USEDEP}]
 	accel? ( dev-python/numba[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/contextlib-chdir[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata-argparse-version[${PYTHON_USEDEP}]
 	dev-python/md-ulb-pwrap[${PYTHON_USEDEP}]
-	dev-python/polib[${PYTHON_USEDEP}]
+	<dev-python/polib-2.0[${PYTHON_USEDEP}]
 	dev-python/pymd4c[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -35,12 +35,12 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/pygit2[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/unidecode-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pygit2-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]"
+	<dev-python/pathvalidate-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

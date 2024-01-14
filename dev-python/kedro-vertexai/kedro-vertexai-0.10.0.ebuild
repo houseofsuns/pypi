@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mlflow"
-DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cachetools-6.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.4[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2022.1[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+	<dev-python/google-auth-3.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-iam[${PYTHON_USEDEP}]
 	dev-python/google-cloud-scheduler[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
 	dev-python/kedro[${PYTHON_USEDEP}]
 	mlflow? ( dev-python/kedro-mlflow[${PYTHON_USEDEP}] )
 	dev-python/kfp[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/toposort[${PYTHON_USEDEP}]"
+	>=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/semver-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
+	<dev-python/toposort-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

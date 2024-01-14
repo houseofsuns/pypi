@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES="dev-python/asdf[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
+	>=dev-python/mistune-3.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/sphinx[${PYTHON_USEDEP}]
 	dev-python/sphinx-astropy[${PYTHON_USEDEP}]

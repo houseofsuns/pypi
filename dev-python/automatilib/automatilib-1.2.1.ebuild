@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0.0[${PYTHON_USEDEP}]
 	dev-python/django-use-email-as-username[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	<dev-python/python-jose-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

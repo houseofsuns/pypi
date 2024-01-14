@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/twine[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/beautifultable[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )"
+	~dev-python/setuptools-58.2.0[${PYTHON_USEDEP}]
+	cli? ( >=dev-python/click-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

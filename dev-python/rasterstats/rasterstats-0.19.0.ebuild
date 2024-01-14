@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>dev-python/click-7.1[${PYTHON_USEDEP}]
 	dev-python/cligj[${PYTHON_USEDEP}]
 	dev-python/fiona[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.9[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
@@ -38,8 +38,8 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyshp[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/simplejson[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/pysimplelog[${PYTHON_USEDEP}]
 	dev-python/pdbparser[${PYTHON_USEDEP}]
 	dev-python/pyrep[${PYTHON_USEDEP}]
 	dev-python/pylocker[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]"
+	>=dev-python/matplotlib-3.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

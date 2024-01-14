@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="nlp vision"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/structlog-22.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	vision? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	vision? ( dev-python/lightning-flash[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/transformers[${PYTHON_USEDEP}] )

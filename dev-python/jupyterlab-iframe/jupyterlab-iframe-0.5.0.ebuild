@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop test"
-DEPENDENCIES="dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jupyterlab-5.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/tornado-proxy-handlers[${PYTHON_USEDEP}]
-	develop? ( dev-python/black[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/black-23.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

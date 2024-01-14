@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/dbnd[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
+	>=dev-python/httplib2-0.9.2[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/botocore[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]

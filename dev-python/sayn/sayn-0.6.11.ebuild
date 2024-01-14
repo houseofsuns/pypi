@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all bigquery graphviz mysql postgresql postgresql-binary redshift snowflake"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml-clib[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	<dev-python/pydantic-1.10.0[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-clib-0.2.7[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.7.7[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	all? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgresql-binary? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
@@ -45,8 +45,8 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	bigquery? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/redshift-connector[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}] )
-	all? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	all? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	graphviz? ( dev-python/graphviz[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/graphviz-0.19.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/graphviz-0.19.1[${PYTHON_USEDEP}] )
+	graphviz? ( >=dev-python/graphviz-0.19.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

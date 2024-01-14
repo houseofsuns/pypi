@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/construct-typing[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
+	<dev-python/cachetools-5.0.0[${PYTHON_USEDEP}]
 	dev-python/types-cachetools[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	<dev-python/websockets-12.0[${PYTHON_USEDEP}]
 	dev-python/solders[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

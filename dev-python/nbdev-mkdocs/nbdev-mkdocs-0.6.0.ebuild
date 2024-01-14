@@ -26,30 +26,30 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/nbdev[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/mkdocstrings[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}]
+	>=dev-python/mkdocstrings-0.20.0[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-material-9.1.1[${PYTHON_USEDEP}]
 	dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}]
 	dev-python/mkdocs-section-index[${PYTHON_USEDEP}]
-	dev-python/configupdater[${PYTHON_USEDEP}]
-	dev-python/griffe[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/configupdater-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/griffe-0.24.1[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]
 	dev-python/docstring-gen[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	>=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
 	dev-python/mike[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	>=dev-python/nbformat-5.8.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/semgrep[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbqa[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.11.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/detect-secrets[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

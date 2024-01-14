@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/python-socks[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiohttp-socks[${PYTHON_USEDEP}]
-	dev-python/mergedeep[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
+	~dev-python/python-socks-2.2.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-socks-0.9.0[${PYTHON_USEDEP}]
+	<dev-python/mergedeep-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/user-agent[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/aiofiles-23.0.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/mypy-0.992[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pywidevine[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]"
+	<dev-python/xmltodict-0.14.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/inflection-0.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

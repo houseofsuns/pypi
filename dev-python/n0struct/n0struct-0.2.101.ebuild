@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
+	>=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.5.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

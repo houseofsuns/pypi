@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gevent reload"
-DEPENDENCIES="dev-python/h11[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/h11-0.14.0[${PYTHON_USEDEP}]
 	gevent? ( dev-python/gevent[${PYTHON_USEDEP}] )
-	reload? ( dev-python/watchdog[${PYTHON_USEDEP}] )"
+	reload? ( >=dev-python/watchdog-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

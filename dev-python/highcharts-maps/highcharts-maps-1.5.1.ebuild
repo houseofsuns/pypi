@@ -27,33 +27,33 @@ IUSE="dev docs soft"
 DEPENDENCIES="dev-python/esprima[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
 	dev-python/highcharts-core[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/topojson[${PYTHON_USEDEP}]
 	dev-python/validator-collection[${PYTHON_USEDEP}]
 	dev? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-8.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/orjson-3.7.7[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pandas-1.3.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyshp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytz-2022.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-tabs-3.4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-4.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-tabs-3.4.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	soft? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	soft? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	soft? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	soft? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	soft? ( >=dev-python/ipython-8.10.0[${PYTHON_USEDEP}] )
+	soft? ( >=dev-python/orjson-3.7.7[${PYTHON_USEDEP}] )
+	soft? ( >=dev-python/pandas-1.3.3[${PYTHON_USEDEP}] )
 	soft? ( dev-python/pyshp[${PYTHON_USEDEP}] )
 	soft? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

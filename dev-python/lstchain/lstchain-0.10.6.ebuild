@@ -32,15 +32,15 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/eventio[${PYTHON_USEDEP}]
 	dev-python/gammapy[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/iminuit[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/iminuit-2.0[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pyirf[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/setuptools-scm[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-4.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	all? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

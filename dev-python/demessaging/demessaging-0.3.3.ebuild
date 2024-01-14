@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="backend dev"
-DEPENDENCIES="dev-python/websocket-client[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/websocket-client-1.5[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/pydantic-1.11[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/deprogressapi[${PYTHON_USEDEP}]
-	backend? ( dev-python/isort[${PYTHON_USEDEP}] )
-	backend? ( dev-python/black[${PYTHON_USEDEP}] )
+	backend? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	backend? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	backend? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev? ( dev-python/blackdoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

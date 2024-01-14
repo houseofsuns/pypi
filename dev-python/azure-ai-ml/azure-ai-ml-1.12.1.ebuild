@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="designer"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/msrest[${PYTHON_USEDEP}]
 	dev-python/azure-core[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-core[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/strictyaml[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
 	dev-python/azure-storage-file-share[${PYTHON_USEDEP}]
 	dev-python/azure-storage-file-datalake[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	dev-python/isodate[${PYTHON_USEDEP}]
 	dev-python/azure-common[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/opencensus-ext-azure[${PYTHON_USEDEP}]
 	designer? ( dev-python/mldesigner[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

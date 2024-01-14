@@ -26,20 +26,20 @@ KEYWORDS="~amd64 ~x86"
 IUSE="build docs lint test"
 DEPENDENCIES="dev-python/yt-dlp[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/mergedeep[${PYTHON_USEDEP}]
-	dev-python/mediafile[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}]
+	~dev-python/mediafile-0.12.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	build? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pylint-2.13.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-6.3.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-rerunfailures-12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

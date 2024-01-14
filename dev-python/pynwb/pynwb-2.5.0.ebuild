@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/h5py-2.10[${PYTHON_USEDEP}]
 	dev-python/hdmf[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7.3[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

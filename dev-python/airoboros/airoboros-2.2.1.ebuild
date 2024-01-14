@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev vllm"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
+	>=dev-python/backoff-2.2[${PYTHON_USEDEP}]
 	dev-python/bitsandbytes[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.7[${PYTHON_USEDEP}]
 	dev-python/faiss-cpu[${PYTHON_USEDEP}]
 	dev-python/fast-sentence-transformers[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
 	dev-python/peft[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.23.0[${PYTHON_USEDEP}]
 	dev-python/flash-attn[${PYTHON_USEDEP}]
 	dev-python/optimum[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+	~dev-python/google-auth-2.25.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	vllm? ( dev-python/fschat[${PYTHON_USEDEP}] )

@@ -27,27 +27,27 @@ IUSE="db elasticsearch fastapi mysql pg redis rmq scheduler sqla sqlite"
 DEPENDENCIES="dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	dev-python/contextvars[${PYTHON_USEDEP}]
 	dev-python/dependency-injector[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytz-2022.0[${PYTHON_USEDEP}]
 	dev-python/timeparse-plus[${PYTHON_USEDEP}]
 	dev-python/poetry-version[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	<dev-python/tomlkit-0.6.0[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	sqla? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	sqla? ( dev-python/alembic[${PYTHON_USEDEP}] )
-	db? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	sqla? ( <dev-python/alembic-2.0.0[${PYTHON_USEDEP}] )
+	db? ( <dev-python/alembic-2.0.0[${PYTHON_USEDEP}] )
 	db? ( dev-python/databases[${PYTHON_USEDEP}] )
-	sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+	sqlite? ( <dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}] )
 	pg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	pg? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	mysql? ( <=dev-python/pymysql-0.9.3[${PYTHON_USEDEP}] )
 	redis? ( dev-python/aioredis[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.1.0[${PYTHON_USEDEP}] )
 	rmq? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
-	scheduler? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
-	scheduler? ( dev-python/rpyc[${PYTHON_USEDEP}] )
+	scheduler? ( >=dev-python/APScheduler-3.7.0[${PYTHON_USEDEP}] )
+	scheduler? ( >=dev-python/rpyc-5.1.0[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	elasticsearch? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )"
+	elasticsearch? ( <dev-python/elasticsearch-8.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

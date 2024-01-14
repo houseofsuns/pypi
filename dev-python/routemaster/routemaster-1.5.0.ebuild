@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/layer-loader[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	>=dev-python/alembic-0.9.6[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
 	dev-python/freezegun[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/dataclasses[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

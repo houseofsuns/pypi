@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/decorator-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.11.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-2.1.1[${PYTHON_USEDEP}]
 	dev-python/pyemd[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tblib[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	>=dev-python/pymongo-2.7.1[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
+	>=dev-python/redis-2.10.5[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.13.3[${PYTHON_USEDEP}]
+	>=dev-python/tblib-1.3.2[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

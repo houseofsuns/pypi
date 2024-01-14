@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all matplotlib open3d pyrender"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16.2[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	all? ( dev-python/pyrender[${PYTHON_USEDEP}] )
-	all? ( dev-python/trimesh[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/trimesh-2.37.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/open3d-python[${PYTHON_USEDEP}] )
 	matplotlib? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	open3d? ( dev-python/open3d-python[${PYTHON_USEDEP}] )
 	pyrender? ( dev-python/pyrender[${PYTHON_USEDEP}] )
-	pyrender? ( dev-python/trimesh[${PYTHON_USEDEP}] )
+	pyrender? ( >=dev-python/trimesh-2.37.6[${PYTHON_USEDEP}] )
 	pyrender? ( dev-python/shapely[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

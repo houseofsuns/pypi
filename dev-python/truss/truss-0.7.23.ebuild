@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.2[${PYTHON_USEDEP}]
 	dev-python/msgpack-numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
+	>=dev-python/python-json-logger-2.0.2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/python-on-whales[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	dev-python/single-source[${PYTHON_USEDEP}]
-	dev-python/blake3[${PYTHON_USEDEP}]
+	<dev-python/blake3-0.4.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/watchfiles[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.25.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
+	<dev-python/watchfiles-0.20.0[${PYTHON_USEDEP}]
 	dev-python/huggingface_hub[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	dev-python/inquirerpy[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]"
+	>=dev-python/botocore-1.31.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

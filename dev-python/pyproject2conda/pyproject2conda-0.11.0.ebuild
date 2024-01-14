@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/tomlkit[${PYTHON_USEDEP}]
 	dev-complete? ( dev-python/pyproject2conda[${PYTHON_USEDEP}] )
 	dev-complete? ( dev-python/pyproject2conda[${PYTHON_USEDEP}] )
 	dev-complete? ( dev-python/pyproject2conda[${PYTHON_USEDEP}] )
-	dev-extras? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
+	dev-extras? ( >=dev-python/setuptools-scm-8.0[${PYTHON_USEDEP}] )
 	dev-extras? ( dev-python/pytest-accept[${PYTHON_USEDEP}] )
 	dev-extras? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev-extras? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/tomlkit[${PYTHON_USEDEP}]
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ghp-import[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/tomlkit[${PYTHON_USEDEP}]
 	tools? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	typing? ( dev-python/pyproject2conda[${PYTHON_USEDEP}] )
 	typing? ( dev-python/pyproject2conda[${PYTHON_USEDEP}] )
-	typing-extras? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	typing-extras? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	typing-extras? ( dev-python/types-click[${PYTHON_USEDEP}] )
 	typing-extras? ( dev-python/pytype[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

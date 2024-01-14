@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc lint test"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	>=dev-python/prettytable-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.4.6[${PYTHON_USEDEP}]
 	dev-python/crytic-compile[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	dev-python/eth-abi[${PYTHON_USEDEP}]
@@ -35,8 +35,8 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev? ( dev-python/slither-analyzer[${PYTHON_USEDEP}] )
 	dev? ( dev-python/openai[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pdoc[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pylint-2.13.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )

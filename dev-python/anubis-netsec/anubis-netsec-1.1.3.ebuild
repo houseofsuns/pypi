@@ -27,10 +27,10 @@ IUSE="test"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/python-nmap[${PYTHON_USEDEP}]
 	dev-python/shodan[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	dev-python/censys[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
+	~dev-python/dnspython-2.1.0[${PYTHON_USEDEP}]
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

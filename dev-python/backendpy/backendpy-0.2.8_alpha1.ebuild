@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	full? ( dev-python/ujson[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]
+	full? ( >=dev-python/ujson-5.1.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	full? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	full? ( dev-python/jinja2[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/deepmerge[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
+	>=dev-python/deepdiff-6.2.2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

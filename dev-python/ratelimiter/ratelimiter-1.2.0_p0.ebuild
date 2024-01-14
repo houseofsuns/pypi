@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES="test? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

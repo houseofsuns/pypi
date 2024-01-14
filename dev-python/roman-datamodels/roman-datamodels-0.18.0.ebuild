@@ -27,8 +27,8 @@ IUSE="aws docs test"
 DEPENDENCIES="dev-python/asdf[${PYTHON_USEDEP}]
 	dev-python/asdf-astropy[${PYTHON_USEDEP}]
 	dev-python/gwcs[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/rad[${PYTHON_USEDEP}]
 	dev-python/asdf-standard[${PYTHON_USEDEP}]
@@ -40,9 +40,9 @@ DEPENDENCIES="dev-python/asdf[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-astropy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-asdf[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-env[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-env-0.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

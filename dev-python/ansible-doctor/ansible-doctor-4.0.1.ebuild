@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ansible-core"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/anyconfig[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/environs[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/environs-10.3.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}]
+	~dev-python/pathspec-0.12.1[${PYTHON_USEDEP}]
+	~dev-python/python-json-logger-2.0.7[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.18.5[${PYTHON_USEDEP}]
 	ansible-core? ( dev-python/ansible-core[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

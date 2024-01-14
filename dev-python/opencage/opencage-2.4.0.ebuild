@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Requests[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]"
+	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

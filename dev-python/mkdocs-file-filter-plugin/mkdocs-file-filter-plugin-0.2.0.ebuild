@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mkdocs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}]
 	dev-python/igittigitt[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml-env-tag[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

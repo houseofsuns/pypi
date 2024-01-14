@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/cachelib[${PYTHON_USEDEP}]
+	>=dev-python/cachelib-0.10.2[${PYTHON_USEDEP}]
 	dev-python/cognite-sdk[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
-	cli? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	all? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	cli? ( >=dev-python/packaging-21.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/packaging-21.3[${PYTHON_USEDEP}] )
+	>=dev-python/pydantic-1.10[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
 	all? ( dev-python/typer[${PYTHON_USEDEP}] )
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

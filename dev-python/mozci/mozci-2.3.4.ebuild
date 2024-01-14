@@ -25,28 +25,28 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cache cache-memcached cache-redis cache-s3 cache-seeded-file"
 DEPENDENCIES="dev-python/taskcluster_urls[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/appdirs-2.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-1.0[${PYTHON_USEDEP}]
 	dev-python/cachy[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	cache? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	cache-s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	cache? ( dev-python/zstandard[${PYTHON_USEDEP}] )
-	cache-seeded-file? ( dev-python/zstandard[${PYTHON_USEDEP}] )
+	<dev-python/tomlkit-1.0[${PYTHON_USEDEP}]
+	cache? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
+	cache-s3? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
+	cache? ( <dev-python/zstandard-1.0[${PYTHON_USEDEP}] )
+	cache-seeded-file? ( <dev-python/zstandard-1.0[${PYTHON_USEDEP}] )
 	cache? ( dev-python/python3-memcached[${PYTHON_USEDEP}] )
 	cache-memcached? ( dev-python/python3-memcached[${PYTHON_USEDEP}] )
-	cache? ( dev-python/redis[${PYTHON_USEDEP}] )
-	cache-redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	cache? ( <dev-python/redis-6.0[${PYTHON_USEDEP}] )
+	cache-redis? ( <dev-python/redis-6.0[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/flake8-5.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/taskcluster[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
 	dev-python/ValidX[${PYTHON_USEDEP}]
-	dev-python/cleo[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/markdown2[${PYTHON_USEDEP}]
+	<dev-python/cleo-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/markdown2-3.0.0[${PYTHON_USEDEP}]
 	dev-python/json-e[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

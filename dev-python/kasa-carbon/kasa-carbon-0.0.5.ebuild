@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/python-kasa[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]"
+	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES="dev-python/nibabel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.11.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-1.1.6[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.29[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )

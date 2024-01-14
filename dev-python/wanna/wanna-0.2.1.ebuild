@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
-	dev-python/subprocess-tee[${PYTHON_USEDEP}]
+	<dev-python/subprocess-tee-0.5.0[${PYTHON_USEDEP}]
 	dev-python/click-spinner[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs numba pandas"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	<dev-python/cloudpickle-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
+	pandas? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
 	numba? ( dev-python/numba[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/myst-parser-0.15[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

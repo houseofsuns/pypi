@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/copier-templates-extensions[${PYTHON_USEDEP}]
 	dev-python/copier[${PYTHON_USEDEP}]
 	dev-python/crowdin-api-client[${PYTHON_USEDEP}]
-	dev-python/hatchling[${PYTHON_USEDEP}]
+	>=dev-python/hatchling-1.5[${PYTHON_USEDEP}]
 	dev-python/jinja2-time[${PYTHON_USEDEP}]
 	dev-python/polib[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	test? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

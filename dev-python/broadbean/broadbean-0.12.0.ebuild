@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.12.1[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
-	dev-python/versioningit[${PYTHON_USEDEP}]
+	>=dev-python/versioningit-2.0.1[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-0.960[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-5.49.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

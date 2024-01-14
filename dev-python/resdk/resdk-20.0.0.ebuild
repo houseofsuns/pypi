@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs package test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.6.0[${PYTHON_USEDEP}]
 	dev-python/slumber[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2018.4[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-1.5.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.24[${PYTHON_USEDEP}]
 	dev-python/boto3-stubs[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	package? ( dev-python/twine[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.2.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	package? ( ~dev-python/twine-4.0.1[${PYTHON_USEDEP}] )
 	package? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	package? ( dev-python/build[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )

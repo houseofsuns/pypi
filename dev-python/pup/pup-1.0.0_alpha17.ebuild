@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs release tests"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/pkginfo[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.37.1[${PYTHON_USEDEP}]
+	~dev-python/pkginfo-1.8.3[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]
+	~dev-python/zstandard-0.17.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/requirements-parser[${PYTHON_USEDEP}]
 	dev-python/dmgbuild[${PYTHON_USEDEP}]

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="data-science"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	data-science? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/semantic-version-3.0.0[${PYTHON_USEDEP}]
+	data-science? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

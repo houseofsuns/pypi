@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/websocket-client-0.57.0[${PYTHON_USEDEP}]
+	~dev-python/websockets-8.1[${PYTHON_USEDEP}]
 	dev-python/ws4py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

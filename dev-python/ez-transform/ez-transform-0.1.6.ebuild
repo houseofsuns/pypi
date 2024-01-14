@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/deltalake[${PYTHON_USEDEP}]
 	dev-python/graphlib-backport[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/adlfs[${PYTHON_USEDEP}]
-	dev-python/multiprocess[${PYTHON_USEDEP}]"
+	<dev-python/multiprocess-0.71.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

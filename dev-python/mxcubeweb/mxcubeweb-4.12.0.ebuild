@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.3.7[${PYTHON_USEDEP}]
 	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
-	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/flask-sqlalchemy-4.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Security-Too[${PYTHON_USEDEP}]
 	dev-python/gevent-websocket[${PYTHON_USEDEP}]
 	dev-python/spectree[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/mock-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
 	dev-python/scandir[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]
 	dev-python/devtools[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyDispatcher[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+	<dev-python/pytz-2023.0[${PYTHON_USEDEP}]
+	<dev-python/tzlocal-5.0[${PYTHON_USEDEP}]
 	dev-python/mxcubecore[${PYTHON_USEDEP}]
 	dev-python/mxcube_video_streamer[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]"
+	<dev-python/bcrypt-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

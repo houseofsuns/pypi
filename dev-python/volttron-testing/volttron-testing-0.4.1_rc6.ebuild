@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/mock-5.0.0[${PYTHON_USEDEP}]
 	dev-python/anypubsub[${PYTHON_USEDEP}]
 	dev-python/grequests[${PYTHON_USEDEP}]
 	dev-python/volttron[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/pytest-timeout[${PYTHON_USEDEP}]"
+	<dev-python/docker-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-timeout-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

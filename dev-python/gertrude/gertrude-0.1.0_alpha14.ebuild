@@ -28,17 +28,17 @@ DEPENDENCIES="dev-python/bl3d[${PYTHON_USEDEP}]
 	dev-python/bles[${PYTHON_USEDEP}]
 	dev-python/blessql[${PYTHON_USEDEP}]
 	dev-python/bl-seth[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	<dev-python/flask-4.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Cors[${PYTHON_USEDEP}]
 	dev-python/fluent-runtime[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jinja2-fragments[${PYTHON_USEDEP}]
-	dev-python/pypugjs[${PYTHON_USEDEP}]
+	<dev-python/pypugjs-6.0.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	totp? ( dev-python/pyotp[${PYTHON_USEDEP}] )"
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	totp? ( <dev-python/pyotp-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

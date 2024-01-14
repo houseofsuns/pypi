@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pytimeparse2[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]"
+	<dev-python/pyyaml-6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,29 +25,29 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc"
 DEPENDENCIES="dev-python/datefinder[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/pika-1.3.1[${PYTHON_USEDEP}]
+	~dev-python/prometheus-client-0.19.0[${PYTHON_USEDEP}]
+	~dev-python/python-json-logger-2.0.4[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/setuptools-69.0.2[${PYTHON_USEDEP}]
 	dev-python/filigran-sseclient[${PYTHON_USEDEP}]
 	dev-python/stix2[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	~dev-python/cachetools-5.3.0[${PYTHON_USEDEP}]
+	~dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-23.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.13.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cases[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.42.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/autoapi[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	doc? ( ~dev-python/sphinx-autodoc-typehints-1.25.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

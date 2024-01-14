@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmarks dev doc min-py310 min-py38 min-py39"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
@@ -51,16 +51,16 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	doc? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	doc? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
 	min-py310? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	min-py310? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	min-py310? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	min-py310? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	min-py310? ( ~dev-python/numpy-1.21.3[${PYTHON_USEDEP}] )
+	min-py310? ( ~dev-python/scipy-1.8.0[${PYTHON_USEDEP}] )
+	min-py310? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	min-py38? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	min-py38? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	min-py38? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	min-py38? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	min-py38? ( ~dev-python/numpy-1.17.3[${PYTHON_USEDEP}] )
+	min-py38? ( ~dev-python/scipy-1.4.0[${PYTHON_USEDEP}] )
+	min-py38? ( ~dev-python/pandas-1.2.0[${PYTHON_USEDEP}] )
 	min-py39? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	min-py39? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	min-py39? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	min-py39? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	min-py39? ( ~dev-python/numpy-1.19.3[${PYTHON_USEDEP}] )
+	min-py39? ( ~dev-python/scipy-1.6.0[${PYTHON_USEDEP}] )
+	min-py39? ( ~dev-python/pandas-1.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

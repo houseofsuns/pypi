@@ -43,6 +43,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	gui-pyqt5? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
 	gui-pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	gui-pyside2? ( dev-python/shiboken2[${PYTHON_USEDEP}] )
-	gui-pyside2? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )"
+	gui-pyside2? ( >dev-python/pyqtgraph-0.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]"

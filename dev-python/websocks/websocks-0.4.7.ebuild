@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="GUI"
 DEPENDENCIES="GUI? ( dev-python/PySimpleGUIWx[${PYTHON_USEDEP}] )
-	dev-python/aiodns[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/h11[${PYTHON_USEDEP}]
+	<dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
+	<dev-python/h11-0.13.0[${PYTHON_USEDEP}]
 	dev-python/uvloop[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+	<dev-python/websockets-9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

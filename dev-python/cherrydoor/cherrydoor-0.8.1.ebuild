@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="speedups"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.6.3[${PYTHON_USEDEP}]
 	dev-python/aioserial[${PYTHON_USEDEP}]
-	dev-python/argon2-cffi[${PYTHON_USEDEP}]
+	>=dev-python/argon2-cffi-19.0[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
-	dev-python/confuse[${PYTHON_USEDEP}]
+	>=dev-python/confuse-1.3[${PYTHON_USEDEP}]
 	dev-python/pybranca[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp-csrf-fixed[${PYTHON_USEDEP}]
 	dev-python/aiohttp-jinja2[${PYTHON_USEDEP}]
 	dev-python/aiohttp-rest-api-redoc[${PYTHON_USEDEP}]
@@ -38,13 +38,13 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/aiohttp-session[${PYTHON_USEDEP}]
 	dev-python/aiohttp-session-mongo[${PYTHON_USEDEP}]
 	dev-python/secure[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/sentry-sdk-0.16.5[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/aiojobs[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
-	speedups? ( dev-python/aiodns[${PYTHON_USEDEP}] )
+	speedups? ( >=dev-python/aiodns-1.1[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/cchardet[${PYTHON_USEDEP}] )
-	speedups? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	speedups? ( >=dev-python/uvloop-0.14[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

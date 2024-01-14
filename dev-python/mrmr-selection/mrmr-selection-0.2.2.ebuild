@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]
 	dev-python/category-encoders[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

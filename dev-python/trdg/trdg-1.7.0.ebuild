@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.23.0[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.6.0[${PYTHON_USEDEP}]
 	dev-python/diffimg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="crystal python python-legacy"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/mkdocs-autorefs[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-1.4[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-autorefs-0.3.1[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pymdown-extensions-6.3[${PYTHON_USEDEP}]
 	crystal? ( dev-python/mkdocstrings-crystal[${PYTHON_USEDEP}] )
 	python-legacy? ( dev-python/mkdocstrings-python-legacy[${PYTHON_USEDEP}] )
-	python? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )"
+	python? ( >=dev-python/mkdocstrings-python-0.5.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

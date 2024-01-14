@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/regex[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/regex-2022.3.2[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
 	dev-python/chainstream[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

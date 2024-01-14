@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.8.0[${PYTHON_USEDEP}]
+	~dev-python/paho-mqtt-1.3.1[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.4.5[${PYTHON_USEDEP}]
 	dev-python/pidigits[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]"
+	~dev-python/mock-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	~dev-python/msgpack-0.5.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	dev-python/sseclient-py[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-2.0.7[${PYTHON_USEDEP}]
 	dev-python/pylance[${PYTHON_USEDEP}]
 	dev-python/pytest-dotenv[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]"
+	~dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

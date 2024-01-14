@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/cloudpathlib[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.18.0[${PYTHON_USEDEP}]
 	colorlog? ( dev-python/colorlog[${PYTHON_USEDEP}] )
 	dask? ( dev-python/rasterio[${PYTHON_USEDEP}] )
 	dask? ( dev-python/rioxarray[${PYTHON_USEDEP}] )

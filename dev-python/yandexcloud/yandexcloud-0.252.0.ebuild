@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-2.8[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.56.2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	>=dev-python/googleapis-common-protos-1.59.1[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.14.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="sqlalchemy"
 DEPENDENCIES="dev-python/ciso8601[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
+	sqlalchemy? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
+	sqlalchemy? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

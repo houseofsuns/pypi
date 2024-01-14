@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/owslib[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/owslib-0.29.2[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

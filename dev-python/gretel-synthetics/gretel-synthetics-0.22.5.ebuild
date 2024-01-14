@@ -25,53 +25,53 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs tensorflow test torch utils"
 DEPENDENCIES="dev-python/category-encoders[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	~dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/rdt[${PYTHON_USEDEP}]
 	dev-python/sdv[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	all? ( dev-python/category-encoders[${PYTHON_USEDEP}] )
-	all? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/joblib-1.2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/numpy-1.24[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/packaging-21.3[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/rdt[${PYTHON_USEDEP}] )
 	all? ( dev-python/sdv[${PYTHON_USEDEP}] )
 	all? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	all? ( dev-python/smart-open[${PYTHON_USEDEP}] )
-	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tqdm-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/dython[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( <dev-python/scipy-1.11[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow-estimator[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow-privacy[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow-probability[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mistune[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mistune-0.8.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow-estimator[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow-privacy[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow-probability[${PYTHON_USEDEP}] )
 	test? ( dev-python/faker[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.14.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.1.2[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	utils? ( dev-python/dython[${PYTHON_USEDEP}] )
 	utils? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	utils? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	utils? ( <dev-python/scipy-1.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

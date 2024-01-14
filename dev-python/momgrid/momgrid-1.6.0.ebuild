@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.20.0[${PYTHON_USEDEP}]
 	dev-python/xgcm[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

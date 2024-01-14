@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0.38[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pexpect[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	>=dev-python/rich-13.3.5[${PYTHON_USEDEP}]
+	>=dev-python/isort-5.12.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.3.1[${PYTHON_USEDEP}]
+	>=dev-python/pylint-3.0.2[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-3.0.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pexpect-4.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.20.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.11.2[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/django-storages[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]"

@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-3.6.2[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-3.15.3[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.33.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/warlock[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
+	>=dev-python/warlock-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

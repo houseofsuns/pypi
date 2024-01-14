@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/atomicwrites[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	<dev-python/packaging-21.0[${PYTHON_USEDEP}]
+	<dev-python/atomicwrites-2.0[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-12.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

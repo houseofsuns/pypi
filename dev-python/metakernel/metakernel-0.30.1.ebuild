@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="activity parallel test"
-DEPENDENCIES="dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/jedi[${PYTHON_USEDEP}]
-	dev-python/jupyter-core[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipykernel-5.5.6[${PYTHON_USEDEP}]
+	>=dev-python/jedi-0.18[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-core-4.9.2[${PYTHON_USEDEP}]
+	>=dev-python/pexpect-4.8[${PYTHON_USEDEP}]
 	activity? ( dev-python/portalocker[${PYTHON_USEDEP}] )
 	parallel? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
 	test? ( dev-python/jupyter-kernel-test[${PYTHON_USEDEP}] )

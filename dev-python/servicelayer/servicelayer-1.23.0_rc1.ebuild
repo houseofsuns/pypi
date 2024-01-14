@@ -26,21 +26,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE="amazon dev google"
 DEPENDENCIES="dev-python/banal[${PYTHON_USEDEP}]
 	dev-python/normality[${PYTHON_USEDEP}]
-	dev-python/fakeredis[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	amazon? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	<dev-python/fakeredis-3.0.0[${PYTHON_USEDEP}]
+	<=dev-python/redis-4.6.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/structlog-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/pika-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.20.0[${PYTHON_USEDEP}]
+	amazon? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
-	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	google? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	google? ( <dev-python/grpcio-2.0.0[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

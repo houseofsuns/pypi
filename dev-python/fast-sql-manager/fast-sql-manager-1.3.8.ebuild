@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/mysql-connector-python[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-4.0.1[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

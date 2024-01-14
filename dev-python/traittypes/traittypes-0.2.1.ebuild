@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/traitlets[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/traitlets-4.2.2[${PYTHON_USEDEP}]
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/xarray[${PYTHON_USEDEP}] )

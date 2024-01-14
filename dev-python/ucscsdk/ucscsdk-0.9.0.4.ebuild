@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs ssl"
 DEPENDENCIES="dev-python/pyparsing[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-1.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	ssl? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )"

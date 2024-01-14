@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	examples? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	keops? ( dev-python/pykeops[${PYTHON_USEDEP}] )
 	pyro? ( dev-python/pyro-ppl[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbval[${PYTHON_USEDEP}] )"

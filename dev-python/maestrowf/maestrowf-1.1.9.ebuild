@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]"

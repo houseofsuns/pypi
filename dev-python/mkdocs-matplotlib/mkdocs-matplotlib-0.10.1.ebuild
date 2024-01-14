@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/mkdocs-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-material-8.1.9[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.7.1[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.10.0[${PYTHON_USEDEP}]
+	>dev-python/markdown-3.3.5[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

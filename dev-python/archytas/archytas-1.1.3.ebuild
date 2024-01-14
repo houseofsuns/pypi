@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

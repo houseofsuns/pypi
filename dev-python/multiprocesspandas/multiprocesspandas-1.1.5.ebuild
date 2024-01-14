@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/multiprocess[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/multiprocess-0.70.11.1[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]"

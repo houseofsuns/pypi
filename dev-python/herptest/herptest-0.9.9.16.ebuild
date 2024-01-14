@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pexpect[${PYTHON_USEDEP}]
-	dev-python/pyte[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pyte-0.8.0[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
 	dev-python/monkeydict[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

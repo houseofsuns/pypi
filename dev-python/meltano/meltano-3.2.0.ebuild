@@ -25,50 +25,50 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="azure gcs mssql postgres psycopg2 s3"
 DEPENDENCIES="dev-python/aiodocker[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/atomicwrites[${PYTHON_USEDEP}]
+	<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/atomicwrites-2.0.0[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-common[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-core[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	s3? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/check-jsonschema[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
-	dev-python/click-didyoumean[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/click-default-group-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-didyoumean-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/croniter-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/fasteners-0.20[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	psycopg2? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	postgres? ( <dev-python/psycopg-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	mssql? ( dev-python/pymssql[${PYTHON_USEDEP}] )
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-9.0.0[${PYTHON_USEDEP}]
 	dev-python/python-ulid[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
+	<dev-python/setuptools-70.0.0[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
 	dev-python/snowplow-tracker[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/structlog-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/tzlocal-6.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	<dev-python/virtualenv-21.0.0[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

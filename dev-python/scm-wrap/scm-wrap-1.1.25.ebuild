@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bpython[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/bpython-0.21[${PYTHON_USEDEP}]
 	dev-python/pyinstaller[${PYTHON_USEDEP}]
 	dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/wcwidth[${PYTHON_USEDEP}]

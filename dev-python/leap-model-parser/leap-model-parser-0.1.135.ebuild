@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-macos[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/onnx2kerastl[${PYTHON_USEDEP}]
 	dev-python/keras-data-format-converter[${PYTHON_USEDEP}]

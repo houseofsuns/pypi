@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/responses[${PYTHON_USEDEP}]
-	dev-python/tree-sitter[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.23[${PYTHON_USEDEP}]
+	~dev-python/ijson-3.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/responses-0.21[${PYTHON_USEDEP}]
+	~dev-python/tree-sitter-0.20[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev huggingface"
 DEPENDENCIES="dev-python/weaviate-client[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/wasabi[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/cohere[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/weaviate-client[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )

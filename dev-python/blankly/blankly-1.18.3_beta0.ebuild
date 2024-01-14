@@ -30,10 +30,10 @@ DEPENDENCIES="dev-python/questionary[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/newnewtulipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.4[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	dev-python/python-binance[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-1.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

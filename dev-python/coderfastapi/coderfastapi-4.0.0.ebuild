@@ -27,17 +27,17 @@ IUSE="dev test"
 DEPENDENCIES="dev-python/codercore[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/google-cloud-logging[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	~dev-python/orjson-3.8[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.4[${PYTHON_USEDEP}]
+	~dev-python/python-jose-3.3[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-22.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/flake8-6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.20[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.10[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
-	dev-python/pywinrm[${PYTHON_USEDEP}]"
+	>=dev-python/pywinrm-0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

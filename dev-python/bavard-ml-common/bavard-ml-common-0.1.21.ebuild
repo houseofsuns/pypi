@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gcp ml"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	ml? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	ml? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
 	ml? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	gcp? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-error-reporting[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev mpi"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-1.11.1[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/numexpr[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-1.27[${PYTHON_USEDEP}]
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

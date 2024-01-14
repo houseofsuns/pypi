@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/dask-2023.0.0[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

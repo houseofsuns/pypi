@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/boutiques[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.23[${PYTHON_USEDEP}]
 	dev-python/slurmpy[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/dash-renderer[${PYTHON_USEDEP}]
@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/dash-table-experiments[${PYTHON_USEDEP}]
 	dev-python/colorlover[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]"
+	>=dev-python/plotly-3.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

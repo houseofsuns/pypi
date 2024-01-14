@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jupyter[${PYTHON_USEDEP}]
+	<dev-python/jupyter-2.0.0[${PYTHON_USEDEP}]
 	dev-python/jupyter-contrib-nbextensions[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/nbconvert-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

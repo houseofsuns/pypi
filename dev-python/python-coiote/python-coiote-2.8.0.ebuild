@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.0.1[${PYTHON_USEDEP}]
+	~dev-python/pytz-2022.7.1[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

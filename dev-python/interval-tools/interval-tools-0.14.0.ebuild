@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="objectid"
-DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
-	objectid? ( dev-python/pymongo[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/orjson-3.0[${PYTHON_USEDEP}]
+	objectid? ( >=dev-python/pymongo-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all detr dpt rftm yolos"
 DEPENDENCIES="dev-python/jaseci[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-order[${PYTHON_USEDEP}]
+	<dev-python/pytest-7.1[${PYTHON_USEDEP}]
+	<dev-python/pytest-order-1.1[${PYTHON_USEDEP}]
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpy-1.23.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/timm[${PYTHON_USEDEP}] )
 	detr? ( dev-python/transformers[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/jaseci[${PYTHON_USEDEP}]
 	dpt? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	dpt? ( dev-python/torch[${PYTHON_USEDEP}] )
 	rftm? ( dev-python/torch[${PYTHON_USEDEP}] )
-	rftm? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	rftm? ( >=dev-python/numpy-1.23.0[${PYTHON_USEDEP}] )
 	yolos? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	yolos? ( dev-python/torch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

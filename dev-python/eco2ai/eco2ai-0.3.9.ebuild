@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pynvml[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/tzlocal[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	dev-python/py-cpuinfo[${PYTHON_USEDEP}]"

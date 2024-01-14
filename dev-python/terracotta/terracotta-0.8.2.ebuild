@@ -24,44 +24,44 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs recommended test"
-DEPENDENCIES="dev-python/apispec[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/apispec-1.0[${PYTHON_USEDEP}]
 	dev-python/apispec-webframeworks[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-3.1.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/click-spinner[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/flask_cors[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.0.0[${PYTHON_USEDEP}]
 	dev-python/mercantile[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	test? ( dev-python/attrs[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/attrs-17.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	test? ( dev-python/colorlog[${PYTHON_USEDEP}] )
 	test? ( dev-python/crick[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/moto[${PYTHON_USEDEP}] )
 	test? ( dev-python/aws-xray-sdk[${PYTHON_USEDEP}] )
-	test? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pymysql-1.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_autodoc_typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pymysql-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/colorlog[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/crick[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	recommended? ( >=dev-python/pymysql-1.0.0[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/psycopg2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

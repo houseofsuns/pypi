@@ -24,50 +24,50 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/iniconfig[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	~dev-python/coverage-7.3.1[${PYTHON_USEDEP}]
+	~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/mdurl[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/wcwidth[${PYTHON_USEDEP}]
-	dev? ( dev-python/appdirs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cached-property[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cerberus[${PYTHON_USEDEP}] )
-	dev? ( dev-python/certifi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/chardet[${PYTHON_USEDEP}] )
-	dev? ( dev-python/charset-normalizer[${PYTHON_USEDEP}] )
-	dev? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	dev? ( dev-python/distlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/idna[${PYTHON_USEDEP}] )
+	~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}]
+	~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.1[${PYTHON_USEDEP}]
+	~dev-python/pluggy-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/prompt-toolkit-3.0.39[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.16.1[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4.2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/rich-13.5.3[${PYTHON_USEDEP}]
+	~dev-python/validators-0.22.0[${PYTHON_USEDEP}]
+	~dev-python/wcwidth-0.2.6[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/attrs-23.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/cached-property-1.5.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/cerberus-1.3.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/chardet-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/charset-normalizer-3.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/colorama-0.4.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/distlib-0.3.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/idna-3.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/orderedmultidict[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/packaging-23.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep517[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pip-23.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-shims[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pipenv-setup[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pipfile[${PYTHON_USEDEP}] )
-	dev? ( dev-python/plette[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/plette-0.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyparsing-3.1.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requirementslib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/six[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/setuptools-68.2.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tomlkit-0.12.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/urllib3-2.0.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vistir[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/wheel-0.41.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

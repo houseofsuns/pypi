@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyvo[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/virtualenv-21.0.0[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/jupyter[${PYTHON_USEDEP}]"
+	<dev-python/jupyterlab-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/jupyter-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

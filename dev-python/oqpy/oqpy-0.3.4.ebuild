@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/openpulse[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]"
+	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
+	>=dev-python/mypy_extensions-0.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

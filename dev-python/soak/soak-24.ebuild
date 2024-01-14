@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/aridity[${PYTHON_USEDEP}]
 	dev-python/diapyr[${PYTHON_USEDEP}]
 	dev-python/lagoon[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/tblib[${PYTHON_USEDEP}]"
+	>=dev-python/tblib-1.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

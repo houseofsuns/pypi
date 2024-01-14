@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	<dev-python/tornado-7.0[${PYTHON_USEDEP}]
 	dev-python/taskipy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

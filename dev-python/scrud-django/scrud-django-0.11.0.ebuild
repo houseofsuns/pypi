@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/django-cors-headers[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/django-cors-headers-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/django-filter-3.0.0[${PYTHON_USEDEP}]
 	dev-python/django-jsonfield-backport[${PYTHON_USEDEP}]
 	dev-python/django-scoped-rbac[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
-	dev-python/fastjsonschema[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonpath-ng-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/fastjsonschema-3.0.0[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.16.0[${PYTHON_USEDEP}]
 	dev-python/safetydance-test[${PYTHON_USEDEP}]
 	dev-python/Whoosh[${PYTHON_USEDEP}]
 	dev-python/django-reversion[${PYTHON_USEDEP}]"

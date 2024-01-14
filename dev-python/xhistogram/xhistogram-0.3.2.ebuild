@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/xarray-0.12.0[${PYTHON_USEDEP}]
+	>=dev-python/dask-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

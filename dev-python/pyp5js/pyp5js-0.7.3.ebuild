@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/Transcrypt[${PYTHON_USEDEP}]
 	dev-python/cprint[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	~dev-python/watchdog-2.1.9[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]"
+	~dev-python/python-slugify-6.1.2[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-7.1.2[${PYTHON_USEDEP}]
+	~dev-python/docker-5.0.0[${PYTHON_USEDEP}]
+	~dev-python/idna-2.10[${PYTHON_USEDEP}]
+	~dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-0.58.0[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ddt[${PYTHON_USEDEP}] )

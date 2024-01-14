@@ -25,31 +25,31 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs linting testing"
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.3.3[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0.3[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/pyrage[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
+	>=dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-3.5.1[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/hishel[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pyfakefs-5.1.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-clarity[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-reportlog[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-duration-insights[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-pretty[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
-	linting? ( dev-python/black[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mock-5.0.1[${PYTHON_USEDEP}] )
+	linting? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	linting? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	linting? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	linting? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	linting? ( >=dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )
 	linting? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-9.1.5[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-0.20.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump-pydantic[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

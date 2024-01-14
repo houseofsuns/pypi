@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="fca"
 DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
-	dev-python/cairocffi[${PYTHON_USEDEP}]
+	<dev-python/cairocffi-2.0.0[${PYTHON_USEDEP}]
 	fca? ( dev-python/concepts[${PYTHON_USEDEP}] )
 	dev-python/igraph[${PYTHON_USEDEP}]
 	dev-python/leidenalg[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-41.0[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/spacy-lookups-data[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/toolz-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/wasabi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

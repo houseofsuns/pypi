@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	dev-python/lmdb[${PYTHON_USEDEP}]
 	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]"
+	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

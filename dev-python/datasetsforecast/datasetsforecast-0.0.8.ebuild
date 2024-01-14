@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/fugue[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

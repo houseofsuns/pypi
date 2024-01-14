@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/singer-sdk[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/genson[${PYTHON_USEDEP}]"
+	>=dev-python/pymongo-4.3.3[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.8.2[${PYTHON_USEDEP}]
+	<dev-python/genson-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

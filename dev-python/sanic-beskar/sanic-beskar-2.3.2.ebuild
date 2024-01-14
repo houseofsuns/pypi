@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyjwt-2.6[${PYTHON_USEDEP}]
+	<=dev-python/pendulum-3.1[${PYTHON_USEDEP}]
+	~dev-python/pendulum-3.0[${PYTHON_USEDEP}]
+	>=dev-python/passlib-1.7[${PYTHON_USEDEP}]
 	dev-python/sanic[${PYTHON_USEDEP}]
 	dev-python/pyseto[${PYTHON_USEDEP}]
 	dev-python/py-buzz[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pip2compat"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/thrift[${PYTHON_USEDEP}]
-	pip2compat? ( dev-python/click[${PYTHON_USEDEP}] )"
+	<dev-python/thrift-0.14[${PYTHON_USEDEP}]
+	pip2compat? ( <dev-python/click-8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/alembic-1.9.4[${PYTHON_USEDEP}]
+	~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/dnspython-2.3.0[${PYTHON_USEDEP}]
+	~dev-python/email-validator-1.3.1[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Admin[${PYTHON_USEDEP}]
 	dev-python/Flask-Bcrypt[${PYTHON_USEDEP}]
 	dev-python/Flask-Login[${PYTHON_USEDEP}]
 	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	~dev-python/greenlet-2.0.2[${PYTHON_USEDEP}]
+	~dev-python/idna-3.4[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-6.0.0[${PYTHON_USEDEP}]
+	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Mako[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/WTForms[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]"
+	~dev-python/zipp-3.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

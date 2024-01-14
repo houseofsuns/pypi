@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pytz-2018.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.19.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

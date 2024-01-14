@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="instruments test"
 DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	instruments? ( dev-python/pika[${PYTHON_USEDEP}] )
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]
+	instruments? ( >=dev-python/pika-0.12.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-pika[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/wrapt[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/wrapt-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

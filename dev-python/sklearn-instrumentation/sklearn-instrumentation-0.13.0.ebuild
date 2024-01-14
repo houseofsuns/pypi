@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all datadog memory-profiler opentelemetry prometheus pyinstrument statsd"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
-	all? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	prometheus? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/prometheus-client-0.10.1[${PYTHON_USEDEP}] )
+	prometheus? ( >=dev-python/prometheus-client-0.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/ddtrace[${PYTHON_USEDEP}] )
 	datadog? ( dev-python/ddtrace[${PYTHON_USEDEP}] )
 	all? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	pyinstrument? ( dev-python/pyinstrument[${PYTHON_USEDEP}] )
 	all? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
 	memory-profiler? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
-	all? ( dev-python/statsd[${PYTHON_USEDEP}] )
-	statsd? ( dev-python/statsd[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/statsd-3.3.0[${PYTHON_USEDEP}] )
+	statsd? ( >=dev-python/statsd-3.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
 	dev-python/gdrive-pydantic-wrapper[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pyzipper[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/simple-backups[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

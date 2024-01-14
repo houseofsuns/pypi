@@ -27,8 +27,8 @@ IUSE="test"
 DEPENDENCIES="dev-python/brotli[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/lz4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

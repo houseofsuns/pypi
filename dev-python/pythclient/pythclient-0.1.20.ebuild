@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/aiodns[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/flake8[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/aiodns[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/pycryptodome[${PYTHON_USEDEP}]
 	testing? ( dev-python/aiodns[${PYTHON_USEDEP}] )
-	testing? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/backoff[${PYTHON_USEDEP}] )
 	testing? ( dev-python/base58[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )

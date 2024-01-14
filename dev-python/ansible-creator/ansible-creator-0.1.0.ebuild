@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	docs? ( dev-python/mkdocs-ansible[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-ansible-0.2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pipdeptree-2.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )

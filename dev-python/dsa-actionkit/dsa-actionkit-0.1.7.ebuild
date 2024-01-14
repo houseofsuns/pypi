@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-3.2.6[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
 	dev-python/build[${PYTHON_USEDEP}]
-	test? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/selenium-3.8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyvirtualdisplay[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

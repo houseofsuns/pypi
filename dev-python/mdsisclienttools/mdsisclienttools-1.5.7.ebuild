@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/botocore[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/botocore-1.30.1[${PYTHON_USEDEP}]
 	dev-python/cloudpathlib[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<=dev-python/pydantic-1.10.13[${PYTHON_USEDEP}]
+	<dev-python/python-jose-4.0.0[${PYTHON_USEDEP}]
+	<=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

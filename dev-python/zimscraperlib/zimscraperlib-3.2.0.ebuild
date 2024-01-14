@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/iso_639[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/colorthief[${PYTHON_USEDEP}]
 	dev-python/python-resize-image[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	<dev-python/Babel-3.0[${PYTHON_USEDEP}]
 	dev-python/file-magic[${PYTHON_USEDEP}]
 	dev-python/libzim[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-4.10[${PYTHON_USEDEP}]
+	<dev-python/lxml-4.10[${PYTHON_USEDEP}]
 	dev-python/optimize-images[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

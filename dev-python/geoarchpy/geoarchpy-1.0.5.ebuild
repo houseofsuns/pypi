@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/pyvista[${PYTHON_USEDEP}]
 	dev-python/trame[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]

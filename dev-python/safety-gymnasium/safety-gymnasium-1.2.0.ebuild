@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="lint test"
 DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/gymnasium-robotics[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
+	~dev-python/pygame-2.1.0[${PYTHON_USEDEP}]
 	dev-python/mujoco[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	>=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.27.0[${PYTHON_USEDEP}]
+	lint? ( >=dev-python/isort-5.11.0[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/pylint-2.15.0[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/mypy-0.990[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )

@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/setproctitle[${PYTHON_USEDEP}]
 	dev-python/commonmark[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-console-scripts-0.1.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

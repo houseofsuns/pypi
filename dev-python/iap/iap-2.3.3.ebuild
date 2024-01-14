@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/asn1crypto[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-17.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )

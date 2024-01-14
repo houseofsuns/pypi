@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-1.6.1[${PYTHON_USEDEP}]
+	~dev-python/diskcache-5.6.1[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/argcomplete-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ktpanda-modules[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]"
+	>=dev-python/tomli-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

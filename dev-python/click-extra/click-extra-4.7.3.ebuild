@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Pallets-Sphinx-Themes[${PYTHON_USEDEP}]
-	dev-python/boltons[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/boltons-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/cloup[${PYTHON_USEDEP}]
-	dev-python/commentjson[${PYTHON_USEDEP}]
-	dev-python/mergedeep[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pygments-ansi-color[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/wcmatch[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+	<dev-python/commentjson-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/mergedeep-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pygments-3.0[${PYTHON_USEDEP}]
+	<dev-python/pygments-ansi-color-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/regex-2024.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-6.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/wcmatch-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/xmltodict-0.14.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

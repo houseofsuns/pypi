@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
 	dev-python/obspy[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyproj-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-fmm[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	<dev-python/future-0.19.0[${PYTHON_USEDEP}]
 	dev-python/pyasdf[${PYTHON_USEDEP}]
-	dev-python/jupyter[${PYTHON_USEDEP}]"
+	<dev-python/jupyter-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

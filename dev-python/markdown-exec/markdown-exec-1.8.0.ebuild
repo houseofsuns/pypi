@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ansi"
-DEPENDENCIES="dev-python/pymdown-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pymdown-extensions-9.0[${PYTHON_USEDEP}]
 	ansi? ( dev-python/pygments-ansi-color[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

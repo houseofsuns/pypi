@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp httpx"
-DEPENDENCIES="aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	dev-python/yarl[${PYTHON_USEDEP}]"
+DEPENDENCIES="aiohttp? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
+	httpx? ( <dev-python/httpx-1.0.0[${PYTHON_USEDEP}] )
+	<dev-python/yarl-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

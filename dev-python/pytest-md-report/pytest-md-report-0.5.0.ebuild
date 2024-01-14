@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pytablewriter[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/tcolorpy[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0[${PYTHON_USEDEP}]
+	<dev-python/tcolorpy-1.0[${PYTHON_USEDEP}]
 	dev-python/typepy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

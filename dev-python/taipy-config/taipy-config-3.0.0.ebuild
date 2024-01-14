@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]"
+	<dev-python/deepdiff-6.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

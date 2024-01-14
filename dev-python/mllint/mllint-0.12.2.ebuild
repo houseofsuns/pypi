@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tools"
 DEPENDENCIES="tools? ( dev-python/dvc[${PYTHON_USEDEP}] )
-	tools? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tools? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tools? ( dev-python/black[${PYTHON_USEDEP}] )
-	tools? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tools? ( dev-python/bandit[${PYTHON_USEDEP}] )"
+	tools? ( >=dev-python/pylint-2.0.0[${PYTHON_USEDEP}] )
+	tools? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
+	tools? ( >=dev-python/black-21.4[${PYTHON_USEDEP}] )
+	tools? ( >=dev-python/isort-5.0.0[${PYTHON_USEDEP}] )
+	tools? ( >=dev-python/bandit-1.6.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

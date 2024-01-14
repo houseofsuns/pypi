@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/braceexpand[${PYTHON_USEDEP}]
 	dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]"
+	>=dev-python/pluggy-0.13.1[${PYTHON_USEDEP}]
+	>=dev-python/tox-3.18.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

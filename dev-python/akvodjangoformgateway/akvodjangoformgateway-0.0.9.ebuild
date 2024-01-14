@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-36.2[${PYTHON_USEDEP}]
 	dev-python/twilio[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.12.4[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

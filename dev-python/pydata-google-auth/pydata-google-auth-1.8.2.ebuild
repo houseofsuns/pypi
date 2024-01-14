@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]"
+	<dev-python/google-auth-3.0[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-oauthlib-0.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

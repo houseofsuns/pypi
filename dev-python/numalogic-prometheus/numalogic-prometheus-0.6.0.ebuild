@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/redis-5.0[${PYTHON_USEDEP}]
 	dev-python/pynumaflow[${PYTHON_USEDEP}]
 	dev-python/numalogic[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]"
+	<dev-python/watchdog-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.18[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

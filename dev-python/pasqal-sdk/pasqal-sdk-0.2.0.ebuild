@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/auth0-python[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-mock[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	~dev-python/requests-mock-1.9.3[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.5.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.982[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

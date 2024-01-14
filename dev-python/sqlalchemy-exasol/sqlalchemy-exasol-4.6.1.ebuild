@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="turbodbc"
 DEPENDENCIES="dev-python/pyodbc[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	dev-python/pyexasol[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.4.45[${PYTHON_USEDEP}]
 	turbodbc? ( dev-python/turbodbc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

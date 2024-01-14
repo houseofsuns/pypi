@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.0.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
 	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	dev? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-redirects[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocstrings-0.18[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep517[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

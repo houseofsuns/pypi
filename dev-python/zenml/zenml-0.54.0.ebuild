@@ -24,46 +24,46 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="adlfs connectors-aws connectors-azure connectors-gcp connectors-kubernetes dev gcsfs mlstacks s3fs secrets-aws secrets-azure secrets-gcp secrets-hashicorp server templates terraform"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/alembic-1.9.0[${PYTHON_USEDEP}]
+	~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
+	<dev-python/click-8.1.4[${PYTHON_USEDEP}]
 	dev-python/click-params[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
+	<dev-python/cloudpickle-3.0[${PYTHON_USEDEP}]
+	<dev-python/distro-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/docker-6.2.0[${PYTHON_USEDEP}]
+	<dev-python/httplib2-0.20[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
+	<dev-python/passlib-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-1.11[${PYTHON_USEDEP}]
+	<dev-python/pymysql-1.1.0[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.0.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy_utils[${PYTHON_USEDEP}]
 	dev-python/sqlmodel[${PYTHON_USEDEP}]
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	server? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
-	server? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/uvicorn-0.17.5[${PYTHON_USEDEP}] )
+	server? ( <dev-python/python-multipart-0.1.0[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/pyjwt-2.7[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi-utils[${PYTHON_USEDEP}] )
-	server? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	server? ( <dev-python/orjson-3.9.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	server? ( dev-python/ipinfo[${PYTHON_USEDEP}] )
 	templates? ( dev-python/copier[${PYTHON_USEDEP}] )
-	templates? ( dev-python/jinja2-time[${PYTHON_USEDEP}] )
+	templates? ( <dev-python/jinja2-time-0.3.0[${PYTHON_USEDEP}] )
 	templates? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	terraform? ( dev-python/python-terraform[${PYTHON_USEDEP}] )
-	secrets-aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	connectors-aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	secrets-aws? ( <=dev-python/boto3-1.24.59[${PYTHON_USEDEP}] )
+	connectors-aws? ( <=dev-python/boto3-1.24.59[${PYTHON_USEDEP}] )
 	secrets-gcp? ( dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}] )
 	secrets-azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	connectors-azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	secrets-azure? ( dev-python/azure-keyvault-secrets[${PYTHON_USEDEP}] )
-	secrets-hashicorp? ( dev-python/hvac[${PYTHON_USEDEP}] )
+	secrets-hashicorp? ( >=dev-python/hvac-0.11.2[${PYTHON_USEDEP}] )
 	connectors-aws? ( dev-python/aws-profile-manager[${PYTHON_USEDEP}] )
 	connectors-kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	connectors-aws? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
@@ -79,22 +79,22 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	s3fs? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	gcsfs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	adlfs? ( dev-python/adlfs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/bandit-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyment[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/tox-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/hypothesis-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/darglint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-clarity[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mkdocstrings-0.18.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mike[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-certifi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-croniter[${PYTHON_USEDEP}] )
@@ -108,10 +108,10 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-redis[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/types-setuptools-58.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-six[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-termcolor[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/types-psutil-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-passlib[${PYTHON_USEDEP}] )
 	mlstacks? ( dev-python/mlstacks[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
+	~dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

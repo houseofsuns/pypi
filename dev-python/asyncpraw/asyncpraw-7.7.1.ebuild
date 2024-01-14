@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci dev lint readthedocs test"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiofiles-1.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	<=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
 	dev-python/asyncprawcore[${PYTHON_USEDEP}]
 	dev-python/update-checker[${PYTHON_USEDEP}]
 	ci? ( dev-python/coveralls[${PYTHON_USEDEP}] )
@@ -36,13 +36,13 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-rtd-dark-mode[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-trio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mock-4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-asyncio-0.18[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-vcr[${PYTHON_USEDEP}] )
-	dev? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/vcrpy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/testfixtures-6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/urllib3-1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/vcrpy-4.2.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	lint? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	lint? ( dev-python/sphinx-rtd-dark-mode[${PYTHON_USEDEP}] )
@@ -52,12 +52,12 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	readthedocs? ( dev-python/sphinx-rtd-dark-mode[${PYTHON_USEDEP}] )
 	readthedocs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	readthedocs? ( dev-python/sphinxcontrib-trio[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.18[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-vcr[${PYTHON_USEDEP}] )
-	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
-	test? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	test? ( dev-python/vcrpy[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/testfixtures-6.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/urllib3-1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/vcrpy-4.2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

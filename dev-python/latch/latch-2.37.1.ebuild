@@ -25,29 +25,29 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pandas snakemake"
 DEPENDENCIES="dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-0.2.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
+	>=dev-python/docker-5.0[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-3.2.0[${PYTHON_USEDEP}]
 	dev-python/scp[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.26.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.63.0[${PYTHON_USEDEP}]
 	dev-python/lytekit[${PYTHON_USEDEP}]
 	dev-python/lytekitplugins-pods[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
 	dev-python/apscheduler[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+	~dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]
 	dev-python/latch-sdk-gql[${PYTHON_USEDEP}]
 	dev-python/latch-sdk-config[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
 	dev-python/aioconsole[${PYTHON_USEDEP}]
 	dev-python/asyncssh[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/watchfiles[${PYTHON_USEDEP}]
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	~dev-python/websockets-11.0.3[${PYTHON_USEDEP}]
+	~dev-python/watchfiles-0.19.0[${PYTHON_USEDEP}]
+	pandas? ( >=dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	snakemake? ( dev-python/snakemake[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

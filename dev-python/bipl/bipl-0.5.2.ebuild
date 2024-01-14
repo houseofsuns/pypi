@@ -27,25 +27,25 @@ IUSE="dev dev-core dev-wemake gdal"
 DEPENDENCIES="dev-python/glow[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.2[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev? ( dev-python/bipl[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-alphabetize[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/typing-extensions-4.6[${PYTHON_USEDEP}] )
 	dev-core? ( dev-python/flake8-pie[${PYTHON_USEDEP}] )
 	dev-core? ( dev-python/flake8-pyi[${PYTHON_USEDEP}] )
 	dev-core? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
 	dev-core? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
-	dev-core? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev-core? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	dev-core? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev-core? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev-core? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev-core? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
+	dev-core? ( ~dev-python/pytest-7.3[${PYTHON_USEDEP}] )
 	dev-core? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev-core? ( dev-python/yapf[${PYTHON_USEDEP}] )
+	dev-core? ( ~dev-python/yapf-0.40.2[${PYTHON_USEDEP}] )
 	dev-wemake? ( dev-python/bipl[${PYTHON_USEDEP}] )
 	dev-wemake? ( dev-python/wemake-python-styleguide[${PYTHON_USEDEP}] )
 	gdal? ( dev-python/gdal[${PYTHON_USEDEP}] )"

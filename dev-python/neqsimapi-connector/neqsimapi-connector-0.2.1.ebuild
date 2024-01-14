@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/msal[${PYTHON_USEDEP}]
 	dev-python/msal-extensions[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.23.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

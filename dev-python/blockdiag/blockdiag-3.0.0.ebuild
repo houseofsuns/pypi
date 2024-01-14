@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pdf rst testing"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/funcparserlib[${PYTHON_USEDEP}]
+	>=dev-python/funcparserlib-1.0.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/webcolors[${PYTHON_USEDEP}]
 	pdf? ( dev-python/reportlab[${PYTHON_USEDEP}] )

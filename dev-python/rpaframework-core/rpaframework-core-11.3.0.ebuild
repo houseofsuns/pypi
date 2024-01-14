@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/selenium[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/selenium-5.0.0[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]"
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

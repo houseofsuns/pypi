@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/pelican[${PYTHON_USEDEP}]
 	dev-python/flake8[${PYTHON_USEDEP}]
 	release? ( dev-python/python-semantic-release[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )"

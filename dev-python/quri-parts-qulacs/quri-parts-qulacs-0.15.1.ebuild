@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/Qulacs[${PYTHON_USEDEP}]
 	dev-python/quri-parts-circuit[${PYTHON_USEDEP}]
 	dev-python/quri-parts-core[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

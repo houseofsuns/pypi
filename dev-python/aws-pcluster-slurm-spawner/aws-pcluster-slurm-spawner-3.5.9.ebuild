@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/batchspawner[${PYTHON_USEDEP}]
 	dev-python/aws-pcluster-helpers[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	>dev-python/pydantic-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

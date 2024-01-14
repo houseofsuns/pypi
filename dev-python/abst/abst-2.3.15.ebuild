@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
 	dev-python/pyperclip[${PYTHON_USEDEP}]
 	dev-python/bext[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

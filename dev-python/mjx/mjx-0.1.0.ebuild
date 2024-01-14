@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/google[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.39.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/svgwrite[${PYTHON_USEDEP}]

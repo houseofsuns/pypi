@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/py-2.0.0[${PYTHON_USEDEP}]
 	dev-python/luigi[${PYTHON_USEDEP}]
 	dev-python/bed-reader[${PYTHON_USEDEP}]
 	dev-python/deeplake[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

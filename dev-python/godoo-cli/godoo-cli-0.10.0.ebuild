@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="codequality devcontainer"
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/godoo-rpc[${PYTHON_USEDEP}]
 	dev-python/openupgradelib[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
+	<dev-python/passlib-2.0.0[${PYTHON_USEDEP}]
 	dev-python/typer-common-functions[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	codequality? ( dev-python/pylint-odoo[${PYTHON_USEDEP}] )
-	devcontainer? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	devcontainer? ( dev-python/debugpy[${PYTHON_USEDEP}] )
-	codequality? ( dev-python/black[${PYTHON_USEDEP}] )
-	codequality? ( dev-python/isort[${PYTHON_USEDEP}] )
-	devcontainer? ( dev-python/watchdog[${PYTHON_USEDEP}] )
+	devcontainer? ( <dev-python/ipdb-0.14.0[${PYTHON_USEDEP}] )
+	devcontainer? ( <dev-python/debugpy-2.0.0[${PYTHON_USEDEP}] )
+	codequality? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
+	codequality? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	devcontainer? ( <dev-python/watchdog-3.0.0[${PYTHON_USEDEP}] )
 	devcontainer? ( dev-python/py-spy[${PYTHON_USEDEP}] )
-	devcontainer? ( dev-python/rope[${PYTHON_USEDEP}] )
-	codequality? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	devcontainer? ( <dev-python/rope-0.24.0[${PYTHON_USEDEP}] )
+	codequality? ( <dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	devcontainer? ( dev-python/inotify[${PYTHON_USEDEP}] )
-	devcontainer? ( dev-python/mock[${PYTHON_USEDEP}] )
-	codequality? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	codequality? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	devcontainer? ( <dev-python/mock-5.0.0[${PYTHON_USEDEP}] )
+	codequality? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	codequality? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
 	devcontainer? ( dev-python/pydevd-odoo[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

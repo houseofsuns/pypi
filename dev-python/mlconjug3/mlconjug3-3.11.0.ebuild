@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/python-utils[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+	~dev-python/python-utils-3.4.5[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]"
+	~dev-python/threadpoolctl-3.1.0[${PYTHON_USEDEP}]
+	~dev-python/rich-13.2.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/tomlkit-0.11.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

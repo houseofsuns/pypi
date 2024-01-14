@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all complexity test"
-DEPENDENCIES="dev-python/isort[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/isort-5.14[${PYTHON_USEDEP}]
 	dev-python/libcst[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
+	~dev-python/pylint-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/python-json-logger-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/semgrep[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+	~dev-python/tomlkit-0.12.0[${PYTHON_USEDEP}]
+	~dev-python/wrapt-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/chardet-5.2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/codemodder[${PYTHON_USEDEP}] )
 	all? ( dev-python/codemodder[${PYTHON_USEDEP}] )
-	complexity? ( dev-python/radon[${PYTHON_USEDEP}] )
+	complexity? ( ~dev-python/radon-6.0[${PYTHON_USEDEP}] )
 	complexity? ( dev-python/xenon[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-7.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	test? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	test? ( <dev-python/GitPython-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	test? ( <dev-python/lxml-5.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/Pyjwt[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/security[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/django[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/django-6.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/numpy-1.26.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

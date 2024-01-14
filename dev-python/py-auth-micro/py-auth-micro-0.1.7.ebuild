@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-45.0[${PYTHON_USEDEP}]
 	dev-python/tortoise-orm[${PYTHON_USEDEP}]
 	dev-python/bcrypt[${PYTHON_USEDEP}]
 	dev-python/jwt-helper[${PYTHON_USEDEP}]"

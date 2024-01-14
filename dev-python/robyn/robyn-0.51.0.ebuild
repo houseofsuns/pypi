@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="templating"
-DEPENDENCIES="dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/multiprocess[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/watchdog-2.2.1[${PYTHON_USEDEP}]
+	~dev-python/multiprocess-0.70.14[${PYTHON_USEDEP}]
 	dev-python/nestd[${PYTHON_USEDEP}]
 	dev-python/inquirerpy[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
+	~dev-python/uvloop-0.19.0[${PYTHON_USEDEP}]
 	templating? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

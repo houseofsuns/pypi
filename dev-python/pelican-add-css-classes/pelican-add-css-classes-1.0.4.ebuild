@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="markdown"
 DEPENDENCIES="dev-python/pelican[${PYTHON_USEDEP}]
-	markdown? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	markdown? ( <dev-python/markdown-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

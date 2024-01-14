@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/appdirs-2.0[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0[${PYTHON_USEDEP}]
 	dev-python/namesgenerator[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
+	<dev-python/progressbar2-5.0[${PYTHON_USEDEP}]
+	<dev-python/pyasn1-1.0[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0[${PYTHON_USEDEP}]
+	<dev-python/pyopenssl-24.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
+	<dev-python/rsa-5.0[${PYTHON_USEDEP}]
 	dev-python/scapy[${PYTHON_USEDEP}]
-	dev-python/service-identity[${PYTHON_USEDEP}]
-	dev-python/twisted[${PYTHON_USEDEP}]
-	full? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	>=dev-python/service-identity-18.0[${PYTHON_USEDEP}]
+	>=dev-python/twisted-23.0[${PYTHON_USEDEP}]
+	full? ( >=dev-python/wheel-0.34.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/av[${PYTHON_USEDEP}] )
 	full? ( dev-python/PySide6[${PYTHON_USEDEP}] )
 	full? ( dev-python/qimage2ndarray[${PYTHON_USEDEP}] )

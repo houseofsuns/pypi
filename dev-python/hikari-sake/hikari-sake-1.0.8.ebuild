@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tanjun"
 DEPENDENCIES="dev-python/hikari[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/redis-4.2[${PYTHON_USEDEP}]
 	tanjun? ( dev-python/hikari-tanjun[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="tests? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	tests? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	<dev-python/rich-12.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-1.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/grpcio-tools-2.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
+	<dev-python/googleapis-common-protos-2.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/lnd-grpc-client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

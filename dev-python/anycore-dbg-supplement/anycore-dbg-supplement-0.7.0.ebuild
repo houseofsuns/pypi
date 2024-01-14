@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-4.0.0[${PYTHON_USEDEP}]
 	dev-python/bashlex[${PYTHON_USEDEP}]
-	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
+	<dev-python/fuzzywuzzy-0.19.0[${PYTHON_USEDEP}]
 	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]"
+	<dev-python/natsort-9.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

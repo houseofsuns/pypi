@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/msal[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
+	~dev-python/semver-2.13.0[${PYTHON_USEDEP}]
 	dev-python/signalrcore[${PYTHON_USEDEP}]
 	dev-python/asciimatics[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.8.1[${PYTHON_USEDEP}]
 	dev-python/memoization[${PYTHON_USEDEP}]
 	dev-python/msrestazure[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
 	dev-python/azure-applicationinsights[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.0.1[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	dev-python/azure-cli-core[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/msal[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-requests[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
+	>=dev-python/rsa-4.7[${PYTHON_USEDEP}]
 	dev-python/onefuzztypes[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

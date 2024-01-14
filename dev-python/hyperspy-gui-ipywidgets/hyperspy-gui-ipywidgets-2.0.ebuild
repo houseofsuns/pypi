@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
 DEPENDENCIES="dev-python/hyperspy[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.0[${PYTHON_USEDEP}]
 	dev-python/link-traits[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hyperspy-gui-ipywidgets[${PYTHON_USEDEP}] )

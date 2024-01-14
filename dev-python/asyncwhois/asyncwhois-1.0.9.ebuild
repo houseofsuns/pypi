@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-socks[${PYTHON_USEDEP}]
-	dev-python/tldextract[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-socks-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/tldextract-2.2.0[${PYTHON_USEDEP}]
 	dev-python/whodap[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

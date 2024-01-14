@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/jupyverse-api[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pyzmq[${PYTHON_USEDEP}]
 	dev-python/types-python-dateutil[${PYTHON_USEDEP}]
-	dev-python/watchfiles[${PYTHON_USEDEP}]
+	<dev-python/watchfiles-1.0[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

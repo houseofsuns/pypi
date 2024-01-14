@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/argh[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/argcomplete-3.0.8[${PYTHON_USEDEP}]
+	~dev-python/argh-0.28.1[${PYTHON_USEDEP}]
+	~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
 	dev-python/gffutils[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pyfaidx[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.19.1[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
+	~dev-python/setuptools-67.7.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

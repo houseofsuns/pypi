@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/executing[${PYTHON_USEDEP}]
-	dev-python/asttokens[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/executing-0.3.1[${PYTHON_USEDEP}]
+	>=dev-python/asttokens-2.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

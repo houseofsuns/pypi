@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/build[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pip-18.0[${PYTHON_USEDEP}]
+	>=dev-python/build-0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiomysql aiopg aiosqlite asyncmy asyncpg mysql postgresql sqlite"
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}]
 	aiomysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	aiopg? ( dev-python/aiopg[${PYTHON_USEDEP}] )
 	aiosqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs tests typing"
 DEPENDENCIES="dev-python/argon2-cffi-bindings[${PYTHON_USEDEP}]
 	dev? ( dev-python/argon2-cffi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( >dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

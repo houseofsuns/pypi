@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]"
+	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
+	>=dev-python/jsonpickle-1.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

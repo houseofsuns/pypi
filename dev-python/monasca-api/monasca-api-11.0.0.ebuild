@@ -31,40 +31,40 @@ DEPENDENCIES="dev-python/Paste[${PYTHON_USEDEP}]
 	dev-python/falcon[${PYTHON_USEDEP}]
 	dev-python/keystonemiddleware[${PYTHON_USEDEP}]
 	dev-python/monasca-common[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-context[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-6.8.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-context-2.22.0[${PYTHON_USEDEP}]
 	dev-python/oslo-db[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.36.0[${PYTHON_USEDEP}]
 	dev-python/oslo-middleware[${PYTHON_USEDEP}]
 	dev-python/oslo-policy[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-2.18.0[${PYTHON_USEDEP}]
 	dev-python/oslo-upgradecheck[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-4.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-3.0.6[${PYTHON_USEDEP}]
+	>=dev-python/python-keystoneclient-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.8.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.11.1[${PYTHON_USEDEP}]
 	cassandra? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
 	influxdb? ( dev-python/influxdb[${PYTHON_USEDEP}] )
-	test? ( dev-python/Babel[${PYTHON_USEDEP}] )
-	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	test? ( dev-python/bashate[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/Babel-2.3.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/bandit-1.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/bashate-0.5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	test? ( dev-python/fixtures[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/doc8-0.6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/fixtures-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
-	test? ( dev-python/httplib2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/httplib2-0.9.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/influxdb[${PYTHON_USEDEP}] )
-	test? ( dev-python/oslotest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/oslotest-3.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
-	test? ( dev-python/tempest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-mock-1.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-1.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tempest-17.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/testrepository[${PYTHON_USEDEP}] )
-	test? ( dev-python/testscenarios[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/testscenarios-0.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testtools-2.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

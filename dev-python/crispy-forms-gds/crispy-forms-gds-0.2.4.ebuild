@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/django-crispy-forms[${PYTHON_USEDEP}]"
+	>=dev-python/django-crispy-forms-1.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

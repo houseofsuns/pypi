@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="optionals"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.19[${PYTHON_USEDEP}]
 	dev-python/cvxpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	optionals? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	optionals? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	optionals? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

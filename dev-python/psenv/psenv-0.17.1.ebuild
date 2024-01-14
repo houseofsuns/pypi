@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pyaml[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
+	~dev-python/pyaml-21.10.1[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.20.49[${PYTHON_USEDEP}]
+	~dev-python/prettytable-3.4.1[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/setuptools-63.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-semantic-release[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

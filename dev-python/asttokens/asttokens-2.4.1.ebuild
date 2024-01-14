@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="astroid test"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	astroid? ( dev-python/astroid[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/six-1.12.0[${PYTHON_USEDEP}]
+	astroid? ( <dev-python/astroid-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/astroid[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/astroid-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]"
+	<dev-python/wrapt-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

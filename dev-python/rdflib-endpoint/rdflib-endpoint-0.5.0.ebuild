@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli oxigraph test web"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	>=dev-python/rdflib-6.0.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/uvicorn-0.12.0[${PYTHON_USEDEP}] )
 	oxigraph? ( dev-python/oxrdflib[${PYTHON_USEDEP}] )
 	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-click[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-ujson[${PYTHON_USEDEP}] )
 	web? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	web? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	web? ( >=dev-python/uvicorn-0.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

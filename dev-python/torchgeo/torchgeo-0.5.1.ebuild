@@ -29,42 +29,42 @@ DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/kornia[${PYTHON_USEDEP}]
 	dev-python/lightly[${PYTHON_USEDEP}]
 	dev-python/lightning[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.3[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.0[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-3.0[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/rtree[${PYTHON_USEDEP}]
 	dev-python/segmentation-models-pytorch[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.7.1[${PYTHON_USEDEP}]
 	dev-python/timm[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	all? ( dev-python/torchgeo[${PYTHON_USEDEP}] )
-	datasets? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	datasets? ( >=dev-python/h5py-3.0[${PYTHON_USEDEP}] )
 	datasets? ( dev-python/laspy[${PYTHON_USEDEP}] )
 	datasets? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	datasets? ( dev-python/pycocotools[${PYTHON_USEDEP}] )
 	datasets? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	datasets? ( dev-python/radiant-mlhub[${PYTHON_USEDEP}] )
-	datasets? ( dev-python/rarfile[${PYTHON_USEDEP}] )
+	datasets? ( >=dev-python/rarfile-4.0[${PYTHON_USEDEP}] )
 	datasets? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	datasets? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	datasets? ( >=dev-python/scipy-1.6.2[${PYTHON_USEDEP}] )
 	datasets? ( dev-python/zipfile-deflate64[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/ipywidgets-7.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.8.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytorch-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	style? ( dev-python/black[${PYTHON_USEDEP}] )
-	style? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	style? ( dev-python/isort[${PYTHON_USEDEP}] )
-	style? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	style? ( dev-python/pyupgrade[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/black-21.8[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/flake8-3.8[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/isort-5.8[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/pydocstyle-6.1[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/pyupgrade-2.8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mypy-0.900[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nbmake[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-7.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

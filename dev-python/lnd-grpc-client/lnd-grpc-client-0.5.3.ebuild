@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiogrpc[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/googleapis-common-protos-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-tools-2.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/protobuf3-to-dict[${PYTHON_USEDEP}]
 	dev-python/ptpython[${PYTHON_USEDEP}]

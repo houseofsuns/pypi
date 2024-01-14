@@ -25,32 +25,32 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="django django2x fastapi flask"
 DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/tldextract[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<=dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.10[${PYTHON_USEDEP}]
+	~dev-python/tldextract-3.1.0[${PYTHON_USEDEP}]
+	<dev-python/asgiref-4.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
+	~dev-python/phonenumbers-8.12.48[${PYTHON_USEDEP}]
 	dev-python/twilio[${PYTHON_USEDEP}]
 	dev-python/aiosmtplib[${PYTHON_USEDEP}]
 	dev-python/pkce[${PYTHON_USEDEP}]
-	django? ( dev-python/django-cors-headers[${PYTHON_USEDEP}] )
-	django? ( dev-python/django[${PYTHON_USEDEP}] )
+	django? ( ~dev-python/django-cors-headers-3.11.0[${PYTHON_USEDEP}] )
+	django? ( >=dev-python/django-3.0[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
-	django? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	django? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	django2x? ( dev-python/django-cors-headers[${PYTHON_USEDEP}] )
-	django2x? ( dev-python/django[${PYTHON_USEDEP}] )
+	django? ( ~dev-python/uvicorn-0.18.2[${PYTHON_USEDEP}] )
+	django? ( ~dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}] )
+	django2x? ( ~dev-python/django-cors-headers-3.11.0[${PYTHON_USEDEP}] )
+	django2x? ( <dev-python/django-3.0[${PYTHON_USEDEP}] )
 	django2x? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	django2x? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	django2x? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
+	django2x? ( ~dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/respx[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/Fastapi[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
+	fastapi? ( ~dev-python/uvicorn-0.18.2[${PYTHON_USEDEP}] )
+	fastapi? ( ~dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
 	flask? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	flask? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )"
+	flask? ( ~dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

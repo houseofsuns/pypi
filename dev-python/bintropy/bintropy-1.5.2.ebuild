@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fonttools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/fonttools-4.43.0[${PYTHON_USEDEP}]
 	dev-python/lief[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]"
+	>=dev-python/matplotlib-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

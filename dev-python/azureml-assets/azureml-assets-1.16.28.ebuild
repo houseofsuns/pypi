@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/GitPython-3.1[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
+	>=dev-python/pip-21.0[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.19[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
 	dev-python/azure-ai-ml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

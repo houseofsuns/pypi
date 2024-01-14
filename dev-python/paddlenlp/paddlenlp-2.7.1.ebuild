@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/seqeval[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/multiprocess[${PYTHON_USEDEP}]
+	<dev-python/dill-0.3.5[${PYTHON_USEDEP}]
+	<=dev-python/multiprocess-0.70.12.2[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/paddlefsl[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	autonlp? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	autonlp? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	autonlp? ( ~dev-python/pydantic-1.10.11[${PYTHON_USEDEP}] )
 	autonlp? ( dev-python/ray[${PYTHON_USEDEP}] )
 	autonlp? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
@@ -60,12 +60,12 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	dev? ( dev-python/tool-helpers[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fast-tokenizer-python[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/h11[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydantic-1.10.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/urllib3-1.26.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/scipy-1.9.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/numpy-1.27.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/h11-0.13[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
@@ -78,14 +78,14 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	dev? ( dev-python/paddlepaddle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/paddlenlp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydantic-1.10.11[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ray[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
-	docs? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/h11[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/urllib3-1.26.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/scipy-1.9.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/numpy-1.27.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/h11-0.13[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
@@ -105,6 +105,6 @@ DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	tests? ( dev-python/tool-helpers[${PYTHON_USEDEP}] )
 	tests? ( dev-python/fast-tokenizer-python[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pydantic[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pydantic-1.10.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

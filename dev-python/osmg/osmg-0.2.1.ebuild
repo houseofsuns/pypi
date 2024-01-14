@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/opensees[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/plotly-4.14.3[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.4[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.7.1[${PYTHON_USEDEP}]
 	dev-python/descartes[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	>=dev-python/numpy-1.20.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.7[${PYTHON_USEDEP}]
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

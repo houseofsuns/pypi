@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aio-openapi[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/inflection-0.6.0[${PYTHON_USEDEP}]
 	dev-python/prometheus-async[${PYTHON_USEDEP}]
 	dev-python/aioconsole[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-json-logger-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/colorlog-7.0.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp_cors[${PYTHON_USEDEP}]
 	dev-python/aiobotocore[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/aio-kong[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	<dev-python/uvloop-0.18.0[${PYTHON_USEDEP}]
+	<dev-python/pycountry-23.0.0[${PYTHON_USEDEP}]
+	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

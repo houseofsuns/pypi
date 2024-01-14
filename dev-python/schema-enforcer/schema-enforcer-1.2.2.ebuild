@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ansible ansible-base"
 DEPENDENCIES="ansible? ( dev-python/ansible[${PYTHON_USEDEP}] )
 	ansible-base? ( dev-python/ansible-base[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/jsonpointer[${PYTHON_USEDEP}]
-	dev-python/jsonref[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	<dev-python/jmespath-0.11[${PYTHON_USEDEP}]
+	<dev-python/jsonpointer-3.0[${PYTHON_USEDEP}]
+	<dev-python/jsonref-0.3[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-9.5[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18[${PYTHON_USEDEP}]
+	<dev-python/termcolor-2.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

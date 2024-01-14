@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="argon2 ldap mysql postgresql"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/django-ckeditor[${PYTHON_USEDEP}]
 	dev-python/django-phonenumber-field[${PYTHON_USEDEP}]
 	dev-python/django-reversion[${PYTHON_USEDEP}]
 	dev-python/django-xforwardedfor-middleware[${PYTHON_USEDEP}]
-	dev-python/django-otp[${PYTHON_USEDEP}]
+	~dev-python/django-otp-1.3.0[${PYTHON_USEDEP}]
 	dev-python/django-filter[${PYTHON_USEDEP}]
 	dev-python/django-rename-app[${PYTHON_USEDEP}]
 	dev-python/dj-database-url[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-3.15[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]
 	dev-python/uritemplate[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-simplejwt[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
+	~dev-python/passlib-1.7.4[${PYTHON_USEDEP}]
 	dev-python/bcrypt[${PYTHON_USEDEP}]
 	dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/feedparser[${PYTHON_USEDEP}]
+	~dev-python/dnspython-2.4.2[${PYTHON_USEDEP}]
+	~dev-python/feedparser-6.0.11[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/progressbar33[${PYTHON_USEDEP}]
@@ -49,23 +49,23 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.4[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
 	dev-python/ovh[${PYTHON_USEDEP}]
 	dev-python/oath[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	>=dev-python/redis-4.2.0[${PYTHON_USEDEP}]
 	dev-python/rrdtool[${PYTHON_USEDEP}]
 	dev-python/qrcode[${PYTHON_USEDEP}]
 	dev-python/aiosmtplib[${PYTHON_USEDEP}]
 	dev-python/reportlab[${PYTHON_USEDEP}]
-	dev-python/tldextract[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/rq[${PYTHON_USEDEP}]
+	>=dev-python/tldextract-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/python-magic-0.4.24[${PYTHON_USEDEP}]
+	>=dev-python/rq-1.13.0[${PYTHON_USEDEP}]
 	dev-python/django-rq[${PYTHON_USEDEP}]
-	argon2? ( dev-python/argon2-cffi[${PYTHON_USEDEP}] )
-	ldap? ( dev-python/django-auth-ldap[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/psycopg[${PYTHON_USEDEP}] )"
+	argon2? ( >=dev-python/argon2-cffi-16.1.0[${PYTHON_USEDEP}] )
+	ldap? ( >=dev-python/django-auth-ldap-1.3.0[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/mysqlclient-2.2.2[${PYTHON_USEDEP}] )
+	postgresql? ( >=dev-python/psycopg-3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

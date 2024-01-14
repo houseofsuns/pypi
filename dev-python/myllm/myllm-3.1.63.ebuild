@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/PyExecJS2[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/g4f[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/js2py[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]"
+	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
+	<dev-python/js2py-0.75[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

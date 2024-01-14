@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]"
+	>=dev-python/python-dateutil-2.7.5[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

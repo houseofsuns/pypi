@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/cssselect[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonpath-ng-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/cssselect-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/toolz-0.13.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/furo-2023.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/linkify-it-py-3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/myst-parser-0.17[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
-	dev-python/sphinx-copybutton[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-notfound-page-0.8[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-apidoc-0.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/nbsphinx-0.9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	dev-python/inflection[${PYTHON_USEDEP}]"
+	<dev-python/inflection-0.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

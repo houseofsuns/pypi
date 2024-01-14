@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.1.2[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/simple-settings[${PYTHON_USEDEP}]
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )

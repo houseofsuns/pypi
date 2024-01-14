@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli"
 DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.0.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
 	dev-python/verselect[${PYTHON_USEDEP}]
 	dev-python/better-ast-comments[${PYTHON_USEDEP}]"

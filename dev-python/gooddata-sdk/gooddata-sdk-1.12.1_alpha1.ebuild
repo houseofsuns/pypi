@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gooddata-api-client[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.5.3[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	<=dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
+	<=dev-python/cattrs-23.2.3[${PYTHON_USEDEP}]
 	dev-python/brotli[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="brotli cli cryptography full jinja jwt memcached opentelemetry picologging redis standard structlog"
 DEPENDENCIES="memcached? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
 	full? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
-	dev-python/anyio[${PYTHON_USEDEP}]
+	>=dev-python/anyio-3.0[${PYTHON_USEDEP}]
 	brotli? ( dev-python/brotli[${PYTHON_USEDEP}] )
 	full? ( dev-python/brotli[${PYTHON_USEDEP}] )
 	cli? ( dev-python/click[${PYTHON_USEDEP}] )
@@ -36,15 +36,15 @@ DEPENDENCIES="memcached? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
 	jwt? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	full? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	dev-python/fast-query-parsers[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.22[${PYTHON_USEDEP}]
 	jinja? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	standard? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	full? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	cli? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )
 	standard? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )
-	dev-python/mako[${PYTHON_USEDEP}]
+	>=dev-python/mako-1.2.4[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
+	>=dev-python/multidict-6.0.2[${PYTHON_USEDEP}]
 	opentelemetry? ( dev-python/opentelemetry-instrumentation-asgi[${PYTHON_USEDEP}] )
 	full? ( dev-python/opentelemetry-instrumentation-asgi[${PYTHON_USEDEP}] )
 	picologging? ( dev-python/picologging[${PYTHON_USEDEP}] )
@@ -58,9 +58,9 @@ DEPENDENCIES="memcached? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
 	full? ( dev-python/redis[${PYTHON_USEDEP}] )
-	cli? ( dev-python/rich[${PYTHON_USEDEP}] )
-	standard? ( dev-python/rich[${PYTHON_USEDEP}] )
-	full? ( dev-python/rich[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/rich-13.0.0[${PYTHON_USEDEP}] )
+	standard? ( >=dev-python/rich-13.0.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/rich-13.0.0[${PYTHON_USEDEP}] )
 	structlog? ( dev-python/structlog[${PYTHON_USEDEP}] )
 	full? ( dev-python/structlog[${PYTHON_USEDEP}] )
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"

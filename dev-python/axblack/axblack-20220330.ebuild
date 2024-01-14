@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="d"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-6.5[${PYTHON_USEDEP}]
+	>=dev-python/attrs-18.1.0[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/typed-ast[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	d? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	<dev-python/pathspec-1.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+	d? ( >=dev-python/aiohttp-3.3.2[${PYTHON_USEDEP}] )
 	d? ( dev-python/aiohttp-cors[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

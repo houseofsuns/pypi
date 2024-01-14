@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	dev-python/pdm-backend[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/rich-13.3[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-scm-7.1[${PYTHON_USEDEP}]
+	>=dev-python/pdm-backend-2.0.6[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.40.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-3.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

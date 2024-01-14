@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="examples test"
-DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipywidgets-7.6.0[${PYTHON_USEDEP}]
 	examples? ( dev-python/ase[${PYTHON_USEDEP}] )
 	examples? ( dev-python/pymatgen[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

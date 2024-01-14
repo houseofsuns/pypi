@@ -26,24 +26,24 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/troposphere[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.12.111[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/awacs[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/schematics[${PYTHON_USEDEP}]
 	dev-python/formic2[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/moto[${PYTHON_USEDEP}] )
-	testing? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
+	<dev-python/more-itertools-6.0.0[${PYTHON_USEDEP}]
+	~dev-python/rsa-4.5[${PYTHON_USEDEP}]
+	<dev-python/python-jose-3.2.0[${PYTHON_USEDEP}]
+	testing? ( ~dev-python/pytest-4.3[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-2.6[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/moto-1.3.16[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/testfixtures-4.10.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8-future-import[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="html"
 DEPENDENCIES="html? ( dev-python/codereport[${PYTHON_USEDEP}] )
-	html? ( dev-python/pygments[${PYTHON_USEDEP}] )"
+	html? ( <dev-python/pygments-2.12[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

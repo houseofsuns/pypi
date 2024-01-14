@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/dictdiffer[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/dictdiffer-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pgcolorbar[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pyqt5[${PYTHON_USEDEP}]
 	dev-python/pyqtdarktheme[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
+	<dev-python/pyqtgraph-0.14.0[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/specutils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

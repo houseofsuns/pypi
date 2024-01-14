@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="http usb"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	http? ( dev-python/requests[${PYTHON_USEDEP}] )
-	usb? ( dev-python/pyusb[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/cryptography-2.6[${PYTHON_USEDEP}]
+	http? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
+	usb? ( <dev-python/pyusb-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

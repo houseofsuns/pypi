@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all tests"
-DEPENDENCIES="dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/antlr4-python3-runtime-4.12[${PYTHON_USEDEP}]
 	dev-python/openqasm3[${PYTHON_USEDEP}]
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

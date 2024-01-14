@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="google performance socks"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-2.3[${PYTHON_USEDEP}]
 	dev-python/cyrandom[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pycrypt[${PYTHON_USEDEP}]
 	google? ( dev-python/gpsoauth[${PYTHON_USEDEP}] )
-	performance? ( dev-python/aiodns[${PYTHON_USEDEP}] )
-	performance? ( dev-python/cchardet[${PYTHON_USEDEP}] )
-	performance? ( dev-python/ujson[${PYTHON_USEDEP}] )
+	performance? ( >=dev-python/aiodns-1.1.1[${PYTHON_USEDEP}] )
+	performance? ( >=dev-python/cchardet-2.1.0[${PYTHON_USEDEP}] )
+	performance? ( >=dev-python/ujson-1.3.5[${PYTHON_USEDEP}] )
 	socks? ( dev-python/aiosocks[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

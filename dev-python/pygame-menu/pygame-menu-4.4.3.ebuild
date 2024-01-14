@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/pygame[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pygame-1.9.3[${PYTHON_USEDEP}]
 	dev-python/pyperclip[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

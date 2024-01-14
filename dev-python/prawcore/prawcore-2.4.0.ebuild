@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci dev lint test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	ci? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	dev? ( dev-python/prawcore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/prawcore[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/betamax[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/urllib3[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/betamax-0.9[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-2.7.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/urllib3-1.26[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

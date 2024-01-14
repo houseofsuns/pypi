@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/behave[${PYTHON_USEDEP}]
 	dev-python/jsonpath-python[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/parse[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/trio[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
+	<dev-python/parse-2.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/trio-0.21.0[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

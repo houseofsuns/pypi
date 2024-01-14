@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/frozenlist[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-35.0.0[${PYTHON_USEDEP}]
+	~dev-python/frozenlist-1.3.3[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2022.1[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.9.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

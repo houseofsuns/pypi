@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="elastic elastic-aws elastic2 elastic2-aws elastic5 solr"
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pymongo-2.9[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-0.6[${PYTHON_USEDEP}]
 	dev-python/autocommand[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	elastic? ( dev-python/elastic-doc-manager[${PYTHON_USEDEP}] )

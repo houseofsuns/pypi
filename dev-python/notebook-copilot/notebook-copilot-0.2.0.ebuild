@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
+	~dev-python/ipython-8.13.2[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.8[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	~dev-python/ipywidgets-8.0.6[${PYTHON_USEDEP}]
 	dev-python/faiss-cpu[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

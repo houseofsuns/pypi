@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
-	dev-python/fs[${PYTHON_USEDEP}]
+	>=dev-python/fs-2.4.16[${PYTHON_USEDEP}]
 	dev-python/pss[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

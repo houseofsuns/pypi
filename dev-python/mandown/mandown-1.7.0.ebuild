@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gui"
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/feedparser[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/feedparser-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-9.0.0[${PYTHON_USEDEP}]
 	gui? ( dev-python/PySide6[${PYTHON_USEDEP}] )
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
+	<dev-python/natsort-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/filetype-2.0.0[${PYTHON_USEDEP}]
 	dev-python/comicon[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

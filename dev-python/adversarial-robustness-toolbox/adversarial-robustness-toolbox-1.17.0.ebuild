@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all catboost docs gpy keras lightgbm lingvo_asr mxnet non_framework pytorch pytorch_audio pytorch_image tensorflow tensorflow_audio tensorflow_image xgboost"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
@@ -52,14 +52,14 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/numba[${PYTHON_USEDEP}] )
 	catboost? ( dev-python/catboost[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-annotation[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/six[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpy-1.18.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/scipy-1.4.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/six-1.13.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	gpy? ( dev-python/GPy[${PYTHON_USEDEP}] )

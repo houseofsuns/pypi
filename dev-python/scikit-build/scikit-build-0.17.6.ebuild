@@ -26,22 +26,22 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cov docs doctest test"
 DEPENDENCIES="dev-python/distro[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-42.0.0[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	cov? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	cov? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	>=dev-python/wheel-0.32.0[${PYTHON_USEDEP}]
+	cov? ( >=dev-python/coverage-4.2[${PYTHON_USEDEP}] )
+	cov? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-moderncmakedomain[${PYTHON_USEDEP}] )
-	doctest? ( dev-python/ubelt[${PYTHON_USEDEP}] )
-	doctest? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
-	test? ( dev-python/build[${PYTHON_USEDEP}] )
-	test? ( dev-python/cython[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	doctest? ( >=dev-python/ubelt-0.8.2[${PYTHON_USEDEP}] )
+	doctest? ( >=dev-python/xdoctest-0.10.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/build-0.7[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/cython-0.25.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-1.10.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/virtualenv[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -28,15 +28,15 @@ DEPENDENCIES="dev-python/dash-bootstrap-components[${PYTHON_USEDEP}]
 	dev-python/dash-daq[${PYTHON_USEDEP}]
 	dev-python/dash-mantine-components[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-8.10.0[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.2[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.13[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
+	>=dev-python/tornado-6.3.2[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-3.0.1[${PYTHON_USEDEP}]
 	kedro? ( dev-python/kedro[${PYTHON_USEDEP}] )
-	kedro? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	kedro? ( >=dev-python/wheel-0.38.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

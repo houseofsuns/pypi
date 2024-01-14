@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/selenium[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/selenium-4.14.0[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/html5lib[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/emoji-2.8.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]

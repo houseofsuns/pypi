@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dataframe test"
 DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dataframe? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	dataframe? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	dataframe? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

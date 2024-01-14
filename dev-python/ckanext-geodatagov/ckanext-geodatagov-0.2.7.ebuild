@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/ckanext-datajson[${PYTHON_USEDEP}]
-	dev-python/ply[${PYTHON_USEDEP}]"
+	>=dev-python/ply-3.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

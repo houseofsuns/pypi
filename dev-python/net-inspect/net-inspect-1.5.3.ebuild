@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/rich_typer[${PYTHON_USEDEP}]
 	dev-python/ntc_templates_elinpf[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]"
+	<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

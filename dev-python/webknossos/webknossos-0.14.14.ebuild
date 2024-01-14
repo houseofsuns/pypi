@@ -24,33 +24,33 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all bioformats czi imagecodecs pims tifffile"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/boltons[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
+	<dev-python/boltons-21.1.0[${PYTHON_USEDEP}]
+	>=dev-python/cattrs-22.0.0[${PYTHON_USEDEP}]
 	dev-python/cluster_tools[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/fsspec-2024.0.0[${PYTHON_USEDEP}]
+	<=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	dev-python/loxun[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	<dev-python/natsort-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0.0[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/numcodecs[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
+	<dev-python/rich-11.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]
 	dev-python/wkw[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	dev-python/zarrita[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]
+	<dev-python/zipp-4.0.0[${PYTHON_USEDEP}]
 	imagecodecs? ( dev-python/imagecodecs[${PYTHON_USEDEP}] )
 	all? ( dev-python/imagecodecs[${PYTHON_USEDEP}] )
 	bioformats? ( dev-python/JPype1[${PYTHON_USEDEP}] )
@@ -61,8 +61,8 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	bioformats? ( dev-python/pims[${PYTHON_USEDEP}] )
 	czi? ( dev-python/pims[${PYTHON_USEDEP}] )
 	all? ( dev-python/pims[${PYTHON_USEDEP}] )
-	tifffile? ( dev-python/tifffile[${PYTHON_USEDEP}] )
-	all? ( dev-python/tifffile[${PYTHON_USEDEP}] )
+	tifffile? ( >=dev-python/tifffile-2021.11.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tifffile-2021.11.2[${PYTHON_USEDEP}] )
 	czi? ( dev-python/pylibCZIrw[${PYTHON_USEDEP}] )
 	all? ( dev-python/pylibCZIrw[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

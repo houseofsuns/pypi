@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/reahl-component[${PYTHON_USEDEP}]
 	dev-python/reahl-mailutil[${PYTHON_USEDEP}]
-	dev-python/ply[${PYTHON_USEDEP}]
+	<dev-python/ply-3.11.999[${PYTHON_USEDEP}]
 	dev-python/rjsmin[${PYTHON_USEDEP}]
 	dev-python/rcssmin[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-4.12.999[${PYTHON_USEDEP}]
 	dev-python/WebOb[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	<dev-python/Babel-2.12.999[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-51.0.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-4.9.999[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/plotly-5.16.99999[${PYTHON_USEDEP}] )
 	test? ( dev-python/reahl-tofu[${PYTHON_USEDEP}] )
 	test? ( dev-python/reahl-stubble[${PYTHON_USEDEP}] )
 	test? ( dev-python/reahl-dev[${PYTHON_USEDEP}] )

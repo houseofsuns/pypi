@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
+	<dev-python/pathvalidate-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>dev-python/loguru-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}]
 	dev-python/db-dtypes[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}]
 	dev-python/google-crc32c[${PYTHON_USEDEP}]
 	dev-python/google-cloud-scheduler[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/google-auth-oauthlib-0.9.0[${PYTHON_USEDEP}]
 	dev-python/sendgrid[${PYTHON_USEDEP}]
 	dev-python/google-cloud-pubsub[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

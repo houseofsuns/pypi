@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
+	~dev-python/pika-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pyhamcrest[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]"

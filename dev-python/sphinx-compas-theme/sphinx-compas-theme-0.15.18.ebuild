@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-1.6[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
 	dev-python/bumpversion[${PYTHON_USEDEP}]
 	dev-python/check-manifest[${PYTHON_USEDEP}]

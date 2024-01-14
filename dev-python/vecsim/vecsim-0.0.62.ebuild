@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="elasticsearch faiss pinecone postgres redis"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	elasticsearch? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
+	elasticsearch? ( >=dev-python/elasticsearch-8.5.0[${PYTHON_USEDEP}] )
 	faiss? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	pinecone? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	redis? ( >=dev-python/redis-4.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

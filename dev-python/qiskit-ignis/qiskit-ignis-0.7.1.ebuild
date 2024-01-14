@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cvx iq jit visualization"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/qiskit-terra[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.13[${PYTHON_USEDEP}]
+	>=dev-python/qiskit-terra-0.15.1[${PYTHON_USEDEP}]
 	dev-python/retworkx[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.19[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-40.1.0[${PYTHON_USEDEP}]
 	cvx? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
 	iq? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	jit? ( dev-python/numba[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	visualization? ( >=dev-python/matplotlib-2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

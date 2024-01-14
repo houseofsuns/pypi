@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full gransy localzone oci route53 softlayer"
-DEPENDENCIES="dev-python/tldextract[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/pyotp[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	route53? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	full? ( dev-python/boto3[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/tldextract-2.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.0[${PYTHON_USEDEP}]
+	>=dev-python/pyotp-2.0[${PYTHON_USEDEP}]
+	>=dev-python/dnspython-2.0[${PYTHON_USEDEP}]
+	route53? ( >=dev-python/boto3-1.28[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/boto3-1.28[${PYTHON_USEDEP}] )
 	localzone? ( dev-python/localzone[${PYTHON_USEDEP}] )
 	full? ( dev-python/localzone[${PYTHON_USEDEP}] )
 	softlayer? ( dev-python/softlayer[${PYTHON_USEDEP}] )
 	full? ( dev-python/softlayer[${PYTHON_USEDEP}] )
-	gransy? ( dev-python/zeep[${PYTHON_USEDEP}] )
-	full? ( dev-python/zeep[${PYTHON_USEDEP}] )
+	gransy? ( >=dev-python/zeep-3.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/zeep-3.0[${PYTHON_USEDEP}] )
 	oci? ( dev-python/oci[${PYTHON_USEDEP}] )
 	full? ( dev-python/oci[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -27,15 +27,15 @@ IUSE="elasticsearch7 opensearch1 opensearch2 tests"
 DEPENDENCIES="dev-python/invenio-db[${PYTHON_USEDEP}]
 	dev-python/invenio-pidstore[${PYTHON_USEDEP}]
 	dev-python/invenio-records[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	elasticsearch7? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
+	>=dev-python/pytz-2016.4[${PYTHON_USEDEP}]
+	elasticsearch7? ( <dev-python/elasticsearch-7.14.0[${PYTHON_USEDEP}] )
 	elasticsearch7? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch1? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch2? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/attrs[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/attrs-17.4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/redis[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/redis-3.4.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

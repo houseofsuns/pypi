@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="kerberos"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/bitarray[${PYTHON_USEDEP}]
-	dev-python/thrift[${PYTHON_USEDEP}]
+	~dev-python/thrift-0.16.0[${PYTHON_USEDEP}]
 	dev-python/thrift-sasl[${PYTHON_USEDEP}]
-	kerberos? ( dev-python/kerberos[${PYTHON_USEDEP}] )"
+	kerberos? ( >=dev-python/kerberos-1.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

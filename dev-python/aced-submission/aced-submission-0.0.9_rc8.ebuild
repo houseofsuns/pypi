@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	<dev-python/elasticsearch-7.14.0[${PYTHON_USEDEP}]
 	dev-python/dictionaryutils[${PYTHON_USEDEP}]
 	dev-python/gen3datamodel[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

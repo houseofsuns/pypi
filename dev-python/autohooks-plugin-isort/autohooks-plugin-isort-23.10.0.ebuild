@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/isort[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/isort-5.8.0[${PYTHON_USEDEP}]
 	dev-python/autohooks[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

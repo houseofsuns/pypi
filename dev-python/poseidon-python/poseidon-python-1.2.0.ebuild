@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/web3[${PYTHON_USEDEP}]
 	dev-python/py-solc-x[${PYTHON_USEDEP}]
 	dev-python/pyevmasm[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.19.0[${PYTHON_USEDEP}]
 	dev-python/gmpy2[${PYTHON_USEDEP}]
 	dev-python/pwntools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

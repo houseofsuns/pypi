@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/redo[${PYTHON_USEDEP}]
 	dev-python/azure-kusto-data[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<=dev-python/pandas-1.2.4[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )

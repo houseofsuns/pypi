@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/diskcache[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/diskcache-6.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/cached-property-1.5.1[${PYTHON_USEDEP}]
 	dev-python/dxpy[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
-	dev-python/python-swiftclient[${PYTHON_USEDEP}]"
+	>=dev-python/python-keystoneclient-1.8.1[${PYTHON_USEDEP}]
+	>=dev-python/python-swiftclient-3.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

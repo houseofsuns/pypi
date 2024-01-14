@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/keras[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

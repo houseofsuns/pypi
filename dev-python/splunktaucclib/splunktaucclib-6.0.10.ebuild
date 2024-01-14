@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/splunktalib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	<dev-python/PySocks-2.0.0[${PYTHON_USEDEP}]
 	dev-python/splunk-sdk[${PYTHON_USEDEP}]
 	dev-python/solnlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

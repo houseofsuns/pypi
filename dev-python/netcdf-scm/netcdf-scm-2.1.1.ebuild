@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ar6regions deploy dev docs notebooks tests"
 DEPENDENCIES="dev-python/cf-units[${PYTHON_USEDEP}]
-	dev-python/cftime[${PYTHON_USEDEP}]
+	>=dev-python/cftime-1.4[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
@@ -33,27 +33,27 @@ DEPENDENCIES="dev-python/cf-units[${PYTHON_USEDEP}]
 	dev-python/scmdata[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.18[${PYTHON_USEDEP}]
 	ar6regions? ( dev-python/regionmask[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/twine[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	deploy? ( >=dev-python/twine-1.11.0[${PYTHON_USEDEP}] )
+	deploy? ( >=dev-python/setuptools-38.6.0[${PYTHON_USEDEP}] )
+	deploy? ( >=dev-python/wheel-0.31.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black-nb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbdime[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/regionmask[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-1.11.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-38.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.31.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
@@ -63,13 +63,13 @@ DEPENDENCIES="dev-python/cf-units[${PYTHON_USEDEP}]
 	dev? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbval[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
@@ -79,7 +79,7 @@ DEPENDENCIES="dev-python/cf-units[${PYTHON_USEDEP}]
 	notebooks? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nbval[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )

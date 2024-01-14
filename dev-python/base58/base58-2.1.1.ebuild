@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/PyHamcrest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )"

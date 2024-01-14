@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
+	>=dev-python/ipython-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
 	dev-python/nexusformat[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	>=dev-python/lmfit-1.2.1[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/build-0.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/furo-2022.6.21[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipykernel-6.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/numpydoc-1.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.12.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-5.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/twine-4.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

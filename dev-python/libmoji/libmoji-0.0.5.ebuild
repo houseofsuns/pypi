@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cursor[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]"
+	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

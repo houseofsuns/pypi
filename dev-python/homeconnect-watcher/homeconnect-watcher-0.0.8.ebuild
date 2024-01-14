@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev prometheus"
 DEPENDENCIES="dev-python/authlib[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/psycopg[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.21.1[${PYTHON_USEDEP}]
+	>=dev-python/psycopg-3.1.16[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.20.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.20.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-postgresql[${PYTHON_USEDEP}] )
-	prometheus? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )"
+	prometheus? ( >=dev-python/prometheus-client-0.16.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

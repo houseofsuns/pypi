@@ -25,102 +25,102 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev optional tests"
 DEPENDENCIES="dev-python/BeautifulSoup[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+	<dev-python/boto3-1.4.6[${PYTHON_USEDEP}]
+	<dev-python/botocore-1.5.71[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/cssutils[${PYTHON_USEDEP}]
-	dev-python/django-crispy-forms[${PYTHON_USEDEP}]
+	<dev-python/cffi-2.0[${PYTHON_USEDEP}]
+	<dev-python/click-7.0[${PYTHON_USEDEP}]
+	<dev-python/croniter-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/cssutils-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/django-crispy-forms-1.5.0[${PYTHON_USEDEP}]
 	dev-python/django-jsonfield[${PYTHON_USEDEP}]
 	dev-python/django-picklefield[${PYTHON_USEDEP}]
 	dev-python/django-sudo[${PYTHON_USEDEP}]
 	dev-python/django-templatetag-sugar[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-2.5.0[${PYTHON_USEDEP}]
 	dev-python/email-reply-parser[${PYTHON_USEDEP}]
 	dev-python/enum34[${PYTHON_USEDEP}]
 	dev-python/exam[${PYTHON_USEDEP}]
 	dev-python/functools32[${PYTHON_USEDEP}]
 	dev-python/futures[${PYTHON_USEDEP}]
-	dev-python/hiredis[${PYTHON_USEDEP}]
+	<dev-python/hiredis-0.2.0[${PYTHON_USEDEP}]
 	dev-python/honcho[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/kombu[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
+	~dev-python/kombu-3.0.35[${PYTHON_USEDEP}]
 	dev-python/loremipsum[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
+	>=dev-python/lxml-3.4.1[${PYTHON_USEDEP}]
+	<dev-python/mistune-0.9[${PYTHON_USEDEP}]
 	dev-python/mmh3[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	~dev-python/mock-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/msgpack-0.7.0[${PYTHON_USEDEP}]
 	dev-python/oauth2[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
 	dev-python/percy[${PYTHON_USEDEP}]
 	dev-python/petname[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]
+	<dev-python/progressbar2-3.11[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/pytest-django[${PYTHON_USEDEP}]
+	<dev-python/pytest-django-2.10.0[${PYTHON_USEDEP}]
 	dev-python/pytest-html[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-memcached[${PYTHON_USEDEP}]
+	<dev-python/pytest-3.6.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-memcached-2.0.0[${PYTHON_USEDEP}]
 	dev-python/python-openid[${PYTHON_USEDEP}]
 	dev-python/python-u2flib-server[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
+	<dev-python/qrcode-6.0.0[${PYTHON_USEDEP}]
 	dev-python/querystring-parser[${PYTHON_USEDEP}]
 	dev-python/rb[${PYTHON_USEDEP}]
 	dev-python/redis-py-cluster[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	<dev-python/redis-2.10.6[${PYTHON_USEDEP}]
+	~dev-python/requests-oauthlib-0.3.3[${PYTHON_USEDEP}]
+	<dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	~dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
 	dev-python/semaphore[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/setproctitle[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/statsd[${PYTHON_USEDEP}]
-	dev-python/strict-rfc3339[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
+	>=dev-python/sentry-sdk-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/setproctitle-1.2.0[${PYTHON_USEDEP}]
+	<dev-python/simplejson-3.9.0[${PYTHON_USEDEP}]
+	<dev-python/six-1.11.0[${PYTHON_USEDEP}]
+	<dev-python/sqlparse-0.2.0[${PYTHON_USEDEP}]
+	<dev-python/statsd-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/strict-rfc3339-0.7[${PYTHON_USEDEP}]
+	~dev-python/structlog-16.1.0[${PYTHON_USEDEP}]
 	dev-python/symbolic[${PYTHON_USEDEP}]
 	dev-python/toronado[${PYTHON_USEDEP}]
 	dev-python/ua-parser[${PYTHON_USEDEP}]
-	dev-python/unidiff[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/unidiff-0.5.4[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.24.2[${PYTHON_USEDEP}]
 	dev-python/uwsgi[${PYTHON_USEDEP}]
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/autopep8-1.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/configparser[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-3.6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-4.4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pycodestyle-2.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sentry-flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docker[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/docker-3.8.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/batching-kafka-consumer[${PYTHON_USEDEP}] )
 	optional? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	optional? ( dev-python/maxminddb[${PYTHON_USEDEP}] )
 	optional? ( dev-python/google-cloud-bigtable[${PYTHON_USEDEP}] )
 	optional? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
 	optional? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	optional? ( dev-python/python3-saml[${PYTHON_USEDEP}] )
-	tests? ( dev-python/betamax[${PYTHON_USEDEP}] )
+	optional? ( <dev-python/python3-saml-1.5[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/betamax-0.9.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/blist[${PYTHON_USEDEP}] )
 	tests? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
 	tests? ( dev-python/casscache[${PYTHON_USEDEP}] )
 	tests? ( dev-python/cqlsh[${PYTHON_USEDEP}] )
 	tests? ( dev-python/datadog[${PYTHON_USEDEP}] )
-	tests? ( dev-python/freezegun[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/freezegun-0.3.11[${PYTHON_USEDEP}] )
 	tests? ( dev-python/msgpack-python[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/responses[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sqlparse[${PYTHON_USEDEP}] )"
+	tests? ( <dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-timeout-1.2.1[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-xdist-1.19.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/responses-0.9.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/sqlparse-0.2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

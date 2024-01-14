@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/filetype-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
 	dev-python/numpy-quaternion[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.4.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.3.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.14.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.2[${PYTHON_USEDEP}]
 	dev-python/ulid-py[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	>=dev-python/urllib3-1.15[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

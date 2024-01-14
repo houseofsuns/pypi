@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.1[${PYTHON_USEDEP}]
 	dev-python/formulate[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/lz4[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.15[${PYTHON_USEDEP}]
+	>=dev-python/lz4-3.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.2[${PYTHON_USEDEP}]
+	>=dev-python/numexpr-2.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1[${PYTHON_USEDEP}]
 	dev-python/pycondor[${PYTHON_USEDEP}]
 	dev-python/pygram11[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/uproot[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/xxhash-1.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

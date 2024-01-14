@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/cobra[${PYTHON_USEDEP}]
 	dev-python/equilibrator-api[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
+	~dev-python/platformdirs-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/requests-cache-0.9.4[${PYTHON_USEDEP}]
 	dev-python/rpy2[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )"

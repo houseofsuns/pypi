@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/entrypoints[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2023.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

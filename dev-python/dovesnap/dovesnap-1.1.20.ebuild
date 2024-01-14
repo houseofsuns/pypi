@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/docker-7.0.0[${PYTHON_USEDEP}]
 	dev-python/faucetconfrpc[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]"
+	~dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

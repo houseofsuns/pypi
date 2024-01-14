@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
+	<dev-python/plotly-5.0[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/dash_core_components[${PYTHON_USEDEP}]
 	dev-python/dash_split_pane[${PYTHON_USEDEP}]
 	dev-python/dash_interactive_graphviz[${PYTHON_USEDEP}]
 	dev-python/fn_graph[${PYTHON_USEDEP}]
 	dev-python/dash-treebeard[${PYTHON_USEDEP}]
-	dev-python/sh[${PYTHON_USEDEP}]
+	<dev-python/sh-2.0[${PYTHON_USEDEP}]
 	dev-python/dash-dangerously-set-inner-html[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.11.0[${PYTHON_USEDEP}]
+	<dev-python/statsmodels-0.12.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/dash-cytoscape[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	dev-python/dash-ace-persistent[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]"
+	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

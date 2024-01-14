@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/ffn[${PYTHON_USEDEP}]
 	dev-python/pyprind[${PYTHON_USEDEP}]
-	dev? ( dev-python/cython[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/cython-0.25[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ffn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/numpy-1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pandas-0.19[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyprind[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

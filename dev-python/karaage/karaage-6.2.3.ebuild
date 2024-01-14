@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-tracking-model[${PYTHON_USEDEP}]
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/jsmin[${PYTHON_USEDEP}]
+	<dev-python/jsmin-4.0.0[${PYTHON_USEDEP}]
 	dev-python/ldap3[${PYTHON_USEDEP}]
 	dev-python/mysqlclient[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]

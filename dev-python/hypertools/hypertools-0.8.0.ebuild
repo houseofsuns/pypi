@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PPCA[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.18.0[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.8.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-1.5.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.10.4[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

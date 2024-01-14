@@ -27,9 +27,9 @@ IUSE="instruments test"
 DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
-	instruments? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
+	instruments? ( >=dev-python/kafka-python-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-kafka-python[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )
-	test? ( dev-python/wrapt[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/wrapt-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

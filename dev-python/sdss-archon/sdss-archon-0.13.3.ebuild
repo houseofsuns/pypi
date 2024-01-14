@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="fitsio"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
-	fitsio? ( dev-python/fitsio[${PYTHON_USEDEP}] )
+	<dev-python/click-default-group-2.0.0[${PYTHON_USEDEP}]
+	fitsio? ( <dev-python/fitsio-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/nptyping[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sdss-clu[${PYTHON_USEDEP}]
 	dev-python/sdsstools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

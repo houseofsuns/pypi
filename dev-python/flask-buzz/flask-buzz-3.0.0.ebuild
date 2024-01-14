@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/py-buzz[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]"
+	<dev-python/flask-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

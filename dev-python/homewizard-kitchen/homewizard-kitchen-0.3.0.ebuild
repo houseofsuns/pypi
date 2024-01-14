@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/jsonpatch[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/websockets-10.0[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.10.0[${PYTHON_USEDEP}]
+	>dev-python/jsonpatch-1.20[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

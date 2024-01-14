@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
-	dev-python/pyaes[${PYTHON_USEDEP}]"
+	~dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

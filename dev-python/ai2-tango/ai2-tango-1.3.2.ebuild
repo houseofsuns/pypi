@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all beaker datasets dev examples fairscale flax gs torch transformers wandb"
 DEPENDENCIES="dev-python/cached-path[${PYTHON_USEDEP}]
 	dev-python/rjsonnet[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/xxhash[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-help-colors[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	<dev-python/filelock-4.0[${PYTHON_USEDEP}]
+	<dev-python/click-8.1.4[${PYTHON_USEDEP}]
+	<dev-python/click-help-colors-0.10[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-10.0[${PYTHON_USEDEP}]
 	dev-python/sqlitedict[${PYTHON_USEDEP}]
 	dev-python/glob2[${PYTHON_USEDEP}]
 	dev-python/petname[${PYTHON_USEDEP}]
@@ -45,26 +45,26 @@ DEPENDENCIES="dev-python/cached-path[${PYTHON_USEDEP}]
 	beaker? ( dev-python/beaker-py[${PYTHON_USEDEP}] )
 	datasets? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-retry[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-1.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/furo-2023.3.27[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/myst-parser-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/sphinx-autodoc-typehints-1.23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	examples? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
 	fairscale? ( dev-python/torch[${PYTHON_USEDEP}] )

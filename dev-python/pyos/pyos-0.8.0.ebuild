@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev gui"
 DEPENDENCIES="dev-python/anytree[${PYTHON_USEDEP}]
-	dev-python/cmd2[${PYTHON_USEDEP}]
+	~dev-python/cmd2-1.3.2[${PYTHON_USEDEP}]
 	dev-python/columnize[${PYTHON_USEDEP}]
 	dev-python/mincepy[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/anytree[${PYTHON_USEDEP}]
 	dev? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )

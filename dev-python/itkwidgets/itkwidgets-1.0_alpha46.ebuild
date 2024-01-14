@@ -30,23 +30,23 @@ DEPENDENCIES="dev-python/imjoy-rpc[${PYTHON_USEDEP}]
 	dev-python/ngff-zarr[${PYTHON_USEDEP}]
 	dev-python/numcodecs[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
-	all? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	all? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/imjoy-elfinder[${PYTHON_USEDEP}] )
 	all? ( dev-python/imjoy-jupyter-extension[${PYTHON_USEDEP}] )
 	all? ( dev-python/imjoy-jupyterlab-extension[${PYTHON_USEDEP}] )
 	cli? ( dev-python/hypha[${PYTHON_USEDEP}] )
 	cli? ( dev-python/imgcat[${PYTHON_USEDEP}] )
-	cli? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/ipython-8.4.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/itk-io[${PYTHON_USEDEP}] )
 	cli? ( dev-python/ngff-zarr[${PYTHON_USEDEP}] )
 	cli? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	lab? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	lab? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	lab? ( dev-python/imjoy-elfinder[${PYTHON_USEDEP}] )
 	lab? ( dev-python/imjoy-jupyterlab-extension[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/imjoy-elfinder[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/imjoy-jupyter-extension[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbmake[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-2.7.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

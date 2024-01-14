@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-3.0.3[${PYTHON_USEDEP}]
 	dev-python/sphinx-jinja2-compat[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]"
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

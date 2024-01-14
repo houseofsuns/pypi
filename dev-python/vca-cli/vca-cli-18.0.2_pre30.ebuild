@@ -27,16 +27,16 @@ IUSE=""
 DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/click-6.7[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.3.3[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-0.9.1[${PYTHON_USEDEP}]
 	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.4.2[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/pyvcloud[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.4.3[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+	>=dev-python/tabulate-0.7.5[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.9.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

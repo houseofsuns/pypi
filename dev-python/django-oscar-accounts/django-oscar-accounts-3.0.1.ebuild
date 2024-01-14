@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/django-oscar[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	test? ( dev-python/django-webtest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-3.1[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-django-4.5[${PYTHON_USEDEP}] )
+	test? ( <dev-python/freezegun-1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/sorl-thumbnail[${PYTHON_USEDEP}] )
 	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/coverage-6.2[${PYTHON_USEDEP}] )
+	test? ( <dev-python/tox-3.25[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

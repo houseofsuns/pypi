@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/onepassword-local-search[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.3[${PYTHON_USEDEP}]
+	~dev-python/click-log-0.3.2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
-	dev-python/plumbum[${PYTHON_USEDEP}]
+	~dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
+	~dev-python/plumbum-1.7.2[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

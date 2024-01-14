@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

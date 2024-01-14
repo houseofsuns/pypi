@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests tests-min"
-DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/packaging[${PYTHON_USEDEP}] )

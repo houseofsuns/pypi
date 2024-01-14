@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli server"
-DEPENDENCIES="dev-python/pyarrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyarrow-14.0[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]
 	cli? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"

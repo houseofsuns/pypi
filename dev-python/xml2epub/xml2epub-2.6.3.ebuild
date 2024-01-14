@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]"
+	~dev-python/pillow-9.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bandit[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/bandit-1.7.5[${PYTHON_USEDEP}]
+	~dev-python/coverage-7.3.2[${PYTHON_USEDEP}]
+	~dev-python/flake8-6.1.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4.3[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.18.5[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
 	dev-python/yahoo-oauth[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

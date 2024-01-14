@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ezancestry"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	dev-python/atomicwrites[${PYTHON_USEDEP}]
 	ezancestry? ( dev-python/ezancestry[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

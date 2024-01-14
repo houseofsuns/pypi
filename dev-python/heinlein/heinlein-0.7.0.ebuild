@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.23.1[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-4.2.0[${PYTHON_USEDEP}]
 	dev-python/Shapely[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/portalocker[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/portalocker-2.5.1[${PYTHON_USEDEP}]
 	dev-python/spherical-geometry[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
 	dev-python/cacheout[${PYTHON_USEDEP}]
 	dev-python/regions[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.20[${PYTHON_USEDEP}]
 	dev-python/godata[${PYTHON_USEDEP}]
-	develop? ( dev-python/black[${PYTHON_USEDEP}] )
-	develop? ( dev-python/isort[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/black-23.7.0[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

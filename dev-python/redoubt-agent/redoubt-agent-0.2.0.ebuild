@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gql[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+	~dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	~dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/websockets-11.0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-3.15[${PYTHON_USEDEP}]
+	>=dev-python/inflection-0.5.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/sqids[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]"
+	~dev-python/orjson-3.9.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

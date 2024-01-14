@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="isolated"
 DEPENDENCIES="dev-python/inifix[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]
 	isolated? ( dev-python/inifix[${PYTHON_USEDEP}] )
-	isolated? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	isolated? ( dev-python/termcolor[${PYTHON_USEDEP}] )
-	isolated? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+	isolated? ( ~dev-python/packaging-21.0[${PYTHON_USEDEP}] )
+	isolated? ( ~dev-python/termcolor-2.3.0[${PYTHON_USEDEP}] )
+	isolated? ( ~dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

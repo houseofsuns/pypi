@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev test"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-5.2.0[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
+	<dev-python/jsonpath-ng-2.0[${PYTHON_USEDEP}]
 	dev-python/langchain-core[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	all? ( dev-python/ai21[${PYTHON_USEDEP}] )
 	all? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )

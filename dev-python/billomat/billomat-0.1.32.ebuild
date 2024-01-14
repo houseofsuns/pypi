@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httmock[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/httmock-1.0.7[${PYTHON_USEDEP}]
+	>=dev-python/mock-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="test? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES="test? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	dev-python/httpx[${PYTHON_USEDEP}]
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
+	>dev-python/httpx-0.20.0[${PYTHON_USEDEP}]
+	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	test? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-autorefs-0.3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	test? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-material-7.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mkdocs-material-extensions-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocstrings-0.16.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mypy-0.901[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pip-21.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/virtualenv[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/tox-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/twine-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/virtualenv-21.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

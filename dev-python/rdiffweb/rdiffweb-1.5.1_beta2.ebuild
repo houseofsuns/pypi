@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tox"
 DEPENDENCIES="dev-python/CherryPy[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/future-0.15.2[${PYTHON_USEDEP}]
+	>=dev-python/psutil-2.1.1[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/python-ldap[${PYTHON_USEDEP}]
 	dev-python/WTForms[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
-	tox? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tox? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tox? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
+	tox? ( >=dev-python/coverage-4.0.1[${PYTHON_USEDEP}] )
 	tox? ( dev-python/mockldap[${PYTHON_USEDEP}] )
-	tox? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tox? ( <dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

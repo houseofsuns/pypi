@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )

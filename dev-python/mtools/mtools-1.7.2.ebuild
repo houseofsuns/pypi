@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all mlaunch mlogfilter mloginfo mplotqueries mtransfer"
-DEPENDENCIES="all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	all? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	mlaunch? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	mlaunch? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	mlaunch? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	mlaunch? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	mlogfilter? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	mloginfo? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	mloginfo? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	mplotqueries? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	mplotqueries? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	mplotqueries? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	mtransfer? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
+	all? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pymongo-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/packaging-21.3[${PYTHON_USEDEP}] )
+	all? ( <dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}] )
+	mlaunch? ( <dev-python/pymongo-5.0.0[${PYTHON_USEDEP}] )
+	mlaunch? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
+	mlaunch? ( >=dev-python/packaging-21.3[${PYTHON_USEDEP}] )
+	mlaunch? ( <dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}] )
+	mlogfilter? ( <dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}] )
+	mloginfo? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
+	mloginfo? ( <dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}] )
+	mplotqueries? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
+	mplotqueries? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	mplotqueries? ( <dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}] )
+	mtransfer? ( <dev-python/pymongo-5.0.0[${PYTHON_USEDEP}] )
 	mtransfer? ( dev-python/wiredtiger[${PYTHON_USEDEP}] )
-	mtransfer? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )"
+	mtransfer? ( <dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

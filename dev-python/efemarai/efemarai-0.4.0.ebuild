@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/pyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyaml-21.10.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.20.39[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/rich-11.0.0[${PYTHON_USEDEP}]
+	>=dev-python/validators-0.18.2[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.4[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.4[${PYTHON_USEDEP}]
 	dev-python/click-completion[${PYTHON_USEDEP}]
 	dev-python/click-aliases[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.20[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.4[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	>=dev-python/pathspec-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/python-slugify-6.1.2[${PYTHON_USEDEP}]
 	dev-python/bson[${PYTHON_USEDEP}]
-	dev-python/ffmpeg-python[${PYTHON_USEDEP}]
+	>=dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	full? ( dev-python/hyperactive[${PYTHON_USEDEP}] )
 	full? ( dev-python/albumentations[${PYTHON_USEDEP}] )
-	full? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/pandas-1.2.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	full? ( dev-python/nlpaug[${PYTHON_USEDEP}] )
 	full? ( dev-python/gensim[${PYTHON_USEDEP}] )

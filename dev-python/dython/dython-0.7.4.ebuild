@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.2[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scikit-plot[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	>=dev-python/psutil-5.9.1[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/hypothesis-6.24.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-black-multipy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

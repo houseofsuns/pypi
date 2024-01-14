@@ -27,7 +27,7 @@ IUSE="all scaffolding"
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
+	<dev-python/inflect-7.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
 	scaffolding? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

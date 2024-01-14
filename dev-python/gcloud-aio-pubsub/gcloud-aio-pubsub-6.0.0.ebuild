@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gcloud-aio-auth[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]"
+	<dev-python/prometheus-client-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

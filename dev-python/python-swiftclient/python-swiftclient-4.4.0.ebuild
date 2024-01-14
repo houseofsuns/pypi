@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="keystone test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	keystone? ( dev-python/python-keystoneclient[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/requests-2.4.0[${PYTHON_USEDEP}]
+	keystone? ( >=dev-python/python-keystoneclient-0.7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
-	test? ( dev-python/keystoneauth1[${PYTHON_USEDEP}] )
-	test? ( dev-python/openstacksdk[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/keystoneauth1-3.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/openstacksdk-0.11.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyqtgraph[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyqtgraph-0.11[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/taurus[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]

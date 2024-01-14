@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiohttp-retry[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.7.3[${PYTHON_USEDEP}]
 	dev-python/asyncfile[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]"
+	~dev-python/certifi-2020.12.5[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	~dev-python/mypy-0.790[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

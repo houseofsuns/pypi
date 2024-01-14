@@ -28,22 +28,22 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/eventio[${PYTHON_USEDEP}]
-	dev-python/iminuit[${PYTHON_USEDEP}]
+	>=dev-python/iminuit-2.0[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.2[${PYTHON_USEDEP}]
+	~dev-python/tables-3.4[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.32[${PYTHON_USEDEP}]
+	~dev-python/traitlets-5.6[${PYTHON_USEDEP}]
 	dev-python/zstandard[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pandas-1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-astropy-header[${PYTHON_USEDEP}] )
 	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
@@ -78,7 +78,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	docs? ( dev-python/ffmpeg-python[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pandas-1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-astropy-header[${PYTHON_USEDEP}] )
 	tests? ( dev-python/h5py[${PYTHON_USEDEP}] )"

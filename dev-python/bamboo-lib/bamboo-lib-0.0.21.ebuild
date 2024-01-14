@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.2.10[${PYTHON_USEDEP}]
 	dev-python/data-catapult[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/sshtunnel[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/paramiko-2.4.1[${PYTHON_USEDEP}]
+	~dev-python/sshtunnel-0.1.4[${PYTHON_USEDEP}]
+	~dev-python/redis-2.10.6[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

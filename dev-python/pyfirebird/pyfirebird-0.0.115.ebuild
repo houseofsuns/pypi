@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pika[${PYTHON_USEDEP}]
 	dev-python/kazoo[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/mysqlclient[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
+	>=dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

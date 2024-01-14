@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/pathvalidate-2.4.1[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

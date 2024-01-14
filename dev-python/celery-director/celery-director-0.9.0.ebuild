@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ci dev doc"
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/flower[${PYTHON_USEDEP}]
-	dev-python/kombu[${PYTHON_USEDEP}]
+	~dev-python/kombu-5.2.4[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	~dev-python/redis-4.4.4[${PYTHON_USEDEP}]
+	~dev-python/alembic-1.8.1[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/Flask-json-schema[${PYTHON_USEDEP}]
@@ -40,18 +40,18 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/Flask-HTTPAuth[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/environs[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/terminaltables[${PYTHON_USEDEP}]
-	dev-python/pluginbase[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/environs-9.5.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	~dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]
+	~dev-python/pluginbase-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/sentry-sdk-1.14.0[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-4.13.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
 	ci? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/tox-3.5.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocs-1.3.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocs-material-8.2.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/doit[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/doit-0.36.0[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	<dev-python/fsspec-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/pex[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

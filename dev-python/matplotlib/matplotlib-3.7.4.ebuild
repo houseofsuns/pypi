@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/contourpy[${PYTHON_USEDEP}]
-	dev-python/cycler[${PYTHON_USEDEP}]
-	dev-python/fonttools[${PYTHON_USEDEP}]
-	dev-python/kiwisolver[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/contourpy-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/cycler-0.10[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-4.22.0[${PYTHON_USEDEP}]
+	>=dev-python/kiwisolver-1.0.1[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.3.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

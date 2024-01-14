@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs extras tests"
-DEPENDENCIES="extras? ( dev-python/coloredlogs[${PYTHON_USEDEP}] )
+DEPENDENCIES="extras? ( <dev-python/coloredlogs-16.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/panflute[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-parallel[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
-	extras? ( dev-python/tabulate[${PYTHON_USEDEP}] )
+	extras? ( <dev-python/tabulate-0.9[${PYTHON_USEDEP}] )
 	extras? ( dev-python/yamlloader[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

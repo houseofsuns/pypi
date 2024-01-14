@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev redis"
 DEPENDENCIES="dev-python/hooker[${PYTHON_USEDEP}]
 	dev-python/fastapi-websocket-pubsub[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]
+	~dev-python/zeroconf-0.47.4[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/mergedeep[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docker[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	~dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}]
+	~dev-python/termcolor-2.2.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/autopep8-2.0.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/docker-6.0.1[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

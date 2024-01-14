@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.16.1[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

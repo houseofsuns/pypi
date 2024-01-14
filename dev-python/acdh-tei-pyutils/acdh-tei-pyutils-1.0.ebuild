@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/acdh-xml-pyutils[${PYTHON_USEDEP}]
 	dev-python/acdh-handle-pyutils[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.59.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

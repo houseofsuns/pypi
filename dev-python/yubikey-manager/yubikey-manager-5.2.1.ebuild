@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pyscard[${PYTHON_USEDEP}]
-	dev-python/fido2[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/cryptography-44.0[${PYTHON_USEDEP}]
+	<dev-python/pyscard-3.0[${PYTHON_USEDEP}]
+	<dev-python/fido2-2.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/keyring-25.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

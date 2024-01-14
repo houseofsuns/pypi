@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rest simulation"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
 	dev-python/iterators[${PYTHON_USEDEP}]
 	simulation? ( dev-python/ray[${PYTHON_USEDEP}] )
-	simulation? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	rest? ( dev-python/requests[${PYTHON_USEDEP}] )
-	rest? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	rest? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	simulation? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
+	rest? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	rest? ( <dev-python/starlette-0.32.0[${PYTHON_USEDEP}] )
+	rest? ( <dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

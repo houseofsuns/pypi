@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	>=dev-python/requests-2.27.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

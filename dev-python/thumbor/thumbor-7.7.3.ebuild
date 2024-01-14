@@ -24,46 +24,46 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all opencv tests"
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/colorama-0.0[${PYTHON_USEDEP}]
 	dev-python/derpconf[${PYTHON_USEDEP}]
 	dev-python/libthumbor[${PYTHON_USEDEP}]
-	dev-python/piexif[${PYTHON_USEDEP}]
+	~dev-python/piexif-1.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/statsd[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	~dev-python/pytz-2023.0[${PYTHON_USEDEP}]
+	~dev-python/statsd-4.0[${PYTHON_USEDEP}]
+	~dev-python/tornado-6.0[${PYTHON_USEDEP}]
 	dev-python/thumbor-plugins-gifv[${PYTHON_USEDEP}]
-	dev-python/webcolors[${PYTHON_USEDEP}]
+	~dev-python/webcolors-1.0[${PYTHON_USEDEP}]
 	dev-python/JpegIPTC[${PYTHON_USEDEP}]
 	all? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/numpy-1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
-	all? ( dev-python/pycurl[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pycurl-7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow-avif-plugin[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow-heif[${PYTHON_USEDEP}] )
 	opencv? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	opencv? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	opencv? ( ~dev-python/numpy-1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	tests? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/numpy-1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pycurl[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pycurl-7.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pillow-avif-plugin[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pillow-heif[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/coverage-7.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flake8-7.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/preggy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyssim[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-asyncio-0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-tldr[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/redis[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-xdist-3.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/redis-5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/remotecv[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/sentry-sdk-1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/yanc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

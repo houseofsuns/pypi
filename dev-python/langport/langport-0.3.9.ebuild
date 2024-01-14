@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<=dev-python/pydantic-1.10.13[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.0.0[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
@@ -41,9 +41,9 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	>=dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.8.2[${PYTHON_USEDEP}] )
 	ggml? ( dev-python/ctransformers[${PYTHON_USEDEP}] )
 	optimum? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	optimum? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )

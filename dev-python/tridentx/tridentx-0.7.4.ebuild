@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests visualize"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/pillow-4.1.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2[${PYTHON_USEDEP}]
+	>=dev-python/six-1.13.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.2[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.1[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
@@ -45,6 +45,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
 	tests? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	visualize? ( dev-python/pydot[${PYTHON_USEDEP}] )"
+	visualize? ( >=dev-python/pydot-1.2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

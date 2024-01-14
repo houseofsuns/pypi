@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/fhir-resources[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/html2text[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/html2text-2020.1.16[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fhirpathpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

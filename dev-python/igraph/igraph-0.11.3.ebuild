@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cairo doc matplotlib plotly plotting test test-musl"
-DEPENDENCIES="dev-python/texttable[${PYTHON_USEDEP}]
-	cairo? ( dev-python/cairocffi[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/texttable-1.6.2[${PYTHON_USEDEP}]
+	cairo? ( >=dev-python/cairocffi-1.2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-gallery-0.14.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydoctor[${PYTHON_USEDEP}] )
-	matplotlib? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	plotly? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/cairocffi[${PYTHON_USEDEP}] )
-	test? ( dev-python/cairocffi[${PYTHON_USEDEP}] )
-	test? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	test-musl? ( dev-python/cairocffi[${PYTHON_USEDEP}] )
-	test-musl? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	test-musl? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test-musl? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	matplotlib? ( >=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}] )
+	plotly? ( >=dev-python/plotly-5.3.0[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/cairocffi-1.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/cairocffi-1.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/networkx-2.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/plotly-5.3.0[${PYTHON_USEDEP}] )
+	test-musl? ( >=dev-python/cairocffi-1.2.0[${PYTHON_USEDEP}] )
+	test-musl? ( >=dev-python/networkx-2.5[${PYTHON_USEDEP}] )
+	test-musl? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	test-musl? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/numpy-1.19.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pandas-1.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scipy-1.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

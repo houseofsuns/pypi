@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/trimesh[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/trimesh-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	dev-python/rtree[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-spatial[${PYTHON_USEDEP}]
 	dev-python/numpy-stl[${PYTHON_USEDEP}]
 	dev-python/circle-fit[${PYTHON_USEDEP}]

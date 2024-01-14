@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="google"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/atomicwrites[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiostream[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/click-log-0.5.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.4.0[${PYTHON_USEDEP}]
+	>=dev-python/atomicwrites-0.1.7[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiostream-0.5.0[${PYTHON_USEDEP}]
 	google? ( dev-python/aiohttp-oauthlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests-cache[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-cache-0.6[${PYTHON_USEDEP}]
+	~dev-python/requests-2.20[${PYTHON_USEDEP}]
 	dev-python/neon-utils[${PYTHON_USEDEP}]
 	dev-python/ovos-utils[${PYTHON_USEDEP}]
 	dev-python/ovos-config[${PYTHON_USEDEP}]

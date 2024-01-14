@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23[${PYTHON_USEDEP}]
 	dev-python/pycognito[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]"
+	>dev-python/pydantic-1.10[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

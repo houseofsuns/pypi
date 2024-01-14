@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs full packages testing"
 DEPENDENCIES="dev-python/Beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/boolean-py[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	>=dev-python/boolean-py-4.0[${PYTHON_USEDEP}]
+	>=dev-python/chardet-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/click-6.7[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
 	dev-python/commoncode[${PYTHON_USEDEP}]
 	dev-python/container-inspector[${PYTHON_USEDEP}]
 	dev-python/debian-inspector[${PYTHON_USEDEP}]
@@ -44,46 +44,46 @@ DEPENDENCIES="dev-python/Beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/javaproperties[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/jsonstreams[${PYTHON_USEDEP}]
-	dev-python/license-expression[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/license-expression-30.1.1[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
 	dev-python/packageurl-python[${PYTHON_USEDEP}]
 	dev-python/packvers[${PYTHON_USEDEP}]
 	dev-python/parameter-expansion-patched[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
-	dev-python/pefile[${PYTHON_USEDEP}]
+	>=dev-python/pefile-2020.1.1[${PYTHON_USEDEP}]
 	dev-python/pkginfo2[${PYTHON_USEDEP}]
 	dev-python/pip-requirements-parser[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-1.0.0[${PYTHON_USEDEP}]
 	dev-python/plugincode[${PYTHON_USEDEP}]
 	dev-python/publicsuffix2[${PYTHON_USEDEP}]
 	dev-python/pyahocorasick[${PYTHON_USEDEP}]
 	dev-python/pygmars[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/pymaven-patch[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.7.0[${PYTHON_USEDEP}]
 	dev-python/saneyaml[${PYTHON_USEDEP}]
-	dev-python/spdx-tools[${PYTHON_USEDEP}]
-	dev-python/text-unidecode[${PYTHON_USEDEP}]
+	~dev-python/spdx-tools-0.7.0[${PYTHON_USEDEP}]
+	>=dev-python/text-unidecode-1.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/urlpy[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.11.0[${PYTHON_USEDEP}]
 	dev-python/typecode[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-18.1[${PYTHON_USEDEP}]
+	>=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-reredirects[${PYTHON_USEDEP}] )
-	docs? ( dev-python/doc8[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/doc8-0.8.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/typecode[${PYTHON_USEDEP}] )
 	full? ( dev-python/extractcode[${PYTHON_USEDEP}] )
 	packages? ( dev-python/rpm-inspector-rpm[${PYTHON_USEDEP}] )
 	packages? ( dev-python/regipy[${PYTHON_USEDEP}] )
 	packages? ( dev-python/packagedcode-msitools[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-xdist-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/aboutcode-toolkit[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pycodestyle-2.8.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/twine[${PYTHON_USEDEP}] )
 	testing? ( dev-python/black[${PYTHON_USEDEP}] )
 	testing? ( dev-python/isort[${PYTHON_USEDEP}] )

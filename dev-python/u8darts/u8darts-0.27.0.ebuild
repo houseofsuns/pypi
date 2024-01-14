@@ -25,41 +25,41 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all notorch torch"
 DEPENDENCIES="dev-python/holidays[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.16.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
 	dev-python/nfoursid[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	dev-python/pmdarima[${PYTHON_USEDEP}]
 	dev-python/pyod[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.2[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
 	dev-python/statsforecast[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
 	dev-python/tbats[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.17.0[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.5[${PYTHON_USEDEP}]
 	all? ( dev-python/holidays[${PYTHON_USEDEP}] )
-	all? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/joblib-0.16.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/nfoursid[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpy-1.19.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pmdarima[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyod[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/requests-2.22.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-1.3.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/shap[${PYTHON_USEDEP}] )
 	all? ( dev-python/statsforecast[${PYTHON_USEDEP}] )
-	all? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/tbats[${PYTHON_USEDEP}] )
-	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	all? ( dev-python/xarray[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/xarray-0.17.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
@@ -67,7 +67,7 @@ DEPENDENCIES="dev-python/holidays[${PYTHON_USEDEP}]
 	all? ( dev-python/prophet[${PYTHON_USEDEP}] )
 	all? ( dev-python/catboost[${PYTHON_USEDEP}] )
 	all? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-1.0.5[${PYTHON_USEDEP}] )
 	notorch? ( dev-python/prophet[${PYTHON_USEDEP}] )
 	notorch? ( dev-python/catboost[${PYTHON_USEDEP}] )
 	notorch? ( dev-python/lightgbm[${PYTHON_USEDEP}] )

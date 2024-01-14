@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs tests"
 DEPENDENCIES="dev-python/xtgeo[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.3[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/autoapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/xtgeo[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	tests? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-4.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )

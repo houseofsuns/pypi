@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/ecoindex[${PYTHON_USEDEP}]
 	dev-python/undetected-chromedriver[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]"
+	~dev-python/selenium-4.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

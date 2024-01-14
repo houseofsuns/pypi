@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.20.1[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.9[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.23.0[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/nest-asyncio-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-2.1.0[${PYTHON_USEDEP}]
 	dev-python/nuclio-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

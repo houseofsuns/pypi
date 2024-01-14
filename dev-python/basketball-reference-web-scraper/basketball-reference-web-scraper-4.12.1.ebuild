@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/certifi-2018.10.15[${PYTHON_USEDEP}]
+	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
+	~dev-python/idna-2.7[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.5.1[${PYTHON_USEDEP}]
+	~dev-python/pytz-2018.6[${PYTHON_USEDEP}]
+	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.24.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

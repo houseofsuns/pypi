@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/incremental[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	>=dev-python/incremental-22.10.0[${PYTHON_USEDEP}]
 	dev-python/polyfactory[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

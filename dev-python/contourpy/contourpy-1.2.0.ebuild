@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bokeh docs mypy test test-no-images"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	bokeh? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	bokeh? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/contourpy[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/docutils-stubs[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	mypy? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )
 	test? ( dev-python/contourpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

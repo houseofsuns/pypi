@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/faiss-cpu[${PYTHON_USEDEP}]
 	dev-python/pymupdf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

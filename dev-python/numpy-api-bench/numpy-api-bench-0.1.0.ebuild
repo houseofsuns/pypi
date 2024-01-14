@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
+	tests? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

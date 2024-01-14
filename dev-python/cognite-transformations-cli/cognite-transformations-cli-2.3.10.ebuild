@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/cognite-sdk[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/regex-2024.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
 	dev-python/types-retry[${PYTHON_USEDEP}]
 	dev-python/types-tabulate[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

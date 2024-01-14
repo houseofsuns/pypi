@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/mpremote[${PYTHON_USEDEP}]
 	dev-python/mpy-cross-v6[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	dev-python/python-minifier[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/u-msgpack-python[${PYTHON_USEDEP}]"
+	~dev-python/termcolor-2.2.0[${PYTHON_USEDEP}]
+	~dev-python/u-msgpack-python-2.7.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

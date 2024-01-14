@@ -41,10 +41,10 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/obspyh5[${PYTHON_USEDEP}]
 	dev-python/alabaster[${PYTHON_USEDEP}]
 	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	>=dev-python/colorama-0.1.6[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.17.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.6[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )

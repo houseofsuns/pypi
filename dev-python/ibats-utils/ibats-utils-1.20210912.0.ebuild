@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
+	>=dev-python/redis-2.10.6[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	>=dev-python/simplejson-3.17.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

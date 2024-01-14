@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/HTTPServer[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pip-21.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

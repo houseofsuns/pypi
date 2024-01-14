@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/py-cord[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
+	<dev-python/pynacl-2.0.0[${PYTHON_USEDEP}]
 	dev-python/wave[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]
 	dev-python/demoji[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/aiomcache[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+	<dev-python/async-timeout-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pedalboard[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

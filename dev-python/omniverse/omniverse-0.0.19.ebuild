@@ -25,29 +25,29 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/hydra-core[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.6.0[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchtext[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/colorama[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/bandit-1.7.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.10.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/colorama-0.4.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ghp-import[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ghp-import-2.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipywidgets-7.7.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-proof[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )

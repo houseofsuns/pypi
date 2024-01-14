@@ -24,35 +24,35 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	dev-python/aiohttp-jinja2[${PYTHON_USEDEP}]
 	dev-python/astral[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/feedparser[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/pid[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
+	~dev-python/deepdiff-6.3.0[${PYTHON_USEDEP}]
+	~dev-python/feedparser-6.0.10[${PYTHON_USEDEP}]
+	~dev-python/iso8601-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
+	~dev-python/pid-3.0.4[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/pytz-2023.4.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/sockjs[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/tomli-w[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-1.5.1[${PYTHON_USEDEP}]
+	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-23.4[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )"
+	doc? ( ~dev-python/sphinx-rtd-theme-1.1.1[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/pygments-2.16[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/myst-parser-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

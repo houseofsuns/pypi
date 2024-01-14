@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	>=dev-python/colorlog-6.6.0[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyppeteer[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
+	<dev-python/sphinx-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}]
 	dev-python/bump2version[${PYTHON_USEDEP}]
-	dev-python/sphinx-copybutton[${PYTHON_USEDEP}]"
+	<dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

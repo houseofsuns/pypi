@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	dev-python/PyNaCl[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/cffi-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	<dev-python/cryptography-37.0.0[${PYTHON_USEDEP}]
+	<dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	dev-python/pygithub[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
+	<dev-python/pynacl-2.0.0[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-11.0.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

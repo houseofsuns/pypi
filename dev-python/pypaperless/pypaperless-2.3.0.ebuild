@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
 	dev-python/awesomeversion[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	~dev-python/yarl-1.9.4[${PYTHON_USEDEP}]
+	test? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/codespell[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.23.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-aiohttp-1.0.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpx[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/httpx-0.26.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

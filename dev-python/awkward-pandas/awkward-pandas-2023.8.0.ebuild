@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="complete docs parquet strings test"
 DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2[${PYTHON_USEDEP}]
 	complete? ( dev-python/awkward-pandas[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	parquet? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	strings? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	strings? ( >=dev-python/pyarrow-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/awkward-pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

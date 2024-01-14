@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs geo test"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-19.2[${PYTHON_USEDEP}]
 	dev-python/cldfcatalog[${PYTHON_USEDEP}]
 	dev-python/cldfzenodo[${PYTHON_USEDEP}]
 	dev-python/clldutils[${PYTHON_USEDEP}]
@@ -37,11 +37,11 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/newick[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/purl[${PYTHON_USEDEP}]
-	dev-python/pybtex[${PYTHON_USEDEP}]
+	>=dev-python/pybtex-0.22[${PYTHON_USEDEP}]
 	dev-python/pycldf[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
+	>=dev-python/pycountry-18.12.8[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
@@ -50,17 +50,17 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.36[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	geo? ( dev-python/pyproj[${PYTHON_USEDEP}] )
 	geo? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyproj[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-levenshtein[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/shapely[${PYTHON_USEDEP}] )"

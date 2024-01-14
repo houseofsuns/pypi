@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/bandit-1.7.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/safety[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/types-setuptools-65.6.0.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

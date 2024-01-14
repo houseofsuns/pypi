@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="plone"
 DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/zope-i18nmessageid[${PYTHON_USEDEP}]
-	dev-python/zope-interface[${PYTHON_USEDEP}]
+	>=dev-python/zope-i18nmessageid-3.3[${PYTHON_USEDEP}]
+	>=dev-python/zope-interface-3.3[${PYTHON_USEDEP}]
 	dev-python/zope-tal[${PYTHON_USEDEP}]
 	plone? ( dev-python/plone-i18n[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

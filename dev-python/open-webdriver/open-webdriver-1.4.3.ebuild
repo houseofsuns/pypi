@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/webdriver-manager[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	~dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
 	dev-python/download[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/py7zr[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.10[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

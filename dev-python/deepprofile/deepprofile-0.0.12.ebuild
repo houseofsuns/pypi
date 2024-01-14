@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/nvtx[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]"
+	<dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

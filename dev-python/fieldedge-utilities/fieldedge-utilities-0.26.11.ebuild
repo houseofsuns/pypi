@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/ifaddr[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/paho-mqtt-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
+	<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
+	<dev-python/ifaddr-0.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

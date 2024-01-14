@@ -27,12 +27,12 @@ IUSE="bs4 lxml parsel selenium"
 DEPENDENCIES="dev-python/braveblock[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	bs4? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	lxml? ( dev-python/cssselect[${PYTHON_USEDEP}] )
-	bs4? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	lxml? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	parsel? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	lxml? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	bs4? ( <dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}] )
+	lxml? ( <dev-python/cssselect-2.0.0[${PYTHON_USEDEP}] )
+	bs4? ( <dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )
+	lxml? ( <dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )
+	parsel? ( <dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )
+	lxml? ( <dev-python/lxml-5.0.0[${PYTHON_USEDEP}] )
 	parsel? ( dev-python/parsel[${PYTHON_USEDEP}] )
 	selenium? ( dev-python/pybrowsers[${PYTHON_USEDEP}] )
 	selenium? ( dev-python/selenium-wire[${PYTHON_USEDEP}] )

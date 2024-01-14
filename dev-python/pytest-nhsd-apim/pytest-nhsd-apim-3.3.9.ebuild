@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	~dev-python/cryptography-36.0.1[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.1[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.13.0[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/pyotp[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/pyotp-2.6.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]"
+	~dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.37.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

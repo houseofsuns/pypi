@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyserial-3.1[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	>=dev-python/pathspec-0.10.3[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	dev-python/autoregistry[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2022.11.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.4[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]"
+	>=dev-python/packaging-20.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

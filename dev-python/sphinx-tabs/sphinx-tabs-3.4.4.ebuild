@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="code_style testing"
 DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
+	~dev-python/docutils-0.18.0[${PYTHON_USEDEP}]
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pygments[${PYTHON_USEDEP}] )

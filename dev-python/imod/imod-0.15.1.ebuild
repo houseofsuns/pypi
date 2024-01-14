@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev"
 DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
-	dev-python/cftime[${PYTHON_USEDEP}]
+	>=dev-python/cftime-1.0[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/fastcore[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	dev-python/tomli_w[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.15[${PYTHON_USEDEP}]
 	dev-python/xugrid[${PYTHON_USEDEP}]
 	all? ( dev-python/bottleneck[${PYTHON_USEDEP}] )
 	all? ( dev-python/contextily[${PYTHON_USEDEP}] )
@@ -47,8 +47,8 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	all? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	all? ( dev-python/rasterio[${PYTHON_USEDEP}] )
 	all? ( dev-python/rioxarray[${PYTHON_USEDEP}] )
-	all? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	all? ( dev-python/tomli[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/shapely-1.8[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tomli-1.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/zarr[${PYTHON_USEDEP}] )
 	dev? ( dev-python/imod[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

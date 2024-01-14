@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="socks use_chardet_on_py3"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )
-	use_chardet_on_py3? ( dev-python/chardet[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/requests-2.30.0[${PYTHON_USEDEP}]
+	socks? ( >=dev-python/PySocks-1.5.6[${PYTHON_USEDEP}] )
+	use_chardet_on_py3? ( <dev-python/chardet-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

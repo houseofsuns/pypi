@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="developer doc test"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-5.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.10[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	developer? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	developer? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/numpy-1.22[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/pydata-sphinx-theme-0.13.3[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"

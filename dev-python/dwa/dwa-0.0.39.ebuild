@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tornado[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tornado-0.0.1[${PYTHON_USEDEP}]
 	dev-python/sqlq[${PYTHON_USEDEP}]
 	dev-python/omnitools[${PYTHON_USEDEP}]
 	dev-python/threadwrapper[${PYTHON_USEDEP}]
 	dev-python/unencryptedsocket[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-0.0.1[${PYTHON_USEDEP}]
 	dev-python/aescipher[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/requests-0.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

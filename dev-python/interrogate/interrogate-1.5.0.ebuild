@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs png tests"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/py[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]

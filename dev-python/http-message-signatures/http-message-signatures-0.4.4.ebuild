@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/http-sfv[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-36.0.2[${PYTHON_USEDEP}]
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/build[${PYTHON_USEDEP}] )

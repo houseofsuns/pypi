@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ansys-fluent-core[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]"
+	>=dev-python/h5py-3.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

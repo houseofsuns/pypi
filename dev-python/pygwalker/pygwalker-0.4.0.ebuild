@@ -42,23 +42,23 @@ DEPENDENCIES="dev-python/altair[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/segment-analytics-python[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/sqlglot[${PYTHON_USEDEP}]
+	>=dev-python/sqlglot-19.0.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	all? ( dev-python/pygwalker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	labv4? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	labv4? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
-	labv4? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
+	labv4? ( >=dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}] )
+	labv4? ( >dev-python/jupyter-client-7.4.9[${PYTHON_USEDEP}] )
+	labv4? ( >dev-python/jupyter-server-2.5.0[${PYTHON_USEDEP}] )
+	notebook? ( <dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}] )
+	notebook? ( <=dev-python/jupyter-client-7.4.9[${PYTHON_USEDEP}] )
+	notebook? ( <=dev-python/jupyter-server-2.5.0[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	polars? ( dev-python/polars[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	snowflake? ( ~dev-python/pyarrow-10.0.1[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	snowflake? ( ~dev-python/sqlalchemy-1.4.49[${PYTHON_USEDEP}] )
 	streamlit? ( dev-python/streamlit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

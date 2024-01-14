@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev extra"
-DEPENDENCIES="dev-python/bottle[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bottle-0.12.0[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.2[${PYTHON_USEDEP}]
+	>=dev-python/pymdown-extensions-7.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	extra? ( dev-python/pygments[${PYTHON_USEDEP}] )"
+	extra? ( >=dev-python/pygments-2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

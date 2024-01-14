@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/WsgiDAV[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/django-4.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/pybase62[${PYTHON_USEDEP}]
 	dev-python/pybranca[${PYTHON_USEDEP}]
-	dev-python/u-msgpack-python[${PYTHON_USEDEP}]"
+	<dev-python/u-msgpack-python-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

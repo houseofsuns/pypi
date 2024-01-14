@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tutorials"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/osbrain[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]

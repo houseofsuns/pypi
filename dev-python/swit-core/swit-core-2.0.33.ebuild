@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/httpx-oauth[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.11[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.41[${PYTHON_USEDEP}]
 	dev-python/ur-tunnel[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]"
+	>=dev-python/uvicorn-0.23.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

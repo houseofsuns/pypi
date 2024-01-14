@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test tutorials"
-DEPENDENCIES="dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/plotly-6.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
+	dev? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-rerunfailures-10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rundoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pip-9.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/watchdog-0.11[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/nbsphinx-0.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-mutable[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/plotly[${PYTHON_USEDEP}]
 	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dlint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pydocstyle-6.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-pytest-style[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
@@ -64,29 +64,29 @@ DEPENDENCIES="dev-python/plotly[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-sfs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-absolute-import[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/autopep8-1.6[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.30.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	dev? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/doc8-0.9[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/urllib3-1.26[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/tabulate-0.9[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/boto3-1.10[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/docutils-0.15[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-rerunfailures-10.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/rundoc[${PYTHON_USEDEP}] )
-	test? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
+	test? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )
+	tutorials? ( <=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/jupyter[${PYTHON_USEDEP}] )"
+	tutorials? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

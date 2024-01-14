@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/superqt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.1.2[${PYTHON_USEDEP}]
+	>=dev-python/pyqtgraph-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/PyQt5-5.12.0[${PYTHON_USEDEP}]
+	>=dev-python/superqt-0.2.3[${PYTHON_USEDEP}]
 	dev-python/linien-client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

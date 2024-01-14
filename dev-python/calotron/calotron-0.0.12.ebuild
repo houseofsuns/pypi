@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	style? ( dev-python/black[${PYTHON_USEDEP}] )
 	style? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	style? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

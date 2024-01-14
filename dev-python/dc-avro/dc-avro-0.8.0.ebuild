@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiofiles-23.0.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses-avroschema[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]"
+	<dev-python/deepdiff-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

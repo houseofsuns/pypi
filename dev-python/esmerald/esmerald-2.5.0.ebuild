@@ -24,74 +24,74 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc encoders ipython jwt ptpython schedulers templates test"
-DEPENDENCIES="dev-python/a2wsgi[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/a2wsgi-2.0[${PYTHON_USEDEP}]
+	<dev-python/aiofiles-24.0[${PYTHON_USEDEP}]
+	<dev-python/anyio-5.0.0[${PYTHON_USEDEP}]
 	dev-python/awesome-slugify[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.30.0[${PYTHON_USEDEP}]
+	<dev-python/itsdangerous-3.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
+	<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/openapi-schemas-pydantic[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
+	<dev-python/starlette-1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-8.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/watchfiles[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/watchfiles-0.22.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/griffe-typingdoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkautodoc[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkautodoc-0.3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-meta-descriptions-plugin[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	encoders? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	encoders? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	jwt? ( dev-python/passlib[${PYTHON_USEDEP}] )
-	jwt? ( dev-python/python-jose[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocstrings-0.30.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
+	encoders? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
+	encoders? ( <dev-python/ujson-6.0[${PYTHON_USEDEP}] )
+	ipython? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
+	jwt? ( ~dev-python/passlib-1.7.4[${PYTHON_USEDEP}] )
+	jwt? ( <dev-python/python-jose-4.0[${PYTHON_USEDEP}] )
 	ptpython? ( dev-python/ptpython[${PYTHON_USEDEP}] )
 	schedulers? ( dev-python/asyncz[${PYTHON_USEDEP}] )
-	templates? ( dev-python/mako[${PYTHON_USEDEP}] )
-	test? ( dev-python/a2wsgi[${PYTHON_USEDEP}] )
-	test? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
-	test? ( dev-python/anyio[${PYTHON_USEDEP}] )
+	templates? ( <dev-python/mako-2.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/a2wsgi-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/aiofiles-24.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/anyio-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/asyncz[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/brotli[${PYTHON_USEDEP}] )
 	test? ( dev-python/edgy[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/flask[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flask-4.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/freezegun-2.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-5.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/mongoz[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/passlib[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/passlib-1.7.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/polyfactory[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-jose[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.20.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/python-jose-4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/saffier[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-orjson[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-ujson[${PYTHON_USEDEP}] )
-	test? ( dev-python/ujson[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/ujson-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

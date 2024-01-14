@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/tldextract[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/tldextract-2.2.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

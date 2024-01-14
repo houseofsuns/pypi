@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
+	<dev-python/anyio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/environ-config[${PYTHON_USEDEP}]

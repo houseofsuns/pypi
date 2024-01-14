@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/psutil-6.0[${PYTHON_USEDEP}]
+	<dev-python/tornado-7.0[${PYTHON_USEDEP}]
 	dev-python/perseus-core-library[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0[${PYTHON_USEDEP}]
 	dev-python/perseus-microrm-library[${PYTHON_USEDEP}]
 	dev-python/prosoponym[${PYTHON_USEDEP}]
 	dev-python/perseus-getenv-library[${PYTHON_USEDEP}]
 	dev-python/pymemcache[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	<dev-python/setuptools-70.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

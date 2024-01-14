@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/elasticsearch[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/elasticsearch-1.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

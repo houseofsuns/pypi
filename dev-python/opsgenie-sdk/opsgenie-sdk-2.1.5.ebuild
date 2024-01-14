@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]"
+	>=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-5.0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

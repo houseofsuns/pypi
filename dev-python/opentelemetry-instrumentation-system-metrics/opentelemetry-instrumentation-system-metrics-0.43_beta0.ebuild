@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="instruments test"
 DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	instruments? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	~dev-python/psutil-5.9[${PYTHON_USEDEP}]
+	instruments? ( >=dev-python/psutil-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-system-metrics[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

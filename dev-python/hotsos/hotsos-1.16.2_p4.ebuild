@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/searchkit[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-4.3.2[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]"

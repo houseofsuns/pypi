@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/cycler[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/kiwisolver[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	~dev-python/imageio-2.9.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/certifi-2021.5.30[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-2.0.6[${PYTHON_USEDEP}]
+	~dev-python/cycler-0.10.0[${PYTHON_USEDEP}]
+	~dev-python/idna-3.2[${PYTHON_USEDEP}]
+	~dev-python/kiwisolver-1.3.2[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES="dev-python/dictor[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-23.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.17.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/responses-0.24.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/tox-4.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-9.1.21[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-minify-plugin-0.7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

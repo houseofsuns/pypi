@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
+	<dev-python/mistune-3.0[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-2.1.7[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.0.2[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/progress[${PYTHON_USEDEP}]

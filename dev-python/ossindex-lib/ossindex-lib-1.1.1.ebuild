@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/packageurl-python[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
-	dev-python/types-setuptools[${PYTHON_USEDEP}]"
+	>=dev-python/types-setuptools-57.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

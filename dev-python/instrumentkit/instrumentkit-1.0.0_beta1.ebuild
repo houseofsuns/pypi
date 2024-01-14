@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev numpy"
 DEPENDENCIES="dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.3[${PYTHON_USEDEP}]
 	dev-python/python-usbtmc[${PYTHON_USEDEP}]
 	dev-python/python-vxi11[${PYTHON_USEDEP}]
-	dev-python/pyusb[${PYTHON_USEDEP}]
+	>=dev-python/pyusb-1.0[${PYTHON_USEDEP}]
 	dev-python/pyvisa[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/hypothesis-5.49.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyvisa-sim[${PYTHON_USEDEP}] )
 	dev? ( dev-python/six[${PYTHON_USEDEP}] )
 	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )"

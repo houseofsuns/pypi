@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all build dev doc lint test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.22.3[${PYTHON_USEDEP}]
 	all? ( dev-python/scikit-misc[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-misc[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-misc[${PYTHON_USEDEP}] )

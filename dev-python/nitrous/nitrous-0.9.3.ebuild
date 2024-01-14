@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/CherryPy[${PYTHON_USEDEP}]
 	dev-python/FormEncode[${PYTHON_USEDEP}]
 	dev-python/Genshi[${PYTHON_USEDEP}]
 	dev-python/TGScheduler[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]"
+	>=dev-python/attrs-19.0.0[${PYTHON_USEDEP}]
+	>=dev-python/future-0.17.1[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.17.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

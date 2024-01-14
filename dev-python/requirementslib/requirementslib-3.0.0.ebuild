@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests"
-DEPENDENCIES="dev-python/distlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/distlib-0.2.8[${PYTHON_USEDEP}]
 	dev-python/pep517[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+	>=dev-python/pip-23.1[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	dev-python/plette[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-40.8[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.5.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/parver[${PYTHON_USEDEP}] )

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.8.0[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	~dev-python/django-3.0[${PYTHON_USEDEP}]
 	dev-python/django-chamber[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]"
+	>=dev-python/lxml-4.6.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

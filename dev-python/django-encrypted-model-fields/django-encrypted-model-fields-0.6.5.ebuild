@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-3.4[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

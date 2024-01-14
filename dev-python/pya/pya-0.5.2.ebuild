@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pyaudio remote"
 DEPENDENCIES="dev-python/pyamapping[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	pyaudio? ( dev-python/pyaudio[${PYTHON_USEDEP}] )
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
+	pyaudio? ( >=dev-python/pyaudio-0.2.12[${PYTHON_USEDEP}] )
 	remote? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	remote? ( dev-python/websockets[${PYTHON_USEDEP}] )
 	remote? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )"

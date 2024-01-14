@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-11.1.0[${PYTHON_USEDEP}]
 	dev-python/shtab[${PYTHON_USEDEP}]
 	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/frozendict[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/omegaconf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/attrs[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/attrs-21.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/numpy-1.20.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydantic-2.5.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flax[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

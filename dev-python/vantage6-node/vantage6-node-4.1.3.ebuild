@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/docker-6.1.2[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/vantage6[${PYTHON_USEDEP}]
 	dev-python/vantage6-client[${PYTHON_USEDEP}]
 	dev-python/vantage6-algorithm-tools[${PYTHON_USEDEP}]
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-6.4.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-coveralls[${PYTHON_USEDEP}] )
 	dev? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/schema[${PYTHON_USEDEP}] )
-	dev? ( dev-python/appdirs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flask[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flask-2.2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

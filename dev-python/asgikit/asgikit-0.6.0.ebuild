@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiofiles-24.0[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

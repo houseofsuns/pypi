@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/xmlsec[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lxml-4.7.1[${PYTHON_USEDEP}]
+	>=dev-python/isodate-0.6.1[${PYTHON_USEDEP}]
+	>=dev-python/xmlsec-1.3.9[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.5.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/coverage-4.5.2[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/freezegun-1.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-1.9.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/responses-0.12.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-mock-1.9.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

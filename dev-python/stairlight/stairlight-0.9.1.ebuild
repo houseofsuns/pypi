@@ -35,9 +35,9 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dbt-bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	dbt-bigquery? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	gcs? ( dev-python/rsa[${PYTHON_USEDEP}] )
-	dbt-bigquery? ( dev-python/rsa[${PYTHON_USEDEP}] )
-	dbt-bigquery? ( dev-python/networkx[${PYTHON_USEDEP}] )"
+	s3? ( >=dev-python/boto3-1.24.14[${PYTHON_USEDEP}] )
+	gcs? ( >=dev-python/rsa-4.7[${PYTHON_USEDEP}] )
+	dbt-bigquery? ( >=dev-python/rsa-4.7[${PYTHON_USEDEP}] )
+	dbt-bigquery? ( <dev-python/networkx-2.8.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/aioconsole[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	<dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]
 	dev-python/pymem[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/click_default_group[${PYTHON_USEDEP}]
 	dev-python/aiomonitor[${PYTHON_USEDEP}]
-	dev-python/terminaltables[${PYTHON_USEDEP}]
+	<dev-python/terminaltables-4.0.0[${PYTHON_USEDEP}]
 	dev-python/janus[${PYTHON_USEDEP}]
-	dev-python/pefile[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]"
+	<dev-python/pefile-2022.0.0[${PYTHON_USEDEP}]
+	<dev-python/regex-2023.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

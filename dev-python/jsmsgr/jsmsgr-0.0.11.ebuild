@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jsm-user-services[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	>=dev-python/django-1.11[${PYTHON_USEDEP}]
 	dev-python/django-stomp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

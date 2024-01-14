@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-1.7.0[${PYTHON_USEDEP}]
 	dev-python/getjson[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/funcy[${PYTHON_USEDEP}]

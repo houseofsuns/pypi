@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pyOpenSSL[${PYTHON_USEDEP}]
 	dev-python/ndg-httpsclient[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
+	~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
 	dev-python/easywebdav[${PYTHON_USEDEP}]
 	dev-python/oerplib[${PYTHON_USEDEP}]
 	dev-python/pybase64[${PYTHON_USEDEP}]

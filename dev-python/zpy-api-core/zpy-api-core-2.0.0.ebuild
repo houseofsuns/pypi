@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/marshmallow[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/marshmallow-3.20.1[${PYTHON_USEDEP}]
 	dev-python/marshmallow-objects[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

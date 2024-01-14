@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/cellmaps-utils[${PYTHON_USEDEP}]
 	dev-python/cellmaps-coembedding[${PYTHON_USEDEP}]
 	dev-python/cellmaps-generate-hierarchy[${PYTHON_USEDEP}]
 	dev-python/cellmaps-hierarchyeval[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	<dev-python/networkx-2.9[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

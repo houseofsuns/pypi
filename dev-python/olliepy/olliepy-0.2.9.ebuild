@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-0.25.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]"
+	>=dev-python/scipy-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7.3[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.2.1[${PYTHON_USEDEP}]
+	<dev-python/typeguard-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

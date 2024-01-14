@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/ghapi[${PYTHON_USEDEP}]
 	dev-python/github-activity[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0.1[${PYTHON_USEDEP}]
 	dev-python/mdformat[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pipx[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
 	test? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

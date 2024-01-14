@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/qiniu[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/xlwt[${PYTHON_USEDEP}]
-	dev-python/mysqlclient[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
+	>=dev-python/xlwt-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/mysqlclient-2.0.3[${PYTHON_USEDEP}]
 	dev-python/PyExecJs[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

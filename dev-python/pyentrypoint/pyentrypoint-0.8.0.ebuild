@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	<dev-python/watchdog-0.11[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

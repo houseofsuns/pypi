@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="detect_mimetype encryption lint test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	detect_mimetype? ( dev-python/python-magic[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-18.1.0[${PYTHON_USEDEP}]
+	<dev-python/yarl-2.0[${PYTHON_USEDEP}]
+	detect_mimetype? ( <dev-python/python-magic-0.5[${PYTHON_USEDEP}] )
 	encryption? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
 	encryption? ( dev-python/python-olm[${PYTHON_USEDEP}] )
 	encryption? ( dev-python/unpaddedbase64[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-23.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
 	test? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
 	test? ( dev-python/asyncpg[${PYTHON_USEDEP}] )

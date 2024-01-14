@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/graphviz-0.21.0[${PYTHON_USEDEP}]
+	<dev-python/selenium-5.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/imutils[${PYTHON_USEDEP}]
 	dev-python/imagehash[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/chardet-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -43,8 +43,8 @@ DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/tomli-w[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
 	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/sphinx-7.2.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/docker[${PYTHON_USEDEP}] )
 	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

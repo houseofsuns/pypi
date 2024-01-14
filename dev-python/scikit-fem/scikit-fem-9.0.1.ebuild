@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	all? ( dev-python/meshio[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/meshio-4.0.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

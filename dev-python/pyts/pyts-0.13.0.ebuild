@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs linting tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.1.1[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/docutils-0.14[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-1.8.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

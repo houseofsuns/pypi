@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="econml plotting pydot pygraphviz"
 DEPENDENCIES="dev-python/causal-learn[${PYTHON_USEDEP}]
 	dev-python/cvxpy[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.29.32[${PYTHON_USEDEP}]
 	econml? ( dev-python/econml[${PYTHON_USEDEP}] )
-	dev-python/joblib[${PYTHON_USEDEP}]
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	pydot? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	pygraphviz? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
+	>=dev-python/joblib-1.1.0[${PYTHON_USEDEP}]
+	plotting? ( >=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}] )
+	>=dev-python/networkx-2.8.5[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
+	pydot? ( <dev-python/pydot-2.0.0[${PYTHON_USEDEP}] )
+	pygraphviz? ( <dev-python/pygraphviz-2.0[${PYTHON_USEDEP}] )
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.13.5[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.10.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

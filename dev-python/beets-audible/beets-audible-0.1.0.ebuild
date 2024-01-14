@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/markdownify[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]"
+	~dev-python/natsort-8.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

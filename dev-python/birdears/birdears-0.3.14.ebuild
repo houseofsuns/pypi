@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/urwid[${PYTHON_USEDEP}]
+	>=dev-python/urwid-2.1.2[${PYTHON_USEDEP}]
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

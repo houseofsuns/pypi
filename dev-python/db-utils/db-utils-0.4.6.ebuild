@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.5.32[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+	~dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
+	>=dev-python/sqlparse-0.2.4[${PYTHON_USEDEP}]
 	dev-python/awscli[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python[${PYTHON_USEDEP}]

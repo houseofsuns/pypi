@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="orjson uvicorn"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-6.0[${PYTHON_USEDEP}]
 	dev-python/granian[${PYTHON_USEDEP}]
 	dev-python/emmett-crypto[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	<dev-python/pendulum-3.1.0[${PYTHON_USEDEP}]
 	dev-python/pyDAL[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/renoir[${PYTHON_USEDEP}]
 	dev-python/severus[${PYTHON_USEDEP}]
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	uvicorn? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	uvicorn? ( dev-python/h11[${PYTHON_USEDEP}] )
-	uvicorn? ( dev-python/websockets[${PYTHON_USEDEP}] )
+	orjson? ( <dev-python/orjson-3.10[${PYTHON_USEDEP}] )
+	uvicorn? ( <dev-python/uvicorn-0.20.0[${PYTHON_USEDEP}] )
+	uvicorn? ( >=dev-python/h11-0.12.0[${PYTHON_USEDEP}] )
+	uvicorn? ( <dev-python/websockets-11.0[${PYTHON_USEDEP}] )
 	uvicorn? ( dev-python/httptools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

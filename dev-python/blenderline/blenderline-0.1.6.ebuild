@@ -29,14 +29,14 @@ DEPENDENCIES="dev-python/blender-stubs[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/furo-2023.5.20[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

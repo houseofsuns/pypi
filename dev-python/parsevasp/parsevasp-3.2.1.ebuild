@@ -27,14 +27,14 @@ IUSE="pre-commit tests"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	pre-commit? ( dev-python/tox[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
+	pre-commit? ( >=dev-python/tox-3.23.0[${PYTHON_USEDEP}] )
+	pre-commit? ( >dev-python/virtualenv-20.0[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tox[${PYTHON_USEDEP}] )
-	tests? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	pre-commit? ( ~dev-python/pylint-2.15.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/tox-3.23.0[${PYTHON_USEDEP}] )
+	tests? ( >dev-python/virtualenv-20.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-2.7[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/coverage-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

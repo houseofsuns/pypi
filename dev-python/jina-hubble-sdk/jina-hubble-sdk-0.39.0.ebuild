@@ -33,14 +33,14 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/python-jose[${PYTHON_USEDEP}]
-	full? ( dev-python/black[${PYTHON_USEDEP}] )
-	full? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	full? ( dev-python/isort[${PYTHON_USEDEP}] )
-	full? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	full? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	full? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	full? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	full? ( dev-python/mock[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/pytest-asyncio-0.19.0[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/pytest-mock-3.7.0[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
 	full? ( dev-python/requests[${PYTHON_USEDEP}] )
 	full? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	full? ( dev-python/rich[${PYTHON_USEDEP}] )

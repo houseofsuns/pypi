@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli"
 DEPENDENCIES="dev-python/boltons[${PYTHON_USEDEP}]
 	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]

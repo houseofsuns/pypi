@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test validate"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
-	dev-python/wcwidth[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-16.3.0[${PYTHON_USEDEP}]
+	>=dev-python/pyperclip-1.6[${PYTHON_USEDEP}]
+	>=dev-python/wcwidth-0.1.7[${PYTHON_USEDEP}]
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/doc8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-1.11[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/gnureadline[${PYTHON_USEDEP}] )

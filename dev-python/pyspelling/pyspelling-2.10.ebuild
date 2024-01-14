@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/soupsieve[${PYTHON_USEDEP}]
-	dev-python/wcmatch[${PYTHON_USEDEP}]"
+	>=dev-python/soupsieve-1.8[${PYTHON_USEDEP}]
+	>=dev-python/wcmatch-8.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/scikit-fem[${PYTHON_USEDEP}]
 	dev-python/gmsh[${PYTHON_USEDEP}]
 	dev-python/pygmsh[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]"
+	>=dev-python/shapely-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

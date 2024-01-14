@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-4.0.0[${PYTHON_USEDEP}]
 	dev-python/jsonfield[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]

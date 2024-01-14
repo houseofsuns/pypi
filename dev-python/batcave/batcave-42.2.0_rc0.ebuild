@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/docker-6.1[${PYTHON_USEDEP}]
 	dev-python/DotMap[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1[${PYTHON_USEDEP}]
 	dev-python/google-api-core[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.30[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9[${PYTHON_USEDEP}]
+	~dev-python/PyQt5-5.15[${PYTHON_USEDEP}]
 	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/asyncssh[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

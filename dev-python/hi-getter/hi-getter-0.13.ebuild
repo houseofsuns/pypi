@@ -27,12 +27,12 @@ IUSE="all dev"
 DEPENDENCIES="dev-python/PySide6_Essentials[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	all? ( dev-python/py7zr[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/autopep8-2.0.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.16.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyupgrade[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pyupgrade-3.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/arrow-2.0[${PYTHON_USEDEP}]
+	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/uuid7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="arrow aws-iceberg etl-manager postgres"
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/parameterized[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/parameterized-0.7[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	arrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	arrow? ( >=dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )
 	etl-manager? ( dev-python/etl-manager[${PYTHON_USEDEP}] )
 	aws-iceberg? ( dev-python/awswrangler[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )

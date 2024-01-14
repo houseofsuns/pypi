@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests tests-demo tests-entity-bounds"
 DEPENDENCIES="dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests-demo? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	<dev-python/deprecation-3.0[${PYTHON_USEDEP}]
+	tests? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	tests-demo? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	tests-entity-bounds? ( dev-python/numpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

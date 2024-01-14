@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fiona netcdf"
-DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.1.1[${PYTHON_USEDEP}]
 	fiona? ( dev-python/fiona[${PYTHON_USEDEP}] )
 	netcdf? ( dev-python/netCDF4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

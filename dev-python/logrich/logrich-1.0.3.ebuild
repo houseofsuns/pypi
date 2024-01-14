@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-6.0.0[${PYTHON_USEDEP}]
 	dev-python/memoization[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]"
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

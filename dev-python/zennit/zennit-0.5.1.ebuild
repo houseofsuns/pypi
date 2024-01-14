@@ -29,12 +29,12 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-datatemplates[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-bibtex-2.4.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.8.8[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/ipykernel-6.13.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

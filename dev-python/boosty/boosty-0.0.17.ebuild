@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dotenv fast logging"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
 	all? ( dev-python/boosty[${PYTHON_USEDEP}] )
-	dotenv? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	fast? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	fast? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	logging? ( dev-python/loguru[${PYTHON_USEDEP}] )"
+	dotenv? ( ~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
+	fast? ( ~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}] )
+	fast? ( ~dev-python/orjson-3.9.10[${PYTHON_USEDEP}] )
+	logging? ( ~dev-python/loguru-0.7.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

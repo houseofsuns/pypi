@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/textual[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]"
+	>=dev-python/humanfriendly-10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

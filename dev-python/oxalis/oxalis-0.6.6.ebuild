@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aio-pika[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	>=dev-python/croniter-1.3.5[${PYTHON_USEDEP}]
+	>=dev-python/redis-4.5.1[${PYTHON_USEDEP}]
 	dev-python/aiokafka[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

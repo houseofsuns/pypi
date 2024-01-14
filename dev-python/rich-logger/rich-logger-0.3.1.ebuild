@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/rich-10.11.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.0.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tqdm-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

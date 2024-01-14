@@ -38,6 +38,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pytest-cov[${PYTHON_USEDEP}]
 	dev-python/pytest-xdist[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}]"
+	~dev-python/sphinxcontrib-bibtex-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

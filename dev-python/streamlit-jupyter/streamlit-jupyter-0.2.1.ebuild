@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/fastcore[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	~dev-python/ipywidgets-7.7.2[${PYTHON_USEDEP}]
 	dev-python/jupyter[${PYTHON_USEDEP}]
 	dev-python/stqdm[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/fastcore[${PYTHON_USEDEP}]
 	dev? ( dev-python/pipenv-setup[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vistir[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/packaging-20.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

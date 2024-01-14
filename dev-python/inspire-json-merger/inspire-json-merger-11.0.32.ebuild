@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all tests"
-DEPENDENCIES="dev-python/munkres[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/munkres-1.0.12[${PYTHON_USEDEP}]
 	dev-python/inspire-schemas[${PYTHON_USEDEP}]
 	dev-python/inspire-utils[${PYTHON_USEDEP}]
 	dev-python/json-merger[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	all? ( dev-python/decorator[${PYTHON_USEDEP}] )
+	~dev-python/pyrsistent-0.0[${PYTHON_USEDEP}]
+	all? ( ~dev-python/decorator-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-future-import[${PYTHON_USEDEP}] )
-	all? ( dev-python/mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/decorator[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-3.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/decorator-4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-future-import[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

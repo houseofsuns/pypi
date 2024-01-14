@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
-DEPENDENCIES="dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/plotly-5.1.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.8[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}]
 	dev-python/plasmaboundaries[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
+	<dev-python/jupyter-client-7.0[${PYTHON_USEDEP}]
 	dev-python/jupyter-cadquery[${PYTHON_USEDEP}]
 	dev-python/cad-to-dagmc[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	>=dev-python/setuptools-scm-7.0.5[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-4.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcadquery[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dagmc-h5m-file-inspector[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

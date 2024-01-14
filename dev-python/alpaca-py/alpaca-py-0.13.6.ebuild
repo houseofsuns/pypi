@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	<dev-python/msgpack-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/websockets-12.0.0[${PYTHON_USEDEP}]
 	dev-python/sseclient-py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

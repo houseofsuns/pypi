@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	pdf? ( dev-python/proplot[${PYTHON_USEDEP}] )
 	pdf? ( dev-python/pylatex[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	web? ( dev-python/colorcet[${PYTHON_USEDEP}] )
 	web? ( dev-python/holoviews[${PYTHON_USEDEP}] )

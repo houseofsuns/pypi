@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="changelog docs lint tests"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	changelog? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	changelog? ( ~dev-python/towncrier-22.12.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-towncrier[${PYTHON_USEDEP}] )
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/reorder-python-imports[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-mypy-fork[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-typing-imports[${PYTHON_USEDEP}] )

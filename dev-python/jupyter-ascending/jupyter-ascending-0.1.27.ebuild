@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/jupytext[${PYTHON_USEDEP}]
 	dev-python/jsonrpcserver[${PYTHON_USEDEP}]
 	dev-python/jsonrpcclient[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.4.1[${PYTHON_USEDEP}]
 	dev-python/editdistance[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/notebook-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

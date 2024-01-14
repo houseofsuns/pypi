@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
+	dev? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/interrogate[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matching[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/ipython-7.10[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.8.8[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	docs? ( dev-python/quartodoc[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbval[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-6.31.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nbval-0.10.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

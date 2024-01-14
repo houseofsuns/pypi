@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/deprecated[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/deprecated-1.2.6[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

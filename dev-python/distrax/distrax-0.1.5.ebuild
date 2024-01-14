@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/absl-py-0.9.0[${PYTHON_USEDEP}]
 	dev-python/chex[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-probability[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

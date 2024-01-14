@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/websocket-client[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/websocket-client-0.53[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pymongo[${PYTHON_USEDEP}]
 	dev-python/pyzmq[${PYTHON_USEDEP}]

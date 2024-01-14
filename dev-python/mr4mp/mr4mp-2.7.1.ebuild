@@ -27,13 +27,13 @@ IUSE="coveralls docs lint publish test"
 DEPENDENCIES="dev-python/parts[${PYTHON_USEDEP}]
 	coveralls? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	docs? ( dev-python/toml[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	publish? ( dev-python/build[${PYTHON_USEDEP}] )
-	publish? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.12.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pylint-2.17.0[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/build-0.10[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	~dev-python/alembic-1.4.3[${PYTHON_USEDEP}]
 	dev-python/async-generator[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/cloud-sql-python-connector[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/immutabledict[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.2.19[${PYTHON_USEDEP}]
 	dev-python/sqlparse[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

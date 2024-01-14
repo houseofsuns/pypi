@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="html"
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	html? ( dev-python/parsel[${PYTHON_USEDEP}] )
 	dev-python/dynaconf[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+	<dev-python/humanize-5.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]
 	dev-python/playwright-stealth[${PYTHON_USEDEP}]"

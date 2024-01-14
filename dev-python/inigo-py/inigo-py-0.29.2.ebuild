@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all django flask"
-DEPENDENCIES="all? ( dev-python/flask[${PYTHON_USEDEP}] )
-	all? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	all? ( dev-python/django[${PYTHON_USEDEP}] )
-	django? ( dev-python/django[${PYTHON_USEDEP}] )
-	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
-	flask? ( dev-python/werkzeug[${PYTHON_USEDEP}] )"
+DEPENDENCIES="all? ( <dev-python/flask-3.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/django-5.0[${PYTHON_USEDEP}] )
+	django? ( <dev-python/django-5.0[${PYTHON_USEDEP}] )
+	flask? ( <dev-python/flask-3.0[${PYTHON_USEDEP}] )
+	flask? ( <dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

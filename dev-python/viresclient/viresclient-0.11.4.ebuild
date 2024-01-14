@@ -27,17 +27,17 @@ IUSE="dev docs test"
 DEPENDENCIES="dev-python/cdflib[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
+	>=dev-python/pandas-0.18[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tables-3.4.4[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.23.0[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.11.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nox-2022.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinx-tabs-3.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

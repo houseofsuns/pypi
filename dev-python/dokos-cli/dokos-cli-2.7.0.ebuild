@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/honcho[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/python-crontab[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/semantic-version-2.8.2[${PYTHON_USEDEP}]
+	>dev-python/setuptools-40.9.0[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,35 +24,35 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli codemods dateutil django dpcontracts ghostwriter lark numpy pandas pytest pytz redis"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/click[${PYTHON_USEDEP}] )
-	all? ( dev-python/django[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
+	<dev-python/sortedcontainers-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/exceptiongroup-1.0.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/django-3.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/dpcontracts[${PYTHON_USEDEP}] )
-	all? ( dev-python/lark[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/lark-0.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/libcst[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/rich[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/black[${PYTHON_USEDEP}] )
-	cli? ( dev-python/rich[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpy-1.17.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-1.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/python-dateutil-1.4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytz-2014.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/redis-3.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/rich-9.0.0[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/rich-9.0.0[${PYTHON_USEDEP}] )
 	codemods? ( dev-python/libcst[${PYTHON_USEDEP}] )
-	dateutil? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	django? ( dev-python/django[${PYTHON_USEDEP}] )
+	dateutil? ( >=dev-python/python-dateutil-1.4[${PYTHON_USEDEP}] )
+	django? ( >=dev-python/django-3.2[${PYTHON_USEDEP}] )
 	dpcontracts? ( dev-python/dpcontracts[${PYTHON_USEDEP}] )
-	ghostwriter? ( dev-python/black[${PYTHON_USEDEP}] )
-	lark? ( dev-python/lark[${PYTHON_USEDEP}] )
-	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	pytest? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	pytz? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	ghostwriter? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
+	lark? ( >=dev-python/lark-0.10.1[${PYTHON_USEDEP}] )
+	numpy? ( >=dev-python/numpy-1.17.3[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-1.1[${PYTHON_USEDEP}] )
+	pytest? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
+	pytz? ( >=dev-python/pytz-2014.1[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

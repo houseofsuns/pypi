@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/playwright[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-playwright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-1.4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-0.22.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-material-9.1.19[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flit[${PYTHON_USEDEP}] )"

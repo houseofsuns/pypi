@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev optional"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sacrebleu[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.790[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-38.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-1.11.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.31.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	optional? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

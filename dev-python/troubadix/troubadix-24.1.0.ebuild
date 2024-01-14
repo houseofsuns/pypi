@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pontos[${PYTHON_USEDEP}]
 	dev-python/codespell[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
+	<dev-python/python-magic-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/chardet-6.0[${PYTHON_USEDEP}]
+	~dev-python/validators-0.20.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]"
+	<dev-python/charset-normalizer-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

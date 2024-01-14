@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs tests"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	dev-python/libpysal[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

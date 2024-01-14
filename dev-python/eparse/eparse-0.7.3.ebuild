@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/peewee-3.16.0[${PYTHON_USEDEP}]
 	dev-python/unstructured[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

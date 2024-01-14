@@ -24,52 +24,52 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev test vistool"
-DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cloudpickle-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
 	dev-python/GPUtil[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	all? ( dev-python/pre-commit-hooks[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	all? ( dev-python/twine[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tqdm-4.48.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/twine-3.3.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-1.4.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpy-1.19.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/isort-5.4.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/cibuildwheel[${PYTHON_USEDEP}] )
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/plotly-4.9.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.2.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cibuildwheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.4.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit-hooks[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	vistool? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	vistool? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	vistool? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-3.3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
+	vistool? ( >=dev-python/matplotlib-3.2.1[${PYTHON_USEDEP}] )
+	vistool? ( >=dev-python/numpy-1.19.5[${PYTHON_USEDEP}] )
+	vistool? ( >=dev-python/plotly-4.9.0[${PYTHON_USEDEP}] )
 	vistool? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	vistool? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	vistool? ( >=dev-python/scipy-1.4.1[${PYTHON_USEDEP}] )
 	vistool? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	vistool? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	vistool? ( >=dev-python/tqdm-4.48.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

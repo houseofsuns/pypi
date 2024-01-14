@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ptflops[${PYTHON_USEDEP}] )
@@ -39,13 +39,13 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	dev? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-katex[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	docs? ( dev-python/python-etcd[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-panels-0.4.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

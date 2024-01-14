@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/hoppr-cyclonedx-models[${PYTHON_USEDEP}]
 	dev-python/in-toto[${PYTHON_USEDEP}]
-	dev-python/jc[${PYTHON_USEDEP}]
+	<dev-python/jc-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
+	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]
 	dev-python/oras[${PYTHON_USEDEP}]
 	dev-python/packageurl-python[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-yaml[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/rapidfuzz-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

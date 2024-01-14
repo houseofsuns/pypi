@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/protowhat[${PYTHON_USEDEP}]
-	dev-python/markdown2[${PYTHON_USEDEP}]
+	~dev-python/markdown2-2.4.6[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/asttokens[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	~dev-python/asttokens-2.0.5[${PYTHON_USEDEP}]
+	~dev-python/dill-0.3.4[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

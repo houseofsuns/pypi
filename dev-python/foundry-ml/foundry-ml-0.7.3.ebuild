@@ -27,11 +27,11 @@ IUSE=""
 DEPENDENCIES="dev-python/mdf-forge[${PYTHON_USEDEP}]
 	dev-python/globus-sdk[${PYTHON_USEDEP}]
 	dev-python/dlhub-sdk[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15.4[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.23.4[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.4[${PYTHON_USEDEP}]
 	dev-python/mdf-connect-client[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	dev-python/json2table[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

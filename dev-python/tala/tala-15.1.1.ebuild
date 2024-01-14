@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]"
+	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]
+	>=dev-python/iso8601-0.1.14[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.6.3[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0.19[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	>=dev-python/structlog-21.1.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-scm-8.0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

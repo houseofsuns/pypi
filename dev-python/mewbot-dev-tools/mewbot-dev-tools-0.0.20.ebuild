@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	dev-python/reuse[${PYTHON_USEDEP}]
 	dev-python/pydeps[${PYTHON_USEDEP}]
-	dev-python/myst-parser[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+	~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/sphinx-7.2.2[${PYTHON_USEDEP}]
 	dev-python/m2r2[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
+	>=dev-python/black-23.1.0[${PYTHON_USEDEP}]
+	>=dev-python/flake8-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pylint-2.16.0[${PYTHON_USEDEP}]
 	dev-python/pytest-github-actions-annotate-failures[${PYTHON_USEDEP}]
-	dev-python/pydocstyle[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+	>=dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}]
+	>=dev-python/isort-5.12.0[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]
-	dev-python/bandit[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
+	~dev-python/bandit-1.7.5[${PYTHON_USEDEP}]
+	>=dev-python/mypy-0.991[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
-	dev-python/clint[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/pytest-xdist[${PYTHON_USEDEP}]"
+	>=dev-python/clint-0.5.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.1.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

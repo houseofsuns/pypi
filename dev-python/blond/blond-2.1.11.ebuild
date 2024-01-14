@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc lint test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.7[${PYTHON_USEDEP}]
 	dev-python/mpmath[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autopackagesummary[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-autopackagesummary[${PYTHON_USEDEP}] )

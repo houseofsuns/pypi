@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/janis-pipelines-core[${PYTHON_USEDEP}]
 	dev-python/janis-pipelines-templates[${PYTHON_USEDEP}]
 	bioinformatics? ( dev-python/janis-pipelines-bioinformatics[${PYTHON_USEDEP}] )
 	bioinformatics? ( dev-python/janis-pipelines-pipelines[${PYTHON_USEDEP}] )
-	ci? ( dev-python/keyring[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/keyring-21.4.0[${PYTHON_USEDEP}] )
 	ci? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	ci? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	ci? ( dev-python/twine[${PYTHON_USEDEP}] )

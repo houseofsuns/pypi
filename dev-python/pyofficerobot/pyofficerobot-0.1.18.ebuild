@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/schedule[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/poai[${PYTHON_USEDEP}]
 	dev-python/xlwt[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
 	dev-python/PySide6[${PYTHON_USEDEP}]
 	dev-python/porobot[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

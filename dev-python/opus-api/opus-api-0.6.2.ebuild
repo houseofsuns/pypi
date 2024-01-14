@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/click-6.7[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.6.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
+	>=dev-python/diskcache-3.0.6[${PYTHON_USEDEP}]
+	>=dev-python/selenium-3.13.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

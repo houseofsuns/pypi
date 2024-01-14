@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-38.3.0[${PYTHON_USEDEP}]
 	dev-python/appconfigpy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-1.0[${PYTHON_USEDEP}]
 	dev-python/Logbook[${PYTHON_USEDEP}]
 	dev-python/DateTimeRange[${PYTHON_USEDEP}]
 	dev-python/msgfy[${PYTHON_USEDEP}]
-	dev-python/path[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	<dev-python/path-16.0[${PYTHON_USEDEP}]
+	<dev-python/pathvalidate-3.0[${PYTHON_USEDEP}]
+	<dev-python/PyGithub-2.0[${PYTHON_USEDEP}]
 	dev-python/retryrequests[${PYTHON_USEDEP}]
 	dev-python/typepy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-md-report[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

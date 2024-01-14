@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli docs tests"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/rq[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	>=dev-python/rq-0.13.0[${PYTHON_USEDEP}]
+	>=dev-python/redis-3.0.0[${PYTHON_USEDEP}]
 	dev-python/rq-scheduler[${PYTHON_USEDEP}]
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
+	all? ( >dev-python/redis-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/rq-scheduler[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask-cli[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-2.8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-wholenodeid[${PYTHON_USEDEP}] )
@@ -43,10 +43,10 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	cli? ( dev-python/Flask-CLI[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/redis[${PYTHON_USEDEP}] )
+	tests? ( >dev-python/redis-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/rq-scheduler[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flask-cli[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-2.8.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-wholenodeid[${PYTHON_USEDEP}] )

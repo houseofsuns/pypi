@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16.6[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.5[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.10.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}]
+	>=dev-python/plotly-4.9.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	>=dev-python/regex-2.2.1[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.45.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/wordcloud[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

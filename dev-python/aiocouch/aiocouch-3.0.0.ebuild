@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs examples tests typing"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.0[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.17[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.981[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-Deprecated[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
@@ -48,10 +48,10 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	examples? ( dev-python/click-log[${PYTHON_USEDEP}] )
 	examples? ( dev-python/click-completion[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-asyncio-0.17[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	typing? ( >=dev-python/mypy-0.981[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-Deprecated[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

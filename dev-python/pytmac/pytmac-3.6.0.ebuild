@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pytest-env[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-env-0.8.1[${PYTHON_USEDEP}]
 	dev-python/pytest-dotenv[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]"
+	<dev-python/mypy-0.992[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

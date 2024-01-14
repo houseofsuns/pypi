@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pyopengl[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
+	>=dev-python/pyqtgraph-0.13.3[${PYTHON_USEDEP}]
 	dev-python/pyside6[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]"

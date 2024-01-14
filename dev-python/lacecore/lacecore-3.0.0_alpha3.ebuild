@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli obj"
-DEPENDENCIES="cli? ( dev-python/click[${PYTHON_USEDEP}] )
+DEPENDENCIES="cli? ( <dev-python/click-9.0[${PYTHON_USEDEP}] )
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/ounce[${PYTHON_USEDEP}]
 	dev-python/polliwog[${PYTHON_USEDEP}]

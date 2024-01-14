@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all requests selenium"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	requests? ( dev-python/requests[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
-	selenium? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	all? ( dev-python/selenium[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	requests? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	selenium? ( <dev-python/selenium-5.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/selenium-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

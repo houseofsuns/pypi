@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docker-4.0[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/nest-asyncio-1.4.1[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	dev-python/aiohttp-middlewares[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.0[${PYTHON_USEDEP}]
 	dev-python/alt-pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.15[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pytest-sugar[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/pytest-sugar-0.9[${PYTHON_USEDEP}]
+	>=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}]
+	>=dev-python/dask-2.0[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

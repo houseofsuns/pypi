@@ -34,16 +34,16 @@ DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-localstore[${PYTHON_USEDEP}]
 	dev-python/PixivPy-Async[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.1[${PYTHON_USEDEP}]
 	dev-python/lazy[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-5.0.1[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
 	dev-python/asyncache[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/ssttkkl-nonebot-utils[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]"
+	>=dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

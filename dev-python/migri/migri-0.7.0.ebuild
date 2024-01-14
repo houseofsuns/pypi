@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mysql postgresql sqlite"
 DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	~dev-python/sqlparse-0.4[${PYTHON_USEDEP}]
 	mysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )"

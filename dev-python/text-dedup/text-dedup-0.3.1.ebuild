@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.9.1[${PYTHON_USEDEP}]
+	<dev-python/xxhash-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pybloom-live[${PYTHON_USEDEP}]
-	dev-python/bitarray[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	<dev-python/bitarray-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/dask-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	dev-python/typepy[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-md-report[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytz[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

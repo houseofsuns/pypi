@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aws-cdk-lib[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+	<dev-python/isort-6.0.0[${PYTHON_USEDEP}]
 	dev-python/python-on-whales[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

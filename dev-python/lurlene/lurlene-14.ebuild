@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/diapyr[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
 	dev-python/splut[${PYTHON_USEDEP}]
 	dev-python/timelyOSC[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

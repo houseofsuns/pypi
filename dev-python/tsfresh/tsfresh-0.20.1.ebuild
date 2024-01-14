@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs matrixprofile testing"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/patsy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.13[${PYTHON_USEDEP}]
+	>=dev-python/patsy-0.4.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.10.0[${PYTHON_USEDEP}]
+	>=dev-python/dask-2.9.0[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	dev-python/stumpy[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/b2luigi[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
 	matrixprofile? ( dev-python/matrixprofile[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-4.4.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-xdist-1.26.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	testing? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	testing? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	testing? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/matplotlib-2.0.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/seaborn-0.7.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/ipython-5.3.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/notebook-4.4.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pandas-datareader[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/jupyter-book[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}]
+	>=dev-python/sphinxcontrib-bibtex-1.0.0[${PYTHON_USEDEP}]
 	dev-python/synthimpute[${PYTHON_USEDEP}]
 	dev-python/OpenFisca-Tools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

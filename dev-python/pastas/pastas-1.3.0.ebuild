@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci dev formatting full latexify linting numbascipy pytesting rtd solvers"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	ci? ( dev-python/pastas[${PYTHON_USEDEP}] )
 	ci? ( dev-python/jupyter[${PYTHON_USEDEP}] )
@@ -44,20 +44,20 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	latexify? ( dev-python/latexify-py[${PYTHON_USEDEP}] )
 	linting? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	numbascipy? ( dev-python/numba-scipy[${PYTHON_USEDEP}] )
-	pytesting? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	pytesting? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	pytesting? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	pytesting? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/pastas[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/Ipython[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	rtd? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/requests[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	solvers? ( dev-python/lmfit[${PYTHON_USEDEP}] )
-	solvers? ( dev-python/emcee[${PYTHON_USEDEP}] )"
+	solvers? ( >=dev-python/lmfit-1.0.0[${PYTHON_USEDEP}] )
+	solvers? ( >=dev-python/emcee-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

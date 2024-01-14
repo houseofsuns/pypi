@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/kami-logging[${PYTHON_USEDEP}]
-	dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]"
+	<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/google-auth-httplib2-0.2.0[${PYTHON_USEDEP}]
+	<dev-python/google-auth-oauthlib-0.6.0[${PYTHON_USEDEP}]
+	<dev-python/google-auth-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/googleapis-common-protos-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

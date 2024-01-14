@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs testsite"
 DEPENDENCIES="dev-python/pypgstac[${PYTHON_USEDEP}]
-	dev-python/psycopg[${PYTHON_USEDEP}]
+	~dev-python/psycopg-3.1.10[${PYTHON_USEDEP}]
 	dev-python/psycopg-pool[${PYTHON_USEDEP}]
 	dev-python/pystac[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/insupdel4stac[${PYTHON_USEDEP}] )
 	dev? ( dev-python/insupdel4stac[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
@@ -40,10 +40,10 @@ DEPENDENCIES="dev-python/pypgstac[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	testsite? ( dev-python/tox[${PYTHON_USEDEP}] )
-	testsite? ( dev-python/isort[${PYTHON_USEDEP}] )
-	testsite? ( dev-python/black[${PYTHON_USEDEP}] )
+	testsite? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	testsite? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	testsite? ( dev-python/blackdoc[${PYTHON_USEDEP}] )
-	testsite? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	testsite? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	testsite? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	testsite? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	testsite? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -53,10 +53,10 @@ DEPENDENCIES="dev-python/pypgstac[${PYTHON_USEDEP}]
 	testsite? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	testsite? ( dev-python/stac-fastapi-pgstac[${PYTHON_USEDEP}] )
 	testsite? ( dev-python/pypgstac[${PYTHON_USEDEP}] )
-	testsite? ( dev-python/psycopg[${PYTHON_USEDEP}] )
+	testsite? ( ~dev-python/psycopg-3.1.10[${PYTHON_USEDEP}] )
 	testsite? ( dev-python/psycopg-pool[${PYTHON_USEDEP}] )
 	testsite? ( dev-python/pystac[${PYTHON_USEDEP}] )
-	testsite? ( dev-python/requests[${PYTHON_USEDEP}] )
+	testsite? ( ~dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
 	testsite? ( dev-python/httpx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

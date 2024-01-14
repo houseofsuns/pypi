@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
 	dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2020.4[${PYTHON_USEDEP}]
+	<=dev-python/pyarrow-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.18.54[${PYTHON_USEDEP}]
 	dev-python/redshift-connector[${PYTHON_USEDEP}]
 	dev-python/databricks-sql-connector[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]"
+	>=dev-python/python-dotenv-0.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

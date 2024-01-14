@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cv tf torch torch_transformers torchvision"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
 	cv? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tf? ( dev-python/opencv-python[${PYTHON_USEDEP}] )

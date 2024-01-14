@@ -60,8 +60,8 @@ DEPENDENCIES="dev-python/coreapi[${PYTHON_USEDEP}]
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
 	test? ( dev-python/factory_boy[${PYTHON_USEDEP}] )
 	test? ( dev-python/feedparser[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.13.1[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
+	>=dev-python/inflect-0.3.1[${PYTHON_USEDEP}]
 	dev-python/distance[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0.1[${PYTHON_USEDEP}]
 	dev-python/pyfaidx[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-9.0.1[${PYTHON_USEDEP}]
 	dev-python/yacman[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

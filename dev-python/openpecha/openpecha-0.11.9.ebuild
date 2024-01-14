@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="transifex"
 DEPENDENCIES="dev-python/botok[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/diff-match-patch[${PYTHON_USEDEP}]
-	dev-python/polib[${PYTHON_USEDEP}]
+	~dev-python/diff-match-patch-20181111.0[${PYTHON_USEDEP}]
+	~dev-python/polib-1.1.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/antx[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	<dev-python/PyGithub-2.0[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/pyewts[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/rdflib-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
-	dev-python/fonttools[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-4.37.3[${PYTHON_USEDEP}]
 	transifex? ( dev-python/transifex-python[${PYTHON_USEDEP}] )
-	transifex? ( dev-python/python-slugify[${PYTHON_USEDEP}] )"
+	transifex? ( <dev-python/python-slugify-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

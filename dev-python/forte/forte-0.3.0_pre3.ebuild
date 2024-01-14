@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="audio_ext data_aug extractor ir models nlp ocr_tutorial remote stave test wikipedia"
-DEPENDENCIES="dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sortedcontainers-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.6[${PYTHON_USEDEP}]
+	>=dev-python/jsonpickle-1.4[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
 	dev-python/typed-astunparse[${PYTHON_USEDEP}]
 	dev-python/funcsigs[${PYTHON_USEDEP}]
 	dev-python/typed-ast[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0.2[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
 	dev-python/asyml-utilities[${PYTHON_USEDEP}]
 	audio_ext? ( dev-python/soundfile[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/sortedcontainers[${PYTHON_USEDEP}]
 	ir? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	models? ( dev-python/torch[${PYTHON_USEDEP}] )
 	models? ( dev-python/torchtext[${PYTHON_USEDEP}] )
-	models? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	models? ( >=dev-python/tqdm-4.36.1[${PYTHON_USEDEP}] )
 	models? ( dev-python/texar-pytorch[${PYTHON_USEDEP}] )
 	models? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	models? ( dev-python/pyannote-audio[${PYTHON_USEDEP}] )
@@ -55,8 +55,8 @@ DEPENDENCIES="dev-python/sortedcontainers[${PYTHON_USEDEP}]
 	ocr_tutorial? ( dev-python/requests[${PYTHON_USEDEP}] )
 	ocr_tutorial? ( dev-python/pytesseract[${PYTHON_USEDEP}] )
 	remote? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	remote? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	remote? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	remote? ( <=dev-python/pydantic-1.9.2[${PYTHON_USEDEP}] )
+	remote? ( >=dev-python/uvicorn-0.14.0[${PYTHON_USEDEP}] )
 	remote? ( dev-python/requests[${PYTHON_USEDEP}] )
 	stave? ( dev-python/stave[${PYTHON_USEDEP}] )
 	test? ( dev-python/ddt[${PYTHON_USEDEP}] )
@@ -65,6 +65,6 @@ DEPENDENCIES="dev-python/sortedcontainers[${PYTHON_USEDEP}]
 	test? ( dev-python/termcolor[${PYTHON_USEDEP}] )
 	test? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	test? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	wikipedia? ( dev-python/rdflib[${PYTHON_USEDEP}] )"
+	wikipedia? ( ~dev-python/rdflib-4.2.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

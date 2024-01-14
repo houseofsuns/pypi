@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev lint tests"
-DEPENDENCIES="dev-python/apispec[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/apispec-7.0[${PYTHON_USEDEP}]
+	<dev-python/flask-4.0[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
 	dev-python/webargs[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	dev? ( dev-python/apispec[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flask[${PYTHON_USEDEP}] )
-	dev? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/apispec-6.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flask-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/marshmallow-3.20.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/webargs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/werkzeug-3.0.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	tests? ( dev-python/apispec[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask[${PYTHON_USEDEP}] )
-	tests? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/apispec-6.3.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flask-3.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/marshmallow-3.20.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/webargs[${PYTHON_USEDEP}] )
-	tests? ( dev-python/werkzeug[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/werkzeug-3.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc test upload"
 DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/markdownify[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	doc? ( >=dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-7.3.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-html[${PYTHON_USEDEP}] )
 	test? ( dev-python/html-report-line-profiler[${PYTHON_USEDEP}] )
-	upload? ( dev-python/twine[${PYTHON_USEDEP}] )
-	upload? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	upload? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	upload? ( >=dev-python/wheel-0.40.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

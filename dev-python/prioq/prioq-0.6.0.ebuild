@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/reprit[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	tests? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

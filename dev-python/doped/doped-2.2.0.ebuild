@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="analysis docs pdf tests"
 DEPENDENCIES="dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/pymatgen[${PYTHON_USEDEP}]
 	dev-python/pymatgen-analysis-defects[${PYTHON_USEDEP}]
 	dev-python/shakenbreak[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/tabulate[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	pdf? ( dev-python/pycairo[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-mpl-0.16.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs docslive test typing"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	typing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	typing? ( ~dev-python/mypy-0.961[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	typing? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-click[${PYTHON_USEDEP}] )
 	typing? ( dev-python/pytest-click[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.12[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-explicit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-object-getter[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-requests-futures[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-run-subprocess[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-1.34[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/requests-futures[${PYTHON_USEDEP}]
+	<dev-python/requests-futures-2.0.0[${PYTHON_USEDEP}]
 	dev-python/software-patterns[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docslive? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
+	docslive? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docslive? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docslive? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docslive? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
-	docslive? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.10[${PYTHON_USEDEP}] )
+	docslive? ( >=dev-python/sphinx-autodoc-typehints-1.10[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	docslive? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-spelling-7.4.0[${PYTHON_USEDEP}] )
+	docslive? ( <dev-python/sphinxcontrib-spelling-7.4.0[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

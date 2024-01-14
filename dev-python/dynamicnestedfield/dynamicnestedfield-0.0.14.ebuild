@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-42.0[${PYTHON_USEDEP}]
+	>=dev-python/asgiref-3.5.2[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/tzdata[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2022.6[${PYTHON_USEDEP}]
+	>=dev-python/sqlparse-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/tzdata-2022.6[${PYTHON_USEDEP}]
 	dev-python/django-restql[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]"
+	~dev-python/django-filter-22.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

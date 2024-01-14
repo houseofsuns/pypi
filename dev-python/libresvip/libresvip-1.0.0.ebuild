@@ -24,40 +24,40 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="desktop ujson upath webui"
-DEPENDENCIES="dev-python/charset-normalizer[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/charset-normalizer-4.0.0[${PYTHON_USEDEP}]
 	dev-python/construct-typing[${PYTHON_USEDEP}]
 	dev-python/drawsvg[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/loguru-1.0.0[${PYTHON_USEDEP}]
 	dev-python/mido-fix[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-11.0.0[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-5.0.0[${PYTHON_USEDEP}]
 	dev-python/portion[${PYTHON_USEDEP}]
-	dev-python/proto-plus[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-extra-types[${PYTHON_USEDEP}]
-	dev-python/pymediainfo[${PYTHON_USEDEP}]
+	<dev-python/pymediainfo-7.0.0[${PYTHON_USEDEP}]
 	dev-python/pymediainfo-lambda[${PYTHON_USEDEP}]
 	dev-python/pypinyin[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/srt[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/wanakana-python[${PYTHON_USEDEP}]
 	dev-python/xsdata[${PYTHON_USEDEP}]
 	dev-python/zhon[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]
-	dev-python/zstd[${PYTHON_USEDEP}]
-	ujson? ( dev-python/ujson[${PYTHON_USEDEP}] )
+	<dev-python/zstandard-0.23.0[${PYTHON_USEDEP}]
+	<dev-python/zstd-2.0.0[${PYTHON_USEDEP}]
+	ujson? ( >=dev-python/ujson-5.9.0[${PYTHON_USEDEP}] )
 	upath? ( dev-python/universal-pathlib[${PYTHON_USEDEP}] )
 	webui? ( dev-python/nicegui[${PYTHON_USEDEP}] )
 	webui? ( dev-python/libresvip[${PYTHON_USEDEP}] )
-	desktop? ( dev-python/pyside6[${PYTHON_USEDEP}] )
+	desktop? ( <dev-python/pyside6-6.7.0[${PYTHON_USEDEP}] )
 	desktop? ( dev-python/fonticon-materialdesignicons7[${PYTHON_USEDEP}] )
 	desktop? ( dev-python/qtinter[${PYTHON_USEDEP}] )
-	desktop? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	desktop? ( >=dev-python/httpx-0.26.0[${PYTHON_USEDEP}] )
 	desktop? ( dev-python/desktop-notifier[${PYTHON_USEDEP}] )
 	desktop? ( dev-python/libresvip[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

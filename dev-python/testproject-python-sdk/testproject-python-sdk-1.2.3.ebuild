@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/selenium[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
 	dev-python/Appium-Python-Client[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]"
+	>=dev-python/decorator-4.4.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/astor[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/flake8-3.7[${PYTHON_USEDEP}]
+	>=dev-python/astor-0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

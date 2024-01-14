@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="complete dev docs test"
-DEPENDENCIES="dev-python/pyarrow[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pyomniscidb[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	complete? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	complete? ( dev-python/numpydoc[${PYTHON_USEDEP}] )

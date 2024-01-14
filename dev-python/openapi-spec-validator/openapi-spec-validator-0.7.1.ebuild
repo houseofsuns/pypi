@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/openapi-schema-validator[${PYTHON_USEDEP}]
-	dev-python/jsonschema-path[${PYTHON_USEDEP}]
-	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/openapi-schema-validator-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-path-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/lazy-object-proxy-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

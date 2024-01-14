@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	all? ( dev-python/email-validator[${PYTHON_USEDEP}] )
-	all? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	all? ( dev-python/itsdangerous[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/starlette-0.28.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/email-validator-2.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/httpx-0.23.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/itsdangerous-1.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	all? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/orjson-3.2.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydantic-extra-types[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	all? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ujson-4.0.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/uvicorn-0.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

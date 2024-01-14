@@ -27,7 +27,7 @@ IUSE="dev docs-dev test"
 DEPENDENCIES="dev-python/byteblowerll[${PYTHON_USEDEP}]
 	dev-python/scapy[${PYTHON_USEDEP}]
 	dev-python/junit_xml[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/highcharts-excentis[${PYTHON_USEDEP}]
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
@@ -38,13 +38,13 @@ DEPENDENCIES="dev-python/byteblowerll[${PYTHON_USEDEP}]
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
 	docs-dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs-dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs-dev? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	docs-dev? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	docs-dev? ( >=dev-python/sphinx-tabs-3.4[${PYTHON_USEDEP}] )
 	docs-dev? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	test? ( dev-python/rstcheck[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )
 	test? ( dev-python/toml[${PYTHON_USEDEP}] )"

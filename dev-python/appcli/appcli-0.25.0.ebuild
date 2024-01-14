@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs tests"
 DEPENDENCIES="dev-python/autoprop[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
+	~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	dev-python/mako[${PYTHON_USEDEP}]
 	dev-python/more_itertools[${PYTHON_USEDEP}]
 	dev-python/nestedtext[${PYTHON_USEDEP}]

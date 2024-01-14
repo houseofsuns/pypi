@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="analysis doc extra_formats"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/GridDataFormats[${PYTHON_USEDEP}]
-	dev-python/mmtf-python[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/GridDataFormats-0.4.0[${PYTHON_USEDEP}]
+	>=dev-python/mmtf-python-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.12[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-1.5.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.43.0[${PYTHON_USEDEP}]
 	dev-python/threadpoolctl[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/fasteners[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	analysis? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/tidynamics[${PYTHON_USEDEP}] )
-	analysis? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	analysis? ( >=dev-python/networkx-2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mdanalysis-sphinx-theme[${PYTHON_USEDEP}] )
@@ -47,12 +47,12 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	doc? ( dev-python/pybtex[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pybtex-docutils[${PYTHON_USEDEP}] )
 	extra_formats? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
-	extra_formats? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	extra_formats? ( >=dev-python/h5py-2.10[${PYTHON_USEDEP}] )
 	extra_formats? ( dev-python/chemfiles[${PYTHON_USEDEP}] )
 	extra_formats? ( dev-python/parmed[${PYTHON_USEDEP}] )
 	extra_formats? ( dev-python/pyedr[${PYTHON_USEDEP}] )
 	extra_formats? ( dev-python/pytng[${PYTHON_USEDEP}] )
-	extra_formats? ( dev-python/gsd[${PYTHON_USEDEP}] )
+	extra_formats? ( >dev-python/gsd-3.0.0[${PYTHON_USEDEP}] )
 	extra_formats? ( dev-python/rdkit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

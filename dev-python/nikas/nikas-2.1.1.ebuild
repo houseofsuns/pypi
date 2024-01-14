@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/argon2-cffi[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/argon2-cffi-21.3.0[${PYTHON_USEDEP}]
+	~dev-python/bleach-5.0.1[${PYTHON_USEDEP}]
+	~dev-python/cffi-1.15.1[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Caching[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	~dev-python/html5lib-1.1[${PYTHON_USEDEP}]
+	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
 	dev-python/misaka[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.1.3[${PYTHON_USEDEP}]
+	~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/botocore-2.0.0[${PYTHON_USEDEP}]
 	dev-python/cassandra-driver[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	dev-python/fastparquet[${PYTHON_USEDEP}]
 	dev-python/gspread[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/mysqlclient[${PYTHON_USEDEP}]
+	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/mysqlclient-3.0.0[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}]
+	<dev-python/retrying-2.0.0[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

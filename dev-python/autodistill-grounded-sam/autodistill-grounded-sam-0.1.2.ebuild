@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/autodistill[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/rf-groundingdino[${PYTHON_USEDEP}]
 	dev-python/rf-segment-anything[${PYTHON_USEDEP}]
 	dev-python/supervision[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

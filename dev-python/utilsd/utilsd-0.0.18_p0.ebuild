@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs full"
 DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/yapf[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	>=dev-python/yapf-0.31.0[${PYTHON_USEDEP}]
+	<dev-python/typeguard-3.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )

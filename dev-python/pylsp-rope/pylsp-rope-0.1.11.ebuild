@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/python-lsp-server[${PYTHON_USEDEP}]
-	dev-python/rope[${PYTHON_USEDEP}]
+	>=dev-python/rope-0.21.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pymongo-3.9.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]

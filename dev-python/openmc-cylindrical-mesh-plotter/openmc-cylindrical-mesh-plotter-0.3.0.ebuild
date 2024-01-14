@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"

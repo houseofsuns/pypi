@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/asttokens[${PYTHON_USEDEP}]
-	dev-python/executing[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/asttokens-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/executing-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.15.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

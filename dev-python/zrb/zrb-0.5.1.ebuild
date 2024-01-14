@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/beartype[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.4[${PYTHON_USEDEP}]
+	~dev-python/aiofiles-23.1.0[${PYTHON_USEDEP}]
+	~dev-python/beartype-0.15.0[${PYTHON_USEDEP}]
+	~dev-python/termcolor-2.3.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/libcst[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/jsons[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/autopep8[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	~dev-python/ruamel-yaml-0.17.32[${PYTHON_USEDEP}]
+	~dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
+	~dev-python/autopep8-2.0.2[${PYTHON_USEDEP}]
+	~dev-python/croniter-2.0.1[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flameprof[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

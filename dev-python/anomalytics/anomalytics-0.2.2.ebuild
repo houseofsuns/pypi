@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="codequality docs extra security testcov"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	codequality? ( dev-python/black[${PYTHON_USEDEP}] )
-	codequality? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	codequality? ( dev-python/isort[${PYTHON_USEDEP}] )
-	codequality? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.4[${PYTHON_USEDEP}]
+	codequality? ( >=dev-python/black-23.11.0[${PYTHON_USEDEP}] )
+	codequality? ( >=dev-python/colorama-0.4.6[${PYTHON_USEDEP}] )
+	codequality? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	codequality? ( >=dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
 	codequality? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	security? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	testcov? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	security? ( >=dev-python/bandit-1.7.5[${PYTHON_USEDEP}] )
+	testcov? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

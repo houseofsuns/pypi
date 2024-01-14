@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/databricks-connect[${PYTHON_USEDEP}]
 	dev-python/databricks-sql-connector[${PYTHON_USEDEP}]
 	dev-python/mlflow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,38 +24,38 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	dev-python/evfuncs[${PYTHON_USEDEP}]
 	dev-python/birdsong-recognition-dataset[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
 	dev-python/SoundFile[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/crowsetta[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pycln[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	doc? ( >dev-python/ipython-8.7.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/jupyterlab-3.0.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	doc? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyprojroot[${PYTHON_USEDEP}] )
-	doc? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/sphinx-tabs-3.3.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.12.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-3.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

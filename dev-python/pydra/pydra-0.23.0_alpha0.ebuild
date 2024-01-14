@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dask dev doc docs test tests"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-19.1.0[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}]
 	dev-python/etelemetry[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fileformats[${PYTHON_USEDEP}]
 	dev-python/importlib_resources[${PYTHON_USEDEP}]
 	all? ( dev-python/pydra[${PYTHON_USEDEP}] )
@@ -37,15 +37,15 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydra[${PYTHON_USEDEP}] )
 	doc? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-apidoc-0.3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-versioning[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydra[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-xdist-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )

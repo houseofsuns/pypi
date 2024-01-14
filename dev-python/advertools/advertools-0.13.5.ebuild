@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-0.4[${PYTHON_USEDEP}]
 	dev-python/scrapy[${PYTHON_USEDEP}]
-	dev-python/twython[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]"
+	>=dev-python/twython-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

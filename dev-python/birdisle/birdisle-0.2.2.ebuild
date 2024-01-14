@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aioredis redis test"
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cffi-1.0.0[${PYTHON_USEDEP}]
 	aioredis? ( dev-python/aioredis[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-3.4.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
 	test? ( dev-python/redis[${PYTHON_USEDEP}] )

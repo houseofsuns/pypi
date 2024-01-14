@@ -26,26 +26,26 @@ KEYWORDS="~amd64 ~x86"
 IUSE="stable"
 DEPENDENCIES="dev-python/fmf[${PYTHON_USEDEP}]
 	dev-python/libsan[${PYTHON_USEDEP}]
-	stable? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	stable? ( dev-python/certifi[${PYTHON_USEDEP}] )
-	stable? ( dev-python/charset-normalizer[${PYTHON_USEDEP}] )
-	stable? ( dev-python/configobj[${PYTHON_USEDEP}] )
-	stable? ( dev-python/filelock[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/attrs-22.2.0[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/charset-normalizer-3.0.1[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/configobj-5.0.8[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/filelock-3.9.0[${PYTHON_USEDEP}] )
 	stable? ( dev-python/fmf[${PYTHON_USEDEP}] )
-	stable? ( dev-python/idna[${PYTHON_USEDEP}] )
-	stable? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/idna-3.4[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}] )
 	stable? ( dev-python/libsan[${PYTHON_USEDEP}] )
-	stable? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/marshmallow-3.19.0[${PYTHON_USEDEP}] )
 	stable? ( dev-python/netapp-ontap[${PYTHON_USEDEP}] )
 	stable? ( dev-python/netifaces2[${PYTHON_USEDEP}] )
-	stable? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	stable? ( dev-python/pyrsistent[${PYTHON_USEDEP}] )
-	stable? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )
-	stable? ( dev-python/requests[${PYTHON_USEDEP}] )
-	stable? ( dev-python/ruamel-yaml-clib[${PYTHON_USEDEP}] )
-	stable? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	stable? ( dev-python/six[${PYTHON_USEDEP}] )
-	stable? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	stable? ( dev-python/urllib3[${PYTHON_USEDEP}] )"
+	stable? ( ~dev-python/packaging-23.0[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/pyrsistent-0.19.3[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/ruamel-yaml-clib-0.2.7[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}] )
+	stable? ( ~dev-python/urllib3-1.26.14[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

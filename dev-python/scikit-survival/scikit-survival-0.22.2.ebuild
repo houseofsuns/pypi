@@ -29,34 +29,34 @@ DEPENDENCIES="dev-python/ecos[${PYTHON_USEDEP}]
 	dev-python/numexpr[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/osqp[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.5[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cython[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/cython-0.29[${PYTHON_USEDEP}] )
 	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-scm-6.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/ipython-8.7.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.9.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pydata-sphinx-theme-0.13.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	nbval? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	nbval? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	nbval? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	nbval? ( >dev-python/ipython-8.7.0[${PYTHON_USEDEP}] )
+	nbval? ( ~dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	nbval? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	nbval? ( dev-python/nbval[${PYTHON_USEDEP}] )
-	nbval? ( dev-python/seaborn[${PYTHON_USEDEP}] )"
+	nbval? ( >=dev-python/nbval-0.10.0[${PYTHON_USEDEP}] )
+	nbval? ( ~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
+	>=dev-python/python-magic-0.4.15[${PYTHON_USEDEP}]
 	dev-python/dateutils[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]
 	dev-python/chibi-donkey[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

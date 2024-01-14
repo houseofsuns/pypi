@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/progressbar2[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/gputil[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	build-doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	build-doc? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	build-doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	build-doc? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	build-doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/distro[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/distro-1.0.4[${PYTHON_USEDEP}]
 	dev-python/grains-virt[${PYTHON_USEDEP}]
 	dev-python/idem-posix[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

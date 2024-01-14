@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	dev-python/mashumaro[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	>=dev-python/orjson-3.9.8[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

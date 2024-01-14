@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/drmaa[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
 	dev-python/rq[${PYTHON_USEDEP}]
@@ -36,14 +36,14 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	dev? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/IPython[${PYTHON_USEDEP}] )

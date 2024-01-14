@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
+	~dev-python/mypy-1.3.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/junitparser[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.5.0[${PYTHON_USEDEP}]
+	~dev-python/cryptography-39.0.2[${PYTHON_USEDEP}]
 	dev-python/python-on-whales[${PYTHON_USEDEP}]
 	dev-python/pygithub[${PYTHON_USEDEP}]
 	dev-python/slack-sdk[${PYTHON_USEDEP}]
 	dev-python/atlassian-python-api[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/rich-13.3.5[${PYTHON_USEDEP}]
 	dev-python/jenkinsapi[${PYTHON_USEDEP}]
 	dev-python/pyaml-env[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]"
+	~dev-python/boto3-1.26.140[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

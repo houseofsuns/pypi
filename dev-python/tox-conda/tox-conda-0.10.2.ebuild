@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/ruamel-yaml-0.18[${PYTHON_USEDEP}]
+	<dev-python/tox-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

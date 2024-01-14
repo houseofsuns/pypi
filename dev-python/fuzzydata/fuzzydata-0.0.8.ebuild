@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="modin"
 DEPENDENCIES="dev-python/faker[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.7[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	modin? ( dev-python/modin[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

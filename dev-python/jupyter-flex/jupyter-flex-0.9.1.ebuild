@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/ipykernel[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipykernel-6.21.3[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-7.2.9[${PYTHON_USEDEP}]
 	dev-python/voila[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )

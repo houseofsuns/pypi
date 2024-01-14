@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
-	dev-python/intervaltree[${PYTHON_USEDEP}]
+	>=dev-python/intervaltree-2.1.0[${PYTHON_USEDEP}]
 	dev-python/IPython[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.18.1[${PYTHON_USEDEP}]
 	dev-python/pretty-midi[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]"
+	>=dev-python/scipy-0.18.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

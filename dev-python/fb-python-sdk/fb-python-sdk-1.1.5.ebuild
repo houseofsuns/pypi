@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev? ( dev-python/certifi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/websocket-client[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/certifi-2018.4.16[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.22.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-1.0.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/certifi-2018.4.16[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/urllib3-1.22.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/websocket-client-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )

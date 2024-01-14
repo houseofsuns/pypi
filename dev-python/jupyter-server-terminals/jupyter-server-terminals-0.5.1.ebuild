@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/terminado[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/terminado-0.8.3[${PYTHON_USEDEP}]
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mistune-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	docs? ( dev-python/packaging[${PYTHON_USEDEP}] )
@@ -37,9 +37,9 @@ DEPENDENCIES="dev-python/terminado[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-jupyter[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/jupyter-server-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-jupyter-0.5.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

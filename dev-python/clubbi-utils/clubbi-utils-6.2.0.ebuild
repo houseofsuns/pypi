@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mysql orjson postgresql pydantic slack"
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}]
 	dev-python/aiobotocore[${PYTHON_USEDEP}]
-	mysql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}] )
+	orjson? ( <dev-python/orjson-4.0[${PYTHON_USEDEP}] )
+	postgresql? ( <dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}] )
+	pydantic? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	slack? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

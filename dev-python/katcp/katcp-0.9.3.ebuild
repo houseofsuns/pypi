@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/ply[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]"
+	<dev-python/tornado-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

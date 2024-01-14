@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="magic"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/httpx-0.25[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	magic? ( dev-python/python-magic[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

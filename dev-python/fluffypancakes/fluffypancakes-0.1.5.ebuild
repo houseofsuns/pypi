@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.9.0[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.4[${PYTHON_USEDEP}]
 	dev-python/python-whois[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	>=dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	>=dev-python/tqdm-4.46.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.8[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-3.7[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="django"
-DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
-	django? ( dev-python/django-redis[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/redis-2.10.0[${PYTHON_USEDEP}]
+	django? ( >=dev-python/django-redis-3.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

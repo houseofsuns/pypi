@@ -33,12 +33,12 @@ DEPENDENCIES="dev-python/invenio-records[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/flask-babelex[${PYTHON_USEDEP}]
 	dev-python/deepmerge[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev? ( dev-python/oarepo-tools[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/psutil[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

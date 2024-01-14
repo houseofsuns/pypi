@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	recommended-torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	recommended-torch? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	recommended-torch? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
-	unittest? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	unittest? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	unittest? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )

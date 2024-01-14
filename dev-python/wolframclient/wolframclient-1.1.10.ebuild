@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/oauthlib[${PYTHON_USEDEP}]
 	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]"
+	>=dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc openstack test"
-DEPENDENCIES="dev-python/cliff[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cliff-2.10[${PYTHON_USEDEP}]
 	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-2.0.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/futurist[${PYTHON_USEDEP}]
 	dev-python/iso8601[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/cliff[${PYTHON_USEDEP}]
 	dev-python/debtcollector[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	openstack? ( dev-python/osc-lib[${PYTHON_USEDEP}] )
+	openstack? ( >=dev-python/osc-lib-0.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-openstackclient[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"

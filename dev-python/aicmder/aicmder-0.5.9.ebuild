@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="http nlp onnx"
-DEPENDENCIES="dev-python/pyzmq[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyzmq-17.1.0[${PYTHON_USEDEP}]
 	dev-python/GPUtil[${PYTHON_USEDEP}]
 	dev-python/pickle5[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]

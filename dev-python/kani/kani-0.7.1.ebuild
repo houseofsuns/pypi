@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="anthropic ctransformers huggingface llama openai"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	anthropic? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	ctransformers? ( dev-python/ctransformers[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/transformers[${PYTHON_USEDEP}] )

@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cache docs speedups test"
-DEPENDENCIES="test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	speedups? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	all? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+DEPENDENCIES="test? ( <dev-python/pytest-asyncio-0.19.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-asyncio-0.19.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	speedups? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocstrings-0.19.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/mkdocstrings-0.19.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )
 	all? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
-	speedups? ( dev-python/cchardet[${PYTHON_USEDEP}] )
-	all? ( dev-python/cchardet[${PYTHON_USEDEP}] )
-	dev-python/attrs[${PYTHON_USEDEP}]
+	docs? ( <dev-python/mkdocs-autorefs-0.5.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/mkdocs-autorefs-0.5.0[${PYTHON_USEDEP}] )
+	speedups? ( <dev-python/cchardet-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/cchardet-3.0.0[${PYTHON_USEDEP}] )
+	<dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
 	cache? ( dev-python/aiohttp-client-cache[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiohttp-client-cache[${PYTHON_USEDEP}] )
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	speedups? ( dev-python/aiodns[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiodns[${PYTHON_USEDEP}] )
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	speedups? ( <dev-python/aiodns-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/aiodns-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	speedups? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	all? ( dev-python/Brotli[${PYTHON_USEDEP}] )"

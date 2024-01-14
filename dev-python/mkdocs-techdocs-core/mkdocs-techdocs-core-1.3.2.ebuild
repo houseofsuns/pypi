@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mkdocs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mkdocs-1.5[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material[${PYTHON_USEDEP}]
+	~dev-python/mkdocs-material-9.2.7[${PYTHON_USEDEP}]
 	dev-python/markdown-inline-graphviz-extension[${PYTHON_USEDEP}]
-	dev-python/mkdocs-monorepo-plugin[${PYTHON_USEDEP}]
+	~dev-python/mkdocs-monorepo-plugin-1.0.5[${PYTHON_USEDEP}]
 	dev-python/plantuml-markdown[${PYTHON_USEDEP}]
 	dev-python/mdx-truly-sane-lists[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]"
+	~dev-python/pymdown-extensions-10.3.1[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.17.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

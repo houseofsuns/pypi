@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs lint test"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.56[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/anyio[${PYTHON_USEDEP}] )
@@ -38,14 +38,14 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-1.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-material-8.2.11[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-0.18.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-8.2.11[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.18.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	lint? ( dev-python/yapf[${PYTHON_USEDEP}] )

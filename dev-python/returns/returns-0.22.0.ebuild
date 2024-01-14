@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="compatible-mypy"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	compatible-mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	compatible-mypy? ( <dev-python/mypy-1.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

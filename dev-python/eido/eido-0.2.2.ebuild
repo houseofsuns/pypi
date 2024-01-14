@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jsonschema-3.0.1[${PYTHON_USEDEP}]
 	dev-python/logmuse[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/peppy[${PYTHON_USEDEP}]

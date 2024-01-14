@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/setuptools-42.0[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.29.15[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.6[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

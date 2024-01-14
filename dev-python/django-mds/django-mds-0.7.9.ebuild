@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/coreapi[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	<dev-python/django-3.0[${PYTHON_USEDEP}]
 	dev-python/django-filter[${PYTHON_USEDEP}]
 	dev-python/django-cors-headers[${PYTHON_USEDEP}]
 	dev-python/django-oauth-toolkit[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.9.3[${PYTHON_USEDEP}]
 	dev-python/drf-yasg[${PYTHON_USEDEP}]
 	dev-python/getconf[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]

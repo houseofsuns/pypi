@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/lsst-daf-butler[${PYTHON_USEDEP}]
 	dev-python/lsst-pipe-base[${PYTHON_USEDEP}]
 	dev-python/lsst-ctrl-mpexec[${PYTHON_USEDEP}]
 	dev-python/lsst-utils[${PYTHON_USEDEP}]
 	dev-python/lsst-resources[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-openfiles[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

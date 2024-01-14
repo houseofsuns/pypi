@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/optax[${PYTHON_USEDEP}]
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2020.12.30[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.8.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nb-black[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.3.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/isort[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

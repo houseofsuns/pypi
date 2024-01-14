@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/panda3d[${PYTHON_USEDEP}]
 	dev-python/panda3d-simplepbr[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pylint[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

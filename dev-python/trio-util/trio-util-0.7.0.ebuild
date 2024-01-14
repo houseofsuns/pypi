@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/async-generator[${PYTHON_USEDEP}]
-	dev-python/trio[${PYTHON_USEDEP}]"
+	>=dev-python/trio-0.11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

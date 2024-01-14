@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/nmoscommon[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-0.10.1[${PYTHON_USEDEP}]
 	dev-python/cysystemd[${PYTHON_USEDEP}]
 	dev-python/ws4py[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-0.9.3[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]"
+	<dev-python/werkzeug-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

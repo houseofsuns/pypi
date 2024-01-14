@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/asphalt-web[${PYTHON_USEDEP}]
 	dev-python/asphalt[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

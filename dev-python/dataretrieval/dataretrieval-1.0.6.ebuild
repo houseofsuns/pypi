@@ -27,7 +27,7 @@ IUSE="doc test"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

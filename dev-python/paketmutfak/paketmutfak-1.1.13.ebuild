@@ -27,12 +27,12 @@ IUSE=""
 DEPENDENCIES="dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/beartype[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/beartype-0.10.4[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.24.3[${PYTHON_USEDEP}]
+	<dev-python/flake8-6.0.0[${PYTHON_USEDEP}]
+	~dev-python/iso8601-1.0.2[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	~dev-python/setuptools-57.0.0[${PYTHON_USEDEP}]
 	dev-python/slugify[${PYTHON_USEDEP}]
 	dev-python/uuid[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

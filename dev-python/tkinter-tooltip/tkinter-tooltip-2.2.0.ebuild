@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs examples"
-DEPENDENCIES="dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )

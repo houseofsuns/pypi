@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/csscompressor[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/identify[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
+	<dev-python/mistune-0.999[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pygments-ansi-color[${PYTHON_USEDEP}]
+	>=dev-python/pygments-ansi-color-0.0.3[${PYTHON_USEDEP}]
 	dev-python/pygments-solarized-style[${PYTHON_USEDEP}]
 	dev-python/pyquery[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

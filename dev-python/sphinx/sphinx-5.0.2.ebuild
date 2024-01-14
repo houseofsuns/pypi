@@ -27,26 +27,26 @@ IUSE="docs lint test"
 DEPENDENCIES="dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}]
+	>=dev-python/sphinxcontrib-htmlhelp-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinxcontrib-serializinghtml-1.1.5[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/snowballstemmer[${PYTHON_USEDEP}]
+	<dev-python/docutils-0.19[${PYTHON_USEDEP}]
+	>=dev-python/snowballstemmer-1.1[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
-	dev-python/alabaster[${PYTHON_USEDEP}]
+	<dev-python/alabaster-0.8[${PYTHON_USEDEP}]
 	dev-python/imagesize[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.5.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/mypy-0.950[${PYTHON_USEDEP}] )
 	lint? ( dev-python/docutils-stubs[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-typed-ast[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/html5lib[${PYTHON_USEDEP}] )
 	test? ( dev-python/cython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

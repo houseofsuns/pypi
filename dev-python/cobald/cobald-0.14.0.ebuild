@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="contrib docs test"
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/trio[${PYTHON_USEDEP}]
+	>=dev-python/trio-0.4.0[${PYTHON_USEDEP}]
 	dev-python/entrypoints[${PYTHON_USEDEP}]
 	dev-python/toposort[${PYTHON_USEDEP}]
 	contrib? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	contrib? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	contrib? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	contrib? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	contrib? ( >=dev-python/pytest-4.3.0[${PYTHON_USEDEP}] )
 	contrib? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	contrib? ( dev-python/black[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

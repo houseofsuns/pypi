@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]"
+	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-1.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.30[${PYTHON_USEDEP}]
+	<dev-python/pandas-1.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

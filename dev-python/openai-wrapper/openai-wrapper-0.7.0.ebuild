@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
-	dev-python/configobj[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/dnspython-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/typeguard-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/configobj-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

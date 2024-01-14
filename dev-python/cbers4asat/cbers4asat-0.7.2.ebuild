@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tools"
 DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	tools? ( dev-python/geojson[${PYTHON_USEDEP}] )
 	tools? ( dev-python/geomet[${PYTHON_USEDEP}] )
-	tools? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	tools? ( >=dev-python/numpy-1.24.2[${PYTHON_USEDEP}] )
 	tools? ( dev-python/rasterio[${PYTHON_USEDEP}] )
 	tools? ( dev-python/scikit-image[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

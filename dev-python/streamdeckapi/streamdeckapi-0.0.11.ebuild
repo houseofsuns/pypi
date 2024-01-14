@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/websockets-11.0.2[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	dev-python/human-readable-ids[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
+	~dev-python/jsonpickle-3.0.1[${PYTHON_USEDEP}]
 	dev-python/streamdeck[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/cairosvg[${PYTHON_USEDEP}]

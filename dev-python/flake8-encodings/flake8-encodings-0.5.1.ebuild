@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all classes"
 DEPENDENCIES="dev-python/astatine[${PYTHON_USEDEP}]
 	dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
+	>=dev-python/flake8-3.8.4[${PYTHON_USEDEP}]
 	dev-python/flake8-helper[${PYTHON_USEDEP}]
-	classes? ( dev-python/jedi[${PYTHON_USEDEP}] )
-	all? ( dev-python/jedi[${PYTHON_USEDEP}] )"
+	classes? ( >=dev-python/jedi-0.18.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jedi-0.18.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

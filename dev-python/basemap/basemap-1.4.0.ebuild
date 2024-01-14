@@ -26,22 +26,22 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc lint owslib pillow test"
 DEPENDENCIES="dev-python/basemap-data[${PYTHON_USEDEP}]
 	dev-python/pyshp[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	doc? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	<dev-python/matplotlib-3.9[${PYTHON_USEDEP}]
+	<dev-python/pyproj-3.7.0[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.27[${PYTHON_USEDEP}]
+	doc? ( <dev-python/scipy-1.12[${PYTHON_USEDEP}] )
 	doc? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
-	doc? ( dev-python/cftime[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/astroid[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/cftime-1.7.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-7.2[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/furo-2023.9.11[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/flake8-6.2[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/astroid-3.1[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/pylint-3.1[${PYTHON_USEDEP}] )
 	owslib? ( dev-python/OWSLib[${PYTHON_USEDEP}] )
-	pillow? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	pillow? ( <dev-python/pillow-10.2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-4.2[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.5[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-7.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="faust"
 DEPENDENCIES="dev-python/fastavro[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25[${PYTHON_USEDEP}]
+	<dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}]
 	faust? ( dev-python/faust-streaming[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

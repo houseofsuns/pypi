@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/comm[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/comm-1.0[${PYTHON_USEDEP}]
 	dev-python/pycrdt[${PYTHON_USEDEP}]
 	dev-python/reacttrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

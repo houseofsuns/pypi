@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
 	dev-python/scikit-gstat[${PYTHON_USEDEP}]
 	dev-python/scikit-info[${PYTHON_USEDEP}]
 	dev-python/gstools[${PYTHON_USEDEP}]

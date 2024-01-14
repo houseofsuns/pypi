@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	~dev-python/validators-0.14.2[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.33.6[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
 	dev-python/numpy-indexed[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

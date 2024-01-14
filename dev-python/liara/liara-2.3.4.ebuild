@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs redis"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.7[${PYTHON_USEDEP}]
+	~dev-python/blinker-1.4[${PYTHON_USEDEP}]
+	~dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/libsass[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	~dev-python/libsass-0.21[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.6[${PYTHON_USEDEP}]
 	dev-python/Mako[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	~dev-python/pymdown-extensions-9.0[${PYTHON_USEDEP}]
+	~dev-python/python-slugify-5.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25[${PYTHON_USEDEP}]
+	~dev-python/tomli-2.0[${PYTHON_USEDEP}]
 	dev-python/treelib[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+	~dev-python/tzlocal-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-mypy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	redis? ( ~dev-python/redis-3.5.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

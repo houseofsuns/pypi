@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pandas-0.22.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

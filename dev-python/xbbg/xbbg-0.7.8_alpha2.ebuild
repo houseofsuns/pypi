@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2020.4[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.15.0[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

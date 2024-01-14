@@ -27,9 +27,9 @@ IUSE="all local openai"
 DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.7.0[${PYTHON_USEDEP}]
 	all? ( dev-python/funcchain[${PYTHON_USEDEP}] )
 	all? ( dev-python/funcchain[${PYTHON_USEDEP}] )
 	local? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )

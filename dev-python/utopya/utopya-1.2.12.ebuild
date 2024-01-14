@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc opt test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/coloredlogs[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/python-git-info[${PYTHON_USEDEP}]
 	dev-python/yayaml[${PYTHON_USEDEP}]
 	dev-python/paramspace[${PYTHON_USEDEP}]
@@ -41,18 +41,18 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-order[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	dev? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/ipython-7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pytest[${PYTHON_USEDEP}] )

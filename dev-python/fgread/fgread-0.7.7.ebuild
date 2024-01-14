@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/get_version[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
+	~dev-python/tables-3.6[${PYTHON_USEDEP}]
 	dev-python/loompy[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	>=dev-python/pandas-0.25[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

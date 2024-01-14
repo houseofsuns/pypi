@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/matchms[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/ms2deepscore[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/matchmsextras[${PYTHON_USEDEP}]
 	dev-python/pubchempy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
@@ -42,11 +42,11 @@ DEPENDENCIES="dev-python/matchms[${PYTHON_USEDEP}]
 	dev-python/tensorflow-macos[${PYTHON_USEDEP}]
 	dev-python/tensorflow-metal[${PYTHON_USEDEP}]
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/prospector[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )

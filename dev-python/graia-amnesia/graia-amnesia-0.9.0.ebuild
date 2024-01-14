@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp asgi httpx sqla"
 DEPENDENCIES="dev-python/launart[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	asgi? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	sqla? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
+	asgi? ( >=dev-python/uvicorn-0.23.2[${PYTHON_USEDEP}] )
+	httpx? ( >=dev-python/httpx-0.26.0[${PYTHON_USEDEP}] )
+	aiohttp? ( >=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}] )
+	sqla? ( >=dev-python/sqlalchemy-2.0.25[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

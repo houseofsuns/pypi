@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	~dev-python/html5lib-1.1[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
+	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.30.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

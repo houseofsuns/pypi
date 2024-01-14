@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	<dev-python/semver-3.0.0[${PYTHON_USEDEP}]
 	dev-python/oauthenticator[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
+	<dev-python/jupyter-client-7.0.0[${PYTHON_USEDEP}]
 	dev-python/jupyterhub-jwtauthenticator[${PYTHON_USEDEP}]
 	dev-python/jupyterhub-kubespawner[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
 	dev-python/eliot[${PYTHON_USEDEP}]
 	dev-python/eliot-tree[${PYTHON_USEDEP}]
 	dev-python/argo-workflows[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
+	<dev-python/asgiref-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

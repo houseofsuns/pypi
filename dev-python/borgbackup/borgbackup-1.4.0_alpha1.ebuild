@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="llfuse pyfuse3"
-DEPENDENCIES="dev-python/msgpack[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/msgpack-1.0.7[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	llfuse? ( dev-python/llfuse[${PYTHON_USEDEP}] )
-	pyfuse3? ( dev-python/pyfuse3[${PYTHON_USEDEP}] )"
+	llfuse? ( >=dev-python/llfuse-1.3.8[${PYTHON_USEDEP}] )
+	pyfuse3? ( >=dev-python/pyfuse3-3.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

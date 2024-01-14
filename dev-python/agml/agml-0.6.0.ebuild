@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/albumentations[${PYTHON_USEDEP}]
 	dev-python/dict2xml[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
@@ -40,9 +40,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/botocore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-order[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-order[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-order-1.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-order-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

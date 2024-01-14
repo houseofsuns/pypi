@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/dnspython[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/dnspython-2.4.2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pid[${PYTHON_USEDEP}]
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	~dev-python/cryptography-41.0.5[${PYTHON_USEDEP}]
+	~dev-python/pid-3.0.4[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/setuptools-scm-8.0.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-argparse-0.4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tox-4.11.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

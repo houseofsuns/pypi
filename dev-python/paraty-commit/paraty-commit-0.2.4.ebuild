@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
+	~dev-python/pylint-2.15.10[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cibw dev doc full"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
 	cibw? ( dev-python/edfio[${PYTHON_USEDEP}] )
 	cibw? ( dev-python/wfdb[${PYTHON_USEDEP}] )
 	cibw? ( dev-python/numba[${PYTHON_USEDEP}] )
 	dev? ( dev-python/edfio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/joblib-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocs-material-8.4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocstrings-python-0.7.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.991[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-56.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wfdb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numba[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-material-8.4.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocstrings-python-0.8.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/edfio[${PYTHON_USEDEP}] )
-	full? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/joblib-1.0.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/wfdb[${PYTHON_USEDEP}] )
 	full? ( dev-python/numba[${PYTHON_USEDEP}] )
 	full? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"

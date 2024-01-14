@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/checkthechain[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/ipython_genutils[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	<dev-python/ipykernel-7.0[${PYTHON_USEDEP}]
+	<dev-python/ipython_genutils-1.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
+	<dev-python/nbconvert-7.0[${PYTHON_USEDEP}]
+	<dev-python/nbformat-6.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.25[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0[${PYTHON_USEDEP}]
 	dev-python/paradigm-data-portal[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/toolcli[${PYTHON_USEDEP}]
 	dev-python/toolplot[${PYTHON_USEDEP}]
 	dev-python/toolstr[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	test? ( ~dev-python/mypy-1.2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mypy_extensions-1.1.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-tqdm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

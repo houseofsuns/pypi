@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.23[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
 	dev-python/pydynaa[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/netsquid[${PYTHON_USEDEP}]
 	dev-python/netsquid-magic[${PYTHON_USEDEP}]
 	dev-python/netqasm[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	~dev-python/networkx-3.1[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.6.3[${PYTHON_USEDEP}]
+	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-xdist-4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-5.11[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-22.4[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-0.951[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dacite[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

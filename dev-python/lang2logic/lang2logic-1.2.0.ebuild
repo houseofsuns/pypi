@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/langchain-community[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.5.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"

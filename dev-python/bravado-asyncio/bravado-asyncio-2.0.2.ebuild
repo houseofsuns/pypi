@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiobravado aiohttp_extras"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.3[${PYTHON_USEDEP}]
 	dev-python/bravado[${PYTHON_USEDEP}]
 	dev-python/yelp-bytes[${PYTHON_USEDEP}]
 	aiobravado? ( dev-python/aiobravado[${PYTHON_USEDEP}] )

@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/automaton[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/openstacksdk[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-3.4.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.5.0[${PYTHON_USEDEP}]
+	>=dev-python/openstacksdk-0.13.0[${PYTHON_USEDEP}]
 	dev-python/oslo-cache[${PYTHON_USEDEP}]
-	dev-python/oslo-concurrency[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
+	>=dev-python/oslo-concurrency-3.26.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-3.15.3[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.36.0[${PYTHON_USEDEP}]
 	dev-python/oslo-middleware[${PYTHON_USEDEP}]
 	dev-python/oslo-privsep[${PYTHON_USEDEP}]
 	dev-python/oslo-service[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.33.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
 	dev-python/python-consul[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

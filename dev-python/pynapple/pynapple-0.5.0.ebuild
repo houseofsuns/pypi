@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dandi dev docs"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/pandas-1.0.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.4[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.2[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/pynwb[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]

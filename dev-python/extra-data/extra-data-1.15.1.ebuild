@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bridge complete docs test"
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/h5py-2.10[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]

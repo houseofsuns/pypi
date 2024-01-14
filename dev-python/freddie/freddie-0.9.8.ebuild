@@ -27,9 +27,9 @@ IUSE="db dev test"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	db? ( dev-python/aiopg[${PYTHON_USEDEP}] )
 	db? ( dev-python/peewee-async[${PYTHON_USEDEP}] )
-	db? ( dev-python/peewee[${PYTHON_USEDEP}] )
+	db? ( ~dev-python/peewee-3.13.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )

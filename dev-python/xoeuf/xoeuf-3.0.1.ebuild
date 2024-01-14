@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
+	<dev-python/decorator-4.2[${PYTHON_USEDEP}]
 	dev-python/xotl-tools[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/expiringdict[${PYTHON_USEDEP}]

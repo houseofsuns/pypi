@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/parse[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/colorlog-6.4[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
+	>=dev-python/parse-1.18.0[${PYTHON_USEDEP}]
+	~dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

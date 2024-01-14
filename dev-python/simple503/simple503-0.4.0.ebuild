@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all incremental"
 DEPENDENCIES="dev-python/airium[${PYTHON_USEDEP}]
 	dev-python/apeye[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	dev-python/consolekit[${PYTHON_USEDEP}]
 	dev-python/dist-meta[${PYTHON_USEDEP}]
 	dev-python/dom-toml[${PYTHON_USEDEP}]
 	dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
+	>=dev-python/natsort-7.1.1[${PYTHON_USEDEP}]
 	dev-python/shippinglabel[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	incremental? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )"
+	>=dev-python/typing-extensions-3.7.4.1[${PYTHON_USEDEP}]
+	incremental? ( >=dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

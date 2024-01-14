@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/taskiq-dependencies[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	<dev-python/deepmerge-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

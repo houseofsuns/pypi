@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/apsw[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/apsw-3.43.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

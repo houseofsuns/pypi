@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all pandas test test_minimal types"
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cffi-1.10.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/tzlocal[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	test_minimal? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test_minimal? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test_minimal? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

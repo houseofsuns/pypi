@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.7.2[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.1[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]"
+	>=dev-python/uvloop-0.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

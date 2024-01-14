@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop docs"
-DEPENDENCIES="dev-python/parse[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/parse-1.8.2[${PYTHON_USEDEP}]
 	dev-python/parse-type[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.11[${PYTHON_USEDEP}]
 	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	develop? ( dev-python/tox[${PYTHON_USEDEP}] )
 	develop? ( dev-python/invoke[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/parse[${PYTHON_USEDEP}]
 	develop? ( dev-python/pathlib[${PYTHON_USEDEP}] )
 	develop? ( dev-python/modernize[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-1.6[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-bootstrap-theme-0.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

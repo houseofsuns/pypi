@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all drive dropbox google"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.4.7[${PYTHON_USEDEP}]
 	all? ( dev-python/dropbox[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydrive[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )

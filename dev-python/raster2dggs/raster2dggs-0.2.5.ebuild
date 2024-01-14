@@ -29,12 +29,12 @@ DEPENDENCIES="dev-python/gdal[${PYTHON_USEDEP}]
 	dev-python/h3pandas[${PYTHON_USEDEP}]
 	dev-python/rioxarray[${PYTHON_USEDEP}]
 	dev-python/dask-geopandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}]
+	<dev-python/dask-2024.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-log-0.5.0[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

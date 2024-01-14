@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/redis-3.5.3[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

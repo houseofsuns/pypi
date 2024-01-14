@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc lint test"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httpx-0.20[${PYTHON_USEDEP}]
+	>=dev-python/nest-asyncio-1.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.6[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )

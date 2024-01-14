@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="msgpack"
-DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/redis-3.0[${PYTHON_USEDEP}]
 	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

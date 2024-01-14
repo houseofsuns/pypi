@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/anytree[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/sh[${PYTHON_USEDEP}]
+	>=dev-python/sh-1.13.1[${PYTHON_USEDEP}]
 	dev-python/wait-for[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

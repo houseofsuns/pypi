@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all excel parquet"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	excel? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	parquet? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
+	excel? ( >=dev-python/openpyxl-3.0.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/openpyxl-3.0.5[${PYTHON_USEDEP}] )
+	parquet? ( >=dev-python/pyarrow-9.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyarrow-9.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

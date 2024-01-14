@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="client"
 DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
-	client? ( dev-python/structlog[${PYTHON_USEDEP}] )
-	client? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	client? ( <dev-python/structlog-22.4.0[${PYTHON_USEDEP}] )
+	client? ( <dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}] )
+	<dev-python/cryptography-38.1.0[${PYTHON_USEDEP}]
 	dev-python/pycoin[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

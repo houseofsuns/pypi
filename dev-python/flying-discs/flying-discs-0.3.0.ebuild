@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci dev jupyter lint style test type"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	ci? ( dev-python/genbadge[${PYTHON_USEDEP}] )
 	ci? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	ci? ( dev-python/hatch-regex-commit[${PYTHON_USEDEP}] )

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="full"
 DEPENDENCIES="full? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	full? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all apprise tui twilio"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/fake-useragent[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/ratelimit[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.13[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/pytz-2023.2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/ratelimit-2.2.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	all? ( dev-python/apprise[${PYTHON_USEDEP}] )
+	~dev-python/rich-13.3.2[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
+	all? ( ~dev-python/apprise-1.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/trogon[${PYTHON_USEDEP}] )
 	all? ( dev-python/twilio[${PYTHON_USEDEP}] )
-	apprise? ( dev-python/apprise[${PYTHON_USEDEP}] )
+	apprise? ( ~dev-python/apprise-1.3.0[${PYTHON_USEDEP}] )
 	tui? ( dev-python/trogon[${PYTHON_USEDEP}] )
 	twilio? ( dev-python/twilio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

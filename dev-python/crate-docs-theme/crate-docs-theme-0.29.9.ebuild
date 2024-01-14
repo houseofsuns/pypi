@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/myst-parser[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinx-copybutton[${PYTHON_USEDEP}]
+	~dev-python/docutils-0.16[${PYTHON_USEDEP}]
+	<dev-python/myst-parser-3.0[${PYTHON_USEDEP}]
+	<dev-python/sphinx-7.0[${PYTHON_USEDEP}]
+	<dev-python/sphinx-copybutton-1.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-design[${PYTHON_USEDEP}]
 	dev-python/sphinx-design-elements[${PYTHON_USEDEP}]
 	dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}]
@@ -37,6 +37,6 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/sphinx-togglebutton[${PYTHON_USEDEP}]
 	dev-python/sphinxext-opengraph[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-plantuml[${PYTHON_USEDEP}]"
+	<dev-python/sphinxcontrib-plantuml-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

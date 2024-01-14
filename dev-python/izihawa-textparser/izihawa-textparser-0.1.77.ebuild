@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiobaseclient[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	<dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}]
 	dev-python/aiokit[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/isbnlib[${PYTHON_USEDEP}]
 	dev-python/izihawa-netlib[${PYTHON_USEDEP}]
 	dev-python/izihawa-textutils[${PYTHON_USEDEP}]
 	dev-python/izihawa-utils[${PYTHON_USEDEP}]
 	dev-python/markdownify[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]
+	<dev-python/pypdf-4.0.0[${PYTHON_USEDEP}]
 	dev-python/python-iso639[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+	<dev-python/xmltodict-0.14.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

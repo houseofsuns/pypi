@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httpx-0.18.2[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-57.4.0[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

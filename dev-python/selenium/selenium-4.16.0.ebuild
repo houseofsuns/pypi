@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/trio[${PYTHON_USEDEP}]
-	dev-python/trio-websocket[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
+	~dev-python/trio-0.17[${PYTHON_USEDEP}]
+	~dev-python/trio-websocket-0.9[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

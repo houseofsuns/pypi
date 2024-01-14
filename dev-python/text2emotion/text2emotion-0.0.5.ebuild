@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]"
+	>=dev-python/emoji-0.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

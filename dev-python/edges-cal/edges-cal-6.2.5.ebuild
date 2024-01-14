@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	report? ( dev-python/papermill[${PYTHON_USEDEP}] )

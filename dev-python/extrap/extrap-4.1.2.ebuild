@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyside6-6.4[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.18[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.47[${PYTHON_USEDEP}]
 	dev-python/pycubexr[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.7[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Cocoa[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

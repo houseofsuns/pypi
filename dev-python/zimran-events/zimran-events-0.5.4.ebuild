@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pika[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pika-1.3.2[${PYTHON_USEDEP}]
 	dev-python/aio-pika[${PYTHON_USEDEP}]
 	dev-python/aioretry[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

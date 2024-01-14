@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.2.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )

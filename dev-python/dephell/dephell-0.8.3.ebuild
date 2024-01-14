@@ -31,10 +31,10 @@ DEPENDENCIES="full? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
 	docs? ( dev-python/alabaster[${PYTHON_USEDEP}] )
 	dev? ( dev-python/alabaster[${PYTHON_USEDEP}] )
 	full? ( dev-python/appdirs[${PYTHON_USEDEP}] )
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
 	full? ( dev-python/autopep8[${PYTHON_USEDEP}] )
 	full? ( dev-python/bowler[${PYTHON_USEDEP}] )
-	dev-python/cerberus[${PYTHON_USEDEP}]
+	>=dev-python/cerberus-1.3[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	full? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	dev-python/dephell-archive[${PYTHON_USEDEP}]
@@ -60,7 +60,7 @@ DEPENDENCIES="full? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/m2r[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+	<=dev-python/pip-19.3.1[${PYTHON_USEDEP}]
 	full? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pygments-github-lexers[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pygments-github-lexers[${PYTHON_USEDEP}] )

@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyteomics[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/psims[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/lark-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pandas-stubs[${PYTHON_USEDEP}]
 	dev-python/uniplot[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/tomli-w[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]"
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8[${PYTHON_USEDEP}]
+	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

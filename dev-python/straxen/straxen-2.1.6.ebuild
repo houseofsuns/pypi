@@ -33,21 +33,21 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	<dev-python/pymongo-4.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/strax[${PYTHON_USEDEP}]
 	dev-python/utilix[${PYTHON_USEDEP}]
 	dev-python/xedocs[${PYTHON_USEDEP}]
-	docs? ( dev-python/commonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/graphviz[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/commonmark-0.9.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/graphviz-0.20.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mistune[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mistune-0.8.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/urllib3-2.1.0[${PYTHON_USEDEP}] )
 	microstrax? ( dev-python/hug[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

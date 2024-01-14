@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pdf"
-DEPENDENCIES="dev-python/bibtexparser[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bibtexparser-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.6.0[${PYTHON_USEDEP}]
 	dev-python/requests-cache[${PYTHON_USEDEP}]
 	pdf? ( dev-python/pdf2doi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

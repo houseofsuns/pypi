@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs plotting"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	dev-python/pyteomics[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/tomlkit-1.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/psm-utils[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/numpydoc-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	docs? ( dev-python/toml[${PYTHON_USEDEP}] )
-	docs? ( dev-python/semver[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/semver-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/spectrum-utils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

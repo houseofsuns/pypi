@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Whoosh[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.3.2[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
 	dev-python/devpi-server[${PYTHON_USEDEP}]
 	dev-python/devpi-common[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	>=dev-python/docutils-0.11[${PYTHON_USEDEP}]
+	>=dev-python/pygments-1.6[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
 	dev-python/pyramid-chameleon[${PYTHON_USEDEP}]
-	dev-python/readme-renderer[${PYTHON_USEDEP}]"
+	>=dev-python/readme-renderer-23.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

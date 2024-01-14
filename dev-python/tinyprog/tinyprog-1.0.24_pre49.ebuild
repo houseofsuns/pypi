@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/jsonmerge[${PYTHON_USEDEP}]
-	dev-python/intelhex[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
+	<dev-python/jsonmerge-2.0[${PYTHON_USEDEP}]
+	<dev-python/intelhex-3.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pyusb[${PYTHON_USEDEP}]"

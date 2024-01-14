@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/imgviz[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
+	>=dev-python/natsort-7.1.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/imgviz[${PYTHON_USEDEP}]
 	dev-python/qimage2ndarray[${PYTHON_USEDEP}]
 	dev-python/darkdetect[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]"
+	>=dev-python/PyQt5-5.15.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

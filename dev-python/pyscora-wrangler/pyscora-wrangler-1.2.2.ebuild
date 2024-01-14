@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/awswrangler[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/pyathena[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/ldap3[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]"
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/ldap3-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/typeguard-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

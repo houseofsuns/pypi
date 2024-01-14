@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async develop docs kerberos"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	async? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	develop? ( dev-python/requests[${PYTHON_USEDEP}] )
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	>=dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
+	async? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/coverage-8.0.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/mock[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-3.0.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	develop? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	develop? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	kerberos? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dask excel hdf5 joblib json pandas parquet"
 DEPENDENCIES="dev-python/gcsfs[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	~dev-python/fsspec-2022.2.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/datetime[${PYTHON_USEDEP}]
 	all? ( dev-python/dask[${PYTHON_USEDEP}] )

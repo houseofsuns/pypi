@@ -25,38 +25,38 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
 DEPENDENCIES="dev-python/behave[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/black-24.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/click_logging_config[${PYTHON_USEDEP}]
 	dev-python/click_logging_config[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
+	<dev-python/flake8-7.0[${PYTHON_USEDEP}]
 	dev-python/flake8-annotations[${PYTHON_USEDEP}]
 	dev-python/flake8-bandit[${PYTHON_USEDEP}]
 	dev-python/flake8-bugbear[${PYTHON_USEDEP}]
 	dev-python/flake8-comprehensions[${PYTHON_USEDEP}]
 	dev-python/flake8-docstrings[${PYTHON_USEDEP}]
-	dev-python/flit[${PYTHON_USEDEP}]
+	<dev-python/flit-4.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/parver[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+	<dev-python/isort-6.0[${PYTHON_USEDEP}]
+	>=dev-python/mypy-1.6.1[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
+	<dev-python/parver-1.0[${PYTHON_USEDEP}]
+	<dev-python/pip-24.0[${PYTHON_USEDEP}]
 	dev-python/pre_commit[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	<dev-python/twine-5.0[${PYTHON_USEDEP}]
+	<dev-python/wheel-1.0[${PYTHON_USEDEP}]
+	<dev-python/pygments-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mutmut[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pipenv[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pipenv-2021.5.29[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-toml[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

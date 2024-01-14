@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lint requests tests"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.3[${PYTHON_USEDEP}]
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )

@@ -24,35 +24,35 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="betamax kerberos oauth1 saml2 test"
-DEPENDENCIES="dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/os-service-types[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	betamax? ( dev-python/betamax[${PYTHON_USEDEP}] )
-	betamax? ( dev-python/fixtures[${PYTHON_USEDEP}] )
-	betamax? ( dev-python/mock[${PYTHON_USEDEP}] )
-	kerberos? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
-	oauth1? ( dev-python/oauthlib[${PYTHON_USEDEP}] )
-	saml2? ( dev-python/lxml[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/iso8601-0.1.11[${PYTHON_USEDEP}]
+	>=dev-python/os-service-types-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-1.20.0[${PYTHON_USEDEP}]
+	betamax? ( >=dev-python/betamax-0.7.0[${PYTHON_USEDEP}] )
+	betamax? ( >=dev-python/fixtures-3.0.0[${PYTHON_USEDEP}] )
+	betamax? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	kerberos? ( >=dev-python/requests-kerberos-0.8.0[${PYTHON_USEDEP}] )
+	oauth1? ( >=dev-python/oauthlib-0.6.2[${PYTHON_USEDEP}] )
+	saml2? ( >=dev-python/lxml-4.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	test? ( dev-python/betamax[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/fixtures[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/bandit-1.7.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/betamax-0.7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/fixtures-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
-	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	test? ( dev-python/oauthlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/oslo-config[${PYTHON_USEDEP}] )
-	test? ( dev-python/oslo-utils[${PYTHON_USEDEP}] )
-	test? ( dev-python/oslotest[${PYTHON_USEDEP}] )
-	test? ( dev-python/reno[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
-	test? ( dev-python/testresources[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/lxml-4.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/oauthlib-0.6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/oslo-utils-3.33.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/oslotest-3.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/reno-3.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-kerberos-0.8.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-mock-1.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-1.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testresources-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testtools-2.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

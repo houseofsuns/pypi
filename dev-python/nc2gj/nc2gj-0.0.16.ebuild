@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/netcdf4[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/xarray-2022.3.0[${PYTHON_USEDEP}]
+	~dev-python/netcdf4-1.5.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

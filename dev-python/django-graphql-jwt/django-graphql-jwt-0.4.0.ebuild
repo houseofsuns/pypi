@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.0[${PYTHON_USEDEP}]
 	dev-python/graphene-django[${PYTHON_USEDEP}]
 	dev-python/graphene[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )

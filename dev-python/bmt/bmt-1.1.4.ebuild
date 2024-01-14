@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/deprecation[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/deprecation-3.0.0[${PYTHON_USEDEP}]
 	dev-python/linkml-runtime[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

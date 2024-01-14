@@ -25,34 +25,34 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="binder deploy tests"
 DEPENDENCIES="dev-python/flatten-dict[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	binder? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	binder? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	binder? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/twine[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	>=dev-python/pandas-0.25.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
+	binder? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	binder? ( ~dev-python/statsmodels-0.13.2[${PYTHON_USEDEP}] )
+	binder? ( >=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}] )
+	deploy? ( ~dev-python/wheel-0.37.1[${PYTHON_USEDEP}] )
+	deploy? ( ~dev-python/twine-4.0.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-22.8.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mkdocs-1.2.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mypy-0.971[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-5.2.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	tests? ( dev-python/six[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	tests? ( dev-python/xlrd[${PYTHON_USEDEP}] )
-	tests? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/six-1.12.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/tabulate-0.8.7[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-six[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	tests? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/statsmodels-0.13.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

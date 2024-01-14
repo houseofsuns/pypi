@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="codeqa coverage dev formatters test typing"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	dev-python/ansible-pygments[${PYTHON_USEDEP}]
 	dev-python/antsibull-core[${PYTHON_USEDEP}]
 	dev-python/antsibull-docs-parser[${PYTHON_USEDEP}]
@@ -32,15 +32,15 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/rstcheck[${PYTHON_USEDEP}]
 	dev-python/semantic-version[${PYTHON_USEDEP}]
 	dev-python/sphinx[${PYTHON_USEDEP}]
 	dev-python/twiggy[${PYTHON_USEDEP}]
 	codeqa? ( dev-python/antsibull-changelog[${PYTHON_USEDEP}] )
-	codeqa? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	codeqa? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	codeqa? ( >=dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
+	codeqa? ( >=dev-python/pylint-2.17.2[${PYTHON_USEDEP}] )
 	codeqa? ( dev-python/reuse[${PYTHON_USEDEP}] )
 	coverage? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/antsibull-docs[${PYTHON_USEDEP}] )
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	test? ( dev-python/asynctest[${PYTHON_USEDEP}] )
 	test? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.12[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-error-for-skips[${PYTHON_USEDEP}] )
 	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )

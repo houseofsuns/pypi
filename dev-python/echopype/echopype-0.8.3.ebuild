@@ -39,10 +39,10 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/xarray-datatree[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.1[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	dev-python/flox[${PYTHON_USEDEP}]
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	plot? ( >=dev-python/matplotlib-3.7[${PYTHON_USEDEP}] )
 	plot? ( dev-python/cmocean[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

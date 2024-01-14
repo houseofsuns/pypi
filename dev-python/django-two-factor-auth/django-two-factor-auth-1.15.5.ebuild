@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="call phonenumbers phonenumberslite sms webauthn yubikey"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django_otp[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
+	<dev-python/qrcode-7.99[${PYTHON_USEDEP}]
 	dev-python/django-phonenumber-field[${PYTHON_USEDEP}]
 	dev-python/django-formtools[${PYTHON_USEDEP}]
 	call? ( dev-python/twilio[${PYTHON_USEDEP}] )
 	sms? ( dev-python/twilio[${PYTHON_USEDEP}] )
 	webauthn? ( dev-python/webauthn[${PYTHON_USEDEP}] )
-	webauthn? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	webauthn? ( <dev-python/pydantic-1.99[${PYTHON_USEDEP}] )
 	yubikey? ( dev-python/django-otp-yubikey[${PYTHON_USEDEP}] )
-	phonenumbers? ( dev-python/phonenumbers[${PYTHON_USEDEP}] )
+	phonenumbers? ( <dev-python/phonenumbers-8.99[${PYTHON_USEDEP}] )
 	phonenumberslite? ( dev-python/phonenumberslite[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/rpaframework-core[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
 	dev-python/types-retry[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

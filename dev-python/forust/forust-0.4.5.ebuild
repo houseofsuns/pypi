@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/maturin[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-material-9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-0.22.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

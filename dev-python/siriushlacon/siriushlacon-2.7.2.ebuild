@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}]
 	dev-python/conscommon[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-3.11.4[${PYTHON_USEDEP}]
 	dev-python/pydm[${PYTHON_USEDEP}]
 	dev-python/pyepics[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2020.1[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/redis-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
 	dev-python/siriuspy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

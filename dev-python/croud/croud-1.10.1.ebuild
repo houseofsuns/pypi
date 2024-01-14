@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development testing"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/bitmath[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.20.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-1.0[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.9.4[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
 	dev-python/shtab[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	development? ( dev-python/black[${PYTHON_USEDEP}] )
-	development? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	development? ( dev-python/isort[${PYTHON_USEDEP}] )
-	development? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-freezegun[${PYTHON_USEDEP}] )"
+	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
+	development? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/tox-3.14.2[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-freezegun-0.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	dev-python/aiologger[${PYTHON_USEDEP}]
-	dev-python/aiosignal[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/frozenlist[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	>=dev-python/aiosignal-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
+	>=dev-python/attrs-21.4.0[${PYTHON_USEDEP}]
+	>=dev-python/charset-normalizer-2.0.10[${PYTHON_USEDEP}]
+	>=dev-python/frozenlist-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/idna-3.3[${PYTHON_USEDEP}]
+	>=dev-python/multidict-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.7.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

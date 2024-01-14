@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs lint test"
 DEPENDENCIES="dev-python/Pykka[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	>=dev-python/tornado-4.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

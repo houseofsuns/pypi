@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/pybtex[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-18.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pybtex-0.22.2[${PYTHON_USEDEP}]
 	dev-python/csvw[${PYTHON_USEDEP}]
 	dev-python/clldutils[${PYTHON_USEDEP}]
 	dev-python/cldfcatalog[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/rangehttpserver[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]
 	dev-python/soco[${PYTHON_USEDEP}]
-	dev-python/ifaddr[${PYTHON_USEDEP}]
+	>=dev-python/ifaddr-0.2.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

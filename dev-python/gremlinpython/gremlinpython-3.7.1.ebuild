@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="kerberos ujson"
 DEPENDENCIES="dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
-	kerberos? ( dev-python/kerberos[${PYTHON_USEDEP}] )
-	ujson? ( dev-python/ujson[${PYTHON_USEDEP}] )"
+	<dev-python/six-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/isodate-1.0.0[${PYTHON_USEDEP}]
+	kerberos? ( <dev-python/kerberos-2.0.0[${PYTHON_USEDEP}] )
+	ujson? ( >=dev-python/ujson-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

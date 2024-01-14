@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
+	>=dev-python/decorator-4.4.1[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
+	>=dev-python/netaddr-0.7.18[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-3.20.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-2.28.1[${PYTHON_USEDEP}]
 	dev-python/oslo-service[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-4.4.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]"
+	>=dev-python/tenacity-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

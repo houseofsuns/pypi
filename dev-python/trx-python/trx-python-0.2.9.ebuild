@@ -27,24 +27,24 @@ IUSE="all doc test"
 DEPENDENCIES="dev-python/setuptools-scm[${PYTHON_USEDEP}]
 	dev-python/deepdiff[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	all? ( dev-python/astroid[${PYTHON_USEDEP}] )
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
+	all? ( ~dev-python/astroid-2.15.8[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
-	doc? ( dev-python/astroid[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-console-scripts-0.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/astroid-2.15.8[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-console-scripts-0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ckanapi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	dev-python/frictionless-ckan-mapper[${PYTHON_USEDEP}]
 	dev-python/frictionless[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]"
+	~dev-python/python-dotenv-0.19.1[${PYTHON_USEDEP}]
+	~dev-python/validators-0.18.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

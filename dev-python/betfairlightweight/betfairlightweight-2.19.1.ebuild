@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="speed"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-2.32.0[${PYTHON_USEDEP}]
 	speed? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
-	speed? ( dev-python/orjson[${PYTHON_USEDEP}] )"
+	speed? ( ~dev-python/orjson-3.9.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

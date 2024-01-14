@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop test"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )

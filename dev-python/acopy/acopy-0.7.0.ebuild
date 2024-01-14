@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="plot"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-7.1[${PYTHON_USEDEP}]
+	~dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	dev-python/tsplib95[${PYTHON_USEDEP}]
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	plot? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	plot? ( ~dev-python/matplotlib-3.2[${PYTHON_USEDEP}] )
+	plot? ( ~dev-python/pandas-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/PySnooper[${PYTHON_USEDEP}]
 	dev-python/datamodel-code-generator[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
 	dev-python/typed-ast[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"

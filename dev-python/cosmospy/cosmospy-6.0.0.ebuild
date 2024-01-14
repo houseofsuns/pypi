@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ecdsa[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ecdsa-0.14.0[${PYTHON_USEDEP}]
 	dev-python/bech32[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
 	dev-python/hdwallets[${PYTHON_USEDEP}]"

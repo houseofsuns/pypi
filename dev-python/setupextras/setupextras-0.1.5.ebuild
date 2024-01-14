@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	dev-python/rootpath[${PYTHON_USEDEP}]
 	dev-python/inspecta[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-40.8.0[${PYTHON_USEDEP}]
 	dev-python/colour-runner[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
+	>=dev-python/deepdiff-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/tox-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/coverage-4.5.2[${PYTHON_USEDEP}]
 	dev-python/codecov[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

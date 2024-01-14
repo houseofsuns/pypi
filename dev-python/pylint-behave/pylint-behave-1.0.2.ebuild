@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/behave[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
+	>=dev-python/pylint-2.0[${PYTHON_USEDEP}]
 	dev-python/pylint-plugin-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/PyAudio[${PYTHON_USEDEP}]
 	dev-python/pyttsx3[${PYTHON_USEDEP}]
 	dev-python/stream2sentence[${PYTHON_USEDEP}]
 	dev-python/azure-cognitiveservices-speech[${PYTHON_USEDEP}]
 	dev-python/elevenlabs[${PYTHON_USEDEP}]
 	dev-python/TTS[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

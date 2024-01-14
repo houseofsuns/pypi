@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="common-sql sdk"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/databricks-sql-connector[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	common-sql? ( dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}] )
 	sdk? ( dev-python/databricks-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

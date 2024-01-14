@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
 	dev-python/aiohttp-retry[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.26.165[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.4.7[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-3.3.1[${PYTHON_USEDEP}]
+	>=dev-python/prettytable-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/py-cpuinfo-9.0.0[${PYTHON_USEDEP}]
 	dev-python/inquirerpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.12.2[${PYTHON_USEDEP}]
 	dev-python/tqdm-loggable[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.6[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/asynctest[${PYTHON_USEDEP}] )
 	test? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )

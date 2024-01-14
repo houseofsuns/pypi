@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiofiles-0.7.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp-retry[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]"
+	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

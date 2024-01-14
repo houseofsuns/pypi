@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/robotframework[${PYTHON_USEDEP}]
 	dev-python/robotframework-requests[${PYTHON_USEDEP}]
 	dev-python/robotframework-seleniumlibrary[${PYTHON_USEDEP}]
 	dev-python/robotframework-sudslibrary-aljcalandra[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/selenium-4.16.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	testing? ( dev-python/mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

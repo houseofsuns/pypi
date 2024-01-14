@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-36.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.8[${PYTHON_USEDEP}]
+	>=dev-python/lxml-3.7.0[${PYTHON_USEDEP}]
 	dev-python/html2text[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
 	dev-python/pyopenssl[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.4.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/funcsigs[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/xml-compare[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

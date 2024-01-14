@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc lists tests"
-DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	lists? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-gallery-0.15.0[${PYTHON_USEDEP}] )
+	lists? ( ~dev-python/numpy-1.26.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

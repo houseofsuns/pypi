@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES="dev-python/Wagtail[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+	<dev-python/bleach-5.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	testing? ( <dev-python/tox-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

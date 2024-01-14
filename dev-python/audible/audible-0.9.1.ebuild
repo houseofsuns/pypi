@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pbkdf2[${PYTHON_USEDEP}]
-	dev-python/pyaes[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]"
+	>=dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
+	>=dev-python/pbkdf2-1.3[${PYTHON_USEDEP}]
+	>=dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/rsa-4.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

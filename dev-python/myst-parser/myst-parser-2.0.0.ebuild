@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="code_style linkify rtd testing testing-docutils"
-DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/docutils-0.21[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	dev-python/mdit-py-plugins[${PYTHON_USEDEP}]
+	~dev-python/markdown-it-py-3.0[${PYTHON_USEDEP}]
+	~dev-python/mdit-py-plugins-0.4[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+	<dev-python/sphinx-8.0[${PYTHON_USEDEP}]
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	linkify? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
+	linkify? ( ~dev-python/linkify-it-py-2.0[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	rtd? ( ~dev-python/pydata-sphinx-theme-0.0[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-design2[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinxext-rediraffe[${PYTHON_USEDEP}] )
@@ -45,13 +45,13 @@ DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	rtd? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
 	testing? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-param-files[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-param-files-0.3.4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sphinx-pytest[${PYTHON_USEDEP}] )
 	testing-docutils? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	testing-docutils? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing-docutils? ( dev-python/pytest-param-files[${PYTHON_USEDEP}] )"
+	testing-docutils? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	testing-docutils? ( ~dev-python/pytest-param-files-0.3.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

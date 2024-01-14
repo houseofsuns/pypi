@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cpanel-api[${PYTHON_USEDEP}]
-	dev-python/parsedatetime[${PYTHON_USEDEP}]"
+	>=dev-python/parsedatetime-2.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,30 +27,30 @@ IUSE="dev docs tests"
 DEPENDENCIES="dev-python/spacy-wrap[${PYTHON_USEDEP}]
 	dev-python/spacy-experimental[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.42.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/cruft[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/furo-2022.12.7[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-bibtex-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/wikidata[${PYTHON_USEDEP}] )
 	docs? ( dev-python/asent[${PYTHON_USEDEP}] )
 	docs? ( dev-python/augmenty[${PYTHON_USEDEP}] )
 	docs? ( dev-python/textdescriptives[${PYTHON_USEDEP}] )
-	docs? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/altair[${PYTHON_USEDEP}] )
 	docs? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-instafail[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

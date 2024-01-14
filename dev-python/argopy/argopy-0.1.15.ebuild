@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/xarray-0.18[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
+	>=dev-python/toolz-0.8.2[${PYTHON_USEDEP}]
 	dev-python/erddapy[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	<=dev-python/fsspec-2023.10.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.7[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

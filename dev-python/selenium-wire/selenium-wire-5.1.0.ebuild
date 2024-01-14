@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/blinker[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/blinker-1.4[${PYTHON_USEDEP}]
 	dev-python/brotli[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/kaitaistruct[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2019.9.11[${PYTHON_USEDEP}]
+	>=dev-python/kaitaistruct-0.7[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-0.3.1[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.4.2[${PYTHON_USEDEP}]
 	dev-python/pysocks[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/wsproto[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]
-	dev-python/hyperframe[${PYTHON_USEDEP}]
+	>=dev-python/selenium-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/wsproto-0.14[${PYTHON_USEDEP}]
+	>=dev-python/zstandard-0.14.1[${PYTHON_USEDEP}]
+	>=dev-python/h2-4.0[${PYTHON_USEDEP}]
+	>=dev-python/hyperframe-6.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/blinker[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/werkzeug-2.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mitmproxy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

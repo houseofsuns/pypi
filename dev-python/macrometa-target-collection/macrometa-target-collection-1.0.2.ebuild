@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/adjust-precision-for-schema[${PYTHON_USEDEP}]
 	dev-python/c8connector[${PYTHON_USEDEP}]
 	dev-python/pipelinewise-singer-python[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+	~dev-python/prometheus-client-0.16.0[${PYTHON_USEDEP}]
 	dev-python/pyc8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/h5py-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
+	<=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.1[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/plum-dispatch[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flynt[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mpi4py[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/mpi4py-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

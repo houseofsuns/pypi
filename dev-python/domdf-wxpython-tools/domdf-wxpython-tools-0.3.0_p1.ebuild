@@ -27,11 +27,11 @@ IUSE=""
 DEPENDENCIES="dev-python/cawdrey[${PYTHON_USEDEP}]
 	dev-python/domdf-python-tools[${PYTHON_USEDEP}]
 	dev-python/mathematical[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/tinycss[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/webcolors[${PYTHON_USEDEP}]"
+	>=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.2.3[${PYTHON_USEDEP}]
+	>=dev-python/tinycss-0.4[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}]
+	>=dev-python/webcolors-1.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

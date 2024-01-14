@@ -37,6 +37,6 @@ DEPENDENCIES="dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/streamlit-card[${PYTHON_USEDEP}]
 	dev-python/markdownlit[${PYTHON_USEDEP}]
 	dev-python/streamlit-image-coordinates[${PYTHON_USEDEP}]
-	dev-python/entrypoints[${PYTHON_USEDEP}]"
+	>=dev-python/entrypoints-0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/microdf-python[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]
 	dev-python/policyengine-core[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
 	dev? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bokeh[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydata-sphinx-theme-0.13.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )

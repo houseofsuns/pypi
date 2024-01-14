@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/nose2[${PYTHON_USEDEP}]
-	dev-python/nose2[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/nose2-0.9.2[${PYTHON_USEDEP}]
+	>=dev-python/nose2-0.6.5[${PYTHON_USEDEP}]
+	>=dev-python/pylint-2.6.0[${PYTHON_USEDEP}]
+	~dev-python/cryptography-3.3.2[${PYTHON_USEDEP}]
+	>=dev-python/keyring-23.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-20.0.0[${PYTHON_USEDEP}]
 	dev-python/PyInstaller[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	dev-python/asynctest[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	>=dev-python/setuptools-57.0.0[${PYTHON_USEDEP}]
+	>=dev-python/twine-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

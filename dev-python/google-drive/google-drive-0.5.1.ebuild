@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/google-api-core-1.31.5[${PYTHON_USEDEP}]
+	~dev-python/google-api-python-client-2.6.0[${PYTHON_USEDEP}]
+	~dev-python/google-auth-1.35.0[${PYTHON_USEDEP}]
+	~dev-python/google-auth-httplib2-0.1.0[${PYTHON_USEDEP}]
+	~dev-python/google-auth-oauthlib-0.4.1[${PYTHON_USEDEP}]
+	~dev-python/googleapis-common-protos-1.56.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pylint-2.16.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/autopep8-2.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipython-7.23.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

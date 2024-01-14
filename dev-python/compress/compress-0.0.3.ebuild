@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
-DEPENDENCIES="docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( ~dev-python/sphinx-1.8.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docfly[${PYTHON_USEDEP}] )
 	docs? ( dev-python/rstobj[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

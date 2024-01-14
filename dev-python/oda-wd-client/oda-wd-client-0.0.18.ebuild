@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/suds-py3[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
 	dev-python/yamllint[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]"
+	<dev-python/python-magic-0.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

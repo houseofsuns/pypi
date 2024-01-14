@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/flask-sqlalchemy-2.3.2[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/apispec[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/flasgger[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	>=dev-python/apispec-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/flasgger-0.9.4[${PYTHON_USEDEP}]
+	~dev-python/APScheduler-3.6.3[${PYTHON_USEDEP}]
 	dev-python/python-keycloak[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	~dev-python/cryptography-3.0[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/marshmallow-dataclass[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

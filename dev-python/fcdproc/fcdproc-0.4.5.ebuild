@@ -37,12 +37,12 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/nitransforms[${PYTHON_USEDEP}]
 	dev-python/reports[${PYTHON_USEDEP}]
 	dev-python/dotcli[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	~dev-python/tomlkit-0.7.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-click[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]"
+	>=dev-python/tomli-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

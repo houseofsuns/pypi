@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="acceptance classic lab test"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]
-	dev-python/simpervisor[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-server-1.0[${PYTHON_USEDEP}]
+	>=dev-python/simpervisor-1.0[${PYTHON_USEDEP}]
 	acceptance? ( dev-python/jupyter-server-proxy[${PYTHON_USEDEP}] )
 	acceptance? ( dev-python/robotframework-jupyterlibrary[${PYTHON_USEDEP}] )
-	classic? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
-	classic? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	classic? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	lab? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
-	lab? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	classic? ( <dev-python/jupyter-server-2.0[${PYTHON_USEDEP}] )
+	classic? ( <dev-python/jupyterlab-4.0.0[${PYTHON_USEDEP}] )
+	classic? ( <dev-python/notebook-7.0.0[${PYTHON_USEDEP}] )
+	lab? ( >=dev-python/jupyter-server-2.0[${PYTHON_USEDEP}] )
+	lab? ( <dev-python/jupyterlab-5.0.0[${PYTHON_USEDEP}] )
 	lab? ( dev-python/nbclassic[${PYTHON_USEDEP}] )
-	lab? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	lab? ( >=dev-python/notebook-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )"

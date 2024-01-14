@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/aioconsole[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+	>=dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	dev-python/autotyping[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.4.3[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
 	dev-python/aiopath[${PYTHON_USEDEP}]
 	dev-python/acb[${PYTHON_USEDEP}]
 	dev-python/pdm-bump[${PYTHON_USEDEP}]
-	dev-python/pdm[${PYTHON_USEDEP}]"
+	>=dev-python/pdm-2.11.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

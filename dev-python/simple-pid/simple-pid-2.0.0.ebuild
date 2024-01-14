@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc examples test"
-DEPENDENCIES="doc? ( dev-python/furo[${PYTHON_USEDEP}] )
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+DEPENDENCIES="doc? ( ~dev-python/furo-2023.3.27[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/myst-parser-1.0.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	examples? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

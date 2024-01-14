@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/prompt-toolkit-3.0.38[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]"
+	>=dev-python/pygments-2.14.0[${PYTHON_USEDEP}]
+	>=dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

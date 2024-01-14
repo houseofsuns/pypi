@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ca dev pva"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	ca? ( dev-python/aioca[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aioca[${PYTHON_USEDEP}] )
 	dev? ( dev-python/p4p[${PYTHON_USEDEP}] )
-	dev? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/attrs-19.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bluesky[${PYTHON_USEDEP}] )
 	dev? ( dev-python/caproto[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-codecov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/databroker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/doctr[${PYTHON_USEDEP}] )
 	dev? ( dev-python/epics-pypdb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	dev? ( dev-python/inflection[${PYTHON_USEDEP}] )
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-scm-6.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox-direct[${PYTHON_USEDEP}] )

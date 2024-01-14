@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/pytest-bdd[${PYTHON_USEDEP}]
-	dev-python/pytest-testinfra[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-bdd-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-testinfra-11.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

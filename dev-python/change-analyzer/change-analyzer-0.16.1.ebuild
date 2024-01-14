@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/gym[${PYTHON_USEDEP}]
 	dev-python/ludwig[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-semantic-release[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )

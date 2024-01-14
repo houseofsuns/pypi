@@ -38,9 +38,9 @@ DEPENDENCIES="dev-python/fastcore[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-21.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

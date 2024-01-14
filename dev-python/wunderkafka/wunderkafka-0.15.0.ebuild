@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	dev-python/dataclasses-avroschema[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	krb? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
+	krb? ( >=dev-python/requests-kerberos-0.13.0[${PYTHON_USEDEP}] )
 	krb? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

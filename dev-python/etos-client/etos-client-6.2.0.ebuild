@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/etos-lib[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
+	~dev-python/docopt-0.6[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

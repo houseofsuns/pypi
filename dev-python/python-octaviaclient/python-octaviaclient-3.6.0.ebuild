@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cliff[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
-	dev-python/osc-lib[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/python-neutronclient[${PYTHON_USEDEP}]
-	dev-python/python-openstackclient[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/cliff-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-3.18.0[${PYTHON_USEDEP}]
+	>=dev-python/osc-lib-1.14.1[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-2.18.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.33.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-neutronclient-6.7.0[${PYTHON_USEDEP}]
+	>=dev-python/python-openstackclient-3.12.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,64 +24,64 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs test"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/build[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-21.3[${PYTHON_USEDEP}]
+	>=dev-python/build-0.7.0[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-4.1[${PYTHON_USEDEP}]
+	>=dev-python/click-4.0[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2021.4[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
+	>=dev-python/jmespath-0.9.5[${PYTHON_USEDEP}]
 	dev-python/kedro-datasets[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-8.14.0[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
-	dev-python/parse[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
+	>=dev-python/parse-1.19.0[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-1.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/rope[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0[${PYTHON_USEDEP}]
+	<dev-python/rope-2.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/toposort[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/toposort-1.5[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-8.0[${PYTHON_USEDEP}]
 	all? ( dev-python/kedro[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.20.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.3.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/ipykernel-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	test? ( <dev-python/bandit-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/behave[${PYTHON_USEDEP}] )
 	test? ( dev-python/blacken-docs[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/fsspec[${PYTHON_USEDEP}] )
+	test? ( <dev-python/fsspec-2023.9[${PYTHON_USEDEP}] )
 	test? ( dev-python/import-linter[${PYTHON_USEDEP}] )
 	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyterlab-server[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/jupyterlab-server-2.11.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/jupyterlab-3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/jupyter-1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pandas-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyproj[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pyproj-3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-mock-2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-2.2.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	test? ( dev-python/semver[${PYTHON_USEDEP}] )
 	test? ( dev-python/trufflehog[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	test? ( dev-python/moto[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipython[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pyarrow-1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/moto-4.1.12[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyarrow-7.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/ipython-8.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

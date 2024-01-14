@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="black isort merge"
-DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/rich-12.0.0[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	black? ( dev-python/black[${PYTHON_USEDEP}] )
-	isort? ( dev-python/isort[${PYTHON_USEDEP}] )
+	black? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
+	isort? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	merge? ( dev-python/libcst[${PYTHON_USEDEP}] )
 	dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/watchfiles[${PYTHON_USEDEP}]"
+	<dev-python/watchfiles-0.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

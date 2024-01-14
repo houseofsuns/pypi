@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/hvac[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/hvac-0.11.2[${PYTHON_USEDEP}]
 	dev-python/cacheout[${PYTHON_USEDEP}]
 	dev-python/pyYaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

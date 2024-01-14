@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
+	<dev-python/pynacl-2.0.0[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
 	dev-python/eth-keys[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

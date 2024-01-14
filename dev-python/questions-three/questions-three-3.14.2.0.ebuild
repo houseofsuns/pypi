@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/expects[${PYTHON_USEDEP}]
-	dev-python/junit-xml[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/expects-0.8.0[${PYTHON_USEDEP}]
+	~dev-python/junit-xml-1.8[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.1.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pyfakefs[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pyfakefs-3.4.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	dev-python/twin-sister[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/parameterized[${PYTHON_USEDEP}]"
+	>=dev-python/twine-1.9.1[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.30.0[${PYTHON_USEDEP}]
+	>=dev-python/parameterized-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

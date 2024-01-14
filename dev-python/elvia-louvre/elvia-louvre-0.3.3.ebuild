@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/elvia-vault[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]"
+	>=dev-python/pillow-9.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

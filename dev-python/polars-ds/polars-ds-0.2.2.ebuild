@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/polars[${PYTHON_USEDEP}]
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )

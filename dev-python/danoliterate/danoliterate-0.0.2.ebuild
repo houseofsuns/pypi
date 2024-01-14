@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/safetensors[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
 	dev-python/simple-term-menu[${PYTHON_USEDEP}]
 	dev-python/danlp[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
@@ -47,17 +47,17 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
+	~dev-python/black-23.7.0[${PYTHON_USEDEP}]
+	~dev-python/isort-5.12.0[${PYTHON_USEDEP}]
+	~dev-python/mypy-1.5.1[${PYTHON_USEDEP}]
+	~dev-python/pylint-2.17.5[${PYTHON_USEDEP}]
 	dev-python/pandas-stubs[${PYTHON_USEDEP}]
 	dev-python/types-tqdm[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
-	full? ( dev-python/pypdf[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/pypdf-3.16.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/fasttext-wheel[${PYTHON_USEDEP}] )
 	full? ( dev-python/peft[${PYTHON_USEDEP}] )
-	full? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/scipy-1.11.3[${PYTHON_USEDEP}] )
 	full? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	full? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
 	full? ( dev-python/evaluate[${PYTHON_USEDEP}] )
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	full? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	full? ( dev-python/levenshtein[${PYTHON_USEDEP}] )
 	full? ( dev-python/seqeval[${PYTHON_USEDEP}] )
-	full? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/trl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

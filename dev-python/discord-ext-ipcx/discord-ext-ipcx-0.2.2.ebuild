@@ -30,9 +30,9 @@ DEPENDENCIES="dev-python/discord-py[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	dev? ( dev-python/quart[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/furo-2023.8.19[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

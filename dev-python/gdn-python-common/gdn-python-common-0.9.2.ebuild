@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="drf"
-DEPENDENCIES="dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	drf? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
-	drf? ( dev-python/django[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/humanize-0.5.1[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
+	drf? ( >=dev-python/djangorestframework-3.6.2[${PYTHON_USEDEP}] )
+	drf? ( >=dev-python/django-1.11.15[${PYTHON_USEDEP}] )
 	drf? ( dev-python/djangorestframework-camel-case[${PYTHON_USEDEP}] )
 	drf? ( dev-python/django-autoslug[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

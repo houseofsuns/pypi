@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/cachelib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cachelib-0.1[${PYTHON_USEDEP}]
 	dev-python/Flask-Breadcrumbs[${PYTHON_USEDEP}]
 	dev-python/Flask-OAuthlib[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
 	dev-python/invenio-accounts[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/invenio-i18n[${PYTHON_USEDEP}]
 	dev-python/invenio-theme[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-1.5.0[${PYTHON_USEDEP}]
+	<dev-python/requests-oauthlib-1.2.0[${PYTHON_USEDEP}]
 	dev-python/WTForms-Alchemy[${PYTHON_USEDEP}]
 	dev-python/WTForms[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.4[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-admin[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/redis[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/redis-2.10.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/BeautifulSoup4[${PYTHON_USEDEP}]
 	dev-python/pyfastaq[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
 	dev-python/pymummer[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]"
+	>=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

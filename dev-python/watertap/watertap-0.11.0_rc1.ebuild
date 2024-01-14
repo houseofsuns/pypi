@@ -27,20 +27,20 @@ IUSE="dev notebooks oli_api testing"
 DEPENDENCIES="dev-python/idaes-pse[${PYTHON_USEDEP}]
 	dev-python/pyomo[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	>dev-python/pymongo-3.0[${PYTHON_USEDEP}]
 	dev-python/fastjsonschema[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/urllib3-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
 	dev? ( dev-python/json-schema-for-humans[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/h5py-2.2.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
 	dev-python/Cython[${PYTHON_USEDEP}]
 	dev-python/mappy[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
 	dev-python/ont-fast5-api[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-2.17[${PYTHON_USEDEP}]
 	dev-python/ont-pyguppy-client-lib[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]

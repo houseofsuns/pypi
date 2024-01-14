@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs notebooks"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/matplotlib-3.8[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.26[${PYTHON_USEDEP}]
+	<dev-python/requests-2.32[${PYTHON_USEDEP}]
+	<dev-python/scipy-1.11[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-7.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-bibtex-2.6[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/myst-parser-2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/torch[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )"
+	notebooks? ( <dev-python/ipywidgets-8.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

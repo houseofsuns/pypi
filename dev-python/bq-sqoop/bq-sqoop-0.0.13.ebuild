@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.19.8[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.14.5[${PYTHON_USEDEP}]
+	~dev-python/pandas-0.23.1[${PYTHON_USEDEP}]
+	~dev-python/pytz-2018.4[${PYTHON_USEDEP}]
 	dev-python/gcloud[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/Cython[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/elasticsearch-7.0.0[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.2.10[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

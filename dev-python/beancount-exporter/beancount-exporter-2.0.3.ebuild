@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pgcopy"
 DEPENDENCIES="dev-python/beancount[${PYTHON_USEDEP}]
 	dev-python/beancount-data[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/pgcopy-standalone[${PYTHON_USEDEP}]
-	pgcopy? ( dev-python/orjson[${PYTHON_USEDEP}] )"
+	pgcopy? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pyqt6[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	<dev-python/future-0.19.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/firebase-admin[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

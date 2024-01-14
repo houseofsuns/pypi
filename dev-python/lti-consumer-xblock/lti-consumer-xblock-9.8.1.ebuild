@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/XBlock[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+	>=dev-python/bleach-6.0.0[${PYTHON_USEDEP}]
 	dev-python/django[${PYTHON_USEDEP}]
 	dev-python/django-config-models[${PYTHON_USEDEP}]
 	dev-python/django-filter[${PYTHON_USEDEP}]

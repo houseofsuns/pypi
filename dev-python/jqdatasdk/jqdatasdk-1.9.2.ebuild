@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.9.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.16.2[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/thriftpy2[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]"
+	>=dev-python/thriftpy2-0.3.9[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-0.7.6[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-0.4.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

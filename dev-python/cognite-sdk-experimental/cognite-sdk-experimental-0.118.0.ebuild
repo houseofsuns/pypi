@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="geopandas"
 DEPENDENCIES="dev-python/cognite-sdk[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
+	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
 	geopandas? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/responses[${PYTHON_USEDEP}]
-	geopandas? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
+	<dev-python/regex-2024.0[${PYTHON_USEDEP}]
+	<dev-python/responses-0.14.0[${PYTHON_USEDEP}]
+	geopandas? ( >=dev-python/shapely-1.7.0[${PYTHON_USEDEP}] )
+	<dev-python/sympy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

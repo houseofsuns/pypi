@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/kraken-core[${PYTHON_USEDEP}]
 	dev-python/nr-python-environment[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-33.0.0[${PYTHON_USEDEP}]
 	dev-python/slap-core-cli[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	<dev-python/termcolor-2.0.0[${PYTHON_USEDEP}]
 	dev-python/types-termcolor[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

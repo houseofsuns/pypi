@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-dotenv-0.21.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.4.0[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/language-local[${PYTHON_USEDEP}]
 	dev-python/url-remote[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/httpstatus35[${PYTHON_USEDEP}]
 	dev-python/python-sdk-remote[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

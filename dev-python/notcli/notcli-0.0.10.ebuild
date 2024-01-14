@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/textual[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.2.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-sugar-0.9.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

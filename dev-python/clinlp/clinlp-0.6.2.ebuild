@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="transformers"
 DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/intervaltree[${PYTHON_USEDEP}]
+	<dev-python/intervaltree-4.0.0[${PYTHON_USEDEP}]
 	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	dev-python/makefun[${PYTHON_USEDEP}]"
+	<dev-python/makefun-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

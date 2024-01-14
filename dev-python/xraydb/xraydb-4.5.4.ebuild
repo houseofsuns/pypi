@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.12[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.1[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )

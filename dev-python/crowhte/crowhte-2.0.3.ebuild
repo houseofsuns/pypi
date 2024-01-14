@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/kiwisolver[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/cycler[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	>=dev-python/kiwisolver-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.1[${PYTHON_USEDEP}]
+	>=dev-python/cycler-0.10[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.0.3[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.3[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

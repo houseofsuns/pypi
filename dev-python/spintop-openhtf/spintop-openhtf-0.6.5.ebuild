@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="plugs-comport plugs-ssh plugs-visa server"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.0.0[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	<dev-python/colorama-1.0[${PYTHON_USEDEP}]
 	dev-python/contextlib2[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
 	dev-python/gspread[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/markdown2[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-1.7.10[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0.2[${PYTHON_USEDEP}]
+	>=dev-python/markdown2-2.3.8[${PYTHON_USEDEP}]
 	dev-python/mutablerecords[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	plugs-comport? ( dev-python/pyserial[${PYTHON_USEDEP}] )
+	plugs-comport? ( <dev-python/pyserial-4.0[${PYTHON_USEDEP}] )
 	plugs-ssh? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	plugs-visa? ( dev-python/pyvisa[${PYTHON_USEDEP}] )
-	server? ( dev-python/tornado[${PYTHON_USEDEP}] )
+	server? ( <dev-python/tornado-5.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/sockjs-tornado[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

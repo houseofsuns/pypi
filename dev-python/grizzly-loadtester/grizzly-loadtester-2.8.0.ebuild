@@ -32,27 +32,27 @@ DEPENDENCIES="dev-python/locust[${PYTHON_USEDEP}]
 	dev-python/behave[${PYTHON_USEDEP}]
 	dev-python/influxdb[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	<dev-python/jsonpath-ng-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
 	dev-python/opencensus-ext-azure[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-22.2.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/setproctitle[${PYTHON_USEDEP}]
-	dev-python/tzdata[${PYTHON_USEDEP}]
-	dev-python/pyotp[${PYTHON_USEDEP}]
-	ci? ( dev-python/build[${PYTHON_USEDEP}] )
-	ci? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/astunparse[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/atomicwrites[${PYTHON_USEDEP}] )
+	>=dev-python/setproctitle-1.2.2[${PYTHON_USEDEP}]
+	>=dev-python/tzdata-2022.1[${PYTHON_USEDEP}]
+	<dev-python/pyotp-3.0.0[${PYTHON_USEDEP}]
+	ci? ( >=dev-python/build-0.7.0[${PYTHON_USEDEP}] )
+	ci? ( <dev-python/twine-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.37.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/astunparse-1.6.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-6.4.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-3.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/atomicwrites-1.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-paramiko[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
@@ -67,13 +67,13 @@ DEPENDENCIES="dev-python/locust[${PYTHON_USEDEP}]
 	docs? ( dev-python/docspec-python[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytablewriter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pip-licenses[${PYTHON_USEDEP}] )
-	docs? ( dev-python/requests[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/requests-2.27.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-1.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-8.3.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/packaging-21.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/grizzly-loadtester-cli[${PYTHON_USEDEP}] )
 	docs? ( dev-python/python-frontmatter[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mistune-3.0.2[${PYTHON_USEDEP}] )
 	mq? ( dev-python/pymqi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cssselect[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cssselect-1.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-3.7[${PYTHON_USEDEP}]
 	dev-python/parsel[${PYTHON_USEDEP}]
-	dev-python/requests-wsgi-adapter[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]"
+	>=dev-python/requests-wsgi-adapter-0.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-0.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

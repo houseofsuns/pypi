@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/redis-3.0[${PYTHON_USEDEP}]
 	dev-python/bcrypt[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/nose[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/nose-1.3.7[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev fakeredis memcached"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-json-logger-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/redis-4.3.0[${PYTHON_USEDEP}]
 	dev-python/aiojobs[${PYTHON_USEDEP}]
 	all? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
-	dev? ( dev-python/fakeredis[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/fakeredis-1.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docker-compose[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	fakeredis? ( dev-python/fakeredis[${PYTHON_USEDEP}] )
+	fakeredis? ( >=dev-python/fakeredis-1.8.0[${PYTHON_USEDEP}] )
 	memcached? ( dev-python/aiomcache[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

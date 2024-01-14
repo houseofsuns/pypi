@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pytorch"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/docarray[${PYTHON_USEDEP}]
 	dev-python/jina[${PYTHON_USEDEP}]
 	dev-python/jina-hubble-sdk[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -37,22 +37,22 @@ DEPENDENCIES="dev-python/custodian[${PYTHON_USEDEP}]
 	dev-python/pymatgen-analysis-defects[${PYTHON_USEDEP}]
 	dev-python/pymatgen[${PYTHON_USEDEP}]
 	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	complete? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
+	complete? ( >=dev-python/matplotlib-1.5.2[${PYTHON_USEDEP}] )
 	complete? ( dev-python/phonopy[${PYTHON_USEDEP}] )
 	complete? ( dev-python/openbabel-wheel[${PYTHON_USEDEP}] )
-	complete? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/boto3-1.28.15[${PYTHON_USEDEP}] )
 	complete? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	complete? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	complete? ( dev-python/moto[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/coverage-7.2.7[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/moto-4.1.14[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
 	defects? ( dev-python/pymatgen-analysis-defects[${PYTHON_USEDEP}] )
 	phonons? ( dev-python/phonopy[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/matplotlib-1.5.2[${PYTHON_USEDEP}] )
 	qchem? ( dev-python/openbabel-wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

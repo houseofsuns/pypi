@@ -27,13 +27,13 @@ IUSE="accessanalyzer account acm acm-pca aioboto3 alexaforbusiness all amp ampli
 DEPENDENCIES="dev-python/botocore-stubs[${PYTHON_USEDEP}]
 	dev-python/types-aiobotocore[${PYTHON_USEDEP}]
 	dev-python/types-s3transfer[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]
 	accessanalyzer? ( dev-python/types-aiobotocore-accessanalyzer[${PYTHON_USEDEP}] )
 	account? ( dev-python/types-aiobotocore-account[${PYTHON_USEDEP}] )
 	acm? ( dev-python/types-aiobotocore-acm[${PYTHON_USEDEP}] )
 	acm-pca? ( dev-python/types-aiobotocore-acm-pca[${PYTHON_USEDEP}] )
 	aioboto3? ( dev-python/aioboto3[${PYTHON_USEDEP}] )
-	aioboto3? ( dev-python/botocore[${PYTHON_USEDEP}] )
+	aioboto3? ( ~dev-python/botocore-1.33.1[${PYTHON_USEDEP}] )
 	alexaforbusiness? ( dev-python/types-aiobotocore-alexaforbusiness[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-aiobotocore-accessanalyzer[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-aiobotocore-account[${PYTHON_USEDEP}] )

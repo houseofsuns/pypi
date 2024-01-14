@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test-pandas test-providers tests"
 DEPENDENCIES="dev-python/dbnd[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	test-pandas? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test-pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test-providers? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	test-providers? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test-providers? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test-providers? ( dev-python/tables[${PYTHON_USEDEP}] )
+	test-pandas? ( <dev-python/numpy-1.23[${PYTHON_USEDEP}] )
+	test-pandas? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	test-providers? ( ~dev-python/openpyxl-2.6.4[${PYTHON_USEDEP}] )
+	test-providers? ( <dev-python/numpy-1.23[${PYTHON_USEDEP}] )
+	test-providers? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	test-providers? ( ~dev-python/tables-3.7.0[${PYTHON_USEDEP}] )
 	test-providers? ( dev-python/feather-format[${PYTHON_USEDEP}] )
 	test-providers? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	test-providers? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test-providers? ( ~dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/coverage-7.0.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sh[${PYTHON_USEDEP}] )"

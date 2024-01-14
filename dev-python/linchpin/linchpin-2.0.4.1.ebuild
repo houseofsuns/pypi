@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="azure beaker docker docs krbv libvirt openshift tests vmware"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
-	dev-python/boto[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/apache-libcloud[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-40.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-17.5.0[${PYTHON_USEDEP}]
+	>=dev-python/boto-2.49.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.9.96[${PYTHON_USEDEP}]
+	>=dev-python/apache-libcloud-0.20.1[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/yamlordereddictloader[${PYTHON_USEDEP}]
 	dev-python/ansible[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/shade[${PYTHON_USEDEP}]
 	dev-python/naked[${PYTHON_USEDEP}]
 	dev-python/Cerberus[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-1.26[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/gitdb[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-0.1.9[${PYTHON_USEDEP}]
+	<dev-python/GitPython-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/gitdb-0.6.4[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/openstacksdk[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
+	>=dev-python/openstacksdk-0.37[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.36.1[${PYTHON_USEDEP}]
+	~dev-python/pyzmq-18.1.1[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]
 	dev-python/google-auth[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-cli-core[${PYTHON_USEDEP}] )
@@ -100,7 +100,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	krbv? ( dev-python/python-krbV[${PYTHON_USEDEP}] )
-	libvirt? ( dev-python/libvirt-python[${PYTHON_USEDEP}] )
+	libvirt? ( >=dev-python/libvirt-python-3.0.0[${PYTHON_USEDEP}] )
 	libvirt? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	openshift? ( dev-python/openshift[${PYTHON_USEDEP}] )
 	openshift? ( dev-python/kubernetes-validate[${PYTHON_USEDEP}] )
@@ -108,7 +108,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( <=dev-python/pytest-4.4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	tests? ( dev-python/molecule[${PYTHON_USEDEP}] )
 	tests? ( dev-python/molecule[${PYTHON_USEDEP}] )

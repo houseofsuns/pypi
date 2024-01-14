@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="airflow dev tests"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-20.0[${PYTHON_USEDEP}]
 	dev-python/openlineage-integration-common[${PYTHON_USEDEP}]
 	dev-python/openlineage-python[${PYTHON_USEDEP}]
 	airflow? ( dev-python/apache-airflow-providers-postgres[${PYTHON_USEDEP}] )

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/pydyf[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/tinycss2[${PYTHON_USEDEP}]
-	dev-python/cssselect2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pydyf-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/cffi-0.6[${PYTHON_USEDEP}]
+	>=dev-python/html5lib-1.1[${PYTHON_USEDEP}]
+	>=dev-python/tinycss2-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/cssselect2-0.1[${PYTHON_USEDEP}]
 	dev-python/Pyphen[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/fonttools[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-4.0.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

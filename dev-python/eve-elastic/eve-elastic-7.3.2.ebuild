@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/arrow-0.4.2[${PYTHON_USEDEP}]
 	dev-python/ciso8601[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]"
+	>=dev-python/pytz-2015.4[${PYTHON_USEDEP}]
+	<dev-python/elasticsearch-7.14[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

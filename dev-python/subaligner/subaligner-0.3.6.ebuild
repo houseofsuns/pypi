@@ -24,100 +24,100 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs harmony llm stretch translation"
-DEPENDENCIES="dev-python/zipp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/zipp-0.6.0[${PYTHON_USEDEP}]
 	dev-python/zict[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
+	~dev-python/tornado-5.1.0[${PYTHON_USEDEP}]
+	~dev-python/toolz-0.9.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-macos[${PYTHON_USEDEP}]
-	dev-python/tblib[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/tblib-1.3.2[${PYTHON_USEDEP}]
+	~dev-python/six-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
+	<dev-python/scipy-1.11.0[${PYTHON_USEDEP}]
+	~dev-python/rsa-4.7[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	~dev-python/pytz-2018.4[${PYTHON_USEDEP}]
 	dev-python/pystack-debugger[${PYTHON_USEDEP}]
 	dev-python/pysubs2[${PYTHON_USEDEP}]
-	dev-python/pysrt[${PYTHON_USEDEP}]
-	dev-python/pyprof2calltree[${PYTHON_USEDEP}]
+	~dev-python/pysrt-1.1.2[${PYTHON_USEDEP}]
+	~dev-python/pyprof2calltree-1.4.3[${PYTHON_USEDEP}]
 	dev-python/pydotplus[${PYTHON_USEDEP}]
 	dev-python/pydot-ng[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
-	dev-python/pybind11[${PYTHON_USEDEP}]
-	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/pydot-1.2.4[${PYTHON_USEDEP}]
+	~dev-python/pycountry-20.7.3[${PYTHON_USEDEP}]
+	~dev-python/pybind11-2.11.1[${PYTHON_USEDEP}]
+	~dev-python/pyasn1-modules-0.2.7[${PYTHON_USEDEP}]
+	~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
+	~dev-python/py-1.10.0[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.6.7[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/pluggy-0.13.1[${PYTHON_USEDEP}]
+	~dev-python/pbr-4.0.2[${PYTHON_USEDEP}]
+	~dev-python/oauthlib-3.1.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/mccabe[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.5.1[${PYTHON_USEDEP}]
+	~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/locket[${PYTHON_USEDEP}]
+	~dev-python/locket-0.2.0[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	dev-python/le-pycaption[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/isort-4.3.4[${PYTHON_USEDEP}]
+	~dev-python/idna-2.8[${PYTHON_USEDEP}]
 	dev-python/hyperopt[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	~dev-python/html5lib-1.0[${PYTHON_USEDEP}]
+	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
 	dev-python/HeapDict[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/google-pasta[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	~dev-python/graphviz-0.8.3[${PYTHON_USEDEP}]
+	~dev-python/google-pasta-0.2[${PYTHON_USEDEP}]
+	~dev-python/google-auth-oauthlib-0.4.2[${PYTHON_USEDEP}]
+	<dev-python/filelock-4.0.0[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/cycler[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+	~dev-python/decorator-4.3.0[${PYTHON_USEDEP}]
+	~dev-python/cycler-0.10.0[${PYTHON_USEDEP}]
+	~dev-python/cloudpickle-1.6.0[${PYTHON_USEDEP}]
+	~dev-python/click-5.1[${PYTHON_USEDEP}]
+	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
+	~dev-python/certifi-2019.11.28[${PYTHON_USEDEP}]
 	dev-python/captionstransformer[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/astor[${PYTHON_USEDEP}]
-	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	~dev-python/cachetools-3.1.1[${PYTHON_USEDEP}]
+	~dev-python/bleach-3.3.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-4.9.0[${PYTHON_USEDEP}]
+	~dev-python/astor-0.7.1[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pygments-2.7.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.17.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/parameterized-0.8.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/types-setuptools-57.4.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/radish-bdd[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scikit-build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/scikit-build-0.11.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/line-profiler-4.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/snakeviz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/twine-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pycodestyle-2.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.23.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aeneas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/openai-whisper[${PYTHON_USEDEP}] )
 	dev? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/docutils-0.17.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-3.3.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/docutils-0.17.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-3.3.1[${PYTHON_USEDEP}] )
 	harmony? ( dev-python/aeneas[${PYTHON_USEDEP}] )
 	harmony? ( dev-python/openai-whisper[${PYTHON_USEDEP}] )
 	harmony? ( dev-python/transformers[${PYTHON_USEDEP}] )

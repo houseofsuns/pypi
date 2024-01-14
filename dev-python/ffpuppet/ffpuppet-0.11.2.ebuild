@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/xvfbwrapper[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
+	>=dev-python/xvfbwrapper-0.2.9[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

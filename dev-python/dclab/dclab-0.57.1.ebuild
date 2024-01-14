@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dcor export http lme4 ml s3 tdms"
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/h5py-4.0[${PYTHON_USEDEP}]
 	dev-python/hdf5plugin[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/dclab[${PYTHON_USEDEP}] )
-	dcor? ( dev-python/requests[${PYTHON_USEDEP}] )
+	dcor? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
 	export? ( dev-python/fcswrite[${PYTHON_USEDEP}] )
 	export? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	http? ( dev-python/requests[${PYTHON_USEDEP}] )
+	http? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
 	lme4? ( dev-python/rpy2[${PYTHON_USEDEP}] )
 	ml? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	s3? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	s3? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/urllib3-2.0[${PYTHON_USEDEP}] )
 	tdms? ( dev-python/imageio[${PYTHON_USEDEP}] )
 	tdms? ( dev-python/nptdms[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="dev full yaml"
 DEPENDENCIES="dev-python/argopt[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.44.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py-make[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )

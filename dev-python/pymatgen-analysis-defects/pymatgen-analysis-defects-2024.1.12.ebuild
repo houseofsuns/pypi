@@ -36,8 +36,8 @@ DEPENDENCIES="dev-python/pymatgen[${PYTHON_USEDEP}]
 	strict? ( dev-python/pymatgen[${PYTHON_USEDEP}] )
 	strict? ( dev-python/dscribe[${PYTHON_USEDEP}] )
 	strict? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nbmake[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

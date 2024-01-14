@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev-python/fosslight-scanner[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]"

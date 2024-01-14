@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/jupyterlite-core[${PYTHON_USEDEP}]
 	dev-python/pkginfo[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jupyterlab-5.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/ipywidgets-9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-server-mathjax[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyterlab-language-pack-fr-fr[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyterlab-language-pack-zh-cn[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/jupyterlite-core[${PYTHON_USEDEP}]
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-console-scripts-1.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

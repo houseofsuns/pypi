@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/peewee[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/peewee-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	dev-python/Fabric[${PYTHON_USEDEP}]
 	dev-python/SharePlum[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

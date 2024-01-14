@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
 DEPENDENCIES="dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/pymc3[${PYTHON_USEDEP}]
 	dev-python/pymc3-ext[${PYTHON_USEDEP}]
 	dev-python/aesara-theano-fallback[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/exoplanet[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.7.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jupyter-client-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )

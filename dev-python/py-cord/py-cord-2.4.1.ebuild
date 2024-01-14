@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs speed voice"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-trio[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-trio-1.1.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-websupport-1.2.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	speed? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.22[${PYTHON_USEDEP}] )
+	speed? ( >=dev-python/orjson-3.5.4[${PYTHON_USEDEP}] )
 	speed? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	voice? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

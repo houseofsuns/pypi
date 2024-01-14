@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/pycldf[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rfc3986[${PYTHON_USEDEP}]
+	<dev-python/rfc3986-2.0[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/zenodoclient[${PYTHON_USEDEP}]
@@ -43,9 +43,9 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	excel? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	excel? ( dev-python/xlrd[${PYTHON_USEDEP}] )
+	excel? ( >=dev-python/xlrd-2.0[${PYTHON_USEDEP}] )
 	glottolog? ( dev-python/pyglottolog[${PYTHON_USEDEP}] )
 	odf? ( dev-python/odfpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/odfpy[${PYTHON_USEDEP}] )
@@ -55,8 +55,8 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	test? ( dev-python/pyglottolog[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/xlrd[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/xlrd-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

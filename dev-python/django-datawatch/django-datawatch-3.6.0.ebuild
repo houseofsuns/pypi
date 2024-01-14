@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

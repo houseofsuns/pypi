@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0.36[${PYTHON_USEDEP}]
+	testing? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-4.4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

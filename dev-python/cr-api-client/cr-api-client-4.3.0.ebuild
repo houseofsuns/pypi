@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/termcolor-1.2.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	<dev-python/humanize-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/argcomplete-1.13.0[${PYTHON_USEDEP}]
+	~dev-python/setuptools-44.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/pypsrp[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
+	<dev-python/pydantic-1.11.0[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	dev-python/types-jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

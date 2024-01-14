@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/apache-libcloud[${PYTHON_USEDEP}]
+	~dev-python/apache-libcloud-0.20.1[${PYTHON_USEDEP}]
 	dev-python/threepio[${PYTHON_USEDEP}]
 	dev-python/rfive[${PYTHON_USEDEP}]
 	dev-python/python-irodsclient[${PYTHON_USEDEP}]
-	dev-python/python-cinderclient[${PYTHON_USEDEP}]
-	dev-python/python-glanceclient[${PYTHON_USEDEP}]
+	~dev-python/python-cinderclient-1.9.0[${PYTHON_USEDEP}]
+	~dev-python/python-glanceclient-2.5.0[${PYTHON_USEDEP}]
 	dev-python/python-heatclient[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
-	dev-python/python-neutronclient[${PYTHON_USEDEP}]
-	dev-python/python-novaclient[${PYTHON_USEDEP}]
+	~dev-python/python-keystoneclient-3.6.0[${PYTHON_USEDEP}]
+	~dev-python/python-neutronclient-6.0.0[${PYTHON_USEDEP}]
+	~dev-python/python-novaclient-6.0.0[${PYTHON_USEDEP}]
 	dev-python/python-saharaclient[${PYTHON_USEDEP}]
-	dev-python/python-swiftclient[${PYTHON_USEDEP}]
-	dev-python/python-openstackclient[${PYTHON_USEDEP}]"
+	~dev-python/python-swiftclient-3.3.0[${PYTHON_USEDEP}]
+	~dev-python/python-openstackclient-3.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

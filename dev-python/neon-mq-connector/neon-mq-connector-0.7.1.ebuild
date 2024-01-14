@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pika[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pika-1.2.0[${PYTHON_USEDEP}]
 	dev-python/ovos-config[${PYTHON_USEDEP}]
 	dev-python/ovos-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

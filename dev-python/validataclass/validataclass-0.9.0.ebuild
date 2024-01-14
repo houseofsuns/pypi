@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/typing-extensions-4.3[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/coverage-6.5[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage-conditional-plugin[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/charset-normalizer-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
+	>=dev-python/multidict-4.7.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-9.10.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-httpbin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-httpbin-0.0.6[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-lazy-fixture-0.0.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/werkzeug-2.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-deprecated[${PYTHON_USEDEP}] )
@@ -51,10 +51,10 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-httpbin[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-httpbin-0.0.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-lazy-fixture-0.0.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/responses[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/werkzeug[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/werkzeug-2.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

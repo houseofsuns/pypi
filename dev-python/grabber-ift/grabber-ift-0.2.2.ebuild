@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/napari-plugin-engine[${PYTHON_USEDEP}]
 	dev-python/pyift[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]"
+	>=dev-python/scipy-1.7.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,64 +24,64 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="azure dev google python3-6"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/attrs-22.1[${PYTHON_USEDEP}]
 	dev-python/azure-core[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/iniconfig[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.19[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.22[${PYTHON_USEDEP}]
+	~dev-python/cachetools-4.2[${PYTHON_USEDEP}]
+	~dev-python/certifi-2022.6[${PYTHON_USEDEP}]
+	~dev-python/cffi-1.15[${PYTHON_USEDEP}]
+	~dev-python/chardet-3.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.0[${PYTHON_USEDEP}]
+	~dev-python/cryptography-37.0[${PYTHON_USEDEP}]
+	~dev-python/idna-2.10[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-4.8[${PYTHON_USEDEP}]
+	~dev-python/iniconfig-1.1[${PYTHON_USEDEP}]
+	~dev-python/isodate-0.6[${PYTHON_USEDEP}]
+	~dev-python/jmespath-0.10[${PYTHON_USEDEP}]
 	dev-python/msrest[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/progress[${PYTHON_USEDEP}]
+	~dev-python/oauthlib-3.2[${PYTHON_USEDEP}]
+	~dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	~dev-python/pathspec-0.9[${PYTHON_USEDEP}]
+	~dev-python/pluggy-1.0[${PYTHON_USEDEP}]
+	~dev-python/prettytable-2.5[${PYTHON_USEDEP}]
+	~dev-python/progress-1.5[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]
-	dev-python/pyaml[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-mock[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	~dev-python/py-1.11[${PYTHON_USEDEP}]
+	~dev-python/pyaml-21.10[${PYTHON_USEDEP}]
+	~dev-python/pyasn1-0.4[${PYTHON_USEDEP}]
+	~dev-python/pyasn1-modules-0.2[${PYTHON_USEDEP}]
+	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.14[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-mock-3.6[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
+	~dev-python/pytz-2022.2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
-	dev-python/s3transfer[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/wcwidth[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/requests-2.23[${PYTHON_USEDEP}]
+	~dev-python/requests-oauthlib-1.3[${PYTHON_USEDEP}]
+	~dev-python/rsa-4.9[${PYTHON_USEDEP}]
+	~dev-python/s3transfer-0.5[${PYTHON_USEDEP}]
+	~dev-python/six-1.16[${PYTHON_USEDEP}]
+	~dev-python/tomli-1.2[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.1[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.25[${PYTHON_USEDEP}]
+	~dev-python/wcwidth-0.2[${PYTHON_USEDEP}]
+	~dev-python/zipp-3.6[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-core[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	google? ( dev-python/google-api-core[${PYTHON_USEDEP}] )
+	google? ( >=dev-python/google-api-core-1.23.0[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-core[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	google? ( dev-python/google-auth[${PYTHON_USEDEP}] )
+	google? ( >=dev-python/google-auth-1.23.0[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-crc32c[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-resumable-media[${PYTHON_USEDEP}] )
-	google? ( dev-python/googleapis-common-protos[${PYTHON_USEDEP}] )
-	python3-6? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	python3-6? ( dev-python/botocore[${PYTHON_USEDEP}] )"
+	google? ( >=dev-python/googleapis-common-protos-1.52.0[${PYTHON_USEDEP}] )
+	python3-6? ( ~dev-python/boto3-1.19.12[${PYTHON_USEDEP}] )
+	python3-6? ( ~dev-python/botocore-1.22.12[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

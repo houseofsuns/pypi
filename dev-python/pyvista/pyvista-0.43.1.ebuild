@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all colormaps io jupyter"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.0.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pooch[${PYTHON_USEDEP}]
 	dev-python/scooby[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	colormaps? ( dev-python/cmocean[${PYTHON_USEDEP}] )
 	colormaps? ( dev-python/colorcet[${PYTHON_USEDEP}] )
 	io? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	io? ( dev-python/meshio[${PYTHON_USEDEP}] )
+	io? ( >=dev-python/meshio-5.2[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyter-server-proxy[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )

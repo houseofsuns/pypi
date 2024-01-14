@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/diff-match-patch[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/appdirs-1.4[${PYTHON_USEDEP}]
+	~dev-python/coloredlogs-15.0[${PYTHON_USEDEP}]
+	>dev-python/diff-match-patch-2023.0[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/json-log-formatter[${PYTHON_USEDEP}]
-	dev-python/jsonpatch[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	~dev-python/jsonpatch-1.32[${PYTHON_USEDEP}]
+	~dev-python/jsonpath-ng-1.5[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/openapi-schema-validator[${PYTHON_USEDEP}]
-	dev-python/openapi-spec-validator[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	~dev-python/openapi-schema-validator-0.1[${PYTHON_USEDEP}]
+	~dev-python/openapi-spec-validator-0.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

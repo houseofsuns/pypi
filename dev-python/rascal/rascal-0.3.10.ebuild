@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.3[${PYTHON_USEDEP}]
 	dev-python/pynverse[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	>=dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.48.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="assets dev documentation extra flask pytest"
 DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.0[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
 	dev-python/ipykernel[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	dev-python/ipyvuetify[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-client-7.0.0[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]

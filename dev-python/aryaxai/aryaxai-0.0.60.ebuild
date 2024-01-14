@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pydantic-1.10.13[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.15.0[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.34.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

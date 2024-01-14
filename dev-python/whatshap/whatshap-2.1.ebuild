@@ -33,10 +33,10 @@ DEPENDENCIES="dev-python/pysam[${PYTHON_USEDEP}]
 	dev-python/pulp[${PYTHON_USEDEP}]
 	dev? ( dev-python/Cython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-4.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pysam-stubs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-better-subsection[${PYTHON_USEDEP}] )"

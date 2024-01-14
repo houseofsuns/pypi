@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.8.2[${PYTHON_USEDEP}]
 	dev-python/memory-profiler[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -38,8 +38,8 @@ DEPENDENCIES="dev-python/zodb[${PYTHON_USEDEP}]
 	relstorage-pg? ( dev-python/psycopg2cffi[${PYTHON_USEDEP}] )
 	all? ( dev-python/relstorage[${PYTHON_USEDEP}] )
 	relstorage-pg? ( dev-python/relstorage[${PYTHON_USEDEP}] )
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/legacycrypt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

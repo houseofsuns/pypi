@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	>=dev-python/docker-5.0.3[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
 	dev-python/ptpython[${PYTHON_USEDEP}]
 	dev-python/pytezos[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-11.0.0[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

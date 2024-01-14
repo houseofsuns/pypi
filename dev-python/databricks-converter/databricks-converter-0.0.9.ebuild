@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/iniconfig[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.1[${PYTHON_USEDEP}]
+	~dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}]
+	~dev-python/packaging-20.9[${PYTHON_USEDEP}]
+	~dev-python/pluggy-0.13.1[${PYTHON_USEDEP}]
+	~dev-python/py-1.10.0[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
+	~dev-python/pytest-6.2.4[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dynamodb memcache redis"
 DEPENDENCIES="dynamodb? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
 	memcache? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/pendulum[${PYTHON_USEDEP}]
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
 	dev-python/uvicorn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

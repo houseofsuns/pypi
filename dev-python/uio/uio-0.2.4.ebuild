@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/runnow[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-storage-file-datalake[${PYTHON_USEDEP}] )
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	aws? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	aws? ( dev-python/s3fs[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

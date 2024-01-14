@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/supervisor[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/jsonref[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-unixsocket[${PYTHON_USEDEP}]"

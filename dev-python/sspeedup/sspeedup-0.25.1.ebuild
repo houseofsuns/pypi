@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ability-word-split api-litestar api-sanic config feishu-auth feishu-bitable pywebio qrcode word-split-jieba"
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
 	word-split-jieba? ( dev-python/jieba[${PYTHON_USEDEP}] )
-	qrcode? ( dev-python/qrcode[${PYTHON_USEDEP}] )
+	qrcode? ( <dev-python/qrcode-8.0.0[${PYTHON_USEDEP}] )
 	pywebio? ( dev-python/pywebio[${PYTHON_USEDEP}] )
 	api-sanic? ( dev-python/sanic[${PYTHON_USEDEP}] )
-	feishu-auth? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	feishu-bitable? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	ability-word-split? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	api-sanic? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	api-sanic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	feishu-auth? ( ~dev-python/httpx-0.0[${PYTHON_USEDEP}] )
+	feishu-bitable? ( ~dev-python/httpx-0.0[${PYTHON_USEDEP}] )
+	ability-word-split? ( ~dev-python/httpx-0.0[${PYTHON_USEDEP}] )
+	api-sanic? ( <dev-python/ujson-6.0.0[${PYTHON_USEDEP}] )
+	api-sanic? ( <dev-python/pydantic-3.0.0[${PYTHON_USEDEP}] )
 	config? ( dev-python/msgspec[${PYTHON_USEDEP}] )
 	feishu-bitable? ( dev-python/msgspec[${PYTHON_USEDEP}] )
 	api-litestar? ( dev-python/msgspec[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-2.2.2[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
 	dev-python/zmemory[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

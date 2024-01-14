@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/nobinobi-child[${PYTHON_USEDEP}]
 	dev-python/django-notifications-hq[${PYTHON_USEDEP}]
 	dev-python/drf-writable-nested[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/argon2-cffi[${PYTHON_USEDEP}]"
+	~dev-python/cffi-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/argon2-cffi-23.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev postgres redis sqlite uvloop"
-DEPENDENCIES="dev-python/aiodns[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiodns-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.4.4[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-38.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.31.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-1.11.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/cryptography-1.6[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	redis? ( >=dev-python/redis-4.2.0[${PYTHON_USEDEP}] )
+	sqlite? ( >=dev-python/aiosqlite-0.10.0[${PYTHON_USEDEP}] )
+	uvloop? ( >=dev-python/uvloop-0.11.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

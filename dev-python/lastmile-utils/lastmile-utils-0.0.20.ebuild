@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/black-23.11.0[${PYTHON_USEDEP}]
+	~dev-python/chardet-5.2.0[${PYTHON_USEDEP}]
+	~dev-python/flake8-6.1.0[${PYTHON_USEDEP}]
+	~dev-python/isort-5.12.0[${PYTHON_USEDEP}]
 	dev-python/jsoncomment[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.1.2[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
+	~dev-python/pylint-3.0.2[${PYTHON_USEDEP}]
 	dev-python/pyright[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4.3[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/result[${PYTHON_USEDEP}]
 	dev-python/autoflake[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

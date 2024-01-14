@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/paramiko-2.7.1[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	>=dev-python/tqdm-4.44.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

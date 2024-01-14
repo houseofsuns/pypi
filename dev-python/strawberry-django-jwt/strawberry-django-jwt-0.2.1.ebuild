@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES="dev? ( <dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}] )
+	<dev-python/packaging-30.0[${PYTHON_USEDEP}]
 	dev-python/django-admin-display[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql-django[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
+	~dev-python/cffi-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]
+	~dev-python/cryptography-41.0.5[${PYTHON_USEDEP}]
+	~dev-python/idna-3.6[${PYTHON_USEDEP}]
+	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.19.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/zstandard-0.22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

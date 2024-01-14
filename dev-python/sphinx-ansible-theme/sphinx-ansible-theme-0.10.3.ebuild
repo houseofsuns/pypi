@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/ansible-pygments[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ansible-pygments-0.1.1[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-rtd-theme-1.1.1[${PYTHON_USEDEP}]
 	test? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

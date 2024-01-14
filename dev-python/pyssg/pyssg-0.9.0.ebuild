@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/markdown-checklist[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
 	dev-python/yafg[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
+	>=dev-python/pymdown-extensions-9.9.2[${PYTHON_USEDEP}]
 	dev-python/pymdvar[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]"
+	>=dev-python/validators-0.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

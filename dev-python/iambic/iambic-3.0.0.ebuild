@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typical[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
-	dev-python/html2text[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]"
+	<dev-python/ujson-6.0[${PYTHON_USEDEP}]
+	<dev-python/markdown-4.0[${PYTHON_USEDEP}]
+	<dev-python/pymdown-extensions-11.0[${PYTHON_USEDEP}]
+	<dev-python/html2text-2021.0.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

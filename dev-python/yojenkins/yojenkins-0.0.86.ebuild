@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="sound"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/click-help-colors[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	~dev-python/click-help-colors-0.9.1[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
+	~dev-python/docker-6.0.1[${PYTHON_USEDEP}]
 	dev-python/json2xml[${PYTHON_USEDEP}]
 	dev-python/python-jenkins[${PYTHON_USEDEP}]
-	dev-python/requests-futures[${PYTHON_USEDEP}]
+	~dev-python/requests-futures-1.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]

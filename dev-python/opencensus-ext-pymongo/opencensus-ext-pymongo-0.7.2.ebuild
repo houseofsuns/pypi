@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/opencensus[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]"
+	>=dev-python/pymongo-3.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

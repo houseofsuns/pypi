@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]"
+	<dev-python/passlib-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/bcrypt-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-jose-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

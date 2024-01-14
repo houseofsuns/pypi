@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.19[${PYTHON_USEDEP}]
 	dev-python/os-utilities[${PYTHON_USEDEP}]
 	dev-python/annoy[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
@@ -40,9 +40,9 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	all? ( dev-python/icevision[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-21.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

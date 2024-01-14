@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/bluesky[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	doc? ( dev-python/docs-versions-menu[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-3.3.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/whatrecord[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )

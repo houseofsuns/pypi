@@ -27,15 +27,15 @@ IUSE="testing"
 DEPENDENCIES="dev-python/xrpl-py[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/google[${PYTHON_USEDEP}]
-	dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+	~dev-python/google-api-core-2.11.0[${PYTHON_USEDEP}]
+	~dev-python/google-auth-2.16.2[${PYTHON_USEDEP}]
 	dev-python/google-cloud[${PYTHON_USEDEP}]
 	dev-python/google-cloud-vision[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
+	~dev-python/googleapis-common-protos-1.58.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-firestore[${PYTHON_USEDEP}]
 	dev-python/mockito[${PYTHON_USEDEP}]
 	dev-python/mock-firestore[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	~dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

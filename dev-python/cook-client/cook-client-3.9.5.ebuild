@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
 	dev-python/blessed[${PYTHON_USEDEP}]
 	dev-python/humanfriendly[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]

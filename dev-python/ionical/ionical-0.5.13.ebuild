@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/icalendar[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-3.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

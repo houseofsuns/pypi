@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/towncrier[${PYTHON_USEDEP}]"
+	>=dev-python/towncrier-19.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

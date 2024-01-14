@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+DEPENDENCIES="dev? ( ~dev-python/build-0.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.37.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.990[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

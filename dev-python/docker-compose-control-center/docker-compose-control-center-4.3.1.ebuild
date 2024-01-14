@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/docker-6.0.0[${PYTHON_USEDEP}]
+	~dev-python/django-3.2.15[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/docker-compose[${PYTHON_USEDEP}]
 	dev-python/whitenoise[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ldap3[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	~dev-python/ldap3-2.9.1[${PYTHON_USEDEP}]
+	~dev-python/pytz-2022.2.1[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.13.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

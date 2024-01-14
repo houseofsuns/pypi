@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-5.0[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-simplejwt[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.23.2[${PYTHON_USEDEP}]
 	dev-python/django-ckeditor[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	~dev-python/django-filter-23.2[${PYTHON_USEDEP}]
 	dev-python/django-htmlmin[${PYTHON_USEDEP}]
-	dev-python/hiredis[${PYTHON_USEDEP}]
-	dev-python/mysqlclient[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	~dev-python/hiredis-2.2.3[${PYTHON_USEDEP}]
+	~dev-python/mysqlclient-2.1.1[${PYTHON_USEDEP}]
+	~dev-python/redis-5.0.1[${PYTHON_USEDEP}]
+	test? ( <dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

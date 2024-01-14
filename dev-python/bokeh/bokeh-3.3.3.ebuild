@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/contourpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/contourpy-1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	>=dev-python/packaging-16.8[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2[${PYTHON_USEDEP}]
+	>=dev-python/pillow-7.1.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	>=dev-python/tornado-5.1[${PYTHON_USEDEP}]
 	dev-python/xyzservices[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="plotting"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/seaborn[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/numpy-1.12.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
+	plotting? ( >=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/h11[${PYTHON_USEDEP}]
-	dev-python/httpcore[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/rfc3986[${PYTHON_USEDEP}]
-	dev-python/sniffio[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/anyio-3.6.2[${PYTHON_USEDEP}]
+	~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
+	~dev-python/h11-0.14.0[${PYTHON_USEDEP}]
+	~dev-python/httpcore-0.16.3[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
+	~dev-python/idna-3.4[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.4[${PYTHON_USEDEP}]
+	~dev-python/rfc3986-1.5.0[${PYTHON_USEDEP}]
+	~dev-python/sniffio-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

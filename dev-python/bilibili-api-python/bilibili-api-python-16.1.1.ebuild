@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/brotli[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
+	~dev-python/qrcode-7.4.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/APScheduler-3.10.4[${PYTHON_USEDEP}]
+	~dev-python/rsa-4.9[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.9.2[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	dev-python/qrcode-terminal[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

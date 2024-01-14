@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="components dev widgets"
-DEPENDENCIES="dev-python/typeguard[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/typeguard-3.0.0[${PYTHON_USEDEP}]
 	components? ( dev-python/limbus-components[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/typeguard[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	widgets? ( dev-python/kornia[${PYTHON_USEDEP}] )
 	widgets? ( dev-python/torch[${PYTHON_USEDEP}] )

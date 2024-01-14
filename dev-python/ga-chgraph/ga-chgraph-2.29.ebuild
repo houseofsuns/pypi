@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/tornado-swagger[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
+	~dev-python/ujson-4.0.1[${PYTHON_USEDEP}]
 	dev-python/clickhouse-driver[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/tornado-5.0.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.1.3[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]"
+	~dev-python/redis-3.5.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

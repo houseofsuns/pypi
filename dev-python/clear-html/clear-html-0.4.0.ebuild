@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-20.3.0[${PYTHON_USEDEP}]
 	dev-python/html-text[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]"
+	>=dev-python/lxml-4.4.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

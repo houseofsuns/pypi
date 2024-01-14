@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.0[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.7[${PYTHON_USEDEP}]
 	dev-python/django-guardian[${PYTHON_USEDEP}]
 	dev-python/django-global-requests[${PYTHON_USEDEP}]
 	dev-python/samsteady-django-utils[${PYTHON_USEDEP}]"

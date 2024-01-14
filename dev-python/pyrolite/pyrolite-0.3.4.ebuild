@@ -30,9 +30,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/periodictable[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/mpltern[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.7[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	db? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	db? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
@@ -44,10 +44,10 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyrolite[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/docutils-0.17[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-annotation[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-gallery-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	excel? ( dev-python/xlrd[${PYTHON_USEDEP}] )
 	excel? ( dev-python/openpyxl[${PYTHON_USEDEP}] )

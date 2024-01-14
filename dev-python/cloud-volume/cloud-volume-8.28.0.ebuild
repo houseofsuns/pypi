@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all_viewers boss dask mesh_viewer skeleton_viewer test"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.4.7[${PYTHON_USEDEP}]
+	>=dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
 	dev-python/cloud-files[${PYTHON_USEDEP}]
 	dev-python/compressed-segmentation[${PYTHON_USEDEP}]
 	dev-python/compresso[${PYTHON_USEDEP}]
@@ -34,12 +34,12 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/fastremap[${PYTHON_USEDEP}]
 	dev-python/fpzip[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-1.10.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/json5[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/python-jsonschema-objects[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
@@ -47,21 +47,21 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pyspng-seunglab[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pysimdjson[${PYTHON_USEDEP}]
+	>=dev-python/pysimdjson-3.1.1[${PYTHON_USEDEP}]
 	dev-python/simplejpeg[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-4.10.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.7[${PYTHON_USEDEP}]
 	dev-python/zfpc[${PYTHON_USEDEP}]
 	dev-python/posix-ipc[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.4.3[${PYTHON_USEDEP}]
 	all_viewers? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	all_viewers? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	boss? ( dev-python/intern[${PYTHON_USEDEP}] )
-	boss? ( dev-python/blosc[${PYTHON_USEDEP}] )
+	boss? ( ~dev-python/blosc-1.8.3[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	mesh_viewer? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	skeleton_viewer? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

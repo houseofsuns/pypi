@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev docs lint test typecheck"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	build? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]
+	build? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/wheel-0.40.0[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/towncrier-22.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff-lsp[${PYTHON_USEDEP}] )
-	test? ( dev-python/async-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.20.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	typecheck? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	typecheck? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

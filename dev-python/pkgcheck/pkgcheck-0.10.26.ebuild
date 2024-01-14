@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
 	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/tree-sitter[${PYTHON_USEDEP}]
-	dev-python/snakeoil[${PYTHON_USEDEP}]
+	>=dev-python/tree-sitter-0.19.0[${PYTHON_USEDEP}]
+	~dev-python/snakeoil-0.10.4[${PYTHON_USEDEP}]
 	dev-python/pkgcore[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/snakeoil[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/snakeoil-0.10.4[${PYTHON_USEDEP}] )
 	doc? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	network? ( dev-python/requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

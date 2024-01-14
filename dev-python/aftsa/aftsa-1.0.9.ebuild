@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/datetime[${PYTHON_USEDEP}]
-	dev-python/rfc3339-validator[${PYTHON_USEDEP}]
-	dev-python/rfc3986-validator[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+	~dev-python/rfc3339-validator-0.1.4[${PYTHON_USEDEP}]
+	~dev-python/rfc3986-validator-0.1.1[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

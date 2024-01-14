@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/xarray-0.19.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
-	dev-python/cftime[${PYTHON_USEDEP}]
+	<dev-python/cftime-2.0.0[${PYTHON_USEDEP}]
 	dev-python/nc-time-axis[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.2[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	dev-python/geofeather[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

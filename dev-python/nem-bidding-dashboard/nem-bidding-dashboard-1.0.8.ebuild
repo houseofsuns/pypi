@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	dev-python/nemosis[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
 	dev-python/supabase[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/psycopg[${PYTHON_USEDEP}]
+	<dev-python/psycopg-4.0.0[${PYTHON_USEDEP}]
 	dev-python/dash-bootstrap-components[${PYTHON_USEDEP}]
 	dev-python/dash-loading-spinners[${PYTHON_USEDEP}]
-	dev-python/pytest-mock[${PYTHON_USEDEP}]"
+	<dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

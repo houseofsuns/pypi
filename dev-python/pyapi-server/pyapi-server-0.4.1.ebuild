@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="uvicorn"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/openapi-core[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
+	>=dev-python/openapi-core-0.16.1[${PYTHON_USEDEP}]
+	>=dev-python/starlette-0.21.0[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
-	uvicorn? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	uvicorn? ( >=dev-python/uvicorn-0.18.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

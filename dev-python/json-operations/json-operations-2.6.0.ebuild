@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="test? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )"
+DEPENDENCIES="test? ( ~dev-python/parameterized-0.8.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.8.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

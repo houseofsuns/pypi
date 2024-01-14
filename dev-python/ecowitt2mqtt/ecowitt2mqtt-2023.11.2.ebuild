@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml-clib[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ruamel-yaml-0.18.5[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-clib-0.3.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	dev-python/aiomqtt[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	<dev-python/colorlog-7.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/frozenlist[${PYTHON_USEDEP}]
+	<dev-python/frozenlist-2.0.0[${PYTHON_USEDEP}]
 	dev-python/meteocalc[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]
+	<dev-python/rapidfuzz-4.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}]
+	<dev-python/uvloop-0.20[${PYTHON_USEDEP}]
+	<dev-python/voluptuous-0.15.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.9.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

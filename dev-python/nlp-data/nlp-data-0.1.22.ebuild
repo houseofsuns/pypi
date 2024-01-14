@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/docarray[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.28.8[${PYTHON_USEDEP}]
 	dev-python/wasabi[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.4.2[${PYTHON_USEDEP}]
 	dev-python/srsly[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/jsonargparse[${PYTHON_USEDEP}]
 	dev-python/lightning-utilities[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	~dev-python/pydantic-1.10.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

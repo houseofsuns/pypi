@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/attrs-20.3.0[${PYTHON_USEDEP}]
+	~dev-python/certifi-2020.12.5[${PYTHON_USEDEP}]
+	~dev-python/chardet-4.0.0[${PYTHON_USEDEP}]
 	dev-python/GuardiPy[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/idna-2.10[${PYTHON_USEDEP}]
+	~dev-python/inflect-5.0.2[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	~dev-python/pyrsistent-0.17.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	~dev-python/six-1.15.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.3[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-56.0.0[${PYTHON_USEDEP}]
 	dev-python/greynoise[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

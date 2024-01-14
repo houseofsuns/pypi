@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/zfit[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/iminuit[${PYTHON_USEDEP}]
+	>=dev-python/iminuit-2.20.0[${PYTHON_USEDEP}]
 	dev-python/awkward[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

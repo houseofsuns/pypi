@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/certifi-14.5.14[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.15.1[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]
+	>=dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-tornasync[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )"

@@ -26,20 +26,20 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs taggit-helpers"
 DEPENDENCIES="dev-python/django-parler[${PYTHON_USEDEP}]
 	dev-python/django-cms[${PYTHON_USEDEP}]
-	dev-python/django-taggit[${PYTHON_USEDEP}]
+	>=dev-python/django-taggit-1.0[${PYTHON_USEDEP}]
 	dev-python/django-filer[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/django-taggit-templatetags[${PYTHON_USEDEP}]
 	dev-python/django-taggit-autosuggest[${PYTHON_USEDEP}]
 	dev-python/djangocms-text-ckeditor[${PYTHON_USEDEP}]
-	dev-python/easy-thumbnails[${PYTHON_USEDEP}]
+	>=dev-python/easy-thumbnails-2.4.1[${PYTHON_USEDEP}]
 	dev-python/django-meta[${PYTHON_USEDEP}]
 	dev-python/aldryn-apphooks-config[${PYTHON_USEDEP}]
 	dev-python/djangocms-apphook-setup[${PYTHON_USEDEP}]
 	dev-python/django-sortedm2m[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	docs? ( dev-python/django[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/django-5.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	taggit-helpers? ( dev-python/django-taggit-helpers[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

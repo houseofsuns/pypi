@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="code_style pdfhtml sphinx testing"
 DEPENDENCIES="sphinx? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/nbclient[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/docutils-0.19[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/linkify-it-py[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
+	~dev-python/linkify-it-py-2.0.0[${PYTHON_USEDEP}]
 	dev-python/myst-nb[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+	<dev-python/sphinx-6.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-comments[${PYTHON_USEDEP}]
 	dev-python/sphinx-copybutton[${PYTHON_USEDEP}]
 	dev-python/sphinx-external-toc[${PYTHON_USEDEP}]
@@ -42,7 +42,7 @@ DEPENDENCIES="sphinx? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev-python/sphinx-thebe[${PYTHON_USEDEP}]
 	dev-python/sphinx-book-theme[${PYTHON_USEDEP}]
 	dev-python/sphinx_togglebutton[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}]
+	<=dev-python/sphinxcontrib-bibtex-2.5.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-multitoc-numbering[${PYTHON_USEDEP}]
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	pdfhtml? ( dev-python/pyppeteer[${PYTHON_USEDEP}] )
@@ -68,7 +68,7 @@ DEPENDENCIES="sphinx? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	testing? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pyppeteer[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )

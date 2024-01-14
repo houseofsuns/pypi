@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="testing? ( dev-python/docker[${PYTHON_USEDEP}] )
+DEPENDENCIES="testing? ( <dev-python/docker-7.0.0[${PYTHON_USEDEP}] )
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/testcontainers[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

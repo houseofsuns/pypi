@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pysftp[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]"
+	>=dev-python/arrow-0.14.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

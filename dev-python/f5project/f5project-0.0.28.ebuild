@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/finlab[${PYTHON_USEDEP}]
 	dev-python/fugle-trade[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/functions-framework[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
 	dev-python/github-secret-syncer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

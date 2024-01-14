@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="complete dev docs test updater"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.32.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.11.0[${PYTHON_USEDEP}]
 	complete? ( dev-python/composeml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nbsphinx-0.8.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydata-sphinx-theme-0.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-inline-tabs-2022.1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/myst-parser-0.16.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nbconvert-6.4.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipython-7.31.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pygments-2.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipykernel-6.4.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	docs? ( dev-python/evalml[${PYTHON_USEDEP}] )
-	test? ( dev-python/pip[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pip-21.3.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/wheel-0.33.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/featuretools[${PYTHON_USEDEP}] )
 	test? ( dev-python/woodwork[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}] )
 	updater? ( dev-python/alteryx-open-src-update-checker[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

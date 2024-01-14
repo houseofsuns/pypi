@@ -26,20 +26,20 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/anywidget[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	>=dev-python/jupyterlab-4.0.6[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.13.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-23.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/canica[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jupyterlab-4.0.7[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbstripout[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/watchfiles[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/watchfiles-0.20.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

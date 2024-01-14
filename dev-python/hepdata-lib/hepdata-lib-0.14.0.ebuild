@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/hepdata-validator[${PYTHON_USEDEP}]
 	test? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	test? ( dev-python/papermill[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.9.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

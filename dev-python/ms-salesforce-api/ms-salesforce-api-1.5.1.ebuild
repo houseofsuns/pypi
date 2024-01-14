@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flake8-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/isort-6.0.0[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/gc-google-services-api[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

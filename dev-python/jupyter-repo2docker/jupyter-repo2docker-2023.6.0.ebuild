@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	>dev-python/docker-5.0.0[${PYTHON_USEDEP}]
 	dev-python/entrypoints[${PYTHON_USEDEP}]
 	dev-python/escapism[${PYTHON_USEDEP}]
 	dev-python/iso8601[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/python-json-logger[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.15[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/traitlets[${PYTHON_USEDEP}]"

@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev huggingface langchain llama-index localserver pandas"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-1.0[${PYTHON_USEDEP}]
 	dev-python/aiolimiter[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	dev-python/httpx-sse[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-5.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/ibm-generative-ai[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-dotenv[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-httpx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/furo-2022.12.7[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-scm-7.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-httpx-0.27.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	langchain? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	llama-index? ( dev-python/llama-index[${PYTHON_USEDEP}] )
-	localserver? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	localserver? ( >=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
 	localserver? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	pandas? ( >=dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/logzero[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/ebooklib[${PYTHON_USEDEP}]
-	dev-python/absl-py[${PYTHON_USEDEP}]"
+	<dev-python/absl-py-0.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

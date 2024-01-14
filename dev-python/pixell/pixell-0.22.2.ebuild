@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fftw mpi"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-39.0[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.7[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7[${PYTHON_USEDEP}]
+	<dev-python/cython-3.0.4[${PYTHON_USEDEP}]
 	dev-python/healpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	>=dev-python/pytest-cov-2.6[${PYTHON_USEDEP}]
 	dev-python/coveralls[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-4.6[${PYTHON_USEDEP}]
 	dev-python/ducc0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	fftw? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
-	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )"
+	mpi? ( >=dev-python/mpi4py-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

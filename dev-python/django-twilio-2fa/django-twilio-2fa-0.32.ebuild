@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2.9[${PYTHON_USEDEP}]
 	dev-python/twilio[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]"
+	>=dev-python/phonenumbers-8.12.26[${PYTHON_USEDEP}]
+	>=dev-python/pycountry-22.3.5[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

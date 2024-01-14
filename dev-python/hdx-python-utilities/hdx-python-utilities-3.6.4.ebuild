@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev email html test"
 DEPENDENCIES="dev-python/frictionless[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
+	>=dev-python/ijson-3.2.3[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/ratelimit[${PYTHON_USEDEP}]
 	dev-python/requests-file[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/tableschema-to-template[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/xlwt[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/xlwt-1.3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	email? ( dev-python/email-validator[${PYTHON_USEDEP}] )
 	html? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )

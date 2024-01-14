@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pywin32[${PYTHON_USEDEP}]
 	dev-python/pywin32-ctypes[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
+	<=dev-python/pygame-2.5.1[${PYTHON_USEDEP}]
 	dev-python/thefuzz[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.31.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	tests? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/aiohttp-3.5.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/tqdm-4.31.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tox[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

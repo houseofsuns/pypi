@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build deploy devel tests tests-es7"
-DEPENDENCIES="dev-python/wrapt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/wrapt-1.11.2[${PYTHON_USEDEP}]
 	build? ( dev-python/oarepo-model-builder[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/oarepo[${PYTHON_USEDEP}] )
 	devel? ( dev-python/oarepo[${PYTHON_USEDEP}] )

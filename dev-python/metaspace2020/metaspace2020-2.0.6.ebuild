@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	>=dev-python/plotly-1.12[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="accelerators all callbacks comet horovod neptune tensorboard tests"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.5.1[${PYTHON_USEDEP}]
+	>=dev-python/rich-2.3.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	accelerators? ( dev-python/horovod[${PYTHON_USEDEP}] )
 	all? ( dev-python/horovod[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.3.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pillow-7.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/moviepy[${PYTHON_USEDEP}] )
 	all? ( dev-python/neptune-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/comet-ml[${PYTHON_USEDEP}] )
 	callbacks? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	callbacks? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	callbacks? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	callbacks? ( >=dev-python/matplotlib-3.3.1[${PYTHON_USEDEP}] )
+	callbacks? ( >=dev-python/pillow-7.2.0[${PYTHON_USEDEP}] )
 	callbacks? ( dev-python/moviepy[${PYTHON_USEDEP}] )
 	callbacks? ( dev-python/neptune-client[${PYTHON_USEDEP}] )
 	callbacks? ( dev-python/comet-ml[${PYTHON_USEDEP}] )
@@ -46,12 +46,12 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	horovod? ( dev-python/horovod[${PYTHON_USEDEP}] )
 	neptune? ( dev-python/neptune-client[${PYTHON_USEDEP}] )
 	tensorboard? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	tensorboard? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tensorboard? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	tensorboard? ( >=dev-python/matplotlib-3.3.1[${PYTHON_USEDEP}] )
+	tensorboard? ( >=dev-python/pillow-7.2.0[${PYTHON_USEDEP}] )
 	tensorboard? ( dev-python/moviepy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/matplotlib-3.3.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pillow-7.2.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/moviepy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/neptune-client[${PYTHON_USEDEP}] )
 	tests? ( dev-python/comet-ml[${PYTHON_USEDEP}] )"

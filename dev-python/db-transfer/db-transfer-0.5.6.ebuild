@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-6.3[${PYTHON_USEDEP}]
+	>=dev-python/redis-2.10[${PYTHON_USEDEP}]
+	>=dev-python/ujson-1.35[${PYTHON_USEDEP}]
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

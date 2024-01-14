@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs stan"
 DEPENDENCIES="dev-python/cma[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.8[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.14[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-1.5[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/threadpoolctl[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	dev? ( dev-python/traitlets[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.5[${PYTHON_USEDEP}] )
 	stan? ( dev-python/pystan[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

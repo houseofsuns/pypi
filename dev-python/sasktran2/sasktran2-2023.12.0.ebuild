@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2023.0.0[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/netcdf4[${PYTHON_USEDEP}]

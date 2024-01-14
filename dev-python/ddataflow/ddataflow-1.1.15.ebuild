@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/databricks-cli[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	>=dev-python/oauthlib-3.2.1[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.24.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

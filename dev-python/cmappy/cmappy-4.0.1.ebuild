@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/h5py-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.11.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.18[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.13.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

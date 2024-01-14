@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="desktop server"
 DEPENDENCIES="dev-python/av[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	desktop? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	server? ( dev-python/streamlit[${PYTHON_USEDEP}] )
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	<=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

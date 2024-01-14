@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev doc gpu test"
 DEPENDENCIES="dev-python/array-api-compat[${PYTHON_USEDEP}]
 	dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.0[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.1[${PYTHON_USEDEP}]
+	>dev-python/scipy-1.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	doc? ( dev-python/awkward[${PYTHON_USEDEP}] )
@@ -39,12 +39,12 @@ DEPENDENCIES="dev-python/array-api-compat[${PYTHON_USEDEP}]
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/scanpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-autodoc-typehints-1.11.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.4[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	doc? ( dev-python/zarr[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/cupy[${PYTHON_USEDEP}] )
@@ -57,8 +57,8 @@ DEPENDENCIES="dev-python/array-api-compat[${PYTHON_USEDEP}]
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.10[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-memray[${PYTHON_USEDEP}] )
 	test? ( dev-python/scanpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )

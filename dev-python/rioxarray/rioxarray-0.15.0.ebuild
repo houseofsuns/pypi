@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev doc interp test"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.17[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-2.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	all? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dask[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	interp? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/dask[${PYTHON_USEDEP}] )

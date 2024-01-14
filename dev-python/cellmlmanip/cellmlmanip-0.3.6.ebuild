@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/lxml-5.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.1[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	>=dev-python/rdflib-4.0[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.4[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

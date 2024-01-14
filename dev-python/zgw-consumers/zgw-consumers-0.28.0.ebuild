@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="coverage db docs drf pep8 release tests testutils"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2.0[${PYTHON_USEDEP}]
 	dev-python/django-relativedelta[${PYTHON_USEDEP}]
 	dev-python/django-solo[${PYTHON_USEDEP}]
 	dev-python/gemma-zds-client[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	tests? ( dev-python/black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyquery[${PYTHON_USEDEP}] )
-	testutils? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	testutils? ( >=dev-python/Faker-0.7.0[${PYTHON_USEDEP}] )
 	testutils? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	testutils? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

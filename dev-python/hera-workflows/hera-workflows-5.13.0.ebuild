@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli yaml"
 DEPENDENCIES="cli? ( dev-python/cappa[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	cli? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	yaml? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

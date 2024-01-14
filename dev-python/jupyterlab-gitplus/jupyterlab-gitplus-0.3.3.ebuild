@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/jupyterlab[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]"
+	<dev-python/jupyter-server-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -35,11 +35,11 @@ DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	demo? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-rtd-theme-0.6[${PYTHON_USEDEP}] )
 	screenshot? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	test? ( dev-python/BeautifulSoup4[${PYTHON_USEDEP}] )
 	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-magic[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

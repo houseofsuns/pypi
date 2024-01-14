@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp enterprise_cert pyopenssl reauth requests"
-DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	aiohttp? ( dev-python/requests[${PYTHON_USEDEP}] )
-	enterprise_cert? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	enterprise_cert? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
-	pyopenssl? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
-	pyopenssl? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	reauth? ( dev-python/pyu2f[${PYTHON_USEDEP}] )
-	requests? ( dev-python/requests[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/cachetools-6.0[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-modules-0.2.1[${PYTHON_USEDEP}]
+	<dev-python/rsa-5.0[${PYTHON_USEDEP}]
+	aiohttp? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
+	aiohttp? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	enterprise_cert? ( ~dev-python/cryptography-36.0.2[${PYTHON_USEDEP}] )
+	enterprise_cert? ( ~dev-python/pyopenssl-22.0.0[${PYTHON_USEDEP}] )
+	pyopenssl? ( >=dev-python/pyopenssl-20.0.0[${PYTHON_USEDEP}] )
+	pyopenssl? ( >=dev-python/cryptography-38.0.3[${PYTHON_USEDEP}] )
+	reauth? ( >=dev-python/pyu2f-0.1.5[${PYTHON_USEDEP}] )
+	requests? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

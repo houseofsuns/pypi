@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lint test"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-4.0[${PYTHON_USEDEP}]
+	<dev-python/rdflib-7.0[${PYTHON_USEDEP}]
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

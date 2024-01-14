@@ -28,60 +28,60 @@ DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
 	dev-python/PartSegCore-compiled-backend[${PYTHON_USEDEP}]
 	dev-python/PartSegData[${PYTHON_USEDEP}]
 	dev-python/QtAwesome[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	>=dev-python/QtPy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/SimpleITK[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/czifile[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.6.0[${PYTHON_USEDEP}]
 	dev-python/fonticon-fontawesome6[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.3.0[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.5.0[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-5.2.0[${PYTHON_USEDEP}]
 	dev-python/local-migrator[${PYTHON_USEDEP}]
 	dev-python/magicgui[${PYTHON_USEDEP}]
 	dev-python/mahotas[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
 	dev-python/nme[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	dev-python/oiffile[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-2.5.7[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
 	dev-python/psygnal[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/qtconsole[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/superqt[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.4.0[${PYTHON_USEDEP}]
+	>=dev-python/qtconsole-4.7.7[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/sentry-sdk-0.14.3[${PYTHON_USEDEP}]
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
+	>=dev-python/superqt-0.3.0[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/tifffile-2020.9.30[${PYTHON_USEDEP}]
 	dev-python/traceback-with-variables[${PYTHON_USEDEP}]
 	dev-python/vispy[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/xlsxwriter[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/xlsxwriter-2.0.0[${PYTHON_USEDEP}]
 	accelerate? ( dev-python/PyOpenGL-accelerate[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyOpenGL-accelerate[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/sphinx-3.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.18.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-qt-documentation[${PYTHON_USEDEP}] )
 	pyinstaller? ( dev-python/PyOpenGL-accelerate[${PYTHON_USEDEP}] )
-	pyinstaller? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyinstaller? ( >=dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}] )
 	pyinstaller? ( dev-python/PyInstaller[${PYTHON_USEDEP}] )
-	pyinstaller? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	pyqt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyinstaller? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
+	pyqt? ( >=dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}] )
+	pyqt5? ( >=dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/PySide6[${PYTHON_USEDEP}] )
 	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )

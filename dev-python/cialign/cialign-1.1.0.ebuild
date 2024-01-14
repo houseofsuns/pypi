@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

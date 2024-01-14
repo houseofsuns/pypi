@@ -27,11 +27,11 @@ IUSE=""
 DEPENDENCIES="dev-python/astroalign[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/ephem[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/multiprocess[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}]
+	~dev-python/multiprocess-0.70.14[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	~dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

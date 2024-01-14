@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/pluggy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	dev-python/platformdirs[${PYTHON_USEDEP}]"
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/myst-parser-0.19.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/pydata-sphinx-theme-0.10.0[${PYTHON_USEDEP}] )
+	<dev-python/platformdirs-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

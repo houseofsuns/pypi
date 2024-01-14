@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+DEPENDENCIES="tests? ( ~dev-python/flake8-3.7.8[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mypy-0.720[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-5.0.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/bump2version[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

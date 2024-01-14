@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/prompt-toolkit[${PYTHON_USEDEP}]
 	dev-python/xonsh[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

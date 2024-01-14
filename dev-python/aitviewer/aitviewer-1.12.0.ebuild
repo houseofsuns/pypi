@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python-headless[${PYTHON_USEDEP}]
 	dev-python/smplx[${PYTHON_USEDEP}]
 	dev-python/moderngl-window[${PYTHON_USEDEP}]
 	dev-python/moderngl[${PYTHON_USEDEP}]
 	dev-python/imgui[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/trimesh[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
+	<dev-python/trimesh-4.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.2[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	dev-python/roma[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
 	dev-python/usd-core[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]"
+	>=dev-python/PyQt5-5.15.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/odahu-flow-sdk[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	testing? ( >=dev-python/pytest-5.1.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-mock-1.10.4[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pylint-2.3.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/apache-airflow[${PYTHON_USEDEP}] )
 	testing? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="codegen doc tests"
 DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	doc? ( <dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
 	codegen? ( dev-python/datamodel-code-generator[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

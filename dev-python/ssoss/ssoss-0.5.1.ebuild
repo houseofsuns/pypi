@@ -27,16 +27,16 @@ IUSE=""
 DEPENDENCIES="dev-python/geographiclib[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	dev-python/gpxpy[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/imageio-2.31.5[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/tzdata[${PYTHON_USEDEP}]"
+	~dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
+	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

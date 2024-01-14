@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0.7[${PYTHON_USEDEP}]
 	dev-python/prometheus-flask-exporter[${PYTHON_USEDEP}]
 	dev-python/flask-swagger-init[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

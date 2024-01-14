@@ -27,8 +27,8 @@ IUSE="testing"
 DEPENDENCIES="dev-python/soda-sql-spark[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	testing? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-spark[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

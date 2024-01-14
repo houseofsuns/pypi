@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async docs test xmlsec"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/requests-file[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-17.2.0[${PYTHON_USEDEP}]
+	>=dev-python/isodate-0.5.4[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.6.0[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.7.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-file-1.5.1[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	async? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/pretend[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	async? ( >=dev-python/httpx-0.15.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-5.2.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/freezegun-0.3.15[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pretend-1.0.9[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-httpx[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-mock-0.7.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.3.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-imports[${PYTHON_USEDEP}] )
-	xmlsec? ( dev-python/xmlsec[${PYTHON_USEDEP}] )"
+	xmlsec? ( >=dev-python/xmlsec-0.6.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

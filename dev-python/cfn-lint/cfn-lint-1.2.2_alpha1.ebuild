@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="graph"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/aws-sam-translator[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
+	>=dev-python/aws-sam-translator-1.69.0[${PYTHON_USEDEP}]
 	dev-python/jsonpatch[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/junit-xml[${PYTHON_USEDEP}]
-	dev-python/jschema-to-python[${PYTHON_USEDEP}]
-	dev-python/sarif-om[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	<dev-python/networkx-4.0[${PYTHON_USEDEP}]
+	~dev-python/junit-xml-1.9[${PYTHON_USEDEP}]
+	~dev-python/jschema-to-python-1.2.3[${PYTHON_USEDEP}]
+	~dev-python/sarif-om-1.0.4[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.0.0[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	graph? ( dev-python/pydot[${PYTHON_USEDEP}] )"

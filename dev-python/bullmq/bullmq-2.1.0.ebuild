@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/redis-6.0[${PYTHON_USEDEP}]
+	<dev-python/msgpack-2.0[${PYTHON_USEDEP}]
+	<dev-python/semver-3.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/setuptools-68.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-semantic-release[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-redis[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

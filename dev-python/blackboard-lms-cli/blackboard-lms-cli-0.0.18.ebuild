@@ -29,13 +29,13 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.8.0[${PYTHON_USEDEP}]
 	dev-python/shellingham[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
 	dev-python/html2text[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
 	dev-python/pwinput[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/pyaml[${PYTHON_USEDEP}]
 	dev-python/clavis[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
 	dev-python/falcon[${PYTHON_USEDEP}]
-	dev-python/apispec[${PYTHON_USEDEP}]
+	<dev-python/apispec-4.0.0[${PYTHON_USEDEP}]
 	dev-python/bulky[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]"

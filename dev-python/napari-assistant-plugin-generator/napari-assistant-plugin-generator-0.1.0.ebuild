@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/napari-plugin-engine[${PYTHON_USEDEP}]
 	dev-python/magicgui[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
 	dev-python/jupytext[${PYTHON_USEDEP}]
 	dev-python/jupyter[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]

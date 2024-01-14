@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/oslo-log[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/oslo-log-3.36.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pypowervm[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]
 	dev-python/ceilometer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

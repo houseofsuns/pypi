@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="raw_parameters_readout"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.13.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
 	dev-python/rawprasslib[${PYTHON_USEDEP}]
 	dev-python/opentims-bruker-bridge[${PYTHON_USEDEP}]
 	dev-python/opentimspy[${PYTHON_USEDEP}]

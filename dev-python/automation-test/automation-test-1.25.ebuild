@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jsonpickle[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/cachecontrol[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jsonpickle-1.4[${PYTHON_USEDEP}]
+	~dev-python/requests-2.24[${PYTHON_USEDEP}]
+	~dev-python/cachecontrol-0.12.6[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	dev-python/enum34[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

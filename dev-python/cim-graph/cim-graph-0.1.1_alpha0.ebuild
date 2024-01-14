@@ -27,11 +27,11 @@ IUSE=""
 DEPENDENCIES="dev-python/xsdata[${PYTHON_USEDEP}]
 	dev-python/SPARQLWrapper[${PYTHON_USEDEP}]
 	dev-python/neo4j[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	<dev-python/rdflib-8.0.0[${PYTHON_USEDEP}]
 	dev-python/oxrdflib[${PYTHON_USEDEP}]
 	dev-python/rdflib-neo4j[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python[${PYTHON_USEDEP}]
 	dev-python/gridappsd-python[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]"
+	<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ethereum"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-19.0[${PYTHON_USEDEP}]
+	>=dev-python/ecdsa-0.9[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/hidapi[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.4.0[${PYTHON_USEDEP}]
+	>=dev-python/click-6.2[${PYTHON_USEDEP}]
+	>=dev-python/hidapi-0.7.99[${PYTHON_USEDEP}]
 	dev-python/libusb1[${PYTHON_USEDEP}]
 	ethereum? ( dev-python/rlp[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

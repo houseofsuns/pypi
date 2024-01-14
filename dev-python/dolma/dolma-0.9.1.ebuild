@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev warc"
-DEPENDENCIES="dev-python/anyascii[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/anyascii-0.3.2[${PYTHON_USEDEP}]
 	dev-python/blingfire[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/cached-path[${PYTHON_USEDEP}]
@@ -47,15 +47,15 @@ DEPENDENCIES="dev-python/anyascii[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/necessary[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
+	>=dev-python/charset-normalizer-3.2.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-22.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.971[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-8.4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/autopep8-1.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipdb-0.13.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-pyi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	warc? ( dev-python/warcio[${PYTHON_USEDEP}] )
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/anyascii[${PYTHON_USEDEP}]
 	warc? ( dev-python/justext[${PYTHON_USEDEP}] )
 	warc? ( dev-python/goose3[${PYTHON_USEDEP}] )
 	warc? ( dev-python/brotli[${PYTHON_USEDEP}] )
-	warc? ( dev-python/cchardet[${PYTHON_USEDEP}] )
+	warc? ( >=dev-python/cchardet-2.1.7[${PYTHON_USEDEP}] )
 	warc? ( dev-python/faust-cchardet[${PYTHON_USEDEP}] )
 	warc? ( dev-python/htmldate[${PYTHON_USEDEP}] )
 	warc? ( dev-python/py3langid[${PYTHON_USEDEP}] )"

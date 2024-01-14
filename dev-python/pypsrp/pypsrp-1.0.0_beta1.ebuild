@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="credssp kerberos named_pipe ssh"
 DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/httpcore[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/httpcore-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
 	dev-python/psrpcore[${PYTHON_USEDEP}]
-	dev-python/pyspnego[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	credssp? ( dev-python/requests-credssp[${PYTHON_USEDEP}] )
+	<dev-python/pyspnego-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
+	credssp? ( >=dev-python/requests-credssp-2.0.0[${PYTHON_USEDEP}] )
 	kerberos? ( dev-python/pyspnego[${PYTHON_USEDEP}] )
 	named_pipe? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	ssh? ( dev-python/asyncssh[${PYTHON_USEDEP}] )"

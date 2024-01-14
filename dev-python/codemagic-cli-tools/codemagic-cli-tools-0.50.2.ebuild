@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-3.3[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-2.84.0[${PYTHON_USEDEP}]
+	>=dev-python/httplib2-0.19.0[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

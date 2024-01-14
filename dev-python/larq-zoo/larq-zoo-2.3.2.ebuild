@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tensorflow tensorflow_gpu test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	dev-python/larq[${PYTHON_USEDEP}]
 	dev-python/zookeeper[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	<dev-python/typeguard-3.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow_gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/dill[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/dill-0.3.6[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytype[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	test? ( dev-python/tensorflow-datasets[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

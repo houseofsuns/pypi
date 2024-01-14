@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/azure-mgmt-deploymentmanager[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-resource[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.15[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -37,6 +37,6 @@ DEPENDENCIES="dev-python/azure-mgmt-deploymentmanager[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
 	dev-python/adal[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]"
+	>=dev-python/cryptography-3.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

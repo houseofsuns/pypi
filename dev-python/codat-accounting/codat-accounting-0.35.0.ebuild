@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	>=dev-python/charset-normalizer-3.2.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	>=dev-python/idna-3.4[${PYTHON_USEDEP}]
 	dev-python/jsonpath-python[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.19.0[${PYTHON_USEDEP}]
+	>=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )"
+	>=dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pylint-2.16.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

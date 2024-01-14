@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="code_style myst rtd testing"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sphinx-4.0[${PYTHON_USEDEP}]
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	myst? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-4.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-2.8[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sphinx-external-toc[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/sphinxcontrib-bibtex-2.3.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/texsoup[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

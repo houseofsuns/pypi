@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="chromadb openai"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pydantic-core[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.25.1[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
+	~dev-python/pydantic-core-2.14.6[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/rich-13.7.0[${PYTHON_USEDEP}]
 	chromadb? ( dev-python/chromadb[${PYTHON_USEDEP}] )
 	openai? ( dev-python/openai[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

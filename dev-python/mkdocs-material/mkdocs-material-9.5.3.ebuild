@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="git imaging recommended"
 DEPENDENCIES="dev-python/babel[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/paginate[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/markdown-3.2[${PYTHON_USEDEP}]
+	~dev-python/mkdocs-material-extensions-1.3[${PYTHON_USEDEP}]
+	~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}]
+	~dev-python/paginate-0.5[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.16[${PYTHON_USEDEP}]
+	~dev-python/pymdown-extensions-10.2[${PYTHON_USEDEP}]
+	>=dev-python/regex-2022.4[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26[${PYTHON_USEDEP}]
 	git? ( dev-python/mkdocs-git-committers-plugin_2[${PYTHON_USEDEP}] )
-	git? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
+	git? ( ~dev-python/mkdocs-git-revision-date-localized-plugin-1.2[${PYTHON_USEDEP}] )
 	imaging? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
-	imaging? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/mkdocs-redirects[${PYTHON_USEDEP}] )
+	imaging? ( ~dev-python/pillow-9.4[${PYTHON_USEDEP}] )
+	recommended? ( ~dev-python/mkdocs-minify-plugin-0.7[${PYTHON_USEDEP}] )
+	recommended? ( ~dev-python/mkdocs-redirects-1.2[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/mkdocs-rss-plugin[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

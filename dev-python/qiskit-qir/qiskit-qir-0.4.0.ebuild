@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
-	dev-python/qiskit-terra[${PYTHON_USEDEP}]
+	<dev-python/qiskit-terra-1.0[${PYTHON_USEDEP}]
 	dev-python/pyqir[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

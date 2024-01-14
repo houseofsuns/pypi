@@ -24,38 +24,38 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build docs test"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.12.28[${PYTHON_USEDEP}]
 	dev-python/cellprofiler-core[${PYTHON_USEDEP}]
 	dev-python/centrosome[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
+	~dev-python/docutils-0.15.2[${PYTHON_USEDEP}]
+	~dev-python/h5py-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.5[${PYTHON_USEDEP}]
+	<dev-python/inflect-7.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.13[${PYTHON_USEDEP}]
 	dev-python/mahotas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/mysqlclient[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
+	~dev-python/mysqlclient-1.4.6[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/prokaryote[${PYTHON_USEDEP}]
 	dev-python/python-bioformats[${PYTHON_USEDEP}]
 	dev-python/python-javabridge[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/pyzmq-22.3[${PYTHON_USEDEP}]
+	~dev-python/sentry-sdk-0.18.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]
+	<dev-python/tifffile-2022.4.22[${PYTHON_USEDEP}]
 	dev-python/wxPython[${PYTHON_USEDEP}]
 	build? ( dev-python/black[${PYTHON_USEDEP}] )
 	build? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	build? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

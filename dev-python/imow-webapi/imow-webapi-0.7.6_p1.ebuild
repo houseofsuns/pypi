@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.12[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

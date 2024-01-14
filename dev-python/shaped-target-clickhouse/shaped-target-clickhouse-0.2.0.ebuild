@@ -27,6 +27,6 @@ IUSE="s3"
 DEPENDENCIES="dev-python/singer-sdk[${PYTHON_USEDEP}]
 	s3? ( dev-python/fs-s3fs[${PYTHON_USEDEP}] )
 	dev-python/clickhouse-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]"
+	<dev-python/simplejson-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

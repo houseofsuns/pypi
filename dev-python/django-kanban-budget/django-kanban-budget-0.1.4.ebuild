@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.7.7[${PYTHON_USEDEP}]
+	>=dev-python/django-filter-2.0.0[${PYTHON_USEDEP}]
 	dev-python/django-uuslug[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]

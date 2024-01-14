@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="watch"
-DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/async-timeout-5.0[${PYTHON_USEDEP}]
+	>=dev-python/click-6.7[${PYTHON_USEDEP}]
 	watch? ( dev-python/watchgod[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

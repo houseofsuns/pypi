@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev testing"
-DEPENDENCIES="dev-python/fs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/fs-2.4[${PYTHON_USEDEP}]
 	dev-python/fs-synapse[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	all? ( dev-python/rdflib[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/rdflib-6.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-autodoc-typehints-1.21[${PYTHON_USEDEP}] )
 	dev? ( dev-python/interrogate[${PYTHON_USEDEP}] )
-	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/setuptools-65.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-mock-3.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/hypothesis-4.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nbmake[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/pytest-xdist-3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

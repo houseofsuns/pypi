@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="developer docs optional test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.9[${PYTHON_USEDEP}]
 	dev-python/transforms3d[${PYTHON_USEDEP}]
 	developer? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	developer? ( dev-python/rtoml[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/texext[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	optional? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

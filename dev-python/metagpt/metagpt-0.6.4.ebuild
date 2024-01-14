@@ -24,67 +24,67 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev ocr playwright pyppeteer search-ddg search-google selenium test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	dev-python/channels[${PYTHON_USEDEP}]
 	dev-python/faiss-cpu[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/lancedb[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/meilisearch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	~dev-python/setuptools-65.6.3[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	dev-python/anthropic[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
 	dev-python/libcst[${PYTHON_USEDEP}]
 	dev-python/qdrant-client[${PYTHON_USEDEP}]
 	dev-python/ta[${PYTHON_USEDEP}]
 	dev-python/semantic-kernel[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	~dev-python/wrapt-1.15.0[${PYTHON_USEDEP}]
 	dev-python/aioredis[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-1.6.2[${PYTHON_USEDEP}]
+	~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/zhipuai[${PYTHON_USEDEP}]
-	dev-python/socksio[${PYTHON_USEDEP}]
+	~dev-python/socksio-1.0.0[${PYTHON_USEDEP}]
 	dev-python/gitignore-parser[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	~dev-python/websockets-12.0[${PYTHON_USEDEP}]
+	~dev-python/networkx-3.2.1[${PYTHON_USEDEP}]
 	dev-python/google-generativeai[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	ocr? ( dev-python/paddlepaddle[${PYTHON_USEDEP}] )
 	ocr? ( dev-python/paddleocr[${PYTHON_USEDEP}] )
-	ocr? ( dev-python/tabulate[${PYTHON_USEDEP}] )
+	ocr? ( ~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	playwright? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	playwright? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	pyppeteer? ( dev-python/pyppeteer[${PYTHON_USEDEP}] )
 	search-ddg? ( dev-python/duckduckgo-search[${PYTHON_USEDEP}] )
-	search-google? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	selenium? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	search-google? ( ~dev-python/google-api-python-client-2.94.0[${PYTHON_USEDEP}] )
+	selenium? ( >dev-python/selenium-4.0[${PYTHON_USEDEP}] )
 	selenium? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )
 	selenium? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	test? ( dev-python/duckduckgo-search[${PYTHON_USEDEP}] )
 	test? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	test? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	test? ( dev-python/tabulate[${PYTHON_USEDEP}] )
+	test? ( >dev-python/selenium-4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )
-	test? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/google-api-python-client-2.94.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/paddleocr[${PYTHON_USEDEP}] )
 	test? ( dev-python/paddlepaddle[${PYTHON_USEDEP}] )
 	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
@@ -101,6 +101,6 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	test? ( dev-python/chromadb[${PYTHON_USEDEP}] )
 	test? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	test? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/mock-5.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

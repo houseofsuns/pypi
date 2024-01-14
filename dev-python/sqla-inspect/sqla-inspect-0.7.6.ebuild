@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/colanderalchemy[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/py3o-template[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]
 	dev-python/odswriter[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

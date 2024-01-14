@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.0[${PYTHON_USEDEP}]
 	dev-python/mitol-django-common[${PYTHON_USEDEP}]
 	dev-python/mitol-django-google-sheets[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
+	~dev-python/pluggy-0.13.1[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

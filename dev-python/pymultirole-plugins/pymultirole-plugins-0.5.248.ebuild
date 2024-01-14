@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pydantic-1.7.4[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/python-singleton-metaclasses[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/dirty-equals[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/gspread[${PYTHON_USEDEP}]
 	dev-python/mysql-connector[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.1[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-3.10.1[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.21[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
-	dev-python/xlsxwriter[${PYTHON_USEDEP}]"
+	>=dev-python/xlsxwriter-1.3.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

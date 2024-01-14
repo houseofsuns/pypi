@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
 	dev-python/mckit-nuclides[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
-	dev-python/multipledispatch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]"
+	>=dev-python/multipledispatch-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.7.0[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2022.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

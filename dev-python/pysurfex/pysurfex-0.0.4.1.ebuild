@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/dateutils[${PYTHON_USEDEP}]
 	dev-python/f90nml[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/humanize-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/numexpr-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyproj-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/netcdf4[${PYTHON_USEDEP}]
+	~dev-python/netcdf4-1.5.7[${PYTHON_USEDEP}]
 	dev-python/cfunits[${PYTHON_USEDEP}]
 	dev-python/eccodes[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/gridpp[${PYTHON_USEDEP}]
 	dev-python/titanlib[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]"
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

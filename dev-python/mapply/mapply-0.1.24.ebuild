@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pathos[${PYTHON_USEDEP}]
 	dev-python/multiprocess[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]"
+	>=dev-python/tqdm-4.27[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

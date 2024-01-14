@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	tests? ( dev-python/vcrpy[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/requests-toolbelt-1.0[${PYTHON_USEDEP}]
+	tests? ( <dev-python/vcrpy-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

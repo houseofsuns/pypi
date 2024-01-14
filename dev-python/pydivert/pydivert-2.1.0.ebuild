@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-faulthandler[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( >=dev-python/sphinx-1.4.8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-1.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-3.5.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.0.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.2.1[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-timeout-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-faulthandler-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/wheel-0.29[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

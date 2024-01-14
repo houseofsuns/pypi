@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev numpy pandas"
 DEPENDENCIES="dev-python/neo4j[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )

@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ann dev docs docs-additional dune full full-compiled gmsh gui ipyparallel jupyter mpi ngsolve scikit-fem slycot tests vtk"
 DEPENDENCIES="dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	ann? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/conda-lock[${PYTHON_USEDEP}] )
@@ -52,27 +52,27 @@ DEPENDENCIES="dev-python/diskcache[${PYTHON_USEDEP}]
 	full? ( dev-python/pymor[${PYTHON_USEDEP}] )
 	full-compiled? ( dev-python/pymor[${PYTHON_USEDEP}] )
 	gmsh? ( dev-python/gmsh[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	ipyparallel? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
+	gui? ( >dev-python/pyopengl-3.1.7[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/pyside6-6.4.3[${PYTHON_USEDEP}] )
+	ipyparallel? ( >=dev-python/ipyparallel-6.2.5[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/ipympl[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	jupyter? ( >dev-python/ipywidgets-7.0[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyterlab-myst[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/k3d[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
+	mpi? ( >=dev-python/mpi4py-3.0.3[${PYTHON_USEDEP}] )
 	ngsolve? ( dev-python/ngsolve[${PYTHON_USEDEP}] )
 	scikit-fem? ( dev-python/scikit-fem[${PYTHON_USEDEP}] )
 	slycot? ( dev-python/slycot[${PYTHON_USEDEP}] )
-	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/hypothesis-6.56.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-datadir[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-notebook[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	vtk? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	vtk? ( dev-python/meshio[${PYTHON_USEDEP}] )
+	vtk? ( >=dev-python/meshio-4.4[${PYTHON_USEDEP}] )
 	vtk? ( dev-python/pyevtk[${PYTHON_USEDEP}] )
 	vtk? ( dev-python/xmljson[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

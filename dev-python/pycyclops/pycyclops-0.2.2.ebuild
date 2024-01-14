@@ -38,18 +38,18 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	all? ( dev-python/llvmlite[${PYTHON_USEDEP}] )
 	monai? ( dev-python/monai[${PYTHON_USEDEP}] )
 	all? ( dev-python/monai[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pybtex[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
+	<dev-python/pybtex-0.25.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scour[${PYTHON_USEDEP}]
-	dev-python/spdx-tools[${PYTHON_USEDEP}]
+	<dev-python/spdx-tools-0.9.0[${PYTHON_USEDEP}]
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	torchxrayvision? ( dev-python/torch[${PYTHON_USEDEP}] )
 	monai? ( dev-python/torch[${PYTHON_USEDEP}] )

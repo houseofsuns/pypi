@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.4.2[${PYTHON_USEDEP}]
 	dev-python/colored[${PYTHON_USEDEP}]
 	dev-python/pygtrie[${PYTHON_USEDEP}]
 	dev-python/re-wx[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/wxpython[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-3.10.0.2[${PYTHON_USEDEP}]
+	>=dev-python/wxpython-4.1.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyvcd[${PYTHON_USEDEP}]
-	dev-python/pyside6[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
+	>=dev-python/pyside6-6.6.0[${PYTHON_USEDEP}]
+	~dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
 	dev-python/qtawesome[${PYTHON_USEDEP}]
 	dev-python/yowasp-yosys[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

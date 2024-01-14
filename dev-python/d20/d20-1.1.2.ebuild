@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cachetools-3.1.0[${PYTHON_USEDEP}]
 	dev-python/lark-parser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

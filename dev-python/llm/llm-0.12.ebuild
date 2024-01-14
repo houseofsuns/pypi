@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
+	>=dev-python/click-default-group-1.2.3[${PYTHON_USEDEP}]
 	dev-python/sqlite-utils[${PYTHON_USEDEP}]
 	dev-python/sqlite-migrate[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]
 	dev-python/python-ulid[${PYTHON_USEDEP}]

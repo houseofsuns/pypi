@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/itsdangerous-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-1.3.0[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-9.4.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-python-1.7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-exclude[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

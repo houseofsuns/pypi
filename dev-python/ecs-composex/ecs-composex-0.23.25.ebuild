@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ecrscan"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.26[${PYTHON_USEDEP}]
 	dev-python/troposphere[${PYTHON_USEDEP}]
 	ecrscan? ( dev-python/ecr-scan-reporter[${PYTHON_USEDEP}] )
 	dev-python/compose-x-render[${PYTHON_USEDEP}]
 	dev-python/compose-x-common[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.18[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev-python/retry2[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	<dev-python/docker-7.0.0[${PYTHON_USEDEP}]
 	dev-python/troposphere-awscommunity-applicationautoscaling-scheduledaction[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

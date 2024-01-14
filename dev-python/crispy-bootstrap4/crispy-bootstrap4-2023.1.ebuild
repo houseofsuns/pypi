@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django-crispy-forms[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/django-crispy-forms-2.0[${PYTHON_USEDEP}]
+	>=dev-python/django-4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

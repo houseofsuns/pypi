@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev? ( dev-python/Django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/djangorestframework-3.9.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-4.6.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-django-3.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-pythonpath[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-environ[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.13.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox-pyenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/django-filter[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/django-filter-2.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

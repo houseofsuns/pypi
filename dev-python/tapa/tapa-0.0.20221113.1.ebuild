@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/autobridge[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+	>=dev-python/coloredlogs-9.3[${PYTHON_USEDEP}]
 	dev-python/haoda[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/pyverilog[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/tapa-fast-cosim[${PYTHON_USEDEP}]
 	dev-python/toposort[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

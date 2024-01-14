@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev nest"
 DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/rope[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
+	<dev-python/tornado-7.0[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
+	<=dev-python/scipy-1.6.1[${PYTHON_USEDEP}]
+	<=dev-python/sympy-1.7.1[${PYTHON_USEDEP}]
+	dev? ( <dev-python/autopep8-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/rope-1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-httpserver[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coloredlogs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	nest? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/pytest-httpserver-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coloredlogs-15.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-asyncio-1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/notebook-7.0[${PYTHON_USEDEP}] )
+	nest? ( <dev-python/nest-asyncio-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

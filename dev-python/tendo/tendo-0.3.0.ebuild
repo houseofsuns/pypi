@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/docutils-0.19[${PYTHON_USEDEP}] )
 	docs? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-instafail[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/wheel-0.37.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

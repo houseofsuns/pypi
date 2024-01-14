@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all black doc kernel nbconvert nbformat notebook parallel qtconsole test test_extra"
 DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/jedi[${PYTHON_USEDEP}]
+	>=dev-python/jedi-0.16[${PYTHON_USEDEP}]
 	dev-python/matplotlib-inline[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	<dev-python/prompt-toolkit-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.4.0[${PYTHON_USEDEP}]
 	dev-python/stack-data[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.0[${PYTHON_USEDEP}]
 	dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
+	>dev-python/pexpect-4.3[${PYTHON_USEDEP}]
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	all? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/setuptools-18.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-1.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/docrepr[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	all? ( dev-python/exceptiongroup[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-asyncio-0.22[${PYTHON_USEDEP}] )
 	all? ( dev-python/testpath[${PYTHON_USEDEP}] )
 	all? ( dev-python/pickleshare[${PYTHON_USEDEP}] )
 	all? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
@@ -54,14 +54,14 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	all? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
 	all? ( dev-python/qtconsole[${PYTHON_USEDEP}] )
 	all? ( dev-python/curio[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( >dev-python/matplotlib-3.2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpy-1.23[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/trio[${PYTHON_USEDEP}] )
 	black? ( dev-python/black[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	doc? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/setuptools-18.5[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-1.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/docrepr[${PYTHON_USEDEP}] )
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	doc? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	doc? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	doc? ( dev-python/exceptiongroup[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/pytest-asyncio-0.22[${PYTHON_USEDEP}] )
 	doc? ( dev-python/testpath[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pickleshare[${PYTHON_USEDEP}] )
 	kernel? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
@@ -80,17 +80,17 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	parallel? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
 	qtconsole? ( dev-python/qtconsole[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-asyncio-0.22[${PYTHON_USEDEP}] )
 	test? ( dev-python/testpath[${PYTHON_USEDEP}] )
 	test? ( dev-python/pickleshare[${PYTHON_USEDEP}] )
 	test_extra? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test_extra? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	test_extra? ( <dev-python/pytest-asyncio-0.22[${PYTHON_USEDEP}] )
 	test_extra? ( dev-python/testpath[${PYTHON_USEDEP}] )
 	test_extra? ( dev-python/pickleshare[${PYTHON_USEDEP}] )
 	test_extra? ( dev-python/curio[${PYTHON_USEDEP}] )
-	test_extra? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	test_extra? ( >dev-python/matplotlib-3.2.0[${PYTHON_USEDEP}] )
 	test_extra? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	test_extra? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	test_extra? ( >=dev-python/numpy-1.23[${PYTHON_USEDEP}] )
 	test_extra? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test_extra? ( dev-python/trio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

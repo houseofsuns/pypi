@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyspark[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]"
+	>=dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

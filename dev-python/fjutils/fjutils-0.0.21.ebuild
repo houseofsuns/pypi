@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/flax[${PYTHON_USEDEP}]
 	dev-python/optax[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.5[${PYTHON_USEDEP}]
 	dev-python/ml-collections[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

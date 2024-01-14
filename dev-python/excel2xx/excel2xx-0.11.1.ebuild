@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/mako[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/xlrd-1.2[${PYTHON_USEDEP}]
+	>=dev-python/docopt-0.6.0[${PYTHON_USEDEP}]
+	~dev-python/mako-1.2[${PYTHON_USEDEP}]
 	dev-python/msgpack-python[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]"
+	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

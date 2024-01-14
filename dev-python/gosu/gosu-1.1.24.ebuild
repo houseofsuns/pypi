@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ansible build"
 DEPENDENCIES="dev-python/plumbum[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	ansible? ( dev-python/ansible[${PYTHON_USEDEP}] )
 	build? ( dev-python/semver[${PYTHON_USEDEP}] )

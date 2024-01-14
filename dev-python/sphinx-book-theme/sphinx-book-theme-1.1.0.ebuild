@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="code-style doc test"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-5.0[${PYTHON_USEDEP}]
+	>=dev-python/pydata-sphinx-theme-0.14[${PYTHON_USEDEP}]
 	code-style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ablog[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )

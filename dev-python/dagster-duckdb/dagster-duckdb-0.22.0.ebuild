@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pandas pyspark"
 DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
 	dev-python/dagster[${PYTHON_USEDEP}]
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	pandas? ( <dev-python/pandas-2.1[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

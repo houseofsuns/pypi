@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev lint test"
-DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
-	dev-python/fonttools[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/absl-py-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-4.36.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.0[${PYTHON_USEDEP}]
 	dev-python/ninja[${PYTHON_USEDEP}]
 	dev-python/picosvg[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	>=dev-python/pillow-7.2.0[${PYTHON_USEDEP}]
+	>=dev-python/regex-2020.4.4[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/ufo2ft[${PYTHON_USEDEP}]
 	dev-python/ufoLib2[${PYTHON_USEDEP}]

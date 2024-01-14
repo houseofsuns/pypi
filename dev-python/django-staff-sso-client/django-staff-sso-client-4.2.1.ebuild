@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	test? ( dev-python/build[${PYTHON_USEDEP}] )

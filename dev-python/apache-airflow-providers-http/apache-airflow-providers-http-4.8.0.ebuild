@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/requests_toolbelt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

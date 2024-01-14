@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/shellingham[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/shellingham-1.4.0[${PYTHON_USEDEP}]
+	~dev-python/rich-12.3.0[${PYTHON_USEDEP}]
+	~dev-python/docker-5.0.3[${PYTHON_USEDEP}]
 	dev-python/ormar[${PYTHON_USEDEP}]
 	dev-python/databases[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]"
+	~dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
+	~dev-python/cryptography-37.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

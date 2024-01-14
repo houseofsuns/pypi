@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	flask-login? ( dev-python/Flask-Login[${PYTHON_USEDEP}] )
 	flask-sqlalchemy? ( dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}] )
 	i18n? ( dev-python/SQLAlchemy-i18n[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-2.3.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
 	test? ( dev-python/Flask[${PYTHON_USEDEP}] )

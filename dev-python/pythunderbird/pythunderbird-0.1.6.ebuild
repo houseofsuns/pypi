@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/ftfy[${PYTHON_USEDEP}]
 	dev-python/ngwidgets[${PYTHON_USEDEP}]
 	dev-python/pylodstorage[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	test? ( dev-python/green[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

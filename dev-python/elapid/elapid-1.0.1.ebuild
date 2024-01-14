@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="glmnet"
 DEPENDENCIES="dev-python/descartes[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.3[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-3.0[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/rtree[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
 	glmnet? ( dev-python/glmnet[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

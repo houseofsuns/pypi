@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tox"
-DEPENDENCIES="dev-python/virtualenv[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/virtualenv-20.14.1[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]
 	tox? ( dev-python/tox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

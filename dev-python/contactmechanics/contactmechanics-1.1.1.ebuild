@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
 	dev-python/NuMPI[${PYTHON_USEDEP}]
 	dev-python/muSpectre[${PYTHON_USEDEP}]
 	dev-python/SurfaceTopography[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pykka[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pykka-4.0.1[${PYTHON_USEDEP}]
+	~dev-python/redis-5.0.1[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flit-3.9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

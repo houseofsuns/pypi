@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="sheets"
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.8[${PYTHON_USEDEP}]
+	~dev-python/structlog-23.1.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	sheets? ( dev-python/gspread[${PYTHON_USEDEP}] )
 	sheets? ( dev-python/oauth2client[${PYTHON_USEDEP}] )
-	sheets? ( dev-python/oauthlib[${PYTHON_USEDEP}] )"
+	sheets? ( ~dev-python/oauthlib-3.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

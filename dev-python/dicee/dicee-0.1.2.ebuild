@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.1[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	dev-python/pykeen[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/zstandard-0.21.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.2.2[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]
 	dev-python/gradio[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	>=dev-python/rdflib-7.0.0[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]"
+	>=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

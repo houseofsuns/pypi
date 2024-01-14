@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/dm-tree[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-macos[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

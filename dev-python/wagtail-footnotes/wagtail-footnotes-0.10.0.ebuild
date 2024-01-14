@@ -27,9 +27,9 @@ IUSE="testing"
 DEPENDENCIES="dev-python/Wagtail[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	testing? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
-	testing? ( dev-python/black[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/tox-5.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	testing? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

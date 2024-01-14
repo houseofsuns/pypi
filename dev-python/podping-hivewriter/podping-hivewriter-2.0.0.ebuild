@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cffi-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/single-source[${PYTHON_USEDEP}]
-	dev-python/rfc3987[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
+	<dev-python/rfc3987-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/asgiref-4.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/capnpy-agates[${PYTHON_USEDEP}]
 	dev-python/lighthive[${PYTHON_USEDEP}]

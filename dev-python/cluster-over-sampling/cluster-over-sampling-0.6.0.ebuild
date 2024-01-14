@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="som"
 DEPENDENCIES="dev-python/geometric-smote[${PYTHON_USEDEP}]
 	dev-python/imbalanced-learn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.2[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	som? ( dev-python/somoclu[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

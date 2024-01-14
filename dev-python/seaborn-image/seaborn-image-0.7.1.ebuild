@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/matplotlib-scalebar[${PYTHON_USEDEP}]
 	dev-python/palettable[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]"
+	>=dev-python/scipy-1.5.1[${PYTHON_USEDEP}]
+	>=dev-python/pooch-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

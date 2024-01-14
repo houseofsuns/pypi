@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="django jupyter"
-DEPENDENCIES="django? ( dev-python/django[${PYTHON_USEDEP}] )
+DEPENDENCIES="django? ( >=dev-python/django-3.2[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/traitlets[${PYTHON_USEDEP}] )"
+	jupyter? ( >=dev-python/traitlets-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

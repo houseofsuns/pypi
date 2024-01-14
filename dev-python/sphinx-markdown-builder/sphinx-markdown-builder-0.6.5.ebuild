@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-2.2.0[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )

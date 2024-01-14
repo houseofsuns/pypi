@@ -27,15 +27,15 @@ IUSE="tests"
 DEPENDENCIES="dev-python/authlib[${PYTHON_USEDEP}]
 	dev-python/bcrypt[${PYTHON_USEDEP}]
 	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	<dev-python/flask-3.0[${PYTHON_USEDEP}]
 	dev-python/flask-login[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/flask-marshmallow[${PYTHON_USEDEP}]
 	dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-3.0[${PYTHON_USEDEP}]
 	dev-python/utils-flask-sqlalchemy[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )"

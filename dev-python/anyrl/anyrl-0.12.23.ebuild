@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mpi tf tf_gpu"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-0.4.0[${PYTHON_USEDEP}]
 	dev-python/gym[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
+	<dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
+	mpi? ( <dev-python/mpi4py-3.0.0[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tf_gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

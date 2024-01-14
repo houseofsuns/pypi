@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ConfigUpdater[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1.24[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/cliff[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	~dev-python/cliff-3.9.0[${PYTHON_USEDEP}]
+	~dev-python/docker-5.0.3[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
 	dev-python/jira[${PYTHON_USEDEP}]
 	dev-python/nexus3-cli[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
 	dev-python/python-jenkins[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]"
+	~dev-python/simplejson-3.17.5[${PYTHON_USEDEP}]
+	~dev-python/uvloop-0.16.0[${PYTHON_USEDEP}]
+	~dev-python/validators-0.18.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

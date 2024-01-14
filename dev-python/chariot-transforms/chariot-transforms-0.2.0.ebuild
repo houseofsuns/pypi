@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/clickhouse-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/lark-parser[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/lovely-pytest-docker[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.17.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
+	<dev-python/structlog-24.0.0[${PYTHON_USEDEP}]
 	dev-python/django-ipware[${PYTHON_USEDEP}]
 	dev-python/django-admin-interface[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
+	~dev-python/python-json-logger-2.0[${PYTHON_USEDEP}]
 	dev-python/structlog-sentry[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/sentry-sdk-1.0[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-4.0.0[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
 	dev-python/django-pgtrigger[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

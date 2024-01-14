@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="oauth2 s3"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.12.2[${PYTHON_USEDEP}]
 	oauth2? ( dev-python/authlib[${PYTHON_USEDEP}] )
 	oauth2? ( dev-python/jwt[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )"
+	s3? ( >=dev-python/boto3-1.10.48[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

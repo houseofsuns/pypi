@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/spotipy[${PYTHON_USEDEP}]
-	dev-python/python-daemon[${PYTHON_USEDEP}]"
+	~dev-python/spotipy-2.23.0[${PYTHON_USEDEP}]
+	~dev-python/python-daemon-3.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

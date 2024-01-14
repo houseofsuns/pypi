@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/uproot[${PYTHON_USEDEP}]
 	dev-python/awkward[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
+	~dev-python/pika-1.1.0[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6.11[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-mock-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

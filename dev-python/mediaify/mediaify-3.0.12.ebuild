@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/python-ffmpeg[${PYTHON_USEDEP}]
 	dev-python/MediaInfo[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
 	dev-python/python_magic[${PYTHON_USEDEP}]
 	dev-python/numexpr[${PYTHON_USEDEP}]
 	docs? ( dev-python/libmagic[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/mypy-0.982[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

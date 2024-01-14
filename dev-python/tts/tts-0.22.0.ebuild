@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev ja notebooks"
-DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cython-0.29.30[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.11.2[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchaudio[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/anyascii[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	>=dev-python/inflect-5.6.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
+	>=dev-python/anyascii-0.3.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2023.6.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.1[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.0.1[${PYTHON_USEDEP}]
 	dev-python/pysbd[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}]
 	dev-python/trainer[${PYTHON_USEDEP}]
 	dev-python/coqpit[${PYTHON_USEDEP}]
 	dev-python/jieba[${PYTHON_USEDEP}]
@@ -58,17 +58,17 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/encodec[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-1.3.2[${PYTHON_USEDEP}]
 	dev-python/num2words[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	all? ( dev-python/isort[${PYTHON_USEDEP}] )
 	all? ( dev-python/nose2[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pylint-2.10.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	all? ( dev-python/mecab-python3[${PYTHON_USEDEP}] )
 	all? ( dev-python/unidic-lite[${PYTHON_USEDEP}] )
@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nose2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.10.2[${PYTHON_USEDEP}] )
 	ja? ( dev-python/mecab-python3[${PYTHON_USEDEP}] )
 	ja? ( dev-python/unidic-lite[${PYTHON_USEDEP}] )
 	ja? ( dev-python/cutlet[${PYTHON_USEDEP}] )

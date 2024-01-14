@@ -28,13 +28,13 @@ DEPENDENCIES="dev-python/ipyvue[${PYTHON_USEDEP}]
 	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-playwright[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	test? ( <dev-python/jupyterlab-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/solara[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

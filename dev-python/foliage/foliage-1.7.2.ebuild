@@ -24,46 +24,46 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/boltons[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	~dev-python/boltons-21.0.0[${PYTHON_USEDEP}]
 	dev-python/commonpy[${PYTHON_USEDEP}]
 	dev-python/fastnumbers[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	~dev-python/keyring-23.2.1[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]
 	dev-python/plac[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
+	~dev-python/PyQt5-5.15.9[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.3.5[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/sidetrack[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/wand[${PYTHON_USEDEP}]
-	dev? ( dev-python/appdirs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/boltons[${PYTHON_USEDEP}] )
+	~dev-python/tornado-6.1[${PYTHON_USEDEP}]
+	~dev-python/python-slugify-8.0.1[${PYTHON_USEDEP}]
+	~dev-python/validators-0.20.0[${PYTHON_USEDEP}]
+	~dev-python/wand-0.6.11[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/boltons-21.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/commonpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastnumbers[${PYTHON_USEDEP}] )
-	dev? ( dev-python/keyring[${PYTHON_USEDEP}] )
-	dev? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/keyring-23.2.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/plac[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyperclip[${PYTHON_USEDEP}] )
-	dev? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/PyQt5-5.15.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-decouple[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/rich-13.3.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sidetrack[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-slugify[${PYTHON_USEDEP}] )
-	dev? ( dev-python/validators[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wand[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tornado-6.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/python-slugify-8.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/validators-0.20.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wand-0.6.11[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-3.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )

@@ -27,20 +27,20 @@ IUSE="docs test"
 DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
 	dev-python/user-agents[${PYTHON_USEDEP}]
 	dev-python/wagtailfontawesome[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/six[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-imports[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/freezegun-0.3.8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-django-3.1.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-sugar-0.7.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-1.6.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-3.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/wagtail-factories[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

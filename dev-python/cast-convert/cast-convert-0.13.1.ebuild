@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiopath[${PYTHON_USEDEP}]
-	dev-python/ffmpeg-python[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pymediainfo[${PYTHON_USEDEP}]
+	<dev-python/ffmpeg-python-0.3.0[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-11.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/pymediainfo-7.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/thefuzz[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/unpackable[${PYTHON_USEDEP}]
-	dev-python/watchfiles[${PYTHON_USEDEP}]"
+	<dev-python/watchfiles-0.22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python-rf[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]"
+	~dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

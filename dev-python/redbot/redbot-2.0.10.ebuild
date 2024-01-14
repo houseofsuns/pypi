@@ -27,11 +27,11 @@ IUSE="dev systemd"
 DEPENDENCIES="dev-python/httplint[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.4.4[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
+	>=dev-python/netaddr-0.9.0[${PYTHON_USEDEP}]
 	dev-python/thor[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="autocompletion yaml"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	autocompletion? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]
+	autocompletion? ( <dev-python/argcomplete-3.0[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/PyYaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

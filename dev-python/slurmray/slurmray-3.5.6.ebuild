@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
-	dev-python/pdoc3[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	<dev-python/pdoc3-0.11.0[${PYTHON_USEDEP}]
+	<dev-python/paramiko-4.0.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/pip-chill[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

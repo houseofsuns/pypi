@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="web"
 DEPENDENCIES="dev-python/beautifultable[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	web? ( dev-python/selenium[${PYTHON_USEDEP}] )"
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	web? ( <dev-python/selenium-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

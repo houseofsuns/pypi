@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cachetools-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/paho-mqtt-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-1.3.0[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

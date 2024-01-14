@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.9[${PYTHON_USEDEP}]
 	dev-python/datapackage-pipelines[${PYTHON_USEDEP}]
 	dev-python/datapackage-pipelines-aws[${PYTHON_USEDEP}]
 	dev-python/datapackage[${PYTHON_USEDEP}]

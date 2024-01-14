@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	dev-python/metpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.16.2[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

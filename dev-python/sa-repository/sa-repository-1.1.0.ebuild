@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-10.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

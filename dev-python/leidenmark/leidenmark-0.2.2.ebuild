@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/markdown-4.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
 	dev-python/dh-utils[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

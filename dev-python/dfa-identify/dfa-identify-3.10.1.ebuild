@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/funcy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/attrs-23.0.0[${PYTHON_USEDEP}]
+	<dev-python/networkx-4.0[${PYTHON_USEDEP}]
+	<dev-python/funcy-2.0[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
 	dev-python/python-sat[${PYTHON_USEDEP}]
 	dev-python/dfa[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]"
+	<dev-python/more-itertools-10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

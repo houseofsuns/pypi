@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="qa type"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiodns[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-60.9.0[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2018.1.18[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.6.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
+	>=dev-python/aiodns-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.7.2[${PYTHON_USEDEP}]
 	qa? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	qa? ( dev-python/tox[${PYTHON_USEDEP}] )
-	type? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	qa? ( >=dev-python/tox-4.8.0[${PYTHON_USEDEP}] )
+	type? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

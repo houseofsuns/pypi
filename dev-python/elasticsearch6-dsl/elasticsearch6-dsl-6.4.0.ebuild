@@ -27,10 +27,10 @@ IUSE="develop"
 DEPENDENCIES="dev-python/elasticsearch6[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/coverage-5.0.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/mock[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-3.0.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"

@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-login[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/selenium-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	dev-python/py-webdriver-manager[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )"

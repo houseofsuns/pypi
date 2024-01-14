@@ -31,21 +31,21 @@ DEPENDENCIES="dev-python/asgi-htmx[${PYTHON_USEDEP}]
 	dev-python/starlette-csrf[${PYTHON_USEDEP}]
 	dev-python/cashews[${PYTHON_USEDEP}]
 	dev-python/starception[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
 	dev-python/starlette-decorouter[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	>=dev-python/starlette-0.34.0[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.25.0[${PYTHON_USEDEP}]
 	dev-python/htmlmin[${PYTHON_USEDEP}]
-	dev-python/jsmin[${PYTHON_USEDEP}]
-	dev-python/libsass[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/jsmin-3.0.1[${PYTHON_USEDEP}]
+	>=dev-python/libsass-0.23.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
 	dev-python/acb[${PYTHON_USEDEP}]
 	dev-python/starlette-async-jinja[${PYTHON_USEDEP}]
 	sitemap? ( dev-python/asgi-sitemaps[${PYTHON_USEDEP}] )
 	auth? ( dev-python/firebase-admin[${PYTHON_USEDEP}] )
-	style? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	style? ( dev-python/tinycss2[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/tinycss2-1.2.1[${PYTHON_USEDEP}] )
 	admin? ( dev-python/sqladmin[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

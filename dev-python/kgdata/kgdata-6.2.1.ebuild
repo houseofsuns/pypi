@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev spark"
-DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
+	<dev-python/rdflib-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/six-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
+	<dev-python/chardet-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/redis-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/sem-desc[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
 	dev-python/hugedict[${PYTHON_USEDEP}]
 	dev-python/rsoup[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
 	dev-python/pqdict[${PYTHON_USEDEP}]
-	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	all? ( dev-python/kgdata[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

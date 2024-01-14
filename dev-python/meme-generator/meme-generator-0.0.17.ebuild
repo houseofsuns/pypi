@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pil-utils[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]
+	<dev-python/filetype-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

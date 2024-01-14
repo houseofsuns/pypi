@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
-DEPENDENCIES="dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/plotly-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pip-19.0[${PYTHON_USEDEP}]
+	<dev-python/cython-1.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.1.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	tests? ( <dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

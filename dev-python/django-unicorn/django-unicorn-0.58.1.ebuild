@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs minify"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.8.0[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.6.0[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-4.1.1[${PYTHON_USEDEP}]
+	>=dev-python/decorator-4.4.2[${PYTHON_USEDEP}]
 	minify? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )

@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="hobbit hobbit_core"
 DEPENDENCIES="hobbit? ( dev-python/Click[${PYTHON_USEDEP}] )
 	hobbit? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	hobbit? ( dev-python/inflect[${PYTHON_USEDEP}] )
-	hobbit? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
+	hobbit? ( >=dev-python/inflect-2.1.0[${PYTHON_USEDEP}] )
+	hobbit? ( >=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	hobbit_core? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	hobbit_core? ( dev-python/flask-marshmallow[${PYTHON_USEDEP}] )
 	hobbit_core? ( dev-python/Flask-Migrate[${PYTHON_USEDEP}] )
@@ -37,8 +37,8 @@ DEPENDENCIES="hobbit? ( dev-python/Click[${PYTHON_USEDEP}] )
 	hobbit_core? ( dev-python/marshmallow-enum[${PYTHON_USEDEP}] )
 	hobbit_core? ( dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}] )
 	hobbit_core? ( dev-python/webargs[${PYTHON_USEDEP}] )
-	hobbit_core? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	hobbit_core? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	hobbit_core? ( dev-python/marshmallow[${PYTHON_USEDEP}] )"
+	hobbit_core? ( >=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
+	hobbit_core? ( >dev-python/pyyaml-5.4.0[${PYTHON_USEDEP}] )
+	hobbit_core? ( <dev-python/marshmallow-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

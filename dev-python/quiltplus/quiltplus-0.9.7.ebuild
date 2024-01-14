@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/asyncclick[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+	<dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/isort-6.0.0[${PYTHON_USEDEP}]
 	dev-python/quilt3[${PYTHON_USEDEP}]
 	dev-python/quiltcore[${PYTHON_USEDEP}]
-	dev-python/trio[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+	<dev-python/trio-0.23.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/tzlocal-6.0.0[${PYTHON_USEDEP}]
 	dev-python/un-yaml[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

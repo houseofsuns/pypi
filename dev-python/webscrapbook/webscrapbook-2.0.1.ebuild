@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="adhoc_ssl dev"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-2.0.1[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/commonmark[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.0[${PYTHON_USEDEP}]
+	>=dev-python/commonmark-0.8[${PYTHON_USEDEP}]
 	adhoc_ssl? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-string-format[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/isort-5.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

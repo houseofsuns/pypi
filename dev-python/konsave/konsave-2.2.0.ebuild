@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/PyYaml[${PYTHON_USEDEP}]
-	dev? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aiohttp-cors[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/aiohttp-cors-0.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.7.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

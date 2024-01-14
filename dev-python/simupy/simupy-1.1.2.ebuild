@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc examples symbolic"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sympy[${PYTHON_USEDEP}] )
-	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	examples? ( dev-python/sympy[${PYTHON_USEDEP}] )
-	symbolic? ( dev-python/sympy[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/numpy-1.11.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.18.1[${PYTHON_USEDEP}]
+	doc? ( >=dev-python/sphinx-1.6.3[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sympy-1.0[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/matplotlib-2.0[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/sympy-1.0[${PYTHON_USEDEP}] )
+	symbolic? ( >=dev-python/sympy-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/blessed[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/jq[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/blessed-1.17.12[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-39.0.2[${PYTHON_USEDEP}]
+	~dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
+	~dev-python/chardet-5.0.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.17.59[${PYTHON_USEDEP}]
+	~dev-python/jq-1.4.0[${PYTHON_USEDEP}]
+	~dev-python/pyperclip-1.8.1[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.14.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/watchdog[${PYTHON_USEDEP}]"

@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs tests"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]
+	>=dev-python/blinker-1.3[${PYTHON_USEDEP}]
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

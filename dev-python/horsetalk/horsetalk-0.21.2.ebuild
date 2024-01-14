@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/measurement[${PYTHON_USEDEP}]
 	dev-python/peak-utility[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]"
+	<dev-python/pendulum-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/black-20.8[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/libcst[${PYTHON_USEDEP}]
 	dev-python/moreorless[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.7.2[${PYTHON_USEDEP}]
 	dev-python/trailrunner[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	dev-python/usort[${PYTHON_USEDEP}]
 	dev? ( dev-python/attribution[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flit-3.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/usort[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.1.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-mdinclude[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

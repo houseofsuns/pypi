@@ -24,67 +24,67 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="service"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/attrs-23.2.0[${PYTHON_USEDEP}]
 	dev-python/bashlex[${PYTHON_USEDEP}]
 	dev-python/calamus[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-8.1.4[${PYTHON_USEDEP}]
 	dev-python/click-option-group[${PYTHON_USEDEP}]
-	dev-python/click-plugins[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}]
+	<dev-python/coverage-6.5[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	dev-python/cwl-utils[${PYTHON_USEDEP}]
 	dev-python/cwltool[${PYTHON_USEDEP}]
 	dev-python/deal[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	<dev-python/deepdiff-7.0[${PYTHON_USEDEP}]
+	~dev-python/deepmerge-1.0.1[${PYTHON_USEDEP}]
+	<dev-python/docker-6.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/grandalf[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+	<dev-python/humanize-4.1.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/inject[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.2[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
+	<dev-python/pathspec-1.0.0[${PYTHON_USEDEP}]
 	dev-python/patool[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/portalocker[${PYTHON_USEDEP}]
+	~dev-python/pluggy-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/portalocker-2.8[${PYTHON_USEDEP}]
 	dev-python/poetry-dynamic-versioning[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	<dev-python/psutil-5.9.2[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-2.5.0[${PYTHON_USEDEP}]
 	dev-python/pyld[${PYTHON_USEDEP}]
 	dev-python/pyshacl[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-2.8.3[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/shellingham[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.1.0[${PYTHON_USEDEP}]
+	<dev-python/rdflib-7.0[${PYTHON_USEDEP}]
+	<dev-python/requests-2.31.1[${PYTHON_USEDEP}]
+	<dev-python/rich-13.4.0[${PYTHON_USEDEP}]
+	~dev-python/shellingham-1.5.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9.1[${PYTHON_USEDEP}]
 	dev-python/toil[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	<dev-python/tqdm-4.65.1[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-2.2.4[${PYTHON_USEDEP}]
 	dev-python/yagup[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]
 	dev-python/zc-relation[${PYTHON_USEDEP}]
 	dev-python/zodb[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]
-	service? ( dev-python/apispec[${PYTHON_USEDEP}] )
+	<dev-python/zstandard-0.22.0[${PYTHON_USEDEP}]
+	service? ( <dev-python/apispec-6.4.0[${PYTHON_USEDEP}] )
 	service? ( dev-python/apispec-oneofschema[${PYTHON_USEDEP}] )
 	service? ( dev-python/apispec-webframeworks[${PYTHON_USEDEP}] )
 	service? ( dev-python/circus[${PYTHON_USEDEP}] )
-	service? ( dev-python/flask[${PYTHON_USEDEP}] )
+	service? ( ~dev-python/flask-2.2.5[${PYTHON_USEDEP}] )
 	service? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	service? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
+	service? ( <dev-python/marshmallow-3.20.0[${PYTHON_USEDEP}] )
 	service? ( dev-python/marshmallow-oneofschema[${PYTHON_USEDEP}] )
-	service? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	service? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	service? ( dev-python/redis[${PYTHON_USEDEP}] )
-	service? ( dev-python/rq[${PYTHON_USEDEP}] )
-	service? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
+	service? ( <dev-python/pillow-9.6[${PYTHON_USEDEP}] )
+	service? ( <dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}] )
+	service? ( <dev-python/redis-4.6.0[${PYTHON_USEDEP}] )
+	service? ( ~dev-python/rq-1.15.0[${PYTHON_USEDEP}] )
+	service? ( <dev-python/sentry-sdk-1.26.0[${PYTHON_USEDEP}] )
 	service? ( dev-python/walrus[${PYTHON_USEDEP}] )
 	dev-python/prometheus-flask-exporter[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

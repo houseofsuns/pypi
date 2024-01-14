@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/crcmod[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/argcomplete-1.9.4[${PYTHON_USEDEP}]
+	>=dev-python/crcmod-1.7[${PYTHON_USEDEP}]
+	>=dev-python/fasteners-0.14.1[${PYTHON_USEDEP}]
 	dev-python/gcs-oauth2-boto-plugin[${PYTHON_USEDEP}]
 	dev-python/google-apitools[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
+	~dev-python/httplib2-0.20.4[${PYTHON_USEDEP}]
 	dev-python/google-reauth[${PYTHON_USEDEP}]
 	dev-python/monotonic[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
 	dev-python/retry_decorator[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-2.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

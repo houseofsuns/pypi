@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	dev-python/aio-pika[${PYTHON_USEDEP}]
 	dev-python/aiormq[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.22.8[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.25.8[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
+	>=dev-python/multidict-6.0.4[${PYTHON_USEDEP}]
 	dev-python/viledatools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

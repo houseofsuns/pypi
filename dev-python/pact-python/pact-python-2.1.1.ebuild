@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test types"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	~dev-python/psutil-5.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.0[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-23.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pact-python[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pact-python[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/flask[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-7.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flask-2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/httpx-0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-5.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/testcontainers[${PYTHON_USEDEP}] )
-	test? ( dev-python/yarl[${PYTHON_USEDEP}] )
-	types? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/yarl-1.0[${PYTHON_USEDEP}] )
+	types? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/attrd[${PYTHON_USEDEP}]
 	dev-python/attrdict[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/wcwidth[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]"
+	>=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.5.3[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-8.2.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.3[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-0.13.1[${PYTHON_USEDEP}]
+	>=dev-python/py-1.8.1[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
+	>=dev-python/pytest-5.4.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/wcwidth-0.1.9[${PYTHON_USEDEP}]
+	>=dev-python/zipp-3.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

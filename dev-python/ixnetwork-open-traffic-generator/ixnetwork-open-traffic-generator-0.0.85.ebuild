@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pyaml[${PYTHON_USEDEP}]
 	dev-python/abstract-open-traffic-generator[${PYTHON_USEDEP}]
 	dev-python/ixnetwork-restpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dpkt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

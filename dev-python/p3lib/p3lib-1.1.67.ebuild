@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/paramiko-2.9.3[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp flask opentelemetry opentracing sanic starlette tornado"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/urllib3-3.0.0[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	<dev-python/wrapt-1.15.0[${PYTHON_USEDEP}]
 	dev-python/ecs-logging[${PYTHON_USEDEP}]
 	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	flask? ( dev-python/blinker[${PYTHON_USEDEP}] )

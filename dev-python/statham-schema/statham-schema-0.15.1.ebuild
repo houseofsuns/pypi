@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/jsonpointer[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
+	~dev-python/jsonpointer-2.0[${PYTHON_USEDEP}]
 	dev-python/json-ref-dict[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

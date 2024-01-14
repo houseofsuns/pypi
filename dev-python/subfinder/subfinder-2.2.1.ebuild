@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/rarfile[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]"
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

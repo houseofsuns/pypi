@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pygments[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pygments-2.16.1[${PYTHON_USEDEP}]
 	dev-python/tabcompleter[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

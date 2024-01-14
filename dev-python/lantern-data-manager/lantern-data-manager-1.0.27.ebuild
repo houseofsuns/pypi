@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/elasticsearch[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/elasticsearch-7.9.1[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/influxdb-client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

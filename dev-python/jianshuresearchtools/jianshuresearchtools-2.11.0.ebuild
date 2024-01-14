@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full high-perf md-convert"
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	md-convert? ( dev-python/tomd[${PYTHON_USEDEP}] )
 	full? ( dev-python/tomd[${PYTHON_USEDEP}] )
-	high-perf? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	full? ( dev-python/ujson[${PYTHON_USEDEP}] )"
+	high-perf? ( <dev-python/ujson-6.0.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/ujson-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

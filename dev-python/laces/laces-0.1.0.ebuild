@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ci testing"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	ci? ( dev-python/tox[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/tox-4.11.3[${PYTHON_USEDEP}] )
 	ci? ( dev-python/tox-gh-actions[${PYTHON_USEDEP}] )
 	ci? ( dev-python/virtualenv-pyenv[${PYTHON_USEDEP}] )
-	testing? ( dev-python/dj-database-url[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/dj-database-url-2.1.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

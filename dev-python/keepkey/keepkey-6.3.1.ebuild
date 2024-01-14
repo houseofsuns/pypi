@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ethereum"
-DEPENDENCIES="dev-python/ecdsa[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ecdsa-0.9[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
-	dev-python/hidapi[${PYTHON_USEDEP}]
+	>=dev-python/hidapi-0.7.99[${PYTHON_USEDEP}]
 	dev-python/libusb1[${PYTHON_USEDEP}]
 	ethereum? ( dev-python/rlp[${PYTHON_USEDEP}] )
 	ethereum? ( dev-python/ethjsonrpc[${PYTHON_USEDEP}] )"

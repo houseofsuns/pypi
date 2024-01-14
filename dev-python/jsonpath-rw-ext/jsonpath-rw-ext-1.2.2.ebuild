@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jsonpath-rw[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]"
+	>=dev-python/pbr-1.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

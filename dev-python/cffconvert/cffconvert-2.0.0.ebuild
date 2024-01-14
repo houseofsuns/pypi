@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev gcloud publishing"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/pykwalify[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.16.0[${PYTHON_USEDEP}]
+	>=dev-python/pykwalify-1.6[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/prospector[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	gcloud? ( dev-python/flask[${PYTHON_USEDEP}] )
 	publishing? ( dev-python/twine[${PYTHON_USEDEP}] )

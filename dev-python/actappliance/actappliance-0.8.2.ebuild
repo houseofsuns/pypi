@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/bitpermissions[${PYTHON_USEDEP}]
 	dev-python/asyncssh[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-2.9.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/tenacity[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

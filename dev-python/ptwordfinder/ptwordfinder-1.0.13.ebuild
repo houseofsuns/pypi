@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	dev-python/iniconfig[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
+	>=dev-python/exceptiongroup-1.0.4[${PYTHON_USEDEP}]
+	>=dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.4.2[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

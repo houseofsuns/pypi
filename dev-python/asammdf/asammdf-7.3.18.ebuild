@@ -27,11 +27,11 @@ IUSE="decode encryption export export_matlab_v5 filesystem gui symbolic_math"
 DEPENDENCIES="dev-python/canmatrix[${PYTHON_USEDEP}]
 	dev-python/lz4[${PYTHON_USEDEP}]
 	dev-python/numexpr[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
 	dev-python/isal[${PYTHON_USEDEP}]
 	decode? ( dev-python/cChardet[${PYTHON_USEDEP}] )
 	decode? ( dev-python/chardet[${PYTHON_USEDEP}] )
@@ -43,14 +43,14 @@ DEPENDENCIES="dev-python/canmatrix[${PYTHON_USEDEP}]
 	export? ( dev-python/python-snappy[${PYTHON_USEDEP}] )
 	export_matlab_v5? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	filesystem? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	gui? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/lxml-4.9.2[${PYTHON_USEDEP}] )
 	gui? ( dev-python/natsort[${PYTHON_USEDEP}] )
 	gui? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	gui? ( dev-python/PySide6[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
+	gui? ( ~dev-python/pyqtgraph-0.13.3[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqtlet2[${PYTHON_USEDEP}] )
 	gui? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	gui? ( dev-python/QtPy[${PYTHON_USEDEP}] )
+	gui? ( ~dev-python/QtPy-2.3.1[${PYTHON_USEDEP}] )
 	symbolic_math? ( dev-python/sympy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

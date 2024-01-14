@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/ytmusicapi[${PYTHON_USEDEP}]
-	dev-python/spotipy[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ytmusicapi-1.4[${PYTHON_USEDEP}]
+	>=dev-python/spotipy-2.23.0[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-3.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )"

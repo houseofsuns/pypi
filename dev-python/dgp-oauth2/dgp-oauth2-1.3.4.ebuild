@@ -39,6 +39,6 @@ DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	develop? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	develop? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
+	develop? ( ~dev-python/requests-mock-1.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

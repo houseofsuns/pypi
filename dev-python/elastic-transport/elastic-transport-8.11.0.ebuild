@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	develop? ( dev-python/mock[${PYTHON_USEDEP}] )
 	develop? ( dev-python/requests[${PYTHON_USEDEP}] )
 	develop? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	develop? ( >dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/furo[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

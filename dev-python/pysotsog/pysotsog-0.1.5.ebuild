@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/fake-useragent[${PYTHON_USEDEP}]
 	dev-python/pyjustpywidgets[${PYTHON_USEDEP}]
 	dev-python/pylodstorage[${PYTHON_USEDEP}]
 	dev-python/pyonlinespreadsheetediting[${PYTHON_USEDEP}]
-	dev-python/python-stdnum[${PYTHON_USEDEP}]
+	>=dev-python/python-stdnum-1.18[${PYTHON_USEDEP}]
 	dev-python/search-engine-parser[${PYTHON_USEDEP}]
 	dev-python/semanticscholar[${PYTHON_USEDEP}]
 	test? ( dev-python/green[${PYTHON_USEDEP}] )"

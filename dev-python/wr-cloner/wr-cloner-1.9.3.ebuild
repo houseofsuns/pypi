@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-6.3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docformatter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/faker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.15.10[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/responses-0.20.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

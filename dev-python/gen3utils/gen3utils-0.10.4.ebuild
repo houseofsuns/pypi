@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cdislogging[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/dictionaryutils[${PYTHON_USEDEP}]
 	dev-python/gen3datamodel[${PYTHON_USEDEP}]
 	dev-python/gen3dictionary[${PYTHON_USEDEP}]
 	dev-python/gen3git[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	dev-python/psqlgraph[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]"
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

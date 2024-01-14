@@ -27,7 +27,7 @@ IUSE="bohrium cloudserver docs gui test"
 DEPENDENCIES="dev-python/paramiko[${PYTHON_USEDEP}]
 	dev-python/dargs[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.9.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	bohrium? ( dev-python/oss2[${PYTHON_USEDEP}] )
 	bohrium? ( dev-python/tqdm[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/paramiko[${PYTHON_USEDEP}]
 	cloudserver? ( dev-python/bohrium-sdk[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/deepmodeling-sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/dargs[${PYTHON_USEDEP}] )

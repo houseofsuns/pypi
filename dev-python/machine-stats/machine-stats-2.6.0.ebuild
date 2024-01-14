@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ansible[${PYTHON_USEDEP}]
-	dev-python/pluginbase[${PYTHON_USEDEP}]"
+	~dev-python/pluginbase-1.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

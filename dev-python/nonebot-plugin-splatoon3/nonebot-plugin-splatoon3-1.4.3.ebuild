@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/cfscrape[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-kaiheila[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-qq[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-telegram[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-apscheduler[${PYTHON_USEDEP}]
 	dev-python/nonebot2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

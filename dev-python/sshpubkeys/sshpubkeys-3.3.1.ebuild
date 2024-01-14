@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-2.1.4[${PYTHON_USEDEP}]
+	>=dev-python/ecdsa-0.13[${PYTHON_USEDEP}]
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )"

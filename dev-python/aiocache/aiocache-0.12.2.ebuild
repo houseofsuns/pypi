@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="memcached msgpack redis"
 DEPENDENCIES="memcached? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
-	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	msgpack? ( >=dev-python/msgpack-0.5.5[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

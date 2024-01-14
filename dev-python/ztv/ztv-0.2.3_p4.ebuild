@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/astropy-helpers[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-1.5.1[${PYTHON_USEDEP}]
+	>=dev-python/psutil-2.0[${PYTHON_USEDEP}]
 	dev-python/wxPython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

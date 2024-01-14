@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/ffmpeg-python[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
+	>=dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
-	dev-python/imageio-ffmpeg[${PYTHON_USEDEP}]
+	>=dev-python/imageio-ffmpeg-0.4.8[${PYTHON_USEDEP}]
 	dev-python/imutils[${PYTHON_USEDEP}]
 	dev-python/celluloid[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]"
+	>=dev-python/imageio-2.27.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>dev-python/pandas-1.5[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

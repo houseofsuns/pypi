@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/napari-matplotlib[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
+	>=dev-python/pooch-1.0[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/vispy[${PYTHON_USEDEP}]"

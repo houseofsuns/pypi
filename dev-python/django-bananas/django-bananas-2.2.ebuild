@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev drf test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
 	dev-python/drf-yasg[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/djangorestframework-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mypy-plugins[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	drf? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
+	drf? ( >=dev-python/djangorestframework-3.10[${PYTHON_USEDEP}] )
 	drf? ( dev-python/drf-yasg[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"

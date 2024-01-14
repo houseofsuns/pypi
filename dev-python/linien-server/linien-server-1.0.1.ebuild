@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/cma[${PYTHON_USEDEP}]
 	dev-python/pylpsd[${PYTHON_USEDEP}]
 	dev-python/linien-common[${PYTHON_USEDEP}]
 	dev-python/pyrp3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

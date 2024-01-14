@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/eventlet[${PYTHON_USEDEP}]
-	dev-python/oslo-concurrency[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]"
+	>=dev-python/oslo-concurrency-3.29.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-6.8.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-3.15.3[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.36.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-4.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

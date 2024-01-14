@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/certifi-2019.11.28[${PYTHON_USEDEP}]
+	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytzdata[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	~dev-python/idna-2.8[${PYTHON_USEDEP}]
+	~dev-python/pendulum-2.0.5[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	~dev-python/pytzdata-2019.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.13.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.25.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

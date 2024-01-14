@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-django[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-django-3.10[${PYTHON_USEDEP}]
 	dev-python/fan-tools[${PYTHON_USEDEP}]
 	dev-python/pytest-tipsi-testing[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

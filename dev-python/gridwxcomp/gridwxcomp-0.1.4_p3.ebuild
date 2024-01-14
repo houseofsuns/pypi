@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/fiona[${PYTHON_USEDEP}]
 	dev-python/gdal[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24[${PYTHON_USEDEP}]
 	dev-python/rasterstats[${PYTHON_USEDEP}]
 	dev-python/refet[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]"
+	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/shapely-1.6.4[${PYTHON_USEDEP}]
+	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

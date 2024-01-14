@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev test"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.4[${PYTHON_USEDEP}]
 	dev-python/mplhep-data[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/uhi[${PYTHON_USEDEP}]
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -40,9 +40,9 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-hep-testdata[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-1.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/twine[${PYTHON_USEDEP}] )
 	all? ( dev-python/uproot[${PYTHON_USEDEP}] )
 	all? ( dev-python/uproot4[${PYTHON_USEDEP}] )
@@ -52,8 +52,8 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scipy-1.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/papermill[${PYTHON_USEDEP}] )

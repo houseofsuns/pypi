@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="kube pbs test yarn"
 DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/dagster[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/dask-1.2.2[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	kube? ( dev-python/dask-kubernetes[${PYTHON_USEDEP}] )
 	pbs? ( dev-python/dask-jobqueue[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev sql"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
+	>=dev-python/emoji-1.7.0[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

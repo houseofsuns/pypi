@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/attrs-17.4.0[${PYTHON_USEDEP}]
+	>=dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
+	>=dev-python/idna-2.5[${PYTHON_USEDEP}]
 	dev-python/idna-ssl[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
+	>=dev-python/multidict-4.1.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.1.1[${PYTHON_USEDEP}]
 	dev-python/m2r[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="hdf5"
 DEPENDENCIES="dev-python/inifix[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
 	dev-python/yt[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	hdf5? ( dev-python/h5py[${PYTHON_USEDEP}] )"
+	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]
+	hdf5? ( >=dev-python/h5py-3.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

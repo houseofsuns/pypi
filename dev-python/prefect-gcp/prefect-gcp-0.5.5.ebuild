@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiplatform all_extras bigquery cloud_storage dev secret_manager"
 DEPENDENCIES="dev-python/prefect[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-2.20.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-slugify-8.0.0[${PYTHON_USEDEP}]
 	aiplatform? ( dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )

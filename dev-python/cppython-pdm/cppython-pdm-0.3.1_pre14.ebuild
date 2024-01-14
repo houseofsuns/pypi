@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cppython[${PYTHON_USEDEP}]
-	dev-python/pdm[${PYTHON_USEDEP}]"
+	>=dev-python/pdm-2.1.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

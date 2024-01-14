@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	>=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
+	>=dev-python/flask-0.10.1[${PYTHON_USEDEP}]
 	dev-python/futures[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
+	>=dev-python/humanfriendly-1.44.3[${PYTHON_USEDEP}]
 	dev-python/influxdb[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.11[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

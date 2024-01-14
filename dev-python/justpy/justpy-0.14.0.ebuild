@@ -28,13 +28,13 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/hjson[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
+	>=dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.2[${PYTHON_USEDEP}]
+	>=dev-python/starlette-0.20.4[${PYTHON_USEDEP}]
 	dev-python/twine[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.18.3[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	test? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	test? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
 	test? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	test? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/selenium-4.12.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
 	test? ( dev-python/vega-datasets[${PYTHON_USEDEP}] )
 	test? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )"

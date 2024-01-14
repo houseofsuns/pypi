@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pip-20.0.0[${PYTHON_USEDEP}]
+	~dev-python/setuptools-56.2.0[${PYTHON_USEDEP}]
+	~dev-python/twine-3.4.1[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.36.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

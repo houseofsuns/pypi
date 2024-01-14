@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/irc[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pykka[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/irc-17.0[${PYTHON_USEDEP}]
+	~dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	~dev-python/pykka-1.2.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/slackclient[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]"
+	~dev-python/websocket-client-0.54.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

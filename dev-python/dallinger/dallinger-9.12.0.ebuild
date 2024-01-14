@@ -40,13 +40,13 @@ DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
 	dev-python/greenlet[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/heroku3[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	<dev-python/ipython-8.13[${PYTHON_USEDEP}]
 	dev-python/localconfig[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.25[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.1[${PYTHON_USEDEP}]
 	dev-python/pexpect[${PYTHON_USEDEP}]
 	dev-python/pip-tools[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+	>=dev-python/pip-20.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/pyopenssl[${PYTHON_USEDEP}]
@@ -56,13 +56,13 @@ DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
 	dev-python/selenium[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-postgres-copy[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]
 	dev-python/timeago[${PYTHON_USEDEP}]
 	dev-python/tzlocal[${PYTHON_USEDEP}]
 	dev-python/ua-parser[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev-python/user-agents[${PYTHON_USEDEP}]
 	data? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	data? ( dev-python/tablib[${PYTHON_USEDEP}] )
@@ -82,12 +82,12 @@ DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-7.2[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/sphinxcontrib-applehelp-1.0.4[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/sphinxcontrib-devhelp-1.0.2[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/sphinxcontrib-htmlhelp-2.0.1[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/sphinxcontrib-qthelp-1.0.3[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/sphinxcontrib-serializinghtml-1.1.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	docker? ( dev-python/docker[${PYTHON_USEDEP}] )

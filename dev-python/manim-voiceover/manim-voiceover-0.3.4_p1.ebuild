@@ -36,12 +36,12 @@ DEPENDENCIES="recorder? ( dev-python/PyAudio[${PYTHON_USEDEP}] )
 	dev-python/mutagen[${PYTHON_USEDEP}]
 	transcribe? ( dev-python/openai-whisper[${PYTHON_USEDEP}] )
 	all? ( dev-python/openai-whisper[${PYTHON_USEDEP}] )
-	dev-python/pip[${PYTHON_USEDEP}]
+	>=dev-python/pip-21.0.1[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
 	recorder? ( dev-python/pynput[${PYTHON_USEDEP}] )
 	all? ( dev-python/pynput[${PYTHON_USEDEP}] )
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.22.0[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-9.0.0[${PYTHON_USEDEP}]
 	pyttsx3? ( dev-python/pyttsx3[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyttsx3[${PYTHON_USEDEP}] )
 	dev-python/sox[${PYTHON_USEDEP}]

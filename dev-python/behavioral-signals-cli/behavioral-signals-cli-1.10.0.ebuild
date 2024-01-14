@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/aiosignal[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]
+	~dev-python/aiosignal-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
+	~dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
 	dev-python/behavioral-signals-swagger-client_3[${PYTHON_USEDEP}]
 	dev-python/dotmap[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ratelimit[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]"
+	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.1.1[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
+	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	~dev-python/ratelimit-2.2.1[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.7.2[${PYTHON_USEDEP}]
+	~dev-python/zipp-3.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

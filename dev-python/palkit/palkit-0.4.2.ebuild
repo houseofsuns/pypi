@@ -31,11 +31,11 @@ DEPENDENCIES="torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	hydra? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
 	all? ( dev-python/neoconfigen[${PYTHON_USEDEP}] )
 	hydra? ( dev-python/neoconfigen[${PYTHON_USEDEP}] )
-	torch? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	wandb? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	torch? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	wandb? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	wandb? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	pl? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	pl? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

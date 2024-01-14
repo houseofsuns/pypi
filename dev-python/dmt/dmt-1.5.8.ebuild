@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/prompt-toolkit-3.1.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]

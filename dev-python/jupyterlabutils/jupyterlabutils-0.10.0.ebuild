@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/maproxy[${PYTHON_USEDEP}]
 	dev-python/pyvo[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18[${PYTHON_USEDEP}]
+	<dev-python/jupyterlab-3.0[${PYTHON_USEDEP}]
 	dev-python/jupyterhubutils[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

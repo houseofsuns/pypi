@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/immutables[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/immutables-0.21[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	dev-python/typed-settings[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

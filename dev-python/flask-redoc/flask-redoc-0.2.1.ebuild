@@ -26,27 +26,27 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all docs tests"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/apispec[${PYTHON_USEDEP}]
+	>=dev-python/apispec-3.3.1[${PYTHON_USEDEP}]
 	dev-python/apispec-webframeworks[${PYTHON_USEDEP}]
-	dev-python/jsonmerge[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	>=dev-python/jsonmerge-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.6.1[${PYTHON_USEDEP}]
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/coverage-4.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.8[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pydocstyle-4.0[${PYTHON_USEDEP}] )
+	all? ( >dev-python/isort-4.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-4.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pydocstyle-4.0[${PYTHON_USEDEP}] )
+	tests? ( >dev-python/isort-4.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

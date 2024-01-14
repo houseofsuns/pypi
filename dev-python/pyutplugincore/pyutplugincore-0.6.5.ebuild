@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/antlr4-python3-runtime-4.11.1[${PYTHON_USEDEP}]
 	dev-python/pyumldiagrams[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	~dev-python/networkx-2.8.5[${PYTHON_USEDEP}]
 	dev-python/orthogonal[${PYTHON_USEDEP}]
 	dev-python/wxPython[${PYTHON_USEDEP}]
 	dev-python/pyutmodel[${PYTHON_USEDEP}]

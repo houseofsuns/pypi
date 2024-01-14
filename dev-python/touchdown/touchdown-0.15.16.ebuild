@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/contextlib2[${PYTHON_USEDEP}]
 	dev-python/netaddr[${PYTHON_USEDEP}]
 	dev-python/fuselage[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.4.28[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/python-gnupg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

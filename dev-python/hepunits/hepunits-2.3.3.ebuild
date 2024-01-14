@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev test"
-DEPENDENCIES="all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+DEPENDENCIES="all? ( >=dev-python/pytest-cov-2.8.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.8.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

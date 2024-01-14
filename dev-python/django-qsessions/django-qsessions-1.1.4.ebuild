@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-ipware[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/geoip2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

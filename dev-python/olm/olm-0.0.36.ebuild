@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/astroid[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/astroid-1.6.1[${PYTHON_USEDEP}]
+	~dev-python/blinker-1.4[${PYTHON_USEDEP}]
+	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
+	~dev-python/coloredlogs-9.0[${PYTHON_USEDEP}]
+	~dev-python/humanfriendly-4.8[${PYTHON_USEDEP}]
+	~dev-python/isort-4.2.15[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/jsmin[${PYTHON_USEDEP}]
-	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
-	dev-python/libsass[${PYTHON_USEDEP}]
+	~dev-python/jsmin-2.2.2[${PYTHON_USEDEP}]
+	~dev-python/lazy-object-proxy-1.3.1[${PYTHON_USEDEP}]
+	~dev-python/libsass-0.13.7[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/mccabe[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/verboselogs[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]"
+	~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}]
+	~dev-python/mistune-0.8.3[${PYTHON_USEDEP}]
+	~dev-python/pylint-1.8.2[${PYTHON_USEDEP}]
+	~dev-python/six-1.11.0[${PYTHON_USEDEP}]
+	~dev-python/verboselogs-1.7[${PYTHON_USEDEP}]
+	~dev-python/wrapt-1.10.11[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

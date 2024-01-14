@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
 	dev-python/markitup[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
 	dev-python/pylinks[${PYTHON_USEDEP}]
 	dev-python/trove-classifiers[${PYTHON_USEDEP}]
 	dev-python/readme-renderer[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml-string[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
+	<dev-python/tomlkit-0.12[${PYTHON_USEDEP}]
 	dev-python/pycolorit[${PYTHON_USEDEP}]
 	dev-python/pybadger[${PYTHON_USEDEP}]
 	dev-python/github-contexts[${PYTHON_USEDEP}]"

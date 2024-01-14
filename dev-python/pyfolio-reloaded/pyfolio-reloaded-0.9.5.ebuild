@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipython-3.2.3[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.11.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.18.1[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2014.10[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.14.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.7.1[${PYTHON_USEDEP}]
 	dev-python/empyrical-reloaded[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Cython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tox-2.3.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.0.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.12[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/parameterized-0.6.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.9.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

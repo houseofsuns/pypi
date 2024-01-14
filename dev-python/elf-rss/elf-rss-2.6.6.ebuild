@@ -26,24 +26,24 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/ImageHash[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
 	dev-python/bbcode[${PYTHON_USEDEP}]
 	dev-python/deep-translator[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
-	dev-python/feedparser[${PYTHON_USEDEP}]
+	<dev-python/emoji-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/feedparser-7.0.0[${PYTHON_USEDEP}]
 	dev-python/magneturi[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-apscheduler[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-guild-patch[${PYTHON_USEDEP}]
 	dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/pikpakapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyquery[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyquery-2.0.0[${PYTHON_USEDEP}]
 	dev-python/python-qbittorrent[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/yarl-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

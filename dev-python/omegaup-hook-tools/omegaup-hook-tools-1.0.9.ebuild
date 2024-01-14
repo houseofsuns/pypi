@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/mypy-0.991[${PYTHON_USEDEP}]
+	~dev-python/pycodestyle-2.9.1[${PYTHON_USEDEP}]
+	~dev-python/pylint-2.15.6[${PYTHON_USEDEP}]
+	testing? ( >=dev-python/pytest-7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

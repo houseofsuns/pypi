@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/k3ut[${PYTHON_USEDEP}]
 	dev-python/k3proc[${PYTHON_USEDEP}]
-	dev-python/pylatexenc[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]"
+	~dev-python/pylatexenc-2.8[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.7.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

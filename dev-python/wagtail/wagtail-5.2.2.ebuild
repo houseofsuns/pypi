@@ -27,44 +27,44 @@ IUSE="docs testing"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-modelcluster[${PYTHON_USEDEP}]
 	dev-python/django-permissionedforms[${PYTHON_USEDEP}]
-	dev-python/django-taggit[${PYTHON_USEDEP}]
+	<dev-python/django-taggit-5.0[${PYTHON_USEDEP}]
 	dev-python/django-treebeard[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-4.0[${PYTHON_USEDEP}]
+	<dev-python/django-filter-24.0[${PYTHON_USEDEP}]
 	dev-python/draftjs-exporter[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-4.12[${PYTHON_USEDEP}]
+	<dev-python/html5lib-2.0[${PYTHON_USEDEP}]
 	dev-python/Willow[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/l18n[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/anyascii[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0[${PYTHON_USEDEP}]
+	>=dev-python/anyascii-0.1.5[${PYTHON_USEDEP}]
 	dev-python/telepath[${PYTHON_USEDEP}]
-	docs? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/pyenchant-4.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-spelling-6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-wagtail-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	testing? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytz[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-copybutton-1.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/python-dateutil-2.7[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytz-2014.7[${PYTHON_USEDEP}] )
 	testing? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	testing? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	testing? ( dev-python/freezegun[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/freezegun-0.3.8[${PYTHON_USEDEP}] )
 	testing? ( dev-python/azure-mgmt-cdn[${PYTHON_USEDEP}] )
 	testing? ( dev-python/azure-mgmt-frontdoor[${PYTHON_USEDEP}] )
 	testing? ( dev-python/django-pattern-library[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/black[${PYTHON_USEDEP}] )
-	testing? ( dev-python/doc8[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/coverage-3.7.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/doc8-0.8.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	testing? ( dev-python/semgrep[${PYTHON_USEDEP}] )
 	testing? ( dev-python/curlylint[${PYTHON_USEDEP}] )
 	testing? ( dev-python/djhtml[${PYTHON_USEDEP}] )
-	testing? ( dev-python/polib[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/polib-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tblib[${PYTHON_USEDEP}] )"
+	testing? ( <dev-python/tblib-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

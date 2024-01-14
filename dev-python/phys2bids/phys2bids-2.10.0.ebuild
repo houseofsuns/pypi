@@ -24,44 +24,44 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="acq all doc duecredit interfaces mat style test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	acq? ( dev-python/bioread[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/duecredit[${PYTHON_USEDEP}] )
 	all? ( dev-python/bioread[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymatreader[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
+	all? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	all? ( dev-python/codespell[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-5.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	duecredit? ( dev-python/duecredit[${PYTHON_USEDEP}] )
 	interfaces? ( dev-python/bioread[${PYTHON_USEDEP}] )
 	interfaces? ( dev-python/pymatreader[${PYTHON_USEDEP}] )
 	mat? ( dev-python/pymatreader[${PYTHON_USEDEP}] )
-	style? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	style? ( dev-python/black[${PYTHON_USEDEP}] )
-	style? ( dev-python/isort[${PYTHON_USEDEP}] )
+	style? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	style? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	style? ( dev-python/codespell[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/bioread[${PYTHON_USEDEP}] )
 	test? ( dev-python/pymatreader[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
+	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	test? ( dev-python/codespell[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

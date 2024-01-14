@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
 DEPENDENCIES="dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flit-3.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.15.10[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mike[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-bdd[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	doc? ( <dev-python/mkdocstrings-1.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-bdd-4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.11[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-2.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

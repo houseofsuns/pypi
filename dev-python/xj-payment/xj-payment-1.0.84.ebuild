@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/python-alipay-sdk[${PYTHON_USEDEP}]
 	dev-python/wechatpy[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
+	>=dev-python/rsa-4.9[${PYTHON_USEDEP}]
 	dev-python/crypto[${PYTHON_USEDEP}]
 	dev-python/wechatpayv3[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]

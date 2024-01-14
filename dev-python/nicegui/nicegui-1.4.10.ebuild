@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="highcharts matplotlib native plotly"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/markdown2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/markdown2-2.4.11[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
 	dev-python/vbuild[${PYTHON_USEDEP}]
-	dev-python/watchfiles[${PYTHON_USEDEP}]
+	<dev-python/watchfiles-1.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/itsdangerous-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}]
 	native? ( dev-python/pywebview[${PYTHON_USEDEP}] )
-	plotly? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	matplotlib? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev-python/httpx[${PYTHON_USEDEP}]
+	plotly? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	matplotlib? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
 	highcharts? ( dev-python/nicegui-highcharts[${PYTHON_USEDEP}] )
-	dev-python/ifaddr[${PYTHON_USEDEP}]"
+	<dev-python/ifaddr-0.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

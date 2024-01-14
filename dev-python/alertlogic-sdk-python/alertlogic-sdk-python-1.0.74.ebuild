@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.18[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/m2r2[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.16.57[${PYTHON_USEDEP}]
 	dev-python/alertlogic-sdk-definitions[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/httpretty[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jsonschema[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/httpretty-0.8.14[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pycodestyle-2.3.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

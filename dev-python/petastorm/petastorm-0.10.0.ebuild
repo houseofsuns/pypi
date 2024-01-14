@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs opencv s3fs test tf tf_gpu torch"
-DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dill-0.2.1[${PYTHON_USEDEP}]
+	>=dev-python/diskcache-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/future-0.10.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
+	>=dev-python/packaging-15.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.19.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-14.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-0.17.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.5.0[${PYTHON_USEDEP}]
 	dev-python/fsspec[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/alabaster[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.2.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/alabaster-0.7.11[${PYTHON_USEDEP}] )
 	opencv? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	s3fs? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pylint-1.9[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-forked-0.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-logger[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-timeout-1.3.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-2.22.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	test? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

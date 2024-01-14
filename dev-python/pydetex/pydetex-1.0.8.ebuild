@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs installer test"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	dev-python/flatlatex[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/outdated[${PYTHON_USEDEP}]
 	dev-python/PyMultiDictionary[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/tkmacosx[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	installer? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose2[${PYTHON_USEDEP}] )"

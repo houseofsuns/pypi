@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="building-plus"
 DEPENDENCIES="building-plus? ( dev-python/building-plus[${PYTHON_USEDEP}] )
 	dev-python/ecos[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]"
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tables-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="face_recognition intent_recognition_gpt intent_recognition_snips object_detection_mp object_detection_yolo speech_recognition_multi speech_recognition_vosk text_recognition"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.28.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
+	~dev-python/cython-0.29.34[${PYTHON_USEDEP}]
+	~dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.0[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-3.0.9[${PYTHON_USEDEP}]
 	dev-python/djitellopy[${PYTHON_USEDEP}]
 	face_recognition? ( dev-python/face-recognition[${PYTHON_USEDEP}] )
 	intent_recognition_gpt? ( dev-python/openai[${PYTHON_USEDEP}] )

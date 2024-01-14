@@ -31,19 +31,19 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/rolex[${PYTHON_USEDEP}]
 	dev-python/constant2[${PYTHON_USEDEP}]
 	dev-python/attrs-mate[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/atomicwrites[${PYTHON_USEDEP}]
+	~dev-python/diskcache-4.1.0[${PYTHON_USEDEP}]
+	~dev-python/atomicwrites-1.3.0[${PYTHON_USEDEP}]
 	dev-python/loggerFactory[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-1.8.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docfly[${PYTHON_USEDEP}] )
 	docs? ( dev-python/rstobj[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-ordering[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-3.2.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-ordering-0.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pathlib-mate[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flask[${PYTHON_USEDEP}] )
 	tests? ( dev-python/scrapy[${PYTHON_USEDEP}] )

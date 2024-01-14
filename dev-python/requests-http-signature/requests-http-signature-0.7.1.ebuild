@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="dev-python/http-message-signatures[${PYTHON_USEDEP}]
 	dev-python/http-sfv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/build[${PYTHON_USEDEP}] )

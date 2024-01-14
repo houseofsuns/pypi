@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/traitlets[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/traitlets-5.2.1[${PYTHON_USEDEP}]
 	dev-python/jupyter-core[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-client-4.1[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-4.1[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-17.1[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/flaky[${PYTHON_USEDEP}] )

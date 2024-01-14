@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/unithandler[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-2.6.2[${PYTHON_USEDEP}]
 	dev-python/hein-utilities[${PYTHON_USEDEP}]
 	dev-python/aston[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

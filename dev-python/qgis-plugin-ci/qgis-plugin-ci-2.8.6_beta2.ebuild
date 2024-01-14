@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/GitPython-3.2[${PYTHON_USEDEP}]
+	<dev-python/PyGithub-2.2[${PYTHON_USEDEP}]
+	<dev-python/PyQt5-5.16[${PYTHON_USEDEP}]
 	dev-python/pyqt5ac[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-8.1[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.1[${PYTHON_USEDEP}]
 	dev-python/transifex-python[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -37,6 +37,6 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nose2[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/nose2-0.15[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

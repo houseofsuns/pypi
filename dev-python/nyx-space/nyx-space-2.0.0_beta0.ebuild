@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/plotly-5.16.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.2.0[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.11.2[${PYTHON_USEDEP}]
+	~dev-python/python-slugify-8.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

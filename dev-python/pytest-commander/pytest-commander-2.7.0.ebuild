@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-enum[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	<dev-python/flask-2.0.0[${PYTHON_USEDEP}]
 	dev-python/flask-socketio[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]"
+	<dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

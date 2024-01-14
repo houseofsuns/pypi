@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/jijmodeling[${PYTHON_USEDEP}]
 	dev-python/openjij[${PYTHON_USEDEP}]
 	dev-python/jij-cimod[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/zstandard[${PYTHON_USEDEP}]

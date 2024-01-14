@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.1[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	dev-python/pyuvdata[${PYTHON_USEDEP}]
 	dev-python/hera-filters[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

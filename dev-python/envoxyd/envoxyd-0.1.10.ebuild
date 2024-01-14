@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/envoxy[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]"
+	~dev-python/flask-cors-3.0.9[${PYTHON_USEDEP}]
+	<dev-python/isort-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

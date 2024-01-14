@@ -27,10 +27,10 @@ IUSE="dev memcached"
 DEPENDENCIES="dev-python/arabic-reshaper[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/BeautifulSoup4[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+	~dev-python/bleach-5.0[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	~dev-python/chardet-5.1[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.4.2[${PYTHON_USEDEP}]
 	dev-python/css-inline[${PYTHON_USEDEP}]
 	dev-python/defusedcsv[${PYTHON_USEDEP}]
 	dev-python/dj-static[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/arabic-reshaper[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap3[${PYTHON_USEDEP}]
 	dev-python/django-compressor[${PYTHON_USEDEP}]
 	dev-python/django-countries[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	~dev-python/django-filter-23.2[${PYTHON_USEDEP}]
 	dev-python/django-formset-js-improved[${PYTHON_USEDEP}]
 	dev-python/django-formtools[${PYTHON_USEDEP}]
 	dev-python/django-hierarkey[${PYTHON_USEDEP}]
@@ -48,25 +48,25 @@ DEPENDENCIES="dev-python/arabic-reshaper[${PYTHON_USEDEP}]
 	dev-python/django-localflavor[${PYTHON_USEDEP}]
 	dev-python/django-markup[${PYTHON_USEDEP}]
 	dev-python/django-oauth-toolkit[${PYTHON_USEDEP}]
-	dev-python/django-otp[${PYTHON_USEDEP}]
+	~dev-python/django-otp-1.2[${PYTHON_USEDEP}]
 	dev-python/django-phonenumber-field[${PYTHON_USEDEP}]
-	dev-python/django-redis[${PYTHON_USEDEP}]
+	~dev-python/django-redis-5.2[${PYTHON_USEDEP}]
 	dev-python/django-scopes[${PYTHON_USEDEP}]
 	dev-python/django-statici18n[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.14[${PYTHON_USEDEP}]
+	~dev-python/dnspython-2.3[${PYTHON_USEDEP}]
 	dev-python/drf-ujson2[${PYTHON_USEDEP}]
 	dev-python/geoip2[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-6.0[${PYTHON_USEDEP}]
 	dev-python/isoweek[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/kombu[${PYTHON_USEDEP}]
-	dev-python/libsass[${PYTHON_USEDEP}]
+	~dev-python/kombu-5.3[${PYTHON_USEDEP}]
+	~dev-python/libsass-0.22[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+	~dev-python/markdown-3.4.3[${PYTHON_USEDEP}]
 	dev-python/mt_940[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	~dev-python/oauthlib-3.2[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.1[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/paypalrestsdk[${PYTHON_USEDEP}]
 	dev-python/paypal-checkout-serversdk[${PYTHON_USEDEP}]
@@ -77,51 +77,51 @@ DEPENDENCIES="dev-python/arabic-reshaper[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/pycountry[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]
+	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.18[${PYTHON_USEDEP}]
+	~dev-python/pypdf-3.9[${PYTHON_USEDEP}]
 	dev-python/python-bidi[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
 	dev-python/python-u2flib-server[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/pytz-deprecation-shim[${PYTHON_USEDEP}]
 	dev-python/pyuca[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/reportlab[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	~dev-python/qrcode-7.4[${PYTHON_USEDEP}]
+	~dev-python/redis-4.6[${PYTHON_USEDEP}]
+	~dev-python/reportlab-4.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31[${PYTHON_USEDEP}]
+	~dev-python/sentry-sdk-1.15[${PYTHON_USEDEP}]
 	dev-python/sepaxml[${PYTHON_USEDEP}]
 	dev-python/slimit[${PYTHON_USEDEP}]
 	dev-python/static3[${PYTHON_USEDEP}]
-	dev-python/stripe[${PYTHON_USEDEP}]
-	dev-python/text-unidecode[${PYTHON_USEDEP}]
+	~dev-python/stripe-5.4[${PYTHON_USEDEP}]
+	~dev-python/text-unidecode-1.0[${PYTHON_USEDEP}]
 	dev-python/tlds[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.0[${PYTHON_USEDEP}]
 	dev-python/vat-moss-forked[${PYTHON_USEDEP}]
-	dev-python/vobject[${PYTHON_USEDEP}]
+	~dev-python/vobject-0.9[${PYTHON_USEDEP}]
 	dev-python/webauthn[${PYTHON_USEDEP}]
-	dev-python/zeep[${PYTHON_USEDEP}]
-	dev? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	~dev-python/zeep-4.2[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/aiohttp-3.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	dev? ( dev-python/fakeredis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/fakeredis-2.18[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	dev? ( dev-python/potypo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pycodestyle-2.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyflakes-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-django-4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-rerunfailures-11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-3.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
 	memcached? ( dev-python/pylibmc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

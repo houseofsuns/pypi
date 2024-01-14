@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/feature-engine[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.1.1[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-1.6.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-1.11[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.16.12[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/strictyaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

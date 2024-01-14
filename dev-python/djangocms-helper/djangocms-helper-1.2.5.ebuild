@@ -27,7 +27,7 @@ IUSE="cms pyflakes"
 DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/dj-database-url[${PYTHON_USEDEP}]
 	cms? ( dev-python/django-cms[${PYTHON_USEDEP}] )
-	pyflakes? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
+	pyflakes? ( <dev-python/pyflakes-2.1[${PYTHON_USEDEP}] )
 	pyflakes? ( dev-python/django-cms[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

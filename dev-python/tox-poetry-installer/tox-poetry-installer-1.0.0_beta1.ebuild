@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="poetry"
-DEPENDENCIES="poetry? ( dev-python/cleo[${PYTHON_USEDEP}] )
-	poetry? ( dev-python/poetry[${PYTHON_USEDEP}] )
-	dev-python/poetry-core[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]"
+DEPENDENCIES="poetry? ( <dev-python/cleo-3.0[${PYTHON_USEDEP}] )
+	poetry? ( <dev-python/poetry-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/poetry-core-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tox-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

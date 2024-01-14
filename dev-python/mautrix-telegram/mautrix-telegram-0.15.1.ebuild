@@ -24,39 +24,39 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all e2be formattednumbers metrics proxy qr_login speedups sqlite"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
-	dev-python/commonmark[${PYTHON_USEDEP}]
-	dev-python/mako[${PYTHON_USEDEP}]
+	<dev-python/commonmark-0.10[${PYTHON_USEDEP}]
+	<dev-python/mako-2.0[${PYTHON_USEDEP}]
 	dev-python/mautrix[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/python-magic-0.5[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.19[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/tulir-telethon[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
+	<dev-python/yarl-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/aiodns[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+	all? ( <dev-python/aiosqlite-0.20[${PYTHON_USEDEP}] )
 	all? ( dev-python/brotli[${PYTHON_USEDEP}] )
 	all? ( dev-python/cryptg[${PYTHON_USEDEP}] )
-	all? ( dev-python/phonenumbers[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	all? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	all? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+	all? ( <dev-python/phonenumbers-9.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/prometheus-client-0.20[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pycryptodome-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-olm[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-socks[${PYTHON_USEDEP}] )
-	all? ( dev-python/qrcode[${PYTHON_USEDEP}] )
-	all? ( dev-python/unpaddedbase64[${PYTHON_USEDEP}] )
-	e2be? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+	all? ( <dev-python/qrcode-8.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/unpaddedbase64-3.0[${PYTHON_USEDEP}] )
+	e2be? ( <dev-python/pycryptodome-4.0[${PYTHON_USEDEP}] )
 	e2be? ( dev-python/python-olm[${PYTHON_USEDEP}] )
-	e2be? ( dev-python/unpaddedbase64[${PYTHON_USEDEP}] )
-	formattednumbers? ( dev-python/phonenumbers[${PYTHON_USEDEP}] )
-	metrics? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
+	e2be? ( <dev-python/unpaddedbase64-3.0[${PYTHON_USEDEP}] )
+	formattednumbers? ( <dev-python/phonenumbers-9.0[${PYTHON_USEDEP}] )
+	metrics? ( <dev-python/prometheus-client-0.20[${PYTHON_USEDEP}] )
 	proxy? ( dev-python/python-socks[${PYTHON_USEDEP}] )
-	qr_login? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	qr_login? ( dev-python/qrcode[${PYTHON_USEDEP}] )
+	qr_login? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
+	qr_login? ( <dev-python/qrcode-8.0[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/aiodns[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/brotli[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/cryptg[${PYTHON_USEDEP}] )
-	sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )"
+	sqlite? ( <dev-python/aiosqlite-0.20[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

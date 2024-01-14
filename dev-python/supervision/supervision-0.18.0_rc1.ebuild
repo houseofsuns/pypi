@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="assets desktop"
-DEPENDENCIES="dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/defusedxml-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	desktop? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	assets? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev-python/scipy[${PYTHON_USEDEP}]
-	assets? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	>=dev-python/pillow-9.4[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
+	assets? ( <=dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
+	>=dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
+	assets? ( <=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

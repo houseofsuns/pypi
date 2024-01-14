@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs test"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-21.3[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/click-default-group[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	dev-python/optree[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-1.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/universal-pathlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )

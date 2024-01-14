@@ -28,55 +28,55 @@ DEPENDENCIES="dev-python/PasteDeploy[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/WSME[${PYTHON_USEDEP}]
 	dev-python/WebOb[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-1.1.6[${PYTHON_USEDEP}]
 	dev-python/cotyledon[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/debtcollector[${PYTHON_USEDEP}]
+	>=dev-python/croniter-0.3.4[${PYTHON_USEDEP}]
+	>=dev-python/debtcollector-1.2.0[${PYTHON_USEDEP}]
 	dev-python/futurist[${PYTHON_USEDEP}]
 	dev-python/gnocchiclient[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-2.1[${PYTHON_USEDEP}]
 	dev-python/keystonemiddleware[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-context[${PYTHON_USEDEP}]
+	>=dev-python/lxml-2.3[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-6.8.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-context-2.22.0[${PYTHON_USEDEP}]
 	dev-python/oslo-db[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-4.3.0[${PYTHON_USEDEP}]
 	dev-python/oslo-messaging[${PYTHON_USEDEP}]
 	dev-python/oslo-middleware[${PYTHON_USEDEP}]
 	dev-python/oslo-policy[${PYTHON_USEDEP}]
 	dev-python/oslo-reports[${PYTHON_USEDEP}]
 	dev-python/oslo-upgradecheck[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/pecan[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pecan-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/python-heatclient[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
+	>=dev-python/python-keystoneclient-1.6.0[${PYTHON_USEDEP}]
 	dev-python/python-octaviaclient[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2013.6[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.5.2[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-3.2.1[${PYTHON_USEDEP}]
 	dev-python/tooz[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.8.10[${PYTHON_USEDEP}]
 	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/alembic-0.7.2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	postgresql? ( >=dev-python/alembic-0.7.2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	test? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
 	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/fixtures[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-3.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/fixtures-1.3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/gabbi[${PYTHON_USEDEP}] )
-	test? ( dev-python/oslotest[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
-	test? ( dev-python/testresources[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/oslotest-2.15.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testresources-0.2.4[${PYTHON_USEDEP}] )
 	zaqar? ( dev-python/python-zaqarclient[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

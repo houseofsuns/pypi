@@ -27,15 +27,15 @@ IUSE="docs test"
 DEPENDENCIES="dev-python/ansible-core[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/subprocess-tee[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/subprocess-tee-0.4.1[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.6.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/argparse-manpage[${PYTHON_USEDEP}] )
 	docs? ( dev-python/black[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-ansible[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-ansible-0.1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-plus[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-plus-0.6.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/duckduckgo-search[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/pylatexenc[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	~dev-python/pylatexenc-2.10[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/sympy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]
+	~dev-python/pypdf-3.17.2[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-23.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

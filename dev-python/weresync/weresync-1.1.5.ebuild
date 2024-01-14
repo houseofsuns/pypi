@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/parse[${PYTHON_USEDEP}]
-	dev-python/yapsy[${PYTHON_USEDEP}]
-	dev-python/pydbus[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/parse-1.6.6[${PYTHON_USEDEP}]
+	~dev-python/yapsy-1.11.223[${PYTHON_USEDEP}]
+	~dev-python/pydbus-0.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

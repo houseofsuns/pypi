@@ -27,8 +27,8 @@ IUSE="bert fitting visualization"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	bert? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	bert? ( dev-python/evaluate[${PYTHON_USEDEP}] )
@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	bert? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	bert? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	fitting? ( dev-python/lmfit[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	visualization? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sybil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/python-dateutil-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sybil-6.0.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

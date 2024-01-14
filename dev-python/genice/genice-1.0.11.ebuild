@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	dev-python/countrings[${PYTHON_USEDEP}]
 	dev-python/pairlist[${PYTHON_USEDEP}]
 	dev-python/yaplotlib[${PYTHON_USEDEP}]

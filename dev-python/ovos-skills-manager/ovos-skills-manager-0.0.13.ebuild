@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]"
+	>=dev-python/click-default-group-1.2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

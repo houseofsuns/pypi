@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/macsyfinder[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/colorlog-6.3.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	dev-python/pyhmmer[${PYTHON_USEDEP}]
 	dev-python/pyrodigal[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

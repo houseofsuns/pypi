@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/autograd[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.56.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
 	dev-python/gpy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

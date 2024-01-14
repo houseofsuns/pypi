@@ -24,63 +24,63 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/arrow-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/chardet-3.1.0[${PYTHON_USEDEP}]
 	dev-python/cradmin-legacy[${PYTHON_USEDEP}]
-	dev-python/dj-database-url[${PYTHON_USEDEP}]
+	<dev-python/dj-database-url-0.4.0[${PYTHON_USEDEP}]
 	dev-python/dj-static[${PYTHON_USEDEP}]
 	dev-python/django-allauth[${PYTHON_USEDEP}]
 	dev-python/django-cradmin[${PYTHON_USEDEP}]
-	dev-python/django-crispy-forms[${PYTHON_USEDEP}]
+	<dev-python/django-crispy-forms-1.15.0[${PYTHON_USEDEP}]
 	dev-python/django-rq[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	<dev-python/django-4.3.0[${PYTHON_USEDEP}]
 	dev-python/djangorestframework[${PYTHON_USEDEP}]
 	dev-python/flup[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/html-sanitizer[${PYTHON_USEDEP}]
-	dev-python/html2text[${PYTHON_USEDEP}]
+	<dev-python/html2text-2018.2.0[${PYTHON_USEDEP}]
 	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	<dev-python/httplib2-0.20.0[${PYTHON_USEDEP}]
+	<dev-python/idna-2.7.0[${PYTHON_USEDEP}]
 	dev-python/ievv-opensource[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+	<dev-python/markdown-3.4.0[${PYTHON_USEDEP}]
 	dev-python/mimeparse[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
+	<dev-python/oauthlib-2.1.0[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/pycountry-17.10.0[${PYTHON_USEDEP}]
+	<dev-python/pygments-2.16.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-2.9.0[${PYTHON_USEDEP}]
 	dev-python/python-openid[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	<dev-python/pytz-2018.10.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	<dev-python/redis-3.6.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/rq[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/requests-oauthlib-0.9.0[${PYTHON_USEDEP}]
+	<dev-python/rq-1.9.0[${PYTHON_USEDEP}]
+	<dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
 	dev-python/urlobject[${PYTHON_USEDEP}]
-	dev-python/xlsxwriter[${PYTHON_USEDEP}]
-	dev? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/boto[${PYTHON_USEDEP}] )
+	<dev-python/xlsxwriter-1.2.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/beautifulsoup4-4.7.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/boto-2.32.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-auth-ldap[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-storages[${PYTHON_USEDEP}] )
 	dev? ( dev-python/doc2dash[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fabric3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-2.2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/htmls[${PYTHON_USEDEP}] )
 	dev? ( dev-python/model-bakery[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyflakes-0.8.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-1.7.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/htmls[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/model-bakery[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )

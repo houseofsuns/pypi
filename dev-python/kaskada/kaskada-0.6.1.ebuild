@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="explain plot"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	plot? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	explain? ( dev-python/graphviz[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]
+	plot? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	explain? ( <dev-python/graphviz-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

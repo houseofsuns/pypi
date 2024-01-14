@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Shapely[${PYTHON_USEDEP}]
 	dev-python/awkward[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.4.2[${PYTHON_USEDEP}]
+	~dev-python/pyproj-3.3.1[${PYTHON_USEDEP}]
 	dev-python/folium[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.9.3[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

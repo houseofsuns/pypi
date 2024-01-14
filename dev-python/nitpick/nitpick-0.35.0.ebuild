@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc lint test"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
 	dev-python/autorepr[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/ConfigUpdater[${PYTHON_USEDEP}]
 	dev-python/dictdiffer[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
+	>=dev-python/flake8-3.0.0[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]
 	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	dev-python/furl[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/identify[${PYTHON_USEDEP}]
 	dev-python/jmespath[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.0.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-polyfield[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	dev-python/python-slugify[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
+	>=dev-python/requests-cache-1.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/responses[${PYTHON_USEDEP}] )
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/sortedcontainers[${PYTHON_USEDEP}]
@@ -63,6 +63,6 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/StrEnum[${PYTHON_USEDEP}]
 	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]"
+	>=dev-python/tomlkit-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

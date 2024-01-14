@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/aws-sam-cli[${PYTHON_USEDEP}]
-	dev-python/aws-sam-translator[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/bottle[${PYTHON_USEDEP}]
+	~dev-python/aws-sam-translator-1.42.0[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.18.0[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.21.65[${PYTHON_USEDEP}]
+	~dev-python/pyrsistent-0.15.0[${PYTHON_USEDEP}]
+	>=dev-python/future-0.18[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-1.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.17[${PYTHON_USEDEP}]
+	~dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.6[${PYTHON_USEDEP}]
+	~dev-python/bottle-0.12.0[${PYTHON_USEDEP}]
 	dev-python/pynamodb[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

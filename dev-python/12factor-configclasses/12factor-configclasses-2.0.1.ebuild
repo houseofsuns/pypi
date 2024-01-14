@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dotenv full toml yaml"
-DEPENDENCIES="toml? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
-	full? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
-	dotenv? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	full? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	full? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+DEPENDENCIES="toml? ( <dev-python/tomlkit-0.13[${PYTHON_USEDEP}] )
+	full? ( <dev-python/tomlkit-0.13[${PYTHON_USEDEP}] )
+	dotenv? ( <dev-python/python-dotenv-2.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/python-dotenv-2.0[${PYTHON_USEDEP}] )
+	yaml? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

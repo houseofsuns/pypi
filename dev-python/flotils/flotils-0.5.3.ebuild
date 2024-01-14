@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/wheel-0.26.0[${PYTHON_USEDEP}]
+	~dev-python/colorlog-2.7.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

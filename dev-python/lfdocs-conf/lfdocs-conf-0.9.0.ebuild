@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-seqdiag[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-swaggerdoc[${PYTHON_USEDEP}]
 	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
-	dev-python/funcparserlib[${PYTHON_USEDEP}]"
+	>=dev-python/funcparserlib-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

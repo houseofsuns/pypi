@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/intelhex[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
+	<dev-python/intelhex-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
+	<dev-python/cattrs-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="package test"
 DEPENDENCIES="dev-python/pyqt5[${PYTHON_USEDEP}]
 	dev-python/pyqtwebengine[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.1.1[${PYTHON_USEDEP}]
+	>=dev-python/pathvalidate-3.1.0[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.7.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.1[${PYTHON_USEDEP}]
 	package? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	package? ( dev-python/build[${PYTHON_USEDEP}] )
 	package? ( dev-python/twine[${PYTHON_USEDEP}] )

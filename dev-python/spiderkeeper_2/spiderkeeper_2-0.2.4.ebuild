@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aniso8601[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aniso8601-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/APScheduler-3.3.1[${PYTHON_USEDEP}]
+	~dev-python/click-6.7[${PYTHON_USEDEP}]
 	dev-python/demjson[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-BasicAuth[${PYTHON_USEDEP}]
 	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
 	dev-python/flask-restful-swagger[${PYTHON_USEDEP}]
 	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	~dev-python/itsdangerous-0.24[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
 	dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.6.0[${PYTHON_USEDEP}]
+	~dev-python/pytz-2017.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.13.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+	~dev-python/tzlocal-1.3[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

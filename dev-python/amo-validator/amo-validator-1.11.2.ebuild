@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/cssutils[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
+	~dev-python/cssutils-1.0.2[${PYTHON_USEDEP}]
+	~dev-python/defusedxml-0.5.0[${PYTHON_USEDEP}]
 	dev-python/fastchardet[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+	~dev-python/mock-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/natsort-5.3.3[${PYTHON_USEDEP}]
+	~dev-python/pytest-3.7.1[${PYTHON_USEDEP}]
+	~dev-python/rdflib-3.4.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.19.1[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
 	dev-python/spidermonkey[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

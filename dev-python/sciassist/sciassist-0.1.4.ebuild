@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.9.0[${PYTHON_USEDEP}]
+	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
+	~dev-python/python-magic-0.4.18[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	~dev-python/rich-12.4.4[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-61.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	dev-python/pytorch-crf[${PYTHON_USEDEP}]
 	dev-python/torchcrf[${PYTHON_USEDEP}]
 	dev-python/sacremoses[${PYTHON_USEDEP}]
 	dev-python/seqeval[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]"
+	~dev-python/pytest-7.4.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

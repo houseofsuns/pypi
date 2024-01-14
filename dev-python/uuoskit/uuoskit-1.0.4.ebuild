@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
-	dev-python/funcy[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/requests-unixsocket[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/urllib3-1.21.1[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
+	>=dev-python/toolz-0.11.1[${PYTHON_USEDEP}]
+	>=dev-python/funcy-1.16[${PYTHON_USEDEP}]
+	>=dev-python/prettytable-2.2.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-unixsocket-0.2.0[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

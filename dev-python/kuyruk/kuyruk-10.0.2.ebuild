@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/amqp[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/amqp-2.0[${PYTHON_USEDEP}]
+	>=dev-python/blinker-1.3[${PYTHON_USEDEP}]
 	dev-python/monotonic[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

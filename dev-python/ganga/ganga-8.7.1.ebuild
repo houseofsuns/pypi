@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev dirac lhcb profiler"
-DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipython-5.0.0[${PYTHON_USEDEP}]
 	dev-python/aiofile[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/absl-py[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	>=dev-python/absl-py-0.1.2[${PYTHON_USEDEP}]
 	dev-python/google-api-python-client[${PYTHON_USEDEP}]
 	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
 	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
 	dev-python/pymongo[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]

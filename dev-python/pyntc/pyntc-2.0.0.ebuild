@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/f5-sdk[${PYTHON_USEDEP}]
 	dev-python/netmiko[${PYTHON_USEDEP}]
 	dev-python/pyeapi[${PYTHON_USEDEP}]
 	dev-python/pynxos[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/scp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

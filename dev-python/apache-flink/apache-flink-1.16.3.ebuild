@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/py4j[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	dev-python/apache-beam[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+	~dev-python/cloudpickle-2.1.0[${PYTHON_USEDEP}]
 	dev-python/avro-python3[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2018.3[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
+	<=dev-python/httplib2-0.20.4[${PYTHON_USEDEP}]
 	dev-python/apache-flink-libraries[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-9.0.0[${PYTHON_USEDEP}]
 	dev-python/pemja[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

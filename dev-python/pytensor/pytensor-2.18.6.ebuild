@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="complete development jax numba rtd tests"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-48.0.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.14[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/etuples[${PYTHON_USEDEP}]
 	dev-python/logical-unification[${PYTHON_USEDEP}]
@@ -42,15 +42,15 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	jax? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	numba? ( dev-python/numba[${PYTHON_USEDEP}] )
 	numba? ( dev-python/numba-scipy[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	rtd? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/pydot2[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/pydot-ng[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

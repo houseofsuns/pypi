@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/verlib2[${PYTHON_USEDEP}]
-	develop? ( dev-python/isort[${PYTHON_USEDEP}] )
-	develop? ( dev-python/black[${PYTHON_USEDEP}] )
-	develop? ( dev-python/build[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/build-2.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/poethepoet[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pip-review[${PYTHON_USEDEP}] )
 	develop? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )
+	test? ( <dev-python/parameterized-1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/unittest-xml-reporting[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/requests-mock-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

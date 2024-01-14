@@ -29,12 +29,12 @@ DEPENDENCIES="dev-python/etcd3gw[${PYTHON_USEDEP}]
 	dev-python/netmiko[${PYTHON_USEDEP}]
 	dev-python/neutron-lib[${PYTHON_USEDEP}]
 	dev-python/neutron[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-3.15.3[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.36.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.40.2[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-6.0.0[${PYTHON_USEDEP}]
 	dev-python/tooz[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

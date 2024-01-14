@@ -27,8 +27,8 @@ IUSE="local test"
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	local? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	local? ( dev-python/delta-spark[${PYTHON_USEDEP}] )
-	local? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	local? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	local? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	local? ( <dev-python/numpy-1.24[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )

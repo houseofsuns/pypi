@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/xarray-2022.3.0[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.26.165[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.29.165[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	dev-python/numcodecs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

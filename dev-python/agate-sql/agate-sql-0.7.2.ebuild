@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/agate[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/agate-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	test? ( dev-python/crate[${PYTHON_USEDEP}] )
 	test? ( dev-python/geojson[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

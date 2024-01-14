@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ui"
-DEPENDENCIES="dev-python/crcmod[${PYTHON_USEDEP}]
-	dev-python/entrypoints[${PYTHON_USEDEP}]
-	dev-python/intelhex[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/crcmod-2.0[${PYTHON_USEDEP}]
+	<dev-python/entrypoints-1.0[${PYTHON_USEDEP}]
+	>=dev-python/intelhex-2.3[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
 	dev-python/typedargs[${PYTHON_USEDEP}]
 	ui? ( dev-python/asciimatics[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

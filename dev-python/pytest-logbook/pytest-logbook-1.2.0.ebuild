@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Logbook[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]"
+	>=dev-python/pytest-2.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

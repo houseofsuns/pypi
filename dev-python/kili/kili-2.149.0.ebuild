@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="azure dev image-utils"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/typeguard-5.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/websocket-client-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/cuid[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/ffmpeg-python[${PYTHON_USEDEP}]
+	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
+	<dev-python/ffmpeg-python-0.3.0[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/pyrate-limiter[${PYTHON_USEDEP}]
+	<dev-python/filelock-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyrate-limiter-3.0[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev? ( dev-python/mike[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-44.1.1[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/uip-cli[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]

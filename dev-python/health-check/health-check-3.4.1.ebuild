@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/GitPython-1.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	dev-python/clinner[${PYTHON_USEDEP}]
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
@@ -33,8 +33,8 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/GitPython-1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyyaml-3.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/clinner[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	dev-python/depq[${PYTHON_USEDEP}]
 	dev-python/cycler[${PYTHON_USEDEP}]
 	dev-python/kiwisolver[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
 	dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}]

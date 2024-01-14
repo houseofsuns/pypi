@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev extras"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-40.6.2[${PYTHON_USEDEP}]
 	dev-python/setuptools-scm[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.2[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/utm[${PYTHON_USEDEP}]
 	dev-python/healpy[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/km3net-testdata[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
@@ -44,12 +44,12 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-gallery-0.10.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.6.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinxcontrib-programoutput-0.11[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinxcontrib-websupport-1.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/utm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bitarray[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/bitarray-2.5.0[${PYTHON_USEDEP}]
 	dev-python/pulp[${PYTHON_USEDEP}]
 	dev-python/revsymg[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]"

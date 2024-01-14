@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
 	dev-python/horizon[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.36.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
 	dev-python/python-barbicanclient[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

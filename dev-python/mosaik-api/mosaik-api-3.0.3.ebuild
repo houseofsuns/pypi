@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/simpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docopt-0.6.1[${PYTHON_USEDEP}]
+	<dev-python/simpy-4.0[${PYTHON_USEDEP}]
 	dev-python/mosaik-simpy-io[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

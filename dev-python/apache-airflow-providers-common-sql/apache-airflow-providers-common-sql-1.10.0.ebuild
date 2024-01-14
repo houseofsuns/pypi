@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="openlineage pandas"
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+	>=dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}]
 	openlineage? ( dev-python/apache-airflow-providers-openlineage[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	pandas? ( >=dev-python/pandas-0.17.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

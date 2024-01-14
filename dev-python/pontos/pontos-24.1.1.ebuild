@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorful[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/colorful-0.5.4[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.5.11[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.3[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.4.4[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/semver-2.13[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

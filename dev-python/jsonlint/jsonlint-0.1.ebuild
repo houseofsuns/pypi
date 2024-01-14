@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="Locale"
-DEPENDENCIES="Locale? ( dev-python/Babel[${PYTHON_USEDEP}] )"
+DEPENDENCIES="Locale? ( >=dev-python/Babel-1.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

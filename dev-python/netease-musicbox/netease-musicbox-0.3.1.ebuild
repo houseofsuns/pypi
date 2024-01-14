@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/fuzzywuzzy-0.19.0[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-cache-0.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

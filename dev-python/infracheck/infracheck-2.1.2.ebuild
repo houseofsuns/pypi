@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/msgpack[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/msgpack-2.0[${PYTHON_USEDEP}]
 	dev-python/ovh[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
+	<dev-python/six-2.0[${PYTHON_USEDEP}]
+	<dev-python/tornado-6.0[${PYTHON_USEDEP}]
 	dev-python/whois[${PYTHON_USEDEP}]
 	dev-python/influxdb[${PYTHON_USEDEP}]
 	dev-python/rkd[${PYTHON_USEDEP}]
 	dev-python/rkd-python[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]"
+	>=dev-python/docker-5.0[${PYTHON_USEDEP}]
+	<dev-python/croniter-1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

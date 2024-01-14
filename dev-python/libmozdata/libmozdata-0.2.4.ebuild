@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/icalendar[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/icalendar-3.10[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.5.2[${PYTHON_USEDEP}]
 	dev-python/python-hglib[${PYTHON_USEDEP}]
-	dev-python/requests-futures[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/whatthepatch[${PYTHON_USEDEP}]"
+	>=dev-python/requests-futures-0.9.8[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.7.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-28.6.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/whatthepatch-0.0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

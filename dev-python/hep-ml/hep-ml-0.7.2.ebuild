@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.9[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.15.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.14.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/theano[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"

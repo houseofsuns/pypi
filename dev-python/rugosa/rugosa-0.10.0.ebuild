@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/dragodis[${PYTHON_USEDEP}]
 	dev-python/hexdump[${PYTHON_USEDEP}]
 	dev-python/pyhidra[${PYTHON_USEDEP}]
 	dev-python/yara-python[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

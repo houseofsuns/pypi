@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs full patch testing"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-18.1[${PYTHON_USEDEP}]
 	dev-python/commoncode[${PYTHON_USEDEP}]
 	dev-python/plugincode[${PYTHON_USEDEP}]
 	dev-python/typecode[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/doc8[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/doc8-0.8.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/extractcode_7z[${PYTHON_USEDEP}] )
 	full? ( dev-python/extractcode-libarchive[${PYTHON_USEDEP}] )
 	full? ( dev-python/typecode[${PYTHON_USEDEP}] )
 	patch? ( dev-python/patch[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-xdist-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/aboutcode-toolkit[${PYTHON_USEDEP}] )
 	testing? ( dev-python/black[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

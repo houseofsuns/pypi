@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.19[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.8[${PYTHON_USEDEP}]
+	>=dev-python/html5lib-0.999[${PYTHON_USEDEP}]
+	>=dev-python/keyring-15.0[${PYTHON_USEDEP}]
 	dev-python/pyvo[${PYTHON_USEDEP}]
 	all? ( dev-python/mocpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/astropy-healpix[${PYTHON_USEDEP}] )

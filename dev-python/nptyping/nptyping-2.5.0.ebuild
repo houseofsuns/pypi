@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build complete dev pandas qa"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	build? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	build? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pandas[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/typeguard[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/beartype[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/beartype-0.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas-stubs-fork[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandas-stubs-fork[${PYTHON_USEDEP}] )
@@ -60,6 +60,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	qa? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	qa? ( dev-python/typeguard[${PYTHON_USEDEP}] )
 	qa? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	qa? ( dev-python/beartype[${PYTHON_USEDEP}] )"
+	qa? ( >=dev-python/beartype-0.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/asn1crypto[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-35.0.0[${PYTHON_USEDEP}]
+	>=dev-python/asn1crypto-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}]
+	>=dev-python/structlog-22.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )

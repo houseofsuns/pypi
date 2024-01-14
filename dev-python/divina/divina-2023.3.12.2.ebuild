@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
+	~dev-python/black-22.12.0[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/dask-cloudprovider[${PYTHON_USEDEP}]
 	dev-python/dask-ml[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	~dev-python/dask-2022.11.1[${PYTHON_USEDEP}]
+	~dev-python/dill-0.3.6[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/furo[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	~dev-python/flake8-6.0.0[${PYTHON_USEDEP}]
+	~dev-python/furo-2022.12.7[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
+	~dev-python/pbr-5.11.1[${PYTHON_USEDEP}]
+	~dev-python/plotly-5.11.0[${PYTHON_USEDEP}]
 	dev-python/prefect[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-10.0.1[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.2.0[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]"
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	~dev-python/twine-4.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

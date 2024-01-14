@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/evaluate[${PYTHON_USEDEP}]
 	dev-python/bert-score[${PYTHON_USEDEP}]
 	dev-python/rouge-score[${PYTHON_USEDEP}]
-	dev-python/absl-py[${PYTHON_USEDEP}]"
+	~dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

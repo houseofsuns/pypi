@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyter-server[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jupyter-server-1.10.1[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

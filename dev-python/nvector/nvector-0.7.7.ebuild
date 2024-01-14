@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build_sphinx"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.9[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.9[${PYTHON_USEDEP}]
 	dev-python/geographiclib[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/cartopy[${PYTHON_USEDEP}]
-	build_sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	build_sphinx? ( >=dev-python/sphinx-1.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

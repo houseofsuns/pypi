@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="debug-toolbar enum"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]
-	debug-toolbar? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )
+	debug-toolbar? ( >=dev-python/django-debug-toolbar-3.4[${PYTHON_USEDEP}] )
 	enum? ( dev-python/django-choices-field[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -50,13 +50,13 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/imagecodecs[${PYTHON_USEDEP}] )
 	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/numpy-1.26[${PYTHON_USEDEP}] )
 	test? ( dev-python/ome-types[${PYTHON_USEDEP}] )
 	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-codspeed[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pretty[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/xarray[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

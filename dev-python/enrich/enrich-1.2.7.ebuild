@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/rich-9.5.1[${PYTHON_USEDEP}]
+	test? ( >=dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-3.3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-plus[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-xdist-1.29.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

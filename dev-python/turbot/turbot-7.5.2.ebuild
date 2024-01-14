@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/discord-py[${PYTHON_USEDEP}]
 	dev-python/dunamai[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+	<dev-python/humanize-3.0.0[${PYTHON_USEDEP}]
 	dev-python/hupper[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytz-2021.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/unidecode-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

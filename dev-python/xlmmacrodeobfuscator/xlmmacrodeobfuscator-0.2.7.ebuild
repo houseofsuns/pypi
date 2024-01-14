@@ -27,7 +27,7 @@ IUSE="secure"
 DEPENDENCIES="dev-python/pyxlsb2[${PYTHON_USEDEP}]
 	dev-python/lark-parser[${PYTHON_USEDEP}]
 	dev-python/xlrd2[${PYTHON_USEDEP}]
-	dev-python/untangle[${PYTHON_USEDEP}]
+	~dev-python/untangle-1.2.1[${PYTHON_USEDEP}]
 	dev-python/msoffcrypto-tool[${PYTHON_USEDEP}]
 	dev-python/roman[${PYTHON_USEDEP}]
 	secure? ( dev-python/defusedxml[${PYTHON_USEDEP}] )"

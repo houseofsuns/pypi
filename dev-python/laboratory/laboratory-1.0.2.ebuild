@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/alabaster[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

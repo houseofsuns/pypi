@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.11.0[${PYTHON_USEDEP}]
 	dev-python/django-mptt[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-7.1.2[${PYTHON_USEDEP}]
 	dev-python/django-cleanup[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/mutagen[${PYTHON_USEDEP}]
 	dev-python/django-stdimage[${PYTHON_USEDEP}]
-	dev-python/django-taggit[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]"
+	<dev-python/django-taggit-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/django-filter-22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

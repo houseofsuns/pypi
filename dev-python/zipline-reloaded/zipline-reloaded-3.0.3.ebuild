@@ -24,57 +24,57 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/alembic-0.7.7[${PYTHON_USEDEP}]
 	dev-python/bcolz-zipline[${PYTHON_USEDEP}]
-	dev-python/bottleneck[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/bottleneck-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/click-4.0.0[${PYTHON_USEDEP}]
 	dev-python/empyrical-reloaded[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/intervaltree[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.7.1[${PYTHON_USEDEP}]
+	>=dev-python/intervaltree-2.1.0[${PYTHON_USEDEP}]
 	dev-python/iso3166[${PYTHON_USEDEP}]
 	dev-python/iso4217[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
-	dev-python/multipledispatch[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/patsy[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/multipledispatch-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.0[${PYTHON_USEDEP}]
+	>=dev-python/numexpr-2.6.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	>=dev-python/patsy-0.4.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.4.2[${PYTHON_USEDEP}]
 	dev-python/python-interface[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2018.5[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.17.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.6.1[${PYTHON_USEDEP}]
 	dev-python/ta-lib[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
+	>=dev-python/tables-3.4.3[${PYTHON_USEDEP}]
+	>=dev-python/toolz-0.8.2[${PYTHON_USEDEP}]
 	dev-python/exchange-calendars[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Cython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Cython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-timeout-1.4.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/parameterized-0.6.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testfixtures-4.1.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.9.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/matplotlib-1.5.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/responses-0.9.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas-datareader[${PYTHON_USEDEP}] )
-	test? ( dev-python/click[${PYTHON_USEDEP}] )
+	test? ( <dev-python/click-8.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

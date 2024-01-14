@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="git"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	git? ( dev-python/GitPython[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/pytest-4.6.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-cov-2.11.0[${PYTHON_USEDEP}]
+	>=dev-python/coverage-5.2.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	git? ( >=dev-python/GitPython-3.1.15[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

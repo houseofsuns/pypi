@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="brotli docs email fileobjects openioc pdfexport url virustotal"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
 	email? ( dev-python/extract_msg[${PYTHON_USEDEP}] )
 	email? ( dev-python/RTFDE[${PYTHON_USEDEP}] )
 	email? ( dev-python/oletools[${PYTHON_USEDEP}] )
-	fileobjects? ( dev-python/python-magic[${PYTHON_USEDEP}] )
+	fileobjects? ( <dev-python/python-magic-0.5.0[${PYTHON_USEDEP}] )
 	fileobjects? ( dev-python/pydeep2[${PYTHON_USEDEP}] )
 	fileobjects? ( dev-python/lief[${PYTHON_USEDEP}] )
-	openioc? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	virustotal? ( dev-python/validators[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	pdfexport? ( dev-python/reportlab[${PYTHON_USEDEP}] )
+	openioc? ( <dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}] )
+	virustotal? ( <dev-python/validators-0.23.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/recommonmark-0.8.0[${PYTHON_USEDEP}] )
+	pdfexport? ( <dev-python/reportlab-5.0.0[${PYTHON_USEDEP}] )
 	url? ( dev-python/pyfaup[${PYTHON_USEDEP}] )
 	dev-python/publicsuffixlist[${PYTHON_USEDEP}]
 	brotli? ( dev-python/urllib3[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rabbitmq testing"
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
-	rabbitmq? ( dev-python/pika[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
+	rabbitmq? ( <dev-python/pika-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

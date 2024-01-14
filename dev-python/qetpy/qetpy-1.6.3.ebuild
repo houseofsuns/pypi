@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/iminuit[${PYTHON_USEDEP}]
+	>=dev-python/iminuit-2.0[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]"

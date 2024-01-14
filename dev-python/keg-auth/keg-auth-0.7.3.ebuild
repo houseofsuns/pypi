@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/authlib[${PYTHON_USEDEP}]
 	tests? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	tests? ( dev-python/python-ldap[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/python-ldap-3.4.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyquery[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

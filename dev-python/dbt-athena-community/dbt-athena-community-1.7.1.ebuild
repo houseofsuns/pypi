@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/boto3-1.26[${PYTHON_USEDEP}]
 	dev-python/boto3-stubs[${PYTHON_USEDEP}]
 	dev-python/dbt-core[${PYTHON_USEDEP}]
 	dev-python/mmh3[${PYTHON_USEDEP}]
 	dev-python/pyathena[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

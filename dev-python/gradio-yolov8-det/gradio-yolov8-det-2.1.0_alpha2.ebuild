@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/ultralytics[${PYTHON_USEDEP}]
 	dev-python/gradio[${PYTHON_USEDEP}]
 	dev-python/gradio-imageslider[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.4[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	>=dev-python/rich-12.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

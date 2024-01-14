@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/xtgeo[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
@@ -49,9 +49,9 @@ DEPENDENCIES="dev-python/xtgeo[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autoapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-autodoc-typehints-1.23[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/urllib3[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/urllib3-1.27[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

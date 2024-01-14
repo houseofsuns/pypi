@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/cloup[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
+	<dev-python/pathvalidate-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
+	<=dev-python/pluggy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/textX[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.0.1[${PYTHON_USEDEP}]
+	<dev-python/textX-3.0.0[${PYTHON_USEDEP}]
 	dev-python/tinytag[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]
 	dev-python/osxmetadata[${PYTHON_USEDEP}]

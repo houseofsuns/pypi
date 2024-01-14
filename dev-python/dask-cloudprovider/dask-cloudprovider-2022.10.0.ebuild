@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws azure digitalocean gcp hetzner"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.7.3[${PYTHON_USEDEP}]
+	>=dev-python/dask-2021.1.1[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	>=dev-python/tornado-5.0[${PYTHON_USEDEP}]
 	all? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-mgmt-network[${PYTHON_USEDEP}] )
-	all? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	all? ( dev-python/hcloud[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/google-api-python-client-1.12.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/hcloud-1.10.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-digitalocean[${PYTHON_USEDEP}] )
-	all? ( dev-python/google-auth[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/google-auth-1.23.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-mgmt-compute[${PYTHON_USEDEP}] )
 	aws? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-mgmt-compute[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-mgmt-network[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	digitalocean? ( dev-python/python-digitalocean[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/google-auth[${PYTHON_USEDEP}] )
-	hetzner? ( dev-python/hcloud[${PYTHON_USEDEP}] )"
+	gcp? ( >=dev-python/google-api-python-client-1.12.5[${PYTHON_USEDEP}] )
+	gcp? ( >=dev-python/google-auth-1.23.0[${PYTHON_USEDEP}] )
+	hetzner? ( >=dev-python/hcloud-1.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

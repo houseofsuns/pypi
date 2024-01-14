@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc plots"
-DEPENDENCIES="dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/pyaml[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/joblib-1.2[${PYTHON_USEDEP}]
+	>=dev-python/pyaml-16.9[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-gallery-0.6[${PYTHON_USEDEP}] )
 	doc? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	plots? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	plots? ( >=dev-python/matplotlib-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

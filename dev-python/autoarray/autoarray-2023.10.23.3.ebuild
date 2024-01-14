@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/decorator-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
+	<=dev-python/scipy-1.11.3[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/autoconf[${PYTHON_USEDEP}]"

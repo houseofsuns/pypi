@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/scanpy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.12.2[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.11.3[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.7.3[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
+	~dev-python/networkx-3.2.1[${PYTHON_USEDEP}]
 	dev-python/gseapy[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/xlsxwriter[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
+	~dev-python/xlsxwriter-3.1.9[${PYTHON_USEDEP}]
+	~dev-python/pydot-1.4.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
 	dev-python/KDEpy[${PYTHON_USEDEP}]
-	dev-python/pygraphviz[${PYTHON_USEDEP}]
+	~dev-python/pygraphviz-1.11[${PYTHON_USEDEP}]
 	dev-python/leidenalg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

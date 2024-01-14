@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="memcached mongodb redis"
 DEPENDENCIES="dev-python/limits[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/ordered-set-5.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	memcached? ( dev-python/limits[${PYTHON_USEDEP}] )
 	mongodb? ( dev-python/limits[${PYTHON_USEDEP}] )
 	redis? ( dev-python/limits[${PYTHON_USEDEP}] )"

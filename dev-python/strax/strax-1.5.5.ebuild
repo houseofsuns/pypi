@@ -33,14 +33,14 @@ DEPENDENCIES="dev-python/blosc[${PYTHON_USEDEP}]
 	dev-python/lz4[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/numexpr[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pdmongo[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	<dev-python/pymongo-4.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.46.0[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	dev-python/zstd[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/blosc[${PYTHON_USEDEP}]
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	docs? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mistune[${PYTHON_USEDEP}] )
-	docs? ( dev-python/urllib3[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/mistune-0.8.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/urllib3-2.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-2.26[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
 	dev-python/dotmap[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
+	~dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	test? ( <dev-python/requests-mock-1.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

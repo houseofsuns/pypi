@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/click-6.0[${PYTHON_USEDEP}]
+	>dev-python/voluptuous-0.10[${PYTHON_USEDEP}]
 	dev-python/executor[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	<dev-python/six-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

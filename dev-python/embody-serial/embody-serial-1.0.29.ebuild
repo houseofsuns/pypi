@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/embody-codec[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]"
+	<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

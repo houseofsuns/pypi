@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Faker[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/Faker-16.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/allure-pytest[${PYTHON_USEDEP}]
 	dev-python/allure-python-commons[${PYTHON_USEDEP}]
 	dev-python/concurrent-log-handler[${PYTHON_USEDEP}]
 	dev-python/minium[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	dev-python/pytest-assume[${PYTHON_USEDEP}]
 	dev-python/pytest-dependency[${PYTHON_USEDEP}]
-	dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}]
-	dev-python/pytest-ordering[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	<dev-python/pytest-lazy-fixture-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-ordering-0.7[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

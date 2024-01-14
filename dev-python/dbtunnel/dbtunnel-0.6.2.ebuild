@@ -48,7 +48,7 @@ DEPENDENCIES="bokeh? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	solara? ( dev-python/solara[${PYTHON_USEDEP}] )
 	sql? ( dev-python/databricks-sql-connector[${PYTHON_USEDEP}] )
 	streamlit? ( dev-python/streamlit[${PYTHON_USEDEP}] )
-	streamlit? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	streamlit? ( >=dev-python/pyarrow-11.0[${PYTHON_USEDEP}] )
 	streamlit? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

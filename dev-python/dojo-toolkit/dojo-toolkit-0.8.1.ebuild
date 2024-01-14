@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/pyglet[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyglet-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pgi[${PYTHON_USEDEP}]
-	dev-python/clint[${PYTHON_USEDEP}]
+	<dev-python/clint-0.6.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

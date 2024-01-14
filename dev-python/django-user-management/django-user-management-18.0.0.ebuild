@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="avatar utils"
-DEPENDENCIES="dev-python/djangorestframework[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/djangorestframework-3.11[${PYTHON_USEDEP}]
 	dev-python/incuna-mail[${PYTHON_USEDEP}]
 	dev-python/incuna-pigeon[${PYTHON_USEDEP}]
 	avatar? ( dev-python/django-imagekit[${PYTHON_USEDEP}] )

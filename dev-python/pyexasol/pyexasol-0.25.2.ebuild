@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="examples orjson pandas rapidjson ujson"
-DEPENDENCIES="dev-python/websocket-client[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/websocket-client-1.0.1[${PYTHON_USEDEP}]
 	dev-python/pyopenssl[${PYTHON_USEDEP}]
 	dev-python/rsa[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	examples? ( dev-python/pproxy[${PYTHON_USEDEP}] )
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	orjson? ( >=dev-python/orjson-3.6[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	rapidjson? ( dev-python/python-rapidjson[${PYTHON_USEDEP}] )
 	ujson? ( dev-python/ujson[${PYTHON_USEDEP}] )"

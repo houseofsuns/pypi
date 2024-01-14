@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]"
+	>=dev-python/jsonschema-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

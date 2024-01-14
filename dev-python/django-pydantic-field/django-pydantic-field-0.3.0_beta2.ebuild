@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci coreapi dev openapi test"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	<dev-python/django-6.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	ci? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
-	ci? ( dev-python/psycopg[${PYTHON_USEDEP}] )
+	ci? ( >=dev-python/mysqlclient-2.1[${PYTHON_USEDEP}] )
+	ci? ( <dev-python/psycopg-4.0[${PYTHON_USEDEP}] )
 	coreapi? ( dev-python/coreapi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/djangorestframework-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/djangorestframework-stubs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-django-5.0[${PYTHON_USEDEP}] )
 	openapi? ( dev-python/uritemplate[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-pydantic-field[${PYTHON_USEDEP}] )
-	test? ( dev-python/dj-database-url[${PYTHON_USEDEP}] )
-	test? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/dj-database-url-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/djangorestframework-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	test? ( dev-python/syrupy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

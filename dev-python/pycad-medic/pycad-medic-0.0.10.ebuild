@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	dev-python/glob2[${PYTHON_USEDEP}]
 	dev-python/SimpleITK[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]
 	dev-python/vedo[${PYTHON_USEDEP}]

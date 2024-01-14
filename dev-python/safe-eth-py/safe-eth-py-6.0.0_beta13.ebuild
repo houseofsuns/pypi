@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="django"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/py-evm[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	dev-python/safe-pysha3[${PYTHON_USEDEP}]
-	django? ( dev-python/django[${PYTHON_USEDEP}] )
-	django? ( dev-python/django-filter[${PYTHON_USEDEP}] )
-	django? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )"
+	django? ( >=dev-python/django-2.0[${PYTHON_USEDEP}] )
+	django? ( >=dev-python/django-filter-2.0[${PYTHON_USEDEP}] )
+	django? ( >=dev-python/djangorestframework-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="recipes"
 DEPENDENCIES="dev-python/pyprind[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	recipes? ( dev-python/click[${PYTHON_USEDEP}] )
-	recipes? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	recipes? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )"
+	recipes? ( ~dev-python/click-7.1.2[${PYTHON_USEDEP}] )
+	recipes? ( ~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
+	recipes? ( ~dev-python/ruamel-yaml-0.16.12[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

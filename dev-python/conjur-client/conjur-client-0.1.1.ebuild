@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PyInstaller[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/nose2[${PYTHON_USEDEP}]
-	dev-python/nose2[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	>=dev-python/nose2-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/nose2-0.6.5[${PYTHON_USEDEP}]
+	>=dev-python/pylint-2.3.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	>=dev-python/twine-1.13.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

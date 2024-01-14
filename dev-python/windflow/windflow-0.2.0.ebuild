@@ -28,15 +28,15 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/honcho[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	alembic? ( dev-python/alembic[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	~dev-python/python-dotenv-0.8.2[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.13.2[${PYTHON_USEDEP}]
+	~dev-python/tornado-5.0[${PYTHON_USEDEP}]
+	alembic? ( ~dev-python/alembic-0.9.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-3.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	uvloop? ( ~dev-python/uvloop-0.9.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

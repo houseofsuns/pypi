@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httpx-0.23[${PYTHON_USEDEP}]
 	dev-python/embit[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
+	>=dev-python/websockets-10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

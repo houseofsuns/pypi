@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/typing-inspect[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/marshmallow-dataclass[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

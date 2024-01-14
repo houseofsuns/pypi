@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/awacs[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/cfn-lint[${PYTHON_USEDEP}]
 	dev-python/cfn_flip[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	>dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
+	>=dev-python/docker-3.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/dunamai[${PYTHON_USEDEP}] )
 	dev-python/formic2[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
@@ -39,27 +39,27 @@ DEPENDENCIES="dev-python/awacs[${PYTHON_USEDEP}]
 	docs? ( dev-python/jsx-lexer[${PYTHON_USEDEP}] )
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyhcl[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	<dev-python/pyhcl-0.5[${PYTHON_USEDEP}]
 	dev-python/python-hcl2[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/send2trash[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-github-changelog[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
-	dev-python/tomli[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-tabs-4.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-apidoc-0.4[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-programoutput-0.18[${PYTHON_USEDEP}] )
+	>=dev-python/tomli-1.2.2[${PYTHON_USEDEP}]
 	dev-python/troposphere[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/yamllint[${PYTHON_USEDEP}]
-	dev-python/pipenv[${PYTHON_USEDEP}]
-	dev-python/moto[${PYTHON_USEDEP}]
-	dev-python/testfixtures[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+	~dev-python/pipenv-2022.1.8[${PYTHON_USEDEP}]
+	~dev-python/moto-3.0.5[${PYTHON_USEDEP}]
+	<dev-python/testfixtures-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/wheel-0.43.0[${PYTHON_USEDEP}]
 	dev-python/pyinstaller[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

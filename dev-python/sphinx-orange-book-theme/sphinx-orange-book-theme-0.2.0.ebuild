@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/sphinx-book-theme[${PYTHON_USEDEP}]
-	dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]"
+	>=dev-python/pydata-sphinx-theme-0.14[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

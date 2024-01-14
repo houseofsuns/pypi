@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]"
+	>=dev-python/greenlet-0.3.1[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-17.1[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-1.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

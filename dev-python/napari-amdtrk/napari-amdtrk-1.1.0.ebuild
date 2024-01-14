@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/magicgui[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/trackpy[${PYTHON_USEDEP}]

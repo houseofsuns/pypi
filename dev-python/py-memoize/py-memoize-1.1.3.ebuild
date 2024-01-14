@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tornado ujson"
-DEPENDENCIES="tornado? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	ujson? ( dev-python/ujson[${PYTHON_USEDEP}] )"
+DEPENDENCIES="tornado? ( <dev-python/tornado-5.0[${PYTHON_USEDEP}] )
+	ujson? ( <dev-python/ujson-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

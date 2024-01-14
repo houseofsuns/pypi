@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/glfw[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Cython[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]"
+	<dev-python/imageio-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/cffi-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/fasteners-0.15[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs doe jax notebooks test visualization"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-1.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
@@ -43,11 +43,11 @@ DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
 	visualization? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	test? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/numpydoc-1.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pycodestyle-2.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pydocstyle-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/testflo[${PYTHON_USEDEP}] )
-	test? ( dev-python/websockets[${PYTHON_USEDEP}] )
+	test? ( >dev-python/websockets-8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/aiounittest[${PYTHON_USEDEP}] )
 	test? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	test? ( dev-python/num2words[${PYTHON_USEDEP}] )
@@ -63,15 +63,15 @@ DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	all? ( dev-python/num2words[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpydoc-1.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpydoc-1.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	all? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyDOE3[${PYTHON_USEDEP}] )
-	all? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pycodestyle-2.4.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pydocstyle-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
 	all? ( dev-python/testflo[${PYTHON_USEDEP}] )
-	all? ( dev-python/websockets[${PYTHON_USEDEP}] )"
+	all? ( >dev-python/websockets-8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

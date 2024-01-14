@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/fiona[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-2.0.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/emoji-3.0.0[${PYTHON_USEDEP}]
 	dev-python/hdbscan[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]"

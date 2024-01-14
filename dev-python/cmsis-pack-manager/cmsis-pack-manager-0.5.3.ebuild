@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/appdirs-2.0[${PYTHON_USEDEP}]
 	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/validators[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/validators-0.20.0[${PYTHON_USEDEP}]
 	dev-python/pythonql3[${PYTHON_USEDEP}]
-	dev-python/pyaml[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/webencodings[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
+	~dev-python/pyaml-21.10.1[${PYTHON_USEDEP}]
+	~dev-python/rdflib-6.2.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.17.6[${PYTHON_USEDEP}]
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-1.27[${PYTHON_USEDEP}]
+	~dev-python/webencodings-0.5.1[${PYTHON_USEDEP}]
+	~dev-python/starlette-0.20.4[${PYTHON_USEDEP}]
 	dev-python/PyLD[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

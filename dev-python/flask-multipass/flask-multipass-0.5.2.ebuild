@@ -32,8 +32,8 @@ DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	ldap? ( dev-python/flask-wtf[${PYTHON_USEDEP}] )
-	ldap? ( dev-python/python-ldap[${PYTHON_USEDEP}] )
-	saml? ( dev-python/python3-saml[${PYTHON_USEDEP}] )
+	ldap? ( <dev-python/python-ldap-4.0[${PYTHON_USEDEP}] )
+	saml? ( <dev-python/python3-saml-1.11[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/flask-wtf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

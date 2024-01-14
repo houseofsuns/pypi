@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	>=dev-python/redis-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	all? ( dev-python/openai[${PYTHON_USEDEP}] )
 	all? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-redis[${PYTHON_USEDEP}] )

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/plotly[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/plotly-4.1.0[${PYTHON_USEDEP}]
 	dev-python/cx-Oracle[${PYTHON_USEDEP}]
 	dev-python/dataverk-vault[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	~dev-python/urllib3-1.25.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

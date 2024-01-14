@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
+	>=dev-python/py-cpuinfo-8.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]"
+	>=dev-python/psutil-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.36.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.5.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

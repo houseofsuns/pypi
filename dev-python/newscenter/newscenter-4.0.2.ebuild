@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/easy-thumbnails[${PYTHON_USEDEP}]
-	dev-python/feedparser[${PYTHON_USEDEP}]
+	<dev-python/easy-thumbnails-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/feedparser-7.0.0[${PYTHON_USEDEP}]
 	dev-python/site-config[${PYTHON_USEDEP}]
 	dev-python/django-el-pagination[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

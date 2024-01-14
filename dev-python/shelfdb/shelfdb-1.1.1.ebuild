@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/dill-0.3.3[${PYTHON_USEDEP}]
+	>=dev-python/uvloop-0.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

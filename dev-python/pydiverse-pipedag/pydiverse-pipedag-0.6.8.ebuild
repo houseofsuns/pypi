@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dask filelock prefect zookeeper"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.8[${PYTHON_USEDEP}]
+	>=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
+	>=dev-python/structlog-22.1.0[${PYTHON_USEDEP}]
 	dev-python/pynng[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.4[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	>=dev-python/python-box-6.1.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	filelock? ( dev-python/filelock[${PYTHON_USEDEP}] )
+	>=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-41.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pydot-1.4.2[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
+	filelock? ( >=dev-python/filelock-3.7.1[${PYTHON_USEDEP}] )
 	zookeeper? ( dev-python/kazoo[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( >=dev-python/dask-2022.1.0[${PYTHON_USEDEP}] )
 	prefect? ( dev-python/prefect[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

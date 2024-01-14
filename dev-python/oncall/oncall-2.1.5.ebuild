@@ -26,31 +26,31 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev ldap prometheus"
 DEPENDENCIES="dev-python/falcon[${PYTHON_USEDEP}]
 	dev-python/falcon-cors[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
+	~dev-python/greenlet-2.0.1[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/asn1crypto[${PYTHON_USEDEP}]
+	~dev-python/asn1crypto-1.0.0[${PYTHON_USEDEP}]
 	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/PyMYSQL[${PYTHON_USEDEP}]
 	dev-python/phonenumbers[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/webassets[${PYTHON_USEDEP}]
 	dev-python/beaker[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	~dev-python/cryptography-3.1[${PYTHON_USEDEP}]
 	dev-python/python-ldap[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/irisclient[${PYTHON_USEDEP}]
 	dev-python/slackclient[${PYTHON_USEDEP}]
 	dev-python/icalendar[${PYTHON_USEDEP}]
 	dev-python/pymsteams[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	~dev-python/idna-2.10[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

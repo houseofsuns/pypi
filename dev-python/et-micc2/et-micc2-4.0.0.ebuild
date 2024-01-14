@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/walkdir[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
+	<dev-python/tomlkit-0.8.0[${PYTHON_USEDEP}]
 	dev-python/semantic_version[${PYTHON_USEDEP}]
 	dev-python/pypi-simple[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-mock[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pytest-7.3.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

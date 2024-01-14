@@ -27,13 +27,13 @@ IUSE="dev test"
 DEPENDENCIES="dev-python/arcade[${PYTHON_USEDEP}]
 	dev-python/PyGLM[${PYTHON_USEDEP}]
 	dev-python/imgui[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.6[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0.5[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	test? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/maturin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

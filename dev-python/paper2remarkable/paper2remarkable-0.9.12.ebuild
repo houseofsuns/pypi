@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev full test"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/html2text[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.8[${PYTHON_USEDEP}]
+	>=dev-python/html2text-2020.1.16[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.1.1[${PYTHON_USEDEP}]
 	dev-python/pdfplumber[${PYTHON_USEDEP}]
-	dev-python/pikepdf[${PYTHON_USEDEP}]
+	>=dev-python/pikepdf-2.9.0[${PYTHON_USEDEP}]
 	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/readability-lxml[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/regex-2018.11[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21[${PYTHON_USEDEP}]
 	dev-python/titlecase[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/weasyprint[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-1.1[${PYTHON_USEDEP}]
+	>=dev-python/weasyprint-51.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/green[${PYTHON_USEDEP}] )
 	dev? ( dev-python/readabilipy[${PYTHON_USEDEP}] )
 	full? ( dev-python/readabilipy[${PYTHON_USEDEP}] )

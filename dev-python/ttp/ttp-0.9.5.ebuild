@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs full"
-DEPENDENCIES="full? ( dev-python/cerberus[${PYTHON_USEDEP}] )
+DEPENDENCIES="full? ( <dev-python/cerberus-1.4.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	full? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	full? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	full? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	full? ( dev-python/tabulate[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/deepdiff-5.9.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/openpyxl-3.1.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/ttp_templates[${PYTHON_USEDEP}] )
 	full? ( dev-python/yangson[${PYTHON_USEDEP}] )
 	full? ( dev-python/n2g[${PYTHON_USEDEP}] )
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-applehelp-1.0.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-devhelp-1.0.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-htmlhelp-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinxcontrib-qthelp-1.0.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-serializinghtml-1.1.5[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-spelling-7.2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

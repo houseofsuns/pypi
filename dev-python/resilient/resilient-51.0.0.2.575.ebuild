@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/resilient-app-config-plugins[${PYTHON_USEDEP}]
 	dev-python/retry2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/jwcrypto[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.27[${PYTHON_USEDEP}]
+	~dev-python/requests-toolbelt-1.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.16[${PYTHON_USEDEP}]
+	~dev-python/keyring-23.5[${PYTHON_USEDEP}]
+	~dev-python/cachetools-5.0[${PYTHON_USEDEP}]
+	~dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
+	~dev-python/jwcrypto-1.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

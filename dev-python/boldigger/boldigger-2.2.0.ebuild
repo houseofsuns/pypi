@@ -26,20 +26,20 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PySimpleGUI[${PYTHON_USEDEP}]
 	dev-python/requests-html[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.7.1[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-2.6.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-7.2.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.3.3[${PYTHON_USEDEP}]
+	>=dev-python/html5lib-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
 	dev-python/luddite[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]"
+	>=dev-python/joblib-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.56.0[${PYTHON_USEDEP}]
+	>=dev-python/tables-3.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="full plotting"
 DEPENDENCIES="dev-python/eve[${PYTHON_USEDEP}]
 	dev-python/panel[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.20[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	plotting? ( dev-python/hvplot[${PYTHON_USEDEP}] )

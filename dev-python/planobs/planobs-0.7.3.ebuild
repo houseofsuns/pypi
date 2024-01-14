@@ -28,16 +28,16 @@ DEPENDENCIES="dev-python/astroplan[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	slack? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	dev-python/penquins[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.2[${PYTHON_USEDEP}]
 	dev-python/Shapely[${PYTHON_USEDEP}]
 	slack? ( dev-python/slackeventsapi[${PYTHON_USEDEP}] )
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	dev-python/ztfquery[${PYTHON_USEDEP}]
 	slack? ( dev-python/slackclient[${PYTHON_USEDEP}] )
 	slack? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	>=dev-python/lxml-4.9[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

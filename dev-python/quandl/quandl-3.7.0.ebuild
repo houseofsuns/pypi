@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-0.14[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.8[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.7.0[${PYTHON_USEDEP}]
+	>=dev-python/inflection-0.3.1[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES="dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/testtools[${PYTHON_USEDEP}]
+	>=dev-python/testtools-0.9.34[${PYTHON_USEDEP}]
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	test? ( dev-python/fixtures[${PYTHON_USEDEP}] )
 	test? ( dev-python/testscenarios[${PYTHON_USEDEP}] )

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/py-evm[${PYTHON_USEDEP}]
 	dev-python/claripy[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+	~dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

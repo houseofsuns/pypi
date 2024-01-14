@@ -27,19 +27,19 @@ IUSE="docs tensorflow tests"
 DEPENDENCIES="dev-python/ctranslate2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pyonmttok[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/rouge[${PYTHON_USEDEP}]
 	dev-python/sacrebleu[${PYTHON_USEDEP}]
 	dev-python/tensorflow-addons[${PYTHON_USEDEP}]
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-0.17[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flake8-3.9[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/parameterized-0.8.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

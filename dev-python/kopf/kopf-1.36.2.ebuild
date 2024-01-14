@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/python-json-logger[${PYTHON_USEDEP}]
 	dev-python/iso8601[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyngrok[${PYTHON_USEDEP}] )
 	dev? ( dev-python/oscrypto[${PYTHON_USEDEP}] )

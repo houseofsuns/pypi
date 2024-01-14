@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dill-0.3.1.1[${PYTHON_USEDEP}]
 	dev-python/dtool-create[${PYTHON_USEDEP}]
 	dev-python/dtool-lookup-api[${PYTHON_USEDEP}]
 	dev-python/fireworks[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jinja2-time[${PYTHON_USEDEP}]
+	>=dev-python/jinja2-time-0.2.0[${PYTHON_USEDEP}]
 	dev-python/monty[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.4.2[${PYTHON_USEDEP}]
+	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.16.12[${PYTHON_USEDEP}]
 	testing? ( dev-python/mock-ssh-server[${PYTHON_USEDEP}] )
 	testing? ( dev-python/dtool-smb[${PYTHON_USEDEP}] )
-	testing? ( dev-python/requests[${PYTHON_USEDEP}] )
-	testing? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/requests-2.24.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/urllib3-1.26[${PYTHON_USEDEP}] )
 	testing? ( dev-python/dtool-lookup-server[${PYTHON_USEDEP}] )
 	testing? ( dev-python/dtool-lookup-server-direct-mongo-plugin[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

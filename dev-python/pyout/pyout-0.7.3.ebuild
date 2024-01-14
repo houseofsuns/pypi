@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="core full tests"
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
 	dev-python/blessed[${PYTHON_USEDEP}]
-	core? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	core? ( >=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}] )
 	core? ( dev-python/blessed[${PYTHON_USEDEP}] )
-	full? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	full? ( dev-python/blessed[${PYTHON_USEDEP}] )

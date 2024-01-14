@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/certbot[${PYTHON_USEDEP}]
 	dev-python/acme[${PYTHON_USEDEP}]
-	dev-python/josepy[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	>=dev-python/josepy-1.1.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

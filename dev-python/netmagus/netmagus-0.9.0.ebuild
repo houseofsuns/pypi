@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/autobahn[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/autobahn-21.0.0[${PYTHON_USEDEP}]
 	dev-python/autobahn-sync[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

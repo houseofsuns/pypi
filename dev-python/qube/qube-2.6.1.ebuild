@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cookiecutter[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.16.12[${PYTHON_USEDEP}]
 	dev-python/pygithub[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/autopep8[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1.9[${PYTHON_USEDEP}]
+	~dev-python/autopep8-1.5.4[${PYTHON_USEDEP}]
+	~dev-python/cffi-1.14.3[${PYTHON_USEDEP}]
+	~dev-python/cryptography-3.1.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	~dev-python/rich-8.0.0[${PYTHON_USEDEP}]
+	~dev-python/packaging-20.4[${PYTHON_USEDEP}]
+	~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]"
+	~dev-python/pynacl-1.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

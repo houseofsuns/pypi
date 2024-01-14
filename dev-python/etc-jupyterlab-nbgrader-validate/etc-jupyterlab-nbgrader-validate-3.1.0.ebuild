@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyter-server[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
 	dev-python/jupyterlab-pioneer[${PYTHON_USEDEP}]
 	dev-python/nbgrader[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

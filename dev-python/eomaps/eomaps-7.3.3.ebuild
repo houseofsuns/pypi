@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4[${PYTHON_USEDEP}]
 	dev-python/cartopy[${PYTHON_USEDEP}]
 	dev-python/descartes[${PYTHON_USEDEP}]
 	dev-python/mapclassify[${PYTHON_USEDEP}]

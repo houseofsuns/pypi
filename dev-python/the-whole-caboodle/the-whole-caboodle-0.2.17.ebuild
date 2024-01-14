@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiofiles-0.6.0[${PYTHON_USEDEP}]
 	dev-python/gcloud-aio-storage[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]"
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/uvloop-0.15.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

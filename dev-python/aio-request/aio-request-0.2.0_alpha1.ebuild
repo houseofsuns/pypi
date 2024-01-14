@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/multidict-7.0[${PYTHON_USEDEP}]
+	<dev-python/yarl-2.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

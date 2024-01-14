@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="celery dev"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/torxtools[${PYTHON_USEDEP}]
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )

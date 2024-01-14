@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="argcomplete"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	argcomplete? ( dev-python/argcomplete[${PYTHON_USEDEP}] )"
+	argcomplete? ( >=dev-python/argcomplete-1.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

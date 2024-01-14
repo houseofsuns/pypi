@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/QuantStats[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}]
 	dev-python/nptyping[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.3.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev-python/vectorbt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

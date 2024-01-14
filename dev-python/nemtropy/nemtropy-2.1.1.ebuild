@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	dev-python/powerlaw[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	>=dev-python/tqdm-4.5[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.35.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-47.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-3.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-3.20.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/powerlaw[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

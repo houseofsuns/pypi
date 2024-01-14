@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs trees zonotope"
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	trees? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	zonotope? ( dev-python/cvxopt[${PYTHON_USEDEP}] )"
+	zonotope? ( ~dev-python/cvxopt-1.2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

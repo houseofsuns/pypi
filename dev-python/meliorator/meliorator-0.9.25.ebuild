@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mysql mysql-python pgsql"
 DEPENDENCIES="dev-python/backpack[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]
-	dev-python/cleo[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
-	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/pyaml[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/blinker-2.0[${PYTHON_USEDEP}]
+	<dev-python/cleo-3.0[${PYTHON_USEDEP}]
+	<dev-python/inflection-0.4[${PYTHON_USEDEP}]
+	<dev-python/Faker-0.9[${PYTHON_USEDEP}]
+	<dev-python/lazy-object-proxy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pendulum-2.0[${PYTHON_USEDEP}]
+	<dev-python/pyaml-17.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	<dev-python/simplejson-4.0[${PYTHON_USEDEP}]
+	<dev-python/six-2.0[${PYTHON_USEDEP}]
+	<dev-python/wrapt-2.0[${PYTHON_USEDEP}]
 	pgsql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	mysql-python? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )"
+	mysql? ( <dev-python/mysqlclient-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

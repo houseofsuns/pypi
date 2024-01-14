@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typed-argument-parser[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	~dev-python/rich-12.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

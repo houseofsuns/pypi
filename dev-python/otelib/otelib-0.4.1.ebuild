@@ -27,8 +27,8 @@ IUSE="dev"
 DEPENDENCIES="dev-python/oteapi-core[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-mock-1.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

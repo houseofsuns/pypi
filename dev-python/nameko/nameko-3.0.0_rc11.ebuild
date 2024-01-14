@@ -24,40 +24,40 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs examples"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
-	dev-python/kombu[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
+	>=dev-python/kombu-4.2.0[${PYTHON_USEDEP}]
+	>=dev-python/mock-1.2[${PYTHON_USEDEP}]
 	dev-python/path-py[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.0.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
-	dev-python/kombu[${PYTHON_USEDEP}]
+	>=dev-python/kombu-5.2.0[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/websocket-client[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-4.2.15[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-timeout-1.3.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-2.19.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/urllib3-1.23[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/websocket-client-0.48.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.11.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pyenchant-1.6.11[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-spelling-4.2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-nameko-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	examples? ( dev-python/nameko-sqlalchemy[${PYTHON_USEDEP}] )
 	examples? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
-	examples? ( dev-python/moto[${PYTHON_USEDEP}] )
-	examples? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
-	examples? ( dev-python/regex[${PYTHON_USEDEP}] )"
+	examples? ( ~dev-python/moto-1.3.6[${PYTHON_USEDEP}] )
+	examples? ( ~dev-python/bcrypt-3.1.3[${PYTHON_USEDEP}] )
+	examples? ( ~dev-python/regex-2018.2.21[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

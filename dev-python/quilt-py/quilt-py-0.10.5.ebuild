@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/strawberry-graphql[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/phonenumbers[${PYTHON_USEDEP}]
 	dev-python/devtools[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]

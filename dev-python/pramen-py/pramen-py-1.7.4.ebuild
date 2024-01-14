@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-12.0.0[${PYTHON_USEDEP}]
 	dev-python/contextvars[${PYTHON_USEDEP}]
-	dev-python/environs[${PYTHON_USEDEP}]
+	<dev-python/environs-10.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
+	<dev-python/cattrs-23.0.0[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
+	~dev-python/pytest-asyncio-0.16[${PYTHON_USEDEP}]
+	~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	dev-python/chispa[${PYTHON_USEDEP}]
-	dev-python/pytest-sugar[${PYTHON_USEDEP}]
-	dev-python/pytest-mock[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/pytest-sugar-0.10.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pyhocon[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

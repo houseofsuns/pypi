@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bitmath[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
+	<dev-python/fasteners-2.0[${PYTHON_USEDEP}]
 	dev-python/charmonium-freeze[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

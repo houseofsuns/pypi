@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all lightfm nmslib torch"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	dev-python/implicit[${PYTHON_USEDEP}]
 	lightfm? ( dev-python/lightfm[${PYTHON_USEDEP}] )
 	all? ( dev-python/lightfm[${PYTHON_USEDEP}] )
 	nmslib? ( dev-python/nmslib[${PYTHON_USEDEP}] )
 	all? ( dev-python/nmslib[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	torch? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]"
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/typeguard-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

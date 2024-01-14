@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2021.7.0[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-cloud-datastore[${PYTHON_USEDEP}]
 	dev-python/papermill[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	~dev-python/pydantic-1.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

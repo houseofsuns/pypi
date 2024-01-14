@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/mpmath[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.26.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.11.4[${PYTHON_USEDEP}]
+	>=dev-python/mpmath-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}]
 	dev-python/SeaFreeze[${PYTHON_USEDEP}]
 	dev-python/MoonMag[${PYTHON_USEDEP}]
 	dev-python/gsw[${PYTHON_USEDEP}]

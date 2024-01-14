@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="docs? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( <dev-python/importlib-metadata-7.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-autoapi-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/types-protobuf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

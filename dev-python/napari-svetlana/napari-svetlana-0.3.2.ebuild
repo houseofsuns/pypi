@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/napari-plugin-engine[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/albumentations[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
 	dev-python/light-the-torch[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]

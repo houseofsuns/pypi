@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="edgedb sql"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	edgedb? ( dev-python/edgedb[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlparse[${PYTHON_USEDEP}] )
+	sql? ( <dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}] )
 	dev-python/graphql-core[${PYTHON_USEDEP}]
 	dev-python/devtools[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]"

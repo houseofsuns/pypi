@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pycairo[${PYTHON_USEDEP}]
-	dev-python/freetype-py[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pycairo-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/freetype-py-2.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

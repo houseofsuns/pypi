@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cuda11x cupy dev doc numba test tf torch"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.8[${PYTHON_USEDEP}]
 	cuda11x? ( dev-python/cupy-cuda11x[${PYTHON_USEDEP}] )
 	cupy? ( dev-python/cupy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-64.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-scm-8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
@@ -38,11 +38,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyproject2conda[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
 	numba? ( dev-python/numba[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )

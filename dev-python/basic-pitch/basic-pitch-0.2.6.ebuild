@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs test"
 DEPENDENCIES="dev-python/librosa[${PYTHON_USEDEP}]
 	dev-python/mir-eval[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/pretty-midi[${PYTHON_USEDEP}]
 	dev-python/resampy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-macos[${PYTHON_USEDEP}]
@@ -37,9 +37,9 @@ DEPENDENCIES="dev-python/librosa[${PYTHON_USEDEP}]
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-1.0.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.0.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.1.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

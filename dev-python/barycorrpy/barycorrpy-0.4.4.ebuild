@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/jplephem[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.2[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]
 	dev-python/pyerfa[${PYTHON_USEDEP}]"

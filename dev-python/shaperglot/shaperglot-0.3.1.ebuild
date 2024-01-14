@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/gflanguages[${PYTHON_USEDEP}]
 	dev-python/num2words[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/strictyaml[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	dev-python/ufo2ft[${PYTHON_USEDEP}]
 	dev-python/vharfbuzz[${PYTHON_USEDEP}]
 	dev-python/youseedee[${PYTHON_USEDEP}]"

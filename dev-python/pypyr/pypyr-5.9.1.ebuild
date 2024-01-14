@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.32[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	dev-python/tomli-w[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )

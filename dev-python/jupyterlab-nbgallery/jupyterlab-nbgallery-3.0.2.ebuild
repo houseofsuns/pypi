@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/jupyterlab-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-server-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

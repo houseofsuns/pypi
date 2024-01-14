@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pyside6[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/pyside6-6.3.1[${PYTHON_USEDEP}]
+	~dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

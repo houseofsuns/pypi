@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="selenium"
-DEPENDENCIES="dev-python/tomli-w[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}]
 	dev-python/stream-gears[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.4.6[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
@@ -35,11 +35,11 @@ DEPENDENCIES="dev-python/tomli-w[${PYTHON_USEDEP}]
 	dev-python/Requests[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/streamlink[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
+	>=dev-python/rsa-4.6[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	>=dev-python/peewee-3.16.2[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	dev-python/ykdl[${PYTHON_USEDEP}]
-	selenium? ( dev-python/selenium[${PYTHON_USEDEP}] )"
+	selenium? ( >=dev-python/selenium-3.8.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

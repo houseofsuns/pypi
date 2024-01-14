@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/openstacksdk[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/openstacksdk-0.61[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]

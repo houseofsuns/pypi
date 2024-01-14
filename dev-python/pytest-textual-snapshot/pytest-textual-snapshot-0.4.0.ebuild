@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.0.0[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]
 	dev-python/syrupy[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]"

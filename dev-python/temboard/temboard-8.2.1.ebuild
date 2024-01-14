@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-1.5[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]"
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	<dev-python/tornado-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

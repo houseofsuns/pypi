@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/soda-sql-core[${PYTHON_USEDEP}]
 	dev-python/pyodbc[${PYTHON_USEDEP}]
 	dev-python/PyHive[${PYTHON_USEDEP}]
-	dev-python/thrift[${PYTHON_USEDEP}]
+	<dev-python/thrift-1.0[${PYTHON_USEDEP}]
 	dev-python/sasl[${PYTHON_USEDEP}]
 	dev-python/thrift-sasl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/param[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-1.0[${PYTHON_USEDEP}]
 	dev-python/retrying[${PYTHON_USEDEP}]
 	examples? ( dev-python/datashader[${PYTHON_USEDEP}] )
 	examples? ( dev-python/distributed[${PYTHON_USEDEP}] )

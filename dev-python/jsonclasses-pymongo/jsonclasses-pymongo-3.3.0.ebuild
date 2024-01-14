@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
 	dev-python/inflection-plus[${PYTHON_USEDEP}]
 	dev-python/qsparser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

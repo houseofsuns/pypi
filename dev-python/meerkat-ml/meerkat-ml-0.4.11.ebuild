@@ -26,23 +26,23 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all audio dev embeddings-linux embeddings-mac medimg text vision"
 DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
 	dev-python/cytoolz[${PYTHON_USEDEP}]
 	dev-python/ujson[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.49.0[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/multiprocess[${PYTHON_USEDEP}]
+	>=dev-python/semver-2.13.0[${PYTHON_USEDEP}]
+	>=dev-python/multiprocess-0.70.11[${PYTHON_USEDEP}]
 	dev-python/Cython[${PYTHON_USEDEP}]
 	dev-python/progressbar[${PYTHON_USEDEP}]
 	dev-python/fvcore[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.0.0[${PYTHON_USEDEP}]
 	dev-python/IPython[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
@@ -58,19 +58,19 @@ DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	all? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	all? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/kaggle[${PYTHON_USEDEP}] )
 	all? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pydata-sphinx-theme-0.8.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/faiss-gpu[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-external-toc[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/ray[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
@@ -86,26 +86,26 @@ DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
 	all? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	all? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-remove-toctrees[${PYTHON_USEDEP}] )
 	all? ( dev-python/docformatter[${PYTHON_USEDEP}] )
 	all? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
-	all? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	audio? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docformatter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
@@ -121,13 +121,13 @@ DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-external-toc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydata-sphinx-theme-0.8.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-remove-toctrees[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )

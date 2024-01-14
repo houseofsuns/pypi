@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiosignal[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/frozenlist[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
+	~dev-python/aiosignal-1.3.1[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
+	~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
+	~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]
+	~dev-python/frozenlist-1.4.0[${PYTHON_USEDEP}]
+	~dev-python/idna-3.4[${PYTHON_USEDEP}]
+	~dev-python/multidict-6.0.4[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
+	~dev-python/urllib3-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.9.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

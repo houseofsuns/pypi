@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev fairness full test tutorial"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	>=dev-python/black-22.1.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.4[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
 	dev-python/hyperopt[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/jsonsubschema[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/scipy-1.11.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/astunparse[${PYTHON_USEDEP}]
@@ -61,11 +61,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	full? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	test? ( dev-python/mystic[${PYTHON_USEDEP}] )
 	test? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	test? ( <dev-python/ipython-8.8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
+	test? ( <dev-python/docutils-0.17[${PYTHON_USEDEP}] )
 	test? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	test? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	test? ( dev-python/sphinxcontrib-svg2pdfconverter[${PYTHON_USEDEP}] )
@@ -74,7 +74,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/func-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/category-encoders[${PYTHON_USEDEP}] )
 	test? ( dev-python/pynisher[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	tutorial? ( <dev-python/ipython-8.8.0[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/imbalanced-learn[${PYTHON_USEDEP}] )

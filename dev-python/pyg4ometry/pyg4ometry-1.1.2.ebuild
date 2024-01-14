@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs test"
 DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
+	~dev-python/antlr4-python3-runtime-4.9.3[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.7[${PYTHON_USEDEP}]
 	dev-python/testtools[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]
 	dev-python/pygltflib[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
 	test? ( dev-python/g4edge-testdata[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

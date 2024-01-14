@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/blendmodes[${PYTHON_USEDEP}]
 	dev-python/pylsr[${PYTHON_USEDEP}]
 	dev-python/pyora[${PYTHON_USEDEP}]
 	dev-python/pypdn[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
+	<dev-python/deprecation-3.0[${PYTHON_USEDEP}]
 	dev-python/psd-tools[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0[${PYTHON_USEDEP}]
 	dev-python/gimpformats[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aio pandas"
-DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.13.0[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
+	~dev-python/ijson-3.1[${PYTHON_USEDEP}]
 	dev-python/azure-core[${PYTHON_USEDEP}]
-	aio? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	aio? ( dev-python/asgiref[${PYTHON_USEDEP}] )
+	aio? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
+	aio? ( <dev-python/asgiref-4.0[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

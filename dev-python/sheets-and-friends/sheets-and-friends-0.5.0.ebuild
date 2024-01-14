@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/click_log[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/linkml-runtime[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pandasql[${PYTHON_USEDEP}]
 	dev-python/pygsheets[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

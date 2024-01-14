@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/botocore[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/confuse[${PYTHON_USEDEP}]
+	~dev-python/confuse-2.0.1[${PYTHON_USEDEP}]
 	dev-python/desert[${PYTHON_USEDEP}]
 	dev-python/marshmallow[${PYTHON_USEDEP}]
 	dev-python/marshmallow-oneofschema[${PYTHON_USEDEP}]

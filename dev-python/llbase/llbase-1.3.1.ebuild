@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/llsd[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

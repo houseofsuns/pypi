@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="slide-captcha"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
+	<dev-python/rsa-5.0[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/exceptiongroup-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tylisten[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/pychaosvm[${PYTHON_USEDEP}]
 	slide-captcha? ( dev-python/slide-tc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

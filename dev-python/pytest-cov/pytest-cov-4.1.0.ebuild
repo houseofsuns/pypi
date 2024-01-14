@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-4.6[${PYTHON_USEDEP}]
+	>=dev-python/coverage-5.2.1[${PYTHON_USEDEP}]
 	testing? ( dev-python/fields[${PYTHON_USEDEP}] )
 	testing? ( dev-python/hunter[${PYTHON_USEDEP}] )
 	testing? ( dev-python/process-tests[${PYTHON_USEDEP}] )

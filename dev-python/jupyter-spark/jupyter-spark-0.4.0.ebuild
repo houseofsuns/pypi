@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipython-4.0[${PYTHON_USEDEP}]
 	dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
+	>=dev-python/notebook-4.2[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/widgetsnbextension[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

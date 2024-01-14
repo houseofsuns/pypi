@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs linting testing"
 DEPENDENCIES="dev-python/avro[${PYTHON_USEDEP}]
 	dev-python/memoization[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	~dev-python/orjson-3.5[${PYTHON_USEDEP}]
+	~dev-python/typeguard-4.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	linting? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -36,9 +36,9 @@ DEPENDENCIES="dev-python/avro[${PYTHON_USEDEP}]
 	linting? ( dev-python/isort[${PYTHON_USEDEP}] )
 	linting? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	linting? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	linting? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	linting? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

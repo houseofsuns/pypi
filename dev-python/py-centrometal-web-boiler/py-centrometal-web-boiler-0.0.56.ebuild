@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lxml-4.9.1[${PYTHON_USEDEP}]
+	>=dev-python/websockets-10.3[${PYTHON_USEDEP}]
 	dev-python/stomper[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	dev-python/faust-cchardet[${PYTHON_USEDEP}]
-	dev-python/aiodns[${PYTHON_USEDEP}]"
+	>=dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

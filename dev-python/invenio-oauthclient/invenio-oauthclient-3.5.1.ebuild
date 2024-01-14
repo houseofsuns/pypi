@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/blinker[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/blinker-1.4[${PYTHON_USEDEP}]
 	dev-python/Flask-OAuthlib[${PYTHON_USEDEP}]
 	dev-python/invenio-accounts[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/invenio-i18n[${PYTHON_USEDEP}]
 	dev-python/invenio-mail[${PYTHON_USEDEP}]
 	dev-python/invenio-theme[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/uritools[${PYTHON_USEDEP}]
-	dev-python/github3-py[${PYTHON_USEDEP}]
+	<dev-python/oauthlib-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-oauthlib-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/uritools-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/github3-py-1.0.0[${PYTHON_USEDEP}]
 	dev-python/uritemplate-py[${PYTHON_USEDEP}]
 	dev-python/invenio-admin[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/httpretty[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/httpretty-0.8.14[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-userprofiles[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/oauthlib[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/oauthlib-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/requests-oauthlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/simplejson[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/requests-oauthlib-1.2.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/simplejson-3.8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

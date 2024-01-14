@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/dagster[${PYTHON_USEDEP}]
 	dev-python/sshtunnel[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]
-	test? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/cryptography-2.6.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-sftpserver[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

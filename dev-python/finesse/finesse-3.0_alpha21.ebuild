@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs graphviz inplacebuild lint test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	dev-python/sly[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1[${PYTHON_USEDEP}]
+	>=dev-python/click-default-group-1.2.2[${PYTHON_USEDEP}]
 	dev-python/control[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.29.36[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.6[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-8.7[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.40[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.0[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2[${PYTHON_USEDEP}]
 	dev-python/pyspellchecker[${PYTHON_USEDEP}]
 	dev-python/quantiphy[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-random-order[${PYTHON_USEDEP}] )
 	test? ( dev-python/faker[${PYTHON_USEDEP}] )
 	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-katex[${PYTHON_USEDEP}] )
@@ -59,13 +59,13 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	lint? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	inplacebuild? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	inplacebuild? ( >=dev-python/setuptools-45.0[${PYTHON_USEDEP}] )
 	inplacebuild? ( dev-python/setuptools_scm[${PYTHON_USEDEP}] )
 	inplacebuild? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	inplacebuild? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	inplacebuild? ( dev-python/cython[${PYTHON_USEDEP}] )
-	inplacebuild? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	inplacebuild? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	inplacebuild? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
+	inplacebuild? ( >=dev-python/cython-0.29.36[${PYTHON_USEDEP}] )
+	inplacebuild? ( >=dev-python/scipy-1.4[${PYTHON_USEDEP}] )
+	inplacebuild? ( >=dev-python/tqdm-4.40[${PYTHON_USEDEP}] )
 	graphviz? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

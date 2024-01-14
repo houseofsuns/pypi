@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bumpversion[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.32.1[${PYTHON_USEDEP}]
+	~dev-python/watchdog-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/flake8-3.5.0[${PYTHON_USEDEP}]
+	~dev-python/tox-3.5.2[${PYTHON_USEDEP}]
+	~dev-python/coverage-4.5.1[${PYTHON_USEDEP}]
 	dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
+	~dev-python/twine-1.12.1[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/eve[${PYTHON_USEDEP}]
 	dev-python/eve-swagger[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.0[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
 	dev-python/flask-socketio[${PYTHON_USEDEP}]
 	dev-python/jsonrpcserver[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-2.16.3[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/flatten-json[${PYTHON_USEDEP}]
 	dev-python/influxdb[${PYTHON_USEDEP}]
-	dev-python/kafka-python[${PYTHON_USEDEP}]"
+	~dev-python/kafka-python-1.4.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

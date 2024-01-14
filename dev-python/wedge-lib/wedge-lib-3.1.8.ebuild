@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/arrow-0.16[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.12.4[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-api-key[${PYTHON_USEDEP}]
 	dev-python/factory-boy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0[${PYTHON_USEDEP}]
 	dev-python/python-keycloak[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24[${PYTHON_USEDEP}]
 	dev-python/serpy[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
+	>=dev-python/validators-0.18[${PYTHON_USEDEP}]
 	dev-python/var-dump[${PYTHON_USEDEP}]
 	dev-python/WeasyPrint[${PYTHON_USEDEP}]
 	dev-python/pyzstd[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/mergedeep[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/moto[${PYTHON_USEDEP}]"
+	>=dev-python/cryptography-36.0.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.2[${PYTHON_USEDEP}]
+	>=dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.26.141[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.29.141[${PYTHON_USEDEP}]
+	>=dev-python/moto-4.1.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

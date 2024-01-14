@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]"

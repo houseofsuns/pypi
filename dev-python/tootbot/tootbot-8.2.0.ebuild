@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
+	>=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
+	>=dev-python/arrow-1.3.0[${PYTHON_USEDEP}]
 	dev-python/asyncpraw[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
 	dev-python/imgurpython[${PYTHON_USEDEP}]
 	dev-python/minimal-activitypub[${PYTHON_USEDEP}]
 	dev-python/outdated[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-2.1.0[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

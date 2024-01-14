@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-6.0[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}]
-	dev-python/furo[${PYTHON_USEDEP}]"
+	~dev-python/furo-2023.8.19[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

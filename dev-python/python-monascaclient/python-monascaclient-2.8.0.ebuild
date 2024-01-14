@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
 	dev-python/PrettyTable[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/osc-lib[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]"
+	>=dev-python/iso8601-0.1.11[${PYTHON_USEDEP}]
+	>=dev-python/osc-lib-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-2.18.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.33.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

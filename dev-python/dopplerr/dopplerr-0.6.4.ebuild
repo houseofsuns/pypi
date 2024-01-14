@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/peewee[${PYTHON_USEDEP}]
 	dev-python/sanic[${PYTHON_USEDEP}]
 	dev-python/sanic-transmute[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>dev-python/setuptools-36.0.0[${PYTHON_USEDEP}]
 	dev-python/subliminal[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

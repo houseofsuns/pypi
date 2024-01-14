@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/apimatic-core-interfaces[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/cachecontrol[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.31[${PYTHON_USEDEP}]
+	~dev-python/cachecontrol-0.12.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

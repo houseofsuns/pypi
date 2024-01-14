@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp-sse-client[${PYTHON_USEDEP}]
 	dev-python/async_exit_stack[${PYTHON_USEDEP}]
 	dev-python/jsonrpc-base[${PYTHON_USEDEP}]
 	dev-python/ya-aioclient[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/semantic-version-3.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.3[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
 	dev-python/python-statemachine[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

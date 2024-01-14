@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests toml yaml"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	tests? ( dev-python/django[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
-	toml? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	tests? ( >=dev-python/django-3.2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.10[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/tomlkit-0.11.6[${PYTHON_USEDEP}] )
+	toml? ( >=dev-python/tomlkit-0.11.6[${PYTHON_USEDEP}] )
+	yaml? ( >=dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

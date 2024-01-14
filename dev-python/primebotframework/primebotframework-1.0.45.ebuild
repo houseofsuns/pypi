@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/hvac[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/hvac-1.0.2[${PYTHON_USEDEP}]
 	dev-python/mongoengine[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
 	dev-python/dateUts[${PYTHON_USEDEP}]
 	dev-python/ecs-logging[${PYTHON_USEDEP}]
 	dev-python/datetime[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyaml[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	>=dev-python/pyaml-21.10.1[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
 	dev-python/cx-Oracle[${PYTHON_USEDEP}]
 	dev-python/sendgrid[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]"
+	~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/Colorama[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	~dev-python/filelock-3.0.12[${PYTHON_USEDEP}]
 	dev-python/tendo[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/cellshape-cloud[${PYTHON_USEDEP}]
 	dev-python/cellshape-voxel[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )"

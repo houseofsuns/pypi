@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/bdffont[${PYTHON_USEDEP}]
 	dev-python/brotli[${PYTHON_USEDEP}]
-	dev-python/fonttools[${PYTHON_USEDEP}]"
+	>=dev-python/fonttools-4.47.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

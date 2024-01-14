@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/nbsphinx[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]"
+	>=dev-python/sphinx-1.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

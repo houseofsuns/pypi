@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.5.1[${PYTHON_USEDEP}]
 	dev-python/zenlog[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}]
 	dev-python/pytdx[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.12.0[${PYTHON_USEDEP}]
 	dev-python/pyecharts[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	~dev-python/prettytable-2.2.0[${PYTHON_USEDEP}]
 	dev-python/akshare[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/empyrical[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
+	~dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/ddddocr[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	~dev-python/setuptools-62.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

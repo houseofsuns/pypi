@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/openapi-spec-validator[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	>=dev-python/openapi-spec-validator-0.5.0[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.14.1[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/bandit-1.7.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-4.11.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hdf"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.5.0[${PYTHON_USEDEP}]
 	dev-python/py-pde[${PYTHON_USEDEP}]
-	hdf? ( dev-python/h5py[${PYTHON_USEDEP}] )"
+	hdf? ( >=dev-python/h5py-2.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

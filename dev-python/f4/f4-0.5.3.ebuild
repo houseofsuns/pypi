@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fastnumbers[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]"
+	~dev-python/zstandard-0.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

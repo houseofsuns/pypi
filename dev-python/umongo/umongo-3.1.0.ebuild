@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mongomock motor txmongo"
-DEPENDENCIES="dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/marshmallow-3.10.0[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-3.7.0[${PYTHON_USEDEP}]
 	mongomock? ( dev-python/mongomock[${PYTHON_USEDEP}] )
 	motor? ( dev-python/motor[${PYTHON_USEDEP}] )
 	txmongo? ( dev-python/txmongo[${PYTHON_USEDEP}] )"

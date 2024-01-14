@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/exoplanet-core[${PYTHON_USEDEP}]
 	dev-python/pymc3[${PYTHON_USEDEP}]
 	dev-python/aesara-theano-fallback[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

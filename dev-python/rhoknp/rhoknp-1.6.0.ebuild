@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typing-extensions-4.4[${PYTHON_USEDEP}]
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
 	cli? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	cli? ( dev-python/rich[${PYTHON_USEDEP}] )
-	cli? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/rich-12.6[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/uvicorn-0.21.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	cli? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	cli? ( dev-python/pygments[${PYTHON_USEDEP}] )"
+	cli? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

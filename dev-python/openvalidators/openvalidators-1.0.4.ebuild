@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/bittensor[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/plotly-5.14.1[${PYTHON_USEDEP}]
+	~dev-python/networkx-3.1[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

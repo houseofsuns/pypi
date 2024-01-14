@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/devtools[${PYTHON_USEDEP}]
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/furo-2024.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/myst-parser-1.1.0[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	dev-python/structlog[${PYTHON_USEDEP}]"
+	docs? ( <dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}] )
+	<dev-python/structlog-24.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

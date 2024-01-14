@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.10.28[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.17.5[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/s3transfer[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	>=dev-python/docutils-0.15.2[${PYTHON_USEDEP}]
+	>=dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2020.1[${PYTHON_USEDEP}]
+	>=dev-python/s3transfer-0.3.3[${PYTHON_USEDEP}]
+	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

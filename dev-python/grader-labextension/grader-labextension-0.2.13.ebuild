@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/grader-convert[${PYTHON_USEDEP}]
-	dev-python/hatch-jupyter-builder[${PYTHON_USEDEP}]
+	>=dev-python/hatch-jupyter-builder-0.5[${PYTHON_USEDEP}]
 	dev-python/hatch-nodejs-version[${PYTHON_USEDEP}]
 	dev-python/hatch[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
+	<dev-python/jupyterlab-5.0[${PYTHON_USEDEP}]
+	>=dev-python/tornado-6.2[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.0.5[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.6[${PYTHON_USEDEP}]
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-jupyter[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-jupyter-0.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

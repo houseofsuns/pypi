@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
 	dev-python/discord-menu[${PYTHON_USEDEP}]
 	dev-python/Red-DiscordBot[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

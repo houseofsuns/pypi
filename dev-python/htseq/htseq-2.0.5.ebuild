@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="htseq-qa test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
-	htseq-qa? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	htseq-qa? ( >=dev-python/matplotlib-1.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scipy-1.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pandas-1.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/matplotlib-1.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

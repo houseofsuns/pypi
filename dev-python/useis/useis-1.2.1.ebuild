@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="dev-python/dynaconf[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev-python/myst-parser[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	<dev-python/myst-parser-0.16.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-rtd-theme-0.6.0[${PYTHON_USEDEP}] )
 	dev-python/rinohtype[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.16.0[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/pyproj-3.4.1[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/uquake[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/pystache[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.11[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-0.56.0[${PYTHON_USEDEP}]
+	>=dev-python/pystache-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-distro[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-6.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-aio-pika[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-aiohttp-client[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-aiopg[${PYTHON_USEDEP}]
@@ -68,6 +68,6 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-tornado[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-tortoiseorm[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-urllib3[${PYTHON_USEDEP}]
-	dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]"
+	~dev-python/antlr4-python3-runtime-4.9.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

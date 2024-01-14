@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-1.5.1[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.44[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]"
+	~dev-python/psutil-5.9.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

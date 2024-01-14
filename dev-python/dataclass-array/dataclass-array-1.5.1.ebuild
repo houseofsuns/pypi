@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyink[${PYTHON_USEDEP}] )
 	dev? ( dev-python/chex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jax[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/ruamel-yaml-0.17.20[${PYTHON_USEDEP}]
+	~dev-python/prettytable-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

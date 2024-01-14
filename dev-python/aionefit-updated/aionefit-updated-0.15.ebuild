@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyaes[${PYTHON_USEDEP}]
-	dev-python/slixmpp[${PYTHON_USEDEP}]"
+	~dev-python/slixmpp-1.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

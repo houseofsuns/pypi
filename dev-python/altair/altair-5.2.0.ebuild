@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/anywidget[${PYTHON_USEDEP}] )
 	dev? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyarrow-11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
@@ -51,8 +51,8 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	doc? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/pillow-10.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/pydata-sphinx-theme-0.14.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )

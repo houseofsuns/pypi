@@ -27,20 +27,20 @@ IUSE="doc"
 DEPENDENCIES="dev-python/cosmotech-acceleration-library[${PYTHON_USEDEP}]
 	dev-python/cosmotech-api[${PYTHON_USEDEP}]
 	dev-python/flowpipe[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	~dev-python/click-log-0.4.0[${PYTHON_USEDEP}]
+	~dev-python/rich-13.7.0[${PYTHON_USEDEP}]
+	doc? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocs-material-9.5.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-table-reader-plugin[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mike[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pymdown-extensions-10.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/requirements-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-include-dir-to-nav[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

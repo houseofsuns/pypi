@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pytest-5.4.3[${PYTHON_USEDEP}]
 	dev-python/cyvcf2[${PYTHON_USEDEP}]
 	dev-python/mongomock[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21.4[${PYTHON_USEDEP}]
+	~dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/vcftoolbox[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/pip-23.1.2[${PYTHON_USEDEP}]
+	~dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	dev-python/mongo-adapter[${PYTHON_USEDEP}]
 	dev-python/ped-parser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

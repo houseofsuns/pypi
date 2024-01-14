@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/Faker[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/Faker-12.1[${PYTHON_USEDEP}]
 	tests? ( dev-python/Django[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Marshmallow[${PYTHON_USEDEP}] )
 	tests? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask-sqlalchemy[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flask-sqlalchemy-2.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mongoengine[${PYTHON_USEDEP}] )
-	tests? ( dev-python/peewee[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/peewee-3.7.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pony[${PYTHON_USEDEP}] )
 	tests? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"

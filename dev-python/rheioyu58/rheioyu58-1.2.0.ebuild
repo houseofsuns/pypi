@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/motpy[${PYTHON_USEDEP}]
 	dev-python/norfair[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
@@ -51,11 +51,11 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchreid[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	dev-python/ultralytics[${PYTHON_USEDEP}]
 	extras? ( dev-python/onnxruntime-gpu[${PYTHON_USEDEP}] )
-	extras? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	extras? ( ~dev-python/pillow-9.5.0[${PYTHON_USEDEP}] )
 	extras? ( dev-python/super-gradients[${PYTHON_USEDEP}] )
-	extras? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+	extras? ( ~dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

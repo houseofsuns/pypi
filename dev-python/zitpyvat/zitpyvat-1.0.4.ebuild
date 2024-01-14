@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyVISA[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.20.1[${PYTHON_USEDEP}]
+	~dev-python/pyserial-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.20.3[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

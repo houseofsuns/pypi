@@ -31,12 +31,12 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Cors[${PYTHON_USEDEP}]
 	dev-python/pickleDB[${PYTHON_USEDEP}]
 	dev-python/runstats[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/marshmallow-enum[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/gevent-websocket[${PYTHON_USEDEP}]
 	dev-python/socketio-client[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]"
+	<dev-python/pyzmq-26.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

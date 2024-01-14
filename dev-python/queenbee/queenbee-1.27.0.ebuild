@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click-plugins[${PYTHON_USEDEP}] )"
+	~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
+	cli? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

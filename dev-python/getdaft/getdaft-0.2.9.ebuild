@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws azure gcp iceberg numpy pandas ray"
-DEPENDENCIES="dev-python/pyarrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyarrow-6.0.1[${PYTHON_USEDEP}]
 	dev-python/fsspec[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

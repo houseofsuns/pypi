@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/bleach-3.0[${PYTHON_USEDEP}]
 	dev-python/typeguard[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

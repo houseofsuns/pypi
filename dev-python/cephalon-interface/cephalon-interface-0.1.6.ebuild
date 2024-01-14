@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/regex-2024.0.0[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/result[${PYTHON_USEDEP}]
 	dev-python/pick[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	<dev-python/watchdog-4.0.0[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/pycooltext[${PYTHON_USEDEP}]
 	dev-python/streamlit-searchbox[${PYTHON_USEDEP}]
-	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
+	<dev-python/fuzzywuzzy-0.19.0[${PYTHON_USEDEP}]
 	dev-python/python-levenshtein[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]"
+	<dev-python/pycountry-24.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

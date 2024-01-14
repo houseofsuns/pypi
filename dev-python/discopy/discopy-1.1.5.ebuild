@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.2[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.2.1[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/sphinx-6.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-2.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.9[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ipykernel-6.23[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-youtube[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-bibtex-2.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyproject-flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytket[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyzx[${PYTHON_USEDEP}] )
-	test? ( dev-python/sympy[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/sympy-1.9[${PYTHON_USEDEP}] )
 	test? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	test? ( dev-python/tensornetwork[${PYTHON_USEDEP}] )
 	test? ( dev-python/jax[${PYTHON_USEDEP}] )

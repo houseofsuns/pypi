@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lint test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/django-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-4.10.0[${PYTHON_USEDEP}]
+	lint? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.23.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pretty[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

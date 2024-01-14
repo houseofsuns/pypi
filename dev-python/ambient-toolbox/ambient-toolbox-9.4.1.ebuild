@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev drf graphql sentry view-layer"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/bleach-6.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.5.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
-	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/freezegun-1.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-django-4.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.12[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mistune-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ambient-package-update[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gevent[${PYTHON_USEDEP}] )
-	drf? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
+	drf? ( >=dev-python/djangorestframework-3.8.2[${PYTHON_USEDEP}] )
 	graphql? ( dev-python/graphene-django[${PYTHON_USEDEP}] )
 	graphql? ( dev-python/django-graphql-jwt[${PYTHON_USEDEP}] )
-	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
-	view-layer? ( dev-python/django-crispy-forms[${PYTHON_USEDEP}] )"
+	sentry? ( >=dev-python/sentry-sdk-1.19.1[${PYTHON_USEDEP}] )
+	view-layer? ( >=dev-python/django-crispy-forms-1.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

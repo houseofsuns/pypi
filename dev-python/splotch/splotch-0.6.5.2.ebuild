@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="astro"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.2[${PYTHON_USEDEP}]
 	dev-python/scicm[${PYTHON_USEDEP}]
 	astro? ( dev-python/astropy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

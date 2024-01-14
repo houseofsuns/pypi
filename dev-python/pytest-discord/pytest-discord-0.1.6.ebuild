@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/discord-py[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	<dev-python/pathvalidate-4.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0[${PYTHON_USEDEP}]
 	dev-python/pytest-md-report[${PYTHON_USEDEP}]
 	dev-python/typepy[${PYTHON_USEDEP}]
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )"

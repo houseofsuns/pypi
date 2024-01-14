@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/requests-futures[${PYTHON_USEDEP}]
 	dev-python/shtab[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+	>=dev-python/websockets-10.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

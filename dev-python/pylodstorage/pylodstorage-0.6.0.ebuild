@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/dicttoxml2[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/jsonpickle-1.5.2[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pylatexenc[${PYTHON_USEDEP}]
+	~dev-python/pylatexenc-2.10[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/sparqlwrapper[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]

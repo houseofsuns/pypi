@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/simplejson-4.0.0[${PYTHON_USEDEP}]
 	dev-python/selenium[${PYTHON_USEDEP}]
 	dev-python/optionaldict[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

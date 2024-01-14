@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/ujson-5.7.0[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/typeguard[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-trio[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
-	docs? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/typeguard[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )"

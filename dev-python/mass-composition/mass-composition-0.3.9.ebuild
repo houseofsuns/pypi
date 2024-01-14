@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="network omf viz"
-DEPENDENCIES="dev-python/jsonpickle[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jsonpickle-3.0.1[${PYTHON_USEDEP}]
 	viz? ( dev-python/kaleido[${PYTHON_USEDEP}] )
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	network? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
+	network? ( <dev-python/networkx-4.0[${PYTHON_USEDEP}] )
 	omf? ( dev-python/omfvista[${PYTHON_USEDEP}] )
 	dev-python/periodictable[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0[${PYTHON_USEDEP}]
+	<dev-python/pooch-2.0.0[${PYTHON_USEDEP}]
 	viz? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	viz? ( dev-python/pyvista-xarray[${PYTHON_USEDEP}] )
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	viz? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	dev-python/xarray[${PYTHON_USEDEP}]"
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	>dev-python/seaborn-0.11[${PYTHON_USEDEP}]
+	viz? ( <dev-python/statsmodels-0.15.0[${PYTHON_USEDEP}] )
+	<dev-python/xarray-2023.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

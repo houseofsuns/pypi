@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/prettytable-0.7.2[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

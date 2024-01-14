@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/planck[${PYTHON_USEDEP}]
 	dev-python/pulumi-databricks[${PYTHON_USEDEP}]
 	dev-python/pulumi-random[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/settus[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )

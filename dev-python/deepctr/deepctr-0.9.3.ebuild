@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cpu gpu"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	~dev-python/h5py-3.7.0[${PYTHON_USEDEP}]
 	cpu? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

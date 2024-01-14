@@ -27,18 +27,18 @@ IUSE="dev"
 DEPENDENCIES="dev-python/autoreduce-qp[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
-	dev-python/django-crispy-forms[${PYTHON_USEDEP}]
-	dev-python/django-tables2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.13.1[${PYTHON_USEDEP}]
+	~dev-python/django-filter-21.1[${PYTHON_USEDEP}]
+	~dev-python/django-crispy-forms-1.14.0[${PYTHON_USEDEP}]
+	~dev-python/django-tables2-2.4.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	dev-python/httpagentparser[${PYTHON_USEDEP}]
 	dev-python/django-hurricane[${PYTHON_USEDEP}]
 	dev? ( dev-python/axe-selenium-python[${PYTHON_USEDEP}] )
-	dev? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/django-debug-toolbar-3.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoreduce-rest-api[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mysqlclient-2.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/selenium[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

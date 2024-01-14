@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev-python/requests-file[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/cachecontrol[${PYTHON_USEDEP}]
+	>dev-python/pyyaml-5.2[${PYTHON_USEDEP}]
+	>dev-python/cachecontrol-0.12.6[${PYTHON_USEDEP}]
 	dev-python/contextlib2[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

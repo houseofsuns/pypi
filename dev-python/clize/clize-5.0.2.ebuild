@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="clize-own-docs datetime test"
 DEPENDENCIES="dev-python/sigtools[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.1.0[${PYTHON_USEDEP}]
 	dev-python/od[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	clize-own-docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	>=dev-python/docutils-0.17.0[${PYTHON_USEDEP}]
+	clize-own-docs? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
 	clize-own-docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	datetime? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
 	test? ( dev-python/repeated-test[${PYTHON_USEDEP}] )

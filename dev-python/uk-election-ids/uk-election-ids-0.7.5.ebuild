@@ -28,7 +28,7 @@ DEPENDENCIES="development? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	development? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	development? ( dev-python/ghp-import[${PYTHON_USEDEP}] )
 	development? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	development? ( dev-python/black[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coveralls[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

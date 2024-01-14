@@ -27,10 +27,10 @@ IUSE="cli code_style rtd testing"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/nbclient[${PYTHON_USEDEP}]
+	>=dev-python/nbclient-0.2[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	cli? ( dev-python/click-log[${PYTHON_USEDEP}] )
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -45,10 +45,10 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	testing? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	testing? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	testing? ( dev-python/nbformat[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/nbformat-5.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sympy[${PYTHON_USEDEP}] )"

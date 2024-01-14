@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	dev-python/django-appconf[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/markdown-2.6.11[${PYTHON_USEDEP}]
+	>=dev-python/pillow-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pinax-images[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+	>=dev-python/pygments-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2020.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

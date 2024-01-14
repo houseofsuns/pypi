@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	<dev-python/async-timeout-5.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2020.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

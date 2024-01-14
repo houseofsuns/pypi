@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
 	dev-python/htmltools[${PYTHON_USEDEP}]
 	dev-python/shiny[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.11.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/griffe[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/griffe-0.32.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/quartodoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/shinylive[${PYTHON_USEDEP}] )
 	docs? ( dev-python/plum-dispatch[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

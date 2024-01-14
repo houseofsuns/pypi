@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jedi[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jedi-0.18.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )

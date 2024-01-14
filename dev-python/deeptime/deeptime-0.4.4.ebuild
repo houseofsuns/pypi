@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deep-learning docs plotting tests units"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]
+	>=dev-python/threadpoolctl-3.1.0[${PYTHON_USEDEP}]
 	deep-learning? ( dev-python/torch[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
@@ -44,14 +44,14 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	tests? ( dev-python/cython[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pybind11[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flaky-3.7.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/cython-0.29.30[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pybind11-2.10.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	tests? ( dev-python/cmake[${PYTHON_USEDEP}] )

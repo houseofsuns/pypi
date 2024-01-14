@@ -27,16 +27,16 @@ IUSE="contrib eos"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/cachecontrol[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-6.0[${PYTHON_USEDEP}]
 	dev-python/pylibmagic[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/python-jose[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/simple-settings[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.11[${PYTHON_USEDEP}]
 	contrib? ( dev-python/html2text[${PYTHON_USEDEP}] )
 	eos? ( dev-python/pycurl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

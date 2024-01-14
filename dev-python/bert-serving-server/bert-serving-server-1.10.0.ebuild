@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cpu gpu http"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-17.1.0[${PYTHON_USEDEP}]
 	dev-python/GPUtil[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-1.1[${PYTHON_USEDEP}]
 	cpu? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
 	http? ( dev-python/flask[${PYTHON_USEDEP}] )

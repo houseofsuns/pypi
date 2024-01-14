@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	>=dev-python/html5lib-1.1[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.13[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2022.7.1[${PYTHON_USEDEP}]
 	dev-python/translators[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]"

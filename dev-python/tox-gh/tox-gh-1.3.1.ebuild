@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/tox[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tox-4.6[${PYTHON_USEDEP}]
 	test? ( dev-python/covdefaults[${PYTHON_USEDEP}] )
 	test? ( dev-python/devpi-process[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-3.10[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.3.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

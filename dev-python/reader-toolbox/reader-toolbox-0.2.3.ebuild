@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/catalogue[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/datasette[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/tika[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/pytextrank[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.1[${PYTHON_USEDEP}]
 	dev-python/srsly[${PYTHON_USEDEP}]
 	dev-python/textacy[${PYTHON_USEDEP}]
 	dev-python/pytextrank[${PYTHON_USEDEP}]
 	dev-python/wordcloud[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]"
+	<=dev-python/networkx-2.8.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

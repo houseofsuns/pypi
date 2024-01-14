@@ -36,39 +36,39 @@ DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
 	dev-python/django-autocomplete-light[${PYTHON_USEDEP}]
 	dev-python/django-cms[${PYTHON_USEDEP}]
 	dev-python/django-parler[${PYTHON_USEDEP}]
-	dev-python/django-redis[${PYTHON_USEDEP}]
+	>=dev-python/django-redis-4.11.0[${PYTHON_USEDEP}]
 	dev-python/django-treebeard[${PYTHON_USEDEP}]
 	dev-python/dj-pagination[${PYTHON_USEDEP}]
-	dev-python/easy-thumbnails[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	>=dev-python/easy-thumbnails-2.8[${PYTHON_USEDEP}]
+	<dev-python/elasticsearch-7.0.0[${PYTHON_USEDEP}]
 	dev-python/exrex[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	ci? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	~dev-python/oauthlib-3.2.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	ci? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/bandit-1.7.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyRdfa3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cssselect[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/cssselect-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipdb-0.13.13[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipython-8.19.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/lxml-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/msgpack-1.0.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mysqlclient-2.2.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
-	sandbox? ( dev-python/django-configurations[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-django-4.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/responses-0.24.1[${PYTHON_USEDEP}] )
+	sandbox? ( ~dev-python/django-configurations-2.5[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/dockerflow[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	sandbox? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
+	sandbox? ( ~dev-python/sentry-sdk-1.39.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

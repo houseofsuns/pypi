@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/rpyc[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-2.1.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.11.0[${PYTHON_USEDEP}]
+	<dev-python/rpyc-5.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.17.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

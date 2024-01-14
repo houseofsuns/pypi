@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/prettytable[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}] )
 	test? ( dev-python/ophyd[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	test? ( dev-python/line-profiler[${PYTHON_USEDEP}] )"

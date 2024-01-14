@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.2.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	all? ( dev-python/synphot[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )

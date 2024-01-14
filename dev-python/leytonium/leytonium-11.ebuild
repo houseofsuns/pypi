@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aridity[${PYTHON_USEDEP}]
-	dev-python/autopep8[${PYTHON_USEDEP}]
+	>=dev-python/autopep8-1.5.4[${PYTHON_USEDEP}]
 	dev-python/awscli[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/docutils-0.15.2[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-2.1.1[${PYTHON_USEDEP}]
 	dev-python/lagoon[${PYTHON_USEDEP}]
 	dev-python/PyGObject[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2020.4[${PYTHON_USEDEP}]
 	dev-python/pyven[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-44.1.1[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	dev-python/Unidecode[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

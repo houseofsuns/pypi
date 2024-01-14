@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/torch-geometric[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
 	dev-python/rdkit[${PYTHON_USEDEP}]
 	dev-python/bump2version[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]

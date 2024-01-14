@@ -28,16 +28,16 @@ DEPENDENCIES="dev-python/PyCifRW[${PYTHON_USEDEP}]
 	dev-python/aiida-core[${PYTHON_USEDEP}]
 	dev-python/aiidalab[${PYTHON_USEDEP}]
 	dev-python/aiidalab-eln[${PYTHON_USEDEP}]
-	dev-python/ansi2html[${PYTHON_USEDEP}]
+	~dev-python/ansi2html-1.6[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
+	~dev-python/humanfriendly-10.0[${PYTHON_USEDEP}]
 	dev-python/ipytree[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/widgetsnbextension[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
+	~dev-python/traitlets-5.9.0[${PYTHON_USEDEP}]
+	~dev-python/ipywidgets-7.7[${PYTHON_USEDEP}]
+	<dev-python/widgetsnbextension-3.6.3[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-8.0[${PYTHON_USEDEP}]
+	~dev-python/pymysql-0.9[${PYTHON_USEDEP}]
 	dev-python/nglview[${PYTHON_USEDEP}]
 	dev-python/optimade-client[${PYTHON_USEDEP}]
 	dev-python/spglib[${PYTHON_USEDEP}]
@@ -45,12 +45,12 @@ DEPENDENCIES="dev-python/PyCifRW[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pgtest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-docker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-selenium[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-timeout-2.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/selenium-4.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )

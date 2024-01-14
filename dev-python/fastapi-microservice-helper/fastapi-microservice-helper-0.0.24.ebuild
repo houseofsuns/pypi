@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic-core[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-core-2.10.1[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.4.1[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	dev-python/ssort[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
+	>=dev-python/starlette-0.27.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/yt-dlp[${PYTHON_USEDEP}]
-	dev-python/ytmusicapi[${PYTHON_USEDEP}]
+	>=dev-python/ytmusicapi-1.3.2[${PYTHON_USEDEP}]
 	dev-python/eyed3[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]"
+	>=dev-python/PyQt6-6.6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,36 +26,36 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all display docs test"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]
-	dev-python/bottleneck[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/configobj[${PYTHON_USEDEP}]
-	dev-python/cycler[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	>=dev-python/bottleneck-1.3.1[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/configobj-5.0[${PYTHON_USEDEP}]
+	>=dev-python/cycler-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3[${PYTHON_USEDEP}]
+	>=dev-python/graphviz-0.16[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.14.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-8.5.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	dev-python/photutils[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
+	>=dev-python/regex-2021.4.4[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	all? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
+	all? ( >=dev-python/PyQt5-5.9.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-qt-3.3.0[${PYTHON_USEDEP}] )
 	display? ( dev-python/pyds9[${PYTHON_USEDEP}] )
 	display? ( dev-python/regions[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-astropy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/imageio-2.9.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.3.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-astropy-header[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-1.13.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-remotedata[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-timeout-1.3.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

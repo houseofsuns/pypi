@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="quality"
 DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/wasabi[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
-	quality? ( dev-python/isort[${PYTHON_USEDEP}] )
-	quality? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	>=dev-python/cloudpickle-1.6[${PYTHON_USEDEP}]
+	quality? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/isort-5.5.4[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

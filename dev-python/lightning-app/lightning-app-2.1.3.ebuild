@@ -26,90 +26,90 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all cloud components dev extra test"
 DEPENDENCIES="dev-python/lightning-cloud[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	<dev-python/deepdiff-7.0[${PYTHON_USEDEP}]
+	<dev-python/fsspec-2024.0[${PYTHON_USEDEP}]
+	<dev-python/croniter-1.5.0[${PYTHON_USEDEP}]
+	<dev-python/traitlets-6.0[${PYTHON_USEDEP}]
+	<dev-python/arrow-2.0[${PYTHON_USEDEP}]
 	dev-python/lightning-utilities[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-1.0[${PYTHON_USEDEP}]
+	<dev-python/backoff-3.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.7.4[${PYTHON_USEDEP}]
 	dev-python/dateutils[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/docker[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-1.0[${PYTHON_USEDEP}]
+	<dev-python/websocket-client-2.0[${PYTHON_USEDEP}]
+	<dev-python/websockets-12.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/redis-6.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/docker-7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	all? ( dev-python/lightning-api-access[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	all? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/lightning-fabric[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
-	cloud? ( dev-python/redis[${PYTHON_USEDEP}] )
-	cloud? ( dev-python/docker[${PYTHON_USEDEP}] )
+	cloud? ( <dev-python/redis-6.0[${PYTHON_USEDEP}] )
+	cloud? ( <dev-python/docker-7.0[${PYTHON_USEDEP}] )
 	cloud? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	components? ( dev-python/lightning-api-access[${PYTHON_USEDEP}] )
-	components? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	components? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	components? ( dev-python/lightning-fabric[${PYTHON_USEDEP}] )
 	components? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
-	dev? ( dev-python/redis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docker[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/redis-6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/docker-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lightning-api-access[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lightning-fabric[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.3.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-rerunfailures-12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/trio[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/trio-0.22.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pympler[${PYTHON_USEDEP}] )
-	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/psutil-6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/setuptools-69.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-mock-1.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	extra? ( dev-python/redis[${PYTHON_USEDEP}] )
-	extra? ( dev-python/docker[${PYTHON_USEDEP}] )
+	extra? ( <dev-python/redis-6.0[${PYTHON_USEDEP}] )
+	extra? ( <dev-python/docker-7.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	extra? ( dev-python/lightning-api-access[${PYTHON_USEDEP}] )
-	extra? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	extra? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/lightning-fabric[${PYTHON_USEDEP}] )
 	extra? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-7.3.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-rerunfailures-12.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	test? ( dev-python/trio[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/trio-0.22.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pympler[${PYTHON_USEDEP}] )
-	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
+	test? ( <dev-python/psutil-6.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/setuptools-69.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/requests-mock-1.11.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipython-7.22.0[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	dev-python/jupyterhub[${PYTHON_USEDEP}]
 	dev-python/oauthenticator[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
-	dev-python/responses[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	~dev-python/requests-cache-0.5.2[${PYTHON_USEDEP}]
+	~dev-python/responses-0.13.2[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-5.5.3[${PYTHON_USEDEP}]
+	>=dev-python/notebook-6.3.0[${PYTHON_USEDEP}]
+	>=dev-python/tornado-6.1[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]"
+	>=dev-python/pyarrow-4.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.5[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-1.28.1[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-oauthlib-0.4.4[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.6.3[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

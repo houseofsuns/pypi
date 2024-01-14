@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/arrow-0.14[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/krakenex[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]"

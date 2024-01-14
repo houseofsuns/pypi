@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
+	>=dev-python/charset-normalizer-2.1.1[${PYTHON_USEDEP}]
 	dev-python/fastcore[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
+	>=dev-python/humanize-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.4[${PYTHON_USEDEP}]
 	dev-python/markdownify[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/rank-bm25[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/textdistance[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.0.0[${PYTHON_USEDEP}]
+	>=dev-python/textdistance-4.5.0[${PYTHON_USEDEP}]
 	dev-python/unstructured[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

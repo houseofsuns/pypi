@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all mlflow seaborn tensorflow"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	dev-python/deap[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.61.1[${PYTHON_USEDEP}]
 	all? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	seaborn? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	seaborn? ( >=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

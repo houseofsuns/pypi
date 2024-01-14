@@ -27,15 +27,15 @@ IUSE="dask regular"
 DEPENDENCIES="dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dev-python/discretize[${PYTHON_USEDEP}]
 	dev-python/empymod[${PYTHON_USEDEP}]
-	dask? ( dev-python/fsspec[${PYTHON_USEDEP}] )
+	dask? ( >=dev-python/fsspec-0.3.3[${PYTHON_USEDEP}] )
 	regular? ( dev-python/geoana[${PYTHON_USEDEP}] )
 	dev-python/geoh5py[${PYTHON_USEDEP}]
 	regular? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pymatsolver[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
 	dask? ( dev-python/zarr[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

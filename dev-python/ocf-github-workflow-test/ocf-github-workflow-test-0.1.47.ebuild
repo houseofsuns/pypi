@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/pytest-7.2.2[${PYTHON_USEDEP}]
+	~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

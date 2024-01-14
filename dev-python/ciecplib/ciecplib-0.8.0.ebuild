@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs kerberos manpages tests"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-36.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-ecp[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
 	kerberos? ( dev-python/gssapi[${PYTHON_USEDEP}] )
 	kerberos? ( dev-python/requests-ecp[${PYTHON_USEDEP}] )
 	manpages? ( dev-python/argparse-manpage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-3.9.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

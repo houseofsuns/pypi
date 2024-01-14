@@ -30,10 +30,10 @@ DEPENDENCIES="dev-python/attributee[${PYTHON_USEDEP}]
 	dev-python/mmcls[${PYTHON_USEDEP}]
 	dev-python/motmetrics[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/pycocotools[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/terminaltables[${PYTHON_USEDEP}]
@@ -46,10 +46,10 @@ DEPENDENCIES="dev-python/attributee[${PYTHON_USEDEP}]
 	all? ( dev-python/mmcls[${PYTHON_USEDEP}] )
 	all? ( dev-python/motmetrics[${PYTHON_USEDEP}] )
 	all? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/pycocotools[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	all? ( dev-python/terminaltables[${PYTHON_USEDEP}] )
@@ -58,12 +58,12 @@ DEPENDENCIES="dev-python/attributee[${PYTHON_USEDEP}]
 	all? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	all? ( dev-python/interrogate[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	all? ( dev-python/kwarray[${PYTHON_USEDEP}] )
 	all? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/ubelt[${PYTHON_USEDEP}] )
-	all? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/xdoctest-0.10.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	build? ( dev-python/cython[${PYTHON_USEDEP}] )
 	build? ( dev-python/numpy[${PYTHON_USEDEP}] )
@@ -75,12 +75,12 @@ DEPENDENCIES="dev-python/attributee[${PYTHON_USEDEP}]
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/interrogate[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	tests? ( dev-python/kwarray[${PYTHON_USEDEP}] )
 	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ubelt[${PYTHON_USEDEP}] )
-	tests? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/xdoctest-0.10.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/yapf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+	<dev-python/certifi-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/h3[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	<dev-python/pyproj-4.0.0[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

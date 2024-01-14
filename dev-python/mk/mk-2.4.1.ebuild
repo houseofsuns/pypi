@@ -26,36 +26,36 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/blessings[${PYTHON_USEDEP}]
-	dev-python/build[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/build-0.3.1[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
+	>=dev-python/diskcache-5.2.1[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+	>=dev-python/pip-21.0.1[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-9.0[${PYTHON_USEDEP}]
 	dev-python/shellingham[${PYTHON_USEDEP}]
-	dev-python/subprocess-tee[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
+	>=dev-python/subprocess-tee-0.3.1[${PYTHON_USEDEP}]
+	>=dev-python/twine-3.4.1[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
-	docs? ( dev-python/markdown-exec[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/markdown-exec-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-htmlproofer-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-gen-files-0.4.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-htmlproofer-plugin-0.10.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-extensions-1.1.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-9.0.13[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pillow-9.4.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pipdeptree-2.4.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pymdown-extensions-9.9.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-plus[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/tox-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

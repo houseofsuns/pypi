@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
 	dev-python/id-validator[${PYTHON_USEDEP}]
 	dev-python/random-user-agent[${PYTHON_USEDEP}]
 	dev-python/jieba[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/rsa-5.0[${PYTHON_USEDEP}]
 	dev-python/pyexecjs[${PYTHON_USEDEP}]
 	dev-python/shodan[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
+	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]
 	dev-python/pysocks[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pymysql-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

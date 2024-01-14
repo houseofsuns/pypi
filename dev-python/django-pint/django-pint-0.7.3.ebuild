@@ -27,11 +27,11 @@ IUSE="build_doc testing"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	build_doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	build_doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	build_doc? ( >=dev-python/recommonmark-0.6.0[${PYTHON_USEDEP}] )
 	build_doc? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-6.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-2.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-django-0.4[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-3.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

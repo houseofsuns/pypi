@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mssql mysql oracle postgresql trino tsv"
 DEPENDENCIES="dev-python/json-strong-typing[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.8[${PYTHON_USEDEP}]
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )

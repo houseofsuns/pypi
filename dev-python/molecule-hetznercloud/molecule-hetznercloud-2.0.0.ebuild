@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/molecule[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7.5[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20[${PYTHON_USEDEP}]
 	dev-python/netaddr[${PYTHON_USEDEP}]
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/tox-5.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-xdist-4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-ansible[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

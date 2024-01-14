@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
 	dev-python/python-crfsuite[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/fasttext-wheel[${PYTHON_USEDEP}]
 	dev-python/flashtext[${PYTHON_USEDEP}]"

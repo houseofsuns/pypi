@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/simpledi[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/himl[${PYTHON_USEDEP}]
-	dev-python/fastjsonschema[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	~dev-python/fastjsonschema-2.14[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	dev-python/kubeconfig[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

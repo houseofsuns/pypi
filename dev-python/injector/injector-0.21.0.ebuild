@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/build[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/exceptiongroup[${PYTHON_USEDEP}] )
-	dev? ( dev-python/iniconfig[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pathspec[${PYTHON_USEDEP}] )
-	dev? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyproject-hooks[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/click-8.1.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.2.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/exceptiongroup-1.1.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/packaging-23.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pathspec-0.11.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/platformdirs-3.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pluggy-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyproject-hooks-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/typing-extensions-4.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="dev-python/Pygments[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-tabs-3.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-charts[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-math-dollar[${PYTHON_USEDEP}] )
-	dev-python/tabulate[${PYTHON_USEDEP}]"
+	<dev-python/tabulate-0.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

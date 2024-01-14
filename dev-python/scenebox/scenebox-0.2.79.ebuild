@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ffmpeg-python[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/wheel-0.36.2[${PYTHON_USEDEP}]
+	~dev-python/diskcache-4.1.0[${PYTHON_USEDEP}]
+	~dev-python/deprecated-1.2.7[${PYTHON_USEDEP}]
+	~dev-python/pytz-2019.2[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	~dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.61.2[${PYTHON_USEDEP}]
+	~dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
 	dev-python/webdataset[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/fsspec-2022.1.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pytest-7.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-sugar-0.9.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.17.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	dev? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
@@ -45,12 +45,12 @@ DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.3.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-sugar-0.9.6[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pylint-2.17.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/packaging[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

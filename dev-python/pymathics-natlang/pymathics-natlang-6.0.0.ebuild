@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Mathics3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.0.1[${PYTHON_USEDEP}]
 	dev-python/langid[${PYTHON_USEDEP}]
 	dev-python/llvmlite[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/pattern[${PYTHON_USEDEP}]
-	dev-python/pyenchant[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
+	>=dev-python/pyenchant-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pycountry-3.2.0[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/wasabi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

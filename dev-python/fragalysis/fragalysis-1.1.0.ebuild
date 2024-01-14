@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/neo4j-driver[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>dev-python/ipython-5.4.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

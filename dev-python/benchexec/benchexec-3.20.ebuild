@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev systemd"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev? ( dev-python/nose[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nose-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	systemd? ( dev-python/pystemd[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

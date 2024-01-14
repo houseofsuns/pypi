@@ -27,7 +27,7 @@ IUSE="docs tests"
 DEPENDENCIES="dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	~dev-python/pendulum-2.0.3[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

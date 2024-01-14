@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop"
 DEPENDENCIES="dev-python/Bottleneck[${PYTHON_USEDEP}]
 	dev-python/atopy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	develop? ( dev-python/black[${PYTHON_USEDEP}] )
-	develop? ( dev-python/isort[${PYTHON_USEDEP}] )
-	develop? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	<dev-python/numpy-1.27[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-3.2[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.2[${PYTHON_USEDEP}]
+	<dev-python/scipy-1.12[${PYTHON_USEDEP}]
+	develop? ( <dev-python/black-23.12[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/isort-5.13[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/mypy-1.8[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pylint-3.1[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pytest-7.5[${PYTHON_USEDEP}] )
 	develop? ( dev-python/types-pytz[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

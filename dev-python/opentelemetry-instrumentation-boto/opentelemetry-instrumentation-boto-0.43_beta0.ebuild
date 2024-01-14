@@ -27,9 +27,9 @@ IUSE="instruments test"
 DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
-	instruments? ( dev-python/boto[${PYTHON_USEDEP}] )
-	test? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
-	test? ( dev-python/moto[${PYTHON_USEDEP}] )
+	instruments? ( ~dev-python/boto-2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/moto-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-boto[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

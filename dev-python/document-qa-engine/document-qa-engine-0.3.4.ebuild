@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/grobid-quantities-client[${PYTHON_USEDEP}]
 	dev-python/grobid-client-python[${PYTHON_USEDEP}]
 	dev-python/grobid-tei-xml[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4.3[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/Beautifulsoup4[${PYTHON_USEDEP}]
@@ -41,8 +41,8 @@ DEPENDENCIES="dev-python/grobid-quantities-client[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

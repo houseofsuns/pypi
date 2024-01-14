@@ -27,14 +27,14 @@ IUSE="tests"
 DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
 	dev-python/aiohttp-retry[${PYTHON_USEDEP}]
 	tests? ( dev-python/dvc[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flaky[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-xdist-2.4.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flaky-3.7.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/rangehttpserver[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pylint-2.15.9[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

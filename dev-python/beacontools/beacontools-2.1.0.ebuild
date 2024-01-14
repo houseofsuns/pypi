@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/construct[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/construct-2.11[${PYTHON_USEDEP}]
 	dev-python/ahocorapy[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.10[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )

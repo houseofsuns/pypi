@@ -26,24 +26,24 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev doc tests"
 DEPENDENCIES="dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/nilearn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.3[${PYTHON_USEDEP}]
 	all? ( dev-python/mapca[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flake8-3.7[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

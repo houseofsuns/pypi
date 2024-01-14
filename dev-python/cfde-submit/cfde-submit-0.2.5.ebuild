@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/GitPython-3.0.4[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/bdbag[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-7.1.1[${PYTHON_USEDEP}]
 	dev-python/fair-research-login[${PYTHON_USEDEP}]
 	dev-python/frictionless[${PYTHON_USEDEP}]
 	dev-python/globus-automate-client[${PYTHON_USEDEP}]
 	dev-python/globus-sdk[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

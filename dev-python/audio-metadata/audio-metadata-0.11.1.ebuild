@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc lint test"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/attrs-19.4[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
 	dev-python/bitstruct[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-9.0[${PYTHON_USEDEP}]
+	<=dev-python/pendulum-3.0[${PYTHON_USEDEP}]
 	dev-python/pprintpp[${PYTHON_USEDEP}]
 	dev-python/tbm-utils[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	<dev-python/wrapt-2.0[${PYTHON_USEDEP}]
+	dev? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
@@ -44,10 +44,10 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	lint? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-import-order-tbm[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-import-order-tbm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
-	test? ( dev-python/nox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/nox-2020.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/nox-2020.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-material[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-material[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

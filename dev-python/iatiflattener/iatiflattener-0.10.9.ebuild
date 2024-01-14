@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lxml-4.6.1[${PYTHON_USEDEP}]
 	dev-python/datetime-quarter[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	dev-python/exchangerates[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
 	dev-python/PyExcelerate[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
 	dev-python/iatikit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

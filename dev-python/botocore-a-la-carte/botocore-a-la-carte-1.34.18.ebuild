@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="crt"
-DEPENDENCIES="dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.1[${PYTHON_USEDEP}]
 	crt? ( dev-python/awscrt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="locale memcache"
 DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
+	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
 	dev-python/sockjs[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
-	dev-python/aiodns[${PYTHON_USEDEP}]
-	dev-python/asn1crypto[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
+	~dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/asn1crypto-1.4.0[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	dev-python/aiohttp-jrpc[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/aiohttp-jinja2[${PYTHON_USEDEP}]
@@ -39,11 +39,11 @@ DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
 	dev-python/aiohttp-utils[${PYTHON_USEDEP}]
 	dev-python/httptools[${PYTHON_USEDEP}]
 	dev-python/aiosocks[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	~dev-python/python-slugify-8.0.1[${PYTHON_USEDEP}]
 	dev-python/asyncdb[${PYTHON_USEDEP}]
 	dev-python/navconfig[${PYTHON_USEDEP}]
 	dev-python/aiohttp-cors[${PYTHON_USEDEP}]
-	locale? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	locale? ( ~dev-python/Babel-2.9.1[${PYTHON_USEDEP}] )
 	memcache? ( dev-python/aiomcache[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	>=dev-python/djangorestframework-3.12[${PYTHON_USEDEP}]
+	>=dev-python/python-json-logger-2.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pylint-2.15.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/djangorestframework-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )

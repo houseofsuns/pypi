@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/elasticsearch[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/elasticsearch-5.6.0[${PYTHON_USEDEP}]
+	<dev-python/progressbar2-3.37.0[${PYTHON_USEDEP}]
 	dev-python/backports-csv[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

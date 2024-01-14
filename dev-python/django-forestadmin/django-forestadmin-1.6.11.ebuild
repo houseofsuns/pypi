@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/django-cors-headers[${PYTHON_USEDEP}]
+	>=dev-python/django-cors-headers-3.7[${PYTHON_USEDEP}]
 	dev-python/django-ipware[${PYTHON_USEDEP}]
 	dev-python/marshmallow-jsonapi[${PYTHON_USEDEP}]
 	dev-python/oic[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]"
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	<dev-python/python-jose-4.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.14[${PYTHON_USEDEP}]
+	<=dev-python/pandas-1.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

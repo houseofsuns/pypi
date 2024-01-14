@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/grpcio-1.27.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
 	dev-python/grpcio_status[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
+	<=dev-python/grpcio-tools-1.48.1[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+	>=dev-python/humanize-2.5.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.29[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	dev-python/scikit_learn[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]"
+	>=dev-python/pillow-9.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

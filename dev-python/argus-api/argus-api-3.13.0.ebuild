@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="oauth"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	oauth? ( dev-python/requests-oauthlib[${PYTHON_USEDEP}] )
-	dev-python/oauthlib[${PYTHON_USEDEP}]
+	oauth? ( <dev-python/requests-oauthlib-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/oauthlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
 DEPENDENCIES="dev-python/aioredis[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/hiredis[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/sentry-sdk-0.10.2[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.2[${PYTHON_USEDEP}]
+	~dev-python/click-6.6[${PYTHON_USEDEP}]
+	~dev-python/hiredis-0.2.0[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.4.6[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
+	~dev-python/ujson-1.35[${PYTHON_USEDEP}]
 	dev-python/byteformat[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
+	~dev-python/uvloop-0.12.2[${PYTHON_USEDEP}]
 	dev-python/uhashring[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+	~dev-python/websockets-8.0.2[${PYTHON_USEDEP}]
+	~dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )

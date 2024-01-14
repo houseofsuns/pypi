@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/astroid[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/astroid-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/black-24.0.0[${PYTHON_USEDEP}]
 	dev-python/bytecode[${PYTHON_USEDEP}]
-	dev-python/jellyfish[${PYTHON_USEDEP}]
+	<dev-python/jellyfish-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/MutPy-Pynguin[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/networkx-4.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	dev-python/simple-parsing[${PYTHON_USEDEP}]
 	dev-python/typing_inspect[${PYTHON_USEDEP}]
 	dev-python/asciitree[${PYTHON_USEDEP}]
 	dev-python/libcst[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

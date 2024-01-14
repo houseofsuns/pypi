@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/setuptools-git[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
+	~dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	>=dev-python/asgiref-3.5.2[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.7[${PYTHON_USEDEP}]
+	~dev-python/setuptools-git-1.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.1[${PYTHON_USEDEP}]
 	dev-python/aiohttp-retry[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	~dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

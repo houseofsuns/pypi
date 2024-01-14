@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/PyQt5-6.0.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/sunpy[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]"

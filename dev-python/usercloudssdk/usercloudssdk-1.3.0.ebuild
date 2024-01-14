@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/certifi-2023.7.2[${PYTHON_USEDEP}]
+	>=dev-python/charset-normalizer-2.1.1[${PYTHON_USEDEP}]
+	>=dev-python/idna-3.4[${PYTHON_USEDEP}]
+	>=dev-python/iso8601-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pycparser-2.21[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	>=dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

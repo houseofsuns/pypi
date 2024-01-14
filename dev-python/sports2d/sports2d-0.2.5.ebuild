@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]

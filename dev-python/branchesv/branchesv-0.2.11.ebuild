@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-6.6[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.11.1[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	~dev-python/six-1.15.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/spur[${PYTHON_USEDEP}]"
+	~dev-python/spur-0.3.22[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

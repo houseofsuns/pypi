@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="integrations listeners postgresql server tests"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/httpx-0.25[${PYTHON_USEDEP}]
+	~dev-python/deprecated-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	<dev-python/wrapt-1.15[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.27.0[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/monotonic[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>dev-python/rich-13.1.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	integrations? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	integrations? ( dev-python/cleanlab[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	integrations? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	integrations? ( dev-python/flyingsquid[${PYTHON_USEDEP}] )
 	integrations? ( dev-python/pgmpy[${PYTHON_USEDEP}] )
-	integrations? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	integrations? ( >=dev-python/plotly-4.1.0[${PYTHON_USEDEP}] )
 	integrations? ( dev-python/snorkel[${PYTHON_USEDEP}] )
 	integrations? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	integrations? ( dev-python/spacy-transformers[${PYTHON_USEDEP}] )
@@ -66,22 +66,22 @@ DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	server? ( dev-python/opensearch-py[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/opensearch-py-2.0.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/elasticsearch8[${PYTHON_USEDEP}] )
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	server? ( <dev-python/uvicorn-0.21.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/smart-open[${PYTHON_USEDEP}] )
 	server? ( dev-python/brotli-asgi[${PYTHON_USEDEP}] )
-	server? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/alembic-1.9.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	server? ( dev-python/greenlet[${PYTHON_USEDEP}] )
-	server? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/greenlet-2.0.0[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/aiosqlite-0.19.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	server? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
+	server? ( <dev-python/aiofiles-22.2[${PYTHON_USEDEP}] )
 	server? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	server? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
-	server? ( dev-python/python-jose[${PYTHON_USEDEP}] )
-	server? ( dev-python/passlib[${PYTHON_USEDEP}] )
-	server? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}] )
+	server? ( <dev-python/python-jose-3.4[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/passlib-1.7.4[${PYTHON_USEDEP}] )
+	server? ( <dev-python/psutil-5.10[${PYTHON_USEDEP}] )
 	server? ( dev-python/segment-analytics-python[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

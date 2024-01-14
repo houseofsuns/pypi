@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="flake8 tests"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/pynliner[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	flake8? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	flake8? ( ~dev-python/flake8-3.6.0[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
-	flake8? ( dev-python/isort[${PYTHON_USEDEP}] )
-	flake8? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-django[${PYTHON_USEDEP}] )"
+	flake8? ( ~dev-python/isort-4.3.4[${PYTHON_USEDEP}] )
+	flake8? ( ~dev-python/testfixtures-6.3.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-4.3.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-django-3.4.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

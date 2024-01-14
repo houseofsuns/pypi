@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-41.0.4[${PYTHON_USEDEP}]
+	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/docopt-0.7.0[${PYTHON_USEDEP}]
 	dev-python/geographiclib[${PYTHON_USEDEP}]
 	dev-python/jaconv[${PYTHON_USEDEP}]
 	dev-python/marisa-trie[${PYTHON_USEDEP}]
 	dev-python/portabletab[${PYTHON_USEDEP}]
 	dev-python/pycapnp[${PYTHON_USEDEP}]
 	dev-python/rtree[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-2.0.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

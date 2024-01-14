@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hook-proxy speedups"
-DEPENDENCIES="dev-python/tabulate[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tabulate-0.8[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/pylibyaml[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
-	dev-python/shellingham[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	>=dev-python/shellingham-1.0[${PYTHON_USEDEP}]
+	>=dev-python/pendulum-2.0[${PYTHON_USEDEP}]
 	dev-python/pycentral[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.0[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.0[${PYTHON_USEDEP}]
 	dev-python/tablib[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
 	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
 	dev-python/levenshtein[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	hook-proxy? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	hook-proxy? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	hook-proxy? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	speedups? ( dev-python/cchardet[${PYTHON_USEDEP}] )
-	speedups? ( dev-python/aiodns[${PYTHON_USEDEP}] )
+	speedups? ( >=dev-python/cchardet-2.1[${PYTHON_USEDEP}] )
+	speedups? ( >=dev-python/aiodns-1.1[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/Brotli[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

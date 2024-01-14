@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all arrow dgl docker torch-pyg"
 DEPENDENCIES="dev-python/pymgclient[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
 	dev-python/adlfs[${PYTHON_USEDEP}]
 	dev-python/neo4j[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	arrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	arrow? ( <dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )
 	dgl? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	torch-pyg? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dgl? ( dev-python/dgl[${PYTHON_USEDEP}] )
 	all? ( dev-python/dgl[${PYTHON_USEDEP}] )
-	all? ( dev-python/docker[${PYTHON_USEDEP}] )
-	docker? ( dev-python/docker[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/docker-7.0.0[${PYTHON_USEDEP}] )
+	docker? ( <dev-python/docker-7.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

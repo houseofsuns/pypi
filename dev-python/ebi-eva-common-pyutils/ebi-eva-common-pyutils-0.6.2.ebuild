@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
 	eva-internal? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	eva-internal? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	eva-internal? ( dev-python/networkx[${PYTHON_USEDEP}] )"
+	eva-internal? ( <=dev-python/networkx-2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

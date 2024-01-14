@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/furo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nox-2023.4.22[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-instafail[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-notfound-page-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all boto3"
 DEPENDENCIES="dev-python/localstack-client[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	boto3? ( dev-python/boto3[${PYTHON_USEDEP}] )"

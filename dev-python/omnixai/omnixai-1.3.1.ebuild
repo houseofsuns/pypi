@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all bentoml nlp plot vision"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0[${PYTHON_USEDEP}]
 	dev-python/lime[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
 	dev-python/SALib[${PYTHON_USEDEP}]
@@ -39,11 +39,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-8.10.0[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.10.1[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/plotly-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/dash[${PYTHON_USEDEP}] )
 	all? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-dash[${PYTHON_USEDEP}] )
@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	bentoml? ( dev-python/bentoml[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/polyjuice-nlp[${PYTHON_USEDEP}] )
-	plot? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	plot? ( >=dev-python/plotly-4.0[${PYTHON_USEDEP}] )
 	plot? ( dev-python/dash[${PYTHON_USEDEP}] )
 	plot? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
 	plot? ( dev-python/jupyter-dash[${PYTHON_USEDEP}] )

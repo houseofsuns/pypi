@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp aiohttp-speedups httpx httpx-speedups"
-DEPENDENCIES="dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/aiodns[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/sqlparse-0.3.0[${PYTHON_USEDEP}]
+	>=dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.0.1[${PYTHON_USEDEP}]
+	~dev-python/nest-asyncio-1.5.6[${PYTHON_USEDEP}]
+	aiohttp? ( >=dev-python/aiohttp-3.0.1[${PYTHON_USEDEP}] )
 	aiohttp-speedups? ( dev-python/aiodns[${PYTHON_USEDEP}] )
 	aiohttp-speedups? ( dev-python/cchardet[${PYTHON_USEDEP}] )
 	aiohttp-speedups? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
-	aiohttp-speedups? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	aiohttp-speedups? ( >=dev-python/aiohttp-3.0.1[${PYTHON_USEDEP}] )
 	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	httpx-speedups? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
 	httpx-speedups? ( dev-python/httpx[${PYTHON_USEDEP}] )"

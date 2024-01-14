@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cvxopt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cvxopt-1.1.9[${PYTHON_USEDEP}]
 	dev-python/chompack[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

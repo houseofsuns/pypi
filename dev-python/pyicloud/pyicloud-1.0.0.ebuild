@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/keyrings-alt[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	>=dev-python/keyring-21.4.0[${PYTHON_USEDEP}]
+	>=dev-python/keyrings-alt-3.5.2[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-4.0[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2020.6.20[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

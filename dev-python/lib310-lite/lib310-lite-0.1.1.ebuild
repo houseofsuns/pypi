@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bounded_pool_executor[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/dask-2022.11.0[${PYTHON_USEDEP}]
 	dev-python/dask-sql[${PYTHON_USEDEP}]
 	dev-python/db-dtypes[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
 	dev-python/google-cloud[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
-	dev-python/mysqlclient[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	>=dev-python/mysqlclient-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.23.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

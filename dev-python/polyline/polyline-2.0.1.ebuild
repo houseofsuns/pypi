@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev publish"
-DEPENDENCIES="dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.15.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	publish? ( dev-python/build[${PYTHON_USEDEP}] )
-	publish? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	publish? ( ~dev-python/build-0.8[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

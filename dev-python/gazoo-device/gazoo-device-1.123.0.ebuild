@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/immutabledict[${PYTHON_USEDEP}]
-	dev-python/intelhex[${PYTHON_USEDEP}]
+	>=dev-python/immutabledict-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/intelhex-2.2.1[${PYTHON_USEDEP}]
 	dev-python/pigweed[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0.19[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.0.1[${PYTHON_USEDEP}]
 	dev-python/pylibftdi[${PYTHON_USEDEP}]
 	dev-python/pylink-square[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/pyudev[${PYTHON_USEDEP}]
-	dev-python/pyusb[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
+	>=dev-python/pyudev-0.22.0[${PYTHON_USEDEP}]
+	>=dev-python/pyusb-1.2.1[${PYTHON_USEDEP}]
 	dev-python/pyvisa[${PYTHON_USEDEP}]
 	dev-python/pyvisa-py[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.3[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-0.56.0[${PYTHON_USEDEP}]
 	dev-python/xmodem[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

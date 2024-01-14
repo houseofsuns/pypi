@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="clease data dev exe extras"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
+	<dev-python/dask-2023.11.1[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	<dev-python/django-4.2.8[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/django-allauth[${PYTHON_USEDEP}]
 	dev-python/django-contrib-comments[${PYTHON_USEDEP}]
-	dev-python/django-crispy-forms[${PYTHON_USEDEP}]
+	<=dev-python/django-crispy-forms-1.14.0[${PYTHON_USEDEP}]
 	dev-python/django-pandas[${PYTHON_USEDEP}]
 	dev-python/django-unicorn[${PYTHON_USEDEP}]
-	dev-python/dj-database-url[${PYTHON_USEDEP}]
+	<dev-python/dj-database-url-1.4.0[${PYTHON_USEDEP}]
 	dev-python/django-simple-history[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-3.14.1[${PYTHON_USEDEP}]
+	<=dev-python/django-filter-22.1[${PYTHON_USEDEP}]
+	<=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	<dev-python/plotly-5.17.0[${PYTHON_USEDEP}]
+	<=dev-python/markdown-3.5.1[${PYTHON_USEDEP}]
+	<dev-python/requests-2.28.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<=dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-13.5.2[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
+	<=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
 	dev-python/pymatgen[${PYTHON_USEDEP}]
 	dev-python/pymatgen-analysis-diffusion[${PYTHON_USEDEP}]
 	dev-python/matminer[${PYTHON_USEDEP}]
@@ -56,31 +56,31 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/mp-pyrho[${PYTHON_USEDEP}]
 	clease? ( dev-python/clease[${PYTHON_USEDEP}] )
 	data? ( dev-python/mp-api[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-7.3.2[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/pytest-django-4.7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-mock-3.11.2[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-xdist-3.4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-23.13.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-7.3.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-5.12.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mkdocs-material-9.4.15[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mkdocstrings-python-0.8.4[${PYTHON_USEDEP}] )
 	exe? ( dev-python/prefect[${PYTHON_USEDEP}] )
 	exe? ( dev-python/dask-jobqueue[${PYTHON_USEDEP}] )
-	exe? ( dev-python/anyio[${PYTHON_USEDEP}] )
-	exe? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )
+	exe? ( >=dev-python/anyio-3.6.1[${PYTHON_USEDEP}] )
+	exe? ( <dev-python/nest-asyncio-1.5.9[${PYTHON_USEDEP}] )
 	extras? ( dev-python/numba[${PYTHON_USEDEP}] )
 	extras? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	extras? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	extras? ( dev-python/spyder[${PYTHON_USEDEP}] )
 	extras? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	extras? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	extras? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
+	extras? ( ~dev-python/graphviz-1.7[${PYTHON_USEDEP}] )
+	extras? ( ~dev-python/pygraphviz-1.11[${PYTHON_USEDEP}] )
 	extras? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	extras? ( dev-python/fabric[${PYTHON_USEDEP}] )
 	extras? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
 	extras? ( dev-python/bokeh[${PYTHON_USEDEP}] )
-	extras? ( dev-python/h5py[${PYTHON_USEDEP}] )"
+	extras? ( <=dev-python/h5py-3.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/metakernel[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-client-4.3.0[${PYTHON_USEDEP}]
+	>=dev-python/metakernel-0.24.0[${PYTHON_USEDEP}]
 	test? ( dev-python/jupyter-kernel-test[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

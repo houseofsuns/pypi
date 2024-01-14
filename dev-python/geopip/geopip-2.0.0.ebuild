@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="fast"
 DEPENDENCIES="dev-python/geohash-hilbert[${PYTHON_USEDEP}]
-	fast? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	fast? ( <dev-python/shapely-3.0[${PYTHON_USEDEP}] )
 	fast? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	fast? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	fast? ( <dev-python/numpy-1.25.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

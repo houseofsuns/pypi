@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ansi2html[${PYTHON_USEDEP}]
-	dev-python/libtmux[${PYTHON_USEDEP}]
-	dev-python/weasyprint[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
+	~dev-python/libtmux-0.23.2[${PYTHON_USEDEP}]
+	~dev-python/weasyprint-60.1.0[${PYTHON_USEDEP}]
 	dev-python/dataclass-wizard[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

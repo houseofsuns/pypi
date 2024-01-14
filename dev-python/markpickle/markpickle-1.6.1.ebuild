@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/mdformat[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
+	<dev-python/mistune-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

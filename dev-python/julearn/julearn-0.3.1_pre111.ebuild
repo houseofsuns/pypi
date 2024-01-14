@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deslib dev docs viz"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.27[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	<dev-python/statsmodels-0.15[${PYTHON_USEDEP}]
 	deslib? ( dev-python/deslib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/seaborn-0.13[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.3[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-gallery-0.15[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/furo-2024.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-copybutton-0.6[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/numpydoc-1.6[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/towncrier-24.0[${PYTHON_USEDEP}] )
 	viz? ( dev-python/panel[${PYTHON_USEDEP}] )
 	viz? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	viz? ( dev-python/param[${PYTHON_USEDEP}] )"

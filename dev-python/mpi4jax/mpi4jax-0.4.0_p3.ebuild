@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/mpi4py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mpi4py-3.0.1[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/black-23.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tqdm-4.52[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

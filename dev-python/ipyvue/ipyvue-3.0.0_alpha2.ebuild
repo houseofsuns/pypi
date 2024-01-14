@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipywidgets-7.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/solara[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

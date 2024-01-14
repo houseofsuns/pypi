@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/poetry[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/mypy-0.992[${PYTHON_USEDEP}]
+	<dev-python/poetry-2.0[${PYTHON_USEDEP}]
+	<dev-python/tomlkit-0.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

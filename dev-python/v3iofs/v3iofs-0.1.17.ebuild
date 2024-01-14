@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/fsspec-0.6.2[${PYTHON_USEDEP}]
 	dev-python/v3io[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

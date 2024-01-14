@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
-	dev-python/iniconfig[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/greenlet-3.0.2[${PYTHON_USEDEP}]
+	~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4.3[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-asyncio-0.23.2[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

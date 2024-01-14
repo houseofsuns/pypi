@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="notebook other testing"
 DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/sortedcollections[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
+	>=dev-python/sortedcontainers-2.0[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/loky[${PYTHON_USEDEP}]
+	>=dev-python/loky-2.9[${PYTHON_USEDEP}]
 	dev-python/versioningit[${PYTHON_USEDEP}]
 	notebook? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/ipykernel-4.8.0[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/jupyter-client-5.2.2[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/holoviews[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/bokeh[${PYTHON_USEDEP}] )
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	notebook? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	other? ( dev-python/dill[${PYTHON_USEDEP}] )
 	other? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	other? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
+	other? ( >=dev-python/ipyparallel-6.2.5[${PYTHON_USEDEP}] )
 	other? ( dev-python/scikit-optimize[${PYTHON_USEDEP}] )
 	other? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	other? ( dev-python/pexpect[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests tests_files"
-DEPENDENCIES="dev-python/wrapt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/wrapt-1.11.2[${PYTHON_USEDEP}]
 	dev-python/oarepo-validate[${PYTHON_USEDEP}]
 	dev-python/deepmerge[${PYTHON_USEDEP}]
 	dev-python/NamedAtomicLock[${PYTHON_USEDEP}]

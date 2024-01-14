@@ -26,27 +26,27 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all mariadb mysql parquet postgresql snowflake"
 DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/rich-13.4.2[${PYTHON_USEDEP}]
 	dev-python/resotoclient[${PYTHON_USEDEP}]
 	dev-python/posthog[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/resotodatalink[${PYTHON_USEDEP}]
 	dev-python/resotolib[${PYTHON_USEDEP}]
 	dev-python/resoto-plugin-aws[${PYTHON_USEDEP}]
 	dev-python/resoto-plugin-digitalocean[${PYTHON_USEDEP}]
 	dev-python/resoto-plugin-gcp[${PYTHON_USEDEP}]
 	dev-python/resoto-plugin-k8s[${PYTHON_USEDEP}]
-	all? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	all? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pyarrow-12.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	mariadb? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	parquet? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/boto3-1.26.61[${PYTHON_USEDEP}] )
+	mariadb? ( >=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}] )
+	parquet? ( ~dev-python/pyarrow-12.0.1[${PYTHON_USEDEP}] )
 	parquet? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	parquet? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	parquet? ( >=dev-python/boto3-1.26.61[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

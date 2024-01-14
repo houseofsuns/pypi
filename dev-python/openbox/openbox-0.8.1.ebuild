@@ -33,21 +33,21 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.7.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.18.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scikit-optimize[${PYTHON_USEDEP}]
 	dev-python/ConfigSpace[${PYTHON_USEDEP}]
 	dev-python/emcee[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
 	dev-python/platypus-opt[${PYTHON_USEDEP}]
-	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/setuptools-61.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/docutils-0.17[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
@@ -55,11 +55,11 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-61.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/docutils-0.17[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
@@ -72,8 +72,8 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	extra? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	extra? ( dev-python/hiplot[${PYTHON_USEDEP}] )
 	extra? ( dev-python/cma[${PYTHON_USEDEP}] )
-	service? ( dev-python/django[${PYTHON_USEDEP}] )
-	service? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	service? ( >=dev-python/django-2.2.17[${PYTHON_USEDEP}] )
+	service? ( <dev-python/pymongo-4.0[${PYTHON_USEDEP}] )
 	service? ( dev-python/bson[${PYTHON_USEDEP}] )
 	service? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
 	service? ( dev-python/pyrfr[${PYTHON_USEDEP}] )
@@ -81,7 +81,7 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	service? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	service? ( dev-python/hiplot[${PYTHON_USEDEP}] )
 	service? ( dev-python/cma[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

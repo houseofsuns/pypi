@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/websockets-9.1[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.4.7[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

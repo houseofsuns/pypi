@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pendulum[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
 	dev-python/compressed-rtf[${PYTHON_USEDEP}]
 	dev-python/extract-msg[${PYTHON_USEDEP}]
 	dev-python/PGPy[${PYTHON_USEDEP}]"

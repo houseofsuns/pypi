@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="arithmetic clingo docs parsegen rddl stubs test"
 DEPENDENCIES="dev-python/multipledispatch[${PYTHON_USEDEP}]
-	dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
+	~dev-python/antlr4-python3-runtime-4.7.2[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	arithmetic? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	arithmetic? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	clingo? ( dev-python/clingo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	parsegen? ( dev-python/ply[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.8.8[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ipykernel-6.9.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ipython-8.1.0[${PYTHON_USEDEP}] )
+	parsegen? ( ~dev-python/ply-3.11[${PYTHON_USEDEP}] )
 	rddl? ( dev-python/pyrddl[${PYTHON_USEDEP}] )
 	stubs? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )"

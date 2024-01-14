@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/jaxtyping[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typeguard[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.13.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/typeguard-2.13.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ninja[${PYTHON_USEDEP}] )"

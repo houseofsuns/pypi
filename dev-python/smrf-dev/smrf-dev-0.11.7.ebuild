@@ -27,21 +27,21 @@ IUSE="docs tests"
 DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
 	dev-python/inicheck[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.23.0[${PYTHON_USEDEP}]
+	~dev-python/pytz-2017.3[${PYTHON_USEDEP}]
+	<dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
 	dev-python/utm[${PYTHON_USEDEP}]
 	dev-python/pykrige[${PYTHON_USEDEP}]
 	dev-python/spatialnc[${PYTHON_USEDEP}]
 	dev-python/weather-forecast-retrieval[${PYTHON_USEDEP}]
 	dev-python/topocalc[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	<dev-python/setuptools-scm-4.2[${PYTHON_USEDEP}]
+	<dev-python/xarray-0.16[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-bibtex-1.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-websupport-1.0.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

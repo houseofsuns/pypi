@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aes all assets rsa"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	aes? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
 	all? ( dev-python/rsa[${PYTHON_USEDEP}] )
 	all? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )

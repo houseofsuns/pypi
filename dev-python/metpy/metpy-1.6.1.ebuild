@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc examples extras test"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/pooch-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.0.5[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.21.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/metpy[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-gallery-0.4[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	examples? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	examples? ( dev-python/metpy[${PYTHON_USEDEP}] )
 	extras? ( dev-python/cartopy[${PYTHON_USEDEP}] )
-	extras? ( dev-python/dask[${PYTHON_USEDEP}] )
-	extras? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/dask-2020.12.0[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/shapely-1.6.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
-	test? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/packaging-21.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

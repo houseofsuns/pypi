@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.1[${PYTHON_USEDEP}]
 	dev-python/NREL-rex[${PYTHON_USEDEP}]
 	dev-python/NREL-phygnn[${PYTHON_USEDEP}]
 	dev-python/NREL-gaps[${PYTHON_USEDEP}]
 	dev-python/NREL-farms[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	~dev-python/google-auth-oauthlib-0.5.3[${PYTHON_USEDEP}]
+	>=dev-python/pytest-5.2[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]

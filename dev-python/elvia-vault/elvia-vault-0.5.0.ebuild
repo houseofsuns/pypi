@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/hvac[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-36.0.0[${PYTHON_USEDEP}]
+	>=dev-python/hvac-1.0.2[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.5.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

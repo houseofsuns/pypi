@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	doc? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocs-1.4.3[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocs-material-8.5.11[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/markdown-3.2.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/markdown-include-0.8.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
 	doc? ( dev-python/typer[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/babel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

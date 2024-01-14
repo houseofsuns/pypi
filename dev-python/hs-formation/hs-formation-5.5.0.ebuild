@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/toolz[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/toolz-0.9.0[${PYTHON_USEDEP}]
 	dev-python/cytoolz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20[${PYTHON_USEDEP}]
 	dev-python/pybreaker[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.11.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.2[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.1[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.7.3[${PYTHON_USEDEP}]
 	dev-python/aiobreaker[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

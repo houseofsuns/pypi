@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]"
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
+	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

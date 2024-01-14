@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
-	dev-python/timeout-decorator[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/sympy-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/antlr4-python3-runtime-4.10[${PYTHON_USEDEP}]
+	<dev-python/timeout-decorator-0.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

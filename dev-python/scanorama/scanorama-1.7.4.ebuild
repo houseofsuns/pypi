@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/annoy[${PYTHON_USEDEP}]
 	dev-python/fbpca[${PYTHON_USEDEP}]
 	dev-python/geosketch[${PYTHON_USEDEP}]
-	dev-python/intervaltree[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/intervaltree-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.12.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

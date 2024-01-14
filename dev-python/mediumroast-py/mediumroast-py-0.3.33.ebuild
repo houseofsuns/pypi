@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-magic-0.5.0[${PYTHON_USEDEP}]
 	dev-python/pdfx[${PYTHON_USEDEP}]
 	dev-python/PyDocX[${PYTHON_USEDEP}]
 	dev-python/python-pptx[${PYTHON_USEDEP}]

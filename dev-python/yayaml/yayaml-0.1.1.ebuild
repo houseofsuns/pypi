@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/ipython-7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

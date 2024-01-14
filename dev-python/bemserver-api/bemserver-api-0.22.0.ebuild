@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/apispec[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/apispec-7.0[${PYTHON_USEDEP}]
 	dev-python/bemserver-core[${PYTHON_USEDEP}]
 	dev-python/flask-httpauth[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	<dev-python/flask-3.0[${PYTHON_USEDEP}]
 	dev-python/flask-smorest[${PYTHON_USEDEP}]
 	dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
+	<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.9.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

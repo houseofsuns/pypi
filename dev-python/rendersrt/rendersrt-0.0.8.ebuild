@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pysrt[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pysrt-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/progressbar2-3.34.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

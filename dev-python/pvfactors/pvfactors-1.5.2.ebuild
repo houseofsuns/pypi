@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
 DEPENDENCIES="dev-python/pvlib[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	<dev-python/shapely-2.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
@@ -35,8 +35,8 @@ DEPENDENCIES="dev-python/pvlib[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-github-alt[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-3.2.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-mock-1.10.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

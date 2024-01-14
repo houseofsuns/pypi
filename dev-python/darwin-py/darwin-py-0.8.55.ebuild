@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev medical ml ocv test"
-DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/argcomplete-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/humanize-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/upolygon[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/deprecation-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/types-pyyaml[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/json-stream[${PYTHON_USEDEP}]
 	medical? ( dev-python/nibabel[${PYTHON_USEDEP}] )
 	medical? ( dev-python/connected-components_3d[${PYTHON_USEDEP}] )
@@ -47,18 +47,18 @@ DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
 	ml? ( dev-python/albumentations[${PYTHON_USEDEP}] )
 	ml? ( dev-python/torch[${PYTHON_USEDEP}] )
 	ml? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/debugpy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/responses-0.23.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/responses-0.23.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/debugpy-1.6.7[${PYTHON_USEDEP}] )
 	dev-python/mpire[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	ocv? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-rerunfailures-13.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/validate-pyproject[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/dockerflow[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/sqlparse[${PYTHON_USEDEP}]
 	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

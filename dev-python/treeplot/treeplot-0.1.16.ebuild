@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/sklearn[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
+	>=dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
 	dev-python/funcsigs[${PYTHON_USEDEP}]"

@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/logmuse[${PYTHON_USEDEP}]
 	dev-python/refgenconf[${PYTHON_USEDEP}]
 	dev-python/ubiquerg[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]"
+	>=dev-python/uvicorn-0.7.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

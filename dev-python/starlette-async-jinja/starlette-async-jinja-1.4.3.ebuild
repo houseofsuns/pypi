@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/starlette[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/starlette-0.34.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/jinja2-async-environment[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

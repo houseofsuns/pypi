@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs graph test"
 DEPENDENCIES="dev-python/django-model-utils[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
 	dev-python/swapper[${PYTHON_USEDEP}]
 	dev-python/django-fsm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	<dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
+	test? ( <dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/requests-mock-2.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-django-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-factoryboy[${PYTHON_USEDEP}] )
-	test? ( dev-python/asgiref[${PYTHON_USEDEP}] )
+	test? ( <dev-python/asgiref-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	graph? ( dev-python/graphviz[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinx-rtd-theme-0.6.0[${PYTHON_USEDEP}] )
+	graph? ( <dev-python/graphviz-0.17[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="opendistro"
-DEPENDENCIES="dev-python/elasticsearch[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/elasticsearch-7.14[${PYTHON_USEDEP}]
+	<dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	opendistro? ( dev-python/requests-aws4auth[${PYTHON_USEDEP}] )
 	opendistro? ( dev-python/boto3[${PYTHON_USEDEP}] )"

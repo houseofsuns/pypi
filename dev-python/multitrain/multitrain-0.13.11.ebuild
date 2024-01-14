@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.4.4[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
+	~dev-python/plotly-5.10.0[${PYTHON_USEDEP}]
+	~dev-python/ipython-8.4.0[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
 	dev-python/imbalanced-learn[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
 	dev-python/scikit-optimize[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/threadpoolctl-3.1.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]"
+	~dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
+	~dev-python/ipywidgets-8.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

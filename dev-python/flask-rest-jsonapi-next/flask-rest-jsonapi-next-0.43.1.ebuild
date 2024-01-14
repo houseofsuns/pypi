@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-jsonapi[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

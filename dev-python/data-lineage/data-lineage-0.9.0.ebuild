@@ -27,19 +27,19 @@ IUSE=""
 DEPENDENCIES="dev-python/pglast[${PYTHON_USEDEP}]
 	dev-python/inflection[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/dbcat[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	<dev-python/flask-2.0[${PYTHON_USEDEP}]
 	dev-python/flask-restless-ng[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
 	dev-python/flask-restful[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/rq[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]"
+	<dev-python/botocore-2.0[${PYTHON_USEDEP}]
+	<dev-python/rq-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/redis-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

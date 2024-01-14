@@ -27,7 +27,7 @@ IUSE="all visualizer"
 DEPENDENCIES="dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/plyfile[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pyquaternion[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

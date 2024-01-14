@@ -27,7 +27,7 @@ IUSE="all dev tests"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/ctapipe[${PYTHON_USEDEP}]
 	dev-python/protozfits[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )

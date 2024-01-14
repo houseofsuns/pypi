@@ -27,7 +27,7 @@ IUSE="dev docs image pyqt5 pyqt6 pyside2 pyside6 test"
 DEPENDENCIES="dev-python/fonticon-materialdesignicons6[${PYTHON_USEDEP}]
 	dev-python/pymmcore-plus[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
-	dev-python/superqt[${PYTHON_USEDEP}]
+	>=dev-python/superqt-0.5.3[${PYTHON_USEDEP}]
 	dev-python/useq-schema[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cruft[${PYTHON_USEDEP}] )
@@ -49,10 +49,10 @@ DEPENDENCIES="dev-python/fonticon-materialdesignicons6[${PYTHON_USEDEP}]
 	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
-	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
+	pyside6? ( <dev-python/pyside6-6.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	test? ( dev-python/vispy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

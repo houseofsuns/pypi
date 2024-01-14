@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dxcam"
 DEPENDENCIES="dev-python/asciimatics[${PYTHON_USEDEP}]
 	dev-python/keyboard[${PYTHON_USEDEP}]
-	dev-python/mss[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/mss-9.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.0[${PYTHON_USEDEP}]
 	dev-python/pywinctl[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/wxpython[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	<dev-python/wxpython-5.0[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.127.0[${PYTHON_USEDEP}]
 	dev-python/wxasync[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-23.2[${PYTHON_USEDEP}]
 	dxcam? ( dev-python/dxcam[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

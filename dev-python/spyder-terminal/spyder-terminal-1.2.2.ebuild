@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/spyder[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/spyder-5.2.0[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/terminado[${PYTHON_USEDEP}]
+	>=dev-python/terminado-0.13.1[${PYTHON_USEDEP}]
 	dev-python/coloredlogs[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-qt-3.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

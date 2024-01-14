@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/pipelinewise-singer-python[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	~dev-python/inflection-0.3.1[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
+	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

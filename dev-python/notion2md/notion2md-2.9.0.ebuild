@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/notion-client[${PYTHON_USEDEP}]
-	dev-python/cleo[${PYTHON_USEDEP}]"
+	>=dev-python/cleo-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

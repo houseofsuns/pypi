@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/cabina[${PYTHON_USEDEP}]
 	dev-python/dessert[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	<dev-python/filelock-4.0[${PYTHON_USEDEP}]
 	dev-python/niltype[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	<dev-python/pyparsing-4.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

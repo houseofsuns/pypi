@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bqm bqm-legacy cqm dqm dqm-legacy mocks test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.18[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/homebase[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7[${PYTHON_USEDEP}]
 	dev-python/plucky[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/diskcache-5.2.1[${PYTHON_USEDEP}]
+	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-2.2[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev-python/authlib[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}]
 	bqm? ( dev-python/dimod[${PYTHON_USEDEP}] )
-	bqm? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	bqm? ( >=dev-python/numpy-1.17.3[${PYTHON_USEDEP}] )
 	bqm-legacy? ( dev-python/dimod[${PYTHON_USEDEP}] )
-	bqm-legacy? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	bqm-legacy? ( <dev-python/numpy-1.24[${PYTHON_USEDEP}] )
 	cqm? ( dev-python/dimod[${PYTHON_USEDEP}] )
-	cqm? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	cqm? ( >=dev-python/numpy-1.17.3[${PYTHON_USEDEP}] )
 	dqm? ( dev-python/dimod[${PYTHON_USEDEP}] )
-	dqm? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	dqm? ( >=dev-python/numpy-1.17.3[${PYTHON_USEDEP}] )
 	dqm-legacy? ( dev-python/dimod[${PYTHON_USEDEP}] )
-	dqm-legacy? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	dqm-legacy? ( <dev-python/numpy-1.24[${PYTHON_USEDEP}] )
 	mocks? ( dev-python/dwave-networkx[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )

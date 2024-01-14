@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev extra"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/category-encoders[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
@@ -36,20 +36,20 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pytorch-tabnet[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>dev-python/matplotlib-3.1[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
+	>=dev-python/rich-11.0.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pip-23.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wget[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-material-9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-0.21[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mknotebooks[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	extra? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	extra? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	extra? ( <dev-python/plotly-5.15.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/kaleido[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

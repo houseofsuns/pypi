@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs evaluator quality template tensorflow tensorflow_gpu tests torch"
 DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.19.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62.1[${PYTHON_USEDEP}]
 	dev-python/xxhash[${PYTHON_USEDEP}]
 	dev-python/multiprocess[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2021.5.0[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/responses[${PYTHON_USEDEP}]
+	<dev-python/responses-0.19[${PYTHON_USEDEP}]
 	dev? ( dev-python/absl-py[${PYTHON_USEDEP}] )
 	dev? ( dev-python/charcut[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cer[${PYTHON_USEDEP}] )
@@ -59,23 +59,23 @@ DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
 	dev? ( dev-python/mauve-text[${PYTHON_USEDEP}] )
 	dev? ( dev-python/trectools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests-file[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tldextract[${PYTHON_USEDEP}] )
-	dev? ( dev-python/texttable[${PYTHON_USEDEP}] )
-	dev? ( dev-python/unidecode[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/requests-file-1.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tldextract-3.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/texttable-1.6.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/unidecode-1.3.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
-	dev? ( dev-python/six[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/six-1.15.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	evaluator? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	evaluator? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
-	quality? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	quality? ( dev-python/isort[${PYTHON_USEDEP}] )
-	quality? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	evaluator? ( >=dev-python/scipy-1.7.1[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/isort-5.0.0[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
 	template? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
 	template? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
@@ -103,12 +103,12 @@ DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
 	tests? ( dev-python/mauve-text[${PYTHON_USEDEP}] )
 	tests? ( dev-python/trectools[${PYTHON_USEDEP}] )
 	tests? ( dev-python/toml[${PYTHON_USEDEP}] )
-	tests? ( dev-python/requests-file[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tldextract[${PYTHON_USEDEP}] )
-	tests? ( dev-python/texttable[${PYTHON_USEDEP}] )
-	tests? ( dev-python/unidecode[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/requests-file-1.5.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/tldextract-3.1.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/texttable-1.6.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/unidecode-1.3.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
-	tests? ( dev-python/six[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/six-1.15.0[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

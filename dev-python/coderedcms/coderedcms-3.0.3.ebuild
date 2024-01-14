@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/beautifulsoup4-4.12[${PYTHON_USEDEP}]
 	dev-python/django-eventtools[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap5[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/geocoder[${PYTHON_USEDEP}]
-	dev-python/icalendar[${PYTHON_USEDEP}]
+	~dev-python/icalendar-5.0[${PYTHON_USEDEP}]
 	dev-python/wagtail[${PYTHON_USEDEP}]
 	dev-python/wagtail-cache[${PYTHON_USEDEP}]
 	dev-python/wagtail-seo[${PYTHON_USEDEP}]"

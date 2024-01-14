@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-63.1.0[${PYTHON_USEDEP}]
+	>=dev-python/phonenumbers-8.12.15[${PYTHON_USEDEP}]
+	>=dev-python/email-validator-1.2.1[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
 	dev-python/Hypercorn[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
+	>=dev-python/starlette-0.19.0[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
+	>=dev-python/validators-0.20.0[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.1.2[${PYTHON_USEDEP}]
 	dev-python/CherryPy[${PYTHON_USEDEP}]
 	dev-python/response-report[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

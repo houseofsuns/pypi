@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	development? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	development? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

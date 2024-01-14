@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bf json lua"
-DEPENDENCIES="json? ( dev-python/jsonpath-ng[${PYTHON_USEDEP}] )
+DEPENDENCIES="json? ( <dev-python/jsonpath-ng-2.0[${PYTHON_USEDEP}] )
 	lua? ( dev-python/lupa[${PYTHON_USEDEP}] )
 	bf? ( dev-python/pybloom-live[${PYTHON_USEDEP}] )
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]"
+	>=dev-python/redis-4.0[${PYTHON_USEDEP}]
+	<dev-python/sortedcontainers-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev journald test"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/zope-interface[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	dev-python/boltons[${PYTHON_USEDEP}]
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	>=dev-python/pyrsistent-0.11.8[${PYTHON_USEDEP}]
+	>=dev-python/boltons-19.0.1[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/setuptools-40.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-1.12.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	journald? ( dev-python/cffi[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	journald? ( >=dev-python/cffi-1.1.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-1.14.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/testtools[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"

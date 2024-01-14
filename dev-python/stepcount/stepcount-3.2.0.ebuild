@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES="dev-python/actipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.10[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.64[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/imbalanced-learn[${PYTHON_USEDEP}]
 	dev-python/hmmlearn[${PYTHON_USEDEP}]
@@ -44,10 +44,10 @@ DEPENDENCIES="dev-python/actipy[${PYTHON_USEDEP}]
 	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinxcontrib-programoutput-0.17[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

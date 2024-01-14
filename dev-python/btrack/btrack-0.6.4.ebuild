@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs napari"
-DEPENDENCIES="dev-python/cvxopt[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cvxopt-1.3.1[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
+	>=dev-python/pooch-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

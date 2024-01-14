@@ -27,13 +27,13 @@ IUSE=""
 DEPENDENCIES="dev-python/octopus-proto[${PYTHON_USEDEP}]
 	dev-python/octopus-kernel[${PYTHON_USEDEP}]
 	dev-python/octopus-sdk[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-tools-1.57.0[${PYTHON_USEDEP}]
 	dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}]
 	dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/orm[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

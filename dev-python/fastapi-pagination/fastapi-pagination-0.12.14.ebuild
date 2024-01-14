@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all asyncpg beanie bunnet databases django mongoengine motor orm ormar piccolo scylla-driver sqlalchemy sqlmodel tortoise"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	sqlalchemy? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	asyncpg? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	all? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
@@ -42,8 +42,8 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	all? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	ormar? ( dev-python/ormar[${PYTHON_USEDEP}] )
 	all? ( dev-python/ormar[${PYTHON_USEDEP}] )
-	django? ( dev-python/django[${PYTHON_USEDEP}] )
-	all? ( dev-python/django[${PYTHON_USEDEP}] )
+	django? ( <dev-python/django-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/django-5.0.0[${PYTHON_USEDEP}] )
 	piccolo? ( dev-python/piccolo[${PYTHON_USEDEP}] )
 	all? ( dev-python/piccolo[${PYTHON_USEDEP}] )
 	motor? ( dev-python/motor[${PYTHON_USEDEP}] )

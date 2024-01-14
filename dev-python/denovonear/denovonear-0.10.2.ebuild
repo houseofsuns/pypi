@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.19.0[${PYTHON_USEDEP}]
 	dev-python/gencodegenes[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

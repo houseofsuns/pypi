@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.19.3[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/json5[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	develop? ( dev-python/twine[${PYTHON_USEDEP}] )
-	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	~dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
+	~dev-python/json5-0.9.5[${PYTHON_USEDEP}]
+	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
+	develop? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/wheel-0.37.1[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/twine-3.8.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

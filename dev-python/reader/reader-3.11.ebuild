@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="app cli dev docs tests unstable-plugins"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/feedparser[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	app? ( dev-python/flask[${PYTHON_USEDEP}] )
-	app? ( dev-python/humanize[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
+	>=dev-python/feedparser-6.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18[${PYTHON_USEDEP}]
+	>dev-python/werkzeug-2.0[${PYTHON_USEDEP}]
+	>=dev-python/iso8601-1.0[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.5[${PYTHON_USEDEP}]
+	app? ( >=dev-python/flask-0.10[${PYTHON_USEDEP}] )
+	app? ( >=dev-python/humanize-4.0[${PYTHON_USEDEP}] )
 	app? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/reader[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
@@ -41,13 +41,13 @@ DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/click[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-log-cabinet[${PYTHON_USEDEP}] )
 	docs? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flaky[${PYTHON_USEDEP}] )
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	unstable-plugins? ( dev-python/requests[${PYTHON_USEDEP}] )
 	unstable-plugins? ( dev-python/mutagen[${PYTHON_USEDEP}] )
 	unstable-plugins? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	unstable-plugins? ( dev-python/blinker[${PYTHON_USEDEP}] )
+	unstable-plugins? ( >=dev-python/blinker-1.4[${PYTHON_USEDEP}] )
 	unstable-plugins? ( dev-python/tabulate[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

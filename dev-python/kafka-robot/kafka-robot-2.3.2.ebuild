@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
-	dev-python/kafka-python[${PYTHON_USEDEP}]"
+	>=dev-python/kafka-python-2.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ply[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.2.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/gym[${PYTHON_USEDEP}]
 	dev-python/pygame[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

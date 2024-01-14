@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pypresence webview"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/legendary-gl[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]

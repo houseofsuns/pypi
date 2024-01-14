@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/jupyterhub[${PYTHON_USEDEP}]
 	dev-python/oauthenticator[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]"
+	>=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

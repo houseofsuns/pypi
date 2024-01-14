@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/commonmark[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/commonmark-0.8.1[${PYTHON_USEDEP}]
+	>=dev-python/docutils-0.11[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-1.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

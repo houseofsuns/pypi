@@ -28,12 +28,12 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/bbknn[${PYTHON_USEDEP}]
 	dev-python/celltypist[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>dev-python/h5py-3.7.0[${PYTHON_USEDEP}]
 	dev-python/harmony-pytorch[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/obonet[${PYTHON_USEDEP}]
 	dev-python/onclass[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scanorama[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -42,8 +42,8 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	doc? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/docutils-0.8[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
@@ -51,8 +51,8 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinxcontrib-bibtex-1.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

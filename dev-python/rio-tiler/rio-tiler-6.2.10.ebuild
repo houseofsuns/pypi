@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/morecantile[${PYTHON_USEDEP}]
 	dev-python/numexpr[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pystac[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/pytest[${PYTHON_USEDEP}] )

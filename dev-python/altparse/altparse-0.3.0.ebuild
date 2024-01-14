@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/github3-py[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/requests-2.28.0[${PYTHON_USEDEP}]
+	>=dev-python/github3-py-3.2.0[${PYTHON_USEDEP}]
+	~dev-python/packaging-21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

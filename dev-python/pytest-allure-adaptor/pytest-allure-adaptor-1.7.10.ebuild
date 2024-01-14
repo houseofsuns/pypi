@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lxml-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-2.7.3[${PYTHON_USEDEP}]
 	dev-python/namedlist[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
 	dev-python/enum34[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

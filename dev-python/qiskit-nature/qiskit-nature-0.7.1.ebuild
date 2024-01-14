@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mpl opt_einsum pyscf sparse"
 DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
 	dev-python/qiskit-algorithms[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-40.1.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/rustworkx[${PYTHON_USEDEP}]
-	mpl? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	>=dev-python/rustworkx-0.12[${PYTHON_USEDEP}]
+	mpl? ( >=dev-python/matplotlib-3.3[${PYTHON_USEDEP}] )
 	opt_einsum? ( dev-python/opt-einsum[${PYTHON_USEDEP}] )
 	pyscf? ( dev-python/pyscf[${PYTHON_USEDEP}] )
 	sparse? ( dev-python/sparse[${PYTHON_USEDEP}] )"

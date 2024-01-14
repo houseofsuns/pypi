@@ -25,29 +25,29 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs testing"
 DEPENDENCIES="dev-python/agraph-python[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/diskcache-6.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.5[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/psycopg[${PYTHON_USEDEP}]
+	~dev-python/psycopg-3.1.12[${PYTHON_USEDEP}]
 	dev-python/pysftp[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/oteapi-core[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mike[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ase[${PYTHON_USEDEP}] )
-	testing? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-celery[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/redis[${PYTHON_USEDEP}] )
-	testing? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/redis-5.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/requests-mock-1.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,15 +28,15 @@ DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
 	dev-python/Rtree[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/dask-geopandas[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	~dev-python/elasticsearch-7.17.0[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	dev-python/h3[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	dev-python/osm2geojson[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]"
+	>=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
+	~dev-python/pyproj-3.5.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

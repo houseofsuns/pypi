@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/ruamel-yaml-0.15.69[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.18[${PYTHON_USEDEP}]
 	dev-python/rfc3987[${PYTHON_USEDEP}]
 	dev-python/pylibfdt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all ds md testing"
-DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/configupdater[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/platformdirs-4.0[${PYTHON_USEDEP}]
+	<dev-python/configupdater-4.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-46.1.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-scm-5.0[${PYTHON_USEDEP}]
+	<dev-python/tomlkit-2.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.7[${PYTHON_USEDEP}]
 	all? ( dev-python/pyscaffoldext-markdown[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyscaffoldext-custom-extension[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyscaffoldext-dsproject[${PYTHON_USEDEP}] )

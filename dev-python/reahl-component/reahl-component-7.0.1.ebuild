@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/Babel-2.12.999[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-2.8.999[${PYTHON_USEDEP}]
+	<dev-python/wrapt-1.15.999[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-51.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pip-21.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	test? ( dev-python/reahl-tofu[${PYTHON_USEDEP}] )
 	test? ( dev-python/reahl-stubble[${PYTHON_USEDEP}] )

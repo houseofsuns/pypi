@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/showlog[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/envx[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	~dev-python/pytz-2022.1[${PYTHON_USEDEP}]
 	dev-python/ua-parser[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}]
+	~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
 	dev-python/m3u8[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.10.1[${PYTHON_USEDEP}]
+	~dev-python/filetype-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/netifaces-0.11.0[${PYTHON_USEDEP}]
 	dev-python/user-agents[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,35 +24,35 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="admin api asyncio celery dev docs graphene mail oauth security session sqlalchemy"
-DEPENDENCIES="dev-python/blinker[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/blinker-1.4[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.1[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.0.1[${PYTHON_USEDEP}]
 	dev-python/flask-babelex[${PYTHON_USEDEP}]
 	dev-python/flask-wtf[${PYTHON_USEDEP}]
 	dev-python/py-meta-utils[${PYTHON_USEDEP}]
 	dev-python/pyterminalsize[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/wtforms[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/wtforms-2.3.3[${PYTHON_USEDEP}]
+	>=dev-python/email-validator-1.1.2[${PYTHON_USEDEP}]
 	admin? ( dev-python/flask-admin[${PYTHON_USEDEP}] )
-	api? ( dev-python/apispec[${PYTHON_USEDEP}] )
+	api? ( <dev-python/apispec-5.0[${PYTHON_USEDEP}] )
 	api? ( dev-python/apispec-webframeworks[${PYTHON_USEDEP}] )
 	api? ( dev-python/flask-marshmallow[${PYTHON_USEDEP}] )
-	api? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
+	api? ( >=dev-python/marshmallow-3.12.1[${PYTHON_USEDEP}] )
 	api? ( dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}] )
 	asyncio? ( dev-python/quart[${PYTHON_USEDEP}] )
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
-	celery? ( dev-python/dill[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	celery? ( >=dev-python/dill-0.3.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-4.6.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-3.5.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	docs? ( dev-python/qtconsole[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/PyQt5-5.15.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/qtconsole-5.1.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r[${PYTHON_USEDEP}] )
@@ -62,20 +62,20 @@ DEPENDENCIES="dev-python/blinker[${PYTHON_USEDEP}]
 	graphene? ( dev-python/flask-graphql[${PYTHON_USEDEP}] )
 	graphene? ( dev-python/graphene[${PYTHON_USEDEP}] )
 	graphene? ( dev-python/graphene-sqlalchemy[${PYTHON_USEDEP}] )
-	mail? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	mail? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	mail? ( >=dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}] )
+	mail? ( >=dev-python/lxml-4.6.1[${PYTHON_USEDEP}] )
 	oauth? ( dev-python/Flask-OAuthlib[${PYTHON_USEDEP}] )
-	security? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
-	security? ( dev-python/flask-login[${PYTHON_USEDEP}] )
+	security? ( >=dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}] )
+	security? ( >=dev-python/flask-login-0.5.0[${PYTHON_USEDEP}] )
 	security? ( dev-python/flask-principal[${PYTHON_USEDEP}] )
-	security? ( dev-python/itsdangerous[${PYTHON_USEDEP}] )
-	security? ( dev-python/passlib[${PYTHON_USEDEP}] )
-	session? ( dev-python/dill[${PYTHON_USEDEP}] )
+	security? ( >=dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}] )
+	security? ( >=dev-python/passlib-1.7.4[${PYTHON_USEDEP}] )
+	session? ( >=dev-python/dill-0.3.3[${PYTHON_USEDEP}] )
 	session? ( dev-python/flask-session[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/flask-migrate[${PYTHON_USEDEP}] )
+	sqlalchemy? ( >=dev-python/flask-migrate-2.5.3[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/flask-sqlalchemy-unchained[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	sqlalchemy? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/sqlalchemy-unchained[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/wtforms-sqlalchemy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

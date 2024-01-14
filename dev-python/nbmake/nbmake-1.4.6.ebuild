@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/nbclient[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]"
+	>=dev-python/ipykernel-5.4.0[${PYTHON_USEDEP}]
+	<dev-python/nbclient-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/nbformat-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

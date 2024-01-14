@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/iniconfig[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/soupsieve[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/webencodings[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	~dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]
+	~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/html5lib-1.1[${PYTHON_USEDEP}]
+	~dev-python/idna-3.6[${PYTHON_USEDEP}]
+	~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
+	~dev-python/pluggy-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4.4[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/soupsieve-2.5[${PYTHON_USEDEP}]
+	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]
+	~dev-python/webencodings-0.5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

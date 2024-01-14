@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/chrisbase[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
 	dev-python/jupyterlab[${PYTHON_USEDEP}]
 	dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]"
+	~dev-python/tornado-6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

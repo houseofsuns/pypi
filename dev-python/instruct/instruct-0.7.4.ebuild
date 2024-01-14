@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="devel test"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/inflection-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	devel? ( dev-python/twine[${PYTHON_USEDEP}] )
 	devel? ( dev-python/build[${PYTHON_USEDEP}] )
 	devel? ( dev-python/black[${PYTHON_USEDEP}] )

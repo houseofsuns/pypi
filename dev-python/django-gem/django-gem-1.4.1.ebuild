@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-6.0.0[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/django-dirtyfields[${PYTHON_USEDEP}]
 	dev-python/django-crum[${PYTHON_USEDEP}]"

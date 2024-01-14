@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all recaptcha"
-DEPENDENCIES="all? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	recaptcha? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
+	recaptcha? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	all? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	recaptcha? ( dev-python/starlette[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/starlette-0.26.1[${PYTHON_USEDEP}] )
+	recaptcha? ( ~dev-python/starlette-0.26.1[${PYTHON_USEDEP}] )
 	dev-python/tinydb[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

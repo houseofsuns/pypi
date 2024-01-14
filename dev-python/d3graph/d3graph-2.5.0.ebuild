@@ -27,11 +27,11 @@ IUSE=""
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/colourmap[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	dev-python/ismember[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	dev-python/python-louvain[${PYTHON_USEDEP}]
 	dev-python/datazets[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

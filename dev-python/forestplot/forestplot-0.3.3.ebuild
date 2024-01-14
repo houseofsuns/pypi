@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/matplotlib-inline[${PYTHON_USEDEP}]"
+	<=dev-python/matplotlib-inline-0.1.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

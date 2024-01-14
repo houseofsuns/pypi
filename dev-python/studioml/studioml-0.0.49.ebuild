@@ -53,6 +53,6 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/rsa[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]"
+	>=dev-python/pika-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

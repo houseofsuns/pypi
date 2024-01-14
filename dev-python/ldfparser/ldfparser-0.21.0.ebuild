@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/lark[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/lark-2.0[${PYTHON_USEDEP}]
 	dev-python/bitstruct[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )

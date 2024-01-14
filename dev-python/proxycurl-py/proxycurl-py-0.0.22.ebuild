@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="asyncio gevent twisted"
 DEPENDENCIES="twisted? ( dev-python/Twisted[${PYTHON_USEDEP}] )
-	asyncio? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	asyncio? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	asyncio? ( dev-python/asyncio[${PYTHON_USEDEP}] )
 	gevent? ( dev-python/gevent[${PYTHON_USEDEP}] )
-	gevent? ( dev-python/requests[${PYTHON_USEDEP}] )
-	twisted? ( dev-python/treq[${PYTHON_USEDEP}] )"
+	gevent? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	twisted? ( <dev-python/treq-22.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

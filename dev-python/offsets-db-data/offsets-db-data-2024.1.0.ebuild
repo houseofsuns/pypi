@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/country-converter[${PYTHON_USEDEP}]
 	dev-python/fastparquet[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2023.10[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.5[${PYTHON_USEDEP}]
 	dev-python/pyjanitor[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

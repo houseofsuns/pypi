@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="oauth"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	oauth? ( dev-python/requests-oauthlib[${PYTHON_USEDEP}] )
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	oauth? ( >=dev-python/requests-oauthlib-1.2.0[${PYTHON_USEDEP}] )
+	~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	<dev-python/pip-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

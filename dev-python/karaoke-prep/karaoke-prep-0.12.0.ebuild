@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="silicon"
 DEPENDENCIES="silicon? ( dev-python/audio-separator[${PYTHON_USEDEP}] )
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.0[${PYTHON_USEDEP}]
 	dev-python/fetch-lyrics-from-genius[${PYTHON_USEDEP}]
 	dev-python/google-api-python-client[${PYTHON_USEDEP}]
 	dev-python/google-auth[${PYTHON_USEDEP}]
 	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
 	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
 	dev-python/lyricsgenius[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.1[${PYTHON_USEDEP}]
 	dev-python/pyinstaller[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/pyperclip-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

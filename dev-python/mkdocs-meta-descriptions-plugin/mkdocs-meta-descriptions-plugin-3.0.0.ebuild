@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mkdocs-1.1[${PYTHON_USEDEP}]
+	>=dev-python/pymdown-extensions-7.0[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.9[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

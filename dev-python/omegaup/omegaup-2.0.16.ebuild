@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
 	testing? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	testing? ( dev-python/astunparse[${PYTHON_USEDEP}] )
-	testing? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/iniconfig[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mccabe[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/astunparse-1.6.3[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/docutils-0.19[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pdoc[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/py[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pluggy-1.0.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/py-1.11.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pycodestyle-2.8.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pyflakes-2.4.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pyparsing-3.0.9[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	testing? ( dev-python/toml[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	testing? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/typing-extensions-4.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/flask-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/flask-sqlalchemy-4.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/pyfunctional[${PYTHON_USEDEP}]
 	dev-python/pysimplegui[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/selectolax[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]"
+	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

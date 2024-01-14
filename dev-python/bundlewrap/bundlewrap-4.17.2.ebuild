@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/Mako[${PYTHON_USEDEP}]
 	dev-python/passlib[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-1.0.0[${PYTHON_USEDEP}]
 	dev-python/librouteros[${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]
 	dev-python/rtoml[${PYTHON_USEDEP}]"

@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.11.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/syrupy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

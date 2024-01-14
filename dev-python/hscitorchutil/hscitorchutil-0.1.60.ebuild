@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/edzip[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	dev-python/multiprocessing-utils[${PYTHON_USEDEP}]
 	dev-python/lightning[${PYTHON_USEDEP}]
 	dev-python/morefs[${PYTHON_USEDEP}]"

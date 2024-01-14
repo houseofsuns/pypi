@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/mock[${PYTHON_USEDEP}]
 	dev-python/nest-asyncio[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/pytest-async[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	<dev-python/pytest-asyncio-0.19[${PYTHON_USEDEP}]
 	dev-python/pop[${PYTHON_USEDEP}]
 	dev-python/dict-toolbox[${PYTHON_USEDEP}]
 	dev-python/pop-config[${PYTHON_USEDEP}]"

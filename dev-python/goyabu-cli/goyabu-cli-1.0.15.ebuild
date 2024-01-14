@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/parsel[${PYTHON_USEDEP}]
 	dev-python/PyBypass[${PYTHON_USEDEP}]
 	dev-python/python-mpv-jsonipc[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	~dev-python/rich-13.3.1[${PYTHON_USEDEP}]
+	~dev-python/setuptools-64.0.1[${PYTHON_USEDEP}]
 	dev-python/termtables[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

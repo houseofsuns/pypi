@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYaml[${PYTHON_USEDEP}]
-	dev-python/aiocache[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/aiocache-0.11.1[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	~dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
 	dev-python/fastparquet[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/msgpack-1.0.4[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.22.1[${PYTHON_USEDEP}]
 	dev-python/pandas-market-calendars[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
+	~dev-python/ujson-5.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

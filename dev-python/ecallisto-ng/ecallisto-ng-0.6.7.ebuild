@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev nb"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]

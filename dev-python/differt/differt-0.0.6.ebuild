@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/chex[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxtyping[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]"
+	>=dev-python/matplotlib-3.8.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.18.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

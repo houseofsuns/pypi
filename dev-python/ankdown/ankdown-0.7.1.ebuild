@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/genanki[${PYTHON_USEDEP}]
 	dev-python/misaka[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
+	>=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	dev-python/houdini-py[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

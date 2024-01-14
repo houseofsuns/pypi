@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.11.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.4[${PYTHON_USEDEP}]
 	dev-python/momepy[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]

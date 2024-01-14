@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop"
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	develop? ( dev-python/roman[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )

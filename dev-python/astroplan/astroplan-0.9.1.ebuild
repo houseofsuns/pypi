@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs plotting test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-1.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/astroquery[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-astropy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/matplotlib-1.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/astroquery[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/astroquery[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	plotting? ( >=dev-python/matplotlib-1.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mistune[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mistune-3.0.1[${PYTHON_USEDEP}]
 	dev-python/allianceauth[${PYTHON_USEDEP}]
 	dev-python/allianceauth-app-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

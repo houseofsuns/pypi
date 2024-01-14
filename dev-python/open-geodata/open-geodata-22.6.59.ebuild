@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-58.2.0[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/folium[${PYTHON_USEDEP}]
-	dev-python/incremental[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/incremental-21.3.0[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.10[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.10[${PYTHON_USEDEP}]
 	dev-python/py7zr[${PYTHON_USEDEP}]
 	dev-python/branca[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.3.0[${PYTHON_USEDEP}]
 	dev-python/sidrapy[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

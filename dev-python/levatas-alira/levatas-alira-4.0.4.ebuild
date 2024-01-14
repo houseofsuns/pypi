@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/rq[${PYTHON_USEDEP}]
+	<dev-python/redis-4.5[${PYTHON_USEDEP}]
+	<dev-python/rq-1.13[${PYTHON_USEDEP}]
 	dev-python/rq-scheduler[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-2.29[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/twilio[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]"
+	<dev-python/jmespath-1.1[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}]
+	<dev-python/pymysql-1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="celery-redis django flask rq"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	django? ( dev-python/django[${PYTHON_USEDEP}] )
-	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	django? ( <dev-python/django-5.0.0[${PYTHON_USEDEP}] )
+	flask? ( <dev-python/flask-3.0.0[${PYTHON_USEDEP}] )
 	celery-redis? ( dev-python/celery[${PYTHON_USEDEP}] )
-	rq? ( dev-python/rq[${PYTHON_USEDEP}] )"
+	rq? ( <dev-python/rq-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

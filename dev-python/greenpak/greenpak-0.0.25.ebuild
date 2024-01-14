@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/i2c-adapter[${PYTHON_USEDEP}]
 	dev-python/i2cdriver[${PYTHON_USEDEP}]
-	dev-python/intelhex[${PYTHON_USEDEP}]"
+	>=dev-python/intelhex-2.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

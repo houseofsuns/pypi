@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/astro-tigger-lsm[${PYTHON_USEDEP}]
 	dev-python/codex-africanus[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	dev-python/columnar[${PYTHON_USEDEP}]
 	dev-python/dask-ms[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	<dev-python/dask-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
 	dev-python/stimela[${PYTHON_USEDEP}]
 	dev-python/tbump[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aligntext[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/mako[${PYTHON_USEDEP}]
+	<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/mako-2.0.0[${PYTHON_USEDEP}]
 	dev-python/outputfile[${PYTHON_USEDEP}]
 	dev-python/uniquer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

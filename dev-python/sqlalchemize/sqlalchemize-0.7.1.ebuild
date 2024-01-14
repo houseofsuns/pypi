@@ -27,10 +27,10 @@ IUSE="testing"
 DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/tinytim[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-3.24[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

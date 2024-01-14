@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all classification dashboard gcloud jupyter tensorflow"
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pip-22.0.0[${PYTHON_USEDEP}]
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow_hub[${PYTHON_USEDEP}] )
@@ -35,26 +35,26 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	classification? ( dev-python/scikit-multilearn[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-multilearn[${PYTHON_USEDEP}] )
-	classification? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	classification? ( ~dev-python/pandas-1.1.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pandas-1.1.1[${PYTHON_USEDEP}] )
 	dev-python/nltk[${PYTHON_USEDEP}]
 	gcloud? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	gcloud? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
 	dev-python/Scrapy[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
-	jupyter? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev-python/zipp[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
+	~dev-python/nbconvert-5.6.1[${PYTHON_USEDEP}]
+	~dev-python/traitlets-4.3.3[${PYTHON_USEDEP}]
+	jupyter? ( ~dev-python/ipykernel-5.5.5[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/ipykernel-5.5.5[${PYTHON_USEDEP}] )
+	jupyter? ( ~dev-python/ipython-7.16.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/ipython-7.16.1[${PYTHON_USEDEP}] )
+	<dev-python/zipp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	classification? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	all? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	gcloud? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	all? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	dev-python/pytz[${PYTHON_USEDEP}]
+	<dev-python/pytz-2022.0[${PYTHON_USEDEP}]
 	gcloud? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gcloud? ( dev-python/google-cloud-functions[${PYTHON_USEDEP}] )

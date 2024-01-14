@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/emmet-core[${PYTHON_USEDEP}]
 	dev-python/maggma[${PYTHON_USEDEP}]
 	dev-python/matminer[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-material-8.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )

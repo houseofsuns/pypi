@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lovasz"
-DEPENDENCIES="dev-python/nose[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/nose-1.1.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.27.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	lovasz? ( dev-python/cvxopt[${PYTHON_USEDEP}] )"
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
+	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	lovasz? ( >=dev-python/cvxopt-1.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

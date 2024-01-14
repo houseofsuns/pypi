@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/base32-lib[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.4[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/invenio-i18n[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/base32-lib[${PYTHON_USEDEP}]
 	tests? ( dev-python/invenio-admin[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-access[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-accounts[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mock-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/SQLAlchemy-Continuum[${PYTHON_USEDEP}] )
 	tests? ( dev-python/datacite[${PYTHON_USEDEP}] )

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async dotenv email yaml"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	async? ( dev-python/asgiref[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/flask-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.4[${PYTHON_USEDEP}]
+	async? ( >=dev-python/asgiref-3.2[${PYTHON_USEDEP}] )
 	dotenv? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	email? ( dev-python/email-validator[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"

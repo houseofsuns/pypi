@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async-http mypy testing"
-DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asn1crypto-1.5.1[${PYTHON_USEDEP}]
 	dev-python/oscrypto[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/uritools[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	async-http? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	>=dev-python/cryptography-41.0.5[${PYTHON_USEDEP}]
+	>=dev-python/uritools-3.0.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	async-http? ( <dev-python/aiohttp-3.10[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/pyhanko-certvalidator[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	testing? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.1.1[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-cov-4.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/freezegun-1.1.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/aiohttp-3.10[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-aiohttp-1.0.4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pyhanko-certvalidator[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

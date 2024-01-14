@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/local-attention[${PYTHON_USEDEP}]
 	dev-python/num2words[${PYTHON_USEDEP}]
 	dev-python/pyworld[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/vector-quantize-pytorch[${PYTHON_USEDEP}]"

@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typing-extensions-3.7.4.2[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
+	>=dev-python/pyyaml-5.2[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fixit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/hypothesis-4.36.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hypothesmith[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/maturin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/prompt-toolkit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nbsphinx-0.4.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/prompt-toolkit-2.0.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-scm-6.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ufmt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/usort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools-rust[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-rust-1.5.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/slotscheck[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyre-check[${PYTHON_USEDEP}] )"

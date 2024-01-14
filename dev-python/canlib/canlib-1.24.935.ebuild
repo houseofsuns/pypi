@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/pydantic-1.8.1[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-3.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.6.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.2.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pandas-1.2.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="collector kafka mongodb mssql mysql oracle oss postgresql prometheus rabbit s3 sso standard-ext-writer trino"
-DEPENDENCIES="dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/passlib-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/bcrypt-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	dev-python/watchmen-lineage[${PYTHON_USEDEP}]
 	dev-python/watchmen-data-surface[${PYTHON_USEDEP}]
 	collector? ( dev-python/watchmen-collector-surface[${PYTHON_USEDEP}] )
@@ -41,14 +41,14 @@ DEPENDENCIES="dev-python/passlib[${PYTHON_USEDEP}]
 	postgresql? ( dev-python/watchmen-storage-postgresql[${PYTHON_USEDEP}] )
 	oss? ( dev-python/watchmen-storage-oss[${PYTHON_USEDEP}] )
 	s3? ( dev-python/watchmen-storage-s3[${PYTHON_USEDEP}] )
-	kafka? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
+	kafka? ( <dev-python/kafka-python-3.0.0[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
 	rabbit? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	prometheus? ( dev-python/starlette-prometheus[${PYTHON_USEDEP}] )
-	standard-ext-writer? ( dev-python/requests[${PYTHON_USEDEP}] )
-	sso? ( dev-python/python3-saml[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	sso? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	dev-python/uvloop[${PYTHON_USEDEP}]"
+	standard-ext-writer? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	sso? ( <dev-python/python3-saml-2.0.0[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/cryptography-37.0.0[${PYTHON_USEDEP}] )
+	sso? ( <dev-python/cryptography-37.0.0[${PYTHON_USEDEP}] )
+	<dev-python/uvloop-0.18.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

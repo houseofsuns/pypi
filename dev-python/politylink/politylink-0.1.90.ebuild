@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sgqlc[${PYTHON_USEDEP}]
 	dev-python/kanjize[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	<dev-python/elasticsearch-8.0.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/ginza[${PYTHON_USEDEP}]

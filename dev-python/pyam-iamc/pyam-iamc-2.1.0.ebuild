@@ -27,14 +27,14 @@ IUSE="docs optional_io_formats optional_plotting tests tutorials"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/iam-units[${PYTHON_USEDEP}]
 	dev-python/ixmp4[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.11[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-41.0[${PYTHON_USEDEP}]
 	dev-python/setuptools-scm[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/wquantiles[${PYTHON_USEDEP}]
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	tutorials? ( >=dev-python/nbconvert-7.3[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/pypandoc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

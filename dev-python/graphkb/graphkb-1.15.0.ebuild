@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy dev doc test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-2.29.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-4.4[${PYTHON_USEDEP}]
 	deploy? ( dev-python/twine[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )

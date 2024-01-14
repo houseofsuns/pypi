@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aws gcp grpc kubeflow"
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.6.1[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/promise[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	>=dev-python/six-1.13.0[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sentry-sdk-0.4.0[${PYTHON_USEDEP}]
 	dev-python/subprocess32[${PYTHON_USEDEP}]
 	dev-python/docker-pycreds[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	grpc? ( ~dev-python/grpcio-1.27.2[${PYTHON_USEDEP}] )
 	kubeflow? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	kubeflow? ( dev-python/minio[${PYTHON_USEDEP}] )
 	kubeflow? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )

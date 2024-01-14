@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/click-pathlib[${PYTHON_USEDEP}]
 	dev-python/django-s3-file-field-client[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]

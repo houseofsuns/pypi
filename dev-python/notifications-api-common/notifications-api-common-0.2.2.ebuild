@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="coverage db docs pep8 release tests"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2.0[${PYTHON_USEDEP}]
 	dev-python/django-solo[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.12.0[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-camel-case[${PYTHON_USEDEP}]
 	dev-python/gemma-zds-client[${PYTHON_USEDEP}]

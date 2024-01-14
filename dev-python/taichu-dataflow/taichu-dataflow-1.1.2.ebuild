@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/boto-2.49.0[${PYTHON_USEDEP}]
 	dev-python/esdk-obs-python[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

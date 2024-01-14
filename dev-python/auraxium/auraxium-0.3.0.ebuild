@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/backoff-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0.3[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/websockets-10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

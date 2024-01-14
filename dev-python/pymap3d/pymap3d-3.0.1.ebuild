@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="core coverage format full lint proj tests"
 DEPENDENCIES="core? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	core? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	core? ( >=dev-python/numpy-1.10.0[${PYTHON_USEDEP}] )
 	coverage? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	format? ( dev-python/black[${PYTHON_USEDEP}] )
 	format? ( dev-python/isort[${PYTHON_USEDEP}] )

@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/copier[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
+	~dev-python/humanize-4.8[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/rich-13.6[${PYTHON_USEDEP}]
 	dev-python/rtoml[${PYTHON_USEDEP}]
 	dev-python/thefuzz[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]
+	~dev-python/virtualenv-20.24.6[${PYTHON_USEDEP}]
 	dev? ( dev-python/covdefaults[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )

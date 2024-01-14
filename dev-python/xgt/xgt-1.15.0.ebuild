@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extra"
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/grpcio-1.24[${PYTHON_USEDEP}]
+	>=dev-python/isodate-0.6.1[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	extra? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	>=dev-python/pyarrow-8.0.0[${PYTHON_USEDEP}]
+	extra? ( >=dev-python/pandas-0.24.2[${PYTHON_USEDEP}] )
 	extra? ( dev-python/jupyter[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

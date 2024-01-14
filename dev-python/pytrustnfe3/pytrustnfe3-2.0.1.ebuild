@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/xmlsec[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/xmlsec-1.3.13[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.2.1[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.4.8[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2018.1.18[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/suds-community[${PYTHON_USEDEP}]

@@ -31,8 +31,8 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
 	dev-python/django-lc-utils[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/phonenumbers-8.12.26[${PYTHON_USEDEP}]
+	~dev-python/black-22.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="attrs"
-DEPENDENCIES="attrs? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	dev-python/boltons[${PYTHON_USEDEP}]"
+DEPENDENCIES="attrs? ( <dev-python/attrs-21.0.0[${PYTHON_USEDEP}] )
+	<dev-python/boltons-21.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

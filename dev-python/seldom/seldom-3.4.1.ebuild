@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Seldom automation testing framework based on unittest."
+DESCRIPTION="Seldom automation testing framework based on unittest. [topver 3.5.0]"
 
 HOMEPAGE="https://github.com/seldomQA/seldom/"
 LICENSE="Apache-2.0"
@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Appium-Python-Client[${PYTHON_USEDEP}]
 	dev-python/XTestRunner[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/genson[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+	~dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.3[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.29[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.10.0[${PYTHON_USEDEP}]
+	>=dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/genson-1.2.2[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

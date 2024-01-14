@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/dnspython-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.12.4[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.24.2[${PYTHON_USEDEP}]
+	>=dev-python/click-6.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

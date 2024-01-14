@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc full"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19.3[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/sparse[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/dcor[${PYTHON_USEDEP}]
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-41.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	full? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/setuptools-41.0.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	full? ( dev-python/coverage[${PYTHON_USEDEP}] )

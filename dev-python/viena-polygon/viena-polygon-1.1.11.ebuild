@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/awscli[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/shellingham[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	~dev-python/shellingham-1.4.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-6.2.4[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"

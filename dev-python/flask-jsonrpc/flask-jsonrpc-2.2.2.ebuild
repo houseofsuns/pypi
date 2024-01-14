@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="async dotenv"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	~dev-python/typeguard-2.13.3[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
 	async? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	dotenv? ( dev-python/Flask[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

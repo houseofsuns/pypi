@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="alacritty all mpv neovim"
-DEPENDENCIES="alacritty? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	mpv? ( dev-python/python-mpv[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-mpv[${PYTHON_USEDEP}] )
-	neovim? ( dev-python/pynvim[${PYTHON_USEDEP}] )
-	all? ( dev-python/pynvim[${PYTHON_USEDEP}] )"
+DEPENDENCIES="alacritty? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
+	mpv? ( <dev-python/python-mpv-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/python-mpv-2.0.0[${PYTHON_USEDEP}] )
+	neovim? ( <dev-python/pynvim-0.5.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pynvim-0.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

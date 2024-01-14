@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2023.2.0[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
 	dev-python/aerosol-functions[${PYTHON_USEDEP}]
-	dev-python/netcdf4[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]"
+	>=dev-python/netcdf4-1.6.2[${PYTHON_USEDEP}]
+	>=dev-python/PyQt5-5.15.7[${PYTHON_USEDEP}]
+	>=dev-python/pyqtgraph-0.13.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

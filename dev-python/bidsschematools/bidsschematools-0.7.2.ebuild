@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all doc expressions render tests"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-1.5.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-1.5.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	expressions? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
 	render? ( dev-python/tabulate[${PYTHON_USEDEP}] )

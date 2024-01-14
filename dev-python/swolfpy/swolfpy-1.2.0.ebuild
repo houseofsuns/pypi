@@ -34,17 +34,17 @@ DEPENDENCIES="dev-python/brightway2[${PYTHON_USEDEP}]
 	dev-python/coverage[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
 	dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/pyDOE[${PYTHON_USEDEP}]
 	dev-python/PySide2[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/pytest-cov[${PYTHON_USEDEP}]
 	dev-python/pytest-flake8[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
 	dev-python/swolfpy-inputdata[${PYTHON_USEDEP}]
 	dev-python/swolfpy-processmodels[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]"
+	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

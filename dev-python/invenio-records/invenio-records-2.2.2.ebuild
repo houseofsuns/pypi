@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="admin mysql postgresql sqlite tests"
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/arrow-0.16.0[${PYTHON_USEDEP}]
 	dev-python/invenio-celery[${PYTHON_USEDEP}]
 	dev-python/invenio-i18n[${PYTHON_USEDEP}]
-	dev-python/jsonpatch[${PYTHON_USEDEP}]
-	dev-python/jsonref[${PYTHON_USEDEP}]
+	>=dev-python/jsonpatch-1.26[${PYTHON_USEDEP}]
+	>=dev-python/jsonref-0.2[${PYTHON_USEDEP}]
 	dev-python/jsonresolver[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	admin? ( dev-python/invenio-admin[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-admin[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-mock-1.6.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/scanpy[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.13.1[${PYTHON_USEDEP}]
 	dev-python/leidenalg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

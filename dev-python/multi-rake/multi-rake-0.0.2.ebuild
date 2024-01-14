@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.14.4[${PYTHON_USEDEP}]
 	dev-python/pycld2[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]"
+	>=dev-python/pyrsistent-0.14.2[${PYTHON_USEDEP}]
+	>=dev-python/regex-2018.6.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/requests-2.7[${PYTHON_USEDEP}]
 	dev-python/requests-cache[${PYTHON_USEDEP}]
 	dev-python/geojson-rewind[${PYTHON_USEDEP}]
 	dev-python/geomet[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

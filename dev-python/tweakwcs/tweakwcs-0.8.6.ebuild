@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/stsci-stimage[${PYTHON_USEDEP}]
 	dev-python/stsci-imagestats[${PYTHON_USEDEP}]
 	dev-python/spherical-geometry[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )

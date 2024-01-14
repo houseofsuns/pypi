@@ -27,15 +27,15 @@ IUSE="dev docs notebooks tests"
 DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/libpysal[${PYTHON_USEDEP}]
 	dev-python/mapclassify[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.7[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4[${PYTHON_USEDEP}]
 	dev-python/pulp[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0.1[${PYTHON_USEDEP}]
 	dev-python/spaghetti[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.63.0[${PYTHON_USEDEP}]
 	dev-python/pointpats[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
 	notebooks? ( dev-python/folium[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/glpk[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/inequality[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	notebooks? ( >=dev-python/matplotlib-3.6[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/matplotlib-scalebar[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/overpy[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/routingpy[${PYTHON_USEDEP}] )

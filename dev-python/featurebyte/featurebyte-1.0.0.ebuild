@@ -26,50 +26,50 @@ KEYWORDS="~amd64 ~x86"
 IUSE="server"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/aiobotocore[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	<dev-python/aiofiles-23.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	dev-python/alive-progress[${PYTHON_USEDEP}]
 	dev-python/asyncache[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	server? ( dev-python/cachetools[${PYTHON_USEDEP}] )
+	<dev-python/black-24.0.0[${PYTHON_USEDEP}]
+	server? ( <dev-python/cachetools-6.0.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/celery[${PYTHON_USEDEP}] )
 	server? ( dev-python/celerybeat-mongo[${PYTHON_USEDEP}] )
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/databricks-sdk[${PYTHON_USEDEP}] )
 	server? ( dev-python/databricks-sql-connector[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	server? ( dev-python/feast[${PYTHON_USEDEP}] )
 	server? ( dev-python/featurebyte-freeware[${PYTHON_USEDEP}] )
 	server? ( dev-python/gevent[${PYTHON_USEDEP}] )
-	dev-python/humanize[${PYTHON_USEDEP}]
+	<dev-python/humanize-5.0.0[${PYTHON_USEDEP}]
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
+	<dev-python/lazy-object-proxy-2.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/motor[${PYTHON_USEDEP}] )
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/pdfkit[${PYTHON_USEDEP}] )
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-11.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/pyhive[${PYTHON_USEDEP}] )
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]
 	dev-python/python-on-whales[${PYTHON_USEDEP}]
-	server? ( dev-python/redis[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
-	server? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
-	dev-python/rich[${PYTHON_USEDEP}]
+	server? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	server? ( <dev-python/requests-kerberos-0.15.0[${PYTHON_USEDEP}] )
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/sasl[${PYTHON_USEDEP}] )
 	server? ( dev-python/smart-open[${PYTHON_USEDEP}] )
 	server? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
-	dev-python/sqlglot[${PYTHON_USEDEP}]
-	server? ( dev-python/tenacity[${PYTHON_USEDEP}] )
+	<dev-python/sqlglot-10.4[${PYTHON_USEDEP}]
+	server? ( <dev-python/tenacity-9.0.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/thrift-sasl[${PYTHON_USEDEP}] )
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	<dev-python/typeguard-3.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]"
+	~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
+	server? ( <dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
+	<dev-python/websocket-client-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.40.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

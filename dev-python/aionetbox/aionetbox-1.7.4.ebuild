@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="icu"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/prance[${PYTHON_USEDEP}]
 	icu? ( dev-python/prance[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

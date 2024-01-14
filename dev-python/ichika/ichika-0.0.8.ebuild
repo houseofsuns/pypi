@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="graia"
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
 	dev-python/graia-amnesia[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
 	graia? ( dev-python/graia-broadcast[${PYTHON_USEDEP}] )
 	graia? ( dev-python/launart[${PYTHON_USEDEP}] )
 	graia? ( dev-python/creart[${PYTHON_USEDEP}] )

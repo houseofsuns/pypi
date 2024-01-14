@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]"
+	<dev-python/dnspython-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-3.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

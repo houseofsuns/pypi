@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pathogen[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="complete docs io test"
 DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/dask-2023.4.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	complete? ( dev-python/dask-awkward[${PYTHON_USEDEP}] )
 	docs? ( dev-python/dask-awkward[${PYTHON_USEDEP}] )
 	docs? ( dev-python/dask-sphinx-theme[${PYTHON_USEDEP}] )
@@ -39,8 +39,8 @@ DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
 	test? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	test? ( dev-python/hist[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/uproot[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

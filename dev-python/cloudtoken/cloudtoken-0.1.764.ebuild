@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all awscli"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/keyrings-alt[${PYTHON_USEDEP}]
+	>=dev-python/keyring-8.7[${PYTHON_USEDEP}]
+	>=dev-python/keyrings-alt-2.2[${PYTHON_USEDEP}]
 	dev-python/cloudtoken-plugin-shell-exporter[${PYTHON_USEDEP}]
 	dev-python/cloudtoken-plugin-json-exporter[${PYTHON_USEDEP}]
 	dev-python/cloudtoken-plugin-saml[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
 	all? ( dev-python/cloudtoken-plugin-awscli-exporter[${PYTHON_USEDEP}] )
 	awscli? ( dev-python/cloudtoken-plugin-awscli-exporter[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

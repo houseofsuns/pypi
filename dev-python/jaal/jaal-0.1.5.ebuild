@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/visdcc[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.1[${PYTHON_USEDEP}]
 	dev-python/dash-core-components[${PYTHON_USEDEP}]
 	dev-python/dash-html-components[${PYTHON_USEDEP}]
 	dev-python/dash-bootstrap-components[${PYTHON_USEDEP}]"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="email"
-DEPENDENCIES="dev-python/annotated-types[${PYTHON_USEDEP}]
-	dev-python/pydantic-core[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	email? ( dev-python/email-validator[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/annotated-types-0.4.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-core-2.14.6[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.6.1[${PYTHON_USEDEP}]
+	email? ( >=dev-python/email-validator-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

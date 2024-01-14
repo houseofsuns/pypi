@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	>=dev-python/scipy-1.11.2[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-23.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-7.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

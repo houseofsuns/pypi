@@ -27,11 +27,11 @@ IUSE="testing"
 DEPENDENCIES="dev-python/aacRepair[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mypy-0.9.10[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-3.24[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )"

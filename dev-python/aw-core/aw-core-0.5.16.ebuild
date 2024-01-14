@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/rfc3339-validator[${PYTHON_USEDEP}]
-	dev-python/strict-rfc3339[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
+	~dev-python/peewee-3.0[${PYTHON_USEDEP}]
+	~dev-python/platformdirs-3.10[${PYTHON_USEDEP}]
+	<dev-python/iso8601-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/rfc3339-validator-0.2.0[${PYTHON_USEDEP}]
+	<dev-python/strict-rfc3339-0.8[${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]
 	dev-python/deprecation[${PYTHON_USEDEP}]
 	dev-python/timeslot[${PYTHON_USEDEP}]"

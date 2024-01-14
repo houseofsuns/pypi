@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/yaspin[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/char[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	<dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}]
 	dev-python/local-simple-database[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/round-to-n-significant-digits[${PYTHON_USEDEP}]
 	dev-python/timedelta-nice-format[${PYTHON_USEDEP}]
 	dev-python/ipywidgets-toggle-buttons[${PYTHON_USEDEP}]"

@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dill"
-DEPENDENCIES="dill? ( dev-python/dill[${PYTHON_USEDEP}] )"
+DEPENDENCIES="dill? ( >=dev-python/dill-0.3.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

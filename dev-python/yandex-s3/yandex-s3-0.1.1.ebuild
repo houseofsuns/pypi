@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/aiofiles-0.5.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.15.5[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}]
+	~dev-python/natsort-8.1.0[${PYTHON_USEDEP}]
+	>dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
 	dev-python/PyAstronomy[${PYTHON_USEDEP}]
 	dev-python/RegscorePy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sfdmap2[${PYTHON_USEDEP}]
 	dev-python/sherpa[${PYTHON_USEDEP}]
 	dev-python/spectres[${PYTHON_USEDEP}]"

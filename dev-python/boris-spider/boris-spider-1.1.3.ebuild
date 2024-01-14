@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/better-exceptions[${PYTHON_USEDEP}]
-	dev-python/DBUtils[${PYTHON_USEDEP}]
+	~dev-python/DBUtils-1.3[${PYTHON_USEDEP}]
 	dev-python/parsel[${PYTHON_USEDEP}]
 	dev-python/PyExecJS[${PYTHON_USEDEP}]
 	dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/redis-2.10.6[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/bitarray[${PYTHON_USEDEP}]
+	~dev-python/ipython-7.14.0[${PYTHON_USEDEP}]
+	~dev-python/bitarray-1.5.3[${PYTHON_USEDEP}]
 	dev-python/redis-py-cluster[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

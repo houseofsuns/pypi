@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="action all browser cloud containers export folders gpu graph ip podman raid sensors smart snmp sparklines web wifi"
-DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/psutil-5.6.7[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
+	>=dev-python/ujson-5.4.0[${PYTHON_USEDEP}]
 	action? ( dev-python/chevron[${PYTHON_USEDEP}] )
 	all? ( dev-python/chevron[${PYTHON_USEDEP}] )
-	all? ( dev-python/zeroconf[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/zeroconf-0.19.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/bernhard[${PYTHON_USEDEP}] )
 	all? ( dev-python/scandir[${PYTHON_USEDEP}] )
@@ -42,14 +42,14 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	all? ( dev-python/sparklines[${PYTHON_USEDEP}] )
 	all? ( dev-python/bottle[${PYTHON_USEDEP}] )
 	all? ( dev-python/wifi[${PYTHON_USEDEP}] )
-	all? ( dev-python/docker[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/docker-6.1.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/py3nvml[${PYTHON_USEDEP}] )
 	all? ( dev-python/podman[${PYTHON_USEDEP}] )
 	all? ( dev-python/batinfo[${PYTHON_USEDEP}] )
-	browser? ( dev-python/zeroconf[${PYTHON_USEDEP}] )
+	browser? ( >=dev-python/zeroconf-0.19.1[${PYTHON_USEDEP}] )
 	cloud? ( dev-python/requests[${PYTHON_USEDEP}] )
 	cloud? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	containers? ( dev-python/docker[${PYTHON_USEDEP}] )
+	containers? ( >=dev-python/docker-6.1.1[${PYTHON_USEDEP}] )
 	containers? ( dev-python/podman[${PYTHON_USEDEP}] )
 	containers? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
 	containers? ( dev-python/six[${PYTHON_USEDEP}] )

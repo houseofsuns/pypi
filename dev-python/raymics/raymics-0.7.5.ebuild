@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/imageio-ffmpeg[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
+	~dev-python/imageio-2.27.0[${PYTHON_USEDEP}]
+	~dev-python/imageio-ffmpeg-0.4.8[${PYTHON_USEDEP}]
 	dev-python/av[${PYTHON_USEDEP}]
 	dev-python/SimpleITK[${PYTHON_USEDEP}]
 	dev-python/pyradiomics[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
 	dev-python/dicom2nifti[${PYTHON_USEDEP}]
 	dev-python/tsfresh[${PYTHON_USEDEP}]
-	dev-python/trimesh[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/trimesh-3.23.5[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.11.1[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

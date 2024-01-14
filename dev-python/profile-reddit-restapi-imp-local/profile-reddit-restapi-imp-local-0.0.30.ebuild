@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/praw[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/database-without-orm-local[${PYTHON_USEDEP}]
 	dev-python/importer-local[${PYTHON_USEDEP}]
 	dev-python/logzio-python-handler[${PYTHON_USEDEP}]
 	dev-python/profile-local[${PYTHON_USEDEP}]
 	dev-python/url-local[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/logger-local[${PYTHON_USEDEP}]
 	dev-python/entity-type-local[${PYTHON_USEDEP}]
 	dev-python/group-remote[${PYTHON_USEDEP}]

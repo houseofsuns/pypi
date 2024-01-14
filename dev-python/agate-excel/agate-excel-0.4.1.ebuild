@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/agate[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/agate-1.5.0[${PYTHON_USEDEP}]
 	dev-python/olefile[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-0.9.4[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

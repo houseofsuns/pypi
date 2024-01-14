@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/jupyterlab-widgets[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/nbconvert-6.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-tornasync[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

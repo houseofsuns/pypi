@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/myst-parser-0.14[${PYTHON_USEDEP}] )
 	stubs? ( dev-python/pybind11-stubgen[${PYTHON_USEDEP}] )
 	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"

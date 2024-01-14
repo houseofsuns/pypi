@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="progressbar test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	progressbar? ( dev-python/progressbar2[${PYTHON_USEDEP}] )
+	>=dev-python/pillow-2.5[${PYTHON_USEDEP}]
+	progressbar? ( >=dev-python/progressbar2-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )"

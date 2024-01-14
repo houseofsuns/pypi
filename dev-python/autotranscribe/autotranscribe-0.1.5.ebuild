@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/moviepy[${PYTHON_USEDEP}]
 	dev-python/openai-whisper[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
 	dev-python/pytube[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

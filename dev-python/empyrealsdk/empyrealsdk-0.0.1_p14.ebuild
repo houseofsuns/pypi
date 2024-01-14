@@ -27,18 +27,18 @@ IUSE="dev linter"
 DEPENDENCIES="dev-python/eth-typing[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]
 	dev-python/hexbytes[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	>=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.3.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.18.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-1.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	linter? ( dev-python/black[${PYTHON_USEDEP}] )
-	linter? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	linter? ( dev-python/isort[${PYTHON_USEDEP}] )
-	linter? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	linter? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-xdist-1.29[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-38.6.0[${PYTHON_USEDEP}] )
+	linter? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
+	linter? ( ~dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	linter? ( >=dev-python/isort-5.11.0[${PYTHON_USEDEP}] )
+	linter? ( >=dev-python/mypy-1.0.0[${PYTHON_USEDEP}] )
+	linter? ( >=dev-python/types-setuptools-57.4.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

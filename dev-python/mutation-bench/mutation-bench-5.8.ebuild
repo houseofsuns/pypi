@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
 	dev-python/rpy2[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	dev-python/ranger[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE="dev docs test"
 DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/cpe[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.18.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-cache[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pylint-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-4.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	dev-python/snappy[${PYTHON_USEDEP}]
 	dev-python/regina[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

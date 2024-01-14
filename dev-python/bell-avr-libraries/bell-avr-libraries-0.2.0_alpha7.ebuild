@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="qt serial"
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	serial? ( dev-python/pyserial[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/loguru-0.8[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/paho-mqtt-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	serial? ( <dev-python/pyserial-4.0[${PYTHON_USEDEP}] )
 	qt? ( dev-python/pyside6-essentials[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

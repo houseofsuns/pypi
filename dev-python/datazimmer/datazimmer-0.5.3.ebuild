@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="collect doc postgres profile test zenodo"
 DEPENDENCIES="dev-python/flit[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.37.0[${PYTHON_USEDEP}]
+	>=dev-python/pip-22.0.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-60.0.0[${PYTHON_USEDEP}]
 	dev-python/parquetranger[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.1[${PYTHON_USEDEP}]
 	dev-python/colassigner[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/structlog[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]

@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/python-jose[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]"
+	>=dev-python/rsa-4.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

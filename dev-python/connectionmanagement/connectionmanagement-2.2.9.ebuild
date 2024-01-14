@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/netifaces[${PYTHON_USEDEP}]
 	dev-python/nmoscommon[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/nodefacade[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]"
+	<dev-python/werkzeug-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

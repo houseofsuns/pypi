@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tqdm"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/db-dtypes[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.6[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.4[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pydata-google-auth[${PYTHON_USEDEP}]
-	dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
+	<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-2.13.0[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-oauthlib-0.7.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	tqdm? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	>=dev-python/packaging-20.0.0[${PYTHON_USEDEP}]
+	tqdm? ( >=dev-python/tqdm-4.23.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

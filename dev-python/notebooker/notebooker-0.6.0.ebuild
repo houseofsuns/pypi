@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/apscheduler[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/cachelib[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>dev-python/click-7.1.0[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
@@ -47,8 +47,8 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/retrying[${PYTHON_USEDEP}]
 	dev-python/stashy[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
@@ -61,6 +61,6 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-server-fixtures[${PYTHON_USEDEP}] )
 	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/hypothesis-3.83.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+DEPENDENCIES="test? ( >=dev-python/coverage-5.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

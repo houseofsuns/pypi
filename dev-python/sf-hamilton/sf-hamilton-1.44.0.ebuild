@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dask dask-array dask-core dask-dataframe dask-diagnostics dask-distributed pandera pyspark ray visualization"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dask-distributed? ( dev-python/dask[${PYTHON_USEDEP}] )
 	pandera? ( dev-python/pandera[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	pyspark? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	pyspark? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
 	ray? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/graphviz[${PYTHON_USEDEP}] )

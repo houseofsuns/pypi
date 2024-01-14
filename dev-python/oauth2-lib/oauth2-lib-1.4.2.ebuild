@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.19.0[${PYTHON_USEDEP}]
+	>=dev-python/structlog-20.2.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	dev-python/authlib[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]

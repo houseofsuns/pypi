@@ -26,23 +26,23 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/codetiming[${PYTHON_USEDEP}]
-	dev-python/flatdict[${PYTHON_USEDEP}]
+	>=dev-python/flatdict-4.0.1[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
 	dev-python/haversine[${PYTHON_USEDEP}]
 	dev-python/levenshtein[${PYTHON_USEDEP}]
 	dev-python/mercantile[${PYTHON_USEDEP}]
 	dev-python/osm-rawdata[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	dev-python/pmtiles[${PYTHON_USEDEP}]
-	dev-python/progress[${PYTHON_USEDEP}]
+	>=dev-python/progress-1.6[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
+	>=dev-python/py-cpuinfo-9.0.0[${PYTHON_USEDEP}]
 	dev-python/pySmartDL[${PYTHON_USEDEP}]
 	dev-python/pymbtiles[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/segno[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	>=dev-python/segno-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.8.5[${PYTHON_USEDEP}]
 	dev-python/thefuzz[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+	>=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

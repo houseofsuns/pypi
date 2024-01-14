@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/timm[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/kornia[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
 	dev-python/easydict[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
 	webcam? ( dev-python/pyvirtualcam[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

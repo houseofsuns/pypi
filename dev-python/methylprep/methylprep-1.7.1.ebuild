@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pyparsing[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

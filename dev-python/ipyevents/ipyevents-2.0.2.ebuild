@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
-	docs? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/ipywidgets-7.6.0[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/jupyterlab-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbval[${PYTHON_USEDEP}] )

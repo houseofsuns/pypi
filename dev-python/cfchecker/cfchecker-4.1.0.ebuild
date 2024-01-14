@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/netCDF4[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.7[${PYTHON_USEDEP}]
 	dev-python/cfunits[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

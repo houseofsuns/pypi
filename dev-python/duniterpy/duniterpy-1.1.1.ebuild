@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/websocket-client-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pypeg2[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	<dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
-	dev-python/libnacl[${PYTHON_USEDEP}]
-	dev-python/pyaes[${PYTHON_USEDEP}]
+	~dev-python/libnacl-1.8.0[${PYTHON_USEDEP}]
+	<dev-python/pyaes-2.0.0[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

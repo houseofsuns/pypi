@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
 	gui? ( dev-python/PyQt5-stubs[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	gui? ( ~dev-python/PyQt5-5.15.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	windows? ( dev-python/pynsist[${PYTHON_USEDEP}] )"

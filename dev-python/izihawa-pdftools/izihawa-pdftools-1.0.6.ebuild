@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/ebooklib[${PYTHON_USEDEP}]
 	dev-python/izihawa-utils[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]"
+	<dev-python/pypdf-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

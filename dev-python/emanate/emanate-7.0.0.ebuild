@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="linting testing"
-DEPENDENCIES="linting? ( dev-python/flake8[${PYTHON_USEDEP}] )
+DEPENDENCIES="linting? ( ~dev-python/flake8-3.5[${PYTHON_USEDEP}] )
 	linting? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	linting? ( dev-python/flake8-commas[${PYTHON_USEDEP}] )
 	linting? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	linting? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	linting? ( <dev-python/pydocstyle-4.0[${PYTHON_USEDEP}] )
 	linting? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

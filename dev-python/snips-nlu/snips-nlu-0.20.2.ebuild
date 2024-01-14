@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc metrics test"
-DEPENDENCIES="dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/deprecation-3.0[${PYTHON_USEDEP}]
+	<dev-python/future-0.18[${PYTHON_USEDEP}]
 	dev-python/num2words[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pyaml-20.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	dev-python/sklearn-crfsuite[${PYTHON_USEDEP}]
 	dev-python/snips-nlu-parsers[${PYTHON_USEDEP}]
 	dev-python/snips-nlu-utils[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-1.9[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-rtd-theme-0.3[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-tabs-1.2[${PYTHON_USEDEP}] )
 	metrics? ( dev-python/snips-nlu-metrics[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mock-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/snips-nlu-metrics[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pylint-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/checksumdir[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

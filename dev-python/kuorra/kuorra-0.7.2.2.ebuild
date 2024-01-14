@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/MySQL-python[${PYTHON_USEDEP}]
-	dev-python/asn1crypto[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	>=dev-python/asn1crypto-0.21.0[${PYTHON_USEDEP}]
+	>=dev-python/cffi-1.7[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-1.3.4[${PYTHON_USEDEP}]
+	>=dev-python/idna-2.1[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.5.2[${PYTHON_USEDEP}]
 	dev-python/web-py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/pypng[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/paramiko-3.3.1[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.11.0[${PYTHON_USEDEP}]
+	>=dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pypng-0.0.18[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.11[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

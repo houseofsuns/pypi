@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/jsonpointer[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-mimeparse[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/inflection-0.3.1[${PYTHON_USEDEP}]
+	>=dev-python/multidict-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonpointer-1.10[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/python-mimeparse-1.6.0[${PYTHON_USEDEP}]
 	dev-python/trafaret[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	>=dev-python/yarl-0.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="postgres"
 DEPENDENCIES="dev-python/cmdkit[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.11.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.22[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.16.2[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.9.1[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

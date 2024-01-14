@@ -28,14 +28,14 @@ DEPENDENCIES="huggingface? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	all? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	deeplake? ( dev-python/deeplake[${PYTHON_USEDEP}] )
 	all? ( dev-python/deeplake[${PYTHON_USEDEP}] )
-	dev-python/docutils[${PYTHON_USEDEP}]
+	<dev-python/docutils-0.18.0[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	hub? ( dev-python/hub[${PYTHON_USEDEP}] )
 	all? ( dev-python/hub[${PYTHON_USEDEP}] )
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	preprocessing? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/squirrel-core[${PYTHON_USEDEP}]
 	torchvision? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )"

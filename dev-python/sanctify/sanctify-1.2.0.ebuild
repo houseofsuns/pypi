@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dnspython-2.0[${PYTHON_USEDEP}]
+	~dev-python/email-validator-2.0.0[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/iniconfig[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tzdata[${PYTHON_USEDEP}]"
+	~dev-python/idna-3.4[${PYTHON_USEDEP}]
+	~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.25[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	~dev-python/phonenumbers-8.13.15[${PYTHON_USEDEP}]
+	~dev-python/pluggy-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4.0[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2020.3[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

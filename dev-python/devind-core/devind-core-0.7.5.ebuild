@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-oauth-toolkit[${PYTHON_USEDEP}]
 	dev-python/graphene-django[${PYTHON_USEDEP}]
 	dev-python/graphene-file-upload[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
 	dev-python/user-agents[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

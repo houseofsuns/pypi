@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="async-rediscache"
 DEPENDENCIES="dev-python/discord-py[${PYTHON_USEDEP}]
 	async-rediscache? ( dev-python/async-rediscache[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/statsd[${PYTHON_USEDEP}]
-	dev-python/aiodns[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/statsd-4.0.1[${PYTHON_USEDEP}]
+	~dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

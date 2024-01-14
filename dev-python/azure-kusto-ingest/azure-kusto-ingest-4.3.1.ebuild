@@ -27,7 +27,7 @@ IUSE="pandas"
 DEPENDENCIES="dev-python/azure-kusto-data[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
 	dev-python/azure-storage-queue[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.0.0[${PYTHON_USEDEP}]
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

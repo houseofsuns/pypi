@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/construct[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/construct-2.9.29[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/coloredlogs[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]

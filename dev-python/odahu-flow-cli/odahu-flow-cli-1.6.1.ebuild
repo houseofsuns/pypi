@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/odahu-flow-sdk[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/texttable[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
+	>=dev-python/texttable-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw[${PYTHON_USEDEP}]
 	dev-python/click-completion[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-jose[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-jose-3.3.0[${PYTHON_USEDEP}]
 	dev-python/b-lambda-layer-common[${PYTHON_USEDEP}]
 	dev-python/b-cfn-lambda-layer[${PYTHON_USEDEP}]
 	dev-python/b-cfn-lambda-integration[${PYTHON_USEDEP}]

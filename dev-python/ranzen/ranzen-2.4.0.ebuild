@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all hydra logging wandb"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	wandb? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	wandb? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	wandb? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	all? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	logging? ( dev-python/loguru[${PYTHON_USEDEP}] )
-	all? ( dev-python/loguru[${PYTHON_USEDEP}] )
+	logging? ( <dev-python/loguru-0.7.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/loguru-0.7.0[${PYTHON_USEDEP}] )
 	hydra? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
 	all? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
 	hydra? ( dev-python/neoconfigen[${PYTHON_USEDEP}] )
 	all? ( dev-python/neoconfigen[${PYTHON_USEDEP}] )
-	hydra? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	all? ( dev-python/attrs[${PYTHON_USEDEP}] )"
+	hydra? ( <dev-python/attrs-24.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/attrs-24.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

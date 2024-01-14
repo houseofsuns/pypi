@@ -26,21 +26,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/gdal[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.2.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
 	dev-python/pep8[${PYTHON_USEDEP}]
 	dev-python/pygrib[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pytest-3.5.1[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.2[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.0[${PYTHON_USEDEP}]
 	dev-python/spectral[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/utm[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]
+	>=dev-python/xxhash-1.2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )"

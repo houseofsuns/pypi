@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.3.3[${PYTHON_USEDEP}]
 	dev-python/python-hosts[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

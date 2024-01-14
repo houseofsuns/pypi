@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/cattrs-22.1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

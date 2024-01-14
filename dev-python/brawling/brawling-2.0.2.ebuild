@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="acache async cache"
-DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	cache? ( dev-python/requests-cache[${PYTHON_USEDEP}] )
-	async? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	acache? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	cache? ( <dev-python/requests-cache-0.10.0[${PYTHON_USEDEP}] )
+	async? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
+	acache? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	acache? ( dev-python/aiohttp-client-cache[${PYTHON_USEDEP}] )
-	acache? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )"
+	acache? ( <dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

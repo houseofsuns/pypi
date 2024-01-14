@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-6.7[${PYTHON_USEDEP}]
+	<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/googleapis-common-protos-1.55.0[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.24.3[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pypandoc[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}]
 	dev-python/libcst[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]"
+	<dev-python/inflection-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/decision[${PYTHON_USEDEP}]
 	dev-python/ground[${PYTHON_USEDEP}]
 	dev-python/prioq[${PYTHON_USEDEP}]
 	dev-python/reprit[${PYTHON_USEDEP}]
-	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/hypothesis-geometry[${PYTHON_USEDEP}] )
 	tests? ( dev-python/orient[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

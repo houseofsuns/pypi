@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.9[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.7.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.1[${PYTHON_USEDEP}]
 	dev-python/nltools[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]
+	<dev-python/numexpr-2.8.5[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pywavelets[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/pywavelets-0.3.0[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.7.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]

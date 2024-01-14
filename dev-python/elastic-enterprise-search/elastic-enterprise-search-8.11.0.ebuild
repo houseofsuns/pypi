@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop requests"
-DEPENDENCIES="dev-python/elastic-transport[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/elastic-transport-9.0[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.12[${PYTHON_USEDEP}]
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/elastic-transport[${PYTHON_USEDEP}]
 	develop? ( dev-python/mock[${PYTHON_USEDEP}] )
 	develop? ( dev-python/requests[${PYTHON_USEDEP}] )
 	develop? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	requests? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	requests? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

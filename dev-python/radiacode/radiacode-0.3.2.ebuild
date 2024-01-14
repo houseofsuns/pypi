@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="examples"
 DEPENDENCIES="dev-python/bluepy[${PYTHON_USEDEP}]
-	dev-python/pyusb[${PYTHON_USEDEP}]
-	examples? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	examples? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	examples? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	examples? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	<dev-python/pyusb-2.0[${PYTHON_USEDEP}]
+	examples? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
+	examples? ( <dev-python/prometheus-client-0.20[${PYTHON_USEDEP}] )
+	examples? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
+	examples? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
+	examples? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

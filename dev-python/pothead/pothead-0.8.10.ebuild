@@ -27,12 +27,12 @@ IUSE="test"
 DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/setproctitle[${PYTHON_USEDEP}]
 	dev-python/tblib[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-2.1[${PYTHON_USEDEP}]
 	test? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	test? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
 	test? ( dev-python/tblib[${PYTHON_USEDEP}] )
 	test? ( dev-python/timeout-decorator[${PYTHON_USEDEP}] )
-	test? ( dev-python/werkzeug[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/werkzeug-2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

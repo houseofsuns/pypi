@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.11[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.19[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/lightkurve[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/lmfit-1.0[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.11[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4[${PYTHON_USEDEP}]
 	dev-python/ipympl[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-8.0[${PYTHON_USEDEP}]
 	dev-python/qgrid[${PYTHON_USEDEP}]
 	dev-python/ipyfilechooser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

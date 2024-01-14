@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/django-cms[${PYTHON_USEDEP}]
-	dev-python/django-taggit[${PYTHON_USEDEP}]
+	>=dev-python/django-taggit-0.11.2[${PYTHON_USEDEP}]
 	dev-python/django-taggit-autosuggest[${PYTHON_USEDEP}]
 	dev-python/django-classy-tags[${PYTHON_USEDEP}]
-	docs? ( dev-python/django[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/django-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

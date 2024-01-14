@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/dict-toolbox[${PYTHON_USEDEP}]
 	dev-python/idem-aiohttp[${PYTHON_USEDEP}]
 	dev-python/validators[${PYTHON_USEDEP}]
 	dev-python/PyYaml[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
+	>=dev-python/deepdiff-5.8.1[${PYTHON_USEDEP}]
 	autogen? ( dev-python/bs4[${PYTHON_USEDEP}] )
 	autogen? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	autogen? ( dev-python/pop-create-idem[${PYTHON_USEDEP}] )

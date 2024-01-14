@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
 	dev-python/fake-useragent[${PYTHON_USEDEP}]
 	dev-python/IMAPClient[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.2[${PYTHON_USEDEP}]
 	dev-python/Requests[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	<dev-python/selenium-5.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-1.27[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]
 	dev-python/yagmail[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
+	<dev-python/pymysql-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

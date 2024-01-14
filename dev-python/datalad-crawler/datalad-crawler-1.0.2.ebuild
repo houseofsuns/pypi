@@ -34,14 +34,14 @@ DEPENDENCIES="dev-python/datalad[${PYTHON_USEDEP}]
 	devel? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	devel? ( dev-python/datalad[${PYTHON_USEDEP}] )
 	devel? ( dev-python/datalad-deprecated[${PYTHON_USEDEP}] )
-	devel? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	devel? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	devel? ( dev-python/mock[${PYTHON_USEDEP}] )
 	devel-docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	devel-docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	tests? ( dev-python/datalad[${PYTHON_USEDEP}] )
 	tests? ( dev-python/datalad-deprecated[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

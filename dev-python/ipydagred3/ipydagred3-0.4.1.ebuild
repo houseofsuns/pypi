@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="develop test"
 DEPENDENCIES="dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.5.1[${PYTHON_USEDEP}]
 	develop? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

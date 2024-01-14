@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/betterproto[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
-	dev-python/lz4[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
+	<dev-python/rapidfuzz-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/lz4-5.0.0[${PYTHON_USEDEP}]
+	~dev-python/keyring-23.11.0[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-yaml[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	<dev-python/setuptools-60.0.0[${PYTHON_USEDEP}]
 	dev-python/grpclib[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	~dev-python/PyGithub-1.57[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.26.7[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.29.7[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/secretstorage[${PYTHON_USEDEP}]"
+	<dev-python/secretstorage-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

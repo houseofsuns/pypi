@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/asdf[${PYTHON_USEDEP}]
 	dev-python/asdf-astropy[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
@@ -38,9 +38,9 @@ DEPENDENCIES="dev-python/asdf[${PYTHON_USEDEP}]
 	docs? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	test? ( dev-python/asdf[${PYTHON_USEDEP}] )
 	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	test? ( dev-python/crds[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/scipy-1.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

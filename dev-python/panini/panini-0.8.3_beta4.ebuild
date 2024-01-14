@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tracing"
-DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]
 	dev-python/nats-py[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-1.2.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/python-json-logger-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/nest-asyncio-1.5.1[${PYTHON_USEDEP}]
+	~dev-python/prometheus-client-0.9.0[${PYTHON_USEDEP}]
 	dev-python/nats-python[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
+	~dev-python/ujson-5.4.0[${PYTHON_USEDEP}]
 	tracing? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
 	tracing? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
 	tracing? ( dev-python/opentelemetry-exporter-otlp-proto-grpc[${PYTHON_USEDEP}] )

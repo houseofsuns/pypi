@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-gpu[${PYTHON_USEDEP}]
 	dev-python/tensorflow-hub[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.0.0[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/rake-nltk[${PYTHON_USEDEP}]
 	dev-python/stanza[${PYTHON_USEDEP}]
@@ -40,28 +40,28 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/fasttext[${PYTHON_USEDEP}]
 	dev-python/expiringdict[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
-	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pip-9.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/nbsphinx-0.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyYaml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/argh[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/argh-1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/ipython-8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/autopep8-1.4.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-1.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.30.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-2.9.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.4.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.4.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="colorama jupyter uvloop"
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	colorama? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/tokenize-rt[${PYTHON_USEDEP}] )
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/black-23.10.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]
+	>=dev-python/pathspec-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-2.0[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.1[${PYTHON_USEDEP}]
+	colorama? ( >=dev-python/colorama-0.4.3[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/ipython-7.8.0[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/tokenize-rt-3.2.0[${PYTHON_USEDEP}] )
+	uvloop? ( >=dev-python/uvloop-0.15.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

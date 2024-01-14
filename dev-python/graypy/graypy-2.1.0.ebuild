@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="amqp docs"
 DEPENDENCIES="amqp? ( dev-python/amqplib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinx-3.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

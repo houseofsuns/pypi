@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci"
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/h5py-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.1[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.6.3[${PYTHON_USEDEP}]
 	ci? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	ci? ( dev-python/hypothesis[${PYTHON_USEDEP}] )

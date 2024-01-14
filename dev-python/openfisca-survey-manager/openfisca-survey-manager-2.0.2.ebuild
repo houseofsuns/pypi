@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="casd dev matching sas"
-DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/chardet-6.0[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+	<dev-python/humanize-5.0[${PYTHON_USEDEP}]
 	dev-python/openfisca-core[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyxdg[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	<dev-python/pyxdg-0.29[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/tables-4.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
 	dev-python/weightedcalcs[${PYTHON_USEDEP}]
 	dev-python/wquantiles[${PYTHON_USEDEP}]
-	casd? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	casd? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	casd? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	casd? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	casd? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
+	casd? ( <dev-python/autopep8-3.0[${PYTHON_USEDEP}] )
+	casd? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )
+	casd? ( <dev-python/pycodestyle-3.0[${PYTHON_USEDEP}] )
+	casd? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	casd? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/autopep8-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-rst-docstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/openfisca-country-template[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-order[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-order-2.0[${PYTHON_USEDEP}] )
 	matching? ( dev-python/feather[${PYTHON_USEDEP}] )
 	matching? ( dev-python/rpy2[${PYTHON_USEDEP}] )
 	sas? ( dev-python/pyreadstat[${PYTHON_USEDEP}] )

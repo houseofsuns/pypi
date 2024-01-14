@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="watchdog"
 DEPENDENCIES="dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	watchdog? ( dev-python/watchdog[${PYTHON_USEDEP}] )"
+	watchdog? ( >=dev-python/watchdog-2.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

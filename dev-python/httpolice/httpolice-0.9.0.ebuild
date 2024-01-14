@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/bitstring[${PYTHON_USEDEP}]
-	dev-python/dominate[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lxml-4.1.0[${PYTHON_USEDEP}]
+	>=dev-python/bitstring-3.1.4[${PYTHON_USEDEP}]
+	>=dev-python/dominate-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.5.0[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

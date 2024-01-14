@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-5.0[${PYTHON_USEDEP}]
 	dev-python/httpie[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	<dev-python/prompt-toolkit-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

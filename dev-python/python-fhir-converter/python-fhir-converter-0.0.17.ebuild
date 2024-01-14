@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/python-liquid[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
+	<dev-python/xmltodict-0.14.0[${PYTHON_USEDEP}]
 	dev-python/pyjson5[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
 	dev-python/importlib_resources[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]"
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

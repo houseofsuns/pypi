@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all redis"
 DEPENDENCIES="dev-python/any-api[${PYTHON_USEDEP}]
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	redis? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

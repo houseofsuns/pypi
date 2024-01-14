@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hiredis"
-DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
-	hiredis? ( dev-python/hiredis[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/redis-4.0.0[${PYTHON_USEDEP}]
+	hiredis? ( >=dev-python/hiredis-0.1.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

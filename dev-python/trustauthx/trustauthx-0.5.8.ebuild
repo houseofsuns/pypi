@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/certifi-2023.5.7[${PYTHON_USEDEP}]
+	>=dev-python/cffi-1.15.1[${PYTHON_USEDEP}]
+	~dev-python/cryptography-3.4.8[${PYTHON_USEDEP}]
+	>=dev-python/ecdsa-0.18.0[${PYTHON_USEDEP}]
+	>=dev-python/idna-3.4[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-0.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pycparser-2.21[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/rsa-4.9[${PYTHON_USEDEP}]
+	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	<=dev-python/urllib3-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/charset-normalizer-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/python-jose-3.3.0[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,30 +29,30 @@ DEPENDENCIES="dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/eth-keys[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]
 	dev-python/rlp[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
+	>=dev-python/semantic-version-2.6.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/build-0.9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/towncrier-22.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-xdist-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/eth-hash[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py-evm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/eth-hash[${PYTHON_USEDEP}] )
 	dev? ( dev-python/eth-hash[${PYTHON_USEDEP}] )
-	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/towncrier-22.0[${PYTHON_USEDEP}] )
 	py-evm? ( dev-python/py-evm[${PYTHON_USEDEP}] )
 	py-evm? ( dev-python/eth-hash[${PYTHON_USEDEP}] )
 	py-evm? ( dev-python/eth-hash[${PYTHON_USEDEP}] )
 	pyevm? ( dev-python/py-evm[${PYTHON_USEDEP}] )
 	pyevm? ( dev-python/eth-hash[${PYTHON_USEDEP}] )
 	pyevm? ( dev-python/eth-hash[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-xdist-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/eth-hash[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

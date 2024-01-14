@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/Flask-CeleryExt[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-0.6.2[${PYTHON_USEDEP}]
+	>=dev-python/redis-2.10.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flake8-8.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-annotations[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bandit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )

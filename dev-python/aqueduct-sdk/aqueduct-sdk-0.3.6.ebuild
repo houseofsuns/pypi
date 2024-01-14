@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/setuptools-67.2.0[${PYTHON_USEDEP}]
+	<=dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
+	<=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	<=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/IPython[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<=dev-python/croniter-1.3.8[${PYTHON_USEDEP}]
+	<=dev-python/pydantic-1.10.4[${PYTHON_USEDEP}]
+	<=dev-python/plotly-5.13.0[${PYTHON_USEDEP}]
+	<=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
+	<=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/great-expectations[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<=dev-python/ruamel-yaml-0.17.17[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/multipart[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+	<=dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]
+	<=dev-python/pymongo-4.3.3[${PYTHON_USEDEP}]
+	<=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

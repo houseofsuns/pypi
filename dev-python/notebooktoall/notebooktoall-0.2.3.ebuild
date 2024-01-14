@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/ipython-6.0[${PYTHON_USEDEP}]
+	>=dev-python/nbformat-4.0[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-5.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

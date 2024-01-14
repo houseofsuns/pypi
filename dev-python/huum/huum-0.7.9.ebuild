@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp"
-DEPENDENCIES="aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	dev-python/black[${PYTHON_USEDEP}]
+DEPENDENCIES="aiohttp? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/black-24.0.0[${PYTHON_USEDEP}]
 	dev-python/mashumaro[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

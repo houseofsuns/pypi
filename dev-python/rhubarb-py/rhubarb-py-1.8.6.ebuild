@@ -27,7 +27,7 @@ IUSE="kafka postgres rabbitmq redis"
 DEPENDENCIES="kafka? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	rabbitmq? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
-	dev-python/anyio[${PYTHON_USEDEP}]
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	<dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
+	redis? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

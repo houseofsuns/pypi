@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/jupyterlab-server[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]
-	dev-python/nbclassic[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/jupyterlab-3.4.0[${PYTHON_USEDEP}]
+	~dev-python/jupyterlab-server-2.3[${PYTHON_USEDEP}]
+	~dev-python/jupyter-server-1.4[${PYTHON_USEDEP}]
+	~dev-python/nbclassic-0.2[${PYTHON_USEDEP}]
+	>=dev-python/tornado-6.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

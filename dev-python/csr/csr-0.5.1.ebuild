@@ -25,26 +25,26 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc mkl profile test"
 DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	dev? ( <dev-python/flit-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lenskit-build-helpers[${PYTHON_USEDEP}] )
 	dev? ( dev-python/keyring[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rstcheck[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
 	mkl? ( dev-python/cffi[${PYTHON_USEDEP}] )
 	profile? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	profile? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	profile? ( dev-python/jupytext[${PYTHON_USEDEP}] )
-	profile? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	profile? ( >=dev-python/pandas-1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/psutil[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-cov-2.12[${PYTHON_USEDEP}] )
+	test? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/psutil-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

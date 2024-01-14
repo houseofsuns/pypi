@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/findspark[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}]
+	~dev-python/setuptools-58.2.0[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.40.0[${PYTHON_USEDEP}]
 	dev-python/spark-dataframe-tools[${PYTHON_USEDEP}]
 	dev-python/color-tools[${PYTHON_USEDEP}]
 	dev-python/pyhocon[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]"
+	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
+	~dev-python/prettytable-3.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

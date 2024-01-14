@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all_extras dev test"
 DEPENDENCIES="all_extras? ( dev-python/black[${PYTHON_USEDEP}] )
-	all_extras? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all_extras? ( <dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

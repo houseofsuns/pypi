@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all terminals testing"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/deprecation-alias[${PYTHON_USEDEP}]
 	dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/mistletoe[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/mistletoe-0.7.2[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/coincidence[${PYTHON_USEDEP}] )
-	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
-	terminals? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/psutil-5.8.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-regressions-2.0.2[${PYTHON_USEDEP}] )
+	terminals? ( >=dev-python/psutil-5.8.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coincidence[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-regressions-2.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/LLMFunctionObjects[${PYTHON_USEDEP}]
 	dev-python/LLMPrompts[${PYTHON_USEDEP}]
 	dev-python/IPython[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
+	>=dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
 	dev-python/google-generativeai[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

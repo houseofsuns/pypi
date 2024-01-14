@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pip-19.3[${PYTHON_USEDEP}]
 	dev-python/autocommand[${PYTHON_USEDEP}]
-	dev-python/path[${PYTHON_USEDEP}]
+	>=dev-python/path-15.1[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-8.3[${PYTHON_USEDEP}]
 	dev-python/jaraco-context[${PYTHON_USEDEP}]
 	dev-python/jaraco-text[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/jaraco-functools[${PYTHON_USEDEP}]
+	>=dev-python/jaraco-functools-3.7[${PYTHON_USEDEP}]
 	dev-python/jaraco-env[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.2.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-packaging[${PYTHON_USEDEP}] )
-	docs? ( dev-python/rst-linker[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/rst-linker-1.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-lint[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-tidelift[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-checkdocs[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-enabler[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	testing? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jaraco-path[${PYTHON_USEDEP}] )
-	testing? ( dev-python/jaraco-test[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/jaraco-test-5.3[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flit-core[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )"

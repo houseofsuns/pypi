@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/yamale[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-changelog[${PYTHON_USEDEP}] )
 	docs? ( dev-python/dkist-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/towncrier-22.12.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

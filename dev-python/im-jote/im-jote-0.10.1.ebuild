@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/docker-compose[${PYTHON_USEDEP}]
 	dev-python/im-data-manager-job-decoder[${PYTHON_USEDEP}]
-	dev-python/munch[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+	~dev-python/munch-2.5.0[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.40.0[${PYTHON_USEDEP}]
 	dev-python/yamllint[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]"
+	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="threadedcomments"
-DEPENDENCIES="dev-python/django-crispy-forms[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-crispy-forms-1.9.2[${PYTHON_USEDEP}]
 	dev-python/django-tag-parser[${PYTHON_USEDEP}]
 	dev-python/django-contrib-comments[${PYTHON_USEDEP}]
 	dev-python/python-akismet[${PYTHON_USEDEP}]

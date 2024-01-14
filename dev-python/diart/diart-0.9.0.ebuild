@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20.2[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}]
 	dev-python/rx[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.2[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/torchaudio[${PYTHON_USEDEP}]
 	dev-python/pyannote-audio[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/pyannote-core[${PYTHON_USEDEP}]
 	dev-python/pyannote-database[${PYTHON_USEDEP}]
 	dev-python/pyannote-metrics[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
 	dev-python/websocket-server[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	>=dev-python/websocket-client-0.58.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

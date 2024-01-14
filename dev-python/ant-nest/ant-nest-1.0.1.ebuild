@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httpx-0.14.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-4.8.0[${PYTHON_USEDEP}]
+	>=dev-python/ujson-1.3.4[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-0.3.1[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
 	dev-python/IPython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

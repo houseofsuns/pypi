@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/WebOb[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/oslo-concurrency[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]"
+	>=dev-python/bcrypt-3.1.3[${PYTHON_USEDEP}]
+	>=dev-python/oslo-concurrency-3.26.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-3.15.3[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.34.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-6.2.0[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.24.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

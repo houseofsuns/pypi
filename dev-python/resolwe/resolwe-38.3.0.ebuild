@@ -24,52 +24,52 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs package storage_gcs storage_s3 test"
-DEPENDENCIES="dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/asteval[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/asgiref-3.6.0[${PYTHON_USEDEP}]
+	~dev-python/asteval-0.9.29[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
 	dev-python/channels[${PYTHON_USEDEP}]
 	dev-python/channels-redis[${PYTHON_USEDEP}]
 	dev-python/crcmod[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	~dev-python/docker-6.1.1[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
+	~dev-python/django-filter-23.1[${PYTHON_USEDEP}]
 	dev-python/django-versionfield[${PYTHON_USEDEP}]
 	dev-python/django-fernet-fields-v2[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/plumbum[${PYTHON_USEDEP}]
-	dev-python/psycopg[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
+	~dev-python/plumbum-1.8.1[${PYTHON_USEDEP}]
+	~dev-python/psycopg-3.1.9[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/redis-4.5.4[${PYTHON_USEDEP}]
 	dev-python/shellescape[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
+	~dev-python/wrapt-1.15.0[${PYTHON_USEDEP}]
+	~dev-python/pyzmq-25.0.2[${PYTHON_USEDEP}]
+	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pyasn1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/daphne[${PYTHON_USEDEP}] )
 	package? ( dev-python/twine[${PYTHON_USEDEP}] )
 	package? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	storage_gcs? ( dev-python/crcmod[${PYTHON_USEDEP}] )
 	storage_gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	storage_s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	storage_s3? ( ~dev-python/boto3-1.26.109[${PYTHON_USEDEP}] )
 	storage_s3? ( dev-python/crcmod[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-7.2.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
 	test? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
-	test? ( dev-python/tblib[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testfixtures-7.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tblib-1.7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/daphne[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	test? ( dev-python/djangorestframework-stubs[${PYTHON_USEDEP}] )"

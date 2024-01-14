@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/blessed[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/python-editor[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/blessed-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/coloredlogs-16.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-editor-2.0.0[${PYTHON_USEDEP}]
 	dev-python/readchar[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

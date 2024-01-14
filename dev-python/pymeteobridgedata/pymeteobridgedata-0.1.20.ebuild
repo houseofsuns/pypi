@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-timeout-1.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/termcolor[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pillow[${PYTHON_USEDEP}] )

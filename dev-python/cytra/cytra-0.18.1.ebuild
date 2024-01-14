@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ujson"
 DEPENDENCIES="dev-python/gongish[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2021.1[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	>=dev-python/redis-3.5.3[${PYTHON_USEDEP}]
 	dev-python/user-agents[${PYTHON_USEDEP}]
-	dev-python/webtest[${PYTHON_USEDEP}]
-	ujson? ( dev-python/ujson[${PYTHON_USEDEP}] )"
+	>=dev-python/webtest-2.0.35[${PYTHON_USEDEP}]
+	ujson? ( >=dev-python/ujson-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

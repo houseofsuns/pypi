@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/PyQt5-5.15.7[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-61.0[${PYTHON_USEDEP}]
 	dev-python/mplcursors[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/pyqtspinner[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

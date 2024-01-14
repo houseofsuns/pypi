@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,10 +30,10 @@ DEPENDENCIES="dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/nitime[${PYTHON_USEDEP}]
 	dev-python/nitransforms[${PYTHON_USEDEP}]
 	dev-python/niworkflows[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.4[${PYTHON_USEDEP}]
 	dev-python/pybids[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/sdcflows[${PYTHON_USEDEP}]
@@ -42,14 +42,14 @@ DEPENDENCIES="dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/templateflow[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	all? ( dev-python/nibabies[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydot[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/pydot-1.2.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nibabies[${PYTHON_USEDEP}] )
 	duecredit? ( dev-python/duecredit[${PYTHON_USEDEP}] )
 	maint? ( dev-python/fuzzywuzzy[${PYTHON_USEDEP}] )

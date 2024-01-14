@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/pycurl[${PYTHON_USEDEP}]
+	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pycurl-8.0.0[${PYTHON_USEDEP}]
 	dev-python/thumbor[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

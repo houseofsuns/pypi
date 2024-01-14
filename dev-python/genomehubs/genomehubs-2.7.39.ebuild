@@ -25,26 +25,26 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
-	dev-python/fastjsonschema[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
+	>=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
+	~dev-python/elasticsearch-8.7[${PYTHON_USEDEP}]
+	>=dev-python/fastjsonschema-2.15.3[${PYTHON_USEDEP}]
+	>=dev-python/filetype-1.0.7[${PYTHON_USEDEP}]
 	dev-python/h3[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/sparqlwrapper[${PYTHON_USEDEP}]
 	dev-python/tolkein[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	>=dev-python/ujson-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pycodestyle-2.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydocstyle-5.0.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.5.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-4.0.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-mock-3.1.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

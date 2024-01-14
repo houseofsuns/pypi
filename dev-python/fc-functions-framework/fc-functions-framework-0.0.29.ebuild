@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-3.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/watchdog-2.0.0[${PYTHON_USEDEP}]
 	dev-python/cloudevents[${PYTHON_USEDEP}]
 	dev-python/dapr[${PYTHON_USEDEP}]
 	dev-python/dapr-ext-grpc[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

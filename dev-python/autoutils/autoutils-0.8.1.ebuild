@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/persiantools[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/sshtunnel[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	<dev-python/redis-5.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	<dev-python/sshtunnel-1.0[${PYTHON_USEDEP}]
+	<dev-python/paramiko-3.0[${PYTHON_USEDEP}]
 	dev-python/func-timeout[${PYTHON_USEDEP}]
 	dev-python/blessings[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/kafka-python[${PYTHON_USEDEP}]"
+	<dev-python/pytz-2023.0[${PYTHON_USEDEP}]
+	<dev-python/kafka-python-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

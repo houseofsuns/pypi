@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	dev-python/checksumdir[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+	~dev-python/google-auth-2.23.4[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/ipaddr[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
+	~dev-python/ipaddr-2.2.0[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.8.1[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.1.2[${PYTHON_USEDEP}]
+	~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
 	dev-python/qmplot[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.11.3[${PYTHON_USEDEP}]
+	~dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]
+	~dev-python/tomlkit-0.12.1[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-23.10.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-argparse-0.4.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-inline-tabs-2023.4.21[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

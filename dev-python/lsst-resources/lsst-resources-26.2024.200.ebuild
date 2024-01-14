@@ -29,14 +29,14 @@ DEPENDENCIES="dev-python/lsst-utils[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
 	gs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	https? ( dev-python/astropy[${PYTHON_USEDEP}] )
-	https? ( dev-python/requests[${PYTHON_USEDEP}] )
-	https? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	https? ( dev-python/responses[${PYTHON_USEDEP}] )
+	https? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
+	https? ( >=dev-python/urllib3-1.25.10[${PYTHON_USEDEP}] )
+	https? ( >=dev-python/responses-0.12.0[${PYTHON_USEDEP}] )
 	https? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	s3? ( dev-python/moto[${PYTHON_USEDEP}] )
-	s3? ( dev-python/backoff[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/boto3-1.13[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/moto-1.3[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/backoff-1.10[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-openfiles[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

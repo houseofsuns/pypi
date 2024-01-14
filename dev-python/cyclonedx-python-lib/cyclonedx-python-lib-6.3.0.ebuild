@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="json-validation validation xml-validation"
-DEPENDENCIES="validation? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	json-validation? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	dev-python/license-expression[${PYTHON_USEDEP}]
-	validation? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	xml-validation? ( dev-python/lxml[${PYTHON_USEDEP}] )
+DEPENDENCIES="validation? ( <dev-python/jsonschema-5.0[${PYTHON_USEDEP}] )
+	json-validation? ( <dev-python/jsonschema-5.0[${PYTHON_USEDEP}] )
+	<dev-python/license-expression-31.0[${PYTHON_USEDEP}]
+	validation? ( <dev-python/lxml-6.0[${PYTHON_USEDEP}] )
+	xml-validation? ( <dev-python/lxml-6.0[${PYTHON_USEDEP}] )
 	dev-python/packageurl-python[${PYTHON_USEDEP}]
 	dev-python/py-serializable[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]"
+	<dev-python/sortedcontainers-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

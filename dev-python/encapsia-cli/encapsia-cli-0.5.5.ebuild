@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="httpie-shell"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/click-completion[${PYTHON_USEDEP}]
 	dev-python/click-shell[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
 	dev-python/httpie[${PYTHON_USEDEP}]
 	dev-python/encapsia-api[${PYTHON_USEDEP}]
 	httpie-shell? ( dev-python/http-prompt[${PYTHON_USEDEP}] )
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/shellingham[${PYTHON_USEDEP}]"
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/semver-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/shellingham-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc tests"
 DEPENDENCIES="doc? ( dev-python/ansys_sphinx_theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-autoapi-3.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx-copybutton[${PYTHON_USEDEP}] )
-	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/hypothesis-6.87.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

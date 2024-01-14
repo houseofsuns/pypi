@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs tests tox"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.19[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	all? ( dev-python/sparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/matrepr[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dask[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-3.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	tox? ( dev-python/sparse[${PYTHON_USEDEP}] )

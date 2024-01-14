@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/influxdb[${PYTHON_USEDEP}]
 	dev-python/locust[${PYTHON_USEDEP}]
 	dev-python/locust-influxdb-listener[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
+	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/tag-matcher[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

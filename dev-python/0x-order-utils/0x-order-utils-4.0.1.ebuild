@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/0x-contract-addresses[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/mypy-0.770[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )

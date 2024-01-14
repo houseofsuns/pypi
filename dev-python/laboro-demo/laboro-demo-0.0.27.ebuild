@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
 DEPENDENCIES="dev-python/laboro[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.12.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/autopep8-1.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	dev? ( dev-python/auto-changelog[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/confu[${PYTHON_USEDEP}]
 	dev-python/git-url-parse[${PYTHON_USEDEP}]
 	dev-python/grainy[${PYTHON_USEDEP}]
 	dev-python/munge[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
+	>=dev-python/natsort-8.0[${PYTHON_USEDEP}]
 	dev-python/pluginmgr[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]"
+	<=dev-python/semver-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

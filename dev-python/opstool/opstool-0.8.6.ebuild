@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/pyvista[${PYTHON_USEDEP}]
 	dev-python/sectionproperties[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/triangle[${PYTHON_USEDEP}]"

@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/arklibrary[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/pytesseract[${PYTHON_USEDEP}]
+	~dev-python/requests-2.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.0[${PYTHON_USEDEP}]
+	~dev-python/selenium-4.0[${PYTHON_USEDEP}]
+	~dev-python/pytesseract-0.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	~dev-python/numpy-1.0[${PYTHON_USEDEP}]
+	testing? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mypy-0.971[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/flake8-3.8[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-3.24[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pymatreader[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]
+	>=dev-python/threadpoolctl-3.1.0[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

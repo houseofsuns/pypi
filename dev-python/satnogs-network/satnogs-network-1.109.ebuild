@@ -31,36 +31,36 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/tinytag[${PYTHON_USEDEP}]
 	dev-python/internetarchive[${PYTHON_USEDEP}]
 	dev-python/django-storages[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/mysqlclient[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.21.0[${PYTHON_USEDEP}]
+	~dev-python/mysqlclient-2.1.0[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/hiredis[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	~dev-python/redis-4.2.0[${PYTHON_USEDEP}]
+	~dev-python/hiredis-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/sentry-sdk-1.5.0[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
-	dev-python/dj-database-url[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/dj-database-url-0.5.0[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
 	dev-python/django-csp[${PYTHON_USEDEP}]
 	dev-python/django-allauth[${PYTHON_USEDEP}]
-	dev-python/django-crispy-forms[${PYTHON_USEDEP}]
+	~dev-python/django-crispy-forms-1.14.0[${PYTHON_USEDEP}]
 	dev-python/social-auth-app-django[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
+	~dev-python/python-jose-3.3.0[${PYTHON_USEDEP}]
 	dev-python/django-compressor[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.13.0[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	~dev-python/django-filter-21.1[${PYTHON_USEDEP}]
 	dev-python/ephem[${PYTHON_USEDEP}]
-	dev-python/objgraph[${PYTHON_USEDEP}]
-	dev-python/django-debug-toolbar[${PYTHON_USEDEP}]
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
+	~dev-python/objgraph-3.5.0[${PYTHON_USEDEP}]
+	~dev-python/django-debug-toolbar-3.2.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/sphinx-6.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-django-4.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-forked-1.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mock-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/tox-3.24.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

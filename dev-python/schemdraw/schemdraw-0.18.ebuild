@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="matplotlib svgmath"
-DEPENDENCIES="matplotlib? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+DEPENDENCIES="matplotlib? ( >=dev-python/matplotlib-3.4[${PYTHON_USEDEP}] )
 	svgmath? ( dev-python/ziafont[${PYTHON_USEDEP}] )
 	svgmath? ( dev-python/ziamath[${PYTHON_USEDEP}] )
 	svgmath? ( dev-python/latex2mathml[${PYTHON_USEDEP}] )"

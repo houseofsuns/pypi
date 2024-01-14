@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs mongodb"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-2.0.6[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/click-completion[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
+	~dev-python/ijson-3.2.3[${PYTHON_USEDEP}]
 	dev-python/ansicolors[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.1.2[${PYTHON_USEDEP}]
 	dev-python/dicttoxml[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
 	dev-python/aioretry[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	all? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	mongodb? ( dev-python/pymongo[${PYTHON_USEDEP}] )"
+	~dev-python/pymongo-4.5.0[${PYTHON_USEDEP}]
+	all? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-autodoc-typehints-1.25.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pymongo-4.5.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.25.2[${PYTHON_USEDEP}] )
+	mongodb? ( ~dev-python/pymongo-4.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

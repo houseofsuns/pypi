@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/Twisted[${PYTHON_USEDEP}]
-	dev-python/ldap3[${PYTHON_USEDEP}]
+	>=dev-python/ldap3-2.8[${PYTHON_USEDEP}]
 	dev-python/service-identity[${PYTHON_USEDEP}]
 	dev? ( dev-python/matrix-synapse[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ldaptor[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.9.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

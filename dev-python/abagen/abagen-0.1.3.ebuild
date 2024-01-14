@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc io style test"
 DEPENDENCIES="dev-python/nibabel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastparquet[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-snappy[${PYTHON_USEDEP}] )
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	io? ( dev-python/fastparquet[${PYTHON_USEDEP}] )
 	io? ( dev-python/python-snappy[${PYTHON_USEDEP}] )
 	style? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

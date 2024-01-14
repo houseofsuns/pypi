@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/execnet[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/execnet-1.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-4.4.0[${PYTHON_USEDEP}]
 	dev-python/pytest-forked[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	testing? ( dev-python/filelock[${PYTHON_USEDEP}] )"

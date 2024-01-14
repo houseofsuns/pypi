@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.7[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

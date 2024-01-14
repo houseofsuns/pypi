@@ -25,33 +25,33 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc test"
 DEPENDENCIES="dev-python/docstring-inheritance[${PYTHON_USEDEP}]
-	dev-python/fastjsonschema[${PYTHON_USEDEP}]
-	dev-python/genson[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	<=dev-python/fastjsonschema-2.19.0[${PYTHON_USEDEP}]
+	~dev-python/genson-1.2.2[${PYTHON_USEDEP}]
+	<=dev-python/h5py-3.10.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<=dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}]
+	<=dev-python/networkx-3.2.1[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
+	<=dev-python/packaging-23.2[${PYTHON_USEDEP}]
+	<=dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
 	dev-python/pyxdsm[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.6[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<=dev-python/scipy-1.11.4[${PYTHON_USEDEP}]
 	dev-python/strenum[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev-python/xdsmjs[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]
-	all? ( dev-python/graphviz[${PYTHON_USEDEP}] )
+	<=dev-python/xxhash-3.4.1[${PYTHON_USEDEP}]
+	all? ( <=dev-python/graphviz-0.20.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/nlopt[${PYTHON_USEDEP}] )
-	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/openturns[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydoe2[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	all? ( dev-python/sympy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/sympy-1.12[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/pillow-10.1.0[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/plotly-5.18.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyenchant[${PYTHON_USEDEP}] )

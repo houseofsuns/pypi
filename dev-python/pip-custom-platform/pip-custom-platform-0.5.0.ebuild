@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/distro[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/distro-1.2.0[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/pymonkey[${PYTHON_USEDEP}]"

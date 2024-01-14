@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gui"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
+	<dev-python/prettytable-4.0.0[${PYTHON_USEDEP}]
 	dev-python/bk7231tools[${PYTHON_USEDEP}]
 	dev-python/xmodem[${PYTHON_USEDEP}]
 	gui? ( dev-python/wxPython[${PYTHON_USEDEP}] )
 	dev-python/py-datastruct[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
+	<dev-python/semantic-version-3.0.0[${PYTHON_USEDEP}]
 	dev-python/hexdump[${PYTHON_USEDEP}]
 	dev-python/bitstruct[${PYTHON_USEDEP}]
-	gui? ( dev-python/zeroconf[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/pyaes[${PYTHON_USEDEP}]"
+	gui? ( <=dev-python/zeroconf-0.128.4[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyaes-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

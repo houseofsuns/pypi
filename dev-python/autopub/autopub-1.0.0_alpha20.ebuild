@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="github"
-DEPENDENCIES="dev-python/tomlkit[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tomlkit-2.0[${PYTHON_USEDEP}]
 	github? ( dev-python/githubrelease[${PYTHON_USEDEP}] )
-	github? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	github? ( ~dev-python/httpx-0.16.1[${PYTHON_USEDEP}] )
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
-	dev-python/build[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
+	<dev-python/build-0.11.0[${PYTHON_USEDEP}]
+	<dev-python/twine-5.0.0[${PYTHON_USEDEP}]
 	dev-python/dunamai[${PYTHON_USEDEP}]
-	dev-python/time-machine[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	<dev-python/time-machine-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

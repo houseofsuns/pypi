@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/bip32[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]"
+	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

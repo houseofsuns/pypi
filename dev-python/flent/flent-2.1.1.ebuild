@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="gui plots"
 DEPENDENCIES="gui? ( dev-python/QtPy[${PYTHON_USEDEP}] )
 	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	plots? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	plots? ( >=dev-python/matplotlib-1.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

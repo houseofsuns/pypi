@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/evaluate[${PYTHON_USEDEP}]
 	dev-python/fastcore[${PYTHON_USEDEP}]

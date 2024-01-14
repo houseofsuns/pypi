@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
+	>=dev-python/cffi-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

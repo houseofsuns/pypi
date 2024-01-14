@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dogpile-cache[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dogpile-cache-0.6.2[${PYTHON_USEDEP}]
+	>=dev-python/lxml-3.4.1[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.36.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
 	dev-python/python-heatclient[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
+	>=dev-python/python-keystoneclient-3.8.0[${PYTHON_USEDEP}]
 	dev-python/python-zaqarclient[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

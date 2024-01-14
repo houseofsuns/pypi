@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cftime[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.6.0[${PYTHON_USEDEP}]
 	dev-python/hdf5plugin[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]"
+	>=dev-python/xarray-2022.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/discord-py[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]"
+	>=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/asdf-standard[${PYTHON_USEDEP}]
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-openfiles[${PYTHON_USEDEP}] )
 	test? ( dev-python/asdf[${PYTHON_USEDEP}] )
 	test? ( dev-python/asdf-astropy[${PYTHON_USEDEP}] )"

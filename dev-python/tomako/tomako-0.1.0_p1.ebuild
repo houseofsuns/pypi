@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Mako[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]"
+	>=dev-python/tornado-2.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

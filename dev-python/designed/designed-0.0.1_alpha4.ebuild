@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/jedi[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/sympy-1.11[${PYTHON_USEDEP}]
+	>=dev-python/jedi-0.16[${PYTHON_USEDEP}]
+	>dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	dev-python/spb[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.12[${PYTHON_USEDEP}]
 	dev-python/japanize-matplotlib[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]"
+	~dev-python/colorama-0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

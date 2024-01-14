@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all automl docs embedding tutorials"
 DEPENDENCIES="dev-python/hnne[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/fairlearn[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	dev-python/renumics-spotlight[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/puremagic[${PYTHON_USEDEP}]
+	>=dev-python/puremagic-1.15[${PYTHON_USEDEP}]
 	all? ( dev-python/flaml[${PYTHON_USEDEP}] )
 	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	all? ( dev-python/shap[${PYTHON_USEDEP}] )
@@ -45,13 +45,13 @@ DEPENDENCIES="dev-python/hnne[${PYTHON_USEDEP}]
 	automl? ( dev-python/flaml[${PYTHON_USEDEP}] )
 	automl? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	automl? ( dev-python/shap[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-applehelp-1.0.7[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-devhelp-1.0.5[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-htmlhelp-2.0.4[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-qthelp-1.0.6[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-serializinghtml-1.1.9[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
 	embedding? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	embedding? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	embedding? ( dev-python/torchaudio[${PYTHON_USEDEP}] )

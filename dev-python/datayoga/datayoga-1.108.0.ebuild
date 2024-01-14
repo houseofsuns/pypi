@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/certifi-2024.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/datayoga-core[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest-describe[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	test? ( <dev-python/mock-5.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}]
+	test? ( <dev-python/pytest-describe-3.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-timeout-3.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/requests-mock-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-logging[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.20.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-http[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]"
+	<dev-python/httpx-0.26.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

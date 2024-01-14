@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/filetype-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.14.1[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.12[${PYTHON_USEDEP}]
 	dev-python/result[${PYTHON_USEDEP}]
 	dev-python/durations[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

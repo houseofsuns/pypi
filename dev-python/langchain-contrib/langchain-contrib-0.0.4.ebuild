@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/langchain[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
+	<dev-python/pexpect-5.0.0[${PYTHON_USEDEP}]
 	dev-python/fvalues[${PYTHON_USEDEP}]
 	dev-python/simple-term-menu[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

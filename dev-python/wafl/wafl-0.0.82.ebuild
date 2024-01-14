@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
 	dev-python/flask-dropzone[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.1.2[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]
 	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	dev-python/wave[${PYTHON_USEDEP}]
-	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
+	~dev-python/fuzzywuzzy-0.18.0[${PYTHON_USEDEP}]
 	dev-python/PyAudio[${PYTHON_USEDEP}]
 	dev-python/pyctcdecode[${PYTHON_USEDEP}]
 	dev-python/num2words[${PYTHON_USEDEP}]
 	dev-python/word2number[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/g2p-en[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]"
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

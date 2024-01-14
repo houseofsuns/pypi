@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-2.3[${PYTHON_USEDEP}]
 	dev-python/google-cloud-pubsub[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

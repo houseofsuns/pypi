@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/multimethod[${PYTHON_USEDEP}]
 	dev-python/py-cord[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/titlecase[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

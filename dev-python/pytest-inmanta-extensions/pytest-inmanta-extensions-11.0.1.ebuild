@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	dev-python/pytest-env[${PYTHON_USEDEP}]
 	dev-python/pytest-postgresql[${PYTHON_USEDEP}]
-	dev-python/psycopg[${PYTHON_USEDEP}]
+	>=dev-python/psycopg-3.0[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

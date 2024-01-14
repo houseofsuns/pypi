@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp requests"
 DEPENDENCIES="dev-python/google-crc32c[${PYTHON_USEDEP}]
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	aiohttp? ( dev-python/google-auth[${PYTHON_USEDEP}] )
-	requests? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	aiohttp? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
+	aiohttp? ( <dev-python/google-auth-2.0[${PYTHON_USEDEP}] )
+	requests? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

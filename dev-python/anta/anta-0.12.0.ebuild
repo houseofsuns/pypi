@@ -24,47 +24,47 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc"
-DEPENDENCIES="dev-python/aiocache[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiocache-0.12.2[${PYTHON_USEDEP}]
 	dev-python/aio-eapi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-help-colors[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.6[${PYTHON_USEDEP}]
+	~dev-python/click-help-colors-0.9[${PYTHON_USEDEP}]
 	dev-python/cvprac[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.6.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	<dev-python/rich-13.8.0[${PYTHON_USEDEP}]
 	dev-python/asyncssh[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy_extensions-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.17.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-dependency[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-metadata[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-metadata-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-pydantic[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/tox-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-paramiko[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-bootswatch[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-1.3.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-autorefs-0.4.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-bootswatch-1.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-git-revision-date-localized-plugin-1.1.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-git-revision-date-plugin[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-material-8.3.9[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-material-extensions-1.0.3[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocstrings-0.20.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/fontawesome-markdown[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mike[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

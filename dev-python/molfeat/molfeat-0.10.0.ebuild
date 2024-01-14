@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2021.9[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pmapper[${PYTHON_USEDEP}]
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mike[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mdx-truly-sane-lists[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-7.1.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
@@ -73,11 +73,11 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	fcd? ( dev-python/fcd-torch[${PYTHON_USEDEP}] )
 	graphormer? ( dev-python/graphormer-pretrained[${PYTHON_USEDEP}] )
 	pyg? ( dev-python/pytorch-geometric[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-dotenv[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-22.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	transformer? ( dev-python/tokenizers[${PYTHON_USEDEP}] )
 	transformer? ( dev-python/transformers[${PYTHON_USEDEP}] )

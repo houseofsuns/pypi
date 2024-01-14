@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="async clickatell receiver vianett"
 DEPENDENCIES="async? ( dev-python/asynctools[${PYTHON_USEDEP}] )
 	clickatell? ( dev-python/smsframework-clickatell[${PYTHON_USEDEP}] )
-	receiver? ( dev-python/flask[${PYTHON_USEDEP}] )
+	receiver? ( >=dev-python/flask-0.10[${PYTHON_USEDEP}] )
 	vianett? ( dev-python/smsframework-vianett[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

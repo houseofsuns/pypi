@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dask ray"
 DEPENDENCIES="ray? ( dev-python/modin[${PYTHON_USEDEP}] )
-	ray? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dask? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
+	ray? ( >=dev-python/pandas-1.1.2[${PYTHON_USEDEP}] )
+	dask? ( >=dev-python/cloudpickle-1.4.0[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all? ( dev-python/modin[${PYTHON_USEDEP}] )
-	all? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/cloudpickle-1.4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask[${PYTHON_USEDEP}] )
-	dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
+	>=dev-python/antlr4-python3-runtime-4.10[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/adagio[${PYTHON_USEDEP}]
 	dev-python/triad[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]"
+	>=dev-python/pandas-1.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

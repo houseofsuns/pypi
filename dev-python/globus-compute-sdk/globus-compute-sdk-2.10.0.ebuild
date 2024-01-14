@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES="test? ( ~dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/globus-sdk[${PYTHON_USEDEP}]
 	dev-python/globus-compute-common[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/tblib[${PYTHON_USEDEP}]
-	dev-python/texttable[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	~dev-python/websockets-10.3[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.1[${PYTHON_USEDEP}]
+	>=dev-python/pika-1.2[${PYTHON_USEDEP}]
+	~dev-python/tblib-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/texttable-1.6.7[${PYTHON_USEDEP}]
+	~dev-python/dill-0.3.5.1[${PYTHON_USEDEP}]
+	~dev-python/dill-0.3.6[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2021.9.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/responses[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all compression encryption"
-DEPENDENCIES="dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	encryption? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
-	all? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]
+	encryption? ( <dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}] )
 	compression? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	all? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	compression? ( dev-python/blosc2[${PYTHON_USEDEP}] )
 	all? ( dev-python/blosc2[${PYTHON_USEDEP}] )
 	dev-python/types-ujson[${PYTHON_USEDEP}]
 	dev-python/vermils[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	dev-python/types-cachetools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

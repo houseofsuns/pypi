@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scipy-1.4[${PYTHON_USEDEP}]
 	dev-python/cobra[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

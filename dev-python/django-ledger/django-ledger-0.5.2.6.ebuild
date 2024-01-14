@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-4.1.3[${PYTHON_USEDEP}]
 	dev-python/django-treebeard[${PYTHON_USEDEP}]
 	dev-python/faker[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+	~dev-python/markdown-3.4.1[${PYTHON_USEDEP}]
 	dev-python/ofxtools[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/text-unidecode[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	~dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
+	~dev-python/text-unidecode-1.3[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/sqlparse-0.4.3[${PYTHON_USEDEP}]
+	~dev-python/asgiref-3.5.2[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/behave[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pipenv-setup[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )

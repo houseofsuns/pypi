@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs lint test"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-2.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.14[${PYTHON_USEDEP}]
 	dev-python/safe-netrc[${PYTHON_USEDEP}]
 	dev-python/scitokens[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-immaterial-igwn[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/flake8-3.7.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-bandit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.9.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

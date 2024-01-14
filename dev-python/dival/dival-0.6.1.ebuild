@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="direct_gpu_parallel_beam torch_learned_reconstructors training_logs"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.10[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/odl[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli testing"
-DEPENDENCIES="dev-python/httplib2[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httplib2-0.8[${PYTHON_USEDEP}]
+	>=dev-python/fasteners-0.14[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	cli? ( dev-python/python-gflags[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )"
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
+	cli? ( >=dev-python/python-gflags-3.0.6[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mock-1.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

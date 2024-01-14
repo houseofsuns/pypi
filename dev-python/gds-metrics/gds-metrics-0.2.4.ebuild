@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/prometheus-client[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/prometheus-client-1.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]"
+	>=dev-python/blinker-1.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="nfse"
-DEPENDENCIES="dev-python/pyopenssl[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/signxml[${PYTHON_USEDEP}]

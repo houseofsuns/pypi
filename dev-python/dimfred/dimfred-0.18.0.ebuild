@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tabulate[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/easydict[${PYTHON_USEDEP}]
 	dev-python/jsoncomment[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/pluck[${PYTHON_USEDEP}]
 	dev-python/urlpath[${PYTHON_USEDEP}]
 	dev-python/prettyprint[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-8.1.0[${PYTHON_USEDEP}]
 	dev-python/shutils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

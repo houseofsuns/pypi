@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="arbor brian2 doc examples mpi neuroml neuron plotting sonata spinnaker test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	dev-python/lazyarray[${PYTHON_USEDEP}]
 	dev-python/neo[${PYTHON_USEDEP}]
-	dev-python/quantities[${PYTHON_USEDEP}]
+	>=dev-python/quantities-0.12.1[${PYTHON_USEDEP}]
 	dev-python/morphio[${PYTHON_USEDEP}]
 	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
 	arbor? ( dev-python/arbor[${PYTHON_USEDEP}] )

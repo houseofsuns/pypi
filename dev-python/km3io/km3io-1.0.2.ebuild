@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/uproot3[${PYTHON_USEDEP}]
 	dev-python/uproot[${PYTHON_USEDEP}]
 	dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/km3net-testdata[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

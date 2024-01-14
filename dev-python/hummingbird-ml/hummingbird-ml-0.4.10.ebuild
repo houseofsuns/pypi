@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark extra onnx sparkml tests"
 DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	dev-python/onnxconverter-common[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
 	onnx? ( dev-python/onnxmltools[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/skl2onnx[${PYTHON_USEDEP}] )
-	sparkml? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	sparkml? ( >dev-python/pyarrow-1.0[${PYTHON_USEDEP}] )
 	sparkml? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )

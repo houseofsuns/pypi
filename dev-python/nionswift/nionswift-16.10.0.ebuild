@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.19.0[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/nionutils[${PYTHON_USEDEP}]
 	dev-python/niondata[${PYTHON_USEDEP}]

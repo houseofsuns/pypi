@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all limiter"
 DEPENDENCIES="dev-python/apeye-core[${PYTHON_USEDEP}]
 	dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	all? ( dev-python/cachecontrol[${PYTHON_USEDEP}] )
-	all? ( dev-python/lockfile[${PYTHON_USEDEP}] )
-	limiter? ( dev-python/cachecontrol[${PYTHON_USEDEP}] )
-	limiter? ( dev-python/lockfile[${PYTHON_USEDEP}] )"
+	>=dev-python/platformdirs-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/cachecontrol-0.12.6[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/lockfile-0.12.2[${PYTHON_USEDEP}] )
+	limiter? ( >=dev-python/cachecontrol-0.12.6[${PYTHON_USEDEP}] )
+	limiter? ( >=dev-python/lockfile-0.12.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

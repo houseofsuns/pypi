@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]"
+	<dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

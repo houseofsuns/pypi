@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES="dev-python/qcodes[${PYTHON_USEDEP}]
-	dev-python/versioningit[${PYTHON_USEDEP}]
+	>=dev-python/versioningit-2.0.1[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-0.940[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-6.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyvisa-sim[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-tqdm[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )"

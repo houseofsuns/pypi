@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/dbnd[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]"
+	<dev-python/pyrsistent-0.20[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]
 	dev-python/ccdproc[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
 	dev-python/PyAstronomy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.13.5[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.12.2[${PYTHON_USEDEP}]
 	dev-python/pyia[${PYTHON_USEDEP}]
 	dev-python/photutils[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-astropy[${PYTHON_USEDEP}] )

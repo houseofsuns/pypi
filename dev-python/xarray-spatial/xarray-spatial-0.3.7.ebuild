@@ -27,7 +27,7 @@ IUSE="doc optional tests"
 DEPENDENCIES="dev-python/datashader[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	doc? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipykernel[${PYTHON_USEDEP}] )

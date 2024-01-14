@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
 	dev? ( dev-python/requires[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.18.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-mock-3.3.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mock-4.0.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.942[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

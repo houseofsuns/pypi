@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="format lint publisher tests"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pydantic-1.0[${PYTHON_USEDEP}]
+	~dev-python/structlog-23.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.0[${PYTHON_USEDEP}]
+	~dev-python/arrow-1.0[${PYTHON_USEDEP}]
 	format? ( dev-python/isort[${PYTHON_USEDEP}] )
 	format? ( dev-python/black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	publisher? ( dev-python/click[${PYTHON_USEDEP}] )
-	publisher? ( dev-python/arrow[${PYTHON_USEDEP}] )
+	publisher? ( ~dev-python/click-8.0[${PYTHON_USEDEP}] )
+	publisher? ( ~dev-python/arrow-1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	~dev-python/docker-5.0.0[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/overrides[${PYTHON_USEDEP}]
+	~dev-python/overrides-3.1.0[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

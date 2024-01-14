@@ -25,39 +25,39 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all analytics client pcs psmon server sysinfo"
 DEPENDENCIES="dev-python/strictyaml[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.3.0[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	<dev-python/pathspec-0.6.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	psmon? ( dev-python/psmon[${PYTHON_USEDEP}] )
 	all? ( dev-python/psmon[${PYTHON_USEDEP}] )
-	sysinfo? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	sysinfo? ( dev-python/py-cpuinfo[${PYTHON_USEDEP}] )
-	all? ( dev-python/py-cpuinfo[${PYTHON_USEDEP}] )
+	sysinfo? ( <dev-python/psutil-6.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/psutil-6.0[${PYTHON_USEDEP}] )
+	sysinfo? ( <dev-python/py-cpuinfo-6.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/py-cpuinfo-6.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/msgpack-python[${PYTHON_USEDEP}] )
 	client? ( dev-python/msgpack-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/msgpack-python[${PYTHON_USEDEP}] )
-	server? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
-	client? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
+	server? ( <dev-python/pyzmq-19.0[${PYTHON_USEDEP}] )
+	client? ( <dev-python/pyzmq-19.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyzmq-19.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	all? ( dev-python/gevent[${PYTHON_USEDEP}] )
-	server? ( dev-python/peewee[${PYTHON_USEDEP}] )
-	analytics? ( dev-python/peewee[${PYTHON_USEDEP}] )
-	all? ( dev-python/peewee[${PYTHON_USEDEP}] )
-	server? ( dev-python/apsw[${PYTHON_USEDEP}] )
-	analytics? ( dev-python/apsw[${PYTHON_USEDEP}] )
-	all? ( dev-python/apsw[${PYTHON_USEDEP}] )
+	server? ( <dev-python/peewee-4.0[${PYTHON_USEDEP}] )
+	analytics? ( <dev-python/peewee-4.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/peewee-4.0[${PYTHON_USEDEP}] )
+	server? ( <dev-python/apsw-4.0[${PYTHON_USEDEP}] )
+	analytics? ( <dev-python/apsw-4.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/apsw-4.0[${PYTHON_USEDEP}] )
 	pcs? ( dev-python/configspace[${PYTHON_USEDEP}] )
 	all? ( dev-python/configspace[${PYTHON_USEDEP}] )
-	analytics? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	analytics? ( <dev-python/pandas-0.25.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pandas-0.25.0[${PYTHON_USEDEP}] )
 	analytics? ( dev-python/papermill[${PYTHON_USEDEP}] )
 	all? ( dev-python/papermill[${PYTHON_USEDEP}] )
-	dev-python/retrying[${PYTHON_USEDEP}]
-	dev-python/sshtunnel[${PYTHON_USEDEP}]"
+	<dev-python/retrying-2.0[${PYTHON_USEDEP}]
+	<dev-python/sshtunnel-0.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/enum34[${PYTHON_USEDEP}]
 	dev-python/statistics[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]"
+	<dev-python/stevedore-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipywidgets-8.0.4[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
+	>=dev-python/nbformat-5.7.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.8.4[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/pyqt6[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-67.8.0[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0.1[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

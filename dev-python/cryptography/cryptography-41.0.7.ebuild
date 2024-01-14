@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs docstest nox pep8test sdist ssh test test-randomorder"
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docstest? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
-	docstest? ( dev-python/twine[${PYTHON_USEDEP}] )
-	docstest? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/cffi-1.12[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.1.1[${PYTHON_USEDEP}] )
+	docstest? ( >=dev-python/pyenchant-1.6.11[${PYTHON_USEDEP}] )
+	docstest? ( >=dev-python/twine-1.12.0[${PYTHON_USEDEP}] )
+	docstest? ( >=dev-python/sphinxcontrib-spelling-4.0.1[${PYTHON_USEDEP}] )
 	nox? ( dev-python/nox[${PYTHON_USEDEP}] )
 	pep8test? ( dev-python/black[${PYTHON_USEDEP}] )
 	pep8test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	pep8test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	pep8test? ( dev-python/check-sdist[${PYTHON_USEDEP}] )
 	sdist? ( dev-python/build[${PYTHON_USEDEP}] )
-	ssh? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	ssh? ( >=dev-python/bcrypt-3.1.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/packaging-24.0[${PYTHON_USEDEP}]
+	<dev-python/pip-24.0[${PYTHON_USEDEP}]
+	<dev-python/setuptools-69.0[${PYTHON_USEDEP}]
+	<dev-python/wheel-0.42[${PYTHON_USEDEP}]
 	dev-python/transliterate[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]

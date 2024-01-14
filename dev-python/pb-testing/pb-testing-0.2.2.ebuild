@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/behave[${PYTHON_USEDEP}]
 	dev-python/PySimpleGUI[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
-	dev-python/mechanize[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]"
+	>=dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
+	>=dev-python/mechanize-0.4.8[${PYTHON_USEDEP}]
+	>=dev-python/selenium-4.6.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

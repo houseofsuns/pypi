@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-plugins[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.0[${PYTHON_USEDEP}]
+	~dev-python/click-plugins-1.1[${PYTHON_USEDEP}]
+	~dev-python/rich-10.6[${PYTHON_USEDEP}]
 	dev-python/cfn-flip[${PYTHON_USEDEP}]
 	dev-python/cirrus-lib[${PYTHON_USEDEP}]
 	dev-python/boto3-utils[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+	>=dev-python/boto3-1.26.0[${PYTHON_USEDEP}]
+	~dev-python/python-json-logger-2.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonpath-ng-1.5.3[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

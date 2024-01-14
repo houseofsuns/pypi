@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
 	dev-python/neuro-cli[${PYTHON_USEDEP}]
 	dev-python/neuro-extras[${PYTHON_USEDEP}]
 	dev-python/neuro-flow[${PYTHON_USEDEP}]"

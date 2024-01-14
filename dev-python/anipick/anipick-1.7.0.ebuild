@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/googlesearch-python[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

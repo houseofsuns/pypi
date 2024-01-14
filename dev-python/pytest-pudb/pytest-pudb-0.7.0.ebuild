@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-2.0[${PYTHON_USEDEP}]
 	dev-python/pudb[${PYTHON_USEDEP}]
 	dev? ( dev-python/pexpect[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )

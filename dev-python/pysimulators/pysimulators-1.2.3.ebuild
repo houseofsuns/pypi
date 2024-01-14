@@ -27,8 +27,8 @@ IUSE="dev healpix"
 DEPENDENCIES="dev-python/pyoperators[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/numexpr[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.9[${PYTHON_USEDEP}]
 	dev? ( dev-python/healpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyfftw[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

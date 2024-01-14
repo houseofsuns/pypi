@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-3.7.0[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.9.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/namedlist[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

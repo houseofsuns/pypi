@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-email-utils[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]"
+	<dev-python/djangorestframework-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	<dev-python/multidict-7.0[${PYTHON_USEDEP}]
 	dev-python/packed[${PYTHON_USEDEP}]
 	dev-python/rtry[${PYTHON_USEDEP}]
 	dev-python/undecorated[${PYTHON_USEDEP}]"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/python-dotenv-0.19.1[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
+	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]
 	dev-python/aioboto3[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]"
+	~dev-python/python-json-logger-2.0.2[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
+	<dev-python/starlette-0.27.0[${PYTHON_USEDEP}]
+	~dev-python/cryptography-39.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

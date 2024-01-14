@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev testing"
-DEPENDENCIES="dev? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdbpp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/twine-3.8.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-mock-3.7.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/tox-3.24.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

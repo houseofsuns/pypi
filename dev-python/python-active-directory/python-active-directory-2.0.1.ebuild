@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-ldap[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-ldap-3.0[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/ply[${PYTHON_USEDEP}]"
+	>=dev-python/ply-3.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

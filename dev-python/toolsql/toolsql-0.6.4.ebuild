@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/typing_extensions[${PYTHON_USEDEP}]
 	dev-python/toolstr[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]
-	dev-python/psycopg[${PYTHON_USEDEP}]
+	<dev-python/aiosqlite-0.19[${PYTHON_USEDEP}]
+	<dev-python/psycopg-3.2[${PYTHON_USEDEP}]
 	dev-python/connectorx[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

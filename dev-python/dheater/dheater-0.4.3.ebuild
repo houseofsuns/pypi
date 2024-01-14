@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pep8 pylint test"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
 	dev-python/cryptolyzer[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	pep8? ( dev-python/flake8[${PYTHON_USEDEP}] )

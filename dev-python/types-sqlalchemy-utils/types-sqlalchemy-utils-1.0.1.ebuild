@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlalchemy2-stubs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.971[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pipenv-setup[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/twine-4.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

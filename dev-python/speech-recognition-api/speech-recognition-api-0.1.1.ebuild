@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all celery gcs huey s3 whisper"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	~dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.25.0[${PYTHON_USEDEP}]
 	all? ( dev-python/speech-recognition-api[${PYTHON_USEDEP}] )
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	huey? ( dev-python/huey[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	s3? ( ~dev-python/boto3-1.34.5[${PYTHON_USEDEP}] )
 	s3? ( dev-python/boto3-type-annotations[${PYTHON_USEDEP}] )
 	whisper? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	whisper? ( dev-python/pydub[${PYTHON_USEDEP}] )

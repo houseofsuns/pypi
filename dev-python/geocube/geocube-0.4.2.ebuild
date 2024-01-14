@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc test"
 DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-6.0[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/odc-geo[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/rioxarray[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.17[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-2.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	all? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	all? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	all? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	dev? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	test? ( dev-python/netcdf4[${PYTHON_USEDEP}] )"

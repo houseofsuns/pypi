@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs scikit-image specutils test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/extension-helpers[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/packaging-0.19[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.7[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/configobj[${PYTHON_USEDEP}]
+	>=dev-python/configobj-5.0.6[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/IPython[${PYTHON_USEDEP}]
 	dev-python/ginga[${PYTHON_USEDEP}]
@@ -42,22 +42,22 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pyqt6[${PYTHON_USEDEP}]
 	dev? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	dev? ( dev-python/specutils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/docutils-0.19[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/docutils-0.19[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
 	scikit-image? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	specutils? ( dev-python/specutils[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

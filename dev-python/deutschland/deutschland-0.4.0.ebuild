@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="abfallnavi all ausbildungssuche berufssprachkurssuche bundeshaushalt bundestag-lobbyregister coachingangebote dashboarddeutschland destatis dip-bundestag ecovisio entgeltatlas feiertage hochwasserzentralen marktstammdaten pegel-online pflanzenschutzmittelzulassung studiensuche tagesschau vag weiterbildungssuche"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/mapbox-vector-tile[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
+	<dev-python/mapbox-vector-tile-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
 	dev-python/de-autobahn[${PYTHON_USEDEP}]

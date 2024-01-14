@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/ezdxf[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	dev-python/mat73[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]"

@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="alembic celery cli documentation gearman redis sentry"
 DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.3.3[${PYTHON_USEDEP}]
 	dev-python/injector[${PYTHON_USEDEP}]
 	dev-python/python3-gearman[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
 	alembic? ( dev-python/alembic[${PYTHON_USEDEP}] )
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	celery? ( dev-python/zsl-client[${PYTHON_USEDEP}] )
 	cli? ( dev-python/bpython[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/alembic[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	gearman? ( dev-python/python3-gearman[${PYTHON_USEDEP}] )
 	gearman? ( dev-python/zsl-client[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-3.2.0[${PYTHON_USEDEP}] )
 	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

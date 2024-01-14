@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+DEPENDENCIES="testing? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-4.4.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mypy-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

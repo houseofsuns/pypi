@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/globals[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.2.0[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Cors[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]
+	~dev-python/python-box-7.1.1[${PYTHON_USEDEP}]
 	dev-python/ensure[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

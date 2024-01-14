@@ -29,13 +29,13 @@ DEPENDENCIES="dev-python/textual[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-custom-exit-code[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-sugar-0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-custom-exit-code-0.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-asyncio-0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/packaging-23.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mockish[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

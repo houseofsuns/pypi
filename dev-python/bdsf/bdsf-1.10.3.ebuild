@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/backports-shutil-get-terminal-size[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	ishell? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	ishell? ( <dev-python/ipython-8.11[${PYTHON_USEDEP}] )
 	ishell? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

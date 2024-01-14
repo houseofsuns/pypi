@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/selenium[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/selenium-4.3.0[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
 	dev-python/robotframework-pythonlibcore[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

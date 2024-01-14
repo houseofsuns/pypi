@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]"
+	>=dev-python/uvloop-0.19.0[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	~dev-python/orjson-3.9.10[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

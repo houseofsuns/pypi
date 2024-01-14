@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="motor"
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pymongo-4.3.0[${PYTHON_USEDEP}]
 	motor? ( dev-python/motor[${PYTHON_USEDEP}] )
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	motor? ( dev-python/dnspython[${PYTHON_USEDEP}] )"
+	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
+	motor? ( >=dev-python/dnspython-2.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

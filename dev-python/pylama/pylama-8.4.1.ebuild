@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all eradicate mypy pylint radon tests toml vulture"
-DEPENDENCIES="dev-python/mccabe[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]
-	dev-python/pydocstyle[${PYTHON_USEDEP}]
-	dev-python/pyflakes[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mccabe-0.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pycodestyle-2.9.1[${PYTHON_USEDEP}]
+	>=dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}]
+	>=dev-python/pyflakes-2.5.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	all? ( dev-python/eradicate[${PYTHON_USEDEP}] )
 	all? ( dev-python/radon[${PYTHON_USEDEP}] )
@@ -37,12 +37,12 @@ DEPENDENCIES="dev-python/mccabe[${PYTHON_USEDEP}]
 	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	pylint? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	radon? ( dev-python/radon[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/eradicate[${PYTHON_USEDEP}] )
-	tests? ( dev-python/radon[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/eradicate-2.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/radon-5.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pylint-2.11.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylama-quotes[${PYTHON_USEDEP}] )
 	tests? ( dev-python/toml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/vulture[${PYTHON_USEDEP}] )

@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/pytest-freezer[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-asyncio-0.20.3[${PYTHON_USEDEP}]
+	~dev-python/pytest-aiohttp-1.0.4[${PYTHON_USEDEP}]
+	~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-freezer-0.4.6[${PYTHON_USEDEP}]
 	dev-python/pytest-socket[${PYTHON_USEDEP}]
 	dev-python/pytest-test-groups[${PYTHON_USEDEP}]
-	dev-python/pytest-sugar[${PYTHON_USEDEP}]
-	dev-python/pytest-timeout[${PYTHON_USEDEP}]
+	~dev-python/pytest-sugar-0.9.6[${PYTHON_USEDEP}]
+	~dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}]
 	dev-python/pytest-unordered[${PYTHON_USEDEP}]
 	dev-python/pytest-picked[${PYTHON_USEDEP}]
-	dev-python/pytest-xdist[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]"
+	~dev-python/pytest-xdist-3.2.1[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

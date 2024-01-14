@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-1.1.3[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.5[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
 	dev-python/pyodbc[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]"
+	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

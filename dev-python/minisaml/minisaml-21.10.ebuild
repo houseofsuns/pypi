@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/minisignxml[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	>=dev-python/lxml-4.4.1[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.4.2[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

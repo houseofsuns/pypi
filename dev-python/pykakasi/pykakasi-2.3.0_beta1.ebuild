@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="check docs test"
 DEPENDENCIES="dev-python/jaconv[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
-	check? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	check? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	check? ( ~dev-python/mypy-0.770[${PYTHON_USEDEP}] )
+	check? ( ~dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
 	check? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	check? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	check? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/jaconv[${PYTHON_USEDEP}]
 	check? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	check? ( dev-python/isort[${PYTHON_USEDEP}] )
 	check? ( dev-python/twine[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-intl[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-py3doc-enhanced-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/jaconv[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-profiling[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/py-cpuinfo[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

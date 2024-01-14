@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/kafka-python[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/kafka-python-2.0.1[${PYTHON_USEDEP}]
 	dev-python/Logbook[${PYTHON_USEDEP}]
 	dev-python/asyncio-nats-client[${PYTHON_USEDEP}]
 	dev-python/jaeger-client[${PYTHON_USEDEP}]
 	dev-python/fluent-logger[${PYTHON_USEDEP}]
-	dev-python/bottle[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	~dev-python/bottle-0.12.18[${PYTHON_USEDEP}]
+	~dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/waitress-1.4.4[${PYTHON_USEDEP}]
+	~dev-python/redis-3.5.3[${PYTHON_USEDEP}]
 	dev-python/contextvars[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

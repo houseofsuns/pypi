@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="dev-python/llama-index[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.18.2[${PYTHON_USEDEP}]
 	dev-python/unstract-connectors[${PYTHON_USEDEP}]
 	docs? ( dev-python/lazydocs[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

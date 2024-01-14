@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/asgi-tools[${PYTHON_USEDEP}]
 	dev-python/modconfig[${PYTHON_USEDEP}]
 	dev-python/ujson[${PYTHON_USEDEP}]
 	standard? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	standard? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	standard? ( <dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

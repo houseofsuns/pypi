@@ -25,37 +25,37 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="develop s3"
 DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/elastic-transport[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+	~dev-python/docker-6.0.0[${PYTHON_USEDEP}]
+	~dev-python/elastic-transport-8.4.1[${PYTHON_USEDEP}]
+	~dev-python/elasticsearch-8.6.1[${PYTHON_USEDEP}]
+	~dev-python/google-auth-1.22.1[${PYTHON_USEDEP}]
 	dev-python/google-resumable-media[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
+	~dev-python/ijson-2.6.1[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.1.1[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
+	~dev-python/py-cpuinfo-7.0.0[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
 	dev-python/thespian[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/yappi[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]
-	develop? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	develop? ( dev-python/furo[${PYTHON_USEDEP}] )
-	develop? ( dev-python/github3-py[${PYTHON_USEDEP}] )
+	~dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]
+	~dev-python/yappi-1.4.0[${PYTHON_USEDEP}]
+	~dev-python/zstandard-0.21.0[${PYTHON_USEDEP}]
+	develop? ( ~dev-python/boto3-1.18.46[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/furo-2022.6.21[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/github3-py-3.2.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/gitpython[${PYTHON_USEDEP}] )
-	develop? ( dev-python/nox[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/nox-2022.11.21[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pylint-2.17.4[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pytest-asyncio-0.19.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-httpserver[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	develop? ( dev-python/tox[${PYTHON_USEDEP}] )
-	develop? ( dev-python/trustme[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pytest-httpserver-1.0.5[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/tox-3.25.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/trustme-0.9.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )"
+	s3? ( ~dev-python/boto3-1.18.46[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="excel"
-DEPENDENCIES="dev-python/openpyxl[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}]
 	dev-python/pysimplegui[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/watchfiles[${PYTHON_USEDEP}]
-	excel? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	~dev-python/rich-11.2.0[${PYTHON_USEDEP}]
+	~dev-python/watchfiles-0.19.0[${PYTHON_USEDEP}]
+	excel? ( ~dev-python/pandas-2.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

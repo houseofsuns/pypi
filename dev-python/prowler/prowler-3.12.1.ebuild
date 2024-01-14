@@ -33,21 +33,21 @@ DEPENDENCIES="dev-python/alive-progress[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-storage[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-subscription[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.26.165[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.29.165[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	dev-python/detect-secrets[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	~dev-python/google-api-python-client-2.113.0[${PYTHON_USEDEP}]
+	<dev-python/google-auth-httplib2-0.3[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.5.3[${PYTHON_USEDEP}] )
 	dev-python/msgraph-core[${PYTHON_USEDEP}]
 	dev-python/msrestazure[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.13[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
 	dev-python/shodan[${PYTHON_USEDEP}]
 	dev-python/slack-sdk[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]"
+	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

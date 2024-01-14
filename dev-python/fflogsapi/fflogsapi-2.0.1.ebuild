@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/gql[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	~dev-python/oauthlib-3.2.2[${PYTHON_USEDEP}]
+	~dev-python/requests-oauthlib-1.3.1[${PYTHON_USEDEP}]
+	~dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]
+	~dev-python/cryptography-39.0.1[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.14[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/autopep8-2.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/removestar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/sphinx-7.2.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

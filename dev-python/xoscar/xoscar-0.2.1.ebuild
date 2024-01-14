@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc extra kubernetes ray"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/tblib[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev? ( dev-python/cython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
+	>=dev-python/tblib-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/uvloop-0.14.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/cython-0.29[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-timeout-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-forked-1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.14.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-6.5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydata-sphinx-theme-0.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-intl[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/ipython-6.5.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/pydata-sphinx-theme-0.3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-intl[${PYTHON_USEDEP}] )
-	extra? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/pyarrow-5.0.0[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	ray? ( dev-python/xoscar-ray[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

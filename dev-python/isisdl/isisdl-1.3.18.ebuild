@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cryptography-38.0.4[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyinotify[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
+	~dev-python/packaging-22.0[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/distro-1.8.0[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
+	~dev-python/pyinotify-0.9.6[${PYTHON_USEDEP}]
+	testing? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/tox-3.24.3[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	testing? ( dev-python/twine[${PYTHON_USEDEP}] )
-	testing? ( dev-python/build[${PYTHON_USEDEP}] )
-	testing? ( dev-python/radon[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/build-0.9.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/radon-5.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,19 +27,19 @@ IUSE=""
 DEPENDENCIES="dev-python/bcbio-gff[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/interlap[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
 	dev-python/pyfaidx[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
 	dev-python/PyVCF3[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.4.1[${PYTHON_USEDEP}]
 	dev-python/pingouin[${PYTHON_USEDEP}]
 	dev-python/fitter[${PYTHON_USEDEP}]
 	dev-python/mlxtend[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]"
+	>=dev-python/cloudpickle-2.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

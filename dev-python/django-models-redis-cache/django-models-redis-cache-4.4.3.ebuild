@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/redis-4.0.0[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/pymodm[${PYTHON_USEDEP}]
 	dev-python/influxdb-client[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
+	>=dev-python/pymysql-0.9.3[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.15[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="django jinja"
-DEPENDENCIES="django? ( dev-python/django[${PYTHON_USEDEP}] )
+DEPENDENCIES="django? ( >=dev-python/django-2.2[${PYTHON_USEDEP}] )
 	jinja? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

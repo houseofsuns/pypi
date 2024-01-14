@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs tests"
 DEPENDENCIES="dev-python/sox[${PYTHON_USEDEP}]
 	dev-python/jams[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
 	dev-python/pyloudnorm[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]
 	dev-python/soxbindings[${PYTHON_USEDEP}]

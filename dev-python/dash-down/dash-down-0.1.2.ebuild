@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/dash-extensions[${PYTHON_USEDEP}]
 	dev-python/dash-mantine-components[${PYTHON_USEDEP}]
 	dev-python/dash-iconify[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]"
+	~dev-python/mistune-2.0.4[${PYTHON_USEDEP}]
+	<dev-python/python-box-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

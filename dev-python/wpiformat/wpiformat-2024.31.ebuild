@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/regex-2023.10.3[${PYTHON_USEDEP}]
+	~dev-python/black-23.9.1[${PYTHON_USEDEP}]
 	dev-python/clang-format[${PYTHON_USEDEP}]
 	dev-python/clang-tidy[${PYTHON_USEDEP}]
 	dev-python/gersemi[${PYTHON_USEDEP}]"

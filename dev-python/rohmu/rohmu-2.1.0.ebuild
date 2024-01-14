@@ -31,11 +31,11 @@ DEPENDENCIES="dev-python/azure-storage-blob[${PYTHON_USEDEP}]
 	dev-python/httplib2[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/python-snappy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/zstandard[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

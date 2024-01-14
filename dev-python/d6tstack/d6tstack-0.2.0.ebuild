@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mysql parquet psql xls"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.22.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/d6tcollect[${PYTHON_USEDEP}]

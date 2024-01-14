@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/random-events[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
 	dev-python/portion[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]"
+	>=dev-python/plotly-5.18.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

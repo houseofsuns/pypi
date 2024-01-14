@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="fastembed"
 DEPENDENCIES="fastembed? ( dev-python/fastembed[${PYTHON_USEDEP}] )
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/portalocker[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	>=dev-python/grpcio-1.41.0[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-tools-1.41.0[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.14.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26[${PYTHON_USEDEP}]
+	<dev-python/portalocker-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.8[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

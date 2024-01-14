@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/horizon[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/python-swiftclient[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.30.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-1.6[${PYTHON_USEDEP}]
+	>=dev-python/python-swiftclient-2.2.0[${PYTHON_USEDEP}]
 	dev-python/python-troveclient[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

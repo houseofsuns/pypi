@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pandas"
-DEPENDENCIES="pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+DEPENDENCIES="pandas? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

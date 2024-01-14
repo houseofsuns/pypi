@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="celery docs dramatiq reversion test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	dev-python/django-appconf[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
+	>=dev-python/graphviz-0.18[${PYTHON_USEDEP}]
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	docs? ( dev-python/celery[${PYTHON_USEDEP}] )
 	docs? ( dev-python/django-reversion[${PYTHON_USEDEP}] )

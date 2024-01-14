@@ -36,12 +36,12 @@ DEPENDENCIES="dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/ipylab[${PYTHON_USEDEP}]
 	dev-python/junix[${PYTHON_USEDEP}]
 	dev-python/jupytext[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-bibtex-2.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-1.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )

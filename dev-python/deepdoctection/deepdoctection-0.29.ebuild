@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs hf pt test tf"
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	dev-python/catalogue[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.11.2[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/mock-4.0.3[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.7.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
+	>=dev-python/pypdf-3.16.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-16.0[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-1.1[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.7.7[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.17.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-termcolor[${PYTHON_USEDEP}] )
@@ -58,28 +58,28 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	docs? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	docs? ( dev-python/accelerate[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pdfplumber[${PYTHON_USEDEP}] )
-	docs? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/lxml-4.9.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/lxml-stubs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jdeskew[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	docs? ( dev-python/griffe[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/griffe-0.25.0[${PYTHON_USEDEP}] )
 	hf? ( dev-python/catalogue[${PYTHON_USEDEP}] )
 	hf? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
-	hf? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
+	hf? ( >=dev-python/importlib-metadata-4.11.2[${PYTHON_USEDEP}] )
 	hf? ( dev-python/jsonlines[${PYTHON_USEDEP}] )
-	hf? ( dev-python/mock[${PYTHON_USEDEP}] )
-	hf? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	hf? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	hf? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	hf? ( ~dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
+	hf? ( >=dev-python/networkx-2.7.1[${PYTHON_USEDEP}] )
+	hf? ( >=dev-python/numpy-1.21[${PYTHON_USEDEP}] )
+	hf? ( >=dev-python/packaging-20.0[${PYTHON_USEDEP}] )
 	hf? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	hf? ( dev-python/pypdf[${PYTHON_USEDEP}] )
-	hf? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	hf? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
-	hf? ( dev-python/termcolor[${PYTHON_USEDEP}] )
-	hf? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	hf? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	hf? ( >=dev-python/pypdf-3.16.0[${PYTHON_USEDEP}] )
+	hf? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	hf? ( >=dev-python/pyzmq-16.0[${PYTHON_USEDEP}] )
+	hf? ( >=dev-python/termcolor-1.1[${PYTHON_USEDEP}] )
+	hf? ( >=dev-python/tabulate-0.7.7[${PYTHON_USEDEP}] )
+	hf? ( ~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}] )
 	hf? ( dev-python/timm[${PYTHON_USEDEP}] )
 	hf? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	hf? ( dev-python/accelerate[${PYTHON_USEDEP}] )
@@ -90,22 +90,22 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	hf? ( dev-python/jdeskew[${PYTHON_USEDEP}] )
 	hf? ( dev-python/apted[${PYTHON_USEDEP}] )
 	hf? ( dev-python/distance[${PYTHON_USEDEP}] )
-	hf? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	hf? ( >=dev-python/lxml-4.9.1[${PYTHON_USEDEP}] )
 	pt? ( dev-python/catalogue[${PYTHON_USEDEP}] )
 	pt? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
-	pt? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
+	pt? ( >=dev-python/importlib-metadata-4.11.2[${PYTHON_USEDEP}] )
 	pt? ( dev-python/jsonlines[${PYTHON_USEDEP}] )
-	pt? ( dev-python/mock[${PYTHON_USEDEP}] )
-	pt? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	pt? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	pt? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	pt? ( ~dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
+	pt? ( >=dev-python/networkx-2.7.1[${PYTHON_USEDEP}] )
+	pt? ( >=dev-python/numpy-1.21[${PYTHON_USEDEP}] )
+	pt? ( >=dev-python/packaging-20.0[${PYTHON_USEDEP}] )
 	pt? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	pt? ( dev-python/pypdf[${PYTHON_USEDEP}] )
-	pt? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	pt? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
-	pt? ( dev-python/termcolor[${PYTHON_USEDEP}] )
-	pt? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	pt? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	pt? ( >=dev-python/pypdf-3.16.0[${PYTHON_USEDEP}] )
+	pt? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	pt? ( >=dev-python/pyzmq-16.0[${PYTHON_USEDEP}] )
+	pt? ( >=dev-python/termcolor-1.1[${PYTHON_USEDEP}] )
+	pt? ( >=dev-python/tabulate-0.7.7[${PYTHON_USEDEP}] )
+	pt? ( ~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}] )
 	pt? ( dev-python/timm[${PYTHON_USEDEP}] )
 	pt? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	pt? ( dev-python/accelerate[${PYTHON_USEDEP}] )
@@ -116,24 +116,24 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	pt? ( dev-python/jdeskew[${PYTHON_USEDEP}] )
 	pt? ( dev-python/apted[${PYTHON_USEDEP}] )
 	pt? ( dev-python/distance[${PYTHON_USEDEP}] )
-	pt? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	pt? ( >=dev-python/lxml-4.9.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tf? ( dev-python/catalogue[${PYTHON_USEDEP}] )
 	tf? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
-	tf? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
+	tf? ( >=dev-python/importlib-metadata-4.11.2[${PYTHON_USEDEP}] )
 	tf? ( dev-python/jsonlines[${PYTHON_USEDEP}] )
-	tf? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tf? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	tf? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	tf? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	tf? ( ~dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
+	tf? ( >=dev-python/networkx-2.7.1[${PYTHON_USEDEP}] )
+	tf? ( >=dev-python/numpy-1.21[${PYTHON_USEDEP}] )
+	tf? ( >=dev-python/packaging-20.0[${PYTHON_USEDEP}] )
 	tf? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	tf? ( dev-python/pypdf[${PYTHON_USEDEP}] )
-	tf? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	tf? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
-	tf? ( dev-python/termcolor[${PYTHON_USEDEP}] )
-	tf? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	tf? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	tf? ( >=dev-python/pypdf-3.16.0[${PYTHON_USEDEP}] )
+	tf? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	tf? ( >=dev-python/pyzmq-16.0[${PYTHON_USEDEP}] )
+	tf? ( >=dev-python/termcolor-1.1[${PYTHON_USEDEP}] )
+	tf? ( >=dev-python/tabulate-0.7.7[${PYTHON_USEDEP}] )
+	tf? ( ~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorpack[${PYTHON_USEDEP}] )
 	tf? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow-addons[${PYTHON_USEDEP}] )
@@ -146,6 +146,6 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	tf? ( dev-python/jdeskew[${PYTHON_USEDEP}] )
 	tf? ( dev-python/apted[${PYTHON_USEDEP}] )
 	tf? ( dev-python/distance[${PYTHON_USEDEP}] )
-	tf? ( dev-python/lxml[${PYTHON_USEDEP}] )"
+	tf? ( >=dev-python/lxml-4.9.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

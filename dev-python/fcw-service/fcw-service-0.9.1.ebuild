@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-25.1.1[${PYTHON_USEDEP}]
 	dev-python/era-5g-interface[${PYTHON_USEDEP}]
 	dev-python/era-5g-server[${PYTHON_USEDEP}]
 	dev-python/fcw-core-utils[${PYTHON_USEDEP}]

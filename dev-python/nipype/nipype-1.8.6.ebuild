@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all data dev doc duecredit maint nipy profiler pybids specs ssh tests xvfbwrapper"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-6.6.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/prov[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+	>=dev-python/prov-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/pydot-1.2.3[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.2[${PYTHON_USEDEP}]
+	>=dev-python/rdflib-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.14[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.8.0[${PYTHON_USEDEP}]
 	dev-python/traits[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.0.0[${PYTHON_USEDEP}]
 	dev-python/etelemetry[${PYTHON_USEDEP}]
 	dev-python/looseversion[${PYTHON_USEDEP}]
 	all? ( dev-python/codecov[${PYTHON_USEDEP}] )
@@ -48,8 +48,8 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	all? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	all? ( dev-python/duecredit[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/xvfbwrapper[${PYTHON_USEDEP}] )
 	all? ( dev-python/fuzzywuzzy[${PYTHON_USEDEP}] )
 	all? ( dev-python/nitime[${PYTHON_USEDEP}] )
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	all? ( dev-python/datalad[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/psutil-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/nipy[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
@@ -81,14 +81,14 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev? ( dev-python/dipy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	doc? ( dev-python/dipy[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	duecredit? ( dev-python/duecredit[${PYTHON_USEDEP}] )
 	maint? ( dev-python/GitPython[${PYTHON_USEDEP}] )
@@ -98,12 +98,12 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	nipy? ( dev-python/dipy[${PYTHON_USEDEP}] )
 	nipy? ( dev-python/nipy[${PYTHON_USEDEP}] )
 	nipy? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	profiler? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	profiler? ( >=dev-python/psutil-5.0[${PYTHON_USEDEP}] )
 	pybids? ( dev-python/pybids[${PYTHON_USEDEP}] )
 	specs? ( dev-python/black[${PYTHON_USEDEP}] )
 	ssh? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-env[${PYTHON_USEDEP}] )

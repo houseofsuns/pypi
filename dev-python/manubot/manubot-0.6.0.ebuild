@@ -27,19 +27,19 @@ IUSE="ai-rev dev webpage"
 DEPENDENCIES="dev-python/errorhandler[${PYTHON_USEDEP}]
 	dev-python/isbnlib[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/panflute[${PYTHON_USEDEP}]
 	dev-python/pybase62[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pyrate-limiter[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	<dev-python/pyrate-limiter-3.0[${PYTHON_USEDEP}]
 	dev-python/requests-cache[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	ai-rev? ( dev-python/manubot-ai-editor[${PYTHON_USEDEP}] )
 	dev? ( dev-python/portray[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yamllint[${PYTHON_USEDEP}] )
 	webpage? ( dev-python/opentimestamps-client[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

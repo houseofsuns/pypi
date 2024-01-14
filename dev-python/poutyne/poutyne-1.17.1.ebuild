@@ -27,9 +27,9 @@ IUSE="colorama mlflow pandas scikit-learn tensorboard tensorboardx torchvision"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
-	colorama? ( dev-python/colorama[${PYTHON_USEDEP}] )
+	colorama? ( >=dev-python/colorama-0.4.3[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-2.0.0.0[${PYTHON_USEDEP}] )
 	scikit-learn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	tensorboard? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	tensorboardx? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )

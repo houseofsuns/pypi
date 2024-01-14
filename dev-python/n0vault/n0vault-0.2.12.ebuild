@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/n0struct[${PYTHON_USEDEP}]
 	dev-python/PBKDF2[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]"
+	>=dev-python/pycryptodome-3.10.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,26 +25,26 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all elasticsearch7 opensearch1 opensearch2 tests"
 DEPENDENCIES="dev-python/inspire-json-merger[${PYTHON_USEDEP}]
-	dev-python/dictdiffer[${PYTHON_USEDEP}]
+	>=dev-python/dictdiffer-0.9.0[${PYTHON_USEDEP}]
 	dev-python/inspire-utils[${PYTHON_USEDEP}]
 	dev-python/invenio-search[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	~dev-python/six-1.0[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	all? ( dev-python/mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	all? ( dev-python/unicode-string-literal[${PYTHON_USEDEP}] )
 	elasticsearch7? ( dev-python/elasticsearch-dsl[${PYTHON_USEDEP}] )
-	elasticsearch7? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	opensearch1? ( dev-python/opensearch-py[${PYTHON_USEDEP}] )
+	elasticsearch7? ( ~dev-python/elasticsearch-7.0[${PYTHON_USEDEP}] )
+	opensearch1? ( <dev-python/opensearch-py-3.0.0[${PYTHON_USEDEP}] )
 	opensearch1? ( dev-python/opensearch-dsl[${PYTHON_USEDEP}] )
-	opensearch2? ( dev-python/opensearch-py[${PYTHON_USEDEP}] )
+	opensearch2? ( <dev-python/opensearch-py-3.0.0[${PYTHON_USEDEP}] )
 	opensearch2? ( dev-python/opensearch-dsl[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

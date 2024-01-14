@@ -26,21 +26,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/exergenics[${PYTHON_USEDEP}]
 	dev-python/DateTime[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
 	dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	~dev-python/pytz-2022.7.1[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/Levenshtein[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
+	~dev-python/Levenshtein-0.21.0[${PYTHON_USEDEP}]
+	~dev-python/regex-2022.10.31[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]
+	~dev-python/zipp-3.15.0[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	~dev-python/plotly-5.4.0[${PYTHON_USEDEP}]
 	dev-python/eng[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

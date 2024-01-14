@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="developer docs tests"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/networkx-2.6.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
 	dev-python/pyformlang[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	developer? ( dev-python/black[${PYTHON_USEDEP}] )
+	~dev-python/rdflib-6.0.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	developer? ( ~dev-python/black-21.8[${PYTHON_USEDEP}] )
 	developer? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	developer? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	developer? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nb2plots[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/numpydoc-1.1.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pydata-sphinx-theme-0.6.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.1.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

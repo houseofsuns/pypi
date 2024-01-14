@@ -27,7 +27,7 @@ IUSE="dev docs mypy test"
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.8[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
@@ -40,18 +40,18 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	mypy? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	test? ( dev-python/attrs[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/attrs-20.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-6.36[${PYTHON_USEDEP}] )
 	test? ( dev-python/pybind11[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-xmp-toolkit[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/psutil-5.9[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-xmp-toolkit-2.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/numpy-1.21.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/tomli[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

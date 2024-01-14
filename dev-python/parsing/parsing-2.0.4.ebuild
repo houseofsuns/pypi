@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/mypy_extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

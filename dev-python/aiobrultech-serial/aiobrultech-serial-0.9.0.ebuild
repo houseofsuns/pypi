@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
 	dev-python/siobrultech-protocols[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

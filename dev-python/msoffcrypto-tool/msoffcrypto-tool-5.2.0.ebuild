@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/olefile[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/cryptography-35.0[${PYTHON_USEDEP}]
+	>=dev-python/olefile-0.46[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

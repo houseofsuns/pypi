@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="s3"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/singer-sdk[${PYTHON_USEDEP}]
 	s3? ( dev-python/fs-s3fs[${PYTHON_USEDEP}] )
 	dev-python/exactonline[${PYTHON_USEDEP}]"

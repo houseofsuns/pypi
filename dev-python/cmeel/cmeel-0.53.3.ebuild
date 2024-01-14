@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="build"
 DEPENDENCIES="build? ( dev-python/cmake[${PYTHON_USEDEP}] )
 	build? ( dev-python/git-archive-all[${PYTHON_USEDEP}] )
-	build? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	dev-python/tomli[${PYTHON_USEDEP}]
-	build? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	build? ( <dev-python/packaging-24.0[${PYTHON_USEDEP}] )
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
+	build? ( >=dev-python/wheel-0.42.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

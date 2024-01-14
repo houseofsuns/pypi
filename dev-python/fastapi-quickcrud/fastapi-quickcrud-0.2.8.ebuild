@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/StrEnum[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/greenlet[${PYTHON_USEDEP}] )
-	dev? ( dev-python/anyio[${PYTHON_USEDEP}] )"
+	~dev-python/starlette-0.14.2[${PYTHON_USEDEP}]
+	~dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/uvicorn-0.17.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/greenlet-1.1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/anyio-3.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

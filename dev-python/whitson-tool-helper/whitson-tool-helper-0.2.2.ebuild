@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pika-1.3.1[${PYTHON_USEDEP}]
+	~dev-python/google-auth-2.16.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-pubsub[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/google-cloud-logging[${PYTHON_USEDEP}]"

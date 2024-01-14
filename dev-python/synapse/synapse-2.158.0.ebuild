@@ -25,51 +25,51 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES="dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]
-	dev-python/lmdb[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
+	<dev-python/msgpack-1.1.0[${PYTHON_USEDEP}]
+	<dev-python/xxhash-3.5.0[${PYTHON_USEDEP}]
+	<dev-python/lmdb-1.5.0[${PYTHON_USEDEP}]
+	<dev-python/tornado-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/regex-2022.9.11[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiohttp-socks[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-socks-0.9.0[${PYTHON_USEDEP}]
 	dev-python/aioimaplib[${PYTHON_USEDEP}]
 	dev-python/aiosmtplib[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]
+	<dev-python/prompt-toolkit-3.1.0[${PYTHON_USEDEP}]
+	~dev-python/lark-1.1.8[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/fastjsonschema[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
+	<dev-python/fastjsonschema-2.20.0[${PYTHON_USEDEP}]
 	dev-python/stix2-validator[${PYTHON_USEDEP}]
-	dev-python/vcrpy[${PYTHON_USEDEP}]
+	<dev-python/vcrpy-5.2.0[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/python-bitcoinlib[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-3.20.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/scalecodec[${PYTHON_USEDEP}]
-	dev-python/cbor2[${PYTHON_USEDEP}]
+	<dev-python/cbor2-5.6.0[${PYTHON_USEDEP}]
 	dev-python/bech32[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
+	<dev-python/oauthlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/idna-3.7[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	<dev-python/pytz-2024.1[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
+	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/autopep8-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pycodestyle-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-xdist-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-8.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/nbconvert-8.0.0[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/jupyter-client-8.2.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/jupyter-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/hide-code[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbstripout[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-notfound-page-0.8.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/flask-restx[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	~dev-python/flask-2.3.3[${PYTHON_USEDEP}]
 	dev-python/odio[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
 	dev-python/pep3143daemon[${PYTHON_USEDEP}]
 	dev-python/pg8000[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/pip-9.0.1[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
 	dev-python/pympler[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]
+	~dev-python/pypdf-3.17.0[${PYTHON_USEDEP}]
 	dev-python/pysftp[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/pytz-2022.6[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0.20[${PYTHON_USEDEP}]
+	~dev-python/waitress-2.1.2[${PYTHON_USEDEP}]
+	~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
 	dev-python/zish[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

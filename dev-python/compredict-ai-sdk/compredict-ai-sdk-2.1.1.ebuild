@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastparquet[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/mock[${PYTHON_USEDEP}]
-	dev-python/sh[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/mock-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/sh-1.12.14[${PYTHON_USEDEP}]
+	~dev-python/future-0.18.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
 	dev-python/crcmod[${PYTHON_USEDEP}]
 	dev-python/pymodbus[${PYTHON_USEDEP}]
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

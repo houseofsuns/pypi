@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/coverage-3.6[${PYTHON_USEDEP}] )
 	testing? ( dev-python/argparse[${PYTHON_USEDEP}] )
 	testing? ( dev-python/rarfile[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tox[${PYTHON_USEDEP}] )

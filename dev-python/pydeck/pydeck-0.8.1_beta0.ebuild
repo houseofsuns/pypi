@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="carto jupyter"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
 	carto? ( dev-python/pydeck-carto[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/traitlets[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipykernel[${PYTHON_USEDEP}] )"
+	jupyter? ( <dev-python/ipywidgets-8.0[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/traitlets-4.3.2[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/ipykernel-5.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

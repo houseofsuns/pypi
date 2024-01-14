@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pydash[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/pybars3[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	<dev-python/pytest-asyncio-0.17.0[${PYTHON_USEDEP}]
+	<dev-python/attrs-23.0.0[${PYTHON_USEDEP}]
 	dev-python/command-runner[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]"
+	<dev-python/cattrs-23.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

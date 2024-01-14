@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	>=dev-python/anyio-3.7.0[${PYTHON_USEDEP}]
 	dev-python/asyncache[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-35.0[${PYTHON_USEDEP}]
+	>=dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
+	>=dev-python/python-box-7.0.1[${PYTHON_USEDEP}]
 	dev-python/python-jsonpath[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/furo-2023.3.27[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/myst-parser-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autoapi-2.1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
 	test? ( dev-python/kubernetes-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/kubernetes-validate[${PYTHON_USEDEP}] )
 	test? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	test? ( dev-python/lightkube[${PYTHON_USEDEP}] )
 	test? ( dev-python/pykube-ng[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.20.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-kind[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/trio[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-rerunfailures-11.1.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/trio-0.22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

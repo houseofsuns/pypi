@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ai docx pdf"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	docx? ( dev-python/docx2txt[${PYTHON_USEDEP}] )
 	ai? ( dev-python/openai[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/pypdf[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]"
+	pdf? ( <dev-python/pypdf-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

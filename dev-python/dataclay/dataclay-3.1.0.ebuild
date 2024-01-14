@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs mn4 telemetry"
-DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/hiredis[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.59.2[${PYTHON_USEDEP}]
+	>=dev-python/hiredis-2.2.3[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+	>=dev-python/prometheus-client-0.18.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.6[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	>=dev-python/redis-5.0.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-docker[${PYTHON_USEDEP}] )

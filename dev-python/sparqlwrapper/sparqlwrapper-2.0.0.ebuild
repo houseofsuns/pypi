@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs keepalive pandas"
-DEPENDENCIES="dev-python/rdflib[${PYTHON_USEDEP}]
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/rdflib-6.1.1[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/setuptools-3.7.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.931[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	keepalive? ( dev-python/keepalive[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	pandas? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

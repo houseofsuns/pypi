@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rtf"
-DEPENDENCIES="dev-python/olefile[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/olefile-0.46[${PYTHON_USEDEP}]
 	rtf? ( dev-python/compressed-rtf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

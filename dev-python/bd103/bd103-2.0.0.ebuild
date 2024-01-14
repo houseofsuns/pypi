@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs ext"
-DEPENDENCIES="docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	ext? ( dev-python/trio[${PYTHON_USEDEP}] )"
+DEPENDENCIES="docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
+	ext? ( <dev-python/trio-0.20.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev examples"
-DEPENDENCIES="dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/deprecated-1.2.10[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.2.1[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.11.1[${PYTHON_USEDEP}]
+	>=dev-python/future-0.11.0[${PYTHON_USEDEP}]
 	dev-python/asn1[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-18.0.0[${PYTHON_USEDEP}]
+	~dev-python/iso8601-0.1.13[${PYTHON_USEDEP}]
+	~dev-python/pytz-2022.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-4.6.11[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-1.9.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-exit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-coveralls[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/virtualenv-20.1.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/Django[${PYTHON_USEDEP}] )
 	examples? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	examples? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/python-dotenv-0.7.1[${PYTHON_USEDEP}] )
 	examples? ( dev-python/django-sslserver[${PYTHON_USEDEP}] )
 	examples? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

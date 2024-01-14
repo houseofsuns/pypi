@@ -27,8 +27,8 @@ IUSE="tests"
 DEPENDENCIES="dev-python/langcodes[${PYTHON_USEDEP}]
 	dev-python/oarepo-model-builder[${PYTHON_USEDEP}]
 	dev-python/polib[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<=dev-python/inflect-6.0.4[${PYTHON_USEDEP}]
+	tests? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

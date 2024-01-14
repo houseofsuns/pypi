@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gui test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.14.3[${PYTHON_USEDEP}]
 	dev-python/dpdata[${PYTHON_USEDEP}]
 	dev-python/pymatgen[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]

@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all test-tox test-tox-coverage"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-38.2.0[${PYTHON_USEDEP}]
 	dev-python/Numpy[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/SciPy[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/beartype[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	all? ( dev-python/distro[${PYTHON_USEDEP}] )
+	>=dev-python/dill-0.2.3[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.15.24[${PYTHON_USEDEP}]
+	>=dev-python/beartype-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.5.2[${PYTHON_USEDEP}]
+	all? ( >=dev-python/distro-1.0.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/pympler[${PYTHON_USEDEP}] )
 	all? ( dev-python/ptpython[${PYTHON_USEDEP}] )
-	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	test-tox? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	test-tox? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test-tox-coverage? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/networkx-1.8[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pydot-1.0.28[${PYTHON_USEDEP}] )
+	test-tox? ( >=dev-python/setuptools-38.2.0[${PYTHON_USEDEP}] )
+	test-tox? ( >=dev-python/pytest-5.4.0[${PYTHON_USEDEP}] )
+	test-tox-coverage? ( >=dev-python/coverage-5.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
@@ -63,8 +63,8 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	interactive? ( dev-python/cartopy[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/ipyleaflet[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
 	viz? ( dev-python/seaborn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

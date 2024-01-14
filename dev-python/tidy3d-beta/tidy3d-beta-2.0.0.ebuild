@@ -26,25 +26,25 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev gdspy gdstk jax trimesh"
 DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pyroots[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.16.2[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-6.0.0[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-12.6.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.23.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	dev-python/responses[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -55,8 +55,8 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	gdstk? ( dev-python/gdstk[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jax[${PYTHON_USEDEP}] )
-	trimesh? ( dev-python/trimesh[${PYTHON_USEDEP}] )
-	trimesh? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	trimesh? ( ~dev-python/trimesh-3.20.0[${PYTHON_USEDEP}] )
+	trimesh? ( <=dev-python/networkx-3.0[${PYTHON_USEDEP}] )
 	trimesh? ( dev-python/rtree[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

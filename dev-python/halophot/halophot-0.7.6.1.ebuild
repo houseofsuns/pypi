@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/lightkurve[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	~dev-python/future-0.16.0[${PYTHON_USEDEP}]
 	dev-python/pybind11[${PYTHON_USEDEP}]
 	dev-python/k2sc[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]"

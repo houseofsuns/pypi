@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/dirsync[${PYTHON_USEDEP}]
-	dev-python/funcy[${PYTHON_USEDEP}]
+	>=dev-python/funcy-1.4[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.11.0[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-3.11.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/moviepy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	dev-python/demultiplexer[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.0.0[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/cutadapt[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.56.0[${PYTHON_USEDEP}]
 	dev-python/fastparquet[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]"
+	>=dev-python/pyarrow-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

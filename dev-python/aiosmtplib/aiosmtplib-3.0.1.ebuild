@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs uvloop"
-DEPENDENCIES="uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+DEPENDENCIES="uvloop? ( <dev-python/uvloop-0.19[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/furo-2024.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_autodoc_typehints[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="images"
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pymongo-4.0[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
 	images? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="async jwt"
 DEPENDENCIES="dev-python/falcon[${PYTHON_USEDEP}]
-	async? ( dev-python/greenlet[${PYTHON_USEDEP}] )
+	async? ( >dev-python/greenlet-0.4.17[${PYTHON_USEDEP}] )
 	jwt? ( dev-python/authlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

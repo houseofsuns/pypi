@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-jutil[${PYTHON_USEDEP}]
 	dev-python/django-jacc[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/xmlsec[${PYTHON_USEDEP}]
-	dev-python/zeep[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.6.5[${PYTHON_USEDEP}]
+	~dev-python/cryptography-41.0.6[${PYTHON_USEDEP}]
+	~dev-python/xmlsec-1.3.13[${PYTHON_USEDEP}]
+	~dev-python/zeep-4.2.1[${PYTHON_USEDEP}]
 	dev-python/schwifty[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

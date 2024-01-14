@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gmpy2[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/types-python-dateutil[${PYTHON_USEDEP}]
 	dev-python/Eel[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
 	dev-python/dependency-injector[${PYTHON_USEDEP}]
-	dev-python/pytest-mock[${PYTHON_USEDEP}]"
+	<dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

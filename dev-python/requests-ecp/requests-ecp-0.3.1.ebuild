@@ -32,8 +32,8 @@ DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	kerberos? ( dev-python/requests-gssapi[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-2.9.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/requests-mock-1.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

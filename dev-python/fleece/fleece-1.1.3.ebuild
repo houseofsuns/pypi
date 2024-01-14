@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli connexion wsgi"
 DEPENDENCIES="connexion? ( dev-python/connexion[${PYTHON_USEDEP}] )
 	connexion? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	cli? ( dev-python/docker[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/docker-3.5.1[${PYTHON_USEDEP}] )
 	cli? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	cli? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/ruamel-yaml-0.15.34[${PYTHON_USEDEP}] )
 	connexion? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
 	wsgi? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]"
+	>=dev-python/structlog-15.3.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.10.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

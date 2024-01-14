@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs signals sqla test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/oauthlib-3.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-1.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/urlobject[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-seqdiag[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Flask-Sphinx-Themes[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sqlalchemy-1.3.11[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	docs? ( dev-python/betamax[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/pillow-9.5[${PYTHON_USEDEP}] )
 	signals? ( dev-python/blinker[${PYTHON_USEDEP}] )
-	sqla? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	sqla? ( >=dev-python/sqlalchemy-1.3.11[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/responses[${PYTHON_USEDEP}] )
 	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/sqlalchemy-1.3.11[${PYTHON_USEDEP}] )
 	test? ( dev-python/flask-sqlalchemy[${PYTHON_USEDEP}] )
 	test? ( dev-python/flask-login[${PYTHON_USEDEP}] )
 	test? ( dev-python/flask-caching[${PYTHON_USEDEP}] )

@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/numpy-1.17.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pandas-0.24.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-3.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/numpy-1.17.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pandas-0.24.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

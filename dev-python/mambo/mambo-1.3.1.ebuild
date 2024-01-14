@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+	~dev-python/click-6.2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
+	~dev-python/markdown-2.6.2[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
 	dev-python/htmlmin[${PYTHON_USEDEP}]
-	dev-python/livereload[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	~dev-python/livereload-2.5.0[${PYTHON_USEDEP}]
+	~dev-python/arrow-0.8.0[${PYTHON_USEDEP}]
+	~dev-python/python-slugify-1.2.1[${PYTHON_USEDEP}]
 	dev-python/pyScss[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

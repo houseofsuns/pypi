@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-1.20.0[${PYTHON_USEDEP}]
+	<=dev-python/keystoneauth1-3.4.0[${PYTHON_USEDEP}]
+	>=dev-python/deprecation-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.13.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.17.1[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.0.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/tensorly[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-5.2.2[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/simpleitk[${PYTHON_USEDEP}]
 	dev-python/sidpy[${PYTHON_USEDEP}]
 	dev-python/pysptools[${PYTHON_USEDEP}]
-	dev-python/cvxopt[${PYTHON_USEDEP}]"
+	>=dev-python/cvxopt-1.2.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

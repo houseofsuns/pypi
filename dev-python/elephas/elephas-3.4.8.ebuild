@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	~dev-python/h5py-3.3.0[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )

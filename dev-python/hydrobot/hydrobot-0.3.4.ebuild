@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev docs test"
 DEPENDENCIES="dev-python/hilltop-py[${PYTHON_USEDEP}]
 	dev-python/data-annalist[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
 	all? ( dev-python/hydrobot[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff-lsp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-dependency[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

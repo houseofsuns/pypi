@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="dev-python/coverage[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/coverage-5.0.3[${PYTHON_USEDEP}]
 	dev-python/flaky[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	~dev-python/pytest-asyncio-0.23.2[${PYTHON_USEDEP}]
 	dev-python/pytest-benchmark[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	>=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}]
 	dev-python/pytest-memray[${PYTHON_USEDEP}]
 	dev-python/pytest-mock[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]
 	cli? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	cli? ( dev-python/aiomultiprocess[${PYTHON_USEDEP}] )
 	cli? ( dev-python/atomicwrites[${PYTHON_USEDEP}] )
-	cli? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	cli? ( dev-python/build[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/build-0.7.0[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/click-8.1.6[${PYTHON_USEDEP}] )
 	cli? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	cli? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	cli? ( dev-python/datamodel-code-generator[${PYTHON_USEDEP}] )
@@ -53,22 +53,22 @@ DEPENDENCIES="dev-python/coverage[${PYTHON_USEDEP}]
 	cli? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	cli? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	cli? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	cli? ( dev-python/pathspec[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/pathspec-0.10.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	cli? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
-	cli? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	cli? ( dev-python/pysmi[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/platformdirs-2.0.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/pydantic-2.4.0[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/pysmi-0.3.4[${PYTHON_USEDEP}] )
 	cli? ( dev-python/securesystemslib[${PYTHON_USEDEP}] )
-	cli? ( dev-python/semver[${PYTHON_USEDEP}] )
-	cli? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	cli? ( dev-python/tabulate[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/semver-2.13.0[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/setuptools-66.0[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}] )
 	cli? ( dev-python/toml[${PYTHON_USEDEP}] )
-	cli? ( dev-python/tomli-w[${PYTHON_USEDEP}] )
-	cli? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	cli? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	cli? ( dev-python/tox[${PYTHON_USEDEP}] )
-	cli? ( dev-python/twine[${PYTHON_USEDEP}] )
-	cli? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
-	cli? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	cli? ( >=dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/tomli-1.1.0[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/towncrier-23.10.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/tox-4.0.0[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/twine-1.11.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/virtualenv-20.22.0[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/wheel-0.31.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

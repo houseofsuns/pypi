@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/remotezip[${PYTHON_USEDEP}]
-	dev-python/pyquery[${PYTHON_USEDEP}]
-	dev-python/pyusb[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/pyquery-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyusb-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/pyimg4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

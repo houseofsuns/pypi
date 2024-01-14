@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hickle matflow notebook"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	~dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	dev-python/vecmaths[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
+	<dev-python/nbformat-6.0.0[${PYTHON_USEDEP}]
 	dev-python/itkwidgets[${PYTHON_USEDEP}]
 	hickle? ( dev-python/hickle[${PYTHON_USEDEP}] )
 	matflow? ( dev-python/hickle[${PYTHON_USEDEP}] )
 	matflow? ( dev-python/matflow[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/parse[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	matflow? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	notebook? ( <dev-python/notebook-7.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/parse-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}]
+	matflow? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/pyvista[${PYTHON_USEDEP}]
 	dev-python/trame[${PYTHON_USEDEP}]
 	dev-python/defdap[${PYTHON_USEDEP}]"

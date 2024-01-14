@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="autogen full"
-DEPENDENCIES="dev-python/google-api-python-client[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/google-api-python-client-2.88.0[${PYTHON_USEDEP}]
 	dev-python/idem[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	dev-python/idem-aiohttp[${PYTHON_USEDEP}]
 	dev-python/pop[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
+	>=dev-python/deepdiff-5.8.1[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/PyYaml[${PYTHON_USEDEP}]
 	autogen? ( dev-python/pop-create-idem[${PYTHON_USEDEP}] )
-	autogen? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	autogen? ( >=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/pop-create-idem[${PYTHON_USEDEP}] )
-	full? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+	full? ( >=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

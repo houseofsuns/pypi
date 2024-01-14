@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="lint test"
 DEPENDENCIES="dev-python/docopt-ng[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/inflection-0.5[${PYTHON_USEDEP}]
+	~dev-python/pynacl-1.5[${PYTHON_USEDEP}]
+	~dev-python/requests-2.27[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8[${PYTHON_USEDEP}]
 	lint? ( dev-python/cohesion[${PYTHON_USEDEP}] )
 	lint? ( dev-python/darglint[${PYTHON_USEDEP}] )
 	lint? ( dev-python/dlint[${PYTHON_USEDEP}] )

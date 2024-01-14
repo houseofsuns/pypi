@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/aridity[${PYTHON_USEDEP}]
 	dev-python/diapyr[${PYTHON_USEDEP}]
 	dev-python/lagoon[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-44.1.1[${PYTHON_USEDEP}]
+	>=dev-python/twine-1.15.0[${PYTHON_USEDEP}]
 	dev-python/venvpool[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

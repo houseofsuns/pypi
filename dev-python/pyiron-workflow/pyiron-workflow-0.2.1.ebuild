@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="node_library"
 DEPENDENCIES="dev-python/bidict[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}]
 	dev-python/pympipool[${PYTHON_USEDEP}]
-	dev-python/toposort[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	>=dev-python/toposort-1.10[${PYTHON_USEDEP}]
+	>=dev-python/typeguard-4.1.5[${PYTHON_USEDEP}]
 	node_library? ( dev-python/ase[${PYTHON_USEDEP}] )
 	node_library? ( dev-python/atomistics[${PYTHON_USEDEP}] )
-	node_library? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	node_library? ( >=dev-python/numpy-1.26.2[${PYTHON_USEDEP}] )
 	node_library? ( dev-python/phonopy[${PYTHON_USEDEP}] )
 	node_library? ( dev-python/pyiron-atomistics[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

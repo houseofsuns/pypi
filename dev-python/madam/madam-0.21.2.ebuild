@@ -27,9 +27,9 @@ IUSE="doc"
 DEPENDENCIES="dev-python/bidict[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
 	dev-python/piexif[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.2.0[${PYTHON_USEDEP}]
 	dev-python/zopflipy[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-1.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

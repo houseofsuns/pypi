@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.0[${PYTHON_USEDEP}]
 	dev-python/obspy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
-	dev-python/jsonref[${PYTHON_USEDEP}]"
+	>=dev-python/jsonref-0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

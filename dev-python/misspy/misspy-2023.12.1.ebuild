@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev mkdocs speedups"
-DEPENDENCIES="dev-python/websockets[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/websockets-13.0.0[${PYTHON_USEDEP}]
 	dev-python/attrdictionary[${PYTHON_USEDEP}]
-	speedups? ( dev-python/charset-normalizer[${PYTHON_USEDEP}] )
+	speedups? ( <dev-python/charset-normalizer-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/poethepoet[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiodns[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiodns-4.0.0[${PYTHON_USEDEP}]
 	mkdocs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	mkdocs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	mkdocs? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )

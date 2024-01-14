@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/beanie[${PYTHON_USEDEP}]
 	dev-python/fastapi-exception[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]"
+	>=dev-python/pymongo-4.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

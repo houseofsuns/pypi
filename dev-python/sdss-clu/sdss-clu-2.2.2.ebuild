@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="websocket"
 DEPENDENCIES="dev-python/aio_pika[${PYTHON_USEDEP}]
 	dev-python/aiormq[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/click-default-group-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	dev-python/prompt_toolkit[${PYTHON_USEDEP}]
 	dev-python/sdsstools[${PYTHON_USEDEP}]
 	dev-python/unclick[${PYTHON_USEDEP}]
-	websocket? ( dev-python/websockets[${PYTHON_USEDEP}] )"
+	websocket? ( <dev-python/websockets-12.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

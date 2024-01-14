@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs pretty"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/libcst[${PYTHON_USEDEP}]
 	dev-python/moreorless[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0[${PYTHON_USEDEP}]
 	dev-python/trailrunner[${PYTHON_USEDEP}]
 	dev? ( dev-python/attribution[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ufmt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/usort[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-mdinclude[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	pretty? ( dev-python/rich[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinx-7.0.1[${PYTHON_USEDEP}] )
+	pretty? ( >=dev-python/rich-12.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

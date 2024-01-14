@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/cslug[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
 	dev-python/numpy-stl[${PYTHON_USEDEP}]
 	dev-python/hirola[${PYTHON_USEDEP}]
 	dev-python/rockhopper[${PYTHON_USEDEP}]
 	dev-python/pykdtree[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-order[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

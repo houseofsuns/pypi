@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-4.6[${PYTHON_USEDEP}]
 	dev-python/pytest-doctestplus[${PYTHON_USEDEP}]
 	dev-python/pytest-remotedata[${PYTHON_USEDEP}]
 	dev-python/pytest-astropy-header[${PYTHON_USEDEP}]
 	dev-python/pytest-arraydiff[${PYTHON_USEDEP}]
 	dev-python/pytest-filter-subpackage[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/pytest-mock[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/hypothesis[${PYTHON_USEDEP}]"
+	>=dev-python/pytest-cov-2.3.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-mock-2.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
+	>=dev-python/hypothesis-5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

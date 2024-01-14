@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/singer-sdk[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-tools-2.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

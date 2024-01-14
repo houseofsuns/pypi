@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all datashade default io networkx numba pandas repr scipy suitesparse suitesparse-udf test viz"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/donfig[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	dev-python/suitesparse-graphblas[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	all? ( dev-python/python-graphblas[${PYTHON_USEDEP}] )
@@ -41,18 +41,18 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	io? ( dev-python/fast-matrix-market[${PYTHON_USEDEP}] )
 	io? ( dev-python/python-graphblas[${PYTHON_USEDEP}] )
 	io? ( dev-python/sparse[${PYTHON_USEDEP}] )
-	networkx? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	networkx? ( >=dev-python/networkx-2.8[${PYTHON_USEDEP}] )
 	numba? ( dev-python/numba[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-1.2[${PYTHON_USEDEP}] )
 	repr? ( dev-python/python-graphblas[${PYTHON_USEDEP}] )
-	scipy? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	scipy? ( >=dev-python/scipy-1.9[${PYTHON_USEDEP}] )
 	suitesparse? ( dev-python/suitesparse-graphblas[${PYTHON_USEDEP}] )
 	suitesparse-udf? ( dev-python/python-graphblas[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-graphblas[${PYTHON_USEDEP}] )
-	test? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/tomli[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/packaging-21.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tomli-1.0[${PYTHON_USEDEP}] )
 	viz? ( dev-python/python-graphblas[${PYTHON_USEDEP}] )
-	viz? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	viz? ( >=dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

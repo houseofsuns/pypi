@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
 	dev-python/alpaca-trade-api[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
@@ -50,20 +50,20 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev? ( dev-python/therapist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.20.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/hypothesis-6.60.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.991[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.11.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-toml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-6.1.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-7.0.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-codecov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

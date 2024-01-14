@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/neomodel[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	>=dev-python/django-2.2[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-7.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-django-3.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

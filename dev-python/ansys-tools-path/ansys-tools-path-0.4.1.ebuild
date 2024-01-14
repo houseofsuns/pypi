@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build doc tests"
-DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	build? ( dev-python/twine[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/platformdirs-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	build? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )"
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pyfakefs-5.3.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

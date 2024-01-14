@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/flask-0.10.1[${PYTHON_USEDEP}]
+	>=dev-python/future-0.17.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

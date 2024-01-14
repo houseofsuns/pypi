@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-resourcedetector-kubernetes[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-resourcedetector-process[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	<dev-python/websocket-client-2.0.0[${PYTHON_USEDEP}]
 	dev-python/yt_dlp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

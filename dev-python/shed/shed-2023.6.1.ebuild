@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/autoflake[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
+	>=dev-python/black-23.3.0[${PYTHON_USEDEP}]
 	dev-python/com2ann[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+	>=dev-python/isort-5.10.1[${PYTHON_USEDEP}]
 	dev-python/libcst[${PYTHON_USEDEP}]
-	dev-python/pyupgrade[${PYTHON_USEDEP}]"
+	>=dev-python/pyupgrade-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

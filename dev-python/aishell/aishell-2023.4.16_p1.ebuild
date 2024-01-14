@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/poetry[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/poetry-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ygka[${PYTHON_USEDEP}]
 	dev-python/revchatgptauth[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"

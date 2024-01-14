@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}]
 	dev-python/jstyleson[${PYTHON_USEDEP}]
 	dev-python/textx[${PYTHON_USEDEP}]
-	dev-python/js2py[${PYTHON_USEDEP}]
+	~dev-python/js2py-0.74[${PYTHON_USEDEP}]
 	dev-python/requests-pkcs12[${PYTHON_USEDEP}]
 	dev-python/parsys-requests-unixsocket[${PYTHON_USEDEP}]
 	dev-python/requests-aws4auth[${PYTHON_USEDEP}]
-	dev-python/requests-ntlm[${PYTHON_USEDEP}]
+	~dev-python/requests-ntlm-1.2.0[${PYTHON_USEDEP}]
 	dev-python/RestrictedPython[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/Faker-20.1.0[${PYTHON_USEDEP}]
 	dev-python/requests-hawk[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
 	dev-python/PyYaml[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

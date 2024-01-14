@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="crypto dev"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-4.2.0[${PYTHON_USEDEP}]
+	~dev-python/validators-0.20.0[${PYTHON_USEDEP}]
 	dev-python/pyld[${PYTHON_USEDEP}]
 	dev-python/django-guardian[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.0[${PYTHON_USEDEP}]
 	dev-python/django-brotli[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-guardian[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/Faker-14.2.0[${PYTHON_USEDEP}]
 	crypto? ( dev-python/pycryptodomex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/validators[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )"

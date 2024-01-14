@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/cffi-1.13.1[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-18.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

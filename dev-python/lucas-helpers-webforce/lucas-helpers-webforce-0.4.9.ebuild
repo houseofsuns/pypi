@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/flower[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/mysqlclient[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-4.13.0[${PYTHON_USEDEP}]
+	~dev-python/mysqlclient-2.1.1[${PYTHON_USEDEP}]
 	dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/pytz-2022.6[${PYTHON_USEDEP}]
+	~dev-python/redis-4.4.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/twilio[${PYTHON_USEDEP}]
 	dev-python/pika[${PYTHON_USEDEP}]"

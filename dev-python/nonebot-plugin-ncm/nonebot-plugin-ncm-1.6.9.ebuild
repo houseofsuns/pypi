@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/aiofile[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
 	dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/pyncm[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
+	<dev-python/qrcode-8.0.0[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

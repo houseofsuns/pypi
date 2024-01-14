@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="speed"
-DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/colorlog-6.7.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
 	speed? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	speed? ( dev-python/aiohttp[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

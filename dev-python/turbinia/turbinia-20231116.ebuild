@@ -27,12 +27,12 @@ IUSE="gcp worker"
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	worker? ( dev-python/dfDewey[${PYTHON_USEDEP}] )
 	worker? ( dev-python/dfimagetools[${PYTHON_USEDEP}] )
-	dev-python/docker[${PYTHON_USEDEP}]
+	<dev-python/docker-7.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
-	gcp? ( dev-python/google-api-core[${PYTHON_USEDEP}] )
+	gcp? ( <dev-python/google-api-core-2.0.0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/google-auth[${PYTHON_USEDEP}] )
+	gcp? ( >=dev-python/google-auth-2.15.0[${PYTHON_USEDEP}] )
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]
 	gcp? ( dev-python/google-cloud-datastore[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-error-reporting[${PYTHON_USEDEP}] )
@@ -40,15 +40,15 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	gcp? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	dev-python/libcloudforensics[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	worker? ( dev-python/plaso[${PYTHON_USEDEP}] )
 	dev-python/prometheus_client[${PYTHON_USEDEP}]
-	gcp? ( dev-python/proto-plus[${PYTHON_USEDEP}] )
+	gcp? ( <dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/psq[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	worker? ( dev-python/pyhindsight[${PYTHON_USEDEP}] )
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

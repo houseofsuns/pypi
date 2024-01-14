@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]
-	dev-python/browser-cookie3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
+	~dev-python/aiosqlite-0.19.0[${PYTHON_USEDEP}]
+	~dev-python/browser-cookie3-0.19.1[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
+	~dev-python/jsonpath-ng-1.6.0[${PYTHON_USEDEP}]
 	dev-python/m3u8[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	~dev-python/pydantic-1.10.12[${PYTHON_USEDEP}]
+	~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4.2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/qrcode-7.4.2[${PYTHON_USEDEP}]
+	~dev-python/rich-13.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

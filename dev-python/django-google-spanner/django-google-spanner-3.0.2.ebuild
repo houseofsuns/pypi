@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tracing"
-DEPENDENCIES="dev-python/sqlparse[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlparse-0.3.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-spanner[${PYTHON_USEDEP}]
 	tracing? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
 	tracing? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )

@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/jupytext[${PYTHON_USEDEP}]
 	dev-python/parso[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
+	>=dev-python/mistune-2.0[${PYTHON_USEDEP}]
 	dev-python/ploomber-core[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
 	all? ( dev-python/ghapi[${PYTHON_USEDEP}] )

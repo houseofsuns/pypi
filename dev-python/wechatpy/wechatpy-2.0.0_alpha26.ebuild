@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-3.1[${PYTHON_USEDEP}]
 	dev-python/optionaldict[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.5.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.4.3[${PYTHON_USEDEP}]
 	dev-python/requests-pkcs12[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+	>=dev-python/xmltodict-0.11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

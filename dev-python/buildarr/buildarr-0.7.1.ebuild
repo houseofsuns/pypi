@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.1[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.4[${PYTHON_USEDEP}]
 	dev-python/click-params[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.6.0[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

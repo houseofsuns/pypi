@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/nose[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/nose-1.2.1[${PYTHON_USEDEP}]
 	dev-python/blessings[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

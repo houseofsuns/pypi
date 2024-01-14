@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/attrs-22.0[${PYTHON_USEDEP}]
 	dev-python/conformity[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-2.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/more-itertools-5.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/mypy-0.740[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-six[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test visualtest"
 DEPENDENCIES="dev-python/glue-core[${PYTHON_USEDEP}]
 	dev-python/glue-vispy-viewers[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
+	>=dev-python/notebook-4.0[${PYTHON_USEDEP}]
 	dev-python/ipympl[${PYTHON_USEDEP}]
 	dev-python/ipyvolume[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.4.0[${PYTHON_USEDEP}]
 	dev-python/ipyvue[${PYTHON_USEDEP}]
 	dev-python/ipyvuetify[${PYTHON_USEDEP}]
 	dev-python/bqplot-image-gl[${PYTHON_USEDEP}]
@@ -40,12 +40,12 @@ DEPENDENCIES="dev-python/glue-core[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbconvert-6.4.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nbconvert-6.4.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/glue-core[${PYTHON_USEDEP}] )
 	visualtest? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	visualtest? ( dev-python/pytest-playwright[${PYTHON_USEDEP}] )

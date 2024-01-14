@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/emcee[${PYTHON_USEDEP}]
+	>=dev-python/emcee-3.0[${PYTHON_USEDEP}]
 	dev-python/ptemcee-for-orbitize[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/corner[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/pyerfa[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]
 	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
+	<dev-python/docutils-0.17[${PYTHON_USEDEP}]
 	dev-python/rebound[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

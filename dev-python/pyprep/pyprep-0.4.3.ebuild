@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.3[${PYTHON_USEDEP}]
 	dev-python/mne[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]"
+	>=dev-python/psutil-5.4.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

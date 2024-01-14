@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.2[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/jplephem[${PYTHON_USEDEP}]
 	dev-python/ortools[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]
 	dev-python/exo-det-box[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.59[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	dev-python/MeanStars[${PYTHON_USEDEP}]
 	dev-python/synphot[${PYTHON_USEDEP}]
-	dev-python/ipyparallel[${PYTHON_USEDEP}]"
+	>=dev-python/ipyparallel-8.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

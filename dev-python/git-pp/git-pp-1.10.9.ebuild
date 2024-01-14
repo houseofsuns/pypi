@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="uvloop"
-DEPENDENCIES="uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )
+DEPENDENCIES="uvloop? ( <dev-python/uvloop-0.17.0[${PYTHON_USEDEP}] )
 	dev-python/utils-tddschn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

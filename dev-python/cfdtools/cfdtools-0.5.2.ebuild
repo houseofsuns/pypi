@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.1[${PYTHON_USEDEP}]
 	dev-python/pyvista[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-1.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-material-6.2.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
-	doc? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/markdown-include-0.6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-exclude[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

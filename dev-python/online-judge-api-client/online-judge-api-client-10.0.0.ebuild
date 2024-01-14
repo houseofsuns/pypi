@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.0[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.0[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.3[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	>=dev-python/jsonschema-3.2[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.770[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/yapf-0.29.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.1.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.4[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

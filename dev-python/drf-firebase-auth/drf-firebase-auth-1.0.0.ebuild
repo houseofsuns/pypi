@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/djangorestframework[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/djangorestframework-4.0[${PYTHON_USEDEP}]
 	dev-python/firebase-admin[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

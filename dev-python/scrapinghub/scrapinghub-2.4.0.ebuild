@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="msgpack"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/requests-1.0[${PYTHON_USEDEP}]
+	>=dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	msgpack? ( >=dev-python/msgpack-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

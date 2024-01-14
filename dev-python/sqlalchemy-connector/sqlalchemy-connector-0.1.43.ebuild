@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.49[${PYTHON_USEDEP}]
 	dev-python/PyMySQL[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/sshtunnel[${PYTHON_USEDEP}]
+	~dev-python/sshtunnel-0.4.0[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]"
+	>=dev-python/cryptography-41.0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

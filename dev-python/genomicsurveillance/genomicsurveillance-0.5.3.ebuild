@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs geopandas matplotlib uk-covid19"
 DEPENDENCIES="dev-python/numpyro[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	uk-covid19? ( dev-python/uk-covid19[${PYTHON_USEDEP}] )
 	geopandas? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	matplotlib? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	matplotlib? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

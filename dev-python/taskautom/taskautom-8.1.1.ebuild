@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sshtunnel[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/sshtunnel-0.4.0[${PYTHON_USEDEP}]
 	dev-python/netmiko[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

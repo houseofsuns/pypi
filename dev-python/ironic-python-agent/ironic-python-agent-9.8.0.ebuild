@@ -26,27 +26,27 @@ KEYWORDS="~amd64 ~x86"
 IUSE="burnin_network_kazoo test"
 DEPENDENCIES="dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.3[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
 	dev-python/ironic-lib[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]
-	dev-python/oslo-concurrency[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
+	>=dev-python/netifaces-0.10.4[${PYTHON_USEDEP}]
+	>=dev-python/oslo-concurrency-3.26.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-4.6.1[${PYTHON_USEDEP}]
 	dev-python/oslo-service[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyudev[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.34.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-3.2.2[${PYTHON_USEDEP}]
+	>=dev-python/pyudev-0.18[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-6.2.0[${PYTHON_USEDEP}]
 	dev-python/tooz[${PYTHON_USEDEP}]
 	burnin_network_kazoo? ( dev-python/kazoo[${PYTHON_USEDEP}] )
-	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/oslotest[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/bandit-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/oslotest-3.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-1.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testtools-2.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

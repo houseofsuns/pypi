@@ -25,28 +25,28 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="analytics dev test"
 DEPENDENCIES="dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.12[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.51.3[${PYTHON_USEDEP}]
+	~dev-python/googleapis-common-protos-1.58.0[${PYTHON_USEDEP}]
 	dev-python/protoc-gen-openapiv2[${PYTHON_USEDEP}]
-	analytics? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	analytics? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	analytics? ( >=dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
+	analytics? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	analytics? ( dev-python/fastparquet[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/GitPython-3.1.27[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/grpcio-tools-1.51.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.971[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.15.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpretty[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/httpretty-1.1.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

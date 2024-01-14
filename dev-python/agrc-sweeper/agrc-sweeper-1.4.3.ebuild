@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop tests"
 DEPENDENCIES="dev-python/agrc-supervisor[${PYTHON_USEDEP}]
 	dev-python/agrc-usaddress[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.12[${PYTHON_USEDEP}]
+	~dev-python/docopt-0.6[${PYTHON_USEDEP}]
+	~dev-python/html5lib-1.1[${PYTHON_USEDEP}]
+	~dev-python/xxhash-3.2[${PYTHON_USEDEP}]
 	develop? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"

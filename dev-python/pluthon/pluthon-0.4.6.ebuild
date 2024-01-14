@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/uplc[${PYTHON_USEDEP}]
 	dev-python/uplc[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]"
+	>=dev-python/ordered-set-4.1.0[${PYTHON_USEDEP}]
+	<dev-python/ordered-set-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="celery ci dev gunicorn gunicorn-extra ldap_authentication limit rtd sql websocket"
-DEPENDENCIES="dev-python/trio[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/trio-0.22.0[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Login[${PYTHON_USEDEP}]
 	dev-python/Flask-Babel[${PYTHON_USEDEP}]
@@ -33,14 +33,14 @@ DEPENDENCIES="dev-python/trio[${PYTHON_USEDEP}]
 	dev-python/Flask-Caching[${PYTHON_USEDEP}]
 	dev-python/Flask-Session[${PYTHON_USEDEP}]
 	dev-python/WTForms[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/pluginbase[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+	~dev-python/arrow-1.2.3[${PYTHON_USEDEP}]
+	~dev-python/pluginbase-1.0.1[${PYTHON_USEDEP}]
+	~dev-python/tzlocal-4.3[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/configobj[${PYTHON_USEDEP}]
+	~dev-python/configobj-5.0.8[${PYTHON_USEDEP}]
 	dev-python/async-generator[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/python-pam[${PYTHON_USEDEP}]
+	~dev-python/python-pam-2.0.2[${PYTHON_USEDEP}]
 	celery? ( dev-python/Celery[${PYTHON_USEDEP}] )
 	celery? ( dev-python/redis[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/trio[${PYTHON_USEDEP}]
 	ldap_authentication? ( dev-python/ldap3[${PYTHON_USEDEP}] )
 	limit? ( dev-python/Flask-Limiter[${PYTHON_USEDEP}] )
 	limit? ( dev-python/redis[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
+	rtd? ( ~dev-python/sphinxcontrib-httpdomain-1.8.0[${PYTHON_USEDEP}] )
 	sql? ( dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}] )
 	sql? ( dev-python/Flask-Migrate[${PYTHON_USEDEP}] )
 	sql? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dj-database-url[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dj-database-url-0.5.0[${PYTHON_USEDEP}]
 	dev-python/whitenoise[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/django[${PYTHON_USEDEP}]"

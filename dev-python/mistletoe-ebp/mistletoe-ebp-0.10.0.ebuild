@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark code_style rtd testing"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	benchmark? ( dev-python/commonmark[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/mistune[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/attrs-19.3[${PYTHON_USEDEP}]
+	benchmark? ( ~dev-python/commonmark-0.9.1[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/markdown-3.2[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/mistune-0.8.4[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/panflute[${PYTHON_USEDEP}] )
-	code_style? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	code_style? ( dev-python/black[${PYTHON_USEDEP}] )
+	code_style? ( <dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
+	code_style? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	rtd? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
+	rtd? ( ~dev-python/myst-parser-0.6.0[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

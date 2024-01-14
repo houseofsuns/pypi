@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="dev-python/aiodns[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/cchardet[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
+	>=dev-python/cchardet-2.1.4[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.0[${PYTHON_USEDEP}]
+	>=dev-python/sentry-sdk-0.11.1[${PYTHON_USEDEP}]
+	>=dev-python/uvloop-0.11.2[${PYTHON_USEDEP}]
 	all? ( dev-python/aiohttp-session[${PYTHON_USEDEP}] )
 	all? ( dev-python/arq[${PYTHON_USEDEP}] )
 	all? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	all? ( dev-python/buildpg[${PYTHON_USEDEP}] )
-	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/cryptography-2.4.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipython-7.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

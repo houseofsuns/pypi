@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/allure-python-commons[${PYTHON_USEDEP}]
 	dev-python/bioblend[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>dev-python/click-8.0.2[${PYTHON_USEDEP}]
 	dev-python/cwltool[${PYTHON_USEDEP}]
 	dev-python/ephemeris[${PYTHON_USEDEP}]
 	dev-python/galaxy-tool-util[${PYTHON_USEDEP}]

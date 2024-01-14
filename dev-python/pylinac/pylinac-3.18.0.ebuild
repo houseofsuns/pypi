@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/argue[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-0.16[${PYTHON_USEDEP}]
 	dev-python/py-linq[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
-	dev-python/reportlab[${PYTHON_USEDEP}]
+	>=dev-python/reportlab-3.3[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	>=dev-python/scipy-1.1[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-3.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

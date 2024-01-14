@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/sebaubuntu-libs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

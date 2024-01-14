@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/boto-source-profile-mfa[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.5.8[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]

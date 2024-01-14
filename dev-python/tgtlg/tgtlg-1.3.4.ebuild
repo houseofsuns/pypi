@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/hurry-filesize[${PYTHON_USEDEP}]
 	dev-python/python-telegram-bot[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-4.8.10[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/messages[${PYTHON_USEDEP}]
 	dev-python/js2py[${PYTHON_USEDEP}]"

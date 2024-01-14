@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-jose[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/python-jose-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.11[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
-	dev-python/feedparser[${PYTHON_USEDEP}]
+	<dev-python/feedparser-7.0.0[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]
 	dev-python/deep-translator[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pytesseract[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.1.0[${PYTHON_USEDEP}]
+	~dev-python/pytesseract-0.3.9[${PYTHON_USEDEP}]
+	~dev-python/chardet-4.0.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]"
+	<dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

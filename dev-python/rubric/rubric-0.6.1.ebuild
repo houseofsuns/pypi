@@ -35,6 +35,6 @@ DEPENDENCIES="dev? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]"
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

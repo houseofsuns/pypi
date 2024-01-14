@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="hyperopt ray"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.48.2[${PYTHON_USEDEP}]
+	~dev-python/colorlog-4.7.2[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1.0[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/thop[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/texttable[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.10[${PYTHON_USEDEP}]
+	>=dev-python/plotly-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/texttable-0.9.0[${PYTHON_USEDEP}]
 	hyperopt? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

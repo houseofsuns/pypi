@@ -35,9 +35,9 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.5.20[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.0.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autoapi-2.1.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-mdinclude[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

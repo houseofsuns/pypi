@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="notebooks"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
 	dev-python/Shapely[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	<dev-python/networkx-4.0[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	dev-python/py4j[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	notebooks? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
+	notebooks? ( <dev-python/jupyter-2.0.0[${PYTHON_USEDEP}] )
+	notebooks? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

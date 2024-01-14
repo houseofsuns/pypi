@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="django fastapi flask pony sqlalchemy tortoise-orm"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/asgiref-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
-	django? ( dev-python/django[${PYTHON_USEDEP}] )
+	flask? ( ~dev-python/flask-2.0[${PYTHON_USEDEP}] )
+	django? ( ~dev-python/django-4.0[${PYTHON_USEDEP}] )
 	tortoise-orm? ( dev-python/tortoise-orm[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	sqlalchemy? ( ~dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	pony? ( dev-python/pony[${PYTHON_USEDEP}] )
-	dev-python/isort[${PYTHON_USEDEP}]"
+	<dev-python/isort-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

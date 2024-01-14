@@ -25,32 +25,32 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all testing"
 DEPENDENCIES="dev-python/apeye[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/attrs-20.3.0[${PYTHON_USEDEP}]
+	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/configconfig[${PYTHON_USEDEP}]
 	dev-python/consolekit[${PYTHON_USEDEP}]
 	dev-python/dict2css[${PYTHON_USEDEP}]
 	dev-python/dom-toml[${PYTHON_USEDEP}]
 	dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/dulwich[${PYTHON_USEDEP}]
+	>=dev-python/dulwich-0.20.5[${PYTHON_USEDEP}]
 	dev-python/first[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+	>=dev-python/isort-5.5.2[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/mkrecipe[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/natsort-7.1.1[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.4[${PYTHON_USEDEP}]
 	dev-python/shippinglabel[${PYTHON_USEDEP}]
 	dev-python/southwark[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.8[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
 	dev-python/whey[${PYTHON_USEDEP}]
 	dev-python/yapf-isort[${PYTHON_USEDEP}]
 	testing? ( dev-python/check-wheel-contents[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coincidence[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/check-wheel-contents[${PYTHON_USEDEP}] )
 	all? ( dev-python/coincidence[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

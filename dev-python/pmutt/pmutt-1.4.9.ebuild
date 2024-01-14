@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ASE[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pygal[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/dnspython-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/pygal-2.4.0[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-8.14.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]"
+	>=dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

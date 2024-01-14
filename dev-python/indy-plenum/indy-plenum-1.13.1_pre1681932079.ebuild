@@ -25,34 +25,34 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark stats tests"
 DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-3.10.1[${PYTHON_USEDEP}]
 	dev-python/ioflo[${PYTHON_USEDEP}]
 	dev-python/jsonpickle[${PYTHON_USEDEP}]
 	dev-python/leveldb[${PYTHON_USEDEP}]
-	dev-python/libnacl[${PYTHON_USEDEP}]
+	~dev-python/libnacl-1.6.1[${PYTHON_USEDEP}]
 	dev-python/msgpack-python[${PYTHON_USEDEP}]
 	dev-python/orderedset[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/portalocker[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0.18[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pympler[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/python-rocksdb[${PYTHON_USEDEP}]
 	dev-python/python-ursa[${PYTHON_USEDEP}]
 	dev-python/rlp[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	~dev-python/semver-2.13.0[${PYTHON_USEDEP}]
 	dev-python/sha3[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
+	~dev-python/sortedcontainers-1.5.7[${PYTHON_USEDEP}]
+	~dev-python/ujson-1.33[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/pympler[${PYTHON_USEDEP}] )
 	stats? ( dev-python/python-firebase[${PYTHON_USEDEP}] )
-	tests? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/attrs-20.3.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-xdist-2.2.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-forked-1.3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/python3-indy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-asyncio-0.14.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="yaml"
-DEPENDENCIES="dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/coverage-7.0[${PYTHON_USEDEP}]
+	>=dev-python/docopt-0.6.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-1.0.0[${PYTHON_USEDEP}]
 	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

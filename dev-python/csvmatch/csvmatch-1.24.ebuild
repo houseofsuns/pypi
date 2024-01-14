@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/chardet-5.1.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}]
 	dev-python/dedupe[${PYTHON_USEDEP}]
-	dev-python/jellyfish[${PYTHON_USEDEP}]
+	~dev-python/jellyfish-0.9.0[${PYTHON_USEDEP}]
 	dev-python/doublemetaphone[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

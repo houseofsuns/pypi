@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/Korpora[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.1.4[${PYTHON_USEDEP}]
 	dev-python/flask-ngrok[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]"
+	>=dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

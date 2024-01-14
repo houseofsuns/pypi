@@ -24,48 +24,48 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all bokeh docs jupyter parallel plotly sbml test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.9.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.14.0[${PYTHON_USEDEP}]
 	dev-python/blessings[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.3[${PYTHON_USEDEP}]
+	>=dev-python/ordered-set-1.2[${PYTHON_USEDEP}]
 	dev-python/cobra[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	>=dev-python/future-0.15.2[${PYTHON_USEDEP}]
 	dev-python/optlang[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/numexpr-2.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.10.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	dev-python/escher[${PYTHON_USEDEP}]
 	dev-python/IProgress[${PYTHON_USEDEP}]
 	dev-python/inspyred[${PYTHON_USEDEP}]
-	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
+	>=dev-python/lazy-object-proxy-1.2.0[${PYTHON_USEDEP}]
 	dev-python/palettable[${PYTHON_USEDEP}]
 	dev-python/gnomic[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-2.4.5[${PYTHON_USEDEP}]
+	>=dev-python/click-6.7[${PYTHON_USEDEP}]
 	all? ( dev-python/bokeh[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipywidgets-4.1.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/lxml-3.6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-libsbml[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/redis-2.10.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/plotly-4.12.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpydoc-0.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipyparallel-5.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	bokeh? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	parallel? ( dev-python/redis[${PYTHON_USEDEP}] )
-	parallel? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
-	plotly? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-0.5[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/ipywidgets-4.1.1[${PYTHON_USEDEP}] )
+	parallel? ( >=dev-python/redis-2.10.5[${PYTHON_USEDEP}] )
+	parallel? ( >=dev-python/ipyparallel-5.0.1[${PYTHON_USEDEP}] )
+	plotly? ( >=dev-python/plotly-4.12.0[${PYTHON_USEDEP}] )
 	sbml? ( dev-python/python-libsbml[${PYTHON_USEDEP}] )
-	sbml? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	sbml? ( >=dev-python/lxml-3.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )"

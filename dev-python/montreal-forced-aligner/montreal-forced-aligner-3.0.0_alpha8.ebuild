@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	anchor? ( dev-python/anchor-annotator[${PYTHON_USEDEP}] )
 	anchor? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )

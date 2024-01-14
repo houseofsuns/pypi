@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/BeautifulSoup4[${PYTHON_USEDEP}]
 	dev-python/tzdata[${PYTHON_USEDEP}]
 	dev-python/django-appypod[${PYTHON_USEDEP}]
 	dev-python/django-compressor[${PYTHON_USEDEP}]
-	dev-python/django-crispy-forms[${PYTHON_USEDEP}]
+	<dev-python/django-crispy-forms-2.0[${PYTHON_USEDEP}]
 	dev-python/django-embed-video[${PYTHON_USEDEP}]
 	dev-python/django-filter[${PYTHON_USEDEP}]
 	dev-python/django-leaflet[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/BeautifulSoup4[${PYTHON_USEDEP}]
 	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory_boy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/django-debug-toolbar-3.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

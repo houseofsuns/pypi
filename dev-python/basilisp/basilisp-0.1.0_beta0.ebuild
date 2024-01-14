@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pygments pytest"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/immutables[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
+	<dev-python/immutables-0.21[${PYTHON_USEDEP}]
+	<dev-python/prompt-toolkit-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyrsistent-0.19.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/readerwriterlock[${PYTHON_USEDEP}]
-	pytest? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	pygments? ( dev-python/pygments[${PYTHON_USEDEP}] )"
+	pytest? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	pygments? ( <dev-python/pygments-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

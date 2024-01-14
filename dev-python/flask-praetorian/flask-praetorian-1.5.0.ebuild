@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
+	<dev-python/pendulum-3.0[${PYTHON_USEDEP}]
+	<dev-python/passlib-2.0[${PYTHON_USEDEP}]
 	dev-python/flask-buzz[${PYTHON_USEDEP}]
 	dev-python/flask-mail[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]"
+	<dev-python/flask-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

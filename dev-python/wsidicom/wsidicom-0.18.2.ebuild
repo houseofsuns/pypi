@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="imagecodecs rle"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/dicomweb-client[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
 	imagecodecs? ( dev-python/imagecodecs[${PYTHON_USEDEP}] )
 	rle? ( dev-python/pylibjpeg-rle[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

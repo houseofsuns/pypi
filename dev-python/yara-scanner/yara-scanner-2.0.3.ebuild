@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/yara-python[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/yara-python-4.1[${PYTHON_USEDEP}]
 	dev-python/plyara[${PYTHON_USEDEP}]
-	dev-python/progress[${PYTHON_USEDEP}]"
+	<dev-python/progress-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

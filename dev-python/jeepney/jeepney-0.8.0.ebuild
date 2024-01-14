@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test trio"
 DEPENDENCIES="test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-trio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.17[${PYTHON_USEDEP}] )
 	test? ( dev-python/testpath[${PYTHON_USEDEP}] )
 	test? ( dev-python/trio[${PYTHON_USEDEP}] )
 	test? ( dev-python/async-timeout[${PYTHON_USEDEP}] )

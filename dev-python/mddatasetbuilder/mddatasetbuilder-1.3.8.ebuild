@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/gaussianrunner[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.9.0[${PYTHON_USEDEP}]
 	dev-python/coloredlogs[${PYTHON_USEDEP}]
 	dev-python/lz4[${PYTHON_USEDEP}]
 	dev-python/dpdata[${PYTHON_USEDEP}]
 	dev-python/openbabel-wheel[${PYTHON_USEDEP}]
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/cython[${PYTHON_USEDEP}] )
 	test? ( dev-python/fakegaussian[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

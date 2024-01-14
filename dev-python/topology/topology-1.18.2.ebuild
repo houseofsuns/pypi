@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
+	>=dev-python/pexpect-4.6[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]
 	dev-python/pynml[${PYTHON_USEDEP}]
 	dev-python/pyszn[${PYTHON_USEDEP}]

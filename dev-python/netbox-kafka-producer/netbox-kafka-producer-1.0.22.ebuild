@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/confluent-kafka[${PYTHON_USEDEP}]
-	dev-python/dictdiffer[${PYTHON_USEDEP}]"
+	~dev-python/dictdiffer-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

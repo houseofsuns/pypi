@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	<dev-python/asgiref-4.0[${PYTHON_USEDEP}]
 	dev-python/channels[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/graphene[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]"
+	<dev-python/msgpack-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

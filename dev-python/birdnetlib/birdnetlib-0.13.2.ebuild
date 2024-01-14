@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	~dev-python/watchdog-2.1.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

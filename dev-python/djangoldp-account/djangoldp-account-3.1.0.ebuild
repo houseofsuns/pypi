@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/djangoldp[${PYTHON_USEDEP}]
-	dev-python/django-registration[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
+	~dev-python/django-registration-3.4.0[${PYTHON_USEDEP}]
+	~dev-python/validators-0.20.0[${PYTHON_USEDEP}]
 	dev-python/oic[${PYTHON_USEDEP}]
 	dev-python/django-webidoidc-provider[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

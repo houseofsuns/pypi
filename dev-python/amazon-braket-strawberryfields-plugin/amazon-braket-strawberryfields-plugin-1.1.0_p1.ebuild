@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/amazon-braket-sdk[${PYTHON_USEDEP}]
 	dev-python/strawberryfields[${PYTHON_USEDEP}]
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	test? ( <dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

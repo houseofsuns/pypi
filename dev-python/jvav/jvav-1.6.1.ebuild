@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/anti-useragent[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
 	dev-python/deep-translator[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
 	dev-python/Requests[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/Wikipedia-API[${PYTHON_USEDEP}]"

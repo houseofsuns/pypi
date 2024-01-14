@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	dev-python/demon[${PYTHON_USEDEP}]
 	dev-python/python-louvain[${PYTHON_USEDEP}]
 	dev-python/nf1[${PYTHON_USEDEP}]
@@ -46,13 +46,13 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/thresholdclustering[${PYTHON_USEDEP}]
 	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	c? ( dev-python/infomap[${PYTHON_USEDEP}] )
-	c? ( dev-python/wurlitzer[${PYTHON_USEDEP}] )
+	c? ( >=dev-python/wurlitzer-1.0.2[${PYTHON_USEDEP}] )
 	c? ( dev-python/GraphRicciCurvature[${PYTHON_USEDEP}] )
 	c? ( dev-python/networkit[${PYTHON_USEDEP}] )
 	c? ( dev-python/pycombo[${PYTHON_USEDEP}] )
 	c? ( dev-python/leidenalg[${PYTHON_USEDEP}] )
 	all? ( dev-python/infomap[${PYTHON_USEDEP}] )
-	all? ( dev-python/wurlitzer[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/wurlitzer-1.0.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/GraphRicciCurvature[${PYTHON_USEDEP}] )
 	all? ( dev-python/networkit[${PYTHON_USEDEP}] )
 	all? ( dev-python/pycombo[${PYTHON_USEDEP}] )

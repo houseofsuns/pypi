@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
+	~dev-python/python-magic-0.4.12[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/rarfile[${PYTHON_USEDEP}]
+	>=dev-python/rarfile-3.0[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

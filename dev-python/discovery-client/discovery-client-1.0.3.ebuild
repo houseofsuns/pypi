@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli docs httpx httpxcli"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
 	all? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	all? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	all? ( dev-python/click[${PYTHON_USEDEP}] )
-	all? ( dev-python/rich[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/rich[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/httpx-0.16.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/click-8.1.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/rich-12.6.0[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/click-8.1.3[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/rich-12.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	httpxcli? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	httpxcli? ( dev-python/click[${PYTHON_USEDEP}] )
-	httpxcli? ( dev-python/rich[${PYTHON_USEDEP}] )"
+	httpx? ( >=dev-python/httpx-0.16.1[${PYTHON_USEDEP}] )
+	httpxcli? ( >=dev-python/httpx-0.16.1[${PYTHON_USEDEP}] )
+	httpxcli? ( >=dev-python/click-8.1.3[${PYTHON_USEDEP}] )
+	httpxcli? ( >=dev-python/rich-12.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

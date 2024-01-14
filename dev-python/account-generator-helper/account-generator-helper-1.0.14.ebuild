@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-2.0.12[${PYTHON_USEDEP}]
+	~dev-python/idna-3.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.9[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
 	dev-python/pysocks[${PYTHON_USEDEP}]
-	dev-python/cloudscraper[${PYTHON_USEDEP}]"
+	~dev-python/cloudscraper-1.2.69[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

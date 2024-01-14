@@ -30,10 +30,10 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/kubeconfig[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/prometheus-api-client[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
+	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sphinxnotes-markdown-builder[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]"
+	~dev-python/tzlocal-5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

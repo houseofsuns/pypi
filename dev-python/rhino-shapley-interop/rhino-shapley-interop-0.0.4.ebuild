@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/Shapely[${PYTHON_USEDEP}]
 	dep? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dep? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/numpy-1.21.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rhino3dm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Shapely[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

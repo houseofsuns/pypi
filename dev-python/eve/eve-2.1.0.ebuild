@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests"
-DEPENDENCIES="dev-python/cerberus[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cerberus-2.0[${PYTHON_USEDEP}]
 	dev-python/events[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+	<dev-python/simplejson-4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/redis[${PYTHON_USEDEP}] )
 	dev? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

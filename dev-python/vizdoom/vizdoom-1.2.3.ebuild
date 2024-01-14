@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="gym test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
+	>=dev-python/pygame-2.1.3[${PYTHON_USEDEP}]
 	gym? ( dev-python/gym[${PYTHON_USEDEP}] )
-	gym? ( dev-python/pygame[${PYTHON_USEDEP}] )
+	gym? ( >=dev-python/pygame-2.1.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/psutil[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/idna-3.3[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-58.2.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2021.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

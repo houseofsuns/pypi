@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all graphviz mpl"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	graphviz? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	mpl? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pillow-5.4[${PYTHON_USEDEP}] )
+	graphviz? ( >=dev-python/pillow-5.4[${PYTHON_USEDEP}] )
+	mpl? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

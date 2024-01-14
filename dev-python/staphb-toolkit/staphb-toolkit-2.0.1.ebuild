@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/spython[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.6.3[${PYTHON_USEDEP}]
+	>=dev-python/docker-4.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pexpect-4.8[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	>=dev-python/rich-12.4.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

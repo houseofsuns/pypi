@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pymatgen[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.12.0[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.7[${PYTHON_USEDEP}]
 	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

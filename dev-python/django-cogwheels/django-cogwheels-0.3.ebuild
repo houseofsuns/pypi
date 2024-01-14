@@ -28,10 +28,10 @@ DEPENDENCIES="development? ( dev-python/Django[${PYTHON_USEDEP}] )
 	development? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	development? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
 	development? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pyenchant-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-spelling-1.4[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.3[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

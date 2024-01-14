@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/azure-cosmos[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/logzero[${PYTHON_USEDEP}]
 	dev-python/mypy-boto3[${PYTHON_USEDEP}]
 	dev-python/mypy_boto3_batch[${PYTHON_USEDEP}]
 	dev-python/mypy_boto3_logs[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/typed-ast[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]"
+	<dev-python/tzlocal-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

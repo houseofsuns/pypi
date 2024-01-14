@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
 DEPENDENCIES="dev? ( dev-python/Cython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinxcontrib-asyncio-0.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pycodestyle-2.6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyflakes-2.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-asyncio[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.8.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/uvloop-0.15.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-asyncio-0.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pycodestyle-2.6.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pyflakes-2.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/flake8-3.8.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/uvloop-0.15.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

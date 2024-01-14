@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )"
+	>=dev-python/scipy-1.3[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mock-3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-4.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

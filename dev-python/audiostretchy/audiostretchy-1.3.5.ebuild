@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all testing"
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	all? ( dev-python/soxr[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydub[${PYTHON_USEDEP}] )
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )

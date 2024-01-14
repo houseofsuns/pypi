@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="las numba plot"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	las? ( dev-python/laspy[${PYTHON_USEDEP}] )
 	las? ( dev-python/lazrs[${PYTHON_USEDEP}] )

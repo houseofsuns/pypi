@@ -25,40 +25,40 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="datadog ecosystem examples modal"
 DEPENDENCIES="dev-python/wandb[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	<dev-python/sentry-sdk-1.29.0[${PYTHON_USEDEP}]
+	>=dev-python/python-json-logger-2.0.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.34[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.1[${PYTHON_USEDEP}]
+	>=dev-python/black-22.3.0[${PYTHON_USEDEP}]
+	>=dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
+	>=dev-python/notebook-6.4.8[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}]
 	dev-python/ipynbname[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
 	dev-python/aioprocessing[${PYTHON_USEDEP}]
 	dev-python/janus[${PYTHON_USEDEP}]
 	dev-python/analytics-python[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	>=dev-python/typeguard-4.1.3[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev-python/objgraph[${PYTHON_USEDEP}]
+	>=dev-python/objgraph-3.6.0[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/faiss-cpu[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	<=dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}]
 	datadog? ( dev-python/datadog[${PYTHON_USEDEP}] )
 	datadog? ( dev-python/ddtrace[${PYTHON_USEDEP}] )
-	ecosystem? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	ecosystem? ( >=dev-python/h5py-3.8.0[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/openai[${PYTHON_USEDEP}] )
-	ecosystem? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	ecosystem? ( >dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/shap[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -66,18 +66,18 @@ DEPENDENCIES="dev-python/wandb[${PYTHON_USEDEP}]
 	ecosystem? ( dev-python/bertviz[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	ecosystem? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	ecosystem? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	ecosystem? ( >=dev-python/plotly-5.13.0[${PYTHON_USEDEP}] )
+	ecosystem? ( >=dev-python/sqlalchemy-2.0.1[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/replicate[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/hdbscan[${PYTHON_USEDEP}] )
-	ecosystem? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	ecosystem? ( >=dev-python/pillow-10.0.1[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	examples? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/h5py-3.8.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/openai[${PYTHON_USEDEP}] )
-	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	examples? ( >dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/shap[${PYTHON_USEDEP}] )
 	examples? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	examples? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -85,14 +85,14 @@ DEPENDENCIES="dev-python/wandb[${PYTHON_USEDEP}]
 	examples? ( dev-python/bertviz[${PYTHON_USEDEP}] )
 	examples? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	examples? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	examples? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	examples? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/plotly-5.13.0[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/sqlalchemy-2.0.1[${PYTHON_USEDEP}] )
 	examples? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	examples? ( dev-python/replicate[${PYTHON_USEDEP}] )
 	examples? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	examples? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	examples? ( dev-python/hdbscan[${PYTHON_USEDEP}] )
-	examples? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/pillow-10.0.1[${PYTHON_USEDEP}] )
 	examples? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	modal? ( dev-python/modal[${PYTHON_USEDEP}] )
 	modal? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )"

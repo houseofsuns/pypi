@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="toolchain"
-DEPENDENCIES="dev-python/autopep8[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/tokenize-rt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/autopep8-1.5[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.8.0[${PYTHON_USEDEP}]
+	>=dev-python/tokenize-rt-3.2.0[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	toolchain? ( dev-python/black[${PYTHON_USEDEP}] )
 	toolchain? ( dev-python/blacken-docs[${PYTHON_USEDEP}] )

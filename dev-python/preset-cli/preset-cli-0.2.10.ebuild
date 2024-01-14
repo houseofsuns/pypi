@@ -26,27 +26,27 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.17.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/prison[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0.24[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.11.2[${PYTHON_USEDEP}]
 	dev-python/python-graphql-client[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/sqlglot[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.3.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlglot-19.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.1[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.7.2[${PYTHON_USEDEP}]
+	>=dev-python/greenlet-1.1.3[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -57,6 +57,6 @@ DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
 	testing? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pylint-2.11.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

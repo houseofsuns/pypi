@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/pyspotify[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/lockfile[${PYTHON_USEDEP}]
-	dev-python/nose[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
-	dev-python/spotipy[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]"
+	>=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	>=dev-python/lockfile-0.12.2[${PYTHON_USEDEP}]
+	>=dev-python/nose-1.3.7[${PYTHON_USEDEP}]
+	>=dev-python/mock-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/spotipy-2.4.4[${PYTHON_USEDEP}]
+	~dev-python/twine-1.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/notebook[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/notebook-7.0[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

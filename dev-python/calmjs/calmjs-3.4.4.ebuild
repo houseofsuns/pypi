@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-31.0[${PYTHON_USEDEP}]
 	dev-python/calmjs-types[${PYTHON_USEDEP}]
 	dev-python/calmjs-parse[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pyspark[${PYTHON_USEDEP}]
 	dev-python/logger[${PYTHON_USEDEP}]
 	dev-python/sparkdataframecomparer[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	>=dev-python/deprecated-1.2.12[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

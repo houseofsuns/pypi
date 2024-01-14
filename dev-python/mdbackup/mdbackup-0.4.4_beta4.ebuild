@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="b2 gdrive s3 sftp vault"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.14.0[${PYTHON_USEDEP}]
 	b2? ( dev-python/b2sdk[${PYTHON_USEDEP}] )
-	b2? ( dev-python/python-magic[${PYTHON_USEDEP}] )
+	b2? ( ~dev-python/python-magic-0.4[${PYTHON_USEDEP}] )
 	gdrive? ( dev-python/pydrive[${PYTHON_USEDEP}] )
-	gdrive? ( dev-python/python-magic[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	s3? ( dev-python/python-magic[${PYTHON_USEDEP}] )
-	sftp? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	vault? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	gdrive? ( ~dev-python/python-magic-0.4[${PYTHON_USEDEP}] )
+	s3? ( ~dev-python/boto3-1.24[${PYTHON_USEDEP}] )
+	s3? ( ~dev-python/python-magic-0.4[${PYTHON_USEDEP}] )
+	sftp? ( ~dev-python/paramiko-2.11[${PYTHON_USEDEP}] )
+	vault? ( ~dev-python/requests-2.28[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

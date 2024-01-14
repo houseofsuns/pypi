@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="consul docs test"
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/grpcio-1.59.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-health-checking[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	<=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
+	<=dev-python/googleapis-common-protos-1.61.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	consul? ( dev-python/python-consul[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/grpcio-testing[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/grpcio-testing-1.59.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

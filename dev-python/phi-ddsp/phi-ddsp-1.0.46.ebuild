@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
 	dev-python/crepe[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.46.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/effortless_config[${PYTHON_USEDEP}]
 	dev-python/SoundFile[${PYTHON_USEDEP}]

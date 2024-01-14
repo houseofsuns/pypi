@@ -30,17 +30,17 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	events_asyncio? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-2.5[${PYTHON_USEDEP}] )
 	testing? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	testing? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	testing? ( dev-python/twine[${PYTHON_USEDEP}] )
-	testing? ( dev-python/black[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/black-22.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

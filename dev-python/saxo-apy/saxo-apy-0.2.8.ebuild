@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/flask-2.3.3[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.12[${PYTHON_USEDEP}]
+	~dev-python/websockets-11.0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

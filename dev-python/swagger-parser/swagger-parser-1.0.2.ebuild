@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/swagger-spec-validator[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/swagger-spec-validator-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]"

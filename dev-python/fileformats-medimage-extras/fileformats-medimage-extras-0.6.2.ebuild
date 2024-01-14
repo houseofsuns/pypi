@@ -27,10 +27,10 @@ IUSE="dev test"
 DEPENDENCIES="dev-python/fileformats-extras[${PYTHON_USEDEP}]
 	dev-python/fileformats-medimage[${PYTHON_USEDEP}]
 	dev-python/fileformats[${PYTHON_USEDEP}]
-	dev-python/jq[${PYTHON_USEDEP}]
+	>=dev-python/jq-1.4.0[${PYTHON_USEDEP}]
 	dev-python/medimages4tests[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
 	dev-python/pydra-dcm2niix[${PYTHON_USEDEP}]
 	dev-python/pydra-mrtrix3[${PYTHON_USEDEP}]
@@ -41,8 +41,8 @@ DEPENDENCIES="dev-python/fileformats-extras[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-env-0.6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

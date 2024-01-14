@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/yaenv[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.10[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.1[${PYTHON_USEDEP}]
+	~dev-python/rich-10.4.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/dockerpty[${PYTHON_USEDEP}]
+	~dev-python/docker-6.1.0[${PYTHON_USEDEP}]
+	~dev-python/dockerpty-0.4.1[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	dev-python/python-hcl2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

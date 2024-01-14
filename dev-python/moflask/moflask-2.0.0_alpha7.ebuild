@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev jwt requests"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.1[${PYTHON_USEDEP}]
 	dev-python/python-json-logger[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flask-jwt-extended[${PYTHON_USEDEP}] )

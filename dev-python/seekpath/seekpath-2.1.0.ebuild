@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bz dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.0[${PYTHON_USEDEP}]
 	dev-python/spglib[${PYTHON_USEDEP}]
-	bz? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	bz? ( >=dev-python/scipy-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/prospector[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pylint-2.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

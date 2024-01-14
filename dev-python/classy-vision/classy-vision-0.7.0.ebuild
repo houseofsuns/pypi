@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/fvcore[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bs4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nbconvert-6.0.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fairscale[${PYTHON_USEDEP}] )"

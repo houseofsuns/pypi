@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/boto3-1.14.9[${PYTHON_USEDEP}]
 	dev-python/singer-python[${PYTHON_USEDEP}]
-	dev-python/terminaltables[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
+	~dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]
+	~dev-python/backoff-1.8.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nose[${PYTHON_USEDEP}] )"

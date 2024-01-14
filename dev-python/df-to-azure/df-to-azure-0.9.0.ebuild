@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/azure-identity[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-datafactory[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-resource[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-7.0.0[${PYTHON_USEDEP}]
 	dev-python/pyodbc[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

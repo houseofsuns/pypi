@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
 	dev-python/optional-py[${PYTHON_USEDEP}]
-	dev-python/verboselogs[${PYTHON_USEDEP}]
-	dev-python/zope-event[${PYTHON_USEDEP}]"
+	>=dev-python/verboselogs-1.7[${PYTHON_USEDEP}]
+	>=dev-python/zope-event-4.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

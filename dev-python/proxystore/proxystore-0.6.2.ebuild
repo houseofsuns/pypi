@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docs endpoints extensions redis"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/click-8.1.4[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-39.0.1[${PYTHON_USEDEP}]
 	dev-python/globus-sdk[${PYTHON_USEDEP}]
-	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/lazy-object-proxy-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
 	all? ( dev-python/proxystore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/covdefaults[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.23.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/mkdocs-material-9.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-section-index[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
@@ -61,10 +61,10 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	endpoints? ( dev-python/pystun3[${PYTHON_USEDEP}] )
 	endpoints? ( dev-python/python-daemon[${PYTHON_USEDEP}] )
 	endpoints? ( dev-python/quart[${PYTHON_USEDEP}] )
-	endpoints? ( dev-python/requests[${PYTHON_USEDEP}] )
+	endpoints? ( >=dev-python/requests-2.27.1[${PYTHON_USEDEP}] )
 	endpoints? ( dev-python/tosholi[${PYTHON_USEDEP}] )
-	endpoints? ( dev-python/websockets[${PYTHON_USEDEP}] )
+	endpoints? ( >=dev-python/websockets-10.0[${PYTHON_USEDEP}] )
 	extensions? ( dev-python/proxystore-ex[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	redis? ( >=dev-python/redis-3.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

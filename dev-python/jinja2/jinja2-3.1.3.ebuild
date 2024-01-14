@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="i18n"
 DEPENDENCIES="dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	i18n? ( dev-python/Babel[${PYTHON_USEDEP}] )"
+	i18n? ( >=dev-python/Babel-2.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

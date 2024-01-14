@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="model"
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/pyghmi[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	model? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	<dev-python/pyghmi-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	model? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

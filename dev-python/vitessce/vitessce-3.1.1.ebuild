@@ -26,34 +26,34 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev docs"
 DEPENDENCIES="dev-python/zarr[${PYTHON_USEDEP}]
 	dev-python/numcodecs[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.1[${PYTHON_USEDEP}]
 	dev-python/negspy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.2[${PYTHON_USEDEP}]
+	>=dev-python/black-21.11[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
 	dev-python/ome-zarr[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	all? ( dev-python/jupyter-server-proxy[${PYTHON_USEDEP}] )
+	>=dev-python/tifffile-2020.10.1[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2[${PYTHON_USEDEP}]
+	all? ( >=dev-python/jupyter-server-proxy-1.5.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/anywidget[${PYTHON_USEDEP}] )
-	all? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	all? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	all? ( dev-python/starlette[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/uvicorn-0.17.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ujson-4.0.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/starlette-0.14.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/generate-tiff-offsets[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/aiofiles-0.6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/loompy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-6.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.8.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbclean[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sqlalchemy-1.3.24[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbconvert-5.6.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

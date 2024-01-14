@@ -27,40 +27,40 @@ IUSE="cesium doc jupyter test"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]
 	dev-python/jplephem[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0[${PYTHON_USEDEP}]
 	dev-python/pyerfa[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.0[${PYTHON_USEDEP}]
 	cesium? ( dev-python/czml3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	doc? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/ipython-5.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/ipywidgets-7.6[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupytext[${PYTHON_USEDEP}] )
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/myst-parser-0.13.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/nbsphinx-0.8.6[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/nbconvert-5.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sgp4[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	doc? ( <=dev-python/sphinx-gallery-0.7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	doc? ( >dev-python/sphinx-copybutton-0.2.9[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-github-role[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/ipywidgets-7.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	test? ( dev-python/import-linter[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-0.740[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.2[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )

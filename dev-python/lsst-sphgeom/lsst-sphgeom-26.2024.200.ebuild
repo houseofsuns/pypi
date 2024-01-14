@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test yaml"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	dev-python/hpgeom[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-3.2[${PYTHON_USEDEP}] )
+	yaml? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pymongo-3.7[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
 	dev-python/pycrypto[${PYTHON_USEDEP}]
 	dev-python/pymysql[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
+	>=dev-python/pika-1.1.0[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/threadpool[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
+	>=dev-python/python-dateutil-2.7[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

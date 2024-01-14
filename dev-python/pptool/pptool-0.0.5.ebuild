@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/fuzzywuzzy-0.18.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full yolov5 yolov8"
 DEPENDENCIES="dev-python/fal-serverless[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	full? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	full? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/pycocotools[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/sahi[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	full? ( dev-python/ultralytics[${PYTHON_USEDEP}] )
 	yolov8? ( dev-python/ultralytics[${PYTHON_USEDEP}] )
 	full? ( dev-python/yolov5[${PYTHON_USEDEP}] )

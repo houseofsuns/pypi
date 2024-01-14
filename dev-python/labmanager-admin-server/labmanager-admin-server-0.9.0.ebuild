@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/authlib[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/labmanager-common[${PYTHON_USEDEP}]
-	dev-python/ldap3[${PYTHON_USEDEP}]
+	>=dev-python/ldap3-2.5[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.16.2[${PYTHON_USEDEP}]
 	dev-python/SimpleITK[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/pandas-0.23.0[${PYTHON_USEDEP}]
+	~dev-python/progressbar2-3.39.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/python-mimeparse[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.6.0[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
+	>=dev-python/python-mimeparse-1.6.0[${PYTHON_USEDEP}]
 	dev-python/skip-django-chamber[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

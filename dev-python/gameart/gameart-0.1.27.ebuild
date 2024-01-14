@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev release"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/pynput[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	>=dev-python/PyQt5-5.15.10[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	release? ( dev-python/build[${PYTHON_USEDEP}] )"
+	release? ( >=dev-python/build-1.0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

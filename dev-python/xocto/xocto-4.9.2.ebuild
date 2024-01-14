@@ -26,37 +26,37 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs"
 DEPENDENCIES="dev-python/ddtrace[${PYTHON_USEDEP}]
 	dev-python/duckdb[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	>=dev-python/django-4.0[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.1.0[${PYTHON_USEDEP}]
 	dev-python/pact-python[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
+	>=dev-python/structlog-20.2.0[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/boto3-1.26.53[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/botocore-1.29.53[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/hypothesis-6.62.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/moto-4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy-boto3-s3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/numpy-1.22.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyarrow-stubs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/time-machine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/time-machine-2.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-openpyxl[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.38.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

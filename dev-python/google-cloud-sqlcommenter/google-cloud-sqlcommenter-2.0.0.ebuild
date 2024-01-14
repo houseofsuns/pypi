@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="django flask opencensus opentelemetry psycopg2 sqlalchemy"
-DEPENDENCIES="django? ( dev-python/django[${PYTHON_USEDEP}] )
+DEPENDENCIES="django? ( >=dev-python/django-1.11[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
 	opencensus? ( dev-python/opencensus[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )

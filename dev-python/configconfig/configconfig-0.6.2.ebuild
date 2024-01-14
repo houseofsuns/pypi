@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all sphinx testing"
 DEPENDENCIES="dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.16.12[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
 	sphinx? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	sphinx? ( <dev-python/sphinx-3.4.0[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-3.4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

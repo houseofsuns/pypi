@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/morecantile[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/pygeofilter[${PYTHON_USEDEP}]
 	dev-python/starlette-cramjam[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pdocs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	server? ( <dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	test? ( dev-python/mapbox-vector-tile[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
@@ -52,6 +52,6 @@ DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pgsql[${PYTHON_USEDEP}] )
-	test? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

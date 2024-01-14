@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="leveldb sql"
 DEPENDENCIES="dev-python/followthemoney[${PYTHON_USEDEP}]
 	dev-python/normality[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0.0[${PYTHON_USEDEP}]
 	dev-python/banal[${PYTHON_USEDEP}]
-	leveldb? ( dev-python/plyvel[${PYTHON_USEDEP}] )
+	leveldb? ( >=dev-python/plyvel-1.0.5[${PYTHON_USEDEP}] )
 	sql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	sql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

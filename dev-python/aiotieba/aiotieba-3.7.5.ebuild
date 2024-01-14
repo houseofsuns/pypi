@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="img speedup"
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	img? ( dev-python/opencv-contrib-python[${PYTHON_USEDEP}] )
 	img? ( dev-python/opencv-contrib-python-headless[${PYTHON_USEDEP}] )
-	speedup? ( dev-python/aiodns[${PYTHON_USEDEP}] )
-	speedup? ( dev-python/pysimdjson[${PYTHON_USEDEP}] )
-	speedup? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	speedup? ( dev-python/pysimdjson[${PYTHON_USEDEP}] )
-	speedup? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	speedup? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	speedup? ( <dev-python/aiodns-4.0[${PYTHON_USEDEP}] )
+	speedup? ( <dev-python/pysimdjson-6.0[${PYTHON_USEDEP}] )
+	speedup? ( <dev-python/uvloop-1.0[${PYTHON_USEDEP}] )
+	speedup? ( <dev-python/pysimdjson-6.0[${PYTHON_USEDEP}] )
+	speedup? ( <dev-python/uvloop-1.0[${PYTHON_USEDEP}] )
+	speedup? ( <dev-python/uvloop-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

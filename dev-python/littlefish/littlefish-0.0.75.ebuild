@@ -26,20 +26,20 @@ KEYWORDS="~amd64 ~x86"
 IUSE="celery pdfsigner redis"
 DEPENDENCIES="dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/IPy[${PYTHON_USEDEP}]
+	>=dev-python/IPy-0.83[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/PyMarkovChain[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-3.5.0.0[${PYTHON_USEDEP}]
 	dev-python/geoip2[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/lxml-3.7.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.1[${PYTHON_USEDEP}]
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	pdfsigner? ( dev-python/endesive[${PYTHON_USEDEP}] )
 	pdfsigner? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	redis? ( >=dev-python/redis-3.2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

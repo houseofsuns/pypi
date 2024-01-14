@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/chainmap[${PYTHON_USEDEP}]
 	dev-python/combomethod[${PYTHON_USEDEP}]
 	dev-python/nulltype[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	~dev-python/six-1.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

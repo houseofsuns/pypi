@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="spark"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.0.3[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	~dev-python/validators-0.18.0[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.9.8[${PYTHON_USEDEP}]
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	spark? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"
+	spark? ( >=dev-python/pyarrow-0.15.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/defusedxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/defusedxml-0.4.1[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/pysaml2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

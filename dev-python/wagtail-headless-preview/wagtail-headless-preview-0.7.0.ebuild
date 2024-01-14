@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES="dev-python/Wagtail[${PYTHON_USEDEP}]
 	testing? ( dev-python/django-cors-headers[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/tox-4.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

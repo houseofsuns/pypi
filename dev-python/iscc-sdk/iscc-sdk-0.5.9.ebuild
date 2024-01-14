@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cython-0.30[${PYTHON_USEDEP}]
 	dev-python/iscc-core[${PYTHON_USEDEP}]
 	dev-python/iscc-schema[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
+	<dev-python/python-magic-0.5[${PYTHON_USEDEP}]
 	dev-python/install-jdk[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-4.0[${PYTHON_USEDEP}]
+	<dev-python/jmespath-2.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/pytaglib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/pymupdf[${PYTHON_USEDEP}]
 	dev-python/ebookmeta[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]

@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pytest-metadata[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-metadata-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	test? ( dev-python/assertpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-mock-3.7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-rerunfailures-11.1.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/selenium-4.3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tox-3.24.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

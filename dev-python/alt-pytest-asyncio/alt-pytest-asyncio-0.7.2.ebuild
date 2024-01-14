@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	tests? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
+	tests? ( ~dev-python/nest-asyncio-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/noseofyeti[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-7.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

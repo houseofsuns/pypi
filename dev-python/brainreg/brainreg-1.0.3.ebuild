@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/bg-atlasapi[${PYTHON_USEDEP}]
 	napari? ( dev-python/magicgui[${PYTHON_USEDEP}] )
 	napari? ( dev-python/napari-plugin-engine[${PYTHON_USEDEP}] )
 	napari? ( dev-python/napari[${PYTHON_USEDEP}] )
-	napari? ( dev-python/pooch[${PYTHON_USEDEP}] )
+	napari? ( >dev-python/pooch-1.0[${PYTHON_USEDEP}] )
 	napari? ( dev-python/qtpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

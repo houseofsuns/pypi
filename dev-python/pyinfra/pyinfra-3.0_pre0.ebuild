@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ansible dev docs test"
 DEPENDENCIES="dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	<dev-python/paramiko-3.0[${PYTHON_USEDEP}]
+	>dev-python/click-2.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-1.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/pywinrm[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
+	<dev-python/distro-2.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	ansible? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-6.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
@@ -52,9 +52,9 @@ DEPENDENCIES="dev-python/gevent[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyinfra-guzzle-sphinx-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/recommonmark-0.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-2.2.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
@@ -63,16 +63,16 @@ DEPENDENCIES="dev-python/gevent[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-spellcheck[${PYTHON_USEDEP}] )
 	dev? ( dev-python/redbaron[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyinfra-guzzle-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/recommonmark-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-2.2.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-6.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )

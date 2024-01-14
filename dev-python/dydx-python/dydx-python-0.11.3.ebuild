@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-mock[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	~dev-python/requests-mock-1.6.0[${PYTHON_USEDEP}]
+	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	<dev-python/pytest-5.0.0[${PYTHON_USEDEP}]
+	~dev-python/tox-3.13.2[${PYTHON_USEDEP}]
+	<dev-python/setuptools-51.0.0[${PYTHON_USEDEP}]
 	dev-python/eth-keys[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

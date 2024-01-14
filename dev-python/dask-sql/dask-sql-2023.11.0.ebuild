@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev fugue"
-DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/dask-2023.11.0[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.13.4[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-2.1[${PYTHON_USEDEP}]
 	dev-python/prompt_toolkit[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.7.1[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-3.2.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyarrow-6.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/intake[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	fugue? ( dev-python/fugue[${PYTHON_USEDEP}] )
 	fugue? ( dev-python/triad[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

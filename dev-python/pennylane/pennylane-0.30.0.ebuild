@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="kernels"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/rustworkx[${PYTHON_USEDEP}]
 	dev-python/autograd[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
+	>=dev-python/semantic-version-2.7[${PYTHON_USEDEP}]
 	dev-python/autoray[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
 	dev-python/pennylane-lightning[${PYTHON_USEDEP}]

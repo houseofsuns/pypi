@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy development"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.11[${PYTHON_USEDEP}]
 	deploy? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/twine[${PYTHON_USEDEP}] )
+	deploy? ( ~dev-python/twine-3.4.1[${PYTHON_USEDEP}] )
 	development? ( dev-python/pip-tools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

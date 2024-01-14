@@ -25,27 +25,27 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="celery channels gunicorn storages wagtail"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	wagtail? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	storages? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	wagtail? ( <dev-python/boto3-1.27[${PYTHON_USEDEP}] )
+	storages? ( <dev-python/boto3-1.27[${PYTHON_USEDEP}] )
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	channels? ( dev-python/channels[${PYTHON_USEDEP}] )
 	channels? ( dev-python/channels-redis[${PYTHON_USEDEP}] )
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	<dev-python/coloredlogs-15.1[${PYTHON_USEDEP}]
+	<dev-python/django-4.2[${PYTHON_USEDEP}]
 	celery? ( dev-python/django-celery-results[${PYTHON_USEDEP}] )
 	dev-python/django-postgres-extra[${PYTHON_USEDEP}]
 	wagtail? ( dev-python/django-storages[${PYTHON_USEDEP}] )
 	storages? ( dev-python/django-storages[${PYTHON_USEDEP}] )
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-3.15[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-gis[${PYTHON_USEDEP}]
-	dev-python/dj-database-url[${PYTHON_USEDEP}]
+	<dev-python/dj-database-url-2.1[${PYTHON_USEDEP}]
 	gunicorn? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	dev-python/modelw-env-manager[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	<dev-python/rich-13.5[${PYTHON_USEDEP}]
+	<dev-python/sentry-sdk-1.27[${PYTHON_USEDEP}]
 	wagtail? ( dev-python/wagtail[${PYTHON_USEDEP}] )
-	wagtail? ( dev-python/wand[${PYTHON_USEDEP}] )
+	wagtail? ( <dev-python/wand-0.7[${PYTHON_USEDEP}] )
 	dev-python/whitenoise[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

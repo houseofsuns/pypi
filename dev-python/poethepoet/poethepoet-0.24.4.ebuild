@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="poetry-plugin"
-DEPENDENCIES="dev-python/pastel[${PYTHON_USEDEP}]
-	poetry-plugin? ( dev-python/poetry[${PYTHON_USEDEP}] )
-	dev-python/tomli[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/pastel-0.3.0[${PYTHON_USEDEP}]
+	poetry-plugin? ( <dev-python/poetry-2.0[${PYTHON_USEDEP}] )
+	>=dev-python/tomli-1.2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

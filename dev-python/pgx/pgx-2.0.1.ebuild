@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
 	dev-python/svgwrite[${PYTHON_USEDEP}]
 	dev-python/pgx-minatar[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

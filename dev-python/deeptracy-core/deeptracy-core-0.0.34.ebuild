@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/docker-2.5.1[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

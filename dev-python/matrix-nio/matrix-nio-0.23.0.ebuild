@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="e2e"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiohttp-socks[${PYTHON_USEDEP}]
-	e2e? ( dev-python/atomicwrites[${PYTHON_USEDEP}] )
-	e2e? ( dev-python/cachetools[${PYTHON_USEDEP}] )
-	dev-python/h11[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	e2e? ( dev-python/peewee[${PYTHON_USEDEP}] )
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-socks-0.8.0[${PYTHON_USEDEP}]
+	e2e? ( <dev-python/atomicwrites-2.0.0[${PYTHON_USEDEP}] )
+	e2e? ( <dev-python/cachetools-5.0.0[${PYTHON_USEDEP}] )
+	<dev-python/h11-0.15.0[${PYTHON_USEDEP}]
+	<dev-python/h2-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	e2e? ( <dev-python/peewee-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
 	e2e? ( dev-python/python-olm[${PYTHON_USEDEP}] )
-	dev-python/unpaddedbase64[${PYTHON_USEDEP}]"
+	<dev-python/unpaddedbase64-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

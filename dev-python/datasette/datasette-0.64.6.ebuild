@@ -24,37 +24,37 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs rich test"
-DEPENDENCIES="dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asgiref-3.2.10[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.1[${PYTHON_USEDEP}]
+	>=dev-python/click-default-group-1.2.3[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/hupper[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.20[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-1.0[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.11[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-0.4[${PYTHON_USEDEP}]
 	dev-python/janus[${PYTHON_USEDEP}]
 	dev-python/asgi-csrf[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/mergedeep[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	>=dev-python/mergedeep-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/itsdangerous-1.1[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2022.9.29[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	docs? ( dev-python/blacken-docs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	rich? ( dev-python/rich[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.2.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.2.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.17[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/beautifulsoup4-4.8.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/blacken-docs[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/trustme[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-timeout-1.4.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/trustme-0.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/cogapp[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

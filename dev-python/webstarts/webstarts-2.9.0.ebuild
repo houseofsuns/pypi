@@ -27,16 +27,16 @@ IUSE=""
 DEPENDENCIES="dev-python/semantic-version[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
+	>=dev-python/decorator-4.0.11[${PYTHON_USEDEP}]
+	>=dev-python/flask-0.12.2[${PYTHON_USEDEP}]
+	>=dev-python/flask-sqlalchemy-2.3[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/kids-cache[${PYTHON_USEDEP}]
 	dev-python/raven[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.18.1[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.1.11[${PYTHON_USEDEP}]
+	>=dev-python/structlog-17.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

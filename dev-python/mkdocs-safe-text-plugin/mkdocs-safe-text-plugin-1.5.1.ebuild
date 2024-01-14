@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
 	dev-python/bleach-allowlist[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]"
+	>=dev-python/mkdocs-0.17.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all"
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/documented[${PYTHON_USEDEP}]
-	dev-python/funcy[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	all? ( dev-python/sh[${PYTHON_USEDEP}] )"
+	<dev-python/funcy-3.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/sh-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

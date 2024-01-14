@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pymongo-3.10[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.4[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/thesmuggler[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
+	<=dev-python/emoji-1.6.3[${PYTHON_USEDEP}]
 	dev-python/cmarkgfm[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25[${PYTHON_USEDEP}]
+	>=dev-python/bleach-3.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -42,10 +42,10 @@ DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
 	dev? ( dev-python/bs4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mongomock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-remove-toctrees[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+	~dev-python/orjson-3.9.5[${PYTHON_USEDEP}]
+	~dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	dev-python/fhir-resources[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/flatten-json[${PYTHON_USEDEP}]
 	dev-python/dataclass-csv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/fastjsonschema[${PYTHON_USEDEP}]
-	dev-python/jsonpointer[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/requests-cache-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.3.2[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	~dev-python/fastjsonschema-2.19.0[${PYTHON_USEDEP}]
+	~dev-python/jsonpointer-2.4[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/referencing[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}]
+	~dev-python/referencing-0.31.0[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

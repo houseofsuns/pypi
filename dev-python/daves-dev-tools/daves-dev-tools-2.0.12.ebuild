@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
+	>=dev-python/twine-4.0[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/tomli-w[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	~dev-python/tomli-2.0[${PYTHON_USEDEP}]
+	~dev-python/tomli-w-1.0[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-11.0[${PYTHON_USEDEP}]
+	>dev-python/importlib-metadata-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-69.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

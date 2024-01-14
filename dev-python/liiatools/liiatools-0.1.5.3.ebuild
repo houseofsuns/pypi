@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-9.0.0[${PYTHON_USEDEP}]
 	dev-python/sfdata-stream-parser[${PYTHON_USEDEP}]
-	dev-python/xmlschema[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/xmlschema-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/tablib[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	<dev-python/regex-2023.0.0[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
 	dev-python/XlsxWriter[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
-	dev-python/cchardet[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/xlrd-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-log-0.5.0[${PYTHON_USEDEP}]
+	~dev-python/cchardet-2.1.7[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

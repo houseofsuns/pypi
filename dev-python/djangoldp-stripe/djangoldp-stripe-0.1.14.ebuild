@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/djangoldp[${PYTHON_USEDEP}]
 	dev-python/dj-stripe[${PYTHON_USEDEP}]
-	dev-python/stripe[${PYTHON_USEDEP}]
+	~dev-python/stripe-2.60.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

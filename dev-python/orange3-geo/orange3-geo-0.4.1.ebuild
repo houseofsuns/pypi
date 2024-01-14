@@ -27,7 +27,7 @@ IUSE="doc test"
 DEPENDENCIES="dev-python/Orange3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.17[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
 	dev-python/pyproj[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]

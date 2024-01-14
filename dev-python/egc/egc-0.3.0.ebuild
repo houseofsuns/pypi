@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cython-3.0.5[${PYTHON_USEDEP}]
 	dev-python/dgl[${PYTHON_USEDEP}]
 	dev-python/dglgo[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/texttable[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
+	>=dev-python/texttable-1.6[${PYTHON_USEDEP}]
 	dev-python/torch-geometric[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchaudio[${PYTHON_USEDEP}]

@@ -25,27 +25,27 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs package test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
+	~dev-python/django-filter-23.1[${PYTHON_USEDEP}]
 	dev-python/resolwe[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	~dev-python/wrapt-1.15.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/daphne[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pyasn1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}] )
 	package? ( dev-python/twine[${PYTHON_USEDEP}] )
 	package? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.12.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/daphne[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/tblib[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tblib-1.7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	test? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/six[${PYTHON_USEDEP}] )
-	test? ( dev-python/build[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/six-1.16[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

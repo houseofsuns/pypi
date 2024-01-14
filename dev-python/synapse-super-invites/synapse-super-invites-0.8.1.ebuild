@@ -31,8 +31,8 @@ DEPENDENCIES="dev-python/matrix-synapse[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twisted[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matrix-synapse-testutils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"

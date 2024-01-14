@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
 DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}]
 	dev-python/duckdb[${PYTHON_USEDEP}]
 	dev-python/geoarrow-pyarrow[${PYTHON_USEDEP}]
 	dev-python/typeguard[${PYTHON_USEDEP}]

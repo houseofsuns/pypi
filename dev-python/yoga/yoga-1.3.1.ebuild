@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cffi-1.0.0[${PYTHON_USEDEP}]
 	dev-python/imagequant[${PYTHON_USEDEP}]
 	dev-python/mozjpeg-lossless-optimization[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.2.2[${PYTHON_USEDEP}]
 	dev-python/pyguetzli[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-1.0.0[${PYTHON_USEDEP}]
 	dev-python/zopflipy[${PYTHON_USEDEP}]
 	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

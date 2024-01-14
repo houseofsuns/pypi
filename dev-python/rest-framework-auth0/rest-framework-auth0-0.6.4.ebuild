@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/django-2.2[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-1.7[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.0[${PYTHON_USEDEP}]
 	dev-python/auth0-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

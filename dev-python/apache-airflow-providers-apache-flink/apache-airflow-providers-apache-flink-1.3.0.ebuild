@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cncf-kubernetes"
 DEPENDENCIES="dev-python/apache-airflow-providers-cncf-kubernetes[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.0.0[${PYTHON_USEDEP}]
 	cncf-kubernetes? ( dev-python/apache-airflow-providers-cncf-kubernetes[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

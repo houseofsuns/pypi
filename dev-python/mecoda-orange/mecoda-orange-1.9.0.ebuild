@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/mecoda-nat[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.4[${PYTHON_USEDEP}]
 	dev-python/Orange3[${PYTHON_USEDEP}]
 	dev-python/pyodourcollect[${PYTHON_USEDEP}]
 	dev-python/ictiopy[${PYTHON_USEDEP}]

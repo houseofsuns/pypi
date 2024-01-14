@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]"
+	~dev-python/tzlocal-5.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

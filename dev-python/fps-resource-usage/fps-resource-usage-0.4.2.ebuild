@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/anyio-5.0[${PYTHON_USEDEP}]
 	dev-python/jupyverse-api[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
 	dev-python/types-psutil[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/elasticsearch[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/elasticsearch-7.0.0[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/elasticsearch[${PYTHON_USEDEP}]
 	test? ( dev-python/elasticsearch-test-py[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/attrs[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/attrs-19.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

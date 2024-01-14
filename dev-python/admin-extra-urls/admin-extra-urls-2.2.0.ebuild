@@ -40,7 +40,7 @@ DEPENDENCIES="dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-echo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-pythonpath[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-2.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/django-webtest[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-echo[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pythonpath[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tox[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/tox-2.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

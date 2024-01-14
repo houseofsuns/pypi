@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="serve"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]
 	dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/browser-cookie3[${PYTHON_USEDEP}]
+	>=dev-python/browser-cookie3-0.17.1[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	dev-python/danmakuc[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
 	dev-python/json5[${PYTHON_USEDEP}]
 	dev-python/m3u8[${PYTHON_USEDEP}]
 	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.0[${PYTHON_USEDEP}]
 	dev-python/pymp4[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	serve? ( dev-python/fastapi[${PYTHON_USEDEP}] )

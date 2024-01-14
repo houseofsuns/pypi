@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark comparison jax pymc pymc3 test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.13.0[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/radvel[${PYTHON_USEDEP}] )
@@ -34,13 +34,13 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/exoplanet[${PYTHON_USEDEP}] )
 	comparison? ( dev-python/batman-package[${PYTHON_USEDEP}] )
 	comparison? ( dev-python/starry[${PYTHON_USEDEP}] )
-	comparison? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	comparison? ( dev-python/xarray[${PYTHON_USEDEP}] )
+	comparison? ( <dev-python/numpy-1.22[${PYTHON_USEDEP}] )
+	comparison? ( <dev-python/xarray-2023.10.0[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jax[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	pymc? ( dev-python/pymc[${PYTHON_USEDEP}] )
 	pymc3? ( dev-python/pymc3[${PYTHON_USEDEP}] )
-	pymc3? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	pymc3? ( <dev-python/numpy-1.22[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

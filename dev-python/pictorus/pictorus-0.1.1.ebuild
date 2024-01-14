@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/awsiotsdk[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/cryptography[${PYTHON_USEDEP}] )"
+	~dev-python/python-jose-3.3.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/semver-2.13.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/responses-0.17.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/cryptography-40.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

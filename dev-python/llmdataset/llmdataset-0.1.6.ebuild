@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ipykernel[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

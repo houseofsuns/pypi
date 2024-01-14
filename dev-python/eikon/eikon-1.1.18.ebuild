@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httpx-0.18.0[${PYTHON_USEDEP}]
+	>=dev-python/nest-asyncio-1.5.1[${PYTHON_USEDEP}]
 	dev-python/datetime[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.11.0[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-0.54.0[${PYTHON_USEDEP}]
 	dev-python/deprecation[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/rfc3986[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	~dev-python/chardet-3.0[${PYTHON_USEDEP}]
+	~dev-python/h2-4.0[${PYTHON_USEDEP}]
+	~dev-python/idna-2.0[${PYTHON_USEDEP}]
+	~dev-python/rfc3986-1.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

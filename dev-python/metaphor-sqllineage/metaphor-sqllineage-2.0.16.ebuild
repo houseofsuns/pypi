@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci cli docs"
-DEPENDENCIES="dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlparse-0.4.4[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.8[${PYTHON_USEDEP}]
 	ci? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	ci? ( dev-python/black[${PYTHON_USEDEP}] )
 	ci? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/sqlparse[${PYTHON_USEDEP}]
 	ci? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	ci? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	ci? ( dev-python/flake8-logging-format[${PYTHON_USEDEP}] )
-	ci? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	ci? ( dev-python/tox[${PYTHON_USEDEP}] )
@@ -43,6 +43,6 @@ DEPENDENCIES="dev-python/sqlparse[${PYTHON_USEDEP}]
 	cli? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
 	cli? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

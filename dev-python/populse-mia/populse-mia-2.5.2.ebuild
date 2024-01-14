@@ -41,8 +41,8 @@ DEPENDENCIES="dev-python/capsul[${PYTHON_USEDEP}]
 	dev-python/snakeviz[${PYTHON_USEDEP}]
 	dev-python/soma-base[${PYTHON_USEDEP}]
 	dev-python/soma-workflow[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.13[${PYTHON_USEDEP}]
 	dev-python/traits[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/sphinx-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

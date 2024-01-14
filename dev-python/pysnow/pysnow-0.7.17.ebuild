@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/oauthlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-magic-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/requests-oauthlib-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/six-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/ijson-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytz-2020.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

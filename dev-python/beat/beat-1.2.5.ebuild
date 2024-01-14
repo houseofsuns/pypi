@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="formatting"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
 	dev-python/pymc3[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/mpi4py[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
+	>=dev-python/mpi4py-3.1.3[${PYTHON_USEDEP}]
 	dev-python/pyrocko[${PYTHON_USEDEP}]
 	formatting? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	formatting? ( dev-python/black[${PYTHON_USEDEP}] )"

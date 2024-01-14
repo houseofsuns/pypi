@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tunnel"
-DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyserial-3.4[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	dev-python/pypubsub[${PYTHON_USEDEP}]
 	dev-python/dotmap[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
+	>=dev-python/pexpect-4.6.0[${PYTHON_USEDEP}]
 	dev-python/pyqrcode[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
 	dev-python/timeago[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/pygatt[${PYTHON_USEDEP}]

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
+	>=dev-python/click-8.0.1[${PYTHON_USEDEP}]
+	tests? ( ~dev-python/pytest-6.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

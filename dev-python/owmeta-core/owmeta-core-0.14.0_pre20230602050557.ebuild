@@ -29,13 +29,13 @@ DEPENDENCIES="dev-python/cachecontrol[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/pow-store-zodb[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	>=dev-python/rdflib-4.1.2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/six-1.10[${PYTHON_USEDEP}]
+	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.23[${PYTHON_USEDEP}]
 	dev-python/transaction[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	dev-python/zc-lockfile[${PYTHON_USEDEP}]
 	dev-python/zodb[${PYTHON_USEDEP}]
@@ -47,6 +47,6 @@ DEPENDENCIES="dev-python/cachecontrol[${PYTHON_USEDEP}]
 	postgres_source_pg8000? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	postgres_source_psycopg? ( dev-python/rdflib-sqlalchemy[${PYTHON_USEDEP}] )
 	postgres_source_psycopg? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	sftp? ( dev-python/paramiko[${PYTHON_USEDEP}] )"
+	sftp? ( >=dev-python/paramiko-1.5.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

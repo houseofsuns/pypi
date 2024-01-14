@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/mkdocs-material[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-1.1[${PYTHON_USEDEP}]
 	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/bs4[${PYTHON_USEDEP}] )

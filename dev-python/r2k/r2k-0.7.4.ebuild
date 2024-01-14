@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docker"
-DEPENDENCIES="docker? ( dev-python/docker[${PYTHON_USEDEP}] )
-	dev-python/feedparser[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="docker? ( <dev-python/docker-5.0.0[${PYTHON_USEDEP}] )
+	<dev-python/feedparser-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pick[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/cssselect[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]"
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/chardet-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/cssselect-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/arrow-0.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

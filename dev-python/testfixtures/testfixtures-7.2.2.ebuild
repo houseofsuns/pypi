@@ -31,15 +31,15 @@ DEPENDENCIES="build? ( dev-python/setuptools-git[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/zope-component[${PYTHON_USEDEP}] )
 	docs? ( dev-python/django[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sybil[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sybil-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/twisted[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
 	test? ( dev-python/zope-component[${PYTHON_USEDEP}] )
 	test? ( dev-python/django[${PYTHON_USEDEP}] )
-	test? ( dev-python/sybil[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/sybil-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/twisted[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

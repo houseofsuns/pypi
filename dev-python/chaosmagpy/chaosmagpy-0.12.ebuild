@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/Cython[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	dev-python/cdflib[${PYTHON_USEDEP}]
 	dev-python/hdf5storage[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

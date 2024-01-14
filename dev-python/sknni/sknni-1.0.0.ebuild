@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dist"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.1[${PYTHON_USEDEP}]
 	dist? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dist? ( dev-python/wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

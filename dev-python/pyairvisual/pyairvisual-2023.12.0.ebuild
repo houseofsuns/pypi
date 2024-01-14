@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/frozenlist[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	<dev-python/frozenlist-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.15.0[${PYTHON_USEDEP}]
 	dev-python/pysmb[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	>=dev-python/yarl-1.9.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

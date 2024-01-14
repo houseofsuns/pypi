@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	<dev-python/elasticsearch-8.0.0[${PYTHON_USEDEP}]
 	dev-python/datapackage[${PYTHON_USEDEP}]
 	dev-python/flask-jsonpify[${PYTHON_USEDEP}]
 	dev-python/demjson3[${PYTHON_USEDEP}]

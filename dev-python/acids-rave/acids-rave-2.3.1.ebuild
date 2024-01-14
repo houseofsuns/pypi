@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/absl-py-1.2.0[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/gin-config[${PYTHON_USEDEP}]
 	dev-python/GPUtil[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/udls[${PYTHON_USEDEP}]
 	dev-python/cached-conv[${PYTHON_USEDEP}]
 	dev-python/nn-tilde[${PYTHON_USEDEP}]
 	dev-python/torchaudio[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.2.2[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

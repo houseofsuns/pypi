@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	test? ( dev-python/html5lib[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-django-3.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/beautifulsoup4-4.8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/html5lib-0.999999999[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pythonpath[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

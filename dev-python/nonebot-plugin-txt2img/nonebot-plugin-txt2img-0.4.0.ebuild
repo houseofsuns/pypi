@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-send-anything-anywhere[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-localstore[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="dev doc"
 DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/weasyprint[${PYTHON_USEDEP}]
+	~dev-python/weasyprint-52.5[${PYTHON_USEDEP}]
 	dev-python/django-weasyprint[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )

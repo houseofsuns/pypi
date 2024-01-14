@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-bdd[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-4.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-bdd-3.0.0[${PYTHON_USEDEP}]
 	dev-python/allure-python-commons[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

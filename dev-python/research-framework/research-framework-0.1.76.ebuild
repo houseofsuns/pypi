@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.3.0[${PYTHON_USEDEP}]
+	~dev-python/pymongo-4.5.0[${PYTHON_USEDEP}]
+	~dev-python/google-api-python-client-2.97.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scikit-fuzzy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
@@ -39,8 +39,8 @@ DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]
 	dev-python/atpbar[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
+	~dev-python/rich-13.5.2[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

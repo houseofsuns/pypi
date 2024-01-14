@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="parser"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	parser? ( dev-python/lark[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/typing-extensions-4.7[${PYTHON_USEDEP}]
+	parser? ( ~dev-python/lark-1.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

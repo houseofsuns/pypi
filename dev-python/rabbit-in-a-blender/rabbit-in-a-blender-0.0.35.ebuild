@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
 	dev-python/connectorx[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-2.23.4[${PYTHON_USEDEP}]
 	dev-python/simple-ddl-parser[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.1.3[${PYTHON_USEDEP}]
+	>=dev-python/humanfriendly-10.0[${PYTHON_USEDEP}]
 	dev-python/jpype1[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/dash-table[${PYTHON_USEDEP}]

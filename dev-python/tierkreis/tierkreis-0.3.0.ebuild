@@ -27,25 +27,25 @@ IUSE="commontypes docker lint pydantic sc22-example telemetry test typecheck"
 DEPENDENCIES="dev-python/betterproto[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/grpclib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/keyrings-alt[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
+	<dev-python/graphviz-0.21[${PYTHON_USEDEP}]
+	~dev-python/keyring-23.2[${PYTHON_USEDEP}]
+	~dev-python/keyrings-alt-4.1[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/yachalk[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	commontypes? ( dev-python/pytket[${PYTHON_USEDEP}] )
-	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
+	docker? ( <dev-python/docker-6.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	lint? ( dev-python/tierkreis[${PYTHON_USEDEP}] )
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	sc22-example? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	pydantic? ( ~dev-python/pydantic-1.10[${PYTHON_USEDEP}] )
+	sc22-example? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
 	sc22-example? ( dev-python/pytket[${PYTHON_USEDEP}] )
 	telemetry? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
 	telemetry? ( dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-asyncio-0.17[${PYTHON_USEDEP}] )
 	test? ( dev-python/tierkreis[${PYTHON_USEDEP}] )
 	typecheck? ( dev-python/tierkreis-typecheck[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/icevision[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-21.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/keras-autodoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mkdocs-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mkdocs-material-6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pymdown-extensions-9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

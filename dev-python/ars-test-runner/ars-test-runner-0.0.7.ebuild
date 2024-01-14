@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/reasoner-validator[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-20.3.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/twine[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

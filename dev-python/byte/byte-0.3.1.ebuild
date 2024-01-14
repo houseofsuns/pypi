@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/arrow-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/six-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

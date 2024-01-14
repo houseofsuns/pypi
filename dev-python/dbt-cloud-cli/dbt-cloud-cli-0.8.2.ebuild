@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="demo lint test"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.10[${PYTHON_USEDEP}]
 	dev-python/mergedeep[${PYTHON_USEDEP}]
 	demo? ( dev-python/inquirer[${PYTHON_USEDEP}] )
 	demo? ( dev-python/art[${PYTHON_USEDEP}] )

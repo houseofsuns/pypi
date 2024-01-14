@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="logging storage"
-DEPENDENCIES="dev-python/uvicorn[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/uvicorn-0.20.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/cloudevents[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	<dev-python/six-2.0.0[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	<dev-python/async-timeout-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.14.0[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
 	dev-python/timing-asgi[${PYTHON_USEDEP}]
 	dev-python/tritonclient[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	storage? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	storage? ( dev-python/requests[${PYTHON_USEDEP}] )
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	storage? ( <dev-python/urllib3-2.0.0[${PYTHON_USEDEP}] )
+	storage? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	storage? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	storage? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	storage? ( dev-python/azure-storage-file-share[${PYTHON_USEDEP}] )
 	storage? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	storage? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	storage? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	logging? ( dev-python/asgi-logger[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

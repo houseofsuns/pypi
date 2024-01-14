@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/control[${PYTHON_USEDEP}]
 	dev-python/simpleeval[${PYTHON_USEDEP}]
-	notebook? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )"
+	notebook? ( ~dev-python/ipywidgets-7.7.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

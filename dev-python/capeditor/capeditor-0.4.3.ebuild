@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-xml[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0.1[${PYTHON_USEDEP}]
 	dev-python/wagtail-icon-chooser[${PYTHON_USEDEP}]
 	dev-python/adm-boundary-manager[${PYTHON_USEDEP}]
 	dev-python/wagtail-humanitarian-icons[${PYTHON_USEDEP}]

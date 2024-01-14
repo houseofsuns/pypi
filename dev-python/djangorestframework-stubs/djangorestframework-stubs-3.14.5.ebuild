@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="compatible-mypy coreapi markdown"
 DEPENDENCIES="dev-python/django-stubs[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.10.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
-	compatible-mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	compatible-mypy? ( ~dev-python/mypy-1.7.0[${PYTHON_USEDEP}] )
 	compatible-mypy? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	coreapi? ( dev-python/coreapi[${PYTHON_USEDEP}] )
 	markdown? ( dev-python/types-Markdown[${PYTHON_USEDEP}] )"

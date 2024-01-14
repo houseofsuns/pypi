@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
 	dev-python/mthree[${PYTHON_USEDEP}]
 	dev-python/pennylane[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]"
+	>=dev-python/networkx-2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

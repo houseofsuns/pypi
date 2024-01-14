@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/Docker[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-36.0.1[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/levatas-alira-licensing[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

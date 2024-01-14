@@ -27,22 +27,22 @@ IUSE="docs pre-commit tests"
 DEPENDENCIES="dev-python/aio-pika[${PYTHON_USEDEP}]
 	dev-python/kiwipy[${PYTHON_USEDEP}]
 	dev-python/nest_asyncio[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/ipython-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/pylint-2.12.2[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/ipykernel-6.12.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-asyncio-0.16.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-notebook[${PYTHON_USEDEP}] )
 	tests? ( dev-python/shortuuid[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

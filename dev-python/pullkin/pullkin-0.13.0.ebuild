@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/betterproto[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	~dev-python/cryptography-41.0.5[${PYTHON_USEDEP}]
 	dev-python/http-ece[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.25.1[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	dev-python/oscrypto[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]"
+	~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/ujson-5.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

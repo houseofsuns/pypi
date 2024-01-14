@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev"
-DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cython-0.29.6[${PYTHON_USEDEP}]
 	all? ( dev-python/cysignals[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cython[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/cython-0.29.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

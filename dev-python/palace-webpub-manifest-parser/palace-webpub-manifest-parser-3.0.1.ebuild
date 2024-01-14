@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/multipledispatch[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rfc3987[${PYTHON_USEDEP}]
-	dev-python/uritemplate[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
+	<dev-python/multipledispatch-0.7.0[${PYTHON_USEDEP}]
+	~dev-python/pyrsistent-0.18.1[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytz-2022.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/rfc3987-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/uritemplate-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

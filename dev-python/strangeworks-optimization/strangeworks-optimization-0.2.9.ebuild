@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/dimod[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<=dev-python/pydantic-2.4.0[${PYTHON_USEDEP}]
 	dev-python/strangeworks[${PYTHON_USEDEP}]
 	dev-python/strangeworks-core[${PYTHON_USEDEP}]
 	dev-python/jijmodeling[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
 	dev-python/strangeworks-optimization-models[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

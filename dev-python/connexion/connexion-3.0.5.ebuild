@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="flask swagger-ui uvicorn"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	flask? ( dev-python/a2wsgi[${PYTHON_USEDEP}] )
-	dev-python/asgiref[${PYTHON_USEDEP}]
-	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
+	flask? ( >=dev-python/a2wsgi-1.7[${PYTHON_USEDEP}] )
+	>=dev-python/asgiref-3.4[${PYTHON_USEDEP}]
+	flask? ( >=dev-python/flask-2.2[${PYTHON_USEDEP}] )
+	>=dev-python/httpx-0.23[${PYTHON_USEDEP}]
+	>=dev-python/inflection-0.3.1[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.0.1[${PYTHON_USEDEP}]
+	>=dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27[${PYTHON_USEDEP}]
+	<dev-python/starlette-0.33[${PYTHON_USEDEP}]
 	swagger-ui? ( dev-python/swagger-ui-bundle[${PYTHON_USEDEP}] )
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	uvicorn? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	dev-python/werkzeug[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
+	uvicorn? ( >=dev-python/uvicorn-0.17.6[${PYTHON_USEDEP}] )
+	>=dev-python/werkzeug-2.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

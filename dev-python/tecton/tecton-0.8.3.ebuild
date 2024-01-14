@@ -24,40 +24,40 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="athena databricks-connect databricks-connect10 databricks-connect11 databricks-connect9 materialization pyspark pyspark3 pyspark3-1 pyspark3-2 pyspark3-3 rift snowflake"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
+	~dev-python/googleapis-common-protos-1.52[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	~dev-python/pendulum-2.1[${PYTHON_USEDEP}]
 	dev-python/pex[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pypika[${PYTHON_USEDEP}]
 	dev-python/pytimeparse[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/texttable[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.41[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.1[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.7.4[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	~dev-python/click-8.0[${PYTHON_USEDEP}]
+	~dev-python/typeguard-2.0[${PYTHON_USEDEP}]
 	dev-python/sqlparse[${PYTHON_USEDEP}]
 	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-15.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.3[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	athena? ( dev-python/awswrangler[${PYTHON_USEDEP}] )
 	databricks-connect? ( dev-python/databricks-connect[${PYTHON_USEDEP}] )
 	databricks-connect10? ( dev-python/databricks-connect[${PYTHON_USEDEP}] )
 	databricks-connect11? ( dev-python/databricks-connect[${PYTHON_USEDEP}] )
 	databricks-connect9? ( dev-python/databricks-connect[${PYTHON_USEDEP}] )
-	materialization? ( dev-python/statsd[${PYTHON_USEDEP}] )
-	materialization? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	materialization? ( ~dev-python/statsd-3.3.0[${PYTHON_USEDEP}] )
+	materialization? ( <dev-python/urllib3-2.0.0[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	pyspark3? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	pyspark3-1? ( dev-python/pyspark[${PYTHON_USEDEP}] )

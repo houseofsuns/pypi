@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/faker[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/urllib3-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pytest-assume[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-xdist[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.18.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-xdist-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/filelock-4.0.0[${PYTHON_USEDEP}]
 	dev-python/jsonpath[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
+	<dev-python/pymysql-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pytest-html[${PYTHON_USEDEP}]
 	dev-python/allure-pytest[${PYTHON_USEDEP}]
 	dev-python/allure-python-commons[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
 	dev-python/haralyzer[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]"
+	<dev-python/deepdiff-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

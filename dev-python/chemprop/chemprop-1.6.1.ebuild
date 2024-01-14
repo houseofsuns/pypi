@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	dev-python/hyperopt[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.3[${PYTHON_USEDEP}]
 	dev-python/pandas-flavor[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-3.1.2[${PYTHON_USEDEP}]
 	dev-python/tensorboardX[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.45.0[${PYTHON_USEDEP}]
 	dev-python/typed-argument-parser[${PYTHON_USEDEP}]
 	dev-python/rdkit[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/parameterized-0.8.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

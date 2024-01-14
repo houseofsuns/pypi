@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/george[${PYTHON_USEDEP}]
 	dev-python/extinction[${PYTHON_USEDEP}]
 	dev-python/emcee[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-1.2.2[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

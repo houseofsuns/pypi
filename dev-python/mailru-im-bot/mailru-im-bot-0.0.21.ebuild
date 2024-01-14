@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cached-property[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cached-property-1.5.2[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	dev-python/expiringdict[${PYTHON_USEDEP}]
 	dev-python/gTTS[${PYTHON_USEDEP}]
 	dev-python/monotonic[${PYTHON_USEDEP}]
 	dev-python/python-baseconv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,21 +26,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/gabbi[${PYTHON_USEDEP}]
 	dev-python/gnocchiclient[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
-	dev-python/kombu[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-3.4.0[${PYTHON_USEDEP}]
+	>=dev-python/kombu-4.0.0[${PYTHON_USEDEP}]
 	dev-python/os-collect-config[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.36.0[${PYTHON_USEDEP}]
 	dev-python/oslo-messaging[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/python-cinderclient[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-cinderclient-3.3.0[${PYTHON_USEDEP}]
 	dev-python/python-heatclient[${PYTHON_USEDEP}]
-	dev-python/python-neutronclient[${PYTHON_USEDEP}]
-	dev-python/python-novaclient[${PYTHON_USEDEP}]
-	dev-python/python-swiftclient[${PYTHON_USEDEP}]
+	>=dev-python/python-neutronclient-6.7.0[${PYTHON_USEDEP}]
+	>=dev-python/python-novaclient-9.1.0[${PYTHON_USEDEP}]
+	>=dev-python/python-swiftclient-3.2.0[${PYTHON_USEDEP}]
 	dev-python/python-zaqarclient[${PYTHON_USEDEP}]
-	dev-python/tempest[${PYTHON_USEDEP}]
-	dev-python/testscenarios[${PYTHON_USEDEP}]
-	dev-python/testtools[${PYTHON_USEDEP}]"
+	>=dev-python/tempest-17.1.0[${PYTHON_USEDEP}]
+	>=dev-python/testscenarios-0.4[${PYTHON_USEDEP}]
+	>=dev-python/testtools-2.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

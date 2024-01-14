@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.3[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-3.0.1[${PYTHON_USEDEP}]
 	dev-python/richdem[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -40,6 +40,6 @@ DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/supersmoother[${PYTHON_USEDEP}]
 	dev-python/ipyleaflet[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]"
+	>=dev-python/ipywidgets-7.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

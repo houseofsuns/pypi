@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="munch pandas tenacity"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0[${PYTHON_USEDEP}]
+	<dev-python/requests-cache-0.6[${PYTHON_USEDEP}]
+	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	dev-python/lightstreamer-client-lib[${PYTHON_USEDEP}]
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	munch? ( dev-python/munch[${PYTHON_USEDEP}] )
-	tenacity? ( dev-python/tenacity[${PYTHON_USEDEP}] )"
+	pandas? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	munch? ( <dev-python/munch-3.0[${PYTHON_USEDEP}] )
+	tenacity? ( <dev-python/tenacity-9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

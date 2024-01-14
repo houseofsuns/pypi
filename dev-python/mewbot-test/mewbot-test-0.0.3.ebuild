@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/mewbot-core[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/pytest-xdist[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]"
+	~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

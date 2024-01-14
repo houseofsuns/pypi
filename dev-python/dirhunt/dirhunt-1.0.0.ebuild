@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/requests-mock[${PYTHON_USEDEP}]
 	dev-python/google[${PYTHON_USEDEP}]
 	dev-python/proxy-db[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]"
+	>=dev-python/greenlet-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/aie-ipyleaflet[${PYTHON_USEDEP}]
 	engine? ( dev-python/aiearth-core[${PYTHON_USEDEP}] )
 	engine? ( dev-python/aie-ipyleaflet[${PYTHON_USEDEP}] )
 	engine? ( dev-python/aiearth-engine[${PYTHON_USEDEP}] )
-	engine? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	engine? ( <dev-python/notebook-7.0[${PYTHON_USEDEP}] )
 	engine? ( dev-python/aie-sdk[${PYTHON_USEDEP}] )
 	openapi? ( dev-python/aiearth-openapi[${PYTHON_USEDEP}] )
 	openapi? ( dev-python/alibabacloud-aiearth-engine20220609[${PYTHON_USEDEP}] )"

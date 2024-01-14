@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/absl-py-2.0.0[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/azure-cognitiveservices-vision-computervision[${PYTHON_USEDEP}]
 	dev-python/diffusers[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pytesseract[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytesseract-0.4.0[${PYTHON_USEDEP}]
 	dev-python/replicate[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

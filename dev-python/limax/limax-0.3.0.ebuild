@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="development"
 DEPENDENCIES="dev-python/depinfo[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.5.1[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.11.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	development? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	development? ( dev-python/black[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	development? ( dev-python/isort[${PYTHON_USEDEP}] )
-	development? ( dev-python/tox[${PYTHON_USEDEP}] )
-	development? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/tox-3.24.3[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	development? ( dev-python/flake8-mypy[${PYTHON_USEDEP}] )
-	development? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	development? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	development? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	development? ( >=dev-python/mypy-0.931[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

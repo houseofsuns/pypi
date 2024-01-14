@@ -28,16 +28,16 @@ DEPENDENCIES="dev-python/gmpy2[${PYTHON_USEDEP}]
 	dev-python/gradio[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
 	dev-python/Keras-Preprocessing[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/setuptools-65.7.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]
 	dev-python/music21[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	~dev-python/future-0.18.2[${PYTHON_USEDEP}]
 	dev-python/customtkinter[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]"
+	~dev-python/pillow-9.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/argshell[${PYTHON_USEDEP}]
 	dev-python/pathier[${PYTHON_USEDEP}]
 	dev-python/pdoc[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.2.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/twine[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"

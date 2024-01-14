@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/graph-scheduler[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/skl2onnx[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-21.1.0[${PYTHON_USEDEP}]
 	dev-python/cattrs[${PYTHON_USEDEP}]
 	dev-python/modelspec[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/graph-scheduler[${PYTHON_USEDEP}]
 	neuroml? ( dev-python/neuromllite[${PYTHON_USEDEP}] )
 	neuroml? ( dev-python/PyNN[${PYTHON_USEDEP}] )
 	optional? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	optional? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/recommonmark-0.5.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	optional? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	optional? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/graph-scheduler[${PYTHON_USEDEP}]
 	optional? ( dev-python/torch[${PYTHON_USEDEP}] )
 	optional? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	optional? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	psyneulink? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
+	psyneulink? ( ~dev-python/grpcio-tools-1.42.0[${PYTHON_USEDEP}] )
 	psyneulink? ( dev-python/psyneulink[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/keras-visualizer[${PYTHON_USEDEP}] )

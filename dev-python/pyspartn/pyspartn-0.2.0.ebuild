@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy test"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-39.0.2[${PYTHON_USEDEP}]
 	deploy? ( dev-python/build[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/pip[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	deploy? ( >=dev-python/setuptools-66.0[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )

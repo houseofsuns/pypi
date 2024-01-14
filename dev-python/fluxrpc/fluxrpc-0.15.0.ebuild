@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gevent httpclient msgpack rabbitmq socket websocket wsgi zmq"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	socket? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/six-2.0.0[${PYTHON_USEDEP}]
+	socket? ( <dev-python/pymongo-5.0.0[${PYTHON_USEDEP}] )
 	gevent? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	httpclient? ( dev-python/gevent-websocket[${PYTHON_USEDEP}] )
 	websocket? ( dev-python/gevent-websocket[${PYTHON_USEDEP}] )
-	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	rabbitmq? ( dev-python/pika[${PYTHON_USEDEP}] )
-	zmq? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
+	msgpack? ( <dev-python/msgpack-2.0.0[${PYTHON_USEDEP}] )
+	rabbitmq? ( <dev-python/pika-2.0.0[${PYTHON_USEDEP}] )
+	zmq? ( <dev-python/pyzmq-23.0.0[${PYTHON_USEDEP}] )
 	socket? ( dev-python/pycryptodomex[${PYTHON_USEDEP}] )
 	socket? ( dev-python/python-bitcoinlib[${PYTHON_USEDEP}] )
-	httpclient? ( dev-python/requests[${PYTHON_USEDEP}] )
-	wsgi? ( dev-python/werkzeug[${PYTHON_USEDEP}] )"
+	httpclient? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	wsgi? ( <dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/async-interrupt[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
 	dev-python/bleak[${PYTHON_USEDEP}]
 	dev-python/bleak-retry-connector[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-38.0.0[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

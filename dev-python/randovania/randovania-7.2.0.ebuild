@@ -29,13 +29,13 @@ DEPENDENCIES="dev-python/construct[${PYTHON_USEDEP}]
 	dev-python/bitstruct[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-7.0.0[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-21.4.0[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
-	dev-python/dulwich[${PYTHON_USEDEP}]
+	>=dev-python/dulwich-0.20[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/htmlmin[${PYTHON_USEDEP}]
 	exporters? ( dev-python/am2r-yams[${PYTHON_USEDEP}] )
@@ -55,11 +55,11 @@ DEPENDENCIES="dev-python/construct[${PYTHON_USEDEP}]
 	gui? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	gui? ( dev-python/qasync[${PYTHON_USEDEP}] )
 	gui? ( dev-python/appdirs[${PYTHON_USEDEP}] )
-	gui? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	gui? ( dev-python/nod[${PYTHON_USEDEP}] )
 	gui? ( dev-python/async-wiiload[${PYTHON_USEDEP}] )
 	gui? ( dev-python/dolphin-memory-engine[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pid[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/pid-3.0.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	server? ( dev-python/flask-discord[${PYTHON_USEDEP}] )
 	server? ( dev-python/flask-socketio[${PYTHON_USEDEP}] )

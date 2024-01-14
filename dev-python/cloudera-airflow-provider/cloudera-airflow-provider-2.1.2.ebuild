@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/apache-airflow-providers-apache-hive[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.3.2[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/cloudera-cde-sdk[${PYTHON_USEDEP}]"

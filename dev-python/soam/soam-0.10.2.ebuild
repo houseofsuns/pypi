@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev gsheets_report mlflow orbit pdf_report prophet report slack statsmodels test"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	dev-python/Cython[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
 	dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
@@ -35,21 +35,21 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/muttlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	all? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	all? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	all? ( <dev-python/docutils-0.17[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mypy-0.782[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pylint-2.4.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/nox[${PYTHON_USEDEP}] )
 	all? ( dev-python/interrogate[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -69,24 +69,24 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	all? ( dev-python/holidays[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	all? ( dev-python/papermill[${PYTHON_USEDEP}] )
-	all? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/nbconvert-5.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/gspread-pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/muttlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	all? ( <dev-python/statsmodels-0.12[${PYTHON_USEDEP}] )
 	all? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/docutils-0.17[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.782[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.4.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
 	gsheets_report? ( dev-python/gspread-pandas[${PYTHON_USEDEP}] )
 	gsheets_report? ( dev-python/muttlib[${PYTHON_USEDEP}] )
@@ -94,18 +94,18 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	orbit? ( dev-python/orbit-ml[${PYTHON_USEDEP}] )
 	pdf_report? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	pdf_report? ( dev-python/papermill[${PYTHON_USEDEP}] )
-	pdf_report? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	pdf_report? ( ~dev-python/nbconvert-5.6[${PYTHON_USEDEP}] )
 	prophet? ( dev-python/pystan[${PYTHON_USEDEP}] )
 	prophet? ( dev-python/prophet[${PYTHON_USEDEP}] )
 	prophet? ( dev-python/holidays[${PYTHON_USEDEP}] )
 	report? ( dev-python/slackclient[${PYTHON_USEDEP}] )
 	report? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	report? ( dev-python/papermill[${PYTHON_USEDEP}] )
-	report? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	report? ( ~dev-python/nbconvert-5.6[${PYTHON_USEDEP}] )
 	report? ( dev-python/gspread-pandas[${PYTHON_USEDEP}] )
 	report? ( dev-python/muttlib[${PYTHON_USEDEP}] )
 	slack? ( dev-python/slackclient[${PYTHON_USEDEP}] )
-	statsmodels? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	statsmodels? ( <dev-python/statsmodels-0.12[${PYTHON_USEDEP}] )
 	test? ( dev-python/interrogate[${PYTHON_USEDEP}] )
 	test? ( dev-python/nox[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

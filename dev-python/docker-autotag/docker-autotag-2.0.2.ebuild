@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/python-json-logger-2.0.7[${PYTHON_USEDEP}]
+	~dev-python/semantic-version-2.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

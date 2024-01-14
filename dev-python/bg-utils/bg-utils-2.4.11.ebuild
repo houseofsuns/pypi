@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/brewtils[${PYTHON_USEDEP}]
 	dev-python/mongoengine[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/thriftpy2[${PYTHON_USEDEP}]
+	<dev-python/passlib-1.8[${PYTHON_USEDEP}]
+	<dev-python/pytz-2019.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}]
+	<dev-python/thriftpy2-0.5[${PYTHON_USEDEP}]
 	dev-python/yapconf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

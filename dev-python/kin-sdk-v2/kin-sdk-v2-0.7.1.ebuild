@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/grpcio-1.34.1[${PYTHON_USEDEP}]
 	dev-python/agora-api[${PYTHON_USEDEP}]
 	dev-python/kin-base[${PYTHON_USEDEP}]
 	dev-python/pure25519[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
+	~dev-python/pynacl-1.4.0[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/ed25519[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

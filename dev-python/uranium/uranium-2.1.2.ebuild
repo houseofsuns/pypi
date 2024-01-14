@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
+	~dev-python/deepmerge-0.0.4[${PYTHON_USEDEP}]
+	~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
+	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
+	>=dev-python/pip-19.2.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-41.2.0[${PYTHON_USEDEP}]
+	~dev-python/virtualenv-16.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

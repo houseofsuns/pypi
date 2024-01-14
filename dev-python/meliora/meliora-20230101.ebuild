@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="spark test"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scipy-1.9.3[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-formatter_junit_xml[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.15.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint_junit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-mock-3.10.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-github-actions-annotate-failures[${PYTHON_USEDEP}] )
 	test? ( dev-python/shellcheck-py[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

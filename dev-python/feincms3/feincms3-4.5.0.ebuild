@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all tests"
-DEPENDENCIES="dev-python/asgiref[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asgiref-3.6[${PYTHON_USEDEP}]
 	dev-python/django-content-editor[${PYTHON_USEDEP}]
-	dev-python/django-js-asset[${PYTHON_USEDEP}]
+	>=dev-python/django-js-asset-2.0[${PYTHON_USEDEP}]
 	dev-python/django-tree-queries[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]
 	all? ( dev-python/django-imagefield[${PYTHON_USEDEP}] )
 	all? ( dev-python/html-sanitizer[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )

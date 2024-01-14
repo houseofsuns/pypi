@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="format format-nongpl"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/jsonschema-specifications[${PYTHON_USEDEP}]
-	dev-python/referencing[${PYTHON_USEDEP}]
-	dev-python/rpds-py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-specifications-2023.3.6[${PYTHON_USEDEP}]
+	>=dev-python/referencing-0.28.4[${PYTHON_USEDEP}]
+	>=dev-python/rpds-py-0.7.1[${PYTHON_USEDEP}]
 	format? ( dev-python/fqdn[${PYTHON_USEDEP}] )
 	format? ( dev-python/idna[${PYTHON_USEDEP}] )
 	format? ( dev-python/isoduration[${PYTHON_USEDEP}] )
-	format? ( dev-python/jsonpointer[${PYTHON_USEDEP}] )
+	format? ( >dev-python/jsonpointer-1.13[${PYTHON_USEDEP}] )
 	format? ( dev-python/rfc3339-validator[${PYTHON_USEDEP}] )
 	format? ( dev-python/rfc3987[${PYTHON_USEDEP}] )
 	format? ( dev-python/uri-template[${PYTHON_USEDEP}] )
-	format? ( dev-python/webcolors[${PYTHON_USEDEP}] )
+	format? ( >=dev-python/webcolors-1.11[${PYTHON_USEDEP}] )
 	format-nongpl? ( dev-python/fqdn[${PYTHON_USEDEP}] )
 	format-nongpl? ( dev-python/idna[${PYTHON_USEDEP}] )
 	format-nongpl? ( dev-python/isoduration[${PYTHON_USEDEP}] )
-	format-nongpl? ( dev-python/jsonpointer[${PYTHON_USEDEP}] )
+	format-nongpl? ( >dev-python/jsonpointer-1.13[${PYTHON_USEDEP}] )
 	format-nongpl? ( dev-python/rfc3339-validator[${PYTHON_USEDEP}] )
-	format-nongpl? ( dev-python/rfc3986-validator[${PYTHON_USEDEP}] )
+	format-nongpl? ( >dev-python/rfc3986-validator-0.1.0[${PYTHON_USEDEP}] )
 	format-nongpl? ( dev-python/uri-template[${PYTHON_USEDEP}] )
-	format-nongpl? ( dev-python/webcolors[${PYTHON_USEDEP}] )"
+	format-nongpl? ( >=dev-python/webcolors-1.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

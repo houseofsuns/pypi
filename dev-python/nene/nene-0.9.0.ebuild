@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jupyter"
-DEPENDENCIES="dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	dev-python/mdit-py-plugins[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/markdown-it-py-2.0[${PYTHON_USEDEP}]
+	>=dev-python/mdit-py-plugins-0.3[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/livereload[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
+	>=dev-python/livereload-2.6[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.9[${PYTHON_USEDEP}]
 	jupyter? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/nbconvert[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

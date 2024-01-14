@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.1[${PYTHON_USEDEP}]
 	dev-python/obspy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.52[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/bottleneck[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9[${PYTHON_USEDEP}]
+	>=dev-python/nest-asyncio-1.5.3[${PYTHON_USEDEP}]
+	>=dev-python/bottleneck-1.3[${PYTHON_USEDEP}]
 	development? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	development? ( dev-python/black[${PYTHON_USEDEP}] )
 	development? ( dev-python/isort[${PYTHON_USEDEP}] )

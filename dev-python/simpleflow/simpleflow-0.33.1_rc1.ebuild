@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.28.20[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]
+	>=dev-python/diskcache-4.1.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/multiprocess[${PYTHON_USEDEP}]
+	>=dev-python/multiprocess-0.70.14[${PYTHON_USEDEP}]
 	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
-	dev-python/lockfile[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/lockfile-0.9.1[${PYTHON_USEDEP}]
+	<dev-python/tabulate-1.0.0[${PYTHON_USEDEP}]
 	dev-python/setproctitle[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
@@ -42,11 +42,11 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/moto-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-xdist-3.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

@@ -24,33 +24,33 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark docs examples tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]
-	benchmark? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/pandas[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.19.1[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.14[${PYTHON_USEDEP}]
+	>=dev-python/threadpoolctl-2.0.0[${PYTHON_USEDEP}]
+	benchmark? ( >=dev-python/matplotlib-2.1.1[${PYTHON_USEDEP}] )
+	benchmark? ( >=dev-python/pandas-0.25.0[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/matplotlib-2.1.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	docs? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pandas-0.25.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-gallery-0.7.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/matplotlib-2.1.1[${PYTHON_USEDEP}] )
 	examples? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	examples? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	examples? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/pandas-0.25.0[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/matplotlib-2.1.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyamg[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pandas-0.25.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-5.0.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flake8-3.8.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mypy-0.770[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pyamg-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

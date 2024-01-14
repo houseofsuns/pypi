@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/ShopifyAPI[${PYTHON_USEDEP}]
 	dev-python/singer-python[${PYTHON_USEDEP}]
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.7.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-2.20.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nose[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

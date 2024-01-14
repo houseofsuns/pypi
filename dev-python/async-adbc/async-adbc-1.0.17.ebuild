@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/async-lru[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/async-lru-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

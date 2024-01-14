@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="flask"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.27.0[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
+	<dev-python/email-validator-3.0[${PYTHON_USEDEP}]
 	dev-python/liccheck[${PYTHON_USEDEP}]
 	flask? ( dev-python/Flask[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

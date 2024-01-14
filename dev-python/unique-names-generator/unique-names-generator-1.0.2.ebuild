@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/coverage-5.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipython-7.14.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

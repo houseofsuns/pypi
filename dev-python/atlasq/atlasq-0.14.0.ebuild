@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/mongoengine[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	>=dev-python/requests-2.18.0[${PYTHON_USEDEP}]
+	test? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.17.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tox-4.6.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox-gh-actions[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-7.2.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/mongomock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

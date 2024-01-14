@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs"
 DEPENDENCIES="dev-python/ape-alchemy[${PYTHON_USEDEP}]
 	dev-python/ape-etherscan[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/eth-ape[${PYTHON_USEDEP}]
 	dev-python/ape-hardhat[${PYTHON_USEDEP}]
 	dev-python/python-box[${PYTHON_USEDEP}]

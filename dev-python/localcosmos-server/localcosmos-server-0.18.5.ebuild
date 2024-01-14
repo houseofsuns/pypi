@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-4.1[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-simplejwt[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-camel-case[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]
@@ -36,10 +36,10 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/django-el-pagination[${PYTHON_USEDEP}]
 	dev-python/django-octicons[${PYTHON_USEDEP}]
 	dev-python/django-countries[${PYTHON_USEDEP}]
-	dev-python/django-cors-headers[${PYTHON_USEDEP}]
+	~dev-python/django-cors-headers-3.13.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/django-taggit[${PYTHON_USEDEP}]
+	~dev-python/django-taggit-3.1.0[${PYTHON_USEDEP}]
 	dev-python/django-road[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

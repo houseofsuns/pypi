@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/pandas-0.17.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.12.1[${PYTHON_USEDEP}]
+	testing? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-3.25.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

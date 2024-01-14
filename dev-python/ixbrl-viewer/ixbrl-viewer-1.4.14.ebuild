@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="arelle dev"
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/lxml-6.0[${PYTHON_USEDEP}]
+	<dev-python/pycountry-24.0[${PYTHON_USEDEP}]
 	arelle? ( dev-python/arelle-release[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lxml-stubs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

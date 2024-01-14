@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="art-plugin test yaml-plugin"
-DEPENDENCIES="dev-python/filetype[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
-	yaml-plugin? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/filetype-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/deprecation-3.0.0[${PYTHON_USEDEP}]
+	yaml-plugin? ( <dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}] )
 	art-plugin? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	art-plugin? ( dev-python/pylast[${PYTHON_USEDEP}] )
-	art-plugin? ( dev-python/requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev-python/coverage[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
+	art-plugin? ( <dev-python/pylast-5.0.0[${PYTHON_USEDEP}] )
+	art-plugin? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	<dev-python/coverage-6.0.0[${PYTHON_USEDEP}]
+	test? ( <dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/tox-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

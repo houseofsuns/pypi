@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/autoreduce-db[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	~dev-python/plotly-5.3.1[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	dev-python/stomp-py[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	~dev-python/docker-5.0.3[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/wizlib[${PYTHON_USEDEP}]
 	dev-python/punkeditor[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/reportlab[${PYTHON_USEDEP}]"
+	<dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/reportlab-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

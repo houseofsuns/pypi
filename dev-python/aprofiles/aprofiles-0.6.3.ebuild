@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli docs"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/miepython[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/xarray-2024.0.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pydata-sphinx-theme-0.9.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/recommonmark-0.8.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/dask-2023.0.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

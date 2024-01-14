@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-1.1.0[${PYTHON_USEDEP}]
 	dev-python/pyodbc[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	>=dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

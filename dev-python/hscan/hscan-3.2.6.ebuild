@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
+	~dev-python/aiofiles-0.7.0[${PYTHON_USEDEP}]
 	dev-python/aio-pika[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]
 	dev-python/aioredis[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.12.0[${PYTHON_USEDEP}]
+	~dev-python/chardet-4.0.0[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/aiokafka[${PYTHON_USEDEP}]
 	dev-python/oss2[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.28.29[${PYTHON_USEDEP}]
 	dev-python/aioboto3[${PYTHON_USEDEP}]
 	dev-python/aiomysql[${PYTHON_USEDEP}]
 	dev-python/curl-cffi[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]"
+	~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

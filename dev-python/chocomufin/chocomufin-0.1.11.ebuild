@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Unidecode[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.0[${PYTHON_USEDEP}]
 	dev-python/mufidecode[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	~dev-python/regex-2022.4.24[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.61.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

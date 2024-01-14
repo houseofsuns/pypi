@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/carehare[${PYTHON_USEDEP}]
 	dev-python/channels[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]"
+	<dev-python/msgpack-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

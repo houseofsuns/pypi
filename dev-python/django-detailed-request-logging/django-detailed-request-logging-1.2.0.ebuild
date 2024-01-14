@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="stubs test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.12[${PYTHON_USEDEP}]
 	stubs? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	stubs? ( dev-python/djangorestframework-stubs[${PYTHON_USEDEP}] )
 	test? ( dev-python/assertpy[${PYTHON_USEDEP}] )

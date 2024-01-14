@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cryptography-36.0.2[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
 	dev-python/multiversx-sdk-core[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]"
+	~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

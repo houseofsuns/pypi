@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-tenants[${PYTHON_USEDEP}]
 	dev-python/tenant-schemas-celery[${PYTHON_USEDEP}]
 	dev-python/django-celery-beat[${PYTHON_USEDEP}]
-	dev-python/django-timezone-field[${PYTHON_USEDEP}]"
+	>=dev-python/django-timezone-field-4.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

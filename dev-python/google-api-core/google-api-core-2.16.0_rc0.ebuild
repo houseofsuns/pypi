@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="grpc grpcgcp grpcio-gcp"
-DEPENDENCIES="dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/googleapis-common-protos-2.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	<dev-python/google-auth-3.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	grpc? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
-	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	grpc? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	grpcgcp? ( dev-python/grpcio-gcp[${PYTHON_USEDEP}] )
 	grpcio-gcp? ( dev-python/grpcio-gcp[${PYTHON_USEDEP}] )"

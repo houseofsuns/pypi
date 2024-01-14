@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/Owlready2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]"
+	~dev-python/pyparsing-2.4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

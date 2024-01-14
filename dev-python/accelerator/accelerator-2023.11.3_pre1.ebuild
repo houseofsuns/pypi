@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setproctitle[${PYTHON_USEDEP}]
-	dev-python/bottle[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/setproctitle-1.1.8[${PYTHON_USEDEP}]
+	<dev-python/bottle-0.13[${PYTHON_USEDEP}]
+	>=dev-python/waitress-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pep257 test"
-DEPENDENCIES="dev-python/flake8[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flake8-6.1.0[${PYTHON_USEDEP}]
 	pep257? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/ddt[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/ddt-1.2.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/eventlet[${PYTHON_USEDEP}] )
-	test? ( dev-python/fixtures[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/fixtures-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
-	test? ( dev-python/testscenarios[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/stestr-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testscenarios-0.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testtools-2.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

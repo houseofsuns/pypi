@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev rest"
 DEPENDENCIES="dev-python/pyasn1[${PYTHON_USEDEP}]
 	dev-python/pyasn1-alt-modules[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-39.0[${PYTHON_USEDEP}]
 	dev-python/iso3166[${PYTHON_USEDEP}]
 	dev-python/validators[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/publicsuffixlist[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/httpx-1.0[${PYTHON_USEDEP}] )
 	rest? ( dev-python/fastapi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

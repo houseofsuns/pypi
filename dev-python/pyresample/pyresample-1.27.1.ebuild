@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cf dask gradient_search numexpr quicklook rasterio tests xarray_bilinear"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-3.2[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-3.0[${PYTHON_USEDEP}]
 	dev-python/configobj[${PYTHON_USEDEP}]
 	dev-python/pykdtree[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
 	cf? ( dev-python/xarray[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( >=dev-python/dask-0.16.1[${PYTHON_USEDEP}] )
 	gradient_search? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	numexpr? ( dev-python/numexpr[${PYTHON_USEDEP}] )
 	quicklook? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

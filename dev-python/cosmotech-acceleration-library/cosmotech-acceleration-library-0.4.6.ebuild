@@ -29,18 +29,18 @@ DEPENDENCIES="dev-python/azure-functions[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	dev-python/azure-kusto-data[${PYTHON_USEDEP}]
 	dev-python/azure-kusto-ingest[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/redis-4.4.4[${PYTHON_USEDEP}]
 	dev-python/redisgraph-bulk-loader[${PYTHON_USEDEP}]
 	dev-python/cosmotech-api[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.1.2[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	doc? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocs-material-9.4.8[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pymdown-extensions-10.3.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/requirements-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mike[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

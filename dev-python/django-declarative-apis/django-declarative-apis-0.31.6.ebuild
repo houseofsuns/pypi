@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.0[${PYTHON_USEDEP}]
+	~dev-python/decorator-4.0.11[${PYTHON_USEDEP}]
 	dev-python/django-dirtyfields[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	>=dev-python/oauthlib-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.8[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-6.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipython-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/oauth2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tblib[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tblib-1.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

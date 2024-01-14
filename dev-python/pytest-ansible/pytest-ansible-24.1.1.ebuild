@@ -25,35 +25,35 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs lock test"
 DEPENDENCIES="dev-python/ansible-core[${PYTHON_USEDEP}]
-	dev-python/ansible-compat[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/ansible-compat-4.1.11[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	docs? ( dev-python/mkdocs-ansible[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
-	lock? ( dev-python/ansible-compat[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-ansible-0.2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pipdeptree-2.7.1[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/ansible-compat-4.1.11[${PYTHON_USEDEP}] )
 	lock? ( dev-python/ansible-core[${PYTHON_USEDEP}] )
-	lock? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	lock? ( dev-python/cffi[${PYTHON_USEDEP}] )
-	lock? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	lock? ( dev-python/exceptiongroup[${PYTHON_USEDEP}] )
-	lock? ( dev-python/iniconfig[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/attrs-23.2.0[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/cffi-1.16.0[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	lock? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	lock? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	lock? ( dev-python/jsonschema-specifications[${PYTHON_USEDEP}] )
-	lock? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
-	lock? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	lock? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	lock? ( dev-python/pycparser[${PYTHON_USEDEP}] )
-	lock? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	lock? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	lock? ( dev-python/referencing[${PYTHON_USEDEP}] )
-	lock? ( dev-python/resolvelib[${PYTHON_USEDEP}] )
-	lock? ( dev-python/rpds-py[${PYTHON_USEDEP}] )
-	lock? ( dev-python/subprocess-tee[${PYTHON_USEDEP}] )
-	lock? ( dev-python/tomli[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/jsonschema-specifications-2023.12.1[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/packaging-23.2[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/pluggy-1.3.0[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/pycparser-2.21[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/referencing-0.32.1[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/resolvelib-1.0.1[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/rpds-py-0.16.2[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/subprocess-tee-0.4.1[${PYTHON_USEDEP}] )
+	lock? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/ansible-core[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/molecule[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-plus[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-plus-0.6.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

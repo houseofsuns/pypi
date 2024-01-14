@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-42.0[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/scikit-build[${PYTHON_USEDEP}]
+	>=dev-python/scikit-build-0.12[${PYTHON_USEDEP}]
 	dev-python/cmake[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

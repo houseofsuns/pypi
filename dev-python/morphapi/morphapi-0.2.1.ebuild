@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/bg-atlasapi[${PYTHON_USEDEP}]
 	dev-python/neurom[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/vedo[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/bg-atlasapi[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
 	dev? ( dev-python/allensdk[${PYTHON_USEDEP}] )
 	nb? ( dev-python/jupyter[${PYTHON_USEDEP}] )

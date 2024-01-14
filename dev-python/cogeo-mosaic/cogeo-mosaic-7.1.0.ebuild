@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/morecantile[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/rio-tiler[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	<dev-python/shapely-3.0[${PYTHON_USEDEP}]
 	dev-python/supermorecado[${PYTHON_USEDEP}]
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	az? ( dev-python/azure-identity[${PYTHON_USEDEP}] )

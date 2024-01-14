@@ -27,10 +27,10 @@ IUSE="tests"
 DEPENDENCIES="dev-python/Flask-Caching[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/redis[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/redis-2.10.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-mock-1.6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-accounts[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

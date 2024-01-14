@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gkeepapi[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
+	<dev-python/docopt-0.7.0[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/semantic-version-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-11.0.0[${PYTHON_USEDEP}]
+	<dev-python/PyGithub-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/unicode-slugify[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/recordclass[${PYTHON_USEDEP}]"

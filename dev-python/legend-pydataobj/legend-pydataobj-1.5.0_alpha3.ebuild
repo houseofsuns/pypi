@@ -27,12 +27,12 @@ IUSE="all docs test"
 DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
 	dev-python/awkward-pandas[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.2[${PYTHON_USEDEP}]
 	dev-python/hdf5plugin[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/numexpr[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.4[${PYTHON_USEDEP}]
 	dev-python/parse[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/pint-pandas[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylegendtestdata[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

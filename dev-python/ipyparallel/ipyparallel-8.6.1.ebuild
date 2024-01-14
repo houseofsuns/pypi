@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="benchmark labextension nbext retroextension serverextension test"
 DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/entrypoints[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-4.4[${PYTHON_USEDEP}]
+	>=dev-python/ipython-4.0[${PYTHON_USEDEP}]
 	dev-python/jupyter-client[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.1[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-18.0[${PYTHON_USEDEP}]
+	>=dev-python/tornado-5.1[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-4.3[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/asv[${PYTHON_USEDEP}] )
 	labextension? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
-	labextension? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	labextension? ( >=dev-python/jupyterlab-3.0[${PYTHON_USEDEP}] )
 	nbext? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
 	nbext? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	retroextension? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )

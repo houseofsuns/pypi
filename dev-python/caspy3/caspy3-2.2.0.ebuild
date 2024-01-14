@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/PyQtWebEngine[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/PyQt5-5.15.0[${PYTHON_USEDEP}]
+	>=dev-python/PyQtWebEngine-5.15.0[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/pyperclip-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.1[${PYTHON_USEDEP}]
 	dev-python/colored[${PYTHON_USEDEP}]
-	dev-python/qtconsole[${PYTHON_USEDEP}]"
+	>=dev-python/qtconsole-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,26 +26,26 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ci dev lint readthedocs test"
 DEPENDENCIES="dev-python/prawcore[${PYTHON_USEDEP}]
 	dev-python/update-checker[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-0.54.0[${PYTHON_USEDEP}]
 	ci? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/betamax[${PYTHON_USEDEP}] )
-	dev? ( dev-python/betamax-matchers[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/betamax-0.9[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/betamax-matchers-0.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-2.7.3[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/urllib3-1.26[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	lint? ( dev-python/furo[${PYTHON_USEDEP}] )
 	lint? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	readthedocs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	readthedocs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/betamax[${PYTHON_USEDEP}] )
-	test? ( dev-python/betamax-matchers[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/urllib3[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/betamax-0.9[${PYTHON_USEDEP}] )
+	test? ( <dev-python/betamax-matchers-0.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-2.7.3[${PYTHON_USEDEP}] )
+	test? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/urllib3-1.26[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

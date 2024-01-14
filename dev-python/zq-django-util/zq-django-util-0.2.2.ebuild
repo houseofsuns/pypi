@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/oss2[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-simplejwt[${PYTHON_USEDEP}]
 	dev-python/drf-standardized-errors[${PYTHON_USEDEP}]
 	dev-python/django-cleanup[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]"
+	<dev-python/isodate-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

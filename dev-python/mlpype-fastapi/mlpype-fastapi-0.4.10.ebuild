@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev strict"
 DEPENDENCIES="dev-python/mlpype-base[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
+	<dev-python/anyio-4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/mlpype-base[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/anyio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/anyio-4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/uvicorn-0.18.2[${PYTHON_USEDEP}] )
 	strict? ( dev-python/mlpype-base[${PYTHON_USEDEP}] )
 	strict? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	strict? ( dev-python/anyio[${PYTHON_USEDEP}] )"
+	strict? ( <dev-python/anyio-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

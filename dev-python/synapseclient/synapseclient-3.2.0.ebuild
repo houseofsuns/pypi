@@ -24,33 +24,33 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="boto3 dev docs pandas pysftp tests"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	<dev-python/keyring-23.5[${PYTHON_USEDEP}]
+	<dev-python/deprecated-2.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-http[${PYTHON_USEDEP}]
-	dev-python/keyrings-alt[${PYTHON_USEDEP}]
-	boto3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
+	~dev-python/keyrings-alt-3.1[${PYTHON_USEDEP}]
+	boto3? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-xdist-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-rerunfailures-12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/func-timeout[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-argparse-0.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	pandas? ( <dev-python/pandas-2.1[${PYTHON_USEDEP}] )
 	pysftp? ( dev-python/pysftp[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-xdist-3.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-rerunfailures-12.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/func-timeout[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

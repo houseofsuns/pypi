@@ -28,13 +28,13 @@ DEPENDENCIES="dev-python/pymatgen[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ipython-8.16.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-argparse-0.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	featurizer? ( dev-python/mendeleev[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )

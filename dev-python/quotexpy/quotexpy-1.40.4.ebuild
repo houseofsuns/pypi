@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
+	>=dev-python/greenlet-2.0.1[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+	>=dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-2.0.5[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-1.6.3[${PYTHON_USEDEP}]
+	>=dev-python/websockets-11.0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

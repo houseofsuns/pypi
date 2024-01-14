@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.26[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.6[${PYTHON_USEDEP}]
+	>=dev-python/semver-2.10.0[${PYTHON_USEDEP}]
 	dev-python/restfly[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/marshmallow-3.8[${PYTHON_USEDEP}]
+	>=dev-python/python-box-4.0[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.5.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/gamla[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	~dev-python/typeguard-2.13.3[${PYTHON_USEDEP}]
 	dev-python/toposort[${PYTHON_USEDEP}]
 	dev-python/immutables[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	test? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-5.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

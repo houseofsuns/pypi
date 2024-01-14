@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+	~dev-python/cloudpickle-1.3.0[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/expandvars[${PYTHON_USEDEP}]
 	dev-python/google-api-python-client[${PYTHON_USEDEP}]

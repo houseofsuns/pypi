@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
-	dev-python/bitstring[${PYTHON_USEDEP}]
+	<dev-python/bitstring-5.0.0[${PYTHON_USEDEP}]
 	dev-python/coincurve[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]"
+	<dev-python/cryptography-42.0[${PYTHON_USEDEP}]
+	<dev-python/PySocks-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

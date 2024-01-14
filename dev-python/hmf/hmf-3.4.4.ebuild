@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cosmo dev docs fit tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.6.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.12.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/deprecation[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
@@ -35,28 +35,28 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/camb[${PYTHON_USEDEP}]
 	all? ( dev-python/camb[${PYTHON_USEDEP}] )
 	all? ( dev-python/colossus[${PYTHON_USEDEP}] )
-	all? ( dev-python/emcee[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/emcee-3.0[${PYTHON_USEDEP}] )
 	cosmo? ( dev-python/colossus[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/numpydoc-0.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mpmath[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mpmath-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/colossus[${PYTHON_USEDEP}] )
 	dev? ( dev-python/halomod[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-0.8.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	fit? ( dev-python/emcee[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	fit? ( >=dev-python/emcee-3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-3.5.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mpmath[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mpmath-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/colossus[${PYTHON_USEDEP}] )
 	tests? ( dev-python/halomod[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

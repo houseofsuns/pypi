@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docx plot scio xlsx"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.10[${PYTHON_USEDEP}]
 	all? ( dev-python/astropy[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-1.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/openpyxl-2.4.8[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-docx[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( >dev-python/scipy-0.16[${PYTHON_USEDEP}] )
 	docx? ( dev-python/python-docx[${PYTHON_USEDEP}] )
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	scio? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	plot? ( >=dev-python/matplotlib-1.5[${PYTHON_USEDEP}] )
+	scio? ( >dev-python/scipy-0.16[${PYTHON_USEDEP}] )
 	scio? ( dev-python/astropy[${PYTHON_USEDEP}] )
-	xlsx? ( dev-python/openpyxl[${PYTHON_USEDEP}] )"
+	xlsx? ( >=dev-python/openpyxl-2.4.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs perf test"
-DEPENDENCIES="dev-python/ijson[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ijson-2.5[${PYTHON_USEDEP}]
 	dev-python/jsonref[${PYTHON_USEDEP}]
 	dev-python/ocdsmerge[${PYTHON_USEDEP}]
 	dev-python/ocdsextensionregistry[${PYTHON_USEDEP}]
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	perf? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	perf? ( >=dev-python/orjson-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	test? ( dev-python/jsonpointer[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pynmeagps[${PYTHON_USEDEP}]
 	dev-python/pyrtcm[${PYTHON_USEDEP}]
 	deploy? ( dev-python/build[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/pip[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	deploy? ( >=dev-python/setuptools-66.0[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )

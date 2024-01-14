@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.1.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]"
+	>=dev-python/seaborn-0.11.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.12.0[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.25.11[${PYTHON_USEDEP}]
+	~dev-python/regex-2020.10.15[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

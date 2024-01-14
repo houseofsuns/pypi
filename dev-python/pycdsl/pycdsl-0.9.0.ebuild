@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/requests-downloader[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.6.2[${PYTHON_USEDEP}]
+	>=dev-python/peewee-3.14.4[${PYTHON_USEDEP}]
 	dev-python/indic-transliteration[${PYTHON_USEDEP}]
-	dev-python/cmd2[${PYTHON_USEDEP}]"
+	>=dev-python/cmd2-2.4.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

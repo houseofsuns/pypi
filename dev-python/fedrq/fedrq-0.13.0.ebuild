@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="codeqa dev doc formatters test typing"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/rpm[${PYTHON_USEDEP}]
@@ -37,13 +37,13 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	dev? ( dev-python/fedrq[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
 	doc? ( dev-python/black[${PYTHON_USEDEP}] )
-	doc? ( dev-python/griffe[${PYTHON_USEDEP}] )
+	doc? ( >dev-python/griffe-0.32.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocstrings-0.18[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-exclude[${PYTHON_USEDEP}] )
 	formatters? ( dev-python/black[${PYTHON_USEDEP}] )
-	formatters? ( dev-python/isort[${PYTHON_USEDEP}] )
+	formatters? ( >dev-python/isort-5.13.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/tomli-w[${PYTHON_USEDEP}] )

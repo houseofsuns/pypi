@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/async-dns[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]
 	dev-python/python-daemon[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	~dev-python/tornado-6.1[${PYTHON_USEDEP}]
 	dev-python/asyncssh[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/cryptography-37.0.0[${PYTHON_USEDEP}]
 	kdf? ( dev-python/bcrypt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

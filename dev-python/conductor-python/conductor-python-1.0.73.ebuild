@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/astor[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/certifi-14.5.14[${PYTHON_USEDEP}]
+	>=dev-python/prometheus-client-0.13.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
+	>=dev-python/astor-0.8.1[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

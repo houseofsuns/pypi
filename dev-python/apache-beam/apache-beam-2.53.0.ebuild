@@ -24,49 +24,49 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws azure dask dataframe docs gcp interactive interactive_test test yaml"
-DEPENDENCIES="dev-python/crcmod[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/crcmod-2.0[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0[${PYTHON_USEDEP}]
+	<dev-python/dill-0.3.2[${PYTHON_USEDEP}]
+	~dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	<dev-python/fasteners-1.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
 	dev-python/hdfs[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
-	dev-python/js2py[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/httplib2-0.23.0[${PYTHON_USEDEP}]
+	<dev-python/js2py-1.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonpickle-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
 	dev-python/objsize[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/proto-plus[${PYTHON_USEDEP}]
+	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]
+	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/proto-plus-2.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	<dev-python/pydot-2.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2018.3[${PYTHON_USEDEP}]
+	>=dev-python/regex-2020.6.8[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.0[${PYTHON_USEDEP}]
+	<dev-python/zstandard-1.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	dev-python/pyarrow-hotfix[${PYTHON_USEDEP}]
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	aws? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-core[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( >=dev-python/dask-2022.6[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	dataframe? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dataframe? ( <dev-python/pandas-1.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/cachetools[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/google-api-core[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	gcp? ( <dev-python/cachetools-6.0[${PYTHON_USEDEP}] )
+	gcp? ( <dev-python/google-api-core-3.0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-apitools[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/google-auth[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/google-auth-httplib2[${PYTHON_USEDEP}] )
+	gcp? ( <dev-python/google-auth-3.0[${PYTHON_USEDEP}] )
+	gcp? ( <dev-python/google-auth-httplib2-0.2.0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-datastore[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-pubsublite[${PYTHON_USEDEP}] )
@@ -84,39 +84,39 @@ DEPENDENCIES="dev-python/crcmod[${PYTHON_USEDEP}]
 	gcp? ( dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/facets-overview[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/google-cloud-dataproc[${PYTHON_USEDEP}] )
-	interactive? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	interactive? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	interactive? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	interactive? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
+	interactive? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )
+	interactive? ( <dev-python/ipykernel-7.0[${PYTHON_USEDEP}] )
+	interactive? ( <dev-python/ipywidgets-9.0[${PYTHON_USEDEP}] )
+	interactive? ( <dev-python/jupyter-client-8.2.1[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/timeloop[${PYTHON_USEDEP}] )
-	interactive? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	interactive? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	interactive? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	interactive? ( <dev-python/nbformat-6.0[${PYTHON_USEDEP}] )
+	interactive? ( <dev-python/nbconvert-8.0[${PYTHON_USEDEP}] )
+	interactive? ( <dev-python/pandas-1.6[${PYTHON_USEDEP}] )
 	interactive_test? ( dev-python/needle[${PYTHON_USEDEP}] )
 	interactive_test? ( dev-python/chromedriver-binary[${PYTHON_USEDEP}] )
-	interactive_test? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	interactive_test? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	interactive_test? ( <dev-python/pillow-10.0[${PYTHON_USEDEP}] )
+	interactive_test? ( <dev-python/urllib3-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyhamcrest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/tenacity[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/freezegun-0.3.12[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/joblib-1.0.1[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mock-6.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/parameterized-0.10.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pyhamcrest-3.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/requests-mock-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/tenacity-9.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-xdist-4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-timeout-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	test? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	test? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	test? ( dev-python/testcontainers[${PYTHON_USEDEP}] )
-	test? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/cryptography-41.0.2[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/hypothesis-7.0.0[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	yaml? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
+	yaml? ( <dev-python/pandas-1.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

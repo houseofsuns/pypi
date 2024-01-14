@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/ccxt[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.1.11[${PYTHON_USEDEP}]
+	>=dev-python/alembic-0.9.3[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-17.1.2[${PYTHON_USEDEP}]
 	dev-python/cryptofeed[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

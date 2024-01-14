@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	dev-python/pyctr[${PYTHON_USEDEP}]
 	dev-python/haccrypto[${PYTHON_USEDEP}]
-	dev-python/pypng[${PYTHON_USEDEP}]"
+	>=dev-python/pypng-0.0.21[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

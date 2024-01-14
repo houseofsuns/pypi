@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all data parquet remote"
 DEPENDENCIES="dev-python/art[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.1.0[${PYTHON_USEDEP}]
 	dev-python/pymupdf[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	dev-python/rich-pixels[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/rich-13.5.2[${PYTHON_USEDEP}]
 	dev-python/textual-universal-directorytree[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pyarrow-10.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/textual-universal-directorytree[${PYTHON_USEDEP}] )
-	data? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	parquet? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	data? ( ~dev-python/pyarrow-10.0.0[${PYTHON_USEDEP}] )
+	parquet? ( ~dev-python/pyarrow-10.0.0[${PYTHON_USEDEP}] )
 	remote? ( dev-python/textual-universal-directorytree[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

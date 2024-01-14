@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.0[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/json5[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
-	dev-python/python-editor[${PYTHON_USEDEP}]"
+	>=dev-python/json5-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/pygame-2.0[${PYTHON_USEDEP}]
+	>=dev-python/python-editor-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

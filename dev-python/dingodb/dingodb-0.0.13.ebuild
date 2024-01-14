@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.19.0[${PYTHON_USEDEP}]
+	<=dev-python/pydantic-1.10.11[${PYTHON_USEDEP}]
+	>=dev-python/pytest-5.3.4[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.56.0[${PYTHON_USEDEP}]
 	dev-python/grpc-gateway-protoc-gen-openapiv2[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
-	dev-python/lz4[${PYTHON_USEDEP}]
+	>=dev-python/googleapis-common-protos-1.53.0[${PYTHON_USEDEP}]
+	>=dev-python/lz4-3.1.3[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

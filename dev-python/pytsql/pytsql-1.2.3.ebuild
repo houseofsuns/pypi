@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
+	~dev-python/antlr4-python3-runtime-4.13.1[${PYTHON_USEDEP}]
 	dev-python/pyodbc[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

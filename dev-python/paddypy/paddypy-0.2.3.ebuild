@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/azure-appconfiguration[${PYTHON_USEDEP}]
-	dev-python/texttable[${PYTHON_USEDEP}]
+	>=dev-python/texttable-1.4.4[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	dev-python/azure-keyvault-secrets[${PYTHON_USEDEP}]
 	dev-python/opencensus-ext-azure[${PYTHON_USEDEP}]"

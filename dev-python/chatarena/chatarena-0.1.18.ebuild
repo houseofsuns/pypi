@@ -25,27 +25,27 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all all_backends all_envs anthropic bard cohere database gradio huggingface langchain pettingzoo testing umshini"
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
+	~dev-python/rich-13.3.3[${PYTHON_USEDEP}]
+	~dev-python/prompt-toolkit-3.0.38[${PYTHON_USEDEP}]
 	all? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	all? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/gradio[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pydantic-1.10.13[${PYTHON_USEDEP}] )
 	all? ( dev-python/pettingzoo[${PYTHON_USEDEP}] )
 	all? ( dev-python/chess[${PYTHON_USEDEP}] )
 	all? ( dev-python/rlcard[${PYTHON_USEDEP}] )
-	all? ( dev-python/pygame[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pygame-2.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
-	all? ( dev-python/colorama[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/colorama-0.4.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/supabase[${PYTHON_USEDEP}] )
 	all? ( dev-python/bardapi[${PYTHON_USEDEP}] )
 	all? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	all? ( dev-python/deptry[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-xdist-3.4.0[${PYTHON_USEDEP}] )
 	all_backends? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	all_backends? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	all_backends? ( dev-python/transformers[${PYTHON_USEDEP}] )
@@ -54,31 +54,31 @@ DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	all_envs? ( dev-python/pettingzoo[${PYTHON_USEDEP}] )
 	all_envs? ( dev-python/chess[${PYTHON_USEDEP}] )
 	all_envs? ( dev-python/rlcard[${PYTHON_USEDEP}] )
-	all_envs? ( dev-python/pygame[${PYTHON_USEDEP}] )
+	all_envs? ( ~dev-python/pygame-2.3.0[${PYTHON_USEDEP}] )
 	all_envs? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	anthropic? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	bard? ( dev-python/bardapi[${PYTHON_USEDEP}] )
 	cohere? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	database? ( dev-python/supabase[${PYTHON_USEDEP}] )
 	gradio? ( dev-python/gradio[${PYTHON_USEDEP}] )
-	gradio? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	gradio? ( ~dev-python/pydantic-1.10.13[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	langchain? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	pettingzoo? ( dev-python/pettingzoo[${PYTHON_USEDEP}] )
 	pettingzoo? ( dev-python/chess[${PYTHON_USEDEP}] )
 	pettingzoo? ( dev-python/rlcard[${PYTHON_USEDEP}] )
-	pettingzoo? ( dev-python/pygame[${PYTHON_USEDEP}] )
+	pettingzoo? ( ~dev-python/pygame-2.3.0[${PYTHON_USEDEP}] )
 	pettingzoo? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
 	testing? ( dev-python/deptry[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-xdist-3.4.0[${PYTHON_USEDEP}] )
 	umshini? ( dev-python/pettingzoo[${PYTHON_USEDEP}] )
 	umshini? ( dev-python/chess[${PYTHON_USEDEP}] )
 	umshini? ( dev-python/rlcard[${PYTHON_USEDEP}] )
-	umshini? ( dev-python/pygame[${PYTHON_USEDEP}] )
+	umshini? ( ~dev-python/pygame-2.3.0[${PYTHON_USEDEP}] )
 	umshini? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
 	umshini? ( dev-python/langchain[${PYTHON_USEDEP}] )
-	umshini? ( dev-python/colorama[${PYTHON_USEDEP}] )"
+	umshini? ( >=dev-python/colorama-0.4.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

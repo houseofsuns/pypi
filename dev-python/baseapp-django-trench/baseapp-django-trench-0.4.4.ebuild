@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/pyotp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyotp-2.6.0[${PYTHON_USEDEP}]
 	dev-python/twilio[${PYTHON_USEDEP}]
 	dev-python/yubico-client[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.21.37[${PYTHON_USEDEP}]
 	dev-python/smsapi-client[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all contour spy"
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	all? ( dev-python/pypng[${PYTHON_USEDEP}] )
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )

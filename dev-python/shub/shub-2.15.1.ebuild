@@ -31,8 +31,8 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/retrying[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/scrapinghub[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/six-1.7.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.55.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

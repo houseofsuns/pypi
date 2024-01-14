@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="jupyterlite recommender show_api_usage show_memory"
 DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-4.0[${PYTHON_USEDEP}]
 	jupyterlite? ( dev-python/jupyterlite-sphinx[${PYTHON_USEDEP}] )
 	recommender? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	show_api_usage? ( dev-python/graphviz[${PYTHON_USEDEP}] )

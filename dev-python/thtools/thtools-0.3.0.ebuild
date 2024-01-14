@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/eel[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]"
+	~dev-python/prettytable-2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

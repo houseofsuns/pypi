@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bcrypt test"
 DEPENDENCIES="dev-python/defusedxml[${PYTHON_USEDEP}]
 	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/vobject[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/vobject-0.9.6[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7.3[${PYTHON_USEDEP}]
 	bcrypt? ( dev-python/passlib[${PYTHON_USEDEP}] )
 	bcrypt? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/typeguard[${PYTHON_USEDEP}] )
 	test? ( dev-python/waitress[${PYTHON_USEDEP}] )
 	test? ( dev-python/passlib[${PYTHON_USEDEP}] )

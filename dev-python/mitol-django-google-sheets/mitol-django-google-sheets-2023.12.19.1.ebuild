@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.0[${PYTHON_USEDEP}]
 	dev-python/factory-boy[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+	~dev-python/google-api-python-client-1.7.11[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-oauthlib-0.5.2[${PYTHON_USEDEP}]
+	~dev-python/google-auth-1.6.3[${PYTHON_USEDEP}]
 	dev-python/mitol-django-common[${PYTHON_USEDEP}]
 	dev-python/pygsheets[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2020.4[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="coverage docs pep8 release tests testutils"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/django-privates[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-22.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-35.0[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	coverage? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

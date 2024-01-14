@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
 	dev-python/pymscada-html[${PYTHON_USEDEP}]
-	dev-python/cerberus[${PYTHON_USEDEP}]"
+	>=dev-python/cerberus-1.3.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

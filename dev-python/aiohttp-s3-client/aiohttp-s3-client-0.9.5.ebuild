@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/aiomisc[${PYTHON_USEDEP}]
 	dev-python/aws-request-signer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

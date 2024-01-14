@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/datafiles[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/psutil-5.7[${PYTHON_USEDEP}]
 	dev-python/crayons[${PYTHON_USEDEP}]
 	dev-python/minilog[${PYTHON_USEDEP}]
 	dev-python/universal-startfile[${PYTHON_USEDEP}]"

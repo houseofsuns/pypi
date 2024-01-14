@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev zstd"
 DEPENDENCIES="dev-python/isal[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	zstd? ( dev-python/zstandard[${PYTHON_USEDEP}] )"
+	zstd? ( <dev-python/zstandard-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/odd-models[${PYTHON_USEDEP}]
 	dev-python/oddrn-generator[${PYTHON_USEDEP}]
 	dev-python/great-expectations[${PYTHON_USEDEP}]
-	dev-python/funcy[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/funcy-2.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]"
+	<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

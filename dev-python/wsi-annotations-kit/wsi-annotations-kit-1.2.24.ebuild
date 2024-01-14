@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	~dev-python/shapely-2.0.1[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/uuid[${PYTHON_USEDEP}]

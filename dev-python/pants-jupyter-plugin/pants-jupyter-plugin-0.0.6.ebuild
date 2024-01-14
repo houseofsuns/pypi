@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/filelock-3.0[${PYTHON_USEDEP}]
+	<dev-python/ipython-8.0[${PYTHON_USEDEP}]
+	<dev-python/ipywidgets-8.0[${PYTHON_USEDEP}]
 	dev-python/nest_asyncio[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/twitter-common-contextutil[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

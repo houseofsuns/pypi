@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs testing"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/tox-4.11.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-multiversion-contrib[${PYTHON_USEDEP}] )
-	testing? ( dev-python/black[${PYTHON_USEDEP}] )
-	testing? ( dev-python/isort[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pylint-3.0.2[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mockito[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-pylint[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pylint-pydantic[${PYTHON_USEDEP}] )

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/munch[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	>=dev-python/munch-2.5[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.1[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-1.0[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.5[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/patternfork-nosql[${PYTHON_USEDEP}]
 	dev-python/iso_639[${PYTHON_USEDEP}]"

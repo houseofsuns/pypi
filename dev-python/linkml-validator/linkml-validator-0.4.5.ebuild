@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
 	dev-python/linkml[${PYTHON_USEDEP}]
 	dev-python/linkml-runtime[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )

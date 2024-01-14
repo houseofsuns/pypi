@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/ipykernel[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipykernel-6.14[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/jupyter-core[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-client-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-core-4.12[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0.30[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-17.0[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.4[${PYTHON_USEDEP}]
 	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	test? ( dev-python/pexpect[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

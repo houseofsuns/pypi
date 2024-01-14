@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/BrainLes-HD-BET[${PYTHON_USEDEP}]
 	dev-python/auxiliary[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/path[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
+	>=dev-python/path-16.2.0[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/ttictoc[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

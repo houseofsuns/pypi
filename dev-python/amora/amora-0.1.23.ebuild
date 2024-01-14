@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dash feature-store"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	<dev-python/networkx-4.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-xdist[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-xdist-4.0[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
 	feature-store? ( dev-python/feast[${PYTHON_USEDEP}] )
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dash? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
@@ -44,13 +44,13 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dash? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
 	dash? ( dev-python/Authlib[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash-ace[${PYTHON_USEDEP}] )
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	<dev-python/fsspec-2023.0.0[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
 	dev-python/shed[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+	<dev-python/humanize-5.0.0[${PYTHON_USEDEP}]
 	dash? ( dev-python/dash-extensions[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash-mantine-components[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dash? ( dev-python/prometheus-flask-exporter[${PYTHON_USEDEP}] )
 	dash? ( dev-python/gunicorn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

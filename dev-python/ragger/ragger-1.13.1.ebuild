@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/bip-utils[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinxcontrib-images[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	ledgercomm? ( dev-python/ledgercomm[${PYTHON_USEDEP}] )
 	ledgercomm? ( dev-python/ledgercomm[${PYTHON_USEDEP}] )
 	ledgercomm? ( dev-python/pyqt5[${PYTHON_USEDEP}] )

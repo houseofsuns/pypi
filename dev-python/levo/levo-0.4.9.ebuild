@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/schemathesis[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/reportportal-client[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	dev-python/sgqlc[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
+	<dev-python/structlog-22.0.0[${PYTHON_USEDEP}]
 	dev-python/click-loglevel[${PYTHON_USEDEP}]
 	dev-python/envyaml[${PYTHON_USEDEP}]
 	dev-python/betterproto[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/jsonpath-ng-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/cryptography-37.0.0[${PYTHON_USEDEP}]
 	dev-python/yamlordereddictloader[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	<dev-python/cattrs-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	dev-python/python-owasp-zap-v2_4[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	<dev-python/docker-6.0.0[${PYTHON_USEDEP}]
 	dev-python/levo-commons[${PYTHON_USEDEP}]
 	dev-python/levo-ssrfmap[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	<dev-python/rich-12.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

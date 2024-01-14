@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES="dev-python/lightgbm[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython-genutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxawesome-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.9.2[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-autodoc-typehints-1.24.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-tabs-3.4.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/fasttreeshap[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	dev-python/Cython[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]

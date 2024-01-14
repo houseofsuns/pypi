@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/AWSIoTPythonSDK[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/paho-mqtt-1.5.0[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
 	dev-python/pysftp[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]"
+	~dev-python/pytz-2020.1[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.5[${PYTHON_USEDEP}]
+	~dev-python/setuptools-50.3.0[${PYTHON_USEDEP}]
+	~dev-python/tzlocal-2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

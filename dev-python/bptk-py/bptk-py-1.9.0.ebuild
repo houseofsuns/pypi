@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/xlsxwriter[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-2.1.3[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.11.4[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
+	~dev-python/ipywidgets-8.1.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/xlsxwriter-3.1.9[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/distlib[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]"
+	~dev-python/sympy-1.12[${PYTHON_USEDEP}]
+	~dev-python/distlib-0.3.7[${PYTHON_USEDEP}]
+	~dev-python/cachetools-5.3.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/flask-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/jsonpickle-3.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

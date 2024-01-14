@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	test? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	test? ( dev-python/pooch[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/tifffile[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="conceptnet5 dev docs emb gpu"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-4.1.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/plumbum[${PYTHON_USEDEP}]
-	dev-python/portalocker[${PYTHON_USEDEP}]
+	>=dev-python/plumbum-1.6.6[${PYTHON_USEDEP}]
+	>=dev-python/portalocker-1.2.1[${PYTHON_USEDEP}]
 	dev-python/pyahocorasick[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/wordfreq[${PYTHON_USEDEP}]
 	conceptnet5? ( dev-python/ConceptNet[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-38.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-1.11.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.31.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	emb? ( dev-python/gensim[${PYTHON_USEDEP}] )

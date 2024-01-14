@@ -27,7 +27,7 @@ IUSE="dev doc test"
 DEPENDENCIES="test? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev-python/flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.0[${PYTHON_USEDEP}]
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )

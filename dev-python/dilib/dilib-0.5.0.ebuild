@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="setup test"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	setup? ( dev-python/build[${PYTHON_USEDEP}] )
-	setup? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	setup? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/nox[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
+	setup? ( >=dev-python/build-0.6.0[${PYTHON_USEDEP}] )
+	setup? ( >=dev-python/setuptools-scm-3.4[${PYTHON_USEDEP}] )
+	setup? ( >=dev-python/wheel-0.38.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nox-2023.4.22[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/connect-markdown-renderer[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/responses[${PYTHON_USEDEP}]
-	dev-python/pytest-httpx[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.23[${PYTHON_USEDEP}]
+	>=dev-python/inflect-4.1[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23[${PYTHON_USEDEP}]
+	<dev-python/asgiref-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/responses-1.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-httpx-0.27[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-7.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="saya"
 DEPENDENCIES="dev-python/statv[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/creart[${PYTHON_USEDEP}]
 	saya? ( dev-python/graia-saya[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

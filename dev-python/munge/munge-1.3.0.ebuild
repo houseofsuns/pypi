@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="toml tomlkit yaml"
 DEPENDENCIES="yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/click-5.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.6[${PYTHON_USEDEP}]
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
-	tomlkit? ( dev-python/tomlkit[${PYTHON_USEDEP}] )"
+	tomlkit? ( >=dev-python/tomlkit-0.7.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

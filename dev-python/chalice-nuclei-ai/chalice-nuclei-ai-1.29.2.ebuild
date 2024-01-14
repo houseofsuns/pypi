@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cdk cdkv2 event-file-poller"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/botocore-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/six-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pip-23.2[${PYTHON_USEDEP}]
+	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
@@ -39,6 +39,6 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	cdk? ( dev-python/aws-cdk-cloudformation-include[${PYTHON_USEDEP}] )
 	cdk? ( dev-python/aws-cdk-core[${PYTHON_USEDEP}] )
 	cdkv2? ( dev-python/aws-cdk-lib[${PYTHON_USEDEP}] )
-	event-file-poller? ( dev-python/watchdog[${PYTHON_USEDEP}] )"
+	event-file-poller? ( ~dev-python/watchdog-2.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

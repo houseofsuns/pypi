@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev full test test-no-bench"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	full? ( dev-python/iminuit[${PYTHON_USEDEP}] )
+	full? ( <dev-python/iminuit-3.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	test-no-bench? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test-no-bench? ( dev-python/markdown-pytest[${PYTHON_USEDEP}] )
 	test-no-bench? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	test-no-bench? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
-	test-no-bench? ( dev-python/iminuit[${PYTHON_USEDEP}] )
+	test-no-bench? ( >=dev-python/pytest-subtests-0.10[${PYTHON_USEDEP}] )
+	test-no-bench? ( <dev-python/iminuit-3.0[${PYTHON_USEDEP}] )
 	test-no-bench? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test-no-bench? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	test? ( dev-python/light-curve[${PYTHON_USEDEP}] )

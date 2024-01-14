@@ -31,8 +31,8 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-httpx[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-httpx-0.21[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

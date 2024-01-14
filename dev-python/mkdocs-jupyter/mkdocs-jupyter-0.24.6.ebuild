@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ipykernel[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}]
 	dev-python/jupytext[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]"
+	>dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/mkdocs-2.0[${PYTHON_USEDEP}]
+	<dev-python/nbconvert-8.0[${PYTHON_USEDEP}]
+	>dev-python/pygments-2.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

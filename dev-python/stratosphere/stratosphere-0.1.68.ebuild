@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="complete dask pgsql"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
 	dev-python/ulid-py[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	complete? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	complete? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	<dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	complete? ( <dev-python/tabulate-0.10.0[${PYTHON_USEDEP}] )
+	complete? ( <dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
-	complete? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( <dev-python/dask-2023.0.0[${PYTHON_USEDEP}] )
+	complete? ( <dev-python/dask-2023.0.0[${PYTHON_USEDEP}] )
 	pgsql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

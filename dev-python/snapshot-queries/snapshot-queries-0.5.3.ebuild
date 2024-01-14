@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development linting snapshottest"
-DEPENDENCIES="dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	development? ( dev-python/snapshottest[${PYTHON_USEDEP}] )
-	development? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/sqlparse-0.4.1[${PYTHON_USEDEP}]
+	>=dev-python/attrs-20.3.0[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.8.1[${PYTHON_USEDEP}]
+	development? ( ~dev-python/snapshottest-0.5.1[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
 	development? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	development? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	development? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	linting? ( dev-python/black[${PYTHON_USEDEP}] )
-	linting? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	linting? ( dev-python/isort[${PYTHON_USEDEP}] )
+	linting? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	linting? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	linting? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	snapshottest? ( dev-python/snapshottest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

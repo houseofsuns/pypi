@@ -27,9 +27,9 @@ IUSE="extras"
 DEPENDENCIES="dev-python/cmcrameri[${PYTHON_USEDEP}]
 	dev-python/contourpy[${PYTHON_USEDEP}]
 	dev-python/gsw[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
 	dev-python/seawater[${PYTHON_USEDEP}]
 	extras? ( dev-python/cartopy[${PYTHON_USEDEP}] )
 	extras? ( dev-python/iris[${PYTHON_USEDEP}] )

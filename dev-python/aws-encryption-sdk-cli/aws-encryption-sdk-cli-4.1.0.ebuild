@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/base64io[${PYTHON_USEDEP}]
 	dev-python/aws-encryption-sdk[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]"
+	>=dev-python/attrs-17.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="gunicorn uwsgi"
 DEPENDENCIES="dev-python/httptools[${PYTHON_USEDEP}]
 	dev-python/asphalt[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]
-	gunicorn? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	<dev-python/werkzeug-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/h2-3.1.0[${PYTHON_USEDEP}]
+	gunicorn? ( <dev-python/aiohttp-2.3.0[${PYTHON_USEDEP}] )
 	gunicorn? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	uwsgi? ( dev-python/greenlet[${PYTHON_USEDEP}] )"
+	uwsgi? ( >=dev-python/greenlet-0.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

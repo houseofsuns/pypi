@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/betterproto-for-temporal-python-sdk[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.30.0[${PYTHON_USEDEP}]
 	dev-python/grpclib[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/tblib[${PYTHON_USEDEP}]"
+	~dev-python/h2-3.2.0[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-7.0.0[${PYTHON_USEDEP}]
+	~dev-python/pytz-2020.1[${PYTHON_USEDEP}]
+	~dev-python/tblib-1.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

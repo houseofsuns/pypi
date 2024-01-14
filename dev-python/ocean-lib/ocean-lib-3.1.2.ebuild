@@ -25,39 +25,39 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/ocean-contracts[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/enforce-typing[${PYTHON_USEDEP}]
 	dev-python/eciespy[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pkginfo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pkginfo-1.9.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/watchdog-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/licenseheaders[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mccabe[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkcodes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-sugar-0.9.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/mccabe[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/mkcodes[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-sugar-0.9.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

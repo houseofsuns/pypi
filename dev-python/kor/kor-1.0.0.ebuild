@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="html"
 DEPENDENCIES="dev-python/langchain[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	html? ( dev-python/markdownify[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

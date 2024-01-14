@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-3.14.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-1.8[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/python-glanceclient[${PYTHON_USEDEP}]
-	dev-python/python-ironicclient[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
-	dev-python/python-neutronclient[${PYTHON_USEDEP}]
-	dev-python/python-novaclient[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	>=dev-python/python-glanceclient-2.5.0[${PYTHON_USEDEP}]
+	>=dev-python/python-ironicclient-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/python-keystoneclient-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/python-neutronclient-5.1.0[${PYTHON_USEDEP}]
+	>=dev-python/python-novaclient-2.29.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

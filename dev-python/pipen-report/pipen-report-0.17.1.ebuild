@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/pipen[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
 	dev-python/copier[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-9.0.0[${PYTHON_USEDEP}]
 	dev-python/pipen-runinfo[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]"
+	<dev-python/pillow-11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

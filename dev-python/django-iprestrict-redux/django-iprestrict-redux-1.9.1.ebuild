@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="geoip"
-DEPENDENCIES="geoip? ( dev-python/pycountry[${PYTHON_USEDEP}] )
+DEPENDENCIES="geoip? ( <dev-python/pycountry-23.0.0[${PYTHON_USEDEP}] )
 	geoip? ( dev-python/geoip2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

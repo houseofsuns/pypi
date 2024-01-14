@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev doc flake8 full test"
 DEPENDENCIES="dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	all? ( dev-python/analogvnn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-61.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/johnnydep[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	doc? ( dev-python/rst-to-myst[${PYTHON_USEDEP}] )
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )

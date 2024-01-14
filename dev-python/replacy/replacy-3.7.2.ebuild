@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
 	dev-python/lemminflect[${PYTHON_USEDEP}]
 	dev-python/pyfunctional[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="check test"
-DEPENDENCIES="check? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	check? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+DEPENDENCIES="check? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	check? ( >=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
 	check? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	check? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	check? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	check? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	check? ( dev-python/flake8-colors[${PYTHON_USEDEP}] )
 	check? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
@@ -35,9 +35,9 @@ DEPENDENCIES="check? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	check? ( dev-python/flake8-typing-imports[${PYTHON_USEDEP}] )
 	check? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
 	check? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/coverage-5.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

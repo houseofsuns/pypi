@@ -24,48 +24,48 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	<dev-python/aiofiles-0.9[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
-	dev-python/intervaltree[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/tblib[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
+	<dev-python/pathvalidate-3.0[${PYTHON_USEDEP}]
+	<dev-python/intervaltree-4.0[${PYTHON_USEDEP}]
+	<dev-python/graphviz-0.20[${PYTHON_USEDEP}]
+	<dev-python/tblib-2.0[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]
 	dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
 	dev-python/eth-hash[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/ipdb[${PYTHON_USEDEP}]
+	<dev-python/websocket-client-2.0[${PYTHON_USEDEP}]
+	<dev-python/watchdog-2.3.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0[${PYTHON_USEDEP}]
+	<dev-python/ipdb-0.14.0[${PYTHON_USEDEP}]
 	dev-python/abch_tree_sitter[${PYTHON_USEDEP}]
 	dev-python/abch_tree_sitter_solidity[${PYTHON_USEDEP}]
 	dev-python/lazy-import[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/sarif-om[${PYTHON_USEDEP}]
-	dev-python/jschema-to-python[${PYTHON_USEDEP}]
-	dev-python/tomli-w[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]
+	<dev-python/sarif-om-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/jschema-to-python-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]
+	tests? ( <dev-python/pytest-asyncio-0.18[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mkdocs-material-10.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mkdocstrings-0.21[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mkdocstrings-python-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pymdown-extensions-10.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mike[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pillow-10.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cairosvg[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

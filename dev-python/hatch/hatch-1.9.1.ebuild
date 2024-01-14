@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/hatchling[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/hyperlink[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/shellingham[${PYTHON_USEDEP}]
-	dev-python/tomli-w[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/userpath[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/click-8.0.6[${PYTHON_USEDEP}]
+	>=dev-python/hatchling-1.21.0[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.22.0[${PYTHON_USEDEP}]
+	>=dev-python/hyperlink-21.0.0[${PYTHON_USEDEP}]
+	>=dev-python/keyring-23.5.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	~dev-python/pexpect-4.8[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-2.5.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-11.2.0[${PYTHON_USEDEP}]
+	>=dev-python/shellingham-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/tomli-w-1.0[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.11.1[${PYTHON_USEDEP}]
+	~dev-python/userpath-1.7[${PYTHON_USEDEP}]
+	>=dev-python/virtualenv-20.16.2[${PYTHON_USEDEP}]
+	<dev-python/zstandard-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,14 +30,14 @@ DEPENDENCIES="powermon? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	systemd? ( dev-python/cysystemd[${PYTHON_USEDEP}] )
 	api? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	api? ( dev-python/fastapi-mqtt[${PYTHON_USEDEP}] )
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
+	>=dev-python/paho-mqtt-1.6[${PYTHON_USEDEP}]
 	pgsql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	mongo? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	push? ( dev-python/requests[${PYTHON_USEDEP}] )
-	api? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	>=dev-python/pydantic-1.8.0[${PYTHON_USEDEP}]
+	mongo? ( >=dev-python/pymongo-4.6.1[${PYTHON_USEDEP}] )
+	>dev-python/pyserial-3.0[${PYTHON_USEDEP}]
+	push? ( >=dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
+	api? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	powermon? ( dev-python/strenum[${PYTHON_USEDEP}] )
-	api? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	api? ( >=dev-python/uvicorn-0.15.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

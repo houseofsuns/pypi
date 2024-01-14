@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="coverage docs pep8 release tests"
 DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/django-choices[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	>=dev-python/django-filter-2.0[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-camel-case[${PYTHON_USEDEP}]
 	dev-python/drf-yasg[${PYTHON_USEDEP}]
 	dev-python/drf-nested-routers[${PYTHON_USEDEP}]

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/aiida-core[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pgtest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-regressions-2.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

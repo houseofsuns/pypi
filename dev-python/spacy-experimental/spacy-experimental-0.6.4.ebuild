@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="torch"
 DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

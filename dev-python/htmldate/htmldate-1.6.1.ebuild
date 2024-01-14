@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all speed"
 DEPENDENCIES="dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.4[${PYTHON_USEDEP}]
+	>=dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]
+	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
 	all? ( dev-python/faust-cchardet[${PYTHON_USEDEP}] )
 	all? ( dev-python/urllib3[${PYTHON_USEDEP}] )
 	all? ( dev-python/backports-datetime-fromisoformat[${PYTHON_USEDEP}] )

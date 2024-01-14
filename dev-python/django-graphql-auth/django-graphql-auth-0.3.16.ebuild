@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-graphql-jwt[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	>=dev-python/django-filter-2.2.0[${PYTHON_USEDEP}]
 	dev-python/graphene-django[${PYTHON_USEDEP}]
 	dev-python/graphene[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.6.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-django-3.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.6.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-django-3.1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8[${PYTHON_USEDEP}]
+	~dev-python/black-22.12.0[${PYTHON_USEDEP}]
 	dev-python/flake8-bugbear[${PYTHON_USEDEP}]
 	dev-python/flake8-isort[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.10.20[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}]
+	<=dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
+	>=dev-python/pytest-4.5.0[${PYTHON_USEDEP}]
 	dev-python/pytest-random-order[${PYTHON_USEDEP}]
-	dev-python/pytest-localserver[${PYTHON_USEDEP}]
+	>=dev-python/pytest-localserver-0.5.0[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/hypothesis[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]
-	dev-python/cfn-lint[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22[${PYTHON_USEDEP}]
+	>=dev-python/hypothesis-4.32[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.1[${PYTHON_USEDEP}]
+	>=dev-python/docker-4.3.1[${PYTHON_USEDEP}]
+	>=dev-python/ordered-set-4.0.2[${PYTHON_USEDEP}]
+	>=dev-python/cfn-lint-0.78.1[${PYTHON_USEDEP}]
 	dev-python/cfn-flip[${PYTHON_USEDEP}]
 	dev-python/nested-lookup[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]"
+	>=dev-python/botocore-1.31.17[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

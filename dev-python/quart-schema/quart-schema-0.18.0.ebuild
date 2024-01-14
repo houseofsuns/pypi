@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/pydata_sphinx_theme[${PYTHON_USEDEP}] )
 	dev-python/pyhumps[${PYTHON_USEDEP}]
 	dev-python/quart[${PYTHON_USEDEP}]"

@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/autoreduce-scripts[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.13.1[${PYTHON_USEDEP}]
 	dev-python/django-hurricane[${PYTHON_USEDEP}]
 	dev? ( dev-python/autoreduce-qp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
-	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/mysqlclient-2.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/parameterized-0.8.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

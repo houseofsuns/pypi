@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
 DEPENDENCIES="dev-python/simple-rest-client[${PYTHON_USEDEP}]
-	dev-python/jsonref[${PYTHON_USEDEP}]
+	<dev-python/jsonref-2.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/aioresponses[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/black-22.8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/aioresponses-0.8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-contentui[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev-python/pyjwt[${PYTHON_USEDEP}]"
+	doc? ( ~dev-python/sphinx-4.3.1[${PYTHON_USEDEP}] )
+	<=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

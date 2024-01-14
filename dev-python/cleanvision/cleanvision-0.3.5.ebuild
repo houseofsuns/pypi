@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all azure gcs huggingface pytorch s3"
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.3[${PYTHON_USEDEP}]
 	dev-python/imagehash[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.53.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2023.1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/cleanvision[${PYTHON_USEDEP}] )
 	azure? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )

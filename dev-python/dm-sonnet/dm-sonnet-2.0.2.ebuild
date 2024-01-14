@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tensorflow tensorflow_with_gpu"
-DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/absl-py-0.7.1[${PYTHON_USEDEP}]
 	dev-python/dm-tree[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.3[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.7.5[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.11.1[${PYTHON_USEDEP}]
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow_with_gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

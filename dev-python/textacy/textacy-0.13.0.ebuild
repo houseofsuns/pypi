@@ -24,40 +24,40 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="check dev docs viz"
-DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cachetools-4.0.0[${PYTHON_USEDEP}]
 	dev-python/catalogue[${PYTHON_USEDEP}]
 	dev-python/cytoolz[${PYTHON_USEDEP}]
 	dev-python/floret[${PYTHON_USEDEP}]
-	dev-python/jellyfish[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyphen[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/jellyfish-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.13.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.7[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
+	>=dev-python/pyphen-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.10.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	check? ( dev-python/black[${PYTHON_USEDEP}] )
-	check? ( dev-python/isort[${PYTHON_USEDEP}] )
-	check? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	check? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	>=dev-python/tqdm-4.19.6[${PYTHON_USEDEP}]
+	check? ( ~dev-python/black-23.0[${PYTHON_USEDEP}] )
+	check? ( ~dev-python/isort-5.0[${PYTHON_USEDEP}] )
+	check? ( ~dev-python/mypy-1.0.0[${PYTHON_USEDEP}] )
+	check? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	check? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	check? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/recommonmark-0.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	viz? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/recommonmark-0.7.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
+	viz? ( ~dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/cflib[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
+	~dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
+	~dev-python/pyzmq-25.0[${PYTHON_USEDEP}]
+	~dev-python/pyqtgraph-0.13[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	dev-python/vispy[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	dev-python/pyqt6[${PYTHON_USEDEP}]
-	dev-python/PyQt6-sip[${PYTHON_USEDEP}]
+	~dev-python/PyQt6-sip-13.5[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

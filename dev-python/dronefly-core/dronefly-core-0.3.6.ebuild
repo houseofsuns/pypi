@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pyinaturalist[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
+	<dev-python/inflect-6.0.0[${PYTHON_USEDEP}]
 	dev-python/html2markdown[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	>=dev-python/rich-13.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

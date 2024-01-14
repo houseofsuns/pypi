@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]
 	dev-python/aiojobs[${PYTHON_USEDEP}]
 	dev-python/aiopg[${PYTHON_USEDEP}]
 	dev-python/aioredis[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	>=dev-python/alembic-1.2.1[${PYTHON_USEDEP}]
 	dev-python/aiohttp-jinja2[${PYTHON_USEDEP}]
 	dev-python/async-property[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.2.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/aiosmtplib[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/apispec[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]
-	dev-python/pyotp[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	>=dev-python/bcrypt-3.1.7[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.7[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.1[${PYTHON_USEDEP}]
+	>=dev-python/structlog-19.2.0[${PYTHON_USEDEP}]
+	>=dev-python/apispec-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/cached-property-1.5.1[${PYTHON_USEDEP}]
+	>=dev-python/pyotp-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/orjson-2.2.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

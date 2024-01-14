@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full info multitask plot"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	multitask? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	full? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	info? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	full? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/networkx-3.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.65[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.5[${PYTHON_USEDEP}]
+	multitask? ( >=dev-python/joblib-1.3[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/joblib-1.3[${PYTHON_USEDEP}] )
+	info? ( >=dev-python/psutil-5.9[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/psutil-5.9[${PYTHON_USEDEP}] )
+	plot? ( >=dev-python/matplotlib-3.7[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/matplotlib-3.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

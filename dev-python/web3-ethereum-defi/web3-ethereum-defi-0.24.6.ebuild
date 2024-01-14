@@ -25,30 +25,30 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="data docs test"
 DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ujson-5.8.0[${PYTHON_USEDEP}]
+	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	dev-python/futureproof[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	<dev-python/setuptools-70.0.0[${PYTHON_USEDEP}]
 	dev-python/eth-bloom[${PYTHON_USEDEP}]
 	dev-python/evm-trace[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	dev-python/tqdm-loggable[${PYTHON_USEDEP}]
 	dev-python/sigfig[${PYTHON_USEDEP}]
-	data? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	data? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	data? ( >=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}] )
+	data? ( <dev-python/pandas-2.2[${PYTHON_USEDEP}] )
 	data? ( dev-python/gql[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	data? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	data? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	data? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/nbsphinx-0.9.0[${PYTHON_USEDEP}] )
+	data? ( <dev-python/jupyter-2.0.0[${PYTHON_USEDEP}] )
+	data? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	data? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/furo-2023.0.0.0[${PYTHON_USEDEP}] )
 	data? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	docs? ( dev-python/zope-dottedname[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	test? ( <dev-python/pytest-xdist-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

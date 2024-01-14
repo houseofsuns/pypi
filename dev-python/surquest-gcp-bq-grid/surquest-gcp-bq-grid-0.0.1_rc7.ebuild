@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

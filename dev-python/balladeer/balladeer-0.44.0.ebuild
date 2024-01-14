@@ -27,15 +27,15 @@ IUSE="classic docbuild"
 DEPENDENCIES="dev-python/hypercorn[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]
 	dev-python/speechmark[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
+	>=dev-python/starlette-0.26.1[${PYTHON_USEDEP}]
 	dev-python/turberfield-utils[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0.0[${PYTHON_USEDEP}]
 	classic? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	classic? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	classic? ( ~dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
 	classic? ( dev-python/turberfield-catchphrase[${PYTHON_USEDEP}] )
 	classic? ( dev-python/turberfield-dialogue[${PYTHON_USEDEP}] )
 	classic? ( dev-python/turberfield-utils[${PYTHON_USEDEP}] )
-	docbuild? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docbuild? ( <=dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
 	docbuild? ( dev-python/karma-sphinx-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.1.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/social-auth-app-django[${PYTHON_USEDEP}]
 	dev-python/social-auth-core[${PYTHON_USEDEP}]"

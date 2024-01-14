@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/quilt3[${PYTHON_USEDEP}]
 	dev-python/bumpversion[${PYTHON_USEDEP}]
 	dev-python/twine[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-42.0[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/multipledispatch[${PYTHON_USEDEP}]"

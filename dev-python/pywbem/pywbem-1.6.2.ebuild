@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/ply[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ply-3.10[${PYTHON_USEDEP}]
 	dev-python/nocaselist[${PYTHON_USEDEP}]
 	dev-python/nocasedict[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2019.11.28[${PYTHON_USEDEP}]
 	dev-python/yamlloader[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>dev-python/setuptools-61.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/easy-vault[${PYTHON_USEDEP}] )
 	test? ( dev-python/easy-server[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-easy-server[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-mock-1.6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-toolbelt-0.8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/yagot[${PYTHON_USEDEP}] )
-	test? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
-	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytz[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/virtualenv-20.0.35[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/lxml-4.6.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytz-2019.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/FormEncode[${PYTHON_USEDEP}] )
-	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	test? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	test? ( dev-python/decorator[${PYTHON_USEDEP}] )
-	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
-	test? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	test? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	test? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	test? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/lxml-4.9.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/colorama-0.4.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/decorator-4.0.11[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testfixtures-6.9.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/packaging-21.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pluggy-0.13.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/importlib-metadata-4.8.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

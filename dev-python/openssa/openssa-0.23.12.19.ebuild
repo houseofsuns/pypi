@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="contrib"
 DEPENDENCIES="dev-python/adlfs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/docx2txt[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2023.12[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-2.111[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.25[${PYTHON_USEDEP}]
 	dev-python/llama-hub[${PYTHON_USEDEP}]
 	dev-python/llama-index[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.7[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.19[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.5[${PYTHON_USEDEP}]
+	>=dev-python/pypdf-3.17[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-1.0[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	contrib? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	contrib? ( dev-python/streamlit-mic-recorder[${PYTHON_USEDEP}] )
-	dev-python/tomli[${PYTHON_USEDEP}]"
+	>=dev-python/tomli-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

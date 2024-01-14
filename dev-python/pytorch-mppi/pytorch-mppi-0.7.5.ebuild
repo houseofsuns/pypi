@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/gym[${PYTHON_USEDEP}] )
 	test? ( dev-python/pygame[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyglet[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pyglet-1.5.27[${PYTHON_USEDEP}] )
 	test? ( dev-python/window-recorder[${PYTHON_USEDEP}] )
 	test? ( dev-python/cma[${PYTHON_USEDEP}] )
 	test? ( dev-python/ray[${PYTHON_USEDEP}] )

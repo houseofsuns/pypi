@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all billiard cloudpickle dill loky"
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/anyio-3.7.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.6.3[${PYTHON_USEDEP}]
 	all? ( dev-python/billiard[${PYTHON_USEDEP}] )
 	billiard? ( dev-python/billiard[${PYTHON_USEDEP}] )
-	all? ( dev-python/dill[${PYTHON_USEDEP}] )
-	billiard? ( dev-python/dill[${PYTHON_USEDEP}] )
-	dill? ( dev-python/dill[${PYTHON_USEDEP}] )
-	all? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	loky? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	cloudpickle? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	all? ( dev-python/loky[${PYTHON_USEDEP}] )
-	loky? ( dev-python/loky[${PYTHON_USEDEP}] )
-	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	loky? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]"
+	all? ( >=dev-python/dill-0.3.6[${PYTHON_USEDEP}] )
+	billiard? ( >=dev-python/dill-0.3.6[${PYTHON_USEDEP}] )
+	dill? ( >=dev-python/dill-0.3.6[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}] )
+	loky? ( >=dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}] )
+	cloudpickle? ( >=dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}] )
+	all? ( <dev-python/loky-4.0.0[${PYTHON_USEDEP}] )
+	loky? ( <dev-python/loky-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
+	loky? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
+	<dev-python/exceptiongroup-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

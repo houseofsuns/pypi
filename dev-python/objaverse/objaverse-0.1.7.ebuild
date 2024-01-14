@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2022.11.0[${PYTHON_USEDEP}]
 	dev-python/gputil[${PYTHON_USEDEP}]
 	s3? ( dev-python/s3fs[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

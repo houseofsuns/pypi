@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev ml mypy"
-DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
+	>=dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	>=dev-python/redis-4.5[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.50.2[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.4.2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
 	dev-python/smartredis[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-24.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/click-8.0.2[${PYTHON_USEDEP}] )
 	ml? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	mypy? ( >=dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-redis[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )

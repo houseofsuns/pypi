@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all doc fetch log plotting test"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.3[${PYTHON_USEDEP}]
+	<=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
 	dev-python/pvlib[${PYTHON_USEDEP}]
@@ -49,13 +49,13 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	all? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	all? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	all? ( <dev-python/plotly-5.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/selenium-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/kaleido[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	fetch? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	fetch? ( dev-python/loky[${PYTHON_USEDEP}] )
@@ -63,8 +63,8 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	log? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	plotting? ( <dev-python/plotly-5.0[${PYTHON_USEDEP}] )
+	plotting? ( <dev-python/selenium-4.0[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

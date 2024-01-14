@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cov docs pyqt5 pyside6 test"
 DEPENDENCIES="dev-python/appnope[${PYTHON_USEDEP}]
-	dev-python/comm[${PYTHON_USEDEP}]
-	dev-python/debugpy[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/jupyter-core[${PYTHON_USEDEP}]
-	dev-python/matplotlib-inline[${PYTHON_USEDEP}]
+	>=dev-python/comm-0.1.1[${PYTHON_USEDEP}]
+	>=dev-python/debugpy-1.6.5[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.23.1[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-client-6.1.12[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-core-4.12[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-inline-0.1[${PYTHON_USEDEP}]
 	dev-python/nest-asyncio[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-24.0[${PYTHON_USEDEP}]
+	>=dev-python/tornado-6.1[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.4.0[${PYTHON_USEDEP}]
 	cov? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	cov? ( dev-python/curio[${PYTHON_USEDEP}] )
 	cov? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -57,6 +57,6 @@ DEPENDENCIES="dev-python/appnope[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

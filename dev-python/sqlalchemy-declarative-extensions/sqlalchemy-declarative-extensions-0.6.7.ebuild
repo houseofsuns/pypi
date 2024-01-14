@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="alembic parse"
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	parse? ( dev-python/sqlglot[${PYTHON_USEDEP}] )
-	alembic? ( dev-python/alembic[${PYTHON_USEDEP}] )"
+	alembic? ( >=dev-python/alembic-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

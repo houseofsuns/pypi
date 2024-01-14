@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy dev"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	dev-python/intel-sgx-ra[${PYTHON_USEDEP}]
-	dev-python/hypercorn[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]
+	<dev-python/hypercorn-0.16.0[${PYTHON_USEDEP}]
+	<dev-python/h2-4.2.0[${PYTHON_USEDEP}]
 	dev-python/mse-lib-crypto[${PYTHON_USEDEP}]
-	deploy? ( dev-python/build[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	deploy? ( <dev-python/build-0.11.0[${PYTHON_USEDEP}] )
+	deploy? ( <dev-python/wheel-0.41.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylint-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pycodestyle-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pydocstyle-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-24.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

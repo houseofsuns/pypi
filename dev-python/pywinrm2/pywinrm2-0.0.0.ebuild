@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="credssp kerberos"
 DEPENDENCIES="dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-ntlm[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-ntlm-0.3.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	credssp? ( dev-python/requests-credssp[${PYTHON_USEDEP}] )
-	kerberos? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )"
+	credssp? ( >=dev-python/requests-credssp-0.0.1[${PYTHON_USEDEP}] )
+	kerberos? ( >=dev-python/requests-kerberos-0.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,13 +28,13 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/sqlmodel[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
+	<dev-python/inflect-8.0.0[${PYTHON_USEDEP}]
 	dev-python/async-asgi-testclient[${PYTHON_USEDEP}]
 	dev-python/validator-collection[${PYTHON_USEDEP}]
 	dev-python/uuid7[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/fakeredis[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+	<dev-python/redis-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/fakeredis-2.20.1[${PYTHON_USEDEP}]
+	<dev-python/async-timeout-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pymitter[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

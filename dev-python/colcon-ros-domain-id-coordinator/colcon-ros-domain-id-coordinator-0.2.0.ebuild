@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/colcon-core[${PYTHON_USEDEP}]
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-class-newline[${PYTHON_USEDEP}] )

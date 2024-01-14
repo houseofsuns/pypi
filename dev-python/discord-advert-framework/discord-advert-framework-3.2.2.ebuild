@@ -24,39 +24,39 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs sql testing voice web"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiohttp-socks[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-3.10.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-socks-0.9[${PYTHON_USEDEP}]
+	<dev-python/typeguard-2.14[${PYTHON_USEDEP}]
 	dev-python/tkinter-async-execute[${PYTHON_USEDEP}]
 	dev-python/asyncio-event-hub[${PYTHON_USEDEP}]
 	dev-python/tkclasswiz[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	all? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/aiosqlite-0.20[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	all? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	all? ( dev-python/asyncmy[${PYTHON_USEDEP}] )
-	all? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	all? ( <dev-python/selenium-4.17[${PYTHON_USEDEP}] )
 	all? ( dev-python/undetected-chromedriver[${PYTHON_USEDEP}] )
 	all? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
 	docs? ( dev-python/enum-tools[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-svg2pdfconverter[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	sql? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+	sql? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
+	sql? ( <dev-python/aiosqlite-0.20[${PYTHON_USEDEP}] )
 	sql? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	sql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	sql? ( dev-python/asyncmy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-7.5[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-asyncio-0.22[${PYTHON_USEDEP}] )
 	voice? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )
-	web? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	web? ( <dev-python/selenium-4.17[${PYTHON_USEDEP}] )
 	web? ( dev-python/undetected-chromedriver[${PYTHON_USEDEP}] )
 	web? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

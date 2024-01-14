@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ansible-runner[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
+	~dev-python/ipykernel-6.0[${PYTHON_USEDEP}]
+	~dev-python/ipython-7.0[${PYTHON_USEDEP}]
+	~dev-python/jupyterlab-3.0[${PYTHON_USEDEP}]
+	~dev-python/jupyter-client-7.0[${PYTHON_USEDEP}]
 	dev-python/keystoneauth1[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]
 	dev-python/scp[${PYTHON_USEDEP}]"

@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pypandoc[${PYTHON_USEDEP}]
 	dev-python/ckanapi[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pytest-check[${PYTHON_USEDEP}]
-	dev-python/distlib[${PYTHON_USEDEP}]
+	~dev-python/pytest-4.6.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-check-0.3.5[${PYTHON_USEDEP}]
+	~dev-python/distlib-0.2.9[${PYTHON_USEDEP}]
 	dev-python/pytest-json[${PYTHON_USEDEP}]
 	dev-python/randomwordgenerator[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

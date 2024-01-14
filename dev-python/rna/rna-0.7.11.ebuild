@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev docs pyqtgraph test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-2.2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -45,8 +45,8 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-2.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -64,8 +64,8 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	pyqtgraph? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	pyqtgraph? ( dev-python/pyopengl[${PYTHON_USEDEP}] )
 	pyqtgraph? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )

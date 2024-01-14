@@ -26,22 +26,22 @@ KEYWORDS="~amd64 ~x86"
 IUSE="api celery mysql postgres psycopg3 redis yaml"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/acme[${PYTHON_USEDEP}]
-	dev-python/asn1crypto[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/asn1crypto-1.5[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-41.0[${PYTHON_USEDEP}]
 	dev-python/django-object-actions[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/josepy[${PYTHON_USEDEP}]
+	>=dev-python/dnspython-2.3[${PYTHON_USEDEP}]
+	>=dev-python/idna-3.2[${PYTHON_USEDEP}]
+	>=dev-python/josepy-1.13.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	api? ( dev-python/django-ninja[${PYTHON_USEDEP}] )
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/mysqlclient-2.2[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	psycopg3? ( dev-python/psycopg[${PYTHON_USEDEP}] )
 	psycopg3? ( dev-python/Django[${PYTHON_USEDEP}] )
-	redis? ( dev-python/hiredis[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/hiredis-2.0.0[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.3[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

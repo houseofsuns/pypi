@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
+	<dev-python/docker-5.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	<dev-python/requests-2.29.0[${PYTHON_USEDEP}]
 	dev-python/pyretry[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/tabulate-1.0[${PYTHON_USEDEP}]
 	dev-python/docker-compose[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-commas[${PYTHON_USEDEP}] )"

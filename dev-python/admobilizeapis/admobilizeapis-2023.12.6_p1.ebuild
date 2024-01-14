@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="grpc"
-DEPENDENCIES="dev-python/google-api-core[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-api-core-2.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )"
+	grpc? ( >=dev-python/grpcio-1.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

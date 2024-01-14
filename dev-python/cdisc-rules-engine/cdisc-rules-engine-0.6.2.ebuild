@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/business-rules-enhanced[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
 	dev-python/cdisc-library-client[${PYTHON_USEDEP}]
 	dev-python/odmlib[${PYTHON_USEDEP}]
 	dev-python/xport[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]"
+	~dev-python/redis-4.0.2[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

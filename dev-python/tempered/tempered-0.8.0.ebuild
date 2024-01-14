@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev sass test"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/minify-html[${PYTHON_USEDEP}]
-	dev-python/tinycss2[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	~dev-python/minify-html-0.15.0[${PYTHON_USEDEP}]
+	~dev-python/tinycss2-1.2.1[${PYTHON_USEDEP}]
 	dev-python/rcssmin[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

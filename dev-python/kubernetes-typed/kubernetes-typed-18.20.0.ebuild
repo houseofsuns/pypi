@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="client dev"
 DEPENDENCIES="dev-python/jsonschema-typed-v2[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
+	<=dev-python/mypy-0.910[${PYTHON_USEDEP}]
 	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	client? ( dev-python/kubernetes[${PYTHON_USEDEP}] )

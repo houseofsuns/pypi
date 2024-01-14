@@ -25,38 +25,38 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp asgi chalice channels cli debug debug-server django fastapi flask opentelemetry pydantic pyinstrument quart sanic starlite"
 DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	asgi? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	debug-server? ( dev-python/starlette[${PYTHON_USEDEP}] )
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	asgi? ( >=dev-python/starlette-0.18.0[${PYTHON_USEDEP}] )
+	debug-server? ( >=dev-python/starlette-0.18.0[${PYTHON_USEDEP}] )
 	debug-server? ( dev-python/typer[${PYTHON_USEDEP}] )
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
-	debug-server? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	cli? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	debug-server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	debug-server? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
+	debug-server? ( >=dev-python/uvicorn-0.11.6[${PYTHON_USEDEP}] )
 	django? ( dev-python/Django[${PYTHON_USEDEP}] )
-	django? ( dev-python/asgiref[${PYTHON_USEDEP}] )
-	channels? ( dev-python/asgiref[${PYTHON_USEDEP}] )
-	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
+	django? ( <dev-python/asgiref-4.0[${PYTHON_USEDEP}] )
+	channels? ( <dev-python/asgiref-4.0[${PYTHON_USEDEP}] )
+	flask? ( >=dev-python/flask-1.1[${PYTHON_USEDEP}] )
 	quart? ( dev-python/quart[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
 	chalice? ( dev-python/chalice[${PYTHON_USEDEP}] )
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	asgi? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
-	debug-server? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
+	pydantic? ( >dev-python/pydantic-1.6.1[${PYTHON_USEDEP}] )
+	asgi? ( <dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}] )
+	debug-server? ( <dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}] )
+	fastapi? ( <dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}] )
 	sanic? ( dev-python/sanic[${PYTHON_USEDEP}] )
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	aiohttp? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	starlite? ( dev-python/starlite[${PYTHON_USEDEP}] )
 	channels? ( dev-python/channels[${PYTHON_USEDEP}] )
 	debug? ( dev-python/libcst[${PYTHON_USEDEP}] )
 	debug-server? ( dev-python/libcst[${PYTHON_USEDEP}] )
 	cli? ( dev-python/libcst[${PYTHON_USEDEP}] )
-	debug? ( dev-python/rich[${PYTHON_USEDEP}] )
-	debug-server? ( dev-python/rich[${PYTHON_USEDEP}] )
-	cli? ( dev-python/rich[${PYTHON_USEDEP}] )
+	debug? ( >=dev-python/rich-12.0.0[${PYTHON_USEDEP}] )
+	debug-server? ( >=dev-python/rich-12.0.0[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/rich-12.0.0[${PYTHON_USEDEP}] )
 	pyinstrument? ( dev-python/pyinstrument[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

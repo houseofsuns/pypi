@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	~dev-python/pycountry-20.7.3[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-3.12.1[${PYTHON_USEDEP}]
 	dev-python/cloup[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
+	~dev-python/deepdiff-5.6.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Babel[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

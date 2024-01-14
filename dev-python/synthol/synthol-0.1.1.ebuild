@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/typing-inspect[${PYTHON_USEDEP}]
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/mypy-0.942[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.18.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

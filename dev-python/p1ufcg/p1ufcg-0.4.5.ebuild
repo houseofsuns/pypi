@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.6.1[${PYTHON_USEDEP}]
 	dev-python/cachecontrol[${PYTHON_USEDEP}]
 	dev-python/tst[${PYTHON_USEDEP}]
 	dev-python/pytest-tst[${PYTHON_USEDEP}]

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bleak[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]"
+	>=dev-python/coloredlogs-15.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

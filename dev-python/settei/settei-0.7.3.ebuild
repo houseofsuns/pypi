@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="celery docs flask tests"
 DEPENDENCIES="dev-python/pytoml[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	>=dev-python/typeguard-2.2.1[${PYTHON_USEDEP}]
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	celery? ( dev-python/kombu[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/pytoml[${PYTHON_USEDEP}]
 	docs? ( dev-python/kombu[${PYTHON_USEDEP}] )
 	flask? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	flask? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-4.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
 	tests? ( dev-python/celery[${PYTHON_USEDEP}] )

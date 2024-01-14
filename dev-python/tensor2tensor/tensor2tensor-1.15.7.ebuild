@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/pypng[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/tensorflow-addons[${PYTHON_USEDEP}]
 	dev-python/tensorflow-datasets[${PYTHON_USEDEP}]
@@ -53,11 +53,11 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/tf-slim[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	allen? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	allen? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	allen? ( ~dev-python/pandas-0.23.0[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow-hub? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )
-	tests? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/attrs-17.4.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-3.8.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"

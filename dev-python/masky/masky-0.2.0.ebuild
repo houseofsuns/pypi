@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/impacket[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.5[${PYTHON_USEDEP}]
 	dev-python/pyasn1[${PYTHON_USEDEP}]
 	dev-python/asn1crypto[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

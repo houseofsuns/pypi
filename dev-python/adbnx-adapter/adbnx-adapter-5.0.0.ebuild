@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	dev-python/python-arango[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	>=dev-python/networkx-2.5.1[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.5.1[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-45.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

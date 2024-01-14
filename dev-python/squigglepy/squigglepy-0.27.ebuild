@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ecosystem plots"
-DEPENDENCIES="plots? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+DEPENDENCIES="plots? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/msgspec[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	ecosystem? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	ecosystem? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/pathos[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

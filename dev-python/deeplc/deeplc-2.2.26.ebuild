@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gui plot"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-42.0.1[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
+	<dev-python/h5py-4.0[${PYTHON_USEDEP}]
 	dev-python/pygam[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/deeplcretrainer[${PYTHON_USEDEP}]
 	dev-python/psm-utils[${PYTHON_USEDEP}]
 	dev-python/hdf5plugin[${PYTHON_USEDEP}]
 	gui? ( dev-python/gooey[${PYTHON_USEDEP}] )
-	plot? ( dev-python/plotly[${PYTHON_USEDEP}] )"
+	plot? ( >=dev-python/plotly-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

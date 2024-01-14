@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/itsdangerous[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/httpx-0.16[${PYTHON_USEDEP}] )
 	test? ( dev-python/starlette[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/asgi-lifespan[${PYTHON_USEDEP}] )"

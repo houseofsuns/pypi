@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/og-sdk[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.5.2[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/discord-py[${PYTHON_USEDEP}]
 	dev-python/clipboard[${PYTHON_USEDEP}]
 	dev-python/term-image[${PYTHON_USEDEP}]

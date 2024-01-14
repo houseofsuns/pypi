@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pixivpy3[${PYTHON_USEDEP}]
 	dev-python/pwinput[${PYTHON_USEDEP}]
 	dev-python/pyderman[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/selenium-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
-	testing? ( dev-python/responses[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	testing? ( >=dev-python/tox-4.4.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/responses-0.22.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/coverage-7.2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

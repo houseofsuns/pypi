@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test typecheck"
-DEPENDENCIES="dev-python/pywayland[${PYTHON_USEDEP}]
-	dev-python/xkbcommon[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pywayland-0.4.14[${PYTHON_USEDEP}]
+	>=dev-python/xkbcommon-0.2[${PYTHON_USEDEP}]
+	>=dev-python/cffi-1.12.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	typecheck? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	typecheck? ( dev-python/types-cffi[${PYTHON_USEDEP}] )

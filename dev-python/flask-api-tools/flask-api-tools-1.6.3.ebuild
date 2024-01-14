@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.1[${PYTHON_USEDEP}]
 	dev-python/flask-limiter[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
-	dev-python/cerberus[${PYTHON_USEDEP}]"
+	>=dev-python/redis-2.10[${PYTHON_USEDEP}]
+	>=dev-python/bleach-3.1[${PYTHON_USEDEP}]
+	>=dev-python/cerberus-1.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

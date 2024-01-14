@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/grpc-stubs[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-reflection[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

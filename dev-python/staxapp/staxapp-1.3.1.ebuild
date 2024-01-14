@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/prance[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/aws-requests-auth[${PYTHON_USEDEP}]
-	dev-python/openapi-spec-validator[${PYTHON_USEDEP}]"
+	~dev-python/openapi-spec-validator-0.2.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

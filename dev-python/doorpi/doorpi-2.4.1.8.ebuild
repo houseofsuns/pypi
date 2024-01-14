@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/RPi-GPIO[${PYTHON_USEDEP}]
 	dev-python/pifacedigitalio[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]"
+	>=dev-python/pyserial-2.7[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.7.0[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

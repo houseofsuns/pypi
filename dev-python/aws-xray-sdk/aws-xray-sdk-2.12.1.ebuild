@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]"
+	>=dev-python/botocore-1.11.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

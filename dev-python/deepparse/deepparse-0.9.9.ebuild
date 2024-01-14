@@ -32,32 +32,32 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/fasttext-wheel[${PYTHON_USEDEP}]
 	dev-python/pymagnitude-light[${PYTHON_USEDEP}]
 	dev-python/poutyne[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/cloudpathlib[${PYTHON_USEDEP}]
-	all? ( dev-python/colorama[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/colorama-0.4.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	all? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	all? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sentry-sdk-1.28.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-decouple[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pylint-2.16.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pylint-django[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/pycountry[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pycountry-22.3.5[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-env-0.8.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
 	app? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	app? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	app? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
+	app? ( ~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
+	app? ( ~dev-python/sentry-sdk-1.28.1[${PYTHON_USEDEP}] )
 	app? ( dev-python/python-decouple[${PYTHON_USEDEP}] )
-	colorama? ( dev-python/colorama[${PYTHON_USEDEP}] )"
+	colorama? ( >=dev-python/colorama-0.4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

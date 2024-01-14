@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-3.2.0[${PYTHON_USEDEP}]
+	~dev-python/humanize-4.7.0[${PYTHON_USEDEP}]
+	~dev-python/idna-3.4[${PYTHON_USEDEP}]
 	dev-python/prettyformatter[${PYTHON_USEDEP}]
 	dev-python/pyqt5-qt5[${PYTHON_USEDEP}]
 	dev-python/pyqt5-sip[${PYTHON_USEDEP}]
 	dev-python/pyqt5[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-2.0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

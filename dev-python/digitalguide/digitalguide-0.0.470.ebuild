@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
 	dev-python/mongoengine[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.17.5[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
 	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	twilio? ( dev-python/twilio[${PYTHON_USEDEP}] )
 	twilio? ( dev-python/quart[${PYTHON_USEDEP}] )
-	twilio? ( dev-python/hypercorn[${PYTHON_USEDEP}] )
+	twilio? ( ~dev-python/hypercorn-0.13.2[${PYTHON_USEDEP}] )
 	twilio? ( dev-python/redis[${PYTHON_USEDEP}] )
 	twilio? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	twilio? ( dev-python/Pillow[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
 	whatsapp? ( dev-python/heyoo[${PYTHON_USEDEP}] )
 	whatsapp? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	whatsapp? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	whatsapp_sync? ( dev-python/redis[${PYTHON_USEDEP}] )
+	whatsapp_sync? ( ~dev-python/redis-3.4.1[${PYTHON_USEDEP}] )
 	whatsapp_sync? ( dev-python/heyoo[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

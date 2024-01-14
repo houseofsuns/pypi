@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/easimpconf[${PYTHON_USEDEP}]
 	dev-python/ftputil[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	~dev-python/paramiko-2.7[${PYTHON_USEDEP}]
 	dev-python/salmagundi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

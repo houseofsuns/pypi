@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc test"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-18.0[${PYTHON_USEDEP}]
 	dev-python/obspy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.2.0[${PYTHON_USEDEP}]
 	dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/fpdf[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-rtd-theme-1.1.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-1.1.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

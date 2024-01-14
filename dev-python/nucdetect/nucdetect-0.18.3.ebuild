@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>dev-python/matplotlib-3.1.3[${PYTHON_USEDEP}]
 	dev-python/pyqt5[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/qtawesome[${PYTHON_USEDEP}]
-	dev-python/piexif[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]"
+	>dev-python/pillow-7.0.0[${PYTHON_USEDEP}]
+	>dev-python/qtawesome-0.6.1[${PYTHON_USEDEP}]
+	>=dev-python/piexif-1.1.3[${PYTHON_USEDEP}]
+	>=dev-python/pyqtgraph-0.11.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

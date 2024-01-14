@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]"
+	>=dev-python/google-auth-httplib2-0.0.1[${PYTHON_USEDEP}]
+	<dev-python/google-auth-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.15.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

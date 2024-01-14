@@ -24,39 +24,39 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev dev-flake8 dev-formatting dev-mkdocs dev-mypy dev-noxfile dev-pylint dev-pytest"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-tools-2.0[${PYTHON_USEDEP}]
 	dev-python/frequenz-channels[${PYTHON_USEDEP}]
 	dev? ( dev-python/frequenz-client-base[${PYTHON_USEDEP}] )
-	dev-flake8? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev-flake8? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	dev-flake8? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev-flake8? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
 	dev-flake8? ( dev-python/pydoclint[${PYTHON_USEDEP}] )
-	dev-flake8? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev-formatting? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev-formatting? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev-mkdocs? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev-flake8? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	dev-formatting? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
+	dev-formatting? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev-mkdocs? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( dev-python/Markdown[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( dev-python/mike[${PYTHON_USEDEP}] )
-	dev-mkdocs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
+	dev-mkdocs? ( ~dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
-	dev-mkdocs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev-mkdocs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	dev-mkdocs? ( ~dev-python/mkdocs-material-9.3.1[${PYTHON_USEDEP}] )
+	dev-mkdocs? ( ~dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( dev-python/frequenz-repo-config[${PYTHON_USEDEP}] )
-	dev-mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev-mypy? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
 	dev-mypy? ( dev-python/types-Markdown[${PYTHON_USEDEP}] )
 	dev-mypy? ( dev-python/grpc-stubs[${PYTHON_USEDEP}] )
 	dev-mypy? ( dev-python/frequenz-client-base[${PYTHON_USEDEP}] )
-	dev-noxfile? ( dev-python/nox[${PYTHON_USEDEP}] )
+	dev-noxfile? ( ~dev-python/nox-2023.4.22[${PYTHON_USEDEP}] )
 	dev-noxfile? ( dev-python/frequenz-repo-config[${PYTHON_USEDEP}] )
-	dev-pylint? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev-pylint? ( ~dev-python/pylint-3.0.2[${PYTHON_USEDEP}] )
 	dev-pylint? ( dev-python/frequenz-client-base[${PYTHON_USEDEP}] )
-	dev-pytest? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev-pytest? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	dev-pytest? ( dev-python/frequenz-repo-config[${PYTHON_USEDEP}] )
-	dev-pytest? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev-pytest? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	dev-pytest? ( ~dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
+	dev-pytest? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
 	dev-pytest? ( dev-python/async-solipsism[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

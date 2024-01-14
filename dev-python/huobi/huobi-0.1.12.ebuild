@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="socks"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/requests-2.4.2[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.1.0[${PYTHON_USEDEP}]
+	socks? ( >=dev-python/PySocks-1.5.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cairo dev"
-DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/rich-12.4.3[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	dev-python/rich-cli[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]

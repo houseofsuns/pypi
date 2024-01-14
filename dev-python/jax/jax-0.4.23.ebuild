@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="australis ci cpu cuda11_pip cuda12 cuda12_pip minimum-jaxlib tpu"
 DEPENDENCIES="dev-python/ml-dtypes[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/opt-einsum[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.11.1[${PYTHON_USEDEP}]
 	australis? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	ci? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	cpu? ( dev-python/jaxlib[${PYTHON_USEDEP}] )

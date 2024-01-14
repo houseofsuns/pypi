@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jwcrypto[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	>=dev-python/requests-2.20.1[${PYTHON_USEDEP}]
+	>=dev-python/jwcrypto-1.4.2[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-3.0.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

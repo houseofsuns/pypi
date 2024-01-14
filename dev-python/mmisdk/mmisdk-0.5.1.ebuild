@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pydantic-1.10.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.26.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

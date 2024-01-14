@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flake8-6.0[${PYTHON_USEDEP}]
+	<dev-python/flake8-7.0[${PYTHON_USEDEP}]
+	<dev-python/pycodestyle-3.0[${PYTHON_USEDEP}]
+	<dev-python/pycodestyle-3.0[${PYTHON_USEDEP}]
+	>=dev-python/black-23.1[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+	>=dev-python/isort-5.10[${PYTHON_USEDEP}]
 	dev-python/flake8-black[${PYTHON_USEDEP}]
 	dev-python/flake8-docstrings[${PYTHON_USEDEP}]
 	dev-python/flake8-import-order[${PYTHON_USEDEP}]

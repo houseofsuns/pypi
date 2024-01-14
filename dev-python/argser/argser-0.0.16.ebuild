@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all argcomplete tabulate"
-DEPENDENCIES="tabulate? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	argcomplete? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
-	all? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
-	dev-python/termcolor[${PYTHON_USEDEP}]"
+DEPENDENCIES="tabulate? ( <dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
+	argcomplete? ( <dev-python/argcomplete-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/argcomplete-2.0[${PYTHON_USEDEP}] )
+	<dev-python/termcolor-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

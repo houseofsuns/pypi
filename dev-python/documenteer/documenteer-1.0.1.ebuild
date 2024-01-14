@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev guide pipelines technote"
-DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docutils-0.20[${PYTHON_USEDEP}]
 	dev-python/Sphinx[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/sphinxcontrib-bibtex-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/pylatexenc[${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-mock[${PYTHON_USEDEP}] )
 	guide? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	guide? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	guide? ( <dev-python/pydata-sphinx-theme-0.13.0[${PYTHON_USEDEP}] )
 	guide? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	guide? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	guide? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	guide? ( dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}] )
 	guide? ( dev-python/sphinxext-rediraffe[${PYTHON_USEDEP}] )
 	pipelines? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	pipelines? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	pipelines? ( <dev-python/pydata-sphinx-theme-0.13.0[${PYTHON_USEDEP}] )
 	pipelines? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	pipelines? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	pipelines? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )

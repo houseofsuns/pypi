@@ -32,10 +32,10 @@ DEPENDENCIES="dev-python/flask-limiter[${PYTHON_USEDEP}]
 	dev-python/invenio-celery[${PYTHON_USEDEP}]
 	dev-python/invenio-config[${PYTHON_USEDEP}]
 	dev-python/limits[${PYTHON_USEDEP}]
-	dev-python/uritools[${PYTHON_USEDEP}]
+	>=dev-python/uritools-1.0.1[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/mock-4.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

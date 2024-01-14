@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/latch-sdk-config[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]"
+	~dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

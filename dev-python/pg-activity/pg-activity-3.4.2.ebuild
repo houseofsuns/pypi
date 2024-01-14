@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev psycopg psycopg2 testing typing"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/blessed[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-17.4[${PYTHON_USEDEP}]
+	>=dev-python/blessed-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/humanize-0.5.1[${PYTHON_USEDEP}]
+	>=dev-python/psutil-2.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pg-activity[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

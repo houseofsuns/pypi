@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="complete diamond_norm evolutionary_optimization extensions html_reports interpygate linting memory_profiling mongodb msgpack multiprocessor no_mpi notebooks report_pdf_figures report_pickling testing"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	complete? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	complete? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	complete? ( dev-python/csaps[${PYTHON_USEDEP}] )
-	complete? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
+	complete? ( <=dev-python/cvxopt-1.3.0.1[${PYTHON_USEDEP}] )
 	complete? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	complete? ( dev-python/qibo[${PYTHON_USEDEP}] )
 	complete? ( dev-python/notebook[${PYTHON_USEDEP}] )
@@ -94,7 +94,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	no_mpi? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	no_mpi? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	no_mpi? ( dev-python/csaps[${PYTHON_USEDEP}] )
-	no_mpi? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
+	no_mpi? ( <=dev-python/cvxopt-1.3.0.1[${PYTHON_USEDEP}] )
 	no_mpi? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	no_mpi? ( dev-python/qibo[${PYTHON_USEDEP}] )
 	no_mpi? ( dev-python/notebook[${PYTHON_USEDEP}] )
@@ -108,7 +108,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nbval[${PYTHON_USEDEP}] )
 	testing? ( dev-python/csaps[${PYTHON_USEDEP}] )
-	testing? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
+	testing? ( <=dev-python/cvxopt-1.3.0.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/cython[${PYTHON_USEDEP}] )
 	testing? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

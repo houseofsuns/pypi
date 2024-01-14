@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/incremental[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/incremental-22.10.0[${PYTHON_USEDEP}]
+	~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
 	dev-python/PySide6[${PYTHON_USEDEP}]
 	dev-python/systembridgeconnector[${PYTHON_USEDEP}]
 	dev-python/systembridgeshared[${PYTHON_USEDEP}]

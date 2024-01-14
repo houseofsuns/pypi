@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pycodestyle[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pycodestyle-2.11.1[${PYTHON_USEDEP}]
 	dev-python/coveralls[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
+	~dev-python/pygame-2.5.2[${PYTHON_USEDEP}]
 	dev-python/python-semantic-release[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+	~dev-python/mypy-1.8.0[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.42.0[${PYTHON_USEDEP}]
 	dev-python/micropython-rp2-pico-stubs[${PYTHON_USEDEP}]
 	dev-python/adafruit-ampy[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/twine-4.0.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/types-Pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

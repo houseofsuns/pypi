@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/confluent-kafka[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
+	<dev-python/defusedxml-0.8.0[${PYTHON_USEDEP}]
 	dev-python/json-stream[${PYTHON_USEDEP}]
 	dev-python/json-stream-rs-tokenizer[${PYTHON_USEDEP}]
 	dev-python/cmem-plugin-base[${PYTHON_USEDEP}]"

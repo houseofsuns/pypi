@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="postgresql test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
+	~dev-python/alembic-1.12.0[${PYTHON_USEDEP}]
 	dev-python/asyncblink[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/sanic[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0.22[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/webargs-sanic[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	<dev-python/websockets-11.0[${PYTHON_USEDEP}]
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	test? ( dev-python/aioresponses[${PYTHON_USEDEP}] )
 	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )

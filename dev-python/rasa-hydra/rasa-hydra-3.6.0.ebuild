@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="convert mitie spacy sql test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.20[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.9[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-18.0[${PYTHON_USEDEP}]
+	~dev-python/jsonpickle-1.1[${PYTHON_USEDEP}]
+	~dev-python/redis-3.5.0[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.8[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.2[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-datasets[${PYTHON_USEDEP}]
-	dev-python/absl-py[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/absl-py-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-probability[${PYTHON_USEDEP}]
 	dev-python/tensor2tensor[${PYTHON_USEDEP}]
 	dev-python/gym[${PYTHON_USEDEP}]
 	dev-python/apscheduler[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.0[${PYTHON_USEDEP}]
+	~dev-python/networkx-2.3.0[${PYTHON_USEDEP}]
 	dev-python/fbmessenger[${PYTHON_USEDEP}]
-	dev-python/pykwalify[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+	~dev-python/pykwalify-1.7.0[${PYTHON_USEDEP}]
+	~dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.15.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/slackclient[${PYTHON_USEDEP}]
 	dev-python/python-telegram-bot[${PYTHON_USEDEP}]
@@ -56,32 +56,32 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/mattermostwrapper[${PYTHON_USEDEP}]
 	dev-python/rocketchat-API[${PYTHON_USEDEP}]
 	dev-python/colorhash[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/pika-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
+	~dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/pytz-2019.1[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
 	dev-python/rasa-sdk[${PYTHON_USEDEP}]
-	dev-python/colorclass[${PYTHON_USEDEP}]
-	dev-python/terminaltables[${PYTHON_USEDEP}]
+	~dev-python/colorclass-2.2[${PYTHON_USEDEP}]
+	~dev-python/terminaltables-3.1[${PYTHON_USEDEP}]
 	dev-python/sanic[${PYTHON_USEDEP}]
 	dev-python/sanic-cors[${PYTHON_USEDEP}]
 	dev-python/sanic-jwt[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/multidict-4.6.1[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.5[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
-	dev-python/python-engineio[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
+	~dev-python/python-engineio-3.14.2[${PYTHON_USEDEP}]
+	~dev-python/pydot-1.4[${PYTHON_USEDEP}]
 	dev-python/pymssql[${PYTHON_USEDEP}]
 	dev-python/async-generator[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/sklearn-crfsuite[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	~dev-python/prompt-toolkit-2.0.10[${PYTHON_USEDEP}]
 	dev-python/opentracing-instrumentation[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+	~dev-python/prometheus-client-0.7.1[${PYTHON_USEDEP}]
 	dev-python/sanic-prometheus[${PYTHON_USEDEP}]
 	dev-python/aredis[${PYTHON_USEDEP}]
 	dev-python/aioredis[${PYTHON_USEDEP}]
@@ -89,11 +89,11 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/json-logging[${PYTHON_USEDEP}]
 	dev-python/pyinstrument[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/gast[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]
+	~dev-python/gast-0.2.2[${PYTHON_USEDEP}]
+	~dev-python/cloudpickle-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/h2-3.0.0[${PYTHON_USEDEP}]
 	dev-python/dopamine-rl[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	~dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-hub[${PYTHON_USEDEP}]
 	dev-python/text2digits[${PYTHON_USEDEP}]
 	dev-python/aiokafka[${PYTHON_USEDEP}]
@@ -105,16 +105,16 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	spacy? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	sql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	sql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-localserver[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-5.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.7[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-localserver-0.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-sanic[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/aioresponses[${PYTHON_USEDEP}] )
-	test? ( dev-python/moto[${PYTHON_USEDEP}] )
-	test? ( dev-python/fakeredis[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/responses-0.9.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/freezegun-0.3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nbsphinx-0.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/aioresponses-0.6.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/moto-1.3.8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/fakeredis-1.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/asynctest[${PYTHON_USEDEP}] )
 	test? ( dev-python/ecs-logging[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

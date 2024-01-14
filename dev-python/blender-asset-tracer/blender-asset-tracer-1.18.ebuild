@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="s3 zstandard"
-DEPENDENCIES="s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
-	zstandard? ( dev-python/zstandard[${PYTHON_USEDEP}] )"
+DEPENDENCIES="s3? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	zstandard? ( <dev-python/zstandard-0.16[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

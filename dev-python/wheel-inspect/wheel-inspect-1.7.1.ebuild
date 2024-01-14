@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-18.1[${PYTHON_USEDEP}]
 	dev-python/entry-points-txt[${PYTHON_USEDEP}]
 	dev-python/headerparser[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/readme-renderer[${PYTHON_USEDEP}]
+	>=dev-python/packaging-17.1[${PYTHON_USEDEP}]
+	>=dev-python/readme-renderer-24.0[${PYTHON_USEDEP}]
 	dev-python/wheel-filename[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

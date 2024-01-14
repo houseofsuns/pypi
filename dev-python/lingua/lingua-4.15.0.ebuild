@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="chameleonextractor dev"
-DEPENDENCIES="dev-python/polib[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/polib-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	chameleonextractor? ( dev-python/Chameleon[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

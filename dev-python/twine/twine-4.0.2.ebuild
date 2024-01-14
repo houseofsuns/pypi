@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pkginfo[${PYTHON_USEDEP}]
-	dev-python/readme-renderer[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/rfc3986[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pkginfo-1.8.1[${PYTHON_USEDEP}]
+	>=dev-python/readme-renderer-35.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-3.6[${PYTHON_USEDEP}]
+	>=dev-python/keyring-15.1[${PYTHON_USEDEP}]
+	>=dev-python/rfc3986-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

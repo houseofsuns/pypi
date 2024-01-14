@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs fast"
-DEPENDENCIES="dev-python/tzdata[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	fast? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	fast? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/tzdata-2023.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	fast? ( <dev-python/uvloop-0.17.0[${PYTHON_USEDEP}] )
+	fast? ( <dev-python/aiofiles-23.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-intl[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/furo-2023.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-prompt-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx-Substitution-Extensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/towncrier-22.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/pymdown-extensions-10.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/markdown-include-0.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

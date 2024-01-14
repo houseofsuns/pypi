@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ldap3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ldap3-2.0.7[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-wtf[${PYTHON_USEDEP}]
 	dev-python/WTForms[${PYTHON_USEDEP}]"

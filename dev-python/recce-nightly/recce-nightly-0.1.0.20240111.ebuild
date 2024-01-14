@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1[${PYTHON_USEDEP}]
 	dev-python/dbt-core[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/portalocker[${PYTHON_USEDEP}]
@@ -34,14 +34,14 @@ DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.0.0[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/watchdog[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )

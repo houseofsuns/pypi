@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/rebulk[${PYTHON_USEDEP}]
-	dev-python/babelfish[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/rebulk-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/babelfish-0.6.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )

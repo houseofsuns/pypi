@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/jupyter-server-fileid[${PYTHON_USEDEP}]
 	dev-python/jupyter-ydoc[${PYTHON_USEDEP}]
 	dev-python/ypy-websocket[${PYTHON_USEDEP}]
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/jupyter-server-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-tornasync[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

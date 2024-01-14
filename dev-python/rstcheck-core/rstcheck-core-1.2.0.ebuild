@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs sphinx testing toml type-check yaml"
-DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docutils-0.7[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/rstcheck-core[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-3.15[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.15[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-apidoc-0.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-spelling-7.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	sphinx? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/coverage-6.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage-conditional-plugin[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-sugar-0.9.5[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	type-check? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	type-check? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-mock-3.7[${PYTHON_USEDEP}] )
+	toml? ( >=dev-python/tomli-2.0[${PYTHON_USEDEP}] )
+	type-check? ( >=dev-python/mypy-1.0[${PYTHON_USEDEP}] )
+	type-check? ( >=dev-python/types-docutils-0.18[${PYTHON_USEDEP}] )
 	type-check? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

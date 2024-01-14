@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mqtt-client"
 DEPENDENCIES="dev-python/awesomeversion[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/crcmod[${PYTHON_USEDEP}]
+	>=dev-python/crcmod-1.7[${PYTHON_USEDEP}]
 	dev-python/getmac[${PYTHON_USEDEP}]
 	dev-python/IntelHex[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.4[${PYTHON_USEDEP}]
 	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.11.1[${PYTHON_USEDEP}]
 	mqtt-client? ( dev-python/paho-mqtt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

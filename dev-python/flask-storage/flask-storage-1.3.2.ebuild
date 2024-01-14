@@ -27,14 +27,14 @@ IUSE="dev test"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/flask-mongoengine[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	~dev-python/boto3-1.26.102[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flit-3.6.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-faker[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-sugar-0.9.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.8.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

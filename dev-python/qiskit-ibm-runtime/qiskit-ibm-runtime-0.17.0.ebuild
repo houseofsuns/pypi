@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-ntlm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.19[${PYTHON_USEDEP}]
+	>=dev-python/requests-ntlm-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.21.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-1.5.1[${PYTHON_USEDEP}]
 	dev-python/ibm-platform-services[${PYTHON_USEDEP}]
 	dev-python/qiskit-ibm-provider[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

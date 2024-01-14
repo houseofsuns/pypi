@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}]
 	dev-python/apache-airflow-providers-http[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.28.0[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.31.0[${PYTHON_USEDEP}]
+	>=dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	dev-python/jsonpath_ng[${PYTHON_USEDEP}]
 	dev-python/redshift_connector[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy_redshift[${PYTHON_USEDEP}]
@@ -47,8 +47,8 @@ DEPENDENCIES="dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}]
 	microsoft-azure? ( dev-python/apache-airflow-providers-microsoft-azure[${PYTHON_USEDEP}] )
 	mongo? ( dev-python/apache-airflow-providers-mongo[${PYTHON_USEDEP}] )
 	openlineage? ( dev-python/apache-airflow-providers-openlineage[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	python3-saml? ( dev-python/python3-saml[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-0.17.1[${PYTHON_USEDEP}] )
+	python3-saml? ( >=dev-python/python3-saml-1.16.0[${PYTHON_USEDEP}] )
 	s3fs? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	salesforce? ( dev-python/apache-airflow-providers-salesforce[${PYTHON_USEDEP}] )
 	ssh? ( dev-python/apache-airflow-providers-ssh[${PYTHON_USEDEP}] )"

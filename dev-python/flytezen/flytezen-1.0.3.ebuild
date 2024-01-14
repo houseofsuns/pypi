@@ -25,51 +25,51 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs lint test"
 DEPENDENCIES="dev-python/hydra-zen[${PYTHON_USEDEP}]
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/dulwich[${PYTHON_USEDEP}]
+	~dev-python/dulwich-0.21.7[${PYTHON_USEDEP}]
 	dev-python/flytekit[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	~dev-python/fsspec-2023.9.2[${PYTHON_USEDEP}]
 	dev-python/hydra-joblib-launcher[${PYTHON_USEDEP}]
 	docs? ( dev-python/jupyter_contrib_nbextensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter_contrib_nbextensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jupyterlab-4.0.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	dev-python/mashumaro[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	dev-python/mkdocstrings-python[${PYTHON_USEDEP}]
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	dev? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plumbum[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/mkdocs-material-9.4.14[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-material-9.4.14[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
+	~dev-python/mkdocstrings-python-1.7.5[${PYTHON_USEDEP}]
+	lint? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/notebook-6.4.13[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/notebook-6.4.13[${PYTHON_USEDEP}] )
+	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	~dev-python/plumbum-1.8.2[${PYTHON_USEDEP}]
 	test? ( dev-python/poethepoet[${PYTHON_USEDEP}] )
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-14.0.2[${PYTHON_USEDEP}]
+	~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
 	lint? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	test? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/rich-13.6.0[${PYTHON_USEDEP}]
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	test? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/xdoctest[${PYTHON_USEDEP}] )"
+	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
+	test? ( ~dev-python/xdoctest-1.1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/xdoctest-1.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

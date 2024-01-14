@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/bitarray[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyserial-3.4[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.2[${PYTHON_USEDEP}]
+	>=dev-python/bitarray-0.8[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-18.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.1[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]"
+	>=dev-python/networkx-2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/adal[${PYTHON_USEDEP}]
 	dev-python/azure-cli-command-modules-nspkg[${PYTHON_USEDEP}]
 	dev-python/azure-cli-core[${PYTHON_USEDEP}]
 	dev-python/azure-servicefabric[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]"
+	>=dev-python/mock-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

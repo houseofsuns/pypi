@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev test"
-DEPENDENCIES="dev-python/aiosqlite[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiosqlite-0.18[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
+	>=dev-python/deepmerge-1.0[${PYTHON_USEDEP}]
 	dev-python/faiss-cpu[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-5.2.0[${PYTHON_USEDEP}]
 	dev-python/jupyter-ai-magics[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
+	<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
+	~dev-python/jupyterlab-4.0[${PYTHON_USEDEP}]
 	dev-python/langchain-core[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	all? ( dev-python/jupyter-ai-magics[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-ai-magics[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
+	test? ( <dev-python/jupyter-server-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="termset tqdm zarr"
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/h5py-2.10[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.5[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
 	termset? ( dev-python/linkml-runtime[${PYTHON_USEDEP}] )
 	termset? ( dev-python/oaklib[${PYTHON_USEDEP}] )
-	termset? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	termset? ( >=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	termset? ( dev-python/schemasheets[${PYTHON_USEDEP}] )
-	tqdm? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	tqdm? ( >=dev-python/tqdm-4.41.0[${PYTHON_USEDEP}] )
 	zarr? ( dev-python/zarr[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

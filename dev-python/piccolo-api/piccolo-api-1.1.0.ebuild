@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all s3"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/piccolo[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )"
+	>=dev-python/httpx-0.20.0[${PYTHON_USEDEP}]
+	all? ( ~dev-python/boto3-1.0[${PYTHON_USEDEP}] )
+	s3? ( ~dev-python/boto3-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

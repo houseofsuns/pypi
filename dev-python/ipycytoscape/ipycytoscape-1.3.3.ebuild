@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs examples neo4j test"
-DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipywidgets-7.6.0[${PYTHON_USEDEP}]
 	dev-python/spectate[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
@@ -40,11 +40,11 @@ DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
 	examples? ( dev-python/monotonic[${PYTHON_USEDEP}] )
 	neo4j? ( dev-python/py2neo[${PYTHON_USEDEP}] )
 	neo4j? ( dev-python/monotonic[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbval[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbclassic[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nbclassic-0.2.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

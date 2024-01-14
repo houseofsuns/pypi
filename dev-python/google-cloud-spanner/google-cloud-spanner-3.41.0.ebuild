@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="libcst tracing"
-DEPENDENCIES="dev-python/google-api-core[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]
 	dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}]
-	dev-python/proto-plus[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlparse-0.4.4[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/proto-plus[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2.14[${PYTHON_USEDEP}]
+	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
 	libcst? ( dev-python/libcst[${PYTHON_USEDEP}] )
 	tracing? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
 	tracing? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )

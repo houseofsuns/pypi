@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bandit[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/bandit-2.0.0[${PYTHON_USEDEP}]
 	dev-python/flake8-bugbear[${PYTHON_USEDEP}]
 	dev-python/flake8-print[${PYTHON_USEDEP}]
 	dev-python/flake8-return[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
+	<dev-python/black-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/isort-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/flake8-7.0.0[${PYTHON_USEDEP}]
 	dev-python/flake8-comprehensions[${PYTHON_USEDEP}]
 	dev-python/flake8-datetimez[${PYTHON_USEDEP}]
 	dev-python/flake8-import-conventions[${PYTHON_USEDEP}]

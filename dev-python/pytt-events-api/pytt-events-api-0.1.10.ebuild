@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/email-validator[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
 	dev-python/phonenumbers[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.4[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

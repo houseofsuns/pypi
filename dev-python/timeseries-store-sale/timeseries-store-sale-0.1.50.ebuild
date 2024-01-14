@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
 	dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/keras-tcn[${PYTHON_USEDEP}]
 	dev-python/ngboost[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pickleshare[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.13.5[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/pickleshare-0.7.5[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-1.2.2[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

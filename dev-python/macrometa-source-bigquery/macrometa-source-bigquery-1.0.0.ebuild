@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/getschema[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.11.1[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-40.3.0[${PYTHON_USEDEP}]
 	dev-python/pipelinewise-singer-python[${PYTHON_USEDEP}]
 	dev-python/c8connector[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]"
+	~dev-python/prometheus-client-0.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

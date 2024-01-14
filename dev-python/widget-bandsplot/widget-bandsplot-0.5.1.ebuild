@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
 	dev-python/ipympl[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+	~dev-python/ipywidgets-7.7[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.2[${PYTHON_USEDEP}]
+	~dev-python/traitlets-5.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/selenium[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pylint-2.14[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/selenium-4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

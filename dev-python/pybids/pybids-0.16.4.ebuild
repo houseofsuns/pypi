@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci_tests dev doc docs model_reports plotting test tests tutorial"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25.2[${PYTHON_USEDEP}]
 	dev-python/formulaic[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.16[${PYTHON_USEDEP}]
 	dev-python/bids-validator[${PYTHON_USEDEP}]
 	dev-python/num2words[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
 	ci_tests? ( dev-python/pybids[${PYTHON_USEDEP}] )
 	ci_tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pybids[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-2.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	model_reports? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	model_reports? ( dev-python/altair[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/bsmschema[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )

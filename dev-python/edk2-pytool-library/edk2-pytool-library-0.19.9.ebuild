@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs publish"
-DEPENDENCIES="dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-modules-0.2.8[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-39.0.1[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.3.2[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/black[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	docs? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.5.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-python-1.7.5[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/markdown-include-0.8.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-exclude[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )
-	publish? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	publish? ( dev-python/build[${PYTHON_USEDEP}] )
-	publish? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	publish? ( ~dev-python/setuptools-69.0.3[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

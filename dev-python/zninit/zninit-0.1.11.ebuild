@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="typeguard"
-DEPENDENCIES="typeguard? ( dev-python/typeguard[${PYTHON_USEDEP}] )"
+DEPENDENCIES="typeguard? ( <dev-python/typeguard-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

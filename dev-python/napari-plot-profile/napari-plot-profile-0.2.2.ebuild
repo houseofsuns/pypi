@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/napari-plugin-engine[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
 	dev-python/napari-tools-menu[${PYTHON_USEDEP}]
 	dev-python/napari-skimage-regionprops[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]"
+	>dev-python/imageio-2.22.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

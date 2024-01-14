@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/xarray[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/xarray-2022.12.0[${PYTHON_USEDEP}]
 	dev-python/pyvista[${PYTHON_USEDEP}]
 	dev-python/scooby[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

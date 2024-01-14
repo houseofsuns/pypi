@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.28[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
 	dev-python/simplify-docx[${PYTHON_USEDEP}]
 	dev-python/pypdf2[${PYTHON_USEDEP}]

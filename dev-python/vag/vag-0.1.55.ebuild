@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/untangle[${PYTHON_USEDEP}]
+	<dev-python/untangle-2.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pylint-3.0.0[${PYTHON_USEDEP}]
 	dev-python/giteapy[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
+	<dev-python/oauthlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Login[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
 	dev-python/random-username[${PYTHON_USEDEP}]
 	dev-python/random-password-generator[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/cryptography-4.0.0[${PYTHON_USEDEP}]
 	dev-python/jenkinsapi[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="full? ( dev-python/poetry[${PYTHON_USEDEP}] )
-	full? ( dev-python/bandit[${PYTHON_USEDEP}] )
+DEPENDENCIES="full? ( <dev-python/poetry-2.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/bandit-2.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/safety[${PYTHON_USEDEP}] )
 	full? ( dev-python/dodgy[${PYTHON_USEDEP}] )
 	full? ( dev-python/dlint[${PYTHON_USEDEP}] )

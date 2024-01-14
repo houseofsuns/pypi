@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pymodbus solarman tests umodbus"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/attrs-21.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/mqtt-entity[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
+	~dev-python/prettytable-3.8.0[${PYTHON_USEDEP}]
+	~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
 	pymodbus? ( dev-python/pymodbus[${PYTHON_USEDEP}] )
 	solarman? ( dev-python/pysolarmanv5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	tests? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-jmespath[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	umodbus? ( dev-python/async-modbus[${PYTHON_USEDEP}] )

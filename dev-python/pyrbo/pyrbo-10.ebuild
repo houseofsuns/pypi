@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
 	dev-python/diapyr[${PYTHON_USEDEP}]
 	dev-python/nativecommon[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	>=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

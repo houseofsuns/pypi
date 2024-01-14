@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
 	dev-python/aiokit[${PYTHON_USEDEP}]
 	dev-python/aiosumma[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
+	>=dev-python/humanfriendly-10.0[${PYTHON_USEDEP}]
 	dev-python/ipfs-hamt-directory-py[${PYTHON_USEDEP}]
 	dev-python/izihawa-ipfs-api[${PYTHON_USEDEP}]
 	dev-python/izihawa-utils[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
+	>=dev-python/multidict-6.0.4[${PYTHON_USEDEP}]
 	dev-python/summa-embed[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-2.3.0[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

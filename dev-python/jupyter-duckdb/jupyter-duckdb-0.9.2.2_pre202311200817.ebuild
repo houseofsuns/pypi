@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
+	~dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
 	dev-python/checkmarkandcross[${PYTHON_USEDEP}]
 	dev-python/duckdb[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

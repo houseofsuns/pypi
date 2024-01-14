@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES="dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-tldr[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/setuptools-scm-8.0.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-4.11.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pyenchant-3.2.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-tabs-3.4.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-spelling-8.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytz-2021.0[${PYTHON_USEDEP}]
 	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

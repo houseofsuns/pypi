@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gui"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/aiosnow[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/html2text[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/html2text-2021.0.0[${PYTHON_USEDEP}]
 	dev-python/jira[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/PyGithub-2.0[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-toolbelt-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}]
 	dev-python/singledispatchmethod[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/types-Markdown[${PYTHON_USEDEP}]
 	dev-python/types-chardet[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
 	dev-python/types-setuptools[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	dev-python/frozenlist[${PYTHON_USEDEP}]
+	<dev-python/tomlkit-0.8.0[${PYTHON_USEDEP}]
+	<=dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
+	<dev-python/setuptools-70.0.0[${PYTHON_USEDEP}]
+	gui? ( <dev-python/pyside6-7.0.0[${PYTHON_USEDEP}] )
+	gui? ( <dev-python/pyside6-7.0.0[${PYTHON_USEDEP}] )
+	<dev-python/frozenlist-2.0.0[${PYTHON_USEDEP}]
 	dev-python/yeswehack[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

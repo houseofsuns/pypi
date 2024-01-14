@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="compatible-jax tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/deprecation-3.0[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	compatible-jax? ( dev-python/jax[${PYTHON_USEDEP}] )
 	tests? ( dev-python/jax[${PYTHON_USEDEP}] )

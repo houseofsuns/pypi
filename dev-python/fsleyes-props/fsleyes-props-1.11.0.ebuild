@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc style test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
 	dev-python/wxPython[${PYTHON_USEDEP}]
 	dev-python/fsleyes-widgets[${PYTHON_USEDEP}]
 	dev-python/fslpy[${PYTHON_USEDEP}]

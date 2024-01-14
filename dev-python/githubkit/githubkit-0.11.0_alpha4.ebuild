@@ -28,12 +28,12 @@ DEPENDENCIES="jwt? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
 	auth-app? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
 	auth? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
-	auth-oauth-device? ( dev-python/anyio[${PYTHON_USEDEP}] )
-	auth? ( dev-python/anyio[${PYTHON_USEDEP}] )
-	all? ( dev-python/anyio[${PYTHON_USEDEP}] )
+	auth-oauth-device? ( <dev-python/anyio-5.0.0[${PYTHON_USEDEP}] )
+	auth? ( <dev-python/anyio-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/anyio-5.0.0[${PYTHON_USEDEP}] )
 	dev-python/hishel[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	dev-python/json-lines[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	dev-python/scrapy[${PYTHON_USEDEP}]
 	dev-python/scrapy-fake-useragent[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.50.2[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.2[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.21.35[${PYTHON_USEDEP}]
 	dev-python/cleanco[${PYTHON_USEDEP}]
 	dev-python/bson[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
+	~dev-python/pymongo-4.3.2[${PYTHON_USEDEP}]
+	~dev-python/elasticsearch-8.4.3[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
+	~dev-python/pika-1.3.1[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

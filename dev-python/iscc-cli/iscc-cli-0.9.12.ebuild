@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/iscc[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/imageio-ffmpeg[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/click-default-group-2.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5[${PYTHON_USEDEP}]
+	<dev-python/imageio-ffmpeg-0.5[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
 	dev-python/mobi[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-magic-0.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

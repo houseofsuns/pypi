@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws consul etcd etcd3 exhibitor psycopg2 psycopg2-binary psycopg3 raft zookeeper"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/urllib3-1.19.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
+	>=dev-python/click-4.1[${PYTHON_USEDEP}]
+	>=dev-python/prettytable-0.7[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ydiff[${PYTHON_USEDEP}]
 	all? ( dev-python/python-etcd[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-consul[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/cryptography-1.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/pysyncobj[${PYTHON_USEDEP}] )
 	all? ( dev-python/kazoo[${PYTHON_USEDEP}] )
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
@@ -44,9 +44,9 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	exhibitor? ( dev-python/kazoo[${PYTHON_USEDEP}] )
 	psycopg2? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	psycopg2-binary? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	psycopg3? ( dev-python/psycopg[${PYTHON_USEDEP}] )
+	psycopg3? ( >=dev-python/psycopg-3.0.0[${PYTHON_USEDEP}] )
 	raft? ( dev-python/pysyncobj[${PYTHON_USEDEP}] )
-	raft? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	raft? ( >=dev-python/cryptography-1.4[${PYTHON_USEDEP}] )
 	zookeeper? ( dev-python/kazoo[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

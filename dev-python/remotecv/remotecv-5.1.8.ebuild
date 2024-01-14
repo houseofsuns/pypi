@@ -27,28 +27,28 @@ IUSE="dev"
 DEPENDENCIES="dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/pyres[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/redis-5.0[${PYTHON_USEDEP}]
+	~dev-python/sentry-sdk-1.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/click-option-group[${PYTHON_USEDEP}]
 	dev? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyres[${PYTHON_USEDEP}] )
-	dev? ( dev-python/redis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/redis-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sentry-sdk-1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/click-8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/click-option-group[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/celery[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/preggy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyssim[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-asyncio-0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/thumbor[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

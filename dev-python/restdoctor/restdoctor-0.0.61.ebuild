@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/uritemplate[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/semver-2.13.0[${PYTHON_USEDEP}]
+	~dev-python/uritemplate-4.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

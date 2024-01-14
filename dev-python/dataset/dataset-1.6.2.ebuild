@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/alembic-0.6.2[${PYTHON_USEDEP}]
 	dev-python/banal[${PYTHON_USEDEP}]
 	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
+	<dev-python/google-api-python-client-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/google-auth-oauthlib-0.5.0[${PYTHON_USEDEP}]
 	dev-python/pytablewriter[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
 	dev-python/pyexcelerate[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]

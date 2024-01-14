@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/asgiref-4.0.0[${PYTHON_USEDEP}]
 	dev-python/crypto-cpp-py[${PYTHON_USEDEP}]
 	docs? ( dev-python/enum-tools[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	dev-python/lark[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	docs? ( <dev-python/furo-2024.0.0[${PYTHON_USEDEP}] )
+	<dev-python/lark-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-dataclass[${PYTHON_USEDEP}]
 	dev-python/marshmallow-oneofschema[${PYTHON_USEDEP}]
 	dev-python/poseidon-py[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/pycryptodome-4.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

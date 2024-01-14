@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/azure-kusto-data[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )"
+	~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-21.12[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.971[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.15.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/Cython[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	dev-python/jstyleson[${PYTHON_USEDEP}]
 	dev-python/multicaller[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

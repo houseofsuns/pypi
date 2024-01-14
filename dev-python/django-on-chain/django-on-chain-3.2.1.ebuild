@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/coverage-6.0[${PYTHON_USEDEP}]
+	<=dev-python/django-4.0[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.13[${PYTHON_USEDEP}]
+	~dev-python/mock-4.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

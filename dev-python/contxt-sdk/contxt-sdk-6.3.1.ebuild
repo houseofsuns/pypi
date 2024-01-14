@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="crypto"
 DEPENDENCIES="dev-python/auth0-python[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	crypto? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	crypto? ( >=dev-python/cryptography-1.4[${PYTHON_USEDEP}] )
+	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/sgqlc[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]"
+	<dev-python/python-slugify-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

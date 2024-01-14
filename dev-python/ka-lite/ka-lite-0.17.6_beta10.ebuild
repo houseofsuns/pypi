@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-1.5.12[${PYTHON_USEDEP}]
+	<dev-python/docopt-0.7[${PYTHON_USEDEP}]
 	dev-python/South[${PYTHON_USEDEP}]
 	dev-python/django-js-reverse[${PYTHON_USEDEP}]
-	dev-python/ply[${PYTHON_USEDEP}]
+	~dev-python/ply-3.4[${PYTHON_USEDEP}]
 	dev-python/slimit[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	~dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/django-appconf[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/peewee-2.6.4[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.4.2[${PYTHON_USEDEP}]
 	dev-python/django-annoying[${PYTHON_USEDEP}]
-	dev-python/cherrypy[${PYTHON_USEDEP}]
+	~dev-python/cherrypy-3.3.0[${PYTHON_USEDEP}]
 	dev-python/ifcfg[${PYTHON_USEDEP}]
 	dev-python/importlib[${PYTHON_USEDEP}]
-	dev-python/pbkdf2[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
+	~dev-python/pbkdf2-1.3[${PYTHON_USEDEP}]
+	~dev-python/rsa-3.4.2[${PYTHON_USEDEP}]
 	dev-python/django-tastypie-legacy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

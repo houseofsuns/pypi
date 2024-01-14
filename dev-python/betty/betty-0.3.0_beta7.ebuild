@@ -24,59 +24,59 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci development pyinstaller setuptools test"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiofiles-23.2[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	~dev-python/click-8.1[${PYTHON_USEDEP}]
+	~dev-python/dill-0.3[${PYTHON_USEDEP}]
+	~dev-python/docker-7.0[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.17[${PYTHON_USEDEP}]
 	dev-python/langcodes[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.1[${PYTHON_USEDEP}]
+	~dev-python/ordered-set-4.1.0[${PYTHON_USEDEP}]
 	dev-python/pdf2image[${PYTHON_USEDEP}]
-	dev-python/polib[${PYTHON_USEDEP}]
+	~dev-python/polib-1.2[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/PyQt6-6.5[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/reactives[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
-	dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}]
+	~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}]
+	~dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/sphinx-autodoc-typehints-1.25.2[${PYTHON_USEDEP}]
 	ci? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	ci? ( dev-python/betty[${PYTHON_USEDEP}] )
 	development? ( dev-python/pytest-repeat[${PYTHON_USEDEP}] )
 	development? ( dev-python/betty[${PYTHON_USEDEP}] )
 	pyinstaller? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
-	setuptools? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	setuptools? ( dev-python/twine[${PYTHON_USEDEP}] )
-	setuptools? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	test? ( dev-python/aioresponses[${PYTHON_USEDEP}] )
-	test? ( dev-python/autopep8[${PYTHON_USEDEP}] )
+	setuptools? ( ~dev-python/setuptools-69.0[${PYTHON_USEDEP}] )
+	setuptools? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	setuptools? ( ~dev-python/wheel-0.40[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/aioresponses-0.7[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/autopep8-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/basedmypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/html5lib[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-7.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-7.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/html5lib-1.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pip-licenses[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pydocstyle-6.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-aioresponses[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xvfb[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.21[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.10[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-qt-4.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xvfb-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-click[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-polib[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/types-setuptools-69.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/betty[${PYTHON_USEDEP}] )
 	test? ( dev-python/betty[${PYTHON_USEDEP}] )
-	test? ( dev-python/lxml[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/lxml-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

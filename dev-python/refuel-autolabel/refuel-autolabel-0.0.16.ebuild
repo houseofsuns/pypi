@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all anthropic cohere dev google huggingface openai"
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/loguru-0.5.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.0[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/nervaluate[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/regex-2023.6.3[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.3.5[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.9[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/ipywidgets-8.0.6[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/simple-term-menu[${PYTHON_USEDEP}]
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -60,15 +60,15 @@ DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
 	all? ( dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-search-results[${PYTHON_USEDEP}] )
 	all? ( dev-python/cohere[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/redis-3.5.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/pdfplumber[${PYTHON_USEDEP}] )
 	all? ( dev-python/pdf2image[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytesseract[${PYTHON_USEDEP}] )
-	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytesseract-0.3.10[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	all? ( dev-python/fake-useragent[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pillow-9.5.0[${PYTHON_USEDEP}] )
 	anthropic? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	cohere? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

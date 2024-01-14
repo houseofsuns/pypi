@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/DateTime[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
-	dev-python/icalendar[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+	~dev-python/httplib2-0.20.1[${PYTHON_USEDEP}]
+	~dev-python/icalendar-4.0.8[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/pytz-2021.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

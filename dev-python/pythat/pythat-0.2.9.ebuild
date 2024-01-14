@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/xarray[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/xarray-0.17.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.2.1[${PYTHON_USEDEP}]
 	dev-python/netcdf4[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/swimlane-connector-exceptions[${PYTHON_USEDEP}]
 	dev-python/pyflattener[${PYTHON_USEDEP}]
 	dev-python/polling[${PYTHON_USEDEP}]"

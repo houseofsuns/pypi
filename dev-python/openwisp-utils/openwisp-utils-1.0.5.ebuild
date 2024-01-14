@@ -27,15 +27,15 @@ IUSE="celery qa rest"
 DEPENDENCIES="dev-python/django-model-utils[${PYTHON_USEDEP}]
 	dev-python/django-compress-staticfiles[${PYTHON_USEDEP}]
 	dev-python/swapper[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}]
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
-	qa? ( dev-python/black[${PYTHON_USEDEP}] )
-	qa? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	qa? ( dev-python/isort[${PYTHON_USEDEP}] )
-	qa? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
+	qa? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	qa? ( <=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
+	qa? ( ~dev-python/isort-5.0[${PYTHON_USEDEP}] )
+	qa? ( ~dev-python/readme-renderer-28.0[${PYTHON_USEDEP}] )
 	qa? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	rest? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
-	rest? ( dev-python/django-filter[${PYTHON_USEDEP}] )
+	rest? ( ~dev-python/djangorestframework-3.13.0[${PYTHON_USEDEP}] )
+	rest? ( ~dev-python/django-filter-21.1[${PYTHON_USEDEP}] )
 	rest? ( dev-python/drf-yasg[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

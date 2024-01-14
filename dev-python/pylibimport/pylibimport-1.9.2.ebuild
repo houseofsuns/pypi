@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pylibimp[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.2[${PYTHON_USEDEP}]
 	dev-python/light-process[${PYTHON_USEDEP}]
 	dev-python/package-parser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

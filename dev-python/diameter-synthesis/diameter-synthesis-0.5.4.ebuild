@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs plot test"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4[${PYTHON_USEDEP}]
 	dev-python/morphio[${PYTHON_USEDEP}]
 	dev-python/neurom[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.5[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6[${PYTHON_USEDEP}]
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-bluebrain-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	plot? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	plot? ( >=dev-python/seaborn-0.11.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/diff-pdf-visually[${PYTHON_USEDEP}] )
-	test? ( dev-python/decorator[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/decorator-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-click[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-console-scripts-1.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-xdist-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

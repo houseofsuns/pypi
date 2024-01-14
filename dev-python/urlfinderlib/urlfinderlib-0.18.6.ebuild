@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/icalendar[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/icalendar-4.0.7[${PYTHON_USEDEP}]
+	>=dev-python/idna-2.10[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.5.2[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/tld[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]"
+	>=dev-python/python-magic-0.4.18[${PYTHON_USEDEP}]
+	>=dev-python/tld-0.12.2[${PYTHON_USEDEP}]
+	>=dev-python/validators-0.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

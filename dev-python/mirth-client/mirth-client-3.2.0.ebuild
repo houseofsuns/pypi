@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+	<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/semver-3.0.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-rtd-theme-1.1.0[${PYTHON_USEDEP}] )
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	<dev-python/xmltodict-0.14[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

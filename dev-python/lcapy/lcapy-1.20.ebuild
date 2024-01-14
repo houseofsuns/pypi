@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
 	dev-python/property-cached[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.10.1[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )

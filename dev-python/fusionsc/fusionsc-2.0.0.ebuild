@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}]
 	dev-python/importlib_resources[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	dev-python/nest-asyncio[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]"

@@ -38,16 +38,16 @@ DEPENDENCIES="dev-python/spacy-transformers[${PYTHON_USEDEP}]
 	cuda90? ( dev-python/cupy-cuda90[${PYTHON_USEDEP}] )
 	cuda91? ( dev-python/cupy-cuda91[${PYTHON_USEDEP}] )
 	cuda92? ( dev-python/cupy-cuda92[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/furo-2022.12.7[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	style? ( dev-python/black[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/black-22.12.0[${PYTHON_USEDEP}] )
 	style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	style? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	style? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	style? ( >=dev-python/mypy-0.991[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

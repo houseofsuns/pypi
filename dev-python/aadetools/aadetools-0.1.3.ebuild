@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	dev-python/farasapy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	~dev-python/tqdm-4.62.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	~dev-python/regex-2021.4.4[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-3.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

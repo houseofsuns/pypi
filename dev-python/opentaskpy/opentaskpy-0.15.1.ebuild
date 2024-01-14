@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/referencing[${PYTHON_USEDEP}]
+	>=dev-python/jsonpath-ng-1.5[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.17[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-3.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28[${PYTHON_USEDEP}]
+	>=dev-python/referencing-0.29.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-paramiko[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-shell[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lovely-pytest-docker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.17.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="develop docs release test"
 DEPENDENCIES="dev-python/sphinx-design[${PYTHON_USEDEP}]
-	develop? ( dev-python/black[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/docutils-stubs[${PYTHON_USEDEP}] )
-	develop? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/poethepoet[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pyproject-fmt[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pyproject-fmt-0.14[${PYTHON_USEDEP}] )
 	develop? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	develop? ( dev-python/validate-pyproject[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/myst-parser-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	release? ( dev-python/build[${PYTHON_USEDEP}] )
+	release? ( <dev-python/build-1.0[${PYTHON_USEDEP}] )
 	release? ( dev-python/keyring[${PYTHON_USEDEP}] )
-	release? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )"
+	release? ( <dev-python/twine-5.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-regressions-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="alldeps"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	alldeps? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0[${PYTHON_USEDEP}]
+	alldeps? ( >=dev-python/numpy-1.9.0[${PYTHON_USEDEP}] )
+	alldeps? ( >=dev-python/scipy-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/bitstring[${PYTHON_USEDEP}]
 	dev-python/pylink-square[${PYTHON_USEDEP}]
 	dev-python/pyusb[${PYTHON_USEDEP}]
 	dev-python/unicorn[${PYTHON_USEDEP}]
-	dev-python/pygdbmi[${PYTHON_USEDEP}]"
+	>=dev-python/pygdbmi-0.10.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

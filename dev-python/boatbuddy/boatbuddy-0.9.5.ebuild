@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/events[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	~dev-python/flask-2.2.3[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	dev-python/gpxpy[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
+	~dev-python/keyring-23.13.1[${PYTHON_USEDEP}]
 	dev-python/latloncalc[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.1[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
 	dev-python/playsound[${PYTHON_USEDEP}]
 	dev-python/pymodbustcp[${PYTHON_USEDEP}]
 	dev-python/pyobjc[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]
 	dev-python/python-telegram-bot[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/rich-13.3.1[${PYTHON_USEDEP}]
 	dev-python/yagmail[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

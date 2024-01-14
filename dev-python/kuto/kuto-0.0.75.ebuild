@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="app encrypt excel pc web"
-DEPENDENCIES="dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-rerunfailures[${PYTHON_USEDEP}]
-	dev-python/pytest-xdist[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]
+	~dev-python/jmespath-0.9.5[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.17.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
+	~dev-python/pytest-rerunfailures-10.2[${PYTHON_USEDEP}]
+	~dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}]
 	dev-python/allure-pytest[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	app? ( dev-python/uiautomator2[${PYTHON_USEDEP}] )
 	app? ( dev-python/tidevice[${PYTHON_USEDEP}] )
@@ -41,10 +41,10 @@ DEPENDENCIES="dev-python/requests-toolbelt[${PYTHON_USEDEP}]
 	app? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	app? ( dev-python/easyocr[${PYTHON_USEDEP}] )
 	app? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	app? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	encrypt? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
-	excel? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	excel? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	app? ( ~dev-python/filelock-3.12.2[${PYTHON_USEDEP}] )
+	encrypt? ( ~dev-python/pycryptodome-3.14.1[${PYTHON_USEDEP}] )
+	excel? ( ~dev-python/pandas-1.3.4[${PYTHON_USEDEP}] )
+	excel? ( ~dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}] )
 	excel? ( dev-python/XlsxWriter[${PYTHON_USEDEP}] )
 	pc? ( dev-python/PyAutoGUI[${PYTHON_USEDEP}] )
 	pc? ( dev-python/opencv-python[${PYTHON_USEDEP}] )

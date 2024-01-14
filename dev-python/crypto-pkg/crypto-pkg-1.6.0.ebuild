@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pycryptodome[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pycryptodome-3.19.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

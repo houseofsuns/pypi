@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flake8[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flake8-3.6.0[${PYTHON_USEDEP}]
 	dev-python/pep8-naming[${PYTHON_USEDEP}]
 	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]
+	~dev-python/tox-3.13.2[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

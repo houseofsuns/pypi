@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/pygtrie[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	dev? ( dev-python/sqltrie[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-sugar-0.9.5[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.8.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mypy-0.971[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

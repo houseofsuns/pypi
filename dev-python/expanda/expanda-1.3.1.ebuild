@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/ijson[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.46.0[${PYTHON_USEDEP}]
 	dev-python/mwparserfromhell[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]
 	dev-python/kss[${PYTHON_USEDEP}]"

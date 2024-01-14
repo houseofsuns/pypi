@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ffmpeg-python[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/python-json-logger-2.0.4[${PYTHON_USEDEP}]
 	dev-python/influx_line_protocol[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

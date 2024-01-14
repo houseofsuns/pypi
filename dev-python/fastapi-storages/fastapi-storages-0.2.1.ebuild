@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	full? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	full? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/boto3-1.25[${PYTHON_USEDEP}]
+	full? ( ~dev-python/pillow-9.4[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

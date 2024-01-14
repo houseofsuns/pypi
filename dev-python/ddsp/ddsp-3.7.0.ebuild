@@ -27,7 +27,7 @@ IUSE="data_preparation gcp test"
 DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/cloudml-hypertune[${PYTHON_USEDEP}]
 	dev-python/crepe[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	<=dev-python/dill-0.3.4[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/gin-config[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
@@ -37,8 +37,8 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/mir-eval[${PYTHON_USEDEP}]
 	dev-python/note-seq[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	<=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflowjs[${PYTHON_USEDEP}]
@@ -46,12 +46,12 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/tensorflow-datasets[${PYTHON_USEDEP}]
 	dev-python/tflite-support[${PYTHON_USEDEP}]
 	data_preparation? ( dev-python/apache-beam[${PYTHON_USEDEP}] )
-	data_preparation? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
+	data_preparation? ( <=dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-compute-engine[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/oauth2client[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )"
+	test? ( >dev-python/pylint-2.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

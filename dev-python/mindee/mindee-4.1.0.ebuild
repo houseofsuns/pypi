@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev docs test"
-DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pikepdf[${PYTHON_USEDEP}]
-	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31[${PYTHON_USEDEP}]
+	~dev-python/pikepdf-8.6[${PYTHON_USEDEP}]
+	build? ( ~dev-python/build-0.9[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.17.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/setuptools-51.3.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.11.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinx-5.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.20[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all autograd ci dev doc opt tensorflow test torch"
-DEPENDENCIES="dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/joblib-0.14.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	all? ( dev-python/geomstats[${PYTHON_USEDEP}] )
 	autograd? ( dev-python/autograd[${PYTHON_USEDEP}] )
 	ci? ( dev-python/codecov[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/joblib[${PYTHON_USEDEP}]
 	doc? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/numpydoc-0.8[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )

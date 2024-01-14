@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/prettytable[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/prettytable-3.9.0[${PYTHON_USEDEP}]
 	dev-python/blosc[${PYTHON_USEDEP}]
 	dev-python/egorovsystem[${PYTHON_USEDEP}]
 	dev-python/uniittest[${PYTHON_USEDEP}]

@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all animated_stickers e2be metrics proxy sqlite weblogin"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
-	dev-python/commonmark[${PYTHON_USEDEP}]
+	<dev-python/commonmark-0.10[${PYTHON_USEDEP}]
 	dev-python/mautrix[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
+	<dev-python/paho-mqtt-2.0[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0[${PYTHON_USEDEP}]
+	<dev-python/python-magic-0.5[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18[${PYTHON_USEDEP}]
+	<dev-python/yarl-2.0[${PYTHON_USEDEP}]
 	dev-python/zstandard[${PYTHON_USEDEP}]
 	all? ( dev-python/aiohttp-socks[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	all? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
+	all? ( <dev-python/aiosqlite-0.20[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/prometheus-client-0.18[${PYTHON_USEDEP}] )
 	all? ( dev-python/pysocks[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-olm[${PYTHON_USEDEP}] )
 	all? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	all? ( dev-python/unpaddedbase64[${PYTHON_USEDEP}] )
-	animated_stickers? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	all? ( <dev-python/unpaddedbase64-3.0[${PYTHON_USEDEP}] )
+	animated_stickers? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
 	e2be? ( dev-python/python-olm[${PYTHON_USEDEP}] )
-	e2be? ( dev-python/unpaddedbase64[${PYTHON_USEDEP}] )
-	metrics? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
+	e2be? ( <dev-python/unpaddedbase64-3.0[${PYTHON_USEDEP}] )
+	metrics? ( <dev-python/prometheus-client-0.18[${PYTHON_USEDEP}] )
 	proxy? ( dev-python/aiohttp-socks[${PYTHON_USEDEP}] )
 	proxy? ( dev-python/pysocks[${PYTHON_USEDEP}] )
-	sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+	sqlite? ( <dev-python/aiosqlite-0.20[${PYTHON_USEDEP}] )
 	weblogin? ( dev-python/setuptools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

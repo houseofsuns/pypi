@@ -26,21 +26,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE="azure clarifai cli cohere docarray embeddings extended-testing javascript llms openai qdrant text-helpers"
 DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	dev-python/gigachain-community[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/jsonpatch[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonpatch-2.0[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-core[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	extended-testing? ( >=dev-python/tqdm-4.48.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/openapi-pydantic[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	llms? ( dev-python/manifest-ml[${PYTHON_USEDEP}] )
 	llms? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}] )
 	llms? ( dev-python/torch[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	openai? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
@@ -58,35 +58,35 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	llms? ( dev-python/huggingface_hub[${PYTHON_USEDEP}] )
 	embeddings? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/arxiv[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/pypdf[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/pypdf-4.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/aleph-alpha-client[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/pgvector[${PYTHON_USEDEP}] )
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+	<dev-python/async-timeout-5.0.0[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/atlassian-python-api[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/html2text[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/numexpr[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/html2text-2021.0.0[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/numexpr-3.0.0[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-cosmos[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/jq[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/jq-2.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
 	docarray? ( dev-python/docarray[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/lxml-5.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/pymupdf[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/rapidocr-onnxruntime[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/pypdfium2[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/gql[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/telethon[${PYTHON_USEDEP}] )
-	text-helpers? ( dev-python/chardet[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/chardet[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )
+	text-helpers? ( <dev-python/chardet-6.0.0[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/chardet-6.0.0[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/requests-toolbelt-2.0.0[${PYTHON_USEDEP}] )
 	llms? ( dev-python/openlm[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-ai-formrecognizer[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-ai-vision[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-cognitiveservices-speech[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/py-trello[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/bibtexparser[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/bibtexparser-2.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	llms? ( dev-python/clarifai[${PYTHON_USEDEP}] )
 	clarifai? ( dev-python/clarifai[${PYTHON_USEDEP}] )
@@ -98,17 +98,17 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	extended-testing? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/psychicapi[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/cassio[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/sympy[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/rapidfuzz[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/sympy-2.0[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/rapidfuzz-4.0.0[${PYTHON_USEDEP}] )
+	extended-testing? ( >dev-python/jsonschema-1.0[${PYTHON_USEDEP}] )
 	dev-python/langsmith[${PYTHON_USEDEP}]
 	extended-testing? ( dev-python/rank-bm25[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/gitpython[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/feedparser[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/feedparser-7.0.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/newspaper3k[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/xata[${PYTHON_USEDEP}] )
-	extended-testing? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/xmltodict-0.14.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/markdownify[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/assemblyai[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/dashvector[${PYTHON_USEDEP}] )
@@ -118,7 +118,7 @@ DEPENDENCIES="dev-python/gigachain-core[${PYTHON_USEDEP}]
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	dev-python/gigachat[${PYTHON_USEDEP}]
-	extended-testing? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+	extended-testing? ( <dev-python/aiosqlite-0.20.0[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/rspace_client[${PYTHON_USEDEP}] )
 	extended-testing? ( dev-python/upstash-redis[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-ai-textanalytics[${PYTHON_USEDEP}] )

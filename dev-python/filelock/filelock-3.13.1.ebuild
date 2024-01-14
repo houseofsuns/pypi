@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing typing"
-DEPENDENCIES="docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( >=dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.24[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	testing? ( dev-python/covdefaults[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/diff-cover[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	typing? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-mock-3.12[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-timeout-2.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	typing? ( >=dev-python/typing-extensions-4.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

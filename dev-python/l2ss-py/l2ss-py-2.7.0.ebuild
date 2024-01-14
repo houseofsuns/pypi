@@ -31,9 +31,9 @@ DEPENDENCIES="dev-python/netCDF4[${PYTHON_USEDEP}]
 	harmony? ( dev-python/harmony-service-lib[${PYTHON_USEDEP}] )
 	harmony? ( dev-python/pystac[${PYTHON_USEDEP}] )
 	dev-python/julian[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
 	dev-python/cf-xarray[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	~dev-python/numpy-1.26.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

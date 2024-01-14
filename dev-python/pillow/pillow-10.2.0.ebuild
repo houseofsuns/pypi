@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs fpx mic tests xmp"
 DEPENDENCIES="docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/olefile[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-removed-in[${PYTHON_USEDEP}] )

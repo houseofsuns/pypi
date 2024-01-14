@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/moto[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/botocore-1.27.59[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.24.59[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.8.2[${PYTHON_USEDEP}]
+	~dev-python/moto-4.1.6[${PYTHON_USEDEP}]
+	~dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
+	~dev-python/pytest-asyncio-0.20.3[${PYTHON_USEDEP}]
 	dev-python/pytest-localstack[${PYTHON_USEDEP}]
-	dev-python/pytest-mock[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
+	~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}]
+	~dev-python/coverage-7.2.2[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

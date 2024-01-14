@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc fastapi test"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	>=dev-python/pymongo-4.1.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/ipython-7.16.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocs-material-9.5.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-2.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.16.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-sugar-0.9.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/inline-snapshot[${PYTHON_USEDEP}] )
 	test? ( dev-python/async-asgi-testclient[${PYTHON_USEDEP}] )
 	test? ( dev-python/asyncmock[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytz[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-6.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytz-2023.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	test? ( dev-python/darglint[${PYTHON_USEDEP}] )
-	test? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/uvicorn-0.17.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/requests-2.24[${PYTHON_USEDEP}] )
 	test? ( dev-python/typer[${PYTHON_USEDEP}] )
-	test? ( dev-python/semver[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/semver-2.13.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-codspeed[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpx[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/httpx-0.24.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

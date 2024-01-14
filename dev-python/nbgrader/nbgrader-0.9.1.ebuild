@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/alembic-1.7[${PYTHON_USEDEP}]
+	>=dev-python/ipython-8.10.0[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.6[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
+	<dev-python/jupyter-client-9.0[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-server-2.0[${PYTHON_USEDEP}]
 	dev-python/jupyterlab-server[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/nbclient[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/jupyterlab-5.0[${PYTHON_USEDEP}]
+	>=dev-python/nbclient-0.6.1[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-6.0[${PYTHON_USEDEP}]
+	<dev-python/notebook-8.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/rapidfuzz-1.8[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/tbump[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.3[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/jupyter-packaging[${PYTHON_USEDEP}] )

@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/esda[${PYTHON_USEDEP}]
 	dev-python/libpysal[${PYTHON_USEDEP}]
 	dev-python/mapclassify[${PYTHON_USEDEP}]
 	dev-python/quantecon[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.4.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )

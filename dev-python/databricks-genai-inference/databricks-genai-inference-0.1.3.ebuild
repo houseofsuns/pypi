@@ -24,35 +24,35 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/databricks-cli[${PYTHON_USEDEP}]
 	dev-python/databricks-sdk[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	>=dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
+	all? ( >=dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-mock-3.7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )
-	all? ( dev-python/twine[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	all? ( dev-python/radon[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/build[${PYTHON_USEDEP}] )
-	all? ( dev-python/yapf[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pylint-2.12.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/radon-5.1.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/yapf-0.33.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.12.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/radon[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-3.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/radon-5.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/yapf-0.33.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

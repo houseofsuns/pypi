@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev notebooks"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.4[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.2[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-eradicate[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-broken-line[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/seaborn[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/mypy-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	notebooks? ( ~dev-python/jupyterlab-3.4[${PYTHON_USEDEP}] )
+	notebooks? ( ~dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )
+	notebooks? ( ~dev-python/seaborn-0.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

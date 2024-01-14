@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/rich-11.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/flatdict[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.5.3[${PYTHON_USEDEP}]
+	<dev-python/ipython-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/flatdict-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pytomlpp[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
+	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/traitlets-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
 	dev-python/cmake-format[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

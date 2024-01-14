@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/python-consul[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
+	>=dev-python/deepmerge-0.0.4[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/rfc3987[${PYTHON_USEDEP}]
 	dev-python/munch[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]"
+	>=dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

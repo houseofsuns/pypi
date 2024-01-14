@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="rsa sa"
 DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
 	rsa? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	sa? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	sa? ( <dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

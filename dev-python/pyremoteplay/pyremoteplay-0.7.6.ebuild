@@ -26,24 +26,24 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev gui"
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/pyps4-2ndscreen[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.4.6[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/pyee[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyside6[${PYTHON_USEDEP}] )
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/netifaces-0.11.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyside6-6.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/av[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sounddevice[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyjerasure[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pygame[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pygame-2.1.2[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/pyside6-6.2.0[${PYTHON_USEDEP}] )
 	gui? ( dev-python/av[${PYTHON_USEDEP}] )
 	gui? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
 	gui? ( dev-python/sounddevice[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyjerasure[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pygame[${PYTHON_USEDEP}] )"
+	gui? ( >=dev-python/pygame-2.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

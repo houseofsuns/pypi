@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="sftp ssh test"
 DEPENDENCIES="dev-python/email-validator[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.9[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31[${PYTHON_USEDEP}]
 	sftp? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	ssh? ( dev-python/fabric[${PYTHON_USEDEP}] )
 	test? ( dev-python/filelock[${PYTHON_USEDEP}] )

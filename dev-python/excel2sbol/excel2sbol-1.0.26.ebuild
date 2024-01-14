@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/sbol2[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	>=dev-python/validators-0.18.2[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]
 	dev-python/tyto[${PYTHON_USEDEP}]
 	dev-python/sbol3[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.0.0[${PYTHON_USEDEP}]
 	dev-python/excel-sbol-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

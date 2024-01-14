@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs lint_type_checks tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-gallery-1.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-copybutton-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-bibtex-3.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/myst-parser-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	lint_type_checks? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

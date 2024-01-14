@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/mknxgn-essentials[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
+	>=dev-python/bcrypt-3.2.2[${PYTHON_USEDEP}]
 	dev-python/mkiot[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]"
+	>=dev-python/psutil-5.9.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

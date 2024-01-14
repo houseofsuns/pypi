@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev mysql postgres redis"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.12.0[${PYTHON_USEDEP}]
+	~dev-python/bleach-6.0.0[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/css-inline[${PYTHON_USEDEP}]
-	dev-python/csscompressor[${PYTHON_USEDEP}]
-	dev-python/cssutils[${PYTHON_USEDEP}]
+	~dev-python/csscompressor-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/cssutils-2.7.0[${PYTHON_USEDEP}]
 	dev-python/defusedcsv[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap4[${PYTHON_USEDEP}]
@@ -37,25 +37,25 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/django-context-decorator[${PYTHON_USEDEP}]
 	dev-python/django-countries[${PYTHON_USEDEP}]
 	dev-python/django-csp[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	~dev-python/django-filter-23.2[${PYTHON_USEDEP}]
 	dev-python/django-formset-js-improved[${PYTHON_USEDEP}]
 	dev-python/django-formtools[${PYTHON_USEDEP}]
 	dev-python/django-hierarkey[${PYTHON_USEDEP}]
 	dev-python/django-i18nfield[${PYTHON_USEDEP}]
 	dev-python/django-libsass[${PYTHON_USEDEP}]
 	dev-python/django-scopes[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/libsass[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
+	~dev-python/libsass-0.22.0[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/publicsuffixlist[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/reportlab[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
+	~dev-python/qrcode-7.0[${PYTHON_USEDEP}]
+	~dev-python/reportlab-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/rules[${PYTHON_USEDEP}]
 	dev-python/urlman[${PYTHON_USEDEP}]
-	dev-python/vobject[${PYTHON_USEDEP}]
+	~dev-python/vobject-0.9.0[${PYTHON_USEDEP}]
 	dev-python/whitenoise[${PYTHON_USEDEP}]
 	dev-python/zxcvbn[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -82,6 +82,6 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	redis? ( ~dev-python/redis-4.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

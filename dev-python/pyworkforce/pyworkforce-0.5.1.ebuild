@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	dev-python/ortools[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]"
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	>dev-python/joblib-0.17[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

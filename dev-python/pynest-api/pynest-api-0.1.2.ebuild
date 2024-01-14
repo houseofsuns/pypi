@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mongo test"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.6[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.23.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/astor[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	mongo? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	~dev-python/astor-0.8.1[${PYTHON_USEDEP}]
+	~dev-python/black-23.11.0[${PYTHON_USEDEP}]
+	mongo? ( ~dev-python/pymongo-3.12.0[${PYTHON_USEDEP}] )
 	mongo? ( dev-python/motor[${PYTHON_USEDEP}] )
 	mongo? ( dev-python/beanie[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

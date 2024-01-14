@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/mozinfo[${PYTHON_USEDEP}]
 	dev-python/mozfile[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

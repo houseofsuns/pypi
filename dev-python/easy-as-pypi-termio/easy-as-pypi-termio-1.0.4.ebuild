@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="readthedocs"
 DEPENDENCIES="dev-python/ansi-escape-room[${PYTHON_USEDEP}]
 	dev-python/click-hotoffthehamster[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	dev-python/lazy_import[${PYTHON_USEDEP}]
-	readthedocs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	readthedocs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/texttable[${PYTHON_USEDEP}]
-	readthedocs? ( dev-python/tomli[${PYTHON_USEDEP}] )"
+	readthedocs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
+	readthedocs? ( <dev-python/sphinx-rtd-theme-3.0.0[${PYTHON_USEDEP}] )
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/texttable-2.0.0[${PYTHON_USEDEP}]
+	readthedocs? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs speedups"
 DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
 	dev-python/asyncclick[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-1.9[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/docutils-0.17[${PYTHON_USEDEP}] )
+	>=dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	speedups? ( dev-python/kasa-crypt[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	speedups? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	speedups? ( >=dev-python/orjson-3.9.1[${PYTHON_USEDEP}] )
+	>=dev-python/pydantic-1.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinxcontrib-programoutput-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

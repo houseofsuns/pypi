@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev plotting polars scalers"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/plotly-resampler[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyarrow[${PYTHON_USEDEP}] )

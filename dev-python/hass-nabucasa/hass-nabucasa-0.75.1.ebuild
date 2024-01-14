@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/pycognito[${PYTHON_USEDEP}]
 	dev-python/snitun[${PYTHON_USEDEP}]
 	dev-python/ciso8601[${PYTHON_USEDEP}]
 	dev-python/acme[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.8[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.3[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]
 	dev-python/atomicwrites-homeassistant[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/asdf[${PYTHON_USEDEP}]
 	docs? ( dev-python/stsci-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	test? ( dev-python/crds[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

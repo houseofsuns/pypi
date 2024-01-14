@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-activatable-model[${PYTHON_USEDEP}]
 	dev-python/django-manager-utils[${PYTHON_USEDEP}]
 	dev-python/python3-utils[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.10.5[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-nose[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-dynamic-fixture[${PYTHON_USEDEP}] )

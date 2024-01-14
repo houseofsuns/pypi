@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/coloredlogs-0.5[${PYTHON_USEDEP}]
 	dev-python/deb-pkg-tools[${PYTHON_USEDEP}]
 	dev-python/executor[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
+	>=dev-python/humanfriendly-8.0[${PYTHON_USEDEP}]
 	dev-python/pip-accel[${PYTHON_USEDEP}]
-	dev-python/pkginfo[${PYTHON_USEDEP}]
+	>=dev-python/pkginfo-1.1[${PYTHON_USEDEP}]
 	dev-python/property-manager[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

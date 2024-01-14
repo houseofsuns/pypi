@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="anthropic competitor-check detect-secrets high-quality-translation manifest pii profanity sql summary toxic-language vectordb"
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/eliot[${PYTHON_USEDEP}]
 	dev-python/eliot-tree[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.5[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/griffe[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	<dev-python/griffe-0.37.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.1.0[${PYTHON_USEDEP}]
+	<dev-python/regex-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/rstr[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	sql? ( dev-python/sqlvalidator[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlglot[${PYTHON_USEDEP}] )
+	sql? ( >=dev-python/sqlalchemy-2.0.9[${PYTHON_USEDEP}] )
+	sql? ( <dev-python/sqlglot-20.0.0[${PYTHON_USEDEP}] )
 	summary? ( dev-python/thefuzz[${PYTHON_USEDEP}] )
 	summary? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	vectordb? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
-	vectordb? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	vectordb? ( >=dev-python/numpy-1.24[${PYTHON_USEDEP}] )
 	profanity? ( dev-python/alt-profanity-check[${PYTHON_USEDEP}] )
 	detect-secrets? ( dev-python/detect-secrets[${PYTHON_USEDEP}] )
 	manifest? ( dev-python/manifest-ml[${PYTHON_USEDEP}] )

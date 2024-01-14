@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/extension-helpers[${PYTHON_USEDEP}]
 	dev-python/exoml[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/reportlab[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	~dev-python/imageio-2.9.0[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
+	~dev-python/reportlab-4.0.7[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

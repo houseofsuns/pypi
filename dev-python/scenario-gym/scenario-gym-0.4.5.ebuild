@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs gym hooks integrations testing"
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lxml-4.9.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/pyxodr[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-61.0.0[${PYTHON_USEDEP}]
 	dev-python/scenariogeneration[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
 	dev-python/Shapely[${PYTHON_USEDEP}]
 	dev? ( dev-python/gym[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dm-env[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	gym? ( dev-python/gym[${PYTHON_USEDEP}] )
-	hooks? ( dev-python/black[${PYTHON_USEDEP}] )
-	hooks? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	hooks? ( dev-python/isort[${PYTHON_USEDEP}] )
+	hooks? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	hooks? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	hooks? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	hooks? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	hooks? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	hooks? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	integrations? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	hooks? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	hooks? ( <dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}] )
+	integrations? ( >=dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

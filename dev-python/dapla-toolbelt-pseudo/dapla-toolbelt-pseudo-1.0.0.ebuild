@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/cryptography-41.0.0[${PYTHON_USEDEP}]
 	dev-python/dapla-toolbelt[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2023.5.0[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>dev-python/pygments-2.15.0[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]
 	dev-python/pylibmagic[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
+	>=dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

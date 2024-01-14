@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bitstring[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bitstring-3.1[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev pymc"
 DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
 	dev-python/blackjax[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.6[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.13[${PYTHON_USEDEP}]
 	dev-python/tensorflow-probability[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
@@ -47,11 +47,11 @@ DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyupgrade[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-autodoc-typehints-1.19[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-remove-toctrees[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-deprecated[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rtds-action[${PYTHON_USEDEP}] )

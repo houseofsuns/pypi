@@ -35,13 +35,13 @@ DEPENDENCIES="dev-python/spacy-legacy[${PYTHON_USEDEP}]
 	dev-python/catalogue[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/pathy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-1.8.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	cuda? ( dev-python/cupy[${PYTHON_USEDEP}] )
 	cuda100? ( dev-python/cupy-cuda100[${PYTHON_USEDEP}] )
 	cuda101? ( dev-python/cupy-cuda101[${PYTHON_USEDEP}] )

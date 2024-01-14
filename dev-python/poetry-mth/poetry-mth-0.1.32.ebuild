@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/prettytable-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/prompt-toolkit-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pygame-3.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]"
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

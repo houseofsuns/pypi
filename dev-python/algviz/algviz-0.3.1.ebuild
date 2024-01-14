@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]"
+DEPENDENCIES="<=dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
+	<=dev-python/ipykernel-6.23.1[${PYTHON_USEDEP}]
+	<=dev-python/ipython-8.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

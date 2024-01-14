@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.10[${PYTHON_USEDEP}]
 	dev-python/isbnlib[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

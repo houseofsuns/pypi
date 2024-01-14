@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/mdformat[${PYTHON_USEDEP}]
 	dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	dev-python/mdit-py-plugins[${PYTHON_USEDEP}]
+	<dev-python/mdit-py-plugins-0.4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

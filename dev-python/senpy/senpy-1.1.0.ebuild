@@ -25,31 +25,31 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="evaluation extras"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.4.1[${PYTHON_USEDEP}]
+	>=dev-python/tornado-4.4.3[${PYTHON_USEDEP}]
 	dev-python/PyLD[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/jsonref[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	~dev-python/rdflib-6.1.1[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/responses[${PYTHON_USEDEP}]
 	dev-python/jmespath[${PYTHON_USEDEP}]
 	evaluation? ( dev-python/gsitk[${PYTHON_USEDEP}] )
-	evaluation? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
+	evaluation? ( ~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}] )
 	evaluation? ( dev-python/Pattern[${PYTHON_USEDEP}] )
-	evaluation? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	evaluation? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	evaluation? ( ~dev-python/lxml-4.9.3[${PYTHON_USEDEP}] )
+	evaluation? ( ~dev-python/pandas-2.1.1[${PYTHON_USEDEP}] )
 	evaluation? ( dev-python/textblob[${PYTHON_USEDEP}] )
 	extras? ( dev-python/gsitk[${PYTHON_USEDEP}] )
-	extras? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
+	extras? ( ~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}] )
 	extras? ( dev-python/Pattern[${PYTHON_USEDEP}] )
-	extras? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	extras? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	extras? ( ~dev-python/lxml-4.9.3[${PYTHON_USEDEP}] )
+	extras? ( ~dev-python/pandas-2.1.1[${PYTHON_USEDEP}] )
 	extras? ( dev-python/textblob[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

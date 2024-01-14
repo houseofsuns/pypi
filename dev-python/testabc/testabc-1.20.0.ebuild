@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="eggroll pulsar rabbitmq spark testabc"
 DEPENDENCIES="dev-python/apsw[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.59.3[${PYTHON_USEDEP}]
+	~dev-python/grpcio-tools-1.59.3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.12[${PYTHON_USEDEP}]
 	dev-python/webargs[${PYTHON_USEDEP}]
 	dev-python/peewee[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/apsw[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/cos-python-sdk-v5[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	eggroll? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	eggroll? ( dev-python/lmdb[${PYTHON_USEDEP}] )
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/apsw[${PYTHON_USEDEP}]
 	eggroll? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	eggroll? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	pulsar? ( dev-python/pulsar-client[${PYTHON_USEDEP}] )
-	rabbitmq? ( dev-python/pika[${PYTHON_USEDEP}] )
+	rabbitmq? ( ~dev-python/pika-1.2.1[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	testabc? ( dev-python/fate-flow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

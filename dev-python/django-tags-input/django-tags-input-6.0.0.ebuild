@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs tests"
 DEPENDENCIES="docs? ( dev-python/django[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mock[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/django-utils2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

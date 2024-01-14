@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
-	geoip? ( dev-python/pycountry[${PYTHON_USEDEP}] )
+	geoip? ( ~dev-python/pycountry-17.5.14[${PYTHON_USEDEP}] )
 	geoip? ( dev-python/geoip2[${PYTHON_USEDEP}] )
 	geoip? ( dev-python/GeoIP[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/a2wsgi[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/a2wsgi-1.4[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.2[${PYTHON_USEDEP}]
+	>=dev-python/flask-cors-3.0[${PYTHON_USEDEP}]
 	dev-python/flask-graphql[${PYTHON_USEDEP}]
-	dev-python/flask-migrate[${PYTHON_USEDEP}]
-	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-migrate-4.0[${PYTHON_USEDEP}]
+	>=dev-python/flask-sqlalchemy-3.0[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.3[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/graphene-sqlalchemy-filter[${PYTHON_USEDEP}]
 	dev-python/graphene-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
@@ -44,10 +44,10 @@ DEPENDENCIES="dev-python/a2wsgi[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	tests? ( dev-python/async-asgi-testclient[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/snapshottest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-asyncio-0.14[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.12[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/snapshottest-0.6[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sqlparse[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

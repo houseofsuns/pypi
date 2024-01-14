@@ -24,41 +24,41 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiodns aiomonitor cchardet ciso8601 ckafka cython datadog debug eventlet fast orjson redis rocksdb setproctitle statsd uvloop yaml"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiohttp-cors[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-cors-2.0[${PYTHON_USEDEP}]
 	dev-python/robinhood-aiokafka[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorclass[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
+	<dev-python/colorclass-3.0[${PYTHON_USEDEP}]
 	dev-python/mode[${PYTHON_USEDEP}]
 	dev-python/opentracing[${PYTHON_USEDEP}]
-	dev-python/terminaltables[${PYTHON_USEDEP}]
+	<dev-python/terminaltables-4.0[${PYTHON_USEDEP}]
 	dev-python/venusian[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
+	<dev-python/yarl-2.0[${PYTHON_USEDEP}]
+	>=dev-python/croniter-0.3.16[${PYTHON_USEDEP}]
 	dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	aiodns? ( dev-python/aiodns[${PYTHON_USEDEP}] )
+	aiodns? ( >=dev-python/aiodns-1.1[${PYTHON_USEDEP}] )
 	aiomonitor? ( dev-python/aiomonitor[${PYTHON_USEDEP}] )
-	cchardet? ( dev-python/cchardet[${PYTHON_USEDEP}] )
+	cchardet? ( >=dev-python/cchardet-2.1[${PYTHON_USEDEP}] )
 	ciso8601? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
 	ckafka? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	cython? ( dev-python/cython[${PYTHON_USEDEP}] )
 	datadog? ( dev-python/datadog[${PYTHON_USEDEP}] )
-	debug? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
+	debug? ( >=dev-python/setproctitle-1.1[${PYTHON_USEDEP}] )
 	debug? ( dev-python/aiomonitor[${PYTHON_USEDEP}] )
 	eventlet? ( dev-python/aioeventlet[${PYTHON_USEDEP}] )
 	eventlet? ( dev-python/dnspython[${PYTHON_USEDEP}] )
-	fast? ( dev-python/aiodns[${PYTHON_USEDEP}] )
-	fast? ( dev-python/cchardet[${PYTHON_USEDEP}] )
+	fast? ( >=dev-python/aiodns-1.1[${PYTHON_USEDEP}] )
+	fast? ( >=dev-python/cchardet-2.1[${PYTHON_USEDEP}] )
 	fast? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
 	fast? ( dev-python/cython[${PYTHON_USEDEP}] )
-	fast? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	fast? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	fast? ( <dev-python/orjson-3.0[${PYTHON_USEDEP}] )
+	fast? ( >=dev-python/setproctitle-1.1[${PYTHON_USEDEP}] )
+	orjson? ( <dev-python/orjson-3.0[${PYTHON_USEDEP}] )
 	redis? ( dev-python/aredis[${PYTHON_USEDEP}] )
 	rocksdb? ( dev-python/python-rocksdb[${PYTHON_USEDEP}] )
-	setproctitle? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
-	statsd? ( dev-python/statsd[${PYTHON_USEDEP}] )
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	setproctitle? ( >=dev-python/setproctitle-1.1[${PYTHON_USEDEP}] )
+	statsd? ( ~dev-python/statsd-3.3.0[${PYTHON_USEDEP}] )
+	uvloop? ( >=dev-python/uvloop-0.8.1[${PYTHON_USEDEP}] )
+	yaml? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

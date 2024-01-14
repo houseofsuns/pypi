@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/dasy-hy[${PYTHON_USEDEP}]
 	dev-python/hyrule[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	dev-python/vyper[${PYTHON_USEDEP}]
 	dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/eth-typing[${PYTHON_USEDEP}]

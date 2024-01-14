@@ -32,20 +32,20 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	graphite? ( dev-python/graphyte[${PYTHON_USEDEP}] )
 	all? ( dev-python/graphyte[${PYTHON_USEDEP}] )
 	dev-python/munge[${PYTHON_USEDEP}]
-	dev-python/pid[${PYTHON_USEDEP}]
+	<dev-python/pid-4.0[${PYTHON_USEDEP}]
 	dev-python/pluginmgr[${PYTHON_USEDEP}]
 	prometheus? ( dev-python/prometheus_client[${PYTHON_USEDEP}] )
 	all? ( dev-python/prometheus_client[${PYTHON_USEDEP}] )
-	dev-python/python-daemon[${PYTHON_USEDEP}]
-	zeromq? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
-	graphite? ( dev-python/requests[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
+	<dev-python/python-daemon-3.0[${PYTHON_USEDEP}]
+	zeromq? ( >=dev-python/pyzmq-15.3.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyzmq-15.3.0[${PYTHON_USEDEP}] )
+	graphite? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	rrdtool? ( dev-python/rrdtool[${PYTHON_USEDEP}] )
 	all? ( dev-python/rrdtool[${PYTHON_USEDEP}] )
 	standalone? ( dev-python/vodka[${PYTHON_USEDEP}] )
 	all? ( dev-python/vodka[${PYTHON_USEDEP}] )
-	whisper? ( dev-python/whisper[${PYTHON_USEDEP}] )
-	all? ( dev-python/whisper[${PYTHON_USEDEP}] )"
+	whisper? ( <dev-python/whisper-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/whisper-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

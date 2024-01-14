@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/orjson-3.6.4[${PYTHON_USEDEP}]
 	dev-python/colored[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]"

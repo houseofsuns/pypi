@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	~dev-python/google-auth-2.16.0[${PYTHON_USEDEP}]
+	~dev-python/google-api-python-client-2.77.0[${PYTHON_USEDEP}]
+	~dev-python/google-auth-httplib2-0.1.0[${PYTHON_USEDEP}]
+	~dev-python/google-auth-oauthlib-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/plotly-5.13.0[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]"
+	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

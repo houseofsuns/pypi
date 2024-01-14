@@ -24,38 +24,38 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-2.30.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.8.13[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.10[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.1.0[${PYTHON_USEDEP}]
 	dev-python/tabula-py[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.1[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.11.0[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-2.2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ipython-8.4.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-inline-tabs-2022.1.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-thebe[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-favicon[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autoapi-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	docs? ( dev-python/kaleido[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-3.0.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-rerunfailures-10.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

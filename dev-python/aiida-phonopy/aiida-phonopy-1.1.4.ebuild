@@ -28,22 +28,22 @@ DEPENDENCIES="dev-python/aiida-core[${PYTHON_USEDEP}]
 	dev-python/phonopy[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupytext[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-details-directive[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autoapi-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst_parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/pylint-2.17.2[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/pylint-aiida[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/toml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pgtest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-regressions-2.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ase[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

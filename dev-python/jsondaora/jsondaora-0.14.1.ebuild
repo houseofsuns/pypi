@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/orjson-4.0[${PYTHON_USEDEP}]
 	dev-python/dictdaora[${PYTHON_USEDEP}]
 	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.1.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

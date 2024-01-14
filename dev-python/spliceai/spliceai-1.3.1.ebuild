@@ -27,8 +27,8 @@ IUSE="cpu gpu"
 DEPENDENCIES="dev-python/keras[${PYTHON_USEDEP}]
 	dev-python/pyfaidx[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
 	cpu? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -27,21 +27,21 @@ IUSE="dev"
 DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/fasteners[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-3.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/wcmatch[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/wcmatch-6.0[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>dev-python/fsspec-2023.9.1[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nextstrain-sphinx-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
 	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

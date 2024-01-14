@@ -37,6 +37,6 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )"
+	gui? ( >=dev-python/pyqtgraph-0.13.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

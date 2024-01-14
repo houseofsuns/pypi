@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ase htmd mdanalysis mdtraj parmed pytraj qcelemental rdkit simpletraj"
-DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipywidgets-8.0[${PYTHON_USEDEP}]
+	>=dev-python/notebook-7.0[${PYTHON_USEDEP}]
 	dev-python/jupyterlab_widgets[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	simpletraj? ( dev-python/simpletraj[${PYTHON_USEDEP}] )

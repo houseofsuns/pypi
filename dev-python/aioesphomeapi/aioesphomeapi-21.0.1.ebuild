@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohappyeyeballs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohappyeyeballs-2.3.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]
+	<dev-python/zeroconf-1.0[${PYTHON_USEDEP}]
 	dev-python/chacha20poly1305-reuseable[${PYTHON_USEDEP}]
-	dev-python/noiseprotocol[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]"
+	<dev-python/noiseprotocol-1.0[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

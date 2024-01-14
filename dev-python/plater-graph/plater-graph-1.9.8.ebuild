@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/pyaml[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	~dev-python/pyaml-20.3.1[${PYTHON_USEDEP}]
+	~dev-python/pytest-5.4.1[${PYTHON_USEDEP}]
+	~dev-python/pytest-asyncio-0.14.0[${PYTHON_USEDEP}]
+	~dev-python/starlette-0.13.6[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.11.7[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

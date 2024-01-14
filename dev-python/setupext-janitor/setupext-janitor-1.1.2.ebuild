@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nose[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )"
+DEPENDENCIES="dev? ( ~dev-python/coverage-4.5.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-1.8.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

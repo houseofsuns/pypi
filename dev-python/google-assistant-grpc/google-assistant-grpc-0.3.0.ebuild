@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/googleapis-common-protos-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.3.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

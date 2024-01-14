@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiodns[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	dev-python/bote[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+	>=dev-python/chardet-4.0.0[${PYTHON_USEDEP}]
 	dev-python/compatibility[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pycares[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pycares-4.1.2[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.9[${PYTHON_USEDEP}]
 	dev-python/userprovided[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

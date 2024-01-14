@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/libsass[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/libsass-0.22[${PYTHON_USEDEP}]
 	dev-python/panflute[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]"
+	<dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

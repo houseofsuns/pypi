@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dask dev docs duckdb edgetest polars qa ray spark tests"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
+	<=dev-python/ordered-set-4.1.0[${PYTHON_USEDEP}]
 	dev-python/fugue[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )

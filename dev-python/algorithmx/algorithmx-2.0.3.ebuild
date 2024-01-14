@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jupyter networkx"
-DEPENDENCIES="jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	networkx? ( dev-python/networkx[${PYTHON_USEDEP}] )"
+DEPENDENCIES="jupyter? ( >=dev-python/ipywidgets-7.0.0[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/jupyterlab-2.0.0[${PYTHON_USEDEP}] )
+	networkx? ( >=dev-python/networkx-2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

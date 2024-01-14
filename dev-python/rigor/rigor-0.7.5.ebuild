@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/hyperlink[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
+	~dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.22.0[${PYTHON_USEDEP}]
+	~dev-python/hyperlink-17.3.1[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-4.2.0[${PYTHON_USEDEP}]
+	~dev-python/jmespath-0.9.3[${PYTHON_USEDEP}]
 	dev-python/related[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/xlwt[${PYTHON_USEDEP}]"
+	~dev-python/structlog-17.2.0[${PYTHON_USEDEP}]
+	~dev-python/xlwt-1.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

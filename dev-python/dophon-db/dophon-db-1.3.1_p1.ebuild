@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/dophon-logger[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
 	dev-python/dbutils[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]"
+	<dev-python/pymysql-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

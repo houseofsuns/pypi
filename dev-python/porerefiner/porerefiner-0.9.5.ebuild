@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
+	~dev-python/flask-1.1.1[${PYTHON_USEDEP}]
+	~dev-python/peewee-3.13.3[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	~dev-python/watchdog-0.9.0[${PYTHON_USEDEP}]
 	dev-python/hachiko[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]
 	dev-python/aiofile[${PYTHON_USEDEP}]
 	dev-python/namesgenerator[${PYTHON_USEDEP}]
-	dev-python/python-daemon[${PYTHON_USEDEP}]
+	~dev-python/python-daemon-2.2.3[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/grpclib[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.5[${PYTHON_USEDEP}]
 	dev-python/asyncssh[${PYTHON_USEDEP}]
-	dev-python/setproctitle[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]"
+	~dev-python/setproctitle-1.1.10[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

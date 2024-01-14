@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all fftw parallel phonons plot symmetry"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.25[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0[${PYTHON_USEDEP}]
 	dev-python/lazy-property[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.8[${PYTHON_USEDEP}]
 	dev-python/fortio[${PYTHON_USEDEP}]
 	dev-python/wannier90io[${PYTHON_USEDEP}]
 	all? ( dev-python/ray[${PYTHON_USEDEP}] )

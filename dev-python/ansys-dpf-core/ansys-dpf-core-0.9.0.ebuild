@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="plotting"
 DEPENDENCIES="dev-python/ansys-dpf-gate[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/matplotlib-3.2[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/pyvista[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/imageio[${PYTHON_USEDEP}] )
+	plotting? ( <dev-python/imageio-2.28.1[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/imageio-ffmpeg[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

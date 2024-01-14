@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/selenium[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+	<dev-python/chardet-4.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/rsa[${PYTHON_USEDEP}]

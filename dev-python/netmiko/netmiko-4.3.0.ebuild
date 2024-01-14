@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ntc-templates[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.9.5[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.3[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	dev-python/scp[${PYTHON_USEDEP}]
 	dev-python/textfsm[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

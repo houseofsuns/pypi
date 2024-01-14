@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
+	>=dev-python/ujson-5.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

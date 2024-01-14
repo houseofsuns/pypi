@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev jupyter test"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
+	~dev-python/pytz-2022.1[${PYTHON_USEDEP}]
+	~dev-python/rich-12.5.1[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datasette[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipykernel-6.9.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-dotenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipywidgets-7.6.5[${PYTHON_USEDEP}] )
+	jupyter? ( ~dev-python/ipywidgets-7.6.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-dotenv[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

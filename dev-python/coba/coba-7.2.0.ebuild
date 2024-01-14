@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	full? ( dev-python/vowpalwabbit[${PYTHON_USEDEP}] )
 	full? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	full? ( dev-python/pandas[${PYTHON_USEDEP}] )

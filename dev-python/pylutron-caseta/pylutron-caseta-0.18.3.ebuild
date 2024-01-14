@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli lint test"
 DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
+	>=dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
+	cli? ( ~dev-python/click-8.1.2[${PYTHON_USEDEP}] )
 	cli? ( dev-python/xdg[${PYTHON_USEDEP}] )
-	cli? ( dev-python/zeroconf[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/zeroconf-0.38.4[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pylint-2.12.1[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-0.782[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pydocstyle-5.1.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.14.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-timeout-1.4.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-sugar-0.9.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/importlib_metadata[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/prompt_toolkit[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	<dev-python/pygments-3.0[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]"
+	<dev-python/tomlkit-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

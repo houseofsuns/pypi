@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cuda"
-DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
 	cuda? ( dev-python/pynvml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

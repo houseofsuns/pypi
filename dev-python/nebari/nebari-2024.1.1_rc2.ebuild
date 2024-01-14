@@ -28,30 +28,30 @@ DEPENDENCIES="dev-python/auth0-python[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-containerservice[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-resource[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.28.40[${PYTHON_USEDEP}]
 	dev-python/cloudflare[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
+	~dev-python/pluggy-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/prompt-toolkit-3.0.36[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.12[${PYTHON_USEDEP}]
+	~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
 	dev-python/python-keycloak[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	~dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/rich-13.5.1[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.32[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dask-gateway[${PYTHON_USEDEP}] )
 	dev? ( dev-python/diagrams[${PYTHON_USEDEP}] )
 	dev? ( dev-python/escapism[${PYTHON_USEDEP}] )
-	dev? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jhub-client[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/auth0-python[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-hcl2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/setuptools-63.4.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )"

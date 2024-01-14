@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="simulations"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.1[${PYTHON_USEDEP}]
 	dev-python/mip[${PYTHON_USEDEP}]
 	simulations? ( dev-python/experiments-csv[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

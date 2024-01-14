@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all astropy docs fastkde getdist hdf5 test ultranest"
 DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-3.9.0[${PYTHON_USEDEP}]
 	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	all? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastkde[${PYTHON_USEDEP}] )
 	all? ( dev-python/getdist[${PYTHON_USEDEP}] )
 	all? ( dev-python/tables[${PYTHON_USEDEP}] )
 	astropy? ( dev-python/astropy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	fastkde? ( dev-python/fastkde[${PYTHON_USEDEP}] )

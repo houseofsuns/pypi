@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/unicrypto[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/asn1crypto[${PYTHON_USEDEP}]
 	dev-python/asn1tools[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
+	>=dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
 	dev-python/arc4[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

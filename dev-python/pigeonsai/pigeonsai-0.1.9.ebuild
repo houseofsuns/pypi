@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

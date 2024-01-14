@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/hikari[${PYTHON_USEDEP}]
 	dev-python/sigparse[${PYTHON_USEDEP}]
 	cooldowns? ( dev-python/floodgate-rs[${PYTHON_USEDEP}] )
 	cron? ( dev-python/types-croniter[${PYTHON_USEDEP}] )
-	cron? ( dev-python/croniter[${PYTHON_USEDEP}] )
+	cron? ( <dev-python/croniter-2.0.0[${PYTHON_USEDEP}] )
 	i18n? ( dev-python/python-i18n[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

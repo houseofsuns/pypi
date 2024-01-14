@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="extra test"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+	>=dev-python/ConfigArgParse-0.13.0[${PYTHON_USEDEP}]
 	extra? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	extra? ( dev-python/xattr[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

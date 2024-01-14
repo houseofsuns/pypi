@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev perf pyepics pyqt5 pyside"
 DEPENDENCIES="dev-python/entrypoints[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.11.0[${PYTHON_USEDEP}]
 	dev-python/pyepics[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
+	>=dev-python/pyqtgraph-0.12.0[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.12.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	pyside? ( dev-python/PySide[${PYTHON_USEDEP}] )
 	pyepics? ( dev-python/pyepics[${PYTHON_USEDEP}] )
 	perf? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
@@ -53,6 +53,6 @@ DEPENDENCIES="dev-python/entrypoints[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/idna[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/idna-3.4[${PYTHON_USEDEP}]
 	dev-python/wincertstore[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

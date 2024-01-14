@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs listen"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-oauthlib-2.0[${PYTHON_USEDEP}]
+	<dev-python/oauthlib-4.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2022.0[${PYTHON_USEDEP}]
 	dev-python/asyncclick[${PYTHON_USEDEP}]
 	dev-python/anyio[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	listen? ( dev-python/firebase-messaging[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

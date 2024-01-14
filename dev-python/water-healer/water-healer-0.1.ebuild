@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/streamz[${PYTHON_USEDEP}]
 	dev-python/prometheus-client[${PYTHON_USEDEP}]
 	dev-python/APScheduler[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	~dev-python/networkx-2.3[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

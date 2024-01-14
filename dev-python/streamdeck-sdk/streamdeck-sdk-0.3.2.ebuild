@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/decohints[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]"
+	~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-1.5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

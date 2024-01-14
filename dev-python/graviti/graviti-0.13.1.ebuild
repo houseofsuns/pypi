@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/urllib3-1.15[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.4.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.3.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.27.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

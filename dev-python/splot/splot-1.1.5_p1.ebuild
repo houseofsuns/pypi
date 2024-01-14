@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/esda[${PYTHON_USEDEP}]
 	dev? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.4.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

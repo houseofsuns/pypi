@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ws"
 DEPENDENCIES="dev-python/lsprotocol[${PYTHON_USEDEP}]
-	ws? ( dev-python/websockets[${PYTHON_USEDEP}] )"
+	ws? ( <dev-python/websockets-12.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

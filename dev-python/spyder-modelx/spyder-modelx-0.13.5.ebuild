@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/spyder[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/spyder-4.0.0[${PYTHON_USEDEP}]
 	dev-python/modelx[${PYTHON_USEDEP}]
 	dev-python/spymx-kernels[${PYTHON_USEDEP}]
 	dev-python/asttokens[${PYTHON_USEDEP}]"

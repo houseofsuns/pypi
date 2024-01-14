@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-0.20.1[${PYTHON_USEDEP}]
 	dev-python/langid[${PYTHON_USEDEP}]
 	dev-python/tweepy[${PYTHON_USEDEP}]
 	dev-python/marisa-trie[${PYTHON_USEDEP}]

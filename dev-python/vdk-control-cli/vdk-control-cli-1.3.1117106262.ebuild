@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
+	~dev-python/click-log-0.0[${PYTHON_USEDEP}]
 	dev-python/click-spinner[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-47.0[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]
 	dev-python/vdk-control-service-api[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/requests_oauthlib[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
 	dev-python/vdk-control-api-auth[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

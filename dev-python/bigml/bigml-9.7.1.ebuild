@@ -27,7 +27,7 @@ IUSE="full images topics"
 DEPENDENCIES="dev-python/bigml-chronos[${PYTHON_USEDEP}]
 	dev-python/javascript[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]

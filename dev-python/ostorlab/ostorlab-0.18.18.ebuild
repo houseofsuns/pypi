@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="agent scanner testing"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.4.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
+	>=dev-python/semver-3.0.0[${PYTHON_USEDEP}]
 	dev-python/markdownify[${PYTHON_USEDEP}]
 	dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/py-ubjson[${PYTHON_USEDEP}]
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	agent? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
 	agent? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	agent? ( dev-python/flask[${PYTHON_USEDEP}] )
-	agent? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	agent? ( >=dev-python/jsonschema-4.4.0[${PYTHON_USEDEP}] )
 	agent? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	agent? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
 	agent? ( dev-python/tenacity[${PYTHON_USEDEP}] )

@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/azure-core[${PYTHON_USEDEP}]
 	dev-python/azure-datalake-store[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2023.12.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.7.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )

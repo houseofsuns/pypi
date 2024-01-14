@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/boto3-1.26.135[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.3.1[${PYTHON_USEDEP}]
+	~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

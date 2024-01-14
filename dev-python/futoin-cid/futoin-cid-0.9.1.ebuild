@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.5.2[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.21.1[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

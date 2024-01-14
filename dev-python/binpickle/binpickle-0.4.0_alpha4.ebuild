@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="dev-python/msgpack[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/msgpack-1.0[${PYTHON_USEDEP}]
 	dev-python/numcodecs[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
+	~dev-python/typing-extensions-4.8[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/setuptools-64.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-scm-8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
@@ -37,16 +37,16 @@ DEPENDENCIES="dev-python/msgpack[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyproject2conda[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/humanize[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/humanize-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/msgpack-types[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/hypothesis-6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pandas-1.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/numpy-1.22[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

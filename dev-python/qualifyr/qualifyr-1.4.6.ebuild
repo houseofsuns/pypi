@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	~dev-python/colorlog-6.6.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

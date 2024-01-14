@@ -27,36 +27,36 @@ IUSE="all dev docs minify"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/etelemetry[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
 	dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	all? ( dev-python/docker[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/docker-4.4.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/black-22.12.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-reportlog[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-xdist-2.2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-3.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docker[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinxcontrib-apidoc-0.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/docker-4.4.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-reportlog[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-xdist-2.2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
-	minify? ( dev-python/docker[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinxcontrib-apidoc-0.3[${PYTHON_USEDEP}] )
+	minify? ( >=dev-python/docker-4.4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

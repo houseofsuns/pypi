@@ -28,17 +28,17 @@ DEPENDENCIES="yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	geo? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	dev-python/msal[${PYTHON_USEDEP}]
-	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	functions? ( dev-python/pip[${PYTHON_USEDEP}] )
-	all? ( dev-python/pip[${PYTHON_USEDEP}] )
+	numpy? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-1.4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-1.4[${PYTHON_USEDEP}] )
+	functions? ( >=dev-python/pip-20.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pip-20.0.0[${PYTHON_USEDEP}] )
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	pyodide? ( dev-python/pyodide-http[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/requests_oauthlib[${PYTHON_USEDEP}]
-	geo? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	all? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	geo? ( >=dev-python/shapely-1.7.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/shapely-1.7.0[${PYTHON_USEDEP}] )
 	sympy? ( dev-python/sympy[${PYTHON_USEDEP}] )
 	all? ( dev-python/sympy[${PYTHON_USEDEP}] )
 	dev-python/typing_extensions[${PYTHON_USEDEP}]"

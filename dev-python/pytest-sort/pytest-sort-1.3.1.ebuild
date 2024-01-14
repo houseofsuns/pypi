@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/whatthepatch[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pytest-7.4.0[${PYTHON_USEDEP}]
+	>=dev-python/whatthepatch-1.0.5[${PYTHON_USEDEP}]
+	>=dev-python/coverage-7.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gui jupyterlab"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/click-default-group-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pycairo[${PYTHON_USEDEP}]
+	>=dev-python/rich-6.0[${PYTHON_USEDEP}]
+	<dev-python/pycairo-2.0[${PYTHON_USEDEP}]
 	dev-python/manimpango[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	jupyterlab? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	jupyterlab? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	<dev-python/networkx-3.3[${PYTHON_USEDEP}]
+	<dev-python/decorator-6.0.0[${PYTHON_USEDEP}]
+	<=dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
+	jupyterlab? ( <dev-python/jupyterlab-4.0[${PYTHON_USEDEP}] )
+	jupyterlab? ( <dev-python/notebook-7.0[${PYTHON_USEDEP}] )
 	dev-python/moderngl[${PYTHON_USEDEP}]
 	dev-python/moderngl-window[${PYTHON_USEDEP}]
 	dev-python/mapbox-earcut[${PYTHON_USEDEP}]
 	dev-python/cloup[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	gui? ( dev-python/dearpygui[${PYTHON_USEDEP}] )
 	dev-python/skia-pathops[${PYTHON_USEDEP}]
 	dev-python/skia-pathops[${PYTHON_USEDEP}]
@@ -54,6 +54,6 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/screeninfo[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
 	dev-python/svgelements[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

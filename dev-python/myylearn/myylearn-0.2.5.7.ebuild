@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all board cuml dask extra notebook tests zhcn"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-0.8.0[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/traitlets[${PYTHON_USEDEP}]
 	dev-python/featuretools[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask-ml[${PYTHON_USEDEP}] )
 	all? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	all? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/grpcio-1.24.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/hboard[${PYTHON_USEDEP}] )
 	all? ( dev-python/hboard-widget[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dask? ( dev-python/dask-ml[${PYTHON_USEDEP}] )
 	extra? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	extra? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	extra? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/grpcio-1.24.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	extra? ( dev-python/python-geohash[${PYTHON_USEDEP}] )
 	extra? ( dev-python/pyarrow[${PYTHON_USEDEP}] )

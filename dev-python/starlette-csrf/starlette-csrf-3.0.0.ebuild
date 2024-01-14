@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/itsdangerous-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/starlette-0.14.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="car orjson test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-0.7.0[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/gitignore-parser[${PYTHON_USEDEP}]
 	dev-python/multiaddr[${PYTHON_USEDEP}]
 	dev-python/py-multibase[${PYTHON_USEDEP}]
 	dev-python/py-multiformats-cid[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-67.7.0[${PYTHON_USEDEP}]
 	car? ( dev-python/ipfs-car-decoder[${PYTHON_USEDEP}] )
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	orjson? ( >=dev-python/orjson-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )

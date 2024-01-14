@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django-configurations[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-configurations-3.0.0[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-4.0[${PYTHON_USEDEP}]
 	dev-python/django[${PYTHON_USEDEP}]
 	dev-python/django-sendfile2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

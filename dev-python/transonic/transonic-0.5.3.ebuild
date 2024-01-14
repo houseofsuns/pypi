@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="base_test dev doc mpi test"
-DEPENDENCIES="dev-python/gast[${PYTHON_USEDEP}]
-	dev-python/beniget[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/gast-0.5.0[${PYTHON_USEDEP}]
+	~dev-python/beniget-0.4.0[${PYTHON_USEDEP}]
 	dev-python/autopep8[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	base_test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	base_test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	base_test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	base_test? ( dev-python/nbval[${PYTHON_USEDEP}] )
+	base_test? ( ~dev-python/nbval-0.9.6[${PYTHON_USEDEP}] )
 	base_test? ( dev-python/numba[${PYTHON_USEDEP}] )
 	base_test? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	base_test? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/gast[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbval[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nbval-0.9.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numba[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -73,7 +73,7 @@ DEPENDENCIES="dev-python/gast[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbval[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/nbval-0.9.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/numba[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )

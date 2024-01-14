@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/dogpile-cache[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/jsonpatch[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]
-	dev-python/os-service-types[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/requestsexceptions[${PYTHON_USEDEP}]"
+	>=dev-python/cryptography-2.7[${PYTHON_USEDEP}]
+	>=dev-python/decorator-4.4.1[${PYTHON_USEDEP}]
+	>=dev-python/dogpile-cache-0.6.5[${PYTHON_USEDEP}]
+	>=dev-python/iso8601-0.1.11[${PYTHON_USEDEP}]
+	>=dev-python/jmespath-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonpatch-1.16[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-3.18.0[${PYTHON_USEDEP}]
+	>=dev-python/netifaces-0.10.4[${PYTHON_USEDEP}]
+	>=dev-python/os-service-types-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-3.0[${PYTHON_USEDEP}]
+	>=dev-python/requestsexceptions-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

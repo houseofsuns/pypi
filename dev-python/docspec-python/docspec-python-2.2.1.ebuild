@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/black-24.0.0[${PYTHON_USEDEP}]
 	dev-python/docspec[${PYTHON_USEDEP}]
 	dev-python/nr-util[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

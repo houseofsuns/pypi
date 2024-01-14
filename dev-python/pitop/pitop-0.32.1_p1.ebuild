@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="computer_vision doc"
 DEPENDENCIES="dev-python/gpiozero[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
+	<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
+	<dev-python/flask-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}]
 	dev-python/flask-sockets[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/gevent-websocket[${PYTHON_USEDEP}]

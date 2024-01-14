@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="config"
 DEPENDENCIES="config? ( dev-python/databind-json[${PYTHON_USEDEP}] )
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/mypy-0.930[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xvfb[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

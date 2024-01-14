@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-texttospeech[${PYTHON_USEDEP}]
 	dev-python/xdg-base-dirs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

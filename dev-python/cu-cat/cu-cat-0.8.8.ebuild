@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmarks dev doc min-py310 polars pyarrow"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.1[${PYTHON_USEDEP}]
 	benchmarks? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	benchmarks? ( dev-python/loguru[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
@@ -59,9 +59,9 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	doc? ( dev-python/jupyterlite-pyodide-kernel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	min-py310? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	min-py310? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	min-py310? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	min-py310? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	min-py310? ( ~dev-python/numpy-1.23.5[${PYTHON_USEDEP}] )
+	min-py310? ( ~dev-python/scipy-1.9.3[${PYTHON_USEDEP}] )
+	min-py310? ( ~dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
 	polars? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	polars? ( dev-python/polars[${PYTHON_USEDEP}] )
 	pyarrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"

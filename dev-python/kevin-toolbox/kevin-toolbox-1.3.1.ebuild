@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="plot rest"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	rest? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	rest? ( dev-python/line-profiler[${PYTHON_USEDEP}] )"
+	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
+	plot? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
+	rest? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	rest? ( >=dev-python/line-profiler-3.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ws"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
+	>=dev-python/pathvalidate-2.3.0[${PYTHON_USEDEP}]
 	ws? ( dev-python/channels[${PYTHON_USEDEP}] )
 	ws? ( dev-python/channels-redis[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

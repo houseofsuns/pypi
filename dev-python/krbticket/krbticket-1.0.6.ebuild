@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/retrying[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
+	~dev-python/fasteners-0.15[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )

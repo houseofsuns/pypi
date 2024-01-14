@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ipython"
 DEPENDENCIES="dev-python/log-symbols[${PYTHON_USEDEP}]
 	dev-python/spinners[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
 	ipython? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	ipython? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )"
+	ipython? ( ~dev-python/ipywidgets-7.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

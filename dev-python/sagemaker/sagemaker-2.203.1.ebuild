@@ -24,75 +24,75 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all feature-processor local scipy test"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/attrs-24.0[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
+	~dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
 	dev-python/google-pasta[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/smdebug-rulesconfig[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-7.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/tblib[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	<dev-python/tblib-3.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-1.27[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	all? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	all? ( dev-python/docker[${PYTHON_USEDEP}] )
+	all? ( <dev-python/urllib3-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/docker-7.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	all? ( dev-python/sagemaker-feature-store-pyspark-3_3[${PYTHON_USEDEP}] )
 	feature-processor? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	feature-processor? ( dev-python/sagemaker-feature-store-pyspark-3_3[${PYTHON_USEDEP}] )
-	local? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	local? ( dev-python/docker[${PYTHON_USEDEP}] )
+	local? ( <dev-python/urllib3-3.0.0[${PYTHON_USEDEP}] )
+	local? ( <dev-python/docker-7.0.0[${PYTHON_USEDEP}] )
 	local? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	scipy? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	scipy? ( ~dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tox-3.24.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-rerunfailures-10.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-2.4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-6.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/contextlib2[${PYTHON_USEDEP}] )
 	test? ( dev-python/awslogs[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/stopit[${PYTHON_USEDEP}] )
 	test? ( dev-python/apache-airflow[${PYTHON_USEDEP}] )
 	test? ( dev-python/apache-airflow-providers-amazon[${PYTHON_USEDEP}] )
-	test? ( dev-python/attrs[${PYTHON_USEDEP}] )
+	test? ( <dev-python/attrs-24.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/fabric[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/sagemaker-experiments[${PYTHON_USEDEP}] )
 	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyvis[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pandas-1.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	test? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	test? ( dev-python/docker[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
+	test? ( <dev-python/urllib3-3.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/docker-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	test? ( dev-python/sagemaker-feature-store-pyspark-3_3[${PYTHON_USEDEP}] )
 	test? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	test? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/pillow-11.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/tritonclient[${PYTHON_USEDEP}] )
 	test? ( dev-python/onnx[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbformat[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/nbformat-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

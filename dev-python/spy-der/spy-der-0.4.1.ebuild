@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all tests"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	all? ( dev-python/click[${PYTHON_USEDEP}] )
-	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/click-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	all? ( >=dev-python/click-7.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpy-1.18.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-forked-1.4.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-forked-1.4.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

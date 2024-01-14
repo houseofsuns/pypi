@@ -32,8 +32,8 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/remotezip[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	~dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
+	test? ( <dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-automation[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )

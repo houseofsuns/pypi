@@ -27,12 +27,12 @@ IUSE=""
 DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/pyrogram[${PYTHON_USEDEP}]
 	dev-python/tgcrypto[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/hypy-utils[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
 	dev-python/feedgen[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]"
+	~dev-python/markdown-3.4.1[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

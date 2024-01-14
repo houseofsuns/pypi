@@ -25,28 +25,28 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs s3 tests"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	<dev-python/filelock-3.10.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pybind11[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	<dev-python/pandas-1.6.0[${PYTHON_USEDEP}]
+	<=dev-python/prometheus-client-1.16.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	~dev-python/pybind11-2.10.3[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	<dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	~dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/docutils-0.17[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.8.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ipykernel-5.5.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython-genutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

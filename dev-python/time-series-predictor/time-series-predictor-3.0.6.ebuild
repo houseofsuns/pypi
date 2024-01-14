@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
 	test? ( dev-python/flights-time-series-dataset[${PYTHON_USEDEP}] )
 	test? ( dev-python/oze-dataset[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	test? ( dev-python/time-series-models[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

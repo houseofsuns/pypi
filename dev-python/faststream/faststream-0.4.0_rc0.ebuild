@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="confluent dev devdocs docs kafka lint nats rabbit redis test-core testing"
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/anyio-5.0[${PYTHON_USEDEP}]
 	dev-python/fast-depends[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	confluent? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	dev? ( dev-python/detect-secrets[${PYTHON_USEDEP}] )
 	dev? ( dev-python/faststream[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	devdocs? ( dev-python/black[${PYTHON_USEDEP}] )
+	devdocs? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
 	devdocs? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
 	devdocs? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
 	devdocs? ( dev-python/mike[${PYTHON_USEDEP}] )
-	devdocs? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
+	devdocs? ( ~dev-python/mkdocs-git-revision-date-localized-plugin-1.2.1[${PYTHON_USEDEP}] )
 	devdocs? ( dev-python/mkdocs-glightbox[${PYTHON_USEDEP}] )
 	devdocs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
 	devdocs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
-	devdocs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	devdocs? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
-	devdocs? ( dev-python/mkdocs-static-i18n[${PYTHON_USEDEP}] )
-	devdocs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	devdocs? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	devdocs? ( ~dev-python/mkdocs-material-9.5.3[${PYTHON_USEDEP}] )
+	devdocs? ( ~dev-python/mkdocs-minify-plugin-0.7.2[${PYTHON_USEDEP}] )
+	devdocs? ( ~dev-python/mkdocs-static-i18n-1.2.0[${PYTHON_USEDEP}] )
+	devdocs? ( ~dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
+	devdocs? ( ~dev-python/pillow-10.2.0[${PYTHON_USEDEP}] )
 	devdocs? ( dev-python/requests[${PYTHON_USEDEP}] )
 	docs? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	docs? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/uvicorn-1.0.0[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
-	lint? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/bandit-1.7.6[${PYTHON_USEDEP}] )
 	lint? ( dev-python/confluent-kafka-stubs[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/semgrep[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
@@ -62,19 +62,19 @@ DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
 	lint? ( dev-python/types-ujson[${PYTHON_USEDEP}] )
 	nats? ( dev-python/nats-py[${PYTHON_USEDEP}] )
 	rabbit? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	test-core? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test-core? ( dev-python/dirty-equals[${PYTHON_USEDEP}] )
-	test-core? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )
+	test-core? ( ~dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
+	test-core? ( ~dev-python/dirty-equals-0.7.1[${PYTHON_USEDEP}] )
+	test-core? ( ~dev-python/pytest-asyncio-0.23.3[${PYTHON_USEDEP}] )
 	test-core? ( dev-python/pytest-retry[${PYTHON_USEDEP}] )
-	test-core? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test-core? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/email-validator[${PYTHON_USEDEP}] )
+	test-core? ( ~dev-python/pytest-timeout-2.2.0[${PYTHON_USEDEP}] )
+	test-core? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/email-validator-2.1.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	testing? ( dev-python/faststream[${PYTHON_USEDEP}] )
-	testing? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/httpx-0.26.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	testing? ( dev-python/watchfiles[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/watchfiles-0.21.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

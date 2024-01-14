@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/cliff[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-glanceclient[${PYTHON_USEDEP}]
+	>=dev-python/cliff-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-3.4.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.36.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.5.3[${PYTHON_USEDEP}]
+	>=dev-python/python-glanceclient-2.8.0[${PYTHON_USEDEP}]
 	dev-python/python-heatclient[${PYTHON_USEDEP}]
-	dev-python/python-novaclient[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/python-novaclient-9.1.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.0[${PYTHON_USEDEP}]
 	dev-python/tosca-parser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.17.0[${PYTHON_USEDEP}]
 	dev-python/parquet[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+	>=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

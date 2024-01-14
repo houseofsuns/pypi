@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test toml yaml"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-1.20.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/fixtures[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
-	test? ( dev-python/testscenarios[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )
-	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/fixtures-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-2.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testscenarios-0.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testtools-2.3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/beautifulsoup4-4.8.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-1.9.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tomli-1.1.0[${PYTHON_USEDEP}] )
+	toml? ( >=dev-python/tomli-1.1.0[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

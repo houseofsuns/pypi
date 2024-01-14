@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async core extension module pytest"
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/black-23.12.1[${PYTHON_USEDEP}]
+	~dev-python/flake8-7.0.0[${PYTHON_USEDEP}]
 	dev-python/flake8-copyright[${PYTHON_USEDEP}]
 	dev-python/flake8-black[${PYTHON_USEDEP}]
 	dev-python/flake8-isort[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
+	~dev-python/isort-5.13.2[${PYTHON_USEDEP}]
+	~dev-python/lxml-5.1.0[${PYTHON_USEDEP}]
+	~dev-python/mypy-1.8.0[${PYTHON_USEDEP}]
 	dev-python/pep8-naming[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pyupgrade[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4.4[${PYTHON_USEDEP}]
+	~dev-python/pyupgrade-3.15.0[${PYTHON_USEDEP}]
 	module? ( dev-python/pytest-inmanta[${PYTHON_USEDEP}] )
 	core? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	core? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
+	core? ( ~dev-python/pytest-env-1.1.3[${PYTHON_USEDEP}] )
 	core? ( dev-python/pytest-postgresql[${PYTHON_USEDEP}] )
-	core? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	core? ( dev-python/tornado[${PYTHON_USEDEP}] )
+	core? ( ~dev-python/psycopg-3.1.17[${PYTHON_USEDEP}] )
+	core? ( <dev-python/tornado-7.0[${PYTHON_USEDEP}] )
 	extension? ( dev-python/inmanta-core[${PYTHON_USEDEP}] )
 	extension? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	extension? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
+	extension? ( ~dev-python/pytest-env-1.1.3[${PYTHON_USEDEP}] )
 	extension? ( dev-python/pytest-postgresql[${PYTHON_USEDEP}] )
-	extension? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	extension? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	async? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	async? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	pytest? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
+	extension? ( ~dev-python/psycopg-3.1.17[${PYTHON_USEDEP}] )
+	extension? ( <dev-python/tornado-7.0[${PYTHON_USEDEP}] )
+	async? ( ~dev-python/pytest-asyncio-0.23.3[${PYTHON_USEDEP}] )
+	async? ( ~dev-python/pytest-timeout-2.2.0[${PYTHON_USEDEP}] )
+	pytest? ( ~dev-python/pytest-env-1.1.3[${PYTHON_USEDEP}] )
 	pytest? ( dev-python/pytest-cover[${PYTHON_USEDEP}] )
 	pytest? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
-	pytest? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	pytest? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
+	pytest? ( ~dev-python/pytest-xdist-3.5.0[${PYTHON_USEDEP}] )
+	pytest? ( ~dev-python/pytest-sugar-0.9.7[${PYTHON_USEDEP}] )
 	pytest? ( dev-python/pytest-instafail[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

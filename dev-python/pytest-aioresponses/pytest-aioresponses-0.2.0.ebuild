@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/aioresponses[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pytest-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-asyncio-0.14.0[${PYTHON_USEDEP}]
+	<dev-python/aioresponses-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

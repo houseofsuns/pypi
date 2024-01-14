@@ -28,13 +28,13 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	dev-python/mmh3[${PYTHON_USEDEP}]
 	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/sqlitedict[${PYTHON_USEDEP}]
 	dev? ( dev-python/click[${PYTHON_USEDEP}] )
 	dev? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mmh3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlitedict[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )

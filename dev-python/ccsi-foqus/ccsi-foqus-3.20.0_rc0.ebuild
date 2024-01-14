@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/cma[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-3.6[${PYTHON_USEDEP}]
 	dev-python/python-tsp[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	<dev-python/joblib-1.3[${PYTHON_USEDEP}]
 	dev-python/mplcursors[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/TurbineClient[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]"
+	>=dev-python/websocket-client-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/PyQt5-5.15.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

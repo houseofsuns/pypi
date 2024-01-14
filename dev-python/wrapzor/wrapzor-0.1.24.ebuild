@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="utils"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	dev-python/piou[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	utils? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	utils? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	utils? ( dev-python/seaborn[${PYTHON_USEDEP}] )"
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	utils? ( <dev-python/jupyterlab-4.0.0[${PYTHON_USEDEP}] )
+	utils? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	utils? ( <dev-python/seaborn-0.13.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

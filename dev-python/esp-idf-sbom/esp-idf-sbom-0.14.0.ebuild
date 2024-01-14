@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/license-expression[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/spdx-tools[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/spdx-tools-0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

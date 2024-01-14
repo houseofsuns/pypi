@@ -32,24 +32,24 @@ DEPENDENCIES="dev-python/graphene[${PYTHON_USEDEP}]
 	dev-python/text-unidecode[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-random-order[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/django-filter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
-	rest_framework? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/django-filter-22.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/djangorestframework-3.6.3[${PYTHON_USEDEP}] )
+	rest_framework? ( >=dev-python/djangorestframework-3.6.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-random-order[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	test? ( dev-python/django-filter[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/django-filter-22.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/djangorestframework-3.6.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

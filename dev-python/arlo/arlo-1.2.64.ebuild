@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/monotonic[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/responses[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/responses-0.10.15[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.24[${PYTHON_USEDEP}]
 	dev-python/sseclient[${PYTHON_USEDEP}]
 	dev-python/PySocks[${PYTHON_USEDEP}]
 	dev-python/pickle-mixin[${PYTHON_USEDEP}]

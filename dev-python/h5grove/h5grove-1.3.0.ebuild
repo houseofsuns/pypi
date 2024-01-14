@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev fastapi flask tornado"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.9[${PYTHON_USEDEP}]
 	dev-python/tifffile[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/httpx-0.23[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

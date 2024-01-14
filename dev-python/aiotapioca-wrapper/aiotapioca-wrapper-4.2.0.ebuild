@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pydantic xml"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/asyncio_atexit[${PYTHON_USEDEP}]
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	xml? ( dev-python/xmltodict[${PYTHON_USEDEP}] )"
+	pydantic? ( <dev-python/pydantic-0.0[${PYTHON_USEDEP}] )
+	xml? ( <dev-python/xmltodict-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

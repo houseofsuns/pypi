@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/google-api-python-client[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/google-api-python-client-2.4.0[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.4.4[${PYTHON_USEDEP}]
 	dev-python/pygsheets[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/pandas-gbq[${PYTHON_USEDEP}]
 	dev-python/pdcompare[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-3.24[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

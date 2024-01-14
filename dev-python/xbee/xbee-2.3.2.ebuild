@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tornado"
 DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
-	tornado? ( dev-python/tornado[${PYTHON_USEDEP}] )"
+	tornado? ( ~dev-python/tornado-4.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

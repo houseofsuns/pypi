@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark benchmark-deps docs test"
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/colorama-0.4.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
@@ -33,11 +33,11 @@ DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	benchmark-deps? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	benchmark-deps? ( dev-python/WebTest[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-1.11[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-colorama[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-pytz[${PYTHON_USEDEP}] )"

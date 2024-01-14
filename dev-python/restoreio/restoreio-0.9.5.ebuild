@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-math-dollar[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-toggleprompt[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pydata-sphinx-theme-0.9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-5.1.1[${PYTHON_USEDEP}]
+	~dev-python/pytest-5.0.1[${PYTHON_USEDEP}]
 	dev-python/pytest-html[${PYTHON_USEDEP}]
 	dev-python/pytest-repeat[${PYTHON_USEDEP}]
-	dev-python/pytest-rerunfailures[${PYTHON_USEDEP}]
-	dev-python/pytest-xdist[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]"
+	~dev-python/pytest-rerunfailures-7.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-xdist-1.29.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	~dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.1[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.16.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

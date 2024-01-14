@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ciso8601[${PYTHON_USEDEP}]
-	dev-python/funcy[${PYTHON_USEDEP}]
+	<dev-python/funcy-2.0[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

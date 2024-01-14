@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build doc tests"
-DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/importlib-metadata-7.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
-	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	build? ( dev-python/twine[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/build-0.8.0[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/twine-4.0.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-gallery-0.15.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-images[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

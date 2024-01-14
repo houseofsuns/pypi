@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs graphviz test"
 DEPENDENCIES="dev-python/luigi[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.2[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-bluebrain-theme[${PYTHON_USEDEP}] )
 	graphviz? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

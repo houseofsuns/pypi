@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli docs lxml soap test"
 DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click-default-group[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/click-5.0[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/click-default-group-1.2[${PYTHON_USEDEP}] )
 	cli? ( dev-python/docformatter[${PYTHON_USEDEP}] )
 	cli? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	cli? ( dev-python/toposort[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/toposort-1.5[${PYTHON_USEDEP}] )
 	cli? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	lxml? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	lxml? ( >=dev-python/lxml-4.4.1[${PYTHON_USEDEP}] )
 	soap? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

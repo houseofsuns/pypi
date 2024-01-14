@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/fastai[${PYTHON_USEDEP}]
 	dev-python/monai[${PYTHON_USEDEP}]
 	dev-python/torchio[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/imagedata[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]

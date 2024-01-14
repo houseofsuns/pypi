@@ -26,40 +26,40 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/Keras[${PYTHON_USEDEP}]
 	dev-python/mlblocks[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	<dev-python/statsmodels-0.15[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
-	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pip-9.0.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/watchdog-0.11[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/nbsphinx-0.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pydata-sphinx-theme-0.5[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/autopep8-1.4.3[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-1.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.30.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-2.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.4.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rundoc[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.4.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/rundoc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

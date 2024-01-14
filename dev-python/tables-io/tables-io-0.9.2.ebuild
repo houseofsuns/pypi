@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev full"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/astropy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/h5py-2.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	full? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	full? ( dev-python/tables[${PYTHON_USEDEP}] )
-	full? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/h5py-2.9[${PYTHON_USEDEP}] )
 	full? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

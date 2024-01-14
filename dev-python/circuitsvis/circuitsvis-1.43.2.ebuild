@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/importlib-metadata-5.1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/nvidia-cuda-nvrtc-cu12[${PYTHON_USEDEP}]
 	dev-python/nvidia-cuda-runtime-cu12[${PYTHON_USEDEP}]

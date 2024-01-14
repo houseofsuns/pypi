@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	dev-python/facebook-business[${PYTHON_USEDEP}]
 	dev-python/google-ads[${PYTHON_USEDEP}]
 	dev-python/Salesforce-FuelSDK-Sans[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	<dev-python/paramiko-3.0.0[${PYTHON_USEDEP}]
 	dev-python/dependency-injector[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]"
+	<dev-python/ipython-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

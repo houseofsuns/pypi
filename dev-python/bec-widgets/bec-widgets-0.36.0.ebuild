@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev pyqt5 pyqt6"
 DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/qtconsole[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+	>=dev-python/PyQt6-6.0[${PYTHON_USEDEP}]
 	dev-python/PyQt6-QScintilla[${PYTHON_USEDEP}]
 	dev-python/jedi[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )"
+	pyqt5? ( >=dev-python/PyQt5-5.9[${PYTHON_USEDEP}] )
+	pyqt6? ( >=dev-python/PyQt6-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

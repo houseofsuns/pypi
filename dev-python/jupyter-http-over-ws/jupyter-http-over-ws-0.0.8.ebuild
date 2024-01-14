@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/notebook[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/notebook-5.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/tornado-4.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

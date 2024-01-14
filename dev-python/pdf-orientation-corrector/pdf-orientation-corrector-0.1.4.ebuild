@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyPDF2[${PYTHON_USEDEP}]
-	dev-python/pytesseract[${PYTHON_USEDEP}]
+	<dev-python/pytesseract-0.4.0[${PYTHON_USEDEP}]
 	dev-python/pdf2image[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

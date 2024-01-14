@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/srsly[${PYTHON_USEDEP}]
 	dev-python/spacy-alignments[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	cuda? ( dev-python/cupy[${PYTHON_USEDEP}] )
 	cuda100? ( dev-python/cupy-cuda100[${PYTHON_USEDEP}] )
 	cuda101? ( dev-python/cupy-cuda101[${PYTHON_USEDEP}] )

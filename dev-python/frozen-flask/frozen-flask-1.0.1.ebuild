@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="check doc test"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.0.0[${PYTHON_USEDEP}]
 	check? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	check? ( dev-python/isort[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pallets-sphinx-themes[${PYTHON_USEDEP}] )

@@ -34,12 +34,12 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pyYAML[${PYTHON_USEDEP}]
 	browniebee? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	browniebee? ( dev-python/deap[${PYTHON_USEDEP}] )
-	browniebee? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	browniebee? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	browniebee? ( ~dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}] )
+	browniebee? ( ~dev-python/numpy-1.24.4[${PYTHON_USEDEP}] )
 	browniebee? ( dev-python/pyYAML[${PYTHON_USEDEP}] )
 	browniebee? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	browniebee? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	browniebee? ( dev-python/six[${PYTHON_USEDEP}] )
-	browniebee? ( dev-python/tornado[${PYTHON_USEDEP}] )"
+	browniebee? ( ~dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
+	browniebee? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
+	browniebee? ( ~dev-python/tornado-6.3.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

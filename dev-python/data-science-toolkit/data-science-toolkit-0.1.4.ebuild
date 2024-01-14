@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-42.0[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
+	>=dev-python/emoji-1.7[${PYTHON_USEDEP}]
 	dev-python/textblob[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]

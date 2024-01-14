@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/ordered-set[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]"
+	<dev-python/idna-2.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

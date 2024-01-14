@@ -24,47 +24,47 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
+	~dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
 	dev-python/docx2txt[${PYTHON_USEDEP}]
 	dev-python/e2b[${PYTHON_USEDEP}]
 	dev-python/ffmpeg[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
+	~dev-python/flask-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/google-api-python-client-2.85.0[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/llama-index[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
 	dev-python/pinecone-client[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/py-cord[${PYTHON_USEDEP}]
 	dev-python/pycord-multicog[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
+	~dev-python/pypdf-3.11.1[${PYTHON_USEDEP}]
+	~dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.2.2[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/python-pptx[${PYTHON_USEDEP}]
 	dev-python/replicate[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
-	dev-python/sqlitedict[${PYTHON_USEDEP}]
+	~dev-python/sqlitedict-2.1.0[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-3.0.1[${PYTHON_USEDEP}]
 	dev-python/wolframalpha[${PYTHON_USEDEP}]
 	dev-python/youtube-transcript-api[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]
-	full? ( dev-python/ffmpeg-python[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
-	full? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
-	full? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/more-itertools-9.0.0[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/numpy-1.24.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/openai-whisper[${PYTHON_USEDEP}] )
-	full? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	full? ( dev-python/tokenizers[${PYTHON_USEDEP}] )
 	full? ( dev-python/torch[${PYTHON_USEDEP}] )

@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/griffe[${PYTHON_USEDEP}]
-	dev-python/sphobjinv[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/griffe-0.33[${PYTHON_USEDEP}]
+	>=dev-python/sphobjinv-2.3.1[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-5.1.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
 	dev-python/plum-dispatch[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )

@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/altgraph[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/shelxfile[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

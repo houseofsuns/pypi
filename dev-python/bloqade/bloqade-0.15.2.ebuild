@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc"
 DEPENDENCIES="dev-python/juliacall[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.13[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/requests-sigv4[${PYTHON_USEDEP}]
 	dev-python/amazon-braket-sdk[${PYTHON_USEDEP}]
 	dev-python/plotext[${PYTHON_USEDEP}]
-	dev-python/beartype[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+	>=dev-python/beartype-0.15.0[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.19.1[${PYTHON_USEDEP}]
 	dev-python/plum-dispatch[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-1.4.3[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-material-9.1.9[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocstrings-0.21.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-minify-plugin-0.6.4[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mike[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

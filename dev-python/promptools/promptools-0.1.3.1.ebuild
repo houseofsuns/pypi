@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="stream tokenizer validation"
 DEPENDENCIES="dev-python/partial-json-parser[${PYTHON_USEDEP}]
-	validation? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	validation? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	tokenizer? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	stream? ( dev-python/promplate[${PYTHON_USEDEP}] )
-	stream? ( dev-python/attrs[${PYTHON_USEDEP}] )"
+	stream? ( >=dev-python/attrs-23.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

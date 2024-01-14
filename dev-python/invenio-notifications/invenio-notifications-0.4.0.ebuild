@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/invenio-base[${PYTHON_USEDEP}]
 	tests? ( dev-python/invenio-records-resources[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

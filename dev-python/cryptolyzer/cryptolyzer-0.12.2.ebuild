@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pep8 pylint test"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/attrs-22.0.1[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/certvalidator[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]

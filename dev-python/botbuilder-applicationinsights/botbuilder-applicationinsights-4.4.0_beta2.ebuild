@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/applicationinsights[${PYTHON_USEDEP}]
 	dev-python/botbuilder-schema[${PYTHON_USEDEP}]
 	dev-python/botframework-connector[${PYTHON_USEDEP}]
 	dev-python/botbuilder-core[${PYTHON_USEDEP}]
-	dev-python/aiounittest[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]"
+	>=dev-python/aiounittest-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/django-2.2[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.9.2[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

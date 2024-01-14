@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiocache all django"
-DEPENDENCIES="django? ( dev-python/django[${PYTHON_USEDEP}] )
-	all? ( dev-python/django[${PYTHON_USEDEP}] )
-	aiocache? ( dev-python/aiocache[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiocache[${PYTHON_USEDEP}] )"
+DEPENDENCIES="django? ( <dev-python/django-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/django-4.0.0[${PYTHON_USEDEP}] )
+	aiocache? ( <dev-python/aiocache-0.12.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/aiocache-0.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

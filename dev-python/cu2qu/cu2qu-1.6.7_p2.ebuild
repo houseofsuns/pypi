@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="dev-python/fonttools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/fonttools-3.32.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/defcon[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

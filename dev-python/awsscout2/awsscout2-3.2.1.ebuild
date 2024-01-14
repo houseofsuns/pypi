@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.2[${PYTHON_USEDEP}]
+	>=dev-python/netaddr-0.7.11[${PYTHON_USEDEP}]
 	dev-python/opinel[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

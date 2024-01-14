@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/django-mptt[${PYTHON_USEDEP}]
 	dev-python/django-compressor[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/easy-thumbnails[${PYTHON_USEDEP}]"
+	>=dev-python/djangorestframework-3.14[${PYTHON_USEDEP}]
+	>=dev-python/easy-thumbnails-2.7.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

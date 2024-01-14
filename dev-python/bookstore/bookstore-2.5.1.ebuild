@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-5.0[${PYTHON_USEDEP}]
 	dev-python/notebook[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	>=dev-python/tornado-5.1.1[${PYTHON_USEDEP}]
 	dev-python/aiobotocore[${PYTHON_USEDEP}]
 	dev-python/aioboto3[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -37,8 +37,8 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-0.660[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )

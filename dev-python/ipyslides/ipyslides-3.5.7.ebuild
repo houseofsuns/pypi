@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="extra"
 DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/markdown-customblocks[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-8.0.4[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
 	dev-python/anywidget[${PYTHON_USEDEP}]
 	dev-python/tldraw[${PYTHON_USEDEP}]
-	extra? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	extra? ( dev-python/ipython[${PYTHON_USEDEP}] )"
+	extra? ( >=dev-python/jupyterlab-3.5.2[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/ipython-8.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

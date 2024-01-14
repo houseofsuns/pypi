@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/incremental[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/incremental-22.10.0[${PYTHON_USEDEP}]
 	dev-python/systembridgemodels[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]"
+	>=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

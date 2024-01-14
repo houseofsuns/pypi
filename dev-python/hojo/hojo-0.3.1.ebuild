@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/uuid6[${PYTHON_USEDEP}]
 	dev-python/pluralizer[${PYTHON_USEDEP}]
 	dev-python/pg8000[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/cattrs-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/pendulum-4.0.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

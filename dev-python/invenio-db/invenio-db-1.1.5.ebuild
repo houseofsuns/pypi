@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mysql postgresql tests"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/alembic-1.11.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Alembic[${PYTHON_USEDEP}]
 	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Continuum[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/pymysql-0.10.1[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/cryptography-2.1.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

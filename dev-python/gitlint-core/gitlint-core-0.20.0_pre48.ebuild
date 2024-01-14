@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="trusted-deps"
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	trusted-deps? ( dev-python/arrow[${PYTHON_USEDEP}] )
-	trusted-deps? ( dev-python/click[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/arrow-1.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
+	trusted-deps? ( ~dev-python/arrow-1.2.3[${PYTHON_USEDEP}] )
+	trusted-deps? ( ~dev-python/click-8.1.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

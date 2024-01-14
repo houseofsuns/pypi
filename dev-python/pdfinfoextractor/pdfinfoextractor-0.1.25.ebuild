@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyPDF2[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.26.56[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/pytest-shutil[${PYTHON_USEDEP}]
+	~dev-python/pytest-shutil-1.7.0[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

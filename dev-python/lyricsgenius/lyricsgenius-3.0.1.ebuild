@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="checks dev docs"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	checks? ( dev-python/tox[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.6.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	checks? ( ~dev-python/tox-3.2[${PYTHON_USEDEP}] )
 	checks? ( dev-python/doc8[${PYTHON_USEDEP}] )
 	checks? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	checks? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	checks? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-3.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/doc8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-3.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

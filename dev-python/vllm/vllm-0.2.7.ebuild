@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/ray[${PYTHON_USEDEP}]
 	dev-python/xformers[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.13[${PYTHON_USEDEP}]
 	dev-python/aioprometheus[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

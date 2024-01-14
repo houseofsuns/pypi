@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.10.49[${PYTHON_USEDEP}]
 	dev-python/envs[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	test? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )"
+	~dev-python/python-jose-3.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.13.0[${PYTHON_USEDEP}]
+	test? ( ~dev-python/botocore-1.13.49[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-5.0.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="phonenumbers test vies"
 DEPENDENCIES="dev-python/python-sql[${PYTHON_USEDEP}]
-	dev-python/python-stdnum[${PYTHON_USEDEP}]
+	>=dev-python/python-stdnum-1.19[${PYTHON_USEDEP}]
 	dev-python/trytond-country[${PYTHON_USEDEP}]
 	dev-python/trytond[${PYTHON_USEDEP}]
 	vies? ( dev-python/python-stdnum[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/xlwt[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/xlwt-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/mail-parser[${PYTHON_USEDEP}]
 	dev-python/extract-msg[${PYTHON_USEDEP}]"

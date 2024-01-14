@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all image-support local-support"
 DEPENDENCIES="all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	image-support? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	all? ( dev-python/jupyter-kernel-gateway[${PYTHON_USEDEP}] )
 	local-support? ( dev-python/jupyter-kernel-gateway[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+	<dev-python/python-dotenv-2.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/websockets-12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

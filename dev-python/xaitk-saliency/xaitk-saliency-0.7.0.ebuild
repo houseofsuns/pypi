@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="example-deps tools"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -32,16 +32,16 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/smqtk-core[${PYTHON_USEDEP}]
 	dev-python/smqtk-descriptors[${PYTHON_USEDEP}]
 	dev-python/smqtk-detection[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.1[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	example-deps? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	example-deps? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tools? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	example-deps? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	example-deps? ( >=dev-python/matplotlib-3.4.1[${PYTHON_USEDEP}] )
+	tools? ( >=dev-python/matplotlib-3.4.1[${PYTHON_USEDEP}] )
 	example-deps? ( dev-python/papermill[${PYTHON_USEDEP}] )
 	example-deps? ( dev-python/torch[${PYTHON_USEDEP}] )
 	example-deps? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	example-deps? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	example-deps? ( >=dev-python/tqdm-4.45.0[${PYTHON_USEDEP}] )
 	tools? ( dev-python/kwcoco[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

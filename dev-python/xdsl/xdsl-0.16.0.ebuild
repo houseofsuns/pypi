@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extras"
-DEPENDENCIES="dev-python/immutabledict[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/immutabledict-4.1.1[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	~dev-python/ordered-set-4.1.0[${PYTHON_USEDEP}]
 	extras? ( dev-python/riscemu[${PYTHON_USEDEP}] )
 	extras? ( dev-python/wgpu[${PYTHON_USEDEP}] )
 	extras? ( dev-python/textual[${PYTHON_USEDEP}] )

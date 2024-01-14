@@ -27,7 +27,7 @@ IUSE="dev docs qt test test-qt"
 DEPENDENCIES="dev-python/in-n-out[${PYTHON_USEDEP}]
 	dev-python/psygnal[${PYTHON_USEDEP}]
 	dev-python/pydantic-compat[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.8[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
@@ -40,19 +40,19 @@ DEPENDENCIES="dev-python/in-n-out[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
 	docs? ( dev-python/griffe-fieldz[${PYTHON_USEDEP}] )
-	docs? ( dev-python/griffe[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/griffe-0.36.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.4.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-python-1.7.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}] )
 	qt? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	qt? ( dev-python/superqt[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test-qt? ( dev-python/fonticon-fontawesome6[${PYTHON_USEDEP}] )
 	test-qt? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	test-qt? ( dev-python/qtpy[${PYTHON_USEDEP}] )

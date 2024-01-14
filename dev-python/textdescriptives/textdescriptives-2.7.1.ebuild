@@ -25,29 +25,29 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs sklearn style tests tutorials"
 DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyphen[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyphen-0.15.0[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/furo-2023.3.27[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
 	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	style? ( dev-python/black[${PYTHON_USEDEP}] )
+	style? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
 	style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	style? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	style? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	style? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/ipython[${PYTHON_USEDEP}] )"
+	tutorials? ( <=dev-python/ipython-8.16.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/jsonref[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonref-0.2[${PYTHON_USEDEP}]
 	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pyflakes[${PYTHON_USEDEP}] )

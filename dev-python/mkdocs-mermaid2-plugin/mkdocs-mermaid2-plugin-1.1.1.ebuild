@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-18.5[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.6.3[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-1.0.4[${PYTHON_USEDEP}]
 	dev-python/jsbeautifier[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
+	>=dev-python/pymdown-extensions-8.0[${PYTHON_USEDEP}]
 	test? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

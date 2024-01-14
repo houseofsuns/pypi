@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws toml vault yaml"
-DEPENDENCIES="aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
+DEPENDENCIES="aws? ( >=dev-python/boto3-1.10.45[${PYTHON_USEDEP}] )
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
-	vault? ( dev-python/hvac[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	vault? ( <dev-python/hvac-0.11.2[${PYTHON_USEDEP}] )
+	yaml? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

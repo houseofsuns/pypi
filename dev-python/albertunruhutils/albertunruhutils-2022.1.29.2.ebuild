@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/redis-4.1.0[${PYTHON_USEDEP}]
 	dev-python/aioredis[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

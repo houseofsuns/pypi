@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test test-browser"
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.11.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	dev-python/google-apitools[${PYTHON_USEDEP}]
 	dev-python/google-auth[${PYTHON_USEDEP}]
 	dev-python/atomicwrites[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test-browser? ( dev-python/selenium[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-6.1.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-rerunfailures-9.1.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-timeout-1.4.2[${PYTHON_USEDEP}] )
+	test-browser? ( >=dev-python/selenium-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

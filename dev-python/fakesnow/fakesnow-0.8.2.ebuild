@@ -28,14 +28,14 @@ DEPENDENCIES="notebook? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev-python/duckdb[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
-	dev-python/sqlglot[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
+	~dev-python/sqlglot-20.7.1[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-23.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/jupysql[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )"

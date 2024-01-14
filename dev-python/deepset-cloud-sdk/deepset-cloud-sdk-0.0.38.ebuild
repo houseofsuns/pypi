@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.25.2[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/structlog-23.2.0[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.2.3[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

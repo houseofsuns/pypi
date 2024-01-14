@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/hydra-core[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]"
+	>=dev-python/joblib-0.14.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

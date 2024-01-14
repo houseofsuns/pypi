@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jupyter-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/notebook-7.0.0[${PYTHON_USEDEP}]
 	dev-python/pdfkit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

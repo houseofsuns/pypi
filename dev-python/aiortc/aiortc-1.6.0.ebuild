@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/aioice[${PYTHON_USEDEP}]
 	dev-python/av[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cffi-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.2[${PYTHON_USEDEP}]
 	dev-python/google-crc32c[${PYTHON_USEDEP}]
 	dev-python/pyee[${PYTHON_USEDEP}]
 	dev-python/pylibsrtp[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
-	dev? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	>=dev-python/pyopenssl-23.1.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/aiohttp-3.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-7.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/numpy-1.19.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

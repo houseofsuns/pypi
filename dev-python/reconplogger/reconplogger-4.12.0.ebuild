@@ -27,21 +27,21 @@ IUSE="all dev doc maintainer test"
 DEPENDENCIES="dev-python/logmatic-python[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	all? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/requests-2.24.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/requests-2.24.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/testfixtures-6.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-1.8.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-3.25.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-autodoc-typehints-1.11.1[${PYTHON_USEDEP}] )
 	maintainer? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	maintainer? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	maintainer? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/testfixtures-6.10.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

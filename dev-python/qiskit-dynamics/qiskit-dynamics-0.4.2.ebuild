@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jax"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/qiskit-terra[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
+	>=dev-python/qiskit-terra-0.23.0[${PYTHON_USEDEP}]
 	dev-python/multiset[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.12[${PYTHON_USEDEP}]
 	jax? ( dev-python/jax[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jaxlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

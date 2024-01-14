@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiofiles-0.6.0[${PYTHON_USEDEP}]
 	dev-python/DAWG[${PYTHON_USEDEP}]
-	dev-python/Pyro5[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
+	>=dev-python/Pyro5-5.12[${PYTHON_USEDEP}]
+	>=dev-python/diskcache-5.1.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/lark-parser[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.2[${PYTHON_USEDEP}]
+	>=dev-python/passlib-1.7.0[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
+	~dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.0[${PYTHON_USEDEP}]
 	dev-python/translitcodec[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]"
+	>=dev-python/ujson-4.0.1[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.12.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

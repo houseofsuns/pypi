@@ -27,8 +27,8 @@ IUSE="all python-dotenv toml yaml"
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	yaml? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	python-dotenv? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

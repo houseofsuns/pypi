@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/coveo-functools[${PYTHON_USEDEP}]
 	dev-python/coveo-itertools[${PYTHON_USEDEP}]
 	dev-python/coveo-systools[${PYTHON_USEDEP}]

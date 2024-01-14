@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/kuflow-rest[${PYTHON_USEDEP}]
 	dev-python/azure-core[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
+	<dev-python/isodate-0.7.0[${PYTHON_USEDEP}]
 	dev-python/temporalio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

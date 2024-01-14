@@ -29,13 +29,13 @@ DEPENDENCIES="dev-python/django-tree-queries[${PYTHON_USEDEP}]
 	dev-python/django-markitup[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.13[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]
+	>=dev-python/django-filter-22.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pylp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylpconcat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/css-html-js-minify[${PYTHON_USEDEP}] )
-	test? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/selenium-4.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/selenium-screenshot[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

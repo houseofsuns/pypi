@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/arxiv-base[${PYTHON_USEDEP}]
 	dev-python/mysqlclient[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/redis-2.10.6[${PYTHON_USEDEP}]
 	dev-python/redis-py-cluster[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

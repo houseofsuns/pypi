@@ -26,22 +26,22 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/validators-0.14.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.40.2[${PYTHON_USEDEP}]
+	~dev-python/pytest-4.6.6[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.6.7[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
-	dev-python/flasgger[${PYTHON_USEDEP}]
-	dev-python/multiprocess[${PYTHON_USEDEP}]
+	>=dev-python/flasgger-0.9.3[${PYTHON_USEDEP}]
+	>=dev-python/multiprocess-0.70.9[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.8.1[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/multiprocessing-logging[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]"
+	~dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

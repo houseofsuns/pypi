@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all chardet genshi lxml"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.9[${PYTHON_USEDEP}]
 	dev-python/webencodings[${PYTHON_USEDEP}]
 	all? ( dev-python/genshi[${PYTHON_USEDEP}] )
-	all? ( dev-python/chardet[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/chardet-2.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	chardet? ( dev-python/chardet[${PYTHON_USEDEP}] )
+	chardet? ( >=dev-python/chardet-2.2[${PYTHON_USEDEP}] )
 	genshi? ( dev-python/genshi[${PYTHON_USEDEP}] )
 	lxml? ( dev-python/lxml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

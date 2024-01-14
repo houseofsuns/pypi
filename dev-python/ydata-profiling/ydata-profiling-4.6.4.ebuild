@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="notebook unicode"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/scipy-1.12[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-3.9[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/visions[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.26[${PYTHON_USEDEP}]
 	dev-python/htmlmin[${PYTHON_USEDEP}]
 	dev-python/phik[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.13[${PYTHON_USEDEP}]
 	dev-python/multimethod[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	<dev-python/statsmodels-1.0[${PYTHON_USEDEP}]
+	<dev-python/typeguard-5.0[${PYTHON_USEDEP}]
 	dev-python/imagehash[${PYTHON_USEDEP}]
 	dev-python/wordcloud[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	notebook? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/jupyter-core[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/jupyter-client-5.3.4[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/jupyter-core-4.6.3[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/ipywidgets-7.5.1[${PYTHON_USEDEP}] )
 	unicode? ( dev-python/tangled-up-in-unicode[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/camelot-py[${PYTHON_USEDEP}]
-	dev-python/wand[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]"
+	~dev-python/wand-0.5.8[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]"
+	>=dev-python/pymysql-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="dev discovery hydra"
 DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
 	dev-python/llvmlite[${PYTHON_USEDEP}]
 	dev-python/FlowUtils[${PYTHON_USEDEP}]
@@ -37,14 +37,14 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	hydra? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
 	hydra? ( dev-python/hydra-colorlog[${PYTHON_USEDEP}] )
 	hydra? ( dev-python/hydra-optuna-sweeper[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mkdocstrings-0.20.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mkdocstrings-python-0.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
 	discovery? ( dev-python/leidenalg[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="google"
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
-	dev-python/hvac[${PYTHON_USEDEP}]
+	>=dev-python/hvac-0.10[${PYTHON_USEDEP}]
 	google? ( dev-python/apache-airflow-providers-google[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

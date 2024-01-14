@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiofiles-24.0[${PYTHON_USEDEP}]
+	<dev-python/aiosqlite-0.19.0[${PYTHON_USEDEP}]
+	<dev-python/pytz-2023.0[${PYTHON_USEDEP}]
+	<dev-python/tzlocal-5.0[${PYTHON_USEDEP}]
 	dev-python/jetblack-fixparser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

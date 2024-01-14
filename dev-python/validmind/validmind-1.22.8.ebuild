@@ -24,56 +24,56 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all llm pytorch r-support transformers"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/arch[${PYTHON_USEDEP}]
 	dev-python/bert-score[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	llm? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	dev-python/dython[${PYTHON_USEDEP}]
 	dev-python/evaluate[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	~dev-python/ipython-7.34.0[${PYTHON_USEDEP}]
+	<dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
 	all? ( dev-python/levenshtein[${PYTHON_USEDEP}] )
 	llm? ( dev-python/levenshtein[${PYTHON_USEDEP}] )
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-3.8[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.22.3[${PYTHON_USEDEP}]
 	all? ( dev-python/openai[${PYTHON_USEDEP}] )
 	llm? ( dev-python/openai[${PYTHON_USEDEP}] )
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/pandas-profiling[${PYTHON_USEDEP}]
 	dev-python/pdoc[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	dev-python/plotly-express[${PYTHON_USEDEP}]
 	all? ( dev-python/pycocoevalcap[${PYTHON_USEDEP}] )
 	llm? ( dev-python/pycocoevalcap[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pypmml[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/rouge[${PYTHON_USEDEP}]
 	all? ( dev-python/rpy2[${PYTHON_USEDEP}] )
 	r-support? ( dev-python/rpy2[${PYTHON_USEDEP}] )
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scorecardpy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/textstat[${PYTHON_USEDEP}]
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	llm? ( dev-python/torch[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
 	llm? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	llm? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )

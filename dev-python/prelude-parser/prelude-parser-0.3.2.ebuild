@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all pandas polars"
 DEPENDENCIES="dev-python/camel-converter[${PYTHON_USEDEP}]
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-2.1.0[${PYTHON_USEDEP}] )
 	polars? ( dev-python/polars[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-2.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/polars[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

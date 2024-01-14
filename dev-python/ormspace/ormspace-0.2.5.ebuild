@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/deta[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
+	<dev-python/anyio-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/bcrypt-5.0.0[${PYTHON_USEDEP}]
 	dev-python/Unidecode[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

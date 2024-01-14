@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docs"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httpx-0.19.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	all? ( dev-python/tox[${PYTHON_USEDEP}] )
-	all? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	>=dev-python/pydantic-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.12.0[${PYTHON_USEDEP}]
+	all? ( ~dev-python/tox-3.24.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/wheel-0.37.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mkdocs-1.2.3[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mkdocs-material-7.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.24.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.37.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/mkdocs-1.2.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-7.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

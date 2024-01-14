@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sentry-sdk[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sentry-sdk-0.16[${PYTHON_USEDEP}]
 	dev-python/django-environ[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]"
+	>=dev-python/redis-3.3.11[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

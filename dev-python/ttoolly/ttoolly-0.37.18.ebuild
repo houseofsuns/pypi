@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/rstr[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/freezegun[${PYTHON_USEDEP}]
-	dev-python/boolean-py[${PYTHON_USEDEP}]"
+	>=dev-python/boolean-py-3.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

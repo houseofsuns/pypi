@@ -32,10 +32,10 @@ DEPENDENCIES="dev-python/bc-python-hcl2[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/junit-xml[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	~dev-python/six-1.15.0[${PYTHON_USEDEP}]
 	dev-python/jmespath[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/update-checker[${PYTHON_USEDEP}]
@@ -43,11 +43,11 @@ DEPENDENCIES="dev-python/bc-python-hcl2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/dockerfile-parse[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-5.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pipenv-setup[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/GitPython-3.1.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

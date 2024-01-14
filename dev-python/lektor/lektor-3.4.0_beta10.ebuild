@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ipython"
 DEPENDENCIES="dev-python/babel[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-6.0[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/inifile[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
 	dev-python/marshmallow[${PYTHON_USEDEP}]
 	dev-python/marshmallow-dataclass[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/mistune-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.0[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/python-slugify[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/watchfiles[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/watchfiles-0.12[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-2.1.0[${PYTHON_USEDEP}]
 	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	ipython? ( dev-python/traitlets[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/ratelimit[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
+	>=dev-python/ratelimit-2.2.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-9.4.4[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pretty[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

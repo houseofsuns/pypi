@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc ipy"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/interpret[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
 	dev-python/botorch[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/cvxpy[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	~dev-python/dask-2023.1.1[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/fasterrisk[${PYTHON_USEDEP}]
 	dev-python/mrmr-selection[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.13.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-slugify[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dash[${PYTHON_USEDEP}] )

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="langchain sagemaker"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	langchain? ( dev-python/langchain[${PYTHON_USEDEP}] )
-	sagemaker? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	sagemaker? ( dev-python/botocore[${PYTHON_USEDEP}] )"
+	sagemaker? ( >=dev-python/boto3-1.28.66[${PYTHON_USEDEP}] )
+	sagemaker? ( >=dev-python/botocore-1.31.66[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

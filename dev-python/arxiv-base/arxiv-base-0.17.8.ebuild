@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/uwsgi[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+	~dev-python/bleach-3.3.0[${PYTHON_USEDEP}]
 	dev-python/backports-datetime-fromisoformat[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

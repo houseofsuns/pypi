@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mongodb mssql mysql oracle oss postgresql s3"
 DEPENDENCIES="dev-python/cacheout[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
 	dev-python/watchmen-meta[${PYTHON_USEDEP}]
 	mysql? ( dev-python/watchmen-storage-mysql[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/watchmen-storage-oracle[${PYTHON_USEDEP}] )

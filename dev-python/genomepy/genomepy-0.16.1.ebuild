@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.5[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/mygene[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python[${PYTHON_USEDEP}]
@@ -38,6 +38,6 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pyfaidx[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	>=dev-python/tqdm-4.51[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

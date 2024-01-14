@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="provider"
-DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/scrapy[${PYTHON_USEDEP}]
 	dev-python/zyte-api[${PYTHON_USEDEP}]
 	provider? ( dev-python/andi[${PYTHON_USEDEP}] )

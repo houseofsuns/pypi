@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	testing? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/numpy-1.21.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pandas-1.3.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

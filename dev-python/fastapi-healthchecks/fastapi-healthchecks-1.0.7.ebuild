@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all ceph http postgres rabbitmq redis"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.9[${PYTHON_USEDEP}]
 	all? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	rabbitmq? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	all? ( dev-python/aioboto3[${PYTHON_USEDEP}] )
 	ceph? ( dev-python/aioboto3[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	http? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	all? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
+	http? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/redis-5.0[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

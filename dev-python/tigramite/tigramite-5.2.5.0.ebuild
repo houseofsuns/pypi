@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/seaborn-0.12.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/networkx-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytorch[${PYTHON_USEDEP}] )
 	all? ( dev-python/gpytorch[${PYTHON_USEDEP}] )
 	all? ( dev-python/dcor[${PYTHON_USEDEP}] )
-	all? ( dev-python/joblib[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/joblib-1.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/ortools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/seaborn-0.12.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/networkx-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytorch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gpytorch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dcor[${PYTHON_USEDEP}] )
-	dev? ( dev-python/joblib[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/joblib-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ortools[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/networkx-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytorch[${PYTHON_USEDEP}] )
 	test? ( dev-python/gpytorch[${PYTHON_USEDEP}] )

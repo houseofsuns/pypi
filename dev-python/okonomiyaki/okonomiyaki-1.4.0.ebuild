@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-16.1.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
 	dev-python/zipfile2[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/distro[${PYTHON_USEDEP}] )
-	test? ( dev-python/packaging[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/packaging-20.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}]
+	~dev-python/pyserial-3.4[${PYTHON_USEDEP}]
+	>=dev-python/pytest-3.7[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

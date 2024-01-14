@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.0.4[${PYTHON_USEDEP}]
+	~dev-python/paramiko-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
+	~dev-python/qrcode-7.4.2[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	~dev-python/rich-11.2.0[${PYTHON_USEDEP}]
 	dev-python/sseclient-py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

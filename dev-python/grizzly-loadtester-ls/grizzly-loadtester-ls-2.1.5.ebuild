@@ -27,9 +27,9 @@ IUSE="ci dev"
 DEPENDENCIES="dev-python/pygls[${PYTHON_USEDEP}]
 	dev-python/behave[${PYTHON_USEDEP}]
 	dev-python/random-word[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	ci? ( dev-python/build[${PYTHON_USEDEP}] )
-	ci? ( dev-python/twine[${PYTHON_USEDEP}] )
+	ci? ( <dev-python/twine-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

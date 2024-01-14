@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	backup? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-timeout-1.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )

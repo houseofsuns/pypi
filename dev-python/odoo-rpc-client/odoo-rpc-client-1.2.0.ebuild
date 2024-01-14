@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.13[${PYTHON_USEDEP}]
 	dev-python/extend-me[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-18.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.7[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
 	all? ( dev-python/anyfield[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

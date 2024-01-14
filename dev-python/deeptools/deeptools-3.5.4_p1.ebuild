@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.17.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
-	dev-python/numpydoc[${PYTHON_USEDEP}]
+	>=dev-python/numpydoc-0.5[${PYTHON_USEDEP}]
 	dev-python/pyBigWig[${PYTHON_USEDEP}]
 	dev-python/py2bit[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	>=dev-python/plotly-4.9[${PYTHON_USEDEP}]
 	dev-python/deeptoolsintervals[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

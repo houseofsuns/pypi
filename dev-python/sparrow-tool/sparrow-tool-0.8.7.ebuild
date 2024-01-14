@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Deprecated[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	<dev-python/attrs-23.0.0[${PYTHON_USEDEP}]
 	dev-python/chevron[${PYTHON_USEDEP}]
 	dev-python/colour[${PYTHON_USEDEP}]
 	dev-python/concurrent-log-handler[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/gpustat[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pretty_errors[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

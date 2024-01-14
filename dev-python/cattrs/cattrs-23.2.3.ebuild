@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bson cbor2 msgpack orjson pyyaml tomlkit ujson"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	bson? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	cbor2? ( dev-python/cbor2[${PYTHON_USEDEP}] )
-	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	pyyaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	tomlkit? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
-	ujson? ( dev-python/ujson[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
+	>=dev-python/exceptiongroup-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]
+	bson? ( >=dev-python/pymongo-4.4.0[${PYTHON_USEDEP}] )
+	cbor2? ( >=dev-python/cbor2-5.4.6[${PYTHON_USEDEP}] )
+	msgpack? ( >=dev-python/msgpack-1.0.5[${PYTHON_USEDEP}] )
+	orjson? ( >=dev-python/orjson-3.9.2[${PYTHON_USEDEP}] )
+	pyyaml? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	tomlkit? ( >=dev-python/tomlkit-0.11.8[${PYTHON_USEDEP}] )
+	ujson? ( >=dev-python/ujson-5.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

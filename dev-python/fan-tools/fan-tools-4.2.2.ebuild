@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aio-utils doc-utils gcloud-backup gitlab-monitoring image-utils jaeger logging monitoring otel s3-backup"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
 	aio-utils? ( dev-python/aiopg[${PYTHON_USEDEP}] )
 	aio-utils? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	doc-utils? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
+	doc-utils? ( ~dev-python/djangorestframework-3.12.0[${PYTHON_USEDEP}] )
 	doc-utils? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	doc-utils? ( dev-python/rest-framework-dyn-serializer[${PYTHON_USEDEP}] )
 	gcloud-backup? ( dev-python/fan-tools[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	gitlab-monitoring? ( dev-python/python-gitlab[${PYTHON_USEDEP}] )
 	image-utils? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	jaeger? ( dev-python/opentelemetry-exporter-jaeger-thrift[${PYTHON_USEDEP}] )
-	logging? ( dev-python/python-json-logger[${PYTHON_USEDEP}] )
+	logging? ( ~dev-python/python-json-logger-0.1.7[${PYTHON_USEDEP}] )
 	logging? ( dev-python/safe-logger[${PYTHON_USEDEP}] )
 	monitoring? ( dev-python/starlette[${PYTHON_USEDEP}] )
 	otel? ( dev-python/opentelemetry-instrumentation-django[${PYTHON_USEDEP}] )

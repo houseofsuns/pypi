@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all test"
-DEPENDENCIES="dev-python/parse[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/parse-1.19.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	~dev-python/tornado-6.1[${PYTHON_USEDEP}]
 	dev-python/camel-case-switcher[${PYTHON_USEDEP}]
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	all? ( dev-python/unittest-xml-reporting[${PYTHON_USEDEP}] )

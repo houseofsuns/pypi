@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="server"
 DEPENDENCIES="dev-python/invoke[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]
 	dev-python/dsnparse[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/humanize-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	server? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	server? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
+	server? ( <dev-python/httpx-0.24.0[${PYTHON_USEDEP}] )
+	server? ( <dev-python/uvicorn-0.18.0[${PYTHON_USEDEP}] )
+	server? ( <dev-python/uvicorn-0.18.0[${PYTHON_USEDEP}] )
+	server? ( <dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/kubernetes_asyncio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

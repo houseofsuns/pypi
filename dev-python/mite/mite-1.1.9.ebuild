@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/acurl[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]
 	dev-python/nanomsg[${PYTHON_USEDEP}]
 	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	<dev-python/selenium-4.0[${PYTHON_USEDEP}]
 	dev-python/uvloop[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
 	amqp? ( dev-python/aio-pika[${PYTHON_USEDEP}] )

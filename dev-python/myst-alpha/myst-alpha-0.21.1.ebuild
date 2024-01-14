@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-auth-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/google-auth-oauthlib-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.2[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/twine-1.13.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-21.6[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mypy-1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-toml[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-dataclasses[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-describe[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	test? ( <dev-python/types-setuptools-58.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-describe-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-subtests-1.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/openapi-python-client[${PYTHON_USEDEP}] )
 	test? ( dev-python/typer[${PYTHON_USEDEP}] )
 	test? ( dev-python/respx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

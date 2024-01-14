@@ -33,9 +33,9 @@ DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pytest-flake8[${PYTHON_USEDEP}]
 	dev-python/textgrid[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/bitarray[${PYTHON_USEDEP}]
+	~dev-python/bitarray-2.6.0[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

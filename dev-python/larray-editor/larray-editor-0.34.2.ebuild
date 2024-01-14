@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/larray[${PYTHON_USEDEP}]
-	dev-python/jedi[${PYTHON_USEDEP}]"
+	>=dev-python/jedi-0.18[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

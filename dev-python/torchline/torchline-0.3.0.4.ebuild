@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/yacs[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	dev-python/pretrainedmodels[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.2.0[${PYTHON_USEDEP}]
 	dev-python/test-tube[${PYTHON_USEDEP}]
 	dev-python/albumentations[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

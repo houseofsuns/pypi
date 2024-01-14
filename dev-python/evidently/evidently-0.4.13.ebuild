@@ -24,40 +24,40 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev fsspec spark"
-DEPENDENCIES="dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/plotly-5.5.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.12.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/fastapi-restful[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-3.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.0[${PYTHON_USEDEP}]
 	dev-python/iterative-telemetry[${PYTHON_USEDEP}]
 	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.35.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-dataclasses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pillow-9.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/httpx-0.24.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/setuptools-50.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/setuptools-68.2.2[${PYTHON_USEDEP}] )
 	fsspec? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

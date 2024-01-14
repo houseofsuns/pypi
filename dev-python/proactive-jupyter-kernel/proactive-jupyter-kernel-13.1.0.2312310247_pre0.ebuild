@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pexpect[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pexpect-4.0[${PYTHON_USEDEP}]
 	dev-python/proactive[${PYTHON_USEDEP}]
 	dev-python/jupyter-client[${PYTHON_USEDEP}]
 	dev-python/IPython[${PYTHON_USEDEP}]

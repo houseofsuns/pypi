@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli colour iso_8601 template"
-DEPENDENCIES="cli? ( dev-python/click[${PYTHON_USEDEP}] )
+DEPENDENCIES="cli? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
-	cli? ( dev-python/html2text[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/html2text-2020.1.16[${PYTHON_USEDEP}] )
 	cli? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	cli? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	colour? ( dev-python/click[${PYTHON_USEDEP}] )
+	colour? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
 	iso_8601? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
-	template? ( dev-python/click[${PYTHON_USEDEP}] )
-	template? ( dev-python/html2text[${PYTHON_USEDEP}] )
+	template? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
+	template? ( >=dev-python/html2text-2020.1.16[${PYTHON_USEDEP}] )
 	template? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	template? ( dev-python/Pygments[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

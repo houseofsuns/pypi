@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cuda10 lint pynvml-11-450-129 pynvml-11-450-51 pynvml-11-460-79 pynvml-11-470-66 pynvml-11-495-46 pynvml-11-510-69 pynvml-11-515-48 pynvml-11-515-75 pynvml-11-525-112 pynvml-11-525-131 pynvml-11-525-84 pynvml-12-535-108 pynvml-12-535-133 pynvml-12-535-77"
 DEPENDENCIES="dev-python/nvidia-ml-py[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.6.6[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-1.0.0[${PYTHON_USEDEP}]
 	cuda10? ( dev-python/nvidia-ml-py[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/black-22.6.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/pylint-2.16.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	lint? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

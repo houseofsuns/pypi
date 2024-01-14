@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/libsass[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/mkdocs-1.1[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.6.3[${PYTHON_USEDEP}]
+	>=dev-python/libsass-0.15[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

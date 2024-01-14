@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-3.1[${PYTHON_USEDEP}]
 	dev-python/flask-restful[${PYTHON_USEDEP}]
-	dev-python/flask-migrate[${PYTHON_USEDEP}]
+	<dev-python/flask-migrate-4.0[${PYTHON_USEDEP}]
 	dev-python/flask-marshmallow[${PYTHON_USEDEP}]
 	dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/apispec[${PYTHON_USEDEP}]
+	<dev-python/passlib-1.8[${PYTHON_USEDEP}]
+	<dev-python/apispec-6.0[${PYTHON_USEDEP}]
 	dev-python/apispec-webframeworks[${PYTHON_USEDEP}]
 	dev-python/taipy-core[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

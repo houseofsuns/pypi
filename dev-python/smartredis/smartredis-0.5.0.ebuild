@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc xarray"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.18.2[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-3.1.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-fortran[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/breathe[${PYTHON_USEDEP}] )
-	xarray? ( dev-python/xarray[${PYTHON_USEDEP}] )"
+	doc? ( ~dev-python/breathe-4.26.0[${PYTHON_USEDEP}] )
+	xarray? ( >=dev-python/xarray-0.14.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

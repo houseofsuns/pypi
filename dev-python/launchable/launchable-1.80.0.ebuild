@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/urllib3-1.26[${PYTHON_USEDEP}]
 	dev-python/junitparser[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]"
+	>=dev-python/click-8.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-7.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

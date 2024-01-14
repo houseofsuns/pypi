@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]"
+	~dev-python/selenium-4.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

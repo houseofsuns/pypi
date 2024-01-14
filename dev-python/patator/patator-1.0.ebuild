@@ -35,8 +35,8 @@ DEPENDENCIES="dev-python/paramiko[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]
 	dev-python/IPy[${PYTHON_USEDEP}]
-	dev-python/pysnmp[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
+	~dev-python/pysnmp-4.4.12[${PYTHON_USEDEP}]
+	~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
 	dev-python/pysqlcipher3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

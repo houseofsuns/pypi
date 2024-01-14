@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/argcomplete-1.12.3[${PYTHON_USEDEP}]
+	<dev-python/cffi-1.15.0[${PYTHON_USEDEP}]
+	<dev-python/chardet-3.1.0[${PYTHON_USEDEP}]
+	~dev-python/cryptography-39.0.1[${PYTHON_USEDEP}]
+	<=dev-python/importlib-metadata-4.10.1[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
+	~dev-python/orjson-3.5.2[${PYTHON_USEDEP}]
+	~dev-python/prettytable-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/prompt-toolkit-1.0.15[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
 	dev-python/pysocks[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-editor[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	~dev-python/python-editor-1.0.4[${PYTHON_USEDEP}]
+	~dev-python/pytz-2021.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	~dev-python/six-1.13.0[${PYTHON_USEDEP}]
 	dev-python/sseclient-py[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-4.2[${PYTHON_USEDEP}]
+	<dev-python/zipp-3.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ao3[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]"
+	>=dev-python/appdirs-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

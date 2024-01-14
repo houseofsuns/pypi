@@ -31,8 +31,8 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]
 	dev-python/ethereum[${PYTHON_USEDEP}]
-	dev-python/kombu[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/kombu-4.1.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

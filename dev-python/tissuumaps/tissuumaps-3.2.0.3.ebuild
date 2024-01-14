@@ -27,16 +27,16 @@ IUSE="full pyside6"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/openslide-python[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.0[${PYTHON_USEDEP}]
 	dev-python/pyvips[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
 	dev-python/tissuumaps-schema[${PYTHON_USEDEP}]
-	full? ( dev-python/pyside6[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/pyside6-6.4.3[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyside6-addons[${PYTHON_USEDEP}] )
-	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
+	pyside6? ( ~dev-python/pyside6-6.4.3[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6-addons[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

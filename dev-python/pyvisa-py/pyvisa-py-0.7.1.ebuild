@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pyvisa[${PYTHON_USEDEP}]
 	gpib-ctypes? ( dev-python/gpib-ctypes[${PYTHON_USEDEP}] )
 	hislip-discovery? ( dev-python/zeroconf[${PYTHON_USEDEP}] )
 	psutil? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	serial? ( dev-python/pyserial[${PYTHON_USEDEP}] )
+	serial? ( >=dev-python/pyserial-3.0[${PYTHON_USEDEP}] )
 	usb? ( dev-python/pyusb[${PYTHON_USEDEP}] )
 	vicp? ( dev-python/pyvicp[${PYTHON_USEDEP}] )
 	vicp? ( dev-python/zeroconf[${PYTHON_USEDEP}] )"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/duckdb[${PYTHON_USEDEP}]
-	dev-python/sqlglot[${PYTHON_USEDEP}]
+	<dev-python/sqlglot-12.0[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

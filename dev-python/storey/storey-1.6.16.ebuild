@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="kafka redis sqlalchemy"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	dev-python/v3io[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.27[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-15.0[${PYTHON_USEDEP}]
 	dev-python/v3io-frames[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-0.6.2[${PYTHON_USEDEP}]
 	dev-python/v3iofs[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]
+	>=dev-python/xxhash-1.0[${PYTHON_USEDEP}]
 	dev-python/nuclio-sdk[${PYTHON_USEDEP}]
-	kafka? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	kafka? ( ~dev-python/kafka-python-2.0[${PYTHON_USEDEP}] )
+	redis? ( ~dev-python/redis-4.3[${PYTHON_USEDEP}] )
+	sqlalchemy? ( ~dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

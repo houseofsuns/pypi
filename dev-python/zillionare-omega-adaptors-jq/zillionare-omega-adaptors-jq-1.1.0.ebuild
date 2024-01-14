@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/zillionare-core-types[${PYTHON_USEDEP}]
 	dev-python/cfg4py[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/jqdatasdk[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]"
+	>=dev-python/numpy-1.8[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}]
+	>=dev-python/arrow-0.15[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

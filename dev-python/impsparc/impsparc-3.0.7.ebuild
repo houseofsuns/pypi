@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/openapi-spec-validator[${PYTHON_USEDEP}]
-	dev-python/openapi3[${PYTHON_USEDEP}]
+	~dev-python/openapi-spec-validator-0.2.9[${PYTHON_USEDEP}]
+	~dev-python/openapi3-1.0.0[${PYTHON_USEDEP}]
 	dev-python/prance[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.22.3[${PYTHON_USEDEP}]
+	~dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
 	dev-python/sanic[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	~dev-python/idna-2.10[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

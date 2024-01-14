@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2023.1[${PYTHON_USEDEP}]
+	>=dev-python/dask-2023.5[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
-	dev-python/bottleneck[${PYTHON_USEDEP}]
+	>=dev-python/bottleneck-1.3[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/netcdf4[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.9[${PYTHON_USEDEP}]
+	>=dev-python/netcdf4-1.6[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.7[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]"
+	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
+	>=dev-python/cython-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

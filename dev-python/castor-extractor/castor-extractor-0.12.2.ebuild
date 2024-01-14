@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all bigquery looker metabase powerbi qlik redshift snowflake sqlserver tableau"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	snowflake? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-8.2[${PYTHON_USEDEP}]
+	snowflake? ( >=dev-python/cryptography-41.0.5[${PYTHON_USEDEP}] )
+	<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/google-auth-3.0.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/google-resumable-media[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
+	<dev-python/googleapis-common-protos-7.0.0[${PYTHON_USEDEP}]
 	looker? ( dev-python/looker-sdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/looker-sdk[${PYTHON_USEDEP}] )
 	powerbi? ( dev-python/msal[${PYTHON_USEDEP}] )
@@ -40,27 +40,27 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	metabase? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	metabase? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
-	all? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	metabase? ( <dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}] )
+	<=dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/setuptools-66.0.0[${PYTHON_USEDEP}]
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
 	all? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}]
 	bigquery? ( dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}] )
 	tableau? ( dev-python/tableauserverclient[${PYTHON_USEDEP}] )
 	all? ( dev-python/tableauserverclient[${PYTHON_USEDEP}] )
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	qlik? ( dev-python/websocket-client[${PYTHON_USEDEP}] )
-	all? ( dev-python/websocket-client[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
+	qlik? ( <dev-python/websocket-client-1.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/websocket-client-1.0[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	sqlserver? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymssql[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

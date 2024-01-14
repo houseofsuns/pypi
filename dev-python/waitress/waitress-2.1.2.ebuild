@@ -29,6 +29,6 @@ DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cover[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

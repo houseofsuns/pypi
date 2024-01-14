@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws image kafka pandera psql redis server"
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/python-dotenv-0.22.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	server? ( <dev-python/uvicorn-0.18.0[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
 	dev-python/mashumaro[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
 	aws? ( dev-python/aioaws[${PYTHON_USEDEP}] )
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/prometheus_client[${PYTHON_USEDEP}]
 	server? ( dev-python/asgi-correlation-id[${PYTHON_USEDEP}] )
 	pandera? ( dev-python/pandera[${PYTHON_USEDEP}] )
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
-	image? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	image? ( <dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/prometheus-fastapi-instrumentator[${PYTHON_USEDEP}] )
-	kafka? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
+	kafka? ( <dev-python/kafka-python-3.0.0[${PYTHON_USEDEP}] )
 	aws? ( dev-python/connectorx[${PYTHON_USEDEP}] )
 	psql? ( dev-python/connectorx[${PYTHON_USEDEP}] )
 	psql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )"

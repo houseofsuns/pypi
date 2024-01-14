@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/urllib3-1.20[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/promptlayer[${PYTHON_USEDEP}]
 	dev-python/modal-client[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]"

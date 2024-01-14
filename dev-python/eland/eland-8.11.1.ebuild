@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all lightgbm pytorch scikit-learn xgboost"
-DEPENDENCIES="dev-python/elasticsearch[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/elasticsearch-9.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.6[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	all? ( dev-python/lightgbm[${PYTHON_USEDEP}] )

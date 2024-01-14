@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/croniter[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/croniter-1.3[${PYTHON_USEDEP}]
 	dev-python/django-picklefield[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]"
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

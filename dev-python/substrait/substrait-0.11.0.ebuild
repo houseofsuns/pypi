@@ -27,6 +27,6 @@ IUSE="gen_proto test"
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
 	gen_proto? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	gen_proto? ( dev-python/protoletariat[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

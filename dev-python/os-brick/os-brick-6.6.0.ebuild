@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/os-win[${PYTHON_USEDEP}]
-	dev-python/oslo-concurrency[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-context[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
+	>=dev-python/oslo-concurrency-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-9.0.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-context-4.1.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-5.1.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-4.8.0[${PYTHON_USEDEP}]
 	dev-python/oslo-privsep[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-4.3.0[${PYTHON_USEDEP}]
 	dev-python/oslo-service[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]"
+	>=dev-python/oslo-utils-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-5.8.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-6.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

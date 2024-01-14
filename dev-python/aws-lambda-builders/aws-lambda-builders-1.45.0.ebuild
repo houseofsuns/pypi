@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyelftools[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.1.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/parameterized-0.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyelftools-0.30[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

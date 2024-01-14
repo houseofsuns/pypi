@@ -27,7 +27,7 @@ IUSE="dev doc requests test"
 DEPENDENCIES="dev-python/rfc3986[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/hypothesis-6.0.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-httpserver[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests[${PYTHON_USEDEP}] )

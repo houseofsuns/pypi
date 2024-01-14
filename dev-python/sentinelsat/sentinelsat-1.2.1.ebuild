@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1[${PYTHON_USEDEP}]
 	dev-python/html2text[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.58[${PYTHON_USEDEP}]
 	dev-python/geomet[${PYTHON_USEDEP}]
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.6.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-vcr[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-socket[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rstcheck[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flaky[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

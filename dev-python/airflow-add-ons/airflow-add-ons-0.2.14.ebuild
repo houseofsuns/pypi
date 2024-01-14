@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.18.58[${PYTHON_USEDEP}]
 	dev-python/IMAPClient[${PYTHON_USEDEP}]
 	dev-python/apache-airflow-providers-google[${PYTHON_USEDEP}]
 	dev-python/apache-airflow-providers-amazon[${PYTHON_USEDEP}]

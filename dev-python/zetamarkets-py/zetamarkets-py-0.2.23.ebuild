@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/anchorpy[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
+	<dev-python/colorlog-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
 	dev-python/solana[${PYTHON_USEDEP}]
 	dev-python/solders[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

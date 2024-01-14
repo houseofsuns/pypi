@@ -33,40 +33,40 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	pg? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	sqlserver? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	test? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	http? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	test? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	http? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-eventhub[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-eventhub-checkpointstoreblob-aio[${PYTHON_USEDEP}] )
 	cassandra? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
 	test? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/certifi-2024.0.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-39.0.1[${PYTHON_USEDEP}]
 	parquet? ( dev-python/fastparquet[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastparquet[${PYTHON_USEDEP}] )
 	db2? ( dev-python/ibm_db_sa[${PYTHON_USEDEP}] )
 	test? ( dev-python/ibm_db_sa[${PYTHON_USEDEP}] )
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	test? ( <dev-python/mock-5.0.0[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/oracledb[${PYTHON_USEDEP}] )
 	test? ( dev-python/oracledb[${PYTHON_USEDEP}] )
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.17.0[${PYTHON_USEDEP}]
 	pg? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	sqlserver? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	test? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	dev-python/pysqlite3-binary[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-aioresponses[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-describe[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	test? ( dev-python/redis[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	dev-python/sqlglot[${PYTHON_USEDEP}]
+	test? ( <dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-describe-3.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-timeout-3.0.0[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/requests-mock-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/sqlglot-11.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/testcontainers[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

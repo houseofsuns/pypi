@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="events gcp_cloud_run gcp_cloud_tasks gcp_pubsub gcp_storage novu openai pinecone"
 DEPENDENCIES="dev-python/ulid-py[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	events? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	~dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
+	events? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	gcp_cloud_run? ( dev-python/google-cloud-run[${PYTHON_USEDEP}] )
 	gcp_cloud_tasks? ( dev-python/google-cloud-tasks[${PYTHON_USEDEP}] )
 	gcp_pubsub? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
-	gcp_pubsub? ( dev-python/tenacity[${PYTHON_USEDEP}] )
+	gcp_pubsub? ( <dev-python/tenacity-9.0[${PYTHON_USEDEP}] )
 	gcp_storage? ( dev-python/gcloud-aio-storage[${PYTHON_USEDEP}] )
 	novu? ( dev-python/novu[${PYTHON_USEDEP}] )
 	openai? ( dev-python/masked-ai[${PYTHON_USEDEP}] )
-	openai? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	openai? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
 	openai? ( dev-python/openai[${PYTHON_USEDEP}] )
 	pinecone? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

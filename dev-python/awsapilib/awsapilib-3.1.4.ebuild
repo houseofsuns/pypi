@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.33.2[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	dev-python/opnieuw[${PYTHON_USEDEP}]
 	dev-python/boto3-type-annotations[${PYTHON_USEDEP}]
-	dev-python/pyotp[${PYTHON_USEDEP}]
+	>=dev-python/pyotp-2.9.0[${PYTHON_USEDEP}]
 	dev-python/2captcha-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2022.6[${PYTHON_USEDEP}]
 	dev-python/xclim[${PYTHON_USEDEP}]
 	dev-python/cf-xarray[${PYTHON_USEDEP}]
-	dev-python/cftime[${PYTHON_USEDEP}]
+	>=dev-python/cftime-1.4.1[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	dev-python/rechunker[${PYTHON_USEDEP}]
 	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

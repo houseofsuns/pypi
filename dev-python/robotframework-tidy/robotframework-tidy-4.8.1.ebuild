@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc generate_config"
 DEPENDENCIES="dev-python/robotframework[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	~dev-python/click-8.1[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.4.7[${PYTHON_USEDEP}]
+	<dev-python/pathspec-0.12.2[${PYTHON_USEDEP}]
+	~dev-python/tomli-2.0[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/packaging-21.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pyflakes-3.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tomli-w[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tomli-w-1.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	generate_config? ( dev-python/tomli-w[${PYTHON_USEDEP}] )"
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	generate_config? ( ~dev-python/tomli-w-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

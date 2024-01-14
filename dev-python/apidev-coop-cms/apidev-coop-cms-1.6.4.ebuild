@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2.13[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
 	dev-python/sorl-thumbnail[${PYTHON_USEDEP}]
 	dev-python/apidev-coop-colorbox[${PYTHON_USEDEP}]

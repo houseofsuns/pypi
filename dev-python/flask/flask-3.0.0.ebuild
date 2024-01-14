@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="async dotenv"
 DEPENDENCIES="dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]
-	async? ( dev-python/asgiref[${PYTHON_USEDEP}] )
+	>=dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/blinker-1.6.2[${PYTHON_USEDEP}]
+	async? ( >=dev-python/asgiref-3.2[${PYTHON_USEDEP}] )
 	dotenv? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

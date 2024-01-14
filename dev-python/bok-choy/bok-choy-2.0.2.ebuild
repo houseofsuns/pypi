@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="visual_diff"
 DEPENDENCIES="dev-python/lazy[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	<dev-python/selenium-4.0[${PYTHON_USEDEP}]
 	visual_diff? ( dev-python/needle[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

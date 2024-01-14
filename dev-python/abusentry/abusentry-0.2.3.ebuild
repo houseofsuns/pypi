@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/dnspython-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ipwhois[${PYTHON_USEDEP}]
 	dev-python/nslookup[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
 	dev-python/python-whois[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]
 	dev-python/vt-py[${PYTHON_USEDEP}]
-	dev-python/pefile[${PYTHON_USEDEP}]"
+	>=dev-python/pefile-2023.2.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

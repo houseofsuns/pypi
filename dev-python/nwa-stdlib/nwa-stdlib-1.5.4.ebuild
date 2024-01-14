@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/anyio-3.7.0[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.4.0[${PYTHON_USEDEP}]
 	dev-python/pydantic_settings[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
+	<dev-python/redis-4.7.0[${PYTHON_USEDEP}]
+	~dev-python/structlog-22.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-redis[${PYTHON_USEDEP}] )
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
 	test? ( dev-python/fakeredis[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	all? ( dev-python/diskcache[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/diskcache-5.6.1[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.5[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
+	all? ( >=dev-python/diskcache-5.6.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	all? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	all? ( dev-python/loguru[${PYTHON_USEDEP}] )
-	all? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	all? ( dev-python/msgpack[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/uvicorn-0.23.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/loguru-0.7.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/httpx-0.24.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/msgpack-1.0.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

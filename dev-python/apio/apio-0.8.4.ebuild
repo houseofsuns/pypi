@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="blackiceprog icefunprog litterbox tinyfpgab tinyprog"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/semantic_version[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
+	<dev-python/wheel-1.0[${PYTHON_USEDEP}]
 	dev-python/scons[${PYTHON_USEDEP}]
 	blackiceprog? ( dev-python/blackiceprog[${PYTHON_USEDEP}] )
 	icefunprog? ( dev-python/icefunprog[${PYTHON_USEDEP}] )

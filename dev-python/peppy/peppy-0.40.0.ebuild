@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.3.0[${PYTHON_USEDEP}]
 	dev-python/ubiquerg[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

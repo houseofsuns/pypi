@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/mysql-connector-python[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	tests? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-env-0.8.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-7.2.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mock-5.0.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-skip-slow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cfg dev z3"
-DEPENDENCIES="dev-python/astroid[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/astroid-3.0.1[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/pycodestyle-2.11[${PYTHON_USEDEP}]
+	<dev-python/pygments-2.17[${PYTHON_USEDEP}]
+	~dev-python/pylint-3.0.2[${PYTHON_USEDEP}]
+	<dev-python/requests-2.32[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	<dev-python/typeguard-5.0[${PYTHON_USEDEP}]
+	<dev-python/wrapt-2.0[${PYTHON_USEDEP}]
 	cfg? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	dev? ( dev-python/inflection[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/astroid[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-snapshot[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-4.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	z3? ( dev-python/z3-solver[${PYTHON_USEDEP}] )"

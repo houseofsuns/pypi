@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pathvalidate-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	<dev-python/pyqtgraph-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/numexpr-2.8.3[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-9.0.0[${PYTHON_USEDEP}]
 	dev-python/pyEDFlib[${PYTHON_USEDEP}]
 	dev-python/physiocurve[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

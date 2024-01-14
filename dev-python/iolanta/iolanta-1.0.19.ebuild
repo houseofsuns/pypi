@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rdflib[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/rdflib-7.0.0[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/deepmerge-0.2.0[${PYTHON_USEDEP}]
 	dev-python/documented[${PYTHON_USEDEP}]
 	dev-python/urlpath[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/classes[${PYTHON_USEDEP}]
 	dev-python/PyLD[${PYTHON_USEDEP}]
-	dev-python/dominate[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	<dev-python/dominate-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-10.0.0[${PYTHON_USEDEP}]
 	dev-python/owlrl[${PYTHON_USEDEP}]
-	dev-python/funcy[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	<dev-python/funcy-3.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

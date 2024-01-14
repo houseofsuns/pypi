@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-3.2.0[${PYTHON_USEDEP}]
+	~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+	~dev-python/idna-3.4[${PYTHON_USEDEP}]
 	dev-python/jira[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	~dev-python/oauthlib-3.2.2[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/requests-oauthlib-1.3.1[${PYTHON_USEDEP}]
+	~dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
+	~dev-python/urllib3-2.0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

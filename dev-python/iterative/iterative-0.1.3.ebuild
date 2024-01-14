@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/firebase-admin[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/inflect-8.0.0[${PYTHON_USEDEP}]
 	dev-python/nosql_yorm[${PYTHON_USEDEP}]
 	dev-python/openai_assistant_toolkit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

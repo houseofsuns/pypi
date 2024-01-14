@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev opentelemetry subscriptions"
 DEPENDENCIES="dev-python/autoflake[${PYTHON_USEDEP}]
 	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.23[${PYTHON_USEDEP}]
 	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev? ( dev-python/ariadne[${PYTHON_USEDEP}] )
 	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
@@ -43,6 +43,6 @@ DEPENDENCIES="dev-python/autoflake[${PYTHON_USEDEP}]
 	dev? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-toml[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
-	subscriptions? ( dev-python/websockets[${PYTHON_USEDEP}] )"
+	subscriptions? ( ~dev-python/websockets-11.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

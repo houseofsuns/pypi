@@ -25,33 +25,33 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/cfg-load[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	>=dev-python/deprecated-1.2.12[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.9[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-61.2[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-21.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/darglint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-rst-docstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
-	dev? ( dev-python/greenlet[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/greenlet-1.1.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/licensecheck[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/recommonmark-0.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/versioneer[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-3.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/versioneer-0.21[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

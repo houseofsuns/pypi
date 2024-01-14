@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli docs"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	all? ( dev-python/click[${PYTHON_USEDEP}] )
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/click-8.1.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	all? ( dev-python/rich[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/rich-12.6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/trogon[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/rich[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/click-8.1.3[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/rich-12.6.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/trogon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

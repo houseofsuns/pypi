@@ -32,11 +32,11 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/db12[${PYTHON_USEDEP}]
 	dev-python/fts3[${PYTHON_USEDEP}]
 	dev-python/gfal2-python[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.4[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/M2Crypto[${PYTHON_USEDEP}]
 	dev-python/pexpect[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pyasn1[${PYTHON_USEDEP}]
 	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
@@ -47,12 +47,12 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/rucio-clients[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
 	dev-python/Authlib[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/dominate[${PYTHON_USEDEP}]
 	server? ( dev-python/CMRESHandler[${PYTHON_USEDEP}] )
-	server? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
+	server? ( <dev-python/elasticsearch-7.14[${PYTHON_USEDEP}] )
 	server? ( dev-python/elasticsearch-dsl[${PYTHON_USEDEP}] )
 	server? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	server? ( dev-python/ldap3[${PYTHON_USEDEP}] )
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	server? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	server? ( dev-python/stomp-py[${PYTHON_USEDEP}] )
 	server? ( dev-python/suds[${PYTHON_USEDEP}] )
-	server? ( dev-python/tornado[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/tornado-5.1.1[${PYTHON_USEDEP}] )
 	server? ( dev-python/tornado-m2crypto[${PYTHON_USEDEP}] )
 	server? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flaky[${PYTHON_USEDEP}] )

@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-countries[${PYTHON_USEDEP}]
 	dev-python/django-localflavor[${PYTHON_USEDEP}]
 	dev-python/django-phonenumber-field[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.3.1[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/stripe[${PYTHON_USEDEP}]
+	>=dev-python/phonenumbers-8.12.6[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.2[${PYTHON_USEDEP}]
+	>=dev-python/stripe-2.71.0[${PYTHON_USEDEP}]
 	dev-python/razorpay[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="redis"
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	<dev-python/docopt-0.6.999[${PYTHON_USEDEP}]
+	<dev-python/flask-1.0.999[${PYTHON_USEDEP}]
 	dev-python/flask-jsonpify[${PYTHON_USEDEP}]
 	dev-python/flask-swaggerui[${PYTHON_USEDEP}]
 	dev-python/flask-wikimediaui[${PYTHON_USEDEP}]
 	dev-python/mwapi[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
+	<dev-python/redis-4.0.0[${PYTHON_USEDEP}]
 	dev-python/revscoring[${PYTHON_USEDEP}]
 	dev-python/sseclient[${PYTHON_USEDEP}]
 	dev-python/stopit[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-0.16.1[${PYTHON_USEDEP}]
 	dev-python/yamlconf[${PYTHON_USEDEP}]
 	redis? ( dev-python/pylru[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"

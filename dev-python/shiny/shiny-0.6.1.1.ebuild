@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typing-extensions-4.0.1[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.16.0[${PYTHON_USEDEP}]
+	>=dev-python/starlette-0.17.1[${PYTHON_USEDEP}]
+	>=dev-python/websockets-10.0[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]
 	dev-python/htmltools[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	dev-python/mdit-py-plugins[${PYTHON_USEDEP}]
-	dev-python/linkify-it-py[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/watchfiles[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.4[${PYTHON_USEDEP}]
+	>=dev-python/markdown-it-py-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/mdit-py-plugins-0.3.0[${PYTHON_USEDEP}]
+	>=dev-python/linkify-it-py-1.0[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/asgiref-3.5.2[${PYTHON_USEDEP}]
+	>=dev-python/watchfiles-0.18.0[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
@@ -51,14 +51,14 @@ DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/shinyswatch[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/jupyter-client-8.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	doc? ( dev-python/shinylive[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pydantic-1.10[${PYTHON_USEDEP}] )
 	doc? ( dev-python/quartodoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/griffe[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/griffe-0.33.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.17.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-playwright[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )

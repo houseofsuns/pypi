@@ -27,16 +27,16 @@ IUSE=""
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Cors[${PYTHON_USEDEP}]
 	dev-python/Flask-Compress[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
 	dev-python/colorcet[${PYTHON_USEDEP}]
 	dev-python/Flask-Sockets[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.1[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.7[${PYTHON_USEDEP}]
 	dev-python/Unidecode[${PYTHON_USEDEP}]
-	dev-python/flask-compress[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]"
+	>=dev-python/flask-compress-1.3.1[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

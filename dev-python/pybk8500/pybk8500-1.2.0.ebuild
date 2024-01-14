@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all plot serial"
 DEPENDENCIES="dev-python/dynamicmethod[${PYTHON_USEDEP}]
 	dev-python/bitflags[${PYTHON_USEDEP}]
-	all? ( dev-python/pyserial[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyserial-3.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/continuous-threading[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	serial? ( dev-python/pyserial[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}] )
+	plot? ( >=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}] )
+	serial? ( >=dev-python/pyserial-3.4[${PYTHON_USEDEP}] )
 	serial? ( dev-python/continuous-threading[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

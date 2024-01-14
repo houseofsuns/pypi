@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-19.3[${PYTHON_USEDEP}]
 	dev-python/cattrs[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/dagster[${PYTHON_USEDEP}]
 	dev-python/openlineage-python[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.9.6[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/mypy-0.9.6[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

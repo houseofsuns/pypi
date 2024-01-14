@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-3.3[${PYTHON_USEDEP}]
 	dev-python/django-environ[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	<dev-python/django-filter-24.0[${PYTHON_USEDEP}]
 	dev-python/django-generic-api-permissions[${PYTHON_USEDEP}]
 	dev-python/django-localized-fields[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-4.0.0[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-jsonapi[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
 	dev-python/mozilla-django-oidc[${PYTHON_USEDEP}]
 	dev-python/preview-generator[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/uwsgi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

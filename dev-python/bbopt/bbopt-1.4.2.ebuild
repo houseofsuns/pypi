@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev examples"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.15.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.2.5[${PYTHON_USEDEP}]
 	dev-python/pysot[${PYTHON_USEDEP}]
-	dev-python/portalocker[${PYTHON_USEDEP}]
+	>=dev-python/portalocker-2.2.1[${PYTHON_USEDEP}]
 	dev-python/hyperopt[${PYTHON_USEDEP}]
 	dev-python/scikit-optimize[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.2[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-3.9[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	dev-python/bask[${PYTHON_USEDEP}]
 	dev? ( dev-python/coconut-develop[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	examples? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

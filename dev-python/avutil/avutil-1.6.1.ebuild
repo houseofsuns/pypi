@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pytesseract[${PYTHON_USEDEP}]
-	dev-python/bitstring[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.7.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	>=dev-python/pytesseract-0.3.7[${PYTHON_USEDEP}]
+	>=dev-python/bitstring-3.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

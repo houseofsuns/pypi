@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/abstar[${PYTHON_USEDEP}]
 	dev-python/sample-sheet[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.11[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

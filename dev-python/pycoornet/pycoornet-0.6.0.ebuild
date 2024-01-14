@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.0.5[${PYTHON_USEDEP}]
 	dev-python/PyCrowdTangle[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.47.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	dev-python/python-louvain[${PYTHON_USEDEP}]
-	dev-python/tldextract[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/tldextract-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-4.0.0[${PYTHON_USEDEP}]
 	dev-python/ratelimiter[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

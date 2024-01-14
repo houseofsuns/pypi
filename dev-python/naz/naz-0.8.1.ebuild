@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmarks dev test"
 DEPENDENCIES="benchmarks? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	benchmarks? ( dev-python/docker[${PYTHON_USEDEP}] )
-	benchmarks? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
+	benchmarks? ( ~dev-python/docker-4.2.0[${PYTHON_USEDEP}] )
+	benchmarks? ( ~dev-python/prometheus-client-0.6.0[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/pythonfuzz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
@@ -34,16 +34,16 @@ DEPENDENCIES="benchmarks? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/redis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pika[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-autodoc-typehints-1.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/redis-3.2.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pika-1.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
 	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytype[${PYTHON_USEDEP}] )
-	test? ( dev-python/docker[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/docker-4.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

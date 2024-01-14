@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/jupyter[${PYTHON_USEDEP}]
 	dev-python/notebook[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.0.0[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/ordered-namespace[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

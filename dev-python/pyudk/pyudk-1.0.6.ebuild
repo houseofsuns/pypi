@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/atomicwrites[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/mpmath[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/atomicwrites-1.4.1[${PYTHON_USEDEP}]
+	~dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-9.0.0[${PYTHON_USEDEP}]
+	~dev-python/mpmath-1.2.1[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.1[${PYTHON_USEDEP}]
+	~dev-python/pluggy-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/py-1.11.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-4.4.1[${PYTHON_USEDEP}]
 	dev-python/pytest-runner[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]"
+	~dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/sympy-1.11.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

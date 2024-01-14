@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="graphs sink utils"
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	<dev-python/pyzmq-20.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/sudoistemper[${PYTHON_USEDEP}]
-	sink? ( dev-python/peewee[${PYTHON_USEDEP}] )
+	sink? ( <dev-python/peewee-4.0.0[${PYTHON_USEDEP}] )
 	sink? ( dev-python/python-telegram-bot[${PYTHON_USEDEP}] )
-	graphs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	graphs? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	sink? ( dev-python/requests[${PYTHON_USEDEP}] )
+	graphs? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	graphs? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
+	sink? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	sink? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	utils? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )"
+	utils? ( <dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.12.2[${PYTHON_USEDEP}]
 	dev-python/thefuzz[${PYTHON_USEDEP}]
 	dev-python/thefuzz[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

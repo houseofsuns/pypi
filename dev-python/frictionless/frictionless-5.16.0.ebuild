@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws bigquery ckan datasette dev duckdb excel github gsheets html json mysql ods pandas parquet postgresql spss sql visidata wkt zenodo"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
+	>=dev-python/chardet-3.0[${PYTHON_USEDEP}]
+	>=dev-python/humanize-4.2[${PYTHON_USEDEP}]
+	>=dev-python/isodate-0.6[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.18[${PYTHON_USEDEP}]
 	dev-python/marko[${PYTHON_USEDEP}]
 	dev-python/petl[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rfc3986[${PYTHON_USEDEP}]
-	dev-python/simpleeval[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
+	>=dev-python/python-slugify-1.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.10[${PYTHON_USEDEP}]
+	>=dev-python/rfc3986-1.4[${PYTHON_USEDEP}]
+	>=dev-python/simpleeval-0.9.11[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.10[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	bigquery? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	>=dev-python/typing-extensions-4.3[${PYTHON_USEDEP}]
+	>=dev-python/validators-0.18[${PYTHON_USEDEP}]
+	aws? ( >=dev-python/boto3-1.9[${PYTHON_USEDEP}] )
+	bigquery? ( >=dev-python/google-api-python-client-1.12.1[${PYTHON_USEDEP}] )
 	ckan? ( dev-python/frictionless-ckan-mapper[${PYTHON_USEDEP}] )
 	datasette? ( dev-python/datasette[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -71,27 +71,27 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/yattag[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/duckdb[${PYTHON_USEDEP}] )
-	duckdb? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	excel? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	duckdb? ( >=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
+	excel? ( >=dev-python/openpyxl-3.0[${PYTHON_USEDEP}] )
 	excel? ( dev-python/tableschema-to-template[${PYTHON_USEDEP}] )
-	excel? ( dev-python/xlrd[${PYTHON_USEDEP}] )
-	excel? ( dev-python/xlwt[${PYTHON_USEDEP}] )
+	excel? ( >=dev-python/xlrd-1.2[${PYTHON_USEDEP}] )
+	excel? ( >=dev-python/xlwt-1.2[${PYTHON_USEDEP}] )
 	github? ( dev-python/pygithub[${PYTHON_USEDEP}] )
 	gsheets? ( dev-python/pygsheets[${PYTHON_USEDEP}] )
-	html? ( dev-python/pyquery[${PYTHON_USEDEP}] )
-	json? ( dev-python/ijson[${PYTHON_USEDEP}] )
+	html? ( >=dev-python/pyquery-1.4[${PYTHON_USEDEP}] )
+	json? ( >=dev-python/ijson-3.0[${PYTHON_USEDEP}] )
 	json? ( dev-python/jsonlines[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/pymysql-1.0[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
 	ods? ( dev-python/ezodf[${PYTHON_USEDEP}] )
-	ods? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	ods? ( >=dev-python/lxml-4.0[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-1.0[${PYTHON_USEDEP}] )
 	parquet? ( dev-python/fastparquet[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	postgresql? ( >=dev-python/psycopg-3.0[${PYTHON_USEDEP}] )
+	postgresql? ( >=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
 	spss? ( dev-python/savreaderwriter[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	sql? ( >=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
 	visidata? ( dev-python/visidata[${PYTHON_USEDEP}] )
 	wkt? ( dev-python/grako[${PYTHON_USEDEP}] )
 	zenodo? ( dev-python/pyzenodo3[${PYTHON_USEDEP}] )"

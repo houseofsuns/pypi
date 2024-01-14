@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs gui lint syslog test"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0.2[${PYTHON_USEDEP}]
 	dev-python/desktop-notifier[${PYTHON_USEDEP}]
 	dev-python/dropbox[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/keyrings-alt[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/fasteners-0.15[${PYTHON_USEDEP}]
+	>=dev-python/keyring-22.0[${PYTHON_USEDEP}]
+	>=dev-python/keyrings-alt-3.1.0[${PYTHON_USEDEP}]
+	>dev-python/importlib-metadata-3.6[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/Pyro5[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pathspec-0.5.8[${PYTHON_USEDEP}]
+	>=dev-python/Pyro5-5.10[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.16.2[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/survey[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-2.0.1[${PYTHON_USEDEP}]
 	dev-python/rubicon-objc[${PYTHON_USEDEP}]
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/maestral[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autoapi-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-mdinclude[${PYTHON_USEDEP}] )
 	gui? ( dev-python/maestral-cocoa[${PYTHON_USEDEP}] )
 	gui? ( dev-python/maestral-qt[${PYTHON_USEDEP}] )

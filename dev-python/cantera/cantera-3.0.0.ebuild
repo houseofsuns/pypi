@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pandas units"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.12.0[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.15.34[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	units? ( dev-python/pint[${PYTHON_USEDEP}] )"

@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	~dev-python/regex-2022.10.31[${PYTHON_USEDEP}]
 	dev-python/finvader[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/matplotlib-inline[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-inline-0.1.6[${PYTHON_USEDEP}]
 	dev-python/plotnine[${PYTHON_USEDEP}]
 	dev-python/wordcloud[${PYTHON_USEDEP}]
 	dev-python/jenkspy[${PYTHON_USEDEP}]
 	dev-python/vaderSentiment[${PYTHON_USEDEP}]
 	dev-python/cleantext[${PYTHON_USEDEP}]
 	dev-python/mizani[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]"
+	~dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
+	~dev-python/chardet-5.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

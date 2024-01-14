@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
+	~dev-python/pycodestyle-2.11.1[${PYTHON_USEDEP}]
 	dev-python/coveralls[${PYTHON_USEDEP}]
 	dev-python/python-semantic-release[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]"
+	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.41.3[${PYTHON_USEDEP}]
+	~dev-python/twine-4.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/flask-compress[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+	>=dev-python/flask-compress-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.5.0[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-4.1[${PYTHON_USEDEP}]
 	dev-python/influxdb-wrapper[${PYTHON_USEDEP}]
 	dev-python/baseutils-phornee[${PYTHON_USEDEP}]
 	dev-python/config-yml[${PYTHON_USEDEP}]

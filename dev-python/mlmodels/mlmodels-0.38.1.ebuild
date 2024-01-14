@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/numexpr-2.6.8[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.8[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/pytorch[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all code_syntax_highlighting wavedrom"
-DEPENDENCIES="all? ( dev-python/pygments[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( >=dev-python/pygments-2.7.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/wavedrom[${PYTHON_USEDEP}] )
-	code_syntax_highlighting? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	code_syntax_highlighting? ( >=dev-python/pygments-2.7.3[${PYTHON_USEDEP}] )
 	wavedrom? ( dev-python/wavedrom[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

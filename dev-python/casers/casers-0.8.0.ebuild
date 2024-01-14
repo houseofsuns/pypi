@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pydantic"
-DEPENDENCIES="pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	pydantic? ( dev-python/packaging[${PYTHON_USEDEP}] )"
+DEPENDENCIES="pydantic? ( <dev-python/pydantic-3.0.0[${PYTHON_USEDEP}] )
+	pydantic? ( >=dev-python/packaging-23.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

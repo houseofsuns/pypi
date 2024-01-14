@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2016.10[${PYTHON_USEDEP}]
 	dev-python/circuitbreaker[${PYTHON_USEDEP}]
 	dev-python/python-pkcs11[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

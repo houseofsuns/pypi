@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-3.0[${PYTHON_USEDEP}]
 	dev-python/libsasscompiler[${PYTHON_USEDEP}]
-	dev-python/jsmin[${PYTHON_USEDEP}]
-	dev-python/pypugjs[${PYTHON_USEDEP}]
+	<dev-python/jsmin-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pypugjs-6.0.0[${PYTHON_USEDEP}]
 	dev-python/django-pipeline[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

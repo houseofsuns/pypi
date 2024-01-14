@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/aiobtclientrpc[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-4.0[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.0[${PYTHON_USEDEP}]
 	dev-python/torf[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

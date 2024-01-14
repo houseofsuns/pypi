@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/gssapi[${PYTHON_USEDEP}]
-	dev-python/ldap3[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-37.0.2[${PYTHON_USEDEP}]
+	>=dev-python/gssapi-1.8.1[${PYTHON_USEDEP}]
+	>=dev-python/ldap3-2.9.1[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
 	dev-python/winacl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

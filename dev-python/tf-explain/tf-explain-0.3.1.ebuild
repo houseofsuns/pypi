@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs publish tests"
-DEPENDENCIES="docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( >=dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	publish? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	publish? ( dev-python/twine[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	publish? ( >=dev-python/twine-1.13.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pylint-2.3.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-5.0.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-timeout-1.3.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-mock-1.10.4[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/tox-3.13.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

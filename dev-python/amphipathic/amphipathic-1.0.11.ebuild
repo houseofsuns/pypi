@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.6.3[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
 	dev-python/ndg-httpsclient[${PYTHON_USEDEP}]

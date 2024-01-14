@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ci dev"
 DEPENDENCIES="dev-python/code-data-science[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	~dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
+	~dev-python/ipython-8.13.0[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
+	~dev-python/nbformat-5.9.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
+	~dev-python/plotly-5.14.1[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
 	ci? ( dev-python/poethepoet[${PYTHON_USEDEP}] )

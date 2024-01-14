@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs pandas testing"
 DEPENDENCIES="dev-python/pycrunch[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.27.0[${PYTHON_USEDEP}]
 	dev-python/cr-cube[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-packaging[${PYTHON_USEDEP}] )
-	docs? ( dev-python/rst-linker[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/rst-linker-1.9[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-4.6.11[${PYTHON_USEDEP}] )
 	testing? ( dev-python/collective-checkdocs[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
 	testing? ( dev-python/isodate[${PYTHON_USEDEP}] )
 	testing? ( dev-python/backports-unittest-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

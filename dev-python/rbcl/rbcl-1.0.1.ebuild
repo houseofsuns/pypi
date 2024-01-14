@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build coveralls docs lint publish test"
 DEPENDENCIES="dev-python/barriers[${PYTHON_USEDEP}]
-	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	build? ( dev-python/pystache[${PYTHON_USEDEP}] )
-	build? ( dev-python/build[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/setuptools-67.6[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/wheel-0.37[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/pystache-0.6[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/build-0.10[${PYTHON_USEDEP}] )
 	coveralls? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	publish? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pylint-2.17.0[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

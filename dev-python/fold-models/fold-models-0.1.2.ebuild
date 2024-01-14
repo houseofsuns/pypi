@@ -31,13 +31,13 @@ DEPENDENCIES="dev-python/fold-core[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
-	quality? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	quality? ( dev-python/isort[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	quality? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/fold-core[${PYTHON_USEDEP}] )
 	tests? ( dev-python/fold-wrappers[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/statsforecast[${PYTHON_USEDEP}] )
 	tests? ( dev-python/statsmodels[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/pandas[${PYTHON_USEDEP}] )

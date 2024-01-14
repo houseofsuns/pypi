@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/NumPy[${PYTHON_USEDEP}]
 	dev-python/guidata[${PYTHON_USEDEP}]
 	dev-python/PythonQwt[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	>=dev-python/QtPy-1.3[${PYTHON_USEDEP}]
 	dicom? ( dev-python/pydicom[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

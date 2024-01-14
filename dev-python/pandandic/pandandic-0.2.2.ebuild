@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all avro extras parquet"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
-	parquet? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	extras? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	parquet? ( <dev-python/pyarrow-10.0.0[${PYTHON_USEDEP}] )
+	extras? ( <dev-python/pyarrow-10.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyarrow-10.0.0[${PYTHON_USEDEP}] )
 	avro? ( dev-python/pandavro[${PYTHON_USEDEP}] )
 	extras? ( dev-python/pandavro[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandavro[${PYTHON_USEDEP}] )"

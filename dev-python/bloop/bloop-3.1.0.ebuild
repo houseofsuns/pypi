@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/blinker[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/blinker-1.4[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

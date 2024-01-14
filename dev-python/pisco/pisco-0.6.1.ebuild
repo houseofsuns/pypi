@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
+	<dev-python/python-json-logger-3.0[${PYTHON_USEDEP}]
 	dev-python/soco[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

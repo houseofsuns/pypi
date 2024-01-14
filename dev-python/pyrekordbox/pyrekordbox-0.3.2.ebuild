@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/bidict[${PYTHON_USEDEP}]
 	dev-python/blowfish[${PYTHON_USEDEP}]
-	dev-python/construct[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/construct-2.10.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/frida-tools[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-6.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

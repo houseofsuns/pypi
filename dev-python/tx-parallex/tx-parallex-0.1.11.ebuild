@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="arrow"
-DEPENDENCIES="dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/more-itertools-8.2.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	dev-python/tx-functional[${PYTHON_USEDEP}]
 	dev-python/graph-theory[${PYTHON_USEDEP}]
-	dev-python/terminaltables[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
-	arrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"
+	~dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]
+	~dev-python/jsonpickle-1.4.1[${PYTHON_USEDEP}]
+	arrow? ( ~dev-python/pyarrow-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

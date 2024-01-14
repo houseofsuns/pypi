@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/markdown-3.2.2[${PYTHON_USEDEP}]
 	dev-python/MarkupPy[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.11.2[${PYTHON_USEDEP}]
+	~dev-python/django-filter-2.2.0[${PYTHON_USEDEP}]
 	dev-python/django-rest-swagger[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	>=dev-python/django-2.0[${PYTHON_USEDEP}]
 	dev-python/django-crum[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/django-import-export[${PYTHON_USEDEP}]

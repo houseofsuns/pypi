@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tcga test"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/ordered-set[${PYTHON_USEDEP}]
-	tcga? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	tcga? ( ~dev-python/pandas-0.24.0[${PYTHON_USEDEP}] )
 	tcga? ( dev-python/academictorrents[${PYTHON_USEDEP}] )
-	tcga? ( dev-python/six[${PYTHON_USEDEP}] )
+	tcga? ( ~dev-python/six-1.11.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flaky[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

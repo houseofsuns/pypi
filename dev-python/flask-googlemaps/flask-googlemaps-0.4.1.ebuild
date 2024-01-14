@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material[${PYTHON_USEDEP}]
-	dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/flask-0.10[${PYTHON_USEDEP}]
+	<dev-python/mkdocs-2.0[${PYTHON_USEDEP}]
+	<dev-python/mkdocs-material-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/mkdocs-minify-plugin-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

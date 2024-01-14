@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev-python/pygeoops[${PYTHON_USEDEP}]
 	dev-python/pyogrio[${PYTHON_USEDEP}]
 	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	<dev-python/shapely-2.1[${PYTHON_USEDEP}]
 	full? ( dev-python/simplification[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full jax test zoo"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scipy-1.4[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	full? ( dev-python/GPy[${PYTHON_USEDEP}] )
 	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	full? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	full? ( dev-python/requests[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/tqdm-4.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/jax[${PYTHON_USEDEP}] )
 	full? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jax[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cases[${PYTHON_USEDEP}] )
 	test? ( dev-python/GPy[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tqdm-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/jax[${PYTHON_USEDEP}] )
 	test? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
-	zoo? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	zoo? ( dev-python/requests[${PYTHON_USEDEP}] )
+	zoo? ( >=dev-python/tqdm-4.0[${PYTHON_USEDEP}] )
+	zoo? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
 	zoo? ( dev-python/jax[${PYTHON_USEDEP}] )
 	zoo? ( dev-python/jaxlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

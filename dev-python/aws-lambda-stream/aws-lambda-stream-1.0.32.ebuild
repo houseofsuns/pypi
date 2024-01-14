@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/reactivex[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/aws-lambda-powertools[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	dev-python/requests-aws4auth[${PYTHON_USEDEP}]"

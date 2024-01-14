@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.4[${PYTHON_USEDEP}]
 	dev-python/pyrle[${PYTHON_USEDEP}]
 	dev-python/pyranges[${PYTHON_USEDEP}]
 	dev-python/python-datatable[${PYTHON_USEDEP}]

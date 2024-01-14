@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/jsonpickle[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/fakeredis[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jsonpickle-1.0[${PYTHON_USEDEP}]
+	~dev-python/redis-2.0[${PYTHON_USEDEP}]
+	~dev-python/fakeredis-0.10.0[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.7[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.2[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.20[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/apscheduler[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.0[${PYTHON_USEDEP}]
+	~dev-python/networkx-2.2[${PYTHON_USEDEP}]
 	dev-python/fbmessenger[${PYTHON_USEDEP}]
-	dev-python/pykwalify[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
+	~dev-python/pykwalify-1.7.0[${PYTHON_USEDEP}]
+	~dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.15.0[${PYTHON_USEDEP}]
+	~dev-python/flask-1.0[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/slackclient[${PYTHON_USEDEP}]
 	dev-python/python-telegram-bot[${PYTHON_USEDEP}]
@@ -50,29 +50,29 @@ DEPENDENCIES="dev-python/jsonpickle[${PYTHON_USEDEP}]
 	dev-python/mattermostwrapper[${PYTHON_USEDEP}]
 	dev-python/rocketchat-API[${PYTHON_USEDEP}]
 	dev-python/colorhash[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/pika-0.12.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-2.6[${PYTHON_USEDEP}]
+	~dev-python/packaging-18.0[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/pytz-2018.9[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.7[${PYTHON_USEDEP}]
 	dev-python/rasa-nlu[${PYTHON_USEDEP}]
 	dev-python/rasa-core-sdk[${PYTHON_USEDEP}]
-	dev-python/colorclass[${PYTHON_USEDEP}]
-	dev-python/terminaltables[${PYTHON_USEDEP}]
+	~dev-python/colorclass-2.2[${PYTHON_USEDEP}]
+	~dev-python/terminaltables-3.1[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	dev-python/flask-jwt-simple[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	~dev-python/pydot-1.4[${PYTHON_USEDEP}]
+	test? ( ~dev-python/pytest-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-localserver[${PYTHON_USEDEP}] )
-	test? ( dev-python/treq[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpretty[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-localserver-0.4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/treq-17.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/freezegun-0.3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nbsphinx-0.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/matplotlib-2.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/responses-0.9.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/httpretty-0.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pylint-3.0.0[${PYTHON_USEDEP}]
 	dev-python/torchdata[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	<dev-python/fsspec-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/bentoml[${PYTHON_USEDEP}]
 	dev-python/mlflow[${PYTHON_USEDEP}]
 	dev-python/flytekit[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]"
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

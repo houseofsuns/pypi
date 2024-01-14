@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aws gcs"
 DEPENDENCIES="dev-python/sh[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.4[${PYTHON_USEDEP}]
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/google[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )"

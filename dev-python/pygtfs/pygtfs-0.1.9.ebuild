@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlalchemy-0.7.8[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2014.9[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ipython tests"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/networkx-2.7[${PYTHON_USEDEP}]
+	<dev-python/typeguard-2.13.0[${PYTHON_USEDEP}]
+	<dev-python/cloudpickle-2.1.0[${PYTHON_USEDEP}]
 	dev-python/declic[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}]
+	<dev-python/alembic-1.7[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/simple-slurm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	<dev-python/typing-extensions-3.11.0.0[${PYTHON_USEDEP}]
+	<dev-python/black-22.7.0[${PYTHON_USEDEP}]
+	tests? ( <dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-timeout-2.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-postgresql[${PYTHON_USEDEP}] )
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-5.5.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml-include[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	tests? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )"
+	<dev-python/rich-10.14.0[${PYTHON_USEDEP}]
+	tests? ( <dev-python/ipython-8.0.0[${PYTHON_USEDEP}] )
+	ipython? ( <dev-python/ipython-8.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

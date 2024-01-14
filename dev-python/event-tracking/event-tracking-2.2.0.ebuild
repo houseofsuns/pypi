@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/edx-django-utils[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	<dev-python/pymongo-4.0.0[${PYTHON_USEDEP}]
 	dev-python/django[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

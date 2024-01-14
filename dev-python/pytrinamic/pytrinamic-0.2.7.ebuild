@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="extra"
 DEPENDENCIES="dev-python/python-can[${PYTHON_USEDEP}]
 	dev-python/canopen[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.0[${PYTHON_USEDEP}]
 	extra? ( dev-python/IntelHex[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

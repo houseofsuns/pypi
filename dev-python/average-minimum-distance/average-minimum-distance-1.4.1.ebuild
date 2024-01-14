@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ccdc dev gemmi pymatgen"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.5[${PYTHON_USEDEP}]
 	dev-python/gemmi[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.1.0[${PYTHON_USEDEP}]
 	ccdc? ( dev-python/csd-python-api[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	gemmi? ( dev-python/gemmi[${PYTHON_USEDEP}] )

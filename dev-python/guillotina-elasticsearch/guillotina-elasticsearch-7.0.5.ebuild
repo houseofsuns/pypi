@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/guillotina[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	<dev-python/elasticsearch-8.0.0[${PYTHON_USEDEP}]
 	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]
 	test? ( dev-python/async_asgi_testclient[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.18.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-docker-fixtures[${PYTHON_USEDEP}] )
-	test? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	test? ( dev-python/docker[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/prometheus-client-0.9.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/docker-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

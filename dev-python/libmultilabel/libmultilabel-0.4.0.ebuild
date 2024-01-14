@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="linear"
 DEPENDENCIES="dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]

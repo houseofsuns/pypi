@@ -48,9 +48,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autoapi-2.0.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/tables-io[${PYTHON_USEDEP}] )
 	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	full? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"

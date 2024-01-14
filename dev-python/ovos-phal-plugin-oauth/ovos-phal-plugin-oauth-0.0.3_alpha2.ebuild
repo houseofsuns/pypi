@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/ovos-backend-client[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/oauthlib-3.0[${PYTHON_USEDEP}]
+	~dev-python/qrcode-7.3.1[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
 	dev-python/ovos-utils[${PYTHON_USEDEP}]
 	dev-python/ovos-bus-client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="clang-format cpp json jsonschema_validation keys"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-4.5[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.4[${PYTHON_USEDEP}]
 	dev-python/pydantic-extra-types[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]

@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/beancount[${PYTHON_USEDEP}]
 	dev-python/click-aliases[${PYTHON_USEDEP}]
 	dev-python/ofxparse[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.3[${PYTHON_USEDEP}]
 	dev-python/petl[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

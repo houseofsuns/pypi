@@ -29,7 +29,7 @@ DEPENDENCIES="all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/scipy-1.11[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
 	polyaxon? ( dev-python/polyaxon[${PYTHON_USEDEP}] )"

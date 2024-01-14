@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/devpi-plumber[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/wheel-filename[${PYTHON_USEDEP}]
 	dev-python/wheel-inspect[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+	>=dev-python/pip-1.5.3[${PYTHON_USEDEP}]
 	dev-python/junit-xml[${PYTHON_USEDEP}]
 	dev-python/pip-requirements-parser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

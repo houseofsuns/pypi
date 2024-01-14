@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/ibis-framework[${PYTHON_USEDEP}]
 	dev-python/db-dtypes[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/packaging-17.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/pydata-google-auth[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="api http logs pg pg-sync s3 s3-minio tests"
-DEPENDENCIES="logs? ( dev-python/python-json-logger[${PYTHON_USEDEP}] )
-	pg-sync? ( dev-python/psycopg[${PYTHON_USEDEP}] )
+DEPENDENCIES="logs? ( >=dev-python/python-json-logger-2.0.4[${PYTHON_USEDEP}] )
+	pg-sync? ( >=dev-python/psycopg-3.1.12[${PYTHON_USEDEP}] )
 	s3-minio? ( dev-python/minio[${PYTHON_USEDEP}] )
 	s3? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
-	tests? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	http? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/deepdiff-6.6.0[${PYTHON_USEDEP}] )
+	http? ( >=dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )
 	api? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	api? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	api? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	pg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	pg? ( dev-python/rich[${PYTHON_USEDEP}] )"
+	pg? ( >=dev-python/rich-13.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

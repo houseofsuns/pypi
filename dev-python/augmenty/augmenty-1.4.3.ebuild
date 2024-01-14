@@ -27,25 +27,25 @@ IUSE="all da dev docs tests tutorials"
 DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/catalogue[${PYTHON_USEDEP}]
 	dev-python/thinc[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
 	all? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	da? ( dev-python/dacy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cruft[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyproject-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2022.12.7[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	tutorials? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/faker[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

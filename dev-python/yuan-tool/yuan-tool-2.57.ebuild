@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/IPy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.25[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.5.2[${PYTHON_USEDEP}]
+	>=dev-python/IPy-1.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pymongo[${PYTHON_USEDEP}]
 	dev-python/pymysql[${PYTHON_USEDEP}]
 	dev-python/kafka-python[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	~dev-python/elasticsearch-7.16[${PYTHON_USEDEP}]
 	dev-python/DBUtils[${PYTHON_USEDEP}]
 	dev-python/pyDes[${PYTHON_USEDEP}]
 	dev-python/Crypto[${PYTHON_USEDEP}]

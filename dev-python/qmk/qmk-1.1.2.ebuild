@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/hid[${PYTHON_USEDEP}]
 	dev-python/milc[${PYTHON_USEDEP}]
 	dev-python/pyusb[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-45.0[${PYTHON_USEDEP}]
 	dev-python/dotty-dict[${PYTHON_USEDEP}]
 	dev-python/hjson[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]"

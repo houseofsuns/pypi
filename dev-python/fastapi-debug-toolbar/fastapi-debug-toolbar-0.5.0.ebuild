@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/anyio-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/pydantic-extra-types[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pyinstrument[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+	>=dev-python/sqlparse-0.2.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )

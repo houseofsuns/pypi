@@ -34,9 +34,9 @@ DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-session[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-session-orm[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-send-anything-anywhere[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.6.2[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/monthdelta[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]"
+	<dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

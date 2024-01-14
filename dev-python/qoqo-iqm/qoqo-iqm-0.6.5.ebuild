@@ -27,7 +27,7 @@ IUSE="docs"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/qoqo_calculator_pyo3[${PYTHON_USEDEP}]
 	dev-python/qoqo[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )

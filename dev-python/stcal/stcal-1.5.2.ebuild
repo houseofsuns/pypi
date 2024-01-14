@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/asdf[${PYTHON_USEDEP}]
 	dev-python/gwcs[${PYTHON_USEDEP}]
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/packaging-17.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-asdf[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-astropy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/stsci-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

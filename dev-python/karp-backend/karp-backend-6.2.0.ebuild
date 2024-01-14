@@ -28,32 +28,32 @@ DEPENDENCIES="dev-python/Deprecated[${PYTHON_USEDEP}]
 	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
 	dev-python/TatSu[${PYTHON_USEDEP}]
 	mysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
-	sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	dev-python/alembic[${PYTHON_USEDEP}]
+	sqlite? ( <dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}] )
+	<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/asgi-correlation-id[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	<dev-python/elasticsearch-7.0[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
-	dev-python/environs[${PYTHON_USEDEP}]
+	<dev-python/environs-10.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/injector[${PYTHON_USEDEP}]
 	dev-python/json-streams[${PYTHON_USEDEP}]
 	dev-python/karp-lex-core[${PYTHON_USEDEP}]
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/mysqlclient-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/paradigmextract[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
+	<dev-python/python-json-logger-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/regex-2023.0.0[${PYTHON_USEDEP}]
 	dev-python/sb-json-tools[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-json[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/ulid-py[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

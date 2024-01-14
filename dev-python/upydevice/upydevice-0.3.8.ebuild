@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
 	dev-python/unsync[${PYTHON_USEDEP}]
 	dev-python/bleak[${PYTHON_USEDEP}]
 	dev-python/bleak-sigspec[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]
+	~dev-python/netifaces-0.11.0[${PYTHON_USEDEP}]
 	dev-python/python-nmap[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

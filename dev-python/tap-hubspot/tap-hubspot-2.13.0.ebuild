@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/attrs-16.3.0[${PYTHON_USEDEP}]
 	dev-python/singer-python[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
+	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	~dev-python/backoff-1.8.0[${PYTHON_USEDEP}]
 	dev-python/requests_mock[${PYTHON_USEDEP}]
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nose[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pylint-2.5.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

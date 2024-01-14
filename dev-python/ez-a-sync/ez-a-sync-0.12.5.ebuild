@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/aiolimiter[${PYTHON_USEDEP}]
 	dev-python/async-lru-threadsafe[${PYTHON_USEDEP}]
 	dev-python/async-property[${PYTHON_USEDEP}]
 	dev-python/typed-envs[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

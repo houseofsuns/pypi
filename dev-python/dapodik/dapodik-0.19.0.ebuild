@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ujson"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
-	ujson? ( dev-python/ujson[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/cachetools-5.0.0[${PYTHON_USEDEP}]
+	<=dev-python/attrs-23.0.0[${PYTHON_USEDEP}]
+	<=dev-python/cattrs-23.0.0[${PYTHON_USEDEP}]
+	ujson? ( <dev-python/ujson-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

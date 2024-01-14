@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="faf"
-DEPENDENCIES="faf? ( dev-python/zstd[${PYTHON_USEDEP}] )"
+DEPENDENCIES="faf? ( >=dev-python/zstd-1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

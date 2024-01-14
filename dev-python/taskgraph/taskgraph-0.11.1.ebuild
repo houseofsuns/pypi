@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="niced_processes"
-DEPENDENCIES="dev-python/retrying[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/retrying-1.3.0[${PYTHON_USEDEP}]
 	niced_processes? ( dev-python/psutil[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

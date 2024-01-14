@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="binaries"
 DEPENDENCIES="dev-python/pypubsub[${PYTHON_USEDEP}]
 	dev-python/wxPython[${PYTHON_USEDEP}]
-	binaries? ( dev-python/polib[${PYTHON_USEDEP}] )
+	binaries? ( >=dev-python/polib-1.1.0[${PYTHON_USEDEP}] )
 	binaries? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

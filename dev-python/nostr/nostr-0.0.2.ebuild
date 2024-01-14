@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cffi-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-37.0.4[${PYTHON_USEDEP}]
+	>=dev-python/pycparser-2.21[${PYTHON_USEDEP}]
 	dev-python/secp256k1[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	>=dev-python/websocket-client-1.3.3[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

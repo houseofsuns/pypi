@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Mastodon-py[${PYTHON_USEDEP}]
-	dev-python/clint[${PYTHON_USEDEP}]
+	<dev-python/clint-0.6.0[${PYTHON_USEDEP}]
 	dev-python/drewtilities[${PYTHON_USEDEP}]
 	dev-python/tweepy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

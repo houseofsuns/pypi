@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/semantic-version[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	~dev-python/grpcio-tools-1.54.2[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.54.2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	convergence? ( dev-python/snappi-convergence[${PYTHON_USEDEP}] )
 	ixnetwork? ( dev-python/snappi-ixnetwork[${PYTHON_USEDEP}] )

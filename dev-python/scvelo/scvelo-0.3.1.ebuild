@@ -27,13 +27,13 @@ IUSE="dev docs hnswlib louvain test"
 DEPENDENCIES="dev? ( dev-python/igraph[${PYTHON_USEDEP}] )
 	dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/loompy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.1[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/scvi-tools[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -49,14 +49,14 @@ DEPENDENCIES="dev? ( dev-python/igraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/nbsphinx-0.8.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scanpy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	docs? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/sphinx-autodoc-typehints-1.6[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.3[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-bibtex-2.3.0[${PYTHON_USEDEP}] )
 	hnswlib? ( dev-python/hnswlib[${PYTHON_USEDEP}] )
 	hnswlib? ( dev-python/pybind11[${PYTHON_USEDEP}] )
 	louvain? ( dev-python/igraph[${PYTHON_USEDEP}] )

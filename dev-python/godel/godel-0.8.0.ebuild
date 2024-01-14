@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="data-tools docs web3"
-DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/wheel-0.37.0[${PYTHON_USEDEP}]
+	<dev-python/setuptools-66.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/sgqlc[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	data-tools? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	data-tools? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	data-tools? ( ~dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
+	data-tools? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	web3? ( dev-python/web3[${PYTHON_USEDEP}] )
-	data-tools? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	data-tools? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	dev-python/mkdocs[${PYTHON_USEDEP}]
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	data-tools? ( <dev-python/jupyterlab-4.0.0[${PYTHON_USEDEP}] )
+	data-tools? ( <dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}] )
+	<dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocstrings-0.20.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
-	dev-python/Faker[${PYTHON_USEDEP}]"
+	<dev-python/Faker-16.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

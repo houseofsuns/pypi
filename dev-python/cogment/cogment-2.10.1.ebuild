@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="generate"
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/grpcio-1.49[${PYTHON_USEDEP}]
 	dev-python/grpcio-reflection[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.9[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-4.7.0[${PYTHON_USEDEP}]
 	generate? ( dev-python/PyYaml[${PYTHON_USEDEP}] )
-	generate? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	generate? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
-	generate? ( dev-python/click[${PYTHON_USEDEP}] )"
+	generate? ( ~dev-python/psutil-5.9[${PYTHON_USEDEP}] )
+	generate? ( <dev-python/grpcio-tools-1.49[${PYTHON_USEDEP}] )
+	generate? ( ~dev-python/click-8.0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

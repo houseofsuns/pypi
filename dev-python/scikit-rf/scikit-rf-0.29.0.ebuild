@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs netw plot qtapps test visa xlsx"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/ipython-7.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/ipykernel-6.15[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/ipywidgets-8.0.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/python-ivi[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	netw? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jupyter-client-7.3.5[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/openpyxl-3.0[${PYTHON_USEDEP}] )
+	netw? ( >=dev-python/networkx-2.0[${PYTHON_USEDEP}] )
+	plot? ( >=dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )
 	qtapps? ( dev-python/qtpy[${PYTHON_USEDEP}] )
-	qtapps? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
+	qtapps? ( >=dev-python/pyqtgraph-0.13[${PYTHON_USEDEP}] )
 	qtapps? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbval[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tox-3.26.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-3.10[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nbval-0.9[${PYTHON_USEDEP}] )
 	visa? ( dev-python/PyVISA[${PYTHON_USEDEP}] )
 	visa? ( dev-python/pyvisa-py[${PYTHON_USEDEP}] )
-	xlsx? ( dev-python/openpyxl[${PYTHON_USEDEP}] )"
+	xlsx? ( >=dev-python/openpyxl-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

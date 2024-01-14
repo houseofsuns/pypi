@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/logzero[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pystache[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.1[${PYTHON_USEDEP}]
+	~dev-python/pystache-0.6.0[${PYTHON_USEDEP}]
 	dev-python/beancount[${PYTHON_USEDEP}]
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )

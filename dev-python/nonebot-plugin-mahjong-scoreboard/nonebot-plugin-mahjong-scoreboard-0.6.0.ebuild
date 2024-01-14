@@ -30,12 +30,12 @@ DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-localstore[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-session[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	>=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-4.2[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
 	dev-python/ssttkkl-nonebot-utils[${PYTHON_USEDEP}]
 	htmlrender? ( dev-python/nonebot-plugin-htmlrender[${PYTHON_USEDEP}] )
 	htmlrender? ( dev-python/nonebot-plugin-send-anything-anywhere[${PYTHON_USEDEP}] )
-	dev-python/prettytable[${PYTHON_USEDEP}]"
+	<dev-python/prettytable-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

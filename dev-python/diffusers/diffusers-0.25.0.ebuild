@@ -28,16 +28,16 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	>dev-python/regex-2019.12.17[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/safetensors[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/urllib3-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.5.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
 	dev? ( dev-python/compel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/GitPython-3.1.19[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invisible-watermark[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-mock-1.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/safetensors[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -66,12 +66,12 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	flax? ( dev-python/jax[${PYTHON_USEDEP}] )
 	flax? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	flax? ( dev-python/flax[${PYTHON_USEDEP}] )
-	quality? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	quality? ( dev-python/isort[${PYTHON_USEDEP}] )
+	quality? ( <=dev-python/urllib3-2.0.0[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/isort-5.5.4[${PYTHON_USEDEP}] )
 	quality? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	quality? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
 	test? ( dev-python/compel[${PYTHON_USEDEP}] )
-	test? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	test? ( <dev-python/GitPython-3.1.19[${PYTHON_USEDEP}] )
 	test? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	test? ( dev-python/invisible-watermark[${PYTHON_USEDEP}] )
@@ -82,7 +82,7 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/requests-mock-1.10.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/safetensors[${PYTHON_USEDEP}] )
 	test? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	test? ( dev-python/scipy[${PYTHON_USEDEP}] )

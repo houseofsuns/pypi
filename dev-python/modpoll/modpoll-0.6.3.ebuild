@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="serial"
 DEPENDENCIES="dev-python/pymodbus[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	serial? ( dev-python/pyserial[${PYTHON_USEDEP}] )"
+	<dev-python/paho-mqtt-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/prettytable-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	serial? ( <dev-python/pyserial-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -35,10 +35,10 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/pySMARTS[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/sphinx-1.8.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-autoapi-1.1.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pydata-sphinx-theme-0.8.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/nbsphinx-0.8.8[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-gallery-0.8.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

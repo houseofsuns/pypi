@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/trafaret[${PYTHON_USEDEP}]
 	dev-python/contextlib2[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+	>=dev-python/chardet-3.0.2[${PYTHON_USEDEP}]
 	dev-python/futures[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

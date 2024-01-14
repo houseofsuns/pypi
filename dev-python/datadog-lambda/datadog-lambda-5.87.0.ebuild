@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/datadog[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ddtrace[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nose2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.1.0[${PYTHON_USEDEP}]
+	dev? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/nose2-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

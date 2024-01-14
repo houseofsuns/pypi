@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rpc"
-DEPENDENCIES="dev-python/pyzmq[${PYTHON_USEDEP}]
-	rpc? ( dev-python/msgpack[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/pyzmq-13.1[${PYTHON_USEDEP}]
+	rpc? ( >=dev-python/msgpack-0.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

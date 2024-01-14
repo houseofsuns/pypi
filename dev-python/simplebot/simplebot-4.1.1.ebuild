@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/deltachat[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]
+	>=dev-python/py-1.11.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev? ( dev-python/deltachat[${PYTHON_USEDEP}] )
-	dev? ( dev-python/py[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/py-1.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/xkcd[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wikiquote[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/xkcd[${PYTHON_USEDEP}] )
 	test? ( dev-python/wikiquote[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

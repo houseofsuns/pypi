@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all azure dev gdrive gs hdfs lint oss s3 ssh ssh_gssapi testing tests webdav webhdfs webhdfs_kerberos"
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/configobj[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
+	>=dev-python/configobj-5.0.6[${PYTHON_USEDEP}]
+	>=dev-python/distro-1.3[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
 	dev-python/dvc-data[${PYTHON_USEDEP}]
 	dev-python/dvc-http[${PYTHON_USEDEP}]
@@ -34,38 +34,38 @@ DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/dvc-studio-client[${PYTHON_USEDEP}]
 	dev-python/dvc-task[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]
-	dev-python/flufl-lock[${PYTHON_USEDEP}]
-	dev-python/funcy[${PYTHON_USEDEP}]
+	<dev-python/flufl-lock-8.0[${PYTHON_USEDEP}]
+	>=dev-python/funcy-1.14[${PYTHON_USEDEP}]
 	dev-python/grandalf[${PYTHON_USEDEP}]
 	dev-python/gto[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
 	dev-python/iterative-telemetry[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
+	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
+	>=dev-python/pathspec-0.10.3[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-4.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8[${PYTHON_USEDEP}]
+	>=dev-python/pydot-1.2.4[${PYTHON_USEDEP}]
 	dev-python/pygtrie[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.0[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.11[${PYTHON_USEDEP}]
 	dev-python/scmrepo[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/shtab[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
-	dev-python/zc-lockfile[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.11.1[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.11.7[${PYTHON_USEDEP}]
+	>=dev-python/zc-lockfile-1.2.1[${PYTHON_USEDEP}]
 	all? ( dev-python/dvc[${PYTHON_USEDEP}] )
 	azure? ( dev-python/dvc-azure[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dvc[${PYTHON_USEDEP}] )
 	gdrive? ( dev-python/dvc-gdrive[${PYTHON_USEDEP}] )
 	gs? ( dev-python/dvc-gs[${PYTHON_USEDEP}] )
 	hdfs? ( dev-python/dvc-hdfs[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-colorama[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
@@ -82,20 +82,20 @@ DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest-test-utils[${PYTHON_USEDEP}] )
 	testing? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dvc[${PYTHON_USEDEP}] )
-	tests? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/beautifulsoup4-4.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dvc-ssh[${PYTHON_USEDEP}] )
 	tests? ( dev-python/filelock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-docker[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-test-utils[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-timeout-2.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-xdist-3.2[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pandas-1.0[${PYTHON_USEDEP}] )
 	webdav? ( dev-python/dvc-webdav[${PYTHON_USEDEP}] )
 	webhdfs? ( dev-python/dvc-webhdfs[${PYTHON_USEDEP}] )
 	webhdfs_kerberos? ( dev-python/dvc-webhdfs[${PYTHON_USEDEP}] )"

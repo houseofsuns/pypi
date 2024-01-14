@@ -27,7 +27,7 @@ IUSE="testing"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/superqt[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
+	<dev-python/notebook-7.0.0[${PYTHON_USEDEP}]
 	dev-python/jupytext[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]

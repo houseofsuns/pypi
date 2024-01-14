@@ -26,22 +26,22 @@ KEYWORDS="~amd64 ~x86"
 IUSE="console db discord hangouts runner slack sync telegram uv web webui"
 DEPENDENCIES="console? ( dev-python/aioconsole[${PYTHON_USEDEP}] )
 	db? ( dev-python/tortoise-orm[${PYTHON_USEDEP}] )
-	discord? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	discord? ( >=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}] )
 	discord? ( dev-python/discord-py[${PYTHON_USEDEP}] )
-	discord? ( dev-python/emoji[${PYTHON_USEDEP}] )
-	hangouts? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	discord? ( >=dev-python/emoji-1.6.2[${PYTHON_USEDEP}] )
+	hangouts? ( >=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}] )
 	hangouts? ( dev-python/hangups[${PYTHON_USEDEP}] )
 	runner? ( dev-python/anyconfig[${PYTHON_USEDEP}] )
-	runner? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	slack? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	slack? ( dev-python/emoji[${PYTHON_USEDEP}] )
-	sync? ( dev-python/emoji[${PYTHON_USEDEP}] )
+	runner? ( >=dev-python/ruamel-yaml-0.15.75[${PYTHON_USEDEP}] )
+	slack? ( >=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}] )
+	slack? ( >=dev-python/emoji-1.6.2[${PYTHON_USEDEP}] )
+	sync? ( >=dev-python/emoji-1.2.1[${PYTHON_USEDEP}] )
 	sync? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	telegram? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	telegram? ( >=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}] )
 	telegram? ( dev-python/telethon[${PYTHON_USEDEP}] )
-	uv? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	web? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	uv? ( >=dev-python/uvloop-0.12.0[${PYTHON_USEDEP}] )
+	web? ( >=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/aiohttp-jinja2[${PYTHON_USEDEP}] )
-	webui? ( dev-python/docutils[${PYTHON_USEDEP}] )"
+	webui? ( >=dev-python/docutils-0.16[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
+	~dev-python/cachetools-4.1.1[${PYTHON_USEDEP}]
 	dev-python/pyformatting[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

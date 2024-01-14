@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ledger"
 DEPENDENCIES="dev-python/art[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/safe-eth-py[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8[${PYTHON_USEDEP}]
 	ledger? ( dev-python/ledgereth[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

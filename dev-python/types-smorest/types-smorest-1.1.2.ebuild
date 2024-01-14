@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev? ( dev-python/types-flask[${PYTHON_USEDEP}] )
-	dev? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/apispec[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flask[${PYTHON_USEDEP}] )
-	dev? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/marshmallow-3.19.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/apispec-5.2.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flask-2.2.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/werkzeug-2.2.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pipenv-setup[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

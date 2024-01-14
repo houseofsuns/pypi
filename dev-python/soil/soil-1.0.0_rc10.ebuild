@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all geo ipython web"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/SALib[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Mesa[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/annotated-types[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	>=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.4[${PYTHON_USEDEP}]
+	>=dev-python/annotated-types-0.4[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64[${PYTHON_USEDEP}]
+	all? ( >=dev-python/scipy-1.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	geo? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	ipython? ( dev-python/nbformat[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/ipython-8.12[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/nbformat-5.8[${PYTHON_USEDEP}] )
+	geo? ( >=dev-python/scipy-1.3[${PYTHON_USEDEP}] )
+	ipython? ( ~dev-python/ipython-8.12[${PYTHON_USEDEP}] )
+	ipython? ( ~dev-python/nbformat-5.8[${PYTHON_USEDEP}] )
 	web? ( dev-python/tornado[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

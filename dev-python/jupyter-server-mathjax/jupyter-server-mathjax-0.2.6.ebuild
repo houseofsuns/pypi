@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/jupyter-server[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jupyter-server-1.1[${PYTHON_USEDEP}]
 	test? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

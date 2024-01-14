@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop tests"
 DEPENDENCIES="dev-python/slumber[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-3.1.1[${PYTHON_USEDEP}]
 	develop? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	develop? ( dev-python/isort[${PYTHON_USEDEP}] )
 	develop? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
-	develop? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/setuptools-39.2.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/httpretty[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/httpretty-0.8.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nose[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pycodestyle-2.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

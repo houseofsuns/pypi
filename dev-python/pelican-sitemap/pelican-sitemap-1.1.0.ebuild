@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="markdown"
-DEPENDENCIES="markdown? ( dev-python/markdown[${PYTHON_USEDEP}] )
+DEPENDENCIES="markdown? ( >=dev-python/markdown-3.2[${PYTHON_USEDEP}] )
 	dev-python/pelican[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

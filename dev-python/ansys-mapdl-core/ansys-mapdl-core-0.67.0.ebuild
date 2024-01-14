@@ -28,60 +28,60 @@ DEPENDENCIES="dev-python/ansys-api-mapdl[${PYTHON_USEDEP}]
 	dev-python/ansys-mapdl-reader[${PYTHON_USEDEP}]
 	dev-python/ansys-math-core[${PYTHON_USEDEP}]
 	dev-python/ansys-platform-instancemanagement[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.30.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
 	dev-python/pyansys-tools-versioning[${PYTHON_USEDEP}]
 	dev-python/ansys-tools-path[${PYTHON_USEDEP}]
 	dev-python/pyiges[${PYTHON_USEDEP}]
 	dev-python/pyvista[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.45.0[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-dpf-core[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-mapdl-reader[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	doc? ( dev-python/imageio-ffmpeg[${PYTHON_USEDEP}] )
-	doc? ( dev-python/imageio[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/grpcio-1.51.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/imageio-ffmpeg-0.4.9[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/imageio-2.31.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter_sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	doc? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/jupyterlab-3.2.8[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pandas-2.1.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/plotly-5.17.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyiges[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pytest-sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pythreejs[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-autodoc-typehints-1.24.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-gallery-0.14.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-websupport-1.2.6[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxemoji-0.2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-reredirects[${PYTHON_USEDEP}] )
 	doc? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ansys-dpf-core[${PYTHON_USEDEP}] )
-	tests? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/autopep8-2.0.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/scipy-1.11.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pandas-2.1.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyiges[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyansys-tools-report[${PYTHON_USEDEP}] )
 	tests? ( dev-python/vtk[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-rerunfailures-12.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pyvista[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

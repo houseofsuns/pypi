@@ -25,31 +25,31 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/gif[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
 	dev-python/microdf-python[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	>=dev-python/plotly-4.14.3[${PYTHON_USEDEP}]
 	dev-python/PolicyEngine-Core[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/synthimpute[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.59.0[${PYTHON_USEDEP}]
 	dev-python/yaml-changelog[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/furo-2023.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
 	dev? ( dev-python/linecheck[${PYTHON_USEDEP}] )
-	dev? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydata-sphinx-theme-0.13.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-argparse-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-math-dollar[${PYTHON_USEDEP}] )
 	dev? ( dev-python/survey-enhance[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )

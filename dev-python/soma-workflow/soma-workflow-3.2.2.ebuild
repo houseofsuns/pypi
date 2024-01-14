@@ -27,7 +27,7 @@ IUSE="client doc plotting"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	client? ( dev-python/zmq[${PYTHON_USEDEP}] )
 	client? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-1.0[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/azure-common[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/azure-core[${PYTHON_USEDEP}]
 	dev-python/msrest[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]"
+	>=dev-python/cryptography-2.1.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

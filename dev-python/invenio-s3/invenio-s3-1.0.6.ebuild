@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs tests"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.9.91[${PYTHON_USEDEP}]
 	dev-python/invenio-files-rest[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
@@ -32,14 +32,14 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	all? ( dev-python/invenio-base[${PYTHON_USEDEP}] )
 	all? ( dev-python/invenio-app[${PYTHON_USEDEP}] )
 	all? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
-	all? ( dev-python/moto[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/moto-1.3.7[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/redis-2.10.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-base[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-app[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
-	tests? ( dev-python/moto[${PYTHON_USEDEP}] )
-	tests? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/moto-1.3.7[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/redis-2.10.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/CJKwrap[${PYTHON_USEDEP}]
 	dev-python/EbookLib[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	<dev-python/regex-2022.0.0[${PYTHON_USEDEP}]
 	dev-python/pypandoc[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/reportlab[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/reportlab-5.0.0[${PYTHON_USEDEP}]
 	dev-python/typst[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

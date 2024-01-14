@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/textstat[${PYTHON_USEDEP}]
 	all? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/evaluate[${PYTHON_USEDEP}] )
 	all? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vcrpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/youtube-dl[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ytmusicapi[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ytmusicapi-0.19[${PYTHON_USEDEP}] )
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -57,6 +57,6 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/vcrpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/youtube-dl[${PYTHON_USEDEP}] )
-	test? ( dev-python/ytmusicapi[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/ytmusicapi-0.19[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

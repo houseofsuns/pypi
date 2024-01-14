@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/freezegun[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/freezegun-0.3.6[${PYTHON_USEDEP}]
+	>=dev-python/pytest-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.1.0[${PYTHON_USEDEP}]
 	dev-python/testing-postgresql[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

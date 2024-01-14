@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/spyder[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/spyder-6.0[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
+	<dev-python/notebook-8.0[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/qdarkstyle[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

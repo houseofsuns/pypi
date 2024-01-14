@@ -26,22 +26,22 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all asr common core nlp slu test tts"
 DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/text-unidecode[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.41.0[${PYTHON_USEDEP}]
 	dev-python/triton[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/click[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/click-8.0.2[${PYTHON_USEDEP}] )
+	all? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	all? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	all? ( dev-python/inflect[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	all? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	all? ( dev-python/youtokentome[${PYTHON_USEDEP}] )
@@ -80,7 +80,7 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	all? ( dev-python/pyannote-metrics[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydub[${PYTHON_USEDEP}] )
 	all? ( dev-python/resampy[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-0.14[${PYTHON_USEDEP}] )
 	all? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	all? ( dev-python/sox[${PYTHON_USEDEP}] )
 	all? ( dev-python/texterrors[${PYTHON_USEDEP}] )
@@ -95,7 +95,7 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	all? ( dev-python/ijson[${PYTHON_USEDEP}] )
 	all? ( dev-python/jieba[${PYTHON_USEDEP}] )
 	all? ( dev-python/markdown2[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/megatron-core[${PYTHON_USEDEP}] )
 	all? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencc[${PYTHON_USEDEP}] )
@@ -113,9 +113,9 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	all? ( dev-python/pypinyin[${PYTHON_USEDEP}] )
 	all? ( dev-python/pypinyin-dict[${PYTHON_USEDEP}] )
 	all? ( dev-python/jiwer[${PYTHON_USEDEP}] )
-	all? ( dev-python/progress[${PYTHON_USEDEP}] )
-	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	all? ( dev-python/textdistance[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/progress-1.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/textdistance-4.1.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	all? ( dev-python/nemo-text-processing[${PYTHON_USEDEP}] )
 	asr? ( dev-python/braceexpand[${PYTHON_USEDEP}] )
@@ -134,7 +134,7 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	asr? ( dev-python/pydub[${PYTHON_USEDEP}] )
 	asr? ( dev-python/resampy[${PYTHON_USEDEP}] )
 	asr? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	asr? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	asr? ( >=dev-python/scipy-0.14[${PYTHON_USEDEP}] )
 	asr? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	asr? ( dev-python/sox[${PYTHON_USEDEP}] )
 	asr? ( dev-python/texterrors[${PYTHON_USEDEP}] )
@@ -149,14 +149,14 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	asr? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	asr? ( dev-python/inflect[${PYTHON_USEDEP}] )
 	asr? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	asr? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	asr? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	asr? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	asr? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	asr? ( dev-python/youtokentome[${PYTHON_USEDEP}] )
 	common? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	common? ( dev-python/inflect[${PYTHON_USEDEP}] )
 	common? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	common? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	common? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	common? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	common? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	common? ( dev-python/youtokentome[${PYTHON_USEDEP}] )
@@ -187,7 +187,7 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	nlp? ( dev-python/ijson[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/jieba[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/markdown2[${PYTHON_USEDEP}] )
-	nlp? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	nlp? ( >=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/megatron-core[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/opencc[${PYTHON_USEDEP}] )
@@ -209,14 +209,14 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	nlp? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/inflect[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	nlp? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	nlp? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/youtokentome[${PYTHON_USEDEP}] )
 	slu? ( dev-python/jiwer[${PYTHON_USEDEP}] )
-	slu? ( dev-python/progress[${PYTHON_USEDEP}] )
-	slu? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	slu? ( dev-python/textdistance[${PYTHON_USEDEP}] )
+	slu? ( >=dev-python/progress-1.5[${PYTHON_USEDEP}] )
+	slu? ( >=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}] )
+	slu? ( >=dev-python/textdistance-4.1.5[${PYTHON_USEDEP}] )
 	slu? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	slu? ( dev-python/braceexpand[${PYTHON_USEDEP}] )
 	slu? ( dev-python/editdistance[${PYTHON_USEDEP}] )
@@ -234,7 +234,7 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	slu? ( dev-python/pydub[${PYTHON_USEDEP}] )
 	slu? ( dev-python/resampy[${PYTHON_USEDEP}] )
 	slu? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	slu? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	slu? ( >=dev-python/scipy-0.14[${PYTHON_USEDEP}] )
 	slu? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	slu? ( dev-python/sox[${PYTHON_USEDEP}] )
 	slu? ( dev-python/texterrors[${PYTHON_USEDEP}] )
@@ -249,7 +249,7 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	slu? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	slu? ( dev-python/inflect[${PYTHON_USEDEP}] )
 	slu? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	slu? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	slu? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	slu? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	slu? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	slu? ( dev-python/youtokentome[${PYTHON_USEDEP}] )
@@ -273,7 +273,7 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	test? ( dev-python/webdataset[${PYTHON_USEDEP}] )
 	test? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	test? ( dev-python/inflect[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	test? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	test? ( dev-python/youtokentome[${PYTHON_USEDEP}] )
@@ -298,7 +298,7 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	tts? ( dev-python/webdataset[${PYTHON_USEDEP}] )
 	tts? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	tts? ( dev-python/inflect[${PYTHON_USEDEP}] )
-	tts? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	tts? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	tts? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	tts? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	tts? ( dev-python/youtokentome[${PYTHON_USEDEP}] )
@@ -317,7 +317,7 @@ DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	tts? ( dev-python/pydub[${PYTHON_USEDEP}] )
 	tts? ( dev-python/resampy[${PYTHON_USEDEP}] )
 	tts? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	tts? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	tts? ( >=dev-python/scipy-0.14[${PYTHON_USEDEP}] )
 	tts? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	tts? ( dev-python/sox[${PYTHON_USEDEP}] )
 	tts? ( dev-python/texterrors[${PYTHON_USEDEP}] )

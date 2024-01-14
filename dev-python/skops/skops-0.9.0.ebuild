@@ -26,31 +26,31 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs rich tests"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.8[${PYTHON_USEDEP}]
+	>=dev-python/packaging-17.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/scikit-learn-intelex[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-gallery-0.7.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-prompt-1.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-issues-1.2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/matplotlib-3.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pandas-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/fairlearn[${PYTHON_USEDEP}] )
-	rich? ( dev-python/rich[${PYTHON_USEDEP}] )
+	rich? ( >=dev-python/rich-12.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/quantile-forest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-5.0.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flake8-3.8.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flaky-3.7.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/matplotlib-3.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pandas-1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	tests? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	tests? ( dev-python/catboost[${PYTHON_USEDEP}] )
 	tests? ( dev-python/fairlearn[${PYTHON_USEDEP}] )
-	tests? ( dev-python/rich[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/rich-12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

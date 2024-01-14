@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/astor[${PYTHON_USEDEP}]
 	dev-python/pudb[${PYTHON_USEDEP}]
 	dev-python/websocket-server[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
+	>=dev-python/graphviz-0.1[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

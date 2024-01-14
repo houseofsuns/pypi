@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Arpeggio[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/Arpeggio-1.9.1[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-2.2.2[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.14.6[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	~dev-python/pygame-1.9.6[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.6.1[${PYTHON_USEDEP}]
 	dev-python/pymunk[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	~dev-python/pytest-4.6.5[${PYTHON_USEDEP}]
 	dev-python/pytest-benchmark[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.0.1[${PYTHON_USEDEP}]
 	dev-python/scs[${PYTHON_USEDEP}]
 	dev-python/swiglpk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

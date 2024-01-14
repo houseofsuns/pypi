@@ -27,14 +27,14 @@ IUSE="all docs elasticsearch7 indexer mysql opensearch2 postgresql records sqlit
 DEPENDENCIES="dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/invenio-i18n[${PYTHON_USEDEP}]
 	dev-python/invenio-pidstore[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
 	dev-python/speaklater[${PYTHON_USEDEP}]
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	all? ( dev-python/invenio-app[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-mock-1.6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/invenio-records[${PYTHON_USEDEP}] )
 	all? ( dev-python/invenio-records-ui[${PYTHON_USEDEP}] )
 	all? ( dev-python/invenio-indexer[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/invenio-base[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-app[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-mock-1.6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

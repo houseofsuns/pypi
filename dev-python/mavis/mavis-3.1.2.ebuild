@@ -29,14 +29,14 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/colour[${PYTHON_USEDEP}]
 	dev-python/Distance[${PYTHON_USEDEP}]
 	dev-python/mavis-config[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13.1[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
 	dev-python/Shapely[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/svgwrite[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	deploy? ( dev-python/twine[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -44,27 +44,27 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/timeout-decorator[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/timeout-decorator-0.3.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-4.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pycodestyle-2.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mkdocs-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/markdown-refdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocs-material-5.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-simple-hooks[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/types-setuptools-58.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-1.1.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/markdown-refdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-material-5.4.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-simple-hooks[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )
-	test? ( dev-python/timeout-decorator[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/timeout-decorator-0.3.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pycodestyle-2.3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tools? ( dev-python/pyensembl[${PYTHON_USEDEP}] )

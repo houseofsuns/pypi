@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/streamlit[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
+	~dev-python/python-jose-3.3.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

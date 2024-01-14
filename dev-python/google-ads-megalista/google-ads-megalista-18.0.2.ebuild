@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-auth-oauthlib-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/googleapis-common-protos-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
-	dev-python/proto-plus[${PYTHON_USEDEP}]
+	~dev-python/proto-plus-1.19.6[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-40.3.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	tests? ( dev-python/nox[${PYTHON_USEDEP}] )"
+	tests? ( <dev-python/nox-2022.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

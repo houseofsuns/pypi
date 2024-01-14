@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-2.0.8[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	~dev-python/graphviz-0.19[${PYTHON_USEDEP}]
+	~dev-python/idna-3.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -36,8 +36,8 @@ DEPENDENCIES="dev-python/azure-devops[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
-	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/bandit-1.7.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/cattrs[${PYTHON_USEDEP}] )
 	test? ( dev-python/docx2txt[${PYTHON_USEDEP}] )
 	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
@@ -47,13 +47,13 @@ DEPENDENCIES="dev-python/azure-devops[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.17.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint_junit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-github-actions-annotate-failures[${PYTHON_USEDEP}] )
 	test? ( dev-python/shellcheck-py[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests_mock[${PYTHON_USEDEP}] )"

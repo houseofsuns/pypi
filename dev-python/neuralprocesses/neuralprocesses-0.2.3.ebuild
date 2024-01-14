@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/backends-matrix[${PYTHON_USEDEP}]
 	dev-python/backends[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/plum-dispatch[${PYTHON_USEDEP}]
 	dev-python/stheno[${PYTHON_USEDEP}]
 	dev-python/wbml[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ghp-import[${PYTHON_USEDEP}] )
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/backends-matrix[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorflow-probability[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )

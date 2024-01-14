@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws-sdk datadog datamasking-aws-sdk parser tracer validation"
 DEPENDENCIES="datamasking-aws-sdk? ( dev-python/aws-encryption-sdk[${PYTHON_USEDEP}] )
-	tracer? ( dev-python/aws-xray-sdk[${PYTHON_USEDEP}] )
-	all? ( dev-python/aws-xray-sdk[${PYTHON_USEDEP}] )
-	aws-sdk? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	tracer? ( <dev-python/aws-xray-sdk-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/aws-xray-sdk-3.0.0[${PYTHON_USEDEP}] )
+	aws-sdk? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	datadog? ( dev-python/datadog-lambda[${PYTHON_USEDEP}] )
-	validation? ( dev-python/fastjsonschema[${PYTHON_USEDEP}] )
-	all? ( dev-python/fastjsonschema[${PYTHON_USEDEP}] )
-	parser? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	validation? ( <dev-python/fastjsonschema-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/fastjsonschema-3.0.0[${PYTHON_USEDEP}] )
+	parser? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all geopandas ipython ipywidgets pandas tqdm"
-DEPENDENCIES="dev-python/proto-plus[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/clickzetta-connector[${PYTHON_USEDEP}]
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-1.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/db-dtypes[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/ipywidgets-7.7.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/Shapely[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipython-7.0.1[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
 	geopandas? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	geopandas? ( dev-python/Shapely[${PYTHON_USEDEP}] )
-	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	ipywidgets? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	ipython? ( >=dev-python/ipython-7.0.1[${PYTHON_USEDEP}] )
+	ipywidgets? ( ~dev-python/ipywidgets-7.7.1[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-1.0.0[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/db-dtypes[${PYTHON_USEDEP}] )
-	tqdm? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	tqdm? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

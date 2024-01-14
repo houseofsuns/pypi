@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cpu gpu silicon"
 DEPENDENCIES="dev-python/librosa[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/onnx2torch[${PYTHON_USEDEP}]
 	cpu? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/onnxruntime-gpu[${PYTHON_USEDEP}] )
 	silicon? ( dev-python/onnxruntime-silicon[${PYTHON_USEDEP}] )
 	dev-python/pydub[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.16[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

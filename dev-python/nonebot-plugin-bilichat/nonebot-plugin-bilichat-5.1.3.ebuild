@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all extra summary wordcloud"
 DEPENDENCIES="dev-python/bilireq[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/qrcode-7.4.2[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-localstore[${PYTHON_USEDEP}]
 	dev-python/nonebot2[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	dev-python/dynrender-skia-opt[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-apscheduler[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-send-anything-anywhere[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
-	extra? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	>=dev-python/packaging-23.2[${PYTHON_USEDEP}]
+	>=dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
+	extra? ( <dev-python/numpy-1.25.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/nonebot-plugin-sentry[${PYTHON_USEDEP}] )
 	extra? ( dev-python/nonebot-plugin-htmlrender[${PYTHON_USEDEP}] )
 	extra? ( dev-python/nonebot-plugin-mongodb[${PYTHON_USEDEP}] )
 	wordcloud? ( dev-python/jieba[${PYTHON_USEDEP}] )
 	wordcloud? ( dev-python/wordcloud[${PYTHON_USEDEP}] )
 	summary? ( dev-python/tiktoken-async[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( <dev-python/numpy-1.25.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/jieba[${PYTHON_USEDEP}] )
 	all? ( dev-python/wordcloud[${PYTHON_USEDEP}] )
 	all? ( dev-python/tiktoken-async[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pg8000"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-38.0.3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/google-auth[${PYTHON_USEDEP}]
 	pg8000? ( dev-python/pg8000[${PYTHON_USEDEP}] )"

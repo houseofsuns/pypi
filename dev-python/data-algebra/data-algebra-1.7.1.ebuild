@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all bigquery mysql polars postgresql pretty_python spark"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/lark[${PYTHON_USEDEP}]
 	bigquery? ( dev-python/google-cloud[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/pyarrow[${PYTHON_USEDEP}] )

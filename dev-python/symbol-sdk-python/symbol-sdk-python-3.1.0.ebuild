@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cryptography-41.1.0[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pyzbar[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
+	<dev-python/pynacl-1.6.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.1.0[${PYTHON_USEDEP}]
+	<dev-python/pyzbar-0.2.0[${PYTHON_USEDEP}]
+	<dev-python/qrcode-7.5.0[${PYTHON_USEDEP}]
 	dev-python/ripemd-hash[${PYTHON_USEDEP}]
 	dev-python/safe-pysha3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

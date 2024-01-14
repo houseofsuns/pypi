@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="dev-python/django-imagefield[${PYTHON_USEDEP}]
 	dev-python/django-tree-queries[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

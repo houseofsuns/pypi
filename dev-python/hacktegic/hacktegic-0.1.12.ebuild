@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-4.2[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.5.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	<dev-python/rich-13.8[${PYTHON_USEDEP}]
+	~dev-python/tomlkit-0.12.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

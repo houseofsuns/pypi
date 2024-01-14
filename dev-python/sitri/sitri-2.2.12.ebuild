@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all hvac orjson pyyaml redis settings toml vedis"
-DEPENDENCIES="all? ( dev-python/redis[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( >=dev-python/redis-4.3.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/vedis[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/hvac[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	all? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	all? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	all? ( dev-python/tomli-w[${PYTHON_USEDEP}] )
-	hvac? ( dev-python/hvac[${PYTHON_USEDEP}] )
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	pyyaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	settings? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	toml? ( dev-python/tomli-w[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/hvac-0.11.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pydantic-1.9.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/orjson-3.8.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}] )
+	hvac? ( >=dev-python/hvac-0.11.2[${PYTHON_USEDEP}] )
+	orjson? ( >=dev-python/orjson-3.8.1[${PYTHON_USEDEP}] )
+	pyyaml? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.3.4[${PYTHON_USEDEP}] )
+	settings? ( >=dev-python/pydantic-1.9.1[${PYTHON_USEDEP}] )
+	toml? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
+	toml? ( >=dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}] )
 	vedis? ( dev-python/vedis[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

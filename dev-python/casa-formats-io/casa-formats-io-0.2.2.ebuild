@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="casa docs test"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/dask-2.0[${PYTHON_USEDEP}]
 	casa? ( dev-python/casatools[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )

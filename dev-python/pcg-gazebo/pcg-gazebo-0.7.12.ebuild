@@ -32,27 +32,27 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/noise[${PYTHON_USEDEP}]
 	dev-python/yasha[${PYTHON_USEDEP}]
-	dev-python/trimesh[${PYTHON_USEDEP}]
+	>=dev-python/trimesh-3.6.4[${PYTHON_USEDEP}]
 	dev-python/descartes[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	dev-python/python-fcl[${PYTHON_USEDEP}]
 	dev-python/triangle[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pycollada[${PYTHON_USEDEP}]
+	~dev-python/pycollada-0.6[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	<=dev-python/shapely-1.7.0[${PYTHON_USEDEP}]
 	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	all? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	all? ( dev-python/rospkg[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpy-1.18.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-fcl[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	all? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	all? ( dev-python/pycollada[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pycollada-0.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	all? ( dev-python/noise[${PYTHON_USEDEP}] )
 	all? ( dev-python/yasha[${PYTHON_USEDEP}] )
@@ -70,19 +70,19 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	all? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )
 	all? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	all? ( dev-python/trimesh[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/trimesh-3.6.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
 	all? ( dev-python/descartes[${PYTHON_USEDEP}] )
 	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	all? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/shapely-1.7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	docs? ( dev-python/rospkg[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpy-1.18.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/python-fcl[${PYTHON_USEDEP}] )
 	docs? ( dev-python/progress[${PYTHON_USEDEP}] )
 	docs? ( dev-python/triangle[${PYTHON_USEDEP}] )
@@ -90,48 +90,48 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	docs? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pycollada[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pycollada-0.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	docs? ( dev-python/noise[${PYTHON_USEDEP}] )
 	docs? ( dev-python/yasha[${PYTHON_USEDEP}] )
 	docs? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )
-	docs? ( dev-python/trimesh[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/trimesh-3.6.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
 	docs? ( dev-python/descartes[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	docs? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/shapely-1.7.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	examples? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	examples? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	examples? ( dev-python/rospkg[${PYTHON_USEDEP}] )
 	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	examples? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/numpy-1.18.1[${PYTHON_USEDEP}] )
 	examples? ( dev-python/python-fcl[${PYTHON_USEDEP}] )
 	examples? ( dev-python/progress[${PYTHON_USEDEP}] )
 	examples? ( dev-python/triangle[${PYTHON_USEDEP}] )
 	examples? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	examples? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	examples? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	examples? ( dev-python/pycollada[${PYTHON_USEDEP}] )
+	examples? ( ~dev-python/pycollada-0.6[${PYTHON_USEDEP}] )
 	examples? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	examples? ( dev-python/noise[${PYTHON_USEDEP}] )
 	examples? ( dev-python/yasha[${PYTHON_USEDEP}] )
 	examples? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	examples? ( dev-python/trimesh[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/trimesh-3.6.4[${PYTHON_USEDEP}] )
 	examples? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
 	examples? ( dev-python/descartes[${PYTHON_USEDEP}] )
 	examples? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	examples? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	examples? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	examples? ( <=dev-python/shapely-1.7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	test? ( dev-python/rospkg[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/numpy-1.18.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-fcl[${PYTHON_USEDEP}] )
 	test? ( dev-python/progress[${PYTHON_USEDEP}] )
@@ -139,15 +139,15 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	test? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	test? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	test? ( dev-python/pycollada[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pycollada-0.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	test? ( dev-python/noise[${PYTHON_USEDEP}] )
 	test? ( dev-python/yasha[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	test? ( dev-python/trimesh[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/trimesh-3.6.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
 	test? ( dev-python/descartes[${PYTHON_USEDEP}] )
 	test? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	test? ( dev-python/shapely[${PYTHON_USEDEP}] )"
+	test? ( <=dev-python/shapely-1.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

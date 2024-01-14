@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="arvados cwltool toil"
 DEPENDENCIES="dev-python/connexion[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.15.78[${PYTHON_USEDEP}]
 	dev-python/schema-salad[${PYTHON_USEDEP}]
 	arvados? ( dev-python/arvados-cwl-runner[${PYTHON_USEDEP}] )
 	cwltool? ( dev-python/cwlref-runner[${PYTHON_USEDEP}] )

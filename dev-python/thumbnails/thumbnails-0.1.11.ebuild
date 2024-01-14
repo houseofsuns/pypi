@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/imageio-ffmpeg[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0.3[${PYTHON_USEDEP}]
+	>=dev-python/imageio-ffmpeg-0.4.7[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.23.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.4.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	dev-python/av[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-3.24[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

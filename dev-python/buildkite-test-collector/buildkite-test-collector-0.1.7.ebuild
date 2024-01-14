@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/mock-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/responses[${PYTHON_USEDEP}] )

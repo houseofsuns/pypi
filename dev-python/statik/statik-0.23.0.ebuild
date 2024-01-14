@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/argh[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
+	~dev-python/argh-0.26.2[${PYTHON_USEDEP}]
+	~dev-python/colorlog-4.0.2[${PYTHON_USEDEP}]
 	dev-python/httpwatcher[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/lipsum[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
+	~dev-python/mock-3.0.5[${PYTHON_USEDEP}]
 	dev-python/mlalchemy[${PYTHON_USEDEP}]
 	dev-python/pathtools[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pystache[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	~dev-python/pystache-0.5.4[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
+	~dev-python/python-slugify-3.0.4[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/Unidecode[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	~dev-python/watchdog-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/paramiko-2.6.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

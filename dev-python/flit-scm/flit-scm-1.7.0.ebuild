@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flit-core[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flit-core-3.5[${PYTHON_USEDEP}]
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

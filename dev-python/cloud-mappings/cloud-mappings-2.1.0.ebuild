@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="awss3 azureblob azuretable gcpstorage tests"
-DEPENDENCIES="awss3? ( dev-python/boto3[${PYTHON_USEDEP}] )
+DEPENDENCIES="awss3? ( ~dev-python/boto3-1.26.129[${PYTHON_USEDEP}] )
 	azureblob? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	azureblob? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	azuretable? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	azuretable? ( dev-python/azure-data-tables[${PYTHON_USEDEP}] )
 	gcpstorage? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

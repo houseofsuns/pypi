@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/jupyter-server[${PYTHON_USEDEP}]
-	dev-python/jupyterlab-server[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/notebook-shim[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
+	<dev-python/jupyterlab-server-3.0[${PYTHON_USEDEP}]
+	<dev-python/jupyterlab-5.0[${PYTHON_USEDEP}]
+	<dev-python/notebook-shim-0.3[${PYTHON_USEDEP}]
+	>=dev-python/tornado-6.2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.3.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-github-alt[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyterlab-server[${PYTHON_USEDEP}] )
+	test? ( <dev-python/jupyter-server-3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/jupyterlab-server-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbval[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-tornasync[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

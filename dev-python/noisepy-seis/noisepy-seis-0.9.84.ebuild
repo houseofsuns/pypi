@@ -26,26 +26,26 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aws dev mpi sql"
 DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	dev-python/datetimerange[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	<dev-python/diskcache-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/fsspec-2024.0.0[${PYTHON_USEDEP}]
+	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/pyasdf[${PYTHON_USEDEP}]
 	dev-python/pycwt[${PYTHON_USEDEP}]
 	dev-python/pydantic-yaml[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.3.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	aws? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	mpi? ( <dev-python/mpi4py-4.0.0[${PYTHON_USEDEP}] )
 	sql? ( dev-python/sqlite3_0611[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

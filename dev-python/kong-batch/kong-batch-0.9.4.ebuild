@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ipython"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/coloredlogs-15.0[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
-	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	<dev-python/humanfriendly-9.0[${PYTHON_USEDEP}]
+	ipython? ( <dev-python/ipython-8.0.0[${PYTHON_USEDEP}] )
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/notifiers[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytimeparse[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/peewee-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytimeparse-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytz-2021.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
-	dev-python/sh[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	<dev-python/sh-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

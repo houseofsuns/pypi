@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pbr[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pbr-3.0[${PYTHON_USEDEP}]
 	dev-python/pipenv[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

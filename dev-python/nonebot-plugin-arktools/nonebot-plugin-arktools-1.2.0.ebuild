@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-apscheduler[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-imageutils[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-htmlrender[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.1[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]
 	dev-python/tortoise-orm[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/feedparser[${PYTHON_USEDEP}]"
+	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
+	>=dev-python/feedparser-6.0.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/mojo-waiting[${PYTHON_USEDEP}]
-	dev-python/debugpy[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/debugpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/paramiko-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/mojo-errors[${PYTHON_USEDEP}]
 	dev-python/mojo-collections[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

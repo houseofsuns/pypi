@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev lint"
-DEPENDENCIES="dev-python/tox[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tox-3.7[${PYTHON_USEDEP}]
+	>=dev-python/py-1.4.27[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

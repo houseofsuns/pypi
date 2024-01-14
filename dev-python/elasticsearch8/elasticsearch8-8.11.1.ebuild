@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async requests"
-DEPENDENCIES="dev-python/elastic-transport[${PYTHON_USEDEP}]
-	async? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	requests? ( dev-python/requests[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/elastic-transport-9.0[${PYTHON_USEDEP}]
+	async? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
+	requests? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

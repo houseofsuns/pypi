@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs notebook"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.4.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.1[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}]
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	<dev-python/sphinxcontrib-bibtex-3.0.0[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	dev-python/pytest[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

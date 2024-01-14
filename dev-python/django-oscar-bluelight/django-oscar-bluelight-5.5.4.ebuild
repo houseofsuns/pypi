@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/django-oscar[${PYTHON_USEDEP}]
-	dev-python/django-redis[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/django-redis-4.8.0[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.11[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	>=dev-python/redis-3.0.0[${PYTHON_USEDEP}]
 	dev-python/thelabdb[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

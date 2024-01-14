@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-3.1.1[${PYTHON_USEDEP}]
 	dev-python/cbgen[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/texttable[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]"
+	>=dev-python/dask-2.12.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-5.4.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-1.25.8[${PYTHON_USEDEP}]
+	>=dev-python/texttable-1.6.2[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.43.0[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pastel[${PYTHON_USEDEP}]
-	dev-python/pylev[${PYTHON_USEDEP}]
-	dev-python/crashtest[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/pastel-0.3.0[${PYTHON_USEDEP}]
+	<dev-python/pylev-2.0[${PYTHON_USEDEP}]
+	<dev-python/crashtest-0.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

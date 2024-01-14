@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/gridworks[${PYTHON_USEDEP}]
 	tests? ( dev-python/gridworks-cert[${PYTHON_USEDEP}] )
 	dev-python/gridworks-protocol[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	<dev-python/multidict-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/paho-mqtt-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	tests? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-asyncio-0.20.3[${PYTHON_USEDEP}] )
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	dev-python/result[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	<dev-python/yarl-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

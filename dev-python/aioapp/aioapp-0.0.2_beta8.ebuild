@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/attrs-18.2.0[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.2.6[${PYTHON_USEDEP}]
 	dev-python/aiozipkin[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

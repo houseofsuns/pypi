@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ml"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	ml? ( dev-python/imageio[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/requests-2.20.1[${PYTHON_USEDEP}]
+	ml? ( >=dev-python/imageio-2.9.0[${PYTHON_USEDEP}] )
 	ml? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	ml? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	ml? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	ml? ( >=dev-python/pillow-6.1.0[${PYTHON_USEDEP}] )
+	ml? ( >=dev-python/scipy-1.1.0[${PYTHON_USEDEP}] )
 	ml? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	ml? ( dev-python/torch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

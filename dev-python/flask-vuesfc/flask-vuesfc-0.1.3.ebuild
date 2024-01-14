@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/py-mini-racer[${PYTHON_USEDEP}]
-	dev-python/tinycss2[${PYTHON_USEDEP}]
+	>=dev-python/tinycss2-1.0.2[${PYTHON_USEDEP}]
 	dev-python/esprima[${PYTHON_USEDEP}]
 	dev-python/css-html-js-minify[${PYTHON_USEDEP}]
-	dev-python/libsass[${PYTHON_USEDEP}]"
+	>=dev-python/libsass-0.20.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

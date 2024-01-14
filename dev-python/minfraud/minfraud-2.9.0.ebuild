@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-60.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/email-validator-3.0.0[${PYTHON_USEDEP}]
 	dev-python/geoip2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/voluptuous[${PYTHON_USEDEP}]
 	test? ( dev-python/mocket[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

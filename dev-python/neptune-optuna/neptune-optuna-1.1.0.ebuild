@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( >=dev-python/deepdiff-6.2.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/neptune[${PYTHON_USEDEP}] )
 	dev-python/optuna[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	dev-python/scikit-learn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,13 +27,13 @@ IUSE="interactive"
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/click-log[${PYTHON_USEDEP}]
 	dev-python/commisery[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	interactive? ( dev-python/keyring[${PYTHON_USEDEP}] )
+	<dev-python/typeguard-2.11[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-3.6[${PYTHON_USEDEP}]
+	interactive? ( <dev-python/keyring-22.0[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/netstruct[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

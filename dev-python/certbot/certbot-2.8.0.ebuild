@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docs test"
 DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
-	dev-python/configobj[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
-	dev-python/josepy[${PYTHON_USEDEP}]
-	dev-python/parsedatetime[${PYTHON_USEDEP}]
+	>=dev-python/ConfigArgParse-1.5.3[${PYTHON_USEDEP}]
+	>=dev-python/configobj-5.0.6[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.2.1[${PYTHON_USEDEP}]
+	>=dev-python/distro-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/josepy-1.13.0[${PYTHON_USEDEP}]
+	>=dev-python/parsedatetime-2.4[${PYTHON_USEDEP}]
 	dev-python/pyrfc3339[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-41.6.0[${PYTHON_USEDEP}]
 	all? ( dev-python/azure-devops[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	all? ( dev-python/poetry[${PYTHON_USEDEP}] )
-	all? ( dev-python/poetry-plugin-export[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/poetry-1.2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/poetry-plugin-export-1.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/twine[${PYTHON_USEDEP}] )
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
@@ -61,8 +61,8 @@ DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	all? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-devops[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/poetry[${PYTHON_USEDEP}] )
-	dev? ( dev-python/poetry-plugin-export[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/poetry-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/poetry-plugin-export-1.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

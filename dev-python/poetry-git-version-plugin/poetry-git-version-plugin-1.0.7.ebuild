@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/poetry[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/poetry-2.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

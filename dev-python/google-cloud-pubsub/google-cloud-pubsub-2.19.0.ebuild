@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="libcst"
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/proto-plus[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
+	<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
-	dev-python/proto-plus[${PYTHON_USEDEP}]
+	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
 	libcst? ( dev-python/libcst[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

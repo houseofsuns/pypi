@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/eth-utils[${PYTHON_USEDEP}]
 	dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	<dev-python/websocket-client-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

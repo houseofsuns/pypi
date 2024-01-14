@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/afdko[${PYTHON_USEDEP}]
-	dev-python/fonttools[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-4.40.0[${PYTHON_USEDEP}]
 	dev-python/beziers[${PYTHON_USEDEP}]
 	dev-python/brotli[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/cffsubr[${PYTHON_USEDEP}]
 	dev-python/dehinter[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/pathvalidate-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.4.2[${PYTHON_USEDEP}]
 	dev-python/skia-pathops[${PYTHON_USEDEP}]
 	dev-python/ttfautohint-py[${PYTHON_USEDEP}]
 	dev-python/zopfli[${PYTHON_USEDEP}]"

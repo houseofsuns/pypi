@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/pyflakes[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/flake8-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyflakes-2.1.1[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-noqa[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit-hooks[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-3.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pyflakes[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all niftiext niftiexts test tests"
 DEPENDENCIES="dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.6[${PYTHON_USEDEP}]
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

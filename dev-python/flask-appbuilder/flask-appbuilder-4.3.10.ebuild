@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jmespath oauth openid talisman"
-DEPENDENCIES="dev-python/apispec[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/apispec-7.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-1.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/email-validator-2.0[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Babel[${PYTHON_USEDEP}]
 	dev-python/Flask-Limiter[${PYTHON_USEDEP}]
@@ -35,17 +35,17 @@ DEPENDENCIES="dev-python/apispec[${PYTHON_USEDEP}]
 	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	dev-python/prison[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
 	dev-python/WTForms[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	jmespath? ( dev-python/jmespath[${PYTHON_USEDEP}] )
+	<dev-python/werkzeug-3.0[${PYTHON_USEDEP}]
+	jmespath? ( >=dev-python/jmespath-0.9.5[${PYTHON_USEDEP}] )
 	oauth? ( dev-python/Authlib[${PYTHON_USEDEP}] )
 	openid? ( dev-python/Flask-OpenID[${PYTHON_USEDEP}] )
 	talisman? ( dev-python/flask-talisman[${PYTHON_USEDEP}] )"

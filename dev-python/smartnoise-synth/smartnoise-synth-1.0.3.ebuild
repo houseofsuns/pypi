@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/opacus[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/pac-synth[${PYTHON_USEDEP}]
 	dev-python/smartnoise-sql[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]"
+	<dev-python/Faker-16.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

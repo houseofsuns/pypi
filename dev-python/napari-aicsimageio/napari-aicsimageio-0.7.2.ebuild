@@ -25,30 +25,30 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/aicsimageio[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2022.7.1[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7.0[${PYTHON_USEDEP}]
 	dev-python/aicspylibczi[${PYTHON_USEDEP}]
 	dev-python/bioformats-jar[${PYTHON_USEDEP}]
 	dev-python/readlif[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-pyprojecttoml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.15.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.34.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-qt-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xvfb[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xvfb-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/quilt3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

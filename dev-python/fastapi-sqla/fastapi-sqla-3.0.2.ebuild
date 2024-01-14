@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="asyncpg aws-rds-iam tests"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	tests? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	>=dev-python/pydantic-1.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
+	>=dev-python/structlog-20.0[${PYTHON_USEDEP}]
+	tests? ( <dev-python/alembic-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/asgi_lifespan[${PYTHON_USEDEP}] )
 	asyncpg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Faker[${PYTHON_USEDEP}] )
-	tests? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/Faker-15.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/httpx-0.24.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pdbpp[${PYTHON_USEDEP}] )
 	tests? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylama[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tox[${PYTHON_USEDEP}] )
-	aws-rds-iam? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	tests? ( dev-python/greenlet[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	tests? ( <dev-python/pylama-9.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-asyncio-0.20.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/tox-4.0.0[${PYTHON_USEDEP}] )
+	aws-rds-iam? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/greenlet-2.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/mypy-0.992[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

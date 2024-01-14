@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/Deprecated[${PYTHON_USEDEP}]
 	dev-python/aioconsole[${PYTHON_USEDEP}]
 	dev-python/bleak[${PYTHON_USEDEP}]
 	dev-python/bleak-retry-connector[${PYTHON_USEDEP}]
-	dev-python/tzdata[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]"
+	>=dev-python/tzdata-2022.1[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-4.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,17 +28,17 @@ DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/falcon[${PYTHON_USEDEP}]
 	dev-python/falcon-multipart[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-3.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.4[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/ujson[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	cli? ( dev-python/click[${PYTHON_USEDEP}] )
 	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
 	dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/raven[${PYTHON_USEDEP}] )
 	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

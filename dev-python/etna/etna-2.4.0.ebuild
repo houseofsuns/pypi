@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all all-dev auto classification docs jupyter prophet release statsforecast style tests torch wandb"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
 	dev-python/ruptures[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
+	<dev-python/statsmodels-0.14[${PYTHON_USEDEP}]
 	dev-python/pmdarima[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/hydra-slayer[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	dev-python/holidays[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	dev-python/Bottleneck[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
@@ -70,39 +70,39 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	auto? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	all? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	auto? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	auto? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	statsforecast? ( dev-python/statsforecast[${PYTHON_USEDEP}] )
 	all? ( dev-python/statsforecast[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/statsforecast[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-mathjax-offline[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/sphinx-mathjax-offline[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/nbsphinx-0.10.0[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/nbsphinx-0.10.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/pydata-sphinx-theme-0.14.0[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/pydata-sphinx-theme-0.14.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/myst-parser-2.0[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/myst-parser-2.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-shard[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/pytest-shard[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/black[${PYTHON_USEDEP}] )
-	style? ( dev-python/black[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	style? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	style? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
+	style? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
+	style? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	style? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
 	style? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	style? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
@@ -111,21 +111,21 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	all-dev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	style? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	style? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	style? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
 	style? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	style? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	style? ( dev-python/nbqa[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/nbqa[${PYTHON_USEDEP}] )
-	release? ( dev-python/click[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	release? ( dev-python/semver[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/semver[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/semver[${PYTHON_USEDEP}] )
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	release? ( <dev-python/click-8.1[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/click-8.1[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/click-8.1[${PYTHON_USEDEP}] )
+	release? ( <dev-python/semver-3.0.0[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/semver-3.0.0[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/semver-3.0.0[${PYTHON_USEDEP}] )
+	<dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
@@ -137,7 +137,7 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	classification? ( dev-python/tsfresh[${PYTHON_USEDEP}] )
 	all? ( dev-python/tsfresh[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/tsfresh[${PYTHON_USEDEP}] )
-	style? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )"
+	style? ( <dev-python/types-setuptools-66.0.0[${PYTHON_USEDEP}] )
+	all-dev? ( <dev-python/types-setuptools-66.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

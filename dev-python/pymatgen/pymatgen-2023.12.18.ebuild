@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="abinit ase dev docs electronic_structure numba optional relaxation tblite vis"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-1.5[${PYTHON_USEDEP}]
 	dev-python/monty[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
 	dev-python/palettable[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	>=dev-python/plotly-4.5.0[${PYTHON_USEDEP}]
 	dev-python/pybtex[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
 	dev-python/spglib[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/uncertainties[${PYTHON_USEDEP}]
+	>=dev-python/uncertainties-3.1.4[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	abinit? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	ase? ( dev-python/ase[${PYTHON_USEDEP}] )
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	optional? ( dev-python/chgnet[${PYTHON_USEDEP}] )
 	optional? ( dev-python/f90nml[${PYTHON_USEDEP}] )
 	optional? ( dev-python/galore[${PYTHON_USEDEP}] )
-	optional? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/h5py-3.8.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/jarvis-tools[${PYTHON_USEDEP}] )
 	optional? ( dev-python/matgl[${PYTHON_USEDEP}] )
 	optional? ( dev-python/netCDF4[${PYTHON_USEDEP}] )

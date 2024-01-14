@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/grai-client[${PYTHON_USEDEP}]
 	dev-python/grai-schemas[${PYTHON_USEDEP}]
 	dev-python/grai-source-dbt[${PYTHON_USEDEP}]

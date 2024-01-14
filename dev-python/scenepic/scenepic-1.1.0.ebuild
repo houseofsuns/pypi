@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev video"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16.2[${PYTHON_USEDEP}]
+	>=dev-python/pillow-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-common[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbstripout[${PYTHON_USEDEP}] )

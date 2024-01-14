@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/boto3-1.23.8[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.26.10[${PYTHON_USEDEP}]
+	~dev-python/setuptools-53.0.0[${PYTHON_USEDEP}]
 	dev-python/sdk-obs-python[${PYTHON_USEDEP}]
-	dev-python/boto[${PYTHON_USEDEP}]
+	~dev-python/boto-2.49.0[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,9 +30,9 @@ DEPENDENCIES="dev-python/datetimerange[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
 	dev-python/django-import-export[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-datatables[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	dev-python/nobinobi-core[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+	~dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

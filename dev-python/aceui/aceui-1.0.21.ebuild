@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ddt[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/ddt-1.1.3[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/PyAutoIt[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	~dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25.0[${PYTHON_USEDEP}]
+	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
 	dev-python/xlutils[${PYTHON_USEDEP}]
-	dev-python/xlwt[${PYTHON_USEDEP}]"
+	~dev-python/xlwt-1.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

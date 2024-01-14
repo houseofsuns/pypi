@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/ipwhois[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]"
+	~dev-python/dnspython-2.3.0[${PYTHON_USEDEP}]
+	~dev-python/selenium-4.7.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

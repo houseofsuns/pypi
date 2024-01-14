@@ -29,16 +29,16 @@ DEPENDENCIES="dev-python/cylc-flow[${PYTHON_USEDEP}]
 	dev-python/graphene[${PYTHON_USEDEP}]
 	dev-python/graphene-tornado[${PYTHON_USEDEP}]
 	dev-python/graphql-ws[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-server-2.7[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+	>=dev-python/tornado-6.1.0[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.2.1[${PYTHON_USEDEP}]
 	dev-python/pyzmq[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
 	dev-python/rx[${PYTHON_USEDEP}]
 	all? ( dev-python/jupyterhub[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/coverage-5.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-broken-line[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
@@ -47,17 +47,17 @@ DEPENDENCIES="dev-python/cylc-flow[${PYTHON_USEDEP}]
 	all? ( dev-python/flake8-mutable[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-type-checking[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/flake8-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-tornasync[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mypy-0.900[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.8.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-tornasync-0.5.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/towncrier-23.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	hub? ( dev-python/jupyterhub[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-5.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-broken-line[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
@@ -66,13 +66,13 @@ DEPENDENCIES="dev-python/cylc-flow[${PYTHON_USEDEP}]
 	tests? ( dev-python/flake8-mutable[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-type-checking[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flake8-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-tornasync[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mypy-0.900[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.8.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-tornasync-0.5.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/towncrier-23.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

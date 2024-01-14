@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="image pep8 tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	image? ( dev-python/scipy[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.9.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
+	image? ( >=dev-python/scipy-0.14[${PYTHON_USEDEP}] )
 	image? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	pep8? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )

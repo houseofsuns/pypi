@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0.0[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-simplejwt[${PYTHON_USEDEP}]
 	dev-python/djoser[${PYTHON_USEDEP}]
-	dev-python/pyotp[${PYTHON_USEDEP}]"
+	<dev-python/pyotp-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

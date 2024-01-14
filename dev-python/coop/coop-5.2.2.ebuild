@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all cache mailchimp vite webpack"
 DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	<=dev-python/django-4.2[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytz-0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/django-htmx[${PYTHON_USEDEP}]
 	dev-python/django-honeypot[${PYTHON_USEDEP}]
@@ -37,8 +37,8 @@ DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
 	dev-python/wagtail-factories[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	all? ( dev-python/mailchimp3[${PYTHON_USEDEP}] )
-	all? ( dev-python/diskcache[${PYTHON_USEDEP}] )
-	cache? ( dev-python/diskcache[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/diskcache-5.2.0[${PYTHON_USEDEP}] )
+	cache? ( ~dev-python/diskcache-5.2.0[${PYTHON_USEDEP}] )
 	mailchimp? ( dev-python/mailchimp3[${PYTHON_USEDEP}] )
 	vite? ( dev-python/django-vite[${PYTHON_USEDEP}] )
 	webpack? ( dev-python/django-webpack-loader[${PYTHON_USEDEP}] )"

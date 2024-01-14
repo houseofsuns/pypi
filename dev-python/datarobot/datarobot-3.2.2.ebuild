@@ -24,53 +24,53 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev examples images lint release test"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-0.15[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.11[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.6[${PYTHON_USEDEP}]
 	dev-python/trafaret[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	<dev-python/mypy_extensions-2.0[${PYTHON_USEDEP}]
 	dev-python/strenum[${PYTHON_USEDEP}]
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/responses-0.21[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.15.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/numpydoc-1.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-contrib-nbextensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	examples? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-autodoc-typehints-1.17.1[${PYTHON_USEDEP}] )
+	examples? ( <=dev-python/jupyter-5.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/fredapi[${PYTHON_USEDEP}] )
-	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	examples? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/matplotlib-2.1.0[${PYTHON_USEDEP}] )
+	examples? ( <=dev-python/seaborn-0.8[${PYTHON_USEDEP}] )
 	examples? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	examples? ( dev-python/wordcloud[${PYTHON_USEDEP}] )
-	examples? ( dev-python/colour[${PYTHON_USEDEP}] )
+	examples? ( <=dev-python/colour-0.1.4[${PYTHON_USEDEP}] )
 	images? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-22.8.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-22.8.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pylint-2.15.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-1.0.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
@@ -78,10 +78,10 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	lint? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
 	lint? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	release? ( dev-python/zest-releaser[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/responses-0.21[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

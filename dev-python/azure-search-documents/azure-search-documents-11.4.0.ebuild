@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/azure-core[${PYTHON_USEDEP}]
 	dev-python/azure-common[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]"
+	>=dev-python/isodate-0.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/pkginfo[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/keyring-15.1[${PYTHON_USEDEP}]
+	>=dev-python/pkginfo-1.4.2[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.48.0[${PYTHON_USEDEP}]
+	~dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	dev-python/obspy[${PYTHON_USEDEP}]
 	dev-python/jupyter[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

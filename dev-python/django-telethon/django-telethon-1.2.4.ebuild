@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/Telethon[${PYTHON_USEDEP}]
 	dev-python/aio-pika[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
+	>=dev-python/pika-1.3.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )

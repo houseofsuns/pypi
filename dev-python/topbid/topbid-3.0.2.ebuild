@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/request-boost[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.15.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/responses-0.22.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

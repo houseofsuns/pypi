@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full test"
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/IPython[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
 	dev-python/yellowbrick[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	>=dev-python/plotly-4.4.1[${PYTHON_USEDEP}]
 	dev-python/wordcloud[${PYTHON_USEDEP}]
 	dev-python/textblob[${PYTHON_USEDEP}]
 	dev-python/cufflinks[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/imbalanced-learn[${PYTHON_USEDEP}]
 	dev-python/scikit-plot[${PYTHON_USEDEP}]
 	dev-python/Boruta[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	full? ( dev-python/shap[${PYTHON_USEDEP}] )
 	full? ( dev-python/interpret[${PYTHON_USEDEP}] )

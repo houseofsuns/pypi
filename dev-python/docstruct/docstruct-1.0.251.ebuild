@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.1.1[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

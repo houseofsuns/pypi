@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/pydicom[${PYTHON_USEDEP}]
 	dev-python/SimpleITK[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pylibjpeg[${PYTHON_USEDEP}]
 	dev-python/pylibjpeg-libjpeg[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
+	~dev-python/rapidfuzz-3.0.0[${PYTHON_USEDEP}]
 	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	dev-python/treelib[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

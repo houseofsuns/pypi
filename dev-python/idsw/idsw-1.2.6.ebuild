@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.24.4[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.11.3[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-ntlm[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.2.5[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.17.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-ntlm-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.21[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
@@ -43,10 +43,10 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/prophet[${PYTHON_USEDEP}]
 	dev-python/contractions[${PYTHON_USEDEP}]
 	dev-python/missingno[${PYTHON_USEDEP}]
-	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
+	>=dev-python/fuzzywuzzy-0.18.0[${PYTHON_USEDEP}]
 	dev-python/fancyimpute[${PYTHON_USEDEP}]
 	dev-python/html2image[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]"
+	>=dev-python/threadpoolctl-3.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

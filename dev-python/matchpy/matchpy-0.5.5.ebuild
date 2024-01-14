@@ -27,19 +27,19 @@ IUSE="develop docs graphs tests"
 DEPENDENCIES="dev-python/multiset[${PYTHON_USEDEP}]
 	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	develop? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	develop? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pytest-5.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/hypothesis-5.0[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/attrs-19.2.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pylint-2.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	graphs? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	tests? ( dev-python/attrs[${PYTHON_USEDEP}] )"
+	graphs? ( <dev-python/graphviz-0.6[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-5.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/hypothesis-5.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/attrs-19.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

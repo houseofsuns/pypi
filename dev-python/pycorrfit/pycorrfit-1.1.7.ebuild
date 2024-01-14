@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="GUI"
-DEPENDENCIES="dev-python/lmfit[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	GUI? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	GUI? ( dev-python/sympy[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/lmfit-0.9.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0.1[${PYTHON_USEDEP}]
+	GUI? ( >=dev-python/matplotlib-2.2.2[${PYTHON_USEDEP}] )
+	GUI? ( >=dev-python/sympy-1.1.1[${PYTHON_USEDEP}] )
 	GUI? ( dev-python/simplejson[${PYTHON_USEDEP}] )
 	GUI? ( dev-python/wxPython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

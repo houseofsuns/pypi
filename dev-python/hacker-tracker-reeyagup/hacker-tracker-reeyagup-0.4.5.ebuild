@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/tkcalendar[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/spacytextblob[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.2.5[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/wordcloud[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

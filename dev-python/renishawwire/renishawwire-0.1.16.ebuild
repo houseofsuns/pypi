@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="image plot"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.12.0[${PYTHON_USEDEP}]
 	image? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	plot? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	plot? ( >=dev-python/matplotlib-2.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

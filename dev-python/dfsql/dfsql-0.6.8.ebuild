@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="modin test"
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	dev-python/confi[${PYTHON_USEDEP}]
 	dev-python/mindsdb-sql[${PYTHON_USEDEP}]
 	modin? ( dev-python/modin[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-2.22.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-timeout-1.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

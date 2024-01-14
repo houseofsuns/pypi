@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all docs oldestdeps test test_coverage"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/extinction[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.5[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.0[${PYTHON_USEDEP}]
 	all? ( dev-python/iminuit[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/emcee[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/emcee-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/nestle[${PYTHON_USEDEP}] )
 	docs? ( dev-python/cython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpy[${PYTHON_USEDEP}] )
@@ -44,14 +44,14 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	docs? ( dev-python/iminuit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/emcee[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/emcee-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	oldestdeps? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	oldestdeps? ( dev-python/extinction[${PYTHON_USEDEP}] )
-	oldestdeps? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	oldestdeps? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	oldestdeps? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	oldestdeps? ( ~dev-python/numpy-1.14.5[${PYTHON_USEDEP}] )
+	oldestdeps? ( ~dev-python/pyyaml-3.13[${PYTHON_USEDEP}] )
+	oldestdeps? ( ~dev-python/scipy-1.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )
 	test? ( dev-python/cython[${PYTHON_USEDEP}] )

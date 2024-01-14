@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full pytorch-metric-learning"
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/mmh3[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	pytorch-metric-learning? ( dev-python/pytorch-metric-learning[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytorch-metric-learning[${PYTHON_USEDEP}] )
 	dev-python/quaterion-models[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

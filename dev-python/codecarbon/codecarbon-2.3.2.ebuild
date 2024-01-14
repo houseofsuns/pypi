@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/prometheus-client[${PYTHON_USEDEP}]
 	dashboard? ( dev-python/dash[${PYTHON_USEDEP}] )
-	dashboard? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	dashboard? ( >=dev-python/plotly-5.6.0[${PYTHON_USEDEP}] )
 	dashboard? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
 	viz? ( dev-python/dash[${PYTHON_USEDEP}] )
 	viz? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )

@@ -33,8 +33,8 @@ DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/rpmfile[${PYTHON_USEDEP}]
 	dev-python/keyring[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/doc8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/rstcheck[${PYTHON_USEDEP}] )
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )

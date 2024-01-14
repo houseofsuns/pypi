@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="bigquery duckdb redshift snowflake teleport trino"
 DEPENDENCIES="dev-python/dbt-core[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/posthog[${PYTHON_USEDEP}]
 	dev-python/backports-functools_lru_cache[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/agate-sql[${PYTHON_USEDEP}]
-	dev-python/astor[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/agate-sql-0.6.0[${PYTHON_USEDEP}]
+	<dev-python/astor-0.9.0[${PYTHON_USEDEP}]
+	<dev-python/deprecation-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/virtualenv-21.0.0[${PYTHON_USEDEP}]
+	~dev-python/dill-0.3.7[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/awswrangler[${PYTHON_USEDEP}] )
@@ -43,8 +43,8 @@ DEPENDENCIES="dev-python/dbt-core[${PYTHON_USEDEP}]
 	duckdb? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
 	trino? ( dev-python/trino[${PYTHON_USEDEP}] )
 	teleport? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	dev-python/fal[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]"
+	<dev-python/importlib-metadata-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

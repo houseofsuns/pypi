@@ -27,9 +27,9 @@ IUSE="the_full_monty"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/loop-rate-limiters[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/upkie_description[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/vulp[${PYTHON_USEDEP}]
 	the_full_monty? ( dev-python/pin[${PYTHON_USEDEP}] )
 	the_full_monty? ( dev-python/proxsuite[${PYTHON_USEDEP}] )"

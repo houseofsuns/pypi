@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/twisted[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/twisted-18.7.0[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/autobahn[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	>=dev-python/autobahn-0.16.0[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-0.6.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pep8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pylint-1.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.9.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/psutil[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

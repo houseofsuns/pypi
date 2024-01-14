@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/webdataset[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-15.0[${PYTHON_USEDEP}]
 	dev-python/exifread-nocycle[${PYTHON_USEDEP}]
 	dev-python/albumentations[${PYTHON_USEDEP}]
 	dev-python/dataclasses[${PYTHON_USEDEP}]

@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="biomedicine docs lightning mlflow neptune ogb opt_einsum plotting templating tensorboard tests transformers wandb wordcloud"
 DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/click-default-group[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/more-click[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/sphinx-autodoc-typehints-1.13.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/texext[${PYTHON_USEDEP}] )
 	lightning? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )

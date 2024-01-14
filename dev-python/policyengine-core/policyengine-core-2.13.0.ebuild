@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pytest-8.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	dev-python/black[${PYTHON_USEDEP}]
 	dev-python/linecheck[${PYTHON_USEDEP}]
 	dev-python/yaml-changelog[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]
+	<dev-python/coverage-7.0[${PYTHON_USEDEP}]
+	<dev-python/sortedcontainers-3.0[${PYTHON_USEDEP}]
+	<dev-python/numexpr-3.0[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
 	dev-python/nptyping[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
+	<dev-python/wheel-1.0[${PYTHON_USEDEP}]
+	<dev-python/h5py-4.0[${PYTHON_USEDEP}]
 	dev-python/microdf-python[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
-	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/furo-2023.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-argparse-0.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-math-dollar[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/types-setuptools-65.6.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

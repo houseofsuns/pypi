@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/bitstring[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}]
+	>=dev-python/bitstring-3.1.7[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

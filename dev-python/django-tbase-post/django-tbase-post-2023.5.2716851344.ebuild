@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/django-tbase-theme-tailwind[${PYTHON_USEDEP}]
-	dev-python/django-taggit[${PYTHON_USEDEP}]
+	~dev-python/django-taggit-3.0.0[${PYTHON_USEDEP}]
 	dev-python/martor[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

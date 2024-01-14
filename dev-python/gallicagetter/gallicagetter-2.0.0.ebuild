@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.12.0[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

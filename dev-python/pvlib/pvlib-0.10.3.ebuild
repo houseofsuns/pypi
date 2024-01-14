@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc optional test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	all? ( dev-python/cython[${PYTHON_USEDEP}] )
-	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/docutils-0.15.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/ephem[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/numba[${PYTHON_USEDEP}] )
 	all? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pydata-sphinx-theme-0.8.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
@@ -48,16 +48,16 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	all? ( dev-python/solarfactors[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-toggleprompt[${PYTHON_USEDEP}] )
 	all? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pydata-sphinx-theme-0.8.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	doc? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/docutils-0.15.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-toggleprompt[${PYTHON_USEDEP}] )
 	doc? ( dev-python/solarfactors[${PYTHON_USEDEP}] )

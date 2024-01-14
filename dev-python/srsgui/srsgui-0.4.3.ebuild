@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs full"
-DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyserial-3.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyside2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

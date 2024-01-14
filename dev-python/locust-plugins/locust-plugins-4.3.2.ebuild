@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/locust[${PYTHON_USEDEP}]
 	all? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	all? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	all? ( dev-python/paho-mqtt[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/paho-mqtt-1.5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencensus-ext-azure[${PYTHON_USEDEP}] )
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
@@ -42,10 +42,10 @@ DEPENDENCIES="dev-python/locust[${PYTHON_USEDEP}]
 	dashboards? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	mongo? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	mqtt? ( dev-python/paho-mqtt[${PYTHON_USEDEP}] )
+	mqtt? ( >=dev-python/paho-mqtt-1.5.0[${PYTHON_USEDEP}] )
 	playwright? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	resource? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	webdriver? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	webdriver? ( >=dev-python/selenium-4.0.0[${PYTHON_USEDEP}] )
 	websocket? ( dev-python/websocket-client[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

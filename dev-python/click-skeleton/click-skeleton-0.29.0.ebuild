@@ -27,13 +27,13 @@ IUSE=""
 DEPENDENCIES="dev-python/click-completion[${PYTHON_USEDEP}]
 	dev-python/click-option-group[${PYTHON_USEDEP}]
 	dev-python/click-aliases[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click-help-colors[${PYTHON_USEDEP}]
+	<dev-python/semver-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-help-colors-0.10[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-didyoumean[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-didyoumean-0.4.0[${PYTHON_USEDEP}]
 	dev-python/dotmap[${PYTHON_USEDEP}]
-	dev-python/beartype[${PYTHON_USEDEP}]"
+	<dev-python/beartype-0.17.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

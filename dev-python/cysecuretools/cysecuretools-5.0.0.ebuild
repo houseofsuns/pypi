@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/intelhex[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/setuptools-59.6.0[${PYTHON_USEDEP}]
+	~dev-python/cryptography-36.0.1[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.4[${PYTHON_USEDEP}]
+	~dev-python/intelhex-2.3.0[${PYTHON_USEDEP}]
+	~dev-python/python-jose-3.3.0[${PYTHON_USEDEP}]
+	<=dev-python/jsonschema-4.4.0[${PYTHON_USEDEP}]
 	dev-python/cbor[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	dev-python/lief[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

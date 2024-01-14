@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/google-auth[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/google-auth-2.17.3[${PYTHON_USEDEP}]
 	dev-python/google-cloud-pubsub[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/apache-libcloud[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.14.60[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.17.60[${PYTHON_USEDEP}]
+	~dev-python/apache-libcloud-3.7.0[${PYTHON_USEDEP}]
 	dev-python/PyPubSub[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]"
+	~dev-python/pyparsing-3.0.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

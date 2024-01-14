@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs latex"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/lark-0.12.0[${PYTHON_USEDEP}]
 	dev-python/rpcq[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	dev-python/qcs-sdk-python[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	dev-python/types-python-dateutil[${PYTHON_USEDEP}]
 	dev-python/types-retry[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	latex? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
+	latex? ( <dev-python/ipython-8.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/nbsphinx-0.10.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/recommonmark-0.8.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev-python/matplotlib-inline[${PYTHON_USEDEP}]
-	docs? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	dev-python/deprecated[${PYTHON_USEDEP}]
+	docs? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/matplotlib-inline-0.2.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/seaborn-0.13.0[${PYTHON_USEDEP}] )
+	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
 	dev-python/types-deprecated[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

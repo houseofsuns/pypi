@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/Geometry3D[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
+	>dev-python/imageio-2.22.1[${PYTHON_USEDEP}]
 	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

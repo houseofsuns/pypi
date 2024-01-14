@@ -25,28 +25,28 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES="dev-python/DLite-Python[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/oteapi-core[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/tripper[${PYTHON_USEDEP}]
 	dev? ( dev-python/otelib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyyaml-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mike[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-1.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-material-9.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mike[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/mkdocs-material-9.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

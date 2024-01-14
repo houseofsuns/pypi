@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="devenv"
-DEPENDENCIES="devenv? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	devenv? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+DEPENDENCIES="devenv? ( >=dev-python/pytest-4.3[${PYTHON_USEDEP}] )
+	devenv? ( >=dev-python/pytest-mock-3.3[${PYTHON_USEDEP}] )
 	devenv? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	devenv? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	devenv? ( dev-python/zest-releaser[${PYTHON_USEDEP}] )"

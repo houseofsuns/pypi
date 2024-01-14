@@ -27,13 +27,13 @@ IUSE=""
 DEPENDENCIES="dev-python/tiffile[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}]
 	dev-python/albumentations[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]"
+	>=dev-python/plotly-5.5.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="dev docs image jupyter min-req pyqt5 pyqt6 pyside2 pyside6 quantity testin
 DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev-python/psygnal[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
-	dev-python/superqt[${PYTHON_USEDEP}]
+	>=dev-python/superqt-0.6.1[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/annotated-types[${PYTHON_USEDEP}] )
 	dev? ( dev-python/attrs[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdbpp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pillow-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
@@ -53,32 +53,32 @@ DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toolz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tqdm-4.30.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-gallery[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-spellcheck[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-python-1.6.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.22.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/napari[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pint[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/qtgallery[${PYTHON_USEDEP}] )
-	image? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	image? ( >=dev-python/pillow-4.0[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}] )
 	min-req? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
 	min-req? ( dev-python/psygnal[${PYTHON_USEDEP}] )
 	min-req? ( dev-python/qtpy[${PYTHON_USEDEP}] )
-	min-req? ( dev-python/superqt[${PYTHON_USEDEP}] )
+	min-req? ( ~dev-python/superqt-0.6.1[${PYTHON_USEDEP}] )
 	min-req? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	pyside2? ( >=dev-python/pyside2-5.15[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	quantity? ( dev-python/pint[${PYTHON_USEDEP}] )
 	testing? ( dev-python/annotated-types[${PYTHON_USEDEP}] )
@@ -88,7 +88,7 @@ DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	testing? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	testing? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pillow-4.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pint[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -96,7 +96,7 @@ DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest-mypy-plugins[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	testing? ( dev-python/toolz[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	tqdm? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/tqdm-4.30.0[${PYTHON_USEDEP}] )
+	tqdm? ( >=dev-python/tqdm-4.30.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

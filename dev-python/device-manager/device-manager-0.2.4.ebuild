@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="nmap"
-DEPENDENCIES="dev-python/pyudev[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyudev-0.21.0[${PYTHON_USEDEP}]
 	nmap? ( dev-python/python-nmap[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

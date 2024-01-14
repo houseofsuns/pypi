@@ -27,7 +27,7 @@ IUSE="distributed envpool full gymnasium neuroevolution test"
 DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
 	dev-python/optax[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-10.0.0[${PYTHON_USEDEP}]
 	distributed? ( dev-python/ray[${PYTHON_USEDEP}] )
 	envpool? ( dev-python/envpool[${PYTHON_USEDEP}] )
 	full? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
@@ -40,6 +40,6 @@ DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
 	neuroevolution? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	test? ( dev-python/chex[${PYTHON_USEDEP}] )
 	test? ( dev-python/flax[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

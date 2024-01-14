@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/healpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.7[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.19[${PYTHON_USEDEP}]
 	dev-python/pyephem[${PYTHON_USEDEP}]
 	dev-python/aipy[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+	>=dev-python/pytz-2012.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/devpi-client[${PYTHON_USEDEP}]
 	dev-python/devpi-server[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
 	test? ( dev-python/covdefaults[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/httpx-0.24.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

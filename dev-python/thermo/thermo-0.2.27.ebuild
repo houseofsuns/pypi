@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/chemicals[${PYTHON_USEDEP}]
 	dev-python/fluids[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	coverage_documentation? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	coverage_documentation? ( >=dev-python/coverage-4.0.3[${PYTHON_USEDEP}] )
 	coverage_documentation? ( dev-python/wsgiref[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async-lru[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/async-lru-1.0.2[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
+	>=dev-python/humanize-3.11.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.8.1[${PYTHON_USEDEP}]
 	dev-python/patchwork-core[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]"

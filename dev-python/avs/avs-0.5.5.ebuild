@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/hyper[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	~dev-python/tornado-5.1.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

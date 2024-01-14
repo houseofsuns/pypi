@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop testing"
-DEPENDENCIES="develop? ( dev-python/tox[${PYTHON_USEDEP}] )
-	develop? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	develop? ( dev-python/twine[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pylama[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )"
+DEPENDENCIES="develop? ( ~dev-python/tox-4.1[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/wheel-0.38[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-asyncio-0.20[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/coverage-7.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pylama-8.4[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/setuptools-68.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

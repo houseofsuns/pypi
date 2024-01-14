@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="watch"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	watch? ( dev-python/watchfiles[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
+	>=dev-python/redis-4.2.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]
+	watch? ( >=dev-python/watchfiles-0.16[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

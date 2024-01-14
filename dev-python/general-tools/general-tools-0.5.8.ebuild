@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pymongo-3.10.1[${PYTHON_USEDEP}]
+	>=dev-python/elasticsearch-6.8.1[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	>=dev-python/redis-3.3.11[${PYTHON_USEDEP}]
 	dev-python/pycrypto[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/pika-0.12[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.2[${PYTHON_USEDEP}]
 	dev-python/py2neo[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
 	dev-python/pypinyin[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	>=dev-python/pika-0.12.0[${PYTHON_USEDEP}]
 	dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	>=dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/PyHive[${PYTHON_USEDEP}]
 	dev-python/threadpool[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+	>=dev-python/beautifulsoup4-4.9.1[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.9.8[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tracking"
-DEPENDENCIES="dev-python/kombu[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/rpyc[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/kombu-5.2.2[${PYTHON_USEDEP}]
+	~dev-python/redis-4.4.4[${PYTHON_USEDEP}]
+	<dev-python/rpyc-6.0.0[${PYTHON_USEDEP}]
 	dev-python/jsonrpcserver[${PYTHON_USEDEP}]
 	dev-python/jsonrpcclient[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	tracking? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
-	dev-python/freezegun[${PYTHON_USEDEP}]"
+	<dev-python/freezegun-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

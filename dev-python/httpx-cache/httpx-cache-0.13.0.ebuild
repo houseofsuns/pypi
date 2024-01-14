@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="redis"
 DEPENDENCIES="dev-python/aiorwlock[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	~dev-python/anyio-3.0[${PYTHON_USEDEP}]
+	<dev-python/attrs-24.0[${PYTHON_USEDEP}]
+	<dev-python/fasteners-0.18.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-1.0[${PYTHON_USEDEP}]
+	~dev-python/msgpack-1.0[${PYTHON_USEDEP}]
+	redis? ( ~dev-python/redis-4.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

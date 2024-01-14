@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/dnslib[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]"
+	>=dev-python/greenlet-0.4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

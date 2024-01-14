@@ -27,7 +27,7 @@ IUSE="dev docs julia r"
 DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/grpcio-reflection[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
+	>=dev-python/googleapis-common-protos-1.5.5[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	julia? ( dev-python/juliacall[${PYTHON_USEDEP}] )"

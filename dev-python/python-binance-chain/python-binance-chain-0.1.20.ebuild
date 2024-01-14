@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ledger"
 DEPENDENCIES="dev-python/pywallet[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	>=dev-python/websockets-7.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
 	dev-python/secp256k1[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
+	>=dev-python/ujson-1.35[${PYTHON_USEDEP}]
 	ledger? ( dev-python/btchip-python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

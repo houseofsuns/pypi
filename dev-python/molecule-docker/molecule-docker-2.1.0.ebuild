@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs lint test"
 DEPENDENCIES="dev-python/molecule[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	>=dev-python/docker-4.3.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/selinux[${PYTHON_USEDEP}]
 	dev-python/selinux[${PYTHON_USEDEP}]

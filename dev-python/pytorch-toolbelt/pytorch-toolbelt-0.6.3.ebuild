@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-22.8.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/timm[${PYTHON_USEDEP}] )
 	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

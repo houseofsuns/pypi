@@ -25,34 +25,34 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc tests"
 DEPENDENCIES="dev-python/ansys-api-pyensight[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	>=dev-python/docker-6.1.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/dill[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipdb-0.9.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/dill-0.3.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/numpydoc-1.5.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-gallery-0.13.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
-	doc? ( dev-python/docker[${PYTHON_USEDEP}] )
-	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/requests[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/docker-6.1.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-jquery-4.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-openapi[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/dill[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
-	tests? ( dev-python/docker[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/dill-0.3.5.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/urllib3-1.26.10[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/docker-6.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

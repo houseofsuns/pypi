@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/mypy-boto3-iam[${PYTHON_USEDEP}]
 	dev-python/mypy-boto3-sso[${PYTHON_USEDEP}]
 	dev-python/mypy-boto3-sts[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+	>=dev-python/colorama-0.4[${PYTHON_USEDEP}]
+	<dev-python/boto3-1.23.3[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

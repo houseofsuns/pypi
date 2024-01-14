@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/nose[${PYTHON_USEDEP}]
 	growl? ( dev-python/gntp[${PYTHON_USEDEP}] )
 	libnotify? ( dev-python/py-notify[${PYTHON_USEDEP}] )
-	linux? ( dev-python/pyinotify[${PYTHON_USEDEP}] )
+	linux? ( ~dev-python/pyinotify-0.9.0[${PYTHON_USEDEP}] )
 	osx? ( dev-python/MacFSEvents[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

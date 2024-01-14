@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="html influxdb msgpack sentry testing"
 DEPENDENCIES="dev-python/helper[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
+	<dev-python/pika-3.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	html? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	influxdb? ( dev-python/sprockets-influxdb[${PYTHON_USEDEP}] )

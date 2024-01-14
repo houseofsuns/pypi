@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ort pt tf"
-DEPENDENCIES="dev-python/deprecated[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]

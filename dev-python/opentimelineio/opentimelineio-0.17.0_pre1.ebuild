@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev view"
 DEPENDENCIES="dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-4.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/urllib3-1.24.3[${PYTHON_USEDEP}] )
 	view? ( dev-python/PySide6[${PYTHON_USEDEP}] )
 	view? ( dev-python/PySide2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

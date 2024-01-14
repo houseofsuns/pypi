@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ext"
-DEPENDENCIES="ext? ( dev-python/chardet[${PYTHON_USEDEP}] )
-	ext? ( dev-python/validators[${PYTHON_USEDEP}] )"
+DEPENDENCIES="ext? ( ~dev-python/chardet-3.0[${PYTHON_USEDEP}] )
+	ext? ( >=dev-python/validators-0.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

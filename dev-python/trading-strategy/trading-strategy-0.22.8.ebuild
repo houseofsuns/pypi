@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="backtrader direct-feed qstrader"
 DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.2[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/tqdm-loggable[${PYTHON_USEDEP}]
 	direct-feed? ( dev-python/web3-ethereum-defi[${PYTHON_USEDEP}] )
 	qstrader? ( dev-python/trading-strategy-qstrader[${PYTHON_USEDEP}] )
-	qstrader? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	qstrader? ( <dev-python/scipy-2.0.0[${PYTHON_USEDEP}] )
 	backtrader? ( dev-python/trading-strategy-backtrader[${PYTHON_USEDEP}] )
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	<dev-python/coloredlogs-16.0.0[${PYTHON_USEDEP}]
+	<dev-python/filelock-4.0.0[${PYTHON_USEDEP}]
 	direct-feed? ( dev-python/typer[${PYTHON_USEDEP}] )
 	direct-feed? ( dev-python/dash[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

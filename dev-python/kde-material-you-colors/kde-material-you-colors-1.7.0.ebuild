@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="dev-python/dbus-python[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dbus-python-1.3.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/material-color-utilities-python[${PYTHON_USEDEP}]
 	cli? ( dev-python/pywal[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

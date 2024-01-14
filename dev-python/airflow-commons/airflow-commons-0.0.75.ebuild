@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytz-2018.4[${PYTHON_USEDEP}]
 	dev-python/datetime[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}]
 	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.19.8[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.22.8[${PYTHON_USEDEP}]
 	dev-python/aiobotocore[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/s3transfer[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]"
+	>=dev-python/pyarrow-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,31 +26,31 @@ KEYWORDS="~amd64 ~x86"
 IUSE="desktop testing web"
 DEPENDENCIES="dev-python/rawpy[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tzdata[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.12[${PYTHON_USEDEP}]
+	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]
 	desktop? ( dev-python/PySide6-Essentials[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	web? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	web? ( ~dev-python/alembic-1.11.2[${PYTHON_USEDEP}] )
 	web? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	web? ( dev-python/Authlib[${PYTHON_USEDEP}] )
 	web? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	web? ( dev-python/fastapi-pagination[${PYTHON_USEDEP}] )
 	web? ( dev-python/fastapi-users-db-sqlalchemy[${PYTHON_USEDEP}] )
 	web? ( dev-python/fastapi-users[${PYTHON_USEDEP}] )
-	web? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	web? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	web? ( dev-python/passlib[${PYTHON_USEDEP}] )
+	web? ( ~dev-python/numpy-1.25.2[${PYTHON_USEDEP}] )
+	web? ( ~dev-python/orjson-3.9.4[${PYTHON_USEDEP}] )
+	web? ( ~dev-python/passlib-1.7.4[${PYTHON_USEDEP}] )
 	web? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
-	web? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
+	web? ( ~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
 	web? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	web? ( dev-python/python3-commons[${PYTHON_USEDEP}] )
 	web? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	web? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	web? ( dev-python/uvloop[${PYTHON_USEDEP}] )
+	web? ( ~dev-python/uvicorn-0.23.2[${PYTHON_USEDEP}] )
+	web? ( ~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/rawpy[${PYTHON_USEDEP}] )
 	web? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	web? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	web? ( dev-python/tzdata[${PYTHON_USEDEP}] )"
+	web? ( ~dev-python/pydantic-1.10.12[${PYTHON_USEDEP}] )
+	web? ( ~dev-python/tzdata-2023.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

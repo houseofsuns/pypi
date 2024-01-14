@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="local unstructured unstructured-to-sql"
-DEPENDENCIES="dev-python/diskcache[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/diskcache-6.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/pathway[${PYTHON_USEDEP}]
-	unstructured-to-sql? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
+	unstructured-to-sql? ( <dev-python/psycopg-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	local? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	dev-python/streamlit[${PYTHON_USEDEP}]
 	unstructured? ( dev-python/tiktoken[${PYTHON_USEDEP}] )

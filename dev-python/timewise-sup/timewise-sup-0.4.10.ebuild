@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="jupyter"
 DEPENDENCIES="dev-python/timewise[${PYTHON_USEDEP}]
 	dev-python/extcats[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-10.0.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/uncertainties[${PYTHON_USEDEP}]
+	<dev-python/uncertainties-4.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/corner[${PYTHON_USEDEP}]
 	dev-python/ampel-core[${PYTHON_USEDEP}]
 	dev-python/ampel-hu-astro[${PYTHON_USEDEP}]
 	dev-python/tkpdfviewer[${PYTHON_USEDEP}]
 	dev-python/matplotlib-venn[${PYTHON_USEDEP}]
-	jupyter? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )"
+	jupyter? ( <dev-python/jupyterlab-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

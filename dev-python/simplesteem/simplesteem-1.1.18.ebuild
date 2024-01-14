@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/screenlogger[${PYTHON_USEDEP}]
 	dev-python/steem[${PYTHON_USEDEP}]
 	dev-python/steemconnect[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	~dev-python/urllib3-1.24.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

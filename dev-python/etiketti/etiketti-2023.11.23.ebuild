@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/liitos[${PYTHON_USEDEP}]
 	dev-python/navigaattori[${PYTHON_USEDEP}]
-	dev-python/pikepdf[${PYTHON_USEDEP}]
+	>=dev-python/pikepdf-6.2.8[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/aiogram[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
 	dev-python/parsenv[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	>=dev-python/setuptools-67.7.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

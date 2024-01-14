@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1[${PYTHON_USEDEP}]
 	dev-python/pyqt5[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/mplcursors[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]
+	<=dev-python/numexpr-2.8.4[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

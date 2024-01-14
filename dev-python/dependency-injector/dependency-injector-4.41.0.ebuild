@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp flask pydantic yaml"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
 	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )

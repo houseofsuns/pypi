@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typing-extensions-3.10.0[${PYTHON_USEDEP}]
 	dev-python/googleapis-common-protos-stubs[${PYTHON_USEDEP}]
 	dev-python/google-ads[${PYTHON_USEDEP}]
 	dev-python/grpc-stubs[${PYTHON_USEDEP}]

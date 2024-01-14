@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/anywidget[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	dev-python/palettable[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]"
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}]
+	<dev-python/shapely-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

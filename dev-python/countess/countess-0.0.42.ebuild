@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev hdf"
 DEPENDENCIES="dev-python/fqfa[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-9.1.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.26[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
+	~dev-python/rapidfuzz-2.15.1[${PYTHON_USEDEP}]
 	dev-python/ttkthemes[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.17[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/types-psutil-5.9.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-ttkthemes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	hdf? ( dev-python/tables[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	hdf? ( ~dev-python/tables-3.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

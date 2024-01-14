@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="django-redis fakeredis mockcache redislite"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	mockcache? ( dev-python/mockcache3[${PYTHON_USEDEP}] )
 	fakeredis? ( dev-python/fakeredis[${PYTHON_USEDEP}] )
 	redislite? ( dev-python/redislite[${PYTHON_USEDEP}] )

@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Twisted[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/zope-interface[${PYTHON_USEDEP}]
+	~dev-python/pyasn1-0.4.5[${PYTHON_USEDEP}]
+	~dev-python/cryptography-38.0.1[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	~dev-python/zope-interface-5.0.0[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
 	dev-python/fpdf[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
+	~dev-python/passlib-1.7.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/ntlmlib[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/bcrypt-3.1.7[${PYTHON_USEDEP}]
+	~dev-python/setuptools-63.2.0[${PYTHON_USEDEP}]
 	dev-python/hpfeeds[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/service-identity[${PYTHON_USEDEP}]"
+	~dev-python/service-identity-21.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

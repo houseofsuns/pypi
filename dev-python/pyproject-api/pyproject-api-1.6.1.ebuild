@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/packaging-23.1[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/furo-2023.8.19[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.24[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/covdefaults[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	testing? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/setuptools-68.1.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/wheel-0.41.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

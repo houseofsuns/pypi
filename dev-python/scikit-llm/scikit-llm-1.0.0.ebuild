@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="annoy gpt4all"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}]
 	annoy? ( dev-python/annoy[${PYTHON_USEDEP}] )
 	gpt4all? ( dev-python/gpt4all[${PYTHON_USEDEP}] )"

@@ -27,13 +27,13 @@ IUSE=""
 DEPENDENCIES="dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/youtube-transcript-api[${PYTHON_USEDEP}]
 	dev-python/pytube[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
+	<dev-python/pyperclip-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/pymupdf[${PYTHON_USEDEP}]
 	dev-python/unstructured[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	<dev-python/selenium-5.0.0[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pync[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

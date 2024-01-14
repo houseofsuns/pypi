@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="addons pyqt6 pyside6"
 DEPENDENCIES="dev-python/bidict[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/qstylizer[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	addons? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	addons? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	addons? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	addons? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	addons? ( dev-python/qtconsole[${PYTHON_USEDEP}] )
-	addons? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	<dev-python/pygments-3.0[${PYTHON_USEDEP}]
+	<dev-python/qstylizer-0.3[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	addons? ( <dev-python/orjson-4.0[${PYTHON_USEDEP}] )
+	addons? ( <dev-python/fsspec-2024.0.0[${PYTHON_USEDEP}] )
+	addons? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
+	addons? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
+	addons? ( <dev-python/qtconsole-6.0[${PYTHON_USEDEP}] )
+	addons? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )
 	addons? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	addons? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	pyqt6? ( <dev-python/PyQt6-7.0[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6-Charts[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
+	pyqt6? ( <dev-python/PyQt6-WebEngine-7.0[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6-QScintilla[${PYTHON_USEDEP}] )
-	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )"
+	pyside6? ( <dev-python/pyside6-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

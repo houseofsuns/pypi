@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ifaddr[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/ifaddr-0.1.7[${PYTHON_USEDEP}]
+	>=dev-python/dnspython-2.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

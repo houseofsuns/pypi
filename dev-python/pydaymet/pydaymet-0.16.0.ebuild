@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="speedup test"
 DEPENDENCIES="dev-python/async-retriever[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-0.7[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/py3dep[${PYTHON_USEDEP}]
 	dev-python/pygeoogc[${PYTHON_USEDEP}]
 	dev-python/pygeoutils[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-3.0.1[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2023.1[${PYTHON_USEDEP}]
 	speedup? ( dev-python/numba[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyarrow-1.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"

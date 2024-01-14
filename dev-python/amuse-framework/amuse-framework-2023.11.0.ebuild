@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mpi"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )"
+	>=dev-python/pip-19.0.0[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.32[${PYTHON_USEDEP}]
+	>=dev-python/docutils-0.6[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.2.2[${PYTHON_USEDEP}]
+	>=dev-python/pytest-4.0[${PYTHON_USEDEP}]
+	>=dev-python/h5py-1.1.0[${PYTHON_USEDEP}]
+	mpi? ( >=dev-python/mpi4py-1.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/ckmutil[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pylha[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/rundec[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0[${PYTHON_USEDEP}]
 	dev-python/voluptuous[${PYTHON_USEDEP}]
 	testing? ( dev-python/nose[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

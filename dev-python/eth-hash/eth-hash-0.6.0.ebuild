@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs pycryptodome pysha3 test"
-DEPENDENCIES="dev? ( dev-python/build[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( >=dev-python/build-0.9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	pycryptodome? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/towncrier-22.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-xdist-2.4.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/towncrier-22.0[${PYTHON_USEDEP}] )
+	pycryptodome? ( <dev-python/pycryptodome-4.0[${PYTHON_USEDEP}] )
 	pysha3? ( dev-python/safe-pysha3[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

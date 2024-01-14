@@ -26,24 +26,24 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all testing"
 DEPENDENCIES="dev-python/apeye[${PYTHON_USEDEP}]
 	dev-python/autodocsumm[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/cachecontrol[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.9.1[${PYTHON_USEDEP}]
+	>=dev-python/cachecontrol-0.13.0[${PYTHON_USEDEP}]
 	dev-python/dict2css[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
+	>=dev-python/docutils-0.16[${PYTHON_USEDEP}]
 	dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/html5lib-1.1[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.16.12[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-autodoc-typehints-1.11.1[${PYTHON_USEDEP}]
 	dev-python/sphinx-jinja2-compat[${PYTHON_USEDEP}]
-	dev-python/sphinx-prompt[${PYTHON_USEDEP}]
-	dev-python/sphinx-tabs[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-prompt-1.1.0[${PYTHON_USEDEP}]
+	<dev-python/sphinx-tabs-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
 	testing? ( dev-python/coincidence[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	testing? ( <=dev-python/pygments-2.13.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/coincidence[${PYTHON_USEDEP}] )
-	all? ( dev-python/pygments[${PYTHON_USEDEP}] )"
+	all? ( <=dev-python/pygments-2.13.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

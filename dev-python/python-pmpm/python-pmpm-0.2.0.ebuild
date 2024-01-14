@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs extras mpi tests"
-DEPENDENCIES="extras? ( dev-python/coloredlogs[${PYTHON_USEDEP}] )
+DEPENDENCIES="extras? ( <dev-python/coloredlogs-16.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	dev-python/custom-inherit[${PYTHON_USEDEP}]
@@ -32,14 +32,14 @@ DEPENDENCIES="extras? ( dev-python/coloredlogs[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
-	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
+	mpi? ( <dev-python/mpi4py-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mpi[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-parallel[${PYTHON_USEDEP}] )
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-last-updated-by-git[${PYTHON_USEDEP}] )

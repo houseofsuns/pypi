@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/varname[${PYTHON_USEDEP}]
 	dev-python/reactivex[${PYTHON_USEDEP}]
-	dev-python/asttokens[${PYTHON_USEDEP}]"
+	<dev-python/asttokens-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

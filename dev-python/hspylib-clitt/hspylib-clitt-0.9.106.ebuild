@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/hspylib[${PYTHON_USEDEP}]
 	dev-python/pyperclip[${PYTHON_USEDEP}]
 	dev-python/emoji[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bibtexparser[${PYTHON_USEDEP}]
-	dev-python/cloudscraper[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bibtexparser-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/cloudscraper-1.2.68[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.0.0[${PYTHON_USEDEP}]
 	dev-python/patch[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.9.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
 	dev-python/setuptools-git-versioning[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

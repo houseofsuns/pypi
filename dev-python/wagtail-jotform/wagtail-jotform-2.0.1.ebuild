@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
 	development? ( dev-python/isort[${PYTHON_USEDEP}] )
 	development? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	development? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/coverage-6.4.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tox-poetry[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

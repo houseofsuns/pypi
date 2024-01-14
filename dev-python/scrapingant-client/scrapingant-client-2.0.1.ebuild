@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	async? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-httpx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	async? ( <dev-python/httpx-1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/responses-1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-httpx-1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-asyncio-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

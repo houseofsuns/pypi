@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/cherrypy[${PYTHON_USEDEP}]
 	dev-python/lark-parser[${PYTHON_USEDEP}]
 	dev-python/oic[${PYTHON_USEDEP}]
 	dev-python/pyjwkest[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/routes[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

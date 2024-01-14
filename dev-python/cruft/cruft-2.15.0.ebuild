@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	pyproject? ( dev-python/toml[${PYTHON_USEDEP}] )
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

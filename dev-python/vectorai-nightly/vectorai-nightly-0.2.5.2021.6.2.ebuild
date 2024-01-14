@@ -27,9 +27,9 @@ IUSE="all dev docs test"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.27.0[${PYTHON_USEDEP}]
+	>=dev-python/plotly-4.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/twine[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -37,16 +37,16 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	all? ( dev-python/vectorai[${PYTHON_USEDEP}] )
 	all? ( dev-python/openapi-to-sdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	all? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/nbsphinx-0.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vectorai[${PYTHON_USEDEP}] )
 	dev? ( dev-python/openapi-to-sdk[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )"

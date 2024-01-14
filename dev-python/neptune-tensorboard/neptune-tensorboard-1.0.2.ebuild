@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev? ( dev-python/neptune[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	dev-python/pytest-xdist[${PYTHON_USEDEP}]
 	dev-python/tbparse[${PYTHON_USEDEP}]
 	dev-python/tensorboardX[${PYTHON_USEDEP}]

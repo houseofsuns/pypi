@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

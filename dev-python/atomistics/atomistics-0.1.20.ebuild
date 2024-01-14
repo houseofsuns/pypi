@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gpaw lammps lammps_phonons phonopy qe tqdm"
 DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.26.3[${PYTHON_USEDEP}]
+	<=dev-python/scipy-1.11.4[${PYTHON_USEDEP}]
 	dev-python/spglib[${PYTHON_USEDEP}]
 	gpaw? ( dev-python/gpaw[${PYTHON_USEDEP}] )
 	lammps? ( dev-python/pylammpsmpi[${PYTHON_USEDEP}] )
 	lammps? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	lammps? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	lammps? ( <=dev-python/pandas-2.1.4[${PYTHON_USEDEP}] )
 	lammps_phonons? ( dev-python/pylammpsmpi[${PYTHON_USEDEP}] )
 	lammps_phonons? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	lammps_phonons? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	lammps_phonons? ( <=dev-python/pandas-2.1.4[${PYTHON_USEDEP}] )
 	lammps_phonons? ( dev-python/dynaphopy[${PYTHON_USEDEP}] )
 	phonopy? ( dev-python/phonopy[${PYTHON_USEDEP}] )
 	phonopy? ( dev-python/seekpath[${PYTHON_USEDEP}] )
 	phonopy? ( dev-python/structuretoolkit[${PYTHON_USEDEP}] )
 	qe? ( dev-python/pwtools[${PYTHON_USEDEP}] )
-	tqdm? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	tqdm? ( ~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

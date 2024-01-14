@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/cchardet[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httpx-0.18.0[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.9.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/cchardet-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.6.0[${PYTHON_USEDEP}]
 	dev-python/fake_headers[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

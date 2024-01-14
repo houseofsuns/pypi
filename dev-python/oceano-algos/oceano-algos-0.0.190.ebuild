@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/fastcore[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/sshtunnel[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}]
+	~dev-python/sshtunnel-0.4.0[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/oceano-algos[${PYTHON_USEDEP}]

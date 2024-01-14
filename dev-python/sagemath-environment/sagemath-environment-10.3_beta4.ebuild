@@ -27,10 +27,10 @@ IUSE="conf cython docbuild pytest rst2ipynb sage sws2rst tox"
 DEPENDENCIES="conf? ( dev-python/sage-conf[${PYTHON_USEDEP}] )
 	docbuild? ( dev-python/sage-docbuild[${PYTHON_USEDEP}] )
 	sage? ( dev-python/sagemath-standard[${PYTHON_USEDEP}] )
-	cython? ( dev-python/cython[${PYTHON_USEDEP}] )
+	cython? ( <dev-python/cython-4.0[${PYTHON_USEDEP}] )
 	pytest? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	rst2ipynb? ( dev-python/rst2ipynb[${PYTHON_USEDEP}] )
-	tox? ( dev-python/tox[${PYTHON_USEDEP}] )
+	tox? ( >=dev-python/tox-4.2.7[${PYTHON_USEDEP}] )
 	sws2rst? ( dev-python/sage-sws2rst[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

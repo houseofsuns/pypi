@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/Unidecode[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.1[${PYTHON_USEDEP}]
+	~dev-python/pycountry-22.3.5[${PYTHON_USEDEP}]
 	dev-python/pytickersymbols[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
+	<dev-python/toolz-0.13.0[${PYTHON_USEDEP}]
 	dev-python/uplink[${PYTHON_USEDEP}]
 	dev-python/wikipedia[${PYTHON_USEDEP}]
 	dev-python/wptools[${PYTHON_USEDEP}]"

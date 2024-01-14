@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc graphics tests"
 DEPENDENCIES="dev-python/ansys-api-meshing-prime[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyvista[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-autodoc-typehints-1.25.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-gallery-0.15.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-notfound-page-1.0.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxemoji-0.2.0[${PYTHON_USEDEP}] )
 	graphics? ( dev-python/pyvista[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pyvista[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xvfb[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-xvfb-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyvista[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

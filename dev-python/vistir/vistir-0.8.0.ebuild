@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev requests tests typing"
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/colorama-0.3.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
@@ -39,8 +39,8 @@ DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	requests? ( dev-python/requests[${PYTHON_USEDEP}] )
 	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	tests? ( dev-python/hypothesis-fspaths[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-4.6.10[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-rerunfailures-9.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	tests? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )

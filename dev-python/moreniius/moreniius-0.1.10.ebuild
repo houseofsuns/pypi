@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/zenlog[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
+	~dev-python/platformdirs-3.11[${PYTHON_USEDEP}]
 	dev-python/mccode-antlr[${PYTHON_USEDEP}]
 	dev-python/nexusformat[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

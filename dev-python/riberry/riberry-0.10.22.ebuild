@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pendulum-3.0[${PYTHON_USEDEP}]
+	<dev-python/croniter-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-2.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
+	<dev-python/redis-4.0[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]"
+	<dev-python/appdirs-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

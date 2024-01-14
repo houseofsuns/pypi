@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="s3 tune"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/attrs-23.1[${PYTHON_USEDEP}]
+	~dev-python/cryptography-37.0[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1[${PYTHON_USEDEP}]
 	dev-python/pytomlpp[${PYTHON_USEDEP}]
 	dev-python/pyYAML[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/setuptools-68.1[${PYTHON_USEDEP}]
 	s3? ( dev-python/hurry-filesize[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	s3? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	s3? ( dev-python/s3transfer[${PYTHON_USEDEP}] )
+	s3? ( ~dev-python/boto3-1.28[${PYTHON_USEDEP}] )
+	s3? ( ~dev-python/botocore-1.31[${PYTHON_USEDEP}] )
+	s3? ( ~dev-python/s3transfer-0.6[${PYTHON_USEDEP}] )
 	tune? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	tune? ( dev-python/torch[${PYTHON_USEDEP}] )
 	tune? ( dev-python/ax-platform[${PYTHON_USEDEP}] )"

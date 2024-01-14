@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/CacheControl[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]"
+	~dev-python/requests-cache-0.4.13[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

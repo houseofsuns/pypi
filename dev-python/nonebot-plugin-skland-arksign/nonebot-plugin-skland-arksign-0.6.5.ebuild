@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.25.1[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.13[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-apscheduler[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-alconna[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-datastore[${PYTHON_USEDEP}]

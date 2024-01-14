@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test tokio uvloop"
-DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ruamel-yaml-0.15[${PYTHON_USEDEP}]
 	dev-python/async-generator[${PYTHON_USEDEP}]
 	dev-python/asyncio-extras[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-2.0[${PYTHON_USEDEP}]
+	>=dev-python/click-6.6[${PYTHON_USEDEP}]
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-autodoc-typehints-1.22[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.9[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/uvloop[${PYTHON_USEDEP}] )
 	tokio? ( dev-python/tokio[${PYTHON_USEDEP}] )
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	uvloop? ( >=dev-python/uvloop-0.4.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

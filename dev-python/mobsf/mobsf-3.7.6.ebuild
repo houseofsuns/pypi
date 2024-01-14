@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.1.5[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.6.2[${PYTHON_USEDEP}]
+	>=dev-python/rsa-4.7[${PYTHON_USEDEP}]
 	dev-python/biplist[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
+	>=dev-python/colorlog-4.7.2[${PYTHON_USEDEP}]
 	dev-python/macholib[${PYTHON_USEDEP}]
 	dev-python/whitenoise[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
 	dev-python/shelljob[${PYTHON_USEDEP}]
-	dev-python/asn1crypto[${PYTHON_USEDEP}]
+	>=dev-python/asn1crypto-1.4.0[${PYTHON_USEDEP}]
 	dev-python/oscrypto[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
+	>=dev-python/distro-1.5.0[${PYTHON_USEDEP}]
 	dev-python/ip2location[${PYTHON_USEDEP}]
 	dev-python/lief[${PYTHON_USEDEP}]
 	dev-python/http-tools[${PYTHON_USEDEP}]
@@ -49,11 +49,11 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/apkid[${PYTHON_USEDEP}]
 	dev-python/quark-engine[${PYTHON_USEDEP}]
 	dev-python/frida[${PYTHON_USEDEP}]
-	dev-python/tldextract[${PYTHON_USEDEP}]
+	~dev-python/tldextract-3.4.4[${PYTHON_USEDEP}]
 	dev-python/openstep-parser[${PYTHON_USEDEP}]
 	dev-python/svgutils[${PYTHON_USEDEP}]
 	dev-python/arpy[${PYTHON_USEDEP}]
 	dev-python/apksigtool[${PYTHON_USEDEP}]
-	dev-python/tzdata[${PYTHON_USEDEP}]"
+	<dev-python/tzdata-2024.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

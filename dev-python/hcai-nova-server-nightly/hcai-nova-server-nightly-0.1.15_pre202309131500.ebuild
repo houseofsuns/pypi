@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/hcai-datasets-nightly[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/imbalanced-learn[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
+	~dev-python/waitress-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ffmpegio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

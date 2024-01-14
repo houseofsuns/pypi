@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/dropstackframe[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]"
+	<dev-python/lark-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

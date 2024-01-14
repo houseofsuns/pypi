@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gcp-mysql gcp-postgres gcs mysql postgres s3 server"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
+	s3? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
 	gcp-mysql? ( dev-python/cloud-sql-python-connector[${PYTHON_USEDEP}] )
 	gcp-postgres? ( dev-python/cloud-sql-python-connector[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
@@ -33,8 +33,8 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	gcp-postgres? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	server? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
 	dev-python/mlflow[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/onnxmltools[${PYTHON_USEDEP}]
@@ -43,25 +43,25 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	server? ( dev-python/prometheus-fastapi-instrumentator[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/pydantic_settings[${PYTHON_USEDEP}]
-	gcp-mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	server? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
-	dev-python/rich[${PYTHON_USEDEP}]
+	gcp-mysql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
+	server? ( <dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}] )
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/rollbar[${PYTHON_USEDEP}] )
 	dev-python/rusty-logger[${PYTHON_USEDEP}]
 	s3? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	<dev-python/semver-3.0.0[${PYTHON_USEDEP}]
 	dev-python/skl2onnx[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/streaming-form-data[${PYTHON_USEDEP}] )
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	dev-python/tf2onnx[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	server? ( <dev-python/uvicorn-0.21.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/wsgi-basic-auth[${PYTHON_USEDEP}] )
 	dev-python/ydata-profiling[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]"

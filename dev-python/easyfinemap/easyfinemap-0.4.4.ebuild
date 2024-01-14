@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/pathos[${PYTHON_USEDEP}]
 	dev-python/smunger[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

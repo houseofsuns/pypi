@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyasn1-0.4.7[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]"
+	>=dev-python/future-0.18.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="redis"
-DEPENDENCIES="dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/asgiref-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/blinker-2.0[${PYTHON_USEDEP}]
+	<dev-python/croniter-2.0.0[${PYTHON_USEDEP}]
 	dev-python/use-rabbitmq[${PYTHON_USEDEP}]
 	redis? ( dev-python/use-redis[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

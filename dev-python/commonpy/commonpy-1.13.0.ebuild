@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/boltons[${PYTHON_USEDEP}]
+	~dev-python/boltons-21.0.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/h2-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.23.1[${PYTHON_USEDEP}]
+	>=dev-python/humanize-3.9.0[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	<=dev-python/regex-2022.3.2[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-67.5.1[${PYTHON_USEDEP}]
 	dev-python/sidetrack[${PYTHON_USEDEP}]
-	dev-python/tldextract[${PYTHON_USEDEP}]
+	~dev-python/tldextract-3.0.2[${PYTHON_USEDEP}]
 	dev-python/validator-collection[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

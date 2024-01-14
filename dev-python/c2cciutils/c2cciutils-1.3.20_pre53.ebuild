@@ -28,37 +28,37 @@ DEPENDENCIES="checks? ( dev-python/EditorConfig[${PYTHON_USEDEP}] )
 	dev-python/Markdown[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	checks? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	checks? ( ~dev-python/black-22.8.0[${PYTHON_USEDEP}] )
+	<dev-python/certifi-2024.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	checks? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	pr_checks? ( dev-python/codespell[${PYTHON_USEDEP}] )
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	dev-python/debian-inspector[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	publish? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	publish? ( dev-python/google-auth-httplib2[${PYTHON_USEDEP}] )
-	publish? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
-	checks? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/defusedxml-1.0.0[${PYTHON_USEDEP}]
+	publish? ( <dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}] )
+	publish? ( <dev-python/google-auth-httplib2-1.0.0[${PYTHON_USEDEP}] )
+	publish? ( <dev-python/google-auth-oauthlib-1.0.0[${PYTHON_USEDEP}] )
+	checks? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	dev-python/jsonschema-gentypes[${PYTHON_USEDEP}]
 	dev-python/markdown-table[${PYTHON_USEDEP}]
 	dev-python/node-vm2[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	audit? ( dev-python/pipenv[${PYTHON_USEDEP}] )
-	publish? ( dev-python/poetry[${PYTHON_USEDEP}] )
-	publish? ( dev-python/poetry-core[${PYTHON_USEDEP}] )
+	<dev-python/oauthlib-4.0.0[${PYTHON_USEDEP}]
+	audit? ( ~dev-python/pipenv-2022.9.24[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/poetry-1.2.1[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/poetry-core-1.2.0[${PYTHON_USEDEP}] )
 	publish? ( dev-python/poetry-dynamic-versioning[${PYTHON_USEDEP}] )
 	publish? ( dev-python/poetry-plugin-tweak-dependencies-version[${PYTHON_USEDEP}] )
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/python-magic-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-1.0.0[${PYTHON_USEDEP}]
 	dev-python/safety[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	publish? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
-	publish? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	publish? ( <dev-python/tomlkit-1.0.0[${PYTHON_USEDEP}] )
+	publish? ( <dev-python/twine-5.0.0[${PYTHON_USEDEP}] )
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

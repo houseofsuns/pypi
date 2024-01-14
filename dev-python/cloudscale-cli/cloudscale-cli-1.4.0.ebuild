@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="highlight"
 DEPENDENCIES="dev-python/cloudscale-sdk[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0.0[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/jmespath[${PYTHON_USEDEP}]

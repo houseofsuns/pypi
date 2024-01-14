@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/Faker-5.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/model-bakery[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/ipdb-0.10.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-django-4.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tox-3.21.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

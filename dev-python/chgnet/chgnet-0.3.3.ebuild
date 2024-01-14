@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs examples test"
 DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.29.26[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	dev-python/nvidia-ml-py3[${PYTHON_USEDEP}]
 	dev-python/pymatgen[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]

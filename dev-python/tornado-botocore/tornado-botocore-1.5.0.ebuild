@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/botocore[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/botocore-1.8[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

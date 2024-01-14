@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/aiofiles-0.3.2[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.3.2[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/peewee-3.6.4[${PYTHON_USEDEP}]
+	~dev-python/pillow-5.2.0[${PYTHON_USEDEP}]
 	dev-python/pocketsphinx[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.4.6[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
 	dev-python/pyppeteer[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/user-agent[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]"
+	~dev-python/websockets-6.0[${PYTHON_USEDEP}]
+	~dev-python/flake8-3.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

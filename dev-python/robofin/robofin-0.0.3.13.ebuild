@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pybullet[${PYTHON_USEDEP}]
 	dev-python/geometrout[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/ikfast-pybind[${PYTHON_USEDEP}]
-	dev-python/trimesh[${PYTHON_USEDEP}]
+	>=dev-python/trimesh-4.0.0[${PYTHON_USEDEP}]
 	dev-python/urchin[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

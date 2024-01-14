@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pydicom[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+	~dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
 	dev-python/pyodbc[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	dev-python/adal[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

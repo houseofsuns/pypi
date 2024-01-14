@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	all? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/docker[${PYTHON_USEDEP}] )
-	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/pytest-4.6.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/docker-5.0.1[${PYTHON_USEDEP}] )
+	docker? ( ~dev-python/docker-5.0.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-4.6.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

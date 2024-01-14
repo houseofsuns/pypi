@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs mpi spec vis"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
 	dev-python/nptyping[${PYTHON_USEDEP}]
 	dev-python/monty[${PYTHON_USEDEP}]
@@ -39,8 +39,8 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	spec? ( dev-python/py_spec[${PYTHON_USEDEP}] )
 	spec? ( dev-python/pyoculus[${PYTHON_USEDEP}] )
-	spec? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
+	spec? ( >=dev-python/h5py-3.1.0[${PYTHON_USEDEP}] )
+	mpi? ( >=dev-python/mpi4py-3.0.3[${PYTHON_USEDEP}] )
 	vis? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	vis? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	vis? ( dev-python/mayavi[${PYTHON_USEDEP}] )

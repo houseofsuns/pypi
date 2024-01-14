@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs lint test"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	all? ( dev-python/six[${PYTHON_USEDEP}] )
-	all? ( dev-python/simplejson[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/six-1.5[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-2.2.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/six-1.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/simplejson-2.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	<=dev-python/djangorestframework-3.13.999[${PYTHON_USEDEP}]
 	dev-python/exrex[${PYTHON_USEDEP}]
 	dev-python/django-phonenumber-field[${PYTHON_USEDEP}]
 	dev-python/django-macaddress[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
+	<=dev-python/phonenumbers-8.13.10[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	<=dev-python/django-filter-22.2[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]
 	dev-python/django-money[${PYTHON_USEDEP}]
 	dev-python/lorem[${PYTHON_USEDEP}]

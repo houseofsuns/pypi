@@ -24,67 +24,67 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all boto3 doc ldap pil prod rpc sqs stubs test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-4.2.7[${PYTHON_USEDEP}]
 	dev-python/configparserc[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
 	dev-python/django-environ[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	dev-python/drf-yasg[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	~dev-python/django-filter-23.4[${PYTHON_USEDEP}]
 	dev-python/drf-orjson-renderer[${PYTHON_USEDEP}]
 	dev-python/ormsgpack[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}]
 	dev-python/uwsgi[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
 	dev-python/cent[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/jsmin[${PYTHON_USEDEP}]
+	~dev-python/jsmin-3.0.1[${PYTHON_USEDEP}]
 	dev-python/django-htmlmin[${PYTHON_USEDEP}]
-	dev-python/pyotp[${PYTHON_USEDEP}]
+	~dev-python/pyotp-2.9.0[${PYTHON_USEDEP}]
 	dev-python/django-storages[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+	~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-autobuild[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}]
+	~dev-python/sphinxcontrib-httpdomain-1.8.1[${PYTHON_USEDEP}]
+	~dev-python/sphinxcontrib-websupport-1.2.4[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}]
-	dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	~dev-python/sphinx-autodoc-typehints-1.23.0[${PYTHON_USEDEP}]
+	~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}]
+	all? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/fakeldap[${PYTHON_USEDEP}] )
-	all? ( dev-python/tblib[${PYTHON_USEDEP}] )
-	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	all? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/tblib-1.7.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/httpx-0.25.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/celery[${PYTHON_USEDEP}] )
 	all? ( dev-python/django-celery-beat[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-ldap[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/python-ldap-3.4.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinxcontrib-httpdomain-1.8.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinxcontrib-websupport-1.2.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-autodoc-typehints-1.23.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/django-storages[${PYTHON_USEDEP}] )
 	boto3? ( dev-python/django-storages[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-httpdomain-1.8.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-websupport-1.2.4[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	ldap? ( dev-python/python-ldap[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-autodoc-typehints-1.23.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
+	ldap? ( ~dev-python/python-ldap-3.4.0[${PYTHON_USEDEP}] )
 	pil? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	prod? ( dev-python/redis[${PYTHON_USEDEP}] )
+	prod? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
 	rpc? ( dev-python/celery[${PYTHON_USEDEP}] )
 	rpc? ( dev-python/django-celery-beat[${PYTHON_USEDEP}] )
 	sqs? ( dev-python/celery[${PYTHON_USEDEP}] )
 	sqs? ( dev-python/django-celery-beat[${PYTHON_USEDEP}] )
-	sqs? ( dev-python/pycurl[${PYTHON_USEDEP}] )
+	sqs? ( ~dev-python/pycurl-7.45.2[${PYTHON_USEDEP}] )
 	stubs? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	stubs? ( dev-python/djangorestframework-stubs[${PYTHON_USEDEP}] )
 	stubs? ( dev-python/celery-stubs[${PYTHON_USEDEP}] )
@@ -92,13 +92,13 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	stubs? ( dev-python/django-filter-stubs[${PYTHON_USEDEP}] )
 	stubs? ( dev-python/types-PyMySQL[${PYTHON_USEDEP}] )
 	stubs? ( dev-python/types-Markdown[${PYTHON_USEDEP}] )
-	stubs? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
+	stubs? ( ~dev-python/types-docutils-0.20.0.3[${PYTHON_USEDEP}] )
 	stubs? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
-	stubs? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	stubs? ( ~dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/fakeldap[${PYTHON_USEDEP}] )
-	test? ( dev-python/tblib[${PYTHON_USEDEP}] )
-	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpx[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/tblib-1.7.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/httpx-0.25.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

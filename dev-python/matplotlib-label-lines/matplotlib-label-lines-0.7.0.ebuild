@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-2.0.2[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )"
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	test? ( ~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mpl-0.16.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

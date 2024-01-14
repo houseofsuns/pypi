@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="socks tests"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/dockerpty[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/texttable[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ddt[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	<dev-python/distro-2.0[${PYTHON_USEDEP}]
+	>=dev-python/docker-5.0[${PYTHON_USEDEP}]
+	<dev-python/dockerpty-1.0[${PYTHON_USEDEP}]
+	<dev-python/docopt-1.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-1.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/texttable-2.0[${PYTHON_USEDEP}]
+	<dev-python/websocket-client-1.0[${PYTHON_USEDEP}]
+	socks? ( <dev-python/PySocks-2.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/ddt-2.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all deepspeed dev examples strategies test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17.2[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2022.5.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	dev-python/lightning-utilities[${PYTHON_USEDEP}]
 	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
@@ -38,13 +38,13 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lightning-utilities[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.3.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-rerunfailures-12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-random-order[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/click-8.1.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
 	dev? ( dev-python/deepspeed[${PYTHON_USEDEP}] )
@@ -52,13 +52,13 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	examples? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
 	examples? ( dev-python/lightning-utilities[${PYTHON_USEDEP}] )
 	strategies? ( dev-python/deepspeed[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-7.3.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-rerunfailures-12.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-random-order[${PYTHON_USEDEP}] )
-	test? ( dev-python/click[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/click-8.1.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
 	test? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

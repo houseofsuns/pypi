@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyte[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyte-0.8.1[${PYTHON_USEDEP}]
 	dev-python/txl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

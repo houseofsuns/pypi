@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws azure gcp"
-DEPENDENCIES="dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
+	<dev-python/fsspec-2024.0[${PYTHON_USEDEP}]
 	azure? ( dev-python/adlfs[${PYTHON_USEDEP}] )
-	azure? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	azure? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	aws? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	dev-python/pandas[${PYTHON_USEDEP}]"
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bassoon[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-7.1[${PYTHON_USEDEP}]
 	dev-python/falcon[${PYTHON_USEDEP}]
 	dev-python/falcon-cors[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.4[${PYTHON_USEDEP}]
+	<dev-python/msgpack-0.7[${PYTHON_USEDEP}]
+	<dev-python/peewee-3.10[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]"
+	<dev-python/pyjwt-1.7.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

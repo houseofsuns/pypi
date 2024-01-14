@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/appdirs-1.4[${PYTHON_USEDEP}]
 	dev-python/coala-utils[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
+	~dev-python/colorlog-2.7[${PYTHON_USEDEP}]
 	dev-python/dependency-management[${PYTHON_USEDEP}]
 	dev-python/libclang-py3[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/packaging-16.8[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
 	dev-python/PyPrint[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/testfixtures[${PYTHON_USEDEP}]
-	dev-python/unidiff[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.12[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-19.0[${PYTHON_USEDEP}]
+	~dev-python/testfixtures-4.14.3[${PYTHON_USEDEP}]
+	~dev-python/unidiff-0.5.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

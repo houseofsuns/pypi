@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="training"
 DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/teklia-toolbox[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	training? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	training? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	training? ( ~dev-python/imageio-2.27.0[${PYTHON_USEDEP}] )
+	training? ( ~dev-python/matplotlib-3.8.1[${PYTHON_USEDEP}] )
 	training? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	training? ( dev-python/Shapely[${PYTHON_USEDEP}] )
 	training? ( dev-python/teklia-toolbox[${PYTHON_USEDEP}] )
 	training? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	training? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	training? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	training? ( ~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

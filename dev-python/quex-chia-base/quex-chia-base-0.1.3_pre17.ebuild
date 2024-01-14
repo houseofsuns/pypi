@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/clvm-rs[${PYTHON_USEDEP}]
 	dev-python/blspy[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

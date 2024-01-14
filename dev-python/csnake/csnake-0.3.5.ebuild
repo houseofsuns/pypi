@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="numpy pillow sympy"
-DEPENDENCIES="numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	sympy? ( dev-python/sympy[${PYTHON_USEDEP}] )
-	pillow? ( dev-python/pillow[${PYTHON_USEDEP}] )"
+DEPENDENCIES="numpy? ( >=dev-python/numpy-1.17[${PYTHON_USEDEP}] )
+	sympy? ( >=dev-python/sympy-1.4[${PYTHON_USEDEP}] )
+	pillow? ( >=dev-python/pillow-6.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

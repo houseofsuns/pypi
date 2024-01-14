@@ -27,16 +27,16 @@ IUSE=""
 DEPENDENCIES="dev-python/imblearn[${PYTHON_USEDEP}]
 	dev-python/imbalanced-learn[${PYTHON_USEDEP}]
 	dev-python/kneed[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.1[${PYTHON_USEDEP}]
 	dev-python/mlxtend[${PYTHON_USEDEP}]
-	dev-python/multipledispatch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	>=dev-python/multipledispatch-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]
 	dev-python/pyodbc[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.11.1[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scikit-plot[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]"
+	>=dev-python/statsmodels-0.12.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

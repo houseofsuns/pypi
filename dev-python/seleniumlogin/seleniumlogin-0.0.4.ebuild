@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

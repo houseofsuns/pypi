@@ -24,54 +24,54 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws consul crypt metrics request swagger tests traces"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
+	>=dev-python/python-json-logger-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	dev-python/anyconfig[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
+	>=dev-python/cryptography-3.3.1[${PYTHON_USEDEP}]
+	all? ( >=dev-python/requests-2.25.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/connexion[${PYTHON_USEDEP}] )
 	all? ( dev-python/swagger-ui-bundle[${PYTHON_USEDEP}] )
-	all? ( dev-python/semver[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/semver-2.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/prance[${PYTHON_USEDEP}] )
 	all? ( dev-python/jaeger-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask-opentracing[${PYTHON_USEDEP}] )
 	all? ( dev-python/opentracing[${PYTHON_USEDEP}] )
 	all? ( dev-python/opentracing-instrumentation[${PYTHON_USEDEP}] )
-	all? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	all? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tornado-6.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/prometheus-client-0.8.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/cryptography-3.3.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/boto3-1.16.59[${PYTHON_USEDEP}] )
 	all? ( dev-python/py-ms-consulate[${PYTHON_USEDEP}] )
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	aws? ( >=dev-python/boto3-1.16.59[${PYTHON_USEDEP}] )
 	consul? ( dev-python/py-ms-consulate[${PYTHON_USEDEP}] )
-	crypt? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	metrics? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	request? ( dev-python/requests[${PYTHON_USEDEP}] )
+	crypt? ( >=dev-python/cryptography-3.3.1[${PYTHON_USEDEP}] )
+	metrics? ( >=dev-python/prometheus-client-0.8.0[${PYTHON_USEDEP}] )
+	request? ( >=dev-python/requests-2.25.0[${PYTHON_USEDEP}] )
 	swagger? ( dev-python/connexion[${PYTHON_USEDEP}] )
 	swagger? ( dev-python/swagger-ui-bundle[${PYTHON_USEDEP}] )
-	swagger? ( dev-python/semver[${PYTHON_USEDEP}] )
+	swagger? ( >=dev-python/semver-2.10.1[${PYTHON_USEDEP}] )
 	swagger? ( dev-python/prance[${PYTHON_USEDEP}] )
-	tests? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tox[${PYTHON_USEDEP}] )
-	tests? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/requests-mock-1.8.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-5.4[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.1.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flake8-3.8.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/tox-3.20.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/bandit-1.7.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mkdocs-1.1.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/lightstep[${PYTHON_USEDEP}] )
 	tests? ( dev-python/safety[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/importlib-metadata-3.0[${PYTHON_USEDEP}] )
 	traces? ( dev-python/jaeger-client[${PYTHON_USEDEP}] )
 	traces? ( dev-python/flask-opentracing[${PYTHON_USEDEP}] )
 	traces? ( dev-python/opentracing[${PYTHON_USEDEP}] )
 	traces? ( dev-python/opentracing-instrumentation[${PYTHON_USEDEP}] )
-	traces? ( dev-python/tornado[${PYTHON_USEDEP}] )"
+	traces? ( <dev-python/tornado-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

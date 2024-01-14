@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="cli? ( dev-python/rich[${PYTHON_USEDEP}] )"
+DEPENDENCIES="cli? ( ~dev-python/rich-9.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

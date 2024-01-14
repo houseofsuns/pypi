@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs lint test"
-DEPENDENCIES="dev-python/click-didyoumean[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-didyoumean-0.3[${PYTHON_USEDEP}]
 	dev-python/click-option-group[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	all? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	>=dev-python/click-8.1[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.10[${PYTHON_USEDEP}]
+	>=dev-python/natsort-8.4[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.66[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.4[${PYTHON_USEDEP}]
+	all? ( >=dev-python/pycryptodome-3.16[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/furo-2023.9[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/myst-parser-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/rich[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.2[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/black-23.11[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/mypy-1.7[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/coverage-7.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-6.86[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/more-itertools-10.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

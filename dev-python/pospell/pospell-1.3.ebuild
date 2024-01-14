@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/polib[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
+	>=dev-python/docutils-0.18[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	dev-python/sphinx-lint[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cloud docker"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]
+	~dev-python/colorlog-3.1.4[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.19.6[${PYTHON_USEDEP}]
+	<dev-python/humanfriendly-5.0[${PYTHON_USEDEP}]
 	dev-python/pyvmomi[${PYTHON_USEDEP}]
-	cloud? ( dev-python/apache-libcloud[${PYTHON_USEDEP}] )
-	docker? ( dev-python/docker[${PYTHON_USEDEP}] )"
+	cloud? ( >=dev-python/apache-libcloud-2.3.0[${PYTHON_USEDEP}] )
+	docker? ( >=dev-python/docker-2.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

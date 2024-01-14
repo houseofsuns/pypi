@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/barbell2[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	~dev-python/django-3.1.7[${PYTHON_USEDEP}]
 	dev-python/django-session-security[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

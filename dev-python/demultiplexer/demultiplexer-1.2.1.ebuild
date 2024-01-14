@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PySimpleGUI[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.3[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7.3[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]"
+	>=dev-python/joblib-0.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	dev-python/casadi[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	>=dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/tikzplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

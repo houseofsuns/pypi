@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
 	dev-python/qcodes[${PYTHON_USEDEP}]
 	dev-python/qcodes-loop[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.19.0[${PYTHON_USEDEP}]
+	>dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/lmfit-1.0.3[${PYTHON_USEDEP}]
 	dev-python/pyqt5[${PYTHON_USEDEP}]
 	dev-python/pyqtgraph[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]

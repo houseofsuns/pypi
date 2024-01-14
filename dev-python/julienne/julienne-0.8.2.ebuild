@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pudb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/black-23.1.0[${PYTHON_USEDEP}]
+	~dev-python/isort-5.12.0[${PYTHON_USEDEP}]
+	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/build-0.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pudb-2022.1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyflakes-2.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.26.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/waelstow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

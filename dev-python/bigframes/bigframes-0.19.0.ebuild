@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev tests"
-DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2023.3.0[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+	<dev-python/google-auth-3.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-cloud-functions[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery-connection[${PYTHON_USEDEP}]
@@ -36,14 +36,14 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev-python/google-cloud-resource-manager[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/ibis-framework[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
 	dev-python/pydata-google-auth[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.9[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.7.1[${PYTHON_USEDEP}]
+	>=dev-python/humanize-4.6.0[${PYTHON_USEDEP}]
 	all? ( dev-python/google-cloud-testutils[${PYTHON_USEDEP}] )
 	all? ( dev-python/nox[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas-gbq[${PYTHON_USEDEP}] )

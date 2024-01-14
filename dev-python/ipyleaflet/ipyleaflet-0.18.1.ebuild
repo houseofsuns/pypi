@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ipywidgets-9.0[${PYTHON_USEDEP}]
 	dev-python/traittypes[${PYTHON_USEDEP}]
 	dev-python/xyzservices[${PYTHON_USEDEP}]
 	dev-python/branca[${PYTHON_USEDEP}]"

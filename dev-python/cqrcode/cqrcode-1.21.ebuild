@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pyzbar[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/pyzbar-0.1.8[${PYTHON_USEDEP}]
+	>=dev-python/qrcode-6.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

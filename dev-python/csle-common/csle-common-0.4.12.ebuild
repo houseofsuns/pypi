@@ -25,45 +25,45 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
-	dev-python/pyglet[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/pyglet-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	>=dev-python/docker-6.0.1[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.12.0[${PYTHON_USEDEP}]
 	dev-python/stable-baselines3[${PYTHON_USEDEP}]
 	dev-python/random-username[${PYTHON_USEDEP}]
-	dev-python/psycopg[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/psycopg-3.1.4[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.2.2[${PYTHON_USEDEP}]
+	>=dev-python/waitress-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
 	dev-python/csle-base[${PYTHON_USEDEP}]
 	dev-python/csle-collector[${PYTHON_USEDEP}]
 	dev-python/csle-ryu[${PYTHON_USEDEP}]
 	dev-python/iteround[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/gpytorch[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	testing? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-mock-3.6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/grpcio-1.57.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/grpcio-tools-1.57.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-grpc[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-paramiko[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8-rst-docstrings[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-3.24[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	testing? ( dev-python/twine[${PYTHON_USEDEP}] )
-	testing? ( dev-python/build[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/sphinx-rtd-theme-1.1.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

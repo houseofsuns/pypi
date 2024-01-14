@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/webdav4[${PYTHON_USEDEP}]
 	dev-python/ical[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

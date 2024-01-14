@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	dev-python/canonicalwebteam-flask-base[${PYTHON_USEDEP}]
 	dev-python/canonicalwebteam-store-api[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/pipenv[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/responses[${PYTHON_USEDEP}]
+	<dev-python/flake8-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/pipenv-2023.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
+	<dev-python/responses-0.23.0[${PYTHON_USEDEP}]
 	dev-python/talisker[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

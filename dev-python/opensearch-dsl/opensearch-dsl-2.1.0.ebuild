@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/opensearch-py[${PYTHON_USEDEP}]
+	>=dev-python/opensearch-py-2.2.0[${PYTHON_USEDEP}]
 	develop? ( dev-python/mock[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-3.0.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/coverage-7.0.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/ptera[${PYTHON_USEDEP}]
 	dev-python/giving[${PYTHON_USEDEP}]
 	dev-python/ovld[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/pynvml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/tree-sitter[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/networkx-2.6.3[${PYTHON_USEDEP}]
+	~dev-python/tree-sitter-0.20.1[${PYTHON_USEDEP}]
+	~dev-python/deepdiff-5.8.1[${PYTHON_USEDEP}]
+	~dev-python/pydot-1.4.1[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tqdm[${PYTHON_USEDEP}] )

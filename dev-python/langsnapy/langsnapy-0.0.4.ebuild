@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="runtime-deps"
 DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	runtime-deps? ( dev-python/markdown-it-py[${PYTHON_USEDEP}] )"
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
+	runtime-deps? ( <dev-python/markdown-it-py-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

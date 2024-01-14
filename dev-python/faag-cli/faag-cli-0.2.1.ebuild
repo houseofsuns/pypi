@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]
+	<dev-python/python-box-8.0.0[${PYTHON_USEDEP}]
 	dev-python/python-semantic-release[${PYTHON_USEDEP}]
-	dev-python/tomli-w[${PYTHON_USEDEP}]
+	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

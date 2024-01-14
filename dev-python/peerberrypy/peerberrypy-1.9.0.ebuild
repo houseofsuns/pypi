@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="otp pandas"
-DEPENDENCIES="dev-python/cloudscraper[${PYTHON_USEDEP}]
-	otp? ( dev-python/pyotp[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/openpyxl[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/cloudscraper-1.2[${PYTHON_USEDEP}]
+	otp? ( <dev-python/pyotp-3.0[${PYTHON_USEDEP}] )
+	pandas? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	pandas? ( <dev-python/openpyxl-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

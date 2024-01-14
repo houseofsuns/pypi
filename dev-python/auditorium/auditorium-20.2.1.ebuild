@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="server"
-DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	<dev-python/aiofiles-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/websockets-9.0[${PYTHON_USEDEP}]
+	server? ( <dev-python/uvicorn-0.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/dkimpy[${PYTHON_USEDEP}]
-	dev-python/patatt[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/dnspython-3.0[${PYTHON_USEDEP}]
+	<dev-python/dkimpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/patatt-2.0[${PYTHON_USEDEP}]
 	dev-python/git-filter-repo[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

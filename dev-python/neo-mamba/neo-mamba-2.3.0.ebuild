@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/aiodns[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
-	dev-python/bitarray[${PYTHON_USEDEP}]
+	~dev-python/bitarray-2.8.1[${PYTHON_USEDEP}]
 	dev-python/Events[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/lz4[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.19.0[${PYTHON_USEDEP}]
+	~dev-python/lz4-4.3.2[${PYTHON_USEDEP}]
 	dev-python/neo3crypto[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	>=dev-python/netaddr-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.9.4[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.18.0[${PYTHON_USEDEP}]
 	dev-python/pybiginteger[${PYTHON_USEDEP}]
 	dev-python/pybiginteger-stubs[${PYTHON_USEDEP}]
-	dev? ( dev-python/aioresponses[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/aioresponses-0.7.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump-my-version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-7.3.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.4.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-8.5.7[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-extensions-1.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkapi-fix-coz[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

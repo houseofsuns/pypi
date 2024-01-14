@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="compiler dev runtime test"
 DEPENDENCIES="dev-python/aiogram[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.0[${PYTHON_USEDEP}]
 	compiler? ( dev-python/fluent-compiler[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/packaging-23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/fluent-runtime[${PYTHON_USEDEP}] )
 	test? ( dev-python/fluent-compiler[${PYTHON_USEDEP}] )
 	test? ( dev-python/fluent-runtime[${PYTHON_USEDEP}] )
 	test? ( dev-python/libcst[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/importlib-metadata-4.11.4[${PYTHON_USEDEP}]
 	dev-python/oarepo-runtime[${PYTHON_USEDEP}]
 	dev-python/jinja2-simple-tags[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]

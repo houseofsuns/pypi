@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all amazon azure databricks doc duckdb ftp google mssql mysql openlineage postgres sftp snowflake tests"
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-20.3.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
@@ -61,9 +61,9 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	databricks? ( dev-python/databricks-cli[${PYTHON_USEDEP}] )
 	databricks? ( dev-python/apache-airflow-providers-databricks[${PYTHON_USEDEP}] )
 	databricks? ( dev-python/databricks-sql-connector[${PYTHON_USEDEP}] )
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/myst-parser-0.17[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-autoapi-2.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/airflow-provider-duckdb[${PYTHON_USEDEP}] )
 	ftp? ( dev-python/apache-airflow-providers-ftp[${PYTHON_USEDEP}] )
@@ -81,7 +81,7 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	snowflake? ( dev-python/apache-airflow-providers-snowflake[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-split[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-dotenv[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests-mock[${PYTHON_USEDEP}] )

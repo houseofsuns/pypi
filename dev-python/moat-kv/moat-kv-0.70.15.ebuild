@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/PyNaCl[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
+	>=dev-python/anyio-3.0[${PYTHON_USEDEP}]
 	dev-python/asyncactor[${PYTHON_USEDEP}]
 	dev-python/asyncclick[${PYTHON_USEDEP}]
 	dev-python/asyncscope[${PYTHON_USEDEP}]
 	dev-python/asyncserf[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/attrs-20.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-2.5[${PYTHON_USEDEP}]
 	dev-python/moat-lib-diffiehellman[${PYTHON_USEDEP}]
 	dev-python/moat-mqtt[${PYTHON_USEDEP}]
 	dev-python/moat-util[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/range-set[${PYTHON_USEDEP}]
 	dev-python/ruyaml[${PYTHON_USEDEP}]
-	dev-python/simpleeval[${PYTHON_USEDEP}]
-	dev-python/trio[${PYTHON_USEDEP}]
+	>=dev-python/simpleeval-0.9.10[${PYTHON_USEDEP}]
+	>=dev-python/trio-0.18[${PYTHON_USEDEP}]
 	dev-python/exceptiongroup[${PYTHON_USEDEP}]
 	dev? ( dev-python/moat-src[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

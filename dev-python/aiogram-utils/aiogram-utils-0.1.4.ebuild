@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/aiogram[${PYTHON_USEDEP}]
 	dev-python/mongoengine[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/aiodns[${PYTHON_USEDEP}]"
+	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiodns-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

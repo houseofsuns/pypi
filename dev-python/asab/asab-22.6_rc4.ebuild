@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="git storage_encryption"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/fastjsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	<dev-python/fastjsonschema-3.0[${PYTHON_USEDEP}]
 	dev-python/kazoo[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	git? ( dev-python/pygit2[${PYTHON_USEDEP}] )
+	git? ( >=dev-python/pygit2-1.9.1[${PYTHON_USEDEP}] )
 	storage_encryption? ( dev-python/cryptography[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

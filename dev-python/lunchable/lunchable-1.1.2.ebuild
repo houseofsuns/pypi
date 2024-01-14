@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all apps primelunch splitlunch"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
 	all? ( dev-python/splitwise[${PYTHON_USEDEP}] )

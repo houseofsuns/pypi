@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs test"
-DEPENDENCIES="dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
-	dev-python/cftime[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.7.2[${PYTHON_USEDEP}]
+	>=dev-python/cftime-1.2[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

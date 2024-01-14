@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/cognitojwt[${PYTHON_USEDEP}]
 	dev-python/pyYAML[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

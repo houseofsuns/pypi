@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
 	dev-python/clip-by-openai[${PYTHON_USEDEP}]
 	dev-python/dall-e[${PYTHON_USEDEP}]
-	dev-python/imageio-ffmpeg[${PYTHON_USEDEP}]
+	~dev-python/imageio-ffmpeg-0.4.3[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
+	~dev-python/imageio-2.9.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]

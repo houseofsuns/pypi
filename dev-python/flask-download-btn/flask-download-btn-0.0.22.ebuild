@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/flask-sqlalchemy-2.4.1[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.12[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-modelid[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-mutable[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

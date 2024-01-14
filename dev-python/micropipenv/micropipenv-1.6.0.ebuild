@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests toml"
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pip-9.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/flexmock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )

@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/pysqlite3[${PYTHON_USEDEP}]
 	dev-python/mappyfile[${PYTHON_USEDEP}]
 	dev-python/GDAL[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	<dev-python/pyproj-4.0.0[${PYTHON_USEDEP}]
 	dev-python/OWSLib[${PYTHON_USEDEP}]
 	dev-python/pygeometa[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/jinja2-time[${PYTHON_USEDEP}]
-	dev-python/bibtexparser[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]"
+	<dev-python/jinja2-time-0.3.0[${PYTHON_USEDEP}]
+	<dev-python/bibtexparser-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

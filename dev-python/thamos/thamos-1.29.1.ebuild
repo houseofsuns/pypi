@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/certifi-14.5.14[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.5.3[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-40.3.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.15.1[${PYTHON_USEDEP}]
 	dev-python/daiquiri[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
 	dev-python/thoth-analyzer[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/invectio[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/micropipenv[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]
+	>=dev-python/virtualenv-20.0.3[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

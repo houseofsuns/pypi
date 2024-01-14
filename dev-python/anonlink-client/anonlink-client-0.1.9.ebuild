@@ -27,14 +27,14 @@ IUSE=""
 DEPENDENCIES="dev-python/anonlink[${PYTHON_USEDEP}]
 	dev-python/bashplotlib[${PYTHON_USEDEP}]
 	dev-python/blocklib[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/clkhash[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/jupyter[${PYTHON_USEDEP}]
+	<dev-python/ijson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
+	<dev-python/jupyter-2.0.0[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/retrying-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

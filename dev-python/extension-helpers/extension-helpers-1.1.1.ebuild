@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-40.2[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	test? ( dev-python/wheel[${PYTHON_USEDEP}] )

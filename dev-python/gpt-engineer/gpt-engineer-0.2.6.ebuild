@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
 	dev-python/rudder-sdk-python[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/termcolor-2.3.0[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

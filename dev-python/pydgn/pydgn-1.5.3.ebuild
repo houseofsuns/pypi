@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	dev-python/Requests[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.47.0[${PYTHON_USEDEP}]
 	dev-python/ogb[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]
-	dev-python/json5[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/GitPython-3.1[${PYTHON_USEDEP}]
+	>=dev-python/lark-1.1.8[${PYTHON_USEDEP}]
+	>=dev-python/json5-0.9.14[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

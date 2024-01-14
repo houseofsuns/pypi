@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/db-hj3415[${PYTHON_USEDEP}]
 	dev-python/eval-hj3415[${PYTHON_USEDEP}]
 	dev-python/cybos-hj3415[${PYTHON_USEDEP}]
 	dev-python/krx-hj3415[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]"
+	>=dev-python/html5lib-1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

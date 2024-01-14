@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/alfred3[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.4[${PYTHON_USEDEP}]
+	>=dev-python/email-validator-1.1[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	dev-python/flask-bcrypt[${PYTHON_USEDEP}]
 	dev-python/flask-dropzone[${PYTHON_USEDEP}]
-	dev-python/flask-login[${PYTHON_USEDEP}]
+	>=dev-python/flask-login-0.5.0[${PYTHON_USEDEP}]
 	dev-python/flask-mail[${PYTHON_USEDEP}]
 	dev-python/flask-mongoengine[${PYTHON_USEDEP}]
 	dev-python/flask-wtf[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]"
+	>=dev-python/pymongo-3.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

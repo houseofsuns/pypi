@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cprint-jianjun[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.15.0[${PYTHON_USEDEP}]
+	>=dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.44.1[${PYTHON_USEDEP}]
 	dev-python/Mconfig[${PYTHON_USEDEP}]
 	dev-python/ttkbootstrap[${PYTHON_USEDEP}]
 	dev-python/yagmail[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]"
+	>=dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

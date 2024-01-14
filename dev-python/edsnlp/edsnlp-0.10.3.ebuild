@@ -26,39 +26,39 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev ml setup"
 DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
 	dev-python/pysimstring[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/confit[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/umls-downloader[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/build[${PYTHON_USEDEP}]
+	>=dev-python/build-1.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	>=dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mike[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-charts-plugin[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-img2fig-plugin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-material-9.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-section-index[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-1.5.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-0.20[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-python-1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pybtex[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pathspec[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pybtex-0.24.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pathspec-0.11.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/astunparse[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mlconjug3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rich-logger[${PYTHON_USEDEP}] )

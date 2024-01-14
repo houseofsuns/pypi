@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/channels[${PYTHON_USEDEP}]
 	dev-python/idom[${PYTHON_USEDEP}]
 	dev-python/aiofile[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.5[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

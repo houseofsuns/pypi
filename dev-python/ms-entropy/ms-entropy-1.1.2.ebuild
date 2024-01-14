@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all gpu"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	all? ( dev-python/lz4[${PYTHON_USEDEP}] )
-	all? ( dev-python/msgpack[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.9.3[${PYTHON_USEDEP}]
+	all? ( >=dev-python/lz4-4.3.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/msgpack-1.0.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyteomics[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/cupy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/marshmallow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-oneofschema[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
+	<dev-python/typing-extensions-4.10[${PYTHON_USEDEP}]
+	test? ( <dev-python/pytest-7.5[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-4.2[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-mock-3.13[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

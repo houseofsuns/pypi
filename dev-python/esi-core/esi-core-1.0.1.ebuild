@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/obspy[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cython[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/black-21.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.26[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/cython-0.29.23[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

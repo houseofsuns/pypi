@@ -27,8 +27,8 @@ IUSE="docs"
 DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev-python/bluetooth-data-tools[${PYTHON_USEDEP}]
 	dev-python/bluetooth-sensor-state-data[${PYTHON_USEDEP}]
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/myst-parser-0.19[${PYTHON_USEDEP}] )
 	dev-python/sensor-state-data[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

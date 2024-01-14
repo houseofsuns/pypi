@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/waveorder[${PYTHON_USEDEP}]
 	dev-python/pycromanager[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.1[${PYTHON_USEDEP}]
+	>=dev-python/natsort-7.1.1[${PYTHON_USEDEP}]
 	dev-python/colorspacious[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
+	>=dev-python/pyqtgraph-0.12.3[${PYTHON_USEDEP}]
 	dev-python/napari-ome-zarr[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/iohub[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )

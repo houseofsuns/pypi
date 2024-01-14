@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2021.3[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]"
+	>=dev-python/uvloop-0.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

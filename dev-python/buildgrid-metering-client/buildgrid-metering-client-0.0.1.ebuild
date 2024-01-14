@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async-lru[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pydantic-1.10[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
+	>=dev-python/async-lru-2.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.2[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-5.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

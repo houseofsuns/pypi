@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extras"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	dev-python/arraymap[${PYTHON_USEDEP}]
 	dev-python/arraykit[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	extras? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	extras? ( dev-python/xlsxwriter[${PYTHON_USEDEP}] )
-	extras? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	extras? ( dev-python/xarray[${PYTHON_USEDEP}] )
-	extras? ( dev-python/tables[${PYTHON_USEDEP}] )
-	extras? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	extras? ( dev-python/msgpack[${PYTHON_USEDEP}] )
+	>=dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
+	extras? ( >=dev-python/pandas-0.23.4[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/xlsxwriter-1.1.2[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/xarray-0.13.0[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/tables-3.6.1[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/pyarrow-0.17.0[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/msgpack-1.0.0[${PYTHON_USEDEP}] )
 	extras? ( dev-python/msgpack-numpy[${PYTHON_USEDEP}] )
 	extras? ( dev-python/visidata[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tqdm-4.62.0[${PYTHON_USEDEP}]
 	dev-python/openlineage-integration-common[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruffmypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )

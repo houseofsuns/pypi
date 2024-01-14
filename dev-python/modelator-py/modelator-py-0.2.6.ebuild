@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/infix[${PYTHON_USEDEP}]
-	dev-python/ply[${PYTHON_USEDEP}]
+	<dev-python/ply-4.0[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

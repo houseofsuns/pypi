@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/ffmpeg[${PYTHON_USEDEP}]
 	dev-python/fpstimer[${PYTHON_USEDEP}]
 	dev-python/moviepy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.0[${PYTHON_USEDEP}]
+	>=dev-python/pygame-2.5[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.5[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

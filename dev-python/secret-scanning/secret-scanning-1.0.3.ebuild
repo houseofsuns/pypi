@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/regex[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/regex-2022.10.31[${PYTHON_USEDEP}]
 	dev-python/polling[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	<dev-python/tomli-2.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-42.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pytest-8.0[${PYTHON_USEDEP}]
 	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	dev-python/pytest-mock[${PYTHON_USEDEP}]
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/build-0.8.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pycodestyle-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rst-include[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

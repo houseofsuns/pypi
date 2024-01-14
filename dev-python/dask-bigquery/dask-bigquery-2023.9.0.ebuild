@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	test? ( dev-python/google-auth[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/google-auth-1.30.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

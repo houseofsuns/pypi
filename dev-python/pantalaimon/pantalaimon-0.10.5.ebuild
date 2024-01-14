@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ui"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/logbook[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
+	>=dev-python/keyring-21.2.1[${PYTHON_USEDEP}]
+	>=dev-python/logbook-1.5.3[${PYTHON_USEDEP}]
+	>=dev-python/peewee-3.13.1[${PYTHON_USEDEP}]
 	dev-python/janus[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/prompt-toolkit-4.0[${PYTHON_USEDEP}]
 	dev-python/matrix-nio[${PYTHON_USEDEP}]
-	ui? ( dev-python/dbus-python[${PYTHON_USEDEP}] )
+	ui? ( <dev-python/dbus-python-1.3[${PYTHON_USEDEP}] )
 	ui? ( dev-python/PyGObject[${PYTHON_USEDEP}] )
-	ui? ( dev-python/pydbus[${PYTHON_USEDEP}] )
-	ui? ( dev-python/notify2[${PYTHON_USEDEP}] )"
+	ui? ( <dev-python/pydbus-0.7[${PYTHON_USEDEP}] )
+	ui? ( <dev-python/notify2-0.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

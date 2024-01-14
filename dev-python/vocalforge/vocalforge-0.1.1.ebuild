@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="audio text"
-DEPENDENCIES="dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/natsort-8.2.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
+	~dev-python/regex-2022.10.31[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	audio? ( dev-python/deepfilternet[${PYTHON_USEDEP}] )
 	audio? ( dev-python/pyannote-core[${PYTHON_USEDEP}] )
 	audio? ( dev-python/pyannote-audio[${PYTHON_USEDEP}] )

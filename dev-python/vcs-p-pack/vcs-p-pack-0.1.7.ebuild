@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pygit2[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
+	~dev-python/setuptools-56.0.0[${PYTHON_USEDEP}]
+	~dev-python/pygit2-1.11.1[${PYTHON_USEDEP}]
 	dev-python/vcstool[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp db fastapi flask psutil redis tornado"
-DEPENDENCIES="psutil? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
+DEPENDENCIES="psutil? ( <dev-python/psutil-6.0[${PYTHON_USEDEP}] )
+	flask? ( <dev-python/flask-3.0.0[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	db? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	fastapi? ( <dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )
+	db? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	db? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	db? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	tornado? ( dev-python/tornado[${PYTHON_USEDEP}] )"
+	db? ( <dev-python/cryptography-40.0.0[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	aiohttp? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
+	tornado? ( <dev-python/tornado-7.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

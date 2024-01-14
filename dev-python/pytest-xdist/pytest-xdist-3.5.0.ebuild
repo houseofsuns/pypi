@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="psutil setproctitle testing"
-DEPENDENCIES="dev-python/execnet[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	psutil? ( dev-python/psutil[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/execnet-1.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.2.0[${PYTHON_USEDEP}]
+	psutil? ( >=dev-python/psutil-3.0[${PYTHON_USEDEP}] )
 	setproctitle? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
 	testing? ( dev-python/filelock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

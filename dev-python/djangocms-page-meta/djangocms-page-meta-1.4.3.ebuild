@@ -27,8 +27,8 @@ IUSE="docs"
 DEPENDENCIES="dev-python/django-cms[${PYTHON_USEDEP}]
 	dev-python/django-meta[${PYTHON_USEDEP}]
 	dev-python/django-filer[${PYTHON_USEDEP}]
-	docs? ( dev-python/django[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/django-5.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/djangocms-page-tags[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

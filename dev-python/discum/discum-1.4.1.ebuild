@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
 	dev-python/brotli[${PYTHON_USEDEP}]
 	dev-python/filetype[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-0.59.0[${PYTHON_USEDEP}]
 	dev-python/ua-parser[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	ra? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )

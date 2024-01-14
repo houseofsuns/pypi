@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pyqt6[${PYTHON_USEDEP}]
 	dev-python/phdimporter[${PYTHON_USEDEP}]
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

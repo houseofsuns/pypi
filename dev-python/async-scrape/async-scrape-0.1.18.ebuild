@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/PyPAC[${PYTHON_USEDEP}]
 	dev-python/requests-html[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]"

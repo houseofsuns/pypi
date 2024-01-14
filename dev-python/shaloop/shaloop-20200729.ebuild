@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/numpy-1.0[${PYTHON_USEDEP}]
+	>=dev-python/cffi-1.0[${PYTHON_USEDEP}]
+	>=dev-python/pycparser-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

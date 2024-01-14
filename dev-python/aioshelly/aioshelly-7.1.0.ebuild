@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/bluetooth-data-tools[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]"
+	>=dev-python/orjson-3.8.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

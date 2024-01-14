@@ -29,19 +29,19 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-oscar-api[${PYTHON_USEDEP}]
 	dev-python/django-oscar-api-checkout[${PYTHON_USEDEP}]
 	dev-python/thelabdb[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	development? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	development? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	>=dev-python/lxml-4.1.1[${PYTHON_USEDEP}]
+	>=dev-python/phonenumbers-8.8.8[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
+	development? ( >=dev-python/coverage-4.4.2[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/instrumented-soap[${PYTHON_USEDEP}] )
 	development? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	development? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	development? ( dev-python/sorl-thumbnail[${PYTHON_USEDEP}] )
-	development? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	development? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	development? ( dev-python/suds-community[${PYTHON_USEDEP}] )
-	development? ( dev-python/tox[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/sphinx-1.5.2[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/suds-community-0.8.5[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/tox-2.6.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/unittest-xml-reporting[${PYTHON_USEDEP}] )
 	development? ( dev-python/versiontag[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

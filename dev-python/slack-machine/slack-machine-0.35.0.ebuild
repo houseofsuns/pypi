@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dynamodb redis sqlite"
-DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	redis? ( dev-python/hiredis[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/dill-0.4.0.0[${PYTHON_USEDEP}]
+	<dev-python/APScheduler-4.0.0[${PYTHON_USEDEP}]
+	redis? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/hiredis-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/slack-sdk[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pyee[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25[${PYTHON_USEDEP}]
 	dynamodb? ( dev-python/aioboto3[${PYTHON_USEDEP}] )
-	dev-python/tzdata[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )"
+	<dev-python/tzdata-2024.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/structlog-24.0[${PYTHON_USEDEP}]
+	sqlite? ( <dev-python/aiosqlite-0.20[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

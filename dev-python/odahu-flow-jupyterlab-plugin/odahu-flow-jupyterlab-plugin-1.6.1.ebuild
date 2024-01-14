@@ -27,8 +27,8 @@ IUSE="testing"
 DEPENDENCIES="dev-python/odahu-flow-sdk[${PYTHON_USEDEP}]
 	dev-python/odahu-flow-cli[${PYTHON_USEDEP}]
 	dev-python/notebook[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	testing? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )"
+	>=dev-python/pydantic-1.2[${PYTHON_USEDEP}]
+	testing? ( >=dev-python/pylint-2.3.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/jupyterlab-1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

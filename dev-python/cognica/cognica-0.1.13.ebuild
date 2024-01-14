@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="protobuf server"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.53.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	protobuf? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	protobuf? ( >=dev-python/grpcio-1.43.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/cognica-server[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

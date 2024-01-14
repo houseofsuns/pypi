@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/reahl-component[${PYTHON_USEDEP}]
 	dev-python/reahl-mailutil[${PYTHON_USEDEP}]
 	dev-python/reahl-sqlalchemysupport[${PYTHON_USEDEP}]
 	dev-python/reahl-web-declarative[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	<dev-python/passlib-1.7.9999[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/reahl-tofu[${PYTHON_USEDEP}] )
 	test? ( dev-python/reahl-stubble[${PYTHON_USEDEP}] )
 	test? ( dev-python/reahl-dev[${PYTHON_USEDEP}] )

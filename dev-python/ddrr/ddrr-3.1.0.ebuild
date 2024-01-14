@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="xml"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	xml? ( dev-python/lxml[${PYTHON_USEDEP}] )"
+	>=dev-python/attrs-19.1[${PYTHON_USEDEP}]
+	xml? ( <dev-python/lxml-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

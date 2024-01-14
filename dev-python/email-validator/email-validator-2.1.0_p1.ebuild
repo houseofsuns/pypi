@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/dnspython-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/idna-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

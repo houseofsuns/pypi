@@ -26,32 +26,32 @@ KEYWORDS="~amd64 ~x86"
 IUSE="analysis docs jupyter test"
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/httpsig[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.9.6[${PYTHON_USEDEP}]
+	<dev-python/python-magic-1.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/responses[${PYTHON_USEDEP}]
+	>=dev-python/responses-0.13.4[${PYTHON_USEDEP}]
 	analysis? ( dev-python/autoprotocol[${PYTHON_USEDEP}] )
-	analysis? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	analysis? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	analysis? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	analysis? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	analysis? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	analysis? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
+	analysis? ( <=dev-python/numpy-1.20.3[${PYTHON_USEDEP}] )
+	analysis? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	analysis? ( <dev-python/pillow-9.0[${PYTHON_USEDEP}] )
+	analysis? ( <dev-python/plotly-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mock[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mock-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/releases[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/responses[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/responses-1.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/jsonschema-3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mock-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pylint-2.5.2[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/responses-0.13.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

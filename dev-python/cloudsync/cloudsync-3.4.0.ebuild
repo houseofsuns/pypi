@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all box boxcom dropbox gdrive onedrive"
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/arrow-0.17.0[${PYTHON_USEDEP}]
 	dev-python/pystrict[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]
 	dev-python/requests_oauthlib[${PYTHON_USEDEP}]
 	dev-python/python-daemon[${PYTHON_USEDEP}]
 	dev-python/xxhash[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.3[${PYTHON_USEDEP}]
 	dev-python/watchdog[${PYTHON_USEDEP}]
 	all? ( dev-python/cloudsync-gdrive[${PYTHON_USEDEP}] )
 	all? ( dev-python/cloudsync-onedrive[${PYTHON_USEDEP}] )
 	all? ( dev-python/boxsdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/dropbox[${PYTHON_USEDEP}] )
-	all? ( dev-python/six[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/six-1.14.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/boxsdk[${PYTHON_USEDEP}] )
 	box? ( dev-python/boxsdk[${PYTHON_USEDEP}] )
 	boxcom? ( dev-python/boxsdk[${PYTHON_USEDEP}] )
 	dropbox? ( dev-python/dropbox[${PYTHON_USEDEP}] )
-	dropbox? ( dev-python/six[${PYTHON_USEDEP}] )
+	dropbox? ( >=dev-python/six-1.14.0[${PYTHON_USEDEP}] )
 	gdrive? ( dev-python/cloudsync-gdrive[${PYTHON_USEDEP}] )
 	onedrive? ( dev-python/cloudsync-onedrive[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

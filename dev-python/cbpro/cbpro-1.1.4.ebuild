@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/sortedcontainers-1.5.9[${PYTHON_USEDEP}]
+	~dev-python/requests-2.13.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-0.40.0[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

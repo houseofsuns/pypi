@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli convert"
-DEPENDENCIES="dev-python/construct[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/construct-3.0.0[${PYTHON_USEDEP}]
 	dev-python/async-modbus[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/exceptiongroup-1.0.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/asyncclick[${PYTHON_USEDEP}] )
-	convert? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	convert? ( dev-python/python-slugify[${PYTHON_USEDEP}] )"
+	convert? ( >=dev-python/pandas-1.0.5[${PYTHON_USEDEP}] )
+	convert? ( >=dev-python/python-slugify-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

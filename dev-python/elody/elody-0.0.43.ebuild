@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="loader util"
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/certifi-2023.5.7[${PYTHON_USEDEP}]
+	>=dev-python/charset-normalizer-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/idna-3.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]
 	loader? ( dev-python/cloudevents[${PYTHON_USEDEP}] )
 	loader? ( dev-python/inuits-policy-based-auth[${PYTHON_USEDEP}] )
 	util? ( dev-python/cloudevents[${PYTHON_USEDEP}] )"

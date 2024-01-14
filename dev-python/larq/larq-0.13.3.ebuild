@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lint tensorflow tensorflow_gpu test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/terminaltables[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-19.2[${PYTHON_USEDEP}]
+	lint? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/flake8-6.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/isort-5.11[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pytype[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow_gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/snapshottest[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-4.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-3.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.11[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/snapshottest-0.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

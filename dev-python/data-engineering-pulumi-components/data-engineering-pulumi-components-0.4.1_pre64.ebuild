@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pulumi-aws[${PYTHON_USEDEP}]
 	dev-python/pulumi-auth0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]

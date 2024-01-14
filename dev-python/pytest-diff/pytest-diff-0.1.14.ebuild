@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-3.5.0[${PYTHON_USEDEP}]
 	dev-python/deepdiff[${PYTHON_USEDEP}]
 	dev-python/pprintpp[${PYTHON_USEDEP}]
 	dev-python/multipledispatch[${PYTHON_USEDEP}]"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test zuul_base"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/GitPython-2.1.8[${PYTHON_USEDEP}]
 	dev-python/PrettyTable[${PYTHON_USEDEP}]
 	dev-python/PyMySQL[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
@@ -32,15 +32,15 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/apscheduler[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/cachecontrol[${PYTHON_USEDEP}]
+	<dev-python/cachecontrol-0.12.7[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/cheroot[${PYTHON_USEDEP}]
+	>dev-python/cheroot-8.1[${PYTHON_USEDEP}]
 	dev-python/cherrypy[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-39.0.0[${PYTHON_USEDEP}]
+	<dev-python/elasticsearch-8.0.0[${PYTHON_USEDEP}]
 	dev-python/extras[${PYTHON_USEDEP}]
-	dev-python/github3-py[${PYTHON_USEDEP}]
+	>=dev-python/github3-py-1.1.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-pubsub[${PYTHON_USEDEP}]
 	dev-python/google-re2[${PYTHON_USEDEP}]
 	dev-python/iso8601[${PYTHON_USEDEP}]
@@ -51,32 +51,32 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-http[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
 	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pbr-1.1.0[${PYTHON_USEDEP}]
 	dev-python/prometheus-client[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/python-daemon[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-daemon-2.0.4[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/routes[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/statsd[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/statsd-3.0[${PYTHON_USEDEP}]
+	<dev-python/tzlocal-3.0[${PYTHON_USEDEP}]
+	>dev-python/urllib3-1.25.4[${PYTHON_USEDEP}]
+	>dev-python/virtualenv-20.0[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.10.2[${PYTHON_USEDEP}]
 	dev-python/ws4py[${PYTHON_USEDEP}]
 	test? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
 	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/fixtures[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-3.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/fixtures-0.3.14[${PYTHON_USEDEP}] )
 	test? ( dev-python/graphene[${PYTHON_USEDEP}] )
 	test? ( dev-python/moto[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-1.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testtools-0.9.32[${PYTHON_USEDEP}] )
 	zuul_base? ( dev-python/objgraph[${PYTHON_USEDEP}] )
 	zuul_base? ( dev-python/python-logstash-async[${PYTHON_USEDEP}] )
 	zuul_base? ( dev-python/yappi[${PYTHON_USEDEP}] )"

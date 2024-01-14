@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ecdsa[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ecdsa-0.15[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/base58grs[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/cashaddress[${PYTHON_USEDEP}]
 	dev-python/groestlcoin-hash[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

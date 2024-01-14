@@ -29,18 +29,18 @@ DEPENDENCIES="dev-python/i3ipc[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/exceptiongroup[${PYTHON_USEDEP}]
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.14[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/yapf-0.32[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.25[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev_extra? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	dev_extra? ( ~dev-python/ipython-8.14[${PYTHON_USEDEP}] )
 	dev_extra? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	dev_extra? ( dev-python/rich[${PYTHON_USEDEP}] )
 	dev_extra? ( dev-python/pyflyby[${PYTHON_USEDEP}] )
-	dev_extra? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	dev_extra? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	dev_extra? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )"
+	dev_extra? ( ~dev-python/jupyterlab-4.0[${PYTHON_USEDEP}] )
+	dev_extra? ( ~dev-python/ipykernel-6.13[${PYTHON_USEDEP}] )
+	dev_extra? ( ~dev-python/ipywidgets-7.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

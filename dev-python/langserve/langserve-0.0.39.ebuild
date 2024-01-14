@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all client server"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	client? ( dev-python/httpx-sse[${PYTHON_USEDEP}] )
 	all? ( dev-python/httpx-sse[${PYTHON_USEDEP}] )
 	dev-python/langchain[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/orjson-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.0[${PYTHON_USEDEP}]
 	server? ( dev-python/sse-starlette[${PYTHON_USEDEP}] )
 	all? ( dev-python/sse-starlette[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

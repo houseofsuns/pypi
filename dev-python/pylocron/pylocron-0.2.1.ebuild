@@ -26,40 +26,40 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs quality test"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.1.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/fastprogress[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.3.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.9.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydocstyle-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/furo-2022.3.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinxemoji-0.1.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-copybutton-0.3.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/furo-2022.3.4[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxemoji-0.1.8[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.3.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	quality? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	quality? ( dev-python/isort[${PYTHON_USEDEP}] )
-	quality? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	quality? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/markdown-3.4.0[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/flake8-3.9.0[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/pydocstyle-6.0.0[${PYTHON_USEDEP}] )
+	quality? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.3.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

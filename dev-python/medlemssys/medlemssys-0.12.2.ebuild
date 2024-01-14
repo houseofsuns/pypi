@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/reportlab[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.0[${PYTHON_USEDEP}]
 	dev-python/django-reversion[${PYTHON_USEDEP}]
 	dev-python/django-reversion-compare[${PYTHON_USEDEP}]
 	production? ( dev-python/django-gunicorn[${PYTHON_USEDEP}] )

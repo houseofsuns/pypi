@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/requests-2.29.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.16.2[${PYTHON_USEDEP}]
+	<dev-python/argcomplete-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

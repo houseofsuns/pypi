@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev lxml"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/appdirs-1.4[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.27[${PYTHON_USEDEP}]
+	~dev-python/requests-cache-0.9.8[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/doc8[${PYTHON_USEDEP}] )
@@ -39,17 +39,17 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev? ( dev-python/openpyxl-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-45.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-scm-6.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/syrupy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-appdirs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-freezegun[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	lxml? ( dev-python/lxml[${PYTHON_USEDEP}] )"
+	lxml? ( >=dev-python/lxml-3.7.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

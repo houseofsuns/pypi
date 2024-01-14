@@ -26,28 +26,28 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
 	dev-python/graphql-relay[${PYTHON_USEDEP}]
-	dev-python/aniso8601[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	<dev-python/aniso8601-10.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/snapshottest[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-asyncio-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/snapshottest-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/iso8601[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mock-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytz-2022.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/iso8601-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/snapshottest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-asyncio-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/snapshottest-1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	test? ( dev-python/iso8601[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/mock-5.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytz-2022.1[${PYTHON_USEDEP}] )
+	test? ( <dev-python/iso8601-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="oclgrind pocl test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pytools[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
+	>=dev-python/pytools-2021.2.7[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-2.2.0[${PYTHON_USEDEP}]
 	oclgrind? ( dev-python/oclgrind-binary-distribution[${PYTHON_USEDEP}] )
 	pocl? ( dev-python/pocl-binary-distribution[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/Mako[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

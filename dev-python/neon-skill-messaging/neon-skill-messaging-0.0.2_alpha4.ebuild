@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/phonenumbers[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/phonenumbers-8.12[${PYTHON_USEDEP}]
 	dev-python/neon-utils[${PYTHON_USEDEP}]
 	dev-python/ovos-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

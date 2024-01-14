@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev? ( dev-python/maturin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/parameterized-0.9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

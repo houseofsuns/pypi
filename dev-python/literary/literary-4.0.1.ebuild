@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/jupyter-core[${PYTHON_USEDEP}]
-	dev-python/nbclient[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/ipython-7.33.0[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-core-4.7[${PYTHON_USEDEP}]
+	>=dev-python/nbclient-0.5.12[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-6.0[${PYTHON_USEDEP}]
+	>=dev-python/nbformat-5.0[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

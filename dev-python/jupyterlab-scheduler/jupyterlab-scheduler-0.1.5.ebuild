@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyterlab[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jupyterlab-3.1.4[${PYTHON_USEDEP}]
 	dev-python/python-crontab[${PYTHON_USEDEP}]
 	dev-python/papermill[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

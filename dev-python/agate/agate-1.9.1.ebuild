@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/leather[${PYTHON_USEDEP}]
-	dev-python/parsedatetime[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/pytimeparse[${PYTHON_USEDEP}]
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/cssselect[${PYTHON_USEDEP}] )
-	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/Babel-2.0[${PYTHON_USEDEP}]
+	>=dev-python/isodate-0.5.4[${PYTHON_USEDEP}]
+	>=dev-python/leather-0.3.2[${PYTHON_USEDEP}]
+	>=dev-python/parsedatetime-2.1[${PYTHON_USEDEP}]
+	>=dev-python/python-slugify-1.2.1[${PYTHON_USEDEP}]
+	>=dev-python/pytimeparse-1.1.5[${PYTHON_USEDEP}]
+	test? ( >=dev-python/coverage-3.7.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/cssselect-0.9.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/lxml-3.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyICU[${PYTHON_USEDEP}] )"

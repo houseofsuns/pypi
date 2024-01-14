@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ja ko"
 DEPENDENCIES="dev-python/portalocker[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	ja? ( dev-python/mecab-python3[${PYTHON_USEDEP}] )

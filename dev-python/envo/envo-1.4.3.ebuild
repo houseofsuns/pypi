@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/prompt_toolkit[${PYTHON_USEDEP}]
 	dev-python/rhei[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	<dev-python/pygments-3.0[${PYTHON_USEDEP}]
 	dev-python/xonsh[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	<dev-python/watchdog-3.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/globmatch[${PYTHON_USEDEP}]
 	dev-python/envium[${PYTHON_USEDEP}]"

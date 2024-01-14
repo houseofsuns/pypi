@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/multipledispatch[${PYTHON_USEDEP}]
 	dev-python/pyconfigurator[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

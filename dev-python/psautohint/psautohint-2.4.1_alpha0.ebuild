@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/fonttools[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/fonttools-4.22.0[${PYTHON_USEDEP}]
+	testing? ( <dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-xdist-2.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

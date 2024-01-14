@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/motor[${PYTHON_USEDEP}]
 	dev-python/aioredis[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp-session[${PYTHON_USEDEP}]
 	dev-python/Bubot-Core[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

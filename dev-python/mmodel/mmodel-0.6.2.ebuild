@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/networkx-2.8.3[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/graphviz-0.16[${PYTHON_USEDEP}]
+	>=dev-python/tox-3.24.5[${PYTHON_USEDEP}]
 	dev-python/tox-conda[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/pydata-sphinx-theme-0.13.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.9.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

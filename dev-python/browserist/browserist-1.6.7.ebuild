@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/chromedriver[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/keyring[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	~dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/selenium-4.16.0[${PYTHON_USEDEP}]
+	testing? ( ~dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/keyring-24.3.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/tox-4.11.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

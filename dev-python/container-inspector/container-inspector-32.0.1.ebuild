@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-6.7[${PYTHON_USEDEP}]
+	>=dev-python/attrs-18.1[${PYTHON_USEDEP}]
 	dev-python/dockerfile-parse[${PYTHON_USEDEP}]
 	dev-python/commoncode[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/doc8-0.8.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-xdist-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/aboutcode-toolkit[${PYTHON_USEDEP}] )
 	testing? ( dev-python/black[${PYTHON_USEDEP}] )
 	testing? ( dev-python/twine[${PYTHON_USEDEP}] )"

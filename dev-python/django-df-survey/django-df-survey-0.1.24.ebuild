@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.12.0[${PYTHON_USEDEP}]
 	dev-python/django-df-api-drf[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/django-hashid-field[${PYTHON_USEDEP}]
@@ -36,10 +36,10 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-df-notifications[${PYTHON_USEDEP}]
 	dev-python/django-dbtemplates[${PYTHON_USEDEP}]
 	dev-python/django-admin-autocomplete-filter[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-23.7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/httpretty[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

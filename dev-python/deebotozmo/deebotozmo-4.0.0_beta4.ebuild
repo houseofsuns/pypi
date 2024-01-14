@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
 DEPENDENCIES="dev-python/gmqtt[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )"
+	~dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	~dev-python/cachetools-4.2.4[${PYTHON_USEDEP}]
+	cli? ( ~dev-python/click-8.0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,12 +33,12 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/pyshp[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-2.1.0[${PYTHON_USEDEP}]
 	dev-python/usgs[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
+	<dev-python/jsonpath-ng-1.6.0[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/whoosh[${PYTHON_USEDEP}]
 	dev-python/pystac[${PYTHON_USEDEP}]
@@ -46,10 +46,10 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/cdsapi[${PYTHON_USEDEP}]
 	dev-python/stream-zip[${PYTHON_USEDEP}]
 	dev-python/requests-ftp[${PYTHON_USEDEP}]
-	dev-python/owslib[${PYTHON_USEDEP}]
+	<dev-python/owslib-0.26[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/py[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/py-1.8.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-socket[${PYTHON_USEDEP}] )
@@ -61,14 +61,14 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/responses-0.24.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/ipython-8.7.0[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/eodag-cube[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/jupyter[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/numpy-1.0[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.6[${PYTHON_USEDEP}]
+	>=dev-python/lark-1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

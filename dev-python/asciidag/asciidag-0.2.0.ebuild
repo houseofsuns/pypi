@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/py[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint-venv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
-	dev? ( dev-python/zipp[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/more-itertools-6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/py-1.4.29[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pydocstyle-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylint-venv-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pyparsing-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/zipp-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pylint-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

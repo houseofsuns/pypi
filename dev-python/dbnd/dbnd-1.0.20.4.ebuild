@@ -27,38 +27,38 @@ IUSE="jupyter test-pandas test-spark2 test-spark3 tests"
 DEPENDENCIES="dev-python/tzlocal[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>dev-python/attrs-21.1.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/pytzdata[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.0[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.6.1[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/sqlparse[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	jupyter? ( dev-python/qtconsole[${PYTHON_USEDEP}] )
+	jupyter? ( ~dev-python/qtconsole-4.7.7[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/traitlets[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/traitlets-5.0.0[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyter-contrib-nbextensions[${PYTHON_USEDEP}] )
-	test-pandas? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	test-pandas? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test-pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test-pandas? ( dev-python/tables[${PYTHON_USEDEP}] )
+	test-pandas? ( ~dev-python/openpyxl-2.6.4[${PYTHON_USEDEP}] )
+	test-pandas? ( <dev-python/numpy-1.23[${PYTHON_USEDEP}] )
+	test-pandas? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	test-pandas? ( ~dev-python/tables-3.7.0[${PYTHON_USEDEP}] )
 	test-pandas? ( dev-python/feather-format[${PYTHON_USEDEP}] )
 	test-pandas? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	test-pandas? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	test-pandas? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	test-pandas? ( ~dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
 	test-spark2? ( dev-python/pytest-spark[${PYTHON_USEDEP}] )
 	test-spark3? ( dev-python/pytest-spark[${PYTHON_USEDEP}] )
 	test-spark3? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tox[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/tox-3.12.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-4.5.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

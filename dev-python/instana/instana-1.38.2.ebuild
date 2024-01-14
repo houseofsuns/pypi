@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/autowrapt[${PYTHON_USEDEP}]
 	dev-python/basictracer[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2018.4.16[${PYTHON_USEDEP}]
 	dev-python/fysom[${PYTHON_USEDEP}]
 	dev-python/opentracing[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-1.27[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

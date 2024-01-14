@@ -27,15 +27,15 @@ IUSE="tests"
 DEPENDENCIES="dev-python/dvc[${PYTHON_USEDEP}]
 	dev-python/webdav4[${PYTHON_USEDEP}]
 	tests? ( dev-python/dvc[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flaky[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-xdist-2.4.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flaky-3.7.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/wsgidav[${PYTHON_USEDEP}] )
-	tests? ( dev-python/cheroot[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/cheroot-8.6.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pylint-2.15.9[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

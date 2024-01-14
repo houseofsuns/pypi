@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-6.0[${PYTHON_USEDEP}]
 	dev-python/django-htmx[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]
 	dev-python/typeguard[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-django[${PYTHON_USEDEP}]
-	dev-python/pytest-xdist[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-django-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-xdist-4.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/linkify-it-py-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/myst-parser-0.17.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/furo-2022.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/toml[${PYTHON_USEDEP}] )
 	dev-python/pytest-watcher[${PYTHON_USEDEP}]

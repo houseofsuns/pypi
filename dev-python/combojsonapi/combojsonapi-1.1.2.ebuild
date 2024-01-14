@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.2.1[${PYTHON_USEDEP}]
 	dev-python/marshmallow-jsonapi[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/apispec[${PYTHON_USEDEP}]
+	<dev-python/apispec-5.0[${PYTHON_USEDEP}]
 	dev-python/flask-combo-jsonapi[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"

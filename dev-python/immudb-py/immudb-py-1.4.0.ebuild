@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/grpcio-1.31.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/google-api[${PYTHON_USEDEP}]
-	dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]"
+	>=dev-python/google-api-core-1.22.1[${PYTHON_USEDEP}]
+	>=dev-python/ecdsa-0.16.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

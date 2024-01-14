@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop gevent"
-DEPENDENCIES="develop? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	develop? ( dev-python/twine[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pylama[${PYTHON_USEDEP}] )
-	develop? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	develop? ( dev-python/tox[${PYTHON_USEDEP}] )
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
+DEPENDENCIES="develop? ( ~dev-python/wheel-0.41[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pytest-asyncio-0.21[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pylama-8.4[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/mypy-1.5[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/tox-4.11[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/coverage-7.3[${PYTHON_USEDEP}] )
 	develop? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	gevent? ( dev-python/gevent[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

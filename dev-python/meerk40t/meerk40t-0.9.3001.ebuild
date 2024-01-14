@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cam camhead dxf gui"
-DEPENDENCIES="dev-python/pyusb[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyusb-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/wxPython[${PYTHON_USEDEP}] )

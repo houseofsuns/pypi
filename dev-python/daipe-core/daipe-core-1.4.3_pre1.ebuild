@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/pyfony-bundles[${PYTHON_USEDEP}]
 	dev-python/injecta[${PYTHON_USEDEP}]
 	dev-python/logger-bundle[${PYTHON_USEDEP}]
 	dev-python/console-bundle[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]"
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

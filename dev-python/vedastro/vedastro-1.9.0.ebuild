@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pycparser[${PYTHON_USEDEP}]
-	dev-python/pythonnet[${PYTHON_USEDEP}]
+	<dev-python/pythonnet-4.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

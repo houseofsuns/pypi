@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hive"
-DEPENDENCIES="dev-python/paramiko[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/paramiko-3.0.0[${PYTHON_USEDEP}]
 	hive? ( dev-python/scp[${PYTHON_USEDEP}] )
 	hive? ( dev-python/PyHive[${PYTHON_USEDEP}] )
-	dev-python/pandas[${PYTHON_USEDEP}]
-	hive? ( dev-python/thrift[${PYTHON_USEDEP}] )
+	<=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
+	hive? ( <dev-python/thrift-0.16.0[${PYTHON_USEDEP}] )
 	hive? ( dev-python/sasl[${PYTHON_USEDEP}] )
 	hive? ( dev-python/thrift-sasl[${PYTHON_USEDEP}] )
-	dev-python/colorama[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-cloud-logging[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	~dev-python/elasticsearch-7.17.7[${PYTHON_USEDEP}]
+	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

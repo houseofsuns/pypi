@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="browser django"
-DEPENDENCIES="dev-python/bandit[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/bandit-1.7.5[${PYTHON_USEDEP}]
+	~dev-python/coverage-7.2.7[${PYTHON_USEDEP}]
+	~dev-python/isort-5.12.0[${PYTHON_USEDEP}]
+	~dev-python/mypy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/pip-licenses[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]
-	dev-python/pydocstyle[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/pytest-mock[${PYTHON_USEDEP}]
+	~dev-python/pycodestyle-2.10.0[${PYTHON_USEDEP}]
+	~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}]
+	~dev-python/pylint-2.17.4[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}]
 	dev-python/pytest-mypy[${PYTHON_USEDEP}]
-	dev-python/pytest-xdist[${PYTHON_USEDEP}]
+	~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
 	dev-python/logikal-utils[${PYTHON_USEDEP}]
 	dev-python/pyorbs[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	browser? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	django? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	~dev-python/termcolor-2.3[${PYTHON_USEDEP}]
+	browser? ( ~dev-python/selenium-4.10.0[${PYTHON_USEDEP}] )
+	django? ( ~dev-python/Babel-2.12[${PYTHON_USEDEP}] )
 	django? ( dev-python/Django[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-migration-linter[${PYTHON_USEDEP}] )
 	django? ( dev-python/djlint[${PYTHON_USEDEP}] )
 	django? ( dev-python/pylint-django[${PYTHON_USEDEP}] )
-	django? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
+	django? ( ~dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}] )
 	django? ( dev-python/pytest-factoryboy[${PYTHON_USEDEP}] )
-	django? ( dev-python/requests[${PYTHON_USEDEP}] )
+	django? ( ~dev-python/requests-2.28[${PYTHON_USEDEP}] )
 	django? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	django? ( dev-python/logikal-utils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

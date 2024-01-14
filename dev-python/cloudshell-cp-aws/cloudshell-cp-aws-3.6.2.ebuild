@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-40.0[${PYTHON_USEDEP}]
 	dev-python/cloudshell-automation-api[${PYTHON_USEDEP}]
 	dev-python/cloudshell-shell-core[${PYTHON_USEDEP}]
 	dev-python/cloudshell-cp-core[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	~dev-python/boto3-1.17[${PYTHON_USEDEP}]
+	~dev-python/netaddr-0.7.19[${PYTHON_USEDEP}]
+	~dev-python/jsonpickle-1.0[${PYTHON_USEDEP}]
+	~dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.2[${PYTHON_USEDEP}]
+	~dev-python/cryptography-3.2.0[${PYTHON_USEDEP}]
+	~dev-python/attrs-21.2[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

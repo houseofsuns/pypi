@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/eth-account[${PYTHON_USEDEP}]
 	dev-python/noraise[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-59.6.0[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	dev-python/web3-erc20-predefined[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

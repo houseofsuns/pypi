@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/nygen-default[${PYTHON_USEDEP}]
 	dev-python/nypi[${PYTHON_USEDEP}]
 	dev-python/nconf[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/autopep8-1.5.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

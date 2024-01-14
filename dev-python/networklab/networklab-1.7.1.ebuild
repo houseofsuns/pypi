@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]
+	>=dev-python/netaddr-0.8.0[${PYTHON_USEDEP}]
+	~dev-python/python-box-7.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.10[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

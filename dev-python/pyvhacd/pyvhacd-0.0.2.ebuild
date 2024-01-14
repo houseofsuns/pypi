@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/pybind11[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pybind11-2.2[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )"

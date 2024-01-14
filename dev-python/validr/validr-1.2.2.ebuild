@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/idna-2.5[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

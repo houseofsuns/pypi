@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	all? ( dev-python/interrogate[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	build? ( dev-python/cython[${PYTHON_USEDEP}] )
@@ -68,7 +68,7 @@ DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/interrogate[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/yapf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

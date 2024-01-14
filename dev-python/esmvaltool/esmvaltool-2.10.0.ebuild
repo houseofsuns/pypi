@@ -49,11 +49,11 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/nc-time-axis[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-2.1[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/progressbar2[${PYTHON_USEDEP}]
 	dev-python/psyplot[${PYTHON_USEDEP}]
@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/seawater[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.12.0[${PYTHON_USEDEP}]
 	dev-python/xesmf[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	dev-python/xlsxwriter[${PYTHON_USEDEP}]
@@ -83,27 +83,27 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	develop? ( dev-python/yamllint[${PYTHON_USEDEP}] )
 	develop? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-3.9[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-metadata[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-metadata-1.5.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	develop? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	develop? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.9[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-metadata[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-metadata-1.5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

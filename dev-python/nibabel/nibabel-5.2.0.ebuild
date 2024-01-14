@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev dicom dicomfs doc doctest minc2 spm style test typing zstd"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/packaging-17.0[${PYTHON_USEDEP}]
 	all? ( dev-python/nibabel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dicom? ( dev-python/pydicom[${PYTHON_USEDEP}] )
 	dicomfs? ( dev-python/nibabel[${PYTHON_USEDEP}] )
 	dicomfs? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/matplotlib-1.5.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/texext[${PYTHON_USEDEP}] )

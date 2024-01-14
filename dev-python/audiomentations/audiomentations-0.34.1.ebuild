@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extras"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	dev-python/soxr[${PYTHON_USEDEP}]
 	extras? ( dev-python/cylimiter[${PYTHON_USEDEP}] )
 	extras? ( dev-python/lameenc[${PYTHON_USEDEP}] )

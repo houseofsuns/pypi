@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/PyEnchant[${PYTHON_USEDEP}]
 	dev-python/Sphinx[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="instruments test"
 DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-dbapi[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
-	instruments? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	instruments? ( <dev-python/mysqlclient-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-mysqlclient[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

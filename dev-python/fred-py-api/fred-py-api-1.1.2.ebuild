@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	ci? ( dev-python/black[${PYTHON_USEDEP}] )
-	ci? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/requests-2.17.3[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
+	ci? ( ~dev-python/black-22.6.0[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/coverage-6.4.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-6.4.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.25.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

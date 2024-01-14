@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/grpcio-1.51.1[${PYTHON_USEDEP}]
+	~dev-python/grpcio-tools-1.51.1[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/types-protobuf[${PYTHON_USEDEP}]
 	dev-python/mypy-protobuf[${PYTHON_USEDEP}]
 	dev-python/bech32[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/protobuf-init[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/bip32[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
+	~dev-python/ecdsa-0.18.0[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
 	dev-python/importlib[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	<dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	dev-python/ripemd-hash[${PYTHON_USEDEP}]
 	dev-python/binance-connector[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

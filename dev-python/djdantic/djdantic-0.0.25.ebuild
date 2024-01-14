@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.8[${PYTHON_USEDEP}]
 	dev-python/python-jose[${PYTHON_USEDEP}]
 	dev-python/sentry-tools[${PYTHON_USEDEP}]
 	dev-python/async-sync-tools[${PYTHON_USEDEP}]"

@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="hid"
 DEPENDENCIES="dev-python/bip32[${PYTHON_USEDEP}]
 	dev-python/coincurve[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7[${PYTHON_USEDEP}]
 	dev-python/ledgercomm[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	hid? ( dev-python/hidapi[${PYTHON_USEDEP}] )"
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	hid? ( >=dev-python/hidapi-0.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

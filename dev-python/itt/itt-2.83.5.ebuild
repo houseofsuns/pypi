@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/future-0.16.0[${PYTHON_USEDEP}]
 	dev-python/better-exceptions[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-17.4.0[${PYTHON_USEDEP}]
 	dev-python/apiutil[${PYTHON_USEDEP}]
 	dev-python/cachingutil[${PYTHON_USEDEP}]
 	dev-python/classutils[${PYTHON_USEDEP}]
@@ -49,10 +49,10 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/timingsutil[${PYTHON_USEDEP}]
 	dev-python/uiutil[${PYTHON_USEDEP}]
 	dev-python/voicerss-tts[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]"
+	>=dev-python/pyserial-3.4[${PYTHON_USEDEP}]
+	>=dev-python/psutil-4.3.1[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-2.4.0[${PYTHON_USEDEP}]
+	~dev-python/pycountry-18.5.26[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.32.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

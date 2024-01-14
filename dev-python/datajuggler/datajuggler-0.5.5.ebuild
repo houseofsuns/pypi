@@ -26,27 +26,27 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bson cloudpack database dill emoji msgpack pandas phpserialize requests serializer serpent toml xml yaml"
 DEPENDENCIES="dev-python/multimethod[${PYTHON_USEDEP}]
 	dev-python/Serialize[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-36.0.0[${PYTHON_USEDEP}]
 	bson? ( dev-python/bson[${PYTHON_USEDEP}] )
-	cloudpack? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
+	cloudpack? ( >=dev-python/cloudpickle-2.2.0[${PYTHON_USEDEP}] )
 	database? ( dev-python/dataset[${PYTHON_USEDEP}] )
-	dill? ( dev-python/dill[${PYTHON_USEDEP}] )
-	emoji? ( dev-python/emoji[${PYTHON_USEDEP}] )
-	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dill? ( >=dev-python/dill-0.5.10[${PYTHON_USEDEP}] )
+	emoji? ( ~dev-python/emoji-2.1.0[${PYTHON_USEDEP}] )
+	msgpack? ( >=dev-python/msgpack-1.0.4[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	phpserialize? ( dev-python/phpserialize[${PYTHON_USEDEP}] )
-	requests? ( dev-python/requests[${PYTHON_USEDEP}] )
+	requests? ( >=dev-python/requests-2.27.0[${PYTHON_USEDEP}] )
 	serializer? ( dev-python/bson[${PYTHON_USEDEP}] )
-	serializer? ( dev-python/dill[${PYTHON_USEDEP}] )
+	serializer? ( >=dev-python/dill-6.0[${PYTHON_USEDEP}] )
 	serializer? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	serializer? ( dev-python/phpserialize[${PYTHON_USEDEP}] )
-	serializer? ( dev-python/serpent[${PYTHON_USEDEP}] )
+	serializer? ( >=dev-python/serpent-1.4.1[${PYTHON_USEDEP}] )
 	serializer? ( dev-python/toml[${PYTHON_USEDEP}] )
-	serializer? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
-	serializer? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	serpent? ( dev-python/serpent[${PYTHON_USEDEP}] )
+	serializer? ( >=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}] )
+	serializer? ( >=dev-python/cloudpickle-2.2.0[${PYTHON_USEDEP}] )
+	serpent? ( >=dev-python/serpent-1.4.1[${PYTHON_USEDEP}] )
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
-	xml? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
+	xml? ( >=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

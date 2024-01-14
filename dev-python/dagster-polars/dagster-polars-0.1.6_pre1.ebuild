@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="deltalake gcp"
 DEPENDENCIES="dev-python/dagster[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	deltalake? ( dev-python/deltalake[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/dagster-gcp[${PYTHON_USEDEP}] )
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]"

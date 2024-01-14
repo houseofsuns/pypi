@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/pytool[${PYTHON_USEDEP}]
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/coverage-4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

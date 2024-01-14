@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/miniirc[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]"
+	<dev-python/deprecated-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

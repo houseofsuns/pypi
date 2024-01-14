@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ijson[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.18.0[${PYTHON_USEDEP}]
 	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
 	dev-python/uritools[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]

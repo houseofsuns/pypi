@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/PySimpleGUI[${PYTHON_USEDEP}]
 	dev-python/abstract-utilities[${PYTHON_USEDEP}]
 	dev-python/abstract-webtools[${PYTHON_USEDEP}]
 	dev-python/hexbytes[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

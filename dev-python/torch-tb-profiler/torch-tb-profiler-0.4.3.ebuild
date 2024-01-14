@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="blob gs hdfs s3"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	blob? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	gs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )

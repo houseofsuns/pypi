@@ -25,33 +25,33 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all formulae plotting pubchem toxnet"
 DEPENDENCIES="dev-python/apeye[${PYTHON_USEDEP}]
-	dev-python/cachecontrol[${PYTHON_USEDEP}]
+	>=dev-python/cachecontrol-0.13.1[${PYTHON_USEDEP}]
 	dev-python/domdf-python-tools[${PYTHON_USEDEP}]
 	dev-python/enum-tools[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.8.0[${PYTHON_USEDEP}]
 	dev-python/memoized-property[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/quantities[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/quantities-0.12.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1.1[${PYTHON_USEDEP}]
 	pubchem? ( dev-python/cawdrey[${PYTHON_USEDEP}] )
 	pubchem? ( dev-python/mathematical[${PYTHON_USEDEP}] )
-	pubchem? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	pubchem? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
-	pubchem? ( dev-python/tabulate[${PYTHON_USEDEP}] )
+	pubchem? ( >=dev-python/pillow-9.0.0[${PYTHON_USEDEP}] )
+	pubchem? ( >=dev-python/pyparsing-2.4.6[${PYTHON_USEDEP}] )
+	pubchem? ( >=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}] )
 	formulae? ( dev-python/cawdrey[${PYTHON_USEDEP}] )
 	formulae? ( dev-python/mathematical[${PYTHON_USEDEP}] )
-	formulae? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
-	formulae? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	toxnet? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
+	formulae? ( >=dev-python/pyparsing-2.4.6[${PYTHON_USEDEP}] )
+	formulae? ( >=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}] )
+	toxnet? ( >=dev-python/beautifulsoup4-4.7.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/beautifulsoup4-4.7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/cawdrey[${PYTHON_USEDEP}] )
 	all? ( dev-python/mathematical[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
-	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pillow-9.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyparsing-2.4.6[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

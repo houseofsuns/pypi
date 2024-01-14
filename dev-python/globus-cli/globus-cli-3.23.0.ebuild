@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/globus-sdk[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
-	test? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/packaging-17.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.3.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/coverage-7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-xdist-3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-timeout-2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/responses-0.23.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/ruamel-yaml-0.17.32[${PYTHON_USEDEP}] )
 	test? ( dev-python/click-type-test[${PYTHON_USEDEP}] )
 	test? ( dev-python/setuptools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

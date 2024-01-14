@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-43.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-scm-6.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}]
 	dev-python/sphinx-automodapi[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

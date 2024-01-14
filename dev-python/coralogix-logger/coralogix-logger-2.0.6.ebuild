@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	development? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	development? ( dev-python/twine[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	development? ( >=dev-python/wheel-0.31.0[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/twine-3.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

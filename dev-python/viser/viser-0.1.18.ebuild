@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev examples"
-DEPENDENCIES="dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/websockets-10.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyliblzfse[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.0.0[${PYTHON_USEDEP}]
 	dev-python/tyro[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/trimesh[${PYTHON_USEDEP}]
-	dev-python/nodeenv[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.3.3[${PYTHON_USEDEP}]
+	>=dev-python/trimesh-3.21.7[${PYTHON_USEDEP}]
+	>=dev-python/nodeenv-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
 	dev-python/yourdfpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	examples? ( dev-python/smplx[${PYTHON_USEDEP}] )
 	examples? ( dev-python/torch[${PYTHON_USEDEP}] )
-	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	examples? ( >=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

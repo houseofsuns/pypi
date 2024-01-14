@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.8[${PYTHON_USEDEP}]
 	dev-python/starlette[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
 	dev-python/pymongo[${PYTHON_USEDEP}]

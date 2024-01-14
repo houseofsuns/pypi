@@ -27,7 +27,7 @@ IUSE="instruments test"
 DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
-	instruments? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	instruments? ( >=dev-python/httpx-0.18.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-httpx[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )"

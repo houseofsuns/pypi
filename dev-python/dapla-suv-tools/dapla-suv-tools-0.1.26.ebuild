@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/dapla-toolbelt[${PYTHON_USEDEP}]
 	dev-python/ssb-altinn3-util[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

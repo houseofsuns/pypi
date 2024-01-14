@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="codestyle testing"
 DEPENDENCIES="dev-python/django-contrib-comments[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/django-2.2[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-2.0[${PYTHON_USEDEP}]
+	>=dev-python/bleach-5.0[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.5.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-1.3[${PYTHON_USEDEP}]
+	>=dev-python/pillow-7.0[${PYTHON_USEDEP}]
+	>=dev-python/chardet-4.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2021.1[${PYTHON_USEDEP}]
 	dev-python/filebrowser-safe[${PYTHON_USEDEP}]
 	dev-python/grappelli-safe[${PYTHON_USEDEP}]
-	codestyle? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	codestyle? ( dev-python/black[${PYTHON_USEDEP}] )
-	codestyle? ( dev-python/isort[${PYTHON_USEDEP}] )
-	codestyle? ( dev-python/pyupgrade[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	codestyle? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	codestyle? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	codestyle? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
+	codestyle? ( <dev-python/pyupgrade-3.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-django-5.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

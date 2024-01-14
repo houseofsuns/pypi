@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/rioxarray[${PYTHON_USEDEP}]
 	dev-python/pvlib[${PYTHON_USEDEP}]
 	dev-python/pyproj[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
+	<dev-python/coverage-6.3[${PYTHON_USEDEP}]
 	dev-python/pytest-cov[${PYTHON_USEDEP}]
 	dev-python/ocf-blosc2[${PYTHON_USEDEP}]
 	dev-python/jedi[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/rioxarray[${PYTHON_USEDEP}]
 	dev-python/nowcasting-datamodel[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pyaml-env[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	~dev-python/fsspec-2023.1.0[${PYTHON_USEDEP}]
 	full? ( dev-python/black[${PYTHON_USEDEP}] )
 	full? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	full? ( dev-python/gcsfs[${PYTHON_USEDEP}] )

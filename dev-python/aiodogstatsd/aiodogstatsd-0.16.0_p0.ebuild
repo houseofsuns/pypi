@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp starlette"
-DEPENDENCIES="aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	starlette? ( dev-python/starlette[${PYTHON_USEDEP}] )"
+DEPENDENCIES="aiohttp? ( >=dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )
+	starlette? ( >=dev-python/starlette-0.13[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

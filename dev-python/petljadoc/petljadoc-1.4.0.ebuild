@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docutils-0.16[${PYTHON_USEDEP}]
+	~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}]
 	dev-python/paver[${PYTHON_USEDEP}]
 	dev-python/runestone-petljadoc[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/cyrtranslit[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/livereload[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.1[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-0.10[${PYTHON_USEDEP}]
+	>=dev-python/livereload-2.6.3[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-6.1.0[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

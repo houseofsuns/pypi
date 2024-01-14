@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/tox[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tox-3.24[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	tests? ( dev-python/packaging[${PYTHON_USEDEP}] )"

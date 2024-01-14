@@ -24,35 +24,35 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mitie spacy tensorflow test"
-DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cloudpickle-0.6.1[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/klein[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/klein-17.10[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.9[${PYTHON_USEDEP}]
+	~dev-python/packaging-18.0[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+	~dev-python/future-0.17.1[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.19[${PYTHON_USEDEP}]
+	~dev-python/requests-2.20[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-2.6[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-2.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.13[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.15.7[${PYTHON_USEDEP}]
+	~dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	mitie? ( dev-python/mitie[${PYTHON_USEDEP}] )
 	spacy? ( dev-python/sklearn-crfsuite[${PYTHON_USEDEP}] )
-	spacy? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	spacy? ( ~dev-python/scipy-1.2[${PYTHON_USEDEP}] )
 	spacy? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/sklearn-crfsuite[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	tensorflow? ( ~dev-python/scipy-1.2[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-3.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-twisted[${PYTHON_USEDEP}] )
-	test? ( dev-python/treq[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpretty[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-cov-2.5[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-twisted-1.6[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/treq-17.8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/responses-0.9.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/httpretty-0.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

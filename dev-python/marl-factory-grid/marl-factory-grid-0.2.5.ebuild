@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
+	>=dev-python/pygame-2.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/robotframework[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}]
 	dev-python/robotframework-pythonlibcore[${PYTHON_USEDEP}]
-	dev-python/pythonnet[${PYTHON_USEDEP}]"
+	~dev-python/pythonnet-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

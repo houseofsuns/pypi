@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="airflow cli full"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/tomli-w[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
+	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.18.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.4.2[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	airflow? ( dev-python/apache-airflow[${PYTHON_USEDEP}] )
 	airflow? ( dev-python/apache-airflow-providers-cncf-kubernetes[${PYTHON_USEDEP}] )
 	airflow? ( dev-python/apache-airflow-providers-docker[${PYTHON_USEDEP}] )
-	cli? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	cli? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/cryptography-39.0.1[${PYTHON_USEDEP}] )
 	cli? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
-	cli? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
-	cli? ( dev-python/docker[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/PyGithub-1.55[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/docker-6.0.1[${PYTHON_USEDEP}] )
 	cli? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
-	cli? ( dev-python/bottle[${PYTHON_USEDEP}] )
-	full? ( dev-python/bottle[${PYTHON_USEDEP}] )
-	full? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	full? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/bottle-0.12.25[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/bottle-0.12.25[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/cryptography-39.0.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
-	full? ( dev-python/docker[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/PyGithub-1.55[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/docker-6.0.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	full? ( dev-python/apache-airflow[${PYTHON_USEDEP}] )
 	full? ( dev-python/apache-airflow-providers-cncf-kubernetes[${PYTHON_USEDEP}] )

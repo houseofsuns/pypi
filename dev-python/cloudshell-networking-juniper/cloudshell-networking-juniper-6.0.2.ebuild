@@ -31,8 +31,8 @@ DEPENDENCIES="dev-python/cloudshell-shell-core[${PYTHON_USEDEP}]
 	dev-python/cloudshell-cli[${PYTHON_USEDEP}]
 	dev-python/cloudshell-snmp[${PYTHON_USEDEP}]
 	dev-python/cloudshell-snmp-autoload[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/attrs-24.0[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.12[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

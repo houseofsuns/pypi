@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="openai"
-DEPENDENCIES="dev-python/jsonref[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jsonref-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
 	openai? ( dev-python/openai[${PYTHON_USEDEP}] )
 	dev-python/polars[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	openai? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
+	<dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	openai? ( <dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/python-levenshtein[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	openai? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	openai? ( <dev-python/seaborn-0.13.0[${PYTHON_USEDEP}] )
 	dev-python/thefuzz[${PYTHON_USEDEP}]
 	openai? ( dev-python/tiktoken[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

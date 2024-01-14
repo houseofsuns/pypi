@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( >=dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	test? ( dev-python/allpairspy[${PYTHON_USEDEP}] )
-	test? ( dev-python/click[${PYTHON_USEDEP}] )
-	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/urllib3-2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/allpairspy-2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/click-6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/Faker-1.0.8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-md-report[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-discord[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs lru tests"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/aiohttp-3.6.0[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/sphinx-1.7.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-asyncio[${PYTHON_USEDEP}] )
 	lru? ( dev-python/lru-dict[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )

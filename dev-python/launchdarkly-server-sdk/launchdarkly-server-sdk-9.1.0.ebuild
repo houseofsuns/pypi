@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="consul dynamodb redis"
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/certifi-2018.4.16[${PYTHON_USEDEP}]
 	dev-python/expiringdict[${PYTHON_USEDEP}]
 	dev-python/pyRFC3339[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/semver-2.10.2[${PYTHON_USEDEP}]
+	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
 	dev-python/launchdarkly-eventsource[${PYTHON_USEDEP}]
 	consul? ( dev-python/python-consul[${PYTHON_USEDEP}] )
-	dynamodb? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	dynamodb? ( >=dev-python/boto3-1.9.71[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-2.10.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

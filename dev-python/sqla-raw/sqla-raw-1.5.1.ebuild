@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mysql pg"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
 	pg? ( dev-python/psycopg2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

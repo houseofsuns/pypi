@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.14.1[${PYTHON_USEDEP}]
 	dev-python/xgcm[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/decorator[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylint-2.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/prospector[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

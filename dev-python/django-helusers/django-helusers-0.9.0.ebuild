@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/deprecation-2.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/python-jose[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

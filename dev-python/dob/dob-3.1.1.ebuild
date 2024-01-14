@@ -36,8 +36,8 @@ DEPENDENCIES="dev-python/Inflector[${PYTHON_USEDEP}]
 	dev-python/easy-as-pypi-termio[${PYTHON_USEDEP}]
 	dev-python/human-friendly_pedantic-timedelta[${PYTHON_USEDEP}]
 	dev-python/nark[${PYTHON_USEDEP}]
-	readthedocs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	readthedocs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	readthedocs? ( dev-python/tomli[${PYTHON_USEDEP}] )"
+	readthedocs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
+	readthedocs? ( <dev-python/sphinx-rtd-theme-3.0.0[${PYTHON_USEDEP}] )
+	readthedocs? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

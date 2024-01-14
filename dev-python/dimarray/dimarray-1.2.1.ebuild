@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ecosystem netcdf plot"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.7[${PYTHON_USEDEP}]
 	ecosystem? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	netcdf? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"

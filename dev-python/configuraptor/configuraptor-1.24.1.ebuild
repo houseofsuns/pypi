@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/tomli-w[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	>=dev-python/typeguard-4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mypy-testing[${PYTHON_USEDEP}] )
 	dev? ( dev-python/su6[${PYTHON_USEDEP}] )

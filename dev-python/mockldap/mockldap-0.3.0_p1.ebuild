@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/funcparserlib[${PYTHON_USEDEP}]
-	dev-python/python-ldap[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/funcparserlib-0.3.6[${PYTHON_USEDEP}]
+	>=dev-python/python-ldap-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

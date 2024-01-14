@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/AYABInterface[${PYTHON_USEDEP}]
 	dev-python/knittingpattern[${PYTHON_USEDEP}]
 	dev-python/ObservableList[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/webcolors[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+	~dev-python/pyserial-3.1.1[${PYTHON_USEDEP}]
+	~dev-python/webcolors-1.5[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.10.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

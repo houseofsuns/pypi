@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/munch[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
+	>=dev-python/munch-2.0.0[${PYTHON_USEDEP}]
 	dev-python/glfw[${PYTHON_USEDEP}]
 	dev-python/PyOpenGL[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

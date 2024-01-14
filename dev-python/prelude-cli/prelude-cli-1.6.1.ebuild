@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/prelude-sdk[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

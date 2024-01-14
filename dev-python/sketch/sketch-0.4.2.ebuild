@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all local"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	dev-python/datasketch[${PYTHON_USEDEP}]
 	dev-python/datasketches[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]

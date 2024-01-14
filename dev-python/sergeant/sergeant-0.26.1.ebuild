@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/hiredis[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/hiredis-3.0[${PYTHON_USEDEP}]
+	<dev-python/msgpack-2.0[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
+	<dev-python/pymongo-5.0[${PYTHON_USEDEP}]
+	<dev-python/redis-5.0[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

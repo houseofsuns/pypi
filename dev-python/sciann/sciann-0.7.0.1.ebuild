@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	tests? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyux[${PYTHON_USEDEP}] )
-	visualize? ( dev-python/pydot[${PYTHON_USEDEP}] )
+	visualize? ( >=dev-python/pydot-1.2.4[${PYTHON_USEDEP}] )
 	visualize? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

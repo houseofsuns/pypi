@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/portpicker[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+	<dev-python/async-timeout-4.0[${PYTHON_USEDEP}]
 	dev-python/s2clientprotocol[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/pyglet[${PYTHON_USEDEP}]

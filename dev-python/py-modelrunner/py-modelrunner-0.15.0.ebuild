@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all test"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.45[${PYTHON_USEDEP}]
 	dev-python/numcodecs[${PYTHON_USEDEP}]
-	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/h5py-3.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-1.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	all? ( dev-python/zarr[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-19.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/isort-5.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-1.30[${PYTHON_USEDEP}] )
 	test? ( dev-python/py-pde[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/mypy-0.770[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

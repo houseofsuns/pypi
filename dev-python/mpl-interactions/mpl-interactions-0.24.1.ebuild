@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc jupyter sty test"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/matplotlib-3.4[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/ipywidgets-7.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipympl[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mpl-playback[${PYTHON_USEDEP}] )
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-gallery-0.8.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-thebe[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
@@ -50,8 +50,8 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	doc? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-1.9[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/ipywidgets-7.5.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipympl[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mpl-playback[${PYTHON_USEDEP}] )
@@ -60,12 +60,12 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-gallery-0.8.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-thebe[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
 	doc? ( dev-python/xarray[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/ipywidgets-7.5.0[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/ipympl[${PYTHON_USEDEP}] )
 	sty? ( dev-python/black[${PYTHON_USEDEP}] )
 	sty? ( dev-python/isort[${PYTHON_USEDEP}] )

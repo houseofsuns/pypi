@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all codestyle docs test"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.18[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	all? ( dev-python/pymc3[${PYTHON_USEDEP}] )
 	codestyle? ( dev-python/flake8[${PYTHON_USEDEP}] )

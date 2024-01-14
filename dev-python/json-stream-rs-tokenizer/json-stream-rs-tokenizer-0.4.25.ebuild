@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark test"
 DEPENDENCIES="benchmark? ( dev-python/json-stream-to-standard-types[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	benchmark? ( <dev-python/tqdm-5.0[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/contexttimer[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/si-prefix[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/typer[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/json-stream-rs-tokenizer[${PYTHON_USEDEP}] )
 	test? ( dev-python/json-stream[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

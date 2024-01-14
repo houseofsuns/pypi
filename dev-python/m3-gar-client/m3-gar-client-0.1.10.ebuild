@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="oauth2"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/six-2.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<=dev-python/requests-oauthlib-1.3.1[${PYTHON_USEDEP}]
+	<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/m3-core[${PYTHON_USEDEP}]
 	dev-python/m3-ui[${PYTHON_USEDEP}]
 	dev-python/m3-gar-constants[${PYTHON_USEDEP}]
-	oauth2? ( dev-python/oauthlib[${PYTHON_USEDEP}] )
-	oauth2? ( dev-python/requests-oauthlib[${PYTHON_USEDEP}] )"
+	oauth2? ( <dev-python/oauthlib-3.0[${PYTHON_USEDEP}] )
+	oauth2? ( <dev-python/requests-oauthlib-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

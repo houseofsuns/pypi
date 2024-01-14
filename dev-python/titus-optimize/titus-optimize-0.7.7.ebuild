@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/cvxpy[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
+	~dev-python/pandas-0.24.1[${PYTHON_USEDEP}]
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

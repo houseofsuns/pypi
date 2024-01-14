@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all docs test"
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]
 	all? ( dev-python/future[${PYTHON_USEDEP}] )
 	all? ( dev-python/six[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/requests-2.25[${PYTHON_USEDEP}] )
 	all? ( dev-python/msgpack[${PYTHON_USEDEP}] )
 	all? ( dev-python/tox[${PYTHON_USEDEP}] )
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )

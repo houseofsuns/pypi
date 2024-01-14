@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all casadi examples lxml sympy"
-DEPENDENCIES="dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.7[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.8.2[${PYTHON_USEDEP}]
 	all? ( dev-python/casadi[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/lxml-3.5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/sympy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-0.13.3[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/sympy-1.11[${PYTHON_USEDEP}] )
 	casadi? ( dev-python/casadi[${PYTHON_USEDEP}] )
 	examples? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	lxml? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	lxml? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	sympy? ( dev-python/sympy[${PYTHON_USEDEP}] )
-	sympy? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	lxml? ( >=dev-python/lxml-3.5.0[${PYTHON_USEDEP}] )
+	lxml? ( >=dev-python/scipy-0.13.3[${PYTHON_USEDEP}] )
+	sympy? ( <=dev-python/sympy-1.11[${PYTHON_USEDEP}] )
+	sympy? ( >=dev-python/scipy-0.13.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	testing? ( dev-python/cython[${PYTHON_USEDEP}] )
-	testing? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/cython-0.29.16[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	testing? ( >=dev-python/cython-0.29.32[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/numpy-1.23.4[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-3.27.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

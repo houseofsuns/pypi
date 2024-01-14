@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ansible"
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/pinject[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	<dev-python/prompt-toolkit-4.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
 	dev-python/blessings[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0[${PYTHON_USEDEP}]
+	<dev-python/setuptools-69.0[${PYTHON_USEDEP}]
 	ansible? ( dev-python/ansible[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

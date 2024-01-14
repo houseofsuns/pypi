@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/ovos-bus-client[${PYTHON_USEDEP}]
 	dev-python/neon-utils[${PYTHON_USEDEP}]
 	dev-python/ovos-config[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]"
+	~dev-python/click-8.0[${PYTHON_USEDEP}]
+	~dev-python/click-default-group-1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

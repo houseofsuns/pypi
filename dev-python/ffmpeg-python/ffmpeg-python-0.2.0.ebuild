@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
-	dev? ( dev-python/future[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/future-0.17.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/numpy-1.16.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-1.10.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-4.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/tox-3.12.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

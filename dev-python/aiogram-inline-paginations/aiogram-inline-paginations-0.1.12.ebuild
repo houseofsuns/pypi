@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/setuptools-66.0.0[${PYTHON_USEDEP}]
+	<dev-python/pip-23.0.0[${PYTHON_USEDEP}]
+	<dev-python/wheel-0.39.0[${PYTHON_USEDEP}]
 	dev-python/aiogram[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

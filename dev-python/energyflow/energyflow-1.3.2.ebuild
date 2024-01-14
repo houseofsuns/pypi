@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all archs examples generation tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.9.0[${PYTHON_USEDEP}]
 	dev-python/wasserstein[${PYTHON_USEDEP}]
 	all? ( dev-python/python-igraph[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

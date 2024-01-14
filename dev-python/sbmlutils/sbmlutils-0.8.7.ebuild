@@ -32,38 +32,38 @@ DEPENDENCIES="dev-python/pymetadata[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
 	dev-python/python-libsbml[${PYTHON_USEDEP}]
 	dev-python/antimony[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/xmlschema[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.10[${PYTHON_USEDEP}]
+	>=dev-python/markdown-it-py-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}]
+	>=dev-python/xmlschema-1.9.2[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.14.4[${PYTHON_USEDEP}]
+	>=dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}]
 	dev-python/py2cytoscape[${PYTHON_USEDEP}]
 	dev-python/libroadrunner[${PYTHON_USEDEP}]
 	development? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	development? ( dev-python/black[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	development? ( dev-python/isort[${PYTHON_USEDEP}] )
-	development? ( dev-python/tox[${PYTHON_USEDEP}] )
-	development? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/tox-4.6.3[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/flake8-mypy[${PYTHON_USEDEP}] )
-	development? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	development? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	development? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.4.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/ipykernel-5.4.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.8.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-autoapi-1.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

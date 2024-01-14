@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extras"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	extras? ( dev-python/pyaudio[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/httpx-0.19.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7[${PYTHON_USEDEP}]
+	>=dev-python/websockets-11.0[${PYTHON_USEDEP}]
+	extras? ( >=dev-python/pyaudio-0.2.13[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

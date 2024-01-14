@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
 	dev-python/commitizen[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+	<dev-python/flake8-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/isort-6.0.0[${PYTHON_USEDEP}]
 	dev-python/kapla-cli-core[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
+	<dev-python/mypy-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	<dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}]
 	dev-python/snakeviz[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
+	<dev-python/twine-4.0.0[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	dev-python/types-pkg-resources[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

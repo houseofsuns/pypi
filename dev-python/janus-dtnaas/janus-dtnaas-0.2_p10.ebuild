@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/virtfs[${PYTHON_USEDEP}]
 	dev-python/tcconfig[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
 	dev-python/ansible-tower-cli[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

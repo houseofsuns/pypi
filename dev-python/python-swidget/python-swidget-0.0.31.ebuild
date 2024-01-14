@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	dev-python/anyio[${PYTHON_USEDEP}]
 	dev-python/asyncclick[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	docs? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mistune[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mistune-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-programoutput-1.0[${PYTHON_USEDEP}] )
 	dev-python/ssdp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

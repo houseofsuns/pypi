@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ws"
 DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	~dev-python/iso8601-1.0.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	<dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}]
 	ws? ( dev-python/taos-ws-py[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,40 +24,40 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev fast"
-DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cachetools-4.2.4[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	~dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
 	dev-python/environ-config[${PYTHON_USEDEP}]
-	dev-python/ffmpeg-python[${PYTHON_USEDEP}]
+	~dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}]
 	dev-python/jaraco-docker[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
+	~dev-python/peewee-3.14.7[${PYTHON_USEDEP}]
 	dev-python/ping3[${PYTHON_USEDEP}]
 	dev-python/pyarr[${PYTHON_USEDEP}]
 	dev-python/qbittorrent-api[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/tomlkit-0.7.2[${PYTHON_USEDEP}]
+	all? ( ~dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyupgrade[${PYTHON_USEDEP}] )
-	all? ( dev-python/twine[${PYTHON_USEDEP}] )
-	all? ( dev-python/ujson[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pyupgrade-2.31.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/twine-3.7.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/ujson-5.4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/upgrade-pip[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyupgrade[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ujson[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyupgrade-2.31.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.7.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ujson-5.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/upgrade-pip[${PYTHON_USEDEP}] )
-	fast? ( dev-python/ujson[${PYTHON_USEDEP}] )"
+	fast? ( ~dev-python/ujson-5.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

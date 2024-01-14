@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/ipycanvas[${PYTHON_USEDEP}]
 	dev-python/ipyevents[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]"
+	~dev-python/ipywidgets-7.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

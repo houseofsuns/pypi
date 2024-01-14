@@ -24,33 +24,33 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ceilometer test"
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
-	dev-python/debtcollector[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/Babel-2.5.3[${PYTHON_USEDEP}]
+	>=dev-python/debtcollector-1.19.0[${PYTHON_USEDEP}]
 	dev-python/networking-bgpvpn[${PYTHON_USEDEP}]
 	dev-python/networking-l2gw[${PYTHON_USEDEP}]
 	dev-python/networking-sfc[${PYTHON_USEDEP}]
 	dev-python/neutron-lib[${PYTHON_USEDEP}]
 	dev-python/neutron[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	>=dev-python/pbr-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-1.28.0[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-0.47.0[${PYTHON_USEDEP}]
 	ceilometer? ( dev-python/ceilometer[${PYTHON_USEDEP}] )
 	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
-	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	test? ( dev-python/bashate[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/bandit-1.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/bashate-0.5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/ceilometer[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/doc8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/doc8-0.8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/oslotest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pecan[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/oslotest-4.4.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pecan-1.3.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.5.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
-	test? ( dev-python/testresources[${PYTHON_USEDEP}] )
-	test? ( dev-python/testscenarios[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/stestr-3.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testresources-2.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testscenarios-0.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testtools-2.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

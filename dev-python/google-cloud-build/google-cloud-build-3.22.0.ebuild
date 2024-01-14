@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/google-api-core[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
 	dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}]
-	dev-python/proto-plus[${PYTHON_USEDEP}]
+	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

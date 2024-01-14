@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/matrix-fact[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/cvxopt[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	~dev-python/cvxopt-1.2.6[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.11.1[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

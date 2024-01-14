@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pip-20.0.2[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	>=dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/cssselect[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/pyhamcrest[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]"
+	>=dev-python/pytest-5.3.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

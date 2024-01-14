@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/hypothesis[${PYTHON_USEDEP}]
+	>=dev-python/hypothesis-4.18.1[${PYTHON_USEDEP}]
 	dev-python/cffi[${PYTHON_USEDEP}]
 	dev-python/greenlet[${PYTHON_USEDEP}]
 	dev-python/py[${PYTHON_USEDEP}]"

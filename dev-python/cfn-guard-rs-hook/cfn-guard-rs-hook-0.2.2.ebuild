@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/cloudformation-cli-python-lib[${PYTHON_USEDEP}]
 	dev-python/cfn-guard-rs[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-5.5.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

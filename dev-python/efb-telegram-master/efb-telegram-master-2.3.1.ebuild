@@ -38,14 +38,14 @@ DEPENDENCIES="dev-python/ehforwarderbot[${PYTHON_USEDEP}]
 	dev-python/bullet[${PYTHON_USEDEP}]
 	dev-python/cjkwrap[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.1[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/telethon[${PYTHON_USEDEP}] )
 	tests? ( dev-python/cryptg[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-dotenv[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	tests? ( dev-python/doit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/PySocks[${PYTHON_USEDEP}] )

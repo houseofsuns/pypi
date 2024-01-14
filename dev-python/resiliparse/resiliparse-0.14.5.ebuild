@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all beam cli cli-benchmark test"
 DEPENDENCIES="dev-python/fastwarc[${PYTHON_USEDEP}]
 	all? ( dev-python/resiliparse[${PYTHON_USEDEP}] )
-	beam? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	beam? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
+	beam? ( >=dev-python/boto3-1.9[${PYTHON_USEDEP}] )
+	beam? ( >=dev-python/elasticsearch-7.0.0[${PYTHON_USEDEP}] )
 	beam? ( dev-python/apache-beam[${PYTHON_USEDEP}] )
 	cli? ( dev-python/click[${PYTHON_USEDEP}] )
 	cli? ( dev-python/joblib[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/fastwarc[${PYTHON_USEDEP}]
 	cli-benchmark? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	cli-benchmark? ( dev-python/langid[${PYTHON_USEDEP}] )
 	cli-benchmark? ( dev-python/selectolax[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

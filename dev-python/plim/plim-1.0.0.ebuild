@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Mako[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/markdown2[${PYTHON_USEDEP}]
+	>=dev-python/docutils-0.3[${PYTHON_USEDEP}]
+	>=dev-python/markdown2-1.4.2[${PYTHON_USEDEP}]
 	dev-python/PyExecJS[${PYTHON_USEDEP}]
 	dev-python/CoffeeScript[${PYTHON_USEDEP}]
 	dev-python/pyScss[${PYTHON_USEDEP}]

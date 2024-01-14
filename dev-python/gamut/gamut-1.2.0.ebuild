@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/progress[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
+	~dev-python/progress-1.6[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.9.1[${PYTHON_USEDEP}]
 	dev-python/SoundFile[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
+	~dev-python/filetype-1.2.0[${PYTHON_USEDEP}]
 	dev-python/kivy[${PYTHON_USEDEP}]
 	dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinx-copybutton[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]"
+	~dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}]
+	~dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

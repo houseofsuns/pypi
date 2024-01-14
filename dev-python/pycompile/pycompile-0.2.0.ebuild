@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cython-4.0.0[${PYTHON_USEDEP}]
 	dev-python/nuitka[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pytest-benchmark[${PYTHON_USEDEP}]
 	dev-python/memory-profiler[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

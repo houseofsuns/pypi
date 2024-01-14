@@ -27,14 +27,14 @@ IUSE="dev extras"
 DEPENDENCIES="dev-python/fastai[${PYTHON_USEDEP}]
 	dev-python/pyts[${PYTHON_USEDEP}]
 	dev-python/imbalanced-learn[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.4.8[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev? ( dev-python/nbdev[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	dev? ( >dev-python/ipykernel-6.0[${PYTHON_USEDEP}] )
 	extras? ( dev-python/sktime[${PYTHON_USEDEP}] )
 	extras? ( dev-python/tsfresh[${PYTHON_USEDEP}] )
 	extras? ( dev-python/PyWavelets[${PYTHON_USEDEP}] )
-	extras? ( dev-python/nbformat[${PYTHON_USEDEP}] )"
+	extras? ( >=dev-python/nbformat-5.1.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

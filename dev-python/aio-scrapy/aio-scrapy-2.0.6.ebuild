@@ -29,30 +29,30 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/w3lib[${PYTHON_USEDEP}]
 	dev-python/parsel[${PYTHON_USEDEP}]
 	dev-python/PyDispatcher[${PYTHON_USEDEP}]
-	dev-python/zope-interface[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	>=dev-python/zope-interface-5.1.0[${PYTHON_USEDEP}]
+	>=dev-python/redis-4.3.1[${PYTHON_USEDEP}]
 	dev-python/aiomultiprocess[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
 	aio-pika? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	aiomysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	aiomysql? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
-	all? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/httpx-0.23.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	all? ( dev-python/motor[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyhttpx[${PYTHON_USEDEP}] )
 	all? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	all? ( dev-python/XlsxWriter[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pillow-9.4.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
 	execl? ( dev-python/XlsxWriter[${PYTHON_USEDEP}] )
-	execl? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	execl? ( >=dev-python/pillow-9.4.0[${PYTHON_USEDEP}] )
+	httpx? ( >=dev-python/httpx-0.23.0[${PYTHON_USEDEP}] )
 	mongo? ( dev-python/motor[${PYTHON_USEDEP}] )
 	pg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	playwright? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	pyhttpx? ( dev-python/pyhttpx[${PYTHON_USEDEP}] )
-	requests? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	requests? ( >=dev-python/requests-2.28.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

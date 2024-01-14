@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all arbor lfpy neuroml scoop tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.6[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.18[${PYTHON_USEDEP}]
 	dev-python/deap[${PYTHON_USEDEP}]
 	dev-python/efel[${PYTHON_USEDEP}]
 	dev-python/ipyparallel[${PYTHON_USEDEP}]
-	dev-python/pickleshare[${PYTHON_USEDEP}]
+	>=dev-python/pickleshare-0.7.3[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Pebble[${PYTHON_USEDEP}]
 	dev-python/NEURON[${PYTHON_USEDEP}]

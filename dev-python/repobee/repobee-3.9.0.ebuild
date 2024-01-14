@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/argcomplete-1.12.0[${PYTHON_USEDEP}]
 	dev-python/bullet[${PYTHON_USEDEP}]
 	dev-python/daiquiri[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-8.4.0[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-0.13.1[${PYTHON_USEDEP}]
 	dev-python/pygithub[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.48.2[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.10.0.2[${PYTHON_USEDEP}]
 	dev-python/yamliny[${PYTHON_USEDEP}]
 	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.902[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/responses-0.18.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-toml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )"

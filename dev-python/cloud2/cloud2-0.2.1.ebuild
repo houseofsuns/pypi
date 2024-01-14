@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/nose[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/boto3-1.26.85[${PYTHON_USEDEP}]
+	~dev-python/nose-1.3.7[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/moto[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/openapi-spec-validator[${PYTHON_USEDEP}]"
+	~dev-python/moto-4.1.4[${PYTHON_USEDEP}]
+	~dev-python/docker-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-3.0.9[${PYTHON_USEDEP}]
+	~dev-python/openapi-spec-validator-0.5.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev examples"
 DEPENDENCIES="dev-python/general-superstaq[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	dev-python/qiskit[${PYTHON_USEDEP}]
 	dev-python/qiskit-ibm-provider[${PYTHON_USEDEP}]
-	dev-python/symengine[${PYTHON_USEDEP}]
+	~dev-python/symengine-0.11.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/checks-superstaq[${PYTHON_USEDEP}] )
-	dev? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/notebook-6.5.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylatexenc[${PYTHON_USEDEP}] )
-	examples? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	examples? ( ~dev-python/notebook-6.5.5[${PYTHON_USEDEP}] )
 	examples? ( dev-python/pylatexenc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

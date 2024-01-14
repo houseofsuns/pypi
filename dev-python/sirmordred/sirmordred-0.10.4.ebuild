@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/colorlog-4.1.0[${PYTHON_USEDEP}]
+	~dev-python/elasticsearch-6.3.1[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
 	dev-python/file-read-backwards[${PYTHON_USEDEP}]
 	dev-python/grimoirelab-toolkit[${PYTHON_USEDEP}]

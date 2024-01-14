@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
+	>=dev-python/lmfit-0.9.7[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	all? ( dev-python/asteval[${PYTHON_USEDEP}] )
 	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	all? ( dev-python/syncing[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-0.21.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	cli? ( dev-python/click[${PYTHON_USEDEP}] )
 	cli? ( dev-python/click-log[${PYTHON_USEDEP}] )
@@ -74,27 +74,27 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev? ( dev-python/asteval[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/syncing[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pandas-0.21.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gitchangelog[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mako[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-36.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-restbuilder[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nose[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ddt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	dice? ( dev-python/co2mpas-dice[${PYTHON_USEDEP}] )
-	dice? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dice? ( >=dev-python/pandas-0.21.0[${PYTHON_USEDEP}] )
 	dice? ( dev-python/dill[${PYTHON_USEDEP}] )
 	dice? ( dev-python/regex[${PYTHON_USEDEP}] )
 	dice? ( dev-python/xlref[${PYTHON_USEDEP}] )
 	dice? ( dev-python/xlrd[${PYTHON_USEDEP}] )
 	dice? ( dev-python/asteval[${PYTHON_USEDEP}] )
-	io? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	io? ( >=dev-python/pandas-0.21.0[${PYTHON_USEDEP}] )
 	io? ( dev-python/dill[${PYTHON_USEDEP}] )
 	io? ( dev-python/regex[${PYTHON_USEDEP}] )
 	io? ( dev-python/xlref[${PYTHON_USEDEP}] )
@@ -110,6 +110,6 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	plot? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	plot? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	sync? ( dev-python/syncing[${PYTHON_USEDEP}] )
-	sync? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	sync? ( >=dev-python/pandas-0.21.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

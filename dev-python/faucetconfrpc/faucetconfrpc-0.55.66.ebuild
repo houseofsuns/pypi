@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/c65faucet[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.60.0[${PYTHON_USEDEP}]
+	~dev-python/grpcio-tools-1.60.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/prometheus_client[${PYTHON_USEDEP}]
-	dev-python/pybind11[${PYTHON_USEDEP}]
+	~dev-python/pybind11-2.11.1[${PYTHON_USEDEP}]
 	dev-python/os-ken[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]"
+	<dev-python/dnspython-2.4.3[${PYTHON_USEDEP}]
+	>dev-python/pyopenssl-22.1.0[${PYTHON_USEDEP}]
+	<dev-python/cryptography-41.0.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

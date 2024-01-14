@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/django-filter[${PYTHON_USEDEP}]
 	dev-python/django-nested-admin[${PYTHON_USEDEP}]
-	dev-python/django-taggit[${PYTHON_USEDEP}]
+	<=dev-python/django-taggit-1.5.1[${PYTHON_USEDEP}]
 	dev-python/django-taggit-serializer[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	>=dev-python/pillow-7.2.0[${PYTHON_USEDEP}]
+	>=dev-python/python-magic-0.4.18[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-4.0[${PYTHON_USEDEP}]
 	dev-python/django-rest-framework[${PYTHON_USEDEP}]
 	dev-python/uritemplate[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/django-htmlmin[${PYTHON_USEDEP}]
-	dev-python/django-redis[${PYTHON_USEDEP}]
+	>=dev-python/django-redis-4.12.1[${PYTHON_USEDEP}]
 	dev-python/unicms-template-italia[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/markdownify[${PYTHON_USEDEP}]"

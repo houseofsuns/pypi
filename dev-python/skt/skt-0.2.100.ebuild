@@ -27,23 +27,23 @@ IUSE="air"
 DEPENDENCIES="dev-python/streamz[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	dev-python/thrift-sasl[${PYTHON_USEDEP}]
-	dev-python/hvac[${PYTHON_USEDEP}]
+	>=dev-python/hvac-0.9.6[${PYTHON_USEDEP}]
 	dev-python/pyhive[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	dev-python/slackclient[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
+	>=dev-python/httplib2-0.18.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/PyGithub[${PYTHON_USEDEP}]
 	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
 	dev-python/pandas-gbq[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.18[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.48.2[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
 	dev-python/hmsclient-hive_3[${PYTHON_USEDEP}]
 	dev-python/google-cloud-monitoring[${PYTHON_USEDEP}]
@@ -59,14 +59,14 @@ DEPENDENCIES="dev-python/streamz[${PYTHON_USEDEP}]
 	air? ( dev-python/plotnine[${PYTHON_USEDEP}] )
 	air? ( dev-python/shap[${PYTHON_USEDEP}] )
 	air? ( dev-python/gensim[${PYTHON_USEDEP}] )
-	air? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	air? ( ~dev-python/seaborn-0.11.1[${PYTHON_USEDEP}] )
 	air? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	air? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	air? ( ~dev-python/scipy-1.4.1[${PYTHON_USEDEP}] )
 	air? ( dev-python/lifelines[${PYTHON_USEDEP}] )
 	air? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	air? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	air? ( dev-python/implicit[${PYTHON_USEDEP}] )
-	air? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	air? ( ~dev-python/matplotlib-3.2.1[${PYTHON_USEDEP}] )
 	air? ( dev-python/mushroom-rl[${PYTHON_USEDEP}] )
 	air? ( dev-python/pytorch-widedeep[${PYTHON_USEDEP}] )
 	air? ( dev-python/RL-for-reco[${PYTHON_USEDEP}] )
@@ -74,7 +74,7 @@ DEPENDENCIES="dev-python/streamz[${PYTHON_USEDEP}]
 	air? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
 	air? ( dev-python/torchsummary[${PYTHON_USEDEP}] )
 	air? ( dev-python/pycaret[${PYTHON_USEDEP}] )
-	air? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	air? ( >=dev-python/openpyxl-3.0.0[${PYTHON_USEDEP}] )
 	air? ( dev-python/netcal[${PYTHON_USEDEP}] )
 	air? ( dev-python/haversine[${PYTHON_USEDEP}] )
 	air? ( dev-python/pyfarmhash[${PYTHON_USEDEP}] )

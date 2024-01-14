@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all encoding image mime readthedocs"
-DEPENDENCIES="dev-python/olefile[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/olefile-0.47[${PYTHON_USEDEP}]
+	<dev-python/tzlocal-6.0[${PYTHON_USEDEP}]
 	dev-python/compressed-rtf[${PYTHON_USEDEP}]
 	dev-python/ebcdic[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-4.13[${PYTHON_USEDEP}]
 	dev-python/RTFDE[${PYTHON_USEDEP}]
 	dev-python/red-black-tree-mod[${PYTHON_USEDEP}]
 	all? ( dev-python/extract-msg[${PYTHON_USEDEP}] )
 	all? ( dev-python/extract-msg[${PYTHON_USEDEP}] )
 	all? ( dev-python/extract-msg[${PYTHON_USEDEP}] )
-	encoding? ( dev-python/chardet[${PYTHON_USEDEP}] )
+	encoding? ( <dev-python/chardet-6.0[${PYTHON_USEDEP}] )
 	image? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	mime? ( dev-python/python-magic[${PYTHON_USEDEP}] )
+	mime? ( <dev-python/python-magic-0.5[${PYTHON_USEDEP}] )
 	readthedocs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

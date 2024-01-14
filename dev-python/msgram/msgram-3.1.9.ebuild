@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.10[${PYTHON_USEDEP}]
+	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/setuptools-60.2.0[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
+	~dev-python/validators-0.20.0[${PYTHON_USEDEP}]
 	dev-python/msgram-core[${PYTHON_USEDEP}]
 	dev-python/msgram-parser[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]

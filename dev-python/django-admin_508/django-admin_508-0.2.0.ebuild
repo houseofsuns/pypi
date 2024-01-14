@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/django-colorfield[${PYTHON_USEDEP}]
 	dev-python/django-flat-theme[${PYTHON_USEDEP}]
 	dev-python/django-flat-responsive[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	<dev-python/six-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

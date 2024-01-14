@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dask-2021.9.1[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.19.0[${PYTHON_USEDEP}]
 	dev-python/iteration-utilities[${PYTHON_USEDEP}]
 	dev-python/cftime[${PYTHON_USEDEP}]
 	dev-python/netcdf4[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="http pydantic sqlalchemy"
 DEPENDENCIES="sqlalchemy? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	http? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )"
+	http? ( <dev-python/httpx-0.24.0[${PYTHON_USEDEP}] )
+	pydantic? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

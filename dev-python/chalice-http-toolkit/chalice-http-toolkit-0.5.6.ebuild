@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="layered"
 DEPENDENCIES="dev-python/chalice[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	~dev-python/python-magic-0.4.22[${PYTHON_USEDEP}]
+	~dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
+	~dev-python/pytz-2021.1[${PYTHON_USEDEP}]
 	layered? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	layered? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

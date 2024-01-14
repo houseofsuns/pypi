@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/beet[${PYTHON_USEDEP}]
 	dev-python/bolt[${PYTHON_USEDEP}]
 	dev-python/bolt-expressions[${PYTHON_USEDEP}]
 	dev-python/mecha[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

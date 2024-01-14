@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="saya"
 DEPENDENCIES="dev-python/graia-broadcast[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
+	<dev-python/croniter-2.0.0[${PYTHON_USEDEP}]
 	dev-python/launart[${PYTHON_USEDEP}]
 	dev-python/creart[${PYTHON_USEDEP}]
 	saya? ( dev-python/graia-saya[${PYTHON_USEDEP}] )"

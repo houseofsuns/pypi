@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/genson[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	~dev-python/multidict-6.0.4[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.9.2[${PYTHON_USEDEP}]
+	~dev-python/genson-1.2.2[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
 	dev-python/bson[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

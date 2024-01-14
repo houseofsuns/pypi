@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/py-cpuinfo[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-11.0.0[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

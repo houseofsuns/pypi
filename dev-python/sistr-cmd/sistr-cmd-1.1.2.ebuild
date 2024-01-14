@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pycurl[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
+	<dev-python/tables-4.0[${PYTHON_USEDEP}]
+	<=dev-python/pandas-1.0.5[${PYTHON_USEDEP}]
+	<dev-python/pycurl-8.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-2.9.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

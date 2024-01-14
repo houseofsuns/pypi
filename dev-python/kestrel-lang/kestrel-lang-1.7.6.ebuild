@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typeguard[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typeguard-4.1.5[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
+	>=dev-python/lark-1.1.7[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}]
+	>=dev-python/docker-6.1.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/nest-asyncio-1.5.8[${PYTHON_USEDEP}]
 	dev-python/stix-shifter[${PYTHON_USEDEP}]
 	dev-python/stix-shifter-utils[${PYTHON_USEDEP}]
 	dev-python/firepit[${PYTHON_USEDEP}]"

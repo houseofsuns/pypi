@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/dagster[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
-	snowflake-sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	snowflake-sqlalchemy? ( >dev-python/sqlalchemy-1.4.42[${PYTHON_USEDEP}] )
 	snowflake-sqlalchemy? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

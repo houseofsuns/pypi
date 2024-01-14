@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/mutmut[${PYTHON_USEDEP}]
 	dev-python/codecov[${PYTHON_USEDEP}]
 	dev-python/lizard[${PYTHON_USEDEP}]
 	dev-python/vulture[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]"
+	~dev-python/pylint-2.4.4[${PYTHON_USEDEP}]
+	~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}]
+	~dev-python/pytest-6.2.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/tango-shared-core[${PYTHON_USEDEP}]
 	dev-python/tango-voting[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	>=dev-python/django-2.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/django-typogrify[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

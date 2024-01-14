@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pulpcore[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	<dev-python/pymongo-4.0[${PYTHON_USEDEP}]
 	dev-python/mongoengine[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]"
+	~dev-python/semantic-version-2.8[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

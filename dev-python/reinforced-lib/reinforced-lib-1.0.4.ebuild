@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs full"
 DEPENDENCIES="dev-python/chex[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+	~dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
 	dev-python/dm-haiku[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
-	dev-python/lz4[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/lz4-4.3.2[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}]
 	dev-python/optax[${PYTHON_USEDEP}]
 	dev-python/tensorboardX[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	full? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	full? ( dev-python/pygame[${PYTHON_USEDEP}] )
-	full? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/joblib-1.3.2[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/pygame-2.5.2[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/seaborn-0.13.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

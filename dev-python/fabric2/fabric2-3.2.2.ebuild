@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pytest"
 DEPENDENCIES="dev-python/invoke[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	pytest? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	>=dev-python/paramiko-2.4[${PYTHON_USEDEP}]
+	>=dev-python/decorator-5.0[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2[${PYTHON_USEDEP}]
+	pytest? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

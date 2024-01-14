@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pysoundfile[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
+	gui? ( >dev-python/pyqtgraph-0.12.2[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyvideoreader[${PYTHON_USEDEP}] )
 	gui? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	gui? ( dev-python/superqt[${PYTHON_USEDEP}] )

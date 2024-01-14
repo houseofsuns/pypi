@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build docs tests"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.6.1[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/cachecontrol[${PYTHON_USEDEP}]
+	<=dev-python/cachecontrol-0.12.11[${PYTHON_USEDEP}]
 	dev-python/lockfile[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/feedparser[${PYTHON_USEDEP}]
@@ -35,10 +35,10 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	build? ( dev-python/requests[${PYTHON_USEDEP}] )
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	build? ( >=dev-python/requests-2.6.1[${PYTHON_USEDEP}] )
 	build? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	build? ( dev-python/cachecontrol[${PYTHON_USEDEP}] )
+	build? ( <=dev-python/cachecontrol-0.12.11[${PYTHON_USEDEP}] )
 	build? ( dev-python/lockfile[${PYTHON_USEDEP}] )
 	build? ( dev-python/appdirs[${PYTHON_USEDEP}] )
 	build? ( dev-python/feedparser[${PYTHON_USEDEP}] )
@@ -47,23 +47,23 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	build? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	build? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	build? ( dev-python/distro[${PYTHON_USEDEP}] )
-	build? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	build? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	build? ( <dev-python/urllib3-2.0[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/pytest-4.4.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	build? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	build? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/pytest-xdist-1.29.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	build? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/mkdocs-1.3.1[${PYTHON_USEDEP}] )
 	build? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	build? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
 	build? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.3.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
 	docs? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
-	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/requests-2.6.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	tests? ( dev-python/cachecontrol[${PYTHON_USEDEP}] )
+	tests? ( <=dev-python/cachecontrol-0.12.11[${PYTHON_USEDEP}] )
 	tests? ( dev-python/lockfile[${PYTHON_USEDEP}] )
 	tests? ( dev-python/appdirs[${PYTHON_USEDEP}] )
 	tests? ( dev-python/feedparser[${PYTHON_USEDEP}] )
@@ -72,11 +72,11 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	tests? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	tests? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/distro[${PYTHON_USEDEP}] )
-	tests? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/urllib3-2.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-4.4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-xdist-1.29.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

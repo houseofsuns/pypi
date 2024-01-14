@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/stringcase[${PYTHON_USEDEP}]
-	dev? ( dev-python/rsa[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/rsa-4.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/bandit-1.6.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/safety[${PYTHON_USEDEP}] )
 	dev? ( dev-python/paste[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ptvsd[${PYTHON_USEDEP}] )

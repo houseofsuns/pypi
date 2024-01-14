@@ -27,7 +27,7 @@ IUSE="extras"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/combo-lock[${PYTHON_USEDEP}]
 	dev-python/ovos-utils[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.6[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	extras? ( dev-python/ovos-backend-client[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="socks"
 DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/pythondialog[${PYTHON_USEDEP}]
-	dev-python/progress[${PYTHON_USEDEP}]
-	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )"
+	>=dev-python/pythondialog-3.5.3[${PYTHON_USEDEP}]
+	>=dev-python/progress-1.6[${PYTHON_USEDEP}]
+	socks? ( >=dev-python/PySocks-1.7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

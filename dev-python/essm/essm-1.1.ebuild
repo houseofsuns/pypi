@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docs generator tests"
-DEPENDENCIES="dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sympy-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	all? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/yapf[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-1.5.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinxcontrib-bibtex-0.3.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/nbsphinx-0.6.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/yapf-0.16.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/isort-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pydocstyle-4.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-1.8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	all? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandoc[${PYTHON_USEDEP}] )
@@ -52,17 +52,17 @@ DEPENDENCIES="dev-python/sympy[${PYTHON_USEDEP}]
 	dev? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	generator? ( dev-python/yapf[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/matplotlib-1.5.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-bibtex-0.3.5[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.6.1[${PYTHON_USEDEP}] )
+	generator? ( >=dev-python/yapf-0.16.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/isort-5.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pydocstyle-4.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-1.8.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( <dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

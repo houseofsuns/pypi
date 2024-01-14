@@ -28,28 +28,28 @@ DEPENDENCIES="dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
 	dev-python/ordered-set[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pycollada[${PYTHON_USEDEP}]
-	dev-python/pyglet[${PYTHON_USEDEP}]
+	>dev-python/pycollada-0.7[${PYTHON_USEDEP}]
+	<dev-python/pyglet-2.0[${PYTHON_USEDEP}]
 	dev-python/pysdfgen[${PYTHON_USEDEP}]
 	dev-python/python-fcl[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/rtree[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/trimesh[${PYTHON_USEDEP}]
+	>=dev-python/trimesh-3.9.0[${PYTHON_USEDEP}]
 	dev-python/pyrender[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	all? ( dev-python/pybullet[${PYTHON_USEDEP}] )
 	all? ( dev-python/open3d[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-1.8.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
 	all? ( dev-python/quadprog[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.8.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	opt? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
 	opt? ( dev-python/quadprog[${PYTHON_USEDEP}] )"

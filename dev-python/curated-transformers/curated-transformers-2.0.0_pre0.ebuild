@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/catalogue[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	quantization? ( dev-python/bitsandbytes[${PYTHON_USEDEP}] )
-	quantization? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	quantization? ( >=dev-python/scipy-1.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

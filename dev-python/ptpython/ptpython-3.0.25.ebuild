@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all ptipython"
 DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/jedi[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	>=dev-python/jedi-0.16.0[${PYTHON_USEDEP}]
+	<dev-python/prompt-toolkit-3.1.0[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
 	ptipython? ( dev-python/ipython[${PYTHON_USEDEP}] )"

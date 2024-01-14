@@ -29,16 +29,16 @@ DEPENDENCIES="dev-python/pydub[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
 	dev-python/azure-cognitiveservices-speech[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	<dev-python/websockets-12.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]
+	<dev-python/six-2.0.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
 	dev-python/janus[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/anthropic[${PYTHON_USEDEP}]
 	synthesizers? ( dev-python/elevenlabs[${PYTHON_USEDEP}] )
 	all? ( dev-python/elevenlabs[${PYTHON_USEDEP}] )
@@ -48,8 +48,8 @@ DEPENDENCIES="dev-python/pydub[${PYTHON_USEDEP}]
 	all? ( dev-python/gtts[${PYTHON_USEDEP}] )
 	transcribers? ( dev-python/google-cloud-speech[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-speech[${PYTHON_USEDEP}] )
-	telephony? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
+	telephony? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
 	telephony? ( dev-python/twilio[${PYTHON_USEDEP}] )
 	all? ( dev-python/twilio[${PYTHON_USEDEP}] )
 	telephony? ( dev-python/vonage[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/pydub[${PYTHON_USEDEP}]
 	actions? ( dev-python/nylas[${PYTHON_USEDEP}] )
 	all? ( dev-python/nylas[${PYTHON_USEDEP}] )
 	dev-python/speechrecognition[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	agents? ( dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}] )

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/shellingham[${PYTHON_USEDEP}]"
+	<dev-python/colorama-1.0[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0[${PYTHON_USEDEP}]
+	<dev-python/shellingham-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

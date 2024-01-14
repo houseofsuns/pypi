@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/xeger[${PYTHON_USEDEP}]
-	dev-python/colorful[${PYTHON_USEDEP}]"
+	>=dev-python/colorful-0.3.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

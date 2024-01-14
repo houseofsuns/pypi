@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pytz"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	<dev-python/pygments-3.0[${PYTHON_USEDEP}]
 	pytz? ( dev-python/pytz[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

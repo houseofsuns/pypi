@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
 	dev-python/singer-python[${PYTHON_USEDEP}]
 	dev-python/adjust-precision-for-schema[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

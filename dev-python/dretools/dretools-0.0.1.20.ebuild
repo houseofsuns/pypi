@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.9.2[${PYTHON_USEDEP}]
 	dev-python/rpy2[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/intervaltree[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.16.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/intervaltree-2.1.0[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
 	dev-python/behave[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

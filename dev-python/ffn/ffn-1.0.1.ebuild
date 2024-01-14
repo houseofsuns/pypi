@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/decorator-5.0.7[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.19[${PYTHON_USEDEP}]
 	dev-python/pandas-datareader[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.15[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.7.5[${PYTHON_USEDEP}]
 	dev-python/yfinance[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

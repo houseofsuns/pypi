@@ -30,9 +30,9 @@ DEPENDENCIES="camb? ( dev-python/camb[${PYTHON_USEDEP}] )
 	interfaces? ( dev-python/classy[${PYTHON_USEDEP}] )
 	coffe? ( dev-python/coffe[${PYTHON_USEDEP}] )
 	interfaces? ( dev-python/coffe[${PYTHON_USEDEP}] )
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
+	>dev-python/numpy-1.22[${PYTHON_USEDEP}]
+	>dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

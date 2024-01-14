@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
 	dev-python/rpi-gpio[${PYTHON_USEDEP}]
 	dev-python/spidev[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

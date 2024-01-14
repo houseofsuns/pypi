@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/fastapi-camelcase[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.17.0[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
 	dev-python/firebase-admin[${PYTHON_USEDEP}]
 	dev-python/firebasil[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

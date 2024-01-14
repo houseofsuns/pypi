@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-7.1.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.2.3[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.15.0[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]"

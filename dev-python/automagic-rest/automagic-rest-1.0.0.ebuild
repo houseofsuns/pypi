@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/djangorestframework[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/djangorestframework-3.9[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-filters[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]"
+	~dev-python/django-filter-21.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

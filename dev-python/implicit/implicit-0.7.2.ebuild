@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.16[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.27[${PYTHON_USEDEP}]
 	dev-python/threadpoolctl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

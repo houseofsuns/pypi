@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="offline sidecar"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/uritemplate[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.10.3[${PYTHON_USEDEP}]
+	>=dev-python/uritemplate-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/inflection-0.3.1[${PYTHON_USEDEP}]
 	offline? ( dev-python/drf-spectacular-sidecar[${PYTHON_USEDEP}] )
 	sidecar? ( dev-python/drf-spectacular-sidecar[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

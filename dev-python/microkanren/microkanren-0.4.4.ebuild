@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev testing"
 DEPENDENCIES="dev-python/fastcons[${PYTHON_USEDEP}]
-	dev-python/immutables[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
+	<dev-python/immutables-1.0[${PYTHON_USEDEP}]
+	<dev-python/pyrsistent-1.0[${PYTHON_USEDEP}]
 	build? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-profiling[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/tox-4.11.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="XlsxWriter openpyxl pandas xlrd"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	openpyxl? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	xlrd? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	XlsxWriter? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
+	pandas? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	openpyxl? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	xlrd? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	XlsxWriter? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	<dev-python/pandas-1.4[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-2.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/XlsxWriter[${PYTHON_USEDEP}]
 	dev-python/PyTurboJPEG[${PYTHON_USEDEP}]"

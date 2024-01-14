@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gcp mlflow"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0.4[${PYTHON_USEDEP}]
+	<=dev-python/fsspec-2022.1[${PYTHON_USEDEP}]
 	gcp? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/google-auth[${PYTHON_USEDEP}] )
+	gcp? ( <dev-python/google-auth-3.0[${PYTHON_USEDEP}] )
 	dev-python/kedro[${PYTHON_USEDEP}]
 	mlflow? ( dev-python/kedro-mlflow[${PYTHON_USEDEP}] )
 	dev-python/kfp[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]"
+	<dev-python/semver-3.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

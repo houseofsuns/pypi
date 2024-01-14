@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/arrow-0.16.0[${PYTHON_USEDEP}]
+	>=dev-python/Babel-2.8[${PYTHON_USEDEP}]
 	dev-python/babel-edtf[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+	>=dev-python/bleach-5.0.0[${PYTHON_USEDEP}]
 	dev-python/edtf[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
 	dev-python/idutils[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-oneofschema[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
-	dev-python/uritemplate[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/pycountry-18.12.8[${PYTHON_USEDEP}]
+	>=dev-python/uritemplate-3.0.1[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-1.0.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-5.2.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

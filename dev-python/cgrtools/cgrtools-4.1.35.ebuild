@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="clean2d jit mrv"
 DEPENDENCIES="dev-python/CachedMethods[${PYTHON_USEDEP}]
 	clean2d? ( dev-python/py-mini-racer[${PYTHON_USEDEP}] )
-	jit? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	jit? ( >=dev-python/numpy-1.18[${PYTHON_USEDEP}] )
 	jit? ( dev-python/numba[${PYTHON_USEDEP}] )
-	mrv? ( dev-python/lxml[${PYTHON_USEDEP}] )"
+	mrv? ( >=dev-python/lxml-4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

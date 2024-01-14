@@ -25,29 +25,29 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build changelog docs sca style test"
 DEPENDENCIES="dev-python/lark-parser[${PYTHON_USEDEP}]
-	dev-python/transitions[${PYTHON_USEDEP}]
-	dev-python/pygit2[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/transitions-0.8.4[${PYTHON_USEDEP}]
+	>=dev-python/pygit2-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/cffi-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	dev-python/compendium[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	changelog? ( dev-python/mdutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docstr-coverage[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	sca? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	sca? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	sca? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-1.2.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-7.2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-0.16.2[${PYTHON_USEDEP}] )
+	sca? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	sca? ( >=dev-python/mypy-0.942[${PYTHON_USEDEP}] )
+	sca? ( >=dev-python/bandit-1.6.2[${PYTHON_USEDEP}] )
 	sca? ( dev-python/safety[${PYTHON_USEDEP}] )
-	style? ( dev-python/black[${PYTHON_USEDEP}] )
-	style? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	style? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyfakefs-4.5.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tox-3.25.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

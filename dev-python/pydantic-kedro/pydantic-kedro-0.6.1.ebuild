@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-yaml[${PYTHON_USEDEP}]
 	dev-python/kedro[${PYTHON_USEDEP}]
 	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-61.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-scm-6.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pandas-2.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kedro[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )

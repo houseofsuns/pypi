@@ -27,11 +27,11 @@ IUSE=""
 DEPENDENCIES="dev-python/wget[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.6.3[${PYTHON_USEDEP}]
 	dev-python/filetype[${PYTHON_USEDEP}]
 	dev-python/yagmail[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]"
+	>=dev-python/rich-12.5.1[${PYTHON_USEDEP}]
+	>=dev-python/chardet-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ipython-8.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

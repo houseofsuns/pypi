@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mock[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mock-1.0.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.4.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-0.4.2[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-1.15.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

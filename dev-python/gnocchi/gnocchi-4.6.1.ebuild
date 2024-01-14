@@ -24,63 +24,63 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="amqp1 ceph_alternative doc keystone mysql postgresql prometheus redis s3 swift test test-swift"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-3.22.0[${PYTHON_USEDEP}]
 	dev-python/oslo-policy[${PYTHON_USEDEP}]
 	dev-python/oslo-middleware[${PYTHON_USEDEP}]
 	dev-python/pytimeparse[${PYTHON_USEDEP}]
-	dev-python/pecan[${PYTHON_USEDEP}]
+	>=dev-python/pecan-0.9[${PYTHON_USEDEP}]
 	dev-python/jsonpatch[${PYTHON_USEDEP}]
 	dev-python/cotyledon[${PYTHON_USEDEP}]
 	dev-python/stevedore[${PYTHON_USEDEP}]
 	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.8.10[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-5.0.0[${PYTHON_USEDEP}]
 	dev-python/WebOb[${PYTHON_USEDEP}]
 	dev-python/Paste[${PYTHON_USEDEP}]
 	dev-python/PasteDeploy[${PYTHON_USEDEP}]
 	dev-python/daiquiri[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/lz4[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/lz4-0.9.0[${PYTHON_USEDEP}]
 	dev-python/tooz[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
 	amqp1? ( dev-python/python-qpid-proton[${PYTHON_USEDEP}] )
 	ceph_alternative? ( dev-python/python-rados[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
 	doc? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/reno[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/reno-1.6.2[${PYTHON_USEDEP}] )
 	keystone? ( dev-python/keystonemiddleware[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/oslo-db[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/alembic-0.7.6[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/oslo-db[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	postgresql? ( >=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	postgresql? ( >=dev-python/alembic-0.7.6[${PYTHON_USEDEP}] )
 	prometheus? ( dev-python/python-snappy[${PYTHON_USEDEP}] )
 	prometheus? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-3.3.0[${PYTHON_USEDEP}] )
 	redis? ( dev-python/hiredis[${PYTHON_USEDEP}] )
 	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	s3? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	swift? ( dev-python/python-swiftclient[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/botocore-1.5[${PYTHON_USEDEP}] )
+	swift? ( >=dev-python/python-swiftclient-3.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pifpaf[${PYTHON_USEDEP}] )
 	test? ( dev-python/gabbi[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-3.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/fixtures[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/testscenarios[${PYTHON_USEDEP}] )
-	test? ( dev-python/testresources[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testresources-0.2.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testtools-0.9.38[${PYTHON_USEDEP}] )
 	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
 	test? ( dev-python/keystonemiddleware[${PYTHON_USEDEP}] )
 	test? ( dev-python/wsgi-intercept[${PYTHON_USEDEP}] )

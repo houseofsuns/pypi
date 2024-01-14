@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
 	dev-python/jsoncodable[${PYTHON_USEDEP}]
 	dev-python/kcu[${PYTHON_USEDEP}]
 	dev-python/ksimpleapi[${PYTHON_USEDEP}]
 	dev-python/noraise[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/Unidecode[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="images"
-DEPENDENCIES="images? ( dev-python/pillow[${PYTHON_USEDEP}] )"
+DEPENDENCIES="images? ( >=dev-python/pillow-4.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

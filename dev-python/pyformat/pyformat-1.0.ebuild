@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/autoflake[${PYTHON_USEDEP}]
-	dev-python/autopep8[${PYTHON_USEDEP}]
+	>=dev-python/autopep8-1.2.2[${PYTHON_USEDEP}]
 	dev-python/docformatter[${PYTHON_USEDEP}]
 	dev-python/unify[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

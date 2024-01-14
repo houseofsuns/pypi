@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/multiprocessing-logging[${PYTHON_USEDEP}]
-	dev-python/fakeredis[${PYTHON_USEDEP}]
+	~dev-python/fakeredis-1.7.6[${PYTHON_USEDEP}]
 	dev-python/freezegun[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

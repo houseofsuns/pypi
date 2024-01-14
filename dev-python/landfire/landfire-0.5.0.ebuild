@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="geospatial"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	geospatial? ( dev-python/fiona[${PYTHON_USEDEP}] )
 	geospatial? ( dev-python/geojson[${PYTHON_USEDEP}] )
 	geospatial? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	>=dev-python/pydantic-1.10[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

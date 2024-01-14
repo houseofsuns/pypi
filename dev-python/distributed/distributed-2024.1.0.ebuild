@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-1.5.0[${PYTHON_USEDEP}]
+	~dev-python/dask-2024.1.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/locket[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/tblib[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/locket-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/sortedcontainers-2.0.5[${PYTHON_USEDEP}]
+	>=dev-python/tblib-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/toolz-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/tornado-6.0.4[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.24.3[${PYTHON_USEDEP}]
 	dev-python/zict[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

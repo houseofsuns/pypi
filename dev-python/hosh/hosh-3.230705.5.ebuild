@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/blake3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/blake3-0.4.0[${PYTHON_USEDEP}]
 	dev-python/colored[${PYTHON_USEDEP}]
-	dev-python/ansi2html[${PYTHON_USEDEP}]
+	<dev-python/ansi2html-2.0.0[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

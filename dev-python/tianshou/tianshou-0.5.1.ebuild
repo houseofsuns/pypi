@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="atari dev mujoco pybullet"
 DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pettingzoo[${PYTHON_USEDEP}]
 	atari? ( dev-python/atari-py[${PYTHON_USEDEP}] )
 	atari? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev? ( dev-python/doc8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pygame[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pygame-2.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pymunk[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nni[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )

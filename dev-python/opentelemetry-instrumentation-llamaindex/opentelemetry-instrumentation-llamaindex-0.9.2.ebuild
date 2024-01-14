@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/inflection[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/inflection-0.6.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions-ai[${PYTHON_USEDEP}]"

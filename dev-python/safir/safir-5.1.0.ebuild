@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="arq db dev gcs kubernetes redis"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/gidgethub[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
+	<dev-python/httpx-1.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	<dev-python/starlette-1.0[${PYTHON_USEDEP}]
+	<dev-python/structlog-24.0[${PYTHON_USEDEP}]
 	arq? ( dev-python/arq[${PYTHON_USEDEP}] )
 	db? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	db? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	db? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/asgi-lifespan[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastapi[${PYTHON_USEDEP}] )
@@ -44,16 +44,16 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/redis[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/redis-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/respx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scriv[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/documenteer[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
-	gcs? ( dev-python/google-auth[${PYTHON_USEDEP}] )
+	gcs? ( <dev-python/google-auth-3.0[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/kubernetes-asyncio[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	redis? ( <dev-python/redis-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

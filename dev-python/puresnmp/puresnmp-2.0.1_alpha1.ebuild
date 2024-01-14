@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="crypto dev readthedocs"
 DEPENDENCIES="dev-python/x690[${PYTHON_USEDEP}]
 	crypto? ( dev-python/puresnmp-crypto[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fabric[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )

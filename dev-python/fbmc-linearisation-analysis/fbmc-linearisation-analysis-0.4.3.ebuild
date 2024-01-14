@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all app-template plotting"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/cache_to_disk[${PYTHON_USEDEP}]
 	dev-python/duckdb[${PYTHON_USEDEP}]
 	dev-python/duckdb-engine[${PYTHON_USEDEP}]
@@ -37,19 +37,19 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	plotting? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	dev-python/levenshtein[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]
 	app-template? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	app-template? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	app-template? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	plotting? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
 	dev-python/polars[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	app-template? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/shapely[${PYTHON_USEDEP}] )
@@ -57,6 +57,6 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	app-template? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	all? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]"
+	<dev-python/tzlocal-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

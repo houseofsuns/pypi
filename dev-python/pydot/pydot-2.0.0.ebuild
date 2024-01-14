@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev release tests"
-DEPENDENCIES="dev-python/pyparsing[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/chardet[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	release? ( dev-python/zest-releaser[${PYTHON_USEDEP}] )

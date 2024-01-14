@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/atpbar[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-5.4[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-console-scripts-0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

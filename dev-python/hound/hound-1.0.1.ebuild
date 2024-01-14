@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]"
+	>=dev-python/google-auth-1.6.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

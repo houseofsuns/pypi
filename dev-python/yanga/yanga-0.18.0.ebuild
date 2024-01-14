@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/customtkinter[${PYTHON_USEDEP}]
 	dev-python/kspl[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
 	dev-python/mashumaro[${PYTHON_USEDEP}]
 	dev-python/pick[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/py-app-dev[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

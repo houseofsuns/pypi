@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/decorator-3.4.2[${PYTHON_USEDEP}]
+	<dev-python/py-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

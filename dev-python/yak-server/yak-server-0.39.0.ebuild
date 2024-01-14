@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="dev-python/argon2-cffi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/argon2-cffi-23.1.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	>=dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-1.1.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	all? ( dev-python/alembic[${PYTHON_USEDEP}] )
-	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	all? ( dev-python/yappi[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/alembic-1.13.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/yappi-1.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cyclonedx-python-lib[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/jschema-to-python[${PYTHON_USEDEP}]
+	~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+	~dev-python/jschema-to-python-1.2.3[${PYTHON_USEDEP}]
 	dev-python/knack[${PYTHON_USEDEP}]
 	dev-python/packageurl-python[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sarif-om[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/yara-python[${PYTHON_USEDEP}]"
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/sarif-om-1.0.4[${PYTHON_USEDEP}]
+	~dev-python/urllib3-2.0.6[${PYTHON_USEDEP}]
+	~dev-python/yara-python-4.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

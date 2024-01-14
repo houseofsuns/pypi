@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	doc? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	doc? ( dev-python/scanpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-faulthandler[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/xxhash[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/xxhash-1.4[${PYTHON_USEDEP}]
 	dev-python/oead[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

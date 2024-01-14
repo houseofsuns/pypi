@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.9.176[${PYTHON_USEDEP}]
 	dev-python/cs[${PYTHON_USEDEP}]
 	dev-python/requests-exoscale-auth[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-timeout-1.4.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/recommonmark-0.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/requests-mock-1.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-markdown-parser[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

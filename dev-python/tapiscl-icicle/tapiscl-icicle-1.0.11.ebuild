@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pydantic-1.10.4[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
 	dev-python/tapipy[${PYTHON_USEDEP}]
 	dev-python/blessed[${PYTHON_USEDEP}]

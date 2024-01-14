@@ -32,15 +32,15 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/home-assistant-chip-clusters[${PYTHON_USEDEP}]
 	server? ( dev-python/home-assistant-chip-core[${PYTHON_USEDEP}] )
-	server? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-aiohttp-1.0.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

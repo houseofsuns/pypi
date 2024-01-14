@@ -25,48 +25,48 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev lint release test"
 DEPENDENCIES="dev-python/eth-ape[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/eip712[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ape-foundry[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ape-solidity[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdformat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdformat-pyproject[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/commitizen[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mdformat[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mdformat-pyproject[${PYTHON_USEDEP}] )
 	release? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	release? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	release? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	release? ( ~dev-python/twine-3.8.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	test? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ape-foundry[${PYTHON_USEDEP}] )
 	test? ( dev-python/ape-solidity[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,35 +24,35 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/ffmpeg-python[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-6.0[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-4.0[${PYTHON_USEDEP}]
+	<dev-python/ffmpeg-python-1.0[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
 	dev-python/django-storages[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
+	<dev-python/websockets-12.0[${PYTHON_USEDEP}]
+	<dev-python/redis-6.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/httpretty[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/cryptography-37.0.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/httpretty-1.1.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipython-8.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.13.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pycodestyle-2.11.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-3.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-django-4.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/signxml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/django-configurations[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.42.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/django-configurations-2.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/whitenoise[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

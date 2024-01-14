@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-5.0[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-36.0.2[${PYTHON_USEDEP}]
 	dev-python/chacha20poly1305-reuseable[${PYTHON_USEDEP}]
-	dev-python/ifaddr[${PYTHON_USEDEP}]
-	dev-python/mediafile[${PYTHON_USEDEP}]
+	>=dev-python/ifaddr-0.1.7[${PYTHON_USEDEP}]
+	>=dev-python/mediafile-0.8.1[${PYTHON_USEDEP}]
 	dev-python/miniaudio[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.10[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	dev-python/srptools[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]"
+	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.129.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

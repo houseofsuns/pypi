@@ -27,7 +27,7 @@ IUSE="edstomo"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.9.0[${PYTHON_USEDEP}]
 	edstomo? ( dev-python/glob2[${PYTHON_USEDEP}] )
 	edstomo? ( dev-python/genfire[${PYTHON_USEDEP}] )
 	edstomo? ( dev-python/hyperspy[${PYTHON_USEDEP}] )

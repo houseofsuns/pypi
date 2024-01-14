@@ -24,38 +24,38 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cache demo dns email ftp nosql requests secrets sql storage"
-DEPENDENCIES="dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/blake3[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/arrow-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.7[${PYTHON_USEDEP}]
+	>=dev-python/blake3-0.3.4[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
+	>=dev-python/nest-asyncio-1.5.8[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/bevy[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
 	dev-python/brotli[${PYTHON_USEDEP}]
 	dev-python/ulid-py[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
 	dev-python/alive-progress[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+	>=dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	dev-python/aiopath[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/google-crc32c[${PYTHON_USEDEP}]
 	cache? ( dev-python/cashews[${PYTHON_USEDEP}] )
 	storage? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	storage? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	storage? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	dns? ( dev-python/google-cloud-dns[${PYTHON_USEDEP}] )
-	dns? ( dev-python/validators[${PYTHON_USEDEP}] )
-	requests? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	dns? ( >=dev-python/validators-0.22.0[${PYTHON_USEDEP}] )
+	requests? ( >=dev-python/httpx-0.26.0[${PYTHON_USEDEP}] )
 	requests? ( dev-python/hishel[${PYTHON_USEDEP}] )
 	email? ( dev-python/mailgun[${PYTHON_USEDEP}] )
 	secrets? ( dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	sql? ( >=dev-python/sqlalchemy-2.0.25[${PYTHON_USEDEP}] )
 	sql? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
-	sql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	sql? ( >=dev-python/mysqlclient-2.2.1[${PYTHON_USEDEP}] )
 	sql? ( dev-python/asyncmy[${PYTHON_USEDEP}] )
 	sql? ( dev-python/sqlmodel[${PYTHON_USEDEP}] )
 	nosql? ( dev-python/google-cloud-firestore[${PYTHON_USEDEP}] )

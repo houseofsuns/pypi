@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/editables[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/editables-0.3[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	>=dev-python/pathspec-0.10.1[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.2.2[${PYTHON_USEDEP}]
 	dev-python/trove-classifiers[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

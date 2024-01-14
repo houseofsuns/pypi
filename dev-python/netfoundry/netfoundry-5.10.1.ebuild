@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/inflect[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/inflect-5.3[${PYTHON_USEDEP}]
 	dev-python/milc[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]"
+	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-2.4[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.11[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.3[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8[${PYTHON_USEDEP}]
+	>=dev-python/requests-cache-0.9.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

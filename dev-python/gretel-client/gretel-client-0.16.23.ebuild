@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aws azure gcp test tuner"
 DEPENDENCIES="dev-python/backports-cached-property[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/docker-6.1.2[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-distro[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-prometheus[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.13[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	aws? ( dev-python/smart-open[${PYTHON_USEDEP}] )
 	azure? ( dev-python/smart-open[${PYTHON_USEDEP}] )
@@ -49,11 +49,11 @@ DEPENDENCIES="dev-python/backports-cached-property[${PYTHON_USEDEP}]
 	gcp? ( dev-python/smart-open[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-kms[${PYTHON_USEDEP}] )
 	test? ( dev-python/faker[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.14.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.1.2[${PYTHON_USEDEP}] )
 	tuner? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	tuner? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	tuner? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs lxml"
-DEPENDENCIES="lxml? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+DEPENDENCIES="lxml? ( >=dev-python/lxml-4.9.0[${PYTHON_USEDEP}] )
+	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/furo-2023.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/toml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

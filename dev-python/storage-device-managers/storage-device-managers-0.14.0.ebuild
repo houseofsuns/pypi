@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="logging"
-DEPENDENCIES="logging? ( dev-python/loguru[${PYTHON_USEDEP}] )
+DEPENDENCIES="logging? ( <dev-python/loguru-0.8.0[${PYTHON_USEDEP}] )
 	dev-python/shell-interface[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

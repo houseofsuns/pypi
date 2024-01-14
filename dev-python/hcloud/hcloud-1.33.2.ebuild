@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/python-dateutil-2.7.5[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-7.3[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.1[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/myst-parser-2.1[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/watchdog-3.1[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-7.5[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pylint-3.1[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.5[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mypy-1.9[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pdfrw[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pdfrw-0.4[${PYTHON_USEDEP}]
+	<dev-python/defusedxml-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

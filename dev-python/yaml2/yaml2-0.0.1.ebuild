@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/BenBotAsync[${PYTHON_USEDEP}]
 	dev-python/fortnitepy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/sanic[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]"
+	~dev-python/uvloop-0.15.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

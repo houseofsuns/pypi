@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	dev-python/PyChromecast[${PYTHON_USEDEP}]
-	dev-python/pydbus[${PYTHON_USEDEP}]
+	>=dev-python/pydbus-0.6.0[${PYTHON_USEDEP}]
 	dev-python/PyGObject[${PYTHON_USEDEP}]
 	dev-python/mpris-server[${PYTHON_USEDEP}]
 	dev-python/cast-control[${PYTHON_USEDEP}]"

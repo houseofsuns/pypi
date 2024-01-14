@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-0.58.0[${PYTHON_USEDEP}]
 	dev-python/anthropic[${PYTHON_USEDEP}]
 	dev-python/bardapi[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
+	~dev-python/pytz-2022.7[${PYTHON_USEDEP}]
+	~dev-python/starlette-0.27.0[${PYTHON_USEDEP}]
 	dev-python/slack-sdk[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	dev-python/sse-starlette[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

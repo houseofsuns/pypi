@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/GitPython-2.0.8[${PYTHON_USEDEP}]
+	>=dev-python/PySocks-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.3.0[${PYTHON_USEDEP}]
 	dev-python/opentimestamps[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

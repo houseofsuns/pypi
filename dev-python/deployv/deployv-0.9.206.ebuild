@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/urllib3-1.24.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	~dev-python/pika-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
 	dev-python/branchesv[${PYTHON_USEDEP}]
 	dev-python/extend-me[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/retry-decorator[${PYTHON_USEDEP}]
-	dev-python/transitions[${PYTHON_USEDEP}]
+	~dev-python/passlib-1.6.5[${PYTHON_USEDEP}]
+	~dev-python/retry-decorator-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/transitions-0.6.8[${PYTHON_USEDEP}]
 	dev-python/deployv-static[${PYTHON_USEDEP}]
-	dev-python/requests-unixsocket[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	~dev-python/requests-unixsocket-0.2.0[${PYTHON_USEDEP}]
+	~dev-python/docker-5.0.3[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]"
+	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	~dev-python/PyGithub-1.55[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/cryptography-3.4.8[${PYTHON_USEDEP}]
+	~dev-python/deepdiff-5.8.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

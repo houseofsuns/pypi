@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rapidfuzz[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/rapidfuzz-3.0.0[${PYTHON_USEDEP}]
 	dev-python/docdeid[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	<dev-python/regex-2023.0.0[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]"
+	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

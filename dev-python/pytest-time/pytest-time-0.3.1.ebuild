@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev lint types"
 DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.2.7[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/hypothesis-6.78[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-check[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	lint? ( dev-python/rstcheck[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	types? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	types? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
 	types? ( dev-python/pyright[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

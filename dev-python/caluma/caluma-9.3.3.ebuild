@@ -26,24 +26,24 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/django-cors-headers[${PYTHON_USEDEP}]
+	<dev-python/django-cors-headers-4.0.0[${PYTHON_USEDEP}]
 	dev-python/django-environ[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	<dev-python/django-filter-24.0[${PYTHON_USEDEP}]
 	dev-python/django-localized-fields[${PYTHON_USEDEP}]
 	dev-python/django-postgres-extra[${PYTHON_USEDEP}]
 	dev-python/django-simple-history[${PYTHON_USEDEP}]
 	dev-python/django-watchman[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-4.0.0[${PYTHON_USEDEP}]
 	dev-python/graphene-django[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
 	dev-python/graphql-relay[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	<dev-python/idna-4.0[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/pyjexl[${PYTHON_USEDEP}]
-	dev-python/python-memcached[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/python-memcached-2.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/uWSGI[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

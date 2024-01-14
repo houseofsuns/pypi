@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ssl test"
-DEPENDENCIES="dev-python/aiocache[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]
-	dev-python/arsenic[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/browser-cookie3[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/h11[${PYTHON_USEDEP}]
-	dev-python/httpcore[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiocache-0.12.0[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	~dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]
+	~dev-python/arsenic-21.8[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
+	~dev-python/browser-cookie3-0.19.1[${PYTHON_USEDEP}]
+	~dev-python/dnspython-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/h11-0.11[${PYTHON_USEDEP}]
+	>=dev-python/httpcore-0.17.2[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	dev-python/httpx-ntlm[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/mako[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.5.3[${PYTHON_USEDEP}]
+	>=dev-python/mako-1.1.4[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
 	dev-python/mitmproxy[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/tld[${PYTHON_USEDEP}]
-	dev-python/yaswfp[${PYTHON_USEDEP}]
-	ssl? ( dev-python/humanize[${PYTHON_USEDEP}] )
+	~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
+	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.26[${PYTHON_USEDEP}]
+	>=dev-python/tld-0.12.5[${PYTHON_USEDEP}]
+	>=dev-python/yaswfp-0.9.3[${PYTHON_USEDEP}]
+	ssl? ( ~dev-python/humanize-4.4.0[${PYTHON_USEDEP}] )
 	ssl? ( dev-python/sslyze[${PYTHON_USEDEP}] )
-	test? ( dev-python/humanize[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/humanize-4.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.20.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/respx[${PYTHON_USEDEP}] )
 	test? ( dev-python/sslyze[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydantic[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pydantic-1.10.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

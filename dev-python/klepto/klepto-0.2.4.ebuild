@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="archives crypto"
 DEPENDENCIES="dev-python/pox[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	archives? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	archives? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	archives? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	crypto? ( dev-python/jsonpickle[${PYTHON_USEDEP}] )
-	crypto? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )"
+	>=dev-python/dill-0.3.7[${PYTHON_USEDEP}]
+	archives? ( >=dev-python/h5py-2.8.0[${PYTHON_USEDEP}] )
+	archives? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
+	archives? ( >=dev-python/pandas-0.17.0[${PYTHON_USEDEP}] )
+	crypto? ( >=dev-python/jsonpickle-0.9.6[${PYTHON_USEDEP}] )
+	crypto? ( >=dev-python/cloudpickle-0.5.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

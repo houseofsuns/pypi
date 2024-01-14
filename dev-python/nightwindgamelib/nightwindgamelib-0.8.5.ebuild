@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/arcade[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
+	>=dev-python/pygame-2.0.1[${PYTHON_USEDEP}]
 	dev-python/PySide2[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.7.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

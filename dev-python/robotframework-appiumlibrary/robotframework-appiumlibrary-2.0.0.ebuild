@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/decorator-3.3.2[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
+	>=dev-python/docutils-0.8.1[${PYTHON_USEDEP}]
 	dev-python/Appium-Python-Client[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	>=dev-python/selenium-4.0.0[${PYTHON_USEDEP}]
 	dev-python/kitchen[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,11 +29,11 @@ DEPENDENCIES="dev-python/huey[${PYTHON_USEDEP}]
 	dev-python/np-logging[${PYTHON_USEDEP}]
 	dev-python/np-tools[${PYTHON_USEDEP}]
 	dev-python/np-session[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev-python/np-jobs[${PYTHON_USEDEP}]
 	dev-python/np-envs[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]"
+	>=dev-python/boto3-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,23 +26,23 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs slepc test"
 DEPENDENCIES="dev-python/docrep[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.8[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.0.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-annotation[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.10.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-last-updated-by-git[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
-	slepc? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
+	slepc? ( >=dev-python/mpi4py-3.0.3[${PYTHON_USEDEP}] )
 	slepc? ( dev-python/petsc[${PYTHON_USEDEP}] )
 	slepc? ( dev-python/slepc[${PYTHON_USEDEP}] )
 	slepc? ( dev-python/petsc4py[${PYTHON_USEDEP}] )
 	slepc? ( dev-python/slepc4py[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/tox-3.20.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/emoji[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/emoji-2.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/pure-protobuf[${PYTHON_USEDEP}]
 	dev-python/linkify-it-py[${PYTHON_USEDEP}]

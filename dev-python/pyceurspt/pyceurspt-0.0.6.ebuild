@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/bibtexparser[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/linkml-runtime[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.8.9[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
 	test? ( dev-python/green[${PYTHON_USEDEP}] )"

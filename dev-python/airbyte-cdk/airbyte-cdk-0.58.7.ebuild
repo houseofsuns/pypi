@@ -27,13 +27,13 @@ IUSE="dev file-based sphinx-docs vector-db-based"
 DEPENDENCIES="dev-python/airbyte-protocol-models[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/jsonref[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/genson[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyrate-limiter[${PYTHON_USEDEP}]
+	~dev-python/isodate-0.6.1[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	~dev-python/jsonref-0.2[${PYTHON_USEDEP}]
+	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/genson-1.2.2[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/pyrate-limiter-3.1.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/airbyte-protocol-models[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/wcmatch[${PYTHON_USEDEP}]
+	~dev-python/wcmatch-8.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/avro[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastavro[${PYTHON_USEDEP}] )
 	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
@@ -51,8 +51,8 @@ DEPENDENCIES="dev-python/airbyte-protocol-models[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-httpserver[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyarrow-12.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	dev? ( dev-python/openai[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cohere[${PYTHON_USEDEP}] )
@@ -62,20 +62,20 @@ DEPENDENCIES="dev-python/airbyte-protocol-models[${PYTHON_USEDEP}]
 	dev? ( dev-python/pdf2image[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
 	dev? ( dev-python/unstructured-pytesseract[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytesseract[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytesseract-0.3.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	file-based? ( dev-python/avro[${PYTHON_USEDEP}] )
 	file-based? ( dev-python/fastavro[${PYTHON_USEDEP}] )
-	file-based? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	file-based? ( ~dev-python/pyarrow-12.0.1[${PYTHON_USEDEP}] )
 	file-based? ( dev-python/unstructured[${PYTHON_USEDEP}] )
 	file-based? ( dev-python/unstructured[${PYTHON_USEDEP}] )
 	file-based? ( dev-python/pdf2image[${PYTHON_USEDEP}] )
 	file-based? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
 	file-based? ( dev-python/unstructured-pytesseract[${PYTHON_USEDEP}] )
-	file-based? ( dev-python/pytesseract[${PYTHON_USEDEP}] )
+	file-based? ( ~dev-python/pytesseract-0.3.10[${PYTHON_USEDEP}] )
 	file-based? ( dev-python/markdown[${PYTHON_USEDEP}] )
 	sphinx-docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	sphinx-docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	sphinx-docs? ( ~dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	vector-db-based? ( dev-python/langchain[${PYTHON_USEDEP}] )
 	vector-db-based? ( dev-python/openai[${PYTHON_USEDEP}] )
 	vector-db-based? ( dev-python/cohere[${PYTHON_USEDEP}] )

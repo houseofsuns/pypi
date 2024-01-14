@@ -27,32 +27,32 @@ IUSE="dev doc test"
 DEPENDENCIES="test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	dev-python/adlfs[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	test? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/griffe[${PYTHON_USEDEP}]
-	test? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
+	<=dev-python/fsspec-2023.9.0[${PYTHON_USEDEP}]
+	<=dev-python/griffe-0.29.1[${PYTHON_USEDEP}]
+	test? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
+	doc? ( <=dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-autorefs-0.4[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}]
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-material-9.0[${PYTHON_USEDEP}] )
+	<=dev-python/mkdocs-material-extensions-1.1.1[${PYTHON_USEDEP}]
+	doc? ( <dev-python/mkdocstrings-0.20.0[${PYTHON_USEDEP}] )
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
+	<=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pip-22.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	<=dev-python/pyarrow-14.0.2[${PYTHON_USEDEP}]
+	test? ( <dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/virtualenv[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/tox-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/twine-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/virtualenv-21.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

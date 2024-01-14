@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="joystick"
 DEPENDENCIES="dev-python/pycyphal[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18[${PYTHON_USEDEP}]
+	~dev-python/requests-2.27[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.17[${PYTHON_USEDEP}]
+	~dev-python/coloredlogs-15.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.1[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	joystick? ( dev-python/pysdl2[${PYTHON_USEDEP}] )
-	joystick? ( dev-python/mido[${PYTHON_USEDEP}] )
-	joystick? ( dev-python/python-rtmidi[${PYTHON_USEDEP}] )"
+	joystick? ( ~dev-python/mido-1.2[${PYTHON_USEDEP}] )
+	joystick? ( ~dev-python/python-rtmidi-1.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

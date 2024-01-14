@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli dev test"
-DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cachetools-3.1.0[${PYTHON_USEDEP}]
 	dev-python/watchdog[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	cli? ( dev-python/galaxy-app[${PYTHON_USEDEP}] )
-	cli? ( dev-python/cachetools[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/cachetools-3.1.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/watchdog[${PYTHON_USEDEP}] )
 	cli? ( dev-python/requests[${PYTHON_USEDEP}] )
 	cli? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
@@ -37,23 +37,23 @@ DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-2.9.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-4.4.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	dev? ( dev-python/galaxy-app[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cachetools[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/cachetools-3.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/responses[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tox-2.9.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.4.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.4.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	test? ( dev-python/galaxy-app[${PYTHON_USEDEP}] )
-	test? ( dev-python/cachetools[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/cachetools-3.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/watchdog[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )"

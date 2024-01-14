@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="citeproc datacite dublincore elasticsearch7 jsonld opensearch1 opensearch2 tests"
-DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bleach-2.1.3[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/invenio-pidstore[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
 	jsonld? ( dev-python/pyld[${PYTHON_USEDEP}] )
 	opensearch1? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch2? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
-	tests? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/cryptography-2.1.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Flask-Login[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-config[${PYTHON_USEDEP}] )
@@ -49,9 +49,9 @@ DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
 	tests? ( dev-python/citeproc-py[${PYTHON_USEDEP}] )
 	tests? ( dev-python/citeproc-py-styles[${PYTHON_USEDEP}] )
 	tests? ( dev-python/datacite[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dcxml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyld[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/mock-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

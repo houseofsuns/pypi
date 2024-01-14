@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/ete3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.11.0[${PYTHON_USEDEP}]
 	dev-python/bg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

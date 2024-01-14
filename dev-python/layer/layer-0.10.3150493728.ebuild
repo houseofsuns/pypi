@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.16.24[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.4.7[${PYTHON_USEDEP}]
+	>=dev-python/humanize-3.11.0[${PYTHON_USEDEP}]
 	dev-python/mlflow-skinny[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/polling[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-11.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.6.3[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.13.3[${PYTHON_USEDEP}]
 	dev-python/layer-api[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	dev-python/nvsmi[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]"
+	>=dev-python/psutil-5.4.8[${PYTHON_USEDEP}]
+	~dev-python/lazy_loader-0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

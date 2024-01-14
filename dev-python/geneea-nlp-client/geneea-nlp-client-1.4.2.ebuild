@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="examples"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]
-	examples? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/requests-2.25[${PYTHON_USEDEP}]
+	~dev-python/retrying-1.3[${PYTHON_USEDEP}]
+	examples? ( >=dev-python/pandas-0.22[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

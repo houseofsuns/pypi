@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="secure"
-DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
 	dev-python/prosper-shared[${PYTHON_USEDEP}]
-	dev-python/ratelimit[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/ratelimit-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	secure? ( dev-python/keyring[${PYTHON_USEDEP}] )"
+	<dev-python/simplejson-4.0.0[${PYTHON_USEDEP}]
+	secure? ( <dev-python/keyring-25.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

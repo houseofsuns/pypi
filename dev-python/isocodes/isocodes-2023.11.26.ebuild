@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev doc test"
 DEPENDENCIES="build? ( dev-python/hatch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocs-material-9.4.11[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/psutil-5.9.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tox-4.11.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

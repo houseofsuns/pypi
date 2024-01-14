@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/django-cms[${PYTHON_USEDEP}]
-	docs? ( dev-python/django[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/django-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

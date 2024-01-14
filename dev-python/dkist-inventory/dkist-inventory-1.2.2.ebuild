@@ -27,12 +27,12 @@ IUSE="asdf docs test"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/gwcs[${PYTHON_USEDEP}]
 	dev-python/sunpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/ndcube[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/dkist[${PYTHON_USEDEP}]
 	dev-python/dkist-fits-specifications[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
 	asdf? ( dev-python/asdf[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docutils-0.18.1[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-5.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-needs[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-plantuml[${PYTHON_USEDEP}]"
+	<dev-python/sphinxcontrib-plantuml-0.25[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

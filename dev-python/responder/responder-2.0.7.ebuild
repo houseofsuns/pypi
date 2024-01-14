@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/starlette-0.13[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.13.3[${PYTHON_USEDEP}]
 	dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/starlette[${PYTHON_USEDEP}]
 	dev-python/rfc3986[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/apispec[${PYTHON_USEDEP}]
+	>=dev-python/apispec-1.0.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow[${PYTHON_USEDEP}]
 	dev-python/whitenoise[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]

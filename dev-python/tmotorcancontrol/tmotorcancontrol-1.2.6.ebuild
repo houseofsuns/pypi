@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/NeuroLocoMiddleware[${PYTHON_USEDEP}]
 	dev-python/python-can[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]"
+	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

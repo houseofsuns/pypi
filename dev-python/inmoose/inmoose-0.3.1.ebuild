@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc"
 DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
-	dev-python/mpmath[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/mpmath-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/patsy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]

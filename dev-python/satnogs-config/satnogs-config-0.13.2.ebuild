@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pythondialog[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
+	~dev-python/pythondialog-3.5.0[${PYTHON_USEDEP}]
+	~dev-python/setuptools-63.2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.14.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.25.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/yapf-0.32.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

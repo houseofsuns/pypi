@@ -32,8 +32,8 @@ DEPENDENCIES="dev-python/llama-index[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/lancedb[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	readers? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	readers? ( ~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
 	readers? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
 	readers? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	readers? ( dev-python/docx2txt[${PYTHON_USEDEP}] )

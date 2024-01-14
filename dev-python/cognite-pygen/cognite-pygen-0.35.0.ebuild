@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli docs format"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	format? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+	format? ( >=dev-python/black-23.7.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/black-23.7.0[${PYTHON_USEDEP}] )
 	dev-python/cognite-sdk[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
+	>=dev-python/inflect-6.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-git-authors-plugin[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
@@ -38,9 +38,9 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	cli? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	all? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	cli? ( >=dev-python/packaging-21.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/packaging-21.3[${PYTHON_USEDEP}] )
+	>=dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
 	docs? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
 	cli? ( dev-python/toml[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )

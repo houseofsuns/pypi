@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ansible[${PYTHON_USEDEP}]
-	dev-python/pykwalify[${PYTHON_USEDEP}]"
+	>=dev-python/pykwalify-1.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

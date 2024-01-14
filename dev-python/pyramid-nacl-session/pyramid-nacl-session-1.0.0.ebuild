@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
 	testing? ( dev-python/WebTest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cover[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

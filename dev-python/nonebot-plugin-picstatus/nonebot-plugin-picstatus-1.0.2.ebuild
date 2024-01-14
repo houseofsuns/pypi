@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-alconna[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-userinfo[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-htmlrender[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.2[${PYTHON_USEDEP}]
+	>=dev-python/py-cpuinfo-9.0.0[${PYTHON_USEDEP}]
+	>=dev-python/anyio-3.7.0[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	>=dev-python/yarl-1.9.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

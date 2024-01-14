@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="toml"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )"
+	>=dev-python/chardet-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pluggy-2.0[${PYTHON_USEDEP}]
+	toml? ( >=dev-python/tomli-1.2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

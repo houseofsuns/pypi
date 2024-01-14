@@ -27,12 +27,12 @@ IUSE="docs regular"
 DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	regular? ( dev-python/ibm-cos-sdk[${PYTHON_USEDEP}] )
 	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/ipywidgets-8.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/pydata-sphinx-theme-0.10[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0[${PYTHON_USEDEP}] )
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	regular? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	dev-python/widgetsnbextension[${PYTHON_USEDEP}]"
+	~dev-python/widgetsnbextension-3.6.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

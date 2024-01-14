@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/contexttimer[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/getjson[${PYTHON_USEDEP}]
 	dev-python/microconventions[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2021.3[${PYTHON_USEDEP}]
 	dev-python/pycoingecko[${PYTHON_USEDEP}]
 	dev-python/tdigest[${PYTHON_USEDEP}]
 	dev-python/genson[${PYTHON_USEDEP}]

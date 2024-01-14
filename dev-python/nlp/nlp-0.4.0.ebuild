@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="apache-beam dev docs quality tensorflow tensorflow_gpu tests torch"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-0.16.0[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.19.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.27[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/xxhash[${PYTHON_USEDEP}]
 	apache-beam? ( dev-python/apache-beam[${PYTHON_USEDEP}] )
@@ -49,15 +49,15 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/zstandard[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	quality? ( dev-python/black[${PYTHON_USEDEP}] )
 	quality? ( dev-python/isort[${PYTHON_USEDEP}] )
-	quality? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow_gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
 	tests? ( dev-python/apache-beam[${PYTHON_USEDEP}] )

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="psycopg3 sdk sqlalchemy"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	psycopg3? ( dev-python/psycopg[${PYTHON_USEDEP}] )
+	psycopg3? ( >=dev-python/psycopg-3.1.12[${PYTHON_USEDEP}] )
 	sdk? ( dev-python/openai[${PYTHON_USEDEP}] )
 	sdk? ( dev-python/pgvecto_rs[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/pgvecto_rs[${PYTHON_USEDEP}] )

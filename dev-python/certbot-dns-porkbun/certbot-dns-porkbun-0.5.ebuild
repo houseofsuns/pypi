@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dnspython[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/dnspython-2.2[${PYTHON_USEDEP}]
 	dev-python/pkb-client[${PYTHON_USEDEP}]
 	dev-python/certbot[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	>=dev-python/setuptools-39.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

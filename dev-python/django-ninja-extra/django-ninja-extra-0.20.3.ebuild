@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/asgiref[${PYTHON_USEDEP}]
 	dev-python/contextlib2[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-material-8.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
 	doc? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
@@ -39,8 +39,8 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.20.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/ninja-schema[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-stubs[${PYTHON_USEDEP}] )"

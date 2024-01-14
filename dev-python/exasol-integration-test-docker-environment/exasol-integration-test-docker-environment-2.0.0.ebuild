@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/docker-4.0.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
+	>=dev-python/humanfriendly-4.18[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
+	>=dev-python/jsonpickle-1.1[${PYTHON_USEDEP}]
 	dev-python/luigi[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+	>=dev-python/netaddr-0.7.19[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.3[${PYTHON_USEDEP}]
+	>=dev-python/pydot-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
 	dev-python/importlib_resources[${PYTHON_USEDEP}]
 	dev-python/stopwatch-py[${PYTHON_USEDEP}]
 	dev-python/exasol-bucketfs[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	dev-python/pyexasol[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
-	dev-python/portalocker[${PYTHON_USEDEP}]"
+	<dev-python/portalocker-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

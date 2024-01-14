@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jsonmerge[${PYTHON_USEDEP}]
-	dev-python/versioneer[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	>=dev-python/jsonmerge-1.8.0[${PYTHON_USEDEP}]
+	~dev-python/versioneer-0.19[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-58.5.3[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.1.0[${PYTHON_USEDEP}]
 	dev-python/prefect[${PYTHON_USEDEP}]
 	dev-python/zcrmsdk[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]"
+	~dev-python/boto3-1.28.50[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.31.50[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

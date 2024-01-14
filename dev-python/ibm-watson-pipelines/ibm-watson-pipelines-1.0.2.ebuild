@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/ibm-cloud-sdk-core[${PYTHON_USEDEP}]
 	dev-python/ibm-cos-sdk[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	dev-python/kfp[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/responses[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	>=dev-python/responses-0.13.4[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/pexpect[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]"
+	>=dev-python/boto3-1.22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/asttokens[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/asttokens-1.0[${PYTHON_USEDEP}]
 	dev-python/static-typing[${PYTHON_USEDEP}]
 	dev-python/typed-ast[${PYTHON_USEDEP}]
 	dev-python/typed-astunparse[${PYTHON_USEDEP}]

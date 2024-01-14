@@ -34,12 +34,12 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	cv? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	cv? ( dev-python/opencv-contrib-python[${PYTHON_USEDEP}] )
-	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	full? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	full? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	full? ( dev-python/opencv-contrib-python[${PYTHON_USEDEP}] )
-	interactive? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	interactive? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	interactive? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

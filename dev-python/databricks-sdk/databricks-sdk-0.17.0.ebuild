@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev notebook"
-DEPENDENCIES="dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/google-auth-2.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/google-auth[${PYTHON_USEDEP}]
 	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )"
+	notebook? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )
+	notebook? ( <dev-python/ipywidgets-9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

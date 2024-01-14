@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	<dev-python/ipywidgets-8.0[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

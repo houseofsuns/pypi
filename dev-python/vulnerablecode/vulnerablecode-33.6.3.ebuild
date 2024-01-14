@@ -26,44 +26,44 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.12.4[${PYTHON_USEDEP}]
+	>=dev-python/django-filter-2.4.0[${PYTHON_USEDEP}]
 	dev-python/django-widget-tweaks[${PYTHON_USEDEP}]
-	dev-python/django-crispy-forms[${PYTHON_USEDEP}]
+	>=dev-python/django-crispy-forms-1.10.0[${PYTHON_USEDEP}]
 	dev-python/django-environ[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]
 	dev-python/coreapi[${PYTHON_USEDEP}]
 	dev-python/packageurl-python[${PYTHON_USEDEP}]
 	dev-python/univers[${PYTHON_USEDEP}]
-	dev-python/license-expression[${PYTHON_USEDEP}]
-	dev-python/binaryornot[${PYTHON_USEDEP}]
+	>=dev-python/license-expression-21.6.14[${PYTHON_USEDEP}]
+	>=dev-python/binaryornot-0.4.4[${PYTHON_USEDEP}]
 	dev-python/saneyaml[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.6.4[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/cvss[${PYTHON_USEDEP}]
 	dev-python/cwe2[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.17[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/fetchcode[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/texttable[${PYTHON_USEDEP}]
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/doc8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pycodestyle-2.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/doc8-0.11.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-django2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/freezegun-1.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipython-8.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/commoncode[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

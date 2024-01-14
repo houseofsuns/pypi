@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/xlrd[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/xlrd-0.9.2[${PYTHON_USEDEP}]
 	dev-python/ordereddict[${PYTHON_USEDEP}]
 	dev-python/mixbox[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-3.3.5[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.1.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tox-2.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

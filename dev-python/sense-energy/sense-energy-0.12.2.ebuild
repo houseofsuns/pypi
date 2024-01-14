@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
 	dev-python/ciso8601[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

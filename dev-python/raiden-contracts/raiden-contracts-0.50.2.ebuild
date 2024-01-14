@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/coincurve[${PYTHON_USEDEP}]
 	dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/eth-typing[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]
 	dev-python/py-solc-x[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
+	>=dev-python/semantic-version-2.8[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

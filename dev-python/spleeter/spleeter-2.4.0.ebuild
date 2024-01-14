@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="evaluation"
-DEPENDENCIES="dev-python/ffmpeg-python[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ffmpeg-python-0.3.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.20.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	evaluation? ( dev-python/musdb[${PYTHON_USEDEP}] )
 	evaluation? ( dev-python/museval[${PYTHON_USEDEP}] )
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/norbert[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

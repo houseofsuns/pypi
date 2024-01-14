@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs proxy pydantic test testqt"
 DEPENDENCIES="dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cruft[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dask[${PYTHON_USEDEP}] )
@@ -43,13 +43,13 @@ DEPENDENCIES="dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wrapt[${PYTHON_USEDEP}] )
-	docs? ( dev-python/griffe[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/griffe-0.25.5[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-8.5.10[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-spellcheck[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-python-0.8.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.20.0[${PYTHON_USEDEP}] )
 	proxy? ( dev-python/wrapt[${PYTHON_USEDEP}] )
 	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	test? ( dev-python/attrs[${PYTHON_USEDEP}] )
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	test? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-codspeed[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/toolz[${PYTHON_USEDEP}] )
 	test? ( dev-python/wrapt[${PYTHON_USEDEP}] )
 	testqt? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )

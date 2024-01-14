@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="caching docs duckdb pandas"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/duckdb[${PYTHON_USEDEP}] )
-	caching? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	duckdb? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	caching? ( >=dev-python/pyarrow-5.0.0[${PYTHON_USEDEP}] )
+	duckdb? ( >=dev-python/pyarrow-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )

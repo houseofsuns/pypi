@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/ped-parser[${PYTHON_USEDEP}]
 	dev-python/pytabix[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.3.1[${PYTHON_USEDEP}]
 	dev-python/interval-tree[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/configobj[${PYTHON_USEDEP}]
-	dev-python/intervaltree[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/configobj-5.0.8[${PYTHON_USEDEP}]
+	>=dev-python/intervaltree-3.1.0[${PYTHON_USEDEP}]
 	dev-python/extract-vcf[${PYTHON_USEDEP}]
 	dev-python/vcftoolbox[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

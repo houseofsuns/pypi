@@ -35,12 +35,12 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/MarkupPy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.7.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/python-ligo-lw[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ligo-gracedb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pykerberos[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-3.3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

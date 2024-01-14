@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cylc_lang hieroglyph_addons rtd_theme_addons sub_lang test"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-2.1[${PYTHON_USEDEP}]
 	all? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/hieroglyph[${PYTHON_USEDEP}] )

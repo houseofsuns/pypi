@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/chardet-0.0.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-0.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pillow-0.0.1[${PYTHON_USEDEP}]
 	dev-python/encryptedsocket[${PYTHON_USEDEP}]
 	dev-python/unencryptedsocket[${PYTHON_USEDEP}]
 	dev-python/easyrsa[${PYTHON_USEDEP}]
-	dev-python/pyftpdlib[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
+	>=dev-python/pyftpdlib-0.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-0.0.1[${PYTHON_USEDEP}]
 	dev-python/threadwrapper[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

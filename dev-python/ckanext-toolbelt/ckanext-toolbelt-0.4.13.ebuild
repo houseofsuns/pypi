@@ -27,6 +27,6 @@ IUSE="flask-sqlalchemy"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/aiosmtpd[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	flask-sqlalchemy? ( dev-python/flask-sqlalchemy[${PYTHON_USEDEP}] )"
+	flask-sqlalchemy? ( ~dev-python/flask-sqlalchemy-2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

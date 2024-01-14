@@ -24,38 +24,38 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/dockerpty[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/exceptiongroup[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	dev? ( dev-python/iniconfig[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mccabe[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]
+	~dev-python/docker-6.1.3[${PYTHON_USEDEP}]
+	~dev-python/dockerpty-0.4.1[${PYTHON_USEDEP}]
+	~dev-python/idna-3.6[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-2.0.7[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-1.6.1[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/autopep8-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.2.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/importlib-metadata-4.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/packaging-23.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pluggy-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pycodestyle-2.9.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyflakes-2.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-console-scripts-1.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typed-ast[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/zipp[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/types-setuptools-69.0.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/urllib3-2.0.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/zipp-3.15.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

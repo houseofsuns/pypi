@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-0.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pygame-1.9.4[${PYTHON_USEDEP}]
 	dev-python/Kivy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

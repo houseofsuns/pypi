@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/rich-14.0[${PYTHON_USEDEP}]
 	dev-python/setfit[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

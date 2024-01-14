@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="accelerated daemon quic sshtunnel"
-DEPENDENCIES="accelerated? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
-	accelerated? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	daemon? ( dev-python/python-daemon[${PYTHON_USEDEP}] )
+DEPENDENCIES="accelerated? ( >=dev-python/pycryptodome-3.7.2[${PYTHON_USEDEP}] )
+	accelerated? ( >=dev-python/uvloop-0.13.0[${PYTHON_USEDEP}] )
+	daemon? ( >=dev-python/python-daemon-2.2.3[${PYTHON_USEDEP}] )
 	quic? ( dev-python/aioquic[${PYTHON_USEDEP}] )
 	sshtunnel? ( dev-python/asyncssh[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

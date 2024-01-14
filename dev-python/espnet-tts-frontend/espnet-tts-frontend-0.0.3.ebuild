@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/unidecode-1.0.22[${PYTHON_USEDEP}]
+	>=dev-python/inflect-1.0.0[${PYTHON_USEDEP}]
 	dev-python/jaconv[${PYTHON_USEDEP}]
 	dev-python/g2p-en[${PYTHON_USEDEP}]
 	dev-python/pypinyin[${PYTHON_USEDEP}]"

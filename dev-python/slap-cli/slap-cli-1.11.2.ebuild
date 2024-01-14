@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/build[${PYTHON_USEDEP}]
-	dev-python/cleo[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/build-0.11.0[${PYTHON_USEDEP}]
+	>=dev-python/cleo-1.0.0[${PYTHON_USEDEP}]
 	dev-python/databind[${PYTHON_USEDEP}]
-	dev-python/flit[${PYTHON_USEDEP}]
+	<dev-python/flit-4.0.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/nr-python-environment[${PYTHON_USEDEP}]
 	dev-python/nr-util[${PYTHON_USEDEP}]
-	dev-python/poetry-core[${PYTHON_USEDEP}]
-	dev-python/ptyprocess[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]"
+	<dev-python/poetry-core-1.8[${PYTHON_USEDEP}]
+	<dev-python/ptyprocess-0.8.0[${PYTHON_USEDEP}]
+	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-39.1.0[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tomlkit-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/twine-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

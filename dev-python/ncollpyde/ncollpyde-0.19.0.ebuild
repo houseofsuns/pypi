@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="validate"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	validate? ( dev-python/trimesh[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
+	validate? ( >=dev-python/trimesh-3.7.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

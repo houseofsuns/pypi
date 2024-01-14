@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp avro celery confluent-kafka django gunicorn requests sanic"
-DEPENDENCIES="dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/semver-2.0[${PYTHON_USEDEP}]
+	>=dev-python/coloredlogs-15.0[${PYTHON_USEDEP}]
 	dev-python/contextvars[${PYTHON_USEDEP}]
 	avro? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	avro? ( dev-python/avro-python3[${PYTHON_USEDEP}] )
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	sanic? ( dev-python/sanic[${PYTHON_USEDEP}] )
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	django? ( dev-python/django[${PYTHON_USEDEP}] )
+	aiohttp? ( >=dev-python/aiohttp-1.0[${PYTHON_USEDEP}] )
+	django? ( >=dev-python/django-1.0[${PYTHON_USEDEP}] )
 	confluent-kafka? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
-	requests? ( dev-python/requests[${PYTHON_USEDEP}] )
+	requests? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
 	gunicorn? ( dev-python/gunicorn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy test"
-DEPENDENCIES="dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	dev-python/pyspartn[${PYTHON_USEDEP}]
 	dev-python/pyubx2[${PYTHON_USEDEP}]
 	deploy? ( dev-python/build[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/pip[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	deploy? ( >=dev-python/setuptools-66.0[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )

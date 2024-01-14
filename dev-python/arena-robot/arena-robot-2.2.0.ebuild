@@ -26,22 +26,22 @@ KEYWORDS="~amd64 ~x86"
 IUSE="apriltag_detector dev realsense"
 DEPENDENCIES="dev-python/aioserial[${PYTHON_USEDEP}]
 	dev-python/arena-py[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
 	dev-python/python-periphery[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
+	<dev-python/selenium-4.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-scm-6.0[${PYTHON_USEDEP}]
 	dev-python/slam3d[${PYTHON_USEDEP}]
 	dev-python/transformations[${PYTHON_USEDEP}]
 	apriltag_detector? ( dev-python/dt-apriltags[${PYTHON_USEDEP}] )
 	apriltag_detector? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/bandit-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pydocstyle-7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	realsense? ( dev-python/pyrealsense2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

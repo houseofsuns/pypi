@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/colorclass[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/argcomplete-1.0[${PYTHON_USEDEP}]
+	>=dev-python/colorclass-1.2.0[${PYTHON_USEDEP}]
 	dev-python/macaroonbakery[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/terminaltables[${PYTHON_USEDEP}]"
+	>=dev-python/oauthlib-1.0.3[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-3.5.1[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2014.10[${PYTHON_USEDEP}]
+	>=dev-python/terminaltables-2.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

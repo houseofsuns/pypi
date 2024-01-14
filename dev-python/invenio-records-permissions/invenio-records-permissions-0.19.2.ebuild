@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/invenio-access[${PYTHON_USEDEP}]
 	opensearch1? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch2? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-mock-1.6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-accounts[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-app[${PYTHON_USEDEP}] )

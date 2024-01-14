@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/aws-cdk-lib[${PYTHON_USEDEP}]
 	dev-python/aws-cdk-constructs[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
 	dev-python/b-continuous-subprocess[${PYTHON_USEDEP}]
 	dev-python/b-cf-outputs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

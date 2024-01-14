@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/sparkmagic[${PYTHON_USEDEP}]
 	dev-python/sagemaker_studio_sparkmagic_lib[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]"
+	>=dev-python/filelock-3.0.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

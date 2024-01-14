@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/google-cloud-vision[${PYTHON_USEDEP}]
-	dev-python/pyocr[${PYTHON_USEDEP}]"
+	<dev-python/pyocr-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

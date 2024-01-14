@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/django-extensions[${PYTHON_USEDEP}]
-	dev-python/stripe[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]"
+	<dev-python/stripe-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.10.0[${PYTHON_USEDEP}]
+	<dev-python/django-4.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

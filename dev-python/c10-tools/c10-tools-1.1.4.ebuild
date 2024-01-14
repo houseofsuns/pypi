@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ci"
 DEPENDENCIES="dev-python/cbitstruct[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
+	>=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	dev-python/dpkt[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
 	dev-python/pychapter10[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.48.2[${PYTHON_USEDEP}]
 	ci? ( dev-python/pytest-azurepipelines[${PYTHON_USEDEP}] )
-	ci? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	ci? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	ci? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

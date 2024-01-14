@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyglet[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyglet-1.5.11[${PYTHON_USEDEP}]
 	dev-python/leaptask[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

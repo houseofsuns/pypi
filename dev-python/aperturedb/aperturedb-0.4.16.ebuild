@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	~dev-python/ipywidgets-8.0.4[${PYTHON_USEDEP}]
 	dev-python/keepalive-socket[${PYTHON_USEDEP}]
 	complete? ( dev-python/torch[${PYTHON_USEDEP}] )
 	complete? ( dev-python/torchvision[${PYTHON_USEDEP}] )

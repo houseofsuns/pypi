@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all arch docs lightgbm prophet quality ray sktime statsforecast statsmodels tests xgboost"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.0[${PYTHON_USEDEP}]
 	dev-python/iteration_utilities[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
-	quality? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	quality? ( dev-python/isort[${PYTHON_USEDEP}] )
+	>=dev-python/deepmerge-1.0.0[${PYTHON_USEDEP}]
+	quality? ( <dev-python/black-22.13.0[${PYTHON_USEDEP}] )
+	quality? ( <dev-python/flake8-4.1.0[${PYTHON_USEDEP}] )
+	quality? ( <dev-python/isort-5.11.0[${PYTHON_USEDEP}] )
 	quality? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/imbalanced-learn[${PYTHON_USEDEP}] )
 	tests? ( dev-python/holidays[${PYTHON_USEDEP}] )
 	all? ( dev-python/holidays[${PYTHON_USEDEP}] )
@@ -44,11 +44,11 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	all? ( dev-python/pandas_market_calendars[${PYTHON_USEDEP}] )
 	tests? ( dev-python/krisi[${PYTHON_USEDEP}] )
 	all? ( dev-python/krisi[${PYTHON_USEDEP}] )
-	dev-python/mkdocs[${PYTHON_USEDEP}]
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
+	>=dev-python/mkdocs-1.2[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-python-0.9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-autorefs-0.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/image[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-gallery[${PYTHON_USEDEP}] )
@@ -56,10 +56,10 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
 	all? ( dev-python/ray[${PYTHON_USEDEP}] )
 	all? ( dev-python/p_tqdm[${PYTHON_USEDEP}] )
-	tests? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	all? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	statsmodels? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}] )
+	statsmodels? ( >=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pyarrow-2.0[${PYTHON_USEDEP}] )
 	sktime? ( dev-python/sktime[${PYTHON_USEDEP}] )
 	sktime? ( dev-python/pmdarima[${PYTHON_USEDEP}] )
 	statsforecast? ( dev-python/statsforecast[${PYTHON_USEDEP}] )

@@ -25,26 +25,26 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/awscli[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.12.4[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.9.4[${PYTHON_USEDEP}]
 	dev-python/cement[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
+	~dev-python/docker-3.4.1[${PYTHON_USEDEP}]
 	dev-python/futures[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/pystache[${PYTHON_USEDEP}]
+	~dev-python/pystache-0.5.4[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.19.1[${PYTHON_USEDEP}]
 	dev-python/sigopt[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nose[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	~dev-python/six-1.11.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-4.3.4[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mock-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-1.9.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-3.6.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/setuptools-41.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/twine-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

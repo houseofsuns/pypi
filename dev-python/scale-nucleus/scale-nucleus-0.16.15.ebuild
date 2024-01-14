@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="launch metrics"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	metrics? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/shellingham[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
+	metrics? ( >=dev-python/scipy-1.4.1[${PYTHON_USEDEP}] )
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.15.2[${PYTHON_USEDEP}]
+	<dev-python/shellingham-2.0.0[${PYTHON_USEDEP}]
 	metrics? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	metrics? ( dev-python/Shapely[${PYTHON_USEDEP}] )
 	metrics? ( dev-python/rasterio[${PYTHON_USEDEP}] )
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	launch? ( dev-python/scale-launch[${PYTHON_USEDEP}] )
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]"
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

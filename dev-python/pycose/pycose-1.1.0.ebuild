@@ -34,13 +34,13 @@ DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
 	develop? ( dev-python/ecdsa[${PYTHON_USEDEP}] )
 	develop? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	develop? ( dev-python/certvalidator[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/mypy-0.782[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/coverage-5.2.1[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	develop? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

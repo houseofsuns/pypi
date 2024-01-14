@@ -24,57 +24,57 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extras full tests"
-DEPENDENCIES="dev-python/doit[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/doit-0.32.0[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/mako[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/docutils-0.13[${PYTHON_USEDEP}]
+	>=dev-python/mako-1.0.0[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/PyRSS2Gen[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/piexif[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-0.4.16[${PYTHON_USEDEP}]
+	>=dev-python/lxml-3.3.5[${PYTHON_USEDEP}]
+	>=dev-python/PyRSS2Gen-1.1[${PYTHON_USEDEP}]
+	>=dev-python/blinker-1.3[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-24.2.0[${PYTHON_USEDEP}]
+	>=dev-python/natsort-3.5.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/piexif-1.0.3[${PYTHON_USEDEP}]
+	>=dev-python/Babel-2.6.0[${PYTHON_USEDEP}]
 	extras? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	extras? ( dev-python/hsluv[${PYTHON_USEDEP}] )
-	extras? ( dev-python/pyphen[${PYTHON_USEDEP}] )
-	extras? ( dev-python/micawber[${PYTHON_USEDEP}] )
-	extras? ( dev-python/pygal[${PYTHON_USEDEP}] )
-	extras? ( dev-python/typogrify[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/pyphen-0.9.1[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/micawber-0.3.0[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/pygal-2.0.0[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/typogrify-2.0.4[${PYTHON_USEDEP}] )
 	extras? ( dev-python/phpserialize[${PYTHON_USEDEP}] )
-	extras? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	extras? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	extras? ( dev-python/ghp-import[${PYTHON_USEDEP}] )
-	extras? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	extras? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	extras? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/notebook-4.0.0[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/ipykernel-4.0.0[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/ghp-import-1.0.0[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/ruamel-yaml-0.15[${PYTHON_USEDEP}] )
 	extras? ( dev-python/toml[${PYTHON_USEDEP}] )
-	extras? ( dev-python/html5lib[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/html5lib-1.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	full? ( dev-python/hsluv[${PYTHON_USEDEP}] )
-	full? ( dev-python/pyphen[${PYTHON_USEDEP}] )
-	full? ( dev-python/micawber[${PYTHON_USEDEP}] )
-	full? ( dev-python/pygal[${PYTHON_USEDEP}] )
-	full? ( dev-python/typogrify[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/pyphen-0.9.1[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/micawber-0.3.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/pygal-2.0.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/typogrify-2.0.4[${PYTHON_USEDEP}] )
 	full? ( dev-python/phpserialize[${PYTHON_USEDEP}] )
-	full? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	full? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	full? ( dev-python/ghp-import[${PYTHON_USEDEP}] )
-	full? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	full? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	full? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/notebook-4.0.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/ipykernel-4.0.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/ghp-import-1.0.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/ruamel-yaml-0.15[${PYTHON_USEDEP}] )
 	full? ( dev-python/toml[${PYTHON_USEDEP}] )
-	full? ( dev-python/html5lib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/feedparser[${PYTHON_USEDEP}] )
-	tests? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	full? ( >=dev-python/html5lib-1.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-4.1.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/feedparser-6.0.10[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/freezegun-0.3.10[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

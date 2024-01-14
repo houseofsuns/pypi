@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="attrs beanie full msgspec odmantic pydantic sqlalchemy"
 DEPENDENCIES="dev-python/faker[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	attrs? ( dev-python/attrs[${PYTHON_USEDEP}] )
+	attrs? ( >=dev-python/attrs-22.2.0[${PYTHON_USEDEP}] )
 	beanie? ( dev-python/beanie[${PYTHON_USEDEP}] )
 	beanie? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	full? ( dev-python/attrs[${PYTHON_USEDEP}] )
@@ -39,6 +39,6 @@ DEPENDENCIES="dev-python/faker[${PYTHON_USEDEP}]
 	odmantic? ( dev-python/odmantic[${PYTHON_USEDEP}] )
 	odmantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	sqlalchemy? ( >=dev-python/sqlalchemy-1.4.29[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

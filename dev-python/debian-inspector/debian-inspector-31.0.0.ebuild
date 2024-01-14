@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/chardet-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.2[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-apidoc-0.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/doc8-0.8.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-xdist-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/aboutcode-toolkit[${PYTHON_USEDEP}] )
 	testing? ( dev-python/black[${PYTHON_USEDEP}] )
 	testing? ( dev-python/commoncode[${PYTHON_USEDEP}] )"

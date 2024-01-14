@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/multiprocessing-logging[${PYTHON_USEDEP}]
 	dev-python/ntc-templates[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]"
+	<dev-python/netaddr-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

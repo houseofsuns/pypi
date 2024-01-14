@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc plot sklearn test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/gstools[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	doc? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	doc? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/numpydoc-1.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-gallery-0.8[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	plot? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
 	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	test? ( dev-python/gstools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

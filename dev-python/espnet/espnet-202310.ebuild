@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc recipe test train"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-38.5.1[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/configargparse[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	~dev-python/typeguard-2.13.3[${PYTHON_USEDEP}]
 	dev-python/humanfriendly[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
 	dev-python/jamo[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	dev-python/kaldiio[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torch-complex[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
 	dev-python/opt-einsum[${PYTHON_USEDEP}]
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/fast-bss-eval[${PYTHON_USEDEP}]
 	dev-python/asteroid-filterbanks[${PYTHON_USEDEP}]
 	dev-python/editdistance[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}]
 	all? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch-optimizer[${PYTHON_USEDEP}] )
 	all? ( dev-python/fairscale[${PYTHON_USEDEP}] )
@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	all? ( dev-python/gtn[${PYTHON_USEDEP}] )
 	all? ( dev-python/evaluate[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pillow-9.5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/editdistance[${PYTHON_USEDEP}] )
 	all? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
@@ -83,11 +83,11 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	doc? ( dev-python/commonmark[${PYTHON_USEDEP}] )
-	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-0.2.4[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-argparse-0.2.5[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/commonmark-0.8.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/recommonmark-0.4.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/nbsphinx-0.4.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
 	recipe? ( dev-python/espnet-model-zoo[${PYTHON_USEDEP}] )
 	recipe? ( dev-python/gdown[${PYTHON_USEDEP}] )
@@ -104,25 +104,25 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	recipe? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
 	recipe? ( dev-python/praatio[${PYTHON_USEDEP}] )
 	recipe? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeouts[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pythonpath[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/jsondiff[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( <dev-python/jsondiff-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.7.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pillow-9.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/editdistance[${PYTHON_USEDEP}] )
 	test? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	test? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	train? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	train? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	train? ( ~dev-python/pillow-9.5.0[${PYTHON_USEDEP}] )
 	train? ( dev-python/editdistance[${PYTHON_USEDEP}] )
 	train? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	train? ( dev-python/tensorboard[${PYTHON_USEDEP}] )"

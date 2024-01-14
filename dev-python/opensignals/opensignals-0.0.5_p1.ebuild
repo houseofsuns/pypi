@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	test? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-5.1.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pydocstyle-4.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-docstyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/flake8-3.8.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

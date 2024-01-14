@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all kerberos mount report shell"
 DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
+	>=dev-python/ijson-3.1[${PYTHON_USEDEP}]
 	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/logbook[${PYTHON_USEDEP}]
+	>=dev-python/logbook-1.0[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.7.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-1.0[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	all? ( dev-python/fusepy[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )

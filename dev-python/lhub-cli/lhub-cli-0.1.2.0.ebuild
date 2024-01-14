@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/lhub[${PYTHON_USEDEP}]
-	dev-python/configobj[${PYTHON_USEDEP}]
+	>=dev-python/configobj-5.0.6[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
+	>=dev-python/rsa-4.8[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]

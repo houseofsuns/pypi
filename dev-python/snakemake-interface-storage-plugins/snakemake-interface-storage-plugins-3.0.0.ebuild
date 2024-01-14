@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/snakemake-interface-common[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]
 	dev-python/reretry[${PYTHON_USEDEP}]
 	dev-python/throttler[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jedi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jedi-0.19.0[${PYTHON_USEDEP}]
 	dev-python/pygls[${PYTHON_USEDEP}]
-	dev-python/pyflakes[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]
-	dev-python/yapf[${PYTHON_USEDEP}]"
+	~dev-python/pyflakes-2.2[${PYTHON_USEDEP}]
+	~dev-python/pycodestyle-2.5[${PYTHON_USEDEP}]
+	~dev-python/yapf-0.30[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

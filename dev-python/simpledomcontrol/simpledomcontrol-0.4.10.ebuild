@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/daphne[${PYTHON_USEDEP}]
 	dev-python/channels[${PYTHON_USEDEP}]
 	dev-python/channels-redis[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	<dev-python/django-6.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]"
+	<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/regex-2024.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

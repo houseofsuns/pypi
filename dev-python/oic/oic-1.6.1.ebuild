@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/mako[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
-	develop? ( dev-python/cherrypy[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/cherrypy-3.2.4[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )

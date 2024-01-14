@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.3[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-rtd-theme-0.4.0[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/qutip[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]"
+	>=dev-python/ipython-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

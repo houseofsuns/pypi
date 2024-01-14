@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/setuptools-0.6[${PYTHON_USEDEP}]
+	>=dev-python/lxml-2.3.3[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/ipython-0.12.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/fudge[${PYTHON_USEDEP}] )
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/nose-1.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

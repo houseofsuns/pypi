@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/requests-mock[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
+	~dev-python/mock-5.0.2[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-2.0.3[${PYTHON_USEDEP}]
+	~dev-python/requests-mock-1.11.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]"
+	~dev-python/Faker-18.11.1[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/networkx-3.1[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.56.0[${PYTHON_USEDEP}]
+	~dev-python/grpcio-tools-1.56.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

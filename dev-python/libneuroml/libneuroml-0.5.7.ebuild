@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
+	>=dev-python/tables-3.3.0[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cython[${PYTHON_USEDEP}] )

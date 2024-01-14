@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pygame[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pygame-2.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/pycairo[${PYTHON_USEDEP}]"
+	>=dev-python/certifi-2020.6.20[${PYTHON_USEDEP}]
+	>=dev-python/pycairo-1.20[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

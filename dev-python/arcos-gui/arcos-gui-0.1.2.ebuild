@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc testing"
 DEPENDENCIES="dev-python/arcos4py[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )

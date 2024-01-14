@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development docs testing"
-DEPENDENCIES="dev-python/cssutils[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cssutils-1.0.2[${PYTHON_USEDEP}]
 	dev-python/pypandoc[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	development? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	development? ( dev-python/tox[${PYTHON_USEDEP}] )
-	development? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	development? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	development? ( dev-python/twine[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}]
+	development? ( >=dev-python/sphinx-1.3.3[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/tox-2.3.1[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/coverage-4.0.2[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/wheel-0.26.0[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/twine-1.6.5[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.3.3[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/coverage-4.0.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-2.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

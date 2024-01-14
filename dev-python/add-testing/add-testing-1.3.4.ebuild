@@ -27,20 +27,20 @@ IUSE="testing"
 DEPENDENCIES="dev-python/Brotli[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2022.6.15[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
-	testing? ( dev-python/virtualenv[${PYTHON_USEDEP}] )"
+	~dev-python/importlib-metadata-4.12.0[${PYTHON_USEDEP}]
+	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2022.2.1[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0[${PYTHON_USEDEP}]
+	~dev-python/zipp-3.8.1[${PYTHON_USEDEP}]
+	testing? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/tox-3.14.6[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/virtualenv-20.0.33[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

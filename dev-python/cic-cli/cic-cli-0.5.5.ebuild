@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/funga-eth[${PYTHON_USEDEP}]
 	dev-python/cic-types[${PYTHON_USEDEP}]
 	dev-python/confini[${PYTHON_USEDEP}]
 	dev-python/chainlib[${PYTHON_USEDEP}]
-	dev-python/cbor2[${PYTHON_USEDEP}]
+	<dev-python/cbor2-5.5.0[${PYTHON_USEDEP}]
 	eth? ( dev-python/chainlib-eth[${PYTHON_USEDEP}] )
 	eth? ( dev-python/eth-token-index[${PYTHON_USEDEP}] )
 	eth? ( dev-python/eth-address-index[${PYTHON_USEDEP}] )

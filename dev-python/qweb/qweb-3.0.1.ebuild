@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	dev-python/pyscreeze[${PYTHON_USEDEP}]
 	dev-python/pyautogui[${PYTHON_USEDEP}]
 	dev-python/pynput[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
 	dev-python/robotframework-debuglibrary[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	<dev-python/selenium-5.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/ply[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]

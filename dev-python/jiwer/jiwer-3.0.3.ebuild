@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rapidfuzz[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/rapidfuzz-4.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

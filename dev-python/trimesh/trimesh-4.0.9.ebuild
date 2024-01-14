@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	recommend? ( dev-python/glooey[${PYTHON_USEDEP}] )
 	recommend? ( dev-python/sympy[${PYTHON_USEDEP}] )
 	recommend? ( dev-python/meshio[${PYTHON_USEDEP}] )
-	recommend? ( dev-python/pyglet[${PYTHON_USEDEP}] )
+	recommend? ( <dev-python/pyglet-2.0[${PYTHON_USEDEP}] )
 	recommend? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	recommend? ( dev-python/xatlas[${PYTHON_USEDEP}] )
 	recommend? ( dev-python/scikit-image[${PYTHON_USEDEP}] )

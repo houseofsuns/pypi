@@ -27,19 +27,19 @@ IUSE="tests"
 DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/dash-bootstrap-components[${PYTHON_USEDEP}]
 	dev-python/dash-daq[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.6.0[${PYTHON_USEDEP}]
 	dev-python/flask-caching[${PYTHON_USEDEP}]
 	dev-python/fmu-ensemble[${PYTHON_USEDEP}]
 	dev-python/fmu-tools[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.1[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	dev-python/pyscal[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}]
 	dev-python/xtgeo[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]
 	dev-python/webviz-config[${PYTHON_USEDEP}]
@@ -48,16 +48,16 @@ DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/ecl2df[${PYTHON_USEDEP}]
 	dev-python/opm[${PYTHON_USEDEP}]
 	tests? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/black-22.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dash[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	tests? ( <=dev-python/pylint-2.13.9[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
-	tests? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/selenium-3.141[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

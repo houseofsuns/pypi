@@ -25,28 +25,28 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all box2d highway mario minecart mujoco testing"
 DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
+	>=dev-python/pygame-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/pymoo[${PYTHON_USEDEP}]
 	all? ( dev-python/nes-py[${PYTHON_USEDEP}] )
 	all? ( dev-python/gym-super-mario-bros[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/imageio[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/imageio-2.14.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/mujoco[${PYTHON_USEDEP}] )
 	all? ( dev-python/highway-env[${PYTHON_USEDEP}] )
 	all? ( dev-python/box2d-py[${PYTHON_USEDEP}] )
-	all? ( dev-python/pygame[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pygame-2.1.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/swig[${PYTHON_USEDEP}] )
 	box2d? ( dev-python/box2d-py[${PYTHON_USEDEP}] )
-	box2d? ( dev-python/pygame[${PYTHON_USEDEP}] )
+	box2d? ( ~dev-python/pygame-2.1.3[${PYTHON_USEDEP}] )
 	box2d? ( dev-python/swig[${PYTHON_USEDEP}] )
 	highway? ( dev-python/highway-env[${PYTHON_USEDEP}] )
 	mario? ( dev-python/nes-py[${PYTHON_USEDEP}] )
 	mario? ( dev-python/gym-super-mario-bros[${PYTHON_USEDEP}] )
-	minecart? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	minecart? ( >=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	mujoco? ( dev-python/mujoco[${PYTHON_USEDEP}] )
-	mujoco? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	mujoco? ( >=dev-python/imageio-2.14.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

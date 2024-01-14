@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev hf include_package_data setup_requires"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/pydantic-1.6.1[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pytest-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pycodestyle-2.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydocstyle-4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-1.1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-material-4.6.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/phmdoctest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/commitizen[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pygments-2.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.2[${PYTHON_USEDEP}] )
 	hf? ( dev-python/biopython[${PYTHON_USEDEP}] )
 	hf? ( dev-python/tokenizers[${PYTHON_USEDEP}] )
 	hf? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	include_package_data? ( dev-python/True[${PYTHON_USEDEP}] )
-	setup_requires? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )"
+	setup_requires? ( >=dev-python/setuptools-scm-1.15[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

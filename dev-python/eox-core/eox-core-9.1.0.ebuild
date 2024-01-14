@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/django-oauth-toolkit[${PYTHON_USEDEP}]
 	dev-python/django-oauth2-provider[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	eox-audit? ( dev-python/eox-audit-model[${PYTHON_USEDEP}] )
-	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
+	sentry? ( ~dev-python/sentry-sdk-1.5.1[${PYTHON_USEDEP}] )
 	tpa? ( dev-python/social-auth-core[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

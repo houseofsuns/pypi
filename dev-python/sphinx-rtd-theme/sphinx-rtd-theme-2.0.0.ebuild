@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sphinx-8.0[${PYTHON_USEDEP}]
+	<dev-python/docutils-0.21[${PYTHON_USEDEP}]
+	<dev-python/sphinxcontrib-jquery-5.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/transifex-client[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )

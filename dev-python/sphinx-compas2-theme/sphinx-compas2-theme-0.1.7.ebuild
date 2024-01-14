@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/compas[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/numpydoc[${PYTHON_USEDEP}]
-	dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}]
+	<dev-python/pydata-sphinx-theme-0.14[${PYTHON_USEDEP}]
 	dev-python/pydocstyle[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/pytest-mock[${PYTHON_USEDEP}]

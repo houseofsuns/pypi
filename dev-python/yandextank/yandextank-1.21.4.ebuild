@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/cerberus[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cryptography-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/pyopenssl-21.0.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.5.1[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.8.0[${PYTHON_USEDEP}]
+	<=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
+	>=dev-python/pip-8.1.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
+	>=dev-python/cerberus-1.3.1[${PYTHON_USEDEP}]
 	dev-python/influxdb[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]
+	>=dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
 	dev-python/pytest-runner[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.44.0[${PYTHON_USEDEP}]
+	~dev-python/grpcio-tools-1.44.0[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/yandexcloud[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]
 	dev-python/retrying[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

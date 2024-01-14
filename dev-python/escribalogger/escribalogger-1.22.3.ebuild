@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	dev-python/mdurl[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/rich-13.4.2[${PYTHON_USEDEP}]
 	dev-python/graypy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

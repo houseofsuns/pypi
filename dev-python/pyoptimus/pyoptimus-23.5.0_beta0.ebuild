@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ai all api cudf dask db docs lint pandas spark test vaex"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	dev-python/fastnumbers[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-50.3.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
+	>=dev-python/humanize-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/deepdiff-5.5.0[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.13.1[${PYTHON_USEDEP}]
 	dev-python/fast-histogram[${PYTHON_USEDEP}]
-	dev-python/rply[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/jellyfish[${PYTHON_USEDEP}]
+	>=dev-python/rply-0.7.8[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.11.1[${PYTHON_USEDEP}]
+	>=dev-python/jellyfish-0.8.7[${PYTHON_USEDEP}]
 	dev-python/Metaphone[${PYTHON_USEDEP}]
 	dev-python/num2words[${PYTHON_USEDEP}]
 	dev-python/hi-dateinfer[${PYTHON_USEDEP}]
 	dev-python/hi-urlparser[${PYTHON_USEDEP}]
 	dev-python/yellowbrick[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
 	dev-python/pandavro[${PYTHON_USEDEP}]
 	dev-python/pybigquery[${PYTHON_USEDEP}]
-	dev-python/python-snappy[${PYTHON_USEDEP}]
+	>=dev-python/python-snappy-0.6.0[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/aiobotocore[${PYTHON_USEDEP}]
 	ai? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
@@ -60,40 +60,40 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	all? ( dev-python/findspark[${PYTHON_USEDEP}] )
 	all? ( dev-python/koalas[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/dask[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/dask-2021.12.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask-ml[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pyarrow-1.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/coiled[${PYTHON_USEDEP}] )
-	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/psutil-5.8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/vaex[${PYTHON_USEDEP}] )
 	all? ( dev-python/gputil[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/numpy-1.20[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	all? ( dev-python/keras[${PYTHON_USEDEP}] )
 	all? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sqlalchemy-1.3.18[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask[${PYTHON_USEDEP}] )
 	api? ( dev-python/flask[${PYTHON_USEDEP}] )
 	cudf? ( dev-python/gputil[${PYTHON_USEDEP}] )
-	cudf? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	cudf? ( ~dev-python/numpy-1.20[${PYTHON_USEDEP}] )
 	cudf? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	cudf? ( dev-python/dask[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	cudf? ( ~dev-python/dask-2021.12.0[${PYTHON_USEDEP}] )
+	dask? ( ~dev-python/dask-2021.12.0[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask-ml[${PYTHON_USEDEP}] )
-	dask? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	dask? ( ~dev-python/pyarrow-1.0.1[${PYTHON_USEDEP}] )
 	dask? ( dev-python/coiled[${PYTHON_USEDEP}] )
-	dask? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	db? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	dask? ( >=dev-python/psutil-5.8.0[${PYTHON_USEDEP}] )
+	db? ( ~dev-python/sqlalchemy-1.3.18[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mock[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nose[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pep8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	pandas? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	spark? ( dev-python/findspark[${PYTHON_USEDEP}] )
 	spark? ( dev-python/koalas[${PYTHON_USEDEP}] )

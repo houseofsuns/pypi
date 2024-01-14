@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws encryption gssapi ocsp snappy test zstd"
-DEPENDENCIES="dev-python/dnspython[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/dnspython-3.0.0[${PYTHON_USEDEP}]
 	aws? ( dev-python/pymongo-auth-aws[${PYTHON_USEDEP}] )
 	encryption? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	encryption? ( dev-python/pymongocrypt[${PYTHON_USEDEP}] )
 	gssapi? ( dev-python/pykerberos[${PYTHON_USEDEP}] )
-	ocsp? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
-	ocsp? ( dev-python/requests[${PYTHON_USEDEP}] )
-	ocsp? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	ocsp? ( dev-python/service-identity[${PYTHON_USEDEP}] )
+	ocsp? ( >=dev-python/pyopenssl-17.2.0[${PYTHON_USEDEP}] )
+	ocsp? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	ocsp? ( >=dev-python/cryptography-2.5[${PYTHON_USEDEP}] )
+	ocsp? ( >=dev-python/service-identity-18.1.0[${PYTHON_USEDEP}] )
 	snappy? ( dev-python/python-snappy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	zstd? ( dev-python/zstandard[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

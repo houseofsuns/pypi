@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pip-18.1[${PYTHON_USEDEP}]
+	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.15.35[${PYTHON_USEDEP}]
+	>=dev-python/pyperclip-1.5.27[${PYTHON_USEDEP}]
 	dev-python/logging-helper[${PYTHON_USEDEP}]
 	dev-python/configurationutil[${PYTHON_USEDEP}]
 	dev-python/conversionutil[${PYTHON_USEDEP}]
 	dev-python/stateutil[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/dominate[${PYTHON_USEDEP}]"
+	>=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}]
+	>=dev-python/dominate-2.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

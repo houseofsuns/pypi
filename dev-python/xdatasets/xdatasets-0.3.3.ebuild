@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs extra"
-DEPENDENCIES="dev-python/bottleneck[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bottleneck-1.3.1[${PYTHON_USEDEP}]
 	dev-python/cf-xarray[${PYTHON_USEDEP}]
-	dev-python/cftime[${PYTHON_USEDEP}]
+	>=dev-python/cftime-1.4.1[${PYTHON_USEDEP}]
 	dev-python/clisops[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/dask-2.6[${PYTHON_USEDEP}]
 	dev-python/dask-geopandas[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/intake[${PYTHON_USEDEP}]
@@ -37,36 +37,36 @@ DEPENDENCIES="dev-python/bottleneck[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/jsonpickle[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.23[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2023.1[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/blackdoc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump-my-version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-alphabetize[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-rst-docstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/ipython-8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbval[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pip-23.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tokenize-rt[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-4.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/watchdog-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
 	docs? ( dev-python/cartopy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/distributed[${PYTHON_USEDEP}] )
@@ -87,8 +87,8 @@ DEPENDENCIES="dev-python/bottleneck[${PYTHON_USEDEP}]
 	docs? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-codeautolink[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-confluencebuilder[${PYTHON_USEDEP}] )
 	extra? ( dev-python/xagg[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

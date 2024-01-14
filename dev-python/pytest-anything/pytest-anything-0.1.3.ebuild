@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pdbpp[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

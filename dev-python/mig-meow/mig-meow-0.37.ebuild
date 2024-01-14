@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/graphviz[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/graphviz-0.13.2[${PYTHON_USEDEP}]
 	dev-python/bqplot[${PYTHON_USEDEP}]
 	dev-python/IPython[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	~dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	~dev-python/ipywidgets-7.5.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
+	~dev-python/nbformat-5.1.2[${PYTHON_USEDEP}]
 	dev-python/watchdog[${PYTHON_USEDEP}]
 	dev-python/notebook-parameterizer[${PYTHON_USEDEP}]
 	dev-python/papermill[${PYTHON_USEDEP}]

@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-1.0[${PYTHON_USEDEP}]
 	dev-python/quantstats[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/ta[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/xlsxwriter[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	>=dev-python/typing-extensions-4.4[${PYTHON_USEDEP}]
+	>=dev-python/xlsxwriter-3.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-23.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docformatter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ezyquant-execution[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-env-0.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-kwparametrize[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/sphinx-6.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

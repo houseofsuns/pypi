@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/impacket[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/netifaces-0.11.0[${PYTHON_USEDEP}]
+	~dev-python/paramiko-3.1.0[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/pycrypto[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/scapy[${PYTHON_USEDEP}]
-	dev-python/service-identity[${PYTHON_USEDEP}]
-	dev-python/twisted[${PYTHON_USEDEP}]
+	~dev-python/service-identity-21.1.0[${PYTHON_USEDEP}]
+	~dev-python/twisted-21.7.0[${PYTHON_USEDEP}]
 	test? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
 	test? ( dev-python/ldap3[${PYTHON_USEDEP}] )
 	test? ( dev-python/mysql-connector[${PYTHON_USEDEP}] )

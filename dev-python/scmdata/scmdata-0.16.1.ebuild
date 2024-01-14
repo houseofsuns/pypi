@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="notebooks optional plots"
-DEPENDENCIES="dev-python/cftime[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cftime-1.5[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/openscm-units[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/pint-pandas[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
@@ -37,14 +37,14 @@ DEPENDENCIES="dev-python/cftime[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
 	plots? ( dev-python/nc-time-axis[${PYTHON_USEDEP}] )
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	plots? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	plots? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	plots? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	optional? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	optional? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	optional? ( dev-python/xlrd[${PYTHON_USEDEP}] )
 	optional? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	optional? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	notebooks? ( >=dev-python/notebook-7.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pyam-iamc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

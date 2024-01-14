@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/apscheduler[${PYTHON_USEDEP}]
 	dev-python/msgpack-numpy[${PYTHON_USEDEP}]
 	dev-python/msgpack-python[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.9[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pyzmq[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]"

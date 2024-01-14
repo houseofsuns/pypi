@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
+	>=dev-python/cached-property-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.1.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]"
+	>=dev-python/ConfigArgParse-0.11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

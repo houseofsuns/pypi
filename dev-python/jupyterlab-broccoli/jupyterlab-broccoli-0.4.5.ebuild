@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/jupyterlab[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jupyterlab-4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/click[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-releaser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"

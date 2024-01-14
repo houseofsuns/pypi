@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="country currency docs mypy sphinx testing"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/attrs-22.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	country? ( dev-python/pycountry[${PYTHON_USEDEP}] )
+	country? ( >=dev-python/pycountry-19.7.15[${PYTHON_USEDEP}] )
 	currency? ( dev-python/currint[${PYTHON_USEDEP}] )
 	docs? ( dev-python/currint[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pycountry[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pycountry-19.7.15[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-six[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	sphinx? ( ~dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	testing? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/freezegun-1.0.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-5.4[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-2.5[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/coverage-5.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	testing? ( dev-python/currint[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pycountry[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/mypy-0.740[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pycountry-19.7.15[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

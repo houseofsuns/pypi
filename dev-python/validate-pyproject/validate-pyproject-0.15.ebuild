@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all testing typecheck"
-DEPENDENCIES="dev-python/fastjsonschema[${PYTHON_USEDEP}]
-	all? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	all? ( dev-python/trove-classifiers[${PYTHON_USEDEP}] )
-	all? ( dev-python/tomli[${PYTHON_USEDEP}] )
+DEPENDENCIES="<=dev-python/fastjsonschema-3.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/packaging-20.4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/trove-classifiers-2021.10.20[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tomli-1.2.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tomli[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tomli-1.2.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/repo-review[${PYTHON_USEDEP}] )
 	typecheck? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	typecheck? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )"

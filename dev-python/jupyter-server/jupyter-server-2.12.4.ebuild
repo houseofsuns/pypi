@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/anyio-3.1.0[${PYTHON_USEDEP}]
 	dev-python/argon2-cffi[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/jupyter-core[${PYTHON_USEDEP}]
-	dev-python/jupyter-events[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-client-7.4.4[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-core-4.12[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-events-0.9.0[${PYTHON_USEDEP}]
 	dev-python/jupyter-server-terminals[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-6.4.4[${PYTHON_USEDEP}]
+	>=dev-python/nbformat-5.3.0[${PYTHON_USEDEP}]
 	dev-python/overrides[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/send2trash[${PYTHON_USEDEP}]
-	dev-python/terminado[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-24.0[${PYTHON_USEDEP}]
+	>=dev-python/send2trash-1.8.2[${PYTHON_USEDEP}]
+	>=dev-python/terminado-0.8.3[${PYTHON_USEDEP}]
+	>=dev-python/tornado-6.2.0[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.6.0[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
@@ -62,9 +62,9 @@ DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
 	test? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-jupyter[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-jupyter-0.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

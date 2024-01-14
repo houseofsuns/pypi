@@ -27,8 +27,8 @@ IUSE="spark test"
 DEPENDENCIES="dev-python/openmeteo-sdk[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/bandit-1.7.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-23.10.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
@@ -37,13 +37,13 @@ DEPENDENCIES="dev-python/openmeteo-sdk[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint-junit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pylint-3.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-github-actions-annotate-failures[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-3.11.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/shellcheck-py[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

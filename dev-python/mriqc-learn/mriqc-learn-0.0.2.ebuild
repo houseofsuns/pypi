@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc docs mem test tests"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	all? ( dev-python/furo[${PYTHON_USEDEP}] )
+	~dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	all? ( ~dev-python/furo-2021.10.9[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydotplus[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -40,13 +40,13 @@ DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/furo-2021.10.9[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydotplus[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2021.10.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydotplus[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all chardet fluent ical ini levenshtein markdown php rc spellcheck subtitles tmserver trados yaml"
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lxml-4.6.3[${PYTHON_USEDEP}]
 	fluent? ( dev-python/fluent-syntax[${PYTHON_USEDEP}] )
-	ini? ( dev-python/iniparse[${PYTHON_USEDEP}] )
+	ini? ( ~dev-python/iniparse-0.5[${PYTHON_USEDEP}] )
 	levenshtein? ( dev-python/python-Levenshtein[${PYTHON_USEDEP}] )
-	markdown? ( dev-python/mistletoe[${PYTHON_USEDEP}] )
-	php? ( dev-python/phply[${PYTHON_USEDEP}] )
-	rc? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
+	markdown? ( ~dev-python/mistletoe-1.2.1[${PYTHON_USEDEP}] )
+	php? ( ~dev-python/phply-1.2.6[${PYTHON_USEDEP}] )
+	rc? ( ~dev-python/pyparsing-3.1.1[${PYTHON_USEDEP}] )
 	subtitles? ( dev-python/aeidon[${PYTHON_USEDEP}] )
 	trados? ( dev-python/BeautifulSoup4[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
+	yaml? ( ~dev-python/ruamel-yaml-0.18.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/aeidon[${PYTHON_USEDEP}] )
 	all? ( dev-python/BeautifulSoup4[${PYTHON_USEDEP}] )
-	all? ( dev-python/charset-normalizer[${PYTHON_USEDEP}] )
-	all? ( dev-python/cheroot[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/cheroot-10.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/fluent-syntax[${PYTHON_USEDEP}] )
-	all? ( dev-python/iniparse[${PYTHON_USEDEP}] )
-	all? ( dev-python/mistletoe[${PYTHON_USEDEP}] )
-	all? ( dev-python/phply[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/iniparse-0.5[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mistletoe-1.2.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/phply-1.2.6[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pyenchant-3.2.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pyparsing-3.1.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-Levenshtein[${PYTHON_USEDEP}] )
-	all? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/vobject[${PYTHON_USEDEP}] )
-	chardet? ( dev-python/charset-normalizer[${PYTHON_USEDEP}] )
-	ical? ( dev-python/vobject[${PYTHON_USEDEP}] )
-	spellcheck? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
-	tmserver? ( dev-python/cheroot[${PYTHON_USEDEP}] )"
+	all? ( ~dev-python/ruamel-yaml-0.18.5[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/vobject-0.9.6.1[${PYTHON_USEDEP}] )
+	chardet? ( ~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}] )
+	ical? ( ~dev-python/vobject-0.9.6.1[${PYTHON_USEDEP}] )
+	spellcheck? ( ~dev-python/pyenchant-3.2.2[${PYTHON_USEDEP}] )
+	tmserver? ( ~dev-python/cheroot-10.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

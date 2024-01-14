@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="resources"
 DEPENDENCIES="dev-python/cirq-core[${PYTHON_USEDEP}]
 	dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.8[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.11.0[${PYTHON_USEDEP}]
 	dev-python/pubchempy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18[${PYTHON_USEDEP}]
+	<dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	resources? ( dev-python/pyscf[${PYTHON_USEDEP}] )
 	resources? ( dev-python/jax[${PYTHON_USEDEP}] )

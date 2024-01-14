@@ -27,8 +27,8 @@ IUSE="test"
 DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev-python/certbot[${PYTHON_USEDEP}]
 	dev-python/PyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.2.1[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-41.6.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

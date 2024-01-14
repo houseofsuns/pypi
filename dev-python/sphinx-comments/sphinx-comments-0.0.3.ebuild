@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="code_style sphinx testing"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
-	code_style? ( dev-python/flake8[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/sphinx-1.8[${PYTHON_USEDEP}]
+	code_style? ( <dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
 	code_style? ( dev-python/black[${PYTHON_USEDEP}] )
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	sphinx? ( >=dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	testing? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

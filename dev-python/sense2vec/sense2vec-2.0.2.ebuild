@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/wasabi[${PYTHON_USEDEP}]
 	dev-python/srsly[${PYTHON_USEDEP}]
 	dev-python/catalogue[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	>=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

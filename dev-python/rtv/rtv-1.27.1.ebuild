@@ -28,10 +28,10 @@ DEPENDENCIES="test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/kitchen[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.4.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/vcrpy[${PYTHON_USEDEP}] )"

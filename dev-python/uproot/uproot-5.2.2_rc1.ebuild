@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
 	dev-python/fsspec[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/awkward-pandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/boost-histogram[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dask-awkward[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
 	test? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/rangehttpserver[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/s3fs[${PYTHON_USEDEP}] )

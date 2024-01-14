@@ -24,43 +24,43 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all_plugins dev_documentation dev_testing dev_utils doc jupyter"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
-	dev-python/boltons[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/boltons-21.0.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.6[${PYTHON_USEDEP}]
 	dev-python/dag-cbor[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
+	<dev-python/deepdiff-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/distro-1.6.0[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/email-validator-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/fasteners-0.18[${PYTHON_USEDEP}]
+	<dev-python/filetype-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
+	>=dev-python/humanfriendly-10.0[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-8.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/patool[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
+	>=dev-python/mistune-3.0.0[${PYTHON_USEDEP}]
 	dev-python/mmhash3[${PYTHON_USEDEP}]
 	dev-python/multiformats[${PYTHON_USEDEP}]
 	dev-python/multiformats-config[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	<dev-python/networkx-4.0[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.8.10[${PYTHON_USEDEP}]
 	dev-python/pp-ez[${PYTHON_USEDEP}]
-	dev-python/puremagic[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/puremagic-1.15[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2022.6[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-25.0.0[${PYTHON_USEDEP}]
+	>=dev-python/regex-2022.4.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.4.0[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.19.0[${PYTHON_USEDEP}]
+	>=dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
+	<dev-python/stevedore-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/structlog-21.5.0[${PYTHON_USEDEP}]
+	<dev-python/tzlocal-6.0[${PYTHON_USEDEP}]
 	all_plugins? ( dev-python/kiara-plugin-core-types[${PYTHON_USEDEP}] )
 	all_plugins? ( dev-python/kiara-plugin-tabular[${PYTHON_USEDEP}] )
 	all_plugins? ( dev-python/kiara-plugin-onboarding[${PYTHON_USEDEP}] )
@@ -75,20 +75,20 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev_documentation? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )
 	dev_documentation? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
 	dev_documentation? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
-	dev_documentation? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	dev_documentation? ( >=dev-python/mkdocs-material-8.0.0[${PYTHON_USEDEP}] )
 	dev_documentation? ( dev-python/mkdocs-section-index[${PYTHON_USEDEP}] )
-	dev_documentation? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	dev_documentation? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
-	dev_testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev_testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev_testing? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	dev_testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev_documentation? ( >=dev-python/mkdocstrings-0.18[${PYTHON_USEDEP}] )
+	dev_documentation? ( >=dev-python/mkdocs-gen-files-0.3.1[${PYTHON_USEDEP}] )
+	dev_testing? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev_testing? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	dev_testing? ( >=dev-python/jsonschema-4.0.0[${PYTHON_USEDEP}] )
+	dev_testing? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
 	dev_testing? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
-	dev_testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev_testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev_testing? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
+	dev_testing? ( >=dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
 	dev_testing? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	dev_testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev_testing? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev_testing? ( >=dev-python/pytest-xdist-3.2.1[${PYTHON_USEDEP}] )
+	dev_testing? ( >=dev-python/tox-3.21.2[${PYTHON_USEDEP}] )
 	dev_testing? ( dev-python/types-Deprecated[${PYTHON_USEDEP}] )
 	dev_testing? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev_testing? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )
@@ -105,14 +105,14 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev_utils? ( dev-python/kiara-plugin-tabular[${PYTHON_USEDEP}] )
 	dev_utils? ( dev-python/kiara-plugin-develop[${PYTHON_USEDEP}] )
 	dev_utils? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev_utils? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev_utils? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
 	dev_utils? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev_utils? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev_utils? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
 	dev_utils? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	dev_utils? ( dev-python/pip-licenses[${PYTHON_USEDEP}] )
 	dev_utils? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev_utils? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev_utils? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev_utils? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
+	dev_utils? ( >=dev-python/pytest-xdist-3.2.1[${PYTHON_USEDEP}] )
 	dev_utils? ( dev-python/setup-cfg-fmt[${PYTHON_USEDEP}] )
 	dev_utils? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev_utils? ( dev-python/types-Deprecated[${PYTHON_USEDEP}] )
@@ -130,9 +130,9 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev_utils? ( dev-python/watchgod[${PYTHON_USEDEP}] )
 	dev_utils? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/airium[${PYTHON_USEDEP}] )
-	doc? ( dev-python/black[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupytext[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocstrings-0.18.0[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/ipydagred3[${PYTHON_USEDEP}] )"

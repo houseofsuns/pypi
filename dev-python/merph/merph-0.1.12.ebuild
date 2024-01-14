@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="app full mc nb"
 DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
 	app? ( dev-python/dash[${PYTHON_USEDEP}] )
 	app? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
-	app? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	app? ( >=dev-python/plotly-5.6.0[${PYTHON_USEDEP}] )
 	app? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	full? ( dev-python/pymc[${PYTHON_USEDEP}] )
 	full? ( dev-python/arviz[${PYTHON_USEDEP}] )
 	full? ( dev-python/dash[${PYTHON_USEDEP}] )
 	full? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
-	full? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/plotly-5.6.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	full? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	mc? ( dev-python/pymc[${PYTHON_USEDEP}] )

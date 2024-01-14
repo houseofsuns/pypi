@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/csle-base[${PYTHON_USEDEP}]
 	dev-python/csle-common[${PYTHON_USEDEP}]
 	dev-python/csle-cluster[${PYTHON_USEDEP}]
@@ -38,24 +38,24 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/gym-csle-intrusion-response-game[${PYTHON_USEDEP}]
 	dev-python/csle-agents[${PYTHON_USEDEP}]
 	dev-python/csle-tolerance[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	testing? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-mock-3.6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/grpcio-1.57.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/grpcio-tools-1.57.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-grpc[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-paramiko[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8-rst-docstrings[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
-	testing? ( dev-python/twine[${PYTHON_USEDEP}] )
-	testing? ( dev-python/build[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/tox-3.24[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/grpcio-1.18.0[${PYTHON_USEDEP}]
+	~dev-python/grpcio-tools-1.18.0[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.3.3[${PYTHON_USEDEP}]
+	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.31.1[${PYTHON_USEDEP}]
+	~dev-python/bleach-2.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

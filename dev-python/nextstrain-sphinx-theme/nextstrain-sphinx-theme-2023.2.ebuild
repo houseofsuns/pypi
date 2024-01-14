@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-better-subsection[${PYTHON_USEDEP}]
 	dev-python/sphinx-copybutton[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

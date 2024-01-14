@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
+	~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
 	dev-python/elasticsearch2[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

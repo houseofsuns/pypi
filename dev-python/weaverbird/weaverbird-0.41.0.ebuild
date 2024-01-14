@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all pandas playground pypika"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	playground? ( dev-python/pandas[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	pandas? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	playground? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	pypika? ( dev-python/PyPika[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyPika[${PYTHON_USEDEP}] )
 	playground? ( dev-python/quart[${PYTHON_USEDEP}] )
 	playground? ( dev-python/Quart-CORS[${PYTHON_USEDEP}] )
-	playground? ( dev-python/hypercorn[${PYTHON_USEDEP}] )
-	playground? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	playground? ( dev-python/psycopg[${PYTHON_USEDEP}] )
+	playground? ( <dev-python/hypercorn-0.16[${PYTHON_USEDEP}] )
+	playground? ( >=dev-python/pymongo-4.2.0[${PYTHON_USEDEP}] )
+	playground? ( <dev-python/psycopg-4.0.0[${PYTHON_USEDEP}] )
 	playground? ( dev-python/toucan-connectors[${PYTHON_USEDEP}] )
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+	<dev-python/pytest-asyncio-0.24[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

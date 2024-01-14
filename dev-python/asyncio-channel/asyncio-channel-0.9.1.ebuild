@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+DEPENDENCIES="test? ( ~dev-python/pytest-5.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.11[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

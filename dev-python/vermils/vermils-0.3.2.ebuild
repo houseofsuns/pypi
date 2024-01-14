@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all http"
-DEPENDENCIES="dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	http? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	all? ( dev-python/httpx[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
+	http? ( <dev-python/httpx-0.24.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/httpx-0.24.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

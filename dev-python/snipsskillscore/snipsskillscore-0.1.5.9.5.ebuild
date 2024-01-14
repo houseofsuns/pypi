@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cython-0.21.1[${PYTHON_USEDEP}]
 	dev-python/gTTS[${PYTHON_USEDEP}]
-	dev-python/hidapi[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/pyaudio[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
-	dev-python/pyusb[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/hidapi-0.7.99[${PYTHON_USEDEP}]
+	~dev-python/paho-mqtt-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/pyaudio-0.2.8[${PYTHON_USEDEP}]
+	~dev-python/pygame-1.9.3[${PYTHON_USEDEP}]
+	~dev-python/pyusb-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	dev-python/snips-respeaker[${PYTHON_USEDEP}]
 	dev-python/webrtcvad[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

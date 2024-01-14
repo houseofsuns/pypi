@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/lexid[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4[${PYTHON_USEDEP}]
 	dev-python/looseversion[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

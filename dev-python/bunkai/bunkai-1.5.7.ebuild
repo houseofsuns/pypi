@@ -29,14 +29,14 @@ DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	train? ( dev-python/seqeval[${PYTHON_USEDEP}] )
 	dev-python/spans[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	lb? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	lb? ( >=dev-python/numpy-1.16.0[${PYTHON_USEDEP}] )
 	lb? ( dev-python/torch[${PYTHON_USEDEP}] )
 	lb? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	dev-python/more_itertools[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
+	>=dev-python/emoji-2.0.0[${PYTHON_USEDEP}]
 	dev-python/emojis[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	lb? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev-python/regex[${PYTHON_USEDEP}]"
+	lb? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	>dev-python/regex-2022.7.24[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

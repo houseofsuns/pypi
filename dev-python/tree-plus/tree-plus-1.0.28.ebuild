@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
+	>=dev-python/natsort-7.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-dotenv[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"

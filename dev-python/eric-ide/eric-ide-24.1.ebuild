@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pip-21.1[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+	>=dev-python/PyQt6-6.2.0[${PYTHON_USEDEP}]
 	dev-python/PyQt6-Charts[${PYTHON_USEDEP}]
-	dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}]
+	>=dev-python/PyQt6-WebEngine-6.2.0[${PYTHON_USEDEP}]
 	dev-python/PyQt6-QScintilla[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
@@ -45,9 +45,9 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/cyclonedx-python-lib[${PYTHON_USEDEP}]
 	dev-python/cyclonedx-bom[${PYTHON_USEDEP}]
 	dev-python/trove-classifiers[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
+	>=dev-python/black-22.6.0[${PYTHON_USEDEP}]
+	>=dev-python/isort-5.10.0[${PYTHON_USEDEP}]
+	>=dev-python/coverage-6.5.0[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]
 	dev-python/pipdeptree[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

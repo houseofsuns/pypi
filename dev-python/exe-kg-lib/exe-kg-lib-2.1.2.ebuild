@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
+	<dev-python/black-24.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/rdflib-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}]
 	dev-python/typer-cli[${PYTHON_USEDEP}]
 	dev-python/pyshacl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

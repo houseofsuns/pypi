@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/pyparsing[${PYTHON_USEDEP}]
 	dev-python/XlsxWriter[${PYTHON_USEDEP}]
 	dev-python/fosslight-util[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.38.1[${PYTHON_USEDEP}]
 	dev-python/intbitset[${PYTHON_USEDEP}]
 	dev-python/fosslight-binary[${PYTHON_USEDEP}]
 	dev-python/typecode-libmagic[${PYTHON_USEDEP}]"

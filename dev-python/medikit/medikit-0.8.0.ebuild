@@ -27,20 +27,20 @@ IUSE="dev"
 DEPENDENCIES="dev-python/git-semver[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/mondrian[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/pip-tools[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
+	<dev-python/semantic-version-2.7[${PYTHON_USEDEP}]
+	~dev-python/stevedore-3.0[${PYTHON_USEDEP}]
 	dev-python/whistle[${PYTHON_USEDEP}]
-	dev-python/yapf[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	~dev-python/yapf-0.20[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-5.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/releases[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

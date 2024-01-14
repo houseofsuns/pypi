@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="compression"
 DEPENDENCIES="dev-python/asn1[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
 	compression? ( dev-python/pyliblzfse[${PYTHON_USEDEP}] )
 	compression? ( dev-python/pylzss[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

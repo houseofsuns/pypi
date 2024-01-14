@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/opentracing[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/flake8-3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

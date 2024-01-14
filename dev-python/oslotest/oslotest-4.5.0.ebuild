@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fixtures[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/fixtures-3.0.0[${PYTHON_USEDEP}]
 	dev-python/python-subunit[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/testtools[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/testtools-2.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

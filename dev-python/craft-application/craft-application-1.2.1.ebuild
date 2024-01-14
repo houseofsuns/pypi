@@ -27,33 +27,33 @@ IUSE="apt dev docs lint types"
 DEPENDENCIES="dev-python/craft-cli[${PYTHON_USEDEP}]
 	dev-python/craft-parts[${PYTHON_USEDEP}]
 	dev-python/craft-providers[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-3.10[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-yaml[${PYTHON_USEDEP}]
 	dev-python/pyxdg[${PYTHON_USEDEP}]
 	dev-python/PyYaml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	apt? ( dev-python/python-apt[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-check[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/hypothesis-6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-check-2.2.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-rerunfailures-13.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-pydantic[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-lint[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-23.10.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	types? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	types? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
 	types? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )"

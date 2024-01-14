@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tf"
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/tf2onnx[${PYTHON_USEDEP}]
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

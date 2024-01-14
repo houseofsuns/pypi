@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="psycopg2 psycopg2-binary"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	psycopg2? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	psycopg2-binary? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="uvicorn"
 DEPENDENCIES="dev-python/accept-types[${PYTHON_USEDEP}]
-	dev-python/cachelib[${PYTHON_USEDEP}]
+	>=dev-python/cachelib-0.4.0[${PYTHON_USEDEP}]
 	dev-python/duckdb-engine[${PYTHON_USEDEP}]
 	dev-python/duckdb[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.3[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	<=dev-python/requests-2.29.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.16.2[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sqlmodel[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+	<dev-python/sqlparse-1.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	uvicorn? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	uvicorn? ( >=dev-python/uvicorn-0.21.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

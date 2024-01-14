@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bdd docs format lint repl test type"
-DEPENDENCIES="test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+DEPENDENCIES="test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-asyncio-1.0[${PYTHON_USEDEP}] )
 	bdd? ( dev-python/behave4git[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyHamcrest[${PYTHON_USEDEP}] )
 	bdd? ( dev-python/PyHamcrest[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	lint? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	type? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/pydocstyle-7.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/yapf-1.0[${PYTHON_USEDEP}] )
+	type? ( <dev-python/mypy-1.0[${PYTHON_USEDEP}] )
 	type? ( dev-python/types-python-slugify[${PYTHON_USEDEP}] )
-	format? ( dev-python/isort[${PYTHON_USEDEP}] )
+	format? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
 	format? ( dev-python/black[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	repl? ( dev-python/bpython[${PYTHON_USEDEP}] )
-	dev-python/cleo[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	repl? ( <dev-python/bpython-1.0[${PYTHON_USEDEP}] )
+	<dev-python/cleo-1.0[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-7.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-1.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

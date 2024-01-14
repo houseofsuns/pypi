@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/EdgeGPT[${PYTHON_USEDEP}]
 	dev-python/poe-api[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/revChatGPT[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	<dev-python/websockets-11.0[${PYTHON_USEDEP}]
 	dev-python/webuiapi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

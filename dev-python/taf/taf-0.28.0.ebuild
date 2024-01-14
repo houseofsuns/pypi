@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci dev test yubikey"
-DEPENDENCIES="dev-python/cattrs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cattrs-23.1.2[${PYTHON_USEDEP}]
+	~dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
 	dev-python/oll-tuf[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	~dev-python/cryptography-38.0[${PYTHON_USEDEP}]
 	dev-python/securesystemslib[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pygit2[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.6[${PYTHON_USEDEP}]
+	~dev-python/pygit2-1.9[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
 	dev-python/logdecorator[${PYTHON_USEDEP}]
-	ci? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	ci? ( dev-python/black[${PYTHON_USEDEP}] )
-	ci? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	ci? ( >=dev-python/bandit-1.6.0[${PYTHON_USEDEP}] )
+	ci? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/coverage-4.5.3[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	ci? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	ci? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/freezegun-0.3.15[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/bandit-1.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/freezegun-0.3.15[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}] )
 	yubikey? ( dev-python/yubikey-manager[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev flirt"
-DEPENDENCIES="dev-python/funcy[${PYTHON_USEDEP}]
-	dev-python/pefile[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/funcy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pefile-2023.2.7[${PYTHON_USEDEP}]
 	dev-python/vivisect[${PYTHON_USEDEP}]
-	dev-python/intervaltree[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
+	>=dev-python/intervaltree-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-sugar-0.9.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-instafail[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pycodestyle-2.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.11.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/types-setuptools-67.6.0.7[${PYTHON_USEDEP}] )
 	flirt? ( dev-python/python-flirt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

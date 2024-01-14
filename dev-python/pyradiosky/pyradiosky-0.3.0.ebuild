@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all astroquery dev doc healpix lunarsky"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.1[${PYTHON_USEDEP}]
 	dev-python/pyuvdata[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-scm-7.0.3[${PYTHON_USEDEP}]
 	all? ( dev-python/astropy-healpix[${PYTHON_USEDEP}] )
 	all? ( dev-python/astroquery[${PYTHON_USEDEP}] )
 	astroquery? ( dev-python/astroquery[${PYTHON_USEDEP}] )

@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="menu"
 DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-htmlrender[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-apscheduler[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.1[${PYTHON_USEDEP}]
 	dev-python/pil-utils[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25[${PYTHON_USEDEP}]
 	dev-python/pypinyin[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/async-lru[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.9.2[${PYTHON_USEDEP}]
+	>=dev-python/async-lru-2.0.4[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2023.3[${PYTHON_USEDEP}]
 	menu? ( dev-python/nonebot-plugin-PicMenu[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

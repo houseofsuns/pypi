@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="vader"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
 	dev-python/spacy-readability[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/vaderSentiment[${PYTHON_USEDEP}]

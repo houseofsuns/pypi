@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-36.2[${PYTHON_USEDEP}]
 	dev-python/plone-app-caching[${PYTHON_USEDEP}]
 	dev-python/plone-app-iterate[${PYTHON_USEDEP}]
 	dev-python/plone-app-upgrade[${PYTHON_USEDEP}]

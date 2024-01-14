@@ -24,37 +24,37 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
 	dev-python/dicom2nifti[${PYTHON_USEDEP}]
 	dev-python/inquirerpy[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
+	<=dev-python/natsort-8.4.0[${PYTHON_USEDEP}]
+	<=dev-python/nest-asyncio-1.5.8[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
+	<=dev-python/packaging-23.2[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	<=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/Rich[${PYTHON_USEDEP}]
 	dev-python/rt-utils[${PYTHON_USEDEP}]
 	dev-python/shtab[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	<=dev-python/tenacity-8.2.3[${PYTHON_USEDEP}]
+	<=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
+	dev? ( <=dev-python/build-1.0.3[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/wheel-0.42.0[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/black-23.12.0[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/pycodestyle-2.11.1[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/pytest-asyncio-0.23.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	dev? ( <=dev-python/pytest-xdist-3.5.0[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/pytest-xdist-3.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
 	dev-python/aiohttp-swagger3[${PYTHON_USEDEP}]
-	dev-python/aiohttp-cors[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]"
+	<dev-python/aiohttp-cors-0.8[${PYTHON_USEDEP}]
+	<dev-python/psutil-5.10[${PYTHON_USEDEP}]
+	<dev-python/tomli-2.1[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

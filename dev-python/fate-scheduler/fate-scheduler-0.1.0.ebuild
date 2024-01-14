@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/argcmdr[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
+	<dev-python/argcomplete-3.0[${PYTHON_USEDEP}]
+	<dev-python/croniter-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Dickens[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/lmdb-dict-full[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/wcwidth[${PYTHON_USEDEP}]"
+	<dev-python/wcwidth-0.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

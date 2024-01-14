@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
+	<=dev-python/PyQt5-5.15.7[${PYTHON_USEDEP}]
+	<=dev-python/pandas-1.4.4[${PYTHON_USEDEP}]
+	<=dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
+	<=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
 	dev-python/fpdf2[${PYTHON_USEDEP}]
 	dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	<=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	<=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

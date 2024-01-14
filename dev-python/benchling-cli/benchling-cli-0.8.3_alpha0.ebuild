@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/black-23.0.0[${PYTHON_USEDEP}]
 	dev-python/benchling_sdk[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]

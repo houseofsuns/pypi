@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.4[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-5.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-sugar-0.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.13.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-factoryboy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-bootstrap-theme-0.4.12[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-issues-1.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

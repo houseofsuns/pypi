@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Requests[${PYTHON_USEDEP}]
 	dev-python/pykakasi[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/langcodes[${PYTHON_USEDEP}]
 	dev-python/language-data[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/fonttools[${PYTHON_USEDEP}]
+	>=dev-python/regex-2021.8.3[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-4.27[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

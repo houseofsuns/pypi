@@ -29,12 +29,12 @@ DEPENDENCIES="dev-python/Flask-BabelEx[${PYTHON_USEDEP}]
 	dev-python/invenio-mail[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/isort-4.3.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pydocstyle-2.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

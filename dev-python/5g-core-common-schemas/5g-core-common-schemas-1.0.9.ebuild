@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/feedparser[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/feedparser-5.2.0[${PYTHON_USEDEP}]
 	dev-python/html2text[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]"

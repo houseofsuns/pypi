@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/mattermostdriver[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
 	dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docformatter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/filelock-3.0.12[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-2.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytype[${PYTHON_USEDEP}] )
-	dev? ( dev-python/snapshottest[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/snapshottest-0.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

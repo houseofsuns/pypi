@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cheroot[${PYTHON_USEDEP}]
-	dev-python/lmdb[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cheroot-5.8.3[${PYTHON_USEDEP}]
+	>=dev-python/lmdb-0.93[${PYTHON_USEDEP}]
 	dev-python/monotonic[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-0.12.2[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.10.11[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

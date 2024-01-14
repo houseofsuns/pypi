@@ -26,25 +26,25 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/conan[${PYTHON_USEDEP}]
 	dev-python/PySide6-Essentials[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/contextlib-chdir[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rope[${PYTHON_USEDEP}] )
 	dev? ( dev-python/debugpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-check[${PYTHON_USEDEP}] )
-	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-check[${PYTHON_USEDEP}] )
-	test? ( dev-python/psutil[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-7.4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-qt-4.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-check-1.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/psutil-5.9.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-qt-4.2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-check-1.3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/psutil-5.9.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

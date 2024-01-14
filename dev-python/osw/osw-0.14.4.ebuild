@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dataimport db dev testing ui"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/datamodel-code-generator[${PYTHON_USEDEP}]
 	dev-python/mwclient[${PYTHON_USEDEP}]
 	dev-python/mwparserfromhell[${PYTHON_USEDEP}]

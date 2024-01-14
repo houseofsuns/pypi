@@ -27,9 +27,9 @@ IUSE="docs testing"
 DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-packaging[${PYTHON_USEDEP}] )
-	docs? ( dev-python/rst-linker[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/rst-linker-1.9[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-3.5[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-sugar-0.9.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/collective-checkdocs[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

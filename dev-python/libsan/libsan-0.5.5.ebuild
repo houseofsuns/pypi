@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ssh"
-DEPENDENCIES="dev-python/configobj[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/configobj-5.0.8[${PYTHON_USEDEP}]
 	dev-python/netapp-ontap[${PYTHON_USEDEP}]
 	dev-python/netifaces2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	ssh? ( dev-python/ssh2-python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

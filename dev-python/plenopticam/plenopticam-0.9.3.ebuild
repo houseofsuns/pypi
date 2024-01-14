@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
 	dev-python/colour-demosaicing[${PYTHON_USEDEP}]
 	dev-python/colour[${PYTHON_USEDEP}]
 	dev-python/color-matcher[${PYTHON_USEDEP}]
 	dev-python/color-space-converter[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.17.0[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/depthy[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2020.6.20[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]
+	~dev-python/tifffile-2022.4.8[${PYTHON_USEDEP}]
 	dev-python/pyinstaller[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

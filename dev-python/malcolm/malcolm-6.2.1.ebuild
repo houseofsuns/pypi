@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/annotypes[${PYTHON_USEDEP}]
 	dev-python/cothread[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	~dev-python/h5py-2.9.0[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/annotypes[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-4.3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme-github-versions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typing[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-mock[${PYTHON_USEDEP}] )"

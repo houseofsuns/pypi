@@ -31,61 +31,61 @@ DEPENDENCIES="dev-python/PasteDeploy[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/WebOb[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	>=dev-python/alembic-0.9.8[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-2.0.1[${PYTHON_USEDEP}]
 	dev-python/cotyledon[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/debtcollector[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.7[${PYTHON_USEDEP}]
+	>=dev-python/debtcollector-1.19.0[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-3.6.2[${PYTHON_USEDEP}]
 	dev-python/keystonemiddleware[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-context[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.5.2[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-6.8.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-context-2.22.0[${PYTHON_USEDEP}]
 	dev-python/oslo-db[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-3.20.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.44.0[${PYTHON_USEDEP}]
 	dev-python/oslo-messaging[${PYTHON_USEDEP}]
 	dev-python/oslo-middleware[${PYTHON_USEDEP}]
 	dev-python/oslo-policy[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-2.25.0[${PYTHON_USEDEP}]
 	dev-python/oslo-upgradecheck[${PYTHON_USEDEP}]
 	dev-python/osprofiler[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/pecan[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pysnmp[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/pbr-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/pecan-1.2.1[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.4.3[${PYTHON_USEDEP}]
+	>=dev-python/pysnmp-4.4.4[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2018.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-1.28.0[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-4.12.0[${PYTHON_USEDEP}]
 	dev-python/tooz[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.11.1[${PYTHON_USEDEP}]
 	openstack? ( dev-python/aodhclient[${PYTHON_USEDEP}] )
 	openstack? ( dev-python/gnocchiclient[${PYTHON_USEDEP}] )
 	openstack? ( dev-python/python-heatclient[${PYTHON_USEDEP}] )
-	openstack? ( dev-python/python-keystoneclient[${PYTHON_USEDEP}] )
+	openstack? ( >=dev-python/python-keystoneclient-3.15.0[${PYTHON_USEDEP}] )
 	openstack? ( dev-python/python-mistralclient[${PYTHON_USEDEP}] )
 	openstack? ( dev-python/python-monascaclient[${PYTHON_USEDEP}] )
-	openstack? ( dev-python/python-neutronclient[${PYTHON_USEDEP}] )
-	openstack? ( dev-python/python-novaclient[${PYTHON_USEDEP}] )
-	openstack? ( dev-python/python-openstackclient[${PYTHON_USEDEP}] )
+	openstack? ( >=dev-python/python-neutronclient-6.7.0[${PYTHON_USEDEP}] )
+	openstack? ( >=dev-python/python-novaclient-10.1.0[${PYTHON_USEDEP}] )
+	openstack? ( >=dev-python/python-openstackclient-3.12.0[${PYTHON_USEDEP}] )
 	openstack? ( dev-python/python-troveclient[${PYTHON_USEDEP}] )
 	openstack? ( dev-python/python-zaqarclient[${PYTHON_USEDEP}] )
 	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
-	test? ( dev-python/oslotest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/oslotest-3.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
-	test? ( dev-python/reno[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
-	test? ( dev-python/testscenarios[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/reno-3.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-mock-1.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testscenarios-0.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testtools-2.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/zake[${PYTHON_USEDEP}] )
 	zabbix? ( dev-python/pyzabbix[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

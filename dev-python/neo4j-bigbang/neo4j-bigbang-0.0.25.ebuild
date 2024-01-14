@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/neo4j[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-mock[${PYTHON_USEDEP}]"
+	>=dev-python/pandas-1.1.2[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.14.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.0.2[${PYTHON_USEDEP}]
+	>=dev-python/pytest-mock-3.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

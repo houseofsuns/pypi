@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build"
 DEPENDENCIES="dev-python/gcscore[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	build? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	>=dev-python/rich-13.3.5[${PYTHON_USEDEP}]
+	build? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

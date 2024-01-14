@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs gui"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
@@ -33,10 +33,10 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/pyqtgraph-0.12.0[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqt6-sip[${PYTHON_USEDEP}] )
 	gui? ( dev-python/qtpy[${PYTHON_USEDEP}] )

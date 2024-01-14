@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
 	dev-python/ratelimit[${PYTHON_USEDEP}]
 	dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]"

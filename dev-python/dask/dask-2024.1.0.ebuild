@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="array complete dataframe diagnostics distributed test"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/partd[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	array? ( dev-python/numpy[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/click-8.1[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2021.9.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/partd-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/toolz-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.13.0[${PYTHON_USEDEP}]
+	array? ( >=dev-python/numpy-1.21[${PYTHON_USEDEP}] )
 	complete? ( dev-python/dask[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/pyarrow-7.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pyarrow-hotfix[${PYTHON_USEDEP}] )
-	complete? ( dev-python/lz4[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/lz4-4.3.2[${PYTHON_USEDEP}] )
 	dataframe? ( dev-python/dask[${PYTHON_USEDEP}] )
-	dataframe? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dataframe? ( >=dev-python/pandas-1.3[${PYTHON_USEDEP}] )
 	diagnostics? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	diagnostics? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/distributed[${PYTHON_USEDEP}] )

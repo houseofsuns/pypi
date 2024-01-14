@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
 	test? ( dev-python/dpgui[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.1.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_markdown_tables[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/lockfile[${PYTHON_USEDEP}]
+	<dev-python/lockfile-0.13.0[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

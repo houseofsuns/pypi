@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="botocore pytorch"
 DEPENDENCIES="dev-python/braceexpand[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+	~dev-python/cloudpickle-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/humanize-4.6.0[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	botocore? ( dev-python/wrapt[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/piexif[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/piexif-1.1.3[${PYTHON_USEDEP}]
 	dev-python/win32-setctime[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	~dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

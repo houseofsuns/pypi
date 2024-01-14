@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev-python/keyring[${PYTHON_USEDEP}]
-	docs? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
-	dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-21.2[${PYTHON_USEDEP}]
+	docs? ( <dev-python/furo-2024.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )
+	>=dev-python/keyring-22.3[${PYTHON_USEDEP}]
+	docs? ( <dev-python/linkify-it-py-3.0[${PYTHON_USEDEP}] )
+	>=dev-python/markdown-it-py-3.0[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/matplotlib-3.7[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/myst-parser-1.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/nbsphinx-0.10[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pillow-10.1[${PYTHON_USEDEP}] )
+	>=dev-python/platformdirs-2.6[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.0[${PYTHON_USEDEP}]
 	dev-python/python-forge[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25[${PYTHON_USEDEP}]
+	>=dev-python/requests-cache-1.1[${PYTHON_USEDEP}]
 	dev-python/requests-ratelimiter[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	>=dev-python/rich-10.9[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.20[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-apidoc-0.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	all? ( dev-python/ujson[${PYTHON_USEDEP}] )"
+	all? ( >dev-python/ujson-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="audio vision"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
-	vision? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	vision? ( >=dev-python/pillow-6.2.1[${PYTHON_USEDEP}] )
 	audio? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	audio? ( dev-python/librosa[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

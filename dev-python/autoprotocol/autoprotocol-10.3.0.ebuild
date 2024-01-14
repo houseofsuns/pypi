@@ -27,18 +27,18 @@ IUSE="docs test"
 DEPENDENCIES="dev-python/Pint[${PYTHON_USEDEP}]
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/releases[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
-	docs? ( dev-python/semantic-version[${PYTHON_USEDEP}] )
-	docs? ( dev-python/six[${PYTHON_USEDEP}] )
-	docs? ( dev-python/click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/semantic-version-2.6.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/six-2.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/click-8.0.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pylint-2.5.2[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

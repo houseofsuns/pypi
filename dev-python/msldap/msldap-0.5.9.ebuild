@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/unicrypto[${PYTHON_USEDEP}]
 	dev-python/asyauth[${PYTHON_USEDEP}]
 	dev-python/asysocks[${PYTHON_USEDEP}]
-	dev-python/asn1crypto[${PYTHON_USEDEP}]
+	>=dev-python/asn1crypto-1.3.0[${PYTHON_USEDEP}]
 	dev-python/winacl[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0.2[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/wcwidth[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]"

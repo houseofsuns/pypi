@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-util-http[${PYTHON_USEDEP}]
-	instruments? ( dev-python/tornado[${PYTHON_USEDEP}] )
+	instruments? ( >=dev-python/tornado-5.1.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/http-server-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-tornado[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )"

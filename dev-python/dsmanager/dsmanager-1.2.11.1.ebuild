@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all-sources kaggle models mysql pgsql salesforce sharepoint snowflake"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/paramiko-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/numexpr-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/xlrd-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.22.0[${PYTHON_USEDEP}]
 	dev-python/pickle-mixin[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	<dev-python/decorator-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	~dev-python/cryptography-38.0.4[${PYTHON_USEDEP}]
+	<dev-python/setuptools-66.0.0[${PYTHON_USEDEP}]
 	dev-python/llvmlite[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	models? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
@@ -46,8 +46,8 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	all-sources? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	models? ( dev-python/shap[${PYTHON_USEDEP}] )
 	all-sources? ( dev-python/shap[${PYTHON_USEDEP}] )
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	sharepoint? ( dev-python/azure-common[${PYTHON_USEDEP}] )
 	all-sources? ( dev-python/azure-common[${PYTHON_USEDEP}] )
 	sharepoint? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	all-sources? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
 	pgsql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	all-sources? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
-	all-sources? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )"
+	mysql? ( <dev-python/mysqlclient-3.0.0[${PYTHON_USEDEP}] )
+	all-sources? ( <dev-python/mysqlclient-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

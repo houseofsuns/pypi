@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/wheel-0.36.1[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.7.0[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
 	dev-python/pynvml[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]"
+	>=dev-python/psutil-5.9.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

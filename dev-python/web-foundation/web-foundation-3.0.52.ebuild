@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="database grpc rest shcheduler telemetry telemetry-tortoise"
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	database? ( dev-python/tortoise-orm[${PYTHON_USEDEP}] )
 	database? ( dev-python/aerich[${PYTHON_USEDEP}] )
 	shcheduler? ( dev-python/apscheduler[${PYTHON_USEDEP}] )
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.17.0[${PYTHON_USEDEP}]
 	rest? ( dev-python/sanic[${PYTHON_USEDEP}] )
-	rest? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	rest? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
 	rest? ( dev-python/sanic-ext[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/betterproto[${PYTHON_USEDEP}] )
-	grpc? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
+	grpc? ( <dev-python/grpcio-tools-2.0.0[${PYTHON_USEDEP}] )
 	telemetry? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
 	telemetry-tortoise? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
 	telemetry? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )

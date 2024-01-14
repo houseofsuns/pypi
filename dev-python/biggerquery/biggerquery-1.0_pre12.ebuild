@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="stackdriver"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/setuptools-45.2.0[${PYTHON_USEDEP}]
+	~dev-python/dill-0.3.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
+	~dev-python/mock-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydata-google-auth[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	dev-python/pyconfighelper[${PYTHON_USEDEP}]
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigtable[${PYTHON_USEDEP}]
@@ -37,9 +37,9 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/google-cloud-spanner[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/google-cloud-logging[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/responses[${PYTHON_USEDEP}]
-	stackdriver? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )"
+	~dev-python/google-auth-1.11.2[${PYTHON_USEDEP}]
+	~dev-python/six-1.14.0[${PYTHON_USEDEP}]
+	~dev-python/responses-0.10.15[${PYTHON_USEDEP}]
+	stackdriver? ( ~dev-python/google-api-python-client-1.7.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

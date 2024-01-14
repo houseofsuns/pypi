@@ -25,34 +25,34 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs qtpdf qtpng serve test webpdf"
 DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+	>dev-python/bleach-5.0.0[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jupyter-core[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-core-4.7[${PYTHON_USEDEP}]
 	dev-python/jupyterlab-pygments[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
-	dev-python/nbclient[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-2.0[${PYTHON_USEDEP}]
+	<dev-python/mistune-4.0[${PYTHON_USEDEP}]
+	>=dev-python/nbclient-0.5.0[${PYTHON_USEDEP}]
+	>=dev-python/nbformat-5.7[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandocfilters[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	>=dev-python/pandocfilters-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.4.1[${PYTHON_USEDEP}]
 	dev-python/tinycss2[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.1[${PYTHON_USEDEP}]
 	all? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.2.12[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.0.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	qtpdf? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	qtpng? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
-	serve? ( dev-python/tornado[${PYTHON_USEDEP}] )
+	serve? ( >=dev-python/tornado-6.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/ipywidgets-7.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	webpdf? ( dev-python/playwright[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

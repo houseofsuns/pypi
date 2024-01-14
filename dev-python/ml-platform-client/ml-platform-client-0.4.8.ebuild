@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/flask-restful[${PYTHON_USEDEP}]
 	dev-python/pymysql[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/mlp-tracking[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.7[${PYTHON_USEDEP}]
+	~dev-python/pymysql-0.9.3[${PYTHON_USEDEP}]
 	dev-python/pymssql[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

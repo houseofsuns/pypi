@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.8.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.16.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-1.4.3[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.5.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.15.1[${PYTHON_USEDEP}]
+	>=dev-python/lmfit-0.9.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]
+	>=dev-python/progressbar2-3.9.3[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/pyDOE[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]"

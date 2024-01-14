@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rpyc[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/rpyc-6.0.0[${PYTHON_USEDEP}]
 	dev-python/mojo-results[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/pexpect-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/mojo-errors[${PYTHON_USEDEP}]
 	dev-python/mojo-networking[${PYTHON_USEDEP}]
 	dev-python/mojo-xmodules[${PYTHON_USEDEP}]

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aniso8601[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aniso8601-0.82[${PYTHON_USEDEP}]
 	dev-python/sanic[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	>=dev-python/six-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.8.11[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/werkzeug[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

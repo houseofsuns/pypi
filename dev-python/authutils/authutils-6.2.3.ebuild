@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fastapi flask"
-DEPENDENCIES="dev-python/cached-property[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cached-property-2.0[${PYTHON_USEDEP}]
 	dev-python/cdiserrors[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
+	<dev-python/xmltodict-1.0[${PYTHON_USEDEP}]
 	dev-python/authlib[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	flask? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

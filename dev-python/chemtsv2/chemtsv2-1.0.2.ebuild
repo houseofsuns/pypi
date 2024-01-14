@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mp"
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.27.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/rdkit[${PYTHON_USEDEP}]
 	dev-python/selfies[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
-	mp? ( dev-python/mpi4py[${PYTHON_USEDEP}] )"
+	mp? ( <dev-python/mpi4py-3.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

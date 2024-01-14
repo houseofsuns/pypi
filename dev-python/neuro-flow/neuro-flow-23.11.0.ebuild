@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/neuro-cli[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/funcparserlib[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
+	>=dev-python/funcparserlib-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/humanize-0.5.1[${PYTHON_USEDEP}]
 	dev-python/neuro-extras[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+	>=dev-python/graphviz-0.14[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.7[${PYTHON_USEDEP}]
+	<dev-python/multidict-6.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.0.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

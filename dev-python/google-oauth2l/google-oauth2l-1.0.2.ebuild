@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httplib2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httplib2-0.9.1[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]"
+	>=dev-python/setuptools-18.5[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/fasteners-0.14.1[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-17.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

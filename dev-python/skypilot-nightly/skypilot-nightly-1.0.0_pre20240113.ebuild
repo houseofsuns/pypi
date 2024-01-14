@@ -26,36 +26,36 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all aws azure cloudflare docker gcp ibm kubernetes lambda oci remote runpod scp"
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	dev-python/pendulum[${PYTHON_USEDEP}]
 	dev-python/PrettyTable[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.6.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pulp[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	all? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	all? ( <dev-python/urllib3-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/awscli[${PYTHON_USEDEP}] )
-	all? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	all? ( dev-python/colorama[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/botocore-1.29.10[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/boto3-1.26.1[${PYTHON_USEDEP}] )
+	all? ( <dev-python/colorama-0.4.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-cli[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-core[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-mgmt-network[${PYTHON_USEDEP}] )
 	all? ( dev-python/ray[${PYTHON_USEDEP}] )
-	all? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/google-api-python-client-2.69.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	all? ( dev-python/ibm-cloud-sdk-core[${PYTHON_USEDEP}] )
 	all? ( dev-python/ibm-vpc[${PYTHON_USEDEP}] )
@@ -65,28 +65,28 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	all? ( dev-python/oci[${PYTHON_USEDEP}] )
 	all? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/runpod[${PYTHON_USEDEP}] )
-	all? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	all? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	aws? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/grpcio-1.51.3[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/grpcio-1.49.1[${PYTHON_USEDEP}] )
+	aws? ( <dev-python/urllib3-2.0[${PYTHON_USEDEP}] )
 	aws? ( dev-python/awscli[${PYTHON_USEDEP}] )
-	aws? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	aws? ( dev-python/colorama[${PYTHON_USEDEP}] )
+	aws? ( >=dev-python/botocore-1.29.10[${PYTHON_USEDEP}] )
+	aws? ( >=dev-python/boto3-1.26.1[${PYTHON_USEDEP}] )
+	aws? ( <dev-python/colorama-0.4.5[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-cli[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-core[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-mgmt-network[${PYTHON_USEDEP}] )
 	azure? ( dev-python/ray[${PYTHON_USEDEP}] )
-	cloudflare? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	cloudflare? ( <dev-python/urllib3-2.0[${PYTHON_USEDEP}] )
 	cloudflare? ( dev-python/awscli[${PYTHON_USEDEP}] )
-	cloudflare? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	cloudflare? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	cloudflare? ( dev-python/colorama[${PYTHON_USEDEP}] )
+	cloudflare? ( >=dev-python/botocore-1.29.10[${PYTHON_USEDEP}] )
+	cloudflare? ( >=dev-python/boto3-1.26.1[${PYTHON_USEDEP}] )
+	cloudflare? ( <dev-python/colorama-0.4.5[${PYTHON_USEDEP}] )
 	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
 	docker? ( dev-python/ray[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	gcp? ( >=dev-python/google-api-python-client-2.69.0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	ibm? ( dev-python/ibm-cloud-sdk-core[${PYTHON_USEDEP}] )
 	ibm? ( dev-python/ibm-vpc[${PYTHON_USEDEP}] )
@@ -99,9 +99,9 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	oci? ( dev-python/oci[${PYTHON_USEDEP}] )
 	oci? ( dev-python/ray[${PYTHON_USEDEP}] )
 	remote? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	remote? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	remote? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	remote? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	remote? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
+	remote? ( <=dev-python/grpcio-1.51.3[${PYTHON_USEDEP}] )
+	remote? ( <=dev-python/grpcio-1.49.1[${PYTHON_USEDEP}] )
 	runpod? ( dev-python/runpod[${PYTHON_USEDEP}] )
 	scp? ( dev-python/ray[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

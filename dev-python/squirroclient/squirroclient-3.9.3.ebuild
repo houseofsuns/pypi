@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/hjson[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/tarsafe[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

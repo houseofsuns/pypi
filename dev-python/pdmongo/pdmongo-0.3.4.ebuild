@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/pymongo-4.4[${PYTHON_USEDEP}]
+	<dev-python/pandas-1.6[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-4.0.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-1.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipywidgets-7.7[${PYTHON_USEDEP}]
 	dev-python/ipyvuetify[${PYTHON_USEDEP}]
 	dev-python/voila[${PYTHON_USEDEP}]
 	test? ( dev-python/solara[${PYTHON_USEDEP}] )"

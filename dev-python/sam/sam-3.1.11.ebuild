@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all data-engineering data-science docs plotting test"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-1.3[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	plotting? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/pytest-mpl-0.15.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastparquet[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

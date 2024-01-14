@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/dnspython-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/netaddr-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

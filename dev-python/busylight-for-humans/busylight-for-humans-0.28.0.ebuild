@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="webapi"
 DEPENDENCIES="dev-python/bitvector-for-humans[${PYTHON_USEDEP}]
-	dev-python/webcolors[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/webcolors-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/hidapi[${PYTHON_USEDEP}]
+	<dev-python/hidapi-0.15.0[${PYTHON_USEDEP}]
 	webapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	webapi? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	webapi? ( <dev-python/uvicorn-0.25.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

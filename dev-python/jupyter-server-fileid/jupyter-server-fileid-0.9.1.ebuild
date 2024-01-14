@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli test"
-DEPENDENCIES="dev-python/jupyter-events[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jupyter-events-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
+	test? ( <dev-python/jupyter-server-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-jupyter[${PYTHON_USEDEP}] )"

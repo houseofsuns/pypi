@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cfxarray netcdf notebooks plots"
-DEPENDENCIES="notebooks? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	plots? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cftime[${PYTHON_USEDEP}]
+DEPENDENCIES="notebooks? ( <dev-python/notebook-7.0.0[${PYTHON_USEDEP}] )
+	notebooks? ( <dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}] )
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	plots? ( <dev-python/seaborn-0.13.0[${PYTHON_USEDEP}] )
+	<dev-python/xarray-2024.0.0[${PYTHON_USEDEP}]
+	<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/cftime-2.0.0[${PYTHON_USEDEP}]
 	dev-python/openscm-units[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/pint-xarray[${PYTHON_USEDEP}]
 	cfxarray? ( dev-python/cf-xarray[${PYTHON_USEDEP}] )
-	cfxarray? ( dev-python/pooch[${PYTHON_USEDEP}] )
-	netcdf? ( dev-python/netcdf4[${PYTHON_USEDEP}] )"
+	cfxarray? ( <dev-python/pooch-2.0.0[${PYTHON_USEDEP}] )
+	netcdf? ( <dev-python/netcdf4-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

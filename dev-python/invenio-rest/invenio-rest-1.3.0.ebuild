@@ -27,11 +27,11 @@ IUSE="tests"
 DEPENDENCIES="dev-python/Flask-CORS[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/invenio-logging[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	<dev-python/itsdangerous-2.1[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-2.15.2[${PYTHON_USEDEP}]
 	dev-python/webargs[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/xmltodict-0.11.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

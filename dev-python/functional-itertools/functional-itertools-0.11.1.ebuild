@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/attrs-19.3[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

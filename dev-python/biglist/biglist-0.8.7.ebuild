@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc gcs test"
 DEPENDENCIES="dev-python/upathlib[${PYTHON_USEDEP}]
 	dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-12.0.1[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/zstandard[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-7.2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/upathlib[${PYTHON_USEDEP}] )

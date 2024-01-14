@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/flytekit[${PYTHON_USEDEP}]
 	dev-python/great-expectations[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	dev-python/flytekitplugins-spark[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]"

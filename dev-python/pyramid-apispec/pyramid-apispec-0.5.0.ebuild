@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="demo dev lint"
-DEPENDENCIES="dev-python/apispec[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/apispec-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
-	demo? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
-	demo? ( dev-python/apispec[${PYTHON_USEDEP}] )
+	demo? ( <dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}] )
+	demo? ( <dev-python/apispec-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )

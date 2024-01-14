@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="chalice s3cse"
 DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
-	s3cse? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	s3cse? ( >=dev-python/cryptography-2.3.1[${PYTHON_USEDEP}] )
 	chalice? ( dev-python/chalice[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

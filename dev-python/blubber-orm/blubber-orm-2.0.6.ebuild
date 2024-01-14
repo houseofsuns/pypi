@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/uritools[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2021.1[${PYTHON_USEDEP}]
+	~dev-python/uritools-3.0.2[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev-python/zope-interface[${PYTHON_USEDEP}]"
+	>=dev-python/zope-interface-5.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

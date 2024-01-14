@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.44.0[${PYTHON_USEDEP}]
+	~dev-python/grpcio-tools-1.44.0[${PYTHON_USEDEP}]
+	~dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/soupsieve[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]"
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/soupsieve-2.3.1[${PYTHON_USEDEP}]
+	~dev-python/orjson-3.8[${PYTHON_USEDEP}]
+	~dev-python/pymongo-4.3.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

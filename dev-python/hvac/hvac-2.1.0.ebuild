@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="parser"
-DEPENDENCIES="parser? ( dev-python/pyhcl[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]"
+DEPENDENCIES="parser? ( <dev-python/pyhcl-0.5.0[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

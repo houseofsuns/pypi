@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="development kafka kinesis msgpack"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.11[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
 	development? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	development? ( dev-python/moto[${PYTHON_USEDEP}] )

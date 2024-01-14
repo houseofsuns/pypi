@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all build dev doc lint test typing"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	all? ( dev-python/mizani[${PYTHON_USEDEP}] )
 	all? ( dev-python/mizani[${PYTHON_USEDEP}] )
 	all? ( dev-python/mizani[${PYTHON_USEDEP}] )
@@ -37,9 +37,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mizani[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-6.1.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/numpydoc-0.9.1[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	typing? ( dev-python/pyright[${PYTHON_USEDEP}] )

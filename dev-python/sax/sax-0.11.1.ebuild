@@ -60,8 +60,8 @@ DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tmm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

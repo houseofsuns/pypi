@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dns messenger"
-DEPENDENCIES="dns? ( dev-python/aiodns[${PYTHON_USEDEP}] )
+DEPENDENCIES="dns? ( <dev-python/aiodns-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/param[${PYTHON_USEDEP}]
 	messenger? ( dev-python/nats-py[${PYTHON_USEDEP}] )
-	dev-python/jsonschema[${PYTHON_USEDEP}]"
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

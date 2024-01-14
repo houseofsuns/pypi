@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testcontainers"
 DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.22.0[${PYTHON_USEDEP}]
+	>=dev-python/anyio-3.6.1[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.1.0[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-tools-1.54.2[${PYTHON_USEDEP}]
 	dev-python/types-protobuf[${PYTHON_USEDEP}]
 	testcontainers? ( dev-python/testcontainers[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

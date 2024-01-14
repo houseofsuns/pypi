@@ -38,10 +38,10 @@ DEPENDENCIES="dev-python/pymultirole-plugins[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pandas-1.2.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/dirty-equals[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="progress sftp xxhash"
-DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	progress? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	sftp? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	xxhash? ( dev-python/xxhash[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/platformdirs-2.5.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.19.0[${PYTHON_USEDEP}]
+	progress? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
+	sftp? ( >=dev-python/paramiko-2.7.0[${PYTHON_USEDEP}] )
+	xxhash? ( >=dev-python/xxhash-1.4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

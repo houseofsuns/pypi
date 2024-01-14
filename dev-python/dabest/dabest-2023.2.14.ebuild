@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.19[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.5[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.1[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.11[${PYTHON_USEDEP}]
 	dev-python/lqrt[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-6.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mpl-0.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

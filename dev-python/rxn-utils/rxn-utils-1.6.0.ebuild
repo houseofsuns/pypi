@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
+	>=dev-python/diskcache-5.2.1[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.31.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1.1[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/types-setuptools-57.4.14[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-tqdm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

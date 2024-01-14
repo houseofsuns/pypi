@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/baseplate[${PYTHON_USEDEP}]
 	dev-python/reddit-edgecontext[${PYTHON_USEDEP}]
 	dev-python/reddit-decider[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/recognizers-date-time[${PYTHON_USEDEP}]
 	dev-python/botbuilder-schema[${PYTHON_USEDEP}]
 	dev-python/botframework-connector[${PYTHON_USEDEP}]
 	dev-python/botbuilder-core[${PYTHON_USEDEP}]
-	dev-python/aiounittest[${PYTHON_USEDEP}]"
+	>=dev-python/aiounittest-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lxml-4.9[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.11[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.8[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/pyDOE3[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9[${PYTHON_USEDEP}]
 	dev-python/hilbertcurve[${PYTHON_USEDEP}]
 	dev-python/dictIO[${PYTHON_USEDEP}]
 	dev-python/ospx[${PYTHON_USEDEP}]"

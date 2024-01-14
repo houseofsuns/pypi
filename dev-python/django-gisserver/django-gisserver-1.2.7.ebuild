@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.6.0[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	>=dev-python/orjson-2.4.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/django-environ[${PYTHON_USEDEP}] )
 	tests? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	tests? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/lxml-4.5.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.2.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-django-4.1.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,10 +33,10 @@ DEPENDENCIES="dev-python/invenio-oaiserver[${PYTHON_USEDEP}]
 	opensearch1? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch2? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/Faker-2.0.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-app[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

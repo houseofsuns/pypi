@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="celery cleanup dramatiq drf test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.0.0[${PYTHON_USEDEP}]
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	cleanup? ( dev-python/django-cleanup[${PYTHON_USEDEP}] )
 	dramatiq? ( dev-python/django-dramatiq[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/paho-mqtt[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/paho-mqtt-1.4.0[${PYTHON_USEDEP}]
 	dev-python/get-mac[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]"
+	~dev-python/netifaces-0.10.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

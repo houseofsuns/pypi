@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tabulate-0.10[${PYTHON_USEDEP}]
+	<dev-python/termcolor-3.0[${PYTHON_USEDEP}]
 	dev-python/kosmorrolib[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]"
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	<dev-python/Babel-3.0[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

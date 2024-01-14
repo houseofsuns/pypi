@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
 	dev-python/connect-openapi-client[${PYTHON_USEDEP}]
 	dev-python/interrogatio[${PYTHON_USEDEP}]
 	dev-python/connect-markdown-renderer[${PYTHON_USEDEP}]
 	dev-python/iso3166[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
+	<dev-python/phonenumbers-9.0.0[${PYTHON_USEDEP}]
 	dev-python/connect-reports-core[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/jinja2-time[${PYTHON_USEDEP}]
+	<dev-python/jinja2-time-0.3.0[${PYTHON_USEDEP}]
 	dev-python/connect-eaas-core[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/poetry-core[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	dev-python/fs[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]"
+	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
+	<dev-python/poetry-core-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
+	<dev-python/fs-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

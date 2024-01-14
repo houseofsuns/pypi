@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all audio dev ffcv text vision"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	dev-python/fastcore[${PYTHON_USEDEP}]
 	dev-python/fastai[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
@@ -36,11 +36,11 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	all? ( dev-python/primePy[${PYTHON_USEDEP}] )
 	all? ( dev-python/colorednoise[${PYTHON_USEDEP}] )
 	all? ( dev-python/soundfile[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( <dev-python/matplotlib-3.8[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	all? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	all? ( dev-python/rich[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/rich-13.6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/typer[${PYTHON_USEDEP}] )
 	all? ( dev-python/bitsandbytes[${PYTHON_USEDEP}] )
 	audio? ( dev-python/librosa[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	audio? ( dev-python/primePy[${PYTHON_USEDEP}] )
 	audio? ( dev-python/colorednoise[${PYTHON_USEDEP}] )
 	audio? ( dev-python/soundfile[${PYTHON_USEDEP}] )
-	audio? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	audio? ( <dev-python/matplotlib-3.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/timm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kornia[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ffcv[${PYTHON_USEDEP}] )
@@ -57,11 +57,11 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev? ( dev-python/primePy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/colorednoise[${PYTHON_USEDEP}] )
 	dev? ( dev-python/soundfile[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/matplotlib-3.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/rich-13.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bitsandbytes[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbdev[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES="test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	dev-python/hpcflow-new2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

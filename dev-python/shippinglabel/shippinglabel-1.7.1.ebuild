@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/apeye[${PYTHON_USEDEP}]
 	dev-python/dist-meta[${PYTHON_USEDEP}]
 	dev-python/dom-toml[${PYTHON_USEDEP}]
 	dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

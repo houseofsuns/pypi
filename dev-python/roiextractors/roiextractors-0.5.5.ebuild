@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full test"
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	dev-python/pynwb[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.48.2[${PYTHON_USEDEP}]
 	dev-python/lazy-ops[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	full? ( dev-python/tifffile[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/tifffile-2018.10.18[${PYTHON_USEDEP}] )
 	full? ( dev-python/scanimage-tiff-reader[${PYTHON_USEDEP}] )
 	full? ( dev-python/neuroconv[${PYTHON_USEDEP}] )
-	full? ( dev-python/natsort[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/natsort-8.3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/parameterized-0.8.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/spikeextractors[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

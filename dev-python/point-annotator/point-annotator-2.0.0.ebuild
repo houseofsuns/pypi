@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.7.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	test? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-5.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ipython-8.9[${PYTHON_USEDEP}]
 	dev-python/ipytree[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/sqlparse-0.4.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	dev-python/yarn-api-client[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
@@ -37,11 +37,11 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/py4j[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/jupyterlab-lsp[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tox[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jupyter-packaging[${PYTHON_USEDEP}] )
-	tests? ( dev-python/responses[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/tox-3.21.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/jupyter-packaging-0.12.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/responses-0.22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

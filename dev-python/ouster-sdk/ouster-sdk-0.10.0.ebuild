@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs examples test"
-DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/psutil-6.0[${PYTHON_USEDEP}]
+	~dev-python/zeroconf-0.58.2[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	~dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-6.6.0[${PYTHON_USEDEP}]
+	>=dev-python/prettytable-2.1.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-8.6[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	dev-python/ouster-mapping[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
@@ -44,17 +44,17 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	dev? ( dev-python/python-lsp-server[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/breathe[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.17.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-tabs-3.3.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/breathe-4.33.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-size[${PYTHON_USEDEP}] )
 	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	examples? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	examples? ( dev-python/laspy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/flask[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flask-2.2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

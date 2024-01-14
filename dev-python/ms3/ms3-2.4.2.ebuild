@@ -27,7 +27,7 @@ IUSE="dev testing"
 DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/frictionless[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
 	dev-python/webcolors[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

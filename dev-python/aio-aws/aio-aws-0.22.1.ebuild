@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aioredis all databases docs redis"
 DEPENDENCIES="dev-python/s3fs[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/aiofiles-23.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	aioredis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	all? ( <dev-python/redis-5.0[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-5.0[${PYTHON_USEDEP}] )
+	aioredis? ( <dev-python/redis-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/databases[${PYTHON_USEDEP}] )
 	databases? ( dev-python/databases[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinx-autoapi-3.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

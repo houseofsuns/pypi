@@ -27,13 +27,13 @@ IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-admin-sortable2[${PYTHON_USEDEP}]
 	dev-python/django-editorial-staff[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	~dev-python/django-filter-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.6.0[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-camel-case[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.6.1[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	>=dev-python/redis-2.10.6[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

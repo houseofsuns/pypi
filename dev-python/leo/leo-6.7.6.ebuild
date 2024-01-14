@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/PyQt5-5.15[${PYTHON_USEDEP}]
 	dev-python/PyQtWebEngine[${PYTHON_USEDEP}]
 	dev-python/asttokens[${PYTHON_USEDEP}]
-	dev-python/build[${PYTHON_USEDEP}]
+	>=dev-python/build-0.6.0[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/flexx[${PYTHON_USEDEP}]
 	dev-python/meta[${PYTHON_USEDEP}]

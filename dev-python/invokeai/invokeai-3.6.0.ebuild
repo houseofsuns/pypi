@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/diffusers[${PYTHON_USEDEP}]
 	dev-python/invisible-watermark[${PYTHON_USEDEP}]
 	dev-python/mediapipe[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.26.3[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
@@ -48,13 +48,13 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.25.0[${PYTHON_USEDEP}]
 	dev-python/albumentations[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
+	~dev-python/dnspython-2.4.0[${PYTHON_USEDEP}]
 	dev-python/dynamicprompts[${PYTHON_USEDEP}]
 	dev-python/easing-functions[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
@@ -71,10 +71,10 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/pyperclip[${PYTHON_USEDEP}]
 	dev-python/pyreadline3[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	~dev-python/rich-13.3[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	~dev-python/semver-3.0.1[${PYTHON_USEDEP}]
 	dev-python/send2trash[${PYTHON_USEDEP}]
 	dev-python/test-tube[${PYTHON_USEDEP}]
 	dev? ( dev-python/jurigged[${PYTHON_USEDEP}] )
@@ -82,9 +82,9 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	dist? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	dist? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
 	dist? ( dev-python/twine[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-material-9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-redirects[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-redirects-1.2.0[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	onnx-cuda? ( dev-python/onnxruntime-gpu[${PYTHON_USEDEP}] )
 	onnx-directml? ( dev-python/onnxruntime-directml[${PYTHON_USEDEP}] )
@@ -92,7 +92,7 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	test? ( dev-python/ruff-lsp[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-datadir[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-testadapter[${PYTHON_USEDEP}] )

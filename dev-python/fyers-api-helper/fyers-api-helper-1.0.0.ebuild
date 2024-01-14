@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-4.0.0[${PYTHON_USEDEP}]
 	dev-python/fyers-apiv3[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]"
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/waitress-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

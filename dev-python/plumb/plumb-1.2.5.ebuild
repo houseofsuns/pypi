@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/boto3-1.7.73[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.10.73[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]"
+	~dev-python/pika-0.12.0[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.7.3[${PYTHON_USEDEP}]
+	~dev-python/redis-2.10.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

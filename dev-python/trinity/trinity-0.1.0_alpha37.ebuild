@@ -24,175 +24,175 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc lint p2p test test-asyncio test-trio trinity"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.6.0[${PYTHON_USEDEP}]
 	dev-python/asks[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]
+	<dev-python/argcomplete-2.0[${PYTHON_USEDEP}]
 	dev-python/asyncio-run-in-process[${PYTHON_USEDEP}]
 	dev-python/bloom-filter[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	<dev-python/cachetools-4.0.0[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/ipython-7.10.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
 	dev-python/lahja[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	dev-python/plyvel[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/mypy_extensions-0.5.0[${PYTHON_USEDEP}]
+	~dev-python/plyvel-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/prometheus-client-0.7.1[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
 	dev-python/py-evm[${PYTHON_USEDEP}]
-	dev-python/pyformance[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	~dev-python/pyformance-0.4[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/termcolor-2.0.0[${PYTHON_USEDEP}]
 	dev-python/upnp-port-forward[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	>=dev-python/websockets-8.1.0[${PYTHON_USEDEP}]
 	dev-python/async-service[${PYTHON_USEDEP}]
 	dev-python/asyncio-cancel-token[${PYTHON_USEDEP}]
-	dev-python/async-lru[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]
+	<dev-python/async-lru-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/cached-property-2.0[${PYTHON_USEDEP}]
 	dev-python/coincurve[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/cryptography-3.2[${PYTHON_USEDEP}]
 	dev-python/eth-enr[${PYTHON_USEDEP}]
 	dev-python/eth-hash[${PYTHON_USEDEP}]
 	dev-python/eth-keys[${PYTHON_USEDEP}]
 	dev-python/eth-typing[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
 	dev-python/pysha3[${PYTHON_USEDEP}]
-	dev-python/python-snappy[${PYTHON_USEDEP}]
+	>=dev-python/python-snappy-0.5.3[${PYTHON_USEDEP}]
 	dev-python/rlp[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/trio[${PYTHON_USEDEP}]
+	<dev-python/trio-0.17[${PYTHON_USEDEP}]
 	dev-python/trio-typing[${PYTHON_USEDEP}]
 	dev-python/upnpclient[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
+	~dev-python/uvloop-0.14.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-36.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-2.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/async-service[${PYTHON_USEDEP}] )
 	dev? ( dev-python/asyncio-cancel-token[${PYTHON_USEDEP}] )
-	dev? ( dev-python/async-lru[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cached-property[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/async-lru-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/cached-property-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coincurve[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/cryptography-3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/eth-enr[${PYTHON_USEDEP}] )
 	dev? ( dev-python/eth-hash[${PYTHON_USEDEP}] )
 	dev? ( dev-python/eth-keys[${PYTHON_USEDEP}] )
 	dev? ( dev-python/eth-typing[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lru-dict[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pysha3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-snappy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/python-snappy-0.5.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rlp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/trio[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/trio-0.17[${PYTHON_USEDEP}] )
 	dev? ( dev-python/trio-typing[${PYTHON_USEDEP}] )
 	dev? ( dev-python/upnpclient[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/aiohttp-3.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/asks[${PYTHON_USEDEP}] )
-	dev? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/argcomplete-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/asyncio-run-in-process[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bloom-filter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cachetools[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/cachetools-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/eth-utils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/ipython-7.10.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jsonschema-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lahja[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/plyvel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy_extensions-0.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/plyvel-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/prometheus-client-0.7.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/psutil-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py-evm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyformance[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/termcolor[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyformance-0.4[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/termcolor-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/upnp-port-forward[${PYTHON_USEDEP}] )
 	dev? ( dev-python/web3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/websockets[${PYTHON_USEDEP}] )
-	dev? ( dev-python/async-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pexpect[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/websockets-8.1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/async-timeout-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/hypothesis-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pexpect-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-5.4[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-mock-1.13[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-timeout-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-xdist-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/eth-tester[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-5.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.1.9[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinxcontrib-asyncio-0.3[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/towncrier-20.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.782[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlalchemy-stubs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/uvloop-0.14.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pytest-5.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-asyncio[${PYTHON_USEDEP}] )
-	doc? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-0.1.9[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinxcontrib-asyncio-0.3[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/towncrier-20.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-0.782[${PYTHON_USEDEP}] )
 	lint? ( dev-python/sqlalchemy-stubs[${PYTHON_USEDEP}] )
 	p2p? ( dev-python/async-service[${PYTHON_USEDEP}] )
 	p2p? ( dev-python/asyncio-cancel-token[${PYTHON_USEDEP}] )
-	p2p? ( dev-python/async-lru[${PYTHON_USEDEP}] )
-	p2p? ( dev-python/cached-property[${PYTHON_USEDEP}] )
+	p2p? ( <dev-python/async-lru-1.0.0[${PYTHON_USEDEP}] )
+	p2p? ( <dev-python/cached-property-2.0[${PYTHON_USEDEP}] )
 	p2p? ( dev-python/coincurve[${PYTHON_USEDEP}] )
-	p2p? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	p2p? ( <dev-python/cryptography-3.2[${PYTHON_USEDEP}] )
 	p2p? ( dev-python/eth-enr[${PYTHON_USEDEP}] )
 	p2p? ( dev-python/eth-hash[${PYTHON_USEDEP}] )
 	p2p? ( dev-python/eth-keys[${PYTHON_USEDEP}] )
 	p2p? ( dev-python/eth-typing[${PYTHON_USEDEP}] )
 	p2p? ( dev-python/lru-dict[${PYTHON_USEDEP}] )
 	p2p? ( dev-python/pysha3[${PYTHON_USEDEP}] )
-	p2p? ( dev-python/python-snappy[${PYTHON_USEDEP}] )
+	p2p? ( >=dev-python/python-snappy-0.5.3[${PYTHON_USEDEP}] )
 	p2p? ( dev-python/rlp[${PYTHON_USEDEP}] )
 	p2p? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	p2p? ( dev-python/trio[${PYTHON_USEDEP}] )
+	p2p? ( <dev-python/trio-0.17[${PYTHON_USEDEP}] )
 	p2p? ( dev-python/trio-typing[${PYTHON_USEDEP}] )
 	p2p? ( dev-python/upnpclient[${PYTHON_USEDEP}] )
-	test? ( dev-python/async-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/pexpect[${PYTHON_USEDEP}] )
+	test? ( <dev-python/async-timeout-4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/hypothesis-5.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pexpect-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-5.4[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-mock-1.13[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-timeout-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-xdist-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/eth-tester[${PYTHON_USEDEP}] )
-	test-asyncio? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test-asyncio? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
-	test-trio? ( dev-python/pytest-trio[${PYTHON_USEDEP}] )
-	trinity? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	test-asyncio? ( <dev-python/pytest-asyncio-0.11[${PYTHON_USEDEP}] )
+	test-asyncio? ( <dev-python/pytest-aiohttp-0.4[${PYTHON_USEDEP}] )
+	test-trio? ( ~dev-python/pytest-trio-0.6.0[${PYTHON_USEDEP}] )
+	trinity? ( ~dev-python/aiohttp-3.6.0[${PYTHON_USEDEP}] )
 	trinity? ( dev-python/asks[${PYTHON_USEDEP}] )
-	trinity? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
+	trinity? ( <dev-python/argcomplete-2.0[${PYTHON_USEDEP}] )
 	trinity? ( dev-python/asyncio-run-in-process[${PYTHON_USEDEP}] )
 	trinity? ( dev-python/bloom-filter[${PYTHON_USEDEP}] )
-	trinity? ( dev-python/cachetools[${PYTHON_USEDEP}] )
+	trinity? ( <dev-python/cachetools-4.0.0[${PYTHON_USEDEP}] )
 	trinity? ( dev-python/eth-utils[${PYTHON_USEDEP}] )
-	trinity? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	trinity? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	trinity? ( <dev-python/ipython-7.10.0[${PYTHON_USEDEP}] )
+	trinity? ( <dev-python/jsonschema-4.0[${PYTHON_USEDEP}] )
 	trinity? ( dev-python/lahja[${PYTHON_USEDEP}] )
-	trinity? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	trinity? ( dev-python/plyvel[${PYTHON_USEDEP}] )
-	trinity? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	trinity? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	trinity? ( <dev-python/mypy_extensions-0.5.0[${PYTHON_USEDEP}] )
+	trinity? ( ~dev-python/plyvel-1.2.0[${PYTHON_USEDEP}] )
+	trinity? ( ~dev-python/prometheus-client-0.7.1[${PYTHON_USEDEP}] )
+	trinity? ( <dev-python/psutil-6.0[${PYTHON_USEDEP}] )
 	trinity? ( dev-python/py-evm[${PYTHON_USEDEP}] )
-	trinity? ( dev-python/pyformance[${PYTHON_USEDEP}] )
-	trinity? ( dev-python/requests[${PYTHON_USEDEP}] )
-	trinity? ( dev-python/termcolor[${PYTHON_USEDEP}] )
+	trinity? ( ~dev-python/pyformance-0.4[${PYTHON_USEDEP}] )
+	trinity? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
+	trinity? ( <dev-python/termcolor-2.0.0[${PYTHON_USEDEP}] )
 	trinity? ( dev-python/upnp-port-forward[${PYTHON_USEDEP}] )
 	trinity? ( dev-python/web3[${PYTHON_USEDEP}] )
-	trinity? ( dev-python/websockets[${PYTHON_USEDEP}] )
-	trinity? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	trinity? ( >=dev-python/websockets-8.1.0[${PYTHON_USEDEP}] )
+	trinity? ( ~dev-python/uvloop-0.14.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test wx"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.12.28[${PYTHON_USEDEP}]
 	dev-python/centrosome[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/docutils-0.15.2[${PYTHON_USEDEP}]
+	~dev-python/h5py-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.2[${PYTHON_USEDEP}]
 	dev-python/prokaryote[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7.0[${PYTHON_USEDEP}]
 	dev-python/python-bioformats[${PYTHON_USEDEP}]
 	dev-python/python-javabridge[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
+	~dev-python/pyzmq-22.3[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/click-7.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-3.1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )
 	wx? ( dev-python/wxPython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

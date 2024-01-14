@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="httpx redis"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/aiosmtplib[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/pydantic_settings[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	dev-python/starlette[${PYTHON_USEDEP}]"
+	<dev-python/email-validator-3.0[${PYTHON_USEDEP}]
+	<dev-python/blinker-2.0[${PYTHON_USEDEP}]
+	httpx? ( <dev-python/httpx-0.24[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-5.0[${PYTHON_USEDEP}] )
+	<dev-python/starlette-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

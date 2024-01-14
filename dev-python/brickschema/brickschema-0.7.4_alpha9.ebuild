@@ -24,39 +24,39 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all bacnet brickify merge networkx orm persistence reasonable web"
-DEPENDENCIES="dev-python/rdflib[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/rdflib-8.0[${PYTHON_USEDEP}]
 	dev-python/owlrl[${PYTHON_USEDEP}]
 	dev-python/pyshacl[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	brickify? ( dev-python/click-spinner[${PYTHON_USEDEP}] )
 	all? ( dev-python/click-spinner[${PYTHON_USEDEP}] )
-	brickify? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )
+	brickify? ( <dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	brickify? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	brickify? ( dev-python/xlrd[${PYTHON_USEDEP}] )
-	all? ( dev-python/xlrd[${PYTHON_USEDEP}] )
+	brickify? ( <dev-python/xlrd-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/xlrd-2.0.0[${PYTHON_USEDEP}] )
 	brickify? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	brickify? ( dev-python/typer[${PYTHON_USEDEP}] )
 	all? ( dev-python/typer[${PYTHON_USEDEP}] )
 	web? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	all? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	merge? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	all? ( dev-python/colorama[${PYTHON_USEDEP}] )
+	merge? ( <dev-python/colorama-0.5.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/colorama-0.5.0[${PYTHON_USEDEP}] )
 	merge? ( dev-python/dedupe[${PYTHON_USEDEP}] )
 	all? ( dev-python/dedupe[${PYTHON_USEDEP}] )
 	reasonable? ( dev-python/reasonable[${PYTHON_USEDEP}] )
 	all? ( dev-python/reasonable[${PYTHON_USEDEP}] )
-	orm? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	persistence? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	orm? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
+	persistence? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	persistence? ( dev-python/rdflib_sqlalchemy[${PYTHON_USEDEP}] )
 	all? ( dev-python/rdflib_sqlalchemy[${PYTHON_USEDEP}] )
 	bacnet? ( dev-python/BAC0[${PYTHON_USEDEP}] )
 	all? ( dev-python/BAC0[${PYTHON_USEDEP}] )
-	networkx? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	all? ( dev-python/networkx[${PYTHON_USEDEP}] )"
+	networkx? ( <dev-python/networkx-4.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/networkx-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,27 +25,27 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="devs tests"
 DEPENDENCIES="dev-python/ConfigUpdater[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	>dev-python/Faker-11.3.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/json5[${PYTHON_USEDEP}]
-	dev-python/jsonpointer[${PYTHON_USEDEP}]
-	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
+	>dev-python/black-23.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1[${PYTHON_USEDEP}]
+	<dev-python/deepdiff-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/isort-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/json5-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/jsonpointer-3.0[${PYTHON_USEDEP}]
+	<dev-python/lazy-object-proxy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/libcst[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.7.2[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.0.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow[${PYTHON_USEDEP}]
 	dev-python/marshmallow-union[${PYTHON_USEDEP}]
 	dev-python/marshmallow-oneofschema[${PYTHON_USEDEP}]
 	dev-python/autoflake[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
-	devs? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	devs? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	devs? ( dev-python/black[${PYTHON_USEDEP}] )
 	devs? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

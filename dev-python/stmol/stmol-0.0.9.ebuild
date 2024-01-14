@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/py3Dmol[${PYTHON_USEDEP}]
 	dev-python/ipyspeck[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]"
+	~dev-python/ipywidgets-7.6.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

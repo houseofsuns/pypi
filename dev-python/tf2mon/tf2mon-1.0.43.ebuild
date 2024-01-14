@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/fuzzywuzzy-0.18.0[${PYTHON_USEDEP}]
+	>=dev-python/humanize-4.1.0[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/python-levenshtein[${PYTHON_USEDEP}]
 	dev-python/rlane-libcli[${PYTHON_USEDEP}]
 	dev-python/rlane-libcurses[${PYTHON_USEDEP}]

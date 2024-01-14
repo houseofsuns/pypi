@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build ds test"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	build? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	build? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	<dev-python/websockets-11.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-1.0[${PYTHON_USEDEP}]
+	<dev-python/watchdog-3.0[${PYTHON_USEDEP}]
+	build? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	build? ( <dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/plotly-express[${PYTHON_USEDEP}] )
-	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	build? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	build? ( <dev-python/build-1.0[${PYTHON_USEDEP}] )
+	build? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
-	build? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	build? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	build? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	build? ( <dev-python/pytest-asyncio-1.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/altair[${PYTHON_USEDEP}] )
-	build? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	ds? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	ds? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	build? ( <dev-python/httpx-1.0[${PYTHON_USEDEP}] )
+	ds? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	ds? ( <dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}] )
 	ds? ( dev-python/plotly-express[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/plotly-express[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-asyncio-1.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/altair[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpx[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/httpx-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

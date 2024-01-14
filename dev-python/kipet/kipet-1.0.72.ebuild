@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/attrs-20.0[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
+	~dev-python/networkx-2.7[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	~dev-python/plotly-4.0[${PYTHON_USEDEP}]
 	dev-python/pyomo[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.0[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/pytexit[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

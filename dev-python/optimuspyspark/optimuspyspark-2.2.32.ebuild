@@ -24,77 +24,77 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs lint test"
-DEPENDENCIES="dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
+	~dev-python/cryptography-2.7[${PYTHON_USEDEP}]
 	dev-python/imgkit[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	~dev-python/packaging-19.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.28.1[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.9.0[${PYTHON_USEDEP}]
 	dev-python/fastnumbers[${PYTHON_USEDEP}]
-	dev-python/multipledispatch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/multipledispatch-0.6.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.17.2[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	dev-python/findspark[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/deprecated-1.2.5[${PYTHON_USEDEP}]
+	~dev-python/setuptools-41.6.0[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-0.13.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/ratelimit[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.2.0[${PYTHON_USEDEP}]
+	~dev-python/flask-1.0.2[${PYTHON_USEDEP}]
+	~dev-python/ipython-7.5.0[${PYTHON_USEDEP}]
+	~dev-python/ratelimit-2.2.1[${PYTHON_USEDEP}]
+	~dev-python/humanize-0.5.1[${PYTHON_USEDEP}]
 	dev-python/h2o-pysparkling-2_4[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/kombu[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
+	~dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
+	~dev-python/kombu-4.6.1[${PYTHON_USEDEP}]
+	~dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
+	~dev-python/ordered-set-3.1.1[${PYTHON_USEDEP}]
+	~dev-python/deepdiff-4.0.6[${PYTHON_USEDEP}]
 	dev-python/pypika[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	~dev-python/statsmodels-0.10.1[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
 	dev-python/singleton-decorator[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	all? ( dev-python/simplejson[${PYTHON_USEDEP}] )
-	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/simplejson-3.16.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/cryptography-2.7[${PYTHON_USEDEP}] )
 	all? ( dev-python/imgkit[${PYTHON_USEDEP}] )
-	all? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
-	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	all? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/packaging-19.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/requests-2.20.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/tqdm-4.28.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pymongo-3.9.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastnumbers[${PYTHON_USEDEP}] )
-	all? ( dev-python/multipledispatch[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/multipledispatch-0.6.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/numpy-1.17.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	all? ( dev-python/findspark[${PYTHON_USEDEP}] )
-	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	all? ( dev-python/deprecated[${PYTHON_USEDEP}] )
-	all? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/deprecated-1.2.5[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/setuptools-41.6.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pyarrow-0.13.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	all? ( dev-python/keras[${PYTHON_USEDEP}] )
-	all? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	all? ( dev-python/flask[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/ratelimit[${PYTHON_USEDEP}] )
-	all? ( dev-python/humanize[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pygments-2.2.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/flask-1.0.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/ipython-7.5.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/ratelimit-2.2.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/humanize-0.5.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/h2o-pysparkling-2_4[${PYTHON_USEDEP}] )
-	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	all? ( dev-python/backoff[${PYTHON_USEDEP}] )
-	all? ( dev-python/kombu[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/ordered-set[${PYTHON_USEDEP}] )
-	all? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/psutil-5.7.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/backoff-1.10.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/kombu-4.6.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pandas-0.24.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/ordered-set-3.1.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/deepdiff-4.0.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/pypika[${PYTHON_USEDEP}] )
-	all? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/statsmodels-0.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/glom[${PYTHON_USEDEP}] )
 	all? ( dev-python/singleton-decorator[${PYTHON_USEDEP}] )
 	all? ( dev-python/nltk[${PYTHON_USEDEP}] )

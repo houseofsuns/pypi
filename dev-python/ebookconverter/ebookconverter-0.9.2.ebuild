@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ebookmaker[${PYTHON_USEDEP}]
-	dev-python/setproctitle[${PYTHON_USEDEP}]
+	~dev-python/setproctitle-1.1.10[${PYTHON_USEDEP}]
 	dev-python/requests_oauthlib[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
+	>=dev-python/rdflib-4.2.2[${PYTHON_USEDEP}]
+	>=dev-python/qrcode-6.1[${PYTHON_USEDEP}]
 	dev-python/libgutenberg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

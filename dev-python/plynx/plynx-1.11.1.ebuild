@@ -24,47 +24,47 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev gs s3 ssh"
-DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-4.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]
+	>=dev-python/passlib-1.7.1[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.5.0[${PYTHON_USEDEP}]
 	dev-python/Flask-Cors[${PYTHON_USEDEP}]
 	dev-python/Flask-HTTPAuth[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	>=dev-python/future-0.17.1[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	>=dev-python/google-api-python-client-2.77.0[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-2.16.0[${PYTHON_USEDEP}]
+	all? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mypy-0.960[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pylint-2.14.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	all? ( dev-python/mongo-types[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-six[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	all? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/boto3-1.9.62[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/paramiko-2.4.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.960[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.14.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mongo-types[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-six[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
 	gs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	ssh? ( dev-python/paramiko[${PYTHON_USEDEP}] )"
+	s3? ( >=dev-python/boto3-1.9.62[${PYTHON_USEDEP}] )
+	ssh? ( >=dev-python/paramiko-2.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

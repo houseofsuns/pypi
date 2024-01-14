@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/gpiozero[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/RPi-GPIO[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

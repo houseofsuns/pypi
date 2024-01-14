@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all eventstoredb minio postgres rabbitmq redis"
 DEPENDENCIES="dev-python/python-on-whales[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	all? ( dev-python/testcontainers-on-whales[${PYTHON_USEDEP}] )
 	eventstoredb? ( dev-python/eventstoredb[${PYTHON_USEDEP}] )
-	minio? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	minio? ( >=dev-python/boto3-1.26.91[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	rabbitmq? ( dev-python/pika[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	postgres? ( >=dev-python/sqlalchemy-2.0.6[${PYTHON_USEDEP}] )
+	rabbitmq? ( >=dev-python/pika-1.3.1[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

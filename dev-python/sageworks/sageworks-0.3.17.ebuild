@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.28.76[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.31.76[${PYTHON_USEDEP}]
+	>=dev-python/redis-5.0.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.1.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/awswrangler[${PYTHON_USEDEP}]
 	dev-python/sagemaker[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.18.0[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/dash-bootstrap-components[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.3.2[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-41.0.7[${PYTHON_USEDEP}]
 	dev-python/rdkit[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/ipython-8.17.2[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.4.3[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-69.0.2[${PYTHON_USEDEP}]
 	dev-python/constructs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

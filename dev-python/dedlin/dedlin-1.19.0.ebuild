@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/art[${PYTHON_USEDEP}]
 	dev-python/docopt-ng[${PYTHON_USEDEP}]
-	dev-python/html2text[${PYTHON_USEDEP}]
+	>=dev-python/html2text-2020.1.16[${PYTHON_USEDEP}]
 	dev-python/icontract[${PYTHON_USEDEP}]
-	dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
+	>=dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/mistune-3.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.16.1[${PYTHON_USEDEP}]
 	dev-python/pyspellchecker[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.6.0[${PYTHON_USEDEP}]
 	dev-python/textstat[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

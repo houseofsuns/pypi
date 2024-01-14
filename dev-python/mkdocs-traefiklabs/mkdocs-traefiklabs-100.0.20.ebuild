@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mkdocs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mkdocs-1.1[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/markdown-3.2[${PYTHON_USEDEP}]
+	>=dev-python/pymdown-extensions-7.0[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-material-extensions-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/asphalt-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/httpx-1.0[${PYTHON_USEDEP}]
 	dev-python/jupyterhub[${PYTHON_USEDEP}]
 	dev-python/jupyverse-api[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

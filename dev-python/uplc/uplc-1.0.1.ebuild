@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/frozendict[${PYTHON_USEDEP}]
-	dev-python/cbor2[${PYTHON_USEDEP}]
+	<dev-python/cbor2-6.0.0[${PYTHON_USEDEP}]
 	dev-python/frozenlist2[${PYTHON_USEDEP}]
-	dev-python/rply[${PYTHON_USEDEP}]
+	<dev-python/rply-0.8.0[${PYTHON_USEDEP}]
 	dev-python/pycardano[${PYTHON_USEDEP}]
 	dev-python/python-secp256k1-cardano[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

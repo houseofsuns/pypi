@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pybind11[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.2.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.1[${PYTHON_USEDEP}]
+	>=dev-python/pybind11-2.6.2[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/sdss-sep[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.12.1[${PYTHON_USEDEP}]
 	dev-python/sdsstools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/doc8-0.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-1.13.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-sugar-0.9.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipdb-0.12.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rstcheck[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/twine-3.4.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.36.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/JSON-minify[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-1.3.1[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
 	dev-python/ujson[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

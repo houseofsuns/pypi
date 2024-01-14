@@ -30,12 +30,12 @@ DEPENDENCIES="dev-python/gnocchiclient[${PYTHON_USEDEP}]
 	dev-python/os-faults[${PYTHON_USEDEP}]
 	dev-python/osprofiler[${PYTHON_USEDEP}]
 	dev-python/python-barbicanclient[${PYTHON_USEDEP}]
-	dev-python/python-cinderclient[${PYTHON_USEDEP}]
+	>dev-python/python-cinderclient-4.0.0[${PYTHON_USEDEP}]
 	dev-python/python-designateclient[${PYTHON_USEDEP}]
 	dev-python/python-glanceclient[${PYTHON_USEDEP}]
 	dev-python/python-heatclient[${PYTHON_USEDEP}]
-	dev-python/python-ironicclient[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
+	>dev-python/python-ironicclient-2.5.2[${PYTHON_USEDEP}]
+	>dev-python/python-keystoneclient-2.1.0[${PYTHON_USEDEP}]
 	dev-python/python-magnumclient[${PYTHON_USEDEP}]
 	dev-python/python-manilaclient[${PYTHON_USEDEP}]
 	dev-python/python-mistralclient[${PYTHON_USEDEP}]
@@ -51,6 +51,6 @@ DEPENDENCIES="dev-python/gnocchiclient[${PYTHON_USEDEP}]
 	dev-python/python-watcherclient[${PYTHON_USEDEP}]
 	dev-python/python-zaqarclient[${PYTHON_USEDEP}]
 	dev-python/rally[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>dev-python/requests-2.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mako[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/mako-1.1[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.6[${PYTHON_USEDEP}]
 	dev-python/aiodns[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.46[${PYTHON_USEDEP}]
+	~dev-python/packaging-20.3[${PYTHON_USEDEP}]
 	dev-python/cchardet[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

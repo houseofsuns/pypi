@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/backports-weakref[${PYTHON_USEDEP}]
 	dev-python/enum34[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	<=dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
+	<=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

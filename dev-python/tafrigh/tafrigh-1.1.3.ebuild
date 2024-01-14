@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="whisper wit"
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/tqdm-4.65.1[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]
 	whisper? ( dev-python/faster-whisper[${PYTHON_USEDEP}] )
 	whisper? ( dev-python/openai-whisper[${PYTHON_USEDEP}] )
 	whisper? ( dev-python/stable-ts[${PYTHON_USEDEP}] )
 	wit? ( dev-python/auditok[${PYTHON_USEDEP}] )
-	wit? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	wit? ( ~dev-python/numpy-1.23.5[${PYTHON_USEDEP}] )
 	wit? ( dev-python/pydub[${PYTHON_USEDEP}] )
-	wit? ( dev-python/requests[${PYTHON_USEDEP}] )
-	wit? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	wit? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
+	wit? ( ~dev-python/scipy-1.11.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

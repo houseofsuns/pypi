@@ -27,6 +27,6 @@ IUSE="common-sql kerberos"
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/impyla[${PYTHON_USEDEP}]
 	common-sql? ( dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}] )
-	kerberos? ( dev-python/kerberos[${PYTHON_USEDEP}] )"
+	kerberos? ( >=dev-python/kerberos-1.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

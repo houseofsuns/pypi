@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-git-revision-date-localized-plugin-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocstrings-0.20.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,51 +25,51 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/mpmath[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-5.5.6[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.6.5[${PYTHON_USEDEP}]
+	>=dev-python/lmfit-1.0.3[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
+	>=dev-python/mpmath-1.2.1[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.0.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
 	dev-python/voila[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	>=dev-python/wrapt-1.12.1[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2022.3.0[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.9.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-1.5.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pillow-9.5.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pygments-2.15.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.2.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-changelog[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-codeautolink[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-gallery-0.12.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-issues-3.0.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-notfound-page-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-reredirects[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-tabs-3.4.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-bibtex-2.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-globalsubs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	docs? ( dev-python/tox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/unidecode[${PYTHON_USEDEP}] )
-	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/towncrier-22.12[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/tox-4.4.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/unidecode-1.3.6[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/hypothesis-6.35.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-regressions-2.3.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-xdist-3.0.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/tox-4.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

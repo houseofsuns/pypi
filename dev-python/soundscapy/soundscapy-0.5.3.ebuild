@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.12.2[${PYTHON_USEDEP}]
 	dev-python/acoustics[${PYTHON_USEDEP}]
 	dev-python/mosqito[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/scikit-maad[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-1.5.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupytext[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.24.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.9.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autoapi-2.1.1[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/setuptools-68.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbmake[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pycircular[${PYTHON_USEDEP}] )
-	dev? ( dev-python/statsmodels[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

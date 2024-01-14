@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pymongo-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/ete3[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
 	dev-python/xlsxwriter[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	>=dev-python/future-0.18.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

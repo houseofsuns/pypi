@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/aniso8601[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aniso8601-0.82[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/methodtools[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-40.8[${PYTHON_USEDEP}]
 	dev-python/sanic[${PYTHON_USEDEP}]
 	dev-python/sanic-jinja2[${PYTHON_USEDEP}]
 	dev-python/sanic-plugin-toolkit[${PYTHON_USEDEP}]
-	doc? ( dev-python/alabaster[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-issues-1.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/blinker[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-4.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-faker[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-1.10.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-profiling[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-sugar-0.9.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/sanic-testing[${PYTHON_USEDEP}] )
 	test? ( dev-python/tzlocal[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

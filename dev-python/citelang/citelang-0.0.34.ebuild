@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
 	all? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/colour[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-4.6.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	all? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	badge? ( dev-python/plotly[${PYTHON_USEDEP}] )

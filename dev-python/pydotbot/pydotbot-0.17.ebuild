@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/fastapi-mqtt[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/haversine[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.25.2[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
+	~dev-python/pygame-2.5.1[${PYTHON_USEDEP}]
 	dev-python/pynput[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
+	~dev-python/structlog-23.1.0[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.23.2[${PYTHON_USEDEP}]
+	~dev-python/websockets-11.0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/towncrier[${PYTHON_USEDEP}]
+	~dev-python/towncrier-22.12.0[${PYTHON_USEDEP}]
 	dev-python/pyautoversion[${PYTHON_USEDEP}]
-	dev-python/pdoc3[${PYTHON_USEDEP}]
+	~dev-python/pdoc3-0.10.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	~dev-python/semver-2.13.0[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/twine[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/licenseheaders[${PYTHON_USEDEP}]
-	dev-python/spdx-tools[${PYTHON_USEDEP}]
+	~dev-python/spdx-tools-0.6.1[${PYTHON_USEDEP}]
 	dev-python/license-expression[${PYTHON_USEDEP}]
 	dev-python/wcmatch[${PYTHON_USEDEP}]
 	dev-python/jellyfish[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]"
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

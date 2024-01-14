@@ -28,26 +28,26 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-shortuuidfield[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/mysqlclient[${PYTHON_USEDEP}]
+	~dev-python/mysqlclient-2.1.0[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/hiredis[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	~dev-python/redis-4.5.0[${PYTHON_USEDEP}]
+	~dev-python/hiredis-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/sentry-sdk-1.5.0[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
-	dev-python/dj-database-url[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/dj-database-url-0.5.0[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
 	dev-python/django-csp[${PYTHON_USEDEP}]
-	dev-python/django-cors-headers[${PYTHON_USEDEP}]
+	~dev-python/django-cors-headers-3.11.0[${PYTHON_USEDEP}]
 	dev-python/django-allauth[${PYTHON_USEDEP}]
-	dev-python/django-crispy-forms[${PYTHON_USEDEP}]
+	~dev-python/django-crispy-forms-1.14.0[${PYTHON_USEDEP}]
 	dev-python/social-auth-app-django[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
+	~dev-python/python-jose-3.3.0[${PYTHON_USEDEP}]
 	dev-python/django-compressor[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.13.0[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	~dev-python/django-filter-21.1[${PYTHON_USEDEP}]
 	dev-python/sgp4[${PYTHON_USEDEP}]
 	dev-python/satellitetle[${PYTHON_USEDEP}]
 	dev-python/influxdb[${PYTHON_USEDEP}]
@@ -55,31 +55,31 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap-modal-forms[${PYTHON_USEDEP}]
 	dev-python/fontawesomefree[${PYTHON_USEDEP}]
 	dev-python/satnogs-decoders[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.17.0[${PYTHON_USEDEP}]
+	~dev-python/h5py-3.6.0[${PYTHON_USEDEP}]
+	~dev-python/pyzmq-22.3.0[${PYTHON_USEDEP}]
 	dev-python/nanoid[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.27.0[${PYTHON_USEDEP}]
 	dev-python/django-countries[${PYTHON_USEDEP}]
 	dev-python/PyLD[${PYTHON_USEDEP}]
-	dev-python/django-debug-toolbar[${PYTHON_USEDEP}]
-	dev-python/versioneer[${PYTHON_USEDEP}]
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
+	~dev-python/django-debug-toolbar-3.2.0[${PYTHON_USEDEP}]
+	~dev-python/versioneer-0.28.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-celery[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-django-4.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-forked-1.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docopts[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-4.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/yapf-0.31.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

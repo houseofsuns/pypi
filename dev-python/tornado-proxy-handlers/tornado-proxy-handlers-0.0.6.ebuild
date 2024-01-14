@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/tornado[${PYTHON_USEDEP}]
-	dev? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/tornado-6.0.2[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/tornado-6.0.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.7.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-4.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-markdown-builder[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

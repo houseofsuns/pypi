@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/build[${PYTHON_USEDEP}]
 	dev-python/devpi-common[${PYTHON_USEDEP}]
 	dev-python/iniconfig[${PYTHON_USEDEP}]
 	dev-python/pep517[${PYTHON_USEDEP}]
-	dev-python/pkginfo[${PYTHON_USEDEP}]
+	>=dev-python/pkginfo-1.4.2[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]"
+	<dev-python/pluggy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/py-1.4.31[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

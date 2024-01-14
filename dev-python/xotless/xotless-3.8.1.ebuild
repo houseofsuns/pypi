@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="immutables test"
 DEPENDENCIES="dev-python/xotl-tools[${PYTHON_USEDEP}]
 	immutables? ( dev-python/immutables[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/hypothesis-5.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

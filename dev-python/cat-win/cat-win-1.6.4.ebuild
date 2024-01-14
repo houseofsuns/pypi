@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="clip"
-DEPENDENCIES="clip? ( dev-python/pyperclip[${PYTHON_USEDEP}] )"
+DEPENDENCIES="clip? ( ~dev-python/pyperclip-1.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

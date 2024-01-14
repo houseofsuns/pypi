@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cffi cython doc test"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-42.0.2[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.9.0[${PYTHON_USEDEP}]
 	dev-python/pkg-about[${PYTHON_USEDEP}]
 	dev-python/jni[${PYTHON_USEDEP}]
 	cffi? ( dev-python/jni[${PYTHON_USEDEP}] )
 	cython? ( dev-python/jni[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
-	doc? ( dev-python/restructuredtext-lint[${PYTHON_USEDEP}] )
-	test? ( dev-python/deepdiff[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/sphinx-tabs-3.2.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinxcontrib-spelling-7.3.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/restructuredtext-lint-1.3.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/deepdiff-5.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

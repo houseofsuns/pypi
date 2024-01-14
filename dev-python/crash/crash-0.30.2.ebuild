@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="argcompletion devel test"
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/colorama-1.0[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
 	dev-python/crate[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-5.0[${PYTHON_USEDEP}]
+	<dev-python/prompt-toolkit-4.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10[${PYTHON_USEDEP}]
+	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
 	argcompletion? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
-	devel? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	devel? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	devel? ( dev-python/isort[${PYTHON_USEDEP}] )
+	devel? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )
+	devel? ( <dev-python/flake8-8.0[${PYTHON_USEDEP}] )
+	devel? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/crate[${PYTHON_USEDEP}] )
 	test? ( dev-python/zc-customdoctests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

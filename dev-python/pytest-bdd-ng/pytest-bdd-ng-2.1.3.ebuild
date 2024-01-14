@@ -42,9 +42,9 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/parse[${PYTHON_USEDEP}]
 	dev-python/parse-type[${PYTHON_USEDEP}]
 	dev-python/py[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0.3[${PYTHON_USEDEP}]
+	>=dev-python/pytest-5.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-58.0[${PYTHON_USEDEP}]
 	dev-python/cucumber-tag-expressions[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	allure? ( dev-python/allure-python-commons[${PYTHON_USEDEP}] )
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	test? ( dev-python/PyHamcrest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-httpserver[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-coveralls[${PYTHON_USEDEP}] )
-	testenv? ( dev-python/tox[${PYTHON_USEDEP}] )
+	testenv? ( ~dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	testenv? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	testtypes? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	testtypes? ( dev-python/types-certifi[${PYTHON_USEDEP}] )

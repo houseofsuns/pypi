@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/deepmerge[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/deepmerge-1.1.0[${PYTHON_USEDEP}]
 	dev-python/lru-cache[${PYTHON_USEDEP}]
 	dev-python/backports-functools-lru-cache[${PYTHON_USEDEP}]
-	dev-python/pathlib2[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/hvac[${PYTHON_USEDEP}]"
+	~dev-python/pathlib2-2.3.7[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.28.12[${PYTHON_USEDEP}]
+	~dev-python/hvac-1.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

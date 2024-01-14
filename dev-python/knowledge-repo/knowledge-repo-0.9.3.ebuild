@@ -24,38 +24,38 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev ipynb ldap oauth pdf"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/markdown-3.3.4[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.10.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
 	dev-python/cooked-input[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/ipython-genutils[${PYTHON_USEDEP}]
 	dev-python/multiprocess[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-login[${PYTHON_USEDEP}]
+	<=dev-python/importlib-metadata-4.13.0[${PYTHON_USEDEP}]
+	<=dev-python/flask-2.1.2[${PYTHON_USEDEP}]
+	<=dev-python/flask-login-0.6.1[${PYTHON_USEDEP}]
 	dev-python/flask-principal[${PYTHON_USEDEP}]
 	dev-python/flask-mail[${PYTHON_USEDEP}]
 	dev-python/Flask-Migrate[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.37[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	<=dev-python/werkzeug-2.0.3[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/inflection[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/weasyprint[${PYTHON_USEDEP}]
+	~dev-python/weasyprint-54.3[${PYTHON_USEDEP}]
 	dev-python/gcloud[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.29.37[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.26.37[${PYTHON_USEDEP}]
 	dev-python/s3path[${PYTHON_USEDEP}]
 	dev-python/notion-client[${PYTHON_USEDEP}]
 	all? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	all? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	all? ( <dev-python/nbconvert-6.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/traitlets[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyPDF2[${PYTHON_USEDEP}] )
-	all? ( dev-python/wand[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/wand-0.6.7[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests-oauthlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/ldap3[${PYTHON_USEDEP}] )
 	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
@@ -69,11 +69,11 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev? ( dev-python/pep8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
 	ipynb? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	ipynb? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	ipynb? ( <dev-python/nbconvert-6.0.0[${PYTHON_USEDEP}] )
 	ipynb? ( dev-python/traitlets[${PYTHON_USEDEP}] )
 	ldap? ( dev-python/ldap3[${PYTHON_USEDEP}] )
 	oauth? ( dev-python/requests-oauthlib[${PYTHON_USEDEP}] )
 	pdf? ( dev-python/PyPDF2[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/wand[${PYTHON_USEDEP}] )"
+	pdf? ( ~dev-python/wand-0.6.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/arcane-core[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]"
+	>=dev-python/google-api-python-client-1.7.8[${PYTHON_USEDEP}]
+	~dev-python/google-auth-httplib2-0.1.0[${PYTHON_USEDEP}]
+	<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

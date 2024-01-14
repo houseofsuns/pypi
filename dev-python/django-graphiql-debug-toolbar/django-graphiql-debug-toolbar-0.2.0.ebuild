@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/graphene-django[${PYTHON_USEDEP}]
-	dev-python/django-debug-toolbar[${PYTHON_USEDEP}]"
+	>=dev-python/django-debug-toolbar-3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	dev-python/pettingzoo[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	dev-python/chess[${PYTHON_USEDEP}]
 	dev-python/rlcard[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
+	~dev-python/pygame-2.3.0[${PYTHON_USEDEP}]
 	dev-python/chatarena[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

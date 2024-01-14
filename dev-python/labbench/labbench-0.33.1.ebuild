@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev dotnet jupyter pyvisa-py-extras"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/GitPython-2.0[${PYTHON_USEDEP}]
 	dev-python/feather-format[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.0[${PYTHON_USEDEP}]
 	dev-python/libusb1[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-14.0[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.0[${PYTHON_USEDEP}]
 	dev-python/pyvicp[${PYTHON_USEDEP}]
 	dev-python/pyvisa-py[${PYTHON_USEDEP}]
 	dev-python/pyvisa-sim[${PYTHON_USEDEP}]
 	dev-python/pyvisa[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
+	>=dev-python/validators-0.20.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
@@ -52,15 +52,15 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/genbadge[${PYTHON_USEDEP}] )
 	dev? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyperf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/astor[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/astor-0.8.1[${PYTHON_USEDEP}] )
 	dotnet? ( dev-python/pythonnet[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyter[${PYTHON_USEDEP}] )

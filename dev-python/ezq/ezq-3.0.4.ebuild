@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev-python/multiprocess[${PYTHON_USEDEP}]
+	~dev-python/multiprocess-0.70.14[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdoc3[${PYTHON_USEDEP}] )

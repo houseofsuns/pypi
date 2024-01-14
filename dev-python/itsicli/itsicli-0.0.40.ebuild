@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/itsimodels[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]"
+	>=dev-python/python-slugify-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.4.3[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/bandit-1.7.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.971[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-vcr[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/vcrpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/vcrpy-4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.37[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdoc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

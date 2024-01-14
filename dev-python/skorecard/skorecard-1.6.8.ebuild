@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dashboard dev docs reporting"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scipy-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/category-encoders[${PYTHON_USEDEP}]
@@ -35,24 +35,24 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	dashboard? ( dev-python/dash[${PYTHON_USEDEP}] )
 	dashboard? ( dev-python/jupyter-dash[${PYTHON_USEDEP}] )
 	dashboard? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyflakes-3.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.770[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-six[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-decorator[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-1.1.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-7.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-0.13.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mknotebooks[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	reporting? ( dev-python/plotly[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/mkdocs-git-revision-date-localized-plugin-0.7.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-python-1.1.2[${PYTHON_USEDEP}] )
+	reporting? ( >=dev-python/plotly-4.14.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

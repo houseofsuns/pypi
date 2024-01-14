@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
+	<dev-python/pymysql-2.0.0[${PYTHON_USEDEP}]
 	dev-python/myloginpath[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]
 	dev-python/textual-autocomplete[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
+	<dev-python/charset-normalizer-4.0.0[${PYTHON_USEDEP}]
 	dev-python/plotext[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

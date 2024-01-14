@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="clip dev doc numpy simplify"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-2.6[${PYTHON_USEDEP}]
 	dev-python/fiona[${PYTHON_USEDEP}]
-	dev-python/tinycss2[${PYTHON_USEDEP}]
+	>=dev-python/tinycss2-1.0.2[${PYTHON_USEDEP}]
 	dev-python/utm[${PYTHON_USEDEP}]
-	dev-python/cssselect[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	clip? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	>=dev-python/cssselect-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.5.0[${PYTHON_USEDEP}]
+	clip? ( >=dev-python/shapely-1.5.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >dev-python/pylint-2.5.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )

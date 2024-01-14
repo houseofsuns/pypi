@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dmypy install-types mypyc reports"
 DEPENDENCIES="dev-python/basedtyping[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dmypy? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]
+	>=dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
+	dmypy? ( >=dev-python/psutil-4.0[${PYTHON_USEDEP}] )
 	install-types? ( dev-python/pip[${PYTHON_USEDEP}] )
-	mypyc? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	mypyc? ( >=dev-python/setuptools-50.0[${PYTHON_USEDEP}] )
 	reports? ( dev-python/lxml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

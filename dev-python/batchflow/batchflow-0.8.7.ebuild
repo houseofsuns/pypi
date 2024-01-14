@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="datasets dev image jupyter nn profile research telegram"
-DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/dill-0.4[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/llvmlite[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	image? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	image? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	profile? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	research? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	research? ( dev-python/multiprocess[${PYTHON_USEDEP}] )
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	image? ( <dev-python/pillow-10.0[${PYTHON_USEDEP}] )
+	image? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
+	profile? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
+	research? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
+	research? ( <dev-python/multiprocess-0.71[${PYTHON_USEDEP}] )
 	nn? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	profile? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	research? ( dev-python/psutil[${PYTHON_USEDEP}] )
@@ -45,11 +45,11 @@ DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
 	nn? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	nn? ( dev-python/einops[${PYTHON_USEDEP}] )
 	nn? ( dev-python/ptflops[${PYTHON_USEDEP}] )
-	profile? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	research? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	profile? ( <dev-python/pandas-0.25[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pandas-0.25[${PYTHON_USEDEP}] )
+	research? ( <dev-python/pandas-0.25[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
@@ -59,6 +59,6 @@ DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
 	jupyter? ( dev-python/jupyter_server[${PYTHON_USEDEP}] )
 	datasets? ( dev-python/requests[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/requests[${PYTHON_USEDEP}] )
-	telegram? ( dev-python/urllib3[${PYTHON_USEDEP}] )"
+	telegram? ( <dev-python/urllib3-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

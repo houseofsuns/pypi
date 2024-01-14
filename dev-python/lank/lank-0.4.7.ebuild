@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-37.0.4[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/ntplib[${PYTHON_USEDEP}]
 	dev-python/password-strength[${PYTHON_USEDEP}]"

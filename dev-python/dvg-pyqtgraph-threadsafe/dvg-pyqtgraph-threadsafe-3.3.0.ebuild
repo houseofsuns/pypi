@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.15[${PYTHON_USEDEP}]
+	~dev-python/pyqtgraph-0.11[${PYTHON_USEDEP}]
 	dev-python/dvg-ringbuffer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

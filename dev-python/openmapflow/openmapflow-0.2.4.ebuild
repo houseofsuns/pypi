@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all data"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.9.0[${PYTHON_USEDEP}]
 	all? ( dev-python/cmocean[${PYTHON_USEDEP}] )
 	all? ( dev-python/earthengine-api[${PYTHON_USEDEP}] )
 	all? ( dev-python/geopandas[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	all? ( dev-python/rasterio[${PYTHON_USEDEP}] )
-	all? ( dev-python/xarray[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/xarray-0.19[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastcore[${PYTHON_USEDEP}] )
 	all? ( dev-python/tsai[${PYTHON_USEDEP}] )
 	data? ( dev-python/cmocean[${PYTHON_USEDEP}] )
@@ -45,6 +45,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	data? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	data? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	data? ( dev-python/rasterio[${PYTHON_USEDEP}] )
-	data? ( dev-python/xarray[${PYTHON_USEDEP}] )"
+	data? ( ~dev-python/xarray-0.19[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

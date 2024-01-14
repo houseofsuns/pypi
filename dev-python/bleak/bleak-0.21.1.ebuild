@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/async-timeout-5.0[${PYTHON_USEDEP}]
 	dev-python/dbus-fast[${PYTHON_USEDEP}]
 	dev-python/pyobjc-core[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-CoreBluetooth[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-libdispatch[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

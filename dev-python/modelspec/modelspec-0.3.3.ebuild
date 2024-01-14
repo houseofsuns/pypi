@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
+	>=dev-python/cattrs-23.2.3[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
 	all? ( dev-python/modelspec[${PYTHON_USEDEP}] )
 	all? ( dev-python/modelspec[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	docs? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	docs? ( dev-python/requests[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/recommonmark-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

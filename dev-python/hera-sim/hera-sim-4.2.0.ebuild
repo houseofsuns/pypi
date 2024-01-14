@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/deprecation[${PYTHON_USEDEP}]
 	dev-python/hera-cli-utils[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	dev-python/pyuvdata[${PYTHON_USEDEP}]
 	dev-python/pyuvsim[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	all? ( dev-python/hera-sim[${PYTHON_USEDEP}] )
@@ -44,18 +44,18 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matvis[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-0.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyradiosky[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autorun[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/pycuda[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/scikit-cuda[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/hera-sim[${PYTHON_USEDEP}] )
-	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-3.5.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/uvtools[${PYTHON_USEDEP}] )
 	vis? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
 	vis? ( dev-python/matvis[${PYTHON_USEDEP}] )

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.8[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.9[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/betamax[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/betamax-0.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/betamax-serializers[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/black-22.6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

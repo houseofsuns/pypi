@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli filehelper jenkinshelper loghelper server"
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
 	dev-python/pyquicksetup[${PYTHON_USEDEP}]
 	all? ( dev-python/autopep8[${PYTHON_USEDEP}] )
 	all? ( dev-python/cffi[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	all? ( dev-python/docformatter[${PYTHON_USEDEP}] )
 	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
@@ -46,11 +46,11 @@ DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/metakernel[${PYTHON_USEDEP}] )
 	all? ( dev-python/multi-key-dict[${PYTHON_USEDEP}] )
-	all? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	all? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/nbconvert-6.0.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/notebook-4.2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpy-1.16.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-1.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-jenkins[${PYTHON_USEDEP}] )
@@ -59,10 +59,10 @@ DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	all? ( dev-python/pysftp[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/semantic-version[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-imagesvg[${PYTHON_USEDEP}] )
-	all? ( dev-python/traitlets[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/traitlets-5.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/tkinterquickhelper[${PYTHON_USEDEP}] )
 	cli? ( dev-python/pysftp[${PYTHON_USEDEP}] )
 	cli? ( dev-python/fire[${PYTHON_USEDEP}] )

@@ -25,27 +25,27 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all classy docs tests"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/sphinx-1.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask-classy[${PYTHON_USEDEP}] )
 	all? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pydocstyle-1.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-2.8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	classy? ( dev-python/flask-classy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flask-classy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pydocstyle-1.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-2.8.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

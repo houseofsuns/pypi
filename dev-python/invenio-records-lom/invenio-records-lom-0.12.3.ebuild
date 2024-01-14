@@ -35,10 +35,10 @@ DEPENDENCIES="dev-python/invenio-previewer[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black-ng[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-mock-1.6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pylint[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-autodoc-typehints-1.10.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-i18n[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="enum union"
-DEPENDENCIES="dev-python/marshmallow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/marshmallow-3.11[${PYTHON_USEDEP}]
 	enum? ( dev-python/marshmallow-enum[${PYTHON_USEDEP}] )
 	union? ( dev-python/marshmallow-union[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

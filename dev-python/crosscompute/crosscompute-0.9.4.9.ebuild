@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-6.6.0[${PYTHON_USEDEP}]
 	dev-python/invisibleroads-macros-disk[${PYTHON_USEDEP}]
 	dev-python/invisibleroads-macros-log[${PYTHON_USEDEP}]
 	dev-python/invisibleroads-macros-process[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/sse-starlette[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]
 	dev-python/watchfiles[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )

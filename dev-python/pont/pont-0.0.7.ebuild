@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiohttp-jinja2[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-3.11.0[${PYTHON_USEDEP}]
 	dev-python/rocher[${PYTHON_USEDEP}]
 	dev-python/strictyaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

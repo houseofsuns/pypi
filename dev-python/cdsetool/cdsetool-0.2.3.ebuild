@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="shape test"
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	<dev-python/rich-13.8[${PYTHON_USEDEP}]
+	<dev-python/requests-2.32.0[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	shape? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-3.0.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/requests-mock-1.11.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

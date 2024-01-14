@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="django ormsgpack redis zstd"
-DEPENDENCIES="django? ( dev-python/django[${PYTHON_USEDEP}] )
+DEPENDENCIES="django? ( <dev-python/django-5.0.0[${PYTHON_USEDEP}] )
 	ormsgpack? ( dev-python/ormsgpack[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	zstd? ( dev-python/zstd[${PYTHON_USEDEP}] )"
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	redis? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	zstd? ( <dev-python/zstd-2.0.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

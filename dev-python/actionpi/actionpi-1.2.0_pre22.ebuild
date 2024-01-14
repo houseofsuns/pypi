@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pycommon-andreacioni[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	dev-python/flask-restful[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.7.3[${PYTHON_USEDEP}]
 	dev-python/gpiozero[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0.9[${PYTHON_USEDEP}]
 	dev-python/picamera[${PYTHON_USEDEP}]
 	dev-python/RPi-GPIO[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

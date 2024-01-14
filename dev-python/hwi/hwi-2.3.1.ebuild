@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/hidapi[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
-	dev-python/pyaes[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/hidapi-0.14.0[${PYTHON_USEDEP}]
+	<dev-python/ecdsa-1.0[${PYTHON_USEDEP}]
+	<dev-python/pyaes-2.0[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev-python/libusb1[${PYTHON_USEDEP}]
 	dev-python/cbor[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/noiseprotocol[${PYTHON_USEDEP}]
+	<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
+	<dev-python/semver-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/noiseprotocol-0.4.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

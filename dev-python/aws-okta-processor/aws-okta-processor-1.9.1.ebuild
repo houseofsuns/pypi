@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.9.134[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	dev-python/contextlib2[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/cyclonedx-bom[${PYTHON_USEDEP}]
 	dev-python/ossindex-lib[${PYTHON_USEDEP}]
 	dev-python/polling2[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="client"
 DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
-	client? ( dev-python/aiohttp[${PYTHON_USEDEP}] )"
+	client? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

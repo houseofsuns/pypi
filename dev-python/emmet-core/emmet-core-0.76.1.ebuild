@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all docs ml test"
 DEPENDENCIES="dev-python/pymatgen[${PYTHON_USEDEP}]
 	dev-python/monty[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pybtex[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/pybtex-0.24[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7[${PYTHON_USEDEP}]
 	all? ( dev-python/matcalc[${PYTHON_USEDEP}] )
 	all? ( dev-python/seekpath[${PYTHON_USEDEP}] )
 	all? ( dev-python/robocrys[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymatgen-analysis-diffusion[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymatgen-analysis-alloys[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-material-8.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )

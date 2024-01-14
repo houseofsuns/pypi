@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="diagram"
-DEPENDENCIES="diagram? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	diagram? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	diagram? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+DEPENDENCIES="diagram? ( >=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}] )
+	diagram? ( >=dev-python/pydot-1.3.0[${PYTHON_USEDEP}] )
+	diagram? ( >=dev-python/tqdm-0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

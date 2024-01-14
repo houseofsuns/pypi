@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/httpx-0.27.0[${PYTHON_USEDEP}]
 	dev-python/asyncssh[${PYTHON_USEDEP}]
 	dev-python/grpc-requests[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/pyaml[${PYTHON_USEDEP}]
+	<dev-python/passlib-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyaml-24.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/betterproto[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

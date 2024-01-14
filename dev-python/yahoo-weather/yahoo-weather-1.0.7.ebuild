@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/certifi-2019.3.9[${PYTHON_USEDEP}]
+	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
+	~dev-python/httplib2-0.12.1[${PYTHON_USEDEP}]
+	~dev-python/idna-2.8[${PYTHON_USEDEP}]
 	dev-python/oauth2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.24.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

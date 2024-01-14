@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/boto[${PYTHON_USEDEP}]
 	dev-python/bottle[${PYTHON_USEDEP}]
 	dev-python/humanfriendly[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/thrift[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
+	<dev-python/networkx-2.8[${PYTHON_USEDEP}]
+	~dev-python/thrift-0.16.0[${PYTHON_USEDEP}]
+	>=dev-python/redis-2.10.0[${PYTHON_USEDEP}]
+	>=dev-python/pycountry-17.9.23[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

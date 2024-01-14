@@ -24,43 +24,43 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc tests"
-DEPENDENCIES="dev-python/build[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/build-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2.10[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.7.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
 	dev-python/pyansys-docker[${PYTHON_USEDEP}]
-	dev-python/pypng[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/pypng-0.20220715.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2021.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	>=dev-python/twine-4.0.1[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/whatsonpypi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/numpy-1.25.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/numpydoc-1.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pillow-10.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/psutil-5.9.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyansys-docker[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-gallery-0.14.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/numpydoc-1.5.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pillow-10.0.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyansys-docker[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-gallery-0.14.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyansys-docker[${PYTHON_USEDEP}] )
-	tests? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/numpy-1.25.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/psutil-5.9.5[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

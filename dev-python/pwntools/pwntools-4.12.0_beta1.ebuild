@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/mako[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/paramiko-1.15.2[${PYTHON_USEDEP}]
+	>=dev-python/mako-1.0.0[${PYTHON_USEDEP}]
 	dev-python/capstone[${PYTHON_USEDEP}]
 	dev-python/ropgadget[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-2.7[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pip-6.0.8[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.0[${PYTHON_USEDEP}]
 	dev-python/pysocks[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/intervaltree[${PYTHON_USEDEP}]
+	>=dev-python/psutil-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/intervaltree-3.0[${PYTHON_USEDEP}]
 	dev-python/sortedcontainers[${PYTHON_USEDEP}]
 	dev-python/unicorn[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
 	dev-python/rpyc[${PYTHON_USEDEP}]
 	dev-python/colored-traceback[${PYTHON_USEDEP}]
 	dev-python/zstandard[${PYTHON_USEDEP}]
-	dev-python/pyelftools[${PYTHON_USEDEP}]
+	>=dev-python/pyelftools-0.24[${PYTHON_USEDEP}]
 	dev-python/unix-ar[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

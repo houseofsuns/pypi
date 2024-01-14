@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/setuptools-66.0.0[${PYTHON_USEDEP}]
+	<dev-python/pypdf-4.0.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]"
+	<dev-python/platformdirs-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

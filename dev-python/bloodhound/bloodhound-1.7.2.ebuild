@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/dnspython[${PYTHON_USEDEP}]
 	dev-python/impacket[${PYTHON_USEDEP}]
-	dev-python/ldap3[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
+	>=dev-python/ldap3-2.5[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-0.4[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/pycryptodome[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

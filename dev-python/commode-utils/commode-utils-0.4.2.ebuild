@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tqdm-4.62.0[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]

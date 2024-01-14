@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/websocket[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-0.5.6[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-0.46.0[${PYTHON_USEDEP}]
 	dev-python/bitmex[${PYTHON_USEDEP}]
 	dev-python/bitmex-ws[${PYTHON_USEDEP}]
 	dev-python/IBATS-Common[${PYTHON_USEDEP}]
-	dev-python/mysqlclient[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/mysqlclient-1.3.8[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.14.4[${PYTHON_USEDEP}]
+	~dev-python/pandas-0.23.0[${PYTHON_USEDEP}]
 	dev-python/prodconpattern[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/redis-2.10.6[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]"
+	~dev-python/xlrd-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

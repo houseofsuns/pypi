@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/xlsxwriter[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/xlsxwriter-1.0.0[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]"
+	>=dev-python/matplotlib-2.2.2[${PYTHON_USEDEP}]
+	>=dev-python/netaddr-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

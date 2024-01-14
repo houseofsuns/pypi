@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dk6 examples oscca tp"
-DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
-	dev-python/astunparse[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/asn1crypto-1.6[${PYTHON_USEDEP}]
+	<dev-python/astunparse-1.7[${PYTHON_USEDEP}]
 	dev-python/bincopy[${PYTHON_USEDEP}]
-	dev-python/bitstring[${PYTHON_USEDEP}]
+	<dev-python/bitstring-4.2[${PYTHON_USEDEP}]
 	dev-python/click-option-group[${PYTHON_USEDEP}]
 	dev-python/click-command-tree[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/commentjson[${PYTHON_USEDEP}]
-	dev-python/crcmod[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
-	dev-python/fastjsonschema[${PYTHON_USEDEP}]
+	<dev-python/click-8.1.6[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5[${PYTHON_USEDEP}]
+	<dev-python/commentjson-0.10[${PYTHON_USEDEP}]
+	<dev-python/crcmod-1.8[${PYTHON_USEDEP}]
+	<dev-python/cryptography-41.1[${PYTHON_USEDEP}]
+	<dev-python/deepmerge-1.2[${PYTHON_USEDEP}]
+	<dev-python/fastjsonschema-2.19[${PYTHON_USEDEP}]
 	dev-python/hexdump[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/libusbsio[${PYTHON_USEDEP}]
@@ -45,13 +45,13 @@ DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
 	dev-python/pyocd-pemicro[${PYTHON_USEDEP}]
 	dev-python/pyocd[${PYTHON_USEDEP}]
 	dev-python/pypemicro[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/pyserial-3.6[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18[${PYTHON_USEDEP}]
+	<dev-python/requests-2.32[${PYTHON_USEDEP}]
 	dev-python/sly[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-4.8[${PYTHON_USEDEP}]
 	all? ( dev-python/swig[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyscard[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pyscard-2.0.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
@@ -71,6 +71,6 @@ DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
 	oscca? ( dev-python/asn1tools[${PYTHON_USEDEP}] )
 	oscca? ( dev-python/gmssl[${PYTHON_USEDEP}] )
 	tp? ( dev-python/swig[${PYTHON_USEDEP}] )
-	tp? ( dev-python/pyscard[${PYTHON_USEDEP}] )"
+	tp? ( ~dev-python/pyscard-2.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

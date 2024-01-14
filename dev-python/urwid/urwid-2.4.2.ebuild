@@ -27,8 +27,8 @@ IUSE="glib lcd serial tornado trio twisted zmq"
 DEPENDENCIES="glib? ( dev-python/PyGObject[${PYTHON_USEDEP}] )
 	lcd? ( dev-python/pyserial[${PYTHON_USEDEP}] )
 	serial? ( dev-python/pyserial[${PYTHON_USEDEP}] )
-	tornado? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	trio? ( dev-python/trio[${PYTHON_USEDEP}] )
+	tornado? ( >=dev-python/tornado-5.0[${PYTHON_USEDEP}] )
+	trio? ( >=dev-python/trio-0.22.0[${PYTHON_USEDEP}] )
 	trio? ( dev-python/exceptiongroup[${PYTHON_USEDEP}] )
 	twisted? ( dev-python/twisted[${PYTHON_USEDEP}] )
 	zmq? ( dev-python/zmq[${PYTHON_USEDEP}] )"

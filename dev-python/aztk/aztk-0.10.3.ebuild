@@ -31,6 +31,6 @@ DEPENDENCIES="dev-python/azure-batch[${PYTHON_USEDEP}]
 	dev-python/azure-cosmosdb-table[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]"
+	~dev-python/paramiko-2.4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

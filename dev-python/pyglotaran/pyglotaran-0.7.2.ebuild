@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extras full"
-DEPENDENCIES="dev-python/asteval[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asteval-0.9.22[${PYTHON_USEDEP}]
+	>=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/odfpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.27[${PYTHON_USEDEP}]
+	>=dev-python/odfpy-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.17[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.2[${PYTHON_USEDEP}]
 	dev-python/sdtfile[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2022.3.0[${PYTHON_USEDEP}]
 	extras? ( dev-python/pyglotaran-extras[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyglotaran[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

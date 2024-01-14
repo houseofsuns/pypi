@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="astropy dev"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]
+	>=dev-python/tables-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/progressbar2-3.7.0[${PYTHON_USEDEP}]
 	astropy? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

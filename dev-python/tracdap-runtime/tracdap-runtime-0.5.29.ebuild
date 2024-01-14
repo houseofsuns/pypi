@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aws spark"
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/dulwich[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	~dev-python/pyarrow-12.0.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
+	~dev-python/dulwich-0.21.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
+	aws? ( ~dev-python/boto3-1.26.22[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

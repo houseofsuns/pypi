@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/nnunetv2[${PYTHON_USEDEP}]
 	dev-python/randomname[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]"
+	<dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

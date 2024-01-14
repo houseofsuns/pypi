@@ -28,23 +28,23 @@ DEPENDENCIES="dev-python/construct-typing[${PYTHON_USEDEP}]
 	dev-python/solana[${PYTHON_USEDEP}]
 	dev-python/solders[${PYTHON_USEDEP}]
 	dev-python/borsh-construct[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
+	<dev-python/websockets-11.0[${PYTHON_USEDEP}]
+	<dev-python/toolz-0.12.0[${PYTHON_USEDEP}]
 	dev-python/jsonrpcclient[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-xprocess[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	<dev-python/zstandard-0.19.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-xprocess-0.19.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-asyncio-0.22.0[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-9.0.0[${PYTHON_USEDEP}]
 	dev-python/pyheck[${PYTHON_USEDEP}]
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
-	cli? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/genpy[${PYTHON_USEDEP}] )
-	cli? ( dev-python/black[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev-python/based58[${PYTHON_USEDEP}]
 	dev-python/anchorpy-core[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]
+	<dev-python/py-2.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

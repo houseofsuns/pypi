@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/pyfakefs[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/aiofiles-0.3.1[${PYTHON_USEDEP}]
+	>=dev-python/pyfakefs-3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

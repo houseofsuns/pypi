@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jupyter-core[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/lesscpy[${PYTHON_USEDEP}]"
+	>=dev-python/notebook-5.6.0[${PYTHON_USEDEP}]
+	>=dev-python/ipython-5.4.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-1.4.3[${PYTHON_USEDEP}]
+	>=dev-python/lesscpy-0.11.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

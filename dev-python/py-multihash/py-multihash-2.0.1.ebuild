@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/varint[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	dev-python/morphys[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

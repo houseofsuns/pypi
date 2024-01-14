@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development test"
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	development? ( dev-python/detox[${PYTHON_USEDEP}] )
 	development? ( dev-python/epdb[${PYTHON_USEDEP}] )
 	development? ( dev-python/flake8[${PYTHON_USEDEP}] )

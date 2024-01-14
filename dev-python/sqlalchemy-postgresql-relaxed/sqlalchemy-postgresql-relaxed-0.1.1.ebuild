@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop release test"
 DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/psycopg[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	develop? ( dev-python/black[${PYTHON_USEDEP}] )
-	develop? ( dev-python/isort[${PYTHON_USEDEP}] )
+	<dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}]
+	develop? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/poethepoet[${PYTHON_USEDEP}] )
 	develop? ( dev-python/proselint[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pyproject-fmt[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pyproject-fmt-1.6[${PYTHON_USEDEP}] )
 	develop? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	develop? ( dev-python/validate-pyproject[${PYTHON_USEDEP}] )
-	release? ( dev-python/build[${PYTHON_USEDEP}] )
-	release? ( dev-python/twine[${PYTHON_USEDEP}] )
+	release? ( <dev-python/build-2.0[${PYTHON_USEDEP}] )
+	release? ( <dev-python/twine-5.0[${PYTHON_USEDEP}] )
 	release? ( dev-python/minibump[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-asyncio-1.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

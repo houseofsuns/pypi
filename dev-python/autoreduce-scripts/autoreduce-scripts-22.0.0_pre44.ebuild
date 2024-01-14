@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/autoreduce-db[${PYTHON_USEDEP}]
 	dev-python/autoreduce-utils[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	~dev-python/h5py-3.7.0[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/stomp-py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

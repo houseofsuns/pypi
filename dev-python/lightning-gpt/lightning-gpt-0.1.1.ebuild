@@ -37,17 +37,17 @@ DEPENDENCIES="dev-python/lightning[${PYTHON_USEDEP}]
 	dev? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lightning[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	nanogpt? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	nanogpt? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	nanogpt? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	test? ( dev-python/lightning[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

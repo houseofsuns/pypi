@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/graphql-core[${PYTHON_USEDEP}]
 	dev-python/st-flashcard[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.18.0[${PYTHON_USEDEP}]
 	dev-python/streamlit-aggrid[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

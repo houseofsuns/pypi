@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/inflect[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/inflect-4.1.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

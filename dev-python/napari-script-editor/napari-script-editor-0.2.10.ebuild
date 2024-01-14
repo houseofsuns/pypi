@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/napari-plugin-engine[${PYTHON_USEDEP}]
 	dev-python/haesleinhuepf-pyqode-core[${PYTHON_USEDEP}]
 	dev-python/haesleinhuepf-pyqode-python[${PYTHON_USEDEP}]
 	dev-python/napari-tools-menu[${PYTHON_USEDEP}]
-	dev-python/jedi[${PYTHON_USEDEP}]
-	dev-python/pyflakes[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]"
+	>=dev-python/jedi-0.18.0[${PYTHON_USEDEP}]
+	<=dev-python/pyflakes-2.4.0[${PYTHON_USEDEP}]
+	>dev-python/imageio-2.22.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

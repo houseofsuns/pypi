@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/mpi4py[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9.1[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.8[${PYTHON_USEDEP}]
+	>=dev-python/mpi4py-3.1.4[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.3[${PYTHON_USEDEP}]
 	dev-python/msgpack-numpy[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]"
+	>=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	>=dev-python/networkx-3.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.1[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2.14[${PYTHON_USEDEP}]
+	>=dev-python/fasteners-0.19[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.3.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

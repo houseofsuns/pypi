@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jupyter-client-7.3.4[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/structlog[${PYTHON_USEDEP}] )
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

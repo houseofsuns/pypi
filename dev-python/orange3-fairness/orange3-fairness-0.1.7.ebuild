@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 DEPENDENCIES="dev-python/Orange3[${PYTHON_USEDEP}]
 	dev-python/aif360[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )"

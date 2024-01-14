@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all bct dev docs neurokit2 onthefly"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-8.2[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.27[${PYTHON_USEDEP}]
+	<=dev-python/scipy-1.11.4[${PYTHON_USEDEP}]
 	dev-python/datalad[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.2[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/nilearn[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	<=dev-python/sqlalchemy-2.1.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18[${PYTHON_USEDEP}]
+	<dev-python/h5py-3.10[${PYTHON_USEDEP}]
 	all? ( dev-python/bctpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/neurokit2[${PYTHON_USEDEP}] )
 	bct? ( dev-python/bctpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/seaborn-0.13[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.3[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-gallery-0.15.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/furo-2023.10.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/numpydoc-1.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/julearn[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-copybutton-0.5.3[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/towncrier-23.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
 	neurokit2? ( dev-python/neurokit2[${PYTHON_USEDEP}] )
 	onthefly? ( dev-python/bctpy[${PYTHON_USEDEP}] )"

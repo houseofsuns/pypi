@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-rerunfailures[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
+	>=dev-python/pytest-rerunfailures-10.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/sphinx-4.3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpydoc[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/build-0.9.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/numpydoc-1.2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs mypy test"
 DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/tree-sitter[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	<dev-python/tree-sitter-0.21[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-10.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-bootstrap-theme-0.9[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	test? ( dev-python/bumpver[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-golden[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/pytest-golden-0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

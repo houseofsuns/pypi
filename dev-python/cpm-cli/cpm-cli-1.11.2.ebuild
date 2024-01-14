@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/ninja[${PYTHON_USEDEP}]
 	dev-python/cmake[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.17[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mock[${PYTHON_USEDEP}] )

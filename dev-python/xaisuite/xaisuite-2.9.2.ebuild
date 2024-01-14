@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/omnixai[${PYTHON_USEDEP}]
 	dev-python/skorch[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/scikeras[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]"
+	~dev-python/seaborn-0.12.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

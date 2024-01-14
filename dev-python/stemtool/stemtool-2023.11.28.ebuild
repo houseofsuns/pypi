@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pywavelets[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pywavelets-0.5.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/matplotlib-scalebar[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]"
+	>=dev-python/h5py-3.7.0[${PYTHON_USEDEP}]
+	>=dev-python/dask-2021.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dbt-bigquery dbt-databricks dbt-duckdb dbt-postgres dbt-redshift dbt-snowflake dbt-trino dev-packages sql-client-packages trino-sql-client-packages"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/dbt-core[${PYTHON_USEDEP}]
 	dev-python/dbt-semantic-interfaces[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
+	<dev-python/graphviz-0.21[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-10.2.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.0[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/rapidfuzz-3.0[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.4[${PYTHON_USEDEP}]
 	dev-python/update-checker[${PYTHON_USEDEP}]
 	dbt-bigquery? ( dev-python/dbt-bigquery[${PYTHON_USEDEP}] )
 	dbt-databricks? ( dev-python/dbt-databricks[${PYTHON_USEDEP}] )
@@ -48,17 +48,17 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dbt-redshift? ( dev-python/dbt-redshift[${PYTHON_USEDEP}] )
 	dbt-snowflake? ( dev-python/dbt-snowflake[${PYTHON_USEDEP}] )
 	dbt-trino? ( dev-python/dbt-trino[${PYTHON_USEDEP}] )
-	dev-packages? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev-packages? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev-packages? ( >=dev-python/click-8.1.6[${PYTHON_USEDEP}] )
+	dev-packages? ( ~dev-python/mypy-1.7.0[${PYTHON_USEDEP}] )
 	dev-packages? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev-packages? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev-packages? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev-packages? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev-packages? ( ~dev-python/pytest-mock-3.7.0[${PYTHON_USEDEP}] )
+	dev-packages? ( ~dev-python/pytest-xdist-3.2.1[${PYTHON_USEDEP}] )
+	dev-packages? ( ~dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
 	dev-packages? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	dev-packages? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
 	dev-packages? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	sql-client-packages? ( dev-python/sqlalchemy2-stubs[${PYTHON_USEDEP}] )
-	sql-client-packages? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	sql-client-packages? ( ~dev-python/sqlalchemy-1.4.42[${PYTHON_USEDEP}] )
 	trino-sql-client-packages? ( dev-python/trino[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

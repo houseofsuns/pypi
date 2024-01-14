@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/beartype[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( >=dev-python/beartype-0.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sympy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sympy-1.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

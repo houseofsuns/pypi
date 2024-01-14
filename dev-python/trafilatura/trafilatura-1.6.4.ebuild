@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/courlan[${PYTHON_USEDEP}]
 	dev-python/htmldate[${PYTHON_USEDEP}]
 	dev-python/justext[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.4[${PYTHON_USEDEP}]
+	>=dev-python/charset-normalizer-3.2.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
 	all? ( dev-python/brotli[${PYTHON_USEDEP}] )
 	all? ( dev-python/htmldate[${PYTHON_USEDEP}] )
 	all? ( dev-python/py3langid[${PYTHON_USEDEP}] )
-	all? ( dev-python/pycurl[${PYTHON_USEDEP}] )
-	all? ( dev-python/cchardet[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pycurl-7.45.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/cchardet-2.1.7[${PYTHON_USEDEP}] )
 	all? ( dev-python/faust-cchardet[${PYTHON_USEDEP}] )
 	gui? ( dev-python/Gooey[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

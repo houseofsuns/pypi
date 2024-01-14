@@ -24,42 +24,42 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="release test"
-DEPENDENCIES="test? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="test? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/databricks-cli[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
+	<dev-python/google-api-python-client-2.67.0[${PYTHON_USEDEP}]
 	test? ( dev-python/google-api-python-client-stubs[${PYTHON_USEDEP}] )
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-cloud-iam[${PYTHON_USEDEP}]
 	dev-python/google-cloud-resource-manager[${PYTHON_USEDEP}]
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	release? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	<dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
+	release? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
 	release? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
-	release? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+	release? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mypy-0.992[${PYTHON_USEDEP}] )
+	<dev-python/networkx-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pip-24.0.0[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	test? ( <dev-python/pylint-3.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev-python/pyserde[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
 	dev-python/redshift-connector[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]
-	test? ( dev-python/twine[${PYTHON_USEDEP}] )
-	release? ( dev-python/twine[${PYTHON_USEDEP}] )
+	<dev-python/tox-5.0.0[${PYTHON_USEDEP}]
+	test? ( <dev-python/twine-5.0.0[${PYTHON_USEDEP}] )
+	release? ( <dev-python/twine-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-psycopg2[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	dev-python/virtualenv[${PYTHON_USEDEP}]"
+	<dev-python/virtualenv-21.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

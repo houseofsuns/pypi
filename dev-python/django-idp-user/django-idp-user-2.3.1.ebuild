@@ -29,23 +29,23 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/djangorestframework[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]
 	dev-python/faust-streaming[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	async? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	async? ( ~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}] )
 	async? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
-	async? ( dev-python/django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	async? ( ~dev-python/django-4.2.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.2.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/faker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-sugar-0.9.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.1.14[${PYTHON_USEDEP}] )
 	docs? ( dev-python/termynal[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/astunparse[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/astunparse-1.6.0[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/cssselect[${PYTHON_USEDEP}]
 	dev-python/fuzzyset2[${PYTHON_USEDEP}]
 	dev-python/hdrpy[${PYTHON_USEDEP}]
 	dev-python/influxdb[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.6.2[${PYTHON_USEDEP}]
 	dev-python/molotov[${PYTHON_USEDEP}]
 	dev-python/progressbar33[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.6.6[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/terminaltables[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/urwid[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.1[${PYTHON_USEDEP}]
+	>=dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]
+	~dev-python/urwid-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-1.5.1[${PYTHON_USEDEP}]
 	dev-python/Cython[${PYTHON_USEDEP}]
 	dev-python/pyvirtualdisplay[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

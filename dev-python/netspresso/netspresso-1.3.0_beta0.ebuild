@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-2.0.2[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.4[${PYTHON_USEDEP}]
+	~dev-python/requests-2.30.0[${PYTHON_USEDEP}]
+	~dev-python/email-validator-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev-python/netspresso-trainer[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]"
+	>=dev-python/PyGithub-2.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

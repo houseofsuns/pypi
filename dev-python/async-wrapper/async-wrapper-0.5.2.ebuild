@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="uvloop"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/sniffio[${PYTHON_USEDEP}]
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/sniffio-1.3.0[${PYTHON_USEDEP}]
+	uvloop? ( <dev-python/uvloop-0.18.0[${PYTHON_USEDEP}] )
+	<dev-python/exceptiongroup-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

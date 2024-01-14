@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="kerberos"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-2.0[${PYTHON_USEDEP}]
 	dev-python/pyspnego[${PYTHON_USEDEP}]
 	kerberos? ( dev-python/pyspnego[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

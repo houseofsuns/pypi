@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/junitparser[${PYTHON_USEDEP}]
 	dev-python/pyserde[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
-	dev-python/openapi-spec-validator[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.65[${PYTHON_USEDEP}]
+	~dev-python/humanfriendly-10.0[${PYTHON_USEDEP}]
+	~dev-python/openapi-spec-validator-0.5[${PYTHON_USEDEP}]
 	dev-python/prance[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

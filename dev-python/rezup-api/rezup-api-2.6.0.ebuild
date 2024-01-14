@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/distlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.1[${PYTHON_USEDEP}]
+	<dev-python/distlib-1.0[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]
-	dev-python/shellingham[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	<dev-python/virtualenv-21.0[${PYTHON_USEDEP}]
+	<dev-python/shellingham-2.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-1.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )

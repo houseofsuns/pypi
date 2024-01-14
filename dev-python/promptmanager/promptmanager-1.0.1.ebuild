@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/asgiref[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/asgiref-3.7.2[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/tzdata[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+	~dev-python/pip-23.2.1[${PYTHON_USEDEP}]
+	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	~dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
+	~dev-python/sqlparse-0.4.4[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
+	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.38.4[${PYTHON_USEDEP}]
 	dev-python/Requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]"
+	~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
+	~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

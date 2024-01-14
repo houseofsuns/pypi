@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/GitPython-3.1.24[${PYTHON_USEDEP}]
+	~dev-python/flask-2.0.2[${PYTHON_USEDEP}]
+	~dev-python/waitress-2.0.0[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	~dev-python/cryptography-36.0.1[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
 	dev-python/sshconf[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

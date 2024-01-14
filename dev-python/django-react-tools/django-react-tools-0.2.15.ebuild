@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	docs? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/coverage-4.4.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

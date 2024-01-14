@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp docs"
-DEPENDENCIES="aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev-python/webob[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]"
+DEPENDENCIES="aiohttp? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
+	<dev-python/webob-2.0[${PYTHON_USEDEP}]
+	<dev-python/wrapt-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

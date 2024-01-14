@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/markdown-callouts[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/mkdocs-autorefs[${PYTHON_USEDEP}]
-	dev-python/mkdocstrings[${PYTHON_USEDEP}]"
+	>=dev-python/markupsafe-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-autorefs-0.3.1[${PYTHON_USEDEP}]
+	>=dev-python/mkdocstrings-0.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

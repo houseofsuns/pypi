@@ -26,20 +26,20 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs scirpy"
 DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/airr[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-scm-6.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.4[${PYTHON_USEDEP}]
+	<=dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
 	dev-python/changeo[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.10.1[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	dev-python/leidenalg[${PYTHON_USEDEP}]
 	dev-python/polyleven[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.1.0[${PYTHON_USEDEP}]
 	dev-python/adjustText[${PYTHON_USEDEP}]
 	dev-python/distance[${PYTHON_USEDEP}]
 	dev-python/plotnine[${PYTHON_USEDEP}]
@@ -51,12 +51,12 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	docs? ( dev-python/presto[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	docs? ( dev-python/yamlordereddictloader[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/readthedocs-sphinx-ext[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/nbsphinx-0.9.2[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/sphinx-autodoc-typehints-1.25.2[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/readthedocs-sphinx-ext-2.2.5[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
 	scirpy? ( dev-python/scirpy[${PYTHON_USEDEP}] )
 	scirpy? ( dev-python/awkward[${PYTHON_USEDEP}] )
 	scirpy? ( dev-python/mudata[${PYTHON_USEDEP}] )"

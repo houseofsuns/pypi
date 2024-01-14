@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="arctic arcticdb docs full lint optional pystore test"
 DEPENDENCIES="dev-python/pastas[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.36[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	arctic? ( dev-python/arctic[${PYTHON_USEDEP}] )
 	arcticdb? ( dev-python/arcticdb[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/pastas[${PYTHON_USEDEP}]
 	optional? ( dev-python/contextily[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pyproj[${PYTHON_USEDEP}] )
 	optional? ( dev-python/adjustText[${PYTHON_USEDEP}] )
-	pystore? ( dev-python/fsspec[${PYTHON_USEDEP}] )
+	pystore? ( >=dev-python/fsspec-0.3.3[${PYTHON_USEDEP}] )
 	pystore? ( dev-python/python-snappy[${PYTHON_USEDEP}] )
 	pystore? ( dev-python/dask[${PYTHON_USEDEP}] )
 	test? ( dev-python/pastastore[${PYTHON_USEDEP}] )

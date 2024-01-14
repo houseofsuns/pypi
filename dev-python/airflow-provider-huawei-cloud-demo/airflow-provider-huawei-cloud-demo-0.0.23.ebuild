@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/huaweicloudsdkcdm[${PYTHON_USEDEP}]
 	dev-python/huaweicloudsdkdlf[${PYTHON_USEDEP}]
 	dev-python/huaweicloudsdkiam[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

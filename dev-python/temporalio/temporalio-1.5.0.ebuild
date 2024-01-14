@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="grpc opentelemetry"
-DEPENDENCIES="grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+DEPENDENCIES="grpc? ( <dev-python/grpcio-2.0.0[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/types-protobuf[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

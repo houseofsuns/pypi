@@ -27,16 +27,16 @@ IUSE="all azure catboost docker dvc dvc-azure dvc-gdrive dvc-gs dvc-hdfs dvc-oss
 DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/isort-5.10[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-8.2[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp-swagger[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2021.7.0[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-4.0[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/entrypoints[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
@@ -47,9 +47,9 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pylint-2.14[${PYTHON_USEDEP}] )
 	all? ( dev-python/pylint-pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pylint-plugin-utils[${PYTHON_USEDEP}] )
 	all? ( dev-python/flaky[${PYTHON_USEDEP}] )
@@ -94,7 +94,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	all? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	all? ( dev-python/knack[${PYTHON_USEDEP}] )
 	all? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyarrow-1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	all? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
@@ -143,7 +143,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	flyio? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
 	git? ( dev-python/pygit2[${PYTHON_USEDEP}] )
 	gs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	hdfs? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	hdfs? ( >=dev-python/pyarrow-1.0[${PYTHON_USEDEP}] )
 	hdfs? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	heroku? ( dev-python/docker[${PYTHON_USEDEP}] )
 	heroku? ( dev-python/fastapi[${PYTHON_USEDEP}] )
@@ -176,9 +176,9 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pylint-2.14[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint-pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint-plugin-utils[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flaky[${PYTHON_USEDEP}] )
@@ -223,7 +223,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	tests? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	tests? ( dev-python/knack[${PYTHON_USEDEP}] )
 	tests? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pyarrow-1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	tests? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )

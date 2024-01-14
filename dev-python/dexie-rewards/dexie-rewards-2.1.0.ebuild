@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/rich-click[${PYTHON_USEDEP}]
 	dev-python/aiomisc[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/based58[${PYTHON_USEDEP}]
 	dev-python/chia-blockchain[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]"
+	>=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

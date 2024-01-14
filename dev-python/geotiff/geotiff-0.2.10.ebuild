@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/tifffile[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tifffile-2021.7.4[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pyproj[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]

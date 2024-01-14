@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/evaluate[${PYTHON_USEDEP}]
 	dev-python/seqeval[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/better-apidoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/nbconvert-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/spacy[${PYTHON_USEDEP}] )

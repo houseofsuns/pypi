@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/fs-3.0.0[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]
-	dev-python/livereload[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
+	<dev-python/livereload-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/mypy-0.992[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
 	dev-python/tree-sitter-test[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

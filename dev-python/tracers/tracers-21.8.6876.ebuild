@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/aioboto3[${PYTHON_USEDEP}]
 	dev-python/aiogqlc[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]"
+	~dev-python/more-itertools-8.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

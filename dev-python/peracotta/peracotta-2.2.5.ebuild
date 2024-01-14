@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/commonmark[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/colorama-0.4[${PYTHON_USEDEP}]
+	~dev-python/commonmark-0.9[${PYTHON_USEDEP}]
+	>=dev-python/PyQt6-6.6[${PYTHON_USEDEP}]
 	dev-python/pytarallo[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	~dev-python/python-dotenv-0.17[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.7[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

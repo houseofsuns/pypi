@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/msal[${PYTHON_USEDEP}]
 	dev-python/msal-requests-auth[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]"
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-box-8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

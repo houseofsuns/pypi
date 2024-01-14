@@ -24,38 +24,38 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/build[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
+	>=dev-python/build-0.9[${PYTHON_USEDEP}]
 	dev-python/click-option-group[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/deepdiff-3.3[${PYTHON_USEDEP}]
+	>=dev-python/docker-5.0.2[${PYTHON_USEDEP}]
+	>=dev-python/fasteners-0.18[${PYTHON_USEDEP}]
 	dev-python/fileformats-extras[${PYTHON_USEDEP}]
 	dev-python/fileformats[${PYTHON_USEDEP}]
 	dev-python/flit-scm[${PYTHON_USEDEP}]
-	dev-python/hatch-vcs[${PYTHON_USEDEP}]
-	dev-python/hatchling[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/hatch-vcs-0.3.0[${PYTHON_USEDEP}]
+	>=dev-python/hatchling-1.12.2[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-1.4[${PYTHON_USEDEP}]
 	dev-python/neurodocker[${PYTHON_USEDEP}]
 	dev-python/pydra[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mock[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/docutils-0.10[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/furo-2022.2.14.1[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/mock-1.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-argparse-0.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/fileformats-medimage-extras[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-env-0.6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

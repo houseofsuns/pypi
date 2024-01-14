@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deployment tests"
-DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bleach-5.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.4[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/dash-pivottable[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.0[${PYTHON_USEDEP}]
 	dev-python/flask-caching[${PYTHON_USEDEP}]
 	dev-python/flask-talisman[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.0[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-0.16[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.8[${PYTHON_USEDEP}]
 	dev-python/webviz-core-components[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-2.0[${PYTHON_USEDEP}]
 	deployment? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	deployment? ( dev-python/azure-core[${PYTHON_USEDEP}] )
 	deployment? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
@@ -49,11 +49,11 @@ DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
 	deployment? ( dev-python/azure-mgmt-storage[${PYTHON_USEDEP}] )
 	deployment? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	tests? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dash[${PYTHON_USEDEP}] )
 	tests? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	tests? ( <=dev-python/pylint-2.13.9[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
 	tests? ( dev-python/selenium[${PYTHON_USEDEP}] )

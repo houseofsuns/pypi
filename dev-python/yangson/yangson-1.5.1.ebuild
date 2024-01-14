@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="yang-tools"
-DEPENDENCIES="dev-python/elementpath[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/elementpath-5.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	yang-tools? ( dev-python/pyang[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/voluptuous[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/voluptuous-0.14.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/tzdata[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	~dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/tornado-6.4[${PYTHON_USEDEP}]
+	~dev-python/tzlocal-5.2[${PYTHON_USEDEP}]
+	>=dev-python/tzdata-2021.1[${PYTHON_USEDEP}]
+	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	dev-python/platformio[${PYTHON_USEDEP}]
 	dev-python/esptool[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/esphome-dashboard[${PYTHON_USEDEP}]
 	dev-python/aioesphomeapi[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/kconfiglib[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]"
+	~dev-python/zeroconf-0.130.0[${PYTHON_USEDEP}]
+	~dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
+	~dev-python/kconfiglib-13.7.1[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
+	>=dev-python/argcomplete-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="sentry"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

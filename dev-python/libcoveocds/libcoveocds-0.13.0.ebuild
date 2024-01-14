@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="perf test web"
-DEPENDENCIES="dev-python/jsonref[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jsonref-1.0[${PYTHON_USEDEP}]
 	dev-python/libcove[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.18[${PYTHON_USEDEP}]
 	dev-python/ocdsextensionregistry[${PYTHON_USEDEP}]
 	dev-python/referencing[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/jsonref[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	web? ( dev-python/bleach[${PYTHON_USEDEP}] )
+	web? ( >=dev-python/bleach-6.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/django[${PYTHON_USEDEP}] )
 	web? ( dev-python/markdown-it-py[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

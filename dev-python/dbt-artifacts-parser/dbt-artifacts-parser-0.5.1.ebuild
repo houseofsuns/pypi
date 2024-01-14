@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pdoc3[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/flit-3.7.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/yapf-0.29.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyyaml-5.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pdoc3-0.9.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datamodel-code-generator[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/yapf[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pylint-2.12.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-21.9[${PYTHON_USEDEP}] )
+	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/yapf-0.29.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

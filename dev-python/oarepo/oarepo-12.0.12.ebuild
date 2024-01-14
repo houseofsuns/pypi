@@ -24,60 +24,60 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="s3 tests"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/amqp[${PYTHON_USEDEP}]
-	dev-python/aniso8601[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/asttokens[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/alembic-1.10.4[${PYTHON_USEDEP}]
+	~dev-python/amqp-5.2.0[${PYTHON_USEDEP}]
+	~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}]
+	~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	~dev-python/arrow-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/asttokens-2.4.1[${PYTHON_USEDEP}]
+	~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/babel-edtf[${PYTHON_USEDEP}]
 	dev-python/base32-lib[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	dev-python/billiard[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]
-	dev-python/cachelib[${PYTHON_USEDEP}]
+	~dev-python/bleach-6.1.0[${PYTHON_USEDEP}]
+	~dev-python/blinker-1.7.0[${PYTHON_USEDEP}]
+	~dev-python/cachelib-0.9.0[${PYTHON_USEDEP}]
 	dev-python/cairosvg[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
+	~dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]
 	dev-python/citeproc-py[${PYTHON_USEDEP}]
 	dev-python/citeproc-py-styles[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
-	dev-python/click-didyoumean[${PYTHON_USEDEP}]
-	dev-python/click-plugins[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	~dev-python/click-default-group-1.2.4[${PYTHON_USEDEP}]
+	~dev-python/click-didyoumean-0.3.0[${PYTHON_USEDEP}]
+	~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}]
 	dev-python/click-repl[${PYTHON_USEDEP}]
 	dev-python/counter-robots[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/cssselect2[${PYTHON_USEDEP}]
+	~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}]
+	~dev-python/cssselect2-0.7.0[${PYTHON_USEDEP}]
 	dev-python/datacite[${PYTHON_USEDEP}]
 	dev-python/dcxml[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/dictdiffer[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
+	~dev-python/decorator-5.1.1[${PYTHON_USEDEP}]
+	~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+	~dev-python/dictdiffer-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/dnspython-2.4.2[${PYTHON_USEDEP}]
 	dev-python/dojson[${PYTHON_USEDEP}]
 	dev-python/edtf[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
-	dev-python/executing[${PYTHON_USEDEP}]
+	~dev-python/email-validator-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/executing-2.0.1[${PYTHON_USEDEP}]
 	dev-python/faker[${PYTHON_USEDEP}]
-	dev-python/fastjsonschema[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	~dev-python/fastjsonschema-2.19.1[${PYTHON_USEDEP}]
+	~dev-python/flask-2.2.5[${PYTHON_USEDEP}]
 	dev-python/flask-admin[${PYTHON_USEDEP}]
 	dev-python/flask-alembic[${PYTHON_USEDEP}]
-	dev-python/flask-babel[${PYTHON_USEDEP}]
+	~dev-python/flask-babel-4.0.0[${PYTHON_USEDEP}]
 	dev-python/flask-breadcrumbs[${PYTHON_USEDEP}]
 	dev-python/flask-caching[${PYTHON_USEDEP}]
 	dev-python/flask-celeryext[${PYTHON_USEDEP}]
 	dev-python/flask-collect-invenio[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-4.0.0[${PYTHON_USEDEP}]
 	dev-python/flask-iiif[${PYTHON_USEDEP}]
 	dev-python/flask-kvsession-invenio[${PYTHON_USEDEP}]
 	dev-python/flask-limiter[${PYTHON_USEDEP}]
-	dev-python/flask-login[${PYTHON_USEDEP}]
+	~dev-python/flask-login-0.6.3[${PYTHON_USEDEP}]
 	dev-python/flask-mail[${PYTHON_USEDEP}]
 	dev-python/flask-menu[${PYTHON_USEDEP}]
 	dev-python/flask-oauthlib[${PYTHON_USEDEP}]
@@ -86,20 +86,20 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/flask-restful[${PYTHON_USEDEP}]
 	dev-python/flask-security-invenio[${PYTHON_USEDEP}]
 	dev-python/flask-shell-ipython[${PYTHON_USEDEP}]
-	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/flask-sqlalchemy-2.5.1[${PYTHON_USEDEP}]
 	dev-python/flask-talisman[${PYTHON_USEDEP}]
 	dev-python/flask-webpackext[${PYTHON_USEDEP}]
 	dev-python/flask-wtf[${PYTHON_USEDEP}]
-	dev-python/fs[${PYTHON_USEDEP}]
+	~dev-python/fs-2.4.16[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	~dev-python/future-0.18.3[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
-	dev-python/github3-py[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	~dev-python/github3-py-4.0.1[${PYTHON_USEDEP}]
+	~dev-python/html5lib-1.1[${PYTHON_USEDEP}]
+	~dev-python/humanize-4.9.0[${PYTHON_USEDEP}]
+	~dev-python/idna-3.6[${PYTHON_USEDEP}]
 	dev-python/idutils[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-4.13.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/infinity[${PYTHON_USEDEP}]
 	dev-python/intervals[${PYTHON_USEDEP}]
@@ -149,157 +149,157 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/invenio-users-resources[${PYTHON_USEDEP}]
 	dev-python/invenio-vocabularies[${PYTHON_USEDEP}]
 	dev-python/invenio-webhooks[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	~dev-python/ipython-8.18.1[${PYTHON_USEDEP}]
 	dev-python/isbnlib[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/jedi[${PYTHON_USEDEP}]
+	~dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/jedi-0.19.1[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsmin[${PYTHON_USEDEP}]
-	dev-python/jsonpatch[${PYTHON_USEDEP}]
-	dev-python/jsonpointer[${PYTHON_USEDEP}]
-	dev-python/jsonref[${PYTHON_USEDEP}]
+	~dev-python/jsmin-3.0.1[${PYTHON_USEDEP}]
+	~dev-python/jsonpatch-1.33[${PYTHON_USEDEP}]
+	~dev-python/jsonpointer-2.4[${PYTHON_USEDEP}]
+	~dev-python/jsonref-1.1.0[${PYTHON_USEDEP}]
 	dev-python/jsonresolver[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/jsonschema-specifications[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/jupyter-core[${PYTHON_USEDEP}]
-	dev-python/jupyterlab-pygments[${PYTHON_USEDEP}]
-	dev-python/kombu[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-specifications-2023.12.1[${PYTHON_USEDEP}]
+	~dev-python/jupyter-client-8.6.0[${PYTHON_USEDEP}]
+	~dev-python/jupyter-core-5.5.1[${PYTHON_USEDEP}]
+	~dev-python/jupyterlab-pygments-0.3.0[${PYTHON_USEDEP}]
+	~dev-python/kombu-5.3.4[${PYTHON_USEDEP}]
 	dev-python/limits[${PYTHON_USEDEP}]
 	dev-python/luqum[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/mako[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.4[${PYTHON_USEDEP}]
+	~dev-python/mako-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.20.1[${PYTHON_USEDEP}]
 	dev-python/marshmallow-oneofschema[${PYTHON_USEDEP}]
 	dev-python/marshmallow-utils[${PYTHON_USEDEP}]
-	dev-python/matplotlib-inline[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-inline-0.1.6[${PYTHON_USEDEP}]
 	dev-python/maxminddb[${PYTHON_USEDEP}]
 	dev-python/maxminddb-geolite2[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	~dev-python/mistune-3.0.2[${PYTHON_USEDEP}]
+	~dev-python/msgpack-1.0.7[${PYTHON_USEDEP}]
 	dev-python/nameparser[${PYTHON_USEDEP}]
-	dev-python/nbclient[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/node-semver[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
+	~dev-python/nbclient-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/nbconvert-7.13.1[${PYTHON_USEDEP}]
+	~dev-python/nbformat-5.9.2[${PYTHON_USEDEP}]
+	~dev-python/node-semver-0.1.1[${PYTHON_USEDEP}]
+	~dev-python/oauthlib-2.1.0[${PYTHON_USEDEP}]
 	dev-python/opensearch-dsl[${PYTHON_USEDEP}]
-	dev-python/opensearch-py[${PYTHON_USEDEP}]
-	dev-python/pandocfilters[${PYTHON_USEDEP}]
-	dev-python/parso[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/ply[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	~dev-python/opensearch-py-2.4.2[${PYTHON_USEDEP}]
+	~dev-python/pandocfilters-1.5.0[${PYTHON_USEDEP}]
+	~dev-python/parso-0.8.3[${PYTHON_USEDEP}]
+	~dev-python/passlib-1.7.4[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
+	~dev-python/platformdirs-4.1.0[${PYTHON_USEDEP}]
+	~dev-python/pluggy-0.13.1[${PYTHON_USEDEP}]
+	~dev-python/ply-3.11[${PYTHON_USEDEP}]
+	~dev-python/prompt-toolkit-3.0.43[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pure-eval[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
+	~dev-python/pure-eval-0.2.2[${PYTHON_USEDEP}]
+	~dev-python/pycountry-23.12.11[${PYTHON_USEDEP}]
+	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.17.2[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
+	~dev-python/pymysql-1.1.0[${PYTHON_USEDEP}]
 	dev-python/pynpm[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/python-geoip[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	~dev-python/python-slugify-8.0.1[${PYTHON_USEDEP}]
+	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
 	dev-python/pywebpack[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/referencing[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/rpds-py[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/pyzmq-25.1.2[${PYTHON_USEDEP}]
+	~dev-python/redis-5.0.1[${PYTHON_USEDEP}]
+	~dev-python/referencing-0.32.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/requests-oauthlib-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/rpds-py-0.16.2[${PYTHON_USEDEP}]
+	~dev-python/sentry-sdk-1.39.1[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.19.2[${PYTHON_USEDEP}]
 	dev-python/simplekv[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/soupsieve[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/soupsieve-2.5[${PYTHON_USEDEP}]
 	dev-python/speaklater[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.50[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-continuum[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
-	dev-python/stack-data[${PYTHON_USEDEP}]
-	dev-python/text-unidecode[${PYTHON_USEDEP}]
-	dev-python/tinycss2[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+	~dev-python/stack-data-0.6.3[${PYTHON_USEDEP}]
+	~dev-python/text-unidecode-1.3[${PYTHON_USEDEP}]
+	~dev-python/tinycss2-1.2.1[${PYTHON_USEDEP}]
+	~dev-python/tornado-6.4[${PYTHON_USEDEP}]
+	~dev-python/traitlets-5.14.0[${PYTHON_USEDEP}]
 	dev-python/types-python-dateutil[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
 	dev-python/types-urllib3[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
 	dev-python/ua-parser[${PYTHON_USEDEP}]
-	dev-python/uritemplate[${PYTHON_USEDEP}]
+	~dev-python/uritemplate-4.1.1[${PYTHON_USEDEP}]
 	dev-python/uritemplate-py[${PYTHON_USEDEP}]
-	dev-python/uritools[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/vine[${PYTHON_USEDEP}]
-	dev-python/wand[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/wcwidth[${PYTHON_USEDEP}]
+	~dev-python/uritools-4.0.2[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]
+	~dev-python/validators-0.22.0[${PYTHON_USEDEP}]
+	~dev-python/vine-5.1.0[${PYTHON_USEDEP}]
+	~dev-python/wand-0.6.13[${PYTHON_USEDEP}]
+	~dev-python/watchdog-2.2.1[${PYTHON_USEDEP}]
+	~dev-python/wcwidth-0.2.12[${PYTHON_USEDEP}]
 	dev-python/webargs[${PYTHON_USEDEP}]
-	dev-python/webencodings[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/wtforms[${PYTHON_USEDEP}]
+	~dev-python/webencodings-0.5.1[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}]
+	~dev-python/wtforms-2.3.3[${PYTHON_USEDEP}]
 	dev-python/wtforms-alchemy[${PYTHON_USEDEP}]
 	dev-python/wtforms-components[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
+	~dev-python/zipp-3.17.0[${PYTHON_USEDEP}]
 	dev-python/zipstream-ng[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
-	dev-python/ptyprocess[${PYTHON_USEDEP}]
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	s3? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	s3? ( dev-python/fsspec[${PYTHON_USEDEP}] )
+	~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
+	~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/greenlet-3.0.3[${PYTHON_USEDEP}]
+	~dev-python/pexpect-4.9.0[${PYTHON_USEDEP}]
+	~dev-python/ptyprocess-0.7.0[${PYTHON_USEDEP}]
+	s3? ( ~dev-python/boto3-1.34.10[${PYTHON_USEDEP}] )
+	s3? ( ~dev-python/botocore-1.34.10[${PYTHON_USEDEP}] )
+	s3? ( ~dev-python/fsspec-2023.12.2[${PYTHON_USEDEP}] )
 	s3? ( dev-python/invenio-s3[${PYTHON_USEDEP}] )
-	s3? ( dev-python/jmespath[${PYTHON_USEDEP}] )
+	s3? ( ~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}] )
 	s3? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	s3? ( dev-python/s3transfer[${PYTHON_USEDEP}] )
-	tests? ( dev-python/alabaster[${PYTHON_USEDEP}] )
-	tests? ( dev-python/build[${PYTHON_USEDEP}] )
+	s3? ( ~dev-python/s3transfer-0.10.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/coverage-5.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/docker-services-cli[${PYTHON_USEDEP}] )
-	tests? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	tests? ( dev-python/imagesize[${PYTHON_USEDEP}] )
-	tests? ( dev-python/iniconfig[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/py[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyproject-hooks[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/docutils-0.20.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/imagesize-1.4.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/py-1.11.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pycodestyle-2.11.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pyproject-hooks-1.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	tests? ( dev-python/snowballstemmer[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/selenium-3.141.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/snowballstemmer-2.2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/sphinxcontrib-applehelp-1.0.7[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/sphinxcontrib-devhelp-1.0.5[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/sphinxcontrib-htmlhelp-2.0.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/sphinxcontrib-qthelp-1.0.6[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/sphinxcontrib-serializinghtml-1.1.9[${PYTHON_USEDEP}] )
 	tests? ( dev-python/toml[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tomli[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tripoli[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pathspec[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pathspec-0.12.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

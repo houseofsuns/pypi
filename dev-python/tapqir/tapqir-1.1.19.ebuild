@@ -31,12 +31,12 @@ DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/ipyfilechooser[${PYTHON_USEDEP}]
 	dev-python/ipympl[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pykeops[${PYTHON_USEDEP}]
 	dev-python/pyro-ppl[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xvfb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nbsphinx-0.8.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
 	docs? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.8.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )

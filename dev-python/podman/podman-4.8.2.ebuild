@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="progress_bar"
-DEPENDENCIES="dev-python/pyxdg[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyxdg-0.26[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	progress_bar? ( dev-python/rich[${PYTHON_USEDEP}] )"
+	>=dev-python/tomli-1.2.3[${PYTHON_USEDEP}]
+	progress_bar? ( >=dev-python/rich-12.5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/stups-cli-support[${PYTHON_USEDEP}]
 	dev-python/stups-kio[${PYTHON_USEDEP}]
 	dev-python/zalando-aws-cli[${PYTHON_USEDEP}]
 	dev-python/zalando-kubectl[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+	<dev-python/click-8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

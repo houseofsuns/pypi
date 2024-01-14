@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all amqp fwutil mongodb postgres redis"
-DEPENDENCIES="dev-python/characteristic[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/characteristic-14.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-0.5[${PYTHON_USEDEP}]
 	dev-python/ndg-httpsclient[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pyasn1[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/characteristic[${PYTHON_USEDEP}]
 	dev-python/service-identity[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/Twisted[${PYTHON_USEDEP}]
-	dev-python/txrequests[${PYTHON_USEDEP}]
+	>=dev-python/txrequests-0.9.6[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	all? ( dev-python/txAMQP[${PYTHON_USEDEP}] )

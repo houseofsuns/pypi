@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc ldap"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/ical-library[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	>=dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
+	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2022.6[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/sqladmin[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev? ( dev-python/docker[${PYTHON_USEDEP}] )
-	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-4.2[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.20.0[${PYTHON_USEDEP}]
+	dev? ( <dev-python/docker-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/httpx-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-asyncio-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/requests-mock-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-tzlocal[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocstrings-1.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/termynal[${PYTHON_USEDEP}] )
-	ldap? ( dev-python/ldap3[${PYTHON_USEDEP}] )
+	ldap? ( <dev-python/ldap3-3.0.0[${PYTHON_USEDEP}] )
 	ldap? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hypercorn uvicorn"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	uvicorn? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	hypercorn? ( dev-python/hypercorn[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/httpx-1.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/websockets-11.0[${PYTHON_USEDEP}]
+	<dev-python/starlette-1.0[${PYTHON_USEDEP}]
+	<dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]
+	uvicorn? ( <dev-python/uvicorn-1.0[${PYTHON_USEDEP}] )
+	hypercorn? ( <dev-python/hypercorn-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

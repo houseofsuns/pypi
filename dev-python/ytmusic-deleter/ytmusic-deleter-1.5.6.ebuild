@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/ytmusicapi[${PYTHON_USEDEP}]
+	~dev-python/ytmusicapi-0.25.0[${PYTHON_USEDEP}]
 	dev-python/enlighten[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

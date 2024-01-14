@@ -25,31 +25,31 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ctx docs google py-test"
 DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/botocore-2.0.0[${PYTHON_USEDEP}]
 	ctx? ( dev-python/connectorx[${PYTHON_USEDEP}] )
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	<dev-python/elasticsearch-9.0.0[${PYTHON_USEDEP}]
 	google? ( dev-python/google[${PYTHON_USEDEP}] )
-	google? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	google? ( <dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/google-cloud[${PYTHON_USEDEP}]
 	google? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	google? ( dev-python/googletrans[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	docs? ( <dev-python/myst-parser-3.0.0[${PYTHON_USEDEP}] )
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/py-markdown-table[${PYTHON_USEDEP}]
-	py-test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	py-test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	py-test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	py-test? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-autoapi-4.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/statsmodels-0.15.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test typing"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.9.0[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
 	dev-python/pgtoolkit[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/psycopg[${PYTHON_USEDEP}]
+	>=dev-python/psycopg-3.1[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.5.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	>=dev-python/rich-11.0.0[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( dev-python/towncrier[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/sphinx-7.2.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/ansible-core[${PYTHON_USEDEP}] )
 	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	test? ( dev-python/patroni[${PYTHON_USEDEP}] )
@@ -63,9 +63,9 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	test? ( dev-python/prysk[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/tenacity[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tenacity-8.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/trustme[${PYTHON_USEDEP}] )
-	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	typing? ( >=dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )"

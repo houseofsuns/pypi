@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/acdh-django-charts[${PYTHON_USEDEP}]
-	dev-python/crispy-bootstrap5[${PYTHON_USEDEP}]
+	<dev-python/crispy-bootstrap5-1.0[${PYTHON_USEDEP}]
 	dev-python/django-autocomplete-light[${PYTHON_USEDEP}]
-	dev-python/django-crispy-forms[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	<dev-python/django-crispy-forms-3.0[${PYTHON_USEDEP}]
+	<dev-python/django-filter-24.0[${PYTHON_USEDEP}]
 	dev-python/django-super-deduper[${PYTHON_USEDEP}]
-	dev-python/django-tables2[${PYTHON_USEDEP}]
+	<dev-python/django-tables2-3.0[${PYTHON_USEDEP}]
 	dev-python/tablib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

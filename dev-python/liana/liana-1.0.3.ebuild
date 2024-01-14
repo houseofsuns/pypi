@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	full? ( dev-python/pydeseq2[${PYTHON_USEDEP}] )
 	dev-python/scanpy[${PYTHON_USEDEP}]
 	full? ( dev-python/squidpy[${PYTHON_USEDEP}] )
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
 	dev-python/drake[${PYTHON_USEDEP}]
 	dev-python/gradescope-utils[${PYTHON_USEDEP}]
 	dev-python/mpld3[${PYTHON_USEDEP}]
 	dev-python/nevergrad[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-25.0.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/stable-baselines3[${PYTHON_USEDEP}]
-	dev-python/timeout-decorator[${PYTHON_USEDEP}]
+	>=dev-python/timeout-decorator-0.4.1[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	dev-python/trimesh[${PYTHON_USEDEP}]"
+	>=dev-python/trimesh-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

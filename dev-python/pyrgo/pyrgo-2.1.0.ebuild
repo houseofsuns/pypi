@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/build[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/build-2.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/mypy-2.0[${PYTHON_USEDEP}]
 	dev-python/pdoc[${PYTHON_USEDEP}]
 	dev-python/pip-audit[${PYTHON_USEDEP}]
 	dev-python/pip-tools[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0[${PYTHON_USEDEP}]
 	dev-python/result[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0[${PYTHON_USEDEP}]
 	dev-python/vulture[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

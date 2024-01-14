@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev plotting service"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19.3[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/scanspec[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scanspec[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydata-sphinx-theme-0.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
@@ -47,8 +47,8 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/scipy-1.5.4[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}] )
 	service? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	service? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

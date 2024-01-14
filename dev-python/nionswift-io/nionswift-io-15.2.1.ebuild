@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/imageio[${PYTHON_USEDEP}]
 	dev-python/niondata[${PYTHON_USEDEP}]
 	dev-python/nionutils[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

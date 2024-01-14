@@ -28,24 +28,24 @@ DEPENDENCIES="dev-python/chex[${PYTHON_USEDEP}]
 	dev-python/flax[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-23.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-git-revision-date-plugin[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-material-9.4.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-mermaid2-plugin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mknotebooks[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.982[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-xdist-3.0.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	examples? ( dev-python/distrax[${PYTHON_USEDEP}] )
 	examples? ( dev-python/dm-haiku[${PYTHON_USEDEP}] )
 	examples? ( dev-python/gymnasium[${PYTHON_USEDEP}] )

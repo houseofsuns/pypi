@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dqc jax tensorflow torch"
 DEPENDENCIES="dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	dev-python/rdkit[${PYTHON_USEDEP}]
 	dqc? ( dev-python/dqc[${PYTHON_USEDEP}] )
 	dqc? ( dev-python/xitorch[${PYTHON_USEDEP}] )

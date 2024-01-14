@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/google-api-python-client-2.7[${PYTHON_USEDEP}]
+	~dev-python/google-auth-httplib2-0.1.0[${PYTHON_USEDEP}]
 	dev-python/shipyard-templates[${PYTHON_USEDEP}]
 	dev-python/shipyard-bp-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

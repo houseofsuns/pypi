@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mongodb mssql mysql oracle postgresql"
-DEPENDENCIES="dev-python/pycryptodome[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
 	dev-python/watchmen-auth[${PYTHON_USEDEP}]
 	dev-python/watchmen-storage[${PYTHON_USEDEP}]
 	mysql? ( dev-python/watchmen-storage-mysql[${PYTHON_USEDEP}] )

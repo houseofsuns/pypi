@@ -27,7 +27,7 @@ IUSE="dev extras"
 DEPENDENCIES="dev-python/argh[${PYTHON_USEDEP}]
 	dev-python/attr[${PYTHON_USEDEP}]
 	dev-python/related[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-1.0.0[${PYTHON_USEDEP}]
 	dev-python/concise[${PYTHON_USEDEP}]
 	dev-python/deepexplain[${PYTHON_USEDEP}]
 	dev-python/gin-config[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/argh[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.2[${PYTHON_USEDEP}]
 	dev-python/plotnine[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/pybigwig[${PYTHON_USEDEP}]
@@ -49,17 +49,17 @@ DEPENDENCIES="dev-python/argh[${PYTHON_USEDEP}]
 	dev-python/kipoi-utils[${PYTHON_USEDEP}]
 	dev-python/kipoiseq[${PYTHON_USEDEP}]
 	dev-python/papermill[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-client-6.1.2[${PYTHON_USEDEP}]
 	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-5.5.0[${PYTHON_USEDEP}]
 	dev-python/vdom[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/pprint[${PYTHON_USEDEP}]
 	dev-python/genomelake[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.3.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gdown[${PYTHON_USEDEP}] )
 	dev? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
 	extras? ( dev-python/comet-ml[${PYTHON_USEDEP}] )

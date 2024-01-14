@@ -38,11 +38,11 @@ DEPENDENCIES="dev-python/cloudshell-shell-core[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-storage[${PYTHON_USEDEP}]
 	dev-python/azure-storage[${PYTHON_USEDEP}]
 	dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/netaddr-0.7.19[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/msrest[${PYTHON_USEDEP}]
 	dev-python/msrestazure[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	~dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.25.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

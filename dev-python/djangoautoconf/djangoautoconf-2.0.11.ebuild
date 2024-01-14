@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/django-extensions[${PYTHON_USEDEP}]
 	dev-python/python-social-auth[${PYTHON_USEDEP}]
 	dev-python/django-settings[${PYTHON_USEDEP}]
 	dev-python/django-simplemenu-simplified[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	<dev-python/django-filter-2.0[${PYTHON_USEDEP}]
 	dev-python/django-ajax-selects[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/tarjan[${PYTHON_USEDEP}]
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/coverage-7.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

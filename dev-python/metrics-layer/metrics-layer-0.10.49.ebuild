@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all bigquery dbt postgres redshift snowflake"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/GitPython-3.1.20[${PYTHON_USEDEP}]
+	>=dev-python/sqlparse-0.4.1[${PYTHON_USEDEP}]
 	dev-python/PyPika[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	redshift? ( dev-python/redshift-connector[${PYTHON_USEDEP}] )
 	all? ( dev-python/redshift-connector[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	bigquery? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	snowflake? ( <dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}] )
+	bigquery? ( <dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
@@ -52,11 +52,11 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	all? ( dev-python/dbt-redshift[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/dbt-postgres[${PYTHON_USEDEP}] )
 	all? ( dev-python/dbt-postgres[${PYTHON_USEDEP}] )
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
+	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/metricflow-to-zenlytic[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

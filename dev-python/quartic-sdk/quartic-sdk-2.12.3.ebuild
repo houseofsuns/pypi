@@ -25,253 +25,253 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="complete"
 DEPENDENCIES="dev-python/aiogqlc[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiosignal[${PYTHON_USEDEP}]
-	dev-python/alabaster[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
+	~dev-python/aiosignal-1.3.1[${PYTHON_USEDEP}]
+	~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	dev-python/aloe[${PYTHON_USEDEP}]
 	dev-python/ansicolors[${PYTHON_USEDEP}]
 	dev-python/apeye[${PYTHON_USEDEP}]
 	dev-python/apeye-core[${PYTHON_USEDEP}]
-	dev-python/astroid[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	~dev-python/astroid-2.5.1[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
+	~dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	dev-python/autodocsumm[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/cachecontrol[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/cssutils[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	~dev-python/cachecontrol-0.12.6[${PYTHON_USEDEP}]
+	~dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
+	~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-2.0.12[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.3[${PYTHON_USEDEP}]
+	~dev-python/cloudpickle-1.6.0[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
+	~dev-python/cssutils-2.6.0[${PYTHON_USEDEP}]
+	~dev-python/decorator-5.1.1[${PYTHON_USEDEP}]
 	dev-python/dict2css[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
+	~dev-python/docutils-0.17.1[${PYTHON_USEDEP}]
 	dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/frozenlist[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	~dev-python/frozenlist-1.3.3[${PYTHON_USEDEP}]
+	~dev-python/future-0.18.3[${PYTHON_USEDEP}]
 	dev-python/gherkin-official[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/imagesize[${PYTHON_USEDEP}]
-	dev-python/iniconfig[${PYTHON_USEDEP}]
+	~dev-python/google-auth-2.15.0[${PYTHON_USEDEP}]
+	~dev-python/html5lib-1.1[${PYTHON_USEDEP}]
+	~dev-python/humanfriendly-10.0[${PYTHON_USEDEP}]
+	~dev-python/idna-3.4[${PYTHON_USEDEP}]
+	~dev-python/imagesize-1.4.1[${PYTHON_USEDEP}]
+	~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
-	dev-python/livereload[${PYTHON_USEDEP}]
-	dev-python/lockfile[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.3.1[${PYTHON_USEDEP}]
+	~dev-python/lazy-object-proxy-1.9.0[${PYTHON_USEDEP}]
+	~dev-python/livereload-2.6.3[${PYTHON_USEDEP}]
+	~dev-python/lockfile-0.12.2[${PYTHON_USEDEP}]
 	dev-python/lunr[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
+	~dev-python/msgpack-1.0.2[${PYTHON_USEDEP}]
+	~dev-python/multidict-6.0.3[${PYTHON_USEDEP}]
+	~dev-python/natsort-8.4.0[${PYTHON_USEDEP}]
+	~dev-python/nest-asyncio-1.5.4[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/nose[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml-clib[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/snowballstemmer[${PYTHON_USEDEP}]
-	dev-python/soupsieve[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinx-autoapi[${PYTHON_USEDEP}]
-	dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}]
+	~dev-python/nose-1.3.7[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
+	~dev-python/packaging-20.9[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.0.1[${PYTHON_USEDEP}]
+	~dev-python/platformdirs-3.7.0[${PYTHON_USEDEP}]
+	~dev-python/pluggy-0.13.1[${PYTHON_USEDEP}]
+	~dev-python/py-1.11.0[${PYTHON_USEDEP}]
+	~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
+	~dev-python/pyasn1-modules-0.2.8[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.15.1[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
+	~dev-python/pytest-6.2.2[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/pytz-2022.7.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	~dev-python/regex-2023.6.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	~dev-python/rsa-4.9[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.22[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-clib-0.2.7[${PYTHON_USEDEP}]
+	~dev-python/six-1.15.0[${PYTHON_USEDEP}]
+	~dev-python/snowballstemmer-2.2.0[${PYTHON_USEDEP}]
+	~dev-python/soupsieve-2.4.1[${PYTHON_USEDEP}]
+	~dev-python/sphinx-3.5.1[${PYTHON_USEDEP}]
+	~dev-python/sphinx-autoapi-1.7.0[${PYTHON_USEDEP}]
+	~dev-python/sphinx-autodoc-typehints-1.11.1[${PYTHON_USEDEP}]
 	dev-python/sphinx-jinja2-compat[${PYTHON_USEDEP}]
-	dev-python/sphinx-prompt[${PYTHON_USEDEP}]
-	dev-python/sphinx-tabs[${PYTHON_USEDEP}]
+	~dev-python/sphinx-prompt-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/sphinx-tabs-3.3.1[${PYTHON_USEDEP}]
 	dev-python/sphinx-toolbox[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/sphinxcontrib-applehelp-1.0.4[${PYTHON_USEDEP}]
+	~dev-python/sphinxcontrib-devhelp-1.0.2[${PYTHON_USEDEP}]
+	~dev-python/sphinxcontrib-htmlhelp-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}]
+	~dev-python/sphinxcontrib-qthelp-1.0.3[${PYTHON_USEDEP}]
+	~dev-python/sphinxcontrib-serializinghtml-1.1.5[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-io-gcs-filesystem[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tornado-6.1[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	dev-python/typed-ast[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/webencodings[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
+	~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.6[${PYTHON_USEDEP}]
+	~dev-python/validators-0.18.2[${PYTHON_USEDEP}]
+	~dev-python/webencodings-0.5.1[${PYTHON_USEDEP}]
+	~dev-python/wrapt-1.12.1[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.8.2[${PYTHON_USEDEP}]
 	complete? ( dev-python/aiogqlc[${PYTHON_USEDEP}] )
-	complete? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	complete? ( dev-python/aiosignal[${PYTHON_USEDEP}] )
-	complete? ( dev-python/alabaster[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/aiosignal-1.3.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}] )
 	complete? ( dev-python/aloe[${PYTHON_USEDEP}] )
 	complete? ( dev-python/ansicolors[${PYTHON_USEDEP}] )
 	complete? ( dev-python/apeye[${PYTHON_USEDEP}] )
 	complete? ( dev-python/apeye-core[${PYTHON_USEDEP}] )
-	complete? ( dev-python/astroid[${PYTHON_USEDEP}] )
-	complete? ( dev-python/async-timeout[${PYTHON_USEDEP}] )
-	complete? ( dev-python/attrs[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/astroid-2.5.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/attrs-22.2.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	complete? ( dev-python/babel[${PYTHON_USEDEP}] )
-	complete? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	complete? ( dev-python/cachecontrol[${PYTHON_USEDEP}] )
-	complete? ( dev-python/cachetools[${PYTHON_USEDEP}] )
-	complete? ( dev-python/certifi[${PYTHON_USEDEP}] )
-	complete? ( dev-python/charset-normalizer[${PYTHON_USEDEP}] )
-	complete? ( dev-python/click[${PYTHON_USEDEP}] )
-	complete? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	complete? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	complete? ( dev-python/coloredlogs[${PYTHON_USEDEP}] )
-	complete? ( dev-python/cssutils[${PYTHON_USEDEP}] )
-	complete? ( dev-python/decorator[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/cachecontrol-0.12.6[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/cachetools-5.2.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/charset-normalizer-2.0.12[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/click-8.0.3[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/cloudpickle-1.6.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/colorama-0.4.6[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/cssutils-2.6.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/decorator-5.1.1[${PYTHON_USEDEP}] )
 	complete? ( dev-python/dict2css[${PYTHON_USEDEP}] )
-	complete? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
 	complete? ( dev-python/domdf-python-tools[${PYTHON_USEDEP}] )
-	complete? ( dev-python/frozenlist[${PYTHON_USEDEP}] )
-	complete? ( dev-python/future[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/frozenlist-1.3.3[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/future-0.18.3[${PYTHON_USEDEP}] )
 	complete? ( dev-python/gherkin-official[${PYTHON_USEDEP}] )
-	complete? ( dev-python/google-auth[${PYTHON_USEDEP}] )
-	complete? ( dev-python/html5lib[${PYTHON_USEDEP}] )
-	complete? ( dev-python/humanfriendly[${PYTHON_USEDEP}] )
-	complete? ( dev-python/idna[${PYTHON_USEDEP}] )
-	complete? ( dev-python/imagesize[${PYTHON_USEDEP}] )
-	complete? ( dev-python/iniconfig[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/google-auth-2.15.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/html5lib-1.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/humanfriendly-10.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/idna-3.4[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/imagesize-1.4.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	complete? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	complete? ( dev-python/lazy-object-proxy[${PYTHON_USEDEP}] )
-	complete? ( dev-python/livereload[${PYTHON_USEDEP}] )
-	complete? ( dev-python/lockfile[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/joblib-1.3.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/lazy-object-proxy-1.9.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/livereload-2.6.3[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/lockfile-0.12.2[${PYTHON_USEDEP}] )
 	complete? ( dev-python/lunr[${PYTHON_USEDEP}] )
-	complete? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
-	complete? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	complete? ( dev-python/multidict[${PYTHON_USEDEP}] )
-	complete? ( dev-python/natsort[${PYTHON_USEDEP}] )
-	complete? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/msgpack-1.0.2[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/multidict-6.0.3[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/natsort-8.4.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/nest-asyncio-1.5.4[${PYTHON_USEDEP}] )
 	complete? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	complete? ( dev-python/nose[${PYTHON_USEDEP}] )
-	complete? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	complete? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	complete? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	complete? ( dev-python/py[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pyasn1[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pyasn1-modules[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	complete? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	complete? ( dev-python/regex[${PYTHON_USEDEP}] )
-	complete? ( dev-python/requests[${PYTHON_USEDEP}] )
-	complete? ( dev-python/rsa[${PYTHON_USEDEP}] )
-	complete? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	complete? ( dev-python/ruamel-yaml-clib[${PYTHON_USEDEP}] )
-	complete? ( dev-python/six[${PYTHON_USEDEP}] )
-	complete? ( dev-python/snowballstemmer[${PYTHON_USEDEP}] )
-	complete? ( dev-python/soupsieve[${PYTHON_USEDEP}] )
-	complete? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	complete? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	complete? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/numpy-1.22.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/packaging-20.9[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/pandas-1.3.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/pillow-9.0.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/platformdirs-3.7.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/pluggy-0.13.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/py-1.11.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/pyasn1-modules-0.2.8[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/pygments-2.15.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/pytz-2022.7.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/regex-2023.6.3[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/rsa-4.9[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/ruamel-yaml-0.17.22[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/ruamel-yaml-clib-0.2.7[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/six-1.15.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/snowballstemmer-2.2.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/soupsieve-2.4.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/sphinx-3.5.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/sphinx-autoapi-1.7.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/sphinx-autodoc-typehints-1.11.1[${PYTHON_USEDEP}] )
 	complete? ( dev-python/sphinx-jinja2-compat[${PYTHON_USEDEP}] )
-	complete? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )
-	complete? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/sphinx-prompt-1.1.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/sphinx-tabs-3.3.1[${PYTHON_USEDEP}] )
 	complete? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
-	complete? ( dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}] )
-	complete? ( dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}] )
-	complete? ( dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}] )
-	complete? ( dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}] )
-	complete? ( dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}] )
-	complete? ( dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}] )
-	complete? ( dev-python/tabulate[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/sphinxcontrib-applehelp-1.0.4[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/sphinxcontrib-devhelp-1.0.2[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/sphinxcontrib-htmlhelp-2.0.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/sphinxcontrib-qthelp-1.0.3[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/sphinxcontrib-serializinghtml-1.1.5[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/tensorflow-io-gcs-filesystem[${PYTHON_USEDEP}] )
 	complete? ( dev-python/toml[${PYTHON_USEDEP}] )
-	complete? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	complete? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/tornado-6.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/typed-ast[${PYTHON_USEDEP}] )
-	complete? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	complete? ( dev-python/unidecode[${PYTHON_USEDEP}] )
-	complete? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	complete? ( dev-python/validators[${PYTHON_USEDEP}] )
-	complete? ( dev-python/webencodings[${PYTHON_USEDEP}] )
-	complete? ( dev-python/wrapt[${PYTHON_USEDEP}] )
-	complete? ( dev-python/yarl[${PYTHON_USEDEP}] )
-	complete? ( dev-python/absl-py[${PYTHON_USEDEP}] )
-	complete? ( dev-python/astunparse[${PYTHON_USEDEP}] )
-	complete? ( dev-python/cycler[${PYTHON_USEDEP}] )
-	complete? ( dev-python/flatbuffers[${PYTHON_USEDEP}] )
-	complete? ( dev-python/gast[${PYTHON_USEDEP}] )
-	complete? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
-	complete? ( dev-python/google-pasta[${PYTHON_USEDEP}] )
-	complete? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/urllib3-1.26.6[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/validators-0.18.2[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/webencodings-0.5.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/wrapt-1.12.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/yarl-1.8.2[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/absl-py-1.4.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/astunparse-1.6.3[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/cycler-0.11.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/flatbuffers-2.0.7[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/gast-0.4.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/google-auth-oauthlib-1.0.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/google-pasta-0.2.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/grpcio-1.56.2[${PYTHON_USEDEP}] )
 	complete? ( dev-python/h2o[${PYTHON_USEDEP}] )
-	complete? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	complete? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/h5py-3.9.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/keras[${PYTHON_USEDEP}] )
 	complete? ( dev-python/keras-preprocessing[${PYTHON_USEDEP}] )
-	complete? ( dev-python/kiwisolver[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/kiwisolver-1.4.4[${PYTHON_USEDEP}] )
 	complete? ( dev-python/libclang[${PYTHON_USEDEP}] )
 	complete? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	complete? ( dev-python/llvmlite[${PYTHON_USEDEP}] )
-	complete? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	complete? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/markdown-3.4.4[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}] )
 	complete? ( dev-python/numba[${PYTHON_USEDEP}] )
-	complete? ( dev-python/numexpr[${PYTHON_USEDEP}] )
-	complete? ( dev-python/oauthlib[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/numexpr-2.7.2[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/oauthlib-3.2.2[${PYTHON_USEDEP}] )
 	complete? ( dev-python/onnx[${PYTHON_USEDEP}] )
-	complete? ( dev-python/opt-einsum[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/opt-einsum-3.3.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pamela[${PYTHON_USEDEP}] )
-	complete? ( dev-python/patsy[${PYTHON_USEDEP}] )
-	complete? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/patsy-0.5.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/plotly-4.14.3[${PYTHON_USEDEP}] )
 	complete? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	complete? ( dev-python/py4j[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pyaml[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pycurl[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/pyaml-20.4.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/pycurl-7.43.0.6[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pynndescent[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pypmml[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pytorch-ignite[${PYTHON_USEDEP}] )
-	complete? ( dev-python/requests-oauthlib[${PYTHON_USEDEP}] )
-	complete? ( dev-python/retrying[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/requests-oauthlib-1.3.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/retrying-1.3.4[${PYTHON_USEDEP}] )
 	complete? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	complete? ( dev-python/scikit-optimize[${PYTHON_USEDEP}] )
-	complete? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	complete? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	complete? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/scipy-1.7.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/seaborn-0.11.1[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/statsmodels-0.12.2[${PYTHON_USEDEP}] )
 	complete? ( dev-python/tbb[${PYTHON_USEDEP}] )
 	complete? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	complete? ( dev-python/tensorboard-data-server[${PYTHON_USEDEP}] )
 	complete? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	complete? ( dev-python/tensorflow-estimator[${PYTHON_USEDEP}] )
-	complete? ( dev-python/termcolor[${PYTHON_USEDEP}] )
-	complete? ( dev-python/threadpoolctl[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/termcolor-2.3.0[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/threadpoolctl-3.2.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
-	complete? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	complete? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/werkzeug-2.3.6[${PYTHON_USEDEP}] )
+	complete? ( ~dev-python/wheel-0.41.1[${PYTHON_USEDEP}] )
 	complete? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	complete? ( dev-python/zipp[${PYTHON_USEDEP}] )"
+	complete? ( ~dev-python/zipp-3.16.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

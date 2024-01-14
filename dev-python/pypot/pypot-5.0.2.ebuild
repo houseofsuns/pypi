@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="camera doc remote-robot tests zmq-server"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	>dev-python/pyserial-2.6[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/ikpy[${PYTHON_USEDEP}]

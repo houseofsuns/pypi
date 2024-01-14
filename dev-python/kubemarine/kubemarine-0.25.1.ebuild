@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ansible mypy"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
+	~dev-python/deepmerge-1.1[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.22[${PYTHON_USEDEP}]
 	dev-python/pygelf[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
+	~dev-python/deepdiff-6.7[${PYTHON_USEDEP}]
+	~dev-python/ordered-set-4.1[${PYTHON_USEDEP}]
+	~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}]
+	~dev-python/paramiko-3.3[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.17[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.7[${PYTHON_USEDEP}]
+	~dev-python/pathvalidate-3.2[${PYTHON_USEDEP}]
 	ansible? ( dev-python/ansible[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	mypy? ( ~dev-python/mypy-1.7[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-invoke[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-toml[${PYTHON_USEDEP}] )

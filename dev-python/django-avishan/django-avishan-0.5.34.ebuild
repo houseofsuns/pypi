@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/colour[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bcrypt-3.1.7[${PYTHON_USEDEP}]
+	>=dev-python/colour-0.1.5[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-anymail[${PYTHON_USEDEP}]
-	dev-python/django-cors-headers[${PYTHON_USEDEP}]
+	>=dev-python/django-cors-headers-3.2.1[${PYTHON_USEDEP}]
 	dev-python/django-crum[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	>=dev-python/django-filter-2.3.0[${PYTHON_USEDEP}]
 	dev-python/django-money[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	>=dev-python/Faker-4.0.3[${PYTHON_USEDEP}]
 	dev-python/Khayyam[${PYTHON_USEDEP}]
 	dev-python/haversine[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.1.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/schemathesis[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

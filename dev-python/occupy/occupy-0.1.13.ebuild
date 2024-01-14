@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev pyqt5 testing"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/mrcfile[${PYTHON_USEDEP}]
+	>=dev-python/mrcfile-1.4.3[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jedi[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jedi-0.18.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )

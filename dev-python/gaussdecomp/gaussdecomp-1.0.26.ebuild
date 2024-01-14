@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/dlnpyutils[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-3.0.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-astropy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )

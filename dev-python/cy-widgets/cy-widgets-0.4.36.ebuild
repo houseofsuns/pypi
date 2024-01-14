@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/ccxt[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.2[${PYTHON_USEDEP}]
 	dev-python/pyecharts[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

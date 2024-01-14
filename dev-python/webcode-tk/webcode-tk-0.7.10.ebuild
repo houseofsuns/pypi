@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/file-clerk[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/MechanicalSoup[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/MechanicalSoup-2.0.0[${PYTHON_USEDEP}]
 	dev-python/py-readability-metrics[${PYTHON_USEDEP}]
 	dev-python/textatistic[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]"

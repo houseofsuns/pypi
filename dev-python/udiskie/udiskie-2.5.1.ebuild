@@ -27,6 +27,6 @@ IUSE="password-cache"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/PyGObject[${PYTHON_USEDEP}]
-	password-cache? ( dev-python/keyutils[${PYTHON_USEDEP}] )"
+	password-cache? ( ~dev-python/keyutils-0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

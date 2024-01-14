@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/adc-streaming[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	dev-python/hop-client[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}]
 	dev-python/safe-netrc[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

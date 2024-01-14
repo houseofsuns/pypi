@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
+	>=dev-python/future-0.15.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

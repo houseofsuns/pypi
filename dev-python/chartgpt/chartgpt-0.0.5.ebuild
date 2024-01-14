@@ -25,31 +25,31 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/plotly-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/typer-cli[${PYTHON_USEDEP}] )
 	doc? ( dev-python/typer[${PYTHON_USEDEP}] )
-	test? ( dev-python/anyio[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	test? ( <dev-python/anyio-4.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/httpx-0.24.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-0.982[${PYTHON_USEDEP}] )
+	test? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-orjson[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-ujson[${PYTHON_USEDEP}] )
-	test? ( dev-python/ujson[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/ujson-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

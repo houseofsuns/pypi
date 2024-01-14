@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/py7zr[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
-	dev-python/send2trash[${PYTHON_USEDEP}]"
+	>=dev-python/py-cpuinfo-9.0.0[${PYTHON_USEDEP}]
+	>=dev-python/send2trash-1.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

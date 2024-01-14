@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cloudpickle-0.2.2[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/multipledispatch[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/multipledispatch-0.4.9[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.18.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	dev-python/sparse[${PYTHON_USEDEP}]

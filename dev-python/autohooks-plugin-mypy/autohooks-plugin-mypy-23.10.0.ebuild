@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/autohooks[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]"
+	>=dev-python/mypy-0.910[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

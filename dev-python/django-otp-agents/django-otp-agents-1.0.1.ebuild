@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django-otp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-otp-1.0.1[${PYTHON_USEDEP}]
 	dev-python/django-agent-trust[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/alembic-1.9.4[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.2.1[${PYTHON_USEDEP}]
+	~dev-python/black-23.1.0[${PYTHON_USEDEP}]
+	~dev-python/flake8-6.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]"
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

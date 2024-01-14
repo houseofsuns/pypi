@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/EdgeGPT[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-apscheduler[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-guild-patch[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
 	all? ( dev-python/nonebot-plugin-htmlrender[${PYTHON_USEDEP}] )
 	image? ( dev-python/nonebot-plugin-htmlrender[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

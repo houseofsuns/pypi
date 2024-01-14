@@ -27,7 +27,7 @@ IUSE="all"
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/matplotx[${PYTHON_USEDEP}]
 	dev-python/npx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	all? ( dev-python/meshzoo[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyvista[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

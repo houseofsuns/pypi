@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/trove-classifiers[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/pip-22.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/setuptools-55.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/wheel-1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/trove-classifiers-2021.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/GitPython-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

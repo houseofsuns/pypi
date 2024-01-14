@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/WebOb[${PYTHON_USEDEP}]
 	dev-python/simplegeneric[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]"
+	>=dev-python/netaddr-0.7.12[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

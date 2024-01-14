@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
 	dev-python/orca[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	<=dev-python/openpyxl-3.1[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

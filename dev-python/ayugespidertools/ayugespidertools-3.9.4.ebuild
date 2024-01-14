@@ -25,30 +25,30 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all database"
 DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Scrapy[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]
+	<dev-python/retrying-2.0.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/DBUtils[${PYTHON_USEDEP}]
+	<dev-python/DBUtils-4.0.0[${PYTHON_USEDEP}]
 	dev-python/itemadapter[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/aiomysql[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/kafka-python[${PYTHON_USEDEP}]
+	<dev-python/pika-1.4.0[${PYTHON_USEDEP}]
+	~dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	<dev-python/pymongo-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/mmh3[${PYTHON_USEDEP}] )
-	all? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-hcl2[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyyaml-6.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	database? ( dev-python/psycopg[${PYTHON_USEDEP}] )
+	all? ( <dev-python/numpy-1.27.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/psycopg-4.0.0[${PYTHON_USEDEP}] )
+	database? ( <dev-python/psycopg-4.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg-binary[${PYTHON_USEDEP}] )
 	database? ( dev-python/psycopg-binary[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg-pool[${PYTHON_USEDEP}] )

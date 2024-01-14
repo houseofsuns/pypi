@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc lint optional test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/flopy[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupytext[${PYTHON_USEDEP}] )
@@ -34,8 +34,8 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	doc? ( dev-python/rtds-action[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/cffconvert[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -49,12 +49,12 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	optional? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pyproj[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pyshp[${PYTHON_USEDEP}] )
-	optional? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/python-dateutil-2.4.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	optional? ( dev-python/rasterio[${PYTHON_USEDEP}] )
 	optional? ( dev-python/rasterstats[${PYTHON_USEDEP}] )
 	optional? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	optional? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/shapely-1.8[${PYTHON_USEDEP}] )
 	optional? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	optional? ( dev-python/xmipy[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pymetis[${PYTHON_USEDEP}] )

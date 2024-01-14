@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="complete csv database docs snt test"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>dev-python/h5py-3.7.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
 	dev-python/IPython[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2022.3.0[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/pint-xarray[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/python-forge[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.3.0[${PYTHON_USEDEP}]
 	dev-python/rdflib[${PYTHON_USEDEP}]
-	complete? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	complete? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
@@ -68,7 +68,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	docs? ( dev-python/python-gitlab[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -86,7 +86,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	snt? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	snt? ( dev-python/python-gitlab[${PYTHON_USEDEP}] )
 	snt? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/xmltodict[${PYTHON_USEDEP}] )

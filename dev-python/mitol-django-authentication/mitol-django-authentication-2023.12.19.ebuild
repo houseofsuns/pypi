@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/django-anymail[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/django-3.0[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.0.0[${PYTHON_USEDEP}]
 	dev-python/djoser[${PYTHON_USEDEP}]
 	dev-python/mitol-django-common[${PYTHON_USEDEP}]
 	dev-python/mitol-django-mail[${PYTHON_USEDEP}]

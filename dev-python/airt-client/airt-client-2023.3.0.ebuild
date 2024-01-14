@@ -25,27 +25,27 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/fastcore[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/humanize-3.12.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/qrcode-7.3.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev? ( dev-python/awscli[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-mgmt-storage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/boto3-1.26.81[${PYTHON_USEDEP}] )
 	dev? ( dev-python/detect-secrets[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mysqlclient-2.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbdev-mkdocs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/openai[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/semgrep[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlmodel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )

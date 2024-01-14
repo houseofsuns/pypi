@@ -29,11 +29,11 @@ DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow_macos[${PYTHON_USEDEP}]
 	dev-python/tensorflow_recommenders[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.3[${PYTHON_USEDEP}]
 	kfp? ( dev-python/kfp[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	scann? ( dev-python/scann[${PYTHON_USEDEP}] )
-	kfp? ( dev-python/fsspec[${PYTHON_USEDEP}] )"
+	kfp? ( ~dev-python/fsspec-2023.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

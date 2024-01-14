@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dask-2022.1.0[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/jupyter[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/pmdarima[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/prophet[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]

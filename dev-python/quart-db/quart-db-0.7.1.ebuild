@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs erdiagram sqlite"
-DEPENDENCIES="sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+DEPENDENCIES="sqlite? ( >=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}] )
 	dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/buildpg[${PYTHON_USEDEP}]
 	erdiagram? ( dev-python/eralchemy2[${PYTHON_USEDEP}] )

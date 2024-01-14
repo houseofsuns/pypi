@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	~dev-python/emoji-0.5.1[${PYTHON_USEDEP}]
 	dev-python/Unidecode[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/setuptools-40.2.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

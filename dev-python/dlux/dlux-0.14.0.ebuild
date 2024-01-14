@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
 	dev? ( dev-python/mkdocs-simple-plugin[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-contrib-nbextensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/notebook-6.4.12[${PYTHON_USEDEP}] )
 	extras? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	extras? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	extras? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )

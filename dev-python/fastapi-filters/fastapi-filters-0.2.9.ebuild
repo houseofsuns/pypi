@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all sqlalchemy tortoise-orm"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	sqlalchemy? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	tortoise-orm? ( dev-python/tortoise-orm[${PYTHON_USEDEP}] )
 	all? ( dev-python/tortoise-orm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="complexity dev docs linting lxml tests typing"
 DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
 	dev-python/pygeoif[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	complexity? ( dev-python/lizard[${PYTHON_USEDEP}] )
 	complexity? ( dev-python/radon[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastkml[${PYTHON_USEDEP}] )

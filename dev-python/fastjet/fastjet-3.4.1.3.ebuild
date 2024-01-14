@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dask dev docs test"
 DEPENDENCIES="dev-python/awkward[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
 	dev-python/vector[${PYTHON_USEDEP}]
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( >=dev-python/dask-2023.4.0[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask-awkward[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/recommonmark-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/uproot[${PYTHON_USEDEP}] )
-	test? ( dev-python/dask[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/dask-2023.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/dask-awkward[${PYTHON_USEDEP}] )
 	test? ( dev-python/distributed[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

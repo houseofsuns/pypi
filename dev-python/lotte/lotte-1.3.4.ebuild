@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/yattag[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
+	>=dev-python/yattag-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/rapidfuzz-1.3.3[${PYTHON_USEDEP}]
 	dev-python/datasketch[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/multipledispatch[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/multipledispatch-1.0.0[${PYTHON_USEDEP}]
 	dev-python/OpenFisca-France[${PYTHON_USEDEP}]
 	dev-python/openFisca-survey-manager[${PYTHON_USEDEP}]
-	test? ( dev-python/click[${PYTHON_USEDEP}] )
-	test? ( dev-python/autopep8[${PYTHON_USEDEP}] )
+	test? ( <dev-python/click-9.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/autopep8-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	test? ( dev-python/dtale[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/ipdb-1.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/ipython-8.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mypy-1.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/toolz[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/scipy-2.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/toolz-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

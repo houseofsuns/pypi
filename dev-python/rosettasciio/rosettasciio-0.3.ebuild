@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all blockfile dev doc eds-stream hdf5 image mrcz scalebar_export speed tests tiff usid zspy"
-DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dask-2021.3.1[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]
+	<dev-python/python-box-7.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	all? ( dev-python/rosettasciio[${PYTHON_USEDEP}] )
 	all? ( dev-python/rosettasciio[${PYTHON_USEDEP}] )
@@ -46,27 +46,27 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev? ( dev-python/rosettasciio[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pooch[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/pydata-sphinx-theme-0.13[${PYTHON_USEDEP}] )
 	doc? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-favicon[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-towncrier[${PYTHON_USEDEP}] )
 	doc? ( dev-python/towncrier[${PYTHON_USEDEP}] )
 	eds-stream? ( dev-python/sparse[${PYTHON_USEDEP}] )
-	hdf5? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	image? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	mrcz? ( dev-python/blosc[${PYTHON_USEDEP}] )
+	hdf5? ( >=dev-python/h5py-2.3[${PYTHON_USEDEP}] )
+	image? ( >=dev-python/imageio-2.16[${PYTHON_USEDEP}] )
+	mrcz? ( >=dev-python/blosc-1.5[${PYTHON_USEDEP}] )
 	mrcz? ( dev-python/mrcz[${PYTHON_USEDEP}] )
 	scalebar_export? ( dev-python/matplotlib-scalebar[${PYTHON_USEDEP}] )
-	scalebar_export? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	scalebar_export? ( >=dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )
 	speed? ( dev-python/numba[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pooch[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	tiff? ( dev-python/tifffile[${PYTHON_USEDEP}] )
+	tiff? ( >=dev-python/tifffile-2020.2.16[${PYTHON_USEDEP}] )
 	tiff? ( dev-python/imagecodecs[${PYTHON_USEDEP}] )
 	usid? ( dev-python/pyUSID[${PYTHON_USEDEP}] )
 	usid? ( dev-python/sidpy[${PYTHON_USEDEP}] )

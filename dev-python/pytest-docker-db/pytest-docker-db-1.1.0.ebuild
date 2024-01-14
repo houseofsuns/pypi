@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pytest-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/docker-3.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

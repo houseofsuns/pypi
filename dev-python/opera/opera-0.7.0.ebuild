@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ansible openstack tests"
 DEPENDENCIES="dev-python/ansible-core[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/shtab[${PYTHON_USEDEP}]
 	dev-python/opera-tosca-parser[${PYTHON_USEDEP}]
 	ansible? ( dev-python/ansible[${PYTHON_USEDEP}] )
-	openstack? ( dev-python/openstacksdk[${PYTHON_USEDEP}] )
-	tests? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	tests? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	openstack? ( >=dev-python/openstacksdk-0.99.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/wheel-0.37.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pylint-2.13.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/selinux[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

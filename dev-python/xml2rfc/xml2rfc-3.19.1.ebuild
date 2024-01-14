@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pdf"
-DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/platformdirs-3.6.0[${PYTHON_USEDEP}]
 	dev-python/configargparse[${PYTHON_USEDEP}]
-	dev-python/google-i18n-address[${PYTHON_USEDEP}]
-	dev-python/intervaltree[${PYTHON_USEDEP}]
+	>=dev-python/google-i18n-address-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/intervaltree-3.1.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/wcwidth[${PYTHON_USEDEP}]
-	pdf? ( dev-python/weasyprint[${PYTHON_USEDEP}] )"
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pycountry-22.3.5[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.5.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-24.2.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/wcwidth-0.2.5[${PYTHON_USEDEP}]
+	pdf? ( >=dev-python/weasyprint-53.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

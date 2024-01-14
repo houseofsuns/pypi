@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/arrow-0.12.1[${PYTHON_USEDEP}]
 	dev-python/invpy-libs[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/pyzmail36[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-cache-0.4.13[${PYTHON_USEDEP}]
 	dev-python/rstcheck[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.23[${PYTHON_USEDEP}]
 	dev-python/validators[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

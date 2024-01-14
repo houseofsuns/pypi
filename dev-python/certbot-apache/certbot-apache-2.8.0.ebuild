@@ -27,7 +27,7 @@ IUSE="dev test"
 DEPENDENCIES="dev-python/acme[${PYTHON_USEDEP}]
 	dev-python/certbot[${PYTHON_USEDEP}]
 	dev-python/python-augeas[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-41.6.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/apacheconfig[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

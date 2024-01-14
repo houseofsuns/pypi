@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-8.1.0[${PYTHON_USEDEP}]
 	dev-python/tk-html-widgets[${PYTHON_USEDEP}]
 	dev-python/PythonDebugTools[${PYTHON_USEDEP}]
 	dev-python/BaseExtensions[${PYTHON_USEDEP}]"

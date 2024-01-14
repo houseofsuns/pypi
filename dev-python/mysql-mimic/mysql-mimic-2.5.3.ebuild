@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev krb5"
-DEPENDENCIES="dev-python/sqlglot[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlglot-18.6.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )

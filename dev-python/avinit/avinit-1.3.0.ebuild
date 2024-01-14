@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="png"
 DEPENDENCIES="png? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
-	png? ( dev-python/cairocffi[${PYTHON_USEDEP}] )"
+	png? ( >=dev-python/cairocffi-1.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

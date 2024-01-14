@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all check contents lab libarchive serve test translation"
-DEPENDENCIES="dev-python/doit[${PYTHON_USEDEP}]
-	dev-python/jupyter-core[${PYTHON_USEDEP}]
-	all? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/doit-1.0[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-core-4.7[${PYTHON_USEDEP}]
+	all? ( >=dev-python/jsonschema-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyterlab-server[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	all? ( dev-python/libarchive-c[${PYTHON_USEDEP}] )
-	all? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	all? ( <dev-python/jupyterlab-server-3.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/jupyterlab-5.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/libarchive-c-4.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/notebook-8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pkginfo[${PYTHON_USEDEP}] )
-	all? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	check? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tornado-6.1[${PYTHON_USEDEP}] )
+	check? ( >=dev-python/jsonschema-3.0[${PYTHON_USEDEP}] )
 	contents? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
-	lab? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	lab? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	libarchive? ( dev-python/libarchive-c[${PYTHON_USEDEP}] )
-	serve? ( dev-python/tornado[${PYTHON_USEDEP}] )
+	lab? ( <dev-python/jupyterlab-5.0[${PYTHON_USEDEP}] )
+	lab? ( <dev-python/notebook-8.0[${PYTHON_USEDEP}] )
+	libarchive? ( >=dev-python/libarchive-c-4.0[${PYTHON_USEDEP}] )
+	serve? ( >=dev-python/tornado-6.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/ansi2html[${PYTHON_USEDEP}] )
 	test? ( dev-python/diffoscope[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	translation? ( dev-python/jupyterlab-server[${PYTHON_USEDEP}] )"
+	translation? ( <dev-python/jupyterlab-server-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

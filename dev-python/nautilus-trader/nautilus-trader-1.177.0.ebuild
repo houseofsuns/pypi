@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="betfair docker ib redis"
-DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cython-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2022.5.0[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytz-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	redis? ( dev-python/hiredis[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/uvloop-0.18.0[${PYTHON_USEDEP}]
+	redis? ( <dev-python/hiredis-3.0.0[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	docker? ( <dev-python/docker-7.0.0[${PYTHON_USEDEP}] )
 	ib? ( dev-python/nautilus_ibapi[${PYTHON_USEDEP}] )
 	ib? ( dev-python/ib_insync[${PYTHON_USEDEP}] )
 	betfair? ( dev-python/betfair_parser[${PYTHON_USEDEP}] )"

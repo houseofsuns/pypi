@@ -33,8 +33,8 @@ DEPENDENCIES="dev-python/ThrustRTC[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pyevtk[${PYTHON_USEDEP}]
 	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jupyter-core[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/jupyter-core-5.0.0[${PYTHON_USEDEP}] )
+	tests? ( >dev-python/ipywidgets-8.0.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ghapi[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )

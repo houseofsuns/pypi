@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev dist"
 DEPENDENCIES="dev-python/Markdown[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
+	~dev-python/pymdown-extensions-10.5[${PYTHON_USEDEP}]
+	~dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-Markdown[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

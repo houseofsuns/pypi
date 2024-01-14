@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/logger-local[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/python-sdk-local[${PYTHON_USEDEP}]
 	dev-python/user-context-remote[${PYTHON_USEDEP}]
 	dev-python/url-local[${PYTHON_USEDEP}]

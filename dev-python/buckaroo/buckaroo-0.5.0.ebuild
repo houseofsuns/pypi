@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build docs jupyterlab notebook test"
 DEPENDENCIES="dev-python/graphlib-backport[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	<dev-python/ipywidgets-9.0[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	jupyterlab? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbval[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.5[${PYTHON_USEDEP}] )
+	jupyterlab? ( >=dev-python/jupyterlab-3.6.0[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/notebook-7.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-6.88.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nbval-0.9[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/polars[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pydantic-2.5.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

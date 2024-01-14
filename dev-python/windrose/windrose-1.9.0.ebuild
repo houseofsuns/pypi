@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="advanced"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	advanced? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	advanced? ( dev-python/scipy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

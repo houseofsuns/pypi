@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/codeboxapi[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	all? ( dev-python/jupyter-kernel-gateway[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow[${PYTHON_USEDEP}] )

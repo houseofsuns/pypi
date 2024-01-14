@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/addfips[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/dask-2.8[${PYTHON_USEDEP}]
+	>=dev-python/dask-2.8[${PYTHON_USEDEP}]
 	dev-python/fiona[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/NREL-gaps[${PYTHON_USEDEP}]
 	dev-python/NREL-reV[${PYTHON_USEDEP}]
 	dev-python/NREL-rex[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/pywavelets[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-3.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pywavelets-1.0[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	<dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/toolz-0.7.3[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="excel-reader test"
 DEPENDENCIES="dev-python/OpenFisca-Core[${PYTHON_USEDEP}]
 	dev-python/OpenFisca-France[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	excel-reader? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	excel-reader? ( ~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

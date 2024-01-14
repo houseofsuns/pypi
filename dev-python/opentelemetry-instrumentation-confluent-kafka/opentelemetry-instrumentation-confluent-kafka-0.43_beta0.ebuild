@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="instruments test"
 DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]
 	instruments? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-confluent-kafka[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

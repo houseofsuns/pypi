@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/skip-django-chamber[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pyaes[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.28.1[${PYTHON_USEDEP}]
+	>=dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
 	dev-python/skip-django-choice-enumfields[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

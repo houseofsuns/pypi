@@ -27,8 +27,8 @@ IUSE="async dev tests"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	async? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.0.2[${PYTHON_USEDEP}] )
+	dev? ( >dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -36,8 +36,8 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/towncrier[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-5.0.2[${PYTHON_USEDEP}] )
+	tests? ( >dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

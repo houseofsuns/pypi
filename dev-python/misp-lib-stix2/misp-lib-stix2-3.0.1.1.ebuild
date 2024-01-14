@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="semantic taxii"
-DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pytz-2023.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/simplejson-4.0.0[${PYTHON_USEDEP}]
 	dev-python/stix2-patterns[${PYTHON_USEDEP}]
 	semantic? ( dev-python/haversine[${PYTHON_USEDEP}] )
 	taxii? ( dev-python/medallion[${PYTHON_USEDEP}] )
-	semantic? ( dev-python/rapidfuzz[${PYTHON_USEDEP}] )
+	semantic? ( <dev-python/rapidfuzz-3.0.0[${PYTHON_USEDEP}] )
 	taxii? ( dev-python/taxii2-client[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

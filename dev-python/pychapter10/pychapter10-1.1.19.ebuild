@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/bitstring[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bitstring-3.1.7[${PYTHON_USEDEP}]
 	dev-python/bitstruct[${PYTHON_USEDEP}]
-	dev-python/editables[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	>=dev-python/editables-0.2[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-2.4.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]
 	dev-python/fastcore[${PYTHON_USEDEP}]
 	dev-python/fastprogress[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
+	<dev-python/nbformat-5.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/gym[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbdev[${PYTHON_USEDEP}] )
@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	dev? ( dev-python/fastdownload[${PYTHON_USEDEP}] )
 	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
 	dev? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/typing-extensions-4.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/spacy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/executing[${PYTHON_USEDEP}]
-	dev-python/asttokens[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/executing-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/asttokens-2.1.0[${PYTHON_USEDEP}]
 	dev-python/pure-eval[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/typeguard[${PYTHON_USEDEP}] )

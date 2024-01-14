@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/ifaddr[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/cryptography-35.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ifaddr-0.1.7[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

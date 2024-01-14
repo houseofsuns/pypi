@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs flake8 tests"
-DEPENDENCIES="docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( >=dev-python/sphinx-1.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >dev-python/pytest-3.3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

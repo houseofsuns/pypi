@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
+	~dev-python/arrow-0.10.0[${PYTHON_USEDEP}]
+	~dev-python/click-6.7[${PYTHON_USEDEP}]
+	~dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	~dev-python/GitPython-2.1.5[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-0.40.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

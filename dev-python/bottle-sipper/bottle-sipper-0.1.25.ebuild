@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bottle[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bottle-0.12.23[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/ifaddr[${PYTHON_USEDEP}]
-	dev-python/cheroot[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	>=dev-python/ifaddr-0.2.0[${PYTHON_USEDEP}]
+	>=dev-python/cheroot-10.0.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

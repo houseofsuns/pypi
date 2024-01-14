@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pytimeparse[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-50.0[${PYTHON_USEDEP}]
+	>=dev-python/pytimeparse-1.1.8[${PYTHON_USEDEP}]
 	dev-python/bitmath[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
+	<dev-python/chardet-5.0[${PYTHON_USEDEP}]
+	>=dev-python/deprecation-2.0.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-3.2.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/enum-tools[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	doc? ( dev-python/plantumlcli[${PYTHON_USEDEP}] )
 	doc? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-multiversion[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-multiversion-0.2.4[${PYTHON_USEDEP}] )
 	doc? ( dev-python/easydict[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-1.34.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-rerunfailures-10.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-timeout-2.0.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/easydict[${PYTHON_USEDEP}] )
-	test? ( dev-python/click[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/click-7.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-2.20[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testtools-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/numpy-1.20[${PYTHON_USEDEP}] )
 	test? ( dev-python/torch[${PYTHON_USEDEP}] )
 	test? ( dev-python/faker[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

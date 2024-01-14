@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="stats"
 DEPENDENCIES="dev-python/hestia-earth-schema[${PYTHON_USEDEP}]
 	dev-python/hestia-earth-utils[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	stats? ( dev-python/pymc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

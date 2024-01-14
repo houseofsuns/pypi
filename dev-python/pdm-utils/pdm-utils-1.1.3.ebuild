@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	>=dev-python/networkx-3.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.7.2[${PYTHON_USEDEP}]
 	dev-python/parasail[${PYTHON_USEDEP}]
 	dev-python/phamclust[${PYTHON_USEDEP}]
 	dev-python/phammseqs[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
 	dev-python/pybiolib[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/pymysql-0.9.3[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	~dev-python/sqlalchemy-1.4.2[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.3[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cachetools-3.1[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/jq[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.1[${PYTHON_USEDEP}]
+	>=dev-python/humanize-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/jq-1.1.2[${PYTHON_USEDEP}]
 	dev-python/k8kat[${PYTHON_USEDEP}]
 	dev-python/peewee[${PYTHON_USEDEP}]
 	dev-python/python-docs-theme[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	>=dev-python/redis-3.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/rq[${PYTHON_USEDEP}]
 	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-4.1.2[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	dev-python/validators[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

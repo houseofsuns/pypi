@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dnsmos-local eval soundfile train"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/appdirs-2.0[${PYTHON_USEDEP}]
 	train? ( dev-python/deepfilterdataloader[${PYTHON_USEDEP}] )
 	dev-python/deepfilterlib[${PYTHON_USEDEP}]
 	train? ( dev-python/icecream[${PYTHON_USEDEP}] )
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.5[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dnsmos-local? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	dev-python/packaging[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	eval? ( dev-python/pesq[${PYTHON_USEDEP}] )
 	eval? ( dev-python/pystoi[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
-	eval? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	eval? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
 	soundfile? ( dev-python/soundfile[${PYTHON_USEDEP}] )
-	dev-python/sympy[${PYTHON_USEDEP}]"
+	>=dev-python/sympy-1.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

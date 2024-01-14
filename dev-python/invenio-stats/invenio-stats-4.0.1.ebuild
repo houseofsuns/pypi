@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/counter-robots[${PYTHON_USEDEP}]
 	dev-python/invenio-celery[${PYTHON_USEDEP}]
 	dev-python/invenio-queues[${PYTHON_USEDEP}]
 	dev-python/maxminddb-geolite2[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}]
 	dev-python/python-geoip[${PYTHON_USEDEP}]
 	elasticsearch7? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch1? ( dev-python/invenio-search[${PYTHON_USEDEP}] )

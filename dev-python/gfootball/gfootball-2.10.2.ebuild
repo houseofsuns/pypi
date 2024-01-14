@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pygame[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pygame-1.9.6[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]

@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="flatbuffer insights jwt pandas protobuf"
 DEPENDENCIES="dev-python/azure-functions[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	flatbuffer? ( dev-python/flatbuffers[${PYTHON_USEDEP}] )
 	insights? ( dev-python/opencensus-ext-azure[${PYTHON_USEDEP}] )
-	jwt? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	jwt? ( dev-python/python-jose[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	jwt? ( >=dev-python/cryptography-36.0.2[${PYTHON_USEDEP}] )
+	jwt? ( >=dev-python/python-jose-3.3.0[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-0.20.3[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pyarrow-0.8.0[${PYTHON_USEDEP}] )
 	protobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

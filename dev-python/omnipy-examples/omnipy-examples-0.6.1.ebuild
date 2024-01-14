@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/typing-inspect[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/omnipy-example-data[${PYTHON_USEDEP}]
 	dev-python/reader[${PYTHON_USEDEP}]
-	dev-python/github3-py[${PYTHON_USEDEP}]
+	<dev-python/github3-py-4.0.0[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

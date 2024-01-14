@@ -27,8 +27,8 @@ IUSE="chainconsumer dev docs pycuda style test wheel"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/corner[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
 	dev-python/ptemcee[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
@@ -37,13 +37,13 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/lalsuite[${PYTHON_USEDEP}]
 	chainconsumer? ( dev-python/chainconsumer[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autodoc-defaultargs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-autodoc-typehints-1.19.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-gallery-0.11.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mistune-0.8.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -57,13 +57,13 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/nbmake[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-wheel-contents[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-defaultargs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.19.5[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-gallery-0.11.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mistune-0.8.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	pycuda? ( dev-python/pycuda[${PYTHON_USEDEP}] )
 	style? ( dev-python/black[${PYTHON_USEDEP}] )

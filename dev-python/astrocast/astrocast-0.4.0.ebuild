@@ -24,39 +24,39 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc testing video-player"
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
 	dev-python/hdbscan[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/multiprocess[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/multiprocess-0.71.0[${PYTHON_USEDEP}]
+	<dev-python/networkx-4.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/powerlaw[${PYTHON_USEDEP}]
 	dev-python/pynwb[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
+	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/deprecation-3.0.0[${PYTHON_USEDEP}]
 	dev-python/peakutils[${PYTHON_USEDEP}]
 	dev-python/holoviews[${PYTHON_USEDEP}]
 	dev-python/pointpats[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/humanize-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/prettytable-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	dev-python/shiny[${PYTHON_USEDEP}]
 	dev-python/pyinform[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/tiledb[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]
+	<dev-python/tifffile-2024.0.0[${PYTHON_USEDEP}]
+	<dev-python/xxhash-4.0.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	<dev-python/xarray-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/colorcet[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	<dev-python/dask-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/czifile[${PYTHON_USEDEP}]
 	dev-python/awkward[${PYTHON_USEDEP}]
 	dev-python/dask-image[${PYTHON_USEDEP}]
@@ -73,30 +73,30 @@ DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
 	dev-python/climage[${PYTHON_USEDEP}]
 	dev-python/simple-slurm[${PYTHON_USEDEP}]
-	video-player? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	video-player? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
+	<dev-python/jupyterlab-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}]
 	video-player? ( dev-python/napari[${PYTHON_USEDEP}] )
 	all? ( dev-python/napari[${PYTHON_USEDEP}] )
 	video-player? ( dev-python/napari-plot[${PYTHON_USEDEP}] )
 	all? ( dev-python/napari-plot[${PYTHON_USEDEP}] )
 	video-player? ( dev-python/napari-time-series-plotter[${PYTHON_USEDEP}] )
 	all? ( dev-python/napari-time-series-plotter[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-xdist-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-xdist-4.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/tensorflow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

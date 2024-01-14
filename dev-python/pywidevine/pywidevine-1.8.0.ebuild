@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="serve"
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pymp4[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Unidecode[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	serve? ( dev-python/aiohttp[${PYTHON_USEDEP}] )"
+	serve? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

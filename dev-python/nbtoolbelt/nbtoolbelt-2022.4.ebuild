@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc ipc test"
-DEPENDENCIES="dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/nbformat-5.1[${PYTHON_USEDEP}]
+	~dev-python/nbconvert-6.4[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	ipc? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )

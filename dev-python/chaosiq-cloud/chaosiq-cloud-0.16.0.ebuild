@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/chaostoolkit-lib[${PYTHON_USEDEP}]
 	dev-python/chaostoolkit[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/logzero[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+	~dev-python/requests-2.21[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.16[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
+	~dev-python/tzlocal-1.5[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/cloudevents[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

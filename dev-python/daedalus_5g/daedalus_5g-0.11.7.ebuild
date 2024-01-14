@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="confuser generate_fs test"
-DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/docker-6.1.3[${PYTHON_USEDEP}]
 	dev-python/dovesnap[${PYTHON_USEDEP}]
-	dev-python/plumbum[${PYTHON_USEDEP}]
+	~dev-python/plumbum-1.8.2[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
 	confuser? ( dev-python/fusepy[${PYTHON_USEDEP}] )
 	generate_fs? ( dev-python/essential-generators[${PYTHON_USEDEP}] )
 	generate_fs? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/attrs[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/attrs-23.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-3.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytype[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

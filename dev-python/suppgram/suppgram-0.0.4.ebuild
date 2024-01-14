@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev mongodb pubnub shell sqlalchemy sqlalchemy_slim telegram"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-python-1.7.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	mongodb? ( dev-python/motor[${PYTHON_USEDEP}] )
 	pubnub? ( dev-python/aioconsole[${PYTHON_USEDEP}] )
 	pubnub? ( dev-python/pubnub[${PYTHON_USEDEP}] )
 	shell? ( dev-python/aioconsole[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+	sqlalchemy? ( ~dev-python/aiosqlite-0.19.0[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	sqlalchemy_slim? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )

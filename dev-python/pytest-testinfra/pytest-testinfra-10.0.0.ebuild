@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ansible paramiko salt winrm"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/pytest-3.0.2[${PYTHON_USEDEP}]
 	ansible? ( dev-python/ansible[${PYTHON_USEDEP}] )
 	paramiko? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	salt? ( dev-python/salt[${PYTHON_USEDEP}] )

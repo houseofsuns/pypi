@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="lint test"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
+	~dev-python/tqdm-4.63.1[${PYTHON_USEDEP}]
+	lint? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

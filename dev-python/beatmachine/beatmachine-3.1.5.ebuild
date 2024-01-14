@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/black-18.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev-python/deprecation[${PYTHON_USEDEP}]
+	~dev-python/deprecation-2.0[${PYTHON_USEDEP}]
 	dev-python/madmom[${PYTHON_USEDEP}]
-	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/parameterized-0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	dev-python/soundfile[${PYTHON_USEDEP}]
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/sphinx-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,13 +28,13 @@ DEPENDENCIES="dev-python/cloudshell-cp-core[${PYTHON_USEDEP}]
 	dev-python/cloudshell-shell-standards[${PYTHON_USEDEP}]
 	dev-python/cloudshell-shell-core[${PYTHON_USEDEP}]
 	dev-python/cloudshell-shell-connectivity-flow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
-	dev-python/python-novaclient[${PYTHON_USEDEP}]
-	dev-python/python-neutronclient[${PYTHON_USEDEP}]
-	dev-python/python-glanceclient[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]"
+	~dev-python/pydantic-1.7[${PYTHON_USEDEP}]
+	~dev-python/python-keystoneclient-4.1[${PYTHON_USEDEP}]
+	~dev-python/python-novaclient-17.2[${PYTHON_USEDEP}]
+	~dev-python/python-neutronclient-7.2[${PYTHON_USEDEP}]
+	~dev-python/python-glanceclient-3.0[${PYTHON_USEDEP}]
+	~dev-python/jsonpickle-1.4[${PYTHON_USEDEP}]
+	~dev-python/keystoneauth1-4.2[${PYTHON_USEDEP}]
+	<dev-python/attrs-23.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

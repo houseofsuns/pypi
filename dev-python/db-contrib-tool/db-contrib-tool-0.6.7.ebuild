@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/distro[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/distro-1.6.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	~dev-python/structlog-21.4.0[${PYTHON_USEDEP}]
+	~dev-python/PyGithub-1.55[${PYTHON_USEDEP}]
 	dev-python/evergreen-py[${PYTHON_USEDEP}]
 	dev-python/analytics-python[${PYTHON_USEDEP}]
 	dev-python/pkce[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/oauthlib-3.1.1[${PYTHON_USEDEP}]
+	~dev-python/requests-oauthlib-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
 	dev-python/Inject[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]"
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

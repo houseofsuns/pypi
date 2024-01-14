@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="yaml"
 DEPENDENCIES="dev-python/cmakelang[${PYTHON_USEDEP}]
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-5.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

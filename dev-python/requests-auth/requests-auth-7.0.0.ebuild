@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	testing? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/requests-2.0[${PYTHON_USEDEP}]
+	testing? ( ~dev-python/pyjwt-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-responses[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

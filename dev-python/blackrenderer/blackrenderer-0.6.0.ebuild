@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cairo cg skia"
-DEPENDENCIES="dev-python/fonttools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/fonttools-4.34.0[${PYTHON_USEDEP}]
 	dev-python/uharfbuzz[${PYTHON_USEDEP}]
 	cairo? ( dev-python/pycairo[${PYTHON_USEDEP}] )
 	cg? ( dev-python/pyobjc[${PYTHON_USEDEP}] )

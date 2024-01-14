@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/vobject[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/icalendar[${PYTHON_USEDEP}]
-	dev-python/recurring-ical-events[${PYTHON_USEDEP}]
+	>=dev-python/recurring-ical-events-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/tzlocal[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

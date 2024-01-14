@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cleverhans foolbox pytorch tf-gpu unittests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.2[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.14[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
@@ -40,8 +40,8 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	tf-gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
-	unittests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	unittests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	unittests? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
+	unittests? ( >=dev-python/pytest-cov-2.9[${PYTHON_USEDEP}] )
 	unittests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	unittests? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	unittests? ( dev-python/nbval[${PYTHON_USEDEP}] )

@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/Flask-Menu[${PYTHON_USEDEP}]
 	opensearch2? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black-ng[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-access[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-app[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

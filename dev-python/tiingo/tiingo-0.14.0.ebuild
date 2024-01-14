@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pandas"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	pandas? ( >=dev-python/pandas-0.18[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

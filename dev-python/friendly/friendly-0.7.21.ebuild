@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/rich-11.0[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.6[${PYTHON_USEDEP}]
 	dev-python/friendly-traceback[${PYTHON_USEDEP}]
 	dev-python/friendly-styles[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]"

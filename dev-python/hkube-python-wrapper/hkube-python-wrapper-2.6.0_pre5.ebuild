@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Events[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/wsaccel[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-0.57.0[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.17.2[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.11.3[${PYTHON_USEDEP}]
+	~dev-python/msgpack-1.0.2[${PYTHON_USEDEP}]
+	<=dev-python/boto3-1.17.20[${PYTHON_USEDEP}]
+	~dev-python/wsaccel-0.6.2[${PYTHON_USEDEP}]
+	~dev-python/six-1.15.0[${PYTHON_USEDEP}]
+	<=dev-python/pyzmq-22.0.3[${PYTHON_USEDEP}]
 	dev-python/pympler[${PYTHON_USEDEP}]
 	dev-python/jaeger-client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

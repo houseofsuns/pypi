@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/colcon-core[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

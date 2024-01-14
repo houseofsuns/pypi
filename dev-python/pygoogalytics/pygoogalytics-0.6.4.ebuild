@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-2.70.0[${PYTHON_USEDEP}]
 	dev-python/google-analytics-data[${PYTHON_USEDEP}]
 	dev-python/google-ads[${PYTHON_USEDEP}]
-	dev-python/google-api-core[${PYTHON_USEDEP}]"
+	~dev-python/google-api-core-2.11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/awswrangler[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	<=dev-python/pyarrow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/python-version[${PYTHON_USEDEP}]
-	dev-python/kafka-python[${PYTHON_USEDEP}]"
+	~dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

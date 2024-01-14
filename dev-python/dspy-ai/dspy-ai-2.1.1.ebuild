@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="chromadb marqo pinecone qdrant"
-DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+	<=dev-python/joblib-1.3.2[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<=dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
+	<=dev-python/regex-2023.10.3[${PYTHON_USEDEP}]
+	<=dev-python/ujson-5.8.0[${PYTHON_USEDEP}]
+	<=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
 	chromadb? ( dev-python/chromadb[${PYTHON_USEDEP}] )
 	marqo? ( dev-python/marqo[${PYTHON_USEDEP}] )

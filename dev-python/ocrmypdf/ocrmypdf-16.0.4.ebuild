@@ -25,27 +25,27 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs extended_test test watcher webservice"
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
+	>=dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]
 	dev-python/img2pdf[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
-	dev-python/pikepdf[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/pikepdf-8.10.1[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-1.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	extended_test? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-xmp-toolkit[${PYTHON_USEDEP}] )
-	test? ( dev-python/reportlab[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-6.36.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/python-xmp-toolkit-2.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/reportlab-3.6.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-humanfriendly[${PYTHON_USEDEP}] )
-	watcher? ( dev-python/watchdog[${PYTHON_USEDEP}] )
+	watcher? ( >=dev-python/watchdog-1.0.2[${PYTHON_USEDEP}] )
 	watcher? ( dev-python/typer[${PYTHON_USEDEP}] )
 	watcher? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	webservice? ( dev-python/Flask[${PYTHON_USEDEP}] )"

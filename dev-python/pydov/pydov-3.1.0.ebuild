@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/owslib[${PYTHON_USEDEP}]
 	devs? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	devs? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	devs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	devs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	devs? ( >dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	devs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	devs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	devs? ( dev-python/flask[${PYTHON_USEDEP}] )

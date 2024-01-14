@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="hdf5 test"
 DEPENDENCIES="dev-python/antlr4-tools[${PYTHON_USEDEP}]
-	dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
-	dev-python/confuse[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	hdf5? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	~dev-python/antlr4-python3-runtime-4.13.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.25.1[${PYTHON_USEDEP}]
+	>=dev-python/pooch-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/confuse-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
+	hdf5? ( ~dev-python/h5py-3.10.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/gputil[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

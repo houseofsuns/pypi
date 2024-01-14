@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="async aws azure gcp kubeflow launch media models perf sweeps"
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sentry-sdk-1.0.0[${PYTHON_USEDEP}]
 	dev-python/docker-pycreds[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/setproctitle[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	async? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	async? ( >=dev-python/httpx-0.23.0[${PYTHON_USEDEP}] )
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
@@ -71,7 +71,7 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	media? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	media? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	media? ( dev-python/soundfile[${PYTHON_USEDEP}] )
-	media? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	media? ( >=dev-python/plotly-5.18.0[${PYTHON_USEDEP}] )
 	media? ( dev-python/rdkit-pypi[${PYTHON_USEDEP}] )
 	models? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	perf? ( dev-python/orjson[${PYTHON_USEDEP}] )

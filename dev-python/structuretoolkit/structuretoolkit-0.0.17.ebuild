@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="clusters grainboundary matplotlib nglview phonopy plotly pyscal pyxtal surface symmetry"
 DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.26.3[${PYTHON_USEDEP}]
+	<=dev-python/scipy-1.11.4[${PYTHON_USEDEP}]
 	clusters? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	grainboundary? ( dev-python/aimsgb[${PYTHON_USEDEP}] )
 	grainboundary? ( dev-python/pymatgen[${PYTHON_USEDEP}] )
-	matplotlib? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	matplotlib? ( ~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}] )
 	nglview? ( dev-python/nglview[${PYTHON_USEDEP}] )
 	phonopy? ( dev-python/phonopy[${PYTHON_USEDEP}] )
 	phonopy? ( dev-python/spglib[${PYTHON_USEDEP}] )
-	plotly? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	plotly? ( <=dev-python/plotly-5.18.0[${PYTHON_USEDEP}] )
 	pyscal? ( dev-python/pyscal2[${PYTHON_USEDEP}] )
 	pyxtal? ( dev-python/pyxtal[${PYTHON_USEDEP}] )
 	surface? ( dev-python/spglib[${PYTHON_USEDEP}] )

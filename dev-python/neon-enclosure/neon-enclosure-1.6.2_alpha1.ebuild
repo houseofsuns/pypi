@@ -27,8 +27,8 @@ IUSE="docker"
 DEPENDENCIES="dev-python/ovos-phal[${PYTHON_USEDEP}]
 	dev-python/neon-utils[${PYTHON_USEDEP}]
 	dev-python/ovos-utils[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
+	~dev-python/click-8.0[${PYTHON_USEDEP}]
+	~dev-python/click-default-group-1.2[${PYTHON_USEDEP}]
 	dev-python/ovos-bus-client[${PYTHON_USEDEP}]
 	docker? ( dev-python/ovos-phal-plugin-homeassistant[${PYTHON_USEDEP}] )
 	docker? ( dev-python/ovos-phal-plugin-notification-widgets[${PYTHON_USEDEP}] )

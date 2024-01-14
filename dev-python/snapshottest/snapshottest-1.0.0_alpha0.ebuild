@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/fastdiff[${PYTHON_USEDEP}]
 	nose? ( dev-python/nose[${PYTHON_USEDEP}] )
 	pytest? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )
-	test? ( dev-python/django[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/django-1.10.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

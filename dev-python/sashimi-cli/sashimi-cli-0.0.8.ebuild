@@ -27,7 +27,7 @@ IUSE="mysql postgresql"
 DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/rich-13.7.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )

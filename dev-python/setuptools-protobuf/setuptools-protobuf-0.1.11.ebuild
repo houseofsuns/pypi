@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mypy"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-60.8[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.2.1[${PYTHON_USEDEP}]
 	mypy? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

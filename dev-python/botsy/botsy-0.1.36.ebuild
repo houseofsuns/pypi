@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
+	<dev-python/pygame-3.0.0[${PYTHON_USEDEP}]
 	dev-python/speechrecognition[${PYTHON_USEDEP}]
 	dev-python/jprint[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

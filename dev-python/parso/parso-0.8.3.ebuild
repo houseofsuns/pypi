@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="qa testing"
-DEPENDENCIES="qa? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	qa? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES="qa? ( ~dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	qa? ( ~dev-python/mypy-0.782[${PYTHON_USEDEP}] )
 	testing? ( dev-python/docopt[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	testing? ( <dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

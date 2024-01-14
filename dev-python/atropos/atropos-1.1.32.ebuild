@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jinja khmer progressbar pysam sra tqdm"
-DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cython-0.25.2[${PYTHON_USEDEP}]
 	jinja? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	khmer? ( dev-python/khmer[${PYTHON_USEDEP}] )
 	progressbar? ( dev-python/progressbar2[${PYTHON_USEDEP}] )

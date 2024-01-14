@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev gpu solvers"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/networkx-3.0.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.1[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.3.1[${PYTHON_USEDEP}]
 	dev-python/pytket[${PYTHON_USEDEP}]
 	dev-python/pytket-qiskit[${PYTHON_USEDEP}]
 	dev-python/pytket-quantinuum[${PYTHON_USEDEP}]
 	dev-python/qiskit[${PYTHON_USEDEP}]
 	dev-python/qiskit-finance[${PYTHON_USEDEP}]
 	dev-python/qiskit-ibmq-provider[${PYTHON_USEDEP}]
-	dev-python/qiskit-terra[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/qiskit-terra-1.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.12.2[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.12[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	gpu? ( dev-python/qiskit-aer-gpu[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-58.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Deprecated[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/urllib3-1.26.6[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/statsmodels-0.13.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	solvers? ( dev-python/docplex[${PYTHON_USEDEP}] )
 	solvers? ( dev-python/gurobipy[${PYTHON_USEDEP}] )"

@@ -34,9 +34,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-argparse-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-math-dollar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/furo[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/furo-2023.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

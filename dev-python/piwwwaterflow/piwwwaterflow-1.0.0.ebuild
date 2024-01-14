@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/flask-compress[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/flask-compress-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.5.0[${PYTHON_USEDEP}]
 	dev-python/piwaterflow[${PYTHON_USEDEP}]
 	dev-python/revproxy-auth[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

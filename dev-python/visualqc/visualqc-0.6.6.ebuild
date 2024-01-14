@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-2.1.1[${PYTHON_USEDEP}]
 	dev-python/mrivis[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ipywidgets-9.0[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-4.3.0[${PYTHON_USEDEP}]
 	dev-python/traittypes[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/lz4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

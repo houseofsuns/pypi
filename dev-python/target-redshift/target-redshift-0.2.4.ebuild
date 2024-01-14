@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/boto3-1.10.0[${PYTHON_USEDEP}]
 	dev-python/singer-target-postgres[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.25.9[${PYTHON_USEDEP}]
 	tests? ( dev-python/chance[${PYTHON_USEDEP}] )
-	tests? ( dev-python/Faker[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/Faker-4.0.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

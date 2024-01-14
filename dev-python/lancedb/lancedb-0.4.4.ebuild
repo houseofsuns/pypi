@@ -28,15 +28,15 @@ DEPENDENCIES="dev-python/deprecation[${PYTHON_USEDEP}]
 	dev-python/pylance[${PYTHON_USEDEP}]
 	dev-python/ratelimiter[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.27.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10[${PYTHON_USEDEP}]
+	>=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
+	>=dev-python/semver-3.0[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/overrides[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/overrides-0.7[${PYTHON_USEDEP}]
 	clip? ( dev-python/torch[${PYTHON_USEDEP}] )
 	clip? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	clip? ( dev-python/open-clip[${PYTHON_USEDEP}] )
@@ -54,7 +54,7 @@ DEPENDENCIES="dev-python/deprecation[${PYTHON_USEDEP}]
 	embeddings? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	embeddings? ( dev-python/InstructorEmbedding[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pandas-1.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

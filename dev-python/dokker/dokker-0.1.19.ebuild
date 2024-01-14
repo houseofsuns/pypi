@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cookiecutter"
 DEPENDENCIES="dev-python/koil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	cookiecutter? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/certifi-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/aioconsole[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,11 +29,11 @@ DEPENDENCIES="dev-python/keras[${PYTHON_USEDEP}]
 	dev-python/tensorflow-addons[${PYTHON_USEDEP}]
 	dev-python/ellc[${PYTHON_USEDEP}]
 	dev-python/lcbuilder[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.32[${PYTHON_USEDEP}]
+	~dev-python/pydot-1.4.2[${PYTHON_USEDEP}]
+	~dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]"
+	~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/ovito[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pymatgen[${PYTHON_USEDEP}]
-	vis? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	vis? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
 	vis? ( dev-python/rdkit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

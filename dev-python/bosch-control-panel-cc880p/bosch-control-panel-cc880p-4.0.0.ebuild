@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/twine-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-asyncio-0.18.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/autopep8-1.6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.942[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

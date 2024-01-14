@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ipydatawidgets[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/jupyter-packaging[${PYTHON_USEDEP}]
-	dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-8.0.4[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-packaging-0.12.3[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/jupyterlab-3.5.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.3[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]"
+	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

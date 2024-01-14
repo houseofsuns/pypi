@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="atomate m3gnet proto_dft tests"
-DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/networkx-2.8.5[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	dev-python/matminer[${PYTHON_USEDEP}]
 	dev-python/awscli[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.24.51[${PYTHON_USEDEP}]
+	~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	dev-python/taburu[${PYTHON_USEDEP}]
 	dev-python/GPy[${PYTHON_USEDEP}]
 	dev-python/watchtower[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/jsonpatch[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/jsonschema-4.16.0[${PYTHON_USEDEP}]
+	~dev-python/jsonpatch-1.32[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

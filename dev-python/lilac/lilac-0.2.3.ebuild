@@ -25,36 +25,36 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all cohere embeddings github gmail gte lang-detection langsmith llms openai palm pii sbert signals sources text-stats"
 DEPENDENCIES="dev-python/authlib[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/duckdb[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	<dev-python/fsspec-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/hnswlib[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	dev-python/instructor[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/itsdangerous-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/loky[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+	<dev-python/loky-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
 	dev-python/modal[${PYTHON_USEDEP}]
 	all? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	embeddings? ( dev-python/cohere[${PYTHON_USEDEP}] )
@@ -75,12 +75,12 @@ DEPENDENCIES="dev-python/authlib[${PYTHON_USEDEP}]
 	sbert? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/email-reply-parser[${PYTHON_USEDEP}] )
 	gmail? ( dev-python/email-reply-parser[${PYTHON_USEDEP}] )
-	all? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	gmail? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	all? ( dev-python/google-auth-httplib2[${PYTHON_USEDEP}] )
-	gmail? ( dev-python/google-auth-httplib2[${PYTHON_USEDEP}] )
-	all? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
-	gmail? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
+	all? ( <dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}] )
+	gmail? ( <dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/google-auth-httplib2-0.2.0[${PYTHON_USEDEP}] )
+	gmail? ( <dev-python/google-auth-httplib2-0.2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/google-auth-oauthlib-2.0.0[${PYTHON_USEDEP}] )
+	gmail? ( <dev-python/google-auth-oauthlib-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/textacy[${PYTHON_USEDEP}] )
 	signals? ( dev-python/textacy[${PYTHON_USEDEP}] )
 	text-stats? ( dev-python/textacy[${PYTHON_USEDEP}] )

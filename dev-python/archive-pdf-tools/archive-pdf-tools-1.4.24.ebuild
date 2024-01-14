@@ -27,11 +27,11 @@ IUSE="docs"
 DEPENDENCIES="dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/archive-hocr-tools[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/roman[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.12[${PYTHON_USEDEP}]
+	>=dev-python/roman-3.3[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

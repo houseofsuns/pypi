@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aif360 alibi aws cli databricks dbt-core deepchecks duckdb dvc evidently feature-engine google metaflow mlflow optuna prefect redshift scikit-learn snowflake sweetviz timeseries xgboost ydata-profiling yellowbrick"
-DEPENDENCIES="dev-python/pyarrow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	yellowbrick? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5[${PYTHON_USEDEP}]
+	yellowbrick? ( <dev-python/matplotlib-3.8[${PYTHON_USEDEP}] )
 	scikit-learn? ( dev-python/scikit_learn[${PYTHON_USEDEP}] )
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
-	google? ( dev-python/google-auth[${PYTHON_USEDEP}] )
-	google? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
-	google? ( dev-python/google-auth-httplib2[${PYTHON_USEDEP}] )
-	google? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	google? ( ~dev-python/google-auth-2.16.1[${PYTHON_USEDEP}] )
+	google? ( <dev-python/google-auth-oauthlib-2.0.0[${PYTHON_USEDEP}] )
+	google? ( <dev-python/google-auth-httplib2-0.2.0[${PYTHON_USEDEP}] )
+	google? ( <dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
@@ -71,16 +71,16 @@ DEPENDENCIES="dev-python/pyarrow[${PYTHON_USEDEP}]
 	aif360? ( dev-python/aif360[${PYTHON_USEDEP}] )
 	ydata-profiling? ( dev-python/ydata-profiling[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
-	aws? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	duckdb? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	databricks? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	google? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	redshift? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	aws? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
+	duckdb? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
+	databricks? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
+	google? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
+	redshift? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/sdv[${PYTHON_USEDEP}] )
 	metaflow? ( dev-python/metaflow[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/duckdb[${PYTHON_USEDEP}] )
 	databricks? ( dev-python/databricks-sql-connector[${PYTHON_USEDEP}] )
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	aws? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	google? ( dev-python/db-dtypes[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	cli? ( dev-python/openai[${PYTHON_USEDEP}] )

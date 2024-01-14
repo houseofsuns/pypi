@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.13[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.19[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.20[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.0.0[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.0[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.7[${PYTHON_USEDEP}]
+	>=dev-python/natsort-5.1.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.8.0[${PYTHON_USEDEP}]
 	dev-python/pybedtools[${PYTHON_USEDEP}]
 	dev-python/adjustText[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

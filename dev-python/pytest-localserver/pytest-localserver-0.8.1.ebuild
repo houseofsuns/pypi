@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="smtp"
-DEPENDENCIES="dev-python/werkzeug[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/werkzeug-0.10[${PYTHON_USEDEP}]
 	smtp? ( dev-python/aiosmtpd[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

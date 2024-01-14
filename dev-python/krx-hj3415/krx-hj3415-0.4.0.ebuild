@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	>=dev-python/selenium-4.1.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.31[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.7.1[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]
 	dev-python/util-hj3415[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="plotting"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-9.0.0[${PYTHON_USEDEP}]
 	dev-python/altair[${PYTHON_USEDEP}]
 	dev-python/vega-datasets[${PYTHON_USEDEP}]
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	plotting? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	plotting? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/folium[${PYTHON_USEDEP}] )
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/dominate[${PYTHON_USEDEP}]
+	<dev-python/chardet-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/colorlog-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/dominate-3.0.0[${PYTHON_USEDEP}]
 	dev-python/importlib_resources[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/micawber[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/micawber-0.5.3[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0.0[${PYTHON_USEDEP}]
 	dev-python/ipynbname[${PYTHON_USEDEP}]
 	dev-python/multimethod[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

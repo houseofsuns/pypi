@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="boto boto3sqs celery django fastapi flask redis"
-DEPENDENCIES="flask? ( dev-python/blinker[${PYTHON_USEDEP}] )
-	django? ( dev-python/django[${PYTHON_USEDEP}] )
-	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
+DEPENDENCIES="flask? ( >=dev-python/blinker-1.0[${PYTHON_USEDEP}] )
+	django? ( >=dev-python/django-3.0[${PYTHON_USEDEP}] )
+	flask? ( >=dev-python/flask-2.0[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	fastapi? ( >=dev-python/uvicorn-0.0[${PYTHON_USEDEP}] )
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	celery? ( dev-python/opentelemetry-instrumentation-celery[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-5.0[${PYTHON_USEDEP}] )
 	redis? ( dev-python/opentelemetry-instrumentation-redis[${PYTHON_USEDEP}] )
-	boto? ( dev-python/boto[${PYTHON_USEDEP}] )
+	boto? ( >=dev-python/boto-2.0[${PYTHON_USEDEP}] )
 	boto? ( dev-python/opentelemetry-instrumentation-boto[${PYTHON_USEDEP}] )
-	boto3sqs? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	boto3sqs? ( >=dev-python/boto3-1.0[${PYTHON_USEDEP}] )
 	boto3sqs? ( dev-python/opentelemetry-instrumentation-boto3sqs[${PYTHON_USEDEP}] )
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-distro[${PYTHON_USEDEP}]

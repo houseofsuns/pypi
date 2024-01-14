@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test theme typehints"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-7.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	doc? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
 	doc? ( dev-python/scanpydoc[${PYTHON_USEDEP}] )
@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/toml[${PYTHON_USEDEP}] )
 	theme? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	typehints? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )"
+	typehints? ( >=dev-python/sphinx-autodoc-typehints-1.15.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

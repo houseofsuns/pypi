@@ -24,48 +24,48 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="amici autograd copasi doc examples julia migrate ot petab plotly pyarrow r test test_petab webserver_dash webserver_flask yaml2sbml"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-1.5.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
+	>=dev-python/redis-2.10.6[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.12[${PYTHON_USEDEP}]
 	dev-python/jabbar[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	r? ( dev-python/rpy2[${PYTHON_USEDEP}] )
-	r? ( dev-python/cffi[${PYTHON_USEDEP}] )
-	r? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	r? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	r? ( >=dev-python/cffi-1.14.5[${PYTHON_USEDEP}] )
+	r? ( >=dev-python/ipython-7.18.1[${PYTHON_USEDEP}] )
+	r? ( >=dev-python/pygments-2.6.1[${PYTHON_USEDEP}] )
 	amici? ( dev-python/amici[${PYTHON_USEDEP}] )
 	autograd? ( dev-python/autograd[${PYTHON_USEDEP}] )
 	copasi? ( dev-python/copasi-basico[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	examples? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/nbconvert-6.5.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-autodoc-typehints-1.18.3[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/ipython-8.4.0[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/notebook-6.1.4[${PYTHON_USEDEP}] )
 	julia? ( dev-python/julia[${PYTHON_USEDEP}] )
-	julia? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	migrate? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	julia? ( >=dev-python/pygments-2.6.1[${PYTHON_USEDEP}] )
+	migrate? ( >=dev-python/alembic-1.5.4[${PYTHON_USEDEP}] )
 	ot? ( dev-python/pot[${PYTHON_USEDEP}] )
 	petab? ( dev-python/petab[${PYTHON_USEDEP}] )
-	plotly? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	plotly? ( >=dev-python/plotly-5.3.1[${PYTHON_USEDEP}] )
 	plotly? ( dev-python/kaleido[${PYTHON_USEDEP}] )
-	pyarrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
+	pyarrow? ( >=dev-python/pyarrow-6.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-rerunfailures-9.1.1[${PYTHON_USEDEP}] )
 	test_petab? ( dev-python/petabtests[${PYTHON_USEDEP}] )
 	webserver_dash? ( dev-python/dash[${PYTHON_USEDEP}] )
 	webserver_dash? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
 	webserver_flask? ( dev-python/flask-bootstrap[${PYTHON_USEDEP}] )
-	webserver_flask? ( dev-python/flask[${PYTHON_USEDEP}] )
+	webserver_flask? ( >=dev-python/flask-1.1.2[${PYTHON_USEDEP}] )
 	webserver_flask? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	yaml2sbml? ( dev-python/yaml2sbml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

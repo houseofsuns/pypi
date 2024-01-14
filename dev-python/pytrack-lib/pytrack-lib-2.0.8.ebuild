@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.4.4[${PYTHON_USEDEP}]
+	~dev-python/networkx-2.8.6[${PYTHON_USEDEP}]
+	~dev-python/shapely-1.8.4[${PYTHON_USEDEP}]
+	~dev-python/pyproj-3.3.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/folium[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]"
+	~dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
+	~dev-python/setuptools-65.3.0[${PYTHON_USEDEP}]
+	~dev-python/pydot-1.4.2[${PYTHON_USEDEP}]
+	~dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-describe[${PYTHON_USEDEP}] )
-	dev? ( dev-python/django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-describe-1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/django-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

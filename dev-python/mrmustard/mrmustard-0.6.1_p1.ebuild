@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ray"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-11.0.0[${PYTHON_USEDEP}]
 	ray? ( dev-python/scikit-optimize[${PYTHON_USEDEP}] )
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-cpu-aws[${PYTHON_USEDEP}]
 	dev-python/tensorflow-io-gcs-filesystem[${PYTHON_USEDEP}]

@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc medical plot style test typing"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15[${PYTHON_USEDEP}]
+	>=dev-python/packaging-17.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-5.4.1[${PYTHON_USEDEP}]
 	dev-python/pygltflib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]
 	all? ( dev-python/fury[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/matplotlib-1.5.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-6.1.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/texext[${PYTHON_USEDEP}] )
 	doc? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	medical? ( dev-python/dipy[${PYTHON_USEDEP}] )
 	medical? ( dev-python/nibabel[${PYTHON_USEDEP}] )
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	plot? ( >=dev-python/matplotlib-1.5.3[${PYTHON_USEDEP}] )
 	style? ( dev-python/blue[${PYTHON_USEDEP}] )
 	style? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	style? ( dev-python/isort[${PYTHON_USEDEP}] )
 	style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >dev-python/pytest-5.3.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	typing? ( dev-python/data-science-types[${PYTHON_USEDEP}] )

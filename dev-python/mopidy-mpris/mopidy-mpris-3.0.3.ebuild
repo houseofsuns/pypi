@@ -27,7 +27,7 @@ IUSE="dev lint release test"
 DEPENDENCIES="dev-python/Mopidy[${PYTHON_USEDEP}]
 	dev-python/Pykka[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pydbus[${PYTHON_USEDEP}]
+	>=dev-python/pydbus-0.6.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

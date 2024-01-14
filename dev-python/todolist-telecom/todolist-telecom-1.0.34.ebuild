@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-7.4.2[${PYTHON_USEDEP}]
+	>=dev-python/coverage-7.3.2[${PYTHON_USEDEP}]
+	~dev-python/exceptiongroup-1.1.3[${PYTHON_USEDEP}]
 	dev-python/pyt[${PYTHON_USEDEP}]
 	dev-python/safety[${PYTHON_USEDEP}]
 	dev-python/Sphinx[${PYTHON_USEDEP}]"

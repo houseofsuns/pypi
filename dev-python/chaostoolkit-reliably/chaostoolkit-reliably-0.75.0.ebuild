@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/chaostoolkit-lib[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/boltons[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-39.0.2[${PYTHON_USEDEP}]
+	>=dev-python/boltons-23.0.0[${PYTHON_USEDEP}]
 	dev-python/locust[${PYTHON_USEDEP}]
 	dev-python/slo-generator[${PYTHON_USEDEP}]
 	dev-python/chaostoolkit-addons[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
+	>=dev-python/orjson-3.8.10[${PYTHON_USEDEP}]
+	>=dev-python/dnspython-2.3.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-sugar-0.9.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/respx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/atlassian-python-api[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyxdg[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+	>=dev-python/pyxdg-0.26[${PYTHON_USEDEP}]
+	~dev-python/tomlkit-0.7.2[${PYTHON_USEDEP}]
+	<dev-python/click-7.2.0[${PYTHON_USEDEP}]
+	~dev-python/markdown-3.3.4[${PYTHON_USEDEP}]
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/typer-cli[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

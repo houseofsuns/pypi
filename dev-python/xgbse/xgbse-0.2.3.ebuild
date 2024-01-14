@@ -25,36 +25,36 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docs"
 DEPENDENCIES="dev-python/xgboost[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.4[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.15.1[${PYTHON_USEDEP}]
 	dev-python/lifelines[${PYTHON_USEDEP}]
 	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpy-1.18.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/joblib[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-1.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/joblib-0.15.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/lifelines[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.1.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mkdocs-1.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mkdocs-material-4.6.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mkdocstrings-0.8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pycox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-6.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocs-1.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocs-material-4.6.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocstrings-0.8.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-1.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-4.6.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-0.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

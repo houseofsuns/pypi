@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests"
-DEPENDENCIES="dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tzlocal-5.0[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-1.8[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-httplib2-0.0.4[${PYTHON_USEDEP}]
+	<dev-python/google-auth-oauthlib-1.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7[${PYTHON_USEDEP}]
 	dev-python/beautiful-date[${PYTHON_USEDEP}]
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

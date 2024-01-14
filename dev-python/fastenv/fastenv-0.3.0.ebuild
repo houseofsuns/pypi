@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="checks cloud docs httpx tests"
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
-	checks? ( dev-python/black[${PYTHON_USEDEP}] )
-	checks? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	checks? ( dev-python/isort[${PYTHON_USEDEP}] )
-	checks? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/anyio-4.0[${PYTHON_USEDEP}]
+	checks? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
+	checks? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )
+	checks? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
+	checks? ( ~dev-python/mypy-1.0.1[${PYTHON_USEDEP}] )
 	checks? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	cloud? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	tests? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	cloud? ( <dev-python/httpx-0.24[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-material-9.0[${PYTHON_USEDEP}] )
+	httpx? ( <dev-python/httpx-0.24[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/coverage-7.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/freezegun-2.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/httpx-0.24[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

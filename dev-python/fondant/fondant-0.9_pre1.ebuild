@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aws azure component docker gcp kfp sagemaker vertex"
 DEPENDENCIES="azure? ( dev-python/adlfs[${PYTHON_USEDEP}] )
-	sagemaker? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	component? ( dev-python/dask[${PYTHON_USEDEP}] )
-	kfp? ( dev-python/docker[${PYTHON_USEDEP}] )
-	vertex? ( dev-python/docker[${PYTHON_USEDEP}] )
-	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	sagemaker? ( ~dev-python/boto3-1.28.64[${PYTHON_USEDEP}] )
+	component? ( >=dev-python/dask-2023.4.1[${PYTHON_USEDEP}] )
+	kfp? ( >=dev-python/docker-6.1.3[${PYTHON_USEDEP}] )
+	vertex? ( >=dev-python/docker-6.1.3[${PYTHON_USEDEP}] )
+	docker? ( >=dev-python/docker-6.1.3[${PYTHON_USEDEP}] )
+	>=dev-python/fsspec-2023.4.0[${PYTHON_USEDEP}]
 	gcp? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	vertex? ( dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}] )
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.18[${PYTHON_USEDEP}]
 	kfp? ( dev-python/kfp[${PYTHON_USEDEP}] )
 	vertex? ( dev-python/kfp[${PYTHON_USEDEP}] )
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	aws? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	sagemaker? ( dev-python/sagemaker[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

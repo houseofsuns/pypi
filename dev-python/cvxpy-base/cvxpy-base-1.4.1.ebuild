@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cbc clarabel cvxopt diffcp glop glpk glpk_mi gurobi highs mosek pdlp piqp proxqp scip scipy scs xpress"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
 	dev-python/pybind11[${PYTHON_USEDEP}]
 	cbc? ( dev-python/cylp[${PYTHON_USEDEP}] )
 	clarabel? ( dev-python/clarabel[${PYTHON_USEDEP}] )
@@ -35,14 +35,14 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	glpk? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
 	glpk_mi? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
 	gurobi? ( dev-python/gurobipy[${PYTHON_USEDEP}] )
-	highs? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	highs? ( >=dev-python/scipy-1.6.1[${PYTHON_USEDEP}] )
 	mosek? ( dev-python/Mosek[${PYTHON_USEDEP}] )
 	pdlp? ( dev-python/ortools[${PYTHON_USEDEP}] )
 	piqp? ( dev-python/piqp[${PYTHON_USEDEP}] )
 	proxqp? ( dev-python/proxsuite[${PYTHON_USEDEP}] )
 	scip? ( dev-python/PySCIPOpt[${PYTHON_USEDEP}] )
 	scipy? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	scs? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	scs? ( >dev-python/setuptools-65.5.1[${PYTHON_USEDEP}] )
 	xpress? ( dev-python/xpress[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

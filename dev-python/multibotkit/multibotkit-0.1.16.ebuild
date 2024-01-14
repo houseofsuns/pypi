@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mongo redis"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.0.1[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-22.1.0[${PYTHON_USEDEP}]
 	mongo? ( dev-python/motor[${PYTHON_USEDEP}] )
 	redis? ( dev-python/aioredis[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

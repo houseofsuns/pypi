@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fixtures[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/ovs[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/fixtures-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/netaddr-0.7.18[${PYTHON_USEDEP}]
+	>=dev-python/ovs-2.10.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

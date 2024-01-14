@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="clipboardreporter pairwisecombinations verify_html"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-4.0.0[${PYTHON_USEDEP}]
 	dev-python/empty-files[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.6.2[${PYTHON_USEDEP}]
 	clipboardreporter? ( dev-python/pyperclip[${PYTHON_USEDEP}] )
 	pairwisecombinations? ( dev-python/allpairspy[${PYTHON_USEDEP}] )
 	verify_html? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )"

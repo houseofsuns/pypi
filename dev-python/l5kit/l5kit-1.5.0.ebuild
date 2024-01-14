@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/pymap3d[${PYTHON_USEDEP}]
 	dev-python/imageio[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python-headless[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]

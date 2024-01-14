@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="distances visualize"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.23.3[${PYTHON_USEDEP}]
 	distances? ( dev-python/distances[${PYTHON_USEDEP}] )
 	distances? ( dev-python/zss[${PYTHON_USEDEP}] )
-	distances? ( dev-python/munkres[${PYTHON_USEDEP}] )
-	visualize? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	visualize? ( dev-python/networkx[${PYTHON_USEDEP}] )"
+	distances? ( >=dev-python/munkres-1.0.12[${PYTHON_USEDEP}] )
+	visualize? ( ~dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}] )
+	visualize? ( >=dev-python/networkx-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tables viz"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	tables? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	tables? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	viz? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"

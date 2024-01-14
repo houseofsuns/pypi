@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/qtconsole[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyside6-6.6[${PYTHON_USEDEP}]
+	<dev-python/psutil-5.9.2[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-client-6.0[${PYTHON_USEDEP}]
+	>=dev-python/qtconsole-5.1[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	dev-python/spinedb-api[${PYTHON_USEDEP}]
 	dev-python/spine-engine[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.2[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.1[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.6[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.2[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.8[${PYTHON_USEDEP}]
 	dev-python/jill[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-21.0[${PYTHON_USEDEP}]
 	dev-python/spine-items[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

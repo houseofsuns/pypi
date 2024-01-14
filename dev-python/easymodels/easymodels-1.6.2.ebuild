@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/terminaltables[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	>=dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]
 	dev-python/PySimpleGUIQt[${PYTHON_USEDEP}]
 	dev-python/PySide2[${PYTHON_USEDEP}]
 	dev-python/crayons[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	~dev-python/tqdm-4.33.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

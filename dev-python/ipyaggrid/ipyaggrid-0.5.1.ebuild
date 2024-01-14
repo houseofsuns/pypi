@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ui-test unit-test"
-DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipywidgets-7.4.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.13.2[${PYTHON_USEDEP}]
 	ui-test? ( dev-python/solara[${PYTHON_USEDEP}] )
-	ui-test? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
+	ui-test? ( <dev-python/jupyter-server-2.0[${PYTHON_USEDEP}] )
 	ui-test? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	ui-test? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	ui-test? ( ~dev-python/jupyterlab-3.6.3[${PYTHON_USEDEP}] )
 	unit-test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

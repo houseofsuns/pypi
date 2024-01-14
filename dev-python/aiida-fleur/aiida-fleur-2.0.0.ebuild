@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs graphs pre-commit testing"
 DEPENDENCIES="dev-python/aiida-core[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.8[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/masci-tools[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
@@ -34,23 +34,23 @@ DEPENDENCIES="dev-python/aiida-core[${PYTHON_USEDEP}]
 	dev-python/more_itertools[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-0.15.2[${PYTHON_USEDEP}] )
 	graphs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	graphs? ( dev-python/masci-tools[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/yapf-0.30[${PYTHON_USEDEP}] )
+	pre-commit? ( >=dev-python/pylint-2.5[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/mypy-0.990[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/lxml-stubs[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-2.9[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-mpl-0.12[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pgtest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-regressions-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

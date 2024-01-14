@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev test"
-DEPENDENCIES="dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/websockets-10.3[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.6.1[${PYTHON_USEDEP}]
+	build? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

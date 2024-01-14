@@ -27,7 +27,7 @@ IUSE="dev examples orjson tests ujson"
 DEPENDENCIES="dev-python/http-router[${PYTHON_USEDEP}]
 	dev-python/multidict[${PYTHON_USEDEP}]
 	dev-python/sniffio[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.8.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cython[${PYTHON_USEDEP}] )

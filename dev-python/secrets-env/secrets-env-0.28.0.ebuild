@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all keyring teleport yaml"
 DEPENDENCIES="all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
-	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	teleport? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	dev-python/httpx[${PYTHON_USEDEP}]
-	all? ( dev-python/keyring[${PYTHON_USEDEP}] )
-	keyring? ( dev-python/keyring[${PYTHON_USEDEP}] )
-	dev-python/tomli[${PYTHON_USEDEP}]"
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/cryptography-36.0.0[${PYTHON_USEDEP}] )
+	teleport? ( >=dev-python/cryptography-36.0.0[${PYTHON_USEDEP}] )
+	>=dev-python/httpx-0.23.1[${PYTHON_USEDEP}]
+	all? ( <dev-python/keyring-24.0.0[${PYTHON_USEDEP}] )
+	keyring? ( <dev-python/keyring-24.0.0[${PYTHON_USEDEP}] )
+	<dev-python/tomli-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

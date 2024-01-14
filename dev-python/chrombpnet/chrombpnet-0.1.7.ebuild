@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.1[${PYTHON_USEDEP}]
 	dev-python/matplotlib-venn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
 	dev-python/pyfaidx[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-estimator[${PYTHON_USEDEP}]
 	dev-python/tensorflow-probability[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.48.2[${PYTHON_USEDEP}]
 	dev-python/deepdish[${PYTHON_USEDEP}]
 	dev-python/deeplift[${PYTHON_USEDEP}]
 	dev-python/modisco[${PYTHON_USEDEP}]
 	dev-python/modisco-lite[${PYTHON_USEDEP}]
-	dev-python/weasyprint[${PYTHON_USEDEP}]
+	~dev-python/weasyprint-52.5[${PYTHON_USEDEP}]
 	dev-python/kundajelab-shap[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

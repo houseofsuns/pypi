@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/horizon[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
+	>=dev-python/pbr-5.5.0[${PYTHON_USEDEP}]
 	dev-python/python-heatclient[${PYTHON_USEDEP}]
 	dev-python/xstatic-angular-uuid[${PYTHON_USEDEP}]
 	dev-python/xstatic-angular-vis[${PYTHON_USEDEP}]

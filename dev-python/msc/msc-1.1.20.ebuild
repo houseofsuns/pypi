@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.7.2[${PYTHON_USEDEP}]
 	dev-python/kafka[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/uuid[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.0[${PYTHON_USEDEP}]
 	dev-python/mongoengine[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/redis-2.10.6[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
-	dev-python/jsonmerge[${PYTHON_USEDEP}]"
+	~dev-python/jsonmerge-1.5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

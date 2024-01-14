@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all geo orm remote-agents wallet"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/msgpack-2.0.0[${PYTHON_USEDEP}]
 	dev-python/bech32[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
-	dev-python/apispec[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/ecdsa-0.19.0[${PYTHON_USEDEP}]
+	<dev-python/apispec-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.21.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/cosmpy[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	<dev-python/websockets-11.0[${PYTHON_USEDEP}]
 	all? ( dev-python/fetchai-babble[${PYTHON_USEDEP}] )
 	wallet? ( dev-python/fetchai-babble[${PYTHON_USEDEP}] )
 	all? ( dev-python/tortoise-orm[${PYTHON_USEDEP}] )

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/parse[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
+	<dev-python/tomlkit-0.11.0[${PYTHON_USEDEP}]
+	<dev-python/parse-2.0[${PYTHON_USEDEP}]
 	dev-python/cached_property[${PYTHON_USEDEP}]
 	dev-python/classproperties[${PYTHON_USEDEP}]
 	dev-python/minilog[${PYTHON_USEDEP}]"

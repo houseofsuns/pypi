@@ -27,18 +27,18 @@ IUSE="all dask mpi ray"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
 	all? ( dev-python/ray[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	all? ( dev-python/dask[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/dask-2.22.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	all? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
-	all? ( dev-python/msgpack[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mpi4py-3.0.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/msgpack-1.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( >=dev-python/dask-2.22.0[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
-	mpi? ( dev-python/msgpack[${PYTHON_USEDEP}] )
+	mpi? ( >=dev-python/mpi4py-3.0.3[${PYTHON_USEDEP}] )
+	mpi? ( >=dev-python/msgpack-1.0.0[${PYTHON_USEDEP}] )
 	mpi? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
-	ray? ( dev-python/pydantic[${PYTHON_USEDEP}] )"
+	ray? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

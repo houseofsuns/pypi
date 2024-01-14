@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/fiona[${PYTHON_USEDEP}]
 	dev-python/pyproj[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/mapbox-vector-tile[${PYTHON_USEDEP}]
+	>=dev-python/mapbox-vector-tile-2.0.1[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

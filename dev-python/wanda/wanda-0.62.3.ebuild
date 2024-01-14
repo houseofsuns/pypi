@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/cloudscraper[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/lxml-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/cloudscraper-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/screeninfo[${PYTHON_USEDEP}]
 	dev-python/colorthief[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
-	dev-python/musicbrainzngs[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]"
+	<dev-python/filetype-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/musicbrainzngs-0.8.0[${PYTHON_USEDEP}]
+	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

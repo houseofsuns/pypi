@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-compute[${PYTHON_USEDEP}]
-	dev-python/ipdb[${PYTHON_USEDEP}]
+	<dev-python/ipdb-0.14.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/openshift-cluster-management-python-wrapper[${PYTHON_USEDEP}]
 	dev-python/openshift-python-utilities[${PYTHON_USEDEP}]
 	dev-python/openshift-python-wrapper[${PYTHON_USEDEP}]
 	dev-python/pyaml-env[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	dev-python/python-simple-logger[${PYTHON_USEDEP}]
 	dev-python/python-terraform[${PYTHON_USEDEP}]
 	dev-python/redhat-qe-cloud-tools[${PYTHON_USEDEP}]
 	dev-python/rosa-python-client[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	<dev-python/semver-4.0.0[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/timeout-sampler[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

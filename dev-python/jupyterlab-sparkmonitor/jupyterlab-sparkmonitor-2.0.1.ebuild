@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]"
+	>=dev-python/jupyterlab-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

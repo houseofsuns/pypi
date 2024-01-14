@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/ovos-bus-client[${PYTHON_USEDEP}]
 	dev-python/ovos-config[${PYTHON_USEDEP}]
 	dev-python/ovos-utils[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]"
+	~dev-python/tornado-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

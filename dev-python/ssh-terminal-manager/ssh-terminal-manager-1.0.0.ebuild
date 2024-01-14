@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
 	dev-python/icmplib[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-3.2.0[${PYTHON_USEDEP}]
 	dev-python/terminal-manager[${PYTHON_USEDEP}]
 	dev-python/wakeonlan[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

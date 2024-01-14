@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dnspython-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/greenlet-1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/commitizen[${PYTHON_USEDEP}] )

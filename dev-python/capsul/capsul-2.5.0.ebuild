@@ -28,15 +28,15 @@ DEPENDENCIES="dev-python/traits[${PYTHON_USEDEP}]
 	dev-python/soma-base[${PYTHON_USEDEP}]
 	dev-python/soma-workflow[${PYTHON_USEDEP}]
 	dev-python/populse-db[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.13[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	database? ( dev-python/populse-db[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	nipype? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	nipype? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-1.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/numpy-1.17[${PYTHON_USEDEP}] )
+	nipype? ( >=dev-python/numpy-1.17[${PYTHON_USEDEP}] )
+	nipype? ( >=dev-python/scipy-1.5[${PYTHON_USEDEP}] )
 	nipype? ( dev-python/nibabel[${PYTHON_USEDEP}] )
-	nipype? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	nipype? ( >=dev-python/networkx-1.0[${PYTHON_USEDEP}] )
 	nipype? ( dev-python/nipype[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

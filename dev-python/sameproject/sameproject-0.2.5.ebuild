@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="azureml dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/jupytext[${PYTHON_USEDEP}]
-	dev-python/jupyter[${PYTHON_USEDEP}]
+	<dev-python/jupyter-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Cerberus[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/python-box-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/kfp[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.4[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tblib[${PYTHON_USEDEP}]
-	dev-python/metakernel[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tblib-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/metakernel-0.28.0[${PYTHON_USEDEP}]
+	<dev-python/regex-2022.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/johnnydep[${PYTHON_USEDEP}] )
 	dev-python/cytoolz[${PYTHON_USEDEP}]
 	dev-python/Pympler[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
+	<dev-python/docker-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/docopt-0.7.0[${PYTHON_USEDEP}]
 	dev-python/yarg[${PYTHON_USEDEP}]
 	dev-python/pipreqs[${PYTHON_USEDEP}]
 	dev-python/python-pachyderm[${PYTHON_USEDEP}]
@@ -54,20 +54,20 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	azureml? ( dev-python/azureml-pipeline[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-virtualenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mock-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-virtualenv-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/build-0.7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pip-23.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/setuptools-63.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/wheel-0.38.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-xdist-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -31,14 +31,14 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/scikit-video[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/dm-sonnet[${PYTHON_USEDEP}]
 	dev-python/easydict[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	gcloud? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	>=dev-python/six-1.11[${PYTHON_USEDEP}]
+	gcloud? ( <dev-python/google-api-python-client-2.0[${PYTHON_USEDEP}] )
 	gcloud? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gcloud? ( dev-python/oauth2client[${PYTHON_USEDEP}] )
-	gcloud? ( dev-python/pyasn1[${PYTHON_USEDEP}] )
+	gcloud? ( >=dev-python/pyasn1-0.4.2[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tf-gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

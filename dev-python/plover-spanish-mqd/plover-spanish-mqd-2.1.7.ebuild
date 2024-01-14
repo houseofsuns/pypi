@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="lint test type"
 DEPENDENCIES="dev-python/plover[${PYTHON_USEDEP}]
 	dev-python/plover-python-dictionary[${PYTHON_USEDEP}]
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-tabs[${PYTHON_USEDEP}] )
 	test? ( dev-python/plover[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	type? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-3.0.1[${PYTHON_USEDEP}] )
+	type? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

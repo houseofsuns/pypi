@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typing[${PYTHON_USEDEP}]
-	dev-python/pyglet[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/trio[${PYTHON_USEDEP}]
+	>=dev-python/pyglet-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-39.0.1[${PYTHON_USEDEP}]
+	>=dev-python/trio-0.11.0[${PYTHON_USEDEP}]
 	dev-python/anyjson[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

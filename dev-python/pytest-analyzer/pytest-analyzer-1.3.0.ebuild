@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/autopep8[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/requests-2.29.0[${PYTHON_USEDEP}]
+	>=dev-python/autopep8-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.3.1[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.28.28[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

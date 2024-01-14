@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lint"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/colorlog-5.0.0[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/unidiff[${PYTHON_USEDEP}]
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	<dev-python/tomlkit-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/unidiff-1.0.0[${PYTHON_USEDEP}]
+	lint? ( <=dev-python/black-22.10[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	lint? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/isort-5.2.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/mypy-0.800[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

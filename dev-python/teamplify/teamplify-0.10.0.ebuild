@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sarge[${PYTHON_USEDEP}]
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
+	>=dev-python/click-5.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	>=dev-python/sarge-0.1.4[${PYTHON_USEDEP}]
+	tests? ( >=dev-python/flake8-3.2.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/selenium[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-2.9.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/selenium-4.8.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

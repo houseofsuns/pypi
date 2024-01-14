@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/cerberus[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/cerberus-1.3.4[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]"
+	~dev-python/psutil-5.9.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

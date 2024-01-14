@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docker-compose-v1 tests"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pytest-8.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
 	docker-compose-v1? ( dev-python/docker-compose[${PYTHON_USEDEP}] )
-	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pylint[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
-	dev-python/emcee[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.11.3[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/lmfit-1.2.2[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-5.3.2[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.6.0[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/rapidfuzz-3.4.0[${PYTHON_USEDEP}]
+	>=dev-python/emcee-3.1.4[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

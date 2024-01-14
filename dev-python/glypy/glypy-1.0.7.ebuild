@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all glyspace plot"
-DEPENDENCIES="plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+DEPENDENCIES="plot? ( >=dev-python/matplotlib-2.2.0[${PYTHON_USEDEP}] )
 	glyspace? ( dev-python/SPARQLWrapper[${PYTHON_USEDEP}] )
 	glyspace? ( dev-python/rdflib[${PYTHON_USEDEP}] )
 	glyspace? ( dev-python/requests[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-2.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/SPARQLWrapper[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/rdflib[${PYTHON_USEDEP}] )

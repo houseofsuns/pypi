@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all env ini toml yaml"
 DEPENDENCIES="dev-python/diot[${PYTHON_USEDEP}]
-	env? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	env? ( <dev-python/python-dotenv-0.22[${PYTHON_USEDEP}] )
+	all? ( <dev-python/python-dotenv-0.22[${PYTHON_USEDEP}] )
+	yaml? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	toml? ( dev-python/rtoml[${PYTHON_USEDEP}] )
 	all? ( dev-python/rtoml[${PYTHON_USEDEP}] )
-	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	all? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	ini? ( dev-python/iniconfig[${PYTHON_USEDEP}] )
-	all? ( dev-python/iniconfig[${PYTHON_USEDEP}] )"
+	toml? ( <dev-python/tomli-3.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tomli-3.0[${PYTHON_USEDEP}] )
+	ini? ( <dev-python/iniconfig-3.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/iniconfig-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

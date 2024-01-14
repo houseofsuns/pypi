@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="autopep8 black dev"
 DEPENDENCIES="dev-python/pipfile[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4[${PYTHON_USEDEP}]
+	~dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/requirementslib[${PYTHON_USEDEP}]
 	dev-python/vistir[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	~dev-python/six-1.12[${PYTHON_USEDEP}]
+	<=dev-python/chardet-5.0.0[${PYTHON_USEDEP}]
+	>dev-python/pyparsing-3.0.5[${PYTHON_USEDEP}]
 	autopep8? ( dev-python/autopep8[${PYTHON_USEDEP}] )
 	black? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-datadir[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-datadir-1.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-1.29[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.24[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/autopep8-1.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-six[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-5.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

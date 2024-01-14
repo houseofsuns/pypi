@@ -34,41 +34,41 @@ DEPENDENCIES="dev-python/bibtexparser[${PYTHON_USEDEP}]
 	dev-python/ordered-set[${PYTHON_USEDEP}]
 	dev-python/panflute[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	dev-python/traitlets[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
-	code_style? ( dev-python/black[${PYTHON_USEDEP}] )
+	code_style? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	code_style? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	code_style? ( dev-python/doc8[${PYTHON_USEDEP}] )
+	code_style? ( <dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
+	code_style? ( <dev-python/doc8-0.9.0[${PYTHON_USEDEP}] )
 	code_style? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/sympy[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	rtd? ( <dev-python/sympy-1.3[${PYTHON_USEDEP}] )
+	rtd? ( >=dev-python/recommonmark-0.5[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	rtd? ( >=dev-python/pytest-4.4[${PYTHON_USEDEP}] )
+	rtd? ( <dev-python/ipywidgets-8.0[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	rtd? ( >=dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
 	science? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	science? ( dev-python/sympy[${PYTHON_USEDEP}] )
 	science? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	science? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	sphinx? ( >=dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/texsoup[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	tests? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/nbsphinx-0.6[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

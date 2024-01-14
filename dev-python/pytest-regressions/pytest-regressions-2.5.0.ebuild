@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dataframe dev image num"
-DEPENDENCIES="dev-python/pytest-datadir[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-datadir-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.2.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dataframe? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dataframe? ( dev-python/pandas[${PYTHON_USEDEP}] )

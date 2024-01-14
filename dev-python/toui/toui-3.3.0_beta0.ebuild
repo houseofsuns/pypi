@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/flask-sock[${PYTHON_USEDEP}]
 	dev-python/pywebview[${PYTHON_USEDEP}]
-	dev-python/tinycss[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/tinycss-1.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/flask-sqlalchemy-4.0[${PYTHON_USEDEP}]
 	dev-python/Flask-BasicAuth[${PYTHON_USEDEP}]
 	dev-python/Flask-Login[${PYTHON_USEDEP}]
 	dev-python/firebase-admin[${PYTHON_USEDEP}]"

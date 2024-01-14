@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="markdown"
 DEPENDENCIES="dev-python/pelican[${PYTHON_USEDEP}]
 	dev-python/mailscrambler[${PYTHON_USEDEP}]
-	markdown? ( dev-python/markdown[${PYTHON_USEDEP}] )"
+	markdown? ( >=dev-python/markdown-3.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

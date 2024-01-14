@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	dev-python/grpclib[${PYTHON_USEDEP}]
-	dev-python/aiounittest[${PYTHON_USEDEP}]
+	~dev-python/aiounittest-1.4.1[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/solana[${PYTHON_USEDEP}]
 	dev-python/solders[${PYTHON_USEDEP}]

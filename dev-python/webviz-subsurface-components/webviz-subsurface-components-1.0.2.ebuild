@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dash[${PYTHON_USEDEP}] )
 	tests? ( dev-python/geojson[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jsonpatch[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jsonpointer[${PYTHON_USEDEP}] )
-	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/jsonpatch-1.32[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/jsonpointer-2.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/orjson-3.8.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pylint-2.4[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/scipy-1.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/selenium-3.141[${PYTHON_USEDEP}] )
 	tests? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	tests? ( dev-python/webviz-core-components[${PYTHON_USEDEP}] )
 	tests? ( dev-python/xtgeo[${PYTHON_USEDEP}] )"

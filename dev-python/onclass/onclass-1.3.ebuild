@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/sentence-transformers[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/fbpca[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scanorama[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

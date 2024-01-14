@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytimeparse[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
+	>=dev-python/iso8601-0.1.11[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/pytimeparse-1.1.5[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )

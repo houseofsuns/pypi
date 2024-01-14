@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	dev-python/open3d[${PYTHON_USEDEP}]
 	dev-python/rsaitehu-geometry[${PYTHON_USEDEP}]
 	dev-python/rsaitehu-sampling[${PYTHON_USEDEP}]"

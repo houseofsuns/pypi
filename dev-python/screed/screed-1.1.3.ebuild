@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all test"
-DEPENDENCIES="test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES="test? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

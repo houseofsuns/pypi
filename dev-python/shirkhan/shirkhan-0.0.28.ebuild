@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="shirkhan_extra"
-DEPENDENCIES="dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pycryptodome-3.10.1[${PYTHON_USEDEP}]
+	~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]
 	dev-python/praatio[${PYTHON_USEDEP}]
 	shirkhan_extra? ( dev-python/pydub[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

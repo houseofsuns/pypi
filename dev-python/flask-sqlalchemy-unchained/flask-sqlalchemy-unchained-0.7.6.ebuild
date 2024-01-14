@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-sqlalchemy-2.3.2[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-unchained[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )

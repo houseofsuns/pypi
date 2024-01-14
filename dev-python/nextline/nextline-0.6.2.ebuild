@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
 DEPENDENCIES="dev-python/apluggy[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	dev-python/tblib[${PYTHON_USEDEP}]
-	dev-python/transitions[${PYTHON_USEDEP}]
+	>=dev-python/exceptiongroup-1.2[${PYTHON_USEDEP}]
+	>=dev-python/tblib-1.7[${PYTHON_USEDEP}]
+	>=dev-python/transitions-0.9[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/hypothesis-6.65[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-asyncio-0.18[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-timeout-2.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

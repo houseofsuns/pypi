@@ -24,35 +24,35 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="celery dev doc test"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/alembic-1.11.3[${PYTHON_USEDEP}]
+	>=dev-python/anyio-3.7.0[${PYTHON_USEDEP}]
 	dev-python/broadcaster[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
+	~dev-python/deepmerge-0.1.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/fastapi-etag[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-9.0.0[${PYTHON_USEDEP}]
 	dev-python/itsdangerous[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	~dev-python/orjson-3.9.5[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.5.1[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	<dev-python/redis-4.7.0[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	~dev-python/sentry-sdk-1.30.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
 	dev-python/structlog[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.20.0[${PYTHON_USEDEP}]
 	dev-python/nwa-stdlib[${PYTHON_USEDEP}]
 	dev-python/oauth2-lib[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]
 	dev-python/pydantic-forms[${PYTHON_USEDEP}]
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-1.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-render-swagger-plugin[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
@@ -74,7 +74,7 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	test? ( dev-python/dirty-equals[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/jsonref[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-httpx[${PYTHON_USEDEP}] )

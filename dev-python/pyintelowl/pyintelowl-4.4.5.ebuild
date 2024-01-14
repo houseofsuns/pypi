@@ -24,37 +24,37 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.28[${PYTHON_USEDEP}]
 	dev-python/geocoder[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.5.1[${PYTHON_USEDEP}]
 	dev-python/click-creds[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.25.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox-gh-actions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/requests-2.28[${PYTHON_USEDEP}] )
 	dev? ( dev-python/geocoder[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/rich-12.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/click-creds[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tox-3.25.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox-gh-actions[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-2.28[${PYTHON_USEDEP}] )
 	test? ( dev-python/geocoder[${PYTHON_USEDEP}] )
-	test? ( dev-python/click[${PYTHON_USEDEP}] )
-	test? ( dev-python/rich[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/rich-12.5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/click-creds[${PYTHON_USEDEP}] )
-	test? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

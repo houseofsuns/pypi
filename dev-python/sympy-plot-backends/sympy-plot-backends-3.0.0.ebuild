@@ -25,26 +25,26 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/mergedeep[${PYTHON_USEDEP}]
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.10.1[${PYTHON_USEDEP}]
+	>dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}]
+	>=dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}]
+	all? ( >=dev-python/scipy-1.7.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/adaptive[${PYTHON_USEDEP}] )
 	all? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipympl[${PYTHON_USEDEP}] )
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/plotly-4.14.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/panel[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipywidgets-bokeh[${PYTHON_USEDEP}] )
 	all? ( dev-python/colorcet[${PYTHON_USEDEP}] )
 	all? ( dev-python/k3d[${PYTHON_USEDEP}] )
 	all? ( dev-python/vtk[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/scipy-1.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/adaptive[${PYTHON_USEDEP}] )
 	dev? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipympl[${PYTHON_USEDEP}] )
-	dev? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/plotly-4.14.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/panel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipywidgets-bokeh[${PYTHON_USEDEP}] )
 	dev? ( dev-python/colorcet[${PYTHON_USEDEP}] )

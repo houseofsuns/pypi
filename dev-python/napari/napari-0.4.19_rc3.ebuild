@@ -24,41 +24,41 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all build dev docs optional pyqt pyqt5 pyqt6_experimental pyside pyside2 pyside6_experimental qt release testing"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/app-model[${PYTHON_USEDEP}]
 	dev-python/cachey[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2018.1.18[${PYTHON_USEDEP}]
+	>=dev-python/dask-2.15.0[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.20[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/lazy-loader[${PYTHON_USEDEP}]
 	dev-python/magicgui[${PYTHON_USEDEP}]
 	dev-python/napari-console[${PYTHON_USEDEP}]
 	dev-python/napari-plugin-engine[${PYTHON_USEDEP}]
 	dev-python/napari-svg[${PYTHON_USEDEP}]
 	dev-python/npe2[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpydoc[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/numpydoc-0.9.2[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.0[${PYTHON_USEDEP}]
 	dev-python/psygnal[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.6.0[${PYTHON_USEDEP}]
 	dev-python/PyOpenGL[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/superqt[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/superqt-0.4.1[${PYTHON_USEDEP}]
+	>=dev-python/tifffile-2020.2.16[${PYTHON_USEDEP}]
+	>=dev-python/toolz-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.56.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
 	dev-python/vispy[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	all? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	>=dev-python/wrapt-1.11.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
+	all? ( >=dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/triangle[${PYTHON_USEDEP}] )
 	all? ( dev-python/numba[${PYTHON_USEDEP}] )
 	all? ( dev-python/napari-plugin-manager[${PYTHON_USEDEP}] )
@@ -72,29 +72,29 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
 	dev? ( dev-python/babel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/hypothesis-6.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-3.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numba[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pooch[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pooch-1.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-pretty[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorstore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/xarray[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/xarray-0.16.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/zarr[${PYTHON_USEDEP}] )
 	dev? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/qtconsole[${PYTHON_USEDEP}] )
-	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/qtconsole-4.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/rich-12.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/napari-plugin-manager[${PYTHON_USEDEP}] )
-	docs? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/triangle[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numba[${PYTHON_USEDEP}] )
 	docs? ( dev-python/napari-plugin-manager[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-tags[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
@@ -102,7 +102,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-favicon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.12.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/napari-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -110,36 +110,36 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	docs? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	optional? ( dev-python/triangle[${PYTHON_USEDEP}] )
 	optional? ( dev-python/numba[${PYTHON_USEDEP}] )
-	pyqt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	pyqt? ( >=dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}] )
+	pyqt5? ( >=dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}] )
 	pyqt6_experimental? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	pyside6_experimental? ( dev-python/PySide6[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/PySide2[${PYTHON_USEDEP}] )
-	qt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	release? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
-	release? ( dev-python/twine[${PYTHON_USEDEP}] )
+	qt? ( >=dev-python/PyQt5-5.12.3[${PYTHON_USEDEP}] )
+	release? ( >=dev-python/PyGithub-1.44.1[${PYTHON_USEDEP}] )
+	release? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
 	release? ( dev-python/gitpython[${PYTHON_USEDEP}] )
-	release? ( dev-python/requests-cache[${PYTHON_USEDEP}] )
+	release? ( >=dev-python/requests-cache-0.9.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/babel[${PYTHON_USEDEP}] )
 	testing? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	testing? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/hypothesis-6.8.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	testing? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/matplotlib-3.6.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/numba[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pooch[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pooch-1.6.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-pretty[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tensorstore[${PYTHON_USEDEP}] )
 	testing? ( dev-python/torch[${PYTHON_USEDEP}] )
 	testing? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
-	testing? ( dev-python/xarray[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/xarray-0.16.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/zarr[${PYTHON_USEDEP}] )
 	testing? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	testing? ( dev-python/qtconsole[${PYTHON_USEDEP}] )
-	testing? ( dev-python/rich[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/qtconsole-4.5.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/rich-12.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/napari-plugin-manager[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

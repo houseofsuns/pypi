@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs notebooks pandas"
-DEPENDENCIES="pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+DEPENDENCIES="pandas? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	notebooks? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/duckdb[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	notebooks? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-external-toc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/myst-parser-0.17.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

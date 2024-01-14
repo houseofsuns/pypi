@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark cassandra experimental_aio redis test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.11[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/pyhash[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	benchmark? ( >=dev-python/matplotlib-3.1.2[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	benchmark? ( >=dev-python/scipy-1.3.3[${PYTHON_USEDEP}] )
+	benchmark? ( >=dev-python/pandas-0.25.3[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/SetSimilaritySearch[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/pyfarmhash[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	cassandra? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
 	experimental_aio? ( dev-python/aiounittest[${PYTHON_USEDEP}] )
 	experimental_aio? ( dev-python/motor[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-2.10.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
-	test? ( dev-python/redis[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/redis-2.10.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/mockredispy[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pymongo-3.9.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose-exclude[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

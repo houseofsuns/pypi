@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/intervaltree[${PYTHON_USEDEP}]
 	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	>=dev-python/typing-extensions-3.7.4.2[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/mypy-0.961[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )

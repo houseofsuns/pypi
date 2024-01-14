@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="berkeleydb html lxml networkx"
-DEPENDENCIES="dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/isodate-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-4.0[${PYTHON_USEDEP}]
 	berkeleydb? ( dev-python/berkeleydb[${PYTHON_USEDEP}] )
-	networkx? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	html? ( dev-python/html5lib[${PYTHON_USEDEP}] )
-	lxml? ( dev-python/lxml[${PYTHON_USEDEP}] )"
+	networkx? ( <dev-python/networkx-3.0.0[${PYTHON_USEDEP}] )
+	html? ( <dev-python/html5lib-2.0[${PYTHON_USEDEP}] )
+	lxml? ( <dev-python/lxml-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

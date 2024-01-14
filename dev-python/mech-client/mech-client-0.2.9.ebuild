@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/asn1crypto-1.5.0[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	dev-python/open-aea-cli-ipfs[${PYTHON_USEDEP}]
 	dev-python/open-aea-ledger-cosmos[${PYTHON_USEDEP}]
 	dev-python/open-aea-ledger-ethereum[${PYTHON_USEDEP}]
 	dev-python/open-aea[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]"
+	<dev-python/websocket-client-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

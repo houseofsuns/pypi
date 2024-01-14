@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/black-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/ipython-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/isort-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/mock-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pip-24.0.0[${PYTHON_USEDEP}]
 	dev-python/pydeps[${PYTHON_USEDEP}]
 	dev-python/pyright[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pytest-gevent[${PYTHON_USEDEP}]
 	dev-python/pytest-pep8[${PYTHON_USEDEP}]
-	dev-python/radon[${PYTHON_USEDEP}]
-	dev-python/responses[${PYTHON_USEDEP}]
+	<dev-python/radon-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/responses-0.23.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/txtint[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

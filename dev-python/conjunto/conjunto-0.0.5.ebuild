@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-4.2[${PYTHON_USEDEP}]
 	dev-python/django-countries[${PYTHON_USEDEP}]
 	dev-python/django-phonenumber-field[${PYTHON_USEDEP}]
 	dev-python/django-crispy-forms[${PYTHON_USEDEP}]

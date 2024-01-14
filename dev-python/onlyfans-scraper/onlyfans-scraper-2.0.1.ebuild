@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
 	dev-python/InquirerPy[${PYTHON_USEDEP}]
 	dev-python/revolution[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
+	~dev-python/setuptools-57.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

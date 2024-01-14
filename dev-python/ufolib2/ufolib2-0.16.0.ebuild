@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="converters json lxml msgpack"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/fonttools[${PYTHON_USEDEP}]
-	converters? ( dev-python/cattrs[${PYTHON_USEDEP}] )
-	json? ( dev-python/cattrs[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-4.0.0[${PYTHON_USEDEP}]
+	converters? ( >=dev-python/cattrs-22.2.0[${PYTHON_USEDEP}] )
+	json? ( >=dev-python/cattrs-22.2.0[${PYTHON_USEDEP}] )
 	json? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	lxml? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	msgpack? ( dev-python/cattrs[${PYTHON_USEDEP}] )
+	msgpack? ( >=dev-python/cattrs-22.2.0[${PYTHON_USEDEP}] )
 	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

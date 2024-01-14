@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/PySide2[${PYTHON_USEDEP}]
 	dev-python/PySide2-Frameless-Window[${PYTHON_USEDEP}]
 	dev-python/darkdetect[${PYTHON_USEDEP}]
 	full? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	full? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	full? ( <=dev-python/pillow-9.4.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/colorthief[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

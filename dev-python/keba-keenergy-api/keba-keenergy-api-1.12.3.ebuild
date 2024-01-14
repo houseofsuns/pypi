@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="audit build format lint tests"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
 	audit? ( dev-python/pip-audit[${PYTHON_USEDEP}] )
-	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	format? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
+	format? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	lint? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/aioresponses[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/aioresponses-0.7.6[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-xdist-3.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all azureblob hive local mysql postgres s3 sftp snowflake sqlserver"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/boto3-1.26.116[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure[${PYTHON_USEDEP}] )
-	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	all? ( dev-python/xlrd[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pysftp[${PYTHON_USEDEP}] )
-	all? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pymysql-1.0.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/impyla[${PYTHON_USEDEP}] )
 	all? ( dev-python/thrift-sasl[${PYTHON_USEDEP}] )
 	all? ( dev-python/pure-sasl[${PYTHON_USEDEP}] )
@@ -44,11 +44,11 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	hive? ( dev-python/pure-sasl[${PYTHON_USEDEP}] )
 	hive? ( dev-python/PyHive[${PYTHON_USEDEP}] )
 	hive? ( dev-python/refractpyhive[${PYTHON_USEDEP}] )
-	local? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	local? ( dev-python/xlrd[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	local? ( ~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}] )
+	local? ( ~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}] )
+	mysql? ( ~dev-python/pymysql-1.0.3[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	s3? ( ~dev-python/boto3-1.26.116[${PYTHON_USEDEP}] )
 	sftp? ( dev-python/pysftp[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	sqlserver? ( dev-python/pyodbc[${PYTHON_USEDEP}] )"

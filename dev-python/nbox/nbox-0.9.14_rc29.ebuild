@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="serving"
 DEPENDENCIES="dev-python/randomname[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.43.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
+	~dev-python/dill-0.3.4[${PYTHON_USEDEP}]
+	~dev-python/python-json-logger-2.0.2[${PYTHON_USEDEP}]
 	dev-python/mypy-protobuf[${PYTHON_USEDEP}]
 	serving? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	serving? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	serving? ( <dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

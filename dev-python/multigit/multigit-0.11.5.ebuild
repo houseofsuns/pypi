@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="development"
 DEPENDENCIES="dev-python/Cerberus[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1.24[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	development? ( dev-python/build[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/build-0.7.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	development? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
-	development? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	development? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	development? ( >=dev-python/sphinxcontrib-programoutput-0.17[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/sphinx-rtd-theme-1.1.0[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/twine-4.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

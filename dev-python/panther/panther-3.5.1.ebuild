@@ -27,16 +27,16 @@ IUSE="full"
 DEPENDENCIES="dev-python/bson[${PYTHON_USEDEP}]
 	dev-python/httptools[${PYTHON_USEDEP}]
 	dev-python/pantherdb[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/watchfiles[${PYTHON_USEDEP}]
-	full? ( dev-python/redis[${PYTHON_USEDEP}] )
-	full? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	full? ( dev-python/bpython[${PYTHON_USEDEP}] )
+	~dev-python/pydantic-2.1[${PYTHON_USEDEP}]
+	~dev-python/rich-13.5[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.23[${PYTHON_USEDEP}]
+	~dev-python/watchfiles-0.19[${PYTHON_USEDEP}]
+	full? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/pymongo-4.4[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/bpython-0.24[${PYTHON_USEDEP}] )
 	full? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	full? ( dev-python/python-jose[${PYTHON_USEDEP}] )
-	full? ( dev-python/websockets[${PYTHON_USEDEP}] )
-	full? ( dev-python/cryptography[${PYTHON_USEDEP}] )"
+	full? ( ~dev-python/python-jose-3.3[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/websockets-12.0[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/cryptography-41.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

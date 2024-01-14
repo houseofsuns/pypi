@@ -33,8 +33,8 @@ DEPENDENCIES="dev-python/gradio-client[${PYTHON_USEDEP}]
 	langchain? ( dev-python/openai[${PYTHON_USEDEP}] )
 	minichain? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	minichain? ( dev-python/minichain[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.6.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )"

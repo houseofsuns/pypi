@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pip-23.1[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/streamlit-chat[${PYTHON_USEDEP}]
 	dev-python/streamlit-option-menu[${PYTHON_USEDEP}]
@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/gtts[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/streamlit-bokeh-events[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]"
+	>=dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

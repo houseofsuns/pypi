@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extras mpi nvidia python_version_3-8_ tests"
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pip-9.0.1[${PYTHON_USEDEP}]
+	>dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	<dev-python/sympy-1.13[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
+	<dev-python/py-cpuinfo-10.0[${PYTHON_USEDEP}]
 	dev-python/cgen[${PYTHON_USEDEP}]
 	dev-python/codepy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/multidict[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
@@ -41,20 +41,20 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	extras? ( dev-python/pyrevolve[${PYTHON_USEDEP}] )
 	extras? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	extras? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
-	mpi? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
+	mpi? ( <dev-python/mpi4py-3.1.6[${PYTHON_USEDEP}] )
+	mpi? ( <dev-python/ipyparallel-8.7[${PYTHON_USEDEP}] )
 	nvidia? ( dev-python/cupy-cuda12x[${PYTHON_USEDEP}] )
 	nvidia? ( dev-python/dask-cuda[${PYTHON_USEDEP}] )
-	nvidia? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	nvidia? ( >=dev-python/jupyterlab-3.0[${PYTHON_USEDEP}] )
 	nvidia? ( dev-python/jupyterlab-nvdashboard[${PYTHON_USEDEP}] )
 	nvidia? ( dev-python/dask-labextension[${PYTHON_USEDEP}] )
 	nvidia? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	python_version_3-8_? ( dev-python/pooch[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flake8-2.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nbval[${PYTHON_USEDEP}] )
 	tests? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pooch[${PYTHON_USEDEP}] )"

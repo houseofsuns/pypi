@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
-	dev-python/asyncstdlib[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
+	~dev-python/asyncstdlib-3.10[${PYTHON_USEDEP}]
+	~dev-python/bcrypt-4.0[${PYTHON_USEDEP}]
 	dev-python/cloud-sql-python-connector[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.4[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.2[${PYTHON_USEDEP}]
+	~dev-python/redis-4.3[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/black-22.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.11[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.20[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.10[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

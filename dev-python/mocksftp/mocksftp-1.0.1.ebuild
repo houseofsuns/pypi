@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/paramiko[${PYTHON_USEDEP}]
-	test? ( dev-python/pretend[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pretend-1.0.8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-3.0.6[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-4.2.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.2.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

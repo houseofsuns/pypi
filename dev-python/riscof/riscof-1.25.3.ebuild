@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/GitPython-3.1.17[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.1[${PYTHON_USEDEP}]
 	dev-python/riscv-config[${PYTHON_USEDEP}]
 	dev-python/riscv-isac[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

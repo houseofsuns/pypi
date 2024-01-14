@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="manifest"
 DEPENDENCIES="dev-python/mozfile[${PYTHON_USEDEP}]
 	dev-python/mozlog[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	manifest? ( dev-python/manifestparser[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

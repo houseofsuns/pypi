@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	<dev-python/sympy-1.12[${PYTHON_USEDEP}]
 	dev-python/pdf2image[${PYTHON_USEDEP}]
 	dev-python/ptyx[${PYTHON_USEDEP}]
 	dev-python/smallgraphlib[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]"
+	<dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/argcomplete-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

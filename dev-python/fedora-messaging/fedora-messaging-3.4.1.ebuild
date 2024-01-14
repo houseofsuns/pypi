@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/blinker[${PYTHON_USEDEP}]
 	dev-python/Twisted[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/PyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
+	>=dev-python/pika-1.0.1[${PYTHON_USEDEP}]
 	dev-python/service-identity[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]"

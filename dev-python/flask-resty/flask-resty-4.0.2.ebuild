@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs jwt tests"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.0.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/konch[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pallets-sphinx-themes[${PYTHON_USEDEP}] )
 	jwt? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
-	jwt? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	jwt? ( >=dev-python/cryptography-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"

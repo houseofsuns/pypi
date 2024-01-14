@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/Wagtail[${PYTHON_USEDEP}]
-	dev-python/django-otp[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
+	>=dev-python/django-otp-0.8.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/qrcode-6.1[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-1.4.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-django-4.4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

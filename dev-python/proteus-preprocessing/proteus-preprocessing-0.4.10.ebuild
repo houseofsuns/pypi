@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/python-json-logger-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/readchar[${PYTHON_USEDEP}]
 	dev-python/libecl[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ecl2df[${PYTHON_USEDEP}]
 	dev-python/opm[${PYTHON_USEDEP}]
 	dev-python/scikit-network[${PYTHON_USEDEP}]"

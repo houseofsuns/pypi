@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-2.29[${PYTHON_USEDEP}]
+	<dev-python/future-0.19[${PYTHON_USEDEP}]
+	<dev-python/python-magic-0.5[${PYTHON_USEDEP}]
 	dev-python/redo[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )"
+	testing? ( <dev-python/mock-5.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

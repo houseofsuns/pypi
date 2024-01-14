@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.15.89[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-17.1.0[${PYTHON_USEDEP}]
 	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	all? ( dev-python/annoy[${PYTHON_USEDEP}] )
 	all? ( dev-python/flair[${PYTHON_USEDEP}] )
 	all? ( dev-python/peakutils[${PYTHON_USEDEP}] )
 	all? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
-	all? ( dev-python/plyvel[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/plyvel-1.0.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	all? ( dev-python/jieba[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	all? ( dev-python/bert-serving-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/image[${PYTHON_USEDEP}] )
-	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/psutil-5.6.1[${PYTHON_USEDEP}] )
 	annoy? ( dev-python/annoy[${PYTHON_USEDEP}] )
 	audio? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	bert? ( dev-python/bert-serving-server[${PYTHON_USEDEP}] )
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
 	http? ( dev-python/flask[${PYTHON_USEDEP}] )
 	http? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	leveldb? ( dev-python/plyvel[${PYTHON_USEDEP}] )
+	leveldb? ( >=dev-python/plyvel-1.0.5[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/bert-serving-server[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/bert-serving-client[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/flair[${PYTHON_USEDEP}] )
@@ -76,7 +76,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	scipy? ( dev-python/sklearn[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
-	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/psutil-5.6.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/gputil[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/pytorch-transformers[${PYTHON_USEDEP}] )
 	vision? ( dev-python/opencv-python[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-1.6.10[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.7.1[${PYTHON_USEDEP}]
 	dev-python/dbaas-credentials[${PYTHON_USEDEP}]
 	dev-python/GloboNetworkAPI[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

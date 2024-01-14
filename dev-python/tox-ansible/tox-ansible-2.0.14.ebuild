@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/pytest-ansible[${PYTHON_USEDEP}]
 	dev-python/pytest-xdist[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]
+	>dev-python/tox-4.4.8[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )

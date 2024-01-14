@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="agpl-pdf darkstyle mp4 mysql odbc postgresql spellcheck sword-bibles test"
 DEPENDENCIES="dev-python/Mako[${PYTHON_USEDEP}]
 	dev-python/PyICU[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	>=dev-python/PyQt5-5.12[${PYTHON_USEDEP}]
 	dev-python/PyQtWebEngine[${PYTHON_USEDEP}]
 	dev-python/QtAwesome[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/Mako[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pymediainfo[${PYTHON_USEDEP}]
+	>=dev-python/pymediainfo-2.2[${PYTHON_USEDEP}]
 	dev-python/qrcode[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/waitress[${PYTHON_USEDEP}]
@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/Mako[${PYTHON_USEDEP}]
 	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
 	odbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	spellcheck? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
+	spellcheck? ( >=dev-python/pyenchant-1.6[${PYTHON_USEDEP}] )
 	sword-bibles? ( dev-python/pysword[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )

@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="extra"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-1.6[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-3.7[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.13[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.51[${PYTHON_USEDEP}]
 	dev-python/nevergrad[${PYTHON_USEDEP}]
 	dev-python/Ipython[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	<dev-python/joblib-2.0[${PYTHON_USEDEP}]
 	dev-python/loky[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]
+	>=dev-python/threadpoolctl-3.0[${PYTHON_USEDEP}]
 	extra? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	extra? ( dev-python/nilearn[${PYTHON_USEDEP}] )
 	extra? ( dev-python/python-docx[${PYTHON_USEDEP}] )

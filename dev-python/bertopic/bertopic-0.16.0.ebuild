@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs flair gensim spacy test use vision"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/hdbscan[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.41.1[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	>=dev-python/plotly-4.7.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/mkdocs-1.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-material-4.6.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-0.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-4.6.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.8.0[${PYTHON_USEDEP}] )
 	flair? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	flair? ( dev-python/torch[${PYTHON_USEDEP}] )
 	flair? ( dev-python/flair[${PYTHON_USEDEP}] )
 	gensim? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	spacy? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
 	use? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	use? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )
 	use? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )

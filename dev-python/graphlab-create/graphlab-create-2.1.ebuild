@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/awscli[${PYTHON_USEDEP}]
-	dev-python/boto[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/genson[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/multipledispatch[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
+	~dev-python/boto-2.33.0[${PYTHON_USEDEP}]
+	~dev-python/certifi-2015.4.28[${PYTHON_USEDEP}]
+	~dev-python/decorator-4.0.9[${PYTHON_USEDEP}]
+	~dev-python/genson-0.1.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}]
+	>=dev-python/multipledispatch-0.4.7[${PYTHON_USEDEP}]
+	~dev-python/prettytable-0.7.2[${PYTHON_USEDEP}]
 	dev-python/psclient[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.9.1[${PYTHON_USEDEP}]
 	dev-python/sseclient[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]"
+	~dev-python/tornado-4.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

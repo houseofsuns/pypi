@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="curl simplejson"
-DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	curl? ( dev-python/pycurl[${PYTHON_USEDEP}] )
-	simplejson? ( dev-python/simplejson[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
+	>=dev-python/iso8601-0.1.12[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	curl? ( <dev-python/pycurl-8.0[${PYTHON_USEDEP}] )
+	simplejson? ( >=dev-python/simplejson-2.0.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

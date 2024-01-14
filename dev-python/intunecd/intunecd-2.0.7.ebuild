@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/deepdiff-5.6.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/msrest[${PYTHON_USEDEP}]
 	dev-python/markdown-toclify[${PYTHON_USEDEP}]
 	dev-python/pytablewriter[${PYTHON_USEDEP}]

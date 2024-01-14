@@ -27,7 +27,7 @@ IUSE="docs"
 DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/omero-py[${PYTHON_USEDEP}]
 	dev-python/tiatoolbox[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

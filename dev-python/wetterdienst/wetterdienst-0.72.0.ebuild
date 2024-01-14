@@ -25,36 +25,36 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="bufr cratedb duckdb explorer export influxdb interpolation ipython mpl mysql postgresql radar radarplus restapi sql streamlit"
 DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-3.10[${PYTHON_USEDEP}]
 	dev-python/backports-datetime-fromisoformat[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
+	<dev-python/cachetools-6.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/click-params[${PYTHON_USEDEP}]
 	dev-python/cloup[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/environs[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/deprecation-3.0[${PYTHON_USEDEP}]
+	<dev-python/diskcache-6.0[${PYTHON_USEDEP}]
+	<dev-python/environs-11.0[${PYTHON_USEDEP}]
+	<dev-python/fsspec-2023.13[${PYTHON_USEDEP}]
+	<dev-python/lxml-6.0[${PYTHON_USEDEP}]
 	dev-python/measurement[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.27[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.2[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-5.0[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-15.0[${PYTHON_USEDEP}]
+	<dev-python/pypdf-3.18[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	<dev-python/rapidfuzz-4.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/stamina[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	dev-python/tzfpy[${PYTHON_USEDEP}]
 	dev-python/xlsx2csv[${PYTHON_USEDEP}]
-	dev-python/xlsxwriter[${PYTHON_USEDEP}]
+	<dev-python/xlsxwriter-3.2[${PYTHON_USEDEP}]
 	cratedb? ( dev-python/crate[${PYTHON_USEDEP}] )
 	explorer? ( dev-python/dash[${PYTHON_USEDEP}] )
 	explorer? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
@@ -64,26 +64,26 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/eccodes[${PYTHON_USEDEP}]
 	restapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	explorer? ( dev-python/geojson[${PYTHON_USEDEP}] )
-	restapi? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	radar? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	restapi? ( <dev-python/httpx-0.27[${PYTHON_USEDEP}] )
+	radar? ( <dev-python/h5py-4.0[${PYTHON_USEDEP}] )
 	influxdb? ( dev-python/influxdb[${PYTHON_USEDEP}] )
 	influxdb? ( dev-python/influxdb-client[${PYTHON_USEDEP}] )
 	influxdb? ( dev-python/influxdb3-python[${PYTHON_USEDEP}] )
-	ipython? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	mpl? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
-	export? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	ipython? ( <dev-python/matplotlib-3.9[${PYTHON_USEDEP}] )
+	mpl? ( <dev-python/matplotlib-3.9[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/mysqlclient-3.0[${PYTHON_USEDEP}] )
+	export? ( <dev-python/openpyxl-4.0[${PYTHON_USEDEP}] )
 	bufr? ( dev-python/pdbufr[${PYTHON_USEDEP}] )
-	explorer? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	explorer? ( <dev-python/plotly-6.0[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	interpolation? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	interpolation? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	export? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	interpolation? ( <dev-python/scipy-1.12[${PYTHON_USEDEP}] )
+	interpolation? ( <dev-python/shapely-3.0[${PYTHON_USEDEP}] )
+	export? ( <dev-python/sqlalchemy-2.1[${PYTHON_USEDEP}] )
 	streamlit? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	interpolation? ( dev-python/utm[${PYTHON_USEDEP}] )
-	restapi? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	restapi? ( <dev-python/uvicorn-1.0[${PYTHON_USEDEP}] )
 	radarplus? ( dev-python/wradlib[${PYTHON_USEDEP}] )
-	export? ( dev-python/xarray[${PYTHON_USEDEP}] )
+	export? ( <dev-python/xarray-2023.11[${PYTHON_USEDEP}] )
 	radarplus? ( dev-python/xradar[${PYTHON_USEDEP}] )
 	export? ( dev-python/zarr[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

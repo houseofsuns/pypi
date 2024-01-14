@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.17.0[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
 	dev-python/avajana[${PYTHON_USEDEP}]
-	dev-python/parse[${PYTHON_USEDEP}]
-	dev-python/path[${PYTHON_USEDEP}]
+	<dev-python/parse-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/path-16.0.0[${PYTHON_USEDEP}]
 	dev-python/moshimoshi[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
+	<dev-python/arrow-1.2[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/autoname[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

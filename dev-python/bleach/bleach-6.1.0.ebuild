@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="css"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.9.0[${PYTHON_USEDEP}]
 	dev-python/webencodings[${PYTHON_USEDEP}]
-	css? ( dev-python/tinycss2[${PYTHON_USEDEP}] )"
+	css? ( <dev-python/tinycss2-1.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/python-ndn[${PYTHON_USEDEP}]
 	dev-python/ndn-storage[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.1.1[${PYTHON_USEDEP}]
 	dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]"
+	>=dev-python/sphinx-autodoc-typehints-1.17.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

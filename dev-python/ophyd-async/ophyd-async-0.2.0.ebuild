@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ca dev pva"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
 	dev? ( dev-python/pickleshare[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydata-sphinx-theme-0.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyepics[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="demo test"
 DEPENDENCIES="dev-python/fmrib-unpack-fmrib-config[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
 	dev-python/threadpoolctl[${PYTHON_USEDEP}]

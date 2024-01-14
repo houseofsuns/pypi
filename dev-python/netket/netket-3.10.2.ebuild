@@ -24,47 +24,47 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs extra mpi pyscf"
-DEPENDENCIES="dev-python/beartype[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beartype-0.16.2[${PYTHON_USEDEP}]
 	dev-python/flax[${PYTHON_USEDEP}]
 	dev-python/igraph[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
 	dev-python/numba4jax[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/optax[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/networkx-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-json-report[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-xdist-2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/myst-parser-2.1.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.22[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-fulltoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}] )
-	extra? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/h5py-3.7.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/openfermion[${PYTHON_USEDEP}] )
 	extra? ( dev-python/qutip[${PYTHON_USEDEP}] )
 	extra? ( dev-python/tensorboardx[${PYTHON_USEDEP}] )
 	mpi? ( dev-python/mpi4jax[${PYTHON_USEDEP}] )
-	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
+	mpi? ( <dev-python/mpi4py-4.0[${PYTHON_USEDEP}] )
 	pyscf? ( dev-python/pyscf[${PYTHON_USEDEP}] )
 	pyscf? ( dev-python/sparse[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

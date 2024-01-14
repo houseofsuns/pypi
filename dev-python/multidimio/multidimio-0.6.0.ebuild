@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cloud distributed lossy"
 DEPENDENCIES="cloud? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/bokeh[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/click-params[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/dask-2023.10.0[${PYTHON_USEDEP}]
 	distributed? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2023.9.1[${PYTHON_USEDEP}]
 	cloud? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	cloud? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	dev-python/segyio[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	lossy? ( dev-python/zfpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,33 +24,33 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/autoflake8[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	all? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
+	~dev-python/click-8.0.2[${PYTHON_USEDEP}]
+	<dev-python/docker-7.0[${PYTHON_USEDEP}]
 	dev-python/install[${PYTHON_USEDEP}]
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
+	all? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-autorefs-0.5.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}]
-	dev-python/mkdocstrings-python[${PYTHON_USEDEP}]
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
+	<dev-python/mkdocs-material-extensions-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/mkdocstrings-python-0.11.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/mypy-0.972[${PYTHON_USEDEP}] )
 	dev-python/open-aea[${PYTHON_USEDEP}]
 	dev-python/open-aea-cli-ipfs[${PYTHON_USEDEP}]
 	dev-python/open-autonomy[${PYTHON_USEDEP}]
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pip-23.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylama[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pylama-9.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	dev? ( dev-python/tbump[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/tox-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/twine-5.0.0[${PYTHON_USEDEP}] )
 	dev-python/web3[${PYTHON_USEDEP}]
 	dev-python/yamllint[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

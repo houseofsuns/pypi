@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="toml yaml"
-DEPENDENCIES="yaml? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	toml? ( dev-python/tomlkit[${PYTHON_USEDEP}] )"
+DEPENDENCIES="yaml? ( <dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}] )
+	toml? ( <dev-python/tomlkit-0.13.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

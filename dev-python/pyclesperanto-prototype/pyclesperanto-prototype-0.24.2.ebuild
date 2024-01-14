@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
 	dev-python/pyopencl[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]

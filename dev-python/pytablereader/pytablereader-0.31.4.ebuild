@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all excel gs logging md mediawiki sqlite test url"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-38.3.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
 	dev-python/DataProperty[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
 	dev-python/mbstrdecoder[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
-	dev-python/path[${PYTHON_USEDEP}]
+	<dev-python/pathvalidate-4.0[${PYTHON_USEDEP}]
+	<dev-python/path-17.0[${PYTHON_USEDEP}]
 	dev-python/tabledata[${PYTHON_USEDEP}]
 	dev-python/typepy[${PYTHON_USEDEP}]
-	all? ( dev-python/loguru[${PYTHON_USEDEP}] )
+	all? ( <dev-python/loguru-1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/excelrd[${PYTHON_USEDEP}] )
 	all? ( dev-python/oauth2client[${PYTHON_USEDEP}] )
 	all? ( dev-python/SimpleSQLite[${PYTHON_USEDEP}] )
@@ -47,11 +47,11 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	gs? ( dev-python/oauth2client[${PYTHON_USEDEP}] )
 	gs? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
 	gs? ( dev-python/SimpleSQLite[${PYTHON_USEDEP}] )
-	logging? ( dev-python/loguru[${PYTHON_USEDEP}] )
+	logging? ( <dev-python/loguru-1.0[${PYTHON_USEDEP}] )
 	md? ( dev-python/Markdown[${PYTHON_USEDEP}] )
 	mediawiki? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	sqlite? ( dev-python/SimpleSQLite[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/excelrd[${PYTHON_USEDEP}] )
 	test? ( dev-python/subprocrunner[${PYTHON_USEDEP}] )
 	test? ( dev-python/responses[${PYTHON_USEDEP}] )

@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pushbullet pushover signal yaml"
-DEPENDENCIES="dev-python/construct[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/construct-2.9.43[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/python-slugify-4.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2021.3[${PYTHON_USEDEP}]
+	>=dev-python/paho-mqtt-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
 	pushbullet? ( dev-python/pushbullet-py[${PYTHON_USEDEP}] )
 	pushbullet? ( dev-python/ws4py[${PYTHON_USEDEP}] )
-	pushover? ( dev-python/chump[${PYTHON_USEDEP}] )
-	signal? ( dev-python/pygobject[${PYTHON_USEDEP}] )
-	signal? ( dev-python/pydbus[${PYTHON_USEDEP}] )
+	pushover? ( >=dev-python/chump-1.6.0[${PYTHON_USEDEP}] )
+	signal? ( >=dev-python/pygobject-3.20.0[${PYTHON_USEDEP}] )
+	signal? ( >=dev-python/pydbus-0.6.0[${PYTHON_USEDEP}] )
 	signal? ( dev-python/gi[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-5.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

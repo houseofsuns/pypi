@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="align test viz"
-DEPENDENCIES="viz? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	align? ( dev-python/networkx[${PYTHON_USEDEP}] )
+DEPENDENCIES="viz? ( <dev-python/ipykernel-6.0.0[${PYTHON_USEDEP}] )
+	align? ( <dev-python/networkx-3.0[${PYTHON_USEDEP}] )
 	viz? ( dev-python/nglview[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	align? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	>=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	align? ( >=dev-python/scipy-1.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

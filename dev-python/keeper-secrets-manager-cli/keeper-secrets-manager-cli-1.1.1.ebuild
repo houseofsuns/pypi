@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/keeper-secrets-manager-core[${PYTHON_USEDEP}]
 	dev-python/keeper-secrets-manager-helper[${PYTHON_USEDEP}]
 	dev-python/keeper-secrets-manager-storage[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	~dev-python/prompt-toolkit-2.0[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw-ext[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]

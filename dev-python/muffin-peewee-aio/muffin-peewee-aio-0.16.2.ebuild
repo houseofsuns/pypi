@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiomysql aiopg aiosqlite asyncpg"
 DEPENDENCIES="dev-python/muffin[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
+	<dev-python/peewee-4.0[${PYTHON_USEDEP}]
 	dev-python/peewee-aio[${PYTHON_USEDEP}]
 	dev-python/peewee-migrate[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]

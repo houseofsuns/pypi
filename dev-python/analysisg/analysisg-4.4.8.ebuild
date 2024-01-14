@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/mplhep[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]
 	dev-python/pyAMI-atlas[${PYTHON_USEDEP}]
 	dev-python/awkward[${PYTHON_USEDEP}]
 	dev-python/uproot[${PYTHON_USEDEP}]

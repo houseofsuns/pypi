@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/together[${PYTHON_USEDEP}]
 	dev-python/fireworks-ai[${PYTHON_USEDEP}]
 	dev-python/mistralai[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
 	dev-python/lamini[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

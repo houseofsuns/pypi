@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jupyter-server"
-DEPENDENCIES="dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	jupyter-server? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/nbconvert-6.4.5[${PYTHON_USEDEP}]
+	<dev-python/notebook-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.1[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.9[${PYTHON_USEDEP}]
+	~dev-python/ipython-8.0[${PYTHON_USEDEP}]
+	jupyter-server? ( ~dev-python/jupyter-server-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

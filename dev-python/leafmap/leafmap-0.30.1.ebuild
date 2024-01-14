@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/bqplot[${PYTHON_USEDEP}]
 	all? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-bokeh[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jupyterlab-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/keplergl[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipygany[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipysheet[${PYTHON_USEDEP}] )

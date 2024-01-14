@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bcrypt fido2 gssapi libnacl pkcs11 pyopenssl pywin32"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	bcrypt? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
-	fido2? ( dev-python/fido2[${PYTHON_USEDEP}] )
-	gssapi? ( dev-python/gssapi[${PYTHON_USEDEP}] )
-	libnacl? ( dev-python/libnacl[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/cryptography-39.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.6[${PYTHON_USEDEP}]
+	bcrypt? ( >=dev-python/bcrypt-3.1.3[${PYTHON_USEDEP}] )
+	fido2? ( >=dev-python/fido2-0.9.2[${PYTHON_USEDEP}] )
+	gssapi? ( >=dev-python/gssapi-1.2.0[${PYTHON_USEDEP}] )
+	libnacl? ( >=dev-python/libnacl-1.4.2[${PYTHON_USEDEP}] )
 	pkcs11? ( dev-python/python-pkcs11[${PYTHON_USEDEP}] )
 	pyopenssl? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
 	pywin32? ( dev-python/pywin32[${PYTHON_USEDEP}] )"

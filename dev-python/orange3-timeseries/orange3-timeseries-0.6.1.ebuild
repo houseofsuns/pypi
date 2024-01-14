@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
 DEPENDENCIES="dev-python/Orange3[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.13.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9.2[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
+	>=dev-python/pyqtgraph-0.13.1[${PYTHON_USEDEP}]
 	dev-python/pandas-datareader[${PYTHON_USEDEP}]
 	dev-python/yfinance[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )

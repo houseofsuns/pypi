@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/jupyter-server[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/jupyter-server[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-jupyter[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-jupyter-0.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

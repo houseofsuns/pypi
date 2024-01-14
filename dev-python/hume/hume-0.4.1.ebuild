@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="examples stream"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	stream? ( dev-python/websockets[${PYTHON_USEDEP}] )
-	examples? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	stream? ( <dev-python/websockets-11.0[${PYTHON_USEDEP}] )
+	examples? ( <dev-python/jupyter-2.0.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/pydub[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

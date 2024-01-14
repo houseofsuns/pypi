@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="complete dev docs test"
 DEPENDENCIES="dev-python/asciitree[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/cytoolz[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.5[${PYTHON_USEDEP}]
 	dev-python/multiprocess[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.9[${PYTHON_USEDEP}]
+	>dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/pyfaidx[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.16[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
 	complete? ( dev-python/biopython[${PYTHON_USEDEP}] )
 	complete? ( dev-python/dask[${PYTHON_USEDEP}] )
 	complete? ( dev-python/ipytree[${PYTHON_USEDEP}] )
-	complete? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	complete? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pypairix[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/asciitree[${PYTHON_USEDEP}]
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

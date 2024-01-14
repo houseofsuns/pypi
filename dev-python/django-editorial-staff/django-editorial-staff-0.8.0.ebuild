@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap3[${PYTHON_USEDEP}]
 	dev-python/django-colorfield[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]"
+	~dev-python/djangorestframework-3.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

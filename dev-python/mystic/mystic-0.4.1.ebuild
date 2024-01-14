@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="math parallel plotting"
-DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dill-0.3.7[${PYTHON_USEDEP}]
 	dev-python/klepto[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/mpmath[${PYTHON_USEDEP}]
-	math? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	>=dev-python/numpy-1.0[${PYTHON_USEDEP}]
+	>=dev-python/sympy-0.6.7[${PYTHON_USEDEP}]
+	>=dev-python/mpmath-0.19[${PYTHON_USEDEP}]
+	math? ( >=dev-python/scipy-0.6.0[${PYTHON_USEDEP}] )
 	parallel? ( dev-python/pathos[${PYTHON_USEDEP}] )
 	parallel? ( dev-python/pyina[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	plotting? ( >=dev-python/matplotlib-0.91[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

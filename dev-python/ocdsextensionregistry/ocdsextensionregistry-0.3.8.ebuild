@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli docs test"
 DEPENDENCIES="dev-python/json-merge-patch[${PYTHON_USEDEP}]
-	dev-python/jsonref[${PYTHON_USEDEP}]
+	>=dev-python/jsonref-1.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
+	>=dev-python/requests-cache-1.0[${PYTHON_USEDEP}]
+	>dev-python/cattrs-22.1.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/Babel[${PYTHON_USEDEP}] )
 	cli? ( dev-python/MyST-Parser[${PYTHON_USEDEP}] )
 	cli? ( dev-python/ocds-babel[${PYTHON_USEDEP}] )

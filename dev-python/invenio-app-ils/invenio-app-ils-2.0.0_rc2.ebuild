@@ -56,11 +56,11 @@ DEPENDENCIES="dev-python/invenio-app[${PYTHON_USEDEP}]
 	dev-python/invenio-pidrelations[${PYTHON_USEDEP}]
 	dev-python/invenio-stats[${PYTHON_USEDEP}]
 	dev-python/Flask-Debugtoolbar[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	<dev-python/pycountry-23.0.0[${PYTHON_USEDEP}]
+	<dev-python/simplejson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pluggy-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/itsdangerous-2.1[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
@@ -71,11 +71,11 @@ DEPENDENCIES="dev-python/invenio-app[${PYTHON_USEDEP}]
 	postgresql? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
 	sqlite? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/docker-services-cli[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-mock-1.6.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

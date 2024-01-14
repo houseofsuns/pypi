@@ -27,9 +27,9 @@ IUSE="test"
 DEPENDENCIES="dev-python/pymodbus[${PYTHON_USEDEP}]
 	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	>=dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	test? ( >=dev-python/tox-2.6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.0.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

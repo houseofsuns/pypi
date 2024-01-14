@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/multidict[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
+	>=dev-python/backoff-2.0[${PYTHON_USEDEP}]
 	dev-python/aiofreqlimit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

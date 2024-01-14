@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/tensorflow-hub[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-text[${PYTHON_USEDEP}]
 	dev-python/safetensors[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gradientai langchain local-models postgres query-tools"
 DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2.9.3[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2023.5.0[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	langchain? ( dev-python/langchain[${PYTHON_USEDEP}] )
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
+	<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	gradientai? ( dev-python/gradientai[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/pgvector[${PYTHON_USEDEP}] )
@@ -50,12 +50,12 @@ DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	local-models? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	query-tools? ( dev-python/guidance[${PYTHON_USEDEP}] )
 	query-tools? ( dev-python/lm-format-enforcer[${PYTHON_USEDEP}] )
-	query-tools? ( dev-python/jsonpath-ng[${PYTHON_USEDEP}] )
+	query-tools? ( <dev-python/jsonpath-ng-2.0.0[${PYTHON_USEDEP}] )
 	query-tools? ( dev-python/rank-bm25[${PYTHON_USEDEP}] )
 	query-tools? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	query-tools? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

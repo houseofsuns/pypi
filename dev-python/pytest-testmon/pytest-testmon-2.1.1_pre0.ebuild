@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/pytest-8.0[${PYTHON_USEDEP}]
+	<dev-python/coverage-8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

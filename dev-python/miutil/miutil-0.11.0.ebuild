@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cuda dev mbeautify nii plot web"
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tqdm-4.40.0[${PYTHON_USEDEP}]
 	cuda? ( dev-python/argopt[${PYTHON_USEDEP}] )
 	cuda? ( dev-python/pynvml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	mbeautify? ( dev-python/argopt[${PYTHON_USEDEP}] )
-	mbeautify? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	mbeautify? ( >=dev-python/tqdm-4.42.0[${PYTHON_USEDEP}] )
 	mbeautify? ( dev-python/requests[${PYTHON_USEDEP}] )
 	nii? ( dev-python/nibabel[${PYTHON_USEDEP}] )
 	nii? ( dev-python/numpy[${PYTHON_USEDEP}] )

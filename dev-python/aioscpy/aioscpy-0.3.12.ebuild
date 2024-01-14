@@ -44,6 +44,6 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	all? ( dev-python/redis[${PYTHON_USEDEP}] )
 	all? ( dev-python/anyio[${PYTHON_USEDEP}] )
 	all? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )"
+	httpx? ( >=dev-python/httpx-0.23.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

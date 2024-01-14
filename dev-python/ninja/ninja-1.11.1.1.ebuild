@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.0.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-virtualenv[${PYTHON_USEDEP}] )
-	test? ( dev-python/virtualenv[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-virtualenv-1.7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/virtualenv-15.0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

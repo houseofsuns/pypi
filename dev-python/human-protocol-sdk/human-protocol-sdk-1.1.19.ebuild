@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="agreement"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
 	dev-python/pgpy[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
+	~dev-python/validators-0.20.0[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	agreement? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	agreement? ( dev-python/pyerf[${PYTHON_USEDEP}] )"

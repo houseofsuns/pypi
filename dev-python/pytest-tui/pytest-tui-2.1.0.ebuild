@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ansi2html[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	dev-python/faker[${PYTHON_USEDEP}]
 	dev-python/json2table[${PYTHON_USEDEP}]
-	dev-python/pytest-metadata[${PYTHON_USEDEP}]
+	~dev-python/pytest-metadata-2.0.4[${PYTHON_USEDEP}]
 	dev-python/single-source[${PYTHON_USEDEP}]
 	dev-python/strip-ansi[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]"

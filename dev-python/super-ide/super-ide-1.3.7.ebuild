@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/bottle[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.40[${PYTHON_USEDEP}]
+	~dev-python/bottle-0.12[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/pyelftools[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]"
+	~dev-python/pyelftools-0.29[${PYTHON_USEDEP}]
+	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
+	~dev-python/requests-2.0[${PYTHON_USEDEP}]
+	~dev-python/semantic-version-2.10[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.1[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.19[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

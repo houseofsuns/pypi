@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/arcsecond[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.2[${PYTHON_USEDEP}]
+	>=dev-python/peewee-3.0[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-2.2[${PYTHON_USEDEP}]
 	dev-python/supervisor[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]"

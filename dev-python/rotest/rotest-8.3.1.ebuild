@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-2.1[${PYTHON_USEDEP}]
 	dev-python/py[${PYTHON_USEDEP}]
 	dev-python/ipdbugger[${PYTHON_USEDEP}]
 	dev-python/xlwt[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/swaggapi[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/channels[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-0.56[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev? ( dev-python/xlrd[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pathlib2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylint-2.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/waiting[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

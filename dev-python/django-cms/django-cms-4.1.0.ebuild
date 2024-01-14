@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/djangocms-admin-style[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	argon2? ( dev-python/argon2-cffi[${PYTHON_USEDEP}] )
+	argon2? ( >=dev-python/argon2-cffi-19.1.0[${PYTHON_USEDEP}] )
 	bcrypt? ( dev-python/bcrypt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

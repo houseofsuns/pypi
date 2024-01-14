@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/CLinters[${PYTHON_USEDEP}]
 	dev-python/fasteners[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-23.0[${PYTHON_USEDEP}]
 	dev-python/lizard[${PYTHON_USEDEP}]
 	clang-format? ( dev-python/clang-format[${PYTHON_USEDEP}] )
 	clang-tidy? ( dev-python/clang-tidy[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dynamodb"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/import-string[${PYTHON_USEDEP}]
 	dynamodb? ( dev-python/skip-pydjamodb[${PYTHON_USEDEP}] )
 	dynamodb? ( dev-python/pynamodb[${PYTHON_USEDEP}] )"

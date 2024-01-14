@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-util-http[${PYTHON_USEDEP}]
-	instruments? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	instruments? ( ~dev-python/starlette-0.13.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/httpx-0.22[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-starlette[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/requests-2.23[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

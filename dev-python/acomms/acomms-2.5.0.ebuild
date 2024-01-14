@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bitstring[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/crcmod[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/bitstring-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-2.6[${PYTHON_USEDEP}]
+	>=dev-python/isodate-0.4.9[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.1[${PYTHON_USEDEP}]
+	>=dev-python/crcmod-1.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

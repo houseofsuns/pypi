@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cucim"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.1[${PYTHON_USEDEP}]
 	all? ( dev-python/cucim[${PYTHON_USEDEP}] )
 	cucim? ( dev-python/cucim[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

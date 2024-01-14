@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiofiles-0.4.0[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
+	~dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
+	~dev-python/certifi-2020.4.5.1[${PYTHON_USEDEP}]
+	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
+	~dev-python/click-7.1.1[${PYTHON_USEDEP}]
 	dev-python/colorful[${PYTHON_USEDEP}]
-	dev-python/colorful[${PYTHON_USEDEP}]
+	~dev-python/colorful-0.5.4[${PYTHON_USEDEP}]
 	dev-python/evdev[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	~dev-python/idna-2.9[${PYTHON_USEDEP}]
 	dev-python/idna-ssl[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/pystache[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	~dev-python/multidict-4.7.5[${PYTHON_USEDEP}]
+	~dev-python/pystache-0.5.4[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-3.7.4.2[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.25.8[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

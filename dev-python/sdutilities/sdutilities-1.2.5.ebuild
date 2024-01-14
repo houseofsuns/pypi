@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.2[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	dev-python/sdcensus[${PYTHON_USEDEP}]
 	dev-python/us[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.9[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.17.43[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.19.52[${PYTHON_USEDEP}]
 	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
-	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
+	>=dev-python/fuzzywuzzy-0.18.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

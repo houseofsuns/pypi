@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-gallery-0.1.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-versioning[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"

@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="server"
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/webexception[${PYTHON_USEDEP}]
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	dev-python/croniter[${PYTHON_USEDEP}]
+	server? ( <dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )
+	<dev-python/croniter-3.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/supervisor[${PYTHON_USEDEP}] )
-	server? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
+	server? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/lsrestclient[${PYTHON_USEDEP}]
 	server? ( dev-python/pydantic-db-backend[${PYTHON_USEDEP}] )
 	dev-python/pydantic-db-backend-common[${PYTHON_USEDEP}]
-	server? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	server? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

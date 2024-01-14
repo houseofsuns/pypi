@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs optional plotting_deps"
 DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.1[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/dnspython[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/dnspython-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pycountry[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

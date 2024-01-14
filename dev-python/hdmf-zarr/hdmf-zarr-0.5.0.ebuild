@@ -27,12 +27,12 @@ IUSE="fsspec s3fs tqdm"
 DEPENDENCIES="dev-python/hdmf[${PYTHON_USEDEP}]
 	dev-python/numcodecs[${PYTHON_USEDEP}]
 	dev-python/numcodecs[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/pynwb[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]
+	>=dev-python/threadpoolctl-3.1.0[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	fsspec? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	s3fs? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	tqdm? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	tqdm? ( >=dev-python/tqdm-4.41.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/humanfriendly[${PYTHON_USEDEP}]
-	dev-python/verboselogs[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/humanfriendly-8.0[${PYTHON_USEDEP}]
+	>=dev-python/verboselogs-1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

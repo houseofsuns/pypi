@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="clickhouse mysql postgresql postgresql-binary rabbitmq redis"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]
-	dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.4.2[${PYTHON_USEDEP}]
+	>=dev-python/py-1.10[${PYTHON_USEDEP}]
+	>=dev-python/pytest-aiohttp-0.3.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-asyncio-0.22[${PYTHON_USEDEP}]
+	>=dev-python/pytest-4.5.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7.3[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2018.5[${PYTHON_USEDEP}]
+	>=dev-python/uvloop-0.12.1[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-3.7.1[${PYTHON_USEDEP}]
+	>=dev-python/cached-property-1.5.1[${PYTHON_USEDEP}]
 	clickhouse? ( dev-python/clickhouse-driver[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
@@ -43,6 +43,6 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	postgresql-binary? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	rabbitmq? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	redis? ( dev-python/python-redis[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	redis? ( >=dev-python/redis-2.10.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/isodate[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
 	develop? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	develop? ( dev-python/tox[${PYTHON_USEDEP}] )
-	speedup? ( dev-python/plyvel[${PYTHON_USEDEP}] )"
+	speedup? ( <dev-python/plyvel-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/pyramid-celery[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/kombu[${PYTHON_USEDEP}]
+	~dev-python/redis-3.5.3[${PYTHON_USEDEP}]
+	~dev-python/kombu-4.6.11[${PYTHON_USEDEP}]
 	dev-python/sylk-parser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

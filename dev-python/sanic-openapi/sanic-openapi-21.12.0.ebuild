@@ -25,27 +25,27 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
 DEPENDENCIES="dev-python/sanic[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	>=dev-python/pyyaml-3.0.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-4.3.19[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-4.5.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-4.6.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.12.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/recommonmark-0.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/recommonmark-0.5.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-4.5.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-4.6.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/tox-3.12.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

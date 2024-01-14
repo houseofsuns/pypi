@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/PyQtWebEngine[${PYTHON_USEDEP}]
+	<dev-python/PyQt5-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/PyQtWebEngine-6.0.0[${PYTHON_USEDEP}]
 	dev-python/QtAwesome[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	<dev-python/QtPy-3.0.0[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
+	<dev-python/imageio-3.0.0[${PYTHON_USEDEP}]
 	dev-python/neuroglancer[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/pylibtiff[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
-	dev-python/qtconsole[${PYTHON_USEDEP}]
+	<dev-python/pyqtgraph-0.14.0[${PYTHON_USEDEP}]
+	<dev-python/qtconsole-6.0.0[${PYTHON_USEDEP}]
 	dev-python/tensorstore[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]
+	<dev-python/tifffile-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

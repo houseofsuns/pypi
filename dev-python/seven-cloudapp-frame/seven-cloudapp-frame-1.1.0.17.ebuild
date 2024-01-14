@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/seven-framework[${PYTHON_USEDEP}]
 	dev-python/seven-top[${PYTHON_USEDEP}]
 	dev-python/asq[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
+	~dev-python/emoji-1.6.1[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
 	dev-python/requests-pkcs12[${PYTHON_USEDEP}]
 	dev-python/mmh3[${PYTHON_USEDEP}]
 	dev-python/bce-python-sdk[${PYTHON_USEDEP}]"

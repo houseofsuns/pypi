@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]"
+	~dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.8.0[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

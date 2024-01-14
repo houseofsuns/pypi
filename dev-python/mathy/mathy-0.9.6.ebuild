@@ -32,13 +32,13 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/mathy-core[${PYTHON_USEDEP}]
 	dev-python/mathy-envs[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.43.0[${PYTHON_USEDEP}]
 	dev-python/xxhash[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+	all? ( <dev-python/black-22.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/isort[${PYTHON_USEDEP}] )
 	all? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-22.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

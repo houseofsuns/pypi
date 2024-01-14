@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/aiomqtt[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<dev-python/boto3-1.29[${PYTHON_USEDEP}]
 	dev-python/deciphon-core[${PYTHON_USEDEP}]
 	dev-python/deciphon-snap[${PYTHON_USEDEP}]
 	dev-python/fasta-reader[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/loguru-1.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-1.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/testcontainers[${PYTHON_USEDEP}] )
 	testing? ( dev-python/testcontainers-core[${PYTHON_USEDEP}] )
 	testing? ( dev-python/testcontainers-minio[${PYTHON_USEDEP}] )
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]"
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/setuptools-62.4[${PYTHON_USEDEP}]
+	<dev-python/semantic-version-3.0[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

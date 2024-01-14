@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp"
-DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]
+	aiohttp? ( >=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

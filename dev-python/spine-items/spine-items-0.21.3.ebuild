@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pyside6[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyside6-6.5.0[${PYTHON_USEDEP}]
 	dev-python/pyodbc[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.8[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.2[${PYTHON_USEDEP}]
 	dev-python/spinedb-api[${PYTHON_USEDEP}]
 	dev-python/spine-engine[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )"

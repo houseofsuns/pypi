@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc full"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.0[${PYTHON_USEDEP}]
 	dev-python/silx[${PYTHON_USEDEP}]
 	dev-python/tomoscan[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]

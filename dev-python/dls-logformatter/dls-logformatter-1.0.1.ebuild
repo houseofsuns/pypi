@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox-direct[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-mock[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pydata-sphinx-theme-0.12[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc extra ml style test viz"
-DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cython-0.29.24[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.30.0[${PYTHON_USEDEP}]
 	dev-python/trx-python[${PYTHON_USEDEP}]
 	all? ( dev-python/dipy[${PYTHON_USEDEP}] )
 	style? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -44,17 +44,17 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	test? ( dev-python/asv[${PYTHON_USEDEP}] )
 	ml? ( dev-python/scikit_learn[${PYTHON_USEDEP}] )
 	ml? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	ml? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	ml? ( >=dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}] )
 	ml? ( dev-python/tables[${PYTHON_USEDEP}] )
 	ml? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	ml? ( dev-python/tensorflow-addons[${PYTHON_USEDEP}] )
-	dev? ( dev-python/meson-python[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/meson-python-0.13[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-67.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/packaging-21.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ninja[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Cython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/numpy-1.22[${PYTHON_USEDEP}] )
 	dev? ( dev-python/spin[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	extra? ( dev-python/dipy[${PYTHON_USEDEP}] )
@@ -62,13 +62,13 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	extra? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	extra? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-5.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/texext[${PYTHON_USEDEP}] )
 	doc? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	doc? ( dev-python/tomli[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-gallery-0.10.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/grg-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

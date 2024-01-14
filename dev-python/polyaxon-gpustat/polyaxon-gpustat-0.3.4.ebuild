@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/nvidia-ml-py3[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.4.7[${PYTHON_USEDEP}]
 	dev-python/blessings[${PYTHON_USEDEP}]
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-3.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

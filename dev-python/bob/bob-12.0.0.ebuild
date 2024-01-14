@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc qa test"
 DEPENDENCIES="dev-python/clapper[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-plugins[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}]
+	doc? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-1.1.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-autodoc-typehints-1.21.8[${PYTHON_USEDEP}] )
 	doc? ( dev-python/auto-intersphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-programoutput-0.17[${PYTHON_USEDEP}] )
 	qa? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-7.0.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

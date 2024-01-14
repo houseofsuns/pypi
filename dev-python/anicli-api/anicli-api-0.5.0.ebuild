@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
 	dev-python/chompjs[${PYTHON_USEDEP}]
 	dev-python/parsel[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

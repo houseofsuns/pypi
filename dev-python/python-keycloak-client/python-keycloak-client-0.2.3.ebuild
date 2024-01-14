@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aio dev doc"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/python-jose[${PYTHON_USEDEP}]
-	aio? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	aio? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )

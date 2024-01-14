@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cvxopt slycot test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	cvxopt? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
+	cvxopt? ( >=dev-python/cvxopt-1.2.0[${PYTHON_USEDEP}] )
 	slycot? ( dev-python/slycot[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all cli html ods pandas xls xlsx yaml"
 DEPENDENCIES="all? ( dev-python/markuppy[${PYTHON_USEDEP}] )
 	all? ( dev-python/odfpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/openpyxl-2.6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )
@@ -38,7 +38,7 @@ DEPENDENCIES="all? ( dev-python/markuppy[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	xls? ( dev-python/xlrd[${PYTHON_USEDEP}] )
 	xls? ( dev-python/xlwt[${PYTHON_USEDEP}] )
-	xlsx? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	xlsx? ( >=dev-python/openpyxl-2.6.0[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

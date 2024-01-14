@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/mpi4py[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+DEPENDENCIES="<=dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
+	<=dev-python/mpi4py-3.1.5[${PYTHON_USEDEP}]
+	<=dev-python/pyzmq-25.1.1[${PYTHON_USEDEP}]
+	<=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

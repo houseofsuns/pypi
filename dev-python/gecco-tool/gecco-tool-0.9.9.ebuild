@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="train"
 DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.8[${PYTHON_USEDEP}]
 	dev-python/pyhmmer[${PYTHON_USEDEP}]
 	dev-python/pyrodigal[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.4.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.4[${PYTHON_USEDEP}]
 	dev-python/sklearn-crfsuite[${PYTHON_USEDEP}]
 	train? ( dev-python/fisher[${PYTHON_USEDEP}] )
-	train? ( dev-python/statsmodels[${PYTHON_USEDEP}] )"
+	train? ( ~dev-python/statsmodels-0.13.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

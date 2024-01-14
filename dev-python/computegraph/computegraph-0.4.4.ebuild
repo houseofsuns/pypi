@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="plotting"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	plotting? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/plotly[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.6.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
+	plotting? ( >=dev-python/pygraphviz-1.8[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/plotly-5.6.0[${PYTHON_USEDEP}] )
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

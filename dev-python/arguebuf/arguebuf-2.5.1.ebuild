@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli graphviz"
 DEPENDENCIES="dev-python/arg-services[${PYTHON_USEDEP}]
 	cli? ( dev-python/deepl[${PYTHON_USEDEP}] )
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/graphviz-0.21[${PYTHON_USEDEP}]
+	<dev-python/lxml-6.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/multimethod[${PYTHON_USEDEP}] )
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	graphviz? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
+	<dev-python/networkx-4.0[${PYTHON_USEDEP}]
+	<dev-python/pendulum-4.0[${PYTHON_USEDEP}]
+	graphviz? ( <dev-python/pygraphviz-2.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

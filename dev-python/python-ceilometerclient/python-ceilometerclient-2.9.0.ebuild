@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]"
+	>=dev-python/iso8601-0.1.11[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.17.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-1.6[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-1.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

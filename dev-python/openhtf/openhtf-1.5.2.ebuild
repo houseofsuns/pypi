@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="examples serial_collection_plug update_units usb_plugs"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
 	dev-python/contextlib2[${PYTHON_USEDEP}]
 	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-1.34.0[${PYTHON_USEDEP}]
 	dev-python/mutablerecords[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	dev-python/sockjs-tornado[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	<dev-python/tornado-5.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	examples? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	serial_collection_plug? ( dev-python/pyserial[${PYTHON_USEDEP}] )
-	update_units? ( dev-python/xlrd[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/pandas-0.22.0[${PYTHON_USEDEP}] )
+	serial_collection_plug? ( >=dev-python/pyserial-3.3.0[${PYTHON_USEDEP}] )
+	update_units? ( >=dev-python/xlrd-1.0.0[${PYTHON_USEDEP}] )
 	usb_plugs? ( dev-python/libusb1[${PYTHON_USEDEP}] )
 	usb_plugs? ( dev-python/M2Crypto[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

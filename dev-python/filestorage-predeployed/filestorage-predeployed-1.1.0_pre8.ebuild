@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev linter"
 DEPENDENCIES="dev-python/predeployed-generator[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	linter? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
+	linter? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

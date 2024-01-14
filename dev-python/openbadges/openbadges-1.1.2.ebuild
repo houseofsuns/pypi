@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="server"
-DEPENDENCIES="dev-python/aniso8601[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aniso8601-1.2.0[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	~dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
 	dev-python/language-tags[${PYTHON_USEDEP}]
 	dev-python/openbadges-bakery[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.6.6[${PYTHON_USEDEP}]
 	dev-python/pydux[${PYTHON_USEDEP}]
 	dev-python/PyLD[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	dev-python/python-mimeparse[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
-	dev-python/rfc3986[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
+	~dev-python/python-jose-3.0.1[${PYTHON_USEDEP}]
+	~dev-python/python-mimeparse-1.6.0[${PYTHON_USEDEP}]
+	~dev-python/pytz-2017.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.13[${PYTHON_USEDEP}]
+	~dev-python/requests-cache-0.4.13[${PYTHON_USEDEP}]
+	~dev-python/rfc3986-0.4.1[${PYTHON_USEDEP}]
+	~dev-python/validators-0.11.2[${PYTHON_USEDEP}]
 	server? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	server? ( dev-python/gunicorn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

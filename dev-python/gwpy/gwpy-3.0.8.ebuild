@@ -29,15 +29,15 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/dqsegdb2[${PYTHON_USEDEP}]
 	dev-python/gwdatafind[${PYTHON_USEDEP}]
 	dev-python/gwosc[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.0.0[${PYTHON_USEDEP}]
 	dev-python/ligo-segments[${PYTHON_USEDEP}]
 	dev-python/ligotimegps[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.10.0[${PYTHON_USEDEP}]
 	astro? ( dev-python/inspiral-range[${PYTHON_USEDEP}] )
 	conda? ( dev-python/python-framel[${PYTHON_USEDEP}] )
 	conda? ( dev-python/python-nds2-client[${PYTHON_USEDEP}] )
@@ -52,16 +52,16 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev? ( dev-python/lscsoft-glue[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pycbc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-ligo-lw[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-0.8.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-immaterial[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-panels-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.9.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-freezer[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-requires[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-socket[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )

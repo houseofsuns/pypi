@@ -24,43 +24,43 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="athena az bigquery cli dbt duckdb filesystem gcp gs motherduck mssql parquet postgres qdrant redshift s3 snowflake weaviate"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	>=dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.17.5[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	>=dev-python/semver-2.13.0[${PYTHON_USEDEP}]
 	dev-python/hexbytes[${PYTHON_USEDEP}]
-	dev-python/tzdata[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
+	>=dev-python/tzdata-2022.1[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.11.3[${PYTHON_USEDEP}]
+	>=dev-python/pathvalidate-2.5.2[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/makefun[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/makefun-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1[${PYTHON_USEDEP}]
 	dev-python/requirements-parser[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/astunparse[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-65.6.0[${PYTHON_USEDEP}]
+	>=dev-python/humanize-4.4.0[${PYTHON_USEDEP}]
+	>=dev-python/astunparse-1.6.3[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2022.6[${PYTHON_USEDEP}]
 	dev-python/giturlparse[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.6.7[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.0.2[${PYTHON_USEDEP}]
+	>=dev-python/jsonpath-ng-1.5.3[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2022.4.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.1[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2cffi[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/psycopg2cffi[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	bigquery? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	gcp? ( >=dev-python/grpcio-1.50.0[${PYTHON_USEDEP}] )
+	bigquery? ( >=dev-python/grpcio-1.50.0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
-	bigquery? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	parquet? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	motherduck? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	athena? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	bigquery? ( >=dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}] )
+	parquet? ( >=dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}] )
+	motherduck? ( >=dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}] )
+	athena? ( >=dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/duckdb[${PYTHON_USEDEP}] )
 	motherduck? ( dev-python/duckdb[${PYTHON_USEDEP}] )
 	dbt? ( dev-python/dbt-core[${PYTHON_USEDEP}] )
@@ -75,12 +75,12 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	gcp? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	gs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	filesystem? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	s3? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	athena? ( dev-python/botocore[${PYTHON_USEDEP}] )
+	filesystem? ( >=dev-python/botocore-1.28[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/botocore-1.28[${PYTHON_USEDEP}] )
+	athena? ( >=dev-python/botocore-1.28[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	cli? ( dev-python/cron-descriptor[${PYTHON_USEDEP}] )
-	cli? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/pipdeptree-2.10[${PYTHON_USEDEP}] )
 	athena? ( dev-python/pyathena[${PYTHON_USEDEP}] )
 	weaviate? ( dev-python/weaviate-client[${PYTHON_USEDEP}] )
 	az? ( dev-python/adlfs[${PYTHON_USEDEP}] )

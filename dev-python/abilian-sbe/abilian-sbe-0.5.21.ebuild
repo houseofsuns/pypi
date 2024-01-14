@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/abilian-core[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/flask-babel[${PYTHON_USEDEP}]
-	dev-python/html2text[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	<dev-python/flask-babel-2.0[${PYTHON_USEDEP}]
+	<dev-python/html2text-2021.0.0[${PYTHON_USEDEP}]
+	<dev-python/itsdangerous-2.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/langid[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	<dev-python/markdown-4.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-3.0.0[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
 	dev-python/validate_email[${PYTHON_USEDEP}]
-	dev-python/wtforms[${PYTHON_USEDEP}]
+	<dev-python/wtforms-2.2[${PYTHON_USEDEP}]
 	dev-python/xlwt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

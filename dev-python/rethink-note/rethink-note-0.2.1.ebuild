@@ -25,29 +25,29 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build remote"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.1.1[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
+	<dev-python/sortedcontainers-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-4.6.0[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.4.4[${PYTHON_USEDEP}]
+	>=dev-python/oauthlib-3.2.2[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	dev-python/captcha[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	>=dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	dev-python/cos-python-sdk-v5[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/whoosh[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.4[${PYTHON_USEDEP}]
+	>=dev-python/whoosh-2.7.4[${PYTHON_USEDEP}]
 	dev-python/jieba[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	build? ( dev-python/tox[${PYTHON_USEDEP}] )
+	>=dev-python/starlette-0.27.0[${PYTHON_USEDEP}]
+	build? ( ~dev-python/tox-3.24.3[${PYTHON_USEDEP}] )
 	build? ( dev-python/tox-conda[${PYTHON_USEDEP}] )
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	build? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	remote? ( dev-python/motor[${PYTHON_USEDEP}] )
-	remote? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )"
+	remote? ( ~dev-python/elasticsearch-8.11.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all orm parsing pyside rich"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/attrs-22.1[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/platformdirs-2.5[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
+	~dev-python/tzlocal-4.2[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.8[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.4[${PYTHON_USEDEP}]
 	all? ( dev-python/PySide6[${PYTHON_USEDEP}] )
-	all? ( dev-python/peewee[${PYTHON_USEDEP}] )
-	all? ( dev-python/cython[${PYTHON_USEDEP}] )
-	all? ( dev-python/rich[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/peewee-3.15[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/cython-0.29[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/rich-12.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	orm? ( dev-python/peewee[${PYTHON_USEDEP}] )
-	parsing? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}] )
+	orm? ( ~dev-python/peewee-3.15[${PYTHON_USEDEP}] )
+	parsing? ( >=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/PySide6[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	rich? ( dev-python/rich[${PYTHON_USEDEP}] )"
+	rich? ( ~dev-python/rich-12.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

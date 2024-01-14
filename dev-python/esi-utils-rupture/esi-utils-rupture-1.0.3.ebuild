@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev test"
-DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/decorator-5.1[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
 	dev-python/esi-extern-openquake[${PYTHON_USEDEP}]
 	dev-python/esi-utils-time[${PYTHON_USEDEP}]
 	dev-python/esi-utils-vectors[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.7[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/obspy[${PYTHON_USEDEP}]
 	dev-python/openquake-engine[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/ps2ff[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-2.6.1[${PYTHON_USEDEP}]
+	>dev-python/requests-2.28[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	build? ( dev-python/check-wheel-contents[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
-	test? ( dev-python/vcrpy[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/build-0.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-21.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.26[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.12[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-console-scripts-1.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/vcrpy-4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="compat lint test"
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cffi-1.15.1[${PYTHON_USEDEP}]
+	~dev-python/filelock-3.12.2[${PYTHON_USEDEP}]
+	>=dev-python/pytest-3.8[${PYTHON_USEDEP}]
 	compat? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	compat? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	compat? ( ~dev-python/pytest-xdist-2.0.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

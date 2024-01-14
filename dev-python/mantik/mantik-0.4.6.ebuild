@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all mlflow s3 unicore"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
+	<dev-python/python-jose-4.0.0[${PYTHON_USEDEP}]
 	mlflow? ( dev-python/mlflow-skinny[${PYTHON_USEDEP}] )
 	all? ( dev-python/mlflow-skinny[${PYTHON_USEDEP}] )
-	unicore? ( dev-python/fs[${PYTHON_USEDEP}] )
-	s3? ( dev-python/fs[${PYTHON_USEDEP}] )
-	all? ( dev-python/fs[${PYTHON_USEDEP}] )
+	unicore? ( <dev-python/fs-3.0.0[${PYTHON_USEDEP}] )
+	s3? ( <dev-python/fs-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/fs-3.0.0[${PYTHON_USEDEP}] )
 	unicore? ( dev-python/pyunicore[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyunicore[${PYTHON_USEDEP}] )
 	s3? ( dev-python/fs-s3fs[${PYTHON_USEDEP}] )
 	all? ( dev-python/fs-s3fs[${PYTHON_USEDEP}] )
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/gputil[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]"
+	<dev-python/py-cpuinfo-10.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

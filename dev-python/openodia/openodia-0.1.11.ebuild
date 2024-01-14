@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/coverage[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/coverage-6.0.1[${PYTHON_USEDEP}]
 	dev-python/googletrans[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	~dev-python/Faker-9.0.0[${PYTHON_USEDEP}]
+	~dev-python/mkdocs-1.2.2[${PYTHON_USEDEP}]
+	~dev-python/mkdocs-git-revision-date-localized-plugin-0.10.0[${PYTHON_USEDEP}]
+	~dev-python/mkdocs-material-7.3.2[${PYTHON_USEDEP}]
+	~dev-python/rich-10.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

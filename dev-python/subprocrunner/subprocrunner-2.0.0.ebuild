@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="logging test"
 DEPENDENCIES="dev-python/mbstrdecoder[${PYTHON_USEDEP}]
-	logging? ( dev-python/loguru[${PYTHON_USEDEP}] )
+	logging? ( <dev-python/loguru-1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/typepy[${PYTHON_USEDEP}] )
-	test? ( dev-python/loguru[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/loguru-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

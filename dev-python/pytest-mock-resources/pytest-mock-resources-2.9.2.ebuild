@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docker mongo moto mysql postgres postgres-async postgres-binary redis redshift"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-1.0[${PYTHON_USEDEP}]
+	>dev-python/sqlalchemy-1.0[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgres-binary? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	redshift? ( dev-python/sqlparse[${PYTHON_USEDEP}] )
 	mongo? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/pymysql-1.0[${PYTHON_USEDEP}] )
 	docker? ( dev-python/filelock[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/filelock[${PYTHON_USEDEP}] )
 	postgres-binary? ( dev-python/filelock[${PYTHON_USEDEP}] )

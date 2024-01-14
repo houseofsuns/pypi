@@ -27,15 +27,15 @@ IUSE="testing"
 DEPENDENCIES="dev-python/cellpose[${PYTHON_USEDEP}]
 	dev-python/pyimagej[${PYTHON_USEDEP}]
 	dev-python/scyjava[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/cnn-framework[${PYTHON_USEDEP}]
 	dev-python/magicgui[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.12[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
 	dev-python/aicsimageio[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-3.3.0[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
 	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )

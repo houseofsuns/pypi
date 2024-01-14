@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-61.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-scm-5.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/simpy[${PYTHON_USEDEP}]
@@ -35,22 +35,22 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.8.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	testing? ( dev-python/black[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
 	testing? ( dev-python/faker[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/folium[${PYTHON_USEDEP}] )
-	testing? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/ipywidgets-7.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
-	testing? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nbmake[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nose[${PYTHON_USEDEP}] )
-	testing? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/notebook-6.4.12[${PYTHON_USEDEP}] )
 	testing? ( dev-python/opentnsim[${PYTHON_USEDEP}] )
 	testing? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pylama[${PYTHON_USEDEP}] )

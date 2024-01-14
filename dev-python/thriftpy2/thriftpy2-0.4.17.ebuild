@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tornado"
-DEPENDENCIES="dev-python/ply[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	tornado? ( dev-python/tornado[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/ply-4.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.15[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/flake8-2.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-2.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.1.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.1.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/tornado-6.0[${PYTHON_USEDEP}] )
+	tornado? ( <dev-python/tornado-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

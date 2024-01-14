@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="create_isbn_edition-py eventstreams flake8 google graphviz hacking html http isbn memento mwoauth mysql scripts tkinter weblinkchecker-py wikitextparser"
 DEPENDENCIES="dev-python/mwparserfromhell[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-48.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	google? ( dev-python/google[${PYTHON_USEDEP}] )
-	graphviz? ( dev-python/pydot[${PYTHON_USEDEP}] )
+	graphviz? ( >=dev-python/pydot-1.4.1[${PYTHON_USEDEP}] )
 	tkinter? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	tkinter? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	create_isbn_edition-py? ( dev-python/isbnlib[${PYTHON_USEDEP}] )
 	create_isbn_edition-py? ( dev-python/unidecode[${PYTHON_USEDEP}] )
 	eventstreams? ( dev-python/sseclient[${PYTHON_USEDEP}] )
-	flake8? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	flake8? ( >=dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/darglint[${PYTHON_USEDEP}] )
-	flake8? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	flake8? ( >=dev-python/pydocstyle-6.2.3[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-coding[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
@@ -49,9 +49,9 @@ DEPENDENCIES="dev-python/mwparserfromhell[${PYTHON_USEDEP}]
 	flake8? ( dev-python/flake8-no-u-prefixed-strings[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	hacking? ( dev-python/hacking[${PYTHON_USEDEP}] )
-	html? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
+	html? ( >=dev-python/beautifulsoup4-4.7.1[${PYTHON_USEDEP}] )
 	http? ( dev-python/fake-useragent[${PYTHON_USEDEP}] )
-	isbn? ( dev-python/python-stdnum[${PYTHON_USEDEP}] )
+	isbn? ( >=dev-python/python-stdnum-1.18[${PYTHON_USEDEP}] )
 	memento? ( dev-python/memento-client[${PYTHON_USEDEP}] )
 	mwoauth? ( dev-python/mwoauth[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )

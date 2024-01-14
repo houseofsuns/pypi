@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rollbar sentry testing"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/blessed[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
+	<dev-python/blessed-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
 	dev-python/django-picklefield[${PYTHON_USEDEP}]
-	testing? ( dev-python/hiredis[${PYTHON_USEDEP}] )
-	dev-python/redis[${PYTHON_USEDEP}]
-	testing? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	testing? ( dev-python/django-redis[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/hiredis-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/redis-4.0.0[${PYTHON_USEDEP}]
+	testing? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/django-redis-5.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/iron-mq[${PYTHON_USEDEP}] )
-	testing? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	testing? ( dev-python/croniter[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pymongo-4.0.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/croniter-0.4.0[${PYTHON_USEDEP}] )
 	rollbar? ( dev-python/django-q-rollbar[${PYTHON_USEDEP}] )
 	sentry? ( dev-python/django-q-sentry[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

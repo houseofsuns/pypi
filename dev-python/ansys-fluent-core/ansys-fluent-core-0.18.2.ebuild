@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="reader"
 DEPENDENCIES="dev-python/ansys-api-fluent[${PYTHON_USEDEP}]
 	dev-python/ansys-platform-instancemanagement[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.30.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-health-checking[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	reader? ( dev-python/h5py[${PYTHON_USEDEP}] )"
+	>=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-3.5.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/docker-6.1.3[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	reader? ( >=dev-python/h5py-3.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

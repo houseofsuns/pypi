@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all df graphics mzmlb numpress proforma tda unimod xml"
-DEPENDENCIES="df? ( dev-python/pandas[${PYTHON_USEDEP}] )
+DEPENDENCIES="df? ( >=dev-python/pandas-0.17[${PYTHON_USEDEP}] )
 	tda? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	unimod? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	unimod? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
@@ -34,7 +34,7 @@ DEPENDENCIES="df? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-0.17[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pynumpress[${PYTHON_USEDEP}] )
 	all? ( dev-python/h5py[${PYTHON_USEDEP}] )

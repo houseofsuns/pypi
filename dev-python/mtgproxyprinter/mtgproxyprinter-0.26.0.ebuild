@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/platformdirs-2.6.0[${PYTHON_USEDEP}]
 	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/delegateto[${PYTHON_USEDEP}]
 	dev-python/PyHamcrest[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
+	>=dev-python/ijson-3.1.0[${PYTHON_USEDEP}]
 	dev-python/truststore[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]"
+	>=dev-python/ijson-3.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

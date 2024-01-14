@@ -27,7 +27,7 @@ IUSE="dev test"
 DEPENDENCIES="dev-python/cjkcms-color-panel[${PYTHON_USEDEP}]
 	dev-python/cjkcms-seo[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap5[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	>=dev-python/django-4.2[${PYTHON_USEDEP}]
 	dev-python/wagtail-cache[${PYTHON_USEDEP}]
 	dev-python/wagtail[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

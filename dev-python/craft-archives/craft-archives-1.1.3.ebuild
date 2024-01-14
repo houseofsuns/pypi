@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs lint types"
-DEPENDENCIES="dev-python/distro[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/distro-1.3.0[${PYTHON_USEDEP}]
 	dev-python/launchpadlib[${PYTHON_USEDEP}]
 	dev-python/lazr-restfulclient[${PYTHON_USEDEP}]
 	dev-python/lazr-uri[${PYTHON_USEDEP}]
 	dev-python/overrides[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-check[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-gnupg[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-check-2.1.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.2.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/python-gnupg-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.5.20[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-pydantic[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-lint[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	types? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	types? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	types? ( dev-python/pyright[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

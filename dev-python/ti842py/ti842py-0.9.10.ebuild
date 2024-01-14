@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/basically-ti-basic[${PYTHON_USEDEP}]
-	dev-python/pythondialog[${PYTHON_USEDEP}]
+	>=dev-python/pythondialog-3.5.1[${PYTHON_USEDEP}]
 	dev-python/graphics-py[${PYTHON_USEDEP}]
 	dev-python/pynput[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

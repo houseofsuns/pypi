@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aws-lambda-powertools[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.33.1[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.33.1[${PYTHON_USEDEP}]
 	dev-python/mypy-boto3-cloudwatch[${PYTHON_USEDEP}]
 	dev-python/mypy-boto3-dynamodb[${PYTHON_USEDEP}]
 	dev-python/mypy-boto3-events[${PYTHON_USEDEP}]

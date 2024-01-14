@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/imgaug[${PYTHON_USEDEP}]
 	dev-python/folium[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
+	~dev-python/filelock-3.4.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]"
+	<dev-python/regex-2022.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

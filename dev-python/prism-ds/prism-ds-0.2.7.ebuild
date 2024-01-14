@@ -24,37 +24,37 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bigquery dbt docker postgres presto pyspark redshift snowflake testing trino"
-DEPENDENCIES="dev-python/astor[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/astor-0.7[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.0[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
 	dev-python/coolname[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	bigquery? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	bigquery? ( dev-python/google-auth[${PYTHON_USEDEP}] )
+	bigquery? ( >=dev-python/google-api-python-client-2.0[${PYTHON_USEDEP}] )
+	bigquery? ( >=dev-python/google-auth-2.0[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/db-dtypes[${PYTHON_USEDEP}] )
 	dbt? ( dev-python/dbt-core[${PYTHON_USEDEP}] )
-	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
+	docker? ( >=dev-python/docker-6.0[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	presto? ( dev-python/presto-python-client[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	snowflake? ( <dev-python/pyarrow-10.1.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/dbt-snowflake[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/fastparquet[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-3.24[${PYTHON_USEDEP}] )
 	trino? ( dev-python/trino[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

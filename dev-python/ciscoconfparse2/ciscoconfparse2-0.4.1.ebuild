@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/attrs-23.2.0[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2.14[${PYTHON_USEDEP}]
+	<dev-python/dnspython-3.0.0[${PYTHON_USEDEP}]
 	dev-python/hier_config[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	dev-python/macaddress[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]"
+	<dev-python/passlib-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.12.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

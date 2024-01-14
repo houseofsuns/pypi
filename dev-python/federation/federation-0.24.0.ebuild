@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+	>dev-python/bleach-3.0[${PYTHON_USEDEP}]
 	dev-python/calamus[${PYTHON_USEDEP}]
 	dev-python/commonmark[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/cssselect[${PYTHON_USEDEP}]
+	>=dev-python/cssselect-0.9.2[${PYTHON_USEDEP}]
 	dev-python/dirty-validators[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-3.4.0[${PYTHON_USEDEP}]
 	dev-python/iteration-utilities[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.4.10[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.4.0[${PYTHON_USEDEP}]
 	dev-python/python-httpsig-socialhome[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	>=dev-python/python-slugify-5.0.0[${PYTHON_USEDEP}]
 	dev-python/python-xrd[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.8.0[${PYTHON_USEDEP}]
 	dev-python/requests-cache[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

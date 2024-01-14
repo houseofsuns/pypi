@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-8.2.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/smqtk-core[${PYTHON_USEDEP}]
 	dev-python/smqtk-dataprovider[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

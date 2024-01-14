@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="annotated-types attrs brotli cli cryptography full jinja jwt mako minijinja opentelemetry piccolo picologging prometheus pydantic redis sqlalchemy standard structlog"
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/anyio-3.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.22[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
+	>=dev-python/multidict-6.0.2[${PYTHON_USEDEP}]
 	dev-python/polyfactory[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	annotated-types? ( dev-python/annotated-types[${PYTHON_USEDEP}] )
 	attrs? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	brotli? ( dev-python/brotli[${PYTHON_USEDEP}] )
 	cli? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )
 	cli? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	cli? ( dev-python/uvloop[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/uvloop-0.18.0[${PYTHON_USEDEP}] )
 	cryptography? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	full? ( dev-python/litestar[${PYTHON_USEDEP}] )
 	jinja? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	jwt? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	jwt? ( dev-python/python-jose[${PYTHON_USEDEP}] )
-	mako? ( dev-python/mako[${PYTHON_USEDEP}] )
+	mako? ( >=dev-python/mako-1.2.4[${PYTHON_USEDEP}] )
 	minijinja? ( dev-python/minijinja[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-instrumentation-asgi[${PYTHON_USEDEP}] )
 	piccolo? ( dev-python/piccolo[${PYTHON_USEDEP}] )
@@ -54,13 +54,13 @@ DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
 	pydantic? ( dev-python/email-validator[${PYTHON_USEDEP}] )
 	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	pydantic? ( dev-python/pydantic-extra-types[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.4.4[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/advanced-alchemy[${PYTHON_USEDEP}] )
 	standard? ( dev-python/fast-query-parsers[${PYTHON_USEDEP}] )
 	standard? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	standard? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )
 	standard? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	standard? ( dev-python/uvloop[${PYTHON_USEDEP}] )
+	standard? ( >=dev-python/uvloop-0.18.0[${PYTHON_USEDEP}] )
 	structlog? ( dev-python/structlog[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

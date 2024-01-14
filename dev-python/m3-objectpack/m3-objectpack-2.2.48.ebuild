@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/six-2.0[${PYTHON_USEDEP}]
 	dev-python/m3-builder[${PYTHON_USEDEP}]
 	dev-python/m3-django-compat[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	<dev-python/django-3.0[${PYTHON_USEDEP}]
 	dev-python/m3-core[${PYTHON_USEDEP}]
 	dev-python/m3-ui[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

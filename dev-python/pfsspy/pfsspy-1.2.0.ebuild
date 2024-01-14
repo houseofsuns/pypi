@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	docs? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	docs? ( dev-python/reproject[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

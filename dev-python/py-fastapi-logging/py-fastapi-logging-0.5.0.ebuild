@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp aiopika all"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	all? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )
+	aiohttp? ( >=dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	aiopika? ( dev-python/aio-pika[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

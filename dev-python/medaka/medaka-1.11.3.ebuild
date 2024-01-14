@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cffi-1.15.0[${PYTHON_USEDEP}]
 	dev-python/edlib[${PYTHON_USEDEP}]
 	dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/intervaltree[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	dev-python/mappy[${PYTHON_USEDEP}]
 	dev-python/ont-fast5-api[${PYTHON_USEDEP}]
 	dev-python/parasail[${PYTHON_USEDEP}]

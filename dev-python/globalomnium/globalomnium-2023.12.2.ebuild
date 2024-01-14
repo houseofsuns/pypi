@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mqtt"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	mqtt? ( dev-python/paho-mqtt[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	mqtt? ( <dev-python/paho-mqtt-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-6.4.1[${PYTHON_USEDEP}]
 	dev-python/nbdev[${PYTHON_USEDEP}]
 	dev-python/fastcore[${PYTHON_USEDEP}]
-	dev-python/numpydoc[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]"
+	~dev-python/numpydoc-1.2[${PYTHON_USEDEP}]
+	>=dev-python/black-22.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

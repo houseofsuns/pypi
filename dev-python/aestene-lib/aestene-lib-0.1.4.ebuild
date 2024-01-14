@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.9[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.1[${PYTHON_USEDEP}]
+	~dev-python/pandas-0.25[${PYTHON_USEDEP}]
 	dev-python/azure-keyvault-secrets[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	dev-python/azure-cli-core[${PYTHON_USEDEP}]

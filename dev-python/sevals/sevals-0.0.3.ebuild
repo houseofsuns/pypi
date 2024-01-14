@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/numexpr[${PYTHON_USEDEP}]
 	dev-python/peft[${PYTHON_USEDEP}]
 	dev-python/print-color[${PYTHON_USEDEP}]
-	dev-python/pybind11[${PYTHON_USEDEP}]
+	>=dev-python/pybind11-2.6.2[${PYTHON_USEDEP}]
 	dev-python/pytablewriter[${PYTHON_USEDEP}]
 	dev-python/rouge-score[${PYTHON_USEDEP}]
 	dev-python/sacrebleu[${PYTHON_USEDEP}]
@@ -62,8 +62,8 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	linting? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	linting? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	linting? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	math? ( dev-python/sympy[${PYTHON_USEDEP}] )
-	math? ( dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}] )
+	math? ( >=dev-python/sympy-1.12[${PYTHON_USEDEP}] )
+	math? ( ~dev-python/antlr4-python3-runtime-4.11[${PYTHON_USEDEP}] )
 	multilingual? ( dev-python/nagisa[${PYTHON_USEDEP}] )
 	multilingual? ( dev-python/jieba[${PYTHON_USEDEP}] )
 	multilingual? ( dev-python/pycountry[${PYTHON_USEDEP}] )

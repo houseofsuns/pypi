@@ -28,27 +28,27 @@ DEPENDENCIES="dev-python/autoray[${PYTHON_USEDEP}]
 	dev-python/cotengra[${PYTHON_USEDEP}]
 	dev-python/cytoolz[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/psutil-4.3.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.0[${PYTHON_USEDEP}]
 	advanced_solvers? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
 	advanced_solvers? ( dev-python/petsc4py[${PYTHON_USEDEP}] )
 	advanced_solvers? ( dev-python/slepc4py[${PYTHON_USEDEP}] )
-	docs? ( dev-python/astroid[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/astroid-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autoray[${PYTHON_USEDEP}] )
 	docs? ( dev-python/cotengra[${PYTHON_USEDEP}] )
 	docs? ( dev-python/doc2dash[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/ipython-8.7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	tensor? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tensor? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
+	tensor? ( >=dev-python/matplotlib-2.0[${PYTHON_USEDEP}] )
+	tensor? ( >=dev-python/networkx-2.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

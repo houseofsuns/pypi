@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bsuite_env common_env dist envpool fast gfootball_env k8s mario minigrid_env procgen_env slimevolleygym_env smac_env sokoban style test video"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/yapf[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/setuptools-66.1.1[${PYTHON_USEDEP}]
+	~dev-python/yapf-0.29.0[${PYTHON_USEDEP}]
 	dev-python/gym[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
 	dev-python/DI-treetensor[${PYTHON_USEDEP}]
 	dev-python/DI-toolkit[${PYTHON_USEDEP}]
 	dev-python/trueskill[${PYTHON_USEDEP}]
@@ -42,10 +42,10 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev-python/hickle[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/responses[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
+	~dev-python/responses-0.12.1[${PYTHON_USEDEP}]
 	dev-python/URLObject[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
 	dev-python/pynng[${PYTHON_USEDEP}]
@@ -70,17 +70,17 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	slimevolleygym_env? ( dev-python/slimevolleygym[${PYTHON_USEDEP}] )
 	smac_env? ( dev-python/pysc2[${PYTHON_USEDEP}] )
 	sokoban? ( dev-python/gym-sokoban[${PYTHON_USEDEP}] )
-	style? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	style? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	style? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
+	style? ( ~dev-python/yapf-0.29.0[${PYTHON_USEDEP}] )
+	style? ( <=dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	style? ( <dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/coverage-7.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-1.34.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-rerunfailures-10.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-timeout-2.0.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/readerwriterlock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/lz4[${PYTHON_USEDEP}] )

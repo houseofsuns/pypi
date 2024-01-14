@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	geo? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	geo? ( >=dev-python/shapely-2.0.1[${PYTHON_USEDEP}] )
 	geo? ( dev-python/geopandas[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

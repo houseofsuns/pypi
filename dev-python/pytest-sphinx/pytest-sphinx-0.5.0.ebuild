@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lint"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
+	lint? ( >=dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

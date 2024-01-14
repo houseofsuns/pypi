@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/future-0.15.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/flask-0.10.1[${PYTHON_USEDEP}]
 	dev-python/pympl[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	>=dev-python/pytest-2.9.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-cov-2.2.1[${PYTHON_USEDEP}]
 	dev-python/coveralls[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

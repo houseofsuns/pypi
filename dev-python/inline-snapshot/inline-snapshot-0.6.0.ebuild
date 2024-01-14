@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/asttokens[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/executing[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asttokens-2.0.5[${PYTHON_USEDEP}]
+	>=dev-python/black-23.3.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.4[${PYTHON_USEDEP}]
+	>=dev-python/executing-2.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/types-toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

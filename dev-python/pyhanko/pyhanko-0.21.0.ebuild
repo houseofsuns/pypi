@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async-http docs etsi extra-pubkey-algs image-support live-test mypy opentype pkcs11 testing testing-basic xmp"
-DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asn1crypto-1.5.1[${PYTHON_USEDEP}]
+	>=dev-python/qrcode-7.3.1[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-4.3[${PYTHON_USEDEP}]
 	dev-python/pyhanko-certvalidator[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	async-http? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-41.0.5[${PYTHON_USEDEP}]
+	async-http? ( ~dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	etsi? ( dev-python/xsdata[${PYTHON_USEDEP}] )
@@ -40,28 +40,28 @@ DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
 	image-support? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	image-support? ( dev-python/python-barcode[${PYTHON_USEDEP}] )
 	live-test? ( dev-python/pyHanko[${PYTHON_USEDEP}] )
-	live-test? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
+	live-test? ( ~dev-python/pytest-aiohttp-1.0.4[${PYTHON_USEDEP}] )
 	live-test? ( dev-python/certomancer-csc-dummy[${PYTHON_USEDEP}] )
 	live-test? ( dev-python/certomancer[${PYTHON_USEDEP}] )
-	live-test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	live-test? ( <dev-python/pytest-cov-4.2[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/pyHanko[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-tzlocal[${PYTHON_USEDEP}] )
-	opentype? ( dev-python/fonttools[${PYTHON_USEDEP}] )
+	opentype? ( >=dev-python/fonttools-4.33.3[${PYTHON_USEDEP}] )
 	opentype? ( dev-python/uharfbuzz[${PYTHON_USEDEP}] )
 	pkcs11? ( dev-python/python-pkcs11[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pyHanko[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pyHanko[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-aiohttp-1.0.4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/certomancer-csc-dummy[${PYTHON_USEDEP}] )
-	testing-basic? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing-basic? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	testing-basic? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	testing-basic? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	testing-basic? ( >=dev-python/pytest-6.1.1[${PYTHON_USEDEP}] )
+	testing-basic? ( >=dev-python/requests-mock-1.8.0[${PYTHON_USEDEP}] )
+	testing-basic? ( >=dev-python/freezegun-1.1.0[${PYTHON_USEDEP}] )
+	testing-basic? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
 	testing-basic? ( dev-python/certomancer[${PYTHON_USEDEP}] )
-	testing-basic? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	xmp? ( dev-python/defusedxml[${PYTHON_USEDEP}] )"
+	testing-basic? ( <dev-python/pytest-cov-4.2[${PYTHON_USEDEP}] )
+	xmp? ( ~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

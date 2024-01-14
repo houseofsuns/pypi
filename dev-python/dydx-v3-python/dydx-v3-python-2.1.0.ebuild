@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	dev-python/cytoolz[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
+	>=dev-python/ecdsa-0.16.0[${PYTHON_USEDEP}]
 	dev-python/eth-keys[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
-	dev-python/mpmath[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	~dev-python/mpmath-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/sympy-1.6[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

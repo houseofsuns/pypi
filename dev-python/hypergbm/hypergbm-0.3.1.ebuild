@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all board dask fg notebook shap tests zhcn"
 DEPENDENCIES="dev-python/hypernets[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-0.8.0[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
 	dev-python/imbalanced-learn[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	all? ( dev-python/dask[${PYTHON_USEDEP}] )
+	all? ( >dev-python/dask-2023.2.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask-ml[${PYTHON_USEDEP}] )
 	all? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	all? ( dev-python/featuretools[${PYTHON_USEDEP}] )
@@ -40,11 +40,11 @@ DEPENDENCIES="dev-python/hypernets[${PYTHON_USEDEP}]
 	all? ( dev-python/jieba[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyterlab-widgets[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( <dev-python/matplotlib-3.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/shap[${PYTHON_USEDEP}] )
 	board? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( >dev-python/dask-2023.2.1[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask-ml[${PYTHON_USEDEP}] )
 	fg? ( dev-python/featuretools[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/hypernets[${PYTHON_USEDEP}]
 	notebook? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/jupyterlab-widgets[${PYTHON_USEDEP}] )
 	shap? ( dev-python/shap[${PYTHON_USEDEP}] )
-	shap? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	shap? ( <dev-python/matplotlib-3.6[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	zhcn? ( dev-python/jieba[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

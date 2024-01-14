@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/prometheus-client[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/prometheus-client-0.16.0[${PYTHON_USEDEP}]
 	dev-python/maya[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

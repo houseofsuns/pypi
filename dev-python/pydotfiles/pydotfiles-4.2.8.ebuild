@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]"
+	>=dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-2.1.11[${PYTHON_USEDEP}]
+	>=dev-python/progressbar2-3.38.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

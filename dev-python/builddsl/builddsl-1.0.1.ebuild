@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="astor"
-DEPENDENCIES="astor? ( dev-python/astor[${PYTHON_USEDEP}] )
+DEPENDENCIES="astor? ( <dev-python/astor-0.9.0[${PYTHON_USEDEP}] )
 	dev-python/nr-io-lexer[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

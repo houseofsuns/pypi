@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyarrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyarrow-5.0.0[${PYTHON_USEDEP}]
 	dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/PyPika[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.1[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

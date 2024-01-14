@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
 DEPENDENCIES="dev-python/bip-utils[${PYTHON_USEDEP}]
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	develop? ( dev-python/isort[${PYTHON_USEDEP}] )
-	develop? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/coverage-5.3[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/flake8-3.8[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/isort-5.8[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/mypy-0.900[${PYTHON_USEDEP}] )
 	develop? ( dev-python/prospector[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	develop? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-cov-2.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

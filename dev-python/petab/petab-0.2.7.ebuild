@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="combine doc quality reports tests vis"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.15.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	dev-python/python-libsbml[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
@@ -36,17 +36,17 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	tests? ( dev-python/simplesbml[${PYTHON_USEDEP}] )
 	tests? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pysb[${PYTHON_USEDEP}] )
-	quality? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	reports? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	combine? ( dev-python/python-libcombine[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-3.5.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	vis? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/ipython-7.21.0[${PYTHON_USEDEP}] )
+	vis? ( >=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}] )
 	vis? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	vis? ( dev-python/scipy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

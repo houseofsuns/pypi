@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/manim[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+	>=dev-python/PyQt6-6.6.0[${PYTHON_USEDEP}]
 	dev-python/PyQt6-QScintilla[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.7[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]
 	dev-python/RestrictedPython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

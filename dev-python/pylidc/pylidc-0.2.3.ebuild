@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlalchemy-1.1.5[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.12.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.18.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

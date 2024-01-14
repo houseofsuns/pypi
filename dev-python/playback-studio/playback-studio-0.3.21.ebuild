@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/parse[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/parse-1.6.6[${PYTHON_USEDEP}]
+	~dev-python/jsonpickle-0.9.3[${PYTHON_USEDEP}]
+	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]
 	dev-python/contextlib2[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
+	~dev-python/decorator-4.4.2[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/moto-1.3.13[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-4.6.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/parameterized-0.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flask-restplus[${PYTHON_USEDEP}] )
-	dev? ( dev-python/future[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/future-0.18.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-junit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-formatter-junit-xml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

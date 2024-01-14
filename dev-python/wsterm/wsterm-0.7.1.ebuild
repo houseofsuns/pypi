@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/msgpack[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/msgpack-1.0.4[${PYTHON_USEDEP}]
 	dev-python/python-daemon[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]"
+	~dev-python/tornado-6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

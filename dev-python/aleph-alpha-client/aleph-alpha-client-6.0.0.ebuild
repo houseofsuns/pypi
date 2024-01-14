@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test types"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiodns[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.28[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
+	>=dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp-retry[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-0.0[${PYTHON_USEDEP}]
 	dev-python/python-liquid[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-dotenv[${PYTHON_USEDEP}] )

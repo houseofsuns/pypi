@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bitarray[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/texttable[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bitarray-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/click-log-0.4.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.1[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.5.1[${PYTHON_USEDEP}]
+	>=dev-python/texttable-1.6.4[${PYTHON_USEDEP}]
 	dev-python/UnityPy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

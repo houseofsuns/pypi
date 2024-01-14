@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="yara"
 DEPENDENCIES="dev-python/polyswarm-api[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	yara? ( dev-python/yara-python[${PYTHON_USEDEP}] )"
+	~dev-python/click-7.0[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
+	~dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	~dev-python/click-log-0.3.2[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.5.2[${PYTHON_USEDEP}]
+	yara? ( ~dev-python/yara-python-3.11.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

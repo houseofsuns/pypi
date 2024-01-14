@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/slackclient[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	~dev-python/dask-2022.1.1[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.10.0[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/simpledbf[${PYTHON_USEDEP}]
 	dev-python/python-snappy[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-2.0.0[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev-python/fastparquet[${PYTHON_USEDEP}]"

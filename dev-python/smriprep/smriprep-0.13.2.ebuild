@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all datalad doc docs duecredit style test tests"
-DEPENDENCIES="dev-python/indexed-gzip[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/indexed-gzip-0.8.8[${PYTHON_USEDEP}]
 	dev-python/lockfile[${PYTHON_USEDEP}]
 	dev-python/looseversion[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.2.0[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/nipype[${PYTHON_USEDEP}]
 	dev-python/niworkflows[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/indexed-gzip[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-apidoc-0.3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-versioning[${PYTHON_USEDEP}] )
 	docs? ( dev-python/smriprep[${PYTHON_USEDEP}] )

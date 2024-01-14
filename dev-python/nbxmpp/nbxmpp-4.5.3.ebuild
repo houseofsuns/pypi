@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gssapi"
-DEPENDENCIES="dev-python/precis-i18n[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/precis-i18n-1.0.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/idna[${PYTHON_USEDEP}]
 	dev-python/PyGObject[${PYTHON_USEDEP}]

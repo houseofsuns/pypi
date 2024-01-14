@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all numba"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/connected-components_3d[${PYTHON_USEDEP}]
 	dev-python/fastremap[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/numba[${PYTHON_USEDEP}] )
 	numba? ( dev-python/numba[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

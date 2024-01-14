@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.27[${PYTHON_USEDEP}]
 	dev-python/opencc-python-reimplemented[${PYTHON_USEDEP}]
 	dev-python/nlp2[${PYTHON_USEDEP}]
 	dev-python/pandas-profiling[${PYTHON_USEDEP}]

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="crypto image server speed"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.9.2[${PYTHON_USEDEP}]
+	>=dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
+	~dev-python/cattrs-22.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
 	dev-python/entrypoint[${PYTHON_USEDEP}]
 	dev-python/versions[${PYTHON_USEDEP}]
 	dev-python/named[${PYTHON_USEDEP}]
@@ -38,10 +38,10 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/colors-core[${PYTHON_USEDEP}]
 	dev-python/async-extensions[${PYTHON_USEDEP}]
 	dev-python/iters[${PYTHON_USEDEP}]
-	speed? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	image? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	crypto? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+	speed? ( >=dev-python/lxml-4.9.2[${PYTHON_USEDEP}] )
+	image? ( >=dev-python/pillow-9.5.0[${PYTHON_USEDEP}] )
+	crypto? ( >=dev-python/pycryptodome-3.18.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	server? ( >=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

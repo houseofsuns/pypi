@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.0[${PYTHON_USEDEP}]
+	>=dev-python/prometheus-client-0.4[${PYTHON_USEDEP}]
 	dev-python/toolrack[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )

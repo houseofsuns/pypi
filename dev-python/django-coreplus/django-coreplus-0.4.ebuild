@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/django-4.2.3[${PYTHON_USEDEP}]
 	dev-python/django-taggit[${PYTHON_USEDEP}]
 	dev-python/django-import-export[${PYTHON_USEDEP}]
 	dev-python/django-tinymce[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/bleach[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
+	<=dev-python/mistune-2.0.4[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/phonenumbers[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]

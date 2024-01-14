@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aws-lambda-build cli client compute-graph lambda-common rds-graphile-worker"
 DEPENDENCIES="compute-graph? ( dev-python/artifax[${PYTHON_USEDEP}] )
-	client? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
+	client? ( ~dev-python/boto3-1.20.32[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/click-9.0.0[${PYTHON_USEDEP}] )
 	aws-lambda-build? ( dev-python/executor[${PYTHON_USEDEP}] )
 	lambda-common? ( dev-python/harrison[${PYTHON_USEDEP}] )
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	dev-python/missouri[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
+	~dev-python/pyrsistent-0.18.0[${PYTHON_USEDEP}]
 	rds-graphile-worker? ( dev-python/rds-graphile-worker-client[${PYTHON_USEDEP}] )
-	dev-python/semver[${PYTHON_USEDEP}]"
+	~dev-python/semver-3.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

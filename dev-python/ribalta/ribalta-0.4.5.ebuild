@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/mako[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mako-1.1.3[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-2.7.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

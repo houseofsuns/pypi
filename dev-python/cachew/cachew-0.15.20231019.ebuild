@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="optional testing"
 DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.0[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	optional? ( dev-python/colorlog[${PYTHON_USEDEP}] )

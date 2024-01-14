@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
+	~dev-python/PyQt6-6.5.3[${PYTHON_USEDEP}]
 	dev-python/PyQt6-Qt6[${PYTHON_USEDEP}]
-	dev-python/PyQt6-sip[${PYTHON_USEDEP}]
+	~dev-python/PyQt6-sip-13.6[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.6.1[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
 	dev-python/lpips[${PYTHON_USEDEP}]
 	dev-python/DISTS-pytorch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9.3[${PYTHON_USEDEP}]
 	dev-python/notebook[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

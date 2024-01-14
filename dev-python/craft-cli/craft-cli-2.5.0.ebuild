@@ -27,16 +27,16 @@ IUSE="dev lint types"
 DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-subprocess[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-23.10.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	types? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	types? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
 	types? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-Pygments[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-colorama[${PYTHON_USEDEP}] )

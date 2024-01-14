@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/coverage-5.5[${PYTHON_USEDEP}]
+	~dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]
 	dev-python/eyed3[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/filetype-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

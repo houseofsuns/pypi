@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/bjoern[${PYTHON_USEDEP}]
 	dev-python/falcon[${PYTHON_USEDEP}]
 	dev-python/falcon-cors[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	dev-python/natural[${PYTHON_USEDEP}]
 	dev-python/poseidon-core[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

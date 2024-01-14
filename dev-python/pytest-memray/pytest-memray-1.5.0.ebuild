@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs lint test"
 DEPENDENCIES="dev-python/memray[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
-	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	>=dev-python/pytest-7.2[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/furo-2022.12.7[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-argparse-0.4[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-inline-tabs-2022.1.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-programoutput-0.17[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/towncrier-22.12[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-22.12[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/isort-5.11.4[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/covdefaults[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/coverage-7.0.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flaky-3.7[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-3.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/polling[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	~dev-python/six-1.13.0[${PYTHON_USEDEP}]
+	~dev-python/validators-0.14.0[${PYTHON_USEDEP}]
+	~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
 	dev-python/dict-plus[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	~dev-python/future-0.18.2[${PYTHON_USEDEP}]
 	dev-python/python-libpython-debian-bin[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
 	dev-python/iocextract[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]"
+	~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dnspython[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/dnspython-2.2.1[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	~dev-python/humanize-4.2.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-21.4.0[${PYTHON_USEDEP}]
 	dev-python/alaric[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

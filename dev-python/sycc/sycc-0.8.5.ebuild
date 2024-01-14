@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/netifaces[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/netifaces-0.11.0[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/sycc[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

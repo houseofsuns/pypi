@@ -26,25 +26,25 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/halo[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/docformatter[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/gitchangelog[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylama[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-3.0.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylama-8.4.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-profiling[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/termplotlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/requests-mock-1.10.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

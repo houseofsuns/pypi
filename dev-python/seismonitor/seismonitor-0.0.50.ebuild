@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/obspy[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
 	dev-python/pyproj[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	~dev-python/numpy-1.23[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

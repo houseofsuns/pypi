@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tox_to_nox"
-DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/argcomplete-4.0[${PYTHON_USEDEP}]
+	<dev-python/colorlog-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
+	>=dev-python/virtualenv-14.0[${PYTHON_USEDEP}]
 	tox_to_nox? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	tox_to_nox? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	tox_to_nox? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

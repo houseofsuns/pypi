@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/tippo[${PYTHON_USEDEP}]
 	dev-python/basicco[${PYTHON_USEDEP}]
 	dev-python/slotted[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]"
+	<dev-python/pyrsistent-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

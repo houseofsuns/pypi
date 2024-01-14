@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pg8000[${PYTHON_USEDEP}]
 	dev-python/port-for[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

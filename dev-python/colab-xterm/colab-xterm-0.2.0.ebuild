@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/ptyprocess[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/ptyprocess-0.7.0[${PYTHON_USEDEP}]
+	>dev-python/tornado-5.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

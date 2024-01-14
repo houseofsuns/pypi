@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/awscli[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.12.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.13.0[${PYTHON_USEDEP}]
 	dev-python/ntplib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

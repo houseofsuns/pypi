@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs linters"
 DEPENDENCIES="dev-python/dictdiffer[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/inflection[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]

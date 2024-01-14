@@ -28,12 +28,12 @@ DEPENDENCIES="dev-python/adlfs[${PYTHON_USEDEP}]
 	dev-python/azure-ai-ml[${PYTHON_USEDEP}]
 	dev-python/azureml-fsspec[${PYTHON_USEDEP}]
 	mlflow? ( dev-python/azureml-mlflow[${PYTHON_USEDEP}] )
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
 	dev-python/kedro[${PYTHON_USEDEP}]
 	dev-python/kedro-datasets[${PYTHON_USEDEP}]
 	mlflow? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	>=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-1.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

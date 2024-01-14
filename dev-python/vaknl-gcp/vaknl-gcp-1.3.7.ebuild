@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}]
 	dev-python/newlinejson[${PYTHON_USEDEP}]
 	dev-python/google-cloud-tasks[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
+	~dev-python/googleapis-common-protos-1.6.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-scheduler[${PYTHON_USEDEP}]
 	dev-python/croniter[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

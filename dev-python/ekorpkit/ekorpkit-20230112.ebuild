@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
 	dev-python/hydra-colorlog[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.0[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
@@ -38,9 +38,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pytablewriter[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-11.1[${PYTHON_USEDEP}]
+	<dev-python/filelock-3.8[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	all? ( dev-python/GPUtil[${PYTHON_USEDEP}] )
 	all? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	all? ( dev-python/emoji[${PYTHON_USEDEP}] )
+	all? ( <dev-python/emoji-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/nasdaq-data-link[${PYTHON_USEDEP}] )
 	all? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	all? ( dev-python/pathos[${PYTHON_USEDEP}] )
@@ -113,11 +113,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	art? ( dev-python/jax[${PYTHON_USEDEP}] )
 	automl? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	automl? ( dev-python/flaml[${PYTHON_USEDEP}] )
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	aws? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
 	beautifulsoup4? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	bok? ( dev-python/pyhwp[${PYTHON_USEDEP}] )
-	boto3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	cached-path? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	boto3? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
+	cached-path? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
 	cached-path? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	cached-path? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	cleanlab? ( dev-python/cleanlab[${PYTHON_USEDEP}] )
@@ -133,7 +133,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dataset? ( dev-python/jsonlines[${PYTHON_USEDEP}] )
 	dataset? ( dev-python/tensorflow-datasets[${PYTHON_USEDEP}] )
 	dataset? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	dataset? ( dev-python/emoji[${PYTHON_USEDEP}] )
+	dataset? ( <dev-python/emoji-2.0[${PYTHON_USEDEP}] )
 	dataset? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	dataset? ( dev-python/pathos[${PYTHON_USEDEP}] )
 	dataset? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
@@ -165,7 +165,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	edgar? ( dev-python/pathos[${PYTHON_USEDEP}] )
 	edgar? ( dev-python/cssutils[${PYTHON_USEDEP}] )
 	einops? ( dev-python/einops[${PYTHON_USEDEP}] )
-	emoji? ( dev-python/emoji[${PYTHON_USEDEP}] )
+	emoji? ( <dev-python/emoji-2.0[${PYTHON_USEDEP}] )
 	evaluate? ( dev-python/evaluate[${PYTHON_USEDEP}] )
 	exhaustive? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	exhaustive? ( dev-python/fredapi[${PYTHON_USEDEP}] )
@@ -174,7 +174,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	exhaustive? ( dev-python/pyLDAvis[${PYTHON_USEDEP}] )
 	exhaustive? ( dev-python/zstandard[${PYTHON_USEDEP}] )
 	exhaustive? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	exhaustive? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	exhaustive? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
 	exhaustive? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	exhaustive? ( dev-python/lpips[${PYTHON_USEDEP}] )
 	exhaustive? ( dev-python/tokenizers[${PYTHON_USEDEP}] )
@@ -238,7 +238,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	exhaustive? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	exhaustive? ( dev-python/argilla[${PYTHON_USEDEP}] )
 	exhaustive? ( dev-python/einops[${PYTHON_USEDEP}] )
-	exhaustive? ( dev-python/emoji[${PYTHON_USEDEP}] )
+	exhaustive? ( <dev-python/emoji-2.0[${PYTHON_USEDEP}] )
 	exhaustive? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	exhaustive? ( dev-python/evaluate[${PYTHON_USEDEP}] )
 	exhaustive? ( dev-python/timm[${PYTHON_USEDEP}] )
@@ -355,7 +355,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	tensorflow-datasets? ( dev-python/tensorflow-datasets[${PYTHON_USEDEP}] )
 	timm? ( dev-python/timm[${PYTHON_USEDEP}] )
 	tokenize? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	tokenize? ( dev-python/emoji[${PYTHON_USEDEP}] )
+	tokenize? ( <dev-python/emoji-2.0[${PYTHON_USEDEP}] )
 	tokenize? ( dev-python/pysbd[${PYTHON_USEDEP}] )
 	tokenize? ( dev-python/tokenizers[${PYTHON_USEDEP}] )
 	tokenize? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )

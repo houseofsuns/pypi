@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc lint test"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocs-1.4.3[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocs-material-9.1.17[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocstrings-0.22.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )

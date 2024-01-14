@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
-DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/markdown-include[${PYTHON_USEDEP}]
-	dev-python/python-markdown-math[${PYTHON_USEDEP}]
-	dev-python/toposort[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/markdown-3.4.0[${PYTHON_USEDEP}]
+	~dev-python/markdown-include-0.7.0[${PYTHON_USEDEP}]
+	~dev-python/python-markdown-math-0.8[${PYTHON_USEDEP}]
+	~dev-python/toposort-1.7.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.12[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.5.1[${PYTHON_USEDEP}]
+	~dev-python/graphviz-0.20.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.0.0[${PYTHON_USEDEP}]
 	dev-python/pcpp[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-5.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.19[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse-cli[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tomli-w[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-3.3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="postgres sentry"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/django-environ[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	dev-python/pyhumps[${PYTHON_USEDEP}]
 	dev-python/bbfcapi[${PYTHON_USEDEP}]
-	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
+	sentry? ( <dev-python/sentry-sdk-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

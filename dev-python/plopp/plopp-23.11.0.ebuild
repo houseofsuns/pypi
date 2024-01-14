@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all scipp"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
 	all? ( dev-python/scipp[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipympl[${PYTHON_USEDEP}] )
 	all? ( dev-python/pythreejs[${PYTHON_USEDEP}] )

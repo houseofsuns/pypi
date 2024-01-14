@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mitmproxy"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/toposort[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.0.1[${PYTHON_USEDEP}]
+	~dev-python/toposort-1.7[${PYTHON_USEDEP}]
 	dev-python/brotli[${PYTHON_USEDEP}]
 	dev-python/publicsuffix2[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]

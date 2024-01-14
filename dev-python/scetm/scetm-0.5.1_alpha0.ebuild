@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.2[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.9.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.31.1[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0[${PYTHON_USEDEP}]
 	dev-python/louvain[${PYTHON_USEDEP}]
 	dev-python/leidenalg[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]"

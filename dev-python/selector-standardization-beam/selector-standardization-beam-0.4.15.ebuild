@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-6.2.4[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
 	dev-python/apache-beam[${PYTHON_USEDEP}]
 	dev-python/selector-standardizers[${PYTHON_USEDEP}]"

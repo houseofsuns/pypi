@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES="tests? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-flakes[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/PyHamcrest[${PYTHON_USEDEP}] )

@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/escapism[${PYTHON_USEDEP}]
 	dev-python/jupyterhub[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+	>=dev-python/oauthlib-3.2.2[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.7.0[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

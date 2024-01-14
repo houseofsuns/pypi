@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cov dev docs tests tests-mypy tests-no-zope"
 DEPENDENCIES="cov? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	cov? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	cov? ( >=dev-python/coverage-5.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
@@ -37,13 +37,13 @@ DEPENDENCIES="cov? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/zope-interface[${PYTHON_USEDEP}] )
 	tests? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	tests? ( dev-python/zope-interface[${PYTHON_USEDEP}] )
-	tests-mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	tests-mypy? ( >=dev-python/mypy-1.6[${PYTHON_USEDEP}] )
 	tests-mypy? ( dev-python/pytest-mypy-plugins[${PYTHON_USEDEP}] )
 	tests-no-zope? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	tests-no-zope? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	tests-no-zope? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	tests-no-zope? ( dev-python/pympler[${PYTHON_USEDEP}] )
 	tests-no-zope? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests-no-zope? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests-no-zope? ( >=dev-python/pytest-4.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyter-server[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jupyter-server-0.2.0[${PYTHON_USEDEP}]
 	dev-python/rioxarray[${PYTHON_USEDEP}]
 	dev-python/ipyleaflet[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/pillow-7.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	dev-python/affine[${PYTHON_USEDEP}]
 	dev-python/mercantile[${PYTHON_USEDEP}]
 	dev-python/ipyspin[${PYTHON_USEDEP}]

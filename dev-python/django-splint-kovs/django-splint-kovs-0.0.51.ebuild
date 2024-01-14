@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.13[${PYTHON_USEDEP}]
+	>=dev-python/django-2.2.11[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.11.0[${PYTHON_USEDEP}]
 	dev-python/django-import-export[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	>=dev-python/django-filter-2.2.0[${PYTHON_USEDEP}]
 	dev-python/aws-lambda-powertools[${PYTHON_USEDEP}]
 	dev-python/firebase-admin[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]"

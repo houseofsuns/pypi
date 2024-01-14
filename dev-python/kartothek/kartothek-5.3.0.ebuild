@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/dask-2021.5.1[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-0.5.2[${PYTHON_USEDEP}]
+	>dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.23.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-7.0[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
 	dev-python/simplekv[${PYTHON_USEDEP}]
 	dev-python/storefact[${PYTHON_USEDEP}]

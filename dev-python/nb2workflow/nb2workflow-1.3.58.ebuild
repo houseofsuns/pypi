@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/papermill[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/scrapbook[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.0.3[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/rdflib[${PYTHON_USEDEP}]
 	cwl? ( dev-python/cwlgen[${PYTHON_USEDEP}] )

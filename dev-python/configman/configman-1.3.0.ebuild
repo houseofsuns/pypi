@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/configobj[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/configobj-4.7.2[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/total-ordering[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

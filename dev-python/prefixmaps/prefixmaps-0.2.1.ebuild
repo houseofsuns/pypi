@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs refresh"
 DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	refresh? ( dev-python/bioregistry[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/curies[${PYTHON_USEDEP}]
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	refresh? ( dev-python/rdflib[${PYTHON_USEDEP}] )
-	refresh? ( dev-python/requests[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/myst-parser-3.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	refresh? ( <dev-python/rdflib-7.0.0[${PYTHON_USEDEP}] )
+	refresh? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev-python/tox[${PYTHON_USEDEP}]"
+	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/tox-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

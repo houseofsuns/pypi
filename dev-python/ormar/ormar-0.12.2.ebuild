@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiopg all crypto mysql orjson postgres postgresql sqlite"
 DEPENDENCIES="dev-python/databases[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-1.10.9[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	crypto? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+	crypto? ( <dev-python/cryptography-41.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/cryptography-41.0[${PYTHON_USEDEP}] )
+	sqlite? ( <dev-python/aiosqlite-0.20[${PYTHON_USEDEP}] )
+	all? ( <dev-python/aiosqlite-0.20[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	aiopg? ( dev-python/aiopg[${PYTHON_USEDEP}] )
@@ -42,10 +42,10 @@ DEPENDENCIES="dev-python/databases[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	aiopg? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	all? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	all? ( <dev-python/mysqlclient-3.0.0[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	all? ( dev-python/orjson[${PYTHON_USEDEP}] )"
+	orjson? ( >=dev-python/orjson-3.6.4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/orjson-3.6.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

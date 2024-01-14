@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="lint test"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pyaml[${PYTHON_USEDEP}]
+	~dev-python/pyaml-21.10[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw[${PYTHON_USEDEP}]
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	lint? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/mypy-0.971[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/isort-5.9.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

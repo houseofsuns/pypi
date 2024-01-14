@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}]
 	dev-python/selenium-wire[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	~dev-python/selenium-4.1.5[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]
 	dev-python/myloguru-deskent[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/openpyxl[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/openpyxl-2.6.2[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

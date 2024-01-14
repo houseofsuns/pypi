@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/authlib[${PYTHON_USEDEP}]
 	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	>=dev-python/websockets-9.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/asynctest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )

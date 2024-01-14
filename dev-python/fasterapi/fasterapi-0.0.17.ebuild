@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/python-jose[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
+	~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
 	dev-python/passlib[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

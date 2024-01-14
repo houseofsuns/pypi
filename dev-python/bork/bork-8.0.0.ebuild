@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs lint test"
-DEPENDENCIES="dev-python/build[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/build-1.0.3[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
+	~dev-python/twine-4.0.1[${PYTHON_USEDEP}]
+	~dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/readme-renderer[${PYTHON_USEDEP}]
+	<dev-python/readme-renderer-42.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pylint-3.0.1[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/setuptools-61.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

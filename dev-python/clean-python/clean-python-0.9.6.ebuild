@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="amqp api_client auth celery debugger dramatiq fastapi fluentbit profiler s3 sql test"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/inject[${PYTHON_USEDEP}]
 	dev-python/asgiref[${PYTHON_USEDEP}]
 	dev-python/blinker[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	amqp? ( dev-python/pika[${PYTHON_USEDEP}] )
 	api_client? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	api_client? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	auth? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
+	auth? ( ~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}] )
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	debugger? ( dev-python/debugpy[${PYTHON_USEDEP}] )
 	dramatiq? ( dev-python/dramatiq[${PYTHON_USEDEP}] )
@@ -42,11 +42,11 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	profiler? ( dev-python/yappi[${PYTHON_USEDEP}] )
 	s3? ( dev-python/aioboto3[${PYTHON_USEDEP}] )
 	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	sql? ( ~dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	sql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.21[${PYTHON_USEDEP}] )
 	test? ( dev-python/debugpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	test? ( dev-python/uvicorn[${PYTHON_USEDEP}] )

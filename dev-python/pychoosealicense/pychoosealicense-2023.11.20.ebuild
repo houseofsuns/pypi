@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all cli"
 DEPENDENCIES="dev-python/domdf-python-tools[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}]
+	cli? ( >=dev-python/click-8.0.1[${PYTHON_USEDEP}] )
 	cli? ( dev-python/consolekit[${PYTHON_USEDEP}] )
-	all? ( dev-python/click[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/click-8.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/consolekit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

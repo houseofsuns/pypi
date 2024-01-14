@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/boto3-1.17.71[${PYTHON_USEDEP}]
 	dev-python/boto3-stubs[${PYTHON_USEDEP}]
 	dev-python/cloudaux[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]

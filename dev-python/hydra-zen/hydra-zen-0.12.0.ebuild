@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="beartype pydantic test"
 DEPENDENCIES="dev-python/hydra-core[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	beartype? ( dev-python/beartype[${PYTHON_USEDEP}] )
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-trio[${PYTHON_USEDEP}] )"
+	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]
+	beartype? ( >=dev-python/beartype-0.8.0[${PYTHON_USEDEP}] )
+	pydantic? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-6.28.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-trio-0.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmarks build dev doc flake8 test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/rpycocotools-stubs[${PYTHON_USEDEP}]
 	build? ( dev-python/maturin[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-codeautolink[${PYTHON_USEDEP}] )
-	flake8? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	flake8? ( <dev-python/flake8-6.0[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )

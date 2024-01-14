@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="discordpy docs procinfo profiling publish test voice"
 DEPENDENCIES="dev-python/braceexpand[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	dev-python/import-expression[${PYTHON_USEDEP}]
 	discordpy? ( dev-python/discord-py[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-trio[${PYTHON_USEDEP}] )
-	procinfo? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	profiling? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-trio-1.1.2[${PYTHON_USEDEP}] )
+	procinfo? ( >=dev-python/psutil-5.8.0[${PYTHON_USEDEP}] )
+	profiling? ( >=dev-python/line-profiler-3.5.1[${PYTHON_USEDEP}] )
 	publish? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-6.3.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pylint-2.11.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.18.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-3.7.0[${PYTHON_USEDEP}] )
 	voice? ( dev-python/yt-dlp[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

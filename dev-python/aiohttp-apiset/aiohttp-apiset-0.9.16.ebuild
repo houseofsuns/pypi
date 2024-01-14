@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev-lint dev-test docs jinja2"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev-lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev-lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev-lint? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev-lint? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev-lint? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	dev-lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev-lint? ( dev-python/types-jsonschema[${PYTHON_USEDEP}] )
 	dev-lint? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
 	dev-test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev-test? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
+	dev-test? ( <dev-python/pytest-aiohttp-1.0[${PYTHON_USEDEP}] )
 	dev-test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev-test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.4.8[${PYTHON_USEDEP}] )
 	jinja2? ( dev-python/aiohttp-jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -32,14 +32,14 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	release? ( dev-python/build[${PYTHON_USEDEP}] )
 	release? ( dev-python/twine[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/pytest-7.3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.15.9[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

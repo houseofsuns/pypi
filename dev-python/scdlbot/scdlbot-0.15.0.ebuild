@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/python-telegram-bot[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/boltons[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/boltons-22.0.0[${PYTHON_USEDEP}]
 	dev-python/mutagen[${PYTHON_USEDEP}]
-	dev-python/plumbum[${PYTHON_USEDEP}]
-	dev-python/ffmpeg-python[${PYTHON_USEDEP}]
+	<dev-python/plumbum-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}]
 	dev-python/prometheus_client[${PYTHON_USEDEP}]
 	dev-python/sdnotify[${PYTHON_USEDEP}]
 	dev-python/fake-useragent[${PYTHON_USEDEP}]

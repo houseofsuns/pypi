@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/alibabacloud-tea-util-py2[${PYTHON_USEDEP}]
 	dev-python/alibabacloud-openapi-util-py2[${PYTHON_USEDEP}]
 	dev-python/alibabacloud-endpoint-util-py2[${PYTHON_USEDEP}]
 	dev-python/alibabacloud-credentials-py2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/alibabacloud-gateway-fc-util-py2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

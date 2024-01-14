@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pulpcore[${PYTHON_USEDEP}]
-	dev-python/pkginfo[${PYTHON_USEDEP}]
+	<dev-python/pkginfo-1.9.7[${PYTHON_USEDEP}]
 	dev-python/bandersnatch[${PYTHON_USEDEP}]
 	dev-python/pypi-simple[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

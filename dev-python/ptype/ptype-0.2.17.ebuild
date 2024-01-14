@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
 DEPENDENCIES="dev-python/greenery[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.17.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev? ( dev-python/clevercsv[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jsonpickle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbval[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jsonpickle-1.4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nbval-0.9.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/clevercsv[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	test? ( dev-python/jsonpickle[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbval[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/jsonpickle-1.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nbval-0.9.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all awesometkinter customtkinter tkcalendar tkintermapview tkintertable tkinterweb tksheet ttkwidgets"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	dev-python/Mako[${PYTHON_USEDEP}]
 	dev-python/screeninfo[${PYTHON_USEDEP}]
-	dev-python/autopep8[${PYTHON_USEDEP}]
+	>=dev-python/autopep8-1.7[${PYTHON_USEDEP}]
 	dev-python/pygubu[${PYTHON_USEDEP}]
 	all? ( dev-python/AwesomeTkinter[${PYTHON_USEDEP}] )
 	all? ( dev-python/tkintertable[${PYTHON_USEDEP}] )

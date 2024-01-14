@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev docs qa tests"
 DEPENDENCIES="dev-python/Cerberus[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
+	<=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	<=dev-python/pluggy-1.0.0[${PYTHON_USEDEP}]
+	<=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
+	<=dev-python/packaging-23.0[${PYTHON_USEDEP}]
+	<=dev-python/tomlkit-0.11.4[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )

@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="captum full tensorflow tests tf_explain torch zennit"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
 	captum? ( dev-python/quantus[${PYTHON_USEDEP}] )
 	captum? ( dev-python/captum[${PYTHON_USEDEP}] )
 	full? ( dev-python/quantus[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow_macos[${PYTHON_USEDEP}] )
 	tests? ( dev-python/captum[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-7.2.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest_xdist[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tf-explain[${PYTHON_USEDEP}] )
 	tests? ( dev-python/zennit[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/sanic-testing[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -32,9 +32,9 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-21.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/sanic-testing[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

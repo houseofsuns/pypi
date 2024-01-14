@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/django-compressor[${PYTHON_USEDEP}]
 	dev-python/horizon[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.37.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.36.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/python-keystoneclient-3.22.0[${PYTHON_USEDEP}]
 	dev-python/python-solumclient[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

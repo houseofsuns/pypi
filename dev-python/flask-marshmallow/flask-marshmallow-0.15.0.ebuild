@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs sqlalchemy tests"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev? ( dev-python/flask-sqlalchemy[${PYTHON_USEDEP}] )
+	>=dev-python/marshmallow-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-17.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/flask-sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
@@ -35,10 +35,10 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/flask-sqlalchemy[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-issues-3.0.1[${PYTHON_USEDEP}] )
+	sqlalchemy? ( >=dev-python/flask-sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask-sqlalchemy[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flask-sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )"

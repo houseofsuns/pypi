@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev doc style test"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.23.10[${PYTHON_USEDEP}]
 	dev-python/oss2[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/py4j[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/stmdency[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/setuptools-42.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/apache-dolphinscheduler[${PYTHON_USEDEP}] )
 	dev? ( dev-python/apache-dolphinscheduler[${PYTHON_USEDEP}] )
 	dev? ( dev-python/apache-dolphinscheduler[${PYTHON_USEDEP}] )
 	dev? ( dev-python/apache-dolphinscheduler[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.3[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-github-changelog[${PYTHON_USEDEP}] )
-	style? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	style? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	style? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
-	style? ( dev-python/isort[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/isort-5.10[${PYTHON_USEDEP}] )
 	style? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/docker[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/freezegun-1.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-6.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/docker-5.0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

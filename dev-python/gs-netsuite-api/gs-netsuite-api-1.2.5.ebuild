@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/netsuite[${PYTHON_USEDEP}]
 	dev-python/netsuite[${PYTHON_USEDEP}]
-	dev-python/zeep[${PYTHON_USEDEP}]
+	~dev-python/zeep-4.1[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

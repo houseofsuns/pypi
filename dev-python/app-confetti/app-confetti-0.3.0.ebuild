@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws"
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
+	aws? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	aws? ( dev-python/ec2-metadata[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/honeybee-core[${PYTHON_USEDEP}]
 	dev-python/honeybee-energy[${PYTHON_USEDEP}]
 	dev-python/honeybee-ph[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.13[${PYTHON_USEDEP}]
 	dev-python/PH-units[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/xlwings[${PYTHON_USEDEP}]"

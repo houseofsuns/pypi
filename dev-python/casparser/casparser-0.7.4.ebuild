@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="fast mupdf"
 DEPENDENCIES="dev-python/casparser-isin[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	mupdf? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
 	fast? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

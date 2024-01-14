@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="brotli socks zstd"
 DEPENDENCIES="brotli? ( dev-python/brotli[${PYTHON_USEDEP}] )
-	brotli? ( dev-python/brotlicffi[${PYTHON_USEDEP}] )
+	brotli? ( >=dev-python/brotlicffi-0.8.0[${PYTHON_USEDEP}] )
 	socks? ( dev-python/pysocks[${PYTHON_USEDEP}] )
-	zstd? ( dev-python/zstandard[${PYTHON_USEDEP}] )"
+	zstd? ( >=dev-python/zstandard-0.18.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

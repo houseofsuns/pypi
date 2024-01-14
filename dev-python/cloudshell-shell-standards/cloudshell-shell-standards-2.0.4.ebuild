@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/cloudshell-shell-core[${PYTHON_USEDEP}]
 	dev-python/cloudshell-automation-api[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="check dev lint scripts test"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/attrs-23.2[${PYTHON_USEDEP}]
 	dev-python/docker-export[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
+	>=dev-python/humanfriendly-10.0[${PYTHON_USEDEP}]
 	dev-python/iso3166[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/typeguard-4.1.5[${PYTHON_USEDEP}]
+	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
+	<dev-python/xmltodict-0.14[${PYTHON_USEDEP}]
 	check? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipython-8.17.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/offspot-config[${PYTHON_USEDEP}] )
 	dev? ( dev-python/offspot-config[${PYTHON_USEDEP}] )
 	dev? ( dev-python/offspot-config[${PYTHON_USEDEP}] )
 	dev? ( dev-python/offspot-config[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-23.12.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	scripts? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

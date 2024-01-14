@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aws azure easyocr gcp paddle"
 DEPENDENCIES="dev-python/polars[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-7.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pymupdf[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/xlsxwriter[${PYTHON_USEDEP}]
+	>=dev-python/xlsxwriter-3.0.6[${PYTHON_USEDEP}]
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-cognitiveservices-vision-computervision[${PYTHON_USEDEP}] )
 	easyocr? ( dev-python/easyocr[${PYTHON_USEDEP}] )
-	easyocr? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	easyocr? ( >=dev-python/pillow-10.0.1[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-vision[${PYTHON_USEDEP}] )
 	paddle? ( dev-python/paddlepaddle[${PYTHON_USEDEP}] )
 	paddle? ( dev-python/paddleocr[${PYTHON_USEDEP}] )"

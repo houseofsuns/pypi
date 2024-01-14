@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli dev flex icu osv ssv"
-DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/chardet-3.0[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.10[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25[${PYTHON_USEDEP}]
+	~dev-python/six-1.15[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	cli? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-3.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.11[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-3.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/towncrier-19.2[${PYTHON_USEDEP}] )
 	flex? ( dev-python/flex[${PYTHON_USEDEP}] )
 	icu? ( dev-python/PyICU[${PYTHON_USEDEP}] )
-	osv? ( dev-python/openapi-spec-validator[${PYTHON_USEDEP}] )
-	ssv? ( dev-python/swagger-spec-validator[${PYTHON_USEDEP}] )"
+	osv? ( ~dev-python/openapi-spec-validator-0.5.1[${PYTHON_USEDEP}] )
+	ssv? ( ~dev-python/swagger-spec-validator-2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="api junos napalm netbox netmiko"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/salt[${PYTHON_USEDEP}]
 	dev-python/progressbar2[${PYTHON_USEDEP}]
-	api? ( dev-python/cherrypy[${PYTHON_USEDEP}] )
+	api? ( >=dev-python/cherrypy-18.8.0[${PYTHON_USEDEP}] )
 	junos? ( dev-python/junos-eznc[${PYTHON_USEDEP}] )
 	napalm? ( dev-python/napalm[${PYTHON_USEDEP}] )
 	netbox? ( dev-python/pynetbox[${PYTHON_USEDEP}] )

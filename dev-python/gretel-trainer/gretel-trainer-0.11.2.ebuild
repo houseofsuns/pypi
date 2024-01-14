@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bigquery connectors mysql postgres snowflake"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/boto3-1.20[${PYTHON_USEDEP}]
+	~dev-python/dask-2023.5.1[${PYTHON_USEDEP}]
 	dev-python/gretel-client[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/networkx-3.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5[${PYTHON_USEDEP}]
+	~dev-python/plotly-5.11[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.9[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.7[${PYTHON_USEDEP}]
 	dev-python/unflatten[${PYTHON_USEDEP}]
 	bigquery? ( dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}] )
-	connectors? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	connectors? ( ~dev-python/mysqlclient-2.1[${PYTHON_USEDEP}] )
 	connectors? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	connectors? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
 	connectors? ( dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	mysql? ( ~dev-python/mysqlclient-2.1[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

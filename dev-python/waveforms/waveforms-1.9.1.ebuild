@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs full test"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/ply[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.1.2[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.14[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
+	>=dev-python/ply-3.11[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-zopeext[${PYTHON_USEDEP}] )
-	full? ( dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}] )
-	full? ( dev-python/blinker[${PYTHON_USEDEP}] )
-	full? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	full? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	full? ( dev-python/portalocker[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/antlr4-python3-runtime-4.12.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/blinker-1.4[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/cryptography-3.4.7[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/matplotlib-3.4.1[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/msgpack-1.0.5[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/portalocker-1.4.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	full? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	full? ( dev-python/scikit-optimize[${PYTHON_USEDEP}] )
-	full? ( dev-python/tenacity[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
+	full? ( >=dev-python/tenacity-8.2.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

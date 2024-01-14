@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/aracnid-config[${PYTHON_USEDEP}]
 	dev-python/aracnid-utils[${PYTHON_USEDEP}]
 	dev-python/i-mongodb[${PYTHON_USEDEP}]
 	dev-python/squareup[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

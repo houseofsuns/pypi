@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fastapi-security[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]"
+	<dev-python/orjson-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

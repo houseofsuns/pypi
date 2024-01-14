@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="amqp cron pydantic redis test"
-DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	amqp? ( dev-python/aiormq[${PYTHON_USEDEP}] )
-	cron? ( dev-python/croniter[${PYTHON_USEDEP}] )
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	cron? ( <dev-python/croniter-3.0.0[${PYTHON_USEDEP}] )
+	pydantic? ( <dev-python/pydantic-3.0.0[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-5.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

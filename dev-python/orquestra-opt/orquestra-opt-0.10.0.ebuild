@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all cma dev qiskit qubo scikit-quant ttopt"
 DEPENDENCIES="dev-python/orquestra-quantum[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	scikit-quant? ( dev-python/scikit-quant[${PYTHON_USEDEP}] )
 	cma? ( dev-python/cma[${PYTHON_USEDEP}] )
 	cma? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

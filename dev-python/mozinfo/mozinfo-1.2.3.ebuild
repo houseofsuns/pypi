@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/distro[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/distro-1.4.0[${PYTHON_USEDEP}]
 	dev-python/mozfile[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

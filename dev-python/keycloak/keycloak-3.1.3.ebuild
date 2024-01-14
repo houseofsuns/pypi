@@ -28,11 +28,11 @@ DEPENDENCIES="extensions? ( dev-python/Django[${PYTHON_USEDEP}] )
 	extensions? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev-python/cached-property[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	extensions? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	extensions? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	<dev-python/cached-property-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.19.0[${PYTHON_USEDEP}]
+	<dev-python/python-jose-4.0.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-rtd-theme-0.6.0[${PYTHON_USEDEP}] )
+	extensions? ( <dev-python/starlette-0.16.0[${PYTHON_USEDEP}] )
+	extensions? ( <dev-python/uvicorn-0.15.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

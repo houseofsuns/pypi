@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/async-timeout-4.0[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/cmake[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
@@ -39,8 +39,8 @@ DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/blue[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pdm[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-7.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pdm-2.4.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-backports[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )"

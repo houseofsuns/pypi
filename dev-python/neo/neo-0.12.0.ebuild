@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all biocam ced docs edf igorproio kwikio maxwell neomatlabio nixio nwb stimfitio test tiffio"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/quantities[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
+	>=dev-python/quantities-0.14.1[${PYTHON_USEDEP}]
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	all? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
@@ -41,23 +41,23 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	all? ( dev-python/pynwb[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-1.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sonpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	biocam? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	ced? ( dev-python/sonpy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	edf? ( dev-python/pyedflib[${PYTHON_USEDEP}] )
 	igorproio? ( dev-python/igor[${PYTHON_USEDEP}] )
 	kwikio? ( dev-python/klusta[${PYTHON_USEDEP}] )
 	maxwell? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	neomatlabio? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	neomatlabio? ( >=dev-python/scipy-1.0.0[${PYTHON_USEDEP}] )
 	nixio? ( dev-python/nixio[${PYTHON_USEDEP}] )
 	nwb? ( dev-python/pynwb[${PYTHON_USEDEP}] )
 	stimfitio? ( dev-python/stfio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scipy-1.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyedflib[${PYTHON_USEDEP}] )
 	test? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	test? ( dev-python/igor[${PYTHON_USEDEP}] )

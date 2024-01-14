@@ -37,28 +37,28 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/itsdangerous[${PYTHON_USEDEP}]
 	dev-python/karr-lab-aws-manager[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
 	dev-python/pkg-utils[${PYTHON_USEDEP}]
 	dev-python/pymongo[${PYTHON_USEDEP}]
 	dev-python/pyrsistent[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requirements-parser[${PYTHON_USEDEP}]
 	all? ( dev-python/capturer[${PYTHON_USEDEP}] )
 	all? ( dev-python/mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-fontawesome[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-rtd-theme-0.4.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-addmetahtml[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-googleanalytics[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxprettysearchresults[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-fontawesome[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.4.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-addmetahtml[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-googleanalytics[${PYTHON_USEDEP}] )

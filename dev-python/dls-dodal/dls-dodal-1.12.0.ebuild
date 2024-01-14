@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/ophyd[${PYTHON_USEDEP}]
 	dev-python/zocalo[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/graypy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/aioca[${PYTHON_USEDEP}]
 	dev-python/p4p[${PYTHON_USEDEP}]
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/ophyd[${PYTHON_USEDEP}]
 	dev? ( dev-python/mockito[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydata-sphinx-theme-0.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

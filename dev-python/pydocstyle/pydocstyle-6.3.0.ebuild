@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="toml"
-DEPENDENCIES="dev-python/snowballstemmer[${PYTHON_USEDEP}]
-	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/snowballstemmer-2.2.0[${PYTHON_USEDEP}]
+	toml? ( >=dev-python/tomli-1.2.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

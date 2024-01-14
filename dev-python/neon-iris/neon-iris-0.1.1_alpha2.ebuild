@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gradio web_sat"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
+	~dev-python/click-default-group-1.2[${PYTHON_USEDEP}]
 	dev-python/neon-utils[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/neon-mq-connector[${PYTHON_USEDEP}]
 	dev-python/ovos-bus-client[${PYTHON_USEDEP}]
 	gradio? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	gradio? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	gradio? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	web_sat? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	web_sat? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	web_sat? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	web_sat? ( ~dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )
+	web_sat? ( ~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}] )
 	web_sat? ( dev-python/resampy[${PYTHON_USEDEP}] )
 	web_sat? ( dev-python/openwakeword[${PYTHON_USEDEP}] )
 	web_sat? ( dev-python/tflite[${PYTHON_USEDEP}] )

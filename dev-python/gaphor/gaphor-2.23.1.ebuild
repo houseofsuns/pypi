@@ -27,20 +27,20 @@ IUSE="docs"
 DEPENDENCIES="dev-python/PyGObject[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/better-exceptions[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	<dev-python/defusedxml-0.8.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/furo-2024.0[${PYTHON_USEDEP}] )
 	dev-python/gaphas[${PYTHON_USEDEP}]
 	dev-python/generic[${PYTHON_USEDEP}]
-	dev-python/jedi[${PYTHON_USEDEP}]
+	<dev-python/jedi-0.20.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pycairo[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
-	dev-python/pygit2[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
+	<dev-python/pycairo-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydot-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pygit2-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-cocoa[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-intl[${PYTHON_USEDEP}] )
-	dev-python/tinycss2[${PYTHON_USEDEP}]"
+	<dev-python/tinycss2-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

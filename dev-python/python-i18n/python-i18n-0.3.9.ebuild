@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="yaml"
-DEPENDENCIES="yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+DEPENDENCIES="yaml? ( >=dev-python/pyyaml-3.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/dbnd[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/prometheus-client[${PYTHON_USEDEP}]
 	composer? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
-	composer? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	composer? ( dev-python/google-auth[${PYTHON_USEDEP}] )
-	composer? ( dev-python/requests[${PYTHON_USEDEP}] )
-	composer? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )
-	composer? ( dev-python/tzlocal[${PYTHON_USEDEP}] )
+	composer? ( ~dev-python/cryptography-37.0.2[${PYTHON_USEDEP}] )
+	composer? ( ~dev-python/google-auth-1.10.0[${PYTHON_USEDEP}] )
+	composer? ( ~dev-python/requests-2.22.0[${PYTHON_USEDEP}] )
+	composer? ( ~dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}] )
+	composer? ( >=dev-python/tzlocal-1.5.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sh[${PYTHON_USEDEP}] )"

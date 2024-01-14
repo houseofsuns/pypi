@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-1.8.0[${PYTHON_USEDEP}]
+	~dev-python/antlr4-python3-runtime-4.7.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/svglib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

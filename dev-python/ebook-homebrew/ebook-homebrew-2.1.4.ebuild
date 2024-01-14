@@ -28,24 +28,24 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/responder[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-2.19.5[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	develop? ( dev-python/black[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	~dev-python/six-1.12[${PYTHON_USEDEP}]
+	~dev-python/uvloop-0.12[${PYTHON_USEDEP}]
+	develop? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pytest-4.5.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-pythonpath[${PYTHON_USEDEP}] )
-	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pep8[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pyflakes-2.1.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
 	develop? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-openapi[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinxcontrib-websupport-1.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

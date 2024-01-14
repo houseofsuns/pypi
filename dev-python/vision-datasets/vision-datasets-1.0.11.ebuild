@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="plot torch"
 DEPENDENCIES="dev-python/azure-identity[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.3[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-6.2.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )"

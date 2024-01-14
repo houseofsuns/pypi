@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/ask-sdk-model[${PYTHON_USEDEP}]
 	dev-python/ask-sdk-core[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.2[${PYTHON_USEDEP}]
 	dev-python/certvalidator[${PYTHON_USEDEP}]
-	dev-python/freezegun[${PYTHON_USEDEP}]"
+	>=dev-python/freezegun-0.3.15[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

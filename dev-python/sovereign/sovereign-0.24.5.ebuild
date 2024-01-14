@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="boto caching httptools orjson sentry statsd ujson"
-DEPENDENCIES="dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/croniter-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/cachelib[${PYTHON_USEDEP}]
+	<dev-python/structlog-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/cachelib-0.11.0[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
-	boto? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	<dev-python/uvloop-0.18.0[${PYTHON_USEDEP}]
+	sentry? ( <dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}] )
+	boto? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	statsd? ( dev-python/datadog[${PYTHON_USEDEP}] )
-	ujson? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	ujson? ( <dev-python/ujson-6.0.0[${PYTHON_USEDEP}] )
+	orjson? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
 	caching? ( dev-python/cashews[${PYTHON_USEDEP}] )
-	dev-python/redis[${PYTHON_USEDEP}]
+	<=dev-python/redis-5.0.0[${PYTHON_USEDEP}]
 	httptools? ( dev-python/httptools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

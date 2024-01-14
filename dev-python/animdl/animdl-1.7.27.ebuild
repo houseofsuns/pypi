@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/anchor-kr[${PYTHON_USEDEP}]
 	dev-python/anitopy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	dev-python/comtypes[${PYTHON_USEDEP}]
-	dev-python/cssselect[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pkginfo[${PYTHON_USEDEP}]
+	<dev-python/cssselect-1.3[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.1[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
+	<dev-python/pkginfo-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/regex-2022.11.0[${PYTHON_USEDEP}]
+	<dev-python/rich-13.3.4[${PYTHON_USEDEP}]
+	<dev-python/tqdm-4.66.0[${PYTHON_USEDEP}]
+	<dev-python/yarl-1.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

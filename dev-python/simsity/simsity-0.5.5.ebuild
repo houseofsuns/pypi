@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/srsly[${PYTHON_USEDEP}]
 	dev-python/hnswlib[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/srsly[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hnswlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/interrogate[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/flake8-3.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-4.0.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

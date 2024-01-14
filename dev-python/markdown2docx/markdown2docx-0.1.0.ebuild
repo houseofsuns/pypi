@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
-	dev-python/markdown2[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	>=dev-python/markdown2-2.4.2[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-3.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

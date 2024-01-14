@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	test? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.0.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/setuptools-45.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pylint-2.13.9[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-0.971[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/black-22.8.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

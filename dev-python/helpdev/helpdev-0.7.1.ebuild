@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="memory_info"
-DEPENDENCIES="memory_info? ( dev-python/psutil[${PYTHON_USEDEP}] )"
+DEPENDENCIES="memory_info? ( >=dev-python/psutil-5.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

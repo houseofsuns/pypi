@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/prettytable-2.5.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.24[${PYTHON_USEDEP}]
+	~dev-python/rich-13.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

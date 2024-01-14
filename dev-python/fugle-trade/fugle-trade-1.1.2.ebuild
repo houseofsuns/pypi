@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/websocket-client-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/keyring-23.5.0[${PYTHON_USEDEP}]
 	dev-python/keyrings-cryptfile[${PYTHON_USEDEP}]
 	dev-python/fugle-trade-core[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="avendesora"
 DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
+	>=dev-python/arrow-0.15[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/inform[${PYTHON_USEDEP}]
 	dev-python/nestedtext[${PYTHON_USEDEP}]

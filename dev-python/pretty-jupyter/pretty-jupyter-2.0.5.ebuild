@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docs test"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.1[${PYTHON_USEDEP}]
+	<dev-python/nbconvert-7.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/ipython-genutils[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/cerberus[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
+	>=dev-python/cerberus-1.1[${PYTHON_USEDEP}]
 	all? ( dev-python/pretty-jupyter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
@@ -46,8 +46,8 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pretty-jupyter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pretty-jupyter[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )

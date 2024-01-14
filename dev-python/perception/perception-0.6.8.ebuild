@@ -27,7 +27,7 @@ IUSE="benchmarking matching"
 DEPENDENCIES="dev-python/pywavelets[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
+	>=dev-python/validators-0.12.4[${PYTHON_USEDEP}]
 	benchmarking? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	benchmarking? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	benchmarking? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

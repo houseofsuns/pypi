@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/Flask-Breadcrumbs[${PYTHON_USEDEP}]
 	dev-python/invenio-assets[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/invenio-i18n[${PYTHON_USEDEP}]
-	dev-python/jsmin[${PYTHON_USEDEP}]
+	>=dev-python/jsmin-3.0.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )"

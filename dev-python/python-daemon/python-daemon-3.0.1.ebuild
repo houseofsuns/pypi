@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="devel test"
 DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/lockfile[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/lockfile-0.10[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-62.4.0[${PYTHON_USEDEP}]
 	devel? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	devel? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	devel? ( dev-python/isort[${PYTHON_USEDEP}] )
-	devel? ( dev-python/testscenarios[${PYTHON_USEDEP}] )
+	devel? ( >=dev-python/testscenarios-0.4[${PYTHON_USEDEP}] )
 	devel? ( dev-python/testtools[${PYTHON_USEDEP}] )
 	devel? ( dev-python/twine[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	test? ( dev-python/testscenarios[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testscenarios-0.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/testtools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

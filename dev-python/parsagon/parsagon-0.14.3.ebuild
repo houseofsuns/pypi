@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/selenium-4.9.1[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.6[${PYTHON_USEDEP}]
+	~dev-python/rich-13.6.0[${PYTHON_USEDEP}]
+	~dev-python/PyQt6-6.6.1[${PYTHON_USEDEP}]
 	dev-python/PyVirtualDisplay[${PYTHON_USEDEP}]
 	dev-python/selenium-wire[${PYTHON_USEDEP}]
-	dev-python/cssselect[${PYTHON_USEDEP}]
+	~dev-python/cssselect-1.1.0[${PYTHON_USEDEP}]
 	dev-python/undetected-chromedriver[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	~dev-python/jsonpath-ng-1.5.3[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.19.1[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pytest-7.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

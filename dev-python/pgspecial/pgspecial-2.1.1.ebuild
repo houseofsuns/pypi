@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/psycopg[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/click-4.1[${PYTHON_USEDEP}]
+	>=dev-python/sqlparse-0.1.19[${PYTHON_USEDEP}]
+	>=dev-python/psycopg-3.0.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

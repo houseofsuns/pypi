@@ -27,10 +27,10 @@ IUSE="dev"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/epicscorelibs[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/click-8.1.0[${PYTHON_USEDEP}] )
+	dev? ( >dev-python/isort-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )

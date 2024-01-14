@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	<dev-python/pytest-5.0[${PYTHON_USEDEP}]
 	dev-python/cobra[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )"
+	<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
+	<dev-python/ipywidgets-8.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.18[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/nbsphinx-0.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc qa test"
 DEPENDENCIES="dev-python/clapper[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )

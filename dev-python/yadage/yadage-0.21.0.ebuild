@@ -27,37 +27,37 @@ IUSE="all celery develop lint viz"
 DEPENDENCIES="dev-python/adage[${PYTHON_USEDEP}]
 	dev-python/packtivity[${PYTHON_USEDEP}]
 	dev-python/yadage-schemas[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.9[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/jsonref[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/jsonpointer[${PYTHON_USEDEP}]
+	>=dev-python/jsonpointer-1.10[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw[${PYTHON_USEDEP}]
 	dev-python/checksumdir[${PYTHON_USEDEP}]
 	dev-python/glob2[${PYTHON_USEDEP}]
 	dev-python/jq[${PYTHON_USEDEP}]
 	all? ( dev-python/adage[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/celery[${PYTHON_USEDEP}] )
 	all? ( dev-python/isort[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydotplus[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/redis[${PYTHON_USEDEP}] )
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	celery? ( dev-python/redis[${PYTHON_USEDEP}] )
 	develop? ( dev-python/adage[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pydotplus[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
 	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	viz? ( dev-python/adage[${PYTHON_USEDEP}] )
 	viz? ( dev-python/pydotplus[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

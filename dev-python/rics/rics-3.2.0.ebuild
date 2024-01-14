@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli plotting"
 DEPENDENCIES="cli? ( dev-python/click[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1[${PYTHON_USEDEP}]
 	plotting? ( dev-python/seaborn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

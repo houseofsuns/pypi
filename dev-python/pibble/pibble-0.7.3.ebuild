@@ -24,47 +24,47 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws browser build cherrypy excel ftp grpc gunicorn imaging mssql mysql postgresql thrift werkzeug"
-DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/bcrypt-4.1[${PYTHON_USEDEP}]
+	<dev-python/chardet-5.2[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
 	dev-python/mimeparse[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/sshpubkeys[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/webob[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0[${PYTHON_USEDEP}]
+	<dev-python/pyopenssl-24.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/requests-oauthlib-2.0[${PYTHON_USEDEP}]
+	<dev-python/semantic-version-3.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	<dev-python/sshpubkeys-4.0[${PYTHON_USEDEP}]
+	<dev-python/termcolor-3.0[${PYTHON_USEDEP}]
+	<dev-python/webob-2.0[${PYTHON_USEDEP}]
 	dev-python/wsgitypes[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/zeep[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	<dev-python/xlrd-3.0[${PYTHON_USEDEP}]
+	<dev-python/zeep-5.0[${PYTHON_USEDEP}]
+	<dev-python/paramiko-4.0[${PYTHON_USEDEP}]
+	mysql? ( <dev-python/mysqlclient-2.2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/sqlalchemy-pyodbc-mssql[${PYTHON_USEDEP}] )
-	thrift? ( dev-python/thrift[${PYTHON_USEDEP}] )
+	thrift? ( <dev-python/thrift-1.0[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
-	browser? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	browser? ( <dev-python/selenium-5.0[${PYTHON_USEDEP}] )
 	imaging? ( dev-python/pdf2image[${PYTHON_USEDEP}] )
-	imaging? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	imaging? ( <dev-python/pillow-10.0[${PYTHON_USEDEP}] )
 	imaging? ( dev-python/psd-tools[${PYTHON_USEDEP}] )
-	cherrypy? ( dev-python/cherrypy[${PYTHON_USEDEP}] )
+	cherrypy? ( <dev-python/cherrypy-19.0[${PYTHON_USEDEP}] )
 	gunicorn? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	werkzeug? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	excel? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	ftp? ( dev-python/pyftpdlib[${PYTHON_USEDEP}] )
-	build? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	build? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	werkzeug? ( <dev-python/werkzeug-3.0[${PYTHON_USEDEP}] )
+	excel? ( <dev-python/openpyxl-4.0[${PYTHON_USEDEP}] )
+	aws? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
+	ftp? ( <dev-python/pyftpdlib-2.0[${PYTHON_USEDEP}] )
+	build? ( <dev-python/sphinx-6.3[${PYTHON_USEDEP}] )
+	build? ( <dev-python/sphinx-rtd-theme-1.3[${PYTHON_USEDEP}] )
 	build? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	build? ( dev-python/types-chardet[${PYTHON_USEDEP}] )
 	build? ( dev-python/types-requests[${PYTHON_USEDEP}] )
@@ -77,28 +77,28 @@ DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
 	build? ( dev-python/types-openpyxl[${PYTHON_USEDEP}] )
 	build? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
 	build? ( dev-python/importchecker[${PYTHON_USEDEP}] )
-	build? ( dev-python/black[${PYTHON_USEDEP}] )
-	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	build? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	all? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	build? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
+	build? ( <dev-python/twine-5.0[${PYTHON_USEDEP}] )
+	build? ( <dev-python/mypy-1.3[${PYTHON_USEDEP}] )
+	all? ( <dev-python/mysqlclient-2.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlalchemy-pyodbc-mssql[${PYTHON_USEDEP}] )
-	all? ( dev-python/thrift[${PYTHON_USEDEP}] )
+	all? ( <dev-python/thrift-1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	all? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
-	all? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	all? ( <dev-python/selenium-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pdf2image[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pillow-10.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/psd-tools[${PYTHON_USEDEP}] )
-	all? ( dev-python/cherrypy[${PYTHON_USEDEP}] )
+	all? ( <dev-python/cherrypy-19.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	all? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyftpdlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	all? ( <dev-python/werkzeug-3.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/openpyxl-4.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyftpdlib-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-6.3[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-rtd-theme-1.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-chardet[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-requests[${PYTHON_USEDEP}] )
@@ -111,8 +111,8 @@ DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
 	all? ( dev-python/types-openpyxl[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
 	all? ( dev-python/importchecker[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/twine[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/twine-5.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/mypy-1.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

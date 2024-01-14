@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs test"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jupyter-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/restview[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )

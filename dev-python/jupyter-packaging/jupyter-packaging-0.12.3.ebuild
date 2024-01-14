@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/deprecation[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-60.2.0[${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	test? ( dev-python/build[${PYTHON_USEDEP}] )

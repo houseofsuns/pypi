@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/urllib3-1.25[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
+	>=dev-python/django-2.1.5[${PYTHON_USEDEP}]
+	>=dev-python/backoff-1.8.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	>=dev-python/docker-3.4.1[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.14.1[${PYTHON_USEDEP}]
+	>=dev-python/pexpect-4.6.0[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-1.7.4[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-httplib2-0.0.3[${PYTHON_USEDEP}]
+	>=dev-python/progressbar2-3.38.0[${PYTHON_USEDEP}]
 	dev-python/portpicker[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	test? ( dev-python/absl-py[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/absl-py-0.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/nox[${PYTHON_USEDEP}] )
 	test? ( dev-python/nox-automation[${PYTHON_USEDEP}] )
-	test? ( dev-python/selenium[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/selenium-3.141.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

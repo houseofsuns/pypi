@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="serialization"
-DEPENDENCIES="serialization? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+DEPENDENCIES="serialization? ( <dev-python/jsonschema-5.0[${PYTHON_USEDEP}] )
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/ounce[${PYTHON_USEDEP}]
-	serialization? ( dev-python/simplejson[${PYTHON_USEDEP}] )
+	serialization? ( <dev-python/simplejson-4.0[${PYTHON_USEDEP}] )
 	dev-python/vg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

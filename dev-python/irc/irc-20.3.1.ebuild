@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
 DEPENDENCIES="dev-python/jaraco-collections[${PYTHON_USEDEP}]
-	dev-python/jaraco-text[${PYTHON_USEDEP}]
+	>=dev-python/jaraco-text-3.10[${PYTHON_USEDEP}]
 	dev-python/jaraco-logging[${PYTHON_USEDEP}]
-	dev-python/jaraco-functools[${PYTHON_USEDEP}]
+	>=dev-python/jaraco-functools-1.20[${PYTHON_USEDEP}]
 	dev-python/jaraco-stream[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/tempora[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	>=dev-python/tempora-1.6[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.2.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-packaging[${PYTHON_USEDEP}] )
-	docs? ( dev-python/rst-linker[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/rst-linker-1.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-lint[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-tidelift[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-checkdocs[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-enabler[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
-	dev? ( dev-python/pyglet[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/cffi-1.15.0[${PYTHON_USEDEP}]
+	dev? ( <dev-python/pyglet-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pygame[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aafigure[${PYTHON_USEDEP}] )

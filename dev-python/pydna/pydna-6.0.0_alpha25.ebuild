@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="clipboard download express gel"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.8.8[${PYTHON_USEDEP}]
 	dev-python/pydivsufsort[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
+	>=dev-python/prettytable-3.5.0[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
-	clipboard? ( dev-python/pyperclip[${PYTHON_USEDEP}] )
-	gel? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	gel? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	gel? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	download? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
-	download? ( dev-python/requests[${PYTHON_USEDEP}] )
+	clipboard? ( >=dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}] )
+	gel? ( >=dev-python/scipy-1.9.3[${PYTHON_USEDEP}] )
+	gel? ( >=dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}] )
+	gel? ( >=dev-python/pillow-8.4.0[${PYTHON_USEDEP}] )
+	download? ( >=dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}] )
+	download? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
 	express? ( dev-python/cai2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

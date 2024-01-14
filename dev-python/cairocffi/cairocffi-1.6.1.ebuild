@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test xcb"
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cffi-1.1.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pikepdf[${PYTHON_USEDEP}] )
-	xcb? ( dev-python/xcffib[${PYTHON_USEDEP}] )"
+	xcb? ( >=dev-python/xcffib-1.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

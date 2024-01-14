@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jsons[${PYTHON_USEDEP}]
-	dev-python/simpy[${PYTHON_USEDEP}]"
+	~dev-python/simpy-4.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

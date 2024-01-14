@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp marshmallow pydantic tests twisted typing"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/uritemplate[${PYTHON_USEDEP}]
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	marshmallow? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/requests-2.18.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.13.0[${PYTHON_USEDEP}]
+	>=dev-python/uritemplate-3.0.0[${PYTHON_USEDEP}]
+	aiohttp? ( >=dev-python/aiohttp-2.3.0[${PYTHON_USEDEP}] )
+	marshmallow? ( >=dev-python/marshmallow-2.15.0[${PYTHON_USEDEP}] )
+	pydantic? ( >=dev-python/pydantic-1.6.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-twisted[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	twisted? ( dev-python/twisted[${PYTHON_USEDEP}] )
+	twisted? ( >=dev-python/twisted-17.1.0[${PYTHON_USEDEP}] )
 	typing? ( dev-python/typing[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

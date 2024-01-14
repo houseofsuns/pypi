@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]"
+	<dev-python/coverage-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

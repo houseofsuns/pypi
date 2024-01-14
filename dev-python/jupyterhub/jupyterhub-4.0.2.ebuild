@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/alembic-1.4[${PYTHON_USEDEP}]
 	dev-python/async-generator[${PYTHON_USEDEP}]
 	dev-python/certipy[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/jupyter-telemetry[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
+	>=dev-python/oauthlib-3.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+	>=dev-python/prometheus-client-0.4.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+	>=dev-python/tornado-5.1[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-4.3.2[${PYTHON_USEDEP}]
 	dev-python/pamela[${PYTHON_USEDEP}]
 	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	test? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/jupyterlab-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbclassic[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.17[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/playwright[${PYTHON_USEDEP}] )

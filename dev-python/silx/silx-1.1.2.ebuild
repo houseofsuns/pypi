@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.3[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/fabio[${PYTHON_USEDEP}]
 	full? ( dev-python/pyopencl[${PYTHON_USEDEP}] )
 	full? ( dev-python/Mako[${PYTHON_USEDEP}] )
 	full? ( dev-python/qtconsole[${PYTHON_USEDEP}] )
-	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/matplotlib-1.2.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
 	full? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
 	full? ( dev-python/PyQt5[${PYTHON_USEDEP}] )

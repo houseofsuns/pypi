@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="includes"
 DEPENDENCIES="dev-python/argus-api[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/terminaltables[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/colorlog-5.0[${PYTHON_USEDEP}]
+	<dev-python/terminaltables-4.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	includes? ( dev-python/pyyaml-include[${PYTHON_USEDEP}] )
 	dev-python/dateparser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

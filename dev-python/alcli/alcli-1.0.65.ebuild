@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/alertlogic-sdk-python[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/httpretty[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )"
+	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
+	~dev-python/jmespath-0.9.5[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-1.6.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/httpretty-0.8.14[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pycodestyle-2.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

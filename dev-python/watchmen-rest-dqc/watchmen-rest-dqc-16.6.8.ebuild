@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/watchmen-dqc[${PYTHON_USEDEP}]
 	postgresql? ( dev-python/watchmen-storage-postgresql[${PYTHON_USEDEP}] )
 	oss? ( dev-python/watchmen-storage-oss[${PYTHON_USEDEP}] )
 	s3? ( dev-python/watchmen-storage-s3[${PYTHON_USEDEP}] )
-	dev-python/uvloop[${PYTHON_USEDEP}]"
+	<dev-python/uvloop-0.18.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

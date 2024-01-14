@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/python-freeipa[${PYTHON_USEDEP}]
-	dev-python/requests-kerberos[${PYTHON_USEDEP}]
+	~dev-python/requests-kerberos-0.12.0[${PYTHON_USEDEP}]
 	dev-python/requests-gssapi[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

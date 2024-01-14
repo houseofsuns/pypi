@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="base_sql mysql odbc postgres test xls xlsx"
 DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
+	>=dev-python/backoff-2.0[${PYTHON_USEDEP}]
+	~dev-python/jsonpath-ng-1.6.0[${PYTHON_USEDEP}]
 	dev-python/ndg-httpsclient[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-2.5.12[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-migrate[${PYTHON_USEDEP}]
 	base_sql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	base_sql? ( dev-python/alembic[${PYTHON_USEDEP}] )

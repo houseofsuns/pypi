@@ -29,13 +29,13 @@ DEPENDENCIES="dev-python/apache-beam[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
 	dev-python/pg8000[${PYTHON_USEDEP}]
 	dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/kafka-python[${PYTHON_USEDEP}]
-	dev? ( dev-python/nose[${PYTHON_USEDEP}] )
+	>=dev-python/kafka-python-2.0.1[${PYTHON_USEDEP}]
+	dev? ( <dev-python/nose-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/testing-postgresql[${PYTHON_USEDEP}] )
 	dev? ( dev-python/testing-mysqld[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

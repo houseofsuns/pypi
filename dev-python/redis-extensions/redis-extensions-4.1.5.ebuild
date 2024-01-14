@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="advanced full gvcode vcode"
 DEPENDENCIES="dev-python/TimeConvert[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	>=dev-python/redis-4.0.2[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	advanced? ( dev-python/verification-code[${PYTHON_USEDEP}] )
 	advanced? ( dev-python/graphic-verification-code[${PYTHON_USEDEP}] )

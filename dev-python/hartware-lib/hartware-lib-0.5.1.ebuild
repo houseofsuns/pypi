@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all async-http async-rabbitmq data-science slack"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	all? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	async-http? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/aiofiles-0.9.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
+	async-http? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	async-rabbitmq? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests-mock[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-mock-2.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
 	slack? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
 	dev-python/types-requests[${PYTHON_USEDEP}]
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	data-science? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	data-science? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
+	data-science? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
+	data-science? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

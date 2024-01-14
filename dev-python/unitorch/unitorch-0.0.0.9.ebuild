@@ -28,19 +28,19 @@ DEPENDENCIES="dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/peft[${PYTHON_USEDEP}]
 	all? ( dev-python/unitorch[${PYTHON_USEDEP}] )
 	deepspeed? ( dev-python/deepspeed[${PYTHON_USEDEP}] )
-	deepspeed? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
+	deepspeed? ( ~dev-python/mpi4py-3.1.4[${PYTHON_USEDEP}] )
 	diffusers? ( dev-python/diffusers[${PYTHON_USEDEP}] )
 	diffusers? ( dev-python/safetensors[${PYTHON_USEDEP}] )
 	diffusers? ( dev-python/xformers[${PYTHON_USEDEP}] )
 	diffusers? ( dev-python/torchsde[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-0.18[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/markdown-exec[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )

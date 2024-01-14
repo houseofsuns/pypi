@@ -24,44 +24,44 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="all? ( dev-python/Faker[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( <dev-python/Faker-18.11.0[${PYTHON_USEDEP}] )
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	all? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	all? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	dev-python/asgi-lifespan[${PYTHON_USEDEP}]
-	all? ( dev-python/certifi[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/certifi-2023.5.7[${PYTHON_USEDEP}] )
 	all? ( dev-python/contextvars[${PYTHON_USEDEP}] )
 	all? ( dev-python/crypto[${PYTHON_USEDEP}] )
 	all? ( dev-python/dicttoxml[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	all? ( dev-python/kafka[${PYTHON_USEDEP}] )
 	dev-python/limits[${PYTHON_USEDEP}]
-	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev-python/mkdocs-material[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	all? ( <dev-python/lxml-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}]
+	<dev-python/mypy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/py_mini_racer[${PYTHON_USEDEP}]
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pydantic-1.9.1[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/pylogbeat[${PYTHON_USEDEP}]
 	all? ( dev-python/pypinyin[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
+	all? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/ruff[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	all? ( dev-python/six[${PYTHON_USEDEP}] )
-	all? ( dev-python/starlette[${PYTHON_USEDEP}] )
+	>=dev-python/simplejson-3.17.6[${PYTHON_USEDEP}]
+	all? ( <dev-python/six-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/starlette-0.27.0[${PYTHON_USEDEP}] )
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	dev-python/types-python-dateutil[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
 	dev-python/types-simplejson[${PYTHON_USEDEP}]
 	dev-python/types-urllib3[${PYTHON_USEDEP}]
-	all? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	all? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	all? ( <dev-python/urllib3-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/uvicorn-0.23.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/w3lib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

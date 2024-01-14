@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
 DEPENDENCIES="dev-python/more_itertools[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-6.0[${PYTHON_USEDEP}]
 	dev-python/innerscope[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jupyterlab-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sympy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/forallpeople[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pint[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

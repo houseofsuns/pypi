@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="data-consolidation glue"
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	data-consolidation? ( dev-python/polars[${PYTHON_USEDEP}] )
 	glue? ( dev-python/awswrangler[${PYTHON_USEDEP}] )
 	dev-python/boto3-stubs[${PYTHON_USEDEP}]
-	glue? ( dev-python/cryptography[${PYTHON_USEDEP}] )"
+	glue? ( ~dev-python/cryptography-41.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

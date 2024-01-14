@@ -40,6 +40,6 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	test? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
 	test? ( dev-python/Cython[${PYTHON_USEDEP}] )
-	test? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/uvloop-0.12.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

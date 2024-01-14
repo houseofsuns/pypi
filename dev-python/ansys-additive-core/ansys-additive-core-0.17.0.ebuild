@@ -26,55 +26,55 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc tests"
 DEPENDENCIES="dev-python/ansys-api-additive[${PYTHON_USEDEP}]
 	dev-python/ansys-platform-instancemanagement[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.7[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-1.7.11[${PYTHON_USEDEP}]
+	>=dev-python/googleapis-common-protos-1.52.0[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.35.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-health-checking[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.2[${PYTHON_USEDEP}]
 	dev-python/panel[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.16.1[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.45.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/enum-tools[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter_sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/panel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/phantomjs[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyvista[${PYTHON_USEDEP}] )
-	doc? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/selenium-4.15.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-autoapi-3.0.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-autodoc-typehints-1.25.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-gallery-0.15.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-notfound-page-1.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxemoji-0.2.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ansys-platform-instancemanagement[${PYTHON_USEDEP}] )
-	tests? ( dev-python/dill[${PYTHON_USEDEP}] )
-	tests? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	tests? ( dev-python/googleapis-common-protos[${PYTHON_USEDEP}] )
-	tests? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/dill-0.3.7[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/google-api-python-client-2.109.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/googleapis-common-protos-1.61.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/grpcio-1.59.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/grpcio-health-checking[${PYTHON_USEDEP}] )
-	tests? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/numpy-1.26.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pandas-2.1.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/panel[${PYTHON_USEDEP}] )
-	tests? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
-	tests? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/plotly-5.18.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	tests? ( dev-python/six[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

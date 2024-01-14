@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/arcane-core[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	<dev-python/flask-2.0.0[${PYTHON_USEDEP}]
 	dev-python/flask_log_request_id[${PYTHON_USEDEP}]
 	dev-python/firebase_admin[${PYTHON_USEDEP}]
 	dev-python/arcane-datastore[${PYTHON_USEDEP}]
 	dev-python/arcane-pubsub[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+	<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/pytz-2022.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

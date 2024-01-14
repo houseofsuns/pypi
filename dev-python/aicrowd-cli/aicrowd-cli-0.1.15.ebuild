@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1.18[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/requests-toolbelt-1.0[${PYTHON_USEDEP}]
+	<dev-python/rich-11.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]"
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	~dev-python/pyzmq-22.1.0[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-6.0[${PYTHON_USEDEP}]
+	<dev-python/semver-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

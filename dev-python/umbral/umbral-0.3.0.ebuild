@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmarks docs testing"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
+	~dev-python/cryptography-3.0[${PYTHON_USEDEP}]
+	~dev-python/pynacl-1.0[${PYTHON_USEDEP}]
 	benchmarks? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )

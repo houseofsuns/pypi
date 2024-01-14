@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="compat extension-backend-ray"
 DEPENDENCIES="dev-python/pathos[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	compat? ( dev-python/cadCAD[${PYTHON_USEDEP}] )
 	extension-backend-ray? ( dev-python/ray[${PYTHON_USEDEP}] )
-	extension-backend-ray? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dev-python/py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	extension-backend-ray? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/py-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/fn-py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

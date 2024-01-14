@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.0[${PYTHON_USEDEP}]
 	dev-python/silx[${PYTHON_USEDEP}]
 	dev-python/pyunitsystem[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]

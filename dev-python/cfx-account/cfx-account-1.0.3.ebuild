@@ -27,9 +27,9 @@ IUSE="dev tester"
 DEPENDENCIES="dev-python/eth-account[${PYTHON_USEDEP}]
 	dev-python/cfx-address[${PYTHON_USEDEP}]
 	dev-python/cfx-utils[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/conflux-web3[${PYTHON_USEDEP}] )
-	tester? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tester? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/pydantic-1.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/httpx-0.14.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.4.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-repeat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	docs? ( dev-python/AutoMacDoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/livereload[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/livereload-2.6.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-4.6.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

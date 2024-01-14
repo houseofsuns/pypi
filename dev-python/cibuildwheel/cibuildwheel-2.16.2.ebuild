@@ -28,19 +28,19 @@ DEPENDENCIES="dev-python/bashlex[${PYTHON_USEDEP}]
 	dev-python/bracex[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]
 	bin? ( dev-python/click[${PYTHON_USEDEP}] )
 	bin? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	bin? ( dev-python/pygithub[${PYTHON_USEDEP}] )
 	bin? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	bin? ( dev-python/requests[${PYTHON_USEDEP}] )
-	bin? ( dev-python/rich[${PYTHON_USEDEP}] )
-	bin? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	bin? ( >=dev-python/rich-9.6[${PYTHON_USEDEP}] )
+	bin? ( >=dev-python/packaging-21.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
@@ -51,15 +51,15 @@ DEPENDENCIES="dev-python/bashlex[${PYTHON_USEDEP}]
 	dev? ( dev-python/pygithub[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/rich[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/rich-9.6[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/packaging-21.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.3.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
 	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/build[${PYTHON_USEDEP}] )

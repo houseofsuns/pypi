@@ -27,10 +27,10 @@ IUSE="lint test"
 DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/paginate[${PYTHON_USEDEP}]
 	dev-python/paginate-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
+	>=dev-python/passlib-1.6.1[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/zope-deprecation[${PYTHON_USEDEP}]
+	>=dev-python/zope-deprecation-3.5.0[${PYTHON_USEDEP}]
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )

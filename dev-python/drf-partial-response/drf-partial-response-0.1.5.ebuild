@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/isort[${PYTHON_USEDEP}]
 	dev-python/jsonmask[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.5[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/factory-boy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -29,13 +29,13 @@ DEPENDENCIES="dev-python/typing_extensions[${PYTHON_USEDEP}]
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
 	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	sentry? ( dev-python/requests[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	sqlalchemy? ( >=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask_reverse_proxy[${PYTHON_USEDEP}] )
 	http? ( dev-python/setuplog[${PYTHON_USEDEP}] )
 	http? ( dev-python/backoff[${PYTHON_USEDEP}] )
 	datadog? ( dev-python/configly[${PYTHON_USEDEP}] )
 	datadog? ( dev-python/datadog[${PYTHON_USEDEP}] )
 	dramatiq? ( dev-python/dramatiq[${PYTHON_USEDEP}] )
-	dramatiq? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	dramatiq? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

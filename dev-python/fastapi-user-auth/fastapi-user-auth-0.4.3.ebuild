@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev jwt redis test"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pydantic-1.9[${PYTHON_USEDEP}]
 	dev-python/fastapi-amis-admin[${PYTHON_USEDEP}]
 	dev-python/email-validator[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
+	>=dev-python/passlib-1.7.4[${PYTHON_USEDEP}]
+	>=dev-python/bcrypt-4.0.0[${PYTHON_USEDEP}]
 	dev-python/sqlmodelx[${PYTHON_USEDEP}]
 	all? ( dev-python/fastapi-user-auth[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastapi-user-auth[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	jwt? ( dev-python/python-jose[${PYTHON_USEDEP}] )
+	jwt? ( ~dev-python/python-jose-3.3.0[${PYTHON_USEDEP}] )
 	redis? ( dev-python/aioredis[${PYTHON_USEDEP}] )
-	test? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-jose[${PYTHON_USEDEP}] )
+	test? ( <dev-python/uvicorn-1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.17[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/aiosqlite-0.15.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/python-jose-3.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	test? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/ujson-5.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

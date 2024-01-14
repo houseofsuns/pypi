@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	fast-validation? ( dev-python/fastjsonschema[${PYTHON_USEDEP}] )
 	test? ( dev-python/apispec-webframeworks[${PYTHON_USEDEP}] )
 	test? ( dev-python/apispec[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/flask[${PYTHON_USEDEP}] )
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )

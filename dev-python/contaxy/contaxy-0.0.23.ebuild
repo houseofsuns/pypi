@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	server? ( dev-python/streaming-form-data[${PYTHON_USEDEP}] )
 	server? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	server? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	server? ( dev-python/shortuuid[${PYTHON_USEDEP}] )
 	server? ( dev-python/python-slugify[${PYTHON_USEDEP}] )

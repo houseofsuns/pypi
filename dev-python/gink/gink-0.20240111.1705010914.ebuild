@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/wsproto[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-0.812[${PYTHON_USEDEP}] )
 	performance? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

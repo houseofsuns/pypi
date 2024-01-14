@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/webexteamssdk[${PYTHON_USEDEP}]
 	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	~dev-python/websockets-10.2[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

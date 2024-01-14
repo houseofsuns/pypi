@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="diffshow"
 DEPENDENCIES="dev-python/crystals[${PYTHON_USEDEP}]
 	dev-python/npstreams[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pywavelets[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pywavelets-2.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	diffshow? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.1[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
+	diffshow? ( <dev-python/pyqtgraph-1.0[${PYTHON_USEDEP}] )
 	diffshow? ( dev-python/PyQt5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

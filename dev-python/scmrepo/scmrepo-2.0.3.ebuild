@@ -25,26 +25,26 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
 DEPENDENCIES="dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/dulwich[${PYTHON_USEDEP}]
-	dev-python/pygit2[${PYTHON_USEDEP}]
+	>=dev-python/dulwich-0.21.6[${PYTHON_USEDEP}]
+	>=dev-python/pygit2-1.13.3[${PYTHON_USEDEP}]
 	dev-python/pygtrie[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2021.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pathspec-0.9.0[${PYTHON_USEDEP}]
 	dev-python/asyncssh[${PYTHON_USEDEP}]
-	dev-python/funcy[${PYTHON_USEDEP}]
+	>=dev-python/funcy-1.14[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/dvc-objects[${PYTHON_USEDEP}]
 	dev-python/dvc-http[${PYTHON_USEDEP}]
 	dev? ( dev-python/scmrepo[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-sugar-0.9.5[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.8.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mypy-0.971[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-test-utils[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/paramiko[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-asyncio-0.18.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mock-5.1.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/paramiko-3.3.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-certifi[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-paramiko[${PYTHON_USEDEP}] )"

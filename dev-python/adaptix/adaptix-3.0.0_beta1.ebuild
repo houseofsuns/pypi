@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="attrs attrs-strict"
-DEPENDENCIES="dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	attrs? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	attrs-strict? ( dev-python/attrs[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/exceptiongroup-1.1.3[${PYTHON_USEDEP}]
+	attrs? ( >=dev-python/attrs-21.3.0[${PYTHON_USEDEP}] )
+	attrs-strict? ( <=dev-python/attrs-23.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

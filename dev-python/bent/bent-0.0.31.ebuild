@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/obonet[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	~dev-python/networkx-2.5.1[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/rapidfuzz-2.0.2[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.66[${PYTHON_USEDEP}]
 	dev-python/seqeval[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	~dev-python/orjson-3.8.5[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]

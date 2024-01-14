@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/isodate[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/isodate-1.0.0[${PYTHON_USEDEP}]
 	dev-python/azure-core[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

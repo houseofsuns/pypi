@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="markdown"
-DEPENDENCIES="dev-python/blinker[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/feedgenerator[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/blinker-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/docutils-0.20.1[${PYTHON_USEDEP}]
+	>=dev-python/feedgenerator-2.1.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/watchfiles[${PYTHON_USEDEP}]
-	markdown? ( dev-python/markdown[${PYTHON_USEDEP}] )"
+	>=dev-python/ordered-set-4.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.16.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.6.0[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-1.3.7[${PYTHON_USEDEP}]
+	>=dev-python/watchfiles-0.21.0[${PYTHON_USEDEP}]
+	markdown? ( >=dev-python/markdown-3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

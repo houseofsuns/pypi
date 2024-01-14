@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django-filter[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-filter-23.5[${PYTHON_USEDEP}]
 	dev-python/django-webpack-loader[${PYTHON_USEDEP}]
 	dev-python/vobject[${PYTHON_USEDEP}]
-	dev-python/caldav[${PYTHON_USEDEP}]"
+	~dev-python/caldav-1.3.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

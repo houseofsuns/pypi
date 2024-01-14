@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/websockets-10.0[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.23[${PYTHON_USEDEP}]
 	dev-python/polling2[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.2.3[${PYTHON_USEDEP}]
 	dev-python/jiwer[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/pyannote-core[${PYTHON_USEDEP}]
 	dev-python/pyannote-database[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]"
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

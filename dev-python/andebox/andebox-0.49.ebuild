@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ansible-core[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
 	dev-python/python-vagrant[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/looseversion[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]"
+	<dev-python/decorator-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/looseversion-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tox-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="azimuth dissolve length shape shapify speed"
 DEPENDENCIES="dev-python/fiona[${PYTHON_USEDEP}]
-	azimuth? ( dev-python/pyproj[${PYTHON_USEDEP}] )
-	dissolve? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	length? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	shape? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	shapify? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	speed? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	azimuth? ( <dev-python/pyproj-1.10[${PYTHON_USEDEP}] )
+	dissolve? ( <dev-python/shapely-2.0[${PYTHON_USEDEP}] )
+	length? ( <dev-python/shapely-2.0[${PYTHON_USEDEP}] )
+	shape? ( <dev-python/shapely-2.0[${PYTHON_USEDEP}] )
+	shapify? ( <dev-python/shapely-2.0[${PYTHON_USEDEP}] )
+	speed? ( >dev-python/numpy-1.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

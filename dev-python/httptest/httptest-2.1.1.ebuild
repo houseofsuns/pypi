@@ -27,7 +27,7 @@ IUSE="dev oidc"
 DEPENDENCIES="dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-scm-3.4.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sbom4python[${PYTHON_USEDEP}] )
 	oidc? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
 	oidc? ( dev-python/jwcrypto[${PYTHON_USEDEP}] )

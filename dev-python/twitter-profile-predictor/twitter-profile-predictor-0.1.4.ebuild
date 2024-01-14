@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/asttokens[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
+	>=dev-python/asttokens-2.0.5[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
 	dev-python/langid[${PYTHON_USEDEP}]
 	dev-python/cld2-cffi[${PYTHON_USEDEP}]"

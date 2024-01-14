@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="speedups"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/frozenlist[${PYTHON_USEDEP}]
-	dev-python/aiosignal[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-17.3.0[${PYTHON_USEDEP}]
+	<dev-python/multidict-7.0[${PYTHON_USEDEP}]
+	<dev-python/yarl-2.0[${PYTHON_USEDEP}]
+	>=dev-python/frozenlist-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/aiosignal-1.1.2[${PYTHON_USEDEP}]
+	<dev-python/async-timeout-5.0[${PYTHON_USEDEP}]
 	speedups? ( dev-python/brotlicffi[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/aiodns[${PYTHON_USEDEP}] )"

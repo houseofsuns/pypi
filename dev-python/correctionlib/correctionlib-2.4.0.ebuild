@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="convert dev docs test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	convert? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	convert? ( dev-python/uproot[${PYTHON_USEDEP}] )
 	convert? ( dev-python/requests[${PYTHON_USEDEP}] )
 	convert? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/uhi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/awkward[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dask-awkward[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/recommonmark-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	test? ( dev-python/awkward[${PYTHON_USEDEP}] )
 	test? ( dev-python/dask-awkward[${PYTHON_USEDEP}] )"

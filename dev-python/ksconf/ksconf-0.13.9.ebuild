@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="bash fully-loaded jinja thirdparty xml"
 DEPENDENCIES="dev-python/splunk-sdk[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-1.2.0[${PYTHON_USEDEP}]
 	bash? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
 	fully-loaded? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	fully-loaded? ( dev-python/argcomplete[${PYTHON_USEDEP}] )

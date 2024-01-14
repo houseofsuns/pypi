@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/venusian[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/mock-1.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

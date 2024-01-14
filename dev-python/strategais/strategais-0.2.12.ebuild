@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/torchaudio[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	~dev-python/cryptography-38.0.4[${PYTHON_USEDEP}]
 	dev-python/xformers[${PYTHON_USEDEP}]
 	ext? ( dev-python/openai[${PYTHON_USEDEP}] )
 	ext? ( dev-python/boto3[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	dev-python/clear-html[${PYTHON_USEDEP}]
 	dev-python/itemadapter[${PYTHON_USEDEP}]
 	dev-python/price-parser[${PYTHON_USEDEP}]

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rsa"
-DEPENDENCIES="dev-python/oauthlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/oauthlib-3.0.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	rsa? ( dev-python/oauthlib[${PYTHON_USEDEP}] )"
+	rsa? ( >=dev-python/oauthlib-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

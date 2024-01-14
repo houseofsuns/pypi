@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="client docs server test"
 DEPENDENCIES="dev-python/jupyter-core[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
-	client? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	client? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
-	client? ( dev-python/nbformat[${PYTHON_USEDEP}] )
+	client? ( >=dev-python/ipykernel-6.14[${PYTHON_USEDEP}] )
+	client? ( >=dev-python/jupyter-client-7.4.0[${PYTHON_USEDEP}] )
+	client? ( >=dev-python/nbformat-5.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
-	server? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	server? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
-	server? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
-	server? ( dev-python/nbformat[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/ipykernel-6.14[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/jupyter-client-7.4.0[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/jupyter-server-1.21[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/nbformat-5.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

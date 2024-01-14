@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests_download[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/yarg[${PYTHON_USEDEP}]
-	dev-python/distlib[${PYTHON_USEDEP}]
+	>=dev-python/distlib-0.3[${PYTHON_USEDEP}]
 	test? ( dev-python/testpath[${PYTHON_USEDEP}] )
 	test? ( dev-python/responses[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

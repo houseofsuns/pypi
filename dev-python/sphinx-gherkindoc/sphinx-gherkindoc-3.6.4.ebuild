@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
 	dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}]
 	dev-python/behave[${PYTHON_USEDEP}]
-	dev-python/recommonmark[${PYTHON_USEDEP}]"
+	>=dev-python/recommonmark-0.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,26 +25,26 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="airflow data dev"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.4.2[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.11[${PYTHON_USEDEP}]
 	dev-python/polling2[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.12[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	airflow? ( dev-python/apache-airflow[${PYTHON_USEDEP}] )
 	data? ( dev-python/dominodatalab-data[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nbconvert-6.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/packaging-21.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/polling2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-mock-1.9.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.25.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/frozendict[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

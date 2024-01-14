@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/rdflib-7.0.0[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
 	dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}]
 	dev-python/pydotplus[${PYTHON_USEDEP}]
-	dev-python/boltons[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
+	<dev-python/boltons-22.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/deepmerge-0.2.0[${PYTHON_USEDEP}]
 	dev-python/backports-cached-property[${PYTHON_USEDEP}]
 	dev-python/documented[${PYTHON_USEDEP}]
 	dev-python/singledispatchmethod[${PYTHON_USEDEP}]
 	dev-python/urlpath[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/classes[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyLD[${PYTHON_USEDEP}]
-	dev-python/dominate[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	<dev-python/dominate-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-10.0.0[${PYTHON_USEDEP}]
 	dev-python/owlrl[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/funcy[${PYTHON_USEDEP}]"
+	<dev-python/PyGithub-2.0[${PYTHON_USEDEP}]
+	<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/funcy-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

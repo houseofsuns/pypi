@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 DEPENDENCIES="dev-python/fft-conv-pytorch[${PYTHON_USEDEP}]
 	dev-python/kornia[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-autoapi-3.0.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/toml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

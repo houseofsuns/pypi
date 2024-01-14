@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/github3-py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/github3-py-2.0.0[${PYTHON_USEDEP}]
 	dev-python/msrest[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7.3[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2017.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.16[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-24.2.0[${PYTHON_USEDEP}]
 	dev-python/stashy[${PYTHON_USEDEP}]
 	dev-python/vsts[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

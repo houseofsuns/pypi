@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="numpy pandas pyarrow"
 DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
-	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	pyarrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"
+	numpy? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
+	pandas? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
+	pandas? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
+	pyarrow? ( >=dev-python/pyarrow-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

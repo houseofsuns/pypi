@@ -29,6 +29,6 @@ DEPENDENCIES="sqlalchemy? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	mongoengine? ( dev-python/mongoengine[${PYTHON_USEDEP}] )
 	all? ( dev-python/mongoengine[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

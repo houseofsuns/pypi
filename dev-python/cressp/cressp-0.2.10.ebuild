@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/biobookshelf[${PYTHON_USEDEP}]
 	dev-python/mhcflurry[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]"
+	>=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PolyRound[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	<dev-python/sympy-1.12.0[${PYTHON_USEDEP}]
 	dev-python/arviz[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	dev-python/mcbackend[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

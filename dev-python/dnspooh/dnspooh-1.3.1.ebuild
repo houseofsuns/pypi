@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
+	~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
 	dev-python/dnslib[${PYTHON_USEDEP}]
 	dev-python/maxminddb[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-3.0.9[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

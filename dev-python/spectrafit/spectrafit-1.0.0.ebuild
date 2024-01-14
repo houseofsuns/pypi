@@ -32,36 +32,36 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	all? ( dev-python/dash-bootstrap-templates[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/dtale[${PYTHON_USEDEP}] )
 	all? ( dev-python/dtale[${PYTHON_USEDEP}] )
-	dev-python/emcee[${PYTHON_USEDEP}]
-	jupyter-dash? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	<dev-python/emcee-4.0.0[${PYTHON_USEDEP}]
+	jupyter-dash? ( <dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/itables[${PYTHON_USEDEP}] )
 	all? ( dev-python/itables[${PYTHON_USEDEP}] )
 	jupyter-dash? ( dev-python/jupyter-dash[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-dash[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/jupyterlab-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/jupyterlab-5.0.0[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	all? ( dev-python/kaleido[${PYTHON_USEDEP}] )
-	dev-python/lmfit[${PYTHON_USEDEP}]
-	graph? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	<dev-python/lmfit-2.0.0[${PYTHON_USEDEP}]
+	graph? ( <dev-python/networkx-4.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/networkx-4.0[${PYTHON_USEDEP}] )
 	dev-python/numdifftools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	jupyter? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	graph? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydot[${PYTHON_USEDEP}] )
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	jupyter? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	graph? ( <dev-python/pydot-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pydot-2.0.0[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/python-pptx[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-pptx[${PYTHON_USEDEP}] )
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/tomli-w[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	<dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

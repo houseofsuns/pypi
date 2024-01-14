@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev postgres"
-DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cachetools-6.0[${PYTHON_USEDEP}]
 	dev-python/python-consul[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/thrift[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<dev-python/redis-5.0[${PYTHON_USEDEP}]
+	~dev-python/thrift-0.13[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.9[${PYTHON_USEDEP}]
 	dev-python/pyee[${PYTHON_USEDEP}]
-	dev? ( dev-python/six[${PYTHON_USEDEP}] )
-	dev? ( dev-python/fakeredis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/six-1.12[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/fakeredis-1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/thrift[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -47,6 +47,6 @@ DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/testing-postgresql[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/psycopg[${PYTHON_USEDEP}] )"
+	postgres? ( ~dev-python/psycopg-3.0.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

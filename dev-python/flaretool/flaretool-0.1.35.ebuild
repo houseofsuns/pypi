@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/annotated-types[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/annotated-types-0.5.0[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2023.5.7[${PYTHON_USEDEP}]
+	>=dev-python/charset-normalizer-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/future-0.18.3[${PYTHON_USEDEP}]
+	>=dev-python/idna-3.4[${PYTHON_USEDEP}]
+	>=dev-python/pycodestyle-2.10.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0.2[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pydantic-core[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-core-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/python-whois[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/soupsieve[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/soupsieve-2.4.1[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.6.3[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-2.0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

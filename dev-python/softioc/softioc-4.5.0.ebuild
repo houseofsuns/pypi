@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/epicscorelibs[${PYTHON_USEDEP}]
 	dev-python/epicsdbbuilder[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-4.3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme-github-versions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aioca[${PYTHON_USEDEP}] )

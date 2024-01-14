@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/attrs-20.0[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5[${PYTHON_USEDEP}]
+	<dev-python/inflect-6.0[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	dev-python/pygqlc[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]"
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	~dev-python/pytz-2022.2.1[${PYTHON_USEDEP}]
+	<dev-python/termcolor-3.0[${PYTHON_USEDEP}]
+	<dev-python/tzlocal-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="collection_client img typecheck"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-0.17.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	dev-python/google-resumable-media[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.43.0[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
-	collection_client? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	img? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	typecheck? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	collection_client? ( ~dev-python/joblib-0.17.0[${PYTHON_USEDEP}] )
+	img? ( >=dev-python/pillow-8.1.0[${PYTHON_USEDEP}] )
+	typecheck? ( ~dev-python/mypy-0.812[${PYTHON_USEDEP}] )
 	typecheck? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
-	typecheck? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	typecheck? ( ~dev-python/numpy-1.20.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

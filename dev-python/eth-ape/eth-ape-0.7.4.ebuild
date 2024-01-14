@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc lint recommended-plugins release test"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/ijson-4.0[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	<dev-python/ipython-9.0[${PYTHON_USEDEP}]
 	dev-python/lazyasd[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	<dev-python/pluggy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/PyGithub-2.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/rich-13.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.3.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
+	<dev-python/watchdog-4.0[${PYTHON_USEDEP}]
 	dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
 	dev-python/eth-typing[${PYTHON_USEDEP}]
@@ -56,55 +56,55 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/eth-pydantic-types[${PYTHON_USEDEP}]
 	dev-python/evm-trace[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hypothesis-jsonschema[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-SQLAlchemy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-breakpoint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdformat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdformat-gfm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdformat-frontmatter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdformat-pyproject[${PYTHON_USEDEP}] )
-	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/myst-parser-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-plausible[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/commitizen[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/myst-parser-2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-plausible[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-SQLAlchemy[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-breakpoint[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mdformat[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mdformat-gfm[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mdformat-frontmatter[${PYTHON_USEDEP}] )
@@ -121,11 +121,11 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	recommended-plugins? ( dev-python/ape-vyper[${PYTHON_USEDEP}] )
 	release? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	release? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	release? ( dev-python/twine[${PYTHON_USEDEP}] )
+	release? ( ~dev-python/twine-3.8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	test? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/hypothesis-jsonschema[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

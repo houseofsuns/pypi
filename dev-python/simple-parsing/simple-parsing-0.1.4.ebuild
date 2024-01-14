@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all test yaml"
 DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )

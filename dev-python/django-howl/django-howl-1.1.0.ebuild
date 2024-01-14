@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/freezegun-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-django-3.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/vcrpy[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/sphinx-3.2.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/vcrpy-4.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

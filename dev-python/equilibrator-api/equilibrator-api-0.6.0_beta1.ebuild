@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deployment development test"
-DEPENDENCIES="dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
+	~dev-python/python-slugify-5.0[${PYTHON_USEDEP}]
 	dev-python/equilibrator-cache[${PYTHON_USEDEP}]
 	dev-python/component-contribution[${PYTHON_USEDEP}]
 	deployment? ( dev-python/click[${PYTHON_USEDEP}] )

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
 	dev-python/executor[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
+	>=dev-python/humanfriendly-8.2[${PYTHON_USEDEP}]
 	dev-python/property-manager[${PYTHON_USEDEP}]
-	dev-python/verboselogs[${PYTHON_USEDEP}]"
+	>=dev-python/verboselogs-1.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

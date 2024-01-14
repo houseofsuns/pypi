@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs speedups"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async-lru[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-trio[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
+	~dev-python/async-lru-2.0.4[${PYTHON_USEDEP}]
+	~dev-python/semver-3.0.2[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-trio-1.1.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-websupport-1.2.6[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.24.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-argparse-0.4.0[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/aiohttp[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

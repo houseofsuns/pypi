@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="cli? ( dev-python/click[${PYTHON_USEDEP}] )
+DEPENDENCIES="cli? ( <dev-python/click-9.0.0[${PYTHON_USEDEP}] )
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	cli? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	cli? ( dev-python/jinja2-time[${PYTHON_USEDEP}] )
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
+	cli? ( <dev-python/jinja2-time-0.3.0[${PYTHON_USEDEP}] )
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydispatcher[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]
 	dev-python/pyjq[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	cli? ( dev-python/rich[${PYTHON_USEDEP}] )
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]"
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	cli? ( <dev-python/rich-14.0.0[${PYTHON_USEDEP}] )
+	<dev-python/six-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.23.0[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

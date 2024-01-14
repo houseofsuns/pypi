@@ -27,9 +27,9 @@ IUSE="test"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/google-cloud-logging[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-gcp-trace[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/starlette[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-asyncio-0.20.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/starlette-0.24.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

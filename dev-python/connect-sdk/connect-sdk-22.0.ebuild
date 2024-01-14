@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/deprecation-2.0.6[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-2.18.0[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-2.5.14[${PYTHON_USEDEP}]
+	~dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.12.0[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

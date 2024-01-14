@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/ffmpeg-python[${PYTHON_USEDEP}]
 	dev-python/hpc-utils[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]"
+	>=dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
+	>=dev-python/pip-23.2.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.4.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

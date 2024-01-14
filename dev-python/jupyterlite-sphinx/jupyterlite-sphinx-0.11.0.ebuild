@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/jupyterlab-server[${PYTHON_USEDEP}]
 	dev-python/jupyterlite-core[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyterlite-xeus-python[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )

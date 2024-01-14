@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-util-http[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]
 	instruments? ( dev-python/pyramid[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-pyramid[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )
-	test? ( dev-python/werkzeug[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/werkzeug-0.16.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

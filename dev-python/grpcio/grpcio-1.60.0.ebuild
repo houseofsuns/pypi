@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="protobuf"
-DEPENDENCIES="protobuf? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )"
+DEPENDENCIES="protobuf? ( >=dev-python/grpcio-tools-1.60.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

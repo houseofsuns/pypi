@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/build-0.6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.4.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.37.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/webtypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tox-3.23.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-playwright[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xvirt[${PYTHON_USEDEP}] )"

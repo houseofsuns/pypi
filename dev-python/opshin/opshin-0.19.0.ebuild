@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/uplc[${PYTHON_USEDEP}]
 	dev-python/pluthon[${PYTHON_USEDEP}]
 	dev-python/pycardano[${PYTHON_USEDEP}]
 	dev-python/frozenlist2[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]"
+	<dev-python/ordered-set-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fastparquet mssql mysql postgresql"
-DEPENDENCIES="dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyarrow-11.0[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-3.2[${PYTHON_USEDEP}]
 	dev-python/modin[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/pymongo-5.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/taipy-config[${PYTHON_USEDEP}]
 	fastparquet? ( dev-python/fastparquet[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/pymysql-1.1[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

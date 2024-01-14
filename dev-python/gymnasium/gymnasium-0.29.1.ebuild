@@ -24,48 +24,48 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="accept-rom-license all atari box2d classic-control classic_control jax mujoco mujoco-py mujoco_py other testing toy-text toy_text"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
 	dev-python/farama-notifications[${PYTHON_USEDEP}]
 	accept-rom-license? ( dev-python/autorom[${PYTHON_USEDEP}] )
 	all? ( dev-python/shimmy[${PYTHON_USEDEP}] )
 	all? ( dev-python/box2d-py[${PYTHON_USEDEP}] )
-	all? ( dev-python/pygame[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pygame-2.1.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/swig[${PYTHON_USEDEP}] )
 	all? ( dev-python/mujoco-py[${PYTHON_USEDEP}] )
-	all? ( dev-python/cython[${PYTHON_USEDEP}] )
+	all? ( <dev-python/cython-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/mujoco[${PYTHON_USEDEP}] )
-	all? ( dev-python/imageio[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/imageio-2.14.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/jax[${PYTHON_USEDEP}] )
 	all? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/lz4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/lz4-3.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/moviepy[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	atari? ( dev-python/shimmy[${PYTHON_USEDEP}] )
 	box2d? ( dev-python/box2d-py[${PYTHON_USEDEP}] )
-	box2d? ( dev-python/pygame[${PYTHON_USEDEP}] )
+	box2d? ( >=dev-python/pygame-2.1.3[${PYTHON_USEDEP}] )
 	box2d? ( dev-python/swig[${PYTHON_USEDEP}] )
-	classic-control? ( dev-python/pygame[${PYTHON_USEDEP}] )
-	classic_control? ( dev-python/pygame[${PYTHON_USEDEP}] )
+	classic-control? ( >=dev-python/pygame-2.1.3[${PYTHON_USEDEP}] )
+	classic_control? ( >=dev-python/pygame-2.1.3[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jax[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	mujoco? ( dev-python/mujoco[${PYTHON_USEDEP}] )
-	mujoco? ( dev-python/imageio[${PYTHON_USEDEP}] )
+	mujoco? ( >=dev-python/imageio-2.14.1[${PYTHON_USEDEP}] )
 	mujoco-py? ( dev-python/mujoco-py[${PYTHON_USEDEP}] )
-	mujoco-py? ( dev-python/cython[${PYTHON_USEDEP}] )
+	mujoco-py? ( <dev-python/cython-3.0[${PYTHON_USEDEP}] )
 	mujoco_py? ( dev-python/mujoco-py[${PYTHON_USEDEP}] )
-	mujoco_py? ( dev-python/cython[${PYTHON_USEDEP}] )
-	other? ( dev-python/lz4[${PYTHON_USEDEP}] )
+	mujoco_py? ( <dev-python/cython-3.0[${PYTHON_USEDEP}] )
+	other? ( >=dev-python/lz4-3.1.0[${PYTHON_USEDEP}] )
 	other? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	other? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	other? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	other? ( dev-python/moviepy[${PYTHON_USEDEP}] )
 	other? ( dev-python/torch[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	toy-text? ( dev-python/pygame[${PYTHON_USEDEP}] )
-	toy_text? ( dev-python/pygame[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
+	toy-text? ( >=dev-python/pygame-2.1.3[${PYTHON_USEDEP}] )
+	toy_text? ( >=dev-python/pygame-2.1.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

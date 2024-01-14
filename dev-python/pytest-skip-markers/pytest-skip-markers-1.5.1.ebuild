@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="changelog docker docs lint salt tests"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-7.1.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
-	changelog? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	changelog? ( ~dev-python/towncrier-21.9.0[${PYTHON_USEDEP}] )
 	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -35,9 +35,9 @@ DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-towncrier[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pylint-2.12.2[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-mypy-fork[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-typing-imports[${PYTHON_USEDEP}] )

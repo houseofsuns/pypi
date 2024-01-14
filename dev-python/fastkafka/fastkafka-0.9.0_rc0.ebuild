@@ -25,42 +25,42 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="avro dev docs test"
 DEPENDENCIES="dev-python/aiokafka[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
+	>=dev-python/anyio-3.0[${PYTHON_USEDEP}]
 	dev-python/asyncer[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/nest-asyncio-1.5.6[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	avro? ( dev-python/fastavro[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/email-validator[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/bandit-1.7.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/email-validator-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastavro[${PYTHON_USEDEP}] )
 	dev? ( dev-python/install-jdk[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/ipython-8.13[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/ipywidgets-8.0.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nbconvert-7.2.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbdev-mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbformat[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nbformat-5.7.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbqa[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/numpy-1.21.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pandas-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/requests-2.20[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/semgrep[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	docs? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/install-jdk[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	test? ( <=dev-python/ipywidgets-8.0.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-2.20[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

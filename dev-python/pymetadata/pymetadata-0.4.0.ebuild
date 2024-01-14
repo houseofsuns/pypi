@@ -26,24 +26,24 @@ KEYWORDS="~amd64 ~x86"
 IUSE="development"
 DEPENDENCIES="dev-python/depinfo[${PYTHON_USEDEP}]
 	dev-python/uuid[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/zeep[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.6[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31[${PYTHON_USEDEP}]
+	>=dev-python/zeep-4.2.1[${PYTHON_USEDEP}]
 	dev-python/pronto[${PYTHON_USEDEP}]
 	dev-python/fastobo[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.4[${PYTHON_USEDEP}]
 	development? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	development? ( dev-python/black[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	development? ( dev-python/isort[${PYTHON_USEDEP}] )
-	development? ( dev-python/tox[${PYTHON_USEDEP}] )
-	development? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/isort-5.10[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/tox-3.25[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	development? ( dev-python/flake8-mypy[${PYTHON_USEDEP}] )
-	development? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	development? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	development? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	development? ( >=dev-python/mypy-0.931[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

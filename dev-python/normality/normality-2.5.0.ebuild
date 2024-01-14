@@ -27,11 +27,11 @@ IUSE="dev icu"
 DEPENDENCIES="dev-python/banal[${PYTHON_USEDEP}]
 	dev-python/text-unidecode[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev? ( dev-python/pyicu[${PYTHON_USEDEP}] )
+	>=dev-python/charset-normalizer-2.0.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pyicu-1.9.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-chardet[${PYTHON_USEDEP}] )
-	icu? ( dev-python/pyicu[${PYTHON_USEDEP}] )"
+	icu? ( >=dev-python/pyicu-1.9.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

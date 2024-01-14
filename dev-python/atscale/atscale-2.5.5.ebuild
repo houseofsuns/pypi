@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="databricks dev gbq iris jdbc mssql postgres redshift snowflake spark synapse test"
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/cryptocode[${PYTHON_USEDEP}]
 	databricks? ( dev-python/databricks-sql-connector[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev? ( dev-python/databricks-sql-connector[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlalchemy-databricks[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}] )
 	dev? ( dev-python/redshift-connector[${PYTHON_USEDEP}] )
 	dev? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
@@ -53,13 +53,13 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	gbq? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	iris? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	jdbc? ( dev-python/jaydebeapi[${PYTHON_USEDEP}] )
-	mssql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	mssql? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
+	postgres? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	redshift? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	redshift? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/redshift-connector[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	snowflake? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )

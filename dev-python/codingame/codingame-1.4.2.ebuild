@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	async? ( dev-python/aiohttp[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/requests-2.25[${PYTHON_USEDEP}]
+	async? ( ~dev-python/aiohttp-3.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

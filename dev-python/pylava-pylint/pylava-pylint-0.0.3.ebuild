@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pylava[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]"
+	>=dev-python/pylint-1.6.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

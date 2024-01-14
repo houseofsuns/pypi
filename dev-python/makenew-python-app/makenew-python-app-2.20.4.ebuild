@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pinject[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]"
+	<dev-python/structlog-23.0.0[${PYTHON_USEDEP}]
+	<dev-python/tornado-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.7.3[${PYTHON_USEDEP}]
 	dev-python/curlify[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
+	>=dev-python/pycountry-19.8.18[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

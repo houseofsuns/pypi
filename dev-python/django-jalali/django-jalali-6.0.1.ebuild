@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="drf"
 DEPENDENCIES="dev-python/jdatetime[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	drf? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )"
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]
+	drf? ( >=dev-python/djangorestframework-3.12[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

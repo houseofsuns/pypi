@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/paramiko-2.7.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.2[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.47.0[${PYTHON_USEDEP}]
 	test? ( dev-python/unittest[${PYTHON_USEDEP}] )
-	test? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	test? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	test? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	test? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/paramiko-2.7.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/typing-extensions-3.7.4.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/colorama-0.4.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tqdm-4.47.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

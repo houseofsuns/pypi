@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/setuptools-64.0.3[${PYTHON_USEDEP}]
 	dev-python/swig[${PYTHON_USEDEP}]
 	dev-python/box2d-py[${PYTHON_USEDEP}]
 	dev-python/python-benedict[${PYTHON_USEDEP}]
 	dev-python/codecarbon[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/gym[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
 	dev-python/stable-baselines3[${PYTHON_USEDEP}]
 	dev-python/rl-zoo3[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]"
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/starlette-0.26.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

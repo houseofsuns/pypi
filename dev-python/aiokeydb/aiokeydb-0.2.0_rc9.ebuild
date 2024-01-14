@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hiredis ocsp"
-DEPENDENCIES="dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/deprecated-1.2.3[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.4[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
 	dev-python/lazyops[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/anyio[${PYTHON_USEDEP}]
 	dev-python/croniter[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]
-	hiredis? ( dev-python/hiredis[${PYTHON_USEDEP}] )
-	ocsp? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	ocsp? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
-	ocsp? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	hiredis? ( >=dev-python/hiredis-1.0.0[${PYTHON_USEDEP}] )
+	ocsp? ( >=dev-python/cryptography-36.0.1[${PYTHON_USEDEP}] )
+	ocsp? ( ~dev-python/pyopenssl-20.0.1[${PYTHON_USEDEP}] )
+	ocsp? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

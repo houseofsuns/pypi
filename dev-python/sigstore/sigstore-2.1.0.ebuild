@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc lint test"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/appdirs-1.4[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-39.0[${PYTHON_USEDEP}]
 	dev-python/id[${PYTHON_USEDEP}]
 	dev-python/importlib_resources[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.1[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/rich-13.0[${PYTHON_USEDEP}]
 	dev-python/securesystemslib[${PYTHON_USEDEP}]
 	dev-python/sigstore-protobuf-specs[${PYTHON_USEDEP}]
 	dev-python/sigstore-rekor-types[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	doc? ( dev-python/pdoc[${PYTHON_USEDEP}] )
 	lint? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	lint? ( dev-python/interrogate[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-1.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

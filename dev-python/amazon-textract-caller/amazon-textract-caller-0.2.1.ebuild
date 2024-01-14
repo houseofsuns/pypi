@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.26.35[${PYTHON_USEDEP}]
 	dev-python/botocore[${PYTHON_USEDEP}]
 	dev-python/amazon-textract-response-parser[${PYTHON_USEDEP}]
 	testing? ( dev-python/amazon-textract-response-parser[${PYTHON_USEDEP}] )

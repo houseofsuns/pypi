@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	~dev-python/tornado-6.1[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]"
+	~dev-python/websockets-8.1[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-1.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

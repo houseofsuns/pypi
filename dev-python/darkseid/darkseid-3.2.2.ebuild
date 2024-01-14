@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/rarfile[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]"
+	<dev-python/natsort-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/rarfile-5.0[${PYTHON_USEDEP}]
+	<dev-python/pycountry-23.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

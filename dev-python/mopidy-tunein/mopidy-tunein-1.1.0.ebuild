@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev lint test"
 DEPENDENCIES="dev-python/Mopidy[${PYTHON_USEDEP}]
 	dev-python/Pykka[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )

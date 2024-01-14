@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/construct[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
+	>=dev-python/construct-2.10[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.5[${PYTHON_USEDEP}]
 	dev-python/ecdsa[${PYTHON_USEDEP}]
 	dev-python/hidapi[${PYTHON_USEDEP}]
 	dev-python/intelhex[${PYTHON_USEDEP}]

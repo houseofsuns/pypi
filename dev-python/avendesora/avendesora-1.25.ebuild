@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
+	>dev-python/arrow-0.14[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/inform[${PYTHON_USEDEP}]
 	dev-python/pygobject[${PYTHON_USEDEP}]
-	dev-python/python-gnupg[${PYTHON_USEDEP}]
+	>=dev-python/python-gnupg-0.4.4[${PYTHON_USEDEP}]
 	dev-python/pyotp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

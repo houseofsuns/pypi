@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs streams test"
-DEPENDENCIES="dev-python/pbr[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pbr-5.7.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	streams? ( dev-python/testtools[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )

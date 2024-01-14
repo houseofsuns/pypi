@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/PyMonad[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	dev-python/delta-spark[${PYTHON_USEDEP}]
 	dev-python/dependency-injector[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	<dev-python/validators-0.21.0[${PYTHON_USEDEP}]
+	<dev-python/rdflib-7.0.0[${PYTHON_USEDEP}]
 	dev-python/azure-storage-file-datalake[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

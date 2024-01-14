@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev notebook"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/py4j[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<=dev-python/redis-4.4.0[${PYTHON_USEDEP}]
+	<=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	<=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/pyapacheatlas[${PYTHON_USEDEP}]
 	dev-python/pyhocon[${PYTHON_USEDEP}]
 	dev-python/pandavro[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	<=dev-python/pyarrow-9.0.0[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
-	dev-python/python-snappy[${PYTHON_USEDEP}]
+	<=dev-python/python-snappy-0.6.1[${PYTHON_USEDEP}]
 	dev-python/deltalake[${PYTHON_USEDEP}]
 	dev-python/graphlib-backport[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
@@ -47,34 +47,34 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/avro[${PYTHON_USEDEP}]
 	dev-python/azure-storage-file-datalake[${PYTHON_USEDEP}]
 	dev-python/azure-synapse-spark[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
 	dev-python/azure-keyvault-secrets[${PYTHON_USEDEP}]
 	dev-python/azure-core[${PYTHON_USEDEP}]
 	dev-python/msrest[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/azure-cli[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-mock-3.8.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/scrapbook[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.6.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	all? ( dev-python/isort[${PYTHON_USEDEP}] )
 	all? ( dev-python/papermill[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-3.8.1[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/azure-cli[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/matplotlib-3.6.1[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/papermill[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/scrapbook[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )

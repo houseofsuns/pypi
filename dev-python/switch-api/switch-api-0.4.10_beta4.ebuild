@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]
 	dev-python/azure-servicebus[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]"
+	~dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

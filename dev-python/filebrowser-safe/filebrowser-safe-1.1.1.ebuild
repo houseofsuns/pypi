@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="codestyle testing"
-DEPENDENCIES="codestyle? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	codestyle? ( dev-python/black[${PYTHON_USEDEP}] )
-	codestyle? ( dev-python/isort[${PYTHON_USEDEP}] )
-	codestyle? ( dev-python/pyupgrade[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+DEPENDENCIES="codestyle? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	codestyle? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	codestyle? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
+	codestyle? ( <dev-python/pyupgrade-3.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-django-5.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

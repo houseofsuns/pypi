@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli test"
 DEPENDENCIES="cli? ( dev-python/asyncclick[${PYTHON_USEDEP}] )
 	test? ( dev-python/asyncclick[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( <dev-python/black-24.0.0[${PYTHON_USEDEP}] )
 	dev-python/bleak[${PYTHON_USEDEP}]
 	dev-python/bleak-retry-connector[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-asyncio-0.22.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev-python/tzlocal[${PYTHON_USEDEP}]"
+	<dev-python/tzlocal-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

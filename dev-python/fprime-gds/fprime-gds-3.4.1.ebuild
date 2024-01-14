@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-compress[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/flask-compress-1.11[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-24.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.2.4[${PYTHON_USEDEP}]
 	dev-python/flask-restful[${PYTHON_USEDEP}]
 	dev-python/fprime-tools[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]
+	>=dev-python/argcomplete-1.12.3[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]"
+	>=dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

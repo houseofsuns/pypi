@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="extra"
 DEPENDENCIES="dev-python/argh[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/Faker-5.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	extra? ( dev-python/uvloop[${PYTHON_USEDEP}] )

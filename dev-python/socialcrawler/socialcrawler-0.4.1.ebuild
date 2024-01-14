@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/pyvirtualdisplay[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.4.3[${PYTHON_USEDEP}]
 	dev-python/selenium[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/tweepy[${PYTHON_USEDEP}]"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/jedi[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/jupyterlab-3.0[${PYTHON_USEDEP}]
+	~dev-python/nbconvert-5.6.1[${PYTHON_USEDEP}]
+	~dev-python/jedi-0.17.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

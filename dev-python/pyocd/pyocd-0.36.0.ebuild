@@ -26,24 +26,24 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pemicro test"
 DEPENDENCIES="dev-python/capstone[${PYTHON_USEDEP}]
 	dev-python/cmsis-pack-manager[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	<dev-python/colorama-1.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-3.6[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/intelhex[${PYTHON_USEDEP}]
-	dev-python/intervaltree[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]
+	<dev-python/intelhex-3.0[${PYTHON_USEDEP}]
+	<dev-python/intervaltree-4.0[${PYTHON_USEDEP}]
+	<dev-python/lark-2.0[${PYTHON_USEDEP}]
 	dev-python/libusb-package[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/pyelftools[${PYTHON_USEDEP}]
+	<dev-python/natsort-9.0[${PYTHON_USEDEP}]
+	<dev-python/prettytable-4.0[${PYTHON_USEDEP}]
+	<dev-python/pyelftools-1.0[${PYTHON_USEDEP}]
 	dev-python/pylink-square[${PYTHON_USEDEP}]
-	dev-python/pyusb[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/hidapi[${PYTHON_USEDEP}]
+	<dev-python/pyusb-2.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/six-2.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	<dev-python/hidapi-1.0[${PYTHON_USEDEP}]
 	pemicro? ( dev-python/pyocd-pemicro[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )

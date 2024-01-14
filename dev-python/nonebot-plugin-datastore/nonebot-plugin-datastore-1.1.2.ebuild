@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli toml yaml"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
-	cli? ( dev-python/anyio[${PYTHON_USEDEP}] )
-	all? ( dev-python/anyio[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	all? ( dev-python/click[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
+	cli? ( >=dev-python/anyio-3.6[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/anyio-3.6[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/click-8.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/click-8.0[${PYTHON_USEDEP}] )
 	dev-python/nonebot-plugin-localstore[${PYTHON_USEDEP}]
 	dev-python/nonebot2[${PYTHON_USEDEP}]
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	yaml? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	toml? ( dev-python/rtoml[${PYTHON_USEDEP}] )
 	all? ( dev-python/rtoml[${PYTHON_USEDEP}] )
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	cli? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
+	cli? ( >=dev-python/typing-extensions-4.4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/typing-extensions-4.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

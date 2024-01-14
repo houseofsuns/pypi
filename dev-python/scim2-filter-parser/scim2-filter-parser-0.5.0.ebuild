@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="django-query"
 DEPENDENCIES="dev-python/sly[${PYTHON_USEDEP}]
-	django-query? ( dev-python/django[${PYTHON_USEDEP}] )"
+	django-query? ( >=dev-python/django-3.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs examples"
 DEPENDENCIES="dev-python/typing_extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ward[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ward-coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	examples? ( dev-python/flask[${PYTHON_USEDEP}] )
+	examples? ( <dev-python/flask-4.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	examples? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	examples? ( dev-python/qtpy[${PYTHON_USEDEP}] )

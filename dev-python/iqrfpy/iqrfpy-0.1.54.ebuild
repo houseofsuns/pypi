@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
-	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
+	<=dev-python/typeguard-4.1.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/parameterized-0.8.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pycodestyle-2.10.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pylint-2.17.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

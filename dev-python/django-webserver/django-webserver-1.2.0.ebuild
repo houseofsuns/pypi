@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	gunicorn? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	pyuwsgi? ( dev-python/pyuwsgi[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	uvicorn? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	uvicorn? ( >dev-python/uvicorn-0.6[${PYTHON_USEDEP}] )
 	waitress? ( dev-python/waitress[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

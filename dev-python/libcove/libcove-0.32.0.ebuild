@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/flattentool[${PYTHON_USEDEP}]
 	dev-python/jsonref[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.18[${PYTHON_USEDEP}]
 	dev-python/referencing[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/rfc3339-validator[${PYTHON_USEDEP}]

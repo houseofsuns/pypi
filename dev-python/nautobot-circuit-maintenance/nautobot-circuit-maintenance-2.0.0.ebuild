@@ -27,10 +27,10 @@ IUSE="metrics nautobot"
 DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/circuit-maintenance-parser[${PYTHON_USEDEP}]
 	dev-python/django-cryptography[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+	<dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/google-auth-httplib2-0.2.0[${PYTHON_USEDEP}]
+	<dev-python/google-auth-oauthlib-0.6.0[${PYTHON_USEDEP}]
+	>dev-python/markdown-3.3.5[${PYTHON_USEDEP}]
 	nautobot? ( dev-python/nautobot[${PYTHON_USEDEP}] )
 	metrics? ( dev-python/nautobot-capacity-metrics[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

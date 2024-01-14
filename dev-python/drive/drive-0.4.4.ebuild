@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/httplib2-0.21.0[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]"
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-magic-0.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

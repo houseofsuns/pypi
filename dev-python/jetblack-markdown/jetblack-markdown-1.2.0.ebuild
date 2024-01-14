@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/markdown-4.0[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev-python/latex2mathml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

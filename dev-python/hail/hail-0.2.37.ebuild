@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-3.7[${PYTHON_USEDEP}]
 	dev-python/aiohttp-session[${PYTHON_USEDEP}]
 	dev-python/asyncinit[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
+	<dev-python/decorator-5.0[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+	~dev-python/humanize-1.0.0[${PYTHON_USEDEP}]
 	dev-python/hurry-filesize[${PYTHON_USEDEP}]
 	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-0.26[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	~dev-python/python-json-logger-0.1.11[${PYTHON_USEDEP}]
+	<dev-python/requests-2.21.1[${PYTHON_USEDEP}]
+	<dev-python/scipy-1.4[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.3[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.42.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

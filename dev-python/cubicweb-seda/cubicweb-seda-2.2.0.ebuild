@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/cubicweb[${PYTHON_USEDEP}]
 	dev-python/cubicweb-squareui[${PYTHON_USEDEP}]
 	dev-python/cubicweb-geocoding[${PYTHON_USEDEP}]
 	dev-python/pyxst[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]"
+	>=dev-python/rdflib-4.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

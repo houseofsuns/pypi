@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/reactivex[${PYTHON_USEDEP}]
-	dev-python/ddt[${PYTHON_USEDEP}]
+	>=dev-python/ddt-1.6.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/txhttputil[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

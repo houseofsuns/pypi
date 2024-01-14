@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/django-cors-headers[${PYTHON_USEDEP}]
 	dev-python/django-json-widget[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.1[${PYTHON_USEDEP}]
 	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/apispec[${PYTHON_USEDEP}]

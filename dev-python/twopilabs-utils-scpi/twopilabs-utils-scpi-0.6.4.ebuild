@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.33.0[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	dev-python/twopilabs-utils-usbtmc[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

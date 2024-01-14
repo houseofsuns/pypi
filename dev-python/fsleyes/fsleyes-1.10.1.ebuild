@@ -25,31 +25,31 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="darwin doc extra style test"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pyopengl[${PYTHON_USEDEP}]
+	>=dev-python/pillow-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyopengl-3.1.0[${PYTHON_USEDEP}]
 	dev-python/fsleyes-props[${PYTHON_USEDEP}]
 	dev-python/fsleyes-widgets[${PYTHON_USEDEP}]
 	dev-python/fslpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/wxpython[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.18[${PYTHON_USEDEP}]
+	>=dev-python/wxpython-4.0[${PYTHON_USEDEP}]
 	darwin? ( dev-python/appnope[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	extra? ( dev-python/file-tree[${PYTHON_USEDEP}] )
 	extra? ( dev-python/file-tree-fsl[${PYTHON_USEDEP}] )
-	extra? ( dev-python/indexed-gzip[${PYTHON_USEDEP}] )
-	extra? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	extra? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	extra? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/indexed-gzip-0.7.0[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/ipykernel-4.8[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/ipython-5.0[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/jupyter-client-5.3.1[${PYTHON_USEDEP}] )
 	extra? ( dev-python/nbclassic[${PYTHON_USEDEP}] )
-	extra? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/pyzmq-17.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/rtree[${PYTHON_USEDEP}] )
-	extra? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	extra? ( dev-python/trimesh[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/tornado-5.0[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/trimesh-2.37.29[${PYTHON_USEDEP}] )
 	extra? ( dev-python/wxnatpy[${PYTHON_USEDEP}] )
 	extra? ( dev-python/xnat[${PYTHON_USEDEP}] )
 	style? ( dev-python/pylint[${PYTHON_USEDEP}] )

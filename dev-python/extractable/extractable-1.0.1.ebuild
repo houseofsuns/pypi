@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/Faker[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/Faker-18.9.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
-	dev-python/build[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/build-0.10.0[${PYTHON_USEDEP}]
+	~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
+	~dev-python/mkdocs-1.4.3[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
 	dev-python/pandas-stubs[${PYTHON_USEDEP}]
 	dev-python/pdf2image[${PYTHON_USEDEP}]
 	dev-python/pdf2jpg[${PYTHON_USEDEP}]
-	dev-python/pytesseract[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/svgwrite[${PYTHON_USEDEP}]
+	~dev-python/pytesseract-0.3.10[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.3.1[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-61.0[${PYTHON_USEDEP}]
+	~dev-python/svgwrite-1.4.3[${PYTHON_USEDEP}]
 	dev-python/timm[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
+	~dev-python/toolz-0.12.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.40.0[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/PyCryptodome[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pdm[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pdm-2.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

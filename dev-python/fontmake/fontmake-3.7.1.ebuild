@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all autohint json pathops repacker"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-19.0[${PYTHON_USEDEP}]
 	dev-python/fontMath[${PYTHON_USEDEP}]
 	dev-python/glyphsLib[${PYTHON_USEDEP}]
 	dev-python/ufoLib2[${PYTHON_USEDEP}]
 	dev-python/ufo2ft[${PYTHON_USEDEP}]
-	dev-python/fonttools[${PYTHON_USEDEP}]
-	dev-python/fonttools[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-4.42.0[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-4.42.0[${PYTHON_USEDEP}]
 	all? ( dev-python/skia-pathops[${PYTHON_USEDEP}] )
 	all? ( dev-python/ttfautohint-py[${PYTHON_USEDEP}] )
 	all? ( dev-python/ufoLib2[${PYTHON_USEDEP}] )
-	all? ( dev-python/fonttools[${PYTHON_USEDEP}] )
-	all? ( dev-python/fonttools[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/fonttools-4.42.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/fonttools-4.42.0[${PYTHON_USEDEP}] )
 	autohint? ( dev-python/ttfautohint-py[${PYTHON_USEDEP}] )
 	json? ( dev-python/ufoLib2[${PYTHON_USEDEP}] )
 	pathops? ( dev-python/skia-pathops[${PYTHON_USEDEP}] )
-	repacker? ( dev-python/fonttools[${PYTHON_USEDEP}] )
-	repacker? ( dev-python/fonttools[${PYTHON_USEDEP}] )"
+	repacker? ( >=dev-python/fonttools-4.42.0[${PYTHON_USEDEP}] )
+	repacker? ( >=dev-python/fonttools-4.42.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

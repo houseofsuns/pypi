@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="altair plotly"
-DEPENDENCIES="dev-python/seaborn[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
 	altair? ( dev-python/altair[${PYTHON_USEDEP}] )
-	plotly? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	plotly? ( dev-python/nbformat[${PYTHON_USEDEP}] )
+	plotly? ( >=dev-python/plotly-5.10.0[${PYTHON_USEDEP}] )
+	plotly? ( >=dev-python/nbformat-5.4.0[${PYTHON_USEDEP}] )
 	altair? ( dev-python/vega-datasets[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bottleneck[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bottleneck-1.3[${PYTHON_USEDEP}]
 	dev-python/lightkurve[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/skops[${PYTHON_USEDEP}]

@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="acom aiml aiml-cuda cuda ipyparallel numba"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.2.0[${PYTHON_USEDEP}]
 	dev-python/hdf5plugin[${PYTHON_USEDEP}]
 	dev-python/ncempy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.2.2[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scikit-optimize[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.46.1[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.3[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/dask-2.3.0[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	dev-python/emdfile[${PYTHON_USEDEP}]
 	dev-python/mpire[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]
+	>=dev-python/threadpoolctl-3.1.0[${PYTHON_USEDEP}]
 	dev-python/pylops[${PYTHON_USEDEP}]
 	dev-python/colorspacious[${PYTHON_USEDEP}]
 	acom? ( dev-python/pymatgen[${PYTHON_USEDEP}] )
@@ -53,8 +53,8 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	aiml-cuda? ( dev-python/crystal4D[${PYTHON_USEDEP}] )
 	aiml-cuda? ( dev-python/cupy[${PYTHON_USEDEP}] )
 	cuda? ( dev-python/cupy[${PYTHON_USEDEP}] )
-	ipyparallel? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
-	ipyparallel? ( dev-python/dill[${PYTHON_USEDEP}] )
+	ipyparallel? ( >=dev-python/ipyparallel-6.2.4[${PYTHON_USEDEP}] )
+	ipyparallel? ( >=dev-python/dill-0.3.3[${PYTHON_USEDEP}] )
 	numba? ( dev-python/numba[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="huggingface jobs sentencepiece thot"
-DEPENDENCIES="dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/regex-2021.7.6[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/sortedcontainers-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/charset-normalizer-3.0.0[${PYTHON_USEDEP}]
 	sentencepiece? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	thot? ( dev-python/sil-thot[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/transformers[${PYTHON_USEDEP}] )

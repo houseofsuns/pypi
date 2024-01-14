@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev? ( dev-python/cftime-rs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.1.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )

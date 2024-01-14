@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}]
+	>=dev-python/pooch-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/docutils-0.15[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.4[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.5.0[${PYTHON_USEDEP}]
+	>dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-9.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64[${PYTHON_USEDEP}]
+	>dev-python/requests-cache-1.0[${PYTHON_USEDEP}]
 	dev-python/synphot[${PYTHON_USEDEP}]
 	dev-python/skycalc-ipy[${PYTHON_USEDEP}]
 	dev-python/anisocado[${PYTHON_USEDEP}]
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scopesim-templates[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/scopesim-templates[${PYTHON_USEDEP}] )
 	test? ( dev-python/skycalc-cli[${PYTHON_USEDEP}] )

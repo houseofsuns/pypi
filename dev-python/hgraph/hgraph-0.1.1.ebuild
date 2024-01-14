@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all polars"
 DEPENDENCIES="dev-python/frozendict[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
+	>=dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
 	all? ( dev-python/hgraph[${PYTHON_USEDEP}] )
 	polars? ( dev-python/polars[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

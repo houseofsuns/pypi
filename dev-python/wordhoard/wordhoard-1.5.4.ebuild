@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/cloudscraper[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
+	>=dev-python/charset-normalizer-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/cloudscraper-1.2.69[${PYTHON_USEDEP}]
 	dev-python/deckar01-ratelimit[${PYTHON_USEDEP}]
 	dev-python/deepl[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/soupsieve[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	>=dev-python/idna-3.4[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-3.0.9[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]
+	>=dev-python/soupsieve-2.4[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

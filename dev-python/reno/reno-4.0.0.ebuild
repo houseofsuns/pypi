@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="sphinx test"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/dulwich[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/dulwich-0.15.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.4[${PYTHON_USEDEP}]
 	dev-python/pbr[${PYTHON_USEDEP}]
-	sphinx? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/openstackdocstheme[${PYTHON_USEDEP}] )
+	sphinx? ( >=dev-python/docutils-0.11[${PYTHON_USEDEP}] )
+	sphinx? ( >=dev-python/sphinx-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/openstackdocstheme-2.2.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
-	test? ( dev-python/testscenarios[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/stestr-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testscenarios-0.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testtools-1.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

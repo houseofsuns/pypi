@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typing-extensions-3.10.0[${PYTHON_USEDEP}]
+	>=dev-python/googleapis-common-protos-1.56.4[${PYTHON_USEDEP}]
 	dev-python/grpc-stubs[${PYTHON_USEDEP}]
 	dev-python/types-protobuf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/sagemaker[${PYTHON_USEDEP}]
 	dev? ( dev-python/py-cpuinfo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/deepspeed[${PYTHON_USEDEP}] )
 	dev-macos? ( dev-python/tensorflow-macos[${PYTHON_USEDEP}] )
-	dev-macos? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	dev-macos? ( ~dev-python/numpy-1.22.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/build[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )

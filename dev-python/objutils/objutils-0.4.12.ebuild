@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/mako[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/construct[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
 	dev-python/sortedcontainers[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	develop? ( dev-python/bumpversion[${PYTHON_USEDEP}] )

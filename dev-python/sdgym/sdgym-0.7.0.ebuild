@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dask dev test"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/appdirs-2.0[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
+	<dev-python/botocore-2.0[${PYTHON_USEDEP}]
 	dev-python/compress-pickle[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/humanfriendly-11.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	dev-python/XlsxWriter[${PYTHON_USEDEP}]
 	dev-python/rdt[${PYTHON_USEDEP}]
 	dev-python/sdmetrics[${PYTHON_USEDEP}]
 	dev-python/sdv[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	all? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	all? ( dev-python/pip[${PYTHON_USEDEP}] )
-	all? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pip-9.0.1[${PYTHON_USEDEP}] )
+	all? ( <dev-python/watchdog-0.11[${PYTHON_USEDEP}] )
+	all? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-absolute-import[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
@@ -62,30 +62,30 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	all? ( dev-python/flake8-sfs[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-variables-names[${PYTHON_USEDEP}] )
 	all? ( dev-python/dlint[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
+	all? ( <dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas-vet[${PYTHON_USEDEP}] )
 	all? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pydocstyle-6.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	all? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	all? ( dev-python/twine[${PYTHON_USEDEP}] )
-	all? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/tox[${PYTHON_USEDEP}] )
-	all? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
+	all? ( <dev-python/autopep8-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/wheel-0.30.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/importlib-metadata-3.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-3.4.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/rundoc[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
-	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pip-9.0.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/watchdog-0.11[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-absolute-import[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
@@ -103,27 +103,27 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-sfs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-variables-names[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dlint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas-vet[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pydocstyle-6.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/autopep8-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.30.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/importlib-metadata-3.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.4.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rundoc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.4.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/jupyter-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/rundoc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

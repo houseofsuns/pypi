@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-6.1.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.36.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-2.21.1[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.37.0[${PYTHON_USEDEP}]
 	dev-python/os-resource-classes[${PYTHON_USEDEP}]
 	dev-python/pypowervm[${PYTHON_USEDEP}]
-	dev-python/python-swiftclient[${PYTHON_USEDEP}]
+	>=dev-python/python-swiftclient-3.2.0[${PYTHON_USEDEP}]
 	dev-python/taskflow[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]"
+	>=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-1.6.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

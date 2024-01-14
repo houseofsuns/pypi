@@ -30,11 +30,11 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	llms? ( dev-python/openai[${PYTHON_USEDEP}] )
 	all? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )
 	vectorstores? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pystache[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
+	<dev-python/pystache-0.7.0[${PYTHON_USEDEP}]
 	dev-python/python_dateutil[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/pytest-httpx[${PYTHON_USEDEP}]"
+	>=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.25.10[${PYTHON_USEDEP}]
+	~dev-python/pytest-httpx-0.22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

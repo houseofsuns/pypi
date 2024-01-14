@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="desktop-notifications git-commit report-descriptor"
 DEPENDENCIES="dev-python/evdev[${PYTHON_USEDEP}]
-	dev-python/pyudev[${PYTHON_USEDEP}]
+	>=dev-python/pyudev-0.13[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/python-xlib[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/dbus-python[${PYTHON_USEDEP}]
+	>=dev-python/python-xlib-0.27[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.4.3[${PYTHON_USEDEP}]
+	>=dev-python/dbus-python-1.3.2[${PYTHON_USEDEP}]
 	desktop-notifications? ( dev-python/Notify[${PYTHON_USEDEP}] )
 	git-commit? ( dev-python/python-git-info[${PYTHON_USEDEP}] )
 	report-descriptor? ( dev-python/hid-parser[${PYTHON_USEDEP}] )"

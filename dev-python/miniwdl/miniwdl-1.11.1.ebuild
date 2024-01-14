@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-39.1.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-3.10.1[${PYTHON_USEDEP}]
+	>=dev-python/regex-2020.4.4[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	>=dev-python/docker-3.4.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]
+	~dev-python/argcomplete-1.12[${PYTHON_USEDEP}]
 	dev-python/pygtail[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]
+	<dev-python/coloredlogs-16.0[${PYTHON_USEDEP}]
+	<dev-python/python-json-logger-3.0[${PYTHON_USEDEP}]
+	~dev-python/lark-1.1[${PYTHON_USEDEP}]
 	dev-python/bullet[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]"
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

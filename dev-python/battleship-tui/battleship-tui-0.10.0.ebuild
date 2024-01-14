@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="client dev server"
-DEPENDENCIES="dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/websockets-13.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
 	client? ( dev-python/pyee[${PYTHON_USEDEP}] )
 	server? ( dev-python/blacksheep[${PYTHON_USEDEP}] )
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	server? ( <dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )
+	<dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	server? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
-	server? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	dev-python/email-validator[${PYTHON_USEDEP}]
+	server? ( <dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}] )
+	server? ( <dev-python/uvloop-0.20.0[${PYTHON_USEDEP}] )
+	<dev-python/email-validator-3.0.0[${PYTHON_USEDEP}]
 	server? ( dev-python/auth0-python[${PYTHON_USEDEP}] )
 	client? ( dev-python/typer[${PYTHON_USEDEP}] )
 	dev-python/xdg-base-dirs[${PYTHON_USEDEP}]
 	dev-python/inject[${PYTHON_USEDEP}]
-	server? ( dev-python/redis[${PYTHON_USEDEP}] )
+	server? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )
 	client? ( dev-python/textual[${PYTHON_USEDEP}] )
 	dev? ( dev-python/textual-dev[${PYTHON_USEDEP}] )
-	client? ( dev-python/async-timeout[${PYTHON_USEDEP}] )
+	client? ( <dev-python/async-timeout-5.0.0[${PYTHON_USEDEP}] )
 	dev-python/backports-strenum[${PYTHON_USEDEP}]
-	server? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
+	server? ( <dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

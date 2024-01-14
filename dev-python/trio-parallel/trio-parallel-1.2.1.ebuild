@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/trio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/trio-0.18.0[${PYTHON_USEDEP}]
 	dev-python/outcome[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-17.3.0[${PYTHON_USEDEP}]
 	dev-python/tblib[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-trio[${PYTHON_USEDEP}] )
-	test? ( dev-python/trio[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/trio-0.23.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

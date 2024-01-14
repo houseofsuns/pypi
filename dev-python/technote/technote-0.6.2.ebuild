@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinx-basic-ng[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-basic-ng-1.0.0[${PYTHON_USEDEP}]
 	dev-python/base32-lib[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/accessible-pygments[${PYTHON_USEDEP}]

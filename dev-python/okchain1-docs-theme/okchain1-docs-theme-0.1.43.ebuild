@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sphinxcontrib-plantuml[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/sphinxcontrib-plantuml-0.14[${PYTHON_USEDEP}]
 	dev-python/sphinx-sitemap[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

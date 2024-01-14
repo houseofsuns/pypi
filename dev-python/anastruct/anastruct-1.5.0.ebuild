@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev plot test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-describe[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.15[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/numpy-1.26.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/scipy-1.11.3[${PYTHON_USEDEP}] )
+	plot? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.10.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-3.0.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-describe-2.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pspec[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

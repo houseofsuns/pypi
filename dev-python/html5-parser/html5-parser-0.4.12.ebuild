@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="soup"
 DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-3.8.0[${PYTHON_USEDEP}]
 	soup? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

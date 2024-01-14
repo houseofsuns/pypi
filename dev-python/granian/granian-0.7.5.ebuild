@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lint test"
-DEPENDENCIES="dev-python/watchfiles[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/watchfiles-0.21[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	~dev-python/uvloop-0.18.0[${PYTHON_USEDEP}]
+	lint? ( ~dev-python/black-23.9.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/websockets[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/websockets-11.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

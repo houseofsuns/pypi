@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
 	dev-python/email-validator[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	testing? ( dev-python/diracx-testing[${PYTHON_USEDEP}] )
 	testing? ( dev-python/moto[${PYTHON_USEDEP}] )

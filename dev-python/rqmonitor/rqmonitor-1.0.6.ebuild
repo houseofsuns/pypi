@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/redis-3.3.11[${PYTHON_USEDEP}]
+	>=dev-python/humanize-2.4.0[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.13.0[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev-python/rq[${PYTHON_USEDEP}]
+	>=dev-python/rq-1.4.0[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

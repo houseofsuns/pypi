@@ -24,37 +24,37 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev visualize"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
 	dev-python/numpy-groupies[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sortedcontainers-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
+	>=dev-python/scipy-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/threadpoolctl-3.0.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/shapely-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pip-20.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-material[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-copybutton-0.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-autodoc-typehints-1.18.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-codeautolink[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.40.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-wheel-contents[${PYTHON_USEDEP}] )
-	visualize? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	visualize? ( dev-python/shapely[${PYTHON_USEDEP}] )"
+	visualize? ( >=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}] )
+	visualize? ( >=dev-python/shapely-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

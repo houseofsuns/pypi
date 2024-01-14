@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bzip2 full gzip rar xz zstd"
 DEPENDENCIES="bzip2? ( dev-python/indexed-bzip2[${PYTHON_USEDEP}] )
 	full? ( dev-python/indexed-bzip2[${PYTHON_USEDEP}] )
-	full? ( dev-python/indexed-gzip[${PYTHON_USEDEP}] )
+	full? ( <dev-python/indexed-gzip-2.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/python-xz[${PYTHON_USEDEP}] )
 	full? ( dev-python/rapidgzip[${PYTHON_USEDEP}] )
-	full? ( dev-python/rarfile[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/rarfile-4.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/indexed-zstd[${PYTHON_USEDEP}] )
 	full? ( dev-python/indexed-zstd[${PYTHON_USEDEP}] )
-	gzip? ( dev-python/indexed-gzip[${PYTHON_USEDEP}] )
-	rar? ( dev-python/rarfile[${PYTHON_USEDEP}] )
+	gzip? ( <dev-python/indexed-gzip-2.0[${PYTHON_USEDEP}] )
+	rar? ( ~dev-python/rarfile-4.0[${PYTHON_USEDEP}] )
 	xz? ( dev-python/python-xz[${PYTHON_USEDEP}] )
 	zstd? ( dev-python/indexed-zstd[${PYTHON_USEDEP}] )
 	zstd? ( dev-python/indexed-zstd[${PYTHON_USEDEP}] )"

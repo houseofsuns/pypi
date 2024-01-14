@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/brainglobe-napari-io[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/dask-2.15.0[${PYTHON_USEDEP}]
 	dev-python/imio[${PYTHON_USEDEP}]
 	dev-python/brainglobe-utils[${PYTHON_USEDEP}]
 	dev-python/napari-plugin-engine[${PYTHON_USEDEP}]

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bdd sat"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/attrs-23.0[${PYTHON_USEDEP}]
 	dev-python/py-aiger[${PYTHON_USEDEP}]
 	dev-python/py-aiger-bv[${PYTHON_USEDEP}]
-	dev-python/funcy[${PYTHON_USEDEP}]
+	<dev-python/funcy-2.0[${PYTHON_USEDEP}]
 	bdd? ( dev-python/py-aiger-bdd[${PYTHON_USEDEP}] )
 	sat? ( dev-python/py-aiger-sat[${PYTHON_USEDEP}] )
 	dev-python/py-aiger-discrete[${PYTHON_USEDEP}]
 	bdd? ( dev-python/mdd[${PYTHON_USEDEP}] )
-	bdd? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	bdd? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

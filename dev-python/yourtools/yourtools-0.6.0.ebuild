@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
+	~dev-python/cffi-1.15.1[${PYTHON_USEDEP}]
+	~dev-python/cryptography-40.0.1[${PYTHON_USEDEP}]
+	~dev-python/future-0.18.3[${PYTHON_USEDEP}]
+	~dev-python/paramiko-3.1.0[${PYTHON_USEDEP}]
+	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
 	dev-python/PyHive[${PYTHON_USEDEP}]
 	dev-python/PyMySQL[${PYTHON_USEDEP}]
 	dev-python/PyNaCl[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/sshtunnel[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]"
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/sshtunnel-0.4.0[${PYTHON_USEDEP}]
+	~dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

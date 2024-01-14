@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs publish tests"
-DEPENDENCIES="docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	publish? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	publish? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	publish? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	publish? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	publish? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	publish? ( dev-python/tox[${PYTHON_USEDEP}] )
-	publish? ( dev-python/twine[${PYTHON_USEDEP}] )
-	publish? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tox[${PYTHON_USEDEP}] )"
+DEPENDENCIES="docs? ( ~dev-python/sphinx-2.2.0[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/mypy-0.740[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/pylint-2.4.3[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/pytest-5.2.2[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/sphinx-2.2.0[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/tox-3.14.0[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/twine-2.0.0[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/wheel-0.33.6[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mypy-0.740[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pylint-2.4.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-5.2.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/sphinx-2.2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/tox-3.14.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

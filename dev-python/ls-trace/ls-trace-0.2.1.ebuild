@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="opentracing profile"
-DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/backoff-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/googleapis-common-protos-1.51.0[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-0.5.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	opentracing? ( dev-python/opentracing[${PYTHON_USEDEP}] )

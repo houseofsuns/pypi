@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="host tests"
-DEPENDENCIES="dev-python/aiosqlite[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/hypothesis[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/tomli-w[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiosqlite-0.10[${PYTHON_USEDEP}]
+	>=dev-python/alembic-1.9[${PYTHON_USEDEP}]
+	>=dev-python/black-23.10[${PYTHON_USEDEP}]
+	>=dev-python/hypothesis-6.88[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/tomli-w-1.0[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0[${PYTHON_USEDEP}]
 	host? ( dev-python/nextline-graphql[${PYTHON_USEDEP}] )
 	tests? ( dev-python/async-asgi-testclient[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-asyncio-0.18[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-timeout-2.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

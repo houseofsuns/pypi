@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mido[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mido-1.2.0[${PYTHON_USEDEP}]
 	dev-python/python-rtmidi[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

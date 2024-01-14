@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/semver[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/pandas-0.14.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pandas-0.20.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-5.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/semver-2.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

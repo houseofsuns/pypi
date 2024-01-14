@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/yagmail[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.7[${PYTHON_USEDEP}]
+	>=dev-python/selenium-4.1.0[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
 	dev-python/PyMySQL[${PYTHON_USEDEP}]
 	dev-python/nacos-sdk-python[${PYTHON_USEDEP}]
 	dev-python/better-exceptions[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/PyVirtualDisplay[${PYTHON_USEDEP}]
 	dev-python/undetected_chromedriver[${PYTHON_USEDEP}]
 	dev-python/webdriver_manager[${PYTHON_USEDEP}]"

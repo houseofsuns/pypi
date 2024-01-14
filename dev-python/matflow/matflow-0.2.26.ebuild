@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/matflow-demo-extension[${PYTHON_USEDEP}]
 	dev-python/hpcflow[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/hickle[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

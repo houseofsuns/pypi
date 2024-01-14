@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/eventlet[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-0.4.0[${PYTHON_USEDEP}]
 	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/ovs[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-2.5.0[${PYTHON_USEDEP}]
+	>=dev-python/ovs-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
 	dev-python/routes[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.4.0[${PYTHON_USEDEP}]
 	dev-python/tinyrpc[${PYTHON_USEDEP}]
-	dev-python/webob[${PYTHON_USEDEP}]"
+	>=dev-python/webob-1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
+	>=dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.8.0[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]
+	>=dev-python/cffi-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/chardet-3.0.2[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.8[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.7.0[${PYTHON_USEDEP}]
+	>=dev-python/idna-2.5[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-2.0.0[${PYTHON_USEDEP}]
 	dev-python/ntlm-auth[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-ntlm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	>=dev-python/pyopenssl-21.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-ntlm-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.21.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

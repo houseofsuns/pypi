@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pyuv test"
-DEPENDENCIES="dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/msgpack-0.5.0[${PYTHON_USEDEP}]
+	>=dev-python/greenlet-3.0[${PYTHON_USEDEP}]
 	pyuv? ( dev-python/pyuv[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -26,37 +26,37 @@ KEYWORDS="~amd64 ~x86"
 IUSE="arrow athena aws_secrets azure azure_secrets bigquery clickhouse cloud databricks dremio excel gcp hive mssql mysql pagerduty postgresql redshift s3 snowflake spark teradata test trino vertica"
 DEPENDENCIES="dev-python/altair[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.2[${PYTHON_USEDEP}]
 	dev-python/Ipython[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.5.1[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonpatch[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/makefun[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
+	>=dev-python/jsonpatch-1.22[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}]
+	<dev-python/makefun-2.0[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/mistune-0.8.4[${PYTHON_USEDEP}]
+	>=dev-python/nbformat-5.0[${PYTHON_USEDEP}]
+	>=dev-python/notebook-6.4.10[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.9.2[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.4[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2021.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.17.18[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.59.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-1.2[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	arrow? ( dev-python/feather-format[${PYTHON_USEDEP}] )
 	arrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	athena? ( dev-python/pyathena[${PYTHON_USEDEP}] )
-	athena? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	aws_secrets? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	athena? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
+	aws_secrets? ( >=dev-python/boto3-1.17.106[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-keyvault-secrets[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
@@ -68,85 +68,85 @@ DEPENDENCIES="dev-python/altair[${PYTHON_USEDEP}]
 	bigquery? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}] )
-	bigquery? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	bigquery? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	clickhouse? ( dev-python/clickhouse-sqlalchemy[${PYTHON_USEDEP}] )
-	clickhouse? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	clickhouse? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	cloud? ( dev-python/great-expectations-cloud[${PYTHON_USEDEP}] )
-	cloud? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	cloud? ( >=dev-python/orjson-3.9.7[${PYTHON_USEDEP}] )
 	databricks? ( dev-python/databricks-sql-connector[${PYTHON_USEDEP}] )
-	databricks? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	databricks? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
 	dremio? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	dremio? ( dev-python/sqlalchemy-dremio[${PYTHON_USEDEP}] )
-	dremio? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	excel? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	excel? ( dev-python/xlrd[${PYTHON_USEDEP}] )
+	dremio? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
+	excel? ( >=dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}] )
+	excel? ( <dev-python/xlrd-2.0.0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	gcp? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	hive? ( dev-python/PyHive[${PYTHON_USEDEP}] )
-	hive? ( dev-python/thrift[${PYTHON_USEDEP}] )
+	hive? ( >=dev-python/thrift-0.16.0[${PYTHON_USEDEP}] )
 	hive? ( dev-python/thrift-sasl[${PYTHON_USEDEP}] )
-	hive? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	hive? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	mssql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	mssql? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
 	pagerduty? ( dev-python/pypd[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	postgresql? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}] )
-	redshift? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	redshift? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/boto3-1.17.106[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	snowflake? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	teradata? ( dev-python/teradatasqlalchemy[${PYTHON_USEDEP}] )
-	teradata? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	test? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	test? ( dev-python/flask[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	test? ( dev-python/moto[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	teradata? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/boto3-1.17.106[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flaky-3.7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flask-1.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/freezegun-0.3.15[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/ipykernel-6.17.1[${PYTHON_USEDEP}] )
+	test? ( <dev-python/moto-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nbconvert-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pact-python[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyfakefs-4.5.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-icdiff[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-order[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-3.8.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-order-0.9.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-random-order[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/requirements-parser[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
-	test? ( dev-python/snapshottest[${PYTHON_USEDEP}] )
-	test? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/responses-0.23.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/snapshottest-0.6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/adr-tools-python[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.10.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/tomli[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
 	test? ( dev-python/feather-format[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	trino? ( dev-python/trino[${PYTHON_USEDEP}] )
-	trino? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	trino? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
 	vertica? ( dev-python/sqlalchemy-vertica-python[${PYTHON_USEDEP}] )
-	vertica? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	vertica? ( >=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	dev-python/launart[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	dev-python/graia-amnesia[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	>=dev-python/starlette-0.32.0[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.9.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

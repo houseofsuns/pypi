@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/colortool[${PYTHON_USEDEP}]
-	dev-python/mido[${PYTHON_USEDEP}]
+	>=dev-python/mido-1.2.10[${PYTHON_USEDEP}]
 	dev-python/pipe21[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.63.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )

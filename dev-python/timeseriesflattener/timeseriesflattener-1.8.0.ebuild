@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test tutorials"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
+	<=dev-python/pandas-2.1.3[${PYTHON_USEDEP}]
 	dev-python/catalogue[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-8.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>dev-python/coloredlogs-14.0.0[${PYTHON_USEDEP}]
+	>dev-python/tqdm-4.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/cruft[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.3.27[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-3.1.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-xdist-3.2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-sugar-0.10.0[${PYTHON_USEDEP}] )
+	tutorials? ( <dev-python/jupyter-1.1.0[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/skimpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/xmltodict[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
 	dev-python/user-agents[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	>=dev-python/tornado-6.0.2[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
 	dev-python/python-jwt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

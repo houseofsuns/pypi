@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.61.0[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/fastcore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbdev[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/moepy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/croniter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/seaborn[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/croniter-1.0.15[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/seaborn-0.11.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-cache-1.1.0[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]
-	dev-python/jsonmerge[${PYTHON_USEDEP}]
+	>=dev-python/jsonmerge-1.9[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

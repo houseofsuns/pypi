@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	api? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	api? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	api? ( dev-python/cloudevents[${PYTHON_USEDEP}] )
@@ -45,8 +45,8 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	cloud_storage? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	cloudevent? ( dev-python/cloudevents[${PYTHON_USEDEP}] )
 	datadog? ( dev-python/datadog[${PYTHON_USEDEP}] )
-	datadog? ( dev-python/retrying[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
+	datadog? ( ~dev-python/retrying-1.3.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pip-22.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -64,7 +64,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/GitPython-3.1.35[${PYTHON_USEDEP}] )
 	dev? ( dev-python/safety[${PYTHON_USEDEP}] )
 	dynatrace? ( dev-python/requests[${PYTHON_USEDEP}] )
 	elasticsearch? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )

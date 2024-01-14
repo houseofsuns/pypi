@@ -26,23 +26,23 @@ KEYWORDS="~amd64 ~x86"
 IUSE="build dev monitor test"
 DEPENDENCIES="dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-2.2.0[${PYTHON_USEDEP}]
 	dev-python/aioredis[${PYTHON_USEDEP}]
 	dev-python/aiozmq[${PYTHON_USEDEP}]
 	dev-python/asyncpgsa[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+	>=dev-python/coloredlogs-5.2[${PYTHON_USEDEP}]
 	dev-python/namedlist[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.5[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-16.0[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
 	dev-python/sorna-common[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
+	>=dev-python/uvloop-0.8[${PYTHON_USEDEP}]
 	build? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/ConfigArgParse[${PYTHON_USEDEP}]
 	monitor? ( dev-python/datadog[${PYTHON_USEDEP}] )
 	monitor? ( dev-python/raven[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

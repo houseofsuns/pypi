@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-jose[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/python-jose-4.0.0[${PYTHON_USEDEP}]
 	dev-python/azure-functions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

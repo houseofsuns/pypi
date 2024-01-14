@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mpi"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
 	dev-python/f90wrap[${PYTHON_USEDEP}]
-	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )"
+	mpi? ( >=dev-python/mpi4py-3.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

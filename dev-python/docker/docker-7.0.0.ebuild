@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ssh websockets"
-DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	ssh? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	websockets? ( dev-python/websocket-client[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/packaging-14.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
+	ssh? ( >=dev-python/paramiko-2.4.3[${PYTHON_USEDEP}] )
+	websockets? ( >=dev-python/websocket-client-1.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

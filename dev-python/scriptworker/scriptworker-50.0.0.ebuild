@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.0[${PYTHON_USEDEP}]
 	dev-python/aiomemoizettl[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/arrow-1.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.6.1[${PYTHON_USEDEP}]
 	dev-python/dictdiffer[${PYTHON_USEDEP}]
 	dev-python/github3-py[${PYTHON_USEDEP}]
-	dev-python/immutabledict[${PYTHON_USEDEP}]
+	>=dev-python/immutabledict-1.3.0[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/json-e[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]

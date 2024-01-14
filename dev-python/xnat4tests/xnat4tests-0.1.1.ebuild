@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docker-5.0.2[${PYTHON_USEDEP}]
 	dev-python/xnat[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	>=dev-python/requests-2.10.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

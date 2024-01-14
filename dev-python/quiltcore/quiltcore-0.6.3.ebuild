@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyarrow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
 	dev-python/multiformats[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pandas-stubs[${PYTHON_USEDEP}]
 	dev-python/quilt3[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/tzlocal-6.0.0[${PYTHON_USEDEP}]
 	dev-python/un-yaml[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

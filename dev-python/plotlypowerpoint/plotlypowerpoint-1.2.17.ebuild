@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.2.4[${PYTHON_USEDEP}]
+	>=dev-python/plotly-4.14.3[${PYTHON_USEDEP}]
 	dev-python/numerize[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.3[${PYTHON_USEDEP}]
 	dev-python/behave[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
+	>=dev-python/flake8-2.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/mock-1.0.1[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-2.5[${PYTHON_USEDEP}]
 	dev-python/XlsxWriter[${PYTHON_USEDEP}]
 	dev-python/python-pptx[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

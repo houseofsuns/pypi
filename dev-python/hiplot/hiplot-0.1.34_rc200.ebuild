@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipython-7.0.1[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/flask-compress[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
@@ -33,14 +33,14 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mistune-0.8.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-5.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/guzzle-sphinx-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

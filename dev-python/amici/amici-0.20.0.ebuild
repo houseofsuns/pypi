@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="petab pysb test vis"
 DEPENDENCIES="dev-python/cmake-build-extension[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.9[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/python-libsbml[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
 	dev-python/wurlitzer[${PYTHON_USEDEP}]
 	dev-python/toposort[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-48.0[${PYTHON_USEDEP}]
 	dev-python/mpmath[${PYTHON_USEDEP}]
 	petab? ( dev-python/petab[${PYTHON_USEDEP}] )
 	pysb? ( dev-python/pysb[${PYTHON_USEDEP}] )

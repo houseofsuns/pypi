@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aioredis pymemcache redis"
-DEPENDENCIES="dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/starlette-1.0[${PYTHON_USEDEP}]
+	>=dev-python/itsdangerous-1.1.0[${PYTHON_USEDEP}]
 	aioredis? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	pymemcache? ( dev-python/pymemcache[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	redis? ( >=dev-python/redis-3.5.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

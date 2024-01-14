@@ -93,6 +93,6 @@ DEPENDENCIES="dev-python/correos-preregistro[${PYTHON_USEDEP}]
 	dev-python/odoo[${PYTHON_USEDEP}]
 	dev-python/otrs-somconnexio[${PYTHON_USEDEP}]
 	dev-python/pyopencell[${PYTHON_USEDEP}]
-	dev-python/python-stdnum[${PYTHON_USEDEP}]"
+	~dev-python/python-stdnum-1.14[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

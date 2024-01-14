@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/argcomplete-1.9.4[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-2.1[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/userpath[${PYTHON_USEDEP}]"
+	>=dev-python/userpath-1.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

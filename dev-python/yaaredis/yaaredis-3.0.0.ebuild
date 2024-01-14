@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hiredis"
-DEPENDENCIES="hiredis? ( dev-python/hiredis[${PYTHON_USEDEP}] )"
+DEPENDENCIES="hiredis? ( <dev-python/hiredis-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

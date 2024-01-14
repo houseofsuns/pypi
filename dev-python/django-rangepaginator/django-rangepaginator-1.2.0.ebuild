@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	>=dev-python/six-1.1[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-1.4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-3.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.3.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-django-3.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-sugar-0.7.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-4.2.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.0.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="consul etcd etcd3gw ipc memcached mysql postgresql redis test zake zookeeper"
-DEPENDENCIES="dev-python/fasteners[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/fasteners-0.7[${PYTHON_USEDEP}]
 	dev-python/futurist[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-0.4.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-4.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-1.6[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.8.9[${PYTHON_USEDEP}]
 	consul? ( dev-python/python-consul2[${PYTHON_USEDEP}] )
-	etcd? ( dev-python/requests[${PYTHON_USEDEP}] )
+	etcd? ( >=dev-python/requests-2.10.0[${PYTHON_USEDEP}] )
 	etcd3gw? ( dev-python/etcd3gw[${PYTHON_USEDEP}] )
 	ipc? ( dev-python/sysv-ipc[${PYTHON_USEDEP}] )
 	memcached? ( dev-python/pymemcache[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/ddt[${PYTHON_USEDEP}] )
-	test? ( dev-python/fixtures[${PYTHON_USEDEP}] )
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-3.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-3.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/ddt-1.2.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/fixtures-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/pifpaf[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testtools-1.4.0[${PYTHON_USEDEP}] )
 	zake? ( dev-python/zake[${PYTHON_USEDEP}] )
 	zookeeper? ( dev-python/kazoo[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

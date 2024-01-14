@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/rich-11.2.0[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}]
+	~dev-python/setuptools-60.8.2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/ttkthemes[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]

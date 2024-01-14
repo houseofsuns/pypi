@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="argon2 bcrypt"
-DEPENDENCIES="dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
-	argon2? ( dev-python/argon2-cffi[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/asgiref-4.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlparse-0.3.1[${PYTHON_USEDEP}]
+	argon2? ( >=dev-python/argon2-cffi-19.1.0[${PYTHON_USEDEP}] )
 	bcrypt? ( dev-python/bcrypt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

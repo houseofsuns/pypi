@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/sklearn[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/stanza[${PYTHON_USEDEP}]
 	dev-python/simpletransformers[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/skorch[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

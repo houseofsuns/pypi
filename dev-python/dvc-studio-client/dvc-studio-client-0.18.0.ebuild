@@ -27,23 +27,23 @@ IUSE="dev docs tests"
 DEPENDENCIES="dev-python/dulwich[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/voluptuous[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-sugar-0.9.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-material-9.4.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-section-index[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-python-1.7.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.4.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-section-index[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/mkdocstrings-python-1.7.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-sugar-0.9.7[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="black dev isort test"
-DEPENDENCIES="black? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES="black? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	isort? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/Django[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

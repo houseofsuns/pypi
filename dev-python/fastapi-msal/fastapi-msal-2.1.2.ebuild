@@ -27,7 +27,7 @@ IUSE="dev full"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.4[${PYTHON_USEDEP}]
 	dev-python/starlette[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastapi-msal[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all mim optional tests"
 DEPENDENCIES="dev-python/lyft-dataset-sdk[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/nuscenes-devkit[${PYTHON_USEDEP}]
@@ -34,11 +34,11 @@ DEPENDENCIES="dev-python/lyft-dataset-sdk[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/trimesh[${PYTHON_USEDEP}]
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
 	all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	all? ( dev-python/waymo-open-dataset-tf-2-6_0[${PYTHON_USEDEP}] )
 	all? ( dev-python/lyft-dataset-sdk[${PYTHON_USEDEP}] )
-	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/networkx-2.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/numba[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/nuscenes-devkit[${PYTHON_USEDEP}] )
@@ -57,12 +57,12 @@ DEPENDENCIES="dev-python/lyft-dataset-sdk[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	all? ( dev-python/ubelt[${PYTHON_USEDEP}] )
-	all? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/xdoctest-0.10.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	mim? ( dev-python/mmcv[${PYTHON_USEDEP}] )
 	mim? ( dev-python/mmdet[${PYTHON_USEDEP}] )
 	mim? ( dev-python/mmengine[${PYTHON_USEDEP}] )
-	optional? ( dev-python/black[${PYTHON_USEDEP}] )
+	optional? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
 	optional? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	optional? ( dev-python/waymo-open-dataset-tf-2-6_0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
@@ -75,7 +75,7 @@ DEPENDENCIES="dev-python/lyft-dataset-sdk[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ubelt[${PYTHON_USEDEP}] )
-	tests? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/xdoctest-0.10.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/yapf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

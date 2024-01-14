@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="dev-python/ordered-set[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/ordered-set-4.2.0[${PYTHON_USEDEP}]
+	cli? ( ~dev-python/click-8.1.3[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/toml[${PYTHON_USEDEP}] )
 	cli? ( dev-python/clevercsv[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

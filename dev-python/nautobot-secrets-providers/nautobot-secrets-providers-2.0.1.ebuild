@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws hashicorp nautobot thycotic"
-DEPENDENCIES="all? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	all? ( dev-python/hvac[${PYTHON_USEDEP}] )
-	hashicorp? ( dev-python/hvac[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( <dev-python/boto3-1.20.0[${PYTHON_USEDEP}] )
+	aws? ( <dev-python/boto3-1.20.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/hvac-1.1.0[${PYTHON_USEDEP}] )
+	hashicorp? ( <dev-python/hvac-1.1.0[${PYTHON_USEDEP}] )
 	nautobot? ( dev-python/nautobot[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-tss-sdk[${PYTHON_USEDEP}] )
 	thycotic? ( dev-python/python-tss-sdk[${PYTHON_USEDEP}] )"

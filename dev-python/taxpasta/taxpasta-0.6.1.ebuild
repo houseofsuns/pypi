@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all arrow biom dev ods parquet rich xlsx"
 DEPENDENCIES="dev-python/depinfo[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.4[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]
 	dev-python/taxopy[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
@@ -41,11 +41,11 @@ DEPENDENCIES="dev-python/depinfo[${PYTHON_USEDEP}]
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-exclude[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-material-9.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-0.20[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tabulate-0.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	ods? ( dev-python/odfpy[${PYTHON_USEDEP}] )
 	parquet? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	rich? ( dev-python/rich[${PYTHON_USEDEP}] )

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-pyi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.920[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pika[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pika-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tornado[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twisted[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

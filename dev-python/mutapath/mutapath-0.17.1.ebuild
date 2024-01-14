@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mashumaro"
 DEPENDENCIES="dev-python/singletons[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/path[${PYTHON_USEDEP}]
+	<dev-python/cached-property-1.6.0[${PYTHON_USEDEP}]
+	<dev-python/filelock-3.13.0[${PYTHON_USEDEP}]
+	<=dev-python/path-16.7.1[${PYTHON_USEDEP}]
 	mashumaro? ( dev-python/mashumaro[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

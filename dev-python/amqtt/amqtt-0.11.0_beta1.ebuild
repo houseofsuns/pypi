@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ci"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	ci? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/transitions[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+	<dev-python/docopt-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/passlib-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/transitions-0.9.0[${PYTHON_USEDEP}]
+	<dev-python/websockets-11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

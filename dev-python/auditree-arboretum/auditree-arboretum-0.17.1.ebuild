@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/auditree-framework[${PYTHON_USEDEP}]
 	dev-python/auditree-harvest[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/parameterized[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/parameterized-0.8.1[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/bandit-1.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/epot-test-deps[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyink[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

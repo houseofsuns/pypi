@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/html5lib[${PYTHON_USEDEP}]
 	dev-python/nbconvert[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	cache? ( dev-python/requests-cache[${PYTHON_USEDEP}] )
+	cache? ( >=dev-python/requests-cache-0.9.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-cache[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/requests-cache-0.9.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

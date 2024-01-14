@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="visualization"
-DEPENDENCIES="dev-python/qiskit-terra[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-ntlm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	visualization? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/plotly[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/qiskit-terra-0.18.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.19[${PYTHON_USEDEP}]
+	<=dev-python/requests-ntlm-1.1.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.21.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-1.5.1[${PYTHON_USEDEP}]
+	>=dev-python/websockets-10.0[${PYTHON_USEDEP}]
+	visualization? ( >=dev-python/matplotlib-2.1[${PYTHON_USEDEP}] )
+	visualization? ( <=dev-python/ipywidgets-7.7.2[${PYTHON_USEDEP}] )
+	visualization? ( >=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
+	visualization? ( >=dev-python/plotly-4.4[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/ipyvuetify[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/pyperclip[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/traitlets[${PYTHON_USEDEP}] )
+	visualization? ( >=dev-python/pyperclip-1.7[${PYTHON_USEDEP}] )
+	visualization? ( >=dev-python/ipython-5.0.0[${PYTHON_USEDEP}] )
+	visualization? ( >dev-python/traitlets-5.0.5[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/ipyvue[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

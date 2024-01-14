@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.6[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.8[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	dev-python/pglast[${PYTHON_USEDEP}]
 	dev-python/unittest-xml-reporting[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

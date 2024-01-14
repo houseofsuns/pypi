@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-el-pagination[${PYTHON_USEDEP}]
 	dev-python/django-social-share[${PYTHON_USEDEP}]
 	dev-python/django-colorful[${PYTHON_USEDEP}]
-	dev-python/django-taggit[${PYTHON_USEDEP}]
+	<dev-python/django-taggit-4.1[${PYTHON_USEDEP}]
 	dev-python/wagtail-markdown[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

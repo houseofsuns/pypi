@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="image"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/whichcraft[${PYTHON_USEDEP}]
 	dev-python/logzero[${PYTHON_USEDEP}]
-	dev-python/progress[${PYTHON_USEDEP}]
+	~dev-python/progress-1.3[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
 	dev-python/adbutils[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.3[${PYTHON_USEDEP}]
+	<dev-python/cached-property-2.0[${PYTHON_USEDEP}]
+	~dev-python/packaging-20.3[${PYTHON_USEDEP}]
+	<dev-python/filelock-4.0[${PYTHON_USEDEP}]
 	image? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	image? ( dev-python/imutils[${PYTHON_USEDEP}] )
 	image? ( dev-python/findit[${PYTHON_USEDEP}] )
-	image? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	image? ( dev-python/imageio-ffmpeg[${PYTHON_USEDEP}] )
-	image? ( dev-python/websocket-client[${PYTHON_USEDEP}] )"
+	image? ( <dev-python/imageio-3.0[${PYTHON_USEDEP}] )
+	image? ( <dev-python/imageio-ffmpeg-1.0[${PYTHON_USEDEP}] )
+	image? ( <dev-python/websocket-client-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

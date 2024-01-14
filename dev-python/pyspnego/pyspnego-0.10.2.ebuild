@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="kerberos yaml"
 DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	kerberos? ( dev-python/gssapi[${PYTHON_USEDEP}] )
-	kerberos? ( dev-python/krb5[${PYTHON_USEDEP}] )
+	kerberos? ( >=dev-python/gssapi-1.6.0[${PYTHON_USEDEP}] )
+	kerberos? ( >=dev-python/krb5-0.3.0[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

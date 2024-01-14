@@ -39,24 +39,24 @@ DEPENDENCIES="dev-python/gemmi[${PYTHON_USEDEP}]
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pygments-2.11[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/docutils-0.11[${PYTHON_USEDEP}] )
 	docs? ( dev-python/doc8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/restructuredtext-lint[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	dev-python/adsorption-file-parser[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
 	dev-python/coolprop[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/xlwt[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.1[${PYTHON_USEDEP}]
+	>=dev-python/xlwt-1.3[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

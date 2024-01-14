@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev toml yaml"
 DEPENDENCIES="dev-python/case-converter[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
+	<dev-python/deepmerge-2.0.0[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-5.0.0[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
 	dev? ( dev-python/autohooks[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autohooks-plugin-black[${PYTHON_USEDEP}] )
@@ -39,15 +39,15 @@ DEPENDENCIES="dev-python/case-converter[${PYTHON_USEDEP}]
 	dev? ( dev-python/mdformat-gfm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mutmut[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydoclint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pydocstyle-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-sugar-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
+	yaml? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml-sort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/tox-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="caching dataframe jsonld"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	caching? ( dev-python/requests-cache[${PYTHON_USEDEP}] )
-	dataframe? ( dev-python/pandas[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/requests-2.3.0[${PYTHON_USEDEP}]
+	caching? ( >=dev-python/requests-cache-0.4.13[${PYTHON_USEDEP}] )
+	dataframe? ( >=dev-python/pandas-0.18.0[${PYTHON_USEDEP}] )
 	jsonld? ( dev-python/PyLD[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

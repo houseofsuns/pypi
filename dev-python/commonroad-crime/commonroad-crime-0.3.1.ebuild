@@ -29,14 +29,14 @@ DEPENDENCIES="dev-python/commonroad-io[${PYTHON_USEDEP}]
 	dev-python/commonroad-route-planner[${PYTHON_USEDEP}]
 	dev-python/commonroad-drivability-checker[${PYTHON_USEDEP}]
 	dev-python/commonroad-reach[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
+	<dev-python/shapely-3.0.0[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	dev-python/casadi[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.9.0[${PYTHON_USEDEP}]
+	tests? ( >=dev-python/pytest-7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

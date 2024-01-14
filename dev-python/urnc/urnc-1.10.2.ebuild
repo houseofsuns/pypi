@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/tomli-w[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.0[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.31[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-7.8.0[${PYTHON_USEDEP}]
+	>=dev-python/semver-3.0.1[${PYTHON_USEDEP}]
+	>=dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.18.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="black docs interactive style"
 DEPENDENCIES="style? ( dev-python/SciencePlots[${PYTHON_USEDEP}] )
-	interactive? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	interactive? ( >=dev-python/ipywidgets-7.7.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pdoc[${PYTHON_USEDEP}] )
 	black? ( dev-python/jupyter-black[${PYTHON_USEDEP}] )
-	black? ( dev-python/black[${PYTHON_USEDEP}] )
+	black? ( >=dev-python/black-22.6.0[${PYTHON_USEDEP}] )
 	dev-python/mockito[${PYTHON_USEDEP}]
-	dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]"
+	~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.31.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

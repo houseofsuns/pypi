@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="gui"
 DEPENDENCIES="dev-python/mutagen[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
+	<dev-python/chardet-5.0.0[${PYTHON_USEDEP}]
+	gui? ( <dev-python/pyside6-7.0.0[${PYTHON_USEDEP}] )
 	dev-python/pyffmpeg[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/camptown[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

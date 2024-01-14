@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/pybind11[${PYTHON_USEDEP}]
 	dlp_analyzer? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	dlp_analyzer? ( dev-python/pybind11[${PYTHON_USEDEP}] )
 	dlp_analyzer? ( dev-python/zindex-py[${PYTHON_USEDEP}] )
-	dlp_analyzer? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dlp_analyzer? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dlp_analyzer? ( >=dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )
+	dlp_analyzer? ( >=dev-python/dask-2023.5.0[${PYTHON_USEDEP}] )
 	dlp_analyzer? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	dlp_analyzer? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dlp_analyzer? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	dlp_analyzer? ( dev-python/rich[${PYTHON_USEDEP}] )
+	dlp_analyzer? ( >=dev-python/numpy-1.24.3[${PYTHON_USEDEP}] )
+	dlp_analyzer? ( >=dev-python/pyarrow-12.0.1[${PYTHON_USEDEP}] )
+	dlp_analyzer? ( >=dev-python/rich-13.6.0[${PYTHON_USEDEP}] )
 	dlp_analyzer? ( dev-python/python-intervals[${PYTHON_USEDEP}] )
-	dlp_analyzer? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dlp_analyzer? ( >=dev-python/matplotlib-3.7.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

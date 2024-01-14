@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs_specific quality test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
@@ -34,17 +34,17 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/safetensors[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/urllib3-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
 	docs_specific? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )
 	quality? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	quality? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	quality? ( <=dev-python/urllib3-2.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/urllib3-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

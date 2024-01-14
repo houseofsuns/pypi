@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/eyeD3[${PYTHON_USEDEP}]
-	dev-python/colour[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/cython-0.30.0[${PYTHON_USEDEP}]
+	<dev-python/eyeD3-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/colour-0.2.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/pyclipper[${PYTHON_USEDEP}]
+	<dev-python/pyclipper-2.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/pysndfile[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]"
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	~dev-python/pillow-6.2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

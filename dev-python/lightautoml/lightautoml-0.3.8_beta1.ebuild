@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="afg all cv nlp report"
-DEPENDENCIES="dev-python/poetry-core[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/poetry-core-2.0.0[${PYTHON_USEDEP}]
+	<=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/holidays[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	<=dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/cmaes[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	<dev-python/joblib-1.3.0[${PYTHON_USEDEP}]
 	dev-python/autowoe[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/json2html[${PYTHON_USEDEP}]
@@ -61,9 +61,9 @@ DEPENDENCIES="dev-python/poetry-core[${PYTHON_USEDEP}]
 	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	afg? ( dev-python/featuretools[${PYTHON_USEDEP}] )
 	all? ( dev-python/featuretools[${PYTHON_USEDEP}] )
-	report? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
-	all? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
-	report? ( dev-python/cffi[${PYTHON_USEDEP}] )
-	all? ( dev-python/cffi[${PYTHON_USEDEP}] )"
+	report? ( ~dev-python/weasyprint-52.5[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/weasyprint-52.5[${PYTHON_USEDEP}] )
+	report? ( ~dev-python/cffi-1.14.5[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/cffi-1.14.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

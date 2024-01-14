@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="asyncio tornado twisted"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.4[${PYTHON_USEDEP}]
 	asyncio? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	tornado? ( dev-python/tornado[${PYTHON_USEDEP}] )
 	twisted? ( dev-python/twisted[${PYTHON_USEDEP}] )

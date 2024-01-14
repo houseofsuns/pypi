@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ovos-workshop[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.11[${PYTHON_USEDEP}]
 	dev-python/neon-utils[${PYTHON_USEDEP}]
 	dev-python/ovos-plugin-common-play[${PYTHON_USEDEP}]
 	dev-python/ovos-utils[${PYTHON_USEDEP}]"

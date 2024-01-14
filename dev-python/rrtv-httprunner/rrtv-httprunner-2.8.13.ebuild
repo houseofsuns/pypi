@@ -24,33 +24,33 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="allure locust upload"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/black-20.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
 	dev-python/pytest-html[${PYTHON_USEDEP}]
-	dev-python/pytest-xdist[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	<dev-python/pytest-xdist-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/sentry-sdk-0.15.0[${PYTHON_USEDEP}]
 	dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	<dev-python/redis-4.0.0[${PYTHON_USEDEP}]
 	dev-python/jsonpath[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/json5[${PYTHON_USEDEP}]
+	<dev-python/pymongo-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/deepdiff-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/json5-0.10.0[${PYTHON_USEDEP}]
 	dev-python/demjson3[${PYTHON_USEDEP}]
 	dev-python/curlify[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/xlrd-3.0.0[${PYTHON_USEDEP}]
 	dev-python/elasticsearch5[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	allure? ( dev-python/allure-pytest[${PYTHON_USEDEP}] )
-	upload? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )
-	upload? ( dev-python/filetype[${PYTHON_USEDEP}] )
+	upload? ( <dev-python/requests-toolbelt-0.10.0[${PYTHON_USEDEP}] )
+	upload? ( <dev-python/filetype-2.0.0[${PYTHON_USEDEP}] )
 	locust? ( dev-python/locust[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

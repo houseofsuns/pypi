@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="7z all avif cbr cix gui icu metron qtw"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.1[${PYTHON_USEDEP}]
+	<dev-python/chardet-6.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-3.3.0[${PYTHON_USEDEP}]
 	dev-python/isocodes[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/natsort-8.1.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/pathvalidate[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pyrate-limiter[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0[${PYTHON_USEDEP}]
+	<dev-python/pyrate-limiter-3.0[${PYTHON_USEDEP}]
+	>=dev-python/rapidfuzz-2.12.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/settngs[${PYTHON_USEDEP}]
 	dev-python/text2digits[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
 	dev-python/wordninja[${PYTHON_USEDEP}]
 	7z? ( dev-python/py7zr[${PYTHON_USEDEP}] )
-	cbr? ( dev-python/rarfile[${PYTHON_USEDEP}] )
+	cbr? ( >=dev-python/rarfile-4.0[${PYTHON_USEDEP}] )
 	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	icu? ( dev-python/pyicu[${PYTHON_USEDEP}] )
 	qtw? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	all? ( dev-python/metron-talker[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow-avif-plugin[${PYTHON_USEDEP}] )
 	all? ( dev-python/py7zr[${PYTHON_USEDEP}] )
-	all? ( dev-python/rarfile[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/rarfile-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyicu[${PYTHON_USEDEP}] )
 	avif? ( dev-python/pillow-avif-plugin[${PYTHON_USEDEP}] )
 	cix? ( dev-python/comicinfoxml[${PYTHON_USEDEP}] )

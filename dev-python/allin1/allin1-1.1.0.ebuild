@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/demucs[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	train? ( dev-python/lightning[${PYTHON_USEDEP}] )
 	train? ( dev-python/mir-eval[${PYTHON_USEDEP}] )
-	train? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	train? ( <dev-python/numpy-1.24[${PYTHON_USEDEP}] )
 	train? ( dev-python/timm[${PYTHON_USEDEP}] )
 	train? ( dev-python/wandb[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/kproxy[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	>=dev-python/selenium-4.0.0[${PYTHON_USEDEP}]
 	dev-python/selenium-browser[${PYTHON_USEDEP}]
 	dev-python/undetected-chromedriver[${PYTHON_USEDEP}]
 	dev-python/xpath-utils[${PYTHON_USEDEP}]"

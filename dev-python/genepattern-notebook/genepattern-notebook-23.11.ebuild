@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/genepattern-python[${PYTHON_USEDEP}]
 	dev-python/nbtools[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	>=dev-python/notebook-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.0.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

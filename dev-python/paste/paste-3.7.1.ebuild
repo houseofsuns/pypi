@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="flup openid"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.4.0[${PYTHON_USEDEP}]
 	flup? ( dev-python/flup[${PYTHON_USEDEP}] )
 	openid? ( dev-python/python-openid[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

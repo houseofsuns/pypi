@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all browser datascience server training"
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/pick[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	<dev-python/tomlkit-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/ipython-9.0.0[${PYTHON_USEDEP}]
 	dev-python/bashlex[${PYTHON_USEDEP}]
 	server? ( dev-python/llama-cpp-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/llama-cpp-python[${PYTHON_USEDEP}] )
 	browser? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	all? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	dev-python/jedi[${PYTHON_USEDEP}]
+	<dev-python/jedi-0.20.0[${PYTHON_USEDEP}]
 	datascience? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	datascience? ( dev-python/pandas[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	training? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	server? ( dev-python/flask[${PYTHON_USEDEP}] )
-	all? ( dev-python/flask[${PYTHON_USEDEP}] )"
+	server? ( <dev-python/flask-3.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/flask-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

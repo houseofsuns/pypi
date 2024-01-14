@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="eval"
-DEPENDENCIES="eval? ( dev-python/pandas[${PYTHON_USEDEP}] )
+DEPENDENCIES="eval? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	dev-python/rhoknp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

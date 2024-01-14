@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
 	dev-python/openclsim[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/simpy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	testing? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ipyleaflet[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-datadir[${PYTHON_USEDEP}] )
@@ -61,12 +61,12 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	testing? ( dev-python/momepy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/folium[${PYTHON_USEDEP}] )
 	testing? ( dev-python/colorcet[${PYTHON_USEDEP}] )
-	testing? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	testing? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/notebook-6.4[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/nbconvert-6.4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
-	testing? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	testing? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/ipywidgets-7.7[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/jsonschema-3.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jupyterlab-widgets[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

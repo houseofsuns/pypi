@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="qr"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	qr? ( dev-python/segno[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	qr? ( >=dev-python/segno-1.4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

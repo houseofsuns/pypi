@@ -28,25 +28,25 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/chex[${PYTHON_USEDEP}]
 	dev-python/docrep[${PYTHON_USEDEP}]
 	dev-python/flax[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.9.0[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
 	dev-python/lightning[${PYTHON_USEDEP}]
 	dev-python/ml-collections[${PYTHON_USEDEP}]
 	dev-python/mudata[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/numpyro[${PYTHON_USEDEP}]
 	dev-python/optax[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/pyro-ppl[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/sparse[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.56.0[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2023.2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/scvi-tools[${PYTHON_USEDEP}] )
 	autotune? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
 	autotune? ( dev-python/ipython[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	autotune? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	census? ( dev-python/cellxgene-census[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scvi-tools[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/docutils-0.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
@@ -64,8 +64,8 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-bibtex-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	docsbuild? ( dev-python/scvi-tools[${PYTHON_USEDEP}] )
 	editing? ( dev-python/black[${PYTHON_USEDEP}] )

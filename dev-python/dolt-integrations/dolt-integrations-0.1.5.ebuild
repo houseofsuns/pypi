@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="metaflow"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-0.25.2[${PYTHON_USEDEP}]
 	dev-python/dataclasses_json[${PYTHON_USEDEP}]
 	dev-python/doltcli[${PYTHON_USEDEP}]
 	metaflow? ( dev-python/metaflow[${PYTHON_USEDEP}] )"

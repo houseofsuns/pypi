@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="transport-can-pythoncan transport-serial transport-udp"
 DEPENDENCIES="dev-python/nunavut[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	transport-can-pythoncan? ( dev-python/python-can[${PYTHON_USEDEP}] )
-	transport-serial? ( dev-python/pyserial[${PYTHON_USEDEP}] )
+	transport-serial? ( ~dev-python/pyserial-3.5[${PYTHON_USEDEP}] )
 	transport-serial? ( dev-python/cobs[${PYTHON_USEDEP}] )
 	transport-udp? ( dev-python/libpcap[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

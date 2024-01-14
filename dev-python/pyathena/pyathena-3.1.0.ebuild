@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="arrow fastparquet pandas sqlalchemy"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.26.4[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.29.4[${PYTHON_USEDEP}]
 	fastparquet? ( dev-python/fastparquet[${PYTHON_USEDEP}] )
 	dev-python/fsspec[${PYTHON_USEDEP}]
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	arrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	dev-python/tenacity[${PYTHON_USEDEP}]"
+	pandas? ( >=dev-python/pandas-1.3.0[${PYTHON_USEDEP}] )
+	arrow? ( >=dev-python/pyarrow-7.0.0[${PYTHON_USEDEP}] )
+	sqlalchemy? ( >=dev-python/sqlalchemy-1.0.0[${PYTHON_USEDEP}] )
+	>=dev-python/tenacity-4.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

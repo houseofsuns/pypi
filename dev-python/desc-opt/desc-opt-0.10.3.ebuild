@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.0.0[${PYTHON_USEDEP}]
 	dev-python/interpax[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/mpmath[${PYTHON_USEDEP}]
-	dev-python/netcdf4[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<=dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}]
+	>=dev-python/mpmath-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/netcdf4-1.5.4[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
 	dev-python/nvgpu[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	<=dev-python/plotly-6.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pylatexenc[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<=dev-python/pylatexenc-3.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-1.11.0[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

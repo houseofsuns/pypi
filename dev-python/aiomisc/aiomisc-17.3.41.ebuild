@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp asgi carbon cron grpc raven rich uvicorn uvloop"
 DEPENDENCIES="carbon? ( dev-python/aiocarbon[${PYTHON_USEDEP}] )
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	raven? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	aiohttp? ( >dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )
+	raven? ( >dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )
 	asgi? ( dev-python/aiohttp-asgi[${PYTHON_USEDEP}] )
-	dev-python/colorlog[${PYTHON_USEDEP}]
-	cron? ( dev-python/croniter[${PYTHON_USEDEP}] )
-	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	grpc? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
+	<dev-python/colorlog-7.0[${PYTHON_USEDEP}]
+	cron? ( <dev-python/croniter-2.0.0[${PYTHON_USEDEP}] )
+	grpc? ( <dev-python/grpcio-2.0.0[${PYTHON_USEDEP}] )
+	grpc? ( <dev-python/grpcio-tools-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/logging-journald[${PYTHON_USEDEP}]
 	raven? ( dev-python/raven[${PYTHON_USEDEP}] )
 	rich? ( dev-python/rich[${PYTHON_USEDEP}] )
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	uvicorn? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	uvicorn? ( dev-python/asgiref[${PYTHON_USEDEP}] )"
+	uvloop? ( <dev-python/uvloop-1.0[${PYTHON_USEDEP}] )
+	uvicorn? ( <dev-python/uvicorn-1.0[${PYTHON_USEDEP}] )
+	uvicorn? ( <dev-python/asgiref-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

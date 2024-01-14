@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/coreapi[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/openapi-codec[${PYTHON_USEDEP}]
-	dev-python/dulwich[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/dulwich-0.21.3[${PYTHON_USEDEP}]
+	>=dev-python/pika-1.3.1[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-39.0.2[${PYTHON_USEDEP}]
 	dev-python/opentracing[${PYTHON_USEDEP}]
 	dev-python/jaeger-client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

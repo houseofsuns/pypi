@@ -27,13 +27,13 @@ IUSE=""
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/botocore[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/c7n[${PYTHON_USEDEP}]
 	dev-python/c7n-mailer[${PYTHON_USEDEP}]
 	dev-python/sphinx[${PYTHON_USEDEP}]
 	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
 	dev-python/m2r2[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]"
+	~dev-python/mistune-0.8.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/rich-12.5.1[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pykwalify[${PYTHON_USEDEP}]
+	~dev-python/pykwalify-1.8.0[${PYTHON_USEDEP}]
 	dev-python/ansi2txt[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/setuptools-scm-7.0.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.26.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/portalocker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

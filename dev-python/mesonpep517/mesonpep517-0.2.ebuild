@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/wheel-0.33[${PYTHON_USEDEP}]
 	dev-python/meson[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"

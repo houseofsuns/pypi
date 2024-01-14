@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/h11[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/outcome[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/sniffio[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/trio[${PYTHON_USEDEP}]
-	dev-python/trio-websocket[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/wsproto[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
+	~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	~dev-python/h11-0.14.0[${PYTHON_USEDEP}]
+	~dev-python/idna-3.4[${PYTHON_USEDEP}]
+	~dev-python/outcome-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
+	~dev-python/selenium-4.15.1[${PYTHON_USEDEP}]
+	~dev-python/sniffio-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
+	~dev-python/trio-0.23.0[${PYTHON_USEDEP}]
+	~dev-python/trio-websocket-0.11.1[${PYTHON_USEDEP}]
+	~dev-python/urllib3-2.0.7[${PYTHON_USEDEP}]
+	~dev-python/wsproto-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,8 +33,8 @@ DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/eido[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dbbackend? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	dbbackend? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	dbbackend? ( >=dev-python/psycopg-3.1.13[${PYTHON_USEDEP}] )
+	dbbackend? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
 	dbbackend? ( dev-python/sqlmodel[${PYTHON_USEDEP}] )
 	pipestatreader? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	pipestatreader? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"

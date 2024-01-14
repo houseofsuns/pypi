@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev excel plot"
 DEPENDENCIES="dev-python/regex[${PYTHON_USEDEP}]
 	dev-python/schedula[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/numpy-financial[${PYTHON_USEDEP}]
 	all? ( dev-python/Pygments[${PYTHON_USEDEP}] )
@@ -46,11 +46,11 @@ DEPENDENCIES="dev-python/regex[${PYTHON_USEDEP}]
 	dev? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	dev? ( dev-python/regex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-7.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gitchangelog[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mako[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-36.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-restbuilder[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ddt[${PYTHON_USEDEP}] )

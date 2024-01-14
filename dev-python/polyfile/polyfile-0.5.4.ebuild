@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="demangle dev"
 DEPENDENCIES="dev-python/abnf[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+	~dev-python/chardet-5.0.0[${PYTHON_USEDEP}]
 	dev-python/cint[${PYTHON_USEDEP}]
 	dev-python/fickling[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/intervaltree[${PYTHON_USEDEP}]
+	>=dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
+	>=dev-python/intervaltree-2.4.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/kaitaistruct[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	~dev-python/kaitaistruct-0.10[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.6.3[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	demangle? ( dev-python/cxxfilt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

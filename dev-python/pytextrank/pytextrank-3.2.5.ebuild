@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="base docs viz"
-DEPENDENCIES="dev-python/graphviz[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/graphviz-0.13[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.6[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.7.4[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	base? ( dev-python/graphviz[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/graphviz-0.13[${PYTHON_USEDEP}] )
 	base? ( dev-python/icecream[${PYTHON_USEDEP}] )
-	base? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	base? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	base? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/networkx-2.6[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/pygments-2.7.4[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/scipy-1.7[${PYTHON_USEDEP}] )
 	base? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
@@ -42,25 +42,25 @@ DEPENDENCIES="dev-python/graphviz[${PYTHON_USEDEP}]
 	docs? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	docs? ( dev-python/flask[${PYTHON_USEDEP}] )
 	docs? ( dev-python/grayskull[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jupyterlab-3.1.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mistune[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-git-revision-date-plugin[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mknotebooks[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkrefs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbconvert-6.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbmake[${PYTHON_USEDEP}] )
-	docs? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/notebook-6.1.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pylint-2.7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
 	docs? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	docs? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/twine[${PYTHON_USEDEP}] )
-	docs? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/wheel-0.38.0[${PYTHON_USEDEP}] )
 	viz? ( dev-python/altair[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

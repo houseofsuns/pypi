@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="acs dev docs test"
 DEPENDENCIES="dev-python/maec[${PYTHON_USEDEP}]
 	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
+	>=dev-python/pycountry-20.7.0[${PYTHON_USEDEP}]
 	dev-python/pluralizer[${PYTHON_USEDEP}]
 	dev-python/stix[${PYTHON_USEDEP}]
 	dev-python/stix2[${PYTHON_USEDEP}]

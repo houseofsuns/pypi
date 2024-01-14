@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/aescipher[${PYTHON_USEDEP}]
 	dev-python/easyrsa[${PYTHON_USEDEP}]
 	dev-python/omnitools[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]"
+	>=dev-python/keyring-0.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

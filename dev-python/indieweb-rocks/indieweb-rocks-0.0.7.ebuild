@@ -31,8 +31,8 @@ DEPENDENCIES="dev-python/webint[${PYTHON_USEDEP}]
 	dev-python/webint-system[${PYTHON_USEDEP}]
 	dev-python/micropub[${PYTHON_USEDEP}]
 	dev-python/typesense[${PYTHON_USEDEP}]
-	dev-python/svglib[${PYTHON_USEDEP}]
+	<dev-python/svglib-2.0.0[${PYTHON_USEDEP}]
 	dev-python/python-whois[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]"
+	<dev-python/phonenumbers-9.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

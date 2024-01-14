@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/dissect-cstruct[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
+	>=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
+	>=dev-python/structlog-21.2.0[${PYTHON_USEDEP}]
 	dev-python/arpy[${PYTHON_USEDEP}]
-	dev-python/rarfile[${PYTHON_USEDEP}]
+	<dev-python/rarfile-5.0[${PYTHON_USEDEP}]
 	dev-python/ubi-reader[${PYTHON_USEDEP}]
 	dev-python/plotext[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
+	<dev-python/pluggy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-magic-0.5.0[${PYTHON_USEDEP}]
 	dev-python/pyperscan[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]
-	dev-python/lz4[${PYTHON_USEDEP}]
+	<dev-python/lark-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/lz4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/lief[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0[${PYTHON_USEDEP}]
 	dev-python/treelib[${PYTHON_USEDEP}]
 	dev-python/unblob-native[${PYTHON_USEDEP}]
 	dev-python/jefferson[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/pyfatfs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

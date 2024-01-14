@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	<dev-python/attrs-22.0.0[${PYTHON_USEDEP}]
+	<dev-python/graphviz-0.20.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

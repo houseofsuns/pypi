@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="notebooks"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-kerberos[${PYTHON_USEDEP}]
-	notebooks? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev-python/diskcache[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	<dev-python/certifi-2024.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/requests-kerberos-1.0[${PYTHON_USEDEP}]
+	notebooks? ( <dev-python/notebook-8.0.0[${PYTHON_USEDEP}] )
+	notebooks? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
+	<dev-python/diskcache-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

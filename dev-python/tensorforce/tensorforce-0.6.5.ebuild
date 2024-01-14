@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ale carla docs envs gym retro tests tfa tune vizdoom"
 DEPENDENCIES="dev-python/gym[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	~dev-python/h5py-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.2[${PYTHON_USEDEP}]
 	dev-python/msgpack-numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62.2[${PYTHON_USEDEP}]
 	ale? ( dev-python/ale-py[${PYTHON_USEDEP}] )
 	carla? ( dev-python/pygame[${PYTHON_USEDEP}] )
 	carla? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.0.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
 	envs? ( dev-python/ale-py[${PYTHON_USEDEP}] )
 	envs? ( dev-python/gym[${PYTHON_USEDEP}] )
 	envs? ( dev-python/box2d[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/gym[${PYTHON_USEDEP}]
 	gym? ( dev-python/gym[${PYTHON_USEDEP}] )
 	gym? ( dev-python/box2d[${PYTHON_USEDEP}] )
 	retro? ( dev-python/gym-retro[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
 	tfa? ( dev-python/tensorflow-addons[${PYTHON_USEDEP}] )
 	tune? ( dev-python/hpbandster[${PYTHON_USEDEP}] )
 	vizdoom? ( dev-python/vizdoom[${PYTHON_USEDEP}] )"

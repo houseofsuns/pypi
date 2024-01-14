@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="clarabel cvxopt daqp ecos highs open_source_solvers osqp piqp proxqp qpalm quadprog scs"
 DEPENDENCIES="dev-python/daqp[${PYTHON_USEDEP}]
 	dev-python/ecos[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15.4[${PYTHON_USEDEP}]
 	dev-python/osqp[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
 	dev-python/scs[${PYTHON_USEDEP}]
 	clarabel? ( dev-python/clarabel[${PYTHON_USEDEP}] )
-	cvxopt? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
+	cvxopt? ( >=dev-python/cvxopt-1.2.6[${PYTHON_USEDEP}] )
 	daqp? ( dev-python/daqp[${PYTHON_USEDEP}] )
 	ecos? ( dev-python/ecos[${PYTHON_USEDEP}] )
 	highs? ( dev-python/highspy[${PYTHON_USEDEP}] )

@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/wordnik-py3[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/tempora[${PYTHON_USEDEP}]
-	dev-python/jaraco-collections[${PYTHON_USEDEP}]
+	>=dev-python/jaraco-collections-3.4[${PYTHON_USEDEP}]
 	dev-python/jaraco-itertools[${PYTHON_USEDEP}]
 	dev-python/jaraco-context[${PYTHON_USEDEP}]
 	dev-python/jaraco-classes[${PYTHON_USEDEP}]
@@ -40,19 +40,19 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/inflect[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/jaraco-mongodb[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-3.6[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-packaging[${PYTHON_USEDEP}] )
-	docs? ( dev-python/rst-linker[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/rst-linker-1.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-lint[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-tidelift[${PYTHON_USEDEP}] )
-	irc? ( dev-python/irc[${PYTHON_USEDEP}] )
-	mongodb? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	irc? ( >=dev-python/irc-15.0[${PYTHON_USEDEP}] )
+	mongodb? ( >=dev-python/pymongo-3.0[${PYTHON_USEDEP}] )
 	slack? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-checkdocs[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-enabler[${PYTHON_USEDEP}] )
@@ -64,10 +64,10 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	testing? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
-	testing? ( dev-python/jaraco-test[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/jaraco-test-5.3[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
-	viewer? ( dev-python/cherrypy[${PYTHON_USEDEP}] )
+	viewer? ( >=dev-python/cherrypy-3.2.3[${PYTHON_USEDEP}] )
 	viewer? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

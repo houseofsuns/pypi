@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all stylecheck test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.29[${PYTHON_USEDEP}]
 	dev-python/fastrlock[${PYTHON_USEDEP}]
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( <dev-python/scipy-1.14[${PYTHON_USEDEP}] )
 	all? ( dev-python/Cython[${PYTHON_USEDEP}] )
 	all? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	stylecheck? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	stylecheck? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	stylecheck? ( dev-python/pbr[${PYTHON_USEDEP}] )
-	stylecheck? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	stylecheck? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	stylecheck? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
+	stylecheck? ( ~dev-python/autopep8-1.5.5[${PYTHON_USEDEP}] )
+	stylecheck? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	stylecheck? ( ~dev-python/pbr-5.5.1[${PYTHON_USEDEP}] )
+	stylecheck? ( ~dev-python/pycodestyle-2.6.0[${PYTHON_USEDEP}] )
+	stylecheck? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	stylecheck? ( ~dev-python/types-setuptools-57.4.14[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	test? ( <dev-python/hypothesis-6.55.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

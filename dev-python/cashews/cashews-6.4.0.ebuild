@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dill diskcache lint redis speedup tests"
 DEPENDENCIES="dill? ( dev-python/dill[${PYTHON_USEDEP}] )
-	diskcache? ( dev-python/diskcache[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	diskcache? ( >=dev-python/diskcache-5.0.0[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/mypy-1.5.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-redis[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	speedup? ( dev-python/bitarray[${PYTHON_USEDEP}] )
-	speedup? ( dev-python/xxhash[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.3.1[${PYTHON_USEDEP}] )
+	speedup? ( <dev-python/bitarray-3.0.0[${PYTHON_USEDEP}] )
+	speedup? ( <dev-python/xxhash-4.0.0[${PYTHON_USEDEP}] )
 	speedup? ( dev-python/hiredis[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-asyncio-0.23.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

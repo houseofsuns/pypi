@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/castellan[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]"
+	>=dev-python/cryptography-2.1[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.16.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-1.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

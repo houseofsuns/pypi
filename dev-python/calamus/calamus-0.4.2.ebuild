@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/marshmallow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pyld[${PYTHON_USEDEP}]
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
-	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]"
+	docs? ( <dev-python/sphinx-4.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-spelling-6.0.0[${PYTHON_USEDEP}] )
+	<dev-python/lazy-object-proxy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/rdflib-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

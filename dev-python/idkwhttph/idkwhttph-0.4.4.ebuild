@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/replit[${PYTHON_USEDEP}]
 	dev-python/getkey[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]"
+	~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
 	dev-python/cloudpathlib[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-argparse-0.2.5[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pydata-sphinx-theme-0.4.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.7.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/ipykernel-5.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/recommonmark-0.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

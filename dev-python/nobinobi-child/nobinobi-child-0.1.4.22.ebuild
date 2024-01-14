@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/nobinobi-staff[${PYTHON_USEDEP}]
 	dev-python/django-phonenumber-field[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
+	~dev-python/phonenumbers-8.13.23[${PYTHON_USEDEP}]
 	dev-python/django-select2[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap-modal-forms[${PYTHON_USEDEP}]
 	dev-python/django-widget-tweaks[${PYTHON_USEDEP}]

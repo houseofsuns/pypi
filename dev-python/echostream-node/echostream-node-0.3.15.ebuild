@@ -30,9 +30,9 @@ DEPENDENCIES="dev-python/aws-error-utils[${PYTHON_USEDEP}]
 	dev-python/echostream-botocore[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
 	dev-python/gql-appsync-cognito-authentication[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	dev-python/httpx-auth[${PYTHON_USEDEP}]
 	dev-python/pycognito[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]"
+	~dev-python/simplejson-3.19.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

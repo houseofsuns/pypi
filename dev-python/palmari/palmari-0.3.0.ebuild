@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/dask-2022.1.0[${PYTHON_USEDEP}]
 	dev-python/dask-image[${PYTHON_USEDEP}]
 	dev-python/imageio-ffmpeg[${PYTHON_USEDEP}]
 	dev-python/magicgui[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
 	dev-python/munkres[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
 	dev-python/napari-aicsimageio[${PYTHON_USEDEP}]

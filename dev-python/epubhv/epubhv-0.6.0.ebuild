@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="web"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/cssutils[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	~dev-python/cssutils-2.7.1[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
 	dev-python/opencc-python-reimplemented[${PYTHON_USEDEP}]
-	dev-python/soupsieve[${PYTHON_USEDEP}]
+	~dev-python/soupsieve-2.5[${PYTHON_USEDEP}]
 	dev-python/typed-argument-parser[${PYTHON_USEDEP}]
 	dev-python/jieba[${PYTHON_USEDEP}]
 	dev-python/pypinyin[${PYTHON_USEDEP}]

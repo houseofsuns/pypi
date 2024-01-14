@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/grpcio-tools-2.0[${PYTHON_USEDEP}]
+	<dev-python/googleapis-common-protos-2.0[${PYTHON_USEDEP}]
 	dev-python/mypy-protobuf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/asyncstdlib[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asyncstdlib-3.10.2[${PYTHON_USEDEP}]
+	>=dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.1[${PYTHON_USEDEP}]
+	>=dev-python/netifaces-0.11.0[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
 	testing? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/grpcio-1.28.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-2.1[${PYTHON_USEDEP}]
 	dev-python/pymorphy2[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev? ( dev-python/pyaudio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/websocket-client[${PYTHON_USEDEP}] )"
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/unidecode-2.0[${PYTHON_USEDEP}]
+	dev? ( <dev-python/pyaudio-1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/websocket-client-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

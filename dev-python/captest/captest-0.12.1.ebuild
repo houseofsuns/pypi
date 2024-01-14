@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all build docs optional test"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.5[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.8[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/colorcet[${PYTHON_USEDEP}]
 	dev-python/param[${PYTHON_USEDEP}]
 	all? ( dev-python/build[${PYTHON_USEDEP}] )
 	all? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/holoviews[${PYTHON_USEDEP}] )
-	all? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/nbsphinx-0.9.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	all? ( dev-python/panel[${PYTHON_USEDEP}] )
@@ -46,9 +46,9 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	all? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/twine[${PYTHON_USEDEP}] )
 	build? ( dev-python/holoviews[${PYTHON_USEDEP}] )
 	build? ( dev-python/panel[${PYTHON_USEDEP}] )
@@ -60,12 +60,12 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	docs? ( dev-python/panel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pvlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.9.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/holoviews[${PYTHON_USEDEP}] )
 	optional? ( dev-python/panel[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pvlib[${PYTHON_USEDEP}] )

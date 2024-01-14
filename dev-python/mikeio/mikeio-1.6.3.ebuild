@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev notebooks test"
 DEPENDENCIES="dev-python/mikecore[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
+	>dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>dev-python/scipy-1.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/mikecore[${PYTHON_USEDEP}]
 	notebooks? ( dev-python/rasterio[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/xarray[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	test? ( >dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyproj[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

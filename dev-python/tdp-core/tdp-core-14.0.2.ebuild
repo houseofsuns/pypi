@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pymongo-3.11.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.14.1[${PYTHON_USEDEP}]
 	dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/flask-smorest[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
 	dev-python/flask-swagger-ui[${PYTHON_USEDEP}]
 	dev-python/yamlreader[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/python-memcached[${PYTHON_USEDEP}]
-	dev-python/flask-login[${PYTHON_USEDEP}]
-	dev-python/cachelib[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
+	~dev-python/alembic-1.4.3[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.5[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/python-memcached-1.59[${PYTHON_USEDEP}]
+	~dev-python/flask-login-0.5.0[${PYTHON_USEDEP}]
+	~dev-python/cachelib-0.1.1[${PYTHON_USEDEP}]
+	~dev-python/docutils-0.17.1[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	dev-python/phovea-server[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

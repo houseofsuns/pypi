@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all pro storage torch web"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/ipdb[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/ipdb-0.14.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/gpustat[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/timeout-decorator[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/filelock-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/timeout-decorator-0.6.0[${PYTHON_USEDEP}]
 	torch? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	all? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	torch? ( dev-python/lightning[${PYTHON_USEDEP}] )
@@ -46,30 +46,30 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torchinfo[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchinfo[${PYTHON_USEDEP}] )
-	web? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	all? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	web? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
-	storage? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	storage? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	all? ( dev-python/msgpack[${PYTHON_USEDEP}] )
+	web? ( <dev-python/tornado-7.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tornado-7.0[${PYTHON_USEDEP}] )
+	web? ( <dev-python/pyzmq-23.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyzmq-23.0.0[${PYTHON_USEDEP}] )
+	storage? ( <dev-python/h5py-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/h5py-4.0.0[${PYTHON_USEDEP}] )
+	storage? ( <dev-python/msgpack-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/msgpack-2.0.0[${PYTHON_USEDEP}] )
 	storage? ( dev-python/msgpack-numpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/msgpack-numpy[${PYTHON_USEDEP}] )
-	storage? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	storage? ( dev-python/lmdb[${PYTHON_USEDEP}] )
-	all? ( dev-python/lmdb[${PYTHON_USEDEP}] )
-	storage? ( dev-python/python-memcached[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-memcached[${PYTHON_USEDEP}] )
-	pro? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
-	all? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
-	pro? ( dev-python/ubelt[${PYTHON_USEDEP}] )
-	all? ( dev-python/ubelt[${PYTHON_USEDEP}] )
-	pro? ( dev-python/parse[${PYTHON_USEDEP}] )
-	all? ( dev-python/parse[${PYTHON_USEDEP}] )
-	pro? ( dev-python/pudb[${PYTHON_USEDEP}] )
-	all? ( dev-python/pudb[${PYTHON_USEDEP}] )
+	storage? ( <dev-python/pyarrow-7.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyarrow-7.0.0[${PYTHON_USEDEP}] )
+	storage? ( <dev-python/lmdb-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/lmdb-2.0.0[${PYTHON_USEDEP}] )
+	storage? ( <dev-python/python-memcached-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/python-memcached-2.0[${PYTHON_USEDEP}] )
+	pro? ( <dev-python/line-profiler-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/line-profiler-4.0.0[${PYTHON_USEDEP}] )
+	pro? ( <dev-python/ubelt-0.11.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/ubelt-0.11.0[${PYTHON_USEDEP}] )
+	pro? ( <dev-python/parse-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/parse-2.0.0[${PYTHON_USEDEP}] )
+	pro? ( <dev-python/pudb-2023.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pudb-2023.0[${PYTHON_USEDEP}] )
 	dev-python/stackprinter[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

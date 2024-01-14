@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/parsedatetime[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>dev-python/pyyaml-3.11[${PYTHON_USEDEP}]
 	bandcamp? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	bandcamp? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	bandcamp? ( dev-python/requests[${PYTHON_USEDEP}] )
-	musicbrainz? ( dev-python/musicbrainzngs[${PYTHON_USEDEP}] )
+	musicbrainz? ( >=dev-python/musicbrainzngs-0.7[${PYTHON_USEDEP}] )
 	select? ( dev-python/simpleai[${PYTHON_USEDEP}] )
 	spotify? ( dev-python/cachecontrol[${PYTHON_USEDEP}] )
 	spotify? ( dev-python/lockfile[${PYTHON_USEDEP}] )

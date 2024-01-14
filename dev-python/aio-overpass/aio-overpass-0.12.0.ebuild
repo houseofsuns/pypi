@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="joblib networkx shapely"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	joblib? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	networkx? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	shapely? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	shapely? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	shapely? ( dev-python/shapely[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/aiohttp-3.10[${PYTHON_USEDEP}]
+	joblib? ( <dev-python/joblib-1.4[${PYTHON_USEDEP}] )
+	networkx? ( <dev-python/networkx-4.0[${PYTHON_USEDEP}] )
+	shapely? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
+	shapely? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
+	shapely? ( <dev-python/shapely-2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

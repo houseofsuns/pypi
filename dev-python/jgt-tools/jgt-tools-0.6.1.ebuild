@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build-docs env-setup run-tests"
-DEPENDENCIES="build-docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	build-docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	build-docs? ( dev-python/ghp-import[${PYTHON_USEDEP}] )
-	run-tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES="build-docs? ( >=dev-python/sphinx-3.1.2[${PYTHON_USEDEP}] )
+	build-docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	build-docs? ( >=dev-python/ghp-import-0.5.5[${PYTHON_USEDEP}] )
+	run-tests? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	env-setup? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev-python/tomli[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

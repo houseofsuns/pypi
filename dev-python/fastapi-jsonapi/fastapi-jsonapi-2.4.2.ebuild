@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs sqlalchemy tests tortoise-orm"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.17.6[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.18.2[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sqlalchemy-1.4.39[${PYTHON_USEDEP}] )
 	all? ( dev-python/tortoise-orm[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	sqlalchemy? ( >=dev-python/sqlalchemy-1.4.39[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tortoise-orm? ( dev-python/tortoise-orm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

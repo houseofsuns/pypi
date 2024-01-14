@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/django-3.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/tox-4.11[${PYTHON_USEDEP}] )
 	test? ( dev-python/bump-my-version[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

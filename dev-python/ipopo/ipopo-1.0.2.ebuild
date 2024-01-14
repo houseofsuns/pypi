@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mqtt redis rsa xmpp zeroconf zookeeper"
 DEPENDENCIES="dev-python/jsonrpclib-pelix[${PYTHON_USEDEP}]
-	mqtt? ( dev-python/paho-mqtt[${PYTHON_USEDEP}] )
+	mqtt? ( >=dev-python/paho-mqtt-1.3[${PYTHON_USEDEP}] )
 	rsa? ( dev-python/python-etcd[${PYTHON_USEDEP}] )
 	rsa? ( dev-python/osgiservicebridge[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-2.10[${PYTHON_USEDEP}] )
 	xmpp? ( dev-python/sleekxmpp[${PYTHON_USEDEP}] )
 	zookeeper? ( dev-python/kazoo[${PYTHON_USEDEP}] )
-	zeroconf? ( dev-python/zeroconf[${PYTHON_USEDEP}] )"
+	zeroconf? ( ~dev-python/zeroconf-0.19[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

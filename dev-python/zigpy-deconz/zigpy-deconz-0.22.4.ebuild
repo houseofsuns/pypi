@@ -27,10 +27,10 @@ IUSE="testing"
 DEPENDENCIES="dev-python/voluptuous[${PYTHON_USEDEP}]
 	dev-python/zigpy[${PYTHON_USEDEP}]
 	dev-python/async-timeout[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-asyncio-0.19.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-mock-3.8.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

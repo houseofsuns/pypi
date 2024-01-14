@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/pyenchant[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyenchant-4.0[${PYTHON_USEDEP}]
 	dev-python/PyGObject[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/myst-parser-0.19.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lint test"
-DEPENDENCIES="dev-python/tox[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tox-4.0[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-6.4[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/flake8-3.8[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

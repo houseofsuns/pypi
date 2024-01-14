@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pyi"
 DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/audible[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]

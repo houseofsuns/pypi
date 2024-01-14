@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/napari[${PYTHON_USEDEP}]
 	dev-python/brainreg[${PYTHON_USEDEP}]
 	dev-python/brainreg-segment[${PYTHON_USEDEP}]
 	dev-python/brainglobe-utils[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
+	>dev-python/pooch-1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/napari[${PYTHON_USEDEP}] )

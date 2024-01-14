@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.15.1[${PYTHON_USEDEP}]
 	dev-python/pexpect[${PYTHON_USEDEP}]
 	dev-python/werkzeug[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]

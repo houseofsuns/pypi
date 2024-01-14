@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/detect-secrets[${PYTHON_USEDEP}]
 	dev-python/presidio-analyzer[${PYTHON_USEDEP}]
 	dev-python/presidio-anonymizer[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	~dev-python/regex-2023.10.3[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
@@ -41,18 +41,18 @@ DEPENDENCIES="dev-python/detect-secrets[${PYTHON_USEDEP}]
 	onnxruntime? ( dev-python/optimum[${PYTHON_USEDEP}] )
 	onnxruntime-gpu? ( dev-python/optimum[${PYTHON_USEDEP}] )
 	tests? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-23.12.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mkdocs-autorefs-0.5.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mkdocs-git-revision-date-localized-plugin-1.2.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mkdocs-material-9.5.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mkdocs-material-extensions-1.3.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mkdocs-swagger-ui-tag[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mkdocstrings-python-1.7.5[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

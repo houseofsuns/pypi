@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="spark"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.7.0[${PYTHON_USEDEP}]
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

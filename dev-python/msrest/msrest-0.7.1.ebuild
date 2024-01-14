@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="async"
 DEPENDENCIES="dev-python/azure-core[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]
+	>=dev-python/isodate-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-0.5.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.16[${PYTHON_USEDEP}]
 	async? ( dev-python/aiodns[${PYTHON_USEDEP}] )
-	async? ( dev-python/aiohttp[${PYTHON_USEDEP}] )"
+	async? ( >=dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

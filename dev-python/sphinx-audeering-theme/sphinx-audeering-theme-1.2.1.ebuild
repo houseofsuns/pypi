@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/sphinx-5.1.0[${PYTHON_USEDEP}]
+	<dev-python/docutils-0.17[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/watchdog-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.0[${PYTHON_USEDEP}]
 	dev-python/mpremote[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

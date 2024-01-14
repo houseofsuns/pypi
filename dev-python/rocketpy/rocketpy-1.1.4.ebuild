@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all env_analysis"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.13[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/simplekml[${PYTHON_USEDEP}]
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpy-1.13[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-1.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytz[${PYTHON_USEDEP}] )
@@ -41,12 +41,12 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/timezonefinder[${PYTHON_USEDEP}] )
 	all? ( dev-python/windrose[${PYTHON_USEDEP}] )
 	all? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipywidgets-7.6.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/jsonpickle[${PYTHON_USEDEP}] )
 	env_analysis? ( dev-python/timezonefinder[${PYTHON_USEDEP}] )
 	env_analysis? ( dev-python/windrose[${PYTHON_USEDEP}] )
 	env_analysis? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	env_analysis? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	env_analysis? ( >=dev-python/ipywidgets-7.6.3[${PYTHON_USEDEP}] )
 	env_analysis? ( dev-python/jsonpickle[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

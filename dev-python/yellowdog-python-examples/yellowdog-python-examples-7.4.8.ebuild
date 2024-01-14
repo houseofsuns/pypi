@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="jsonnet"
 DEPENDENCIES="dev-python/yellowdog-sdk[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/PyPAC[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.5.2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/google-cloud-compute[${PYTHON_USEDEP}]

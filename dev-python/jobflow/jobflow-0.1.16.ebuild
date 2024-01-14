@@ -29,32 +29,32 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/monty[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0.1[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ipython-8.19.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.9.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	fireworks? ( dev-python/FireWorks[${PYTHON_USEDEP}] )
 	strict? ( dev-python/FireWorks[${PYTHON_USEDEP}] )
 	strict? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	strict? ( dev-python/maggma[${PYTHON_USEDEP}] )
-	strict? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	strict? ( ~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}] )
 	strict? ( dev-python/monty[${PYTHON_USEDEP}] )
-	strict? ( dev-python/moto[${PYTHON_USEDEP}] )
-	strict? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	strict? ( ~dev-python/moto-4.2.12[${PYTHON_USEDEP}] )
+	strict? ( ~dev-python/networkx-3.2.1[${PYTHON_USEDEP}] )
 	strict? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )
-	strict? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	strict? ( ~dev-python/pydantic-2.5.3[${PYTHON_USEDEP}] )
 	strict? ( dev-python/pydash[${PYTHON_USEDEP}] )
-	strict? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	strict? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	tests? ( dev-python/moto[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	strict? ( ~dev-python/pydot-2.0.0[${PYTHON_USEDEP}] )
+	strict? ( ~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/moto-4.2.12[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	vis? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	vis? ( dev-python/pydot[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="crypto dev doc test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev-python/django-ninja-extra[${PYTHON_USEDEP}]
-	crypto? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	crypto? ( >=dev-python/cryptography-3.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	doc? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
@@ -43,8 +43,8 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-jose[${PYTHON_USEDEP}] )
-	test? ( dev-python/click[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/python-jose-3.3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/click-8.1.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

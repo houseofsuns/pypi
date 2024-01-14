@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all testing"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]
 	dev-python/optax[${PYTHON_USEDEP}]
 	dev-python/orbax-checkpoint[${PYTHON_USEDEP}]
 	dev-python/tensorstore[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/rich-11.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	testing? ( dev-python/clu[${PYTHON_USEDEP}] )
 	testing? ( dev-python/einops[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-custom-exit-code[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-xdist-1.34.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytype[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )
@@ -55,6 +55,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	testing? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	testing? ( dev-python/torch[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nbstripout[${PYTHON_USEDEP}] )
-	testing? ( dev-python/black[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

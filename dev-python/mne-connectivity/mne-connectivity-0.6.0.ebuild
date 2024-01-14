@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all build doc full gui style test"
 DEPENDENCIES="dev-python/netCDF4[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2023.11.0[${PYTHON_USEDEP}]
 	dev-python/mne[${PYTHON_USEDEP}]
 	all? ( dev-python/mne-connectivity[${PYTHON_USEDEP}] )
 	all? ( dev-python/mne-connectivity[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/netCDF4[${PYTHON_USEDEP}]
 	doc? ( dev-python/nilearn[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pooch[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pydata-sphinx-theme-0.14.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )

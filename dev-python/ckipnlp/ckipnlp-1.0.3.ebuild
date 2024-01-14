@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="classic tagger tagger-gpu"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	dev-python/treelib[${PYTHON_USEDEP}]
 	classic? ( dev-python/ckip-classic[${PYTHON_USEDEP}] )
 	tagger? ( dev-python/ckiptagger[${PYTHON_USEDEP}] )

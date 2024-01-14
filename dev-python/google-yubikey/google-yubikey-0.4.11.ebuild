@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
 	dev-python/python-hosts[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]
 	dev-python/uwsgi[${PYTHON_USEDEP}]
 	dev-python/yubikey-manager[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

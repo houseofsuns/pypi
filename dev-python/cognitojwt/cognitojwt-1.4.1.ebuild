@@ -30,10 +30,10 @@ DEPENDENCIES="dev-python/python-jose[${PYTHON_USEDEP}]
 	async? ( dev-python/async-lru[${PYTHON_USEDEP}] )
 	sync? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/async-lru[${PYTHON_USEDEP}] )
-	test? ( dev-python/attrs[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/attrs-19.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-5.4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

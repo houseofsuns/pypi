@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="optionals"
-DEPENDENCIES="optionals? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+DEPENDENCIES="optionals? ( <dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}] )
 	optionals? ( dev-python/napalm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

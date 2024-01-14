@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp asyncwebsockets cli cloudevents graphql optimized quart quic reactivex rx websockets"
-DEPENDENCIES="aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+DEPENDENCIES="aiohttp? ( >=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}] )
 	asyncwebsockets? ( dev-python/asyncwebsockets[${PYTHON_USEDEP}] )
 	cli? ( dev-python/asyncclick[${PYTHON_USEDEP}] )
 	cloudevents? ( dev-python/cloudevents[${PYTHON_USEDEP}] )
-	cloudevents? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	cloudevents? ( >=dev-python/pydantic-1.10.0[${PYTHON_USEDEP}] )
 	graphql? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
 	graphql? ( dev-python/gql[${PYTHON_USEDEP}] )
 	optimized? ( dev-python/cbitstruct[${PYTHON_USEDEP}] )
@@ -36,6 +36,6 @@ DEPENDENCIES="aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	quic? ( dev-python/aioquic[${PYTHON_USEDEP}] )
 	reactivex? ( dev-python/reactivex[${PYTHON_USEDEP}] )
 	rx? ( dev-python/Rx[${PYTHON_USEDEP}] )
-	websockets? ( dev-python/websockets[${PYTHON_USEDEP}] )"
+	websockets? ( >=dev-python/websockets-11.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

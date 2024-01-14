@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="color"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	color? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
-	dev-python/python-gnupg[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/click-2.0[${PYTHON_USEDEP}]
+	color? ( >=dev-python/colorama-0.3[${PYTHON_USEDEP}] )
+	>=dev-python/GitPython-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pyperclip-1.5[${PYTHON_USEDEP}]
+	>=dev-python/python-gnupg-0.3.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

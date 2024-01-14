@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/rich-13.4.2[${PYTHON_USEDEP}]
 	dev-python/mcstatus[${PYTHON_USEDEP}]
 	dev-python/IP2Location[${PYTHON_USEDEP}]
 	dev-python/pyScannerWrapper[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

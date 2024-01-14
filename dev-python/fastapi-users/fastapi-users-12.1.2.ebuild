@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="beanie oauth redis sqlalchemy"
-DEPENDENCIES="dev-python/email-validator[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/email-validator-2.1[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/makefun[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	<dev-python/makefun-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/passlib-1.7.4[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
+	~dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	beanie? ( dev-python/fastapi-users-db-beanie[${PYTHON_USEDEP}] )
 	oauth? ( dev-python/httpx-oauth[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/fastapi-users-db-sqlalchemy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/ckanapi[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	>=dev-python/deepdiff-6.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.3.2[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-1.0[${PYTHON_USEDEP}]
 	dev-python/sansjson[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

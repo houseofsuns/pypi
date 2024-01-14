@@ -27,32 +27,32 @@ IUSE="doc tests"
 DEPENDENCIES="dev-python/ansys-mapdl-core[${PYTHON_USEDEP}]
 	dev-python/ansys-tools-path[${PYTHON_USEDEP}]
 	dev-python/pyansys-tools-versioning[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-mapdl-core[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-mapdl-reader[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter_sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/jupyterlab-4.0.4[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/numpydoc-1.5.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pytest-sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-autodoc-typehints-1.24.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-notfound-page-0.8.3[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-gallery-0.13.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/trame[${PYTHON_USEDEP}] )
 	doc? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ansys-mapdl-core[${PYTHON_USEDEP}] )
-	tests? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/scipy-1.11.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyansys-tools-report[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-rerunfailures-12.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	tests? ( dev-python/vtk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/servicex[${PYTHON_USEDEP}]
 	dev-python/tcut-to-qastle[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
+	>=dev-python/nest-asyncio-1.5.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/backoff-1.11.1[${PYTHON_USEDEP}]
 	dev-python/func-adl-servicex[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

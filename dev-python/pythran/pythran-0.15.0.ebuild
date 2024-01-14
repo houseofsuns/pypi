@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/ply[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ply-3.4[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/gast[${PYTHON_USEDEP}]
+	~dev-python/gast-0.5.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/beniget[${PYTHON_USEDEP}]
+	~dev-python/beniget-0.4.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/scipy[${PYTHON_USEDEP}] )

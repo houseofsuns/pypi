@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all tests"
 DEPENDENCIES="dev-python/Unidecode[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.0[${PYTHON_USEDEP}]
 	dev-python/nameparser[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/flake8-future-import[${PYTHON_USEDEP}] )
-	all? ( dev-python/mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/unicode-string-literal[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-future-import[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

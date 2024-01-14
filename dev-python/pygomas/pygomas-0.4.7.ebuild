@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/spade[${PYTHON_USEDEP}]
 	dev-python/spade-bdi[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.2.5[${PYTHON_USEDEP}]
 	dev-python/pqdict[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]"
+	~dev-python/click-7.0[${PYTHON_USEDEP}]
+	~dev-python/pygame-1.9.6[${PYTHON_USEDEP}]
+	~dev-python/msgpack-0.6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev video"
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/certifi-14.5.14[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
 	dev-python/lightly-utils[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.5.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.44[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.15.1[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.3[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	all? ( dev-python/responses[${PYTHON_USEDEP}] )
-	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
@@ -62,9 +62,9 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
 	all? ( dev-python/lightning-bolts[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/isort-5.11.5[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	all? ( dev-python/av[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
@@ -75,7 +75,7 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
@@ -89,9 +89,9 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lightning-bolts[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.11.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	video? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	video? ( dev-python/av[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/apluggy[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
 	dev-python/nextline-rdb[${PYTHON_USEDEP}]
 	dev-python/nextline[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.6[${PYTHON_USEDEP}]
+	>=dev-python/starlette-0.31[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	>=dev-python/websockets-12.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/logging-tree[${PYTHON_USEDEP}] )
@@ -40,10 +40,10 @@ DEPENDENCIES="dev-python/apluggy[${PYTHON_USEDEP}]
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	tests? ( dev-python/async-asgi-testclient[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-asyncio-0.21[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-timeout-2.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/syrupy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

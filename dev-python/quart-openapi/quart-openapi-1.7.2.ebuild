@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc"
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-1.0.0[${PYTHON_USEDEP}]
 	dev-python/quart[${PYTHON_USEDEP}]
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/alabaster[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/sphinx-autodoc-typehints-1.3.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/alabaster-0.7.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

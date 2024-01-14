@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/django-ipware[${PYTHON_USEDEP}]
-	dev-python/ansi2html[${PYTHON_USEDEP}]
+	>=dev-python/ansi2html-1.6.0[${PYTHON_USEDEP}]
 	dev-python/skip-django-chamber[${PYTHON_USEDEP}]
 	dev-python/skip-django-choice-enumfields[${PYTHON_USEDEP}]
 	dev-python/skip-django-generic-m2m-field[${PYTHON_USEDEP}]
 	dev-python/skip-django-celery-extensions[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]"
+	>=dev-python/isodate-0.6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

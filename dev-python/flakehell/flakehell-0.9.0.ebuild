@@ -28,7 +28,7 @@ DEPENDENCIES="docs? ( dev-python/alabaster[${PYTHON_USEDEP}] )
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev? ( dev-python/dlint[${PYTHON_USEDEP}] )
 	dev-python/entrypoints[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
+	>=dev-python/flake8-3.8.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8_2020[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-aaa[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-absolute-import[${PYTHON_USEDEP}] )

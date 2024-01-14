@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/avro[${PYTHON_USEDEP}]
 	dev-python/arcane-firebase[${PYTHON_USEDEP}]
 	dev-python/google-cloud-pubsub[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-3.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

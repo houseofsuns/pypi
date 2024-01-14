@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/decopatch[${PYTHON_USEDEP}]
-	dev-python/makefun[${PYTHON_USEDEP}]
+	>=dev-python/makefun-1.15.1[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

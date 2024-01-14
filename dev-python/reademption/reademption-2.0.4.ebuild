@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/sphinx-argparse[${PYTHON_USEDEP}]"
+	>=dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-argparse-0.2.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aml azure-servicebus azure-storage-blob boto3 cp ibm-boto3 kafka kafka-kerberos livy minio mssql mysql postgres pyspark rabbitmq sm snowflake"
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/environs[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<=dev-python/sqlalchemy-1.3.22[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	aml? ( dev-python/azureml-sdk[${PYTHON_USEDEP}] )
 	azure-servicebus? ( dev-python/azure-servicebus[${PYTHON_USEDEP}] )

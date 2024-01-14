@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/redis-2.10.6[${PYTHON_USEDEP}]
 	dev-python/tomorrow3[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]
+	>=dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
 	dev-python/py-log[${PYTHON_USEDEP}]
 	dev-python/persist-queue[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]

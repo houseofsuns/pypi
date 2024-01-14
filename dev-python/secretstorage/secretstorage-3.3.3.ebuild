@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/jeepney[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/cryptography-2.0[${PYTHON_USEDEP}]
+	>=dev-python/jeepney-0.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

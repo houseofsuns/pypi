@@ -26,28 +26,28 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev django docs flask-sqlalchemy flask-unchained sqlalchemy"
 DEPENDENCIES="dev-python/faker[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.3[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev? ( dev-python/django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flask[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/django-2.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flask-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	django? ( dev-python/django[${PYTHON_USEDEP}] )
-	docs? ( dev-python/django[${PYTHON_USEDEP}] )
-	docs? ( dev-python/flask[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sqlalchemy-1.0[${PYTHON_USEDEP}] )
+	django? ( >=dev-python/django-2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/django-2.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/flask-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	flask-sqlalchemy? ( dev-python/click[${PYTHON_USEDEP}] )
-	flask-sqlalchemy? ( dev-python/flask[${PYTHON_USEDEP}] )
-	flask-sqlalchemy? ( dev-python/flask-sqlalchemy[${PYTHON_USEDEP}] )
-	flask-unchained? ( dev-python/flask-migrate[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sqlalchemy-1.0[${PYTHON_USEDEP}] )
+	flask-sqlalchemy? ( >=dev-python/click-6.7[${PYTHON_USEDEP}] )
+	flask-sqlalchemy? ( >=dev-python/flask-1.0[${PYTHON_USEDEP}] )
+	flask-sqlalchemy? ( >=dev-python/flask-sqlalchemy-2.2[${PYTHON_USEDEP}] )
+	flask-unchained? ( >=dev-python/flask-migrate-2.2.1[${PYTHON_USEDEP}] )
 	flask-unchained? ( dev-python/flask-unchained[${PYTHON_USEDEP}] )
 	flask-unchained? ( dev-python/flask-sqlalchemy-unchained[${PYTHON_USEDEP}] )
 	flask-unchained? ( dev-python/sqlalchemy-unchained[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	sqlalchemy? ( >=dev-python/sqlalchemy-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="s3 test"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
 	dev-python/multipledispatch[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	s3? ( dev-python/botocore[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.17.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-toml[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )"

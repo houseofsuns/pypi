@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aws detectron2 dev e2e fastai kedro lightgbm optuna prophet pytorch-lightning sacred sklearn tensorflow-keras transformers xgboost"
 DEPENDENCIES="dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-2.0.8[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev? ( dev-python/altair[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bokeh[${PYTHON_USEDEP}] )
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.16.0[${PYTHON_USEDEP}]
 	dev-python/bravado[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	dev-python/future[${PYTHON_USEDEP}]
+	>=dev-python/future-0.17.1[${PYTHON_USEDEP}]
 	kedro? ( dev-python/kedro-neptune[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	sklearn? ( dev-python/neptune-sklearn[${PYTHON_USEDEP}] )
 	tensorflow-keras? ( dev-python/neptune-tensorflow-keras[${PYTHON_USEDEP}] )
 	xgboost? ( dev-python/neptune-xgboost[${PYTHON_USEDEP}] )
-	dev-python/oauthlib[${PYTHON_USEDEP}]
+	>=dev-python/oauthlib-2.1.0[${PYTHON_USEDEP}]
 	e2e? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
@@ -64,11 +64,11 @@ DEPENDENCIES="dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	pytorch-lightning? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	e2e? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-1.0.0[${PYTHON_USEDEP}]
 	e2e? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/swagger-spec-validator[${PYTHON_USEDEP}]
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
+	>=dev-python/swagger-spec-validator-2.7.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
 	e2e? ( dev-python/torchvision[${PYTHON_USEDEP}] )
@@ -76,6 +76,6 @@ DEPENDENCIES="dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	e2e? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev? ( dev-python/vega_datasets[${PYTHON_USEDEP}] )
-	dev-python/websocket-client[${PYTHON_USEDEP}]"
+	>=dev-python/websocket-client-0.35.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

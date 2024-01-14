@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-7.0[${PYTHON_USEDEP}]
 	dev-python/port-for[${PYTHON_USEDEP}]
 	dev-python/mirakuru[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]"
+	>=dev-python/elasticsearch-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

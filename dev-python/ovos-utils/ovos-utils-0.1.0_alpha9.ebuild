@@ -28,16 +28,16 @@ DEPENDENCIES="dev-python/combo-lock[${PYTHON_USEDEP}]
 	dev-python/json-database[${PYTHON_USEDEP}]
 	dev-python/kthread[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
+	~dev-python/pexpect-4.6[${PYTHON_USEDEP}]
 	dev-python/pyee[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/rich-13.7[${PYTHON_USEDEP}]
 	dev-python/watchdog[${PYTHON_USEDEP}]
 	extras? ( dev-python/ovos-bus-client[${PYTHON_USEDEP}] )
 	extras? ( dev-python/ovos-config[${PYTHON_USEDEP}] )
 	extras? ( dev-python/ovos-workshop[${PYTHON_USEDEP}] )
 	extras? ( dev-python/ovos-plugin-manager[${PYTHON_USEDEP}] )
-	extras? ( dev-python/rapidfuzz[${PYTHON_USEDEP}] )"
+	extras? ( ~dev-python/rapidfuzz-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

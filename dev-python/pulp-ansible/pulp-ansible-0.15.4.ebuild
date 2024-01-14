@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/async-lru[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/async-lru-1.1[${PYTHON_USEDEP}]
 	dev-python/galaxy-importer[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/GitPython-3.2[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.18[${PYTHON_USEDEP}]
 	dev-python/pulpcore[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
+	<dev-python/semantic-version-2.11[${PYTHON_USEDEP}]
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/dynaconf[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )

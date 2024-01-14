@@ -26,21 +26,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/android_backup[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+	<dev-python/appdirs-2.0[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/construct[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
+	<dev-python/construct-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/croniter-1.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-35.0[${PYTHON_USEDEP}]
+	<dev-python/defusedxml-1.0[${PYTHON_USEDEP}]
 	dev-python/micloud[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]
+	<dev-python/netifaces-1.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]"
+	docs? ( <dev-python/sphinxcontrib-apidoc-1.0[${PYTHON_USEDEP}] )
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	<dev-python/zeroconf-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

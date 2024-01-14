@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bidict[${PYTHON_USEDEP}]
-	dev-python/blosc[${PYTHON_USEDEP}]
+	>=dev-python/blosc-1.11.1[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/gym[${PYTHON_USEDEP}]
 	dev-python/holoviews[${PYTHON_USEDEP}]
 	dev-python/hvplot[${PYTHON_USEDEP}]
 	dev-python/moviepy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]"
+	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2022.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

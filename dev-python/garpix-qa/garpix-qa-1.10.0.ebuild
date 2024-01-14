@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/flake8-polyfill[${PYTHON_USEDEP}]
-	dev-python/radon[${PYTHON_USEDEP}]
-	dev-python/bandit[${PYTHON_USEDEP}]"
+	>=dev-python/flake8-3.8.4[${PYTHON_USEDEP}]
+	>=dev-python/flake8-polyfill-1.0.2[${PYTHON_USEDEP}]
+	>=dev-python/radon-4.3.2[${PYTHON_USEDEP}]
+	>=dev-python/bandit-1.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

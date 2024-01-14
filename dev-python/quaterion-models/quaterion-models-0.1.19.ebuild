@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="fasttext"
 DEPENDENCIES="fasttext? ( dev-python/gensim[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

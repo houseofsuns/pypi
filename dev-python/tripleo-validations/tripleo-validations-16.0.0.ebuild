@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/keystoneauth1[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/keystoneauth1-3.16.0[${PYTHON_USEDEP}]
 	dev-python/os-net-config[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/python-glanceclient[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.40.2[${PYTHON_USEDEP}]
+	>=dev-python/pbr-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/python-glanceclient-2.9.1[${PYTHON_USEDEP}]
 	dev-python/python-heatclient[${PYTHON_USEDEP}]
 	dev-python/python-ironic-inspector-client[${PYTHON_USEDEP}]
-	dev-python/python-ironicclient[${PYTHON_USEDEP}]
-	dev-python/python-novaclient[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/python-ironicclient-2.7.0[${PYTHON_USEDEP}]
+	>=dev-python/python-novaclient-15.1.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-50.3.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	dev-python/tripleo-common[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

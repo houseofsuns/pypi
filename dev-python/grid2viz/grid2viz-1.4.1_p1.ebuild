@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="expertsystem jupyter-dash jupyter-server-proxy nbgitpuller"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/dash-bootstrap-components[${PYTHON_USEDEP}]
 	dev-python/dash-daq[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
 	dev-python/Grid2Op[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
+	<dev-python/imageio-3.0.0[${PYTHON_USEDEP}]
 	jupyter-dash? ( dev-python/jupyter-dash[${PYTHON_USEDEP}] )
 	dev-python/pathos[${PYTHON_USEDEP}]
 	dev-python/pandapower[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
 	nbgitpuller? ( dev-python/nbgitpuller[${PYTHON_USEDEP}] )
-	jupyter-server-proxy? ( dev-python/jupyter-server-proxy[${PYTHON_USEDEP}] )
+	jupyter-server-proxy? ( <dev-python/jupyter-server-proxy-2.0.0[${PYTHON_USEDEP}] )
 	expertsystem? ( dev-python/ExpertOp4grid[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

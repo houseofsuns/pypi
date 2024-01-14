@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gimmik[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/mako[${PYTHON_USEDEP}]
-	dev-python/mpi4py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/pytools[${PYTHON_USEDEP}]"
+	>=dev-python/h5py-2.10[${PYTHON_USEDEP}]
+	>=dev-python/mako-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/mpi4py-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pytools-2016.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

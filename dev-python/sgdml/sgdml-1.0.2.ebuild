@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ase"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	ase? ( dev-python/ase[${PYTHON_USEDEP}] )"

@@ -30,22 +30,22 @@ DEPENDENCIES="dev-python/adjusttext[${PYTHON_USEDEP}]
 	dev-python/awkward[${PYTHON_USEDEP}]
 	dev-python/igraph[${PYTHON_USEDEP}]
 	dev-python/mudata[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5[${PYTHON_USEDEP}]
 	dev-python/parasail[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
+	>=dev-python/pooch-1.7.0[${PYTHON_USEDEP}]
 	dev-python/python-levenshtein[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/squarify[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.63[${PYTHON_USEDEP}]
 	dandelion? ( dev-python/sc-dandelion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	diversity? ( dev-python/scikit-bio[${PYTHON_USEDEP}] )
-	doc? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/docutils-0.8[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
@@ -59,8 +59,8 @@ DEPENDENCIES="dev-python/adjusttext[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinxcontrib-bibtex-1.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	doc? ( dev-python/zarr[${PYTHON_USEDEP}] )
 	rpack? ( dev-python/rectangle-packer[${PYTHON_USEDEP}] )

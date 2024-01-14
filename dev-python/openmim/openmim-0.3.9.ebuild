@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/model-index[${PYTHON_USEDEP}]
 	dev-python/opendatalab[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+	>=dev-python/pip-19.3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
@@ -38,14 +38,14 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	all? ( dev-python/model-index[${PYTHON_USEDEP}] )
 	all? ( dev-python/opendatalab[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/pip[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pip-19.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/rich[${PYTHON_USEDEP}] )
 	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/docutils-0.16.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytorch-sphinx-theme[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-4.0.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )

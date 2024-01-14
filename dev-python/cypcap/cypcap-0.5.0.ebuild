@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/cython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( >=dev-python/cython-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dpkt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/netifaces[${PYTHON_USEDEP}] )"

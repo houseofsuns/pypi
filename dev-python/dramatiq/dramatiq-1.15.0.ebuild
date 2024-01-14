@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev gevent memcached rabbitmq redis watch"
-DEPENDENCIES="dev-python/prometheus-client[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/prometheus-client-0.2[${PYTHON_USEDEP}]
 	all? ( dev-python/watchdog[${PYTHON_USEDEP}] )
 	all? ( dev-python/watchdog-gevent[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylibmc[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pylibmc-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/gevent[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/pika[${PYTHON_USEDEP}] )
+	all? ( <dev-python/redis-6.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pika-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
 	dev? ( dev-python/watchdog-gevent[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylibmc[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylibmc-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gevent[${PYTHON_USEDEP}] )
-	dev? ( dev-python/redis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pika[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/redis-6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pika-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/alabaster[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
@@ -53,9 +53,9 @@ DEPENDENCIES="dev-python/prometheus-client[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	gevent? ( dev-python/gevent[${PYTHON_USEDEP}] )
-	memcached? ( dev-python/pylibmc[${PYTHON_USEDEP}] )
-	rabbitmq? ( dev-python/pika[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	memcached? ( <dev-python/pylibmc-2.0[${PYTHON_USEDEP}] )
+	rabbitmq? ( <dev-python/pika-2.0[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-6.0[${PYTHON_USEDEP}] )
 	watch? ( dev-python/watchdog[${PYTHON_USEDEP}] )
 	watch? ( dev-python/watchdog-gevent[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

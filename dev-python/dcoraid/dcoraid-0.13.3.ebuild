@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gui"
 DEPENDENCIES="dev-python/dclab[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev-python/requests-cache[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}]
 	gui? ( dev-python/pyqt5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

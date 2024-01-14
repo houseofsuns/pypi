@@ -27,13 +27,13 @@ IUSE="dev"
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev? ( dev-python/neptune[${PYTHON_USEDEP}] )
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/plotly-5.18.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev-python/prophet[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]"
+	>=dev-python/statsmodels-0.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev-python/myst-parser[${PYTHON_USEDEP}]
-	dev-python/argh[${PYTHON_USEDEP}]
-	dev-python/commonmark[${PYTHON_USEDEP}]
+	>=dev-python/myst-parser-0.15.2[${PYTHON_USEDEP}]
+	>=dev-python/argh-0.26.2[${PYTHON_USEDEP}]
+	>=dev-python/commonmark-0.9.1[${PYTHON_USEDEP}]
 	dev-python/sphinx-toggleprompt[${PYTHON_USEDEP}]
-	dev-python/sphinx-copybutton[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}]
 	dev-python/dol[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

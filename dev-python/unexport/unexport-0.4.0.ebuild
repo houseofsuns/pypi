@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( ~dev-python/mkdocs-1.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-8.3.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/mkdocs-minify-plugin-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-git-revision-date-localized-plugin-1.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

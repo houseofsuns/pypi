@@ -29,14 +29,14 @@ DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
-	dev-python/funcy[${PYTHON_USEDEP}]
+	>=dev-python/funcy-1.14[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/pygithub[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	~dev-python/python-slugify-4.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
@@ -54,37 +54,37 @@ DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-slugify[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
-	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pip-9.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.2.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-autodoc-typehints-1.11[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-copybutton-0.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rstcheck[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-virtualenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/autopep8-1.3.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-1.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.30.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.6[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-virtualenv-1.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-2.9.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/responses-0.13.2[${PYTHON_USEDEP}] )
 	feature_engine? ( dev-python/feature-engine[${PYTHON_USEDEP}] )
 	featuretools? ( dev-python/featuretools-sklearn-transformer[${PYTHON_USEDEP}] )
 	skits? ( dev-python/skits[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-virtualenv[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-virtualenv-1.7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tox-2.9.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/responses-0.13.2[${PYTHON_USEDEP}] )
 	tsfresh? ( dev-python/tsfresh[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

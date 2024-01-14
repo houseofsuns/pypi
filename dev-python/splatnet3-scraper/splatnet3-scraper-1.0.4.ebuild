@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="examples parquet"
-DEPENDENCIES="examples? ( dev-python/pandas[${PYTHON_USEDEP}] )
+DEPENDENCIES="examples? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	parquet? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
-	examples? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	parquet? ( <dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	examples? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

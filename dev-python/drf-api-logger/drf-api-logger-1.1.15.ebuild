@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/djangorestframework-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/bleach-3.1.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

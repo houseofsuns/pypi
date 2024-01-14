@@ -29,28 +29,28 @@ DEPENDENCIES="dev-python/MarkupSafe[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/ansible-core[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cliff[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-2.1.1[${PYTHON_USEDEP}]
+	<dev-python/click-8.1.4[${PYTHON_USEDEP}]
+	~dev-python/cliff-3.10.1[${PYTHON_USEDEP}]
+	~dev-python/cryptography-38.0.3[${PYTHON_USEDEP}]
 	dev-python/flask-caching[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	<=dev-python/flask-2.1.3[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
+	~dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/pipenv[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.2[${PYTHON_USEDEP}]
+	~dev-python/pbr-5.9.0[${PYTHON_USEDEP}]
+	~dev-python/pipenv-2023.7.3[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28[${PYTHON_USEDEP}]
+	~dev-python/rich-12.4.4[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
+	~dev-python/stevedore-3.5.0[${PYTHON_USEDEP}]
 	dev-python/tosca[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.7[${PYTHON_USEDEP}]
+	<=dev-python/uvicorn-0.18.2[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1.37[${PYTHON_USEDEP}]
 	full? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	full? ( dev-python/docker[${PYTHON_USEDEP}] )
 	full? ( dev-python/google-auth[${PYTHON_USEDEP}] )
@@ -59,21 +59,21 @@ DEPENDENCIES="dev-python/MarkupSafe[${PYTHON_USEDEP}]
 	full? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	full? ( dev-python/octodns[${PYTHON_USEDEP}] )
 	full? ( dev-python/openshift[${PYTHON_USEDEP}] )
-	full? ( dev-python/redis[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/redis-4.3.5[${PYTHON_USEDEP}] )
 	full? ( dev-python/supervisor[${PYTHON_USEDEP}] )
 	server? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	server? ( dev-python/redis[${PYTHON_USEDEP}] )
-	test? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	test? ( dev-python/botocore[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/redis-4.3.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/boto3-1.21.46[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/botocore-1.24.46[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	test? ( dev-python/moto[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/moto-3.1.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-profiling[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-six[${PYTHON_USEDEP}] )
-	test? ( dev-python/werkzeug[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

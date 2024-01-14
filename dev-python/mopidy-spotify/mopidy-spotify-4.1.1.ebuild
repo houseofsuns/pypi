@@ -27,7 +27,7 @@ IUSE="dev lint test"
 DEPENDENCIES="dev-python/Mopidy[${PYTHON_USEDEP}]
 	dev-python/Pykka[${PYTHON_USEDEP}]
 	dev-python/pyspotify[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )

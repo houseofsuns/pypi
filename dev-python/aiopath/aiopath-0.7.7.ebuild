@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiofile[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]"
+	<dev-python/anyio-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

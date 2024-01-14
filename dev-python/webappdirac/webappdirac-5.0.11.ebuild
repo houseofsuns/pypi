@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="server testing"
 DEPENDENCIES="dev-python/diraccfg[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	server? ( dev-python/dirac[${PYTHON_USEDEP}] )
 	server? ( dev-python/DIRACWebAppResources[${PYTHON_USEDEP}] )
-	testing? ( dev-python/autopep8[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/autopep8-1.3.3[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mock-1.0.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pylint-1.6.5[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-2.2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

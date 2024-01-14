@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/emoji[${PYTHON_USEDEP}]
-	dev-python/pydbus[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/emoji-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydbus-0.7.0[${PYTHON_USEDEP}]
 	dev-python/PyGObject[${PYTHON_USEDEP}]
 	dev-python/StrEnum[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]"
+	<dev-python/unidecode-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

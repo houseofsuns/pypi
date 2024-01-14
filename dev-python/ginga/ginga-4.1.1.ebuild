@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs gtk3 qt5 recommended test tk web"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.14[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.2.1[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-astropy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	gtk3? ( dev-python/pycairo[${PYTHON_USEDEP}] )
 	gtk3? ( dev-python/pygobject[${PYTHON_USEDEP}] )
 	qt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	qt5? ( dev-python/QtPy[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/python-magic[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	qt5? ( >=dev-python/QtPy-1.1[${PYTHON_USEDEP}] )
+	recommended? ( >=dev-python/python-magic-0.4.15[${PYTHON_USEDEP}] )
+	recommended? ( >=dev-python/scipy-0.18.1[${PYTHON_USEDEP}] )
+	recommended? ( >=dev-python/matplotlib-2.1[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/exifread[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
+	recommended? ( >=dev-python/beautifulsoup4-4.3.2[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/astroquery[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/photutils[${PYTHON_USEDEP}] )
-	test? ( dev-python/attrs[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/attrs-19.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )
 	tk? ( dev-python/aggdraw[${PYTHON_USEDEP}] )
 	web? ( dev-python/tornado[${PYTHON_USEDEP}] )

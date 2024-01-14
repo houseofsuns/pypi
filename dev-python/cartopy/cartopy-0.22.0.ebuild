@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc ows plotting speedups test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.7[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/pyshp[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-3.1.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	ows? ( dev-python/OWSLib[${PYTHON_USEDEP}] )
-	ows? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	ows? ( >=dev-python/pillow-6.1.0[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/pillow-6.1.0[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/scipy-1.3.1[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/pykdtree[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/fiona[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.1.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mpl-0.11[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )"

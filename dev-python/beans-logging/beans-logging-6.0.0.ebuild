@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="fastapi"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-1.0.0[${PYTHON_USEDEP}]
 	fastapi? ( dev-python/beans-logging-fastapi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,14 +29,14 @@ DEPENDENCIES="dev-python/invoke[${PYTHON_USEDEP}]
 	dev-python/PyGithub[${PYTHON_USEDEP}]
 	dev-python/bytecode[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-youtube[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-favicon[${PYTHON_USEDEP}] )
 	doc? ( dev-python/xyzstyle[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/pydata-sphinx-theme-0.7.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ablog[${PYTHON_USEDEP}] )
-	doc? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/ipywidgets-7.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-thebe[${PYTHON_USEDEP}] )

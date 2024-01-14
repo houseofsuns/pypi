@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all pretttytable ujson"
-DEPENDENCIES="all? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	all? ( dev-python/prettytable[${PYTHON_USEDEP}] )
-	pretttytable? ( dev-python/prettytable[${PYTHON_USEDEP}] )
-	ujson? ( dev-python/ujson[${PYTHON_USEDEP}] )"
+DEPENDENCIES="all? ( ~dev-python/ujson-5.2.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/prettytable-3.3.0[${PYTHON_USEDEP}] )
+	pretttytable? ( ~dev-python/prettytable-3.3.0[${PYTHON_USEDEP}] )
+	ujson? ( ~dev-python/ujson-5.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

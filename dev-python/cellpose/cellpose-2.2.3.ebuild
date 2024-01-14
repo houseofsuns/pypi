@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all distributed docs gui"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/tifffile[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/fastremap[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]
 	dev-python/roifile[${PYTHON_USEDEP}]
-	all? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyqtgraph-0.11.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyqt6-sip[${PYTHON_USEDEP}] )
 	all? ( dev-python/qtpy[${PYTHON_USEDEP}] )
@@ -48,11 +48,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	distributed? ( dev-python/dask[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/dask-image[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/pyqtgraph-0.11.0[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqt6-sip[${PYTHON_USEDEP}] )
 	gui? ( dev-python/qtpy[${PYTHON_USEDEP}] )

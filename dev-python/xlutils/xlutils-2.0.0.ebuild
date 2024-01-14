@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build test"
-DEPENDENCIES="dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/xlwt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/xlrd-0.7.2[${PYTHON_USEDEP}]
+	>=dev-python/xlwt-0.7.4[${PYTHON_USEDEP}]
 	build? ( dev-python/pkginfo[${PYTHON_USEDEP}] )
 	build? ( dev-python/setuptools-git[${PYTHON_USEDEP}] )
 	build? ( dev-python/sphinx[${PYTHON_USEDEP}] )

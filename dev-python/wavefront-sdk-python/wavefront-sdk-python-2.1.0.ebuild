@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.27[${PYTHON_USEDEP}]
 	dev-python/tdigest[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

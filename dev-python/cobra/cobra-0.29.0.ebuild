@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="array development"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/appdirs-1.4[${PYTHON_USEDEP}]
 	dev-python/depinfo[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
+	~dev-python/diskcache-5.0[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.24[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13[${PYTHON_USEDEP}]
 	dev-python/optlang[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.6[${PYTHON_USEDEP}]
 	dev-python/python-libsbml[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/rich-8.0[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}]
 	dev-python/swiglpk[${PYTHON_USEDEP}]
 	array? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	development? ( dev-python/black[${PYTHON_USEDEP}] )

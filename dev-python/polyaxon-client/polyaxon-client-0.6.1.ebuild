@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="azure gcs s3"
 DEPENDENCIES="dev-python/polyaxon-schemas[${PYTHON_USEDEP}]
 	dev-python/polystores[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.4.7[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-0.53.0[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-storage[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )

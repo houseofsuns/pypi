@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	dev-python/qgate_graph[${PYTHON_USEDEP}]
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/click-8.1[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/numpy-1.24.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/psutil-5.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/packaging-21.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pympler[${PYTHON_USEDEP}] )
 	dev? ( dev-python/qgate_graph[${PYTHON_USEDEP}] )"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/django-calaccess-raw-data[${PYTHON_USEDEP}]
 	dev-python/django-calaccess-scraped-data[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	>=dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/ccdc-opencivicdata[${PYTHON_USEDEP}]
 	dev-python/django-internetarchive-storage[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]"

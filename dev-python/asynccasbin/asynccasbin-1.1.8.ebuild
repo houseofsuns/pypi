@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bracex[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/bracex-2.1.1[${PYTHON_USEDEP}]
 	dev-python/unicode[${PYTHON_USEDEP}]
-	dev-python/wcmatch[${PYTHON_USEDEP}]"
+	~dev-python/wcmatch-8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

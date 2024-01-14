@@ -30,11 +30,11 @@ DEPENDENCIES="dev-python/Appium-Python-Client[${PYTHON_USEDEP}]
 	dev-python/zlib-decompress[${PYTHON_USEDEP}]
 	dev-python/pylibjpeg[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pytesseract[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]"
+	~dev-python/pytesseract-0.3.10[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.25.1[${PYTHON_USEDEP}]
+	~dev-python/selenium-4.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

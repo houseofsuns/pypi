@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/wrapt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/wrapt-1.11.0[${PYTHON_USEDEP}]
 	dev-python/autowrapt[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]

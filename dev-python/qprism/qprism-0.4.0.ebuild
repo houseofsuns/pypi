@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/combo[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
+	~dev-python/imageio-2.21.1[${PYTHON_USEDEP}]
 	dev-python/moviepy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.2.4[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.0.1[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
 	dev-python/pyod[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/tensorflow-hub[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]"

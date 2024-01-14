@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/click_default_group[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/sdss-clu[${PYTHON_USEDEP}]
 	dev-python/sdss-coordio[${PYTHON_USEDEP}]
 	dev-python/sdss-drift[${PYTHON_USEDEP}]
 	dev-python/sdss-kaiju[${PYTHON_USEDEP}]
 	dev-python/sdssdb[${PYTHON_USEDEP}]
 	dev-python/sdsstools[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
-	dev-python/zc-lockfile[${PYTHON_USEDEP}]"
+	<dev-python/tables-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/zc-lockfile-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/trio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/trio-0.9.0[${PYTHON_USEDEP}]
 	dev-python/asks[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/beautifulsoup4-4.6.3[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.2.5[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="azure google oracle"
 DEPENDENCIES="oracle? ( dev-python/oci[${PYTHON_USEDEP}] )
-	google? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	google? ( <dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-mgmt-compute[${PYTHON_USEDEP}] )
 	google? ( dev-python/lark-parser[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )"

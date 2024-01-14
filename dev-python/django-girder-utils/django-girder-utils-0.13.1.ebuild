@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="allauth boto3_storage minio_storage rest_framework"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	allauth? ( dev-python/django-allauth[${PYTHON_USEDEP}] )
 	boto3_storage? ( dev-python/django-storages[${PYTHON_USEDEP}] )
 	minio_storage? ( dev-python/django-minio-storage[${PYTHON_USEDEP}] )

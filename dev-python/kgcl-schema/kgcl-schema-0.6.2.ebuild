@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/curies[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]
+	>=dev-python/lark-1.1.2[${PYTHON_USEDEP}]
 	dev-python/linkml-runtime[${PYTHON_USEDEP}]
 	dev-python/prefixmaps[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.4[${PYTHON_USEDEP}]
+	>=dev-python/natsort-8.0.0[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	>=dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}]
+	testing? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-3.25.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

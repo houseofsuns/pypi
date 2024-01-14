@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.1[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-38.0[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.13[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/qrcode-7.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28[${PYTHON_USEDEP}]
 	dev-python/rollbar[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/stripe[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-69.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.16[${PYTHON_USEDEP}]
+	>=dev-python/stripe-4.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )

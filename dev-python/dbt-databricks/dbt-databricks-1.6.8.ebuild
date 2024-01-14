@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/dbt-spark[${PYTHON_USEDEP}]
 	dev-python/databricks-sql-connector[${PYTHON_USEDEP}]
 	dev-python/databricks-sdk[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]"
+	>=dev-python/keyring-23.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

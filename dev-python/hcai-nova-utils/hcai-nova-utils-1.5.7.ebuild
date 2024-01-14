@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/eva-decord[${PYTHON_USEDEP}]
 	dev-python/ffmpegio[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.12.2[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

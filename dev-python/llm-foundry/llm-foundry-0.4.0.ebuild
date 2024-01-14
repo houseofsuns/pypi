@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/mosaicml[${PYTHON_USEDEP}]
 	dev-python/mosaicml-streaming[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	~dev-python/fsspec-2023.6.0[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
@@ -39,70 +39,70 @@ DEPENDENCIES="dev-python/mosaicml[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
 	dev-python/cmake[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	all? ( dev-python/flash-attn[${PYTHON_USEDEP}] )
 	all? ( dev-python/bitsandbytes[${PYTHON_USEDEP}] )
 	all? ( dev-python/openai[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	all? ( dev-python/peft[${PYTHON_USEDEP}] )
 	all? ( dev-python/hf-transfer[${PYTHON_USEDEP}] )
 	all? ( dev-python/mosaicml-turbo[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-codeblocks[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-codeblocks-0.17[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/scipy-1.11.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
-	all? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	all? ( <dev-python/packaging-23.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/mosaicml[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/loralib[${PYTHON_USEDEP}] )
 	all? ( dev-python/mosaicml[${PYTHON_USEDEP}] )
 	all-cpu? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	all-cpu? ( dev-python/bitsandbytes[${PYTHON_USEDEP}] )
 	all-cpu? ( dev-python/openai[${PYTHON_USEDEP}] )
-	all-cpu? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all-cpu? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	all-cpu? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	all-cpu? ( dev-python/peft[${PYTHON_USEDEP}] )
 	all-cpu? ( dev-python/hf-transfer[${PYTHON_USEDEP}] )
-	all-cpu? ( dev-python/pytest-codeblocks[${PYTHON_USEDEP}] )
+	all-cpu? ( <dev-python/pytest-codeblocks-0.17[${PYTHON_USEDEP}] )
 	all-cpu? ( dev-python/toml[${PYTHON_USEDEP}] )
-	all-cpu? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all-cpu? ( <=dev-python/scipy-1.11.0[${PYTHON_USEDEP}] )
 	all-cpu? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
-	all-cpu? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	all-cpu? ( <dev-python/packaging-23.0[${PYTHON_USEDEP}] )
 	all-cpu? ( dev-python/mosaicml[${PYTHON_USEDEP}] )
-	all-cpu? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all-cpu? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	all-cpu? ( dev-python/loralib[${PYTHON_USEDEP}] )
 	all-cpu? ( dev-python/mosaicml[${PYTHON_USEDEP}] )
 	all-flash2? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	all-flash2? ( dev-python/bitsandbytes[${PYTHON_USEDEP}] )
 	all-flash2? ( dev-python/openai[${PYTHON_USEDEP}] )
-	all-flash2? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all-flash2? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	all-flash2? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	all-flash2? ( dev-python/peft[${PYTHON_USEDEP}] )
 	all-flash2? ( dev-python/hf-transfer[${PYTHON_USEDEP}] )
 	all-flash2? ( dev-python/mosaicml-turbo[${PYTHON_USEDEP}] )
-	all-flash2? ( dev-python/pytest-codeblocks[${PYTHON_USEDEP}] )
+	all-flash2? ( <dev-python/pytest-codeblocks-0.17[${PYTHON_USEDEP}] )
 	all-flash2? ( dev-python/toml[${PYTHON_USEDEP}] )
 	all-flash2? ( dev-python/flash-attn[${PYTHON_USEDEP}] )
-	all-flash2? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all-flash2? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	all-flash2? ( <=dev-python/scipy-1.11.0[${PYTHON_USEDEP}] )
+	all-flash2? ( <dev-python/packaging-23.0[${PYTHON_USEDEP}] )
 	all-flash2? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	all-flash2? ( dev-python/mosaicml[${PYTHON_USEDEP}] )
-	all-flash2? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all-flash2? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	all-flash2? ( dev-python/loralib[${PYTHON_USEDEP}] )
 	all-flash2? ( dev-python/mosaicml[${PYTHON_USEDEP}] )
 	databricks? ( dev-python/mosaicml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-codeblocks[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-codeblocks-0.17[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/packaging-23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hf-transfer[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/flash-attn[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/mosaicml-turbo[${PYTHON_USEDEP}] )
@@ -112,7 +112,7 @@ DEPENDENCIES="dev-python/mosaicml[${PYTHON_USEDEP}]
 	openai? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	peft? ( dev-python/loralib[${PYTHON_USEDEP}] )
 	peft? ( dev-python/bitsandbytes[${PYTHON_USEDEP}] )
-	peft? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	peft? ( <=dev-python/scipy-1.11.0[${PYTHON_USEDEP}] )
 	peft? ( dev-python/peft[${PYTHON_USEDEP}] )
 	tensorboard? ( dev-python/mosaicml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

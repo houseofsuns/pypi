@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-2.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinxcontrib-httpdomain-1.5.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}]
 	dev-python/sphinx-mdinclude[${PYTHON_USEDEP}]
-	dev-python/picobox[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]"
+	>=dev-python/picobox-2.2[${PYTHON_USEDEP}]
+	>=dev-python/deepmerge-0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

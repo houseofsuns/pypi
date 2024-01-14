@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="full"
 DEPENDENCIES="dev-python/lucyparser[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.10.0[${PYTHON_USEDEP}]
 	full? ( dev-python/elasticsearch-dsl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

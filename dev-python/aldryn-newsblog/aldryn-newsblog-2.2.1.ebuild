@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-filer[${PYTHON_USEDEP}]
 	dev-python/django-parler[${PYTHON_USEDEP}]
 	dev-python/django-sortedm2m[${PYTHON_USEDEP}]
-	dev-python/django-taggit[${PYTHON_USEDEP}]
+	>=dev-python/django-taggit-0.23.0[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"

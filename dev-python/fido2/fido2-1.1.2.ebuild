@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pcsc"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	pcsc? ( dev-python/pyscard[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/cryptography-44.0[${PYTHON_USEDEP}]
+	pcsc? ( <dev-python/pyscard-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev numpy vis"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	numpy? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	vis? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	vis? ( >=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

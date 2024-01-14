@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests"
 DEPENDENCIES="tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.7[${PYTHON_USEDEP}]
 	dev-python/stempeg[${PYTHON_USEDEP}]
 	dev-python/pyaml[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

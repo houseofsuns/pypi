@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="abfs adl gcs gs s3"
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-0.7.4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]
 	abfs? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	adl? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )

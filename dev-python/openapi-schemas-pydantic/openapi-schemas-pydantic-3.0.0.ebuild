@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="dev-python/email-validator[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/email-validator-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-extra-types[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	dev? ( <dev-python/black-30.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkautodoc[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkautodoc-0.3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	doc? ( <dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-asyncio-0.20.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

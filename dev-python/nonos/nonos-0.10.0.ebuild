@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/cblind[${PYTHON_USEDEP}]
 	dev-python/inifix[${PYTHON_USEDEP}]
 	dev-python/lick[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]"
+	>=dev-python/loguru-0.5.3[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.13.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

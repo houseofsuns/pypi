@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/bit[${PYTHON_USEDEP}]
 	dev-python/hdwallet[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/requests-html[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
+	~dev-python/ecdsa-0.18.0[${PYTHON_USEDEP}]
 	dev-python/bip-utils[${PYTHON_USEDEP}]
 	dev-python/bip32utils[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/pbkdf2[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.18.0[${PYTHON_USEDEP}]
+	~dev-python/pbkdf2-1.3[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

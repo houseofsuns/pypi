@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="widget"
 DEPENDENCIES="dev-python/graphviz[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	widget? ( dev-python/traitlets[${PYTHON_USEDEP}] )
 	widget? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	widget? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )"
+	widget? ( <dev-python/ipywidgets-9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

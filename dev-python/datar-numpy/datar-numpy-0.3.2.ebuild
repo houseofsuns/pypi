@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
 DEPENDENCIES="dev-python/datar[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/wcwidth[${PYTHON_USEDEP}] )"
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/wcwidth-0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

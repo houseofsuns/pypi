@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]"
+DEPENDENCIES=">dev-python/requests-2.24[${PYTHON_USEDEP}]
+	>dev-python/tabulate-0.8.5[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.17[${PYTHON_USEDEP}]
+	>dev-python/deprecation-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

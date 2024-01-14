@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/boto3-1.28.52[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.31.52[${PYTHON_USEDEP}]
 	dev-python/chatgpt-klient[${PYTHON_USEDEP}]
 	dev-python/deep-translator[${PYTHON_USEDEP}]
 	dev-python/deepl[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
 	dev-python/logutils-serpucga[${PYTHON_USEDEP}]
-	dev-python/multiprocess[${PYTHON_USEDEP}]
+	<dev-python/multiprocess-0.71.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/translators[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

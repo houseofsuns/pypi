@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev quickstart test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	quickstart? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/responses-0.8.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

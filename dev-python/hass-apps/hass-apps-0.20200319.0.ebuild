@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/appdaemon[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]
+	~dev-python/cached-property-1.5[${PYTHON_USEDEP}]
 	dev-python/observable[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]"
+	~dev-python/voluptuous-0.11[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tf torch"
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pymongo-3.12[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.4[${PYTHON_USEDEP}]
 	dev-python/decord[${PYTHON_USEDEP}]
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow-datasets[${PYTHON_USEDEP}] )

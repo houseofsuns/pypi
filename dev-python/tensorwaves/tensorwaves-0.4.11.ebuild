@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc format jax jupyter lint mypy numba phasespace phsp pwa scipy sty tensorflow test test-types tf viz"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/iminuit[${PYTHON_USEDEP}]
+	>=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
+	>=dev-python/iminuit-2.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.9[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.24.0[${PYTHON_USEDEP}]
 	all? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
@@ -42,13 +42,13 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-1.9[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipympl[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbclient[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/nbclient-0.5.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-codeautolink[${PYTHON_USEDEP}] )
@@ -70,7 +70,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	jupyter? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	mypy? ( >=dev-python/mypy-0.570[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
@@ -85,7 +85,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	phsp? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
 	pwa? ( dev-python/ampform[${PYTHON_USEDEP}] )
 	pwa? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
-	scipy? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	scipy? ( >=dev-python/scipy-1.0[${PYTHON_USEDEP}] )
 	sty? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	sty? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
 	sty? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
@@ -98,7 +98,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	test? ( dev-python/tensorwaves[${PYTHON_USEDEP}] )
 	test-types? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	test-types? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test-types? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	test-types? ( >=dev-python/pytest-mock-3.3.0[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	viz? ( dev-python/graphviz[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

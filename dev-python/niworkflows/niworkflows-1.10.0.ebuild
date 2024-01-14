@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/looseversion[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/nilearn[${PYTHON_USEDEP}]
 	dev-python/nipype[${PYTHON_USEDEP}]
@@ -47,19 +47,19 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/transforms3d[${PYTHON_USEDEP}]
 	all? ( dev-python/niworkflows[${PYTHON_USEDEP}] )
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydot[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/pydot-1.2.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydotplus[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/niworkflows[${PYTHON_USEDEP}] )
 	pointclouds? ( dev-python/pyntcloud[${PYTHON_USEDEP}] )
-	style? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/flake8-3.7.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-5.2.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-xdist-1.28[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xvfb[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-4.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

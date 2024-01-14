@@ -24,56 +24,56 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev doc test"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/configobj[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.11.0[${PYTHON_USEDEP}]
+	>=dev-python/configobj-5.0.6[${PYTHON_USEDEP}]
 	dev-python/esi-core[${PYTHON_USEDEP}]
 	dev-python/esi-utils-colors[${PYTHON_USEDEP}]
 	dev-python/esi-utils-io[${PYTHON_USEDEP}]
 	dev-python/esi-utils-rupture[${PYTHON_USEDEP}]
 	dev-python/folium[${PYTHON_USEDEP}]
 	dev-python/gmpacket[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.8[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.6.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/obspy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.8[${PYTHON_USEDEP}]
 	dev-python/openquake-engine[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/ps2ff[${PYTHON_USEDEP}]
 	dev-python/pyasdf[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.29[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.16[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-scm-6.3.2[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.12.2[${PYTHON_USEDEP}]
 	dev-python/usgs-strec[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-2.0[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	build? ( dev-python/check-wheel-contents[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/build-0.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-21.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/esi-releases[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.26[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.17[${PYTHON_USEDEP}] )
 	doc? ( dev-python/altair[${PYTHON_USEDEP}] )
-	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/furo-2023.3.27[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
-	test? ( dev-python/vcrpy[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/nbsphinx-0.9.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
+	doc? ( >dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-autoapi-3.0.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-inline-tabs-2023.4.21[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinxcontrib-programoutput-0.17[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.12[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-console-scripts-1.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/vcrpy-4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

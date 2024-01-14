@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all demos dev hf llama-cpp"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.27.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	all? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
@@ -38,9 +38,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	demos? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	demos? ( dev-python/llama-cpp-python[${PYTHON_USEDEP}] )
 	demos? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	demos? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	demos? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	demos? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	demos? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	demos? ( >=dev-python/matplotlib-3.7.3[${PYTHON_USEDEP}] )
+	demos? ( >=dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
 	demos? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -48,21 +48,21 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	dev? ( dev-python/llama-cpp-python[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-3.7.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/docutils-0.19[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydata-sphinx-theme-0.13.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	hf? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	hf? ( dev-python/torch[${PYTHON_USEDEP}] )
 	hf? ( dev-python/transformers[${PYTHON_USEDEP}] )

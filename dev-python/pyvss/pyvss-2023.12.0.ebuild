@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev stor test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nose[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytz-2022.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.38.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/minio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinxcontrib-jquery-4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-confluencebuilder[${PYTHON_USEDEP}] )
 	stor? ( dev-python/minio[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	test? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytz-2022.6[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/wheel-0.38.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/minio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

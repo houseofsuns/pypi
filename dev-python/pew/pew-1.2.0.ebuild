@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pythonz"
-DEPENDENCIES="dev-python/virtualenv[${PYTHON_USEDEP}]
-	dev-python/virtualenv-clone[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/virtualenv-1.11[${PYTHON_USEDEP}]
+	>=dev-python/virtualenv-clone-0.2.5[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-17.1[${PYTHON_USEDEP}]
 	pythonz? ( dev-python/pythonz-bd[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

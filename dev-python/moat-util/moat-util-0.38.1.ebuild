@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev event main msg path queue systemd time yaml"
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/anyio-3.0[${PYTHON_USEDEP}]
 	dev-python/asyncclick[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]

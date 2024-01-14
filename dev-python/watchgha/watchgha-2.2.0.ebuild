@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/dulwich[${PYTHON_USEDEP}]
 	dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/trio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dask s3 test xlsx"
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
-	s3? ( dev-python/fsspec[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/fsspec-2022.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastparquet[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	test? ( dev-python/moto[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/fsspec[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/fsspec-2022.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	test? ( dev-python/dask[${PYTHON_USEDEP}] )
 	xlsx? ( dev-python/openpyxl[${PYTHON_USEDEP}] )"

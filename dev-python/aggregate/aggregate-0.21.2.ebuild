@@ -28,19 +28,19 @@ DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
 	dev-python/cycler[${PYTHON_USEDEP}]
 	dev-python/ipykernel[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/titlecase[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-62.3.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-dark-mode[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/testtools[${PYTHON_USEDEP}] )"
+DEPENDENCIES="dev? ( >=dev-python/pytest-2.7.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/testtools-1.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

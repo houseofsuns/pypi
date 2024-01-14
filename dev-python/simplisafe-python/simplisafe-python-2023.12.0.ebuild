@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/backoff-1.11.1[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.11.7[${PYTHON_USEDEP}]
+	>=dev-python/websockets-8.1[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.9.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

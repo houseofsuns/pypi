@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/binary[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-16.2[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
 	dev-python/tinyrecord[${PYTHON_USEDEP}]"

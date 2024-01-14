@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="demo requests"
-DEPENDENCIES="requests? ( dev-python/requests[${PYTHON_USEDEP}] )
-	demo? ( dev-python/requests[${PYTHON_USEDEP}] )
+DEPENDENCIES="requests? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
+	demo? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
 	demo? ( dev-python/requests_toolbelt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

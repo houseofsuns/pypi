@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/pyheif[${PYTHON_USEDEP}]
-	dev-python/piexif[${PYTHON_USEDEP}]
-	test? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	>=dev-python/piexif-1.1.3[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pillow-6.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

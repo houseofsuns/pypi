@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="arangodb auth azureblockblob brotli cassandra consul cosmosdbsql couchdb django dynamodb elasticsearch gevent librabbitmq memcache mongodb msgpack pymemcache pyro pytest redis s3 slmq solar sqlalchemy sqs tblib yaml zookeeper zstd"
 DEPENDENCIES="dev-python/billiard[${PYTHON_USEDEP}]
-	dev-python/click-didyoumean[${PYTHON_USEDEP}]
-	dev-python/click-plugins[${PYTHON_USEDEP}]
+	>=dev-python/click-didyoumean-0.3.0[${PYTHON_USEDEP}]
+	>=dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}]
 	dev-python/click-repl[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/kombu[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/tzdata[${PYTHON_USEDEP}]
-	dev-python/vine[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/kombu-6.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/tzdata-2022.7[${PYTHON_USEDEP}]
+	<dev-python/vine-6.0[${PYTHON_USEDEP}]
 	arangodb? ( dev-python/pyArango[${PYTHON_USEDEP}] )
-	auth? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	auth? ( ~dev-python/cryptography-41.0.5[${PYTHON_USEDEP}] )
 	azureblockblob? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	brotli? ( dev-python/brotli[${PYTHON_USEDEP}] )
 	brotli? ( dev-python/brotlipy[${PYTHON_USEDEP}] )
@@ -43,29 +43,29 @@ DEPENDENCIES="dev-python/billiard[${PYTHON_USEDEP}]
 	cosmosdbsql? ( dev-python/pydocumentdb[${PYTHON_USEDEP}] )
 	couchdb? ( dev-python/pycouchdb[${PYTHON_USEDEP}] )
 	django? ( dev-python/Django[${PYTHON_USEDEP}] )
-	dynamodb? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	elasticsearch? ( dev-python/elastic-transport[${PYTHON_USEDEP}] )
-	elasticsearch? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
+	dynamodb? ( >=dev-python/boto3-1.26.143[${PYTHON_USEDEP}] )
+	elasticsearch? ( <=dev-python/elastic-transport-8.10.0[${PYTHON_USEDEP}] )
+	elasticsearch? ( <=dev-python/elasticsearch-8.11.0[${PYTHON_USEDEP}] )
 	gevent? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	librabbitmq? ( dev-python/librabbitmq[${PYTHON_USEDEP}] )
-	memcache? ( dev-python/pylibmc[${PYTHON_USEDEP}] )
-	mongodb? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	pymemcache? ( dev-python/python-memcached[${PYTHON_USEDEP}] )
+	memcache? ( ~dev-python/pylibmc-1.6.3[${PYTHON_USEDEP}] )
+	mongodb? ( >=dev-python/pymongo-4.0.2[${PYTHON_USEDEP}] )
+	msgpack? ( ~dev-python/msgpack-1.0.7[${PYTHON_USEDEP}] )
+	pymemcache? ( ~dev-python/python-memcached-1.59[${PYTHON_USEDEP}] )
 	pyro? ( dev-python/pyro4[${PYTHON_USEDEP}] )
 	pytest? ( dev-python/pytest-celery[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/boto3-1.26.143[${PYTHON_USEDEP}] )
 	slmq? ( dev-python/softlayer-messaging[${PYTHON_USEDEP}] )
 	solar? ( dev-python/ephem[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	sqs? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	sqs? ( dev-python/kombu[${PYTHON_USEDEP}] )
-	sqs? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	sqs? ( dev-python/pycurl[${PYTHON_USEDEP}] )
-	tblib? ( dev-python/tblib[${PYTHON_USEDEP}] )
+	sqlalchemy? ( <dev-python/sqlalchemy-2.1[${PYTHON_USEDEP}] )
+	sqs? ( >=dev-python/boto3-1.26.143[${PYTHON_USEDEP}] )
+	sqs? ( >=dev-python/kombu-5.3.0[${PYTHON_USEDEP}] )
+	sqs? ( >=dev-python/urllib3-1.26.16[${PYTHON_USEDEP}] )
+	sqs? ( >=dev-python/pycurl-7.43.0.5[${PYTHON_USEDEP}] )
+	tblib? ( >=dev-python/tblib-1.5.0[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	zookeeper? ( dev-python/kazoo[${PYTHON_USEDEP}] )
-	zstd? ( dev-python/zstandard[${PYTHON_USEDEP}] )"
+	zstd? ( ~dev-python/zstandard-0.22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

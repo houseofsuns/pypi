@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.1.2[${PYTHON_USEDEP}]
 	dev-python/stac-validator[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]

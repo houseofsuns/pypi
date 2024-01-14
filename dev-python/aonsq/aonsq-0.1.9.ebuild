@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.3.2[${PYTHON_USEDEP}]
+	>=dev-python/orjson-2.0.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

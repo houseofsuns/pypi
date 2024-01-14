@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/invoke[${PYTHON_USEDEP}]
 	dev-python/blessings[${PYTHON_USEDEP}]
 	dev-python/releases[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]"
+	<dev-python/semantic-version-2.7[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.7.5[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.8.1[${PYTHON_USEDEP}]
+	>=dev-python/twine-1.15[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.24.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

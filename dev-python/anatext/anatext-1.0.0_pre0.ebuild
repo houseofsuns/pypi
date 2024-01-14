@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-dotenv-0.5.1[${PYTHON_USEDEP}]
 	dev-python/dvc[${PYTHON_USEDEP}]
 	dev-python/keybert[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.1.2[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	dev-python/stop-words[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]"

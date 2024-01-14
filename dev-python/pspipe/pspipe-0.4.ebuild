@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/python-casacore[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
+	<dev-python/tables-4.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8[${PYTHON_USEDEP}]
 	dev-python/ps-eor[${PYTHON_USEDEP}]
 	dev-python/nenucal[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

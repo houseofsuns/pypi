@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/snapshottest[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	<dev-python/snapshottest-0.6.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/time-machine[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]"
+	~dev-python/boto3-1.24.19[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.27.19[${PYTHON_USEDEP}]
+	~dev-python/time-machine-2.1.0[${PYTHON_USEDEP}]
+	<dev-python/pytz-2023.0[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-8.14.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

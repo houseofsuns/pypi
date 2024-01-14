@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
 	tests? ( dev-python/absl-py[${PYTHON_USEDEP}] )
 	tests? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/numpy-1.17[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,13 +29,13 @@ DEPENDENCIES="dev-python/cert-core[${PYTHON_USEDEP}]
 	dev-python/blockcerts-merkletools[${PYTHON_USEDEP}]
 	dev-python/configargparse[${PYTHON_USEDEP}]
 	dev-python/glob2[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/mock-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	dev-python/pycoin[${PYTHON_USEDEP}]
 	dev-python/pyld[${PYTHON_USEDEP}]
 	dev-python/python-bitcoinlib[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	>=dev-python/tox-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.18.4[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

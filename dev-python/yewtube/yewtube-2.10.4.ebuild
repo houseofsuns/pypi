@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs mpris"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyperclip[${PYTHON_USEDEP}]
-	dev-python/youtube-search-python[${PYTHON_USEDEP}]
+	>=dev-python/youtube-search-python-1.6.5[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]
 	dev-python/pylast[${PYTHON_USEDEP}]
-	docs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-gen-files-0.3.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-8.2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings-python-legacy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	mpris? ( dev-python/dbus-python[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-0.18.0[${PYTHON_USEDEP}] )
+	mpris? ( >=dev-python/dbus-python-1.2.18[${PYTHON_USEDEP}] )
 	mpris? ( dev-python/PyGObject[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

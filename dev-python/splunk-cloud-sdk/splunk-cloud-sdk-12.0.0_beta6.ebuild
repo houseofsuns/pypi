@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-2.26.1[${PYTHON_USEDEP}]
+	<dev-python/urllib3-1.26.7[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-1.8.0[${PYTHON_USEDEP}]
+	<dev-python/cryptography-2.7.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinxcontrib-apidoc-0.3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bench doc test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	test? ( dev-python/mktestdocs[${PYTHON_USEDEP}] )
-	bench? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	bench? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )"
+	bench? ( >=dev-python/scipy-1.11.4[${PYTHON_USEDEP}] )
+	bench? ( >=dev-python/matplotlib-3.8[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocstrings-python-1.7.5[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-material-9.4.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

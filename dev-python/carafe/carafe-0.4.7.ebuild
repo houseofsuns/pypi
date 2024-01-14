@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Cache[${PYTHON_USEDEP}]
 	dev-python/Flask-Principal[${PYTHON_USEDEP}]
 	dev-python/Flask-Testing[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]"
+	>=dev-python/blinker-1.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

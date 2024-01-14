@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	~dev-python/typeguard-3.0.2[${PYTHON_USEDEP}]
 	dev-python/Levenshtein[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

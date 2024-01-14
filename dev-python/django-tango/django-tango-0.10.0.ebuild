@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/tango-shared-core[${PYTHON_USEDEP}]
 	dev-python/tango-happenings[${PYTHON_USEDEP}]
 	dev-python/tango-photos[${PYTHON_USEDEP}]
 	dev-python/tango-voting[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]"
+	>=dev-python/django-filter-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

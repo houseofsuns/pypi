@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/puremagic[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/humanize-4.4.0[${PYTHON_USEDEP}]
+	~dev-python/filetype-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/puremagic-1.14[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.21.1[${PYTHON_USEDEP}]
 	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]"
+	~dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

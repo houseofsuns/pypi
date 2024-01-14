@@ -25,63 +25,63 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all all-client client dashserve dev graph iotools jupyter mlflow snowflake sql streaming tables tensorflow"
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.9.4[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-client-4.1.1[${PYTHON_USEDEP}]
 	dev-python/mongoengine[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.4[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.17.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/flask-restx[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	>=dev-python/croniter-0.3.30[${PYTHON_USEDEP}]
+	>=dev-python/nbformat-4.0.1[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-6.4.0[${PYTHON_USEDEP}]
+	<dev-python/dill-0.3.6[${PYTHON_USEDEP}]
 	dev-python/callable-pip[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	dev-python/cron-descriptor[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.32.2[${PYTHON_USEDEP}]
 	dev-python/honcho[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.2[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/apispec[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	all? ( dev-python/tables[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	all? ( dev-python/imageio[${PYTHON_USEDEP}] )
+	>=dev-python/imageio-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/apispec-5.2.2[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.17.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/tables-3.7[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/seaborn-0.11[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/imageio-2.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/plotext[${PYTHON_USEDEP}] )
 	all? ( dev-python/dashserve[${PYTHON_USEDEP}] )
 	all? ( dev-python/dash[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython-sql[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/boto-2.49.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/minibatch[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyterhub[${PYTHON_USEDEP}] )
 	all? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	all? ( dev-python/nbclassic[${PYTHON_USEDEP}] )
 	all? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
-	all-client? ( dev-python/tables[${PYTHON_USEDEP}] )
+	all-client? ( >=dev-python/tables-3.7[${PYTHON_USEDEP}] )
 	all-client? ( dev-python/dashserve[${PYTHON_USEDEP}] )
 	all-client? ( dev-python/dash[${PYTHON_USEDEP}] )
 	all-client? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	all-client? ( dev-python/ipython-sql[${PYTHON_USEDEP}] )
-	all-client? ( dev-python/boto[${PYTHON_USEDEP}] )
+	all-client? ( >=dev-python/boto-2.49.0[${PYTHON_USEDEP}] )
 	all-client? ( dev-python/minibatch[${PYTHON_USEDEP}] )
-	client? ( dev-python/tables[${PYTHON_USEDEP}] )
+	client? ( >=dev-python/tables-3.7[${PYTHON_USEDEP}] )
 	client? ( dev-python/dashserve[${PYTHON_USEDEP}] )
 	client? ( dev-python/dash[${PYTHON_USEDEP}] )
 	client? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	client? ( dev-python/ipython-sql[${PYTHON_USEDEP}] )
-	client? ( dev-python/boto[${PYTHON_USEDEP}] )
+	client? ( >=dev-python/boto-2.49.0[${PYTHON_USEDEP}] )
 	client? ( dev-python/minibatch[${PYTHON_USEDEP}] )
 	dashserve? ( dev-python/dashserve[${PYTHON_USEDEP}] )
 	dashserve? ( dev-python/dash[${PYTHON_USEDEP}] )
@@ -93,11 +93,11 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	dev? ( dev-python/splinter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	graph? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	graph? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	graph? ( dev-python/imageio[${PYTHON_USEDEP}] )
+	graph? ( ~dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )
+	graph? ( ~dev-python/seaborn-0.11[${PYTHON_USEDEP}] )
+	graph? ( ~dev-python/imageio-2.6[${PYTHON_USEDEP}] )
 	graph? ( dev-python/plotext[${PYTHON_USEDEP}] )
-	iotools? ( dev-python/boto[${PYTHON_USEDEP}] )
+	iotools? ( >=dev-python/boto-2.49.0[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyterhub[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/notebook[${PYTHON_USEDEP}] )
@@ -107,7 +107,7 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	sql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	sql? ( dev-python/ipython-sql[${PYTHON_USEDEP}] )
 	streaming? ( dev-python/minibatch[${PYTHON_USEDEP}] )
-	tables? ( dev-python/tables[${PYTHON_USEDEP}] )
+	tables? ( >=dev-python/tables-3.7[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/aiostream[${PYTHON_USEDEP}]
 	dev-python/pydantic-extra-types[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

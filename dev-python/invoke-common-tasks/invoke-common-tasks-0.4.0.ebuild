@@ -26,23 +26,23 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all format lint test typecheck"
 DEPENDENCIES="dev-python/invoke[${PYTHON_USEDEP}]
 	dev-python/types-invoke[${PYTHON_USEDEP}]
-	dev-python/poetry-core[${PYTHON_USEDEP}]
-	format? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	format? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	<dev-python/poetry-core-2.0.0[${PYTHON_USEDEP}]
+	format? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
+	format? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	typecheck? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev-python/poetry[${PYTHON_USEDEP}]"
+	typecheck? ( <dev-python/mypy-0.943[${PYTHON_USEDEP}] )
+	all? ( <dev-python/mypy-0.943[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-7.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/coverage-7.0.0[${PYTHON_USEDEP}] )
+	<dev-python/poetry-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

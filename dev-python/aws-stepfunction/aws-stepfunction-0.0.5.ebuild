@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-21.1.0[${PYTHON_USEDEP}]
 	dev-python/sentinel[${PYTHON_USEDEP}]
 	dev-python/boto-session-manager[${PYTHON_USEDEP}]
 	dev-python/pathlib-mate[${PYTHON_USEDEP}]
@@ -37,14 +37,14 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/s3pathlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cottonformation[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-inline-tabs-2021.8.17[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/rstobj[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docfly[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2021.8.31[${PYTHON_USEDEP}] )
 	docs? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

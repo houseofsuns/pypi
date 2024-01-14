@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/six-2.0[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
 	develop? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	develop? ( dev-python/tox[${PYTHON_USEDEP}] )"

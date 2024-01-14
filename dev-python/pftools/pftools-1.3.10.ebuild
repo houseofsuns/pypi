@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all fastio io pfsol"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	all? ( dev-python/imageio[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
+	all? ( >=dev-python/imageio-2.9.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/xarray[${PYTHON_USEDEP}] )
 	all? ( dev-python/numba[${PYTHON_USEDEP}] )
@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	io? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	io? ( dev-python/xarray[${PYTHON_USEDEP}] )
 	io? ( dev-python/dask[${PYTHON_USEDEP}] )
-	pfsol? ( dev-python/imageio[${PYTHON_USEDEP}] )"
+	pfsol? ( >=dev-python/imageio-2.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

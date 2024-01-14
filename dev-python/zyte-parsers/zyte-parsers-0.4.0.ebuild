@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	dev-python/gtin-validator[${PYTHON_USEDEP}]
 	dev-python/html-text[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/parsel[${PYTHON_USEDEP}]
 	dev-python/price-parser[${PYTHON_USEDEP}]
-	dev-python/python-stdnum[${PYTHON_USEDEP}]
+	>=dev-python/python-stdnum-1.19[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/w3lib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

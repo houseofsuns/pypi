@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="arcgis geopandas"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-0.23.0[${PYTHON_USEDEP}]
 	dev-python/pulp[${PYTHON_USEDEP}]
 	arcgis? ( dev-python/arcgis[${PYTHON_USEDEP}] )
 	geopandas? ( dev-python/geopandas[${PYTHON_USEDEP}] )"

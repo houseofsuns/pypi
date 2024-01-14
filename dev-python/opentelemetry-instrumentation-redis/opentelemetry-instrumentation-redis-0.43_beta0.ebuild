@@ -27,8 +27,8 @@ IUSE="instruments test"
 DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	instruments? ( dev-python/redis[${PYTHON_USEDEP}] )
+	>=dev-python/wrapt-1.12.1[${PYTHON_USEDEP}]
+	instruments? ( >=dev-python/redis-2.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-redis[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )"

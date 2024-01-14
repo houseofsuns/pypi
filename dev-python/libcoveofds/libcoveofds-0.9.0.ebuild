@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/json-merge-patch[${PYTHON_USEDEP}]
 	dev-python/libcove2[${PYTHON_USEDEP}]
 	dev-python/rfc3987[${PYTHON_USEDEP}]
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extras"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	extras? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	extras? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	extras? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	extras? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/numpy-1.15.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.23.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/plotly-3.5.0[${PYTHON_USEDEP}]
+	extras? ( >=dev-python/matplotlib-2.2.3[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/ipython-5.8.0[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/notebook-5.3[${PYTHON_USEDEP}] )
+	extras? ( ~dev-python/ipywidgets-7.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
-	dev-python/boltons[${PYTHON_USEDEP}]
+	<dev-python/boltons-22.0.0[${PYTHON_USEDEP}]
 	dev-python/greek-accentuation[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
+	<dev-python/rapidfuzz-4.0.0[${PYTHON_USEDEP}]
 	dev-python/stanza[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]

@@ -25,68 +25,68 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs quality testing tf torch"
 DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/pypdfium2[${PYTHON_USEDEP}]
-	dev-python/pyclipper[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	<dev-python/pyclipper-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/shapely-3.0.0[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/weasyprint[${PYTHON_USEDEP}]
+	<dev-python/rapidfuzz-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/weasyprint-55.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.7.0[${PYTHON_USEDEP}]
 	dev-python/mplcursors[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.30.0[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tf2onnx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	dev? ( dev-python/onnx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.3.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hdf5storage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/requests-2.20.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/psutil-5.9.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinxemoji-0.1.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-copybutton-0.3.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/docutils-0.21[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-tabs-3.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/furo-2022.3.4[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxemoji-0.1.8[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.3.1[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/docutils-0.21[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-tabs-3.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/furo-2022.3.4[${PYTHON_USEDEP}] )
 	quality? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	quality? ( dev-python/isort[${PYTHON_USEDEP}] )
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
-	quality? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	quality? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/black-22.1[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
 	quality? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-5.3.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/hdf5storage[${PYTHON_USEDEP}] )
 	testing? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	testing? ( dev-python/requests[${PYTHON_USEDEP}] )
-	testing? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/requests-2.20.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/psutil-5.9.5[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tf2onnx[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )

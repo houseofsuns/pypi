@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.27[${PYTHON_USEDEP}]
+	~dev-python/six-1.16[${PYTHON_USEDEP}]
+	~dev-python/keyring-23.5[${PYTHON_USEDEP}]
+	~dev-python/cachetools-5.0[${PYTHON_USEDEP}]
 	dev-python/requests-pkcs12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/pygame[${PYTHON_USEDEP}]
 	dev-python/easydict[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-23.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-8.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipykernel-6.20.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipywidgets-7.6.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mathstropy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

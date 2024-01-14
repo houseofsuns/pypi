@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pytest-plugin"
 DEPENDENCIES="dev-python/schema-salad[${PYTHON_USEDEP}]
-	dev-python/junit-xml[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/junit-xml-1.8[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
 	pytest-plugin? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

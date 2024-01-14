@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cbor test"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	cbor? ( dev-python/cbor2[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/napari[${PYTHON_USEDEP}] )"

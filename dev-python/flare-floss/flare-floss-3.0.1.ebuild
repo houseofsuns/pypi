@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev"
-DEPENDENCIES="dev-python/tabulate[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/vivisect[${PYTHON_USEDEP}]
 	dev-python/viv-utils[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.9[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
+	~dev-python/networkx-3.1[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pefile[${PYTHON_USEDEP}]
+	~dev-python/rich-13.4.2[${PYTHON_USEDEP}]
+	>=dev-python/pefile-2022.5.30[${PYTHON_USEDEP}]
 	dev-python/binary2strings[${PYTHON_USEDEP}]
 	build? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
-	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	build? ( dev-python/build[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/setuptools-69.0.2[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-sugar-0.9.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-instafail[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pycodestyle-2.11.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.13.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

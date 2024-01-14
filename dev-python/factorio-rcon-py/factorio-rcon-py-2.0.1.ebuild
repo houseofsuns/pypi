@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async"
-DEPENDENCIES="async? ( dev-python/anyio[${PYTHON_USEDEP}] )"
+DEPENDENCIES="async? ( <dev-python/anyio-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

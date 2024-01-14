@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cplex cvx gurobi matplotlib"
 DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
 	dev-python/qiskit-algorithms[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	dev-python/docplex[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-40.1.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.6.3[${PYTHON_USEDEP}]
 	cplex? ( dev-python/cplex[${PYTHON_USEDEP}] )
 	cvx? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
 	gurobi? ( dev-python/gurobipy[${PYTHON_USEDEP}] )

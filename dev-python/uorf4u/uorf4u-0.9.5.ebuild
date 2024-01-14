@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/statistics[${PYTHON_USEDEP}]
 	dev-python/logomaker[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
 	dev-python/reportlab[${PYTHON_USEDEP}]
 	dev-python/msa4u[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

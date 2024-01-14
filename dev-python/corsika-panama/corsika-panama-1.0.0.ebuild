@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="hdf"
 DEPENDENCIES="dev-python/corsikaio[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/particle[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ipython-8.12.3[${PYTHON_USEDEP}]
 	dev-python/fluxcomp[${PYTHON_USEDEP}]
-	dev-python/myst-parser[${PYTHON_USEDEP}]
-	dev-python/nbsphinx[${PYTHON_USEDEP}]
-	hdf? ( dev-python/tables[${PYTHON_USEDEP}] )"
+	>=dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/nbsphinx-0.9.3[${PYTHON_USEDEP}]
+	hdf? ( >=dev-python/tables-3.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

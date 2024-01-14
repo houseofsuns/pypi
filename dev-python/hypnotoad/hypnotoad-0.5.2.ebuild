@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs gui-pyqt5 gui-pyside tests"
 DEPENDENCIES="dev-python/boututils[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	~dev-python/dill-0.3[${PYTHON_USEDEP}]
 	dev-python/func-timeout[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.2[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.18[${PYTHON_USEDEP}]
 	dev-python/optionsfactory[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.6[${PYTHON_USEDEP}]
 	dev-python/Qt-py[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/texttable[${PYTHON_USEDEP}] )
-	gui-pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	gui-pyside? ( dev-python/pyside2[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-argparse-0.3.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.1.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/texttable-1.6.7[${PYTHON_USEDEP}] )
+	gui-pyqt5? ( ~dev-python/PyQt5-5.12[${PYTHON_USEDEP}] )
+	gui-pyside? ( ~dev-python/pyside2-5.13[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-3.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

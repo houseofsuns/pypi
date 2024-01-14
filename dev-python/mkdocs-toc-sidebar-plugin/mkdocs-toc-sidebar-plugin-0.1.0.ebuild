@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/mkdocs-1.0.4[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-material-4.5.0[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

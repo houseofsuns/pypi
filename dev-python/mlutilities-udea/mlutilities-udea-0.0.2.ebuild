@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/feature-engine[${PYTHON_USEDEP}]
 	dev-python/lofo-importance[${PYTHON_USEDEP}]
 	dev-python/mlxtend[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-plot[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	<dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
 	dev-python/yellowbrick[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

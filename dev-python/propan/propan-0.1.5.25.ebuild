@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="async-kafka async-nats async-rabbit async-redis async-sqs doc"
 DEPENDENCIES="dev-python/fast-depends[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
+	>=dev-python/uvloop-0.14.0[${PYTHON_USEDEP}]
 	dev-python/watchfiles[${PYTHON_USEDEP}]
 	async-kafka? ( dev-python/aiokafka[${PYTHON_USEDEP}] )
 	async-nats? ( dev-python/nats-py[${PYTHON_USEDEP}] )
 	async-rabbit? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
-	async-redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	async-redis? ( >=dev-python/redis-4.2.0[${PYTHON_USEDEP}] )
 	async-sqs? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
-	doc? ( dev-python/email-validator[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/email-validator-2.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jsonref[${PYTHON_USEDEP}] )
 	doc? ( dev-python/polyfactory[${PYTHON_USEDEP}] )

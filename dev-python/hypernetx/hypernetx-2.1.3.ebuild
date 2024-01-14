@@ -24,52 +24,52 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all documentation linting packaging releases testing tutorials widget"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/networkx-3.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	>dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	>=dev-python/decorator-5.1.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/nb2plots[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jupyter-1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/igraph[${PYTHON_USEDEP}] )
 	all? ( dev-python/partition-igraph[${PYTHON_USEDEP}] )
 	all? ( dev-python/celluloid[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	documentation? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
+	documentation? ( >=dev-python/sphinx-rtd-theme-1.2.1[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	documentation? ( >=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}] )
 	linting? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	linting? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	linting? ( >=dev-python/pylint-2.17.2[${PYTHON_USEDEP}] )
 	linting? ( dev-python/pylint-exit[${PYTHON_USEDEP}] )
-	linting? ( dev-python/black[${PYTHON_USEDEP}] )
-	packaging? ( dev-python/build[${PYTHON_USEDEP}] )
-	packaging? ( dev-python/twine[${PYTHON_USEDEP}] )
-	packaging? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	packaging? ( dev-python/tox[${PYTHON_USEDEP}] )
+	linting? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	packaging? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	packaging? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	packaging? ( >=dev-python/setuptools-67.6.1[${PYTHON_USEDEP}] )
+	packaging? ( >=dev-python/tox-4.4.11[${PYTHON_USEDEP}] )
 	releases? ( dev-python/commitizen[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-xdist-3.2.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-4.4.11[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nbmake[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pylint-2.17.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pylint-exit[${PYTHON_USEDEP}] )
-	testing? ( dev-python/black[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/celluloid[${PYTHON_USEDEP}] )
 	testing? ( dev-python/igraph[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	tutorials? ( >=dev-python/jupyter-1.0[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/python-igraph[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/partition-igraph[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/celluloid[${PYTHON_USEDEP}] )

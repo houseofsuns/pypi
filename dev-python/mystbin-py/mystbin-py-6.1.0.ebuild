@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs speed"
-DEPENDENCIES="speed? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	speed? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="speed? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
+	speed? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-trio[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

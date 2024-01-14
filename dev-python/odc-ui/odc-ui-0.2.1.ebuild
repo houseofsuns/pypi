@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/datacube[${PYTHON_USEDEP}]
 	dev-python/ipyleaflet[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-8.0[${PYTHON_USEDEP}]
 	dev-python/jupyter-ui-poll[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

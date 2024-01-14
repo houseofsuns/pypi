@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev dev-docs dev-lint dev-test"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-0.25.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}]
 	dev-python/jgtutils[${PYTHON_USEDEP}]
 	dev-python/tlid[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-3.7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-4.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.4.0[${PYTHON_USEDEP}] )
 	dev-docs? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
 	dev-docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev-docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev-lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev-lint? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev-docs? ( >=dev-python/sphinx-rtd-theme-0.4.0[${PYTHON_USEDEP}] )
+	dev-lint? ( <dev-python/flake8-3.7.0[${PYTHON_USEDEP}] )
+	dev-lint? ( <dev-python/isort-4.4.0[${PYTHON_USEDEP}] )
 	dev-test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev-test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev-test? ( >=dev-python/pytest-3.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

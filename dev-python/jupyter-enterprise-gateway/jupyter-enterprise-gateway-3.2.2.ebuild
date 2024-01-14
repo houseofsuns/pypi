@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lint test"
-DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docker-3.5.0[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/jupyter-core[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]
+	<dev-python/jupyter-client-7.0[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-core-4.7.0[${PYTHON_USEDEP}]
+	<dev-python/jupyter-server-2.0[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.11[${PYTHON_USEDEP}]
+	>=dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	<dev-python/pyzmq-25.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
+	>=dev-python/tornado-6.1[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.3.0[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-2.1.3[${PYTHON_USEDEP}]
 	dev-python/yarn-api-client[${PYTHON_USEDEP}]
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mdformat-gfm[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mdformat[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )

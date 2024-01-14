@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
+	>=dev-python/netaddr-0.7.19[${PYTHON_USEDEP}]
 	dev-python/os-testr[${PYTHON_USEDEP}]
-	dev-python/oslo-concurrency[${PYTHON_USEDEP}]
-	dev-python/oslotest[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tempest[${PYTHON_USEDEP}]
+	>=dev-python/oslo-concurrency-3.26.0[${PYTHON_USEDEP}]
+	>=dev-python/oslotest-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/tempest-17.1.0[${PYTHON_USEDEP}]
 	dev-python/testrepository[${PYTHON_USEDEP}]
-	dev-python/testtools[${PYTHON_USEDEP}]"
+	>=dev-python/testtools-2.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

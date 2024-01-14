@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/mkdocs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mkdocs-0.17[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	test? ( dev-python/mkdocs-macros-test[${PYTHON_USEDEP}] )
-	test? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mkdocs-material-6.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

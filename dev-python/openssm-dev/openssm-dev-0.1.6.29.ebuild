@@ -26,21 +26,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cv"
 DEPENDENCIES="dev-python/adlfs[${PYTHON_USEDEP}]
 	dev-python/docx2txt[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2023.6.0[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
 	dev-python/gdrivefs[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-2.0[${PYTHON_USEDEP}]
 	dev-python/llama-hub[${PYTHON_USEDEP}]
 	dev-python/llama-index[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	cv? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pydocstyle[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	cv? ( >=dev-python/pillow-0.9.5[${PYTHON_USEDEP}] )
+	>=dev-python/pycryptodome-3.18.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10[${PYTHON_USEDEP}]
+	>=dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}]
+	>=dev-python/pypdf-3.15.2[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.19.0[${PYTHON_USEDEP}]
 	cv? ( dev-python/python-pptx[${PYTHON_USEDEP}] )
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	cv? ( dev-python/torch[${PYTHON_USEDEP}] )

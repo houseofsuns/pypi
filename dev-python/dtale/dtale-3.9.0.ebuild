@@ -27,7 +27,7 @@ IUSE="arctic arcticdb dash-bio r redis streamlit swifter tests"
 DEPENDENCIES="dev-python/dash-colorscales[${PYTHON_USEDEP}]
 	dev-python/dash-daq[${PYTHON_USEDEP}]
 	dev-python/Flask-Compress[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	>=dev-python/future-0.14.0[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	dev-python/missingno[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/dash-colorscales[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	>dev-python/openpyxl-3.2.0[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
 	dev-python/et-xmlfile[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/dash-colorscales[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/contourpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>dev-python/scipy-1.12.0[${PYTHON_USEDEP}]
 	arctic? ( dev-python/arctic[${PYTHON_USEDEP}] )
 	arcticdb? ( dev-python/arcticdb[${PYTHON_USEDEP}] )
 	dash-bio? ( dev-python/dash-bio[${PYTHON_USEDEP}] )
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/dash-colorscales[${PYTHON_USEDEP}]
 	redis? ( dev-python/redislite[${PYTHON_USEDEP}] )
 	streamlit? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	swifter? ( dev-python/swifter[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/ipython-8.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

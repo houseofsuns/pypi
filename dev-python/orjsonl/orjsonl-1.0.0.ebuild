@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/orjson-3.7.7[${PYTHON_USEDEP}]
 	dev-python/xopen[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/fonttools[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-4.21.1[${PYTHON_USEDEP}]
 	dev-python/ufoLib2[${PYTHON_USEDEP}]
 	dev-python/openstep-plist[${PYTHON_USEDEP}]
 	dev-python/glyphsLib[${PYTHON_USEDEP}]

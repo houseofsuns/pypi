@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="images"
-DEPENDENCIES="dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/oauthlib-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.0[${PYTHON_USEDEP}]
 	images? ( dev-python/ascii-magic[${PYTHON_USEDEP}] )
-	images? ( dev-python/pillow[${PYTHON_USEDEP}] )"
+	images? ( ~dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

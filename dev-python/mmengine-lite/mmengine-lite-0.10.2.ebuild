@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	all? ( dev-python/lmdb[${PYTHON_USEDEP}] )
 	all? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	all? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pydantic-1.10.9[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/aim[${PYTHON_USEDEP}] )
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	tests? ( dev-python/lmdb[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pydantic-1.10.9[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aim[${PYTHON_USEDEP}] )"

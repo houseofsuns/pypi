@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/bdkpython[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
-	dev-python/pyzbar[${PYTHON_USEDEP}]
-	dev-python/mss[${PYTHON_USEDEP}]
-	dev-python/pyside2[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	~dev-python/pygame-2.5.0[${PYTHON_USEDEP}]
+	~dev-python/pyzbar-0.1.9[${PYTHON_USEDEP}]
+	~dev-python/mss-9.0.1[${PYTHON_USEDEP}]
+	<dev-python/pyside2-6.0.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ansible-runner[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/openstacksdk[${PYTHON_USEDEP}]
-	dev-python/osc-lib[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.1[${PYTHON_USEDEP}]
+	>=dev-python/openstacksdk-0.48.0[${PYTHON_USEDEP}]
+	>=dev-python/osc-lib-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-3.2.2[${PYTHON_USEDEP}]
 	dev-python/python-heatclient[${PYTHON_USEDEP}]
 	dev-python/python-ironic-inspector-client[${PYTHON_USEDEP}]
-	dev-python/python-ironicclient[${PYTHON_USEDEP}]
-	dev-python/python-openstackclient[${PYTHON_USEDEP}]
+	>=dev-python/python-ironicclient-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/python-openstackclient-5.2.0[${PYTHON_USEDEP}]
 	dev-python/tripleo-common[${PYTHON_USEDEP}]
 	dev-python/validations-libs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

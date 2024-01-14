@@ -27,14 +27,14 @@ IUSE="hive hive-pure-sasl kerberos presto sqlalchemy trino"
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	hive? ( dev-python/sasl3[${PYTHON_USEDEP}] )
-	hive? ( dev-python/thrift[${PYTHON_USEDEP}] )
+	hive? ( >=dev-python/thrift-0.10.0[${PYTHON_USEDEP}] )
 	hive? ( dev-python/thrift-sasl[${PYTHON_USEDEP}] )
 	hive-pure-sasl? ( dev-python/pure-sasl[${PYTHON_USEDEP}] )
-	hive-pure-sasl? ( dev-python/thrift[${PYTHON_USEDEP}] )
+	hive-pure-sasl? ( >=dev-python/thrift-0.10.0[${PYTHON_USEDEP}] )
 	hive-pure-sasl? ( dev-python/thrift-sasl[${PYTHON_USEDEP}] )
-	kerberos? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
-	presto? ( dev-python/requests[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	trino? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	kerberos? ( >=dev-python/requests-kerberos-0.12.0[${PYTHON_USEDEP}] )
+	presto? ( >=dev-python/requests-1.0.0[${PYTHON_USEDEP}] )
+	sqlalchemy? ( <dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
+	trino? ( >=dev-python/requests-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

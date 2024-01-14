@@ -31,32 +31,32 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	all? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
 	viz? ( dev-python/dash[${PYTHON_USEDEP}] )
 	all? ( dev-python/dash[${PYTHON_USEDEP}] )
-	fit? ( dev-python/flatbuffers[${PYTHON_USEDEP}] )
-	all? ( dev-python/flatbuffers[${PYTHON_USEDEP}] )
-	fit? ( dev-python/iminuit[${PYTHON_USEDEP}] )
-	all? ( dev-python/iminuit[${PYTHON_USEDEP}] )
-	fit? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	all? ( dev-python/joblib[${PYTHON_USEDEP}] )
+	fit? ( <dev-python/flatbuffers-23.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/flatbuffers-23.0.0[${PYTHON_USEDEP}] )
+	fit? ( <dev-python/iminuit-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/iminuit-3.0.0[${PYTHON_USEDEP}] )
+	fit? ( <dev-python/joblib-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/joblib-2.0.0[${PYTHON_USEDEP}] )
 	fit? ( dev-python/logger-tt[${PYTHON_USEDEP}] )
 	all? ( dev-python/logger-tt[${PYTHON_USEDEP}] )
-	viz? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev-python/natsort[${PYTHON_USEDEP}]
+	viz? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/natsort-9.0.0[${PYTHON_USEDEP}]
 	fit? ( dev-python/numba[${PYTHON_USEDEP}] )
 	all? ( dev-python/numba[${PYTHON_USEDEP}] )
 	fit? ( dev-python/numpyro[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpyro[${PYTHON_USEDEP}] )
-	viz? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	all? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	dev-python/pandas[${PYTHON_USEDEP}]
-	viz? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	fit? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	viz? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	viz? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	viz? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	fit? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pyarrow-10.0.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	viz? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

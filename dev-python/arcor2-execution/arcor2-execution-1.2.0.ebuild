@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiofiles-23.1.0[${PYTHON_USEDEP}]
 	dev-python/aiologger[${PYTHON_USEDEP}]
 	dev-python/aiorun[${PYTHON_USEDEP}]
 	dev-python/arcor2-execution-data[${PYTHON_USEDEP}]
 	dev-python/arcor2-runtime[${PYTHON_USEDEP}]
 	dev-python/arcor2[${PYTHON_USEDEP}]
 	dev-python/dataclasses-jsonschema[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+	~dev-python/websockets-10.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

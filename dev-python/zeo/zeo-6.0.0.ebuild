@@ -43,6 +43,6 @@ DEPENDENCIES="dev-python/ZODB[${PYTHON_USEDEP}]
 	test? ( dev-python/msgpack[${PYTHON_USEDEP}] )
 	test? ( dev-python/zdaemon[${PYTHON_USEDEP}] )
 	test? ( dev-python/zope-testrunner[${PYTHON_USEDEP}] )
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	uvloop? ( >=dev-python/uvloop-0.5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/blinker[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/blinker-1.5[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	dev-python/typesystem[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
+	>=dev-python/peewee-3.14.4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyqt5-qt5[${PYTHON_USEDEP}]
 	dev-python/pyqt5[${PYTHON_USEDEP}]"

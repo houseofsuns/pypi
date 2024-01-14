@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="material"
-DEPENDENCIES="dev-python/mkdocs[${PYTHON_USEDEP}]
-	material? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/mkdocs-1.5.2[${PYTHON_USEDEP}]
+	material? ( >=dev-python/mkdocs-material-9.2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

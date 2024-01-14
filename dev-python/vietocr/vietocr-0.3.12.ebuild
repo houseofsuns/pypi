@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
 	dev-python/prefetch-generator[${PYTHON_USEDEP}]
 	dev-python/imgaug[${PYTHON_USEDEP}]
-	dev-python/lmdb[${PYTHON_USEDEP}]
+	>=dev-python/lmdb-1.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

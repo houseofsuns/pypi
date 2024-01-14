@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="img speed"
 DEPENDENCIES="speed? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	img? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	speed? ( dev-python/aiodns[${PYTHON_USEDEP}] )
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	speed? ( dev-python/cchardet[${PYTHON_USEDEP}] )
-	speed? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	speed? ( <dev-python/aiodns-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	speed? ( <dev-python/cchardet-3.0.0[${PYTHON_USEDEP}] )
+	speed? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
 	img? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

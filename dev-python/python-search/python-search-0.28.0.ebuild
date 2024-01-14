@@ -25,39 +25,39 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/PySimpleGUI[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2022.6.1[${PYTHON_USEDEP}]
+	<dev-python/dill-0.4.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	full? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
-	full? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	full? ( <dev-python/kafka-python-3.0.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/scipy-1.8.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	full? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	full? ( dev-python/redis[${PYTHON_USEDEP}] )
-	full? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	full? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	full? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/numpy-1.24.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/msgpack-numpy[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	full? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	dev-python/pdoc3[${PYTHON_USEDEP}]
+	<dev-python/pdoc3-0.11.0[${PYTHON_USEDEP}]
 	dev-python/keras[${PYTHON_USEDEP}]
 	full? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	dev-python/arize[${PYTHON_USEDEP}]
-	full? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	full? ( <dev-python/jupyterlab-4.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	dev-python/pyroscope-io[${PYTHON_USEDEP}]
 	dev-python/tensorflow-macos[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/jupyter[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/chardet-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/jupyter-2.0.0[${PYTHON_USEDEP}]
 	full? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	dev-python/accelerate[${PYTHON_USEDEP}]
-	dev-python/colorful[${PYTHON_USEDEP}]
+	<dev-python/colorful-0.6.0[${PYTHON_USEDEP}]
 	full? ( dev-python/ddtrace[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

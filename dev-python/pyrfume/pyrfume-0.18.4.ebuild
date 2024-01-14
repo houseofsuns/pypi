@@ -28,18 +28,18 @@ DEPENDENCIES="optimize? ( dev-python/deap[${PYTHON_USEDEP}] )
 	dev-python/eden-kernel[${PYTHON_USEDEP}]
 	dev-python/mordred[${PYTHON_USEDEP}]
 	dev-python/rdkit-pypi[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	dev-python/PubChemPy[${PYTHON_USEDEP}]
-	dev-python/quantities[${PYTHON_USEDEP}]
+	<dev-python/quantities-0.14.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	optimize? ( dev-python/dask[${PYTHON_USEDEP}] )
+	optimize? ( <=dev-python/dask-2021.3.0[${PYTHON_USEDEP}] )
 	dev-python/datajoint[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]"
+	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.6[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-5.5.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

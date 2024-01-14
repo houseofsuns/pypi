@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
-	dev-python/munch[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/openstacksdk[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	~dev-python/munch-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/natsort-8.4.0[${PYTHON_USEDEP}]
+	~dev-python/openstacksdk-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/paramiko-3.4.0[${PYTHON_USEDEP}]
 	dev-python/patool[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.18.5[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/yamale[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

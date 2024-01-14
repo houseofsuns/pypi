@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="proctitle"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
-	dev-python/icalendar[${PYTHON_USEDEP}]
-	dev-python/urwid[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-3.2[${PYTHON_USEDEP}]
+	>=dev-python/click-log-0.2.0[${PYTHON_USEDEP}]
+	>=dev-python/icalendar-4.0.3[${PYTHON_USEDEP}]
+	>=dev-python/urwid-1.3.0[${PYTHON_USEDEP}]
 	dev-python/pyxdg[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/configobj[${PYTHON_USEDEP}]
-	dev-python/atomicwrites[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+	>=dev-python/atomicwrites-0.1.7[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-1.0[${PYTHON_USEDEP}]
 	proctitle? ( dev-python/setproctitle[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

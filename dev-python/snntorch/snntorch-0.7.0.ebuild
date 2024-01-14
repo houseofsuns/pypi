@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	dev-python/nir[${PYTHON_USEDEP}]
 	dev-python/nirtorch[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

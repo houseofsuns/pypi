@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/networkx-3.2[${PYTHON_USEDEP}]
 	dev-python/parglare[${PYTHON_USEDEP}]
 	dev-python/Naked[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
 	dev-python/nodejs[${PYTHON_USEDEP}]
 	dev-python/node[${PYTHON_USEDEP}]
 	dev-python/importlib_resources[${PYTHON_USEDEP}]"

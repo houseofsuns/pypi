@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/whoosh[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/flask-sqlalchemy-3.0.3[${PYTHON_USEDEP}]
+	>=dev-python/whoosh-2.7.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

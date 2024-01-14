@@ -27,8 +27,8 @@ IUSE="dev"
 DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/pylsqpack[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
-	dev-python/service-identity[${PYTHON_USEDEP}]
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	>=dev-python/pyopenssl-22.0[${PYTHON_USEDEP}]
+	>=dev-python/service-identity-23.1.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/coverage-7.2.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

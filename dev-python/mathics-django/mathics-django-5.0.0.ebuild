@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="full"
 DEPENDENCIES="dev-python/Mathics-Scanner[${PYTHON_USEDEP}]
 	dev-python/Mathics3[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	full? ( dev-python/ujson[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

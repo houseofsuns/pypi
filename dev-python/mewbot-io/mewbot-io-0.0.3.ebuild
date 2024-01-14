@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/feedparser[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
+	~dev-python/feedparser-6.0.10[${PYTHON_USEDEP}]
 	dev-python/mewbot-core[${PYTHON_USEDEP}]
 	dev-python/py-cord[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bddxml coverage ipython-debugger testing"
 DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/pysingleton[${PYTHON_USEDEP}]
-	dev-python/colorful[${PYTHON_USEDEP}]
+	>=dev-python/colorful-0.3.11[${PYTHON_USEDEP}]
 	dev-python/tag-expressions[${PYTHON_USEDEP}]
 	dev-python/parse-type[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]

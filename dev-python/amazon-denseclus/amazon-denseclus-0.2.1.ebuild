@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gpu-cu11 gpu-cu12 test"
 DEPENDENCIES="dev-python/umap-learn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.2[${PYTHON_USEDEP}]
 	dev-python/hdbscan[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.4[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	gpu-cu11? ( dev-python/cuml-cu11[${PYTHON_USEDEP}] )
 	gpu-cu12? ( dev-python/cuml-cu12[${PYTHON_USEDEP}] )

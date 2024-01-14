@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.20[${PYTHON_USEDEP}]
 	dev-python/ndjson[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]"
+	~dev-python/deprecated-1.2.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

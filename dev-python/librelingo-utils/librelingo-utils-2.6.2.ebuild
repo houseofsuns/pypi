@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/librelingo-types[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]"
+	<dev-python/regex-2023.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

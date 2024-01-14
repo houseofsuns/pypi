@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/dendromatics[${PYTHON_USEDEP}]
 	dev-python/laspy[${PYTHON_USEDEP}]
 	dev-python/lazrs[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
 	dev-python/pyqt5[${PYTHON_USEDEP}]
-	dev-python/xlsxwriter[${PYTHON_USEDEP}]"
+	~dev-python/xlsxwriter-3.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

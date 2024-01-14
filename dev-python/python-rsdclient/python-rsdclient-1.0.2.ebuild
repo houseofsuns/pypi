@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/osc-lib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pbr-2.0[${PYTHON_USEDEP}]
+	>=dev-python/osc-lib-1.7.0[${PYTHON_USEDEP}]
 	dev-python/rsd-lib[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

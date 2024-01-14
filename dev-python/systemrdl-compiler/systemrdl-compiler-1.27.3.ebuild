@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/antlr4-python3-runtime-4.14[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

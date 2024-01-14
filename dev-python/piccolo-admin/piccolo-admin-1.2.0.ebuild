@@ -27,7 +27,7 @@ IUSE="all faker s3"
 DEPENDENCIES="dev-python/piccolo[${PYTHON_USEDEP}]
 	dev-python/piccolo-api[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-0.5.0[${PYTHON_USEDEP}]
 	dev-python/Hypercorn[${PYTHON_USEDEP}]
 	dev-python/targ[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]

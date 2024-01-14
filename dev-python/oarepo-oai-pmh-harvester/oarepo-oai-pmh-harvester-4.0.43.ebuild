@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/oarepo-runtime[${PYTHON_USEDEP}]
 	dev-python/oarepo-ui[${PYTHON_USEDEP}]
 	dev-python/sickle[${PYTHON_USEDEP}]

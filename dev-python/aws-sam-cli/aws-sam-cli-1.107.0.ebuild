@@ -25,56 +25,56 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev pre-dev"
 DEPENDENCIES="dev-python/chevron[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
+	~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.18.5[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
-	dev-python/aws-sam-translator[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	~dev-python/aws-sam-translator-1.83.0[${PYTHON_USEDEP}]
+	~dev-python/docker-7.0.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/aws-lambda-builders[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/cfn-lint[${PYTHON_USEDEP}]
+	~dev-python/tomlkit-0.12.3[${PYTHON_USEDEP}]
+	~dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/rich-13.7.0[${PYTHON_USEDEP}]
+	~dev-python/pyopenssl-23.3.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.21[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	>dev-python/regex-2021.10.8[${PYTHON_USEDEP}]
+	~dev-python/tzlocal-5.2[${PYTHON_USEDEP}]
+	~dev-python/cfn-lint-0.83.7[${PYTHON_USEDEP}]
 	dev-python/boto3-stubs[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pywin32[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-chevron[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/types-psutil-5.9.5.17[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/types-setuptools-69.0.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-Pygments[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-colorama[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-dateparser[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/types-docutils-0.20.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-jsonschema[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pyOpenSSL[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-metadata[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/parameterized-0.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-3.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-forked-1.6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-timeout-2.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-rerunfailures-13.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-metadata-2.0.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-json-report[${PYTHON_USEDEP}] )
-	dev? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/filelock-3.13.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/psutil-5.9.7[${PYTHON_USEDEP}] )
 	pre-dev? ( dev-python/ruff[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

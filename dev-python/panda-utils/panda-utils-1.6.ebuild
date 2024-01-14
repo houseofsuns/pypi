@@ -33,10 +33,10 @@ DEPENDENCIES="autopath? ( dev-python/panda3d[${PYTHON_USEDEP}] )
 	everything? ( dev-python/panda-utils[${PYTHON_USEDEP}] )
 	everything? ( dev-python/panda-utils[${PYTHON_USEDEP}] )
 	imagery? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	pipeline? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	pipeline? ( ~dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/panda3d-blend2bam[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/panda3d[${PYTHON_USEDEP}] )
-	runnable? ( dev-python/platformdirs[${PYTHON_USEDEP}] )"
+	runnable? ( ~dev-python/platformdirs-3.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

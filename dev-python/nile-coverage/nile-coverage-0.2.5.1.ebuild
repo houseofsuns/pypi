@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/cairo-nile[${PYTHON_USEDEP}]
-	dev-python/pytest-xdist[${PYTHON_USEDEP}]
+	>=dev-python/pytest-xdist-3.0.2[${PYTHON_USEDEP}]
 	dev-python/asynctest[${PYTHON_USEDEP}]
 	dev-python/pycobertura[${PYTHON_USEDEP}]
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )

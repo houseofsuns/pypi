@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all examples pd"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	examples? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	pd? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	examples? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	examples? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	examples? ( dev-python/python-json-logger[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-json-logger[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/httpx-0.27[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0[${PYTHON_USEDEP}]
+	examples? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
+	pd? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
+	examples? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )
+	examples? ( <dev-python/tabulate-0.10.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tabulate-0.10.0[${PYTHON_USEDEP}] )
+	examples? ( <dev-python/python-json-logger-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/python-json-logger-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/macaddress[${PYTHON_USEDEP}]
-	examples? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	dev-python/deepdiff[${PYTHON_USEDEP}]
+	examples? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
+	<dev-python/deepdiff-7.0.0[${PYTHON_USEDEP}]
 	dev-python/case-insensitive-dictionary[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	examples? ( dev-python/rich[${PYTHON_USEDEP}] )
-	all? ( dev-python/rich[${PYTHON_USEDEP}] )
+	examples? ( <dev-python/rich-14.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/rich-14.0.0[${PYTHON_USEDEP}] )
 	dev-python/pydantic-extra-types[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

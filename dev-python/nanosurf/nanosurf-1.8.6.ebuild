@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/notebook[${PYTHON_USEDEP}]
 	dev-python/pyside6[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/pyqtgraph-0.13.3[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.8[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/debugpy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

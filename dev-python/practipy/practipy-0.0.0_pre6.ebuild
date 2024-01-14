@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev gcloud"
-DEPENDENCIES="all? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
 	all? ( dev-python/docformatter[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-custom-exit-code[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-custom-exit-code-0.3.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-xdist-2.2.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytype[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tqdm-4.61[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docformatter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-custom-exit-code[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-custom-exit-code-0.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-2.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytype[${PYTHON_USEDEP}] )
 	gcloud? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	gcloud? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	gcloud? ( >=dev-python/tqdm-4.61[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

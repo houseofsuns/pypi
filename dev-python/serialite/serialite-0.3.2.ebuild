@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="fastapi numpy"
 DEPENDENCIES="fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	numpy? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
+	fastapi? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	dev-python/typing_extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

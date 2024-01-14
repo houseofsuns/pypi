@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.24.1[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-4.3.3[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.2.0[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]"
+	>=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-asyncio-0.23.2[${PYTHON_USEDEP}]
+	>=dev-python/coverage-7.2.5[${PYTHON_USEDEP}]
+	>=dev-python/pika-1.3.2[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

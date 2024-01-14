@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/reporters-db[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.6.3[${PYTHON_USEDEP}]
 	dev-python/pyahocorasick[${PYTHON_USEDEP}]
 	dev-python/fast-diff-match-patch[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	>=dev-python/regex-2020.1.8[${PYTHON_USEDEP}]
 	dev-python/courts-db[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

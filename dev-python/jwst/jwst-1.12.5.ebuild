@@ -31,14 +31,14 @@ DEPENDENCIES="dev-python/asdf[${PYTHON_USEDEP}]
 	dev-python/crds[${PYTHON_USEDEP}]
 	dev-python/drizzle[${PYTHON_USEDEP}]
 	dev-python/gwcs[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/photutils[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
 	dev-python/poppy[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.2.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22[${PYTHON_USEDEP}]
+	<dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/spherical-geometry[${PYTHON_USEDEP}]
 	dev-python/stcal[${PYTHON_USEDEP}]
 	dev-python/stdatamodels[${PYTHON_USEDEP}]
@@ -48,9 +48,9 @@ DEPENDENCIES="dev-python/asdf[${PYTHON_USEDEP}]
 	dev-python/tweakwcs[${PYTHON_USEDEP}]
 	dev-python/asdf-astropy[${PYTHON_USEDEP}]
 	dev-python/wiimatch[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>dev-python/packaging-19.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.11.4[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.8[${PYTHON_USEDEP}]
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-asdf[${PYTHON_USEDEP}] )
@@ -61,12 +61,12 @@ DEPENDENCIES="dev-python/asdf[${PYTHON_USEDEP}]
 	sdp? ( dev-python/jplephem[${PYTHON_USEDEP}] )
 	sdp? ( dev-python/pysiaf[${PYTHON_USEDEP}] )
 	test? ( dev-python/ci-watson[${PYTHON_USEDEP}] )
-	test? ( dev-python/colorama[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/colorama-0.4.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/readchar[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/requests-mock-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

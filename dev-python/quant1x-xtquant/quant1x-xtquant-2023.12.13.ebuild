@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/setuptools-69.0.2[${PYTHON_USEDEP}]
+	~dev-python/twine-4.0.2[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.41.2[${PYTHON_USEDEP}]
+	~dev-python/pymongo-4.5.0[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1.35[${PYTHON_USEDEP}]
+	~dev-python/future-0.18.3[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/pywin32[${PYTHON_USEDEP}]
 	dev-python/quant1x-base[${PYTHON_USEDEP}]"

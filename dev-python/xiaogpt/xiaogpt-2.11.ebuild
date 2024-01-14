@@ -33,9 +33,9 @@ DEPENDENCIES="dev-python/miservice_fork[${PYTHON_USEDEP}]
 	dev-python/edge-tts[${PYTHON_USEDEP}]
 	dev-python/EdgeGPT[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.12.0[${PYTHON_USEDEP}]
 	dev-python/google-search-results[${PYTHON_USEDEP}]
 	dev-python/google-generativeai[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]"
+	>=dev-python/numexpr-2.8.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

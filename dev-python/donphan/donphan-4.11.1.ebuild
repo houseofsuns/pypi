@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.5.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib_trio[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinxcontrib-websupport-1.2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

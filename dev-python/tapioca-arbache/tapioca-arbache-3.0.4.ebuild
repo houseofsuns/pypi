@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pre-commit[${PYTHON_USEDEP}]
 	dev-python/python-status[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/responses[${PYTHON_USEDEP}]
+	<dev-python/requests-oauthlib-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/responses-0.14.0[${PYTHON_USEDEP}]
 	dev-python/tapioca-wrapper[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

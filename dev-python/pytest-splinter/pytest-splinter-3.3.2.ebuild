@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/splinter[${PYTHON_USEDEP}]
 	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-3.0.0[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

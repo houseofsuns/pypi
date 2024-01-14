@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/py42[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-4.6.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.14.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

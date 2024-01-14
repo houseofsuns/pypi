@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="coap eltakotool serial"
 DEPENDENCIES="serial? ( dev-python/pyserial_asyncio[${PYTHON_USEDEP}] )
-	serial? ( dev-python/pyserial[${PYTHON_USEDEP}] )
+	serial? ( >=dev-python/pyserial-3.4[${PYTHON_USEDEP}] )
 	coap? ( dev-python/aiocoap[${PYTHON_USEDEP}] )
 	eltakotool? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	eltakotool? ( dev-python/pyxdg[${PYTHON_USEDEP}] )"

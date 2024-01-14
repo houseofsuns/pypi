@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES="dev-python/ensure[${PYTHON_USEDEP}]
 	dev-python/py-youtube[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mypy-0.971[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-3.25.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

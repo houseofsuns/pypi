@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/html2text[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/html2text-2016.5.29[${PYTHON_USEDEP}]
 	dev-python/cadcutils[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.4.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

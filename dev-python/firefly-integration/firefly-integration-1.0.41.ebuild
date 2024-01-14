@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/firefly-framework[${PYTHON_USEDEP}]
 	dev-python/awswrangler[${PYTHON_USEDEP}]
 	dev-python/moz-sql-parser[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]"
+	>=dev-python/graphviz-0.16[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

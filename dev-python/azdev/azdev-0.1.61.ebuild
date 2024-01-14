@@ -30,18 +30,18 @@ DEPENDENCIES="dev-python/azure-multiapi-storage[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/knack[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
+	<dev-python/pylint-3.0[${PYTHON_USEDEP}]
 	dev-python/pytest-xdist[${PYTHON_USEDEP}]
 	dev-python/pytest-forked[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+	~dev-python/sphinx-1.6.7[${PYTHON_USEDEP}]
 	dev-python/tox[${PYTHON_USEDEP}]
 	dev-python/jsbeautifier[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
+	~dev-python/deepdiff-6.3.0[${PYTHON_USEDEP}]
 	dev-python/azure-cli-diff-tool[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]"
+	~dev-python/wheel-0.30.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,35 +27,35 @@ IUSE="docs experiment"
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/PyWavelets[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/coverage-8.0.0[${PYTHON_USEDEP}]
 	dev-python/elephant[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	<dev-python/graphviz-0.21.0[${PYTHON_USEDEP}]
+	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
 	dev-python/machinable[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/myst-parser-0.19.0[${PYTHON_USEDEP}] )
 	dev-python/neo[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/numpydoc-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/pydata-sphinx-theme-0.14[${PYTHON_USEDEP}] )
 	dev-python/pyinform[${PYTHON_USEDEP}]
-	experiment? ( dev-python/pyserial[${PYTHON_USEDEP}] )
+	experiment? ( <dev-python/pyserial-4.0[${PYTHON_USEDEP}] )
 	dev-python/pyvis[${PYTHON_USEDEP}]
-	dev-python/quantities[${PYTHON_USEDEP}]
+	<dev-python/quantities-0.15.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/viziphant[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

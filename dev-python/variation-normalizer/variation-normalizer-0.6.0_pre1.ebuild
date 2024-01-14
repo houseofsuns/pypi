@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/biocommons-seqrepo[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.0[${PYTHON_USEDEP}]
 	dev-python/ga4gh-vrs[${PYTHON_USEDEP}]
 	dev-python/gene-normalizer[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/azure-cognitiveservices-language-luis[${PYTHON_USEDEP}]
 	dev-python/botbuilder-schema[${PYTHON_USEDEP}]
 	dev-python/botbuilder-core[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiounittest[${PYTHON_USEDEP}]"
+	>=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
+	>=dev-python/aiounittest-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

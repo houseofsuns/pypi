@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-swiftclient[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-swiftclient-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/python-keystoneclient-0.2.3[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]"
+	>=dev-python/python-magic-0.4.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

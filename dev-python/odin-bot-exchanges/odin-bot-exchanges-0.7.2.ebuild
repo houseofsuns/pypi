@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
 	dev-python/odin-bot-entities[${PYTHON_USEDEP}]
 	dev-python/binance-connector[${PYTHON_USEDEP}]
 	dev-python/orionx-python-client[${PYTHON_USEDEP}]"

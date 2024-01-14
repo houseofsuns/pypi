@@ -26,20 +26,20 @@ KEYWORDS="~amd64 ~x86"
 IUSE="analysis docs test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-postgres-extra[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
-	analysis? ( dev-python/black[${PYTHON_USEDEP}] )
-	analysis? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	~dev-python/deprecation-2.0.7[${PYTHON_USEDEP}]
+	analysis? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	analysis? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	analysis? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	analysis? ( dev-python/isort[${PYTHON_USEDEP}] )
+	analysis? ( ~dev-python/autopep8-1.4.4[${PYTHON_USEDEP}] )
+	analysis? ( ~dev-python/isort-4.3.20[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/sl-docformatter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/dj-database-url[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tox-3.14.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-5.3.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-django-3.7.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/dj-database-url-0.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-autoslug[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-bleach[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )"

@@ -29,12 +29,12 @@ DEPENDENCIES="dev? ( dev-python/pyontutils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	services? ( dev-python/orthauth[${PYTHON_USEDEP}] )
 	services? ( dev-python/pyontutils[${PYTHON_USEDEP}] )
-	services? ( dev-python/rdflib[${PYTHON_USEDEP}] )
+	services? ( >=dev-python/rdflib-6.0.0[${PYTHON_USEDEP}] )
 	services? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/orthauth[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyontutils[${PYTHON_USEDEP}] )
-	test? ( dev-python/rdflib[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/rdflib-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/mysql-connector-python[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]
 	dev-python/connexion[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
+	>=dev-python/python-jose-3.2.0[${PYTHON_USEDEP}]
 	dev-python/makefun[${PYTHON_USEDEP}]
-	mongo? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	mongo? ( <dev-python/pymongo-4.0[${PYTHON_USEDEP}] )
 	mongo? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

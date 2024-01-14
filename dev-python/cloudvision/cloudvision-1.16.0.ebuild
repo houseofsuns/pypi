@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.46.0[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.3[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
 	dev-python/types-protobuf[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]"

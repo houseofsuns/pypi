@@ -28,16 +28,16 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/gtfparse[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/leidenalg[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/pyreadr[${PYTHON_USEDEP}]
 	dev-python/pytoml[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
 	dev-python/session-info[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.63.0[${PYTHON_USEDEP}]
 	copykat? ( dev-python/rpy2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	doc? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/docutils-0.8[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
@@ -46,8 +46,8 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinxcontrib-bibtex-1.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"

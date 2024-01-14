@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.1.1[${PYTHON_USEDEP}]
 	dev-python/invenio-rdm-records[${PYTHON_USEDEP}]
 	dev-python/invenio-records-marc21[${PYTHON_USEDEP}]
 	dev-python/invenio-records-lom[${PYTHON_USEDEP}]
-	dev-python/jq[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/jq-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black-ng[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-app[${PYTHON_USEDEP}] )

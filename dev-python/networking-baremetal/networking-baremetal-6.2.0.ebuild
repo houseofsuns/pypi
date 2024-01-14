@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/keystoneauth1[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/keystoneauth1-3.14.0[${PYTHON_USEDEP}]
 	dev-python/ncclient[${PYTHON_USEDEP}]
 	dev-python/neutron-lib[${PYTHON_USEDEP}]
 	dev-python/neutron[${PYTHON_USEDEP}]
-	dev-python/openstacksdk[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
+	>=dev-python/openstacksdk-0.31.2[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-3.15.3[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.36.0[${PYTHON_USEDEP}]
 	dev-python/oslo-messaging[${PYTHON_USEDEP}]
 	dev-python/oslo-service[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.40.2[${PYTHON_USEDEP}]
+	>=dev-python/pbr-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-6.0.0[${PYTHON_USEDEP}]
 	dev-python/tooz[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

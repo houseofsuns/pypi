@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cmd2[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cmd2-2.4.2[${PYTHON_USEDEP}]
 	dev-python/natural[${PYTHON_USEDEP}]
 	dev-python/poseidon-core[${PYTHON_USEDEP}]
-	dev-python/texttable[${PYTHON_USEDEP}]"
+	~dev-python/texttable-1.6.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

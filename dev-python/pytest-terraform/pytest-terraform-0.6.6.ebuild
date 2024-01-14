@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/portalocker[${PYTHON_USEDEP}]
-	dev-python/pytest-xdist[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pytest-6.0[${PYTHON_USEDEP}]
+	>=dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/portalocker-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-xdist-1.31.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

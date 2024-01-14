@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/emzed[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	~dev-python/PyQt5-5.15.7[${PYTHON_USEDEP}]
 	dev-python/guidata[${PYTHON_USEDEP}]
 	dev-python/pythonqwt[${PYTHON_USEDEP}]
 	dev-python/guiqwt303[${PYTHON_USEDEP}]

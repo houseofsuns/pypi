@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62.0[${PYTHON_USEDEP}]
 	dev-python/hyperopt[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.2[${PYTHON_USEDEP}]
 	dev-python/mendeleev[${PYTHON_USEDEP}]
 	dev-python/rxntools[${PYTHON_USEDEP}]
-	dev-python/pycuda[${PYTHON_USEDEP}]
+	>=dev-python/pycuda-2022.1[${PYTHON_USEDEP}]
 	dev-python/rdkit[${PYTHON_USEDEP}]
 	dev-python/deepchem[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

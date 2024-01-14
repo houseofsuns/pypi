@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="manual"
 DEPENDENCIES="dev-python/jsonpyth[${PYTHON_USEDEP}]
-	dev-python/pygal[${PYTHON_USEDEP}]
+	<dev-python/pygal-4.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	manual? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	manual? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
-	manual? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )"
+	manual? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
+	manual? ( <dev-python/sphinxcontrib-programoutput-0.18[${PYTHON_USEDEP}] )
+	manual? ( <dev-python/sphinx-copybutton-0.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/marshmallow[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/marshmallow-3.14.1[${PYTHON_USEDEP}]
 	dev-python/sweetrpg-model-core[${PYTHON_USEDEP}]
 	dev-python/sweetrpg-api-core[${PYTHON_USEDEP}]
 	dev-python/sweetrpg-library-objects[${PYTHON_USEDEP}]

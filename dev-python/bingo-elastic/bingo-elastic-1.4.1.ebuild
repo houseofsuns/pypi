@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/epam-indigo[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]"
+	<dev-python/elasticsearch-8.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

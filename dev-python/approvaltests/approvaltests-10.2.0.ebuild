@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-4.0.0[${PYTHON_USEDEP}]
 	dev-python/empty-files[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/allpairspy[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.6.2[${PYTHON_USEDEP}]
+	>=dev-python/pyperclip-1.5.29[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.4.0[${PYTHON_USEDEP}]
+	>=dev-python/allpairspy-2.1.0[${PYTHON_USEDEP}]
 	dev-python/mrjob[${PYTHON_USEDEP}]
-	dev-python/testfixtures[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
+	>=dev-python/testfixtures-7.1.0[${PYTHON_USEDEP}]
+	>=dev-python/mock-5.1.0[${PYTHON_USEDEP}]
 	dev-python/approval-utilities[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

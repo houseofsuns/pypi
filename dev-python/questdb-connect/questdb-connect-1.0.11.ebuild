@@ -27,10 +27,10 @@ IUSE="test"
 DEPENDENCIES="test? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	test? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	test? ( dev-python/apache-superset[${PYTHON_USEDEP}] )
-	test? ( dev-python/sqlparse[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/sqlparse-0.4.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

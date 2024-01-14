@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="eventlet gevent setproctitle tornado"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-3.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	eventlet? ( dev-python/eventlet[${PYTHON_USEDEP}] )
 	gevent? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	setproctitle? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
-	tornado? ( dev-python/tornado[${PYTHON_USEDEP}] )"
+	tornado? ( >=dev-python/tornado-0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

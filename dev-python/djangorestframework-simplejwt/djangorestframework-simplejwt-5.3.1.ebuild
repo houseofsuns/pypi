@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="crypto dev doc lint python-jose test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.12[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	test? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -55,8 +55,8 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-jose[${PYTHON_USEDEP}] )
-	python-jose? ( dev-python/python-jose[${PYTHON_USEDEP}] )
-	crypto? ( dev-python/cryptography[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/python-jose-3.3.0[${PYTHON_USEDEP}] )
+	python-jose? ( ~dev-python/python-jose-3.3.0[${PYTHON_USEDEP}] )
+	crypto? ( >=dev-python/cryptography-3.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

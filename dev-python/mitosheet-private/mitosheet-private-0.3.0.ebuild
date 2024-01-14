@@ -27,6 +27,6 @@ IUSE="deploy"
 DEPENDENCIES="dev-python/mitosheet[${PYTHON_USEDEP}]
 	deploy? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/twine[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/setuptools[${PYTHON_USEDEP}] )"
+	deploy? ( ~dev-python/setuptools-56.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

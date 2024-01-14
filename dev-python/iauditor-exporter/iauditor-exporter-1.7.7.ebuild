@@ -26,23 +26,23 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all_db mysql postgres sql"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+	>=dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	all_db? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	all_db? ( <dev-python/mysqlclient-3.0.0[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/mysqlclient-3.0.0[${PYTHON_USEDEP}] )
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
 	all_db? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	all_db? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	sql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	dev-python/python_dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.2[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-5.0.0[${PYTHON_USEDEP}]
 	dev-python/safetyculture-sdk-python-beta[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-2.0.0[${PYTHON_USEDEP}]
 	dev-python/unicodecsv[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

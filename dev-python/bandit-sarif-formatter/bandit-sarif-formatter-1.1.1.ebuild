@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jschema-to-python[${PYTHON_USEDEP}]
-	dev-python/sarif-om[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/jschema-to-python-1.2.3[${PYTHON_USEDEP}]
+	>=dev-python/sarif-om-1.0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

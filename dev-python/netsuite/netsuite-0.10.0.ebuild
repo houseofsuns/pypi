@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli odbc orjson soap-api"
 DEPENDENCIES="dev-python/authlib[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	all? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	cli? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	soap-api? ( dev-python/zeep[${PYTHON_USEDEP}] )
-	all? ( dev-python/zeep[${PYTHON_USEDEP}] )
+	<dev-python/httpx-0.26[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	orjson? ( <dev-python/orjson-4.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/orjson-4.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )
+	soap-api? ( <dev-python/zeep-5.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/zeep-5.0[${PYTHON_USEDEP}] )
 	odbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	dev-python/oauthlib[${PYTHON_USEDEP}]"
+	<dev-python/oauthlib-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

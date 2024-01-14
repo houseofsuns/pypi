@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ci dev"
 DEPENDENCIES="ci? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )"

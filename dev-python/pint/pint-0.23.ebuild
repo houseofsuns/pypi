@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	bench? ( dev-python/pytest-codspeed[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
 	mip? ( dev-python/mip[${PYTHON_USEDEP}] )
-	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	numpy? ( >=dev-python/numpy-1.19.5[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pint-pandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	testbase? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testbase? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
 	testbase? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	uncertainties? ( dev-python/uncertainties[${PYTHON_USEDEP}] )
+	uncertainties? ( >=dev-python/uncertainties-3.1.6[${PYTHON_USEDEP}] )
 	xarray? ( dev-python/xarray[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

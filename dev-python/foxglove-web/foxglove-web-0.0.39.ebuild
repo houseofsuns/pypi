@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extra"
-DEPENDENCIES="dev-python/aiodns[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
 	dev-python/arq[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
+	>=dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
 	dev-python/buildpg[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.21.1[${PYTHON_USEDEP}]
+	>=dev-python/itsdangerous-1.1.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.1.1[${PYTHON_USEDEP}]
+	>=dev-python/sentry-sdk-1.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	extra? ( dev-python/aiodns[${PYTHON_USEDEP}] )
-	extra? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	extra? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
-	extra? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	extra? ( dev-python/requests[${PYTHON_USEDEP}] )
+	>=dev-python/uvicorn-0.13.3[${PYTHON_USEDEP}]
+	extra? ( >=dev-python/aiodns-2.0.0[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/ipython-7.7.0[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/requests-2.24.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/watchgod[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

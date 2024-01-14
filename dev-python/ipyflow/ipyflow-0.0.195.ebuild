@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test typecheck"
 DEPENDENCIES="dev-python/ipyflow-core[${PYTHON_USEDEP}]
 	dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
+	>=dev-python/jupyterlab-3.0[${PYTHON_USEDEP}]
 	dev-python/nbclassic[${PYTHON_USEDEP}]
 	dev-python/notebook[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipyflow-core[${PYTHON_USEDEP}] )

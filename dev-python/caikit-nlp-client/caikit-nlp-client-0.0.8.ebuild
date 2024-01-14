@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests types"
 DEPENDENCIES="dev-python/grpcio-reflection[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/grpcio-tools-1.59.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/caikit-nlp-client[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/grpcio-reflection[${PYTHON_USEDEP}]
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/grpcio-health-checking[${PYTHON_USEDEP}] )
 	tests? ( dev-python/caikit[${PYTHON_USEDEP}] )
-	types? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	types? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

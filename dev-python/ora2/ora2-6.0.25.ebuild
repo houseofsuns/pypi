@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/Xblock[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+	>=dev-python/bleach-6.0.0[${PYTHON_USEDEP}]
 	dev-python/path-py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

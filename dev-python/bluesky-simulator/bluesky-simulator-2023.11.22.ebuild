@@ -27,7 +27,7 @@ IUSE="console dev full pygame qt5 qt6 test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.0[${PYTHON_USEDEP}]
 	dev-python/zmq[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/bluesky-simdata[${PYTHON_USEDEP}]

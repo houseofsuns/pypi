@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs docs_spelling lint test testing"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/hvac[${PYTHON_USEDEP}]
+	<dev-python/hvac-0.10.12[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

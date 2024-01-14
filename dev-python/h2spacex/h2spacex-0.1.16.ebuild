@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/scapy[${PYTHON_USEDEP}]
 	dev-python/brotlipy[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]"
+	~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

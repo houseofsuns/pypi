@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
-	dev-python/python-editor[${PYTHON_USEDEP}]
+	<dev-python/python-editor-2.0[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
 	dev-python/giturlparse[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

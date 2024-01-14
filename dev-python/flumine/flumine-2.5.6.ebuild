@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="speed"
 DEPENDENCIES="dev-python/betfairlightweight[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
+	<dev-python/tenacity-8.2.4[${PYTHON_USEDEP}]
+	~dev-python/python-json-logger-2.0.7[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/betconnect[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]

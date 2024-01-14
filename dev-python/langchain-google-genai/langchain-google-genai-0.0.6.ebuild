@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="images"
 DEPENDENCIES="dev-python/google-generativeai[${PYTHON_USEDEP}]
 	dev-python/langchain-core[${PYTHON_USEDEP}]
-	images? ( dev-python/pillow[${PYTHON_USEDEP}] )"
+	images? ( <dev-python/pillow-11.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

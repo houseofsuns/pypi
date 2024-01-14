@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/django-classy-tags[${PYTHON_USEDEP}]
 	dev-python/django-guardian[${PYTHON_USEDEP}]
 	dev-python/django-modelforms[${PYTHON_USEDEP}]
 	dev-python/django-mptt[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/first[${PYTHON_USEDEP}]
 	dev-python/namedentities[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/django-classy-tags[${PYTHON_USEDEP}]
 	competition? ( dev-python/django-embed-video[${PYTHON_USEDEP}] )
 	competition? ( dev-python/django-formtools[${PYTHON_USEDEP}] )
 	competition? ( dev-python/django-mathfilters[${PYTHON_USEDEP}] )
-	competition? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
+	competition? ( >dev-python/djangorestframework-3.11[${PYTHON_USEDEP}] )
 	competition? ( dev-python/drf-nested-routers[${PYTHON_USEDEP}] )
 	competition? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	competition? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )

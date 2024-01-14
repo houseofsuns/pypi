@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="completion docs linters test"
-DEPENDENCIES="completion? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="completion? ( >=dev-python/argcomplete-2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-6.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-pyproject[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
 	linters? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/tox-4.11.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

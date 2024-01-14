@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/elasticsearch[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/elasticsearch-6.3.1[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.9.0[${PYTHON_USEDEP}]
 	dev-python/sortinghat[${PYTHON_USEDEP}]
 	dev-python/grimoirelab-toolkit[${PYTHON_USEDEP}]
 	dev-python/cereslib[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/elasticsearch[${PYTHON_USEDEP}]
 	dev-python/perceval-opnfv[${PYTHON_USEDEP}]
 	dev-python/perceval-puppet[${PYTHON_USEDEP}]
 	dev-python/perceval-weblate[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]"
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

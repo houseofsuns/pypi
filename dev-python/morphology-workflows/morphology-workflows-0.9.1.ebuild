@@ -28,19 +28,19 @@ DEPENDENCIES="dev-python/data-validation-framework[${PYTHON_USEDEP}]
 	dev-python/diameter-synthesis[${PYTHON_USEDEP}]
 	dev-python/luigi[${PYTHON_USEDEP}]
 	dev-python/luigi-tools[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4[${PYTHON_USEDEP}]
 	dev-python/morphapi[${PYTHON_USEDEP}]
 	dev-python/morph-tool[${PYTHON_USEDEP}]
 	dev-python/morphio[${PYTHON_USEDEP}]
 	dev-python/neurom[${PYTHON_USEDEP}]
 	dev-python/neuror[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5[${PYTHON_USEDEP}]
 	dev-python/plotly-helper[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/rst2pdf[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.44[${PYTHON_USEDEP}]
 	allen_brain? ( dev-python/allensdk[${PYTHON_USEDEP}] )
 	docs? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
@@ -49,13 +49,13 @@ DEPENDENCIES="dev-python/data-validation-framework[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-bluebrain-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
 	mouselight? ( dev-python/bg-atlasapi[${PYTHON_USEDEP}] )
-	test? ( dev-python/dictdiffer[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/dictdiffer-0.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/diff-pdf-visually[${PYTHON_USEDEP}] )
 	test? ( dev-python/dir-content-diff[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-console-scripts-1.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-xdist-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

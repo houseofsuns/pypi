@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
-	dev-python/pyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rpyc[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.7[${PYTHON_USEDEP}]
+	>=dev-python/deepmerge-0.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pyaml-20.4.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	>=dev-python/rpyc-4.1.1[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

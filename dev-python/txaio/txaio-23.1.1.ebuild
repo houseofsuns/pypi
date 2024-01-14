@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev twisted"
-DEPENDENCIES="all? ( dev-python/zope-interface[${PYTHON_USEDEP}] )
-	all? ( dev-python/twisted[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( >=dev-python/zope-interface-5.2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/twisted-20.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-2.6.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-1.8.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.2.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyenchant-1.6.6[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinxcontrib-spelling-2.1.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.1.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-2.1.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-1.6.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox-gh-actions[${PYTHON_USEDEP}] )
-	twisted? ( dev-python/zope-interface[${PYTHON_USEDEP}] )
-	twisted? ( dev-python/twisted[${PYTHON_USEDEP}] )"
+	twisted? ( >=dev-python/zope-interface-5.2.0[${PYTHON_USEDEP}] )
+	twisted? ( >=dev-python/twisted-20.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

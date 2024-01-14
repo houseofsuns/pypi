@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs gui magic tests"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/asn1crypto[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/networkx-2.2[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.3.1[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.3.0[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.2[${PYTHON_USEDEP}]
+	>=dev-python/asn1crypto-0.24.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/pydot-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/ipython-5.0.0[${PYTHON_USEDEP}]
 	gui? ( dev-python/pyperclip[${PYTHON_USEDEP}] )
 	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/sphinxcontrib-programoutput-0.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	magic? ( dev-python/python-magic[${PYTHON_USEDEP}] )
-	tests? ( dev-python/python-magic[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
+	magic? ( >=dev-python/python-magic-0.4.15[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/python-magic-0.4.15[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mock-2.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nose[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )

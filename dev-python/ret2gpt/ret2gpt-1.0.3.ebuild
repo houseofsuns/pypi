@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/enrich[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/enrich-1.2.7[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
+	~dev-python/rich-13.0.1[${PYTHON_USEDEP}]
 	dev-python/unstructured[${PYTHON_USEDEP}]
 	dev-python/pdf2image[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

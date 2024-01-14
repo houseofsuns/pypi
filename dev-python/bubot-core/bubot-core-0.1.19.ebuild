@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cbor2[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/cbor2-5.0[${PYTHON_USEDEP}]
 	dev-python/Bubot-Helpers[${PYTHON_USEDEP}]
 	dev-python/Bubot-CoAP[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

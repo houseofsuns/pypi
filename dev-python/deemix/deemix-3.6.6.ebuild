@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/mutagen[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/deezer-py[${PYTHON_USEDEP}]
-	spotify? ( dev-python/spotipy[${PYTHON_USEDEP}] )"
+	spotify? ( >=dev-python/spotipy-2.11.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

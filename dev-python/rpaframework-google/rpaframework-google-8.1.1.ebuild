@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/rpaframework-core[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
 	dev-python/robotframework-pythonlibcore[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
+	<dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/google-auth-httplib2-0.2.0[${PYTHON_USEDEP}]
+	<dev-python/google-auth-oauthlib-0.6.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-language[${PYTHON_USEDEP}]
 	dev-python/google-cloud-speech[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
@@ -38,6 +38,6 @@ DEPENDENCIES="dev-python/rpaframework-core[${PYTHON_USEDEP}]
 	dev-python/google-cloud-videointelligence[${PYTHON_USEDEP}]
 	dev-python/google-cloud-vision[${PYTHON_USEDEP}]
 	dev-python/google-cloud-documentai[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]"
+	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

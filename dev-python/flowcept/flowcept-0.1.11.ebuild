@@ -25,44 +25,44 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dask full mlflow mongo tensorboard webserver zambeze"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/redis-4.4.2[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
 	dev-python/nvidia-ml-py[${PYTHON_USEDEP}]
-	dask? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( ~dev-python/tomli-1.1.0[${PYTHON_USEDEP}] )
+	dask? ( ~dev-python/dask-2022.12.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	full? ( dev-python/redis[${PYTHON_USEDEP}] )
-	full? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/redis-4.4.2[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/psutil-5.9.5[${PYTHON_USEDEP}] )
 	full? ( dev-python/nvidia-ml-py[${PYTHON_USEDEP}] )
-	full? ( dev-python/pika[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/pika-1.3.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/mlflow-skinny[${PYTHON_USEDEP}] )
 	full? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	full? ( dev-python/alembic[${PYTHON_USEDEP}] )
-	full? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	full? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/alembic-1.8.1[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/watchdog-2.2.1[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/pandas-1.5.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	full? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	full? ( dev-python/tbparse[${PYTHON_USEDEP}] )
-	full? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	full? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	full? ( dev-python/dask[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/pymongo-4.3.3[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/tomli-1.1.0[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/dask-2022.12.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
-	full? ( dev-python/flask[${PYTHON_USEDEP}] )
-	full? ( dev-python/requests[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/flask-2.2.2[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/flask-restful[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/mlflow-skinny[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	mlflow? ( dev-python/alembic[${PYTHON_USEDEP}] )
-	mlflow? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	mongo? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	tensorboard? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	mlflow? ( ~dev-python/alembic-1.8.1[${PYTHON_USEDEP}] )
+	mlflow? ( ~dev-python/watchdog-2.2.1[${PYTHON_USEDEP}] )
+	mongo? ( ~dev-python/pymongo-4.3.3[${PYTHON_USEDEP}] )
+	tensorboard? ( ~dev-python/pandas-1.5.1[${PYTHON_USEDEP}] )
 	tensorboard? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	tensorboard? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorboard? ( dev-python/tbparse[${PYTHON_USEDEP}] )
 	webserver? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
-	webserver? ( dev-python/flask[${PYTHON_USEDEP}] )
-	webserver? ( dev-python/requests[${PYTHON_USEDEP}] )
+	webserver? ( ~dev-python/flask-2.2.2[${PYTHON_USEDEP}] )
+	webserver? ( ~dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
 	webserver? ( dev-python/flask-restful[${PYTHON_USEDEP}] )
-	zambeze? ( dev-python/pika[${PYTHON_USEDEP}] )"
+	zambeze? ( ~dev-python/pika-1.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

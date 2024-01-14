@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all api aws bel eidos_offline explanation geneways graph grounding hypothesis isi machine owl plot reach_offline sbml sklearn_belief trips_offline"
 DEPENDENCIES="dev-python/pysb[${PYTHON_USEDEP}]
 	dev-python/objectpath[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.11[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	dev-python/ndex2[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
+	<dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}]
 	dev-python/protmapper[${PYTHON_USEDEP}]
 	dev-python/obonet[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
@@ -46,8 +46,8 @@ DEPENDENCIES="dev-python/pysb[${PYTHON_USEDEP}]
 	all? ( dev-python/stemming[${PYTHON_USEDEP}] )
 	all? ( dev-python/pybel[${PYTHON_USEDEP}] )
 	all? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	all? ( dev-python/flask[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	all? ( <dev-python/flask-2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyyaml-5.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-libsbml[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
@@ -67,7 +67,7 @@ DEPENDENCIES="dev-python/pysb[${PYTHON_USEDEP}]
 	all? ( dev-python/pronto[${PYTHON_USEDEP}] )
 	all? ( dev-python/paths-graph[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyjnius[${PYTHON_USEDEP}] )
-	api? ( dev-python/flask[${PYTHON_USEDEP}] )
+	api? ( <dev-python/flask-2.0[${PYTHON_USEDEP}] )
 	api? ( dev-python/flask-restx[${PYTHON_USEDEP}] )
 	api? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
 	api? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )
@@ -90,7 +90,7 @@ DEPENDENCIES="dev-python/pysb[${PYTHON_USEDEP}]
 	machine? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	machine? ( dev-python/tzlocal[${PYTHON_USEDEP}] )
 	machine? ( dev-python/tweepy[${PYTHON_USEDEP}] )
-	machine? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	machine? ( >=dev-python/pyyaml-5.1.0[${PYTHON_USEDEP}] )
 	machine? ( dev-python/click[${PYTHON_USEDEP}] )
 	owl? ( dev-python/pronto[${PYTHON_USEDEP}] )
 	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

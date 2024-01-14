@@ -30,15 +30,15 @@ DEPENDENCIES="dev-python/hanlp-common[${PYTHON_USEDEP}]
 	dev-python/pynvml[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/toposort[${PYTHON_USEDEP}]
+	~dev-python/toposort-1.5[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	amr? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	amr? ( >=dev-python/networkx-2.5.1[${PYTHON_USEDEP}] )
 	amr? ( dev-python/penman[${PYTHON_USEDEP}] )
 	amr? ( dev-python/perin-parser[${PYTHON_USEDEP}] )
 	fasttext? ( dev-python/fasttext-wheel[${PYTHON_USEDEP}] )
 	full? ( dev-python/fasttext-wheel[${PYTHON_USEDEP}] )
-	full? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/networkx-2.5.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/penman[${PYTHON_USEDEP}] )
 	full? ( dev-python/perin-parser[${PYTHON_USEDEP}] )
 	full? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

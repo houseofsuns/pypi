@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ci release test"
 DEPENDENCIES="dev-python/sqlite-utils[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	ci? ( dev-python/black[${PYTHON_USEDEP}] )
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.29.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
+	ci? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	ci? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	release? ( dev-python/twine[${PYTHON_USEDEP}] )
-	release? ( dev-python/build[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )"
+	release? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	release? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/responses-0.23.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

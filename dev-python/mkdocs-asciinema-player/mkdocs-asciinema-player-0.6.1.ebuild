@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev lint test"
-DEPENDENCIES="dev-python/mkdocs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/asciinema[${PYTHON_USEDEP}] )
 	dev? ( dev-python/commitizen[${PYTHON_USEDEP}] )
-	lint? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/bandit-1.7.5[${PYTHON_USEDEP}] )
 	lint? ( dev-python/djlint[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pylint-3.0.2[${PYTHON_USEDEP}] )
 	lint? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

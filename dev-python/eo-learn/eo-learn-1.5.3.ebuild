@@ -30,39 +30,39 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	dev-python/fs[${PYTHON_USEDEP}]
 	dev-python/fs-s3fs[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/sentinelhub[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.27[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/eo-learn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.990[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.14.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	docs? ( dev-python/eo-learn[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-mdinclude[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
 	extra? ( dev-python/numba[${PYTHON_USEDEP}] )
 	extra? ( dev-python/s2cloudless[${PYTHON_USEDEP}] )
 	extra? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	extra? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	full? ( dev-python/eo-learn[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/graphviz[${PYTHON_USEDEP}] )
+	visualization? ( >=dev-python/graphviz-0.10.1[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/pygments[${PYTHON_USEDEP}] )

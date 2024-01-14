@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cryptography python-jose"
-DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
+	<dev-python/attrs-23.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/jwcrypto[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/jwcrypto-2.0.0[${PYTHON_USEDEP}]
 	dev-python/benchling-api-client[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	cryptography? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	python-jose? ( dev-python/python-jose[${PYTHON_USEDEP}] )
-	dev-python/ordered-set[${PYTHON_USEDEP}]"
+	>=dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
+	cryptography? ( <dev-python/cryptography-42.0.0[${PYTHON_USEDEP}] )
+	python-jose? ( <dev-python/python-jose-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/ordered-set-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

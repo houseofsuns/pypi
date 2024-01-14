@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cssselect html5 htmlsoup source"
-DEPENDENCIES="cssselect? ( dev-python/cssselect[${PYTHON_USEDEP}] )
+DEPENDENCIES="cssselect? ( >=dev-python/cssselect-0.7[${PYTHON_USEDEP}] )
 	html5? ( dev-python/html5lib[${PYTHON_USEDEP}] )
 	htmlsoup? ( dev-python/BeautifulSoup4[${PYTHON_USEDEP}] )
 	source? ( dev-python/Cython[${PYTHON_USEDEP}] )"

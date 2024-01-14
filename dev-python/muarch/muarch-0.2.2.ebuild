@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="plots"
 DEPENDENCIES="dev-python/arch[${PYTHON_USEDEP}]
 	dev-python/copulae[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-40.8[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.23[${PYTHON_USEDEP}]
 	plots? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

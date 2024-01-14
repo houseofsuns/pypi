@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="visual"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	visual? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	visual? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
+	visual? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
+	visual? ( <dev-python/pillow-7.0[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

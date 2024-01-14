@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="develop? ( dev-python/pip[${PYTHON_USEDEP}] )
-	develop? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	develop? ( dev-python/black[${PYTHON_USEDEP}] )
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )
+DEPENDENCIES="develop? ( >dev-python/pip-20.0[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/wheel-0.29.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/black-22.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/coverage-7.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	develop? ( dev-python/manage-py[${PYTHON_USEDEP}] )
-	develop? ( dev-python/nose[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/nose-2.0.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pkutils[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	develop? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	develop? ( dev-python/scripttest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/tox[${PYTHON_USEDEP}] )
-	develop? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	develop? ( <dev-python/pylint-3.0.0[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/setuptools-42.0.2[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/scripttest-2.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/tox-4.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/twine-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

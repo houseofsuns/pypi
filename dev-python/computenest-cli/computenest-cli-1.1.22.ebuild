@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/alibabacloud-computenestsupplier20210521[${PYTHON_USEDEP}]
 	dev-python/alibabacloud-ecs20140526[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-1.0.0[${PYTHON_USEDEP}]
 	dev-python/oss2[${PYTHON_USEDEP}]
 	dev-python/oos[${PYTHON_USEDEP}]
 	dev-python/alibabacloud-oos20190601[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]"
+	~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.35[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/astatine[${PYTHON_USEDEP}]
-	dev-python/asttokens[${PYTHON_USEDEP}]
+	>=dev-python/asttokens-2.0.4[${PYTHON_USEDEP}]
 	dev-python/attr-utils[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/attrs-20.3.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/consolekit[${PYTHON_USEDEP}]
 	dev-python/dom-toml[${PYTHON_USEDEP}]
 	dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+	>=dev-python/isort-5.5.2[${PYTHON_USEDEP}]
 	dev-python/prettyprinter[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/yapf[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
+	>=dev-python/yapf-0.30.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

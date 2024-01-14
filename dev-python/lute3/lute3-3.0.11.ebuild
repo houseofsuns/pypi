@@ -28,22 +28,22 @@ DEPENDENCIES="dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	dev-python/natto-py[${PYTHON_USEDEP}]
 	dev-python/jaconv[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-4.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
+	<dev-python/waitress-3.0[${PYTHON_USEDEP}]
 	dev-python/openepub[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	>=dev-python/pypdf-3.17.4[${PYTHON_USEDEP}]
+	dev? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-bdd[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pip-23.0.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pipdeptree-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-bdd-8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-splinter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

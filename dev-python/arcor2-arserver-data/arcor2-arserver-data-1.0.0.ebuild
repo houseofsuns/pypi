@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/arcor2-calibration-data[${PYTHON_USEDEP}]
 	dev-python/arcor2[${PYTHON_USEDEP}]
 	dev-python/dataclasses-jsonschema[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]"
+	~dev-python/websocket-client-1.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

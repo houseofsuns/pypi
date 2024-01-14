@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev fs"
 DEPENDENCIES="fs? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	fs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	fs? ( dev-python/fsspec[${PYTHON_USEDEP}] )
+	fs? ( ~dev-python/fsspec-2022.5.0[${PYTHON_USEDEP}] )
 	fs? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
+	dev? ( <=dev-python/numpy-1.23[${PYTHON_USEDEP}] )
+	~dev-python/uvloop-0.16.0[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.17.6[${PYTHON_USEDEP}]
+	~dev-python/starlette-0.18.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
+	~dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-6.5.0[${PYTHON_USEDEP}]
 	dev-python/kubernetes-asyncio[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]"
+	~dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]
+	~dev-python/fsspec-2022.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

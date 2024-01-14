@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="web"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	~dev-python/tomlkit-0.11.6[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	dev-python/numba-progress[${PYTHON_USEDEP}]
 	web? ( dev-python/celery[${PYTHON_USEDEP}] )
-	web? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	web? ( ~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	web? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
-	web? ( dev-python/websockets[${PYTHON_USEDEP}] )
+	web? ( ~dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}] )
+	web? ( ~dev-python/websockets-11.0.3[${PYTHON_USEDEP}] )
 	web? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
 	web? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

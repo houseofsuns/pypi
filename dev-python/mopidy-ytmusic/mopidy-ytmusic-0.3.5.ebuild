@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ytmusicapi[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ytmusicapi-0.21.0[${PYTHON_USEDEP}]
 	dev-python/pytube[${PYTHON_USEDEP}]
 	dev-python/Mopidy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="elasticsearch7 opensearch1 opensearch2 tests"
 DEPENDENCIES="dev-python/check-manifest[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
+	<dev-python/coverage-6.0[${PYTHON_USEDEP}]
 	dev-python/docker-services-cli[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	>=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pytest-flask[${PYTHON_USEDEP}]
 	dev-python/pytest-isort[${PYTHON_USEDEP}]
 	dev-python/pytest-pydocstyle[${PYTHON_USEDEP}]
 	dev-python/pytest-pycodestyle[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	<dev-python/pytest-7.2.0[${PYTHON_USEDEP}]
+	<dev-python/selenium-4.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.4[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	elasticsearch7? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch1? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
@@ -46,6 +46,6 @@ DEPENDENCIES="dev-python/check-manifest[${PYTHON_USEDEP}]
 	tests? ( dev-python/invenio-files-rest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-mail[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

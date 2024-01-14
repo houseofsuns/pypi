@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/dbt-core[${PYTHON_USEDEP}]
 	test? ( dev-python/dbt-spark[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-spark[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.13.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.3[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.4.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.1[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.2.1[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-1.0.1[${PYTHON_USEDEP}]
 	dev-python/pygithub[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.50.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-20.3.0[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-6.0.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-0.782[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

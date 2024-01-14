@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="apt dev docs test types"
 DEPENDENCIES="dev-python/overrides[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-yaml[${PYTHON_USEDEP}]
 	dev-python/pyxdg[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-unixsocket[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/overrides[${PYTHON_USEDEP}]
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-fixme-info[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/overrides[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-1.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-colorama[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )
@@ -80,7 +80,7 @@ DEPENDENCIES="dev-python/overrides[${PYTHON_USEDEP}]
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
 	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint-fixme-info[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint-pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyright[${PYTHON_USEDEP}] )
@@ -93,7 +93,7 @@ DEPENDENCIES="dev-python/overrides[${PYTHON_USEDEP}]
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mypy-1.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-colorama[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )
@@ -102,7 +102,7 @@ DEPENDENCIES="dev-python/overrides[${PYTHON_USEDEP}]
 	test? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	types? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	types? ( <dev-python/mypy-1.6.0[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-colorama[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )

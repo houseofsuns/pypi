@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="arrow numpy orjson pandas sqlalchemy superset"
 DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/zstandard[${PYTHON_USEDEP}]
 	dev-python/lz4[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	sqlalchemy? ( <dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
 	superset? ( dev-python/apache-superset[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jeeves-shell[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
+	<dev-python/mypy-0.911[${PYTHON_USEDEP}]
 	dev-python/safety[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pytest-randomly[${PYTHON_USEDEP}]
 	dev-python/wemake-python-styleguide[${PYTHON_USEDEP}]
 	dev-python/flakeheaven[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
+	<dev-python/tomlkit-0.12.0[${PYTHON_USEDEP}]
 	dev-python/add-trailing-comma[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material[${PYTHON_USEDEP}]
+	<dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}]
 	dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}]
 	dev-python/mkdocs-iolanta[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

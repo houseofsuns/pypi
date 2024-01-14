@@ -24,44 +24,44 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/apispec[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/apispec-4.0[${PYTHON_USEDEP}]
 	dev-python/apispec-webframeworks[${PYTHON_USEDEP}]
-	dev-python/asn1crypto[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/bottle[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/s3transfer[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev? ( dev-python/atomicwrites[${PYTHON_USEDEP}] )
-	dev? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/lazy-object-proxy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/rope[${PYTHON_USEDEP}] )
+	~dev-python/asn1crypto-1.4.0[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.20.48[${PYTHON_USEDEP}]
+	~dev-python/bottle-0.12.19[${PYTHON_USEDEP}]
+	~dev-python/certifi-2019.3.9[${PYTHON_USEDEP}]
+	~dev-python/cffi-1.15.0[${PYTHON_USEDEP}]
+	~dev-python/chardet-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/cryptography-36.0.1[${PYTHON_USEDEP}]
+	~dev-python/docutils-0.14[${PYTHON_USEDEP}]
+	~dev-python/idna-2.8[${PYTHON_USEDEP}]
+	~dev-python/jmespath-0.9.4[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-2.16.3[${PYTHON_USEDEP}]
+	~dev-python/py-1.10.0[${PYTHON_USEDEP}]
+	~dev-python/pycparser-2.19[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.11.4[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	>=dev-python/s3transfer-0.3.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.2[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/atomicwrites-1.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/attrs-19.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-4.3.15[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/lazy-object-proxy-1.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/more-itertools-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pycodestyle-2.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/rope-0.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/safety[${PYTHON_USEDEP}] )
-	dev? ( dev-python/six[${PYTHON_USEDEP}] )
-	dev? ( dev-python/soupsieve[${PYTHON_USEDEP}] )
-	dev? ( dev-python/waitress[${PYTHON_USEDEP}] )
-	dev? ( dev-python/webob[${PYTHON_USEDEP}] )
-	dev? ( dev-python/webtest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wrapt[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/six-1.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/soupsieve-1.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/waitress-1.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/webob-1.8.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/webtest-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wrapt-1.11.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

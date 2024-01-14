@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bert server viz"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.29[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.32.2[${PYTHON_USEDEP}]
 	dev-python/configargparse[${PYTHON_USEDEP}]
 	dev-python/ucca[${PYTHON_USEDEP}]
 	dev-python/semstr[${PYTHON_USEDEP}]
 	dev-python/dynet[${PYTHON_USEDEP}]
-	dev-python/logbook[${PYTHON_USEDEP}]
+	>=dev-python/logbook-1.5.2[${PYTHON_USEDEP}]
 	bert? ( dev-python/torch[${PYTHON_USEDEP}] )
 	bert? ( dev-python/pytorch-pretrained-bert[${PYTHON_USEDEP}] )
 	server? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	server? ( dev-python/Flask-Assets[${PYTHON_USEDEP}] )
 	server? ( dev-python/Flask-Compress[${PYTHON_USEDEP}] )
 	server? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	server? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	server? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/matplotlib-2.0.2[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/networkx-1.11[${PYTHON_USEDEP}] )
 	server? ( dev-python/webassets[${PYTHON_USEDEP}] )
 	viz? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	viz? ( dev-python/pillow[${PYTHON_USEDEP}] )

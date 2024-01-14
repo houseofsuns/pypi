@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/allianceauth-app-utils[${PYTHON_USEDEP}]
 	dev-python/allianceauth[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]"
+	>=dev-python/unidecode-1.3.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

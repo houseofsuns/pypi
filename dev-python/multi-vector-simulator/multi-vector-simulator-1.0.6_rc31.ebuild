@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs report test"
-DEPENDENCIES="dev-python/graphviz[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/graphviz-0.14.1[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.5[${PYTHON_USEDEP}]
+	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
 	dev-python/oemof-solph[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.3.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-1.1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-svg2pdfconverter[${PYTHON_USEDEP}] )
 	report? ( dev-python/dash[${PYTHON_USEDEP}] )
 	report? ( dev-python/kaleido[${PYTHON_USEDEP}] )
@@ -41,12 +41,12 @@ DEPENDENCIES="dev-python/graphviz[${PYTHON_USEDEP}]
 	report? ( dev-python/reverse-geocoder[${PYTHON_USEDEP}] )
 	report? ( dev-python/staticmap[${PYTHON_USEDEP}] )
 	report? ( dev-python/pyppeteer[${PYTHON_USEDEP}] )
-	report? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	report? ( >=dev-python/psutil-5.7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.3.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/click[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/click-8.0.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

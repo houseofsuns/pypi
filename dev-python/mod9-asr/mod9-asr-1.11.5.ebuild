@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiofiles-0.5.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/elasticsearch-7.8.1[${PYTHON_USEDEP}]
+	<dev-python/flask-2.3[${PYTHON_USEDEP}]
 	dev-python/flask-restful[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-1.22.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-speech[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/google-resumable-media[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/proto-plus[${PYTHON_USEDEP}]
+	>=dev-python/packaging-15.0[${PYTHON_USEDEP}]
+	>=dev-python/proto-plus-1.4.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+	>=dev-python/websockets-8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/Bootstrap-Flask[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pydevd[${PYTHON_USEDEP}]
 	dev-python/pyDispatcher[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]"
+	>=dev-python/APScheduler-3.9.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

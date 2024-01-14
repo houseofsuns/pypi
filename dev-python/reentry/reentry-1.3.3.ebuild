@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pre-commit tests"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-36.2[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	pre-commit? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/tox[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/packaging[${PYTHON_USEDEP}] )

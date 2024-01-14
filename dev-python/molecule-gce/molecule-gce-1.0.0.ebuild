@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/molecule[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pywinrm[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/pywinrm-0.3.0[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-1.34.0[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-2.15.0[${PYTHON_USEDEP}]
 	dev-python/jinja2-ansible-filters[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.10.1[${PYTHON_USEDEP}]
 	test? ( dev-python/molecule[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

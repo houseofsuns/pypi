@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/djangorestframework[${PYTHON_USEDEP}]
 	dev-python/django[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]

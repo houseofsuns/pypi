@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/fastcore[${PYTHON_USEDEP}]
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/requests-2.28.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="flake8"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/docstring-parser-fork[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	flake8? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	flake8? ( >=dev-python/flake8-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

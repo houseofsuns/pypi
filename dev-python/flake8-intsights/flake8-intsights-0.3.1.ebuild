@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/astroid[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/astroid-2.15.8[${PYTHON_USEDEP}]
 	dev-python/flake8[${PYTHON_USEDEP}]
 	dev-python/flake8-assertive[${PYTHON_USEDEP}]
 	dev-python/flake8-comprehensions[${PYTHON_USEDEP}]"

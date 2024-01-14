@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs docs-build-material test"
 DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	>=dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-assume[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs-build-material? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	docs-build-material? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs-build-material? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs-build-material? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
+	docs-build-material? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	docs-build-material? ( >=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}] )
+	docs-build-material? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
+	docs-build-material? ( >=dev-python/sphinx-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-assume[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

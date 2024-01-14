@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tls"
-DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
-	tls? ( dev-python/docker[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/docker-3.7[${PYTHON_USEDEP}]
+	tls? ( >=dev-python/docker-3.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs onnx"
 DEPENDENCIES="dev-python/ibm-watson-machine-learning[${PYTHON_USEDEP}]
 	dev-python/mlflow[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.24.59[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

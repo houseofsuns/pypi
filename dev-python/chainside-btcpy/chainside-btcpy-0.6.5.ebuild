@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/ecdsa[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/ecdsa-0.13[${PYTHON_USEDEP}]
 	develop? ( dev-python/python-bitcoinlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/python-gnupg[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/certifi-2019.6.16[${PYTHON_USEDEP}]
+	>=dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
+	>=dev-python/charset-normalizer-2.0.8[${PYTHON_USEDEP}]
+	>=dev-python/idna-2.8[${PYTHON_USEDEP}]
+	>=dev-python/python-gnupg-0.4.7[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

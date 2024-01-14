@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bareutils[${PYTHON_USEDEP}]
-	dev-python/h11[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]"
+	<dev-python/h11-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/h2-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

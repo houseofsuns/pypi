@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.7.7[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.14.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	testing? ( dev-python/accelerate[${PYTHON_USEDEP}] )
 	testing? ( dev-python/fire[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	testing? ( dev-python/future[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/future-0.17.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/gpytorch[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	testing? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/matplotlib-2.0.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/neptune[${PYTHON_USEDEP}] )
 	testing? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	testing? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	testing? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	testing? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-3.4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sacred[${PYTHON_USEDEP}] )
 	testing? ( dev-python/safetensors[${PYTHON_USEDEP}] )

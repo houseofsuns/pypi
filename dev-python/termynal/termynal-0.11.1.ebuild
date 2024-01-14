@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mkdocs"
 DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
-	mkdocs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )"
+	mkdocs? ( <dev-python/mkdocs-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

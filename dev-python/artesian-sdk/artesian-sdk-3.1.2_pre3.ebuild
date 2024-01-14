@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.27[${PYTHON_USEDEP}]
+	~dev-python/six-1.16[${PYTHON_USEDEP}]
 	dev-python/jsons[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
+	~dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/responses-0.22[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-annotations[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev plotting test type_geometry type_image_path"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	dev-python/tangled-up-in-unicode[${PYTHON_USEDEP}]
 	dev-python/multimethod[${PYTHON_USEDEP}]
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-0.25.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/attrs-19.3.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/networkx-2.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/tangled-up-in-unicode[${PYTHON_USEDEP}] )
 	all? ( dev-python/multimethod[${PYTHON_USEDEP}] )
 	all? ( dev-python/shapely[${PYTHON_USEDEP}] )
@@ -42,15 +42,15 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	all? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-46.1.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.34.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.0.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.770[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/recommonmark-0.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-autodoc-typehints-1.10.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx-copybutton[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/pydot[${PYTHON_USEDEP}] )
@@ -60,18 +60,18 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/imagehash[${PYTHON_USEDEP}] )
 	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	test? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/isort-5.0.9[${PYTHON_USEDEP}] )
 	test? ( dev-python/big-o[${PYTHON_USEDEP}] )
-	test? ( dev-python/twine[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-spark[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyarrow-1.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	type_geometry? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	type_image_path? ( dev-python/imagehash[${PYTHON_USEDEP}] )

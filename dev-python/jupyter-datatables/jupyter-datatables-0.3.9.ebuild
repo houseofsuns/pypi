@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.23.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/jupyter-require[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

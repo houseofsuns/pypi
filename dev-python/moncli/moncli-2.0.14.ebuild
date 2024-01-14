@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2020.1[${PYTHON_USEDEP}]
+	>=dev-python/pycountry-20.7.3[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2.10[${PYTHON_USEDEP}]
 	dev-python/schematics[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

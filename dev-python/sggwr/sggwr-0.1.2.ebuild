@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev jax"
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	jax? ( dev-python/optax[${PYTHON_USEDEP}] )

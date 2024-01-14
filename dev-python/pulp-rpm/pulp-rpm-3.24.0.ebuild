@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/createrepo-c[${PYTHON_USEDEP}]
 	dev-python/django-readonly-field[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
 	dev-python/libcomps[${PYTHON_USEDEP}]
 	dev-python/productmd[${PYTHON_USEDEP}]
 	dev-python/pulpcore[${PYTHON_USEDEP}]

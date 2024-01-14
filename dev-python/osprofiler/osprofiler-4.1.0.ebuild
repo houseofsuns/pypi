@@ -26,26 +26,26 @@ KEYWORDS="~amd64 ~x86"
 IUSE="oslo_config test"
 DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
 	dev-python/WebOb[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/oslo-concurrency[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	oslo_config? ( dev-python/oslo-config[${PYTHON_USEDEP}] )
-	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/ddt[${PYTHON_USEDEP}] )
-	test? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	test? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
+	>=dev-python/netaddr-0.7.18[${PYTHON_USEDEP}]
+	>=dev-python/oslo-concurrency-3.26.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-2.18.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.33.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
+	oslo_config? ( >=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/bandit-1.7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/ddt-1.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/docutils-0.14[${PYTHON_USEDEP}] )
+	test? ( <dev-python/elasticsearch-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
 	test? ( dev-python/jaeger-client[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	test? ( dev-python/redis[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pymongo-3.0.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/redis-2.10.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testtools-2.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

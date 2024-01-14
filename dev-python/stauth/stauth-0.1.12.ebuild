@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/bcrypt-5.0.0[${PYTHON_USEDEP}]
 	dev-python/extra-streamlit-components[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]"
+	~dev-python/mypy-1.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

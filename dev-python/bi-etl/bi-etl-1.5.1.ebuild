@@ -27,17 +27,17 @@ IUSE="jira keyring pykeepass slack test"
 DEPENDENCIES="dev-python/config-wrangler[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/semidbm[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.5[${PYTHON_USEDEP}]
 	dev-python/btrees[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
-	keyring? ( dev-python/keyring[${PYTHON_USEDEP}] )
+	>=dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}]
+	keyring? ( >=dev-python/keyring-21.1.0[${PYTHON_USEDEP}] )
 	dev-python/pydicti[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-9.0.0[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-10.0.1[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.27[${PYTHON_USEDEP}]
 	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	jira? ( dev-python/jira[${PYTHON_USEDEP}] )
 	slack? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )

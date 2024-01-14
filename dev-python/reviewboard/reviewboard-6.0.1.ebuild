@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="elasticsearch1 elasticsearch2 elasticsearch5 elasticsearch7 ldap mercurial mysql p4 postgres s3 saml subvertpy swift"
-DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/bleach-6.0.0[${PYTHON_USEDEP}]
+	~dev-python/cryptography-41.0.4[${PYTHON_USEDEP}]
 	dev-python/django-braces[${PYTHON_USEDEP}]
-	dev-python/django-cors-headers[${PYTHON_USEDEP}]
+	~dev-python/django-cors-headers-3.11.0[${PYTHON_USEDEP}]
 	dev-python/django-haystack[${PYTHON_USEDEP}]
 	dev-python/django-multiselectfield[${PYTHON_USEDEP}]
 	dev-python/django-evolution[${PYTHON_USEDEP}]
@@ -35,26 +35,26 @@ DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/Djblets[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+	~dev-python/markdown-3.3.7[${PYTHON_USEDEP}]
 	dev-python/mimeparse[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/pydiffx[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.1[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-1.12[${PYTHON_USEDEP}]
+	~dev-python/pydiffx-1.1[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
+	~dev-python/pymdown-extensions-6.3.0[${PYTHON_USEDEP}]
 	dev-python/pymemcache[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2015.2[${PYTHON_USEDEP}]
 	dev-python/rbintegrations[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
+	<=dev-python/requests-oauthlib-1.0[${PYTHON_USEDEP}]
 	dev-python/Whoosh[${PYTHON_USEDEP}]
-	elasticsearch1? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	elasticsearch2? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	elasticsearch5? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	elasticsearch7? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	ldap? ( dev-python/python-ldap[${PYTHON_USEDEP}] )
+	elasticsearch1? ( ~dev-python/elasticsearch-1.0[${PYTHON_USEDEP}] )
+	elasticsearch2? ( ~dev-python/elasticsearch-2.0[${PYTHON_USEDEP}] )
+	elasticsearch5? ( ~dev-python/elasticsearch-5.0[${PYTHON_USEDEP}] )
+	elasticsearch7? ( ~dev-python/elasticsearch-7.0[${PYTHON_USEDEP}] )
+	ldap? ( >=dev-python/python-ldap-3.3.1[${PYTHON_USEDEP}] )
 	mercurial? ( dev-python/mercurial[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	mysql? ( <=dev-python/mysqlclient-2.1.999[${PYTHON_USEDEP}] )
 	p4? ( dev-python/p4python[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	s3? ( dev-python/django-storages[${PYTHON_USEDEP}] )

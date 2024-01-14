@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bottle[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/bottle-0.12.13[${PYTHON_USEDEP}]
+	~dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]
+	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
+	~dev-python/click-6.7[${PYTHON_USEDEP}]
+	~dev-python/idna-2.5[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
+	~dev-python/py-1.4.34[${PYTHON_USEDEP}]
+	~dev-python/pytest-3.1.2[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.6.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.18.1[${PYTHON_USEDEP}]
 	dev-python/schul-cloud-resources-api-v1[${PYTHON_USEDEP}]
 	dev-python/schul-cloud-resources-server-tests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	~dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.21.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

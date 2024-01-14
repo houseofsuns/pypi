@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	all? ( dev-python/meshio[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/meshio-5.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/lz4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

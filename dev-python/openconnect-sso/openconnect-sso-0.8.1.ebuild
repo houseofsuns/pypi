@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/pyxdg[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-18.2[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
+	<dev-python/keyring-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/prompt-toolkit-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyxdg-0.29[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/structlog-20.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
-	dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}]
-	dev-python/pyotp[${PYTHON_USEDEP}]"
+	>dev-python/setuptools-40.0[${PYTHON_USEDEP}]
+	<dev-python/PySocks-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/PyQt6-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/PyQt6-WebEngine-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyotp-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

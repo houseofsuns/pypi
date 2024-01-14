@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/djangorestframework[${PYTHON_USEDEP}]
 	dev-python/airavata-python-sdk[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-2.28.0[${PYTHON_USEDEP}]
 	dev-python/zipstream-new[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

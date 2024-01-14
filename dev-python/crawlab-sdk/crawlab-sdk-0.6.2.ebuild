@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.27[${PYTHON_USEDEP}]
+	~dev-python/pathspec-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.53.1[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-tools-1.51.1[${PYTHON_USEDEP}]
 	dev-python/grpc-interceptor-headers[${PYTHON_USEDEP}]
 	dev-python/print-color[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]"
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

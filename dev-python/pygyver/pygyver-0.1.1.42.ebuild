@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.9.218[${PYTHON_USEDEP}]
 	dev-python/codecov[${PYTHON_USEDEP}]
 	dev-python/facebook-business[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
@@ -32,20 +32,20 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/gspread[${PYTHON_USEDEP}]
 	dev-python/gspread-dataframe[${PYTHON_USEDEP}]
-	dev-python/moto[${PYTHON_USEDEP}]
+	>=dev-python/moto-1.3.14[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pandas-gbq[${PYTHON_USEDEP}]
 	dev-python/pg8000[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-0.9.3[${PYTHON_USEDEP}]
+	>=dev-python/pytest-5.3.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/slack-sdk[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]
-	dev-python/versioneer[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]"
+	>=dev-python/sqlalchemy-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/tox-3.15.0[${PYTHON_USEDEP}]
+	>=dev-python/versioneer-0.18[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.33.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

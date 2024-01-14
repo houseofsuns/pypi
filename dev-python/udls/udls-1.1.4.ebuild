@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/lmdb[${PYTHON_USEDEP}]
+	>=dev-python/lmdb-0.98[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.36.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

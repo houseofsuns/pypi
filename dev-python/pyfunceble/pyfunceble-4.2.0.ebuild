@@ -28,24 +28,24 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/shtab[${PYTHON_USEDEP}]
 	dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
+	~dev-python/dnspython-2.0.0[${PYTHON_USEDEP}]
 	dev-python/domain2idna[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.3.2[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]
+	~dev-python/python-box-6.0.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/alabaster[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.4.3[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/alabaster-0.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Pygments[${PYTHON_USEDEP}] )
 	full? ( dev-python/Pygments[${PYTHON_USEDEP}] )
 	full? ( dev-python/alembic[${PYTHON_USEDEP}] )
@@ -57,36 +57,36 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	full? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	full? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	full? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	full? ( dev-python/python-box[${PYTHON_USEDEP}] )
-	full? ( dev-python/alabaster[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/python-box-6.0.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/alabaster-0.8[${PYTHON_USEDEP}] )
 	full? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	full? ( dev-python/dnspython[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/dnspython-2.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	full? ( dev-python/tox[${PYTHON_USEDEP}] )
 	full? ( dev-python/isort[${PYTHON_USEDEP}] )
-	full? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	full? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/cryptography-3.3.2[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	full? ( dev-python/shtab[${PYTHON_USEDEP}] )
 	full? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	full? ( dev-python/black[${PYTHON_USEDEP}] )
-	full? ( dev-python/requests[${PYTHON_USEDEP}] )
-	full? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	full? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/sphinx-3.4.3[${PYTHON_USEDEP}] )
 	psql? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	psql? ( dev-python/shtab[${PYTHON_USEDEP}] )
 	psql? ( dev-python/alembic[${PYTHON_USEDEP}] )
 	psql? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	psql? ( dev-python/dnspython[${PYTHON_USEDEP}] )
+	psql? ( ~dev-python/dnspython-2.0.0[${PYTHON_USEDEP}] )
 	psql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	psql? ( dev-python/domain2idna[${PYTHON_USEDEP}] )
 	psql? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	psql? ( dev-python/inflection[${PYTHON_USEDEP}] )
-	psql? ( dev-python/requests[${PYTHON_USEDEP}] )
-	psql? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	psql? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	psql? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
+	psql? ( >=dev-python/cryptography-3.3.2[${PYTHON_USEDEP}] )
+	psql? ( >=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}] )
 	psql? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
 	psql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	psql? ( dev-python/python-box[${PYTHON_USEDEP}] )
+	psql? ( ~dev-python/python-box-6.0.0[${PYTHON_USEDEP}] )
 	psql? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"

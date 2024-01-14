@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-file[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-file-1.4[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.0.8[${PYTHON_USEDEP}]
 	testing? ( dev-python/black[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )

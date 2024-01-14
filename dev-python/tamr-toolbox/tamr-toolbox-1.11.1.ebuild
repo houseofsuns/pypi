@@ -25,29 +25,29 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="address-validation all gcs pandas s3 slack ssh testing translation"
 DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22[${PYTHON_USEDEP}]
 	dev-python/tamr-unify-client[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	address-validation? ( dev-python/googlemaps[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-0.21.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/slackclient[${PYTHON_USEDEP}] )
-	all? ( dev-python/responses[${PYTHON_USEDEP}] )
-	all? ( dev-python/paramiko[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/responses-0.10.14[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/paramiko-2.8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-translate[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/boto3-1.21.21[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3-stubs-lite[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-0.21.0[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/boto3-1.21.21[${PYTHON_USEDEP}] )
 	s3? ( dev-python/boto3-stubs-lite[${PYTHON_USEDEP}] )
-	slack? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	slack? ( ~dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}] )
 	slack? ( dev-python/slackclient[${PYTHON_USEDEP}] )
-	ssh? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	testing? ( dev-python/responses[${PYTHON_USEDEP}] )
+	ssh? ( >=dev-python/paramiko-2.8.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/responses-0.10.14[${PYTHON_USEDEP}] )
 	translation? ( dev-python/google-cloud-translate[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/macaroonbakery[${PYTHON_USEDEP}]
 	dev-python/pyRFC3339[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1.2[${PYTHON_USEDEP}]
 	dev-python/theblues[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/toposort[${PYTHON_USEDEP}]
+	>=dev-python/websockets-9.0[${PYTHON_USEDEP}]
+	<dev-python/paramiko-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-0.4.4[${PYTHON_USEDEP}]
+	<dev-python/toposort-2.0[${PYTHON_USEDEP}]
 	dev-python/typing_inspect[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-4.0.0[${PYTHON_USEDEP}]
 	dev-python/PyGObject[${PYTHON_USEDEP}]
 	dev-python/pytoolbox[${PYTHON_USEDEP}]
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyGObject-stubs[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )

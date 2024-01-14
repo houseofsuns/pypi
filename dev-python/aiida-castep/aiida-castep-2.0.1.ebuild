@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/aiida-core[${PYTHON_USEDEP}]
 	dev-python/deepdiff[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/castepinput[${PYTHON_USEDEP}]
 	dev-python/seekpath[${PYTHON_USEDEP}]
@@ -37,12 +37,12 @@ DEPENDENCIES="dev-python/aiida-core[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-contentui[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-details-directive[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/markupsafe-2.1[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/yapf[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/yapf-0.28.0[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/prospector[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/pylint-pytest[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/pylint-2.4.4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pgtest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/wheel-0.31.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.11[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.2.0[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-2.3.10[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

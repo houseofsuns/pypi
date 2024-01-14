@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all config qt spock"
 DEPENDENCIES="dev-python/PyTango[${PYTHON_USEDEP}]
 	dev-python/taurus[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-2.3[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	all? ( dev-python/itango[${PYTHON_USEDEP}] )
 	all? ( dev-python/taurus[${PYTHON_USEDEP}] )
 	all? ( dev-python/dsconfig[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	all? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/jsonpatch[${PYTHON_USEDEP}] )
 	config? ( dev-python/dsconfig[${PYTHON_USEDEP}] )
 	config? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	config? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	config? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	config? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	config? ( dev-python/jsonpatch[${PYTHON_USEDEP}] )
 	qt? ( dev-python/taurus[${PYTHON_USEDEP}] )
 	spock? ( dev-python/itango[${PYTHON_USEDEP}] )"

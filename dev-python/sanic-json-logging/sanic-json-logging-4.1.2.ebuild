@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="extratb"
 DEPENDENCIES="dev-python/sanic[${PYTHON_USEDEP}]
-	extratb? ( dev-python/boltons[${PYTHON_USEDEP}] )"
+	extratb? ( >=dev-python/boltons-21.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

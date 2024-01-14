@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/arviz[${PYTHON_USEDEP}]
 	dev-python/nevergrad[${PYTHON_USEDEP}]
 	dev-python/pymc[${PYTHON_USEDEP}]
 	dev-python/summerepi2[${PYTHON_USEDEP}]
 	dev-python/tensorflow-probability[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]"
+	>=dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

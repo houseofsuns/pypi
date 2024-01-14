@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all stt vc_tts"
 DEPENDENCIES="dev-python/jaseci[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-order[${PYTHON_USEDEP}]
+	<dev-python/pytest-7.1[${PYTHON_USEDEP}]
+	<dev-python/pytest-order-1.1[${PYTHON_USEDEP}]
 	all? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/openai-whisper[${PYTHON_USEDEP}] )
 	all? ( dev-python/soundfile[${PYTHON_USEDEP}] )
-	all? ( dev-python/unidecode[${PYTHON_USEDEP}] )
-	all? ( dev-python/inflect[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/inflect-6.0.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpy-1.23.0[${PYTHON_USEDEP}] )
 	stt? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	stt? ( dev-python/torch[${PYTHON_USEDEP}] )
 	stt? ( dev-python/openai-whisper[${PYTHON_USEDEP}] )
 	stt? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	vc_tts? ( dev-python/soundfile[${PYTHON_USEDEP}] )
-	vc_tts? ( dev-python/unidecode[${PYTHON_USEDEP}] )
-	vc_tts? ( dev-python/inflect[${PYTHON_USEDEP}] )
+	vc_tts? ( ~dev-python/unidecode-1.3.6[${PYTHON_USEDEP}] )
+	vc_tts? ( <=dev-python/inflect-6.0.2[${PYTHON_USEDEP}] )
 	vc_tts? ( dev-python/librosa[${PYTHON_USEDEP}] )
-	vc_tts? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	vc_tts? ( >=dev-python/numpy-1.23.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

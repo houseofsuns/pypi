@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jedi[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jedi-0.20.0[${PYTHON_USEDEP}]
 	dev-python/pygls[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
-	dev-python/docstring-to-markdown[${PYTHON_USEDEP}]
+	>=dev-python/cattrs-23.1.2[${PYTHON_USEDEP}]
+	~dev-python/docstring-to-markdown-0.0[${PYTHON_USEDEP}]
 	dev-python/lsprotocol[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

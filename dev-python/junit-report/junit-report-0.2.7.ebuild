@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/junit-xml[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/decorator-5.1.1[${PYTHON_USEDEP}]
+	~dev-python/junit-xml-1.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

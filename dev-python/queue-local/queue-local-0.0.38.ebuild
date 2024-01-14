@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-7.4.1[${PYTHON_USEDEP}]
 	dev-python/database-mysql-local[${PYTHON_USEDEP}]
 	dev-python/logger-local[${PYTHON_USEDEP}]
 	dev-python/user-context-remote[${PYTHON_USEDEP}]"

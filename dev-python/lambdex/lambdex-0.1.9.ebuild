@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test-gcp-http"
 DEPENDENCIES="dev-python/pex[${PYTHON_USEDEP}]
-	test-gcp-http? ( dev-python/flask[${PYTHON_USEDEP}] )"
+	test-gcp-http? ( ~dev-python/flask-2.2.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

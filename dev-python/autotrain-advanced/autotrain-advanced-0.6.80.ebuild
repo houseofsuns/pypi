@@ -30,9 +30,9 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	dev-python/evaluate[${PYTHON_USEDEP}]
 	dev-python/ipadic[${PYTHON_USEDEP}]
 	dev-python/jiwer[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.3.1[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
@@ -40,14 +40,14 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	dev-python/sacremoses[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.3.6[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/invisible-watermark[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.1[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/peft[${PYTHON_USEDEP}]
 	dev-python/trl[${PYTHON_USEDEP}]
@@ -59,10 +59,10 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	dev-python/rouge-score[${PYTHON_USEDEP}]
 	dev-python/py7zr[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]
+	~dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	dev-python/gradio[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
 	dev-python/hf-transfer[${PYTHON_USEDEP}]
 	dev-python/pyngrok[${PYTHON_USEDEP}]
 	dev? ( dev-python/albumentations[${PYTHON_USEDEP}] )
@@ -71,9 +71,9 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	dev? ( dev-python/evaluate[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipadic[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jiwer[${PYTHON_USEDEP}] )
-	dev? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/loguru[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/joblib-1.3.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/loguru-0.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pandas-1.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	dev? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
@@ -81,14 +81,14 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	dev? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/werkzeug-2.3.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	dev? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/einops[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invisible-watermark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/packaging-23.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	dev? ( dev-python/peft[${PYTHON_USEDEP}] )
 	dev? ( dev-python/trl[${PYTHON_USEDEP}] )
@@ -100,15 +100,15 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	dev? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py7zr[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gradio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hf-transfer[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyngrok[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	docs? ( dev-python/albumentations[${PYTHON_USEDEP}] )
 	docs? ( dev-python/codecarbon[${PYTHON_USEDEP}] )
@@ -116,9 +116,9 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	docs? ( dev-python/evaluate[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipadic[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jiwer[${PYTHON_USEDEP}] )
-	docs? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/loguru[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/joblib-1.3.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/loguru-0.7.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pandas-1.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	docs? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Pillow[${PYTHON_USEDEP}] )
@@ -126,14 +126,14 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	docs? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	docs? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	docs? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/werkzeug-2.3.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	docs? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
-	docs? ( dev-python/requests[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/einops[${PYTHON_USEDEP}] )
 	docs? ( dev-python/invisible-watermark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/packaging-23.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	docs? ( dev-python/peft[${PYTHON_USEDEP}] )
 	docs? ( dev-python/trl[${PYTHON_USEDEP}] )
@@ -145,16 +145,16 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	docs? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
 	docs? ( dev-python/py7zr[${PYTHON_USEDEP}] )
 	docs? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	docs? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	docs? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/gradio[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/hf-transfer[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyngrok[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-3.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	quality? ( dev-python/albumentations[${PYTHON_USEDEP}] )
 	quality? ( dev-python/codecarbon[${PYTHON_USEDEP}] )
@@ -162,9 +162,9 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	quality? ( dev-python/evaluate[${PYTHON_USEDEP}] )
 	quality? ( dev-python/ipadic[${PYTHON_USEDEP}] )
 	quality? ( dev-python/jiwer[${PYTHON_USEDEP}] )
-	quality? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	quality? ( dev-python/loguru[${PYTHON_USEDEP}] )
-	quality? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/joblib-1.3.1[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/loguru-0.7.0[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/pandas-1.4[${PYTHON_USEDEP}] )
 	quality? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	quality? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	quality? ( dev-python/Pillow[${PYTHON_USEDEP}] )
@@ -172,14 +172,14 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	quality? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	quality? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	quality? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	quality? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	quality? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/werkzeug-2.3.6[${PYTHON_USEDEP}] )
 	quality? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	quality? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
-	quality? ( dev-python/requests[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
 	quality? ( dev-python/einops[${PYTHON_USEDEP}] )
 	quality? ( dev-python/invisible-watermark[${PYTHON_USEDEP}] )
-	quality? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/packaging-23.1[${PYTHON_USEDEP}] )
 	quality? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	quality? ( dev-python/peft[${PYTHON_USEDEP}] )
 	quality? ( dev-python/trl[${PYTHON_USEDEP}] )
@@ -191,14 +191,14 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	quality? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
 	quality? ( dev-python/py7zr[${PYTHON_USEDEP}] )
 	quality? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	quality? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	quality? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}] )
 	quality? ( dev-python/gradio[${PYTHON_USEDEP}] )
-	quality? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}] )
 	quality? ( dev-python/hf-transfer[${PYTHON_USEDEP}] )
 	quality? ( dev-python/pyngrok[${PYTHON_USEDEP}] )
 	quality? ( dev-python/black[${PYTHON_USEDEP}] )
 	quality? ( dev-python/isort[${PYTHON_USEDEP}] )
-	quality? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	quality? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiofiles-23.2[${PYTHON_USEDEP}]
 	dev-python/codercore[${PYTHON_USEDEP}]
 	dev-python/coincurve[${PYTHON_USEDEP}]
 	dev-python/eth-hash[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
-	dev? ( dev-python/alembic[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/alembic-1.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.20.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-3.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

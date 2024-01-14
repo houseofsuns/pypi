@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/requests-2.31[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-23.2[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

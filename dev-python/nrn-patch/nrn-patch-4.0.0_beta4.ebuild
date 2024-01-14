@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/nmodl-glia[${PYTHON_USEDEP}]
 	dev-python/errr[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/NEURON[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/helveg--sphinx-code-tabs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

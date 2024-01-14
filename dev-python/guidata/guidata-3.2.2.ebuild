@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/h5py-3.0[${PYTHON_USEDEP}]
 	dev-python/NumPy[${PYTHON_USEDEP}]
-	dev-python/QtPy[${PYTHON_USEDEP}]
+	>=dev-python/QtPy-1.9[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	doc? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-qt-documentation[${PYTHON_USEDEP}] )

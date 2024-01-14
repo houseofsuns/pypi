@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.2[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.6.3[${PYTHON_USEDEP}]
 	dev-python/ccdproc[${PYTHON_USEDEP}]
 	dev-python/specutils[${PYTHON_USEDEP}]
 	dev-python/photutils[${PYTHON_USEDEP}]"

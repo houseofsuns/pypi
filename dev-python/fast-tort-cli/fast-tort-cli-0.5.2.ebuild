@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/click-7.1.1[${PYTHON_USEDEP}]
+	all? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/black-23.9.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	all? ( dev-python/typer[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev-python/anyio[${PYTHON_USEDEP}]
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mypy-1.5.0[${PYTHON_USEDEP}] )
+	>=dev-python/anyio-3.7.1[${PYTHON_USEDEP}]
+	all? ( >=dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

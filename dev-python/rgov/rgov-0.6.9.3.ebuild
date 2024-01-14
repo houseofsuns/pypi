@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cleo[${PYTHON_USEDEP}]
-	dev-python/python-daemon[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cleo-0.9.0[${PYTHON_USEDEP}]
+	<dev-python/python-daemon-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fake-useragent[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

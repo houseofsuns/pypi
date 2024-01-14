@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/stream-python[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	ci? ( dev-python/flake8[${PYTHON_USEDEP}] )

@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/indy-plenum[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/timeout-decorator[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
-	tests? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
+	~dev-python/importlib-metadata-3.10.1[${PYTHON_USEDEP}]
+	>=dev-python/timeout-decorator-0.5.0[${PYTHON_USEDEP}]
+	~dev-python/distro-1.7.0[${PYTHON_USEDEP}]
+	tests? ( >=dev-python/attrs-20.3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-xdist-2.2.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-forked-1.3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/python3-indy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-asyncio-0.14.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

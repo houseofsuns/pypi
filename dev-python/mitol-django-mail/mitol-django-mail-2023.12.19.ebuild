@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.6.0[${PYTHON_USEDEP}]
 	dev-python/django-anymail[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
+	>=dev-python/django-3.0[${PYTHON_USEDEP}]
+	>=dev-python/html5lib-1.1[${PYTHON_USEDEP}]
 	dev-python/mitol-django-common[${PYTHON_USEDEP}]
 	dev-python/premailer[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]"
+	>=dev-python/toolz-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

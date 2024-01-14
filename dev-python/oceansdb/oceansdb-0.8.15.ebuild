@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.14[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
 	dev-python/supportdata[${PYTHON_USEDEP}]
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-1.8.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.5.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-6.29.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pip[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pip-9.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.2.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tox-2.3.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/supportdata[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

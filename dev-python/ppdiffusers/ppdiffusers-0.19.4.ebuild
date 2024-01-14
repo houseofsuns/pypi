@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/paddlenlp[${PYTHON_USEDEP}]
 	dev-python/requests-mock[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	dev-python/note-seq[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<=dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/paddlesde[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

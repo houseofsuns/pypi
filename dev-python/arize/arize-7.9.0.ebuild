@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="autoembeddings llm_evaluation mimicexplainer"
-DEPENDENCIES="dev-python/requests-futures[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-futures-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/googleapis-common-protos-1.51[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-0.15.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	autoembeddings? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	autoembeddings? ( dev-python/tokenizers[${PYTHON_USEDEP}] )
 	autoembeddings? ( dev-python/datasets[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/requests-futures[${PYTHON_USEDEP}]
 	llm_evaluation? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
 	llm_evaluation? ( dev-python/evaluate[${PYTHON_USEDEP}] )
 	llm_evaluation? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	mimicexplainer? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	mimicexplainer? ( <dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
 	mimicexplainer? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	mimicexplainer? ( dev-python/interpret-community[${PYTHON_USEDEP}] )
 	mimicexplainer? ( dev-python/lightgbm[${PYTHON_USEDEP}] )"

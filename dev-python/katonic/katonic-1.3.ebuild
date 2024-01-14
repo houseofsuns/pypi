@@ -24,37 +24,37 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all connector_azure connector_mysql connector_postgres connector_snowflake connectors drift filemanager fs ml pipeline testing"
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
+	<dev-python/click-8.1.2[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/convertdate[${PYTHON_USEDEP}]
 	dev-python/cron-descriptor[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
+	<dev-python/deprecation-2.2.0[${PYTHON_USEDEP}]
 	dev-python/func-timeout[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
+	~dev-python/greenlet-1.1.1[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
 	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-4.8.1[${PYTHON_USEDEP}]
 	dev-python/LunarCalendar[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.0[${PYTHON_USEDEP}]
 	dev-python/mlflow[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	<dev-python/msgpack-1.1[${PYTHON_USEDEP}]
 	dev-python/parsedatetime[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-4.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/python-geohash[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-6.1.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	<dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.36.1[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
+	~dev-python/zipp-3.5.0[${PYTHON_USEDEP}]
 	all? ( dev-python/azure[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/boto3-1.19.12[${PYTHON_USEDEP}] )
 	all? ( dev-python/catboost[${PYTHON_USEDEP}] )
 	all? ( dev-python/cmdstanpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/delta[${PYTHON_USEDEP}] )
@@ -63,45 +63,45 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/kfp[${PYTHON_USEDEP}] )
 	all? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( <dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/minio[${PYTHON_USEDEP}] )
 	all? ( dev-python/mmh3[${PYTHON_USEDEP}] )
 	all? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/redis-3.5.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/redis-py-cluster[${PYTHON_USEDEP}] )
 	all? ( dev-python/river[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/starlette-0.14.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tqdm-4.36.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	connector_azure? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	connector_azure? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	connector_azure? ( dev-python/azure[${PYTHON_USEDEP}] )
-	connector_mysql? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	connector_mysql? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	connector_mysql? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
-	connector_postgres? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	connector_postgres? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	connector_postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	connector_snowflake? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	connector_snowflake? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	connector_snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	connector_snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	connectors? ( dev-python/azure[${PYTHON_USEDEP}] )
 	connectors? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
-	connectors? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	connectors? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	connectors? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	connectors? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	connectors? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
-	drift? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	drift? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	drift? ( <=dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
+	drift? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	drift? ( dev-python/river[${PYTHON_USEDEP}] )
 	drift? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	filemanager? ( dev-python/minio[${PYTHON_USEDEP}] )
@@ -111,34 +111,34 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	fs? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	fs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	fs? ( dev-python/mmh3[${PYTHON_USEDEP}] )
-	fs? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	fs? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	fs? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	fs? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	fs? ( dev-python/redis[${PYTHON_USEDEP}] )
+	fs? ( ~dev-python/redis-3.5.3[${PYTHON_USEDEP}] )
 	fs? ( dev-python/redis-py-cluster[${PYTHON_USEDEP}] )
 	fs? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	fs? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	ml? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	fs? ( ~dev-python/starlette-0.14.2[${PYTHON_USEDEP}] )
+	ml? ( ~dev-python/boto3-1.19.12[${PYTHON_USEDEP}] )
 	ml? ( dev-python/catboost[${PYTHON_USEDEP}] )
 	ml? ( dev-python/cmdstanpy[${PYTHON_USEDEP}] )
 	ml? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
-	ml? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	ml? ( <dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}] )
 	ml? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	ml? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	ml? ( <=dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
 	ml? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	ml? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	ml? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
+	ml? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
+	ml? ( >=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}] )
 	ml? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	ml? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	ml? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	ml? ( ~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}] )
+	ml? ( >=dev-python/tqdm-4.36.1[${PYTHON_USEDEP}] )
 	ml? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/kfp[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	pipeline? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
+	pipeline? ( <dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-3.24[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

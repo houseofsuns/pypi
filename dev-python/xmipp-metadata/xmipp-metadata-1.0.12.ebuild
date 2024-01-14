@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
+	<=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/starfile[${PYTHON_USEDEP}]
 	dev-python/mrcfile[${PYTHON_USEDEP}]
 	dev-python/emfile[${PYTHON_USEDEP}]
 	dev-python/emtable[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/morphsnakes[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]"
+	<=dev-python/pillow-9.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

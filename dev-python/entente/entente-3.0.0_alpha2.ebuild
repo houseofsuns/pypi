@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli landmarker meshlab surface-regressor"
 DEPENDENCIES="cli? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	dev-python/cached_property[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/click-9.0[${PYTHON_USEDEP}] )
 	dev-python/lacecore[${PYTHON_USEDEP}]
 	meshlab? ( dev-python/meshlab-pickedpoints[${PYTHON_USEDEP}] )
 	dev-python/numpy[${PYTHON_USEDEP}]

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.12.4[${PYTHON_USEDEP}]
 	dev-python/unix-dates[${PYTHON_USEDEP}]
 	dev-python/msgpack-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all coverage dev doc gui-jupyter gui-traitsui ipython learning speed tests"
 DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/dask-2021.3.1[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-3.6[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.3[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/pooch[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/prettytable-2.3[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.5.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/rosettasciio[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.6[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.9.0[${PYTHON_USEDEP}]
 	dev-python/traits[${PYTHON_USEDEP}]
 	all? ( dev-python/hyperspy[${PYTHON_USEDEP}] )
 	all? ( dev-python/hyperspy[${PYTHON_USEDEP}] )
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-favicon[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-towncrier[${PYTHON_USEDEP}] )
 	doc? ( dev-python/towncrier[${PYTHON_USEDEP}] )
@@ -79,7 +79,7 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	tests? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

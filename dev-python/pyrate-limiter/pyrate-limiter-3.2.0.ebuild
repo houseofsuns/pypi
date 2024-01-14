@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs"
-DEPENDENCIES="all? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )"
+DEPENDENCIES="all? ( >=dev-python/filelock-3.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/furo-2023.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/myst-parser-0.17[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-apidoc-0.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

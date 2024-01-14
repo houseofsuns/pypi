@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/xlrd[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/xlrd[${PYTHON_USEDEP}]
 	dev-python/jieba[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/wordcloud[${PYTHON_USEDEP}]
-	dev-python/xlsxwriter[${PYTHON_USEDEP}]"
+	~dev-python/xlsxwriter-3.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

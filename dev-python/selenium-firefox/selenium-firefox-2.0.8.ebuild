@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/geckodriver-autoinstaller[${PYTHON_USEDEP}]
 	dev-python/kproxy[${PYTHON_USEDEP}]
 	dev-python/noraise[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	>=dev-python/selenium-4.0.0[${PYTHON_USEDEP}]
 	dev-python/selenium-browser[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	>=dev-python/setuptools-67.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

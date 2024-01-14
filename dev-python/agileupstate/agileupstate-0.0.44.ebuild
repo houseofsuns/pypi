@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/hvac[${PYTHON_USEDEP}]
-	dev-python/pywinrm[${PYTHON_USEDEP}]"
+	<dev-python/prettytable-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/hvac-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pywinrm-0.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

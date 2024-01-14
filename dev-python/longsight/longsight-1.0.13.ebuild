@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aws-lambda-powertools[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.21.1[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
+	~dev-python/starlette-0.26.1[${PYTHON_USEDEP}]
 	dev-python/claws[${PYTHON_USEDEP}]
 	dev-python/watchtower[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

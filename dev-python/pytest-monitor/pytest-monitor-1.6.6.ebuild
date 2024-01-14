@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.1.0[${PYTHON_USEDEP}]
 	dev-python/memory-profiler[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

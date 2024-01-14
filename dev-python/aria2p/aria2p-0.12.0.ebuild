@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tui"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.5[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.19[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-0.58[${PYTHON_USEDEP}]
 	tui? ( dev-python/asciimatics[${PYTHON_USEDEP}] )
-	tui? ( dev-python/pyperclip[${PYTHON_USEDEP}] )"
+	tui? ( >=dev-python/pyperclip-1.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

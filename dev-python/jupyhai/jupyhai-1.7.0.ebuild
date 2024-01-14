@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/valohai-cli[${PYTHON_USEDEP}]
 	dev-python/valohai-yaml[${PYTHON_USEDEP}]
 	dev-python/valohai-utils[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]"
+	~dev-python/aiohttp-3.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

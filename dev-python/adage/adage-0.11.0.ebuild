@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop viz"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	develop? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-3.2.0[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/python-coveralls[${PYTHON_USEDEP}] )
-	viz? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	viz? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )"
+	viz? ( >=dev-python/pydot-1.2.3[${PYTHON_USEDEP}] )
+	viz? ( >=dev-python/pygraphviz-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

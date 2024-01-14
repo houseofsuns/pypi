@@ -27,13 +27,13 @@ IUSE="test"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Cors[${PYTHON_USEDEP}]
-	dev-python/pyxdg[${PYTHON_USEDEP}]
+	~dev-python/pyxdg-0.27[${PYTHON_USEDEP}]
 	dev-python/coqpit[${PYTHON_USEDEP}]
 	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/webrtcvad[${PYTHON_USEDEP}]
 	dev-python/stt[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	test? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

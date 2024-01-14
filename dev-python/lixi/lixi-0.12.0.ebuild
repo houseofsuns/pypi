@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lxml-4.4.1[${PYTHON_USEDEP}]
+	>=dev-python/isodate-0.6.0[${PYTHON_USEDEP}]
 	dev-python/xmljson[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]"
+	>=dev-python/jsonschema-3.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

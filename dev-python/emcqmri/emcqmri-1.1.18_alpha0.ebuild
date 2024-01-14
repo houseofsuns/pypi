@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/progress[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}]
+	>=dev-python/PyQt5-5.15.1[${PYTHON_USEDEP}]
+	>=dev-python/progress-1.5[${PYTHON_USEDEP}]
 	dev-python/monai[${PYTHON_USEDEP}]
 	dev-python/pytorch-ignite[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]

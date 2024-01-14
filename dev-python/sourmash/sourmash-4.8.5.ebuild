@@ -25,31 +25,31 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all demo doc storage test"
 DEPENDENCIES="dev-python/screed[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
+	>=dev-python/cffi-1.14.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/bitstring[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	>=dev-python/deprecation-2.0.6[${PYTHON_USEDEP}]
+	<dev-python/cachetools-6.0[${PYTHON_USEDEP}]
+	<dev-python/bitstring-5.0[${PYTHON_USEDEP}]
+	test? ( <dev-python/pytest-7.5.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
 	test? ( dev-python/build[${PYTHON_USEDEP}] )
 	demo? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	demo? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
 	demo? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/alabaster[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	doc? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/docutils-0.21[${PYTHON_USEDEP}] )
 	storage? ( dev-python/ipfshttpclient[${PYTHON_USEDEP}] )
 	storage? ( dev-python/redis[${PYTHON_USEDEP}] )
 	all? ( dev-python/sourmash[${PYTHON_USEDEP}] )"

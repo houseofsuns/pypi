@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/python-logging-loki[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	dev-python/nsj-sql-utils-lib[${PYTHON_USEDEP}]
 	dev-python/nsj-gcf-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

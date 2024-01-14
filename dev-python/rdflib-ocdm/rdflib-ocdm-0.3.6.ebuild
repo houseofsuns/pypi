@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rdflib[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/rdflib-7.0.0[${PYTHON_USEDEP}]
 	dev-python/oc-ocdm[${PYTHON_USEDEP}]
 	dev-python/sparqlwrapper[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]"
+	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

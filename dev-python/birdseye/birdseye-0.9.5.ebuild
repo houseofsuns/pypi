@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/flask-humanize[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/asttokens[${PYTHON_USEDEP}]
-	dev-python/littleutils[${PYTHON_USEDEP}]
+	>=dev-python/littleutils-0.2[${PYTHON_USEDEP}]
 	dev-python/cheap-repr[${PYTHON_USEDEP}]
 	dev-python/outdated[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	tests? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/numpy-1.16.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

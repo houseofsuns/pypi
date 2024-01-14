@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev strict"
 DEPENDENCIES="dev-python/mlpype-base[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev? ( dev-python/mlpype-base[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/numpy-1.23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	strict? ( dev-python/mlpype-base[${PYTHON_USEDEP}] )
 	strict? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	strict? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	strict? ( ~dev-python/numpy-1.23.0[${PYTHON_USEDEP}] )
 	strict? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

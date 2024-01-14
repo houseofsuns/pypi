@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="elements extract nd2 suite2p tests"
 DEPENDENCIES="dev-python/datajoint[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-6.0.1[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	elements? ( dev-python/element-animal[${PYTHON_USEDEP}] )

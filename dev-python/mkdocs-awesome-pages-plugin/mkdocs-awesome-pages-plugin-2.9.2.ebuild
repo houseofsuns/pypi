@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/wcmatch[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/mkdocs-1.0[${PYTHON_USEDEP}]
+	>=dev-python/wcmatch-7.0[${PYTHON_USEDEP}]
+	>=dev-python/natsort-8.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/grpcio-tools[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/grpcio-tools-1.19.0[${PYTHON_USEDEP}]
 	dev-python/jsonrpcclient[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
 	dev-python/pycoin[${PYTHON_USEDEP}]
 	dev-python/rlp[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
 	dev-python/ipfsapi[${PYTHON_USEDEP}]
-	dev-python/rfc3986[${PYTHON_USEDEP}]
+	~dev-python/rfc3986-1.1.0[${PYTHON_USEDEP}]
 	dev-python/pymultihash[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]
+	~dev-python/argcomplete-1.9.4[${PYTHON_USEDEP}]
 	dev-python/grpcio-health-checking[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/trezor[${PYTHON_USEDEP}]
 	dev-python/ledgerblue[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

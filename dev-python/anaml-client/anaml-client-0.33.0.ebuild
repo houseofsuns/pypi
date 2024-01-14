@@ -32,10 +32,10 @@ DEPENDENCIES="dev-python/isodate[${PYTHON_USEDEP}]
 	google? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-0.24[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/pandas-0.24[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -46,6 +46,6 @@ DEPENDENCIES="dev-python/isodate[${PYTHON_USEDEP}]
 	testing? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pandas-0.24[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

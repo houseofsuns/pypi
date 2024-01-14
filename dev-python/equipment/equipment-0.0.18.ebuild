@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/Faker-18.9.0[${PYTHON_USEDEP}]
 	dev-python/cachier[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
+	~dev-python/coverage-7.2.6[${PYTHON_USEDEP}]
 	dev-python/dependency-injector[${PYTHON_USEDEP}]
-	dev-python/html2text[${PYTHON_USEDEP}]
+	~dev-python/html2text-2020.1.16[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]
 	dev-python/jinja-markdown[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/moto[${PYTHON_USEDEP}]
+	~dev-python/moto-3.1.3[${PYTHON_USEDEP}]
 	dev-python/parent-import[${PYTHON_USEDEP}]
 	dev-python/premailer[${PYTHON_USEDEP}]
 	dev-python/py-dto[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/python-optional[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

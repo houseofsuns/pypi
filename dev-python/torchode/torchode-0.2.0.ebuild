@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark test"
-DEPENDENCIES="dev-python/sympy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/sympy-1.10[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchtyping[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/numpy-1.22[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

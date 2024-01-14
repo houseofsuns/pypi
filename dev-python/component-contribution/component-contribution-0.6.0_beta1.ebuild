@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="deployment development test"
 DEPENDENCIES="dev-python/equilibrator-cache[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/path[${PYTHON_USEDEP}]
-	dev-python/uncertainties[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.11[${PYTHON_USEDEP}]
+	~dev-python/path-16.7[${PYTHON_USEDEP}]
+	~dev-python/uncertainties-3.1[${PYTHON_USEDEP}]
 	deployment? ( dev-python/click[${PYTHON_USEDEP}] )
 	deployment? ( dev-python/click-log[${PYTHON_USEDEP}] )
 	deployment? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )

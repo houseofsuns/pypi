@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="unit_tests"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/cloudpickle-3.0[${PYTHON_USEDEP}]
+	<dev-python/googleapis-common-protos-2.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-3.7.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pytimeparse[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/pytimeparse-2.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
 	unit_tests? ( dev-python/filelock[${PYTHON_USEDEP}] )
 	unit_tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	unit_tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	unit_tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	unit_tests? ( dev-python/six[${PYTHON_USEDEP}] )
-	unit_tests? ( dev-python/responses[${PYTHON_USEDEP}] )"
+	unit_tests? ( >=dev-python/pytest-4.3[${PYTHON_USEDEP}] )
+	unit_tests? ( >=dev-python/pytest-xdist-1.32[${PYTHON_USEDEP}] )
+	unit_tests? ( >=dev-python/six-1.11[${PYTHON_USEDEP}] )
+	unit_tests? ( >=dev-python/responses-0.22[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

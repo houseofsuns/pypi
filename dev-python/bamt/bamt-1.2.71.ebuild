@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="composite-extras"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/setuptools-65.6.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	dev-python/gmr[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyvis[${PYTHON_USEDEP}]
 	dev-python/missingno[${PYTHON_USEDEP}]
 	dev-python/pgmpy[${PYTHON_USEDEP}]

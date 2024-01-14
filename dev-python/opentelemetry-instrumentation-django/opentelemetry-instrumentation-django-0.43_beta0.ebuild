@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-util-http[${PYTHON_USEDEP}]
 	asgi? ( dev-python/opentelemetry-instrumentation-asgi[${PYTHON_USEDEP}] )
-	instruments? ( dev-python/django[${PYTHON_USEDEP}] )
+	instruments? ( >=dev-python/django-1.10[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-django[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

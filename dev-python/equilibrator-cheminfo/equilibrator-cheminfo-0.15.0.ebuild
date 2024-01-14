@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="chemaxon development openbabel rdkit"
 DEPENDENCIES="dev-python/depinfo[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.2[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.60[${PYTHON_USEDEP}]
 	chemaxon? ( dev-python/jpype1[${PYTHON_USEDEP}] )
 	development? ( dev-python/black[${PYTHON_USEDEP}] )
 	development? ( dev-python/isort[${PYTHON_USEDEP}] )

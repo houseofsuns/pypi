@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="postgresql sqlite"
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-1.5[${PYTHON_USEDEP}]
 	postgresql? ( dev-python/asyncpg-rkt[${PYTHON_USEDEP}] )
 	sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

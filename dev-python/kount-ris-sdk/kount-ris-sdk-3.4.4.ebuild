@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/requests-2.11.1[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/flake8-2.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-2.8.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-profiling[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-1.7.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-metadata[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-metadata-1.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-2.8.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-profiling[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-metadata[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-metadata-1.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

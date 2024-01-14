@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="prevent-xss test"
 DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	prevent-xss? ( dev-python/bleach[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/tox-2.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

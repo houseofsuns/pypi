@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-4.6.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

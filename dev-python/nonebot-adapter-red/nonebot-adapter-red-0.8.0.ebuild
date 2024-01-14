@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="auto-detect"
 DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.1[${PYTHON_USEDEP}]
 	auto-detect? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

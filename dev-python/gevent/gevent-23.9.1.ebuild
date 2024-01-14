@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs monitor recommended test"
-DEPENDENCIES="dev-python/greenlet[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/greenlet-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/greenlet-3.0[${PYTHON_USEDEP}]
 	dev-python/zope-event[${PYTHON_USEDEP}]
 	dev-python/zope-interface[${PYTHON_USEDEP}]
-	monitor? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/cffi[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	monitor? ( >=dev-python/psutil-5.7.0[${PYTHON_USEDEP}] )
+	recommended? ( >=dev-python/cffi-1.12.2[${PYTHON_USEDEP}] )
+	recommended? ( >=dev-python/psutil-5.7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/repoze-sphinx-autointerface[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
 	docs? ( dev-python/zope-schema[${PYTHON_USEDEP}] )
-	test? ( dev-python/cffi[${PYTHON_USEDEP}] )
-	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/cffi-1.12.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/psutil-5.7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/objgraph[${PYTHON_USEDEP}] )
 	test? ( dev-python/setuptools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

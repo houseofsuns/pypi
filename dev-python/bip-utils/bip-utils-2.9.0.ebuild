@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/cbor2[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cbor2-5.1[${PYTHON_USEDEP}]
 	dev-python/coincurve[${PYTHON_USEDEP}]
-	dev-python/crcmod[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
+	~dev-python/crcmod-1.7[${PYTHON_USEDEP}]
+	~dev-python/ecdsa-0.15[${PYTHON_USEDEP}]
 	dev-python/ed25519-blake2b[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.6[${PYTHON_USEDEP}]
+	~dev-python/pynacl-1.4[${PYTHON_USEDEP}]
 	dev-python/py-sr25519-bindings[${PYTHON_USEDEP}]
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	develop? ( dev-python/isort[${PYTHON_USEDEP}] )
-	develop? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/coverage-5.3[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/flake8-3.8[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/isort-5.8[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/mypy-0.900[${PYTHON_USEDEP}] )
 	develop? ( dev-python/prospector[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	develop? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-cov-2.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

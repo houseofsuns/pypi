@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.4.1[${PYTHON_USEDEP}]
 	dev-python/database-without-orm-local[${PYTHON_USEDEP}]
 	dev-python/logger-local[${PYTHON_USEDEP}]
 	dev-python/queue-local[${PYTHON_USEDEP}]"

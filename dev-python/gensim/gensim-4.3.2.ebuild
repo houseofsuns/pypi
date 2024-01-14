@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="distributed docs test test-win"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
 	distributed? ( dev-python/Pyro4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -35,9 +35,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/POT[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Pyro4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/visdom[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-gallery-0.11.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-programoutput-0.17[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )

@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="chromadb dev generator prefect slackbot tests"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonpatch[${PYTHON_USEDEP}]
+	>=dev-python/jsonpatch-1.33[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.0[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/tzdata[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tzdata-2023.3[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]
 	chromadb? ( dev-python/chromadb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/marvin[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -46,8 +46,8 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev? ( dev-python/mkdocs-livereload[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocs-material-9.1.17[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-0.22[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdbpp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
@@ -57,11 +57,11 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	slackbot? ( dev-python/marvin[${PYTHON_USEDEP}] )
 	slackbot? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	slackbot? ( dev-python/marvin[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-asyncio-0.23.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-env-2.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-rerunfailures-13.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-sugar-0.9[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

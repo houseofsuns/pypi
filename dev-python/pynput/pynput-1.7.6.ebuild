@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/evdev[${PYTHON_USEDEP}]
-	dev-python/python-xlib[${PYTHON_USEDEP}]
+	>=dev-python/python-xlib-0.17[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-ApplicationServices[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Quartz[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

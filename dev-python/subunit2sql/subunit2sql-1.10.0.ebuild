@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="graph test"
-DEPENDENCIES="dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/alembic-0.8.10[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-4.0.0[${PYTHON_USEDEP}]
 	dev-python/oslo-db[${PYTHON_USEDEP}]
 	dev-python/python-subunit[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	graph? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	graph? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	>=dev-python/stevedore-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.4.2[${PYTHON_USEDEP}]
+	graph? ( >=dev-python/pandas-0.20.1[${PYTHON_USEDEP}] )
+	graph? ( >=dev-python/matplotlib-2.0.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/fixtures[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/testscenarios[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-3.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/fixtures-0.3.14[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/sphinx-1.6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testscenarios-0.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-1.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testtools-0.9.34[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyMySql[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	test? ( dev-python/oslo-concurrency[${PYTHON_USEDEP}] )
-	test? ( dev-python/reno[${PYTHON_USEDEP}] )
-	test? ( dev-python/openstackdocstheme[${PYTHON_USEDEP}] )
-	test? ( dev-python/testresources[${PYTHON_USEDEP}] )
-	test? ( dev-python/testscenarios[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/oslo-concurrency-3.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/reno-0.1.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/openstackdocstheme-1.11.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testresources-0.2.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testscenarios-0.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

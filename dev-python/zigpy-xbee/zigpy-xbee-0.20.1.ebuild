@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/zigpy[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/asynctest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-asyncio-0.19.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

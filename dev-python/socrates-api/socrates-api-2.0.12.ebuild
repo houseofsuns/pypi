@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw-ext[${PYTHON_USEDEP}]
 	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
+	>dev-python/deepdiff-3.2.0[${PYTHON_USEDEP}]
 	dev-python/django-rethink[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

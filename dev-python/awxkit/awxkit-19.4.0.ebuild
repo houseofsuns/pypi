@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	crypto? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	formatting? ( dev-python/jq[${PYTHON_USEDEP}] )
-	websockets? ( dev-python/websocket-client[${PYTHON_USEDEP}] )"
+	websockets? ( ~dev-python/websocket-client-0.57.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Pygments[${PYTHON_USEDEP}]
 	dev-python/misaka[${PYTHON_USEDEP}]
-	dev-python/pyquery[${PYTHON_USEDEP}]"
+	>=dev-python/pyquery-1.4.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

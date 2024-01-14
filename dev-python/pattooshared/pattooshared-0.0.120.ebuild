@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PyYaml[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]"
+	~dev-python/virtualenv-20.0.30[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/google-api-python-client[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/google-api-python-client-2.65.0[${PYTHON_USEDEP}]
 	dev-python/rasa-sdk[${PYTHON_USEDEP}]
 	dev-python/rasa[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

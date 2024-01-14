@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all explainer pyspark visualization"
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/tf-models-official[${PYTHON_USEDEP}]
 	dev-python/tensorflow-probability[${PYTHON_USEDEP}]
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	all? ( dev-python/omnixai[${PYTHON_USEDEP}] )
-	all? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pygraphviz-1.10[${PYTHON_USEDEP}] )
 	explainer? ( dev-python/omnixai[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )"
+	visualization? ( ~dev-python/pygraphviz-1.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

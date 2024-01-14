@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/html-text[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/jstyleson[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	>=dev-python/rdflib-6.0.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

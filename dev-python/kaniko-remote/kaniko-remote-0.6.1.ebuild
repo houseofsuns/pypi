@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docker tests"
 DEPENDENCIES="dev-python/asyncclick[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/anyio-3.5[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.3[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.0[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/deflatable-dict[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
+	>=dev-python/pathspec-0.9[${PYTHON_USEDEP}]
 	docker? ( dev-python/kaniko-remote-docker-cli[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

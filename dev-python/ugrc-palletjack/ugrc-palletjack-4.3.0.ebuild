@@ -32,17 +32,17 @@ DEPENDENCIES="dev-python/arcgis[${PYTHON_USEDEP}]
 	dev-python/pyogrio[${PYTHON_USEDEP}]
 	dev-python/pysftp[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	tests? ( dev-python/pdoc3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pdoc3-0.10[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint-quotes[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pylint-3.1[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-cov-4.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-instafail[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-mock-3.13[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pylint[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/yapf[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/requests-mock-1.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/yapf-0.41[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

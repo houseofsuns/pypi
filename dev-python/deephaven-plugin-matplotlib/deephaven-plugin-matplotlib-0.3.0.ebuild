@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/deephaven-core[${PYTHON_USEDEP}]
 	dev-python/jpy[${PYTHON_USEDEP}]
 	dev-python/deephaven-plugin[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	seaborn? ( dev-python/seaborn[${PYTHON_USEDEP}] )"
+	seaborn? ( >=dev-python/seaborn-0.13.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

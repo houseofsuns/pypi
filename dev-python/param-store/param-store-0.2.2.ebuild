@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/moto[${PYTHON_USEDEP}] )
+	>=dev-python/six-1.1[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-1.4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-5.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-3.0.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/moto-1.3.16[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-environ[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-4.2.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.0.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-imports[${PYTHON_USEDEP}] )"

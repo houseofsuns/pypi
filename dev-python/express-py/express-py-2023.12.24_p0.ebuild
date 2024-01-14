@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/munch[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/munch-2.5.0[${PYTHON_USEDEP}]
 	dev-python/pymatgen[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/esse[${PYTHON_USEDEP}]
 	dev-python/rdkit-pypi[${PYTHON_USEDEP}]
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/coverage-5.3[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

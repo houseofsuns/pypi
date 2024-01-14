@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/atyp[${PYTHON_USEDEP}]
 	dev-python/ston[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/numpy-1.22[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/anndata[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )"

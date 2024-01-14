@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/requests-0.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-0.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-0.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.0[${PYTHON_USEDEP}]
+	>=dev-python/notebook-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

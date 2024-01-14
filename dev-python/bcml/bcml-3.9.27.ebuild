@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.19.3[${PYTHON_USEDEP}]
 	dev-python/aamp[${PYTHON_USEDEP}]
 	dev-python/byml[${PYTHON_USEDEP}]
 	dev-python/botw-utils[${PYTHON_USEDEP}]
 	dev-python/botw-havok[${PYTHON_USEDEP}]
 	dev-python/oead[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/pyqtwebengine[${PYTHON_USEDEP}]
 	dev-python/QtPy[${PYTHON_USEDEP}]
 	dev-python/pyqtwebengine[${PYTHON_USEDEP}]
 	dev-python/pywebview[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	dev-python/rstb[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]"
+	~dev-python/xxhash-1.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

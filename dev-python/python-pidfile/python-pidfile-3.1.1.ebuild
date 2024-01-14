@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
 DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	develop? ( >dev-python/coverage-4.3[${PYTHON_USEDEP}] )
 	develop? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full plot"
 DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	>=dev-python/pooch-1.4[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.8[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.20[${PYTHON_USEDEP}]
 	full? ( dev-python/cartopy[${PYTHON_USEDEP}] )
-	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )
 	full? ( dev-python/cf-xarray[${PYTHON_USEDEP}] )
 	plot? ( dev-python/cartopy[${PYTHON_USEDEP}] )
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	plot? ( >=dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

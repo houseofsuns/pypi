@@ -25,46 +25,46 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs notebooks"
 DEPENDENCIES="dev-python/datumaro[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.65[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	>=dev-python/pathvalidate-2.5.0[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.19[${PYTHON_USEDEP}]
+	~dev-python/ipython-8.12[${PYTHON_USEDEP}]
 	dev-python/otx[${PYTHON_USEDEP}]
 	dev-python/openvino[${PYTHON_USEDEP}]
 	dev-python/openvino-model-api[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.1.1[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/ovmsclient[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/imageio-ffmpeg[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev? ( dev-python/vcrpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-recording[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
+	~dev-python/orjson-3.9.2[${PYTHON_USEDEP}]
+	~dev-python/imageio-ffmpeg-0.4.8[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-41.0.2[${PYTHON_USEDEP}]
+	>=dev-python/semver-3.0.1[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/vcrpy-4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-recording-0.12[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-env-0.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydocstyle-6.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.6[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbqa[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/jupyter-core[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/mistune[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/myst-parser-0.18[${PYTHON_USEDEP}] )
+	notebooks? ( >=dev-python/jupyterlab-3.5.3[${PYTHON_USEDEP}] )
+	notebooks? ( >=dev-python/jupyter-core-4.11.2[${PYTHON_USEDEP}] )
+	notebooks? ( >=dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}] )
+	notebooks? ( >=dev-python/mistune-2.0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

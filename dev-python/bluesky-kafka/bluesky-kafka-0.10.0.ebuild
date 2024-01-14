@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/bluesky[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.0[${PYTHON_USEDEP}]
 	dev-python/msgpack-numpy[${PYTHON_USEDEP}]
 	dev-python/suitcase-mongo[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

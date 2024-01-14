@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jmespath[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
 	dev-python/error-manager[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

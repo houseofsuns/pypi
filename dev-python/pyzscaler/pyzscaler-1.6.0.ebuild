@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/restfly[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]"
+	~dev-python/python-box-7.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	aws? ( dev-python/botocore[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-41.0.5[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
+	aws? ( >=dev-python/boto3-1.28.83[${PYTHON_USEDEP}] )
+	aws? ( >=dev-python/botocore-1.31.83[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

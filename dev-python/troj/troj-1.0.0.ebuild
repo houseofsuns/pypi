@@ -26,22 +26,22 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cv dev docs nlp tensorflow test"
 DEPENDENCIES="dev-python/adversarial-robustness-toolbox[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-8.8.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
+	~dev-python/plotly-5.4.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
+	~dev-python/setuptools-47.1.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-gpu[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/tqdm-4.50.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.7[${PYTHON_USEDEP}]
 	cv? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	cv? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	cv? ( dev-python/Pillow[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/adversarial-robustness-toolbox[${PYTHON_USEDEP}]
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
@@ -67,7 +67,7 @@ DEPENDENCIES="dev-python/adversarial-robustness-toolbox[${PYTHON_USEDEP}]
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/textattack[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/nltk[${PYTHON_USEDEP}] )

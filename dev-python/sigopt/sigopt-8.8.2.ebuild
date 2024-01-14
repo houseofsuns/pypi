@@ -24,48 +24,48 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev hyperopt lite orchestrate xgboost"
-DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pypng[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	>=dev-python/pypng-0.0.20[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nose[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.9.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pymongo-3.12.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-47.3.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/twine-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vulture[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Pint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/certifi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docker[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/certifi-2022.12.7[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/docker-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
 	dev? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/numpy-1.15.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sigoptlite[${PYTHON_USEDEP}] )
 	hyperopt? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
 	lite? ( dev-python/sigoptlite[${PYTHON_USEDEP}] )
 	orchestrate? ( dev-python/Pint[${PYTHON_USEDEP}] )
-	orchestrate? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	orchestrate? ( dev-python/certifi[${PYTHON_USEDEP}] )
-	orchestrate? ( dev-python/docker[${PYTHON_USEDEP}] )
+	orchestrate? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	orchestrate? ( >=dev-python/certifi-2022.12.7[${PYTHON_USEDEP}] )
+	orchestrate? ( <dev-python/docker-5.0.0[${PYTHON_USEDEP}] )
 	orchestrate? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	orchestrate? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
 	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	xgboost? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	xgboost? ( >=dev-python/numpy-1.15.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

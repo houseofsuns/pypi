@@ -27,15 +27,15 @@ IUSE="all qdrant stability"
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jinja2schema[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-41.0.6[${PYTHON_USEDEP}]
 	all? ( dev-python/stability-sdk[${PYTHON_USEDEP}] )
 	stability? ( dev-python/stability-sdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/qdrant-client[${PYTHON_USEDEP}] )
 	qdrant? ( dev-python/qdrant-client[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )"
+	all? ( ~dev-python/boto3-1.29.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

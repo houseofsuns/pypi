@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="sphinx"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/sphinx-4.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-design[${PYTHON_USEDEP}]
 	sphinx? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )

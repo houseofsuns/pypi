@@ -36,10 +36,10 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxjp-themes-basicstrap[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/attrs[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-4.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/attrs-18.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

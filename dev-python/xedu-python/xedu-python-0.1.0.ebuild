@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
 	dev-python/openxlab[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<=dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

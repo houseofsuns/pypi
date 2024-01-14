@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

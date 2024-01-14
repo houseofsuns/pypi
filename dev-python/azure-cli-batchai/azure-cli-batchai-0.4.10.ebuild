@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/azure-mgmt-storage[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-batchai[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
 	dev-python/azure-cli-core[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
+	>=dev-python/mock-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sshtunnel[${PYTHON_USEDEP}]
 	dev-python/azure-cli-command-modules-nspkg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

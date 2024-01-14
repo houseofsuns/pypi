@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="linchpin-wrapper notify-service-plugin openstack-client-plugin terraform-plugin webhook-notification-plugin"
 DEPENDENCIES="dev-python/ansible[${PYTHON_USEDEP}]
-	dev-python/apache-libcloud[${PYTHON_USEDEP}]
+	~dev-python/apache-libcloud-2.2.0[${PYTHON_USEDEP}]
 	dev-python/blaster[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/pykwalify[${PYTHON_USEDEP}]
+	>=dev-python/pykwalify-1.6.0[${PYTHON_USEDEP}]
 	dev-python/python-cachetclient[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.15.64[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.4.2[${PYTHON_USEDEP}]
 	dev-python/retry2[${PYTHON_USEDEP}]
 	dev-python/ssh-python[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.1[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	linchpin-wrapper? ( dev-python/teflo-linchpin-plugin[${PYTHON_USEDEP}] )
 	notify-service-plugin? ( dev-python/teflo-notify-service-plugin[${PYTHON_USEDEP}] )
 	openstack-client-plugin? ( dev-python/teflo-openstack-client-plugin[${PYTHON_USEDEP}] )

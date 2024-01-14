@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fastapi redis"
-DEPENDENCIES="redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+DEPENDENCIES="redis? ( <dev-python/redis-5.0[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

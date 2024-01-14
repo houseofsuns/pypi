@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="devel pandas pyspark"
-DEPENDENCIES="dev-python/pyarrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyarrow-8.0[${PYTHON_USEDEP}]
 	dev-python/pyarrow-hotfix[${PYTHON_USEDEP}]
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	devel? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	devel? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	devel? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	devel? ( >=dev-python/packaging-20.0[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	devel? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	devel? ( <=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
 	devel? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	devel? ( dev-python/toml[${PYTHON_USEDEP}] )
 	devel? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/delta-spark[${PYTHON_USEDEP}] )
-	pyspark? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	pyspark? ( ~dev-python/numpy-1.22.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

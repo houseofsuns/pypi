@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pettingzoo[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]"
+	~dev-python/pygame-2.5.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,96 +24,96 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="base docs tutorial"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	dev-python/chocolate[${PYTHON_USEDEP}]
 	dev-python/csvwlib[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-35.0[${PYTHON_USEDEP}]
+	>=dev-python/decorator-5.1[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2022.2[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]
 	dev-python/morph-kgc[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.7[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	dev-python/owlrl[${PYTHON_USEDEP}]
 	dev-python/oxrdflib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4[${PYTHON_USEDEP}]
 	dev-python/pslpython[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-7.0[${PYTHON_USEDEP}]
 	dev-python/pynvml[${PYTHON_USEDEP}]
 	dev-python/pyshacl[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
 	dev-python/pyvis[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/rdflib-6.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.13[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.63[${PYTHON_USEDEP}]
 	dev-python/urlpath[${PYTHON_USEDEP}]
-	base? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/aiohttp-3.8[${PYTHON_USEDEP}] )
 	base? ( dev-python/chocolate[${PYTHON_USEDEP}] )
 	base? ( dev-python/csvwlib[${PYTHON_USEDEP}] )
-	base? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	base? ( dev-python/decorator[${PYTHON_USEDEP}] )
-	base? ( dev-python/fsspec[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/cryptography-35.0[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/decorator-5.1[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/fsspec-2022.2[${PYTHON_USEDEP}] )
 	base? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	base? ( dev-python/icecream[${PYTHON_USEDEP}] )
 	base? ( dev-python/morph-kgc[${PYTHON_USEDEP}] )
-	base? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	base? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/networkx-2.7[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/numpy-1.23.0[${PYTHON_USEDEP}] )
 	base? ( dev-python/owlrl[${PYTHON_USEDEP}] )
 	base? ( dev-python/oxrdflib[${PYTHON_USEDEP}] )
-	base? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/pandas-1.4[${PYTHON_USEDEP}] )
 	base? ( dev-python/pslpython[${PYTHON_USEDEP}] )
-	base? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/pyarrow-7.0[${PYTHON_USEDEP}] )
 	base? ( dev-python/pynvml[${PYTHON_USEDEP}] )
 	base? ( dev-python/pyshacl[${PYTHON_USEDEP}] )
-	base? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/python-dateutil-2.8[${PYTHON_USEDEP}] )
 	base? ( dev-python/pyvis[${PYTHON_USEDEP}] )
-	base? ( dev-python/rdflib[${PYTHON_USEDEP}] )
-	base? ( dev-python/requests[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/rdflib-6.1[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/requests-2.27[${PYTHON_USEDEP}] )
 	base? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	base? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	base? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	base? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/scipy-1.8.0[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/statsmodels-0.13[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/tqdm-4.63[${PYTHON_USEDEP}] )
 	base? ( dev-python/urlpath[${PYTHON_USEDEP}] )
-	docs? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/bandit-1.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/codespell[${PYTHON_USEDEP}] )
-	docs? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	docs? ( dev-python/flask[${PYTHON_USEDEP}] )
-	docs? ( dev-python/flit[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/coverage-6.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/flask-2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/flit-3.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/grayskull[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jupyterlab-3.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mistune-0.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-git-revision-date-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-8.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mknotebooks[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mypy-0.940[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbconvert-6.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbmake[${PYTHON_USEDEP}] )
-	docs? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/notebook-6.4[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pipdeptree-2.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	docs? ( dev-python/responses[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pygments-2.11[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pylint-2.12[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pymdown-extensions-9.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pytest-7.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/responses-0.19[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	docs? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	docs? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	docs? ( dev-python/twine[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/selenium-4.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/twine-3.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	docs? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	docs? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/cairocffi[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/wheel-0.37[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/xmltodict-0.12[${PYTHON_USEDEP}] )
+	tutorial? ( >=dev-python/cairocffi-1.3[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/igraph[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	tutorial? ( >=dev-python/jupyterlab-3.1.4[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/leidenalg[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/pylev[${PYTHON_USEDEP}] )"
+	tutorial? ( >=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}] )
+	tutorial? ( >=dev-python/pylev-1.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

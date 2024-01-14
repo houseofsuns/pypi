@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-1.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0[${PYTHON_USEDEP}]
 	dev-python/bq-easy-zfullio[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]"
+	<dev-python/xlrd-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

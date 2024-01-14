@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-admin-sortable2[${PYTHON_USEDEP}]
-	dev-python/django-crispy-forms[${PYTHON_USEDEP}]
+	~dev-python/django-crispy-forms-1.14.0[${PYTHON_USEDEP}]
 	dev-python/django-impersonate[${PYTHON_USEDEP}]
 	dev-python/django-polymorphic[${PYTHON_USEDEP}]
 	dev-python/django-richtextfield[${PYTHON_USEDEP}]
 	dev-python/django-import-export[${PYTHON_USEDEP}]
-	dev-python/icalendar[${PYTHON_USEDEP}]
-	dev-python/reportlab[${PYTHON_USEDEP}]
+	~dev-python/icalendar-5.0.0[${PYTHON_USEDEP}]
+	~dev-python/reportlab-3.6.13[${PYTHON_USEDEP}]
 	dev-python/schwifty[${PYTHON_USEDEP}]
 	dev-python/xhtml2pdf[${PYTHON_USEDEP}]
 	dev-python/XlsxWriter[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/fontawesomefree[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

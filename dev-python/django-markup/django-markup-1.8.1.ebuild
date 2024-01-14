@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all_filter_dependencies"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	all_filter_dependencies? ( dev-python/textile[${PYTHON_USEDEP}] )
-	all_filter_dependencies? ( dev-python/smartypants[${PYTHON_USEDEP}] )
-	all_filter_dependencies? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	all_filter_dependencies? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	all_filter_dependencies? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	all_filter_dependencies? ( dev-python/bleach[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
+	all_filter_dependencies? ( >=dev-python/textile-2.3.16[${PYTHON_USEDEP}] )
+	all_filter_dependencies? ( >=dev-python/smartypants-2.0.0[${PYTHON_USEDEP}] )
+	all_filter_dependencies? ( >=dev-python/docutils-0.14[${PYTHON_USEDEP}] )
+	all_filter_dependencies? ( >=dev-python/pygments-2.2.0[${PYTHON_USEDEP}] )
+	all_filter_dependencies? ( >=dev-python/markdown-2.6.9[${PYTHON_USEDEP}] )
+	all_filter_dependencies? ( >=dev-python/bleach-3.0[${PYTHON_USEDEP}] )
 	all_filter_dependencies? ( dev-python/python-creole[${PYTHON_USEDEP}] )
-	all_filter_dependencies? ( dev-python/pygments[${PYTHON_USEDEP}] )"
+	all_filter_dependencies? ( >=dev-python/pygments-2.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

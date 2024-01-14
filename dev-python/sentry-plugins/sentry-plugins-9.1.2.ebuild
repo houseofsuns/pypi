@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/BeautifulSoup[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<dev-python/boto3-1.5.0[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/mistune[${PYTHON_USEDEP}]
 	dev-python/phabricator[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/unidiff[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-0.3.0[${PYTHON_USEDEP}]
+	>=dev-python/unidiff-0.5.4[${PYTHON_USEDEP}]
 	tests? ( dev-python/exam[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sentry-flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pycodestyle-2.3.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/responses[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sentry[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyjwt[${PYTHON_USEDEP}] )"
+	tests? ( <dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pyjwt-0.3.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

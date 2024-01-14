@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
 DEPENDENCIES="dev-python/imagecodecs[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.2[${PYTHON_USEDEP}]
 	dev-python/pynrrd[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9.1[${PYTHON_USEDEP}]
 	dev-python/sdflit[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
+	>=dev-python/tifffile-2022.8.12[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	dev-python/v3d-py-helper[${PYTHON_USEDEP}]
-	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	all? ( dev-python/certifi[${PYTHON_USEDEP}] )
-	all? ( dev-python/chardet[${PYTHON_USEDEP}] )
-	all? ( dev-python/lmdb[${PYTHON_USEDEP}] )
-	all? ( dev-python/pycurl[${PYTHON_USEDEP}] )
-	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	all? ( dev-python/urllib3[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/certifi-2023.5.7[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/chardet-5.2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/lmdb-1.4.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pycurl-7.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tqdm-4.46.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

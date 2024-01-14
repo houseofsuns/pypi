@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="uvloop"
-DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/wheel-0.42.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/asyncdb[${PYTHON_USEDEP}]
 	dev-python/navconfig[${PYTHON_USEDEP}]
 	dev-python/aioftp[${PYTHON_USEDEP}]
 	dev-python/siosocks[${PYTHON_USEDEP}]
 	dev-python/asyncssh[${PYTHON_USEDEP}]
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	uvloop? ( >=dev-python/uvloop-0.19.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

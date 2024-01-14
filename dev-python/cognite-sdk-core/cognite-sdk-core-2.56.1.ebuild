@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="geo pandas"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/requests-oauthlib-1.3.0[${PYTHON_USEDEP}]
 	geo? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	geo? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	geo? ( ~dev-python/shapely-1.0[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cryptodome drf drf-spectacular modeltranslation"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	cryptodome? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
-	drf? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/django-1.11.17[${PYTHON_USEDEP}]
+	cryptodome? ( ~dev-python/pycryptodome-3.18.0[${PYTHON_USEDEP}] )
+	drf? ( <dev-python/djangorestframework-4.0[${PYTHON_USEDEP}] )
 	drf-spectacular? ( dev-python/drf-spectacular[${PYTHON_USEDEP}] )
 	modeltranslation? ( dev-python/django-modeltranslation[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

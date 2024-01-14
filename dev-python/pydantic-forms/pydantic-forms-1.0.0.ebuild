@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc fastapi orjson test"
 DEPENDENCIES="dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.5.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
@@ -38,12 +38,12 @@ DEPENDENCIES="dev-python/more-itertools[${PYTHON_USEDEP}]
 	doc? ( dev-python/mkdocs-render-swagger-plugin[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	orjson? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/apache-license-check[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/structlog[${PYTHON_USEDEP}] )
 	test? ( dev-python/jsonref[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

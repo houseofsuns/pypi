@@ -29,17 +29,17 @@ DEPENDENCIES="dev-python/canopen[${PYTHON_USEDEP}]
 	dev-python/ingenialogger[${PYTHON_USEDEP}]
 	dev-python/ping3[${PYTHON_USEDEP}]
 	dev-python/pysoem[${PYTHON_USEDEP}]
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-3.5.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinxcontrib-bibtex-2.4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nbsphinx-0.8.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pycodestyle-2.6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.37.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/mypy-0.971[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

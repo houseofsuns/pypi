@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/niondata[${PYTHON_USEDEP}]
 	dev-python/nionswift[${PYTHON_USEDEP}]
 	dev-python/nionui[${PYTHON_USEDEP}]
 	dev-python/nionutils[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

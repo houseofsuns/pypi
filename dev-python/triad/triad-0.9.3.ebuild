@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ciso8601"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-6.0.1[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2022.5.0[${PYTHON_USEDEP}]
 	dev-python/fs[${PYTHON_USEDEP}]
 	ciso8601? ( dev-python/ciso8601[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs factories mysql postgres"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cryptography-40.0[${PYTHON_USEDEP}]
+	<dev-python/django-4.3[${PYTHON_USEDEP}]
 	dev-python/django-renderpdf[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
-	dev-python/setuptools-git[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/zeep[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-3.4.4[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-16.2.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-git-1.1[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.24.0[${PYTHON_USEDEP}]
+	<dev-python/zeep-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/qrcode-8.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )

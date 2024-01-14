@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/arrow-1.2.3[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.2.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

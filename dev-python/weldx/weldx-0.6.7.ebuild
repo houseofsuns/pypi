@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="media test vis"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/asdf[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2022.9.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.2[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.6[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/pint-xarray[${PYTHON_USEDEP}]
-	dev-python/bottleneck[${PYTHON_USEDEP}]
+	>=dev-python/bottleneck-1.3.3[${PYTHON_USEDEP}]
 	dev-python/boltons[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.8.2[${PYTHON_USEDEP}]
 	dev-python/fs[${PYTHON_USEDEP}]
 	dev-python/meshio[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	media? ( dev-python/av[${PYTHON_USEDEP}] )
 	media? ( dev-python/dask-image[${PYTHON_USEDEP}] )
 	media? ( dev-python/tifffile[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbval[${PYTHON_USEDEP}] )

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.0.1[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-2.1.11[${PYTHON_USEDEP}]
+	>=dev-python/coloredlogs-9.0[${PYTHON_USEDEP}]
+	>=dev-python/semver-2.8.1[${PYTHON_USEDEP}]
 	dev-python/ruyaml[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0.2[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]"
+	>=dev-python/boto3-1.18.17[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

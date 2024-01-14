@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/colorlog-7.0.0[${PYTHON_USEDEP}]
 	dev-python/gtfparse[${PYTHON_USEDEP}]
 	dev-python/pygtrie[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
 	dev-python/pytabix[${PYTHON_USEDEP}]
 	dev-python/rstr[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]"
+	<dev-python/sortedcontainers-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

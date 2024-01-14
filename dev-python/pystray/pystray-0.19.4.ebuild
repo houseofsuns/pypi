@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Quartz[${PYTHON_USEDEP}]
-	dev-python/python-xlib[${PYTHON_USEDEP}]"
+	>=dev-python/python-xlib-0.17[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

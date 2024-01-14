@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/argcomplete-3.0[${PYTHON_USEDEP}]
 	dev-python/Dickens[${PYTHON_USEDEP}]
-	dev-python/plumbum[${PYTHON_USEDEP}]"
+	~dev-python/plumbum-1.8.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

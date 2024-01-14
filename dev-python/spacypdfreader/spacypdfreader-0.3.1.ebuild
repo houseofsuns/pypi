@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pytesseract"
 DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-11.0.0[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
-	pytesseract? ( dev-python/pytesseract[${PYTHON_USEDEP}] )
+	pytesseract? ( <dev-python/pytesseract-0.4.0[${PYTHON_USEDEP}] )
 	pytesseract? ( dev-python/pdf2image[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	pytesseract? ( dev-python/Pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="crc gcsfuse"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	>dev-python/decorator-4.1.2[${PYTHON_USEDEP}]
+	~dev-python/fsspec-2023.12.2[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-1.2[${PYTHON_USEDEP}]
 	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

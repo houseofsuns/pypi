@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev tests"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
+	<=dev-python/cattrs-1.10.0[${PYTHON_USEDEP}]
+	<dev-python/multidict-5.0[${PYTHON_USEDEP}]
+	>=dev-python/structlog-20.1.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.5.3[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/uritools[${PYTHON_USEDEP}]
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.7[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-asyncio-0.11.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	all? ( dev-python/mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mock-3.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-mock-1.10[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
@@ -51,12 +51,12 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdbpp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.7[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-asyncio-0.11.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mock-3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-mock-1.10[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )

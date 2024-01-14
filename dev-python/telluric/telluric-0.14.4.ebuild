@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev vis"
 DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	dev-python/fiona[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	<dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/mercantile[${PYTHON_USEDEP}]
@@ -40,8 +40,8 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )
 	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-4.0[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )

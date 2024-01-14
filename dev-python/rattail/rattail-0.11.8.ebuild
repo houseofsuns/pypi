@@ -39,10 +39,10 @@ DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
 	dev-python/texttable[${PYTHON_USEDEP}]
 	dev-python/WuttJamaican[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2013.0[${PYTHON_USEDEP}]
 	dev-python/pyinotify[${PYTHON_USEDEP}]
 	bouncer? ( dev-python/flufl-bounce[${PYTHON_USEDEP}] )
-	db? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	db? ( >=dev-python/alembic-0.7.0[${PYTHON_USEDEP}] )
 	db? ( dev-python/beaker[${PYTHON_USEDEP}] )
 	db? ( dev-python/passlib[${PYTHON_USEDEP}] )
 	db? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )

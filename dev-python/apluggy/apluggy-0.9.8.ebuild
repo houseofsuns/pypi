@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/hypothesis[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/decorator-5.1[${PYTHON_USEDEP}]
+	>=dev-python/hypothesis-6.68[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-1.0[${PYTHON_USEDEP}]
 	dev-python/types-decorator[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-asyncio-0.18[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-timeout-2.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

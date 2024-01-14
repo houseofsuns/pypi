@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/yara-python[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/yara-python-4.2.0[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.17.6[${PYTHON_USEDEP}]
 	dev-python/pdftotext[${PYTHON_USEDEP}]
 	dev-python/mailsuite[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

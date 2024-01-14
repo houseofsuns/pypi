@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dask mpi ray spreadsheet"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	all? ( dev-python/dask[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/pandas-2.2[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2022.5.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/dask-2.22.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	all? ( dev-python/ray[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyarrow-7.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/modin-spreadsheet[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( >=dev-python/dask-2.22.0[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	mpi? ( dev-python/unidist[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
-	ray? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	ray? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	ray? ( >=dev-python/pyarrow-7.0.0[${PYTHON_USEDEP}] )
+	ray? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	spreadsheet? ( dev-python/modin-spreadsheet[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

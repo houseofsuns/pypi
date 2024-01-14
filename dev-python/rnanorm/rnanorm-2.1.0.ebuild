@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs package test"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	package? ( dev-python/build[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.19.2[${PYTHON_USEDEP}] )
+	package? ( >=dev-python/build-0.8.0[${PYTHON_USEDEP}] )
 	package? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	package? ( dev-python/twine[${PYTHON_USEDEP}] )
+	package? ( >=dev-python/twine-4.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )

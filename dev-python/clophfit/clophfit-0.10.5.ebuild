@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests"
 DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-8.1.8[${PYTHON_USEDEP}]
 	dev-python/corner[${PYTHON_USEDEP}]
-	dev-python/emcee[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	<dev-python/emcee-3.1.5[${PYTHON_USEDEP}]
+	<dev-python/lmfit-1.2.3[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-3.8.1[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-3.1.3[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
+	<dev-python/scipy-1.11.3[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.12.3[${PYTHON_USEDEP}]
+	<dev-python/sympy-1.13.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-4.66.2[${PYTHON_USEDEP}]
+	<dev-python/xlrd-2.0.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/commitizen[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
@@ -47,18 +47,18 @@ DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
 	dev? ( dev-python/python-lsp-ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.9.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pydata-sphinx-theme-0.14.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.24.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-plantuml[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-plantuml-0.26[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/mypy-1.6[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pygments-2.16.2[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-click[${PYTHON_USEDEP}] )
-	tests? ( dev-python/xdoctest[${PYTHON_USEDEP}] )"
+	tests? ( <dev-python/xdoctest-1.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

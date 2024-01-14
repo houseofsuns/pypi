@@ -27,9 +27,9 @@ IUSE="documentation testing"
 DEPENDENCIES="testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	documentation? ( >=dev-python/sphinx-1.6.3[${PYTHON_USEDEP}] )
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	<dev-python/sympy-1.11.0[${PYTHON_USEDEP}]
 	dev-python/nest-asyncio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

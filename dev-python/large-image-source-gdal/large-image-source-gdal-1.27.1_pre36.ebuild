@@ -27,7 +27,7 @@ IUSE="girder"
 DEPENDENCIES="dev-python/large-image[${PYTHON_USEDEP}]
 	dev-python/gdal[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-2.2.0[${PYTHON_USEDEP}]
 	girder? ( dev-python/girder-large-image[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

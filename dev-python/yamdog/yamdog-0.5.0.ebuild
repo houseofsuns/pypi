@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/colorama[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/colorama-0.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Markdown[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydantic-1.10.7[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.17.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pympler[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/reorder-python-imports[${PYTHON_USEDEP}] )
 	dev? ( dev-python/snakemd[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tomli-w[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-4.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.38[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/keras-tuner[${PYTHON_USEDEP}]
 	dev-python/keras-nlp[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-4.4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

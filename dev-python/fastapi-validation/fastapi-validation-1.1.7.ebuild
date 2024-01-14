@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/beanie[${PYTHON_USEDEP}]
 	dev-python/fastapi-exception[${PYTHON_USEDEP}]
 	dev-python/fastapi-global-variable[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
 	dev-python/python-keycloak[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
+	~dev-python/sqlalchemy-2.0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pyinstaller"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-0.1.9[${PYTHON_USEDEP}]
 	dev-python/dirsync[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.20.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	pyinstaller? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
-	dev-python/python-debian[${PYTHON_USEDEP}]
+	>=dev-python/python-debian-0.1.42[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
+	~dev-python/semver-3.0.2[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/unix-ar[${PYTHON_USEDEP}]
 	dev-python/zstandard[${PYTHON_USEDEP}]"

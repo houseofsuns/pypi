@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/newspaper3k[${PYTHON_USEDEP}]
 	dev-python/GoogleNews[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.3[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.58.0[${PYTHON_USEDEP}]
 	dev-python/flair[${PYTHON_USEDEP}]
 	dev-python/twint[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

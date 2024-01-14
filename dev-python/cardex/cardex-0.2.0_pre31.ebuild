@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/psycopg[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/psycopg-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.21.1[${PYTHON_USEDEP}]
 	dev-python/pycardano[${PYTHON_USEDEP}]
 	dev-python/blockfrost-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rest_framework_integration"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	rest_framework_integration? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
+	rest_framework_integration? ( ~dev-python/djangorestframework-3.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

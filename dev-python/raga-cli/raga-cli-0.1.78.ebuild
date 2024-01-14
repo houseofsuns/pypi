@@ -27,7 +27,7 @@ IUSE="all dev s3 testing tests"
 DEPENDENCIES="dev-python/dvc[${PYTHON_USEDEP}]
 	dev-python/dvc-s3[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
+	~dev-python/platformdirs-3.2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/dvc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dvc[${PYTHON_USEDEP}] )
 	s3? ( dev-python/dvc-s3[${PYTHON_USEDEP}] )
@@ -35,19 +35,19 @@ DEPENDENCIES="dev-python/dvc[${PYTHON_USEDEP}]
 	tests? ( dev-python/tpi[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dvc-ssh[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-test-utils[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	tests? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-xdist-3.1.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flaky-3.7.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/filelock-3.8.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pylint-2.15.9[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint-pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint-plugin-utils[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-toml[${PYTHON_USEDEP}] )"

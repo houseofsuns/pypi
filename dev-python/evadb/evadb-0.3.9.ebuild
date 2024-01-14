@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="chromadb dev document forecasting function ludwig milvus notebook pinecone postgres qdrant ray sklearn vision xgboost"
 DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/diskcache-5.4.0[${PYTHON_USEDEP}]
+	>=dev-python/lark-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/thefuzz[${PYTHON_USEDEP}]
 	chromadb? ( dev-python/chromadb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyDriller[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bs4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
@@ -48,19 +48,19 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev? ( dev-python/eva-decord[${PYTHON_USEDEP}] )
 	dev? ( dev-python/facenet-pytorch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flaml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gpt4all[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/ipython-8.13.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipywidgets-7.7.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kornia[${PYTHON_USEDEP}] )
 	dev? ( dev-python/langchain[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/moto-4.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbmake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nest-asyncio-1.5.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/neuralforecast[${PYTHON_USEDEP}] )
 	dev? ( dev-python/norfair[${PYTHON_USEDEP}] )
 	dev? ( dev-python/openai[${PYTHON_USEDEP}] )
@@ -70,9 +70,9 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pymupdf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-testmon[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytube[${PYTHON_USEDEP}] )
 	dev? ( dev-python/replicate[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
@@ -86,7 +86,7 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ultralytics[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.37.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/youtube-transcript-api[${PYTHON_USEDEP}] )
 	document? ( dev-python/bs4[${PYTHON_USEDEP}] )
 	document? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
@@ -109,11 +109,11 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	function? ( dev-python/youtube-transcript-api[${PYTHON_USEDEP}] )
 	ludwig? ( dev-python/ludwig[${PYTHON_USEDEP}] )
 	milvus? ( dev-python/pymilvus[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	notebook? ( <dev-python/ipython-8.13.0[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/ipywidgets-7.7.2[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/nbmake[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/nest-asyncio-1.5.6[${PYTHON_USEDEP}] )
 	pinecone? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	qdrant? ( dev-python/qdrant-client[${PYTHON_USEDEP}] )

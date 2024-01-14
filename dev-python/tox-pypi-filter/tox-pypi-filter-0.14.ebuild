@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tox[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tox-4.0.9[${PYTHON_USEDEP}]
 	dev-python/pypicky[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

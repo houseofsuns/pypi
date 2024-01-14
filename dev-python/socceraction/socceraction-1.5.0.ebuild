@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="hdf kloppy statsbomb xgboost"
 DEPENDENCIES="kloppy? ( dev-python/kloppy[${PYTHON_USEDEP}] )
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pandera[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	statsbomb? ( dev-python/statsbombpy[${PYTHON_USEDEP}] )
-	hdf? ( dev-python/tables[${PYTHON_USEDEP}] )
+	hdf? ( <dev-python/tables-4.0.0[${PYTHON_USEDEP}] )
 	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

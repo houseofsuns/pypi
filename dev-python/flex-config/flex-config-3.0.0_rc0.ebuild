@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws toml yaml"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	aws? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	yaml? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

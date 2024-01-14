@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="dev-python/PyRIC[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
 	dev-python/bluetooth-adapters[${PYTHON_USEDEP}]
 	dev-python/btsocket[${PYTHON_USEDEP}]
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/myst-parser-0.19[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
 	dev-python/usb-devices[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

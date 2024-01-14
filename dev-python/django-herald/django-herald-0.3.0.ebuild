@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev html2text twilio"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/jsonpickle[${PYTHON_USEDEP}]
-	dev? ( dev-python/django[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/django-3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/six[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jsonpickle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytz[${PYTHON_USEDEP}] )

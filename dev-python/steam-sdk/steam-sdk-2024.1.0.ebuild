@@ -25,90 +25,90 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all build docs tests"
 DEPENDENCIES="dev-python/gmsh[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.8[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
+	~dev-python/deepdiff-5.8.1[${PYTHON_USEDEP}]
+	~dev-python/h5py-3.7.0[${PYTHON_USEDEP}]
 	dev-python/npTDMS[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/matplotlib-inline[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	~dev-python/ipython-8.5.0[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-inline-0.1.6[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
 	dev-python/pysoleno[${PYTHON_USEDEP}]
-	dev-python/reportlab[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml-clib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	~dev-python/reportlab-3.6.12[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-clib-0.2.6[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
 	dev-python/STEAM-materials[${PYTHON_USEDEP}]
-	dev-python/svglib[${PYTHON_USEDEP}]
+	~dev-python/svglib-1.5.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/steam-pysigma[${PYTHON_USEDEP}]
 	all? ( dev-python/gmsh[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	all? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	all? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/numpy-1.23.3[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pydantic-1.10.8[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/deepdiff-5.8.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/h5py-3.7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/npTDMS[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib-inline[${PYTHON_USEDEP}] )
-	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/ipython-8.5.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/matplotlib-inline-0.1.6[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}] )
 	all? ( dev-python/pysoleno[${PYTHON_USEDEP}] )
-	all? ( dev-python/reportlab[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
-	all? ( dev-python/ruamel-yaml-clib[${PYTHON_USEDEP}] )
-	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/reportlab-3.6.12[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/ruamel-yaml-clib-0.2.6[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/seaborn-0.12.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/STEAM-materials[${PYTHON_USEDEP}] )
-	all? ( dev-python/svglib[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/svglib-1.5.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	all? ( dev-python/steam-pysigma[${PYTHON_USEDEP}] )
 	all? ( dev-python/Markdown[${PYTHON_USEDEP}] )
-	all? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/markdown-include-0.7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mkdocs-1.3.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mkdocs-autorefs-0.4.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mkdocs-git-revision-date-localized-plugin-1.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mkdocs-material-8.5.3[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mkdocs-material-extensions-1.0.3[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mkdocstrings-0.19.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mkdocstrings-python-0.7.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	all? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pymdown-extensions-9.5[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/coverage-6.4.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
-	all? ( dev-python/griffe[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/griffe-0.22.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/setuptools-65.3.0[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/setuptools-65.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Markdown[${PYTHON_USEDEP}] )
-	docs? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/markdown-include-0.7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.3.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-autorefs-0.4.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-git-revision-date-localized-plugin-1.1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-8.5.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-extensions-1.0.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.19.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-python-0.7.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pymdown-extensions-9.5[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/coverage-6.4.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
-	tests? ( dev-python/griffe[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/griffe-0.22.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

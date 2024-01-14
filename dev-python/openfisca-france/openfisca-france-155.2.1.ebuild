@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="casd-dev de_net_a_brut dev inversion_revenus taxipp"
 DEPENDENCIES="dev-python/OpenFisca-Core[${PYTHON_USEDEP}]
-	casd-dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	casd-dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	casd-dev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	casd-dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	de_net_a_brut? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	casd-dev? ( <dev-python/autopep8-3.0[${PYTHON_USEDEP}] )
+	casd-dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	casd-dev? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
+	casd-dev? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
+	de_net_a_brut? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/autopep8-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	inversion_revenus? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	taxipp? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	inversion_revenus? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
+	taxipp? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

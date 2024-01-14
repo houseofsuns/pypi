@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-45.0[${PYTHON_USEDEP}]
+	<dev-python/setuptools-scm-8.0[${PYTHON_USEDEP}]
 	dev-python/sphinxify[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/cxxheaderparser[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/tomli-w[${PYTHON_USEDEP}]
 	dev-python/toposort[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/patch[${PYTHON_USEDEP}]
 	dev-python/pybind11-stubgen[${PYTHON_USEDEP}]
 	dev-python/delocate[${PYTHON_USEDEP}]

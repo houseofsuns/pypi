@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lsp yaml"
-DEPENDENCIES="dev-python/transitions[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/transitions-0.8[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
-	yaml? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
+	yaml? ( <dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}] )
 	lsp? ( dev-python/pygls[${PYTHON_USEDEP}] )
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

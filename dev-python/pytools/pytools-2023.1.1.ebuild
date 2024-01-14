@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="numpy"
-DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/platformdirs-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
+	numpy? ( >=dev-python/numpy-1.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

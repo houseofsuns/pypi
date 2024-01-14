@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boltons[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/boltons-16.5[${PYTHON_USEDEP}]
+	>=dev-python/Faker-5.0[${PYTHON_USEDEP}]
+	~dev-python/pycountry-22.3.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

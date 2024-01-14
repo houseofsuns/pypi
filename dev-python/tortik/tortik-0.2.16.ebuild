@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/pycurl[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/tornado-5.1.1[${PYTHON_USEDEP}]
+	>=dev-python/pycurl-7.19.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-2.2.8[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]"

@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/hurry-filesize[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/cfgv[${PYTHON_USEDEP}]"
+	~dev-python/cfgv-3.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

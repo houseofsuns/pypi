@@ -28,15 +28,15 @@ DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/zxpy[${PYTHON_USEDEP}]
 	dev-python/slumber[${PYTHON_USEDEP}]
 	dev-python/cloudflare[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/namecom[${PYTHON_USEDEP}]
 	dev-python/atlassian-python-api[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/hvac[${PYTHON_USEDEP}]
-	dev-python/jsonmerge[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/hvac-0.12.0[${PYTHON_USEDEP}]
+	<dev-python/jsonmerge-2.0.0[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/tldextract[${PYTHON_USEDEP}]"
+	<dev-python/packaging-22.0[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/tldextract-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

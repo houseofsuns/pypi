@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws azure docs flux google_cloud gssapi kubernetes monitoring oauth_ssh proxystore radical-pilot visualization workqueue"
-DEPENDENCIES="dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyzmq-17.1.2[${PYTHON_USEDEP}]
+	<dev-python/typeguard-3.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/globus-sdk[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/tblib[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.5.1[${PYTHON_USEDEP}]
 	dev-python/setproctitle[${PYTHON_USEDEP}]
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	all? ( <dev-python/networkx-2.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask-sqlalchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-daemon[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/pyzmq[${PYTHON_USEDEP}]
 	all? ( dev-python/oauth-ssh[${PYTHON_USEDEP}] )
 	all? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/ipython-8.6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-auth[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-gssapi[${PYTHON_USEDEP}] )
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/pyzmq[${PYTHON_USEDEP}]
 	azure? ( dev-python/msrestazure[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/ipython-8.6.0[${PYTHON_USEDEP}] )
 	flux? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	flux? ( dev-python/cffi[${PYTHON_USEDEP}] )
 	flux? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
@@ -73,15 +73,15 @@ DEPENDENCIES="dev-python/pyzmq[${PYTHON_USEDEP}]
 	google_cloud? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	gssapi? ( dev-python/python-gssapi[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
-	monitoring? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	monitoring? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	oauth_ssh? ( dev-python/oauth-ssh[${PYTHON_USEDEP}] )
 	proxystore? ( dev-python/proxystore[${PYTHON_USEDEP}] )
 	radical-pilot? ( dev-python/radical-pilot[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	visualization? ( <dev-python/networkx-2.6[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/flask-sqlalchemy[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	visualization? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/python-daemon[${PYTHON_USEDEP}] )
 	workqueue? ( dev-python/work-queue[${PYTHON_USEDEP}] )"

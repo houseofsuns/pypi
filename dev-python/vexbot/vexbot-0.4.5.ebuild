@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/pyzmq[${PYTHON_USEDEP}]
 	dev-python/rx[${PYTHON_USEDEP}]
 	dev-python/tblib[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-2.0.0[${PYTHON_USEDEP}]
 	command_line? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	database? ( dev-python/vexstorage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

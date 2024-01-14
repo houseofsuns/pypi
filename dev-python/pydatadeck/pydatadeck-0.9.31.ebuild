@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/flask-1.0.2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
+	~dev-python/pytz-2018.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

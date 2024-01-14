@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/monty[${PYTHON_USEDEP}]
 	dev-python/maggma[${PYTHON_USEDEP}]
 	dev-python/phreeqpython[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	full? ( dev-python/rich[${PYTHON_USEDEP}] )
@@ -43,6 +43,6 @@ DEPENDENCIES="dev-python/pint[${PYTHON_USEDEP}]
 	testing? ( dev-python/black[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	testing? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

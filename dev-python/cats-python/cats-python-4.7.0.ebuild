@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="django pydantic"
 DEPENDENCIES="dev-python/richerr[${PYTHON_USEDEP}]
 	dev-python/struct-model-python[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
+	<dev-python/tornado-7.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	<dev-python/msgpack-2.0.0[${PYTHON_USEDEP}]
 	django? ( dev-python/Django[${PYTHON_USEDEP}] )
-	django? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	dev-python/ujson[${PYTHON_USEDEP}]"
+	django? ( >=dev-python/djangorestframework-3.13[${PYTHON_USEDEP}] )
+	pydantic? ( >=dev-python/pydantic-2.4.2[${PYTHON_USEDEP}] )
+	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all interactive test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/bs4[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-1.7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	all? ( dev-python/pooch[${PYTHON_USEDEP}] )
 	all? ( dev-python/plopp[${PYTHON_USEDEP}] )

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cache docs pandas test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.0[${PYTHON_USEDEP}]
 	dev-python/ciso8601[${PYTHON_USEDEP}]
 	cache? ( dev-python/aioredis[${PYTHON_USEDEP}] )
-	cache? ( dev-python/lz4[${PYTHON_USEDEP}] )
+	cache? ( >=dev-python/lz4-2.1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-0.21[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

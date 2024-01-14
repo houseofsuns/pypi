@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extras jupyter"
-DEPENDENCIES="dev-python/autopep8[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/autopep8-2.0[${PYTHON_USEDEP}]
 	dev-python/jpype1[${PYTHON_USEDEP}]
-	dev-python/line-profiler[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/line-profiler-4.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.5[${PYTHON_USEDEP}]
 	dev-python/pyobjc[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28[${PYTHON_USEDEP}]
 	dev-python/stackprinter[${PYTHON_USEDEP}]
-	extras? ( dev-python/colour[${PYTHON_USEDEP}] )
-	extras? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/colour-0.1.5[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/matplotlib-3.7[${PYTHON_USEDEP}] )
 	extras? ( dev-python/py5jupyter[${PYTHON_USEDEP}] )
-	extras? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	extras? ( dev-python/trimesh[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/shapely-2.0[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/trimesh-3.23[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/py5jupyter[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

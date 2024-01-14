@@ -28,7 +28,7 @@ DEPENDENCIES="dev? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphynx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/furo-2022.4.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst_parser[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

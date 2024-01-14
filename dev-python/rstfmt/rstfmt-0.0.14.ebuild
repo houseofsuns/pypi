@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="d"
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	d? ( dev-python/aiohttp[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/black-22.1.0[${PYTHON_USEDEP}]
+	>=dev-python/docutils-0.12[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-2.4.0[${PYTHON_USEDEP}]
+	d? ( >=dev-python/aiohttp-3.3.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

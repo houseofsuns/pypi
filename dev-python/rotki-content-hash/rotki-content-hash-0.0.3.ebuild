@@ -27,7 +27,7 @@ IUSE="lint test"
 DEPENDENCIES="dev-python/multiformats[${PYTHON_USEDEP}]
 	dev-python/base58check[${PYTHON_USEDEP}]
 	dev-python/pysha3[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

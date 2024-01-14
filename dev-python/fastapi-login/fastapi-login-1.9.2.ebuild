@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="asymmetric"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	asymmetric? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]"
+	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
+	asymmetric? ( <dev-python/cryptography-42.0.0[${PYTHON_USEDEP}] )
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/anyio-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

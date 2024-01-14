@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="documentation testing"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-6.0[${PYTHON_USEDEP}]
 	documentation? ( dev-python/pallets-sphinx-themes[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/pygments-pytest[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/sphinx[${PYTHON_USEDEP}] )

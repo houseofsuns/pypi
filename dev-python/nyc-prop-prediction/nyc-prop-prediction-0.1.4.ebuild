@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="develop? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES="develop? ( >=dev-python/black-22.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	develop? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/flake8-3.7.8[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
 	develop? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-4.3.0[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/twine[${PYTHON_USEDEP}] )
 	develop? ( dev-python/wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

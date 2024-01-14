@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	surrogates? ( dev-python/tslearn[${PYTHON_USEDEP}] )
 	surrogates? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	surrogates? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	surrogates? ( dev-python/tables[${PYTHON_USEDEP}] )
+	surrogates? ( >=dev-python/tables-3.6.1[${PYTHON_USEDEP}] )
 	surrogates? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	surrogates? ( dev-python/dispatches-dynamic-sweep-data[${PYTHON_USEDEP}] )
 	teal? ( dev-python/dispatches-synthetic-price-data[${PYTHON_USEDEP}] )"

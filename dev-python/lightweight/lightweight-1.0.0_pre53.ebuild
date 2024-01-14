@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/libsass[${PYTHON_USEDEP}]
+	~dev-python/libsass-0.22.0[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
+	~dev-python/python-slugify-3.0.3[${PYTHON_USEDEP}]
+	~dev-python/mistune-0.8.4[${PYTHON_USEDEP}]
 	dev-python/watchgod[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

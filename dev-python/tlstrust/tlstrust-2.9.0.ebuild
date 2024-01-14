@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asn1crypto-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2022.5.18.1[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-37.0.2[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
+	>=dev-python/idna-3.3[${PYTHON_USEDEP}]
+	>=dev-python/pycparser-2.21[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.4.4[${PYTHON_USEDEP}]
 	dev-python/validators[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pytest-7.1[${PYTHON_USEDEP}]
+	>=dev-python/docker-5.0.0[${PYTHON_USEDEP}]
 	dev-python/allure-pytest[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/version-utils[${PYTHON_USEDEP}]

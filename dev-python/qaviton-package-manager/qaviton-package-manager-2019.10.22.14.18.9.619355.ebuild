@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/packaging-19.1[${PYTHON_USEDEP}]
+	>=dev-python/pip-10.0.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.6.3[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.7[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-38.6.0[${PYTHON_USEDEP}]
 	dev-python/qaviton-helpers[${PYTHON_USEDEP}]
 	dev-python/qaviton-handlers[${PYTHON_USEDEP}]
 	dev-python/qaviton-processes[${PYTHON_USEDEP}]

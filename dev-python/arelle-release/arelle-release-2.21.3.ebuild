@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="crypto db efm esef objectmaker webserver"
 DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/isodate-0.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-6.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.0[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.0[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
-	crypto? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+	crypto? ( ~dev-python/pycryptodome-3.0[${PYTHON_USEDEP}] )
 	db? ( dev-python/pg8000[${PYTHON_USEDEP}] )
 	db? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
 	db? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	db? ( dev-python/rdflib[${PYTHON_USEDEP}] )
+	db? ( <dev-python/rdflib-8.0[${PYTHON_USEDEP}] )
 	efm? ( dev-python/holidays[${PYTHON_USEDEP}] )
 	efm? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	esef? ( dev-python/tinycss2[${PYTHON_USEDEP}] )
-	objectmaker? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	webserver? ( dev-python/cheroot[${PYTHON_USEDEP}] )
+	esef? ( ~dev-python/tinycss2-1.0[${PYTHON_USEDEP}] )
+	objectmaker? ( ~dev-python/graphviz-0.0[${PYTHON_USEDEP}] )
+	webserver? ( <dev-python/cheroot-11.0[${PYTHON_USEDEP}] )
 	webserver? ( dev-python/CherryPy[${PYTHON_USEDEP}] )
-	webserver? ( dev-python/tornado[${PYTHON_USEDEP}] )"
+	webserver? ( ~dev-python/tornado-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

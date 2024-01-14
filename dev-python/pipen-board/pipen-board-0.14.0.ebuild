@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="diagram filters report"
 DEPENDENCIES="dev-python/quart[${PYTHON_USEDEP}]
 	dev-python/pipen-args[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	<dev-python/websocket-client-2.0[${PYTHON_USEDEP}]
 	dev-python/pipen-log2file[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
 	report? ( dev-python/pipen-report[${PYTHON_USEDEP}] )
 	diagram? ( dev-python/pipen-diagram[${PYTHON_USEDEP}] )
 	filters? ( dev-python/pipen-filters[${PYTHON_USEDEP}] )
-	dev-python/python-slugify[${PYTHON_USEDEP}]"
+	<dev-python/python-slugify-9.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

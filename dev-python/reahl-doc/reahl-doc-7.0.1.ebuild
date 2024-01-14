@@ -33,19 +33,19 @@ DEPENDENCIES="dev-python/reahl-web[${PYTHON_USEDEP}]
 	dev-python/reahl-commands[${PYTHON_USEDEP}]
 	dev-python/reahl-dev[${PYTHON_USEDEP}]
 	dev-python/reahl-paypalsupport[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	>=dev-python/pytest-3.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-51.0.0[${PYTHON_USEDEP}]
+	<dev-python/plotly-5.16.99999[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/sphinxcontrib-plantuml[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}] )
-	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/sphinxcontrib-applehelp-1.0.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/sphinxcontrib-devhelp-1.0.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/sphinxcontrib-htmlhelp-2.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/sphinxcontrib-qthelp-1.0.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/sphinxcontrib-serializinghtml-1.1.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flaky-3.7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/reahl-tofu[${PYTHON_USEDEP}] )
 	test? ( dev-python/reahl-stubble[${PYTHON_USEDEP}] )
 	test? ( dev-python/reahl-dev[${PYTHON_USEDEP}] )

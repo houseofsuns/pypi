@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyasn1[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyasn1-0.5.0[${PYTHON_USEDEP}]
 	dev-python/Twisted[${PYTHON_USEDEP}]
-	dev-python/treq[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/treq-23.11.0[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-3.1.1[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/service_identity[${PYTHON_USEDEP}]
-	dev-python/lockfile[${PYTHON_USEDEP}]
+	~dev-python/lockfile-0.12.2[${PYTHON_USEDEP}]
 	dev-python/falcon[${PYTHON_USEDEP}]
-	dev-python/txredisapi[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/txredisapi-1.4.7[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
 	dev-python/txAMQP3[${PYTHON_USEDEP}]
 	dev-python/smpp-pdu3[${PYTHON_USEDEP}]
 	dev-python/smpp-twisted3[${PYTHON_USEDEP}]
 	dev-python/python-messaging[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
+	~dev-python/cryptography-41.0.5[${PYTHON_USEDEP}]
+	~dev-python/pyopenssl-23.3.0[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-mimeparse[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]"
+	~dev-python/redis-5.0.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/python-mimeparse-1.6.0[${PYTHON_USEDEP}]
+	~dev-python/prometheus-client-0.18.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

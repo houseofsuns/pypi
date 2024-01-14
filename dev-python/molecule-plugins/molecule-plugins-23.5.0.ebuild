@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docker selinux test vagrant"
 DEPENDENCIES="dev-python/molecule[${PYTHON_USEDEP}]
-	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
+	docker? ( >=dev-python/docker-4.3.1[${PYTHON_USEDEP}] )
 	docker? ( dev-python/requests[${PYTHON_USEDEP}] )
 	docker? ( dev-python/selinux[${PYTHON_USEDEP}] )
 	docker? ( dev-python/selinux[${PYTHON_USEDEP}] )
 	selinux? ( dev-python/selinux[${PYTHON_USEDEP}] )
 	selinux? ( dev-python/selinux[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-helpers-namespace[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-helpers-namespace-2019.1.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/molecule[${PYTHON_USEDEP}] )
 	vagrant? ( dev-python/python-vagrant[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

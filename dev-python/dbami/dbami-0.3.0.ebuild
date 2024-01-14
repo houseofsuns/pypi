@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev snyk"
 DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/buildpg[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/httpx-0.24.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit-hooks[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyupgrade[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyupgrade-3.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	snyk? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

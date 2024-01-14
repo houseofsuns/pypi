@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="performance"
 DEPENDENCIES="dev-python/pyYAML[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-2.3.10[${PYTHON_USEDEP}]
 	performance? ( dev-python/ujson[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

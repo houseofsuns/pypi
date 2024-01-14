@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gui"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	gui? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	gui? ( dev-python/xlrd[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-41.2.0[${PYTHON_USEDEP}]
+	gui? ( <dev-python/PyQt5-6.0.0[${PYTHON_USEDEP}] )
+	gui? ( <dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
+	gui? ( <dev-python/xlrd-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

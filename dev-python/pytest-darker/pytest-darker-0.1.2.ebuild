@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/darker[${PYTHON_USEDEP}]
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-0.782[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )"

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/oarepo[${PYTHON_USEDEP}]
 	dev-python/uwsgi[${PYTHON_USEDEP}]
 	dev-python/uwsgi-tools[${PYTHON_USEDEP}]
 	dev-python/uwsgitop[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/webtest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )

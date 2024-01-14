@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/hiredis[${PYTHON_USEDEP}]
-	dev-python/libnacl[${PYTHON_USEDEP}]"
+	>=dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.26.0[${PYTHON_USEDEP}]
+	>=dev-python/redis-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/hiredis-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/libnacl-2.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

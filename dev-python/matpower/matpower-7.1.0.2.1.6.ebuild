@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev octave"
-DEPENDENCIES="dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/oct2py[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( >=dev-python/numpy-1.21.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/oct2py-5.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-xdist-3.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbmake[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/autopep8-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	octave? ( dev-python/oct2py[${PYTHON_USEDEP}] )"
+	octave? ( >=dev-python/oct2py-5.5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

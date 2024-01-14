@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/corner[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	>=dev-python/decorator-4.2.1[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.1.1[${PYTHON_USEDEP}]
 	dev-python/dynesty[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
-	dev-python/emcee[${PYTHON_USEDEP}]
+	>=dev-python/emcee-3.1.3[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpydoc[${PYTHON_USEDEP}]
+	>=dev-python/numpydoc-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pyprojroot[${PYTHON_USEDEP}]
 	dev-python/pyswarms[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/astunparse[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]
-	dev-python/timeout-decorator[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]
+	<=dev-python/scipy-1.11.3[${PYTHON_USEDEP}]
+	~dev-python/astunparse-1.6.3[${PYTHON_USEDEP}]
+	<=dev-python/threadpoolctl-3.2.0[${PYTHON_USEDEP}]
+	~dev-python/timeout-decorator-0.5.0[${PYTHON_USEDEP}]
+	<=dev-python/xxhash-3.4.1[${PYTHON_USEDEP}]
 	dev-python/autoconf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

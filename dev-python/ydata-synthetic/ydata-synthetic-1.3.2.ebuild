@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="streamlit"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-2.31[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.7[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-probability[${PYTHON_USEDEP}]
 	dev-python/easydict[${PYTHON_USEDEP}]
 	dev-python/pmlb[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	~dev-python/typeguard-4.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4[${PYTHON_USEDEP}]
 	streamlit? ( dev-python/streamlit[${PYTHON_USEDEP}] )
-	streamlit? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	streamlit? ( >=dev-python/typing-extensions-3.10.0[${PYTHON_USEDEP}] )
 	streamlit? ( dev-python/streamlit-pandas-profiling[${PYTHON_USEDEP}] )
 	streamlit? ( dev-python/ydata-profiling[${PYTHON_USEDEP}] )
 	streamlit? ( dev-python/ydata-sdk[${PYTHON_USEDEP}] )"

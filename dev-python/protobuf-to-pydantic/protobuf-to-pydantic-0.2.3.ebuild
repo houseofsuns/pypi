@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all lark mypy-protobuf toml"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-tools-2.0.0[${PYTHON_USEDEP}]
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )
-	lark? ( dev-python/lark[${PYTHON_USEDEP}] )
-	all? ( dev-python/lark[${PYTHON_USEDEP}] )
+	lark? ( <dev-python/lark-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/lark-2.0.0[${PYTHON_USEDEP}] )
 	mypy-protobuf? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
 	all? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

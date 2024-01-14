@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev mini tools"
-DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/fsspec-2023.3.0[${PYTHON_USEDEP}]
+	<=dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/jsonargparse[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
+	~dev-python/emoji-2.2.0[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
@@ -44,15 +44,15 @@ DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/multiprocess[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	~dev-python/multiprocess-0.70.12[${PYTHON_USEDEP}]
+	~dev-python/dill-0.3.4[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<=dev-python/boto3-1.15.18[${PYTHON_USEDEP}]
 	dev-python/simhash-py[${PYTHON_USEDEP}]
 	dev-python/gluonnlp[${PYTHON_USEDEP}]
 	dev-python/mxnet[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.1[${PYTHON_USEDEP}]
 	dev-python/selectolax[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
 	dev-python/nlpaug[${PYTHON_USEDEP}]
@@ -71,16 +71,16 @@ DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
 	dev-python/spacy-pkuseg[${PYTHON_USEDEP}]
 	dev-python/kenlm[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
-	all? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/fsspec-2023.3.0[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	all? ( dev-python/loguru[${PYTHON_USEDEP}] )
 	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	all? ( dev-python/jsonargparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/emoji[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/emoji-2.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/regex[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/wget[${PYTHON_USEDEP}] )
@@ -91,15 +91,15 @@ DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
 	all? ( dev-python/python-docx[${PYTHON_USEDEP}] )
 	all? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	all? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	all? ( dev-python/multiprocess[${PYTHON_USEDEP}] )
-	all? ( dev-python/dill[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/multiprocess-0.70.12[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/dill-0.3.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/boto3-1.15.18[${PYTHON_USEDEP}] )
 	all? ( dev-python/simhash-py[${PYTHON_USEDEP}] )
 	all? ( dev-python/gluonnlp[${PYTHON_USEDEP}] )
 	all? ( dev-python/mxnet[${PYTHON_USEDEP}] )
 	all? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/numpy-1.23.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/selectolax[${PYTHON_USEDEP}] )
 	all? ( dev-python/ftfy[${PYTHON_USEDEP}] )
 	all? ( dev-python/nlpaug[${PYTHON_USEDEP}] )
@@ -131,16 +131,16 @@ DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	mini? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	mini? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	mini? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	mini? ( ~dev-python/fsspec-2023.3.0[${PYTHON_USEDEP}] )
+	mini? ( <=dev-python/pyarrow-12.0.0[${PYTHON_USEDEP}] )
+	mini? ( ~dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	mini? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	mini? ( dev-python/loguru[${PYTHON_USEDEP}] )
 	mini? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	mini? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	mini? ( dev-python/jsonargparse[${PYTHON_USEDEP}] )
 	mini? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	mini? ( dev-python/emoji[${PYTHON_USEDEP}] )
+	mini? ( ~dev-python/emoji-2.2.0[${PYTHON_USEDEP}] )
 	mini? ( dev-python/regex[${PYTHON_USEDEP}] )
 	mini? ( dev-python/requests[${PYTHON_USEDEP}] )
 	mini? ( dev-python/wget[${PYTHON_USEDEP}] )
@@ -151,15 +151,15 @@ DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
 	mini? ( dev-python/python-docx[${PYTHON_USEDEP}] )
 	mini? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	mini? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	mini? ( dev-python/multiprocess[${PYTHON_USEDEP}] )
-	mini? ( dev-python/dill[${PYTHON_USEDEP}] )
+	mini? ( ~dev-python/multiprocess-0.70.12[${PYTHON_USEDEP}] )
+	mini? ( ~dev-python/dill-0.3.4[${PYTHON_USEDEP}] )
 	mini? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	mini? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	mini? ( <=dev-python/boto3-1.15.18[${PYTHON_USEDEP}] )
 	mini? ( dev-python/simhash-py[${PYTHON_USEDEP}] )
 	mini? ( dev-python/gluonnlp[${PYTHON_USEDEP}] )
 	mini? ( dev-python/mxnet[${PYTHON_USEDEP}] )
 	mini? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	mini? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	mini? ( ~dev-python/numpy-1.23.1[${PYTHON_USEDEP}] )
 	mini? ( dev-python/selectolax[${PYTHON_USEDEP}] )
 	mini? ( dev-python/ftfy[${PYTHON_USEDEP}] )
 	mini? ( dev-python/nlpaug[${PYTHON_USEDEP}] )

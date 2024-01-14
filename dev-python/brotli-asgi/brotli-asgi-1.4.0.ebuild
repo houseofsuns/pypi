@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test_brotli test_brotlipy"
-DEPENDENCIES="dev-python/starlette[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/starlette-0.25.0[${PYTHON_USEDEP}]
 	dev-python/brotli[${PYTHON_USEDEP}]
-	test_brotli? ( dev-python/requests[${PYTHON_USEDEP}] )
-	test_brotli? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test_brotlipy? ( dev-python/requests[${PYTHON_USEDEP}] )
-	test_brotlipy? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test_brotli? ( >=dev-python/requests-2.23.0[${PYTHON_USEDEP}] )
+	test_brotli? ( >=dev-python/mypy-0.770[${PYTHON_USEDEP}] )
+	test_brotlipy? ( >=dev-python/requests-2.23.0[${PYTHON_USEDEP}] )
+	test_brotlipy? ( >=dev-python/mypy-0.770[${PYTHON_USEDEP}] )
 	test_brotlipy? ( dev-python/brotlipy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

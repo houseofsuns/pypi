@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aio"
 DEPENDENCIES="dev-python/azure-core[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
+	>=dev-python/isodate-0.6.1[${PYTHON_USEDEP}]
 	dev-python/msrest[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	aio? ( dev-python/aiohttp[${PYTHON_USEDEP}] )"
+	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
+	aio? ( >=dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pymongo-4.0[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-0.14.1[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

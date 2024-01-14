@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="celery channels dev prod"
 DEPENDENCIES="dev-python/brotli[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	~dev-python/django-3.1[${PYTHON_USEDEP}]
 	dev-python/django-allauth[${PYTHON_USEDEP}]
 	dev-python/django-includes[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
@@ -37,17 +37,17 @@ DEPENDENCIES="dev-python/brotli[${PYTHON_USEDEP}]
 	channels? ( dev-python/channels[${PYTHON_USEDEP}] )
 	channels? ( dev-python/daphne[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-5.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/django-debug-toolbar-3.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/honcho[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/medikit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyquery[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyquery-1.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-django-4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/werkzeug-1.0[${PYTHON_USEDEP}] )
 	prod? ( dev-python/gunicorn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

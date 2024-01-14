@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="openpyxl-py2 openpyxl-py3"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	openpyxl-py2? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	openpyxl-py3? ( dev-python/openpyxl[${PYTHON_USEDEP}] )"
+	openpyxl-py2? ( >=dev-python/openpyxl-2.6.4[${PYTHON_USEDEP}] )
+	openpyxl-py3? ( >=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests typing"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.23[${PYTHON_USEDEP}]
 	dev? ( dev-python/citric[${PYTHON_USEDEP}] )
-	dev? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests-cache[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/colorama-0.4.6[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/requests-cache-1.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -36,21 +36,21 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-7.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/deptry[${PYTHON_USEDEP}] )
 	tests? ( dev-python/faker[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-github-actions-annotate-failures[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-httpserver[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	tests? ( dev-python/semver[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/python-dotenv-1.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/semver-3.0.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tinydb[${PYTHON_USEDEP}] )
-	tests? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/xdoctest-1.1.1[${PYTHON_USEDEP}] )
 	typing? ( dev-python/citric[${PYTHON_USEDEP}] )
-	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	typing? ( >=dev-python/mypy-1.5[${PYTHON_USEDEP}] )
 	typing? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	typing? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+	typing? ( >=dev-python/typing-extensions-4.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

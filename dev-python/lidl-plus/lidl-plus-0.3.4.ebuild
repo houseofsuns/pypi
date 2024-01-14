@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="auth"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	auth? ( dev-python/getuseragent[${PYTHON_USEDEP}] )
 	auth? ( dev-python/oic[${PYTHON_USEDEP}] )
 	auth? ( dev-python/selenium-wire[${PYTHON_USEDEP}] )

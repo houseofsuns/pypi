@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/duniterpy[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/substrate-interface[${PYTHON_USEDEP}]
 	dev-python/python-sql[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
+	<dev-python/qrcode-8.0.0[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
 	dev-python/eth-typing[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]"

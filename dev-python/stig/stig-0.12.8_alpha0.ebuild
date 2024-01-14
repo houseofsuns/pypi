@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="proxy setproctitle"
-DEPENDENCIES="dev-python/urwid[${PYTHON_USEDEP}]
-	dev-python/urwidtrees[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/urwid-2.2[${PYTHON_USEDEP}]
+	~dev-python/urwidtrees-1.0.3[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.0[${PYTHON_USEDEP}]
 	dev-python/async-timeout[${PYTHON_USEDEP}]
 	dev-python/pyxdg[${PYTHON_USEDEP}]
 	dev-python/blinker[${PYTHON_USEDEP}]

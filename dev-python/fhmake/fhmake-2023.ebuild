@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/tomlkit[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tomlkit-2.0[${PYTHON_USEDEP}]
 	full? ( dev-python/simplesecurity[${PYTHON_USEDEP}] )
 	full? ( dev-python/checkrequirements[${PYTHON_USEDEP}] )
-	full? ( dev-python/poetry[${PYTHON_USEDEP}] )
+	full? ( <dev-python/poetry-2.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/licensecheck[${PYTHON_USEDEP}] )
-	full? ( dev-python/radon[${PYTHON_USEDEP}] )
-	full? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	full? ( <dev-python/radon-7.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/handsdown[${PYTHON_USEDEP}] )
-	full? ( dev-python/flake8-polyfill[${PYTHON_USEDEP}] )"
+	full? ( <dev-python/flake8-polyfill-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

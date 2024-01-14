@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="duckdb postgres"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sqlglot[${PYTHON_USEDEP}]
 	duckdb? ( dev-python/duckdb[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/pyarrow[${PYTHON_USEDEP}] )

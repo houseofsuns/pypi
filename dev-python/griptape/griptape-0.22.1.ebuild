@@ -25,29 +25,29 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all drivers-embedding-amazon-bedrock drivers-embedding-amazon-sagemaker drivers-embedding-huggingface drivers-memory-conversation-amazon-dynamodb drivers-prompt-amazon-bedrock drivers-prompt-amazon-sagemaker drivers-prompt-anthropic drivers-prompt-cohere drivers-prompt-huggingface drivers-sql-postgres drivers-sql-redshift drivers-sql-snowflake drivers-vector-amazon-opensearch drivers-vector-marqo drivers-vector-mongodb drivers-vector-opensearch drivers-vector-pinecone drivers-vector-postgresql drivers-vector-redis"
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-22.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-enum[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.0[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.0[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
 	dev-python/trafilatura[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/docker-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/mail-parser[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	drivers-prompt-cohere? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	all? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	drivers-prompt-anthropic? ( dev-python/anthropic[${PYTHON_USEDEP}] )
@@ -59,14 +59,14 @@ DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	drivers-prompt-huggingface? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	drivers-embedding-huggingface? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
-	drivers-prompt-amazon-bedrock? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	drivers-prompt-amazon-sagemaker? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	drivers-sql-redshift? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	drivers-memory-conversation-amazon-dynamodb? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	drivers-vector-amazon-opensearch? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	drivers-embedding-amazon-bedrock? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	drivers-embedding-amazon-sagemaker? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	drivers-prompt-amazon-bedrock? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	drivers-prompt-amazon-sagemaker? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	drivers-sql-redshift? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	drivers-memory-conversation-amazon-dynamodb? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	drivers-vector-amazon-opensearch? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	drivers-embedding-amazon-bedrock? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	drivers-embedding-amazon-sagemaker? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	drivers-sql-redshift? ( dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}] )
 	drivers-sql-snowflake? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
@@ -77,11 +77,11 @@ DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	all? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	drivers-vector-marqo? ( dev-python/marqo[${PYTHON_USEDEP}] )
 	all? ( dev-python/marqo[${PYTHON_USEDEP}] )
-	drivers-vector-redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	drivers-vector-opensearch? ( dev-python/opensearch-py[${PYTHON_USEDEP}] )
-	drivers-vector-amazon-opensearch? ( dev-python/opensearch-py[${PYTHON_USEDEP}] )
-	all? ( dev-python/opensearch-py[${PYTHON_USEDEP}] )
+	drivers-vector-redis? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	drivers-vector-opensearch? ( <dev-python/opensearch-py-3.0.0[${PYTHON_USEDEP}] )
+	drivers-vector-amazon-opensearch? ( <dev-python/opensearch-py-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/opensearch-py-3.0.0[${PYTHON_USEDEP}] )
 	drivers-vector-amazon-opensearch? ( dev-python/requests-aws4auth[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests-aws4auth[${PYTHON_USEDEP}] )
 	drivers-sql-postgres? ( dev-python/pgvector[${PYTHON_USEDEP}] )

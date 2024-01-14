@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="elasticsearch opensearch"
 DEPENDENCIES="dev-python/graphene[${PYTHON_USEDEP}]
 	dev-python/singledispatch[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
+	>=dev-python/iso8601-0.1.12[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
 	dev-python/anysearch[${PYTHON_USEDEP}]
-	elasticsearch? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
+	elasticsearch? ( >=dev-python/elasticsearch-6.0[${PYTHON_USEDEP}] )
 	elasticsearch? ( dev-python/elasticsearch-dsl[${PYTHON_USEDEP}] )
 	opensearch? ( dev-python/opensearch-py[${PYTHON_USEDEP}] )
 	opensearch? ( dev-python/opensearch-dsl[${PYTHON_USEDEP}] )"

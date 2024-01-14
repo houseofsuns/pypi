@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="apple_mchips docs gui modelzoo openvino tf"
 DEPENDENCIES="dev-python/dlclibrary[${PYTHON_USEDEP}]
 	dev-python/filterpy[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.15.0[${PYTHON_USEDEP}]
 	dev-python/imgaug[${PYTHON_USEDEP}]
 	dev-python/imageio-ffmpeg[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.6[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.11[${PYTHON_USEDEP}]
+	>=dev-python/tables-3.7.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/tensorpack[${PYTHON_USEDEP}]
 	dev-python/tf-slim[${PYTHON_USEDEP}]
@@ -48,8 +48,8 @@ DEPENDENCIES="dev-python/dlclibrary[${PYTHON_USEDEP}]
 	apple_mchips? ( dev-python/tensorflow-macos[${PYTHON_USEDEP}] )
 	apple_mchips? ( dev-python/tensorflow-metal[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	gui? ( dev-python/qdarkstyle[${PYTHON_USEDEP}] )
+	gui? ( <dev-python/pyside6-6.3.2[${PYTHON_USEDEP}] )
+	gui? ( ~dev-python/qdarkstyle-3.1[${PYTHON_USEDEP}] )
 	gui? ( dev-python/napari-deeplabcut[${PYTHON_USEDEP}] )
 	modelzoo? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	openvino? ( dev-python/openvino-dev[${PYTHON_USEDEP}] )

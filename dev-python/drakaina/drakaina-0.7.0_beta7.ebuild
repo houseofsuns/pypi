@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs jwt msgpack orjson ujson"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	ujson? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	jwt? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	msgpack? ( <dev-python/msgpack-2.0.0[${PYTHON_USEDEP}] )
+	orjson? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
+	ujson? ( <dev-python/ujson-6.0.0[${PYTHON_USEDEP}] )
+	jwt? ( <dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

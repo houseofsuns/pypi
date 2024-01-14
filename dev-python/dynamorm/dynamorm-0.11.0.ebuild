@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="marshmallow schematics"
-DEPENDENCIES="dev-python/blinker[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/blinker-2.0[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	marshmallow? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
+	marshmallow? ( <dev-python/marshmallow-4.0[${PYTHON_USEDEP}] )
 	schematics? ( dev-python/schematics[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

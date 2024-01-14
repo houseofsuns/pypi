@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/bolton-eris[${PYTHON_USEDEP}]
 	dev-python/bolton-logrus[${PYTHON_USEDEP}]
 	dev-python/bolton-typist[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]"
+	~dev-python/pydantic-1.8[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

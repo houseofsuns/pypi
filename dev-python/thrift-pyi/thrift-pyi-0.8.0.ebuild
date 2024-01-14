@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/autoflake[${PYTHON_USEDEP}]
 	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/thriftpy2[${PYTHON_USEDEP}]"
+	<dev-python/thriftpy2-0.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

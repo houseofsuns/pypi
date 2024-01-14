@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build"
-DEPENDENCIES="dev-python/ecdsa[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/ecdsa-0.18.0[${PYTHON_USEDEP}]
+	~dev-python/sympy-1.11.1[${PYTHON_USEDEP}]
 	build? ( dev-python/cmake[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

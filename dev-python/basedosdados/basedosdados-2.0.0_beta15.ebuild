@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all avro cli upload"
-DEPENDENCIES="dev-python/google-api-python-client[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-api-python-client-3.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery-connection[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	all? ( dev-python/gql[${PYTHON_USEDEP}] )
 	upload? ( dev-python/gql[${PYTHON_USEDEP}] )
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	dev-python/pandas-gbq[${PYTHON_USEDEP}]
 	all? ( dev-python/pandavro[${PYTHON_USEDEP}] )
 	avro? ( dev-python/pandavro[${PYTHON_USEDEP}] )
 	dev-python/pydata-google-auth[${PYTHON_USEDEP}]
-	all? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )
-	upload? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	all? ( dev-python/click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/requests-toolbelt-2.0[${PYTHON_USEDEP}] )
+	upload? ( <dev-python/requests-toolbelt-2.0[${PYTHON_USEDEP}] )
+	<dev-python/tomlkit-0.12[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/click-9.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/click-9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

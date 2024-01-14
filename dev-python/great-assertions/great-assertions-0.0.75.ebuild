@@ -28,6 +28,6 @@ DEPENDENCIES="devenv? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	devenv? ( dev-python/black[${PYTHON_USEDEP}] )
 	devenv? ( dev-python/pyroma[${PYTHON_USEDEP}] )
 	devenv? ( dev-python/zest-releaser[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

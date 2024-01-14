@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev prod"
 DEPENDENCIES="dev-python/django-configurations[${PYTHON_USEDEP}]
-	dev? ( dev-python/django[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/django-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-allauth[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-auth-style[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-cors-headers[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/django-configurations[${PYTHON_USEDEP}]
 	dev? ( dev-python/whitenoise[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-minio-storage[${PYTHON_USEDEP}] )
-	prod? ( dev-python/django[${PYTHON_USEDEP}] )
+	prod? ( >=dev-python/django-4.0[${PYTHON_USEDEP}] )
 	prod? ( dev-python/django-allauth[${PYTHON_USEDEP}] )
 	prod? ( dev-python/django-auth-style[${PYTHON_USEDEP}] )
 	prod? ( dev-python/django-cors-headers[${PYTHON_USEDEP}] )

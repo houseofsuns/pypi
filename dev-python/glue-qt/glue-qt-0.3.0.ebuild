@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs qt test"
 DEPENDENCIES="dev-python/glue-core[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1[${PYTHON_USEDEP}]
 	dev-python/echo[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-30.3.0[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/qtconsole[${PYTHON_USEDEP}]
+	>=dev-python/ipython-4.0[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-4.0[${PYTHON_USEDEP}]
+	>=dev-python/qtconsole-4.3[${PYTHON_USEDEP}]
 	dev-python/pvextractor[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	qt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	qt? ( >=dev-python/PyQt5-5.14[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-faulthandler[${PYTHON_USEDEP}] )

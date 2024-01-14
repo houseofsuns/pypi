@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs speedup"
-DEPENDENCIES="dev-python/pyaes[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
 	dev-python/pymediainfo-pyrofork[${PYTHON_USEDEP}]
 	dev-python/pysocks[${PYTHON_USEDEP}]
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-immaterial[${PYTHON_USEDEP}] )
-	docs? ( dev-python/tornado[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/tornado-6.3.3[${PYTHON_USEDEP}] )
 	speedup? ( dev-python/tgcrypto[${PYTHON_USEDEP}] )
-	speedup? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	speedup? ( >=dev-python/uvloop-0.19.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

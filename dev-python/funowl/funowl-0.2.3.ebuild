@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/bcp47[${PYTHON_USEDEP}]
 	dev-python/jsonasobj[${PYTHON_USEDEP}]
 	dev-python/pyjsg[${PYTHON_USEDEP}]
 	dev-python/rdflib-shim[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	<dev-python/rdflib-8.0[${PYTHON_USEDEP}]
 	dev-python/rfc3987[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

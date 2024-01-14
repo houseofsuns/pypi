@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/lightgbm[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/blosc[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
-	default_mm? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	default_mm? ( >=dev-python/scipy-1.6.0[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/seaborn-0.11.0[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sklearn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

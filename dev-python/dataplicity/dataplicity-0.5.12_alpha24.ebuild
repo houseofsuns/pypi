@@ -27,12 +27,12 @@ IUSE=""
 DEPENDENCIES="dev-python/backports-ssl-match-hostname[${PYTHON_USEDEP}]
 	dev-python/enum34[${PYTHON_USEDEP}]
 	dev-python/lomond[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/sh[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/distro-1.6.0[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
+	~dev-python/sh-1.14.3[${PYTHON_USEDEP}]
+	~dev-python/urllib3-2.0.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

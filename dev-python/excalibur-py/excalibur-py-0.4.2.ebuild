@@ -36,12 +36,12 @@ DEPENDENCIES="dev-python/camelot-py[${PYTHON_USEDEP}]
 	all? ( dev-python/configparser[${PYTHON_USEDEP}] )
 	all? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	all? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mysqlclient-1.3.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )"
+	mysql? ( >=dev-python/mysqlclient-1.3.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

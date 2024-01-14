@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.11.2[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/ophyd[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/dask-2021.6.2[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
 	dev-python/zmq[${PYTHON_USEDEP}]
 	dev-python/fvgp[${PYTHON_USEDEP}]

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lint test"
-DEPENDENCIES="lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/astroid[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+DEPENDENCIES="lint? ( <dev-python/flake8-6.2[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/astroid-3.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-3.1[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-6.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

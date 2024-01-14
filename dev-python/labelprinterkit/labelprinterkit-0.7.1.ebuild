@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bluetooth qrcode snmp"
-DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pyusb[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyusb-2.0.0[${PYTHON_USEDEP}]
 	dev-python/packbits[${PYTHON_USEDEP}]
-	bluetooth? ( dev-python/pyserial[${PYTHON_USEDEP}] )
-	qrcode? ( dev-python/qrcode[${PYTHON_USEDEP}] )
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	snmp? ( dev-python/pysnmp[${PYTHON_USEDEP}] )
-	snmp? ( dev-python/pyasn1[${PYTHON_USEDEP}] )"
+	bluetooth? ( <dev-python/pyserial-4.0[${PYTHON_USEDEP}] )
+	qrcode? ( <dev-python/qrcode-8.0.0[${PYTHON_USEDEP}] )
+	<dev-python/setuptools-69.0.0[${PYTHON_USEDEP}]
+	snmp? ( <dev-python/pysnmp-5.0.0[${PYTHON_USEDEP}] )
+	snmp? ( <dev-python/pyasn1-0.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

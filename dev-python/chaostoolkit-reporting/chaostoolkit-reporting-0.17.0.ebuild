@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/cairosvg[${PYTHON_USEDEP}]
 	dev-python/pygal[${PYTHON_USEDEP}]
 	dev-python/pypandoc[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]"
+	>=dev-python/importlib-metadata-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

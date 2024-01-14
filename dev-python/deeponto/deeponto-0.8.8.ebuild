@@ -41,15 +41,15 @@ DEPENDENCIES="dev-python/JPype1[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/textdistance[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	~dev-python/ipywidgets-7.7.1[${PYTHON_USEDEP}]
 	dev-python/ipykernel[${PYTHON_USEDEP}]
 	dev-python/enlighten[${PYTHON_USEDEP}]
 	dev-python/rdflib[${PYTHON_USEDEP}]
-	documentation? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	documentation? ( >=dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}] )
+	documentation? ( >=dev-python/mkdocstrings-0.19.1[${PYTHON_USEDEP}] )
+	documentation? ( >=dev-python/mkdocs-material-9.0.5[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
+	documentation? ( >=dev-python/mkdocstrings-python-0.8.3[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/mkdocs-git-authors-plugin[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

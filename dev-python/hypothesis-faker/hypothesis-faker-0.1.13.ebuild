@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/backports-cached-property[${PYTHON_USEDEP}]
 	dev-python/faker[${PYTHON_USEDEP}]
-	dev-python/hypothesis[${PYTHON_USEDEP}]
+	<dev-python/hypothesis-7.0.0[${PYTHON_USEDEP}]
 	dev-python/writer-cm[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

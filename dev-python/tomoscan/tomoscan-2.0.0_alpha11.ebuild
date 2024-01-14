@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc full setup_requires test"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.0[${PYTHON_USEDEP}]
 	dev-python/silx[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/dicttoxml[${PYTHON_USEDEP}]

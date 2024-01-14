@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/wheel-0.36.2[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
+	>=dev-python/Babel-2.9.1[${PYTHON_USEDEP}]
+	>=dev-python/mypy-0.800[${PYTHON_USEDEP}]
 	dev-python/schema-entry[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/pyaml[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.0[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.5[${PYTHON_USEDEP}]
+	>=dev-python/pyaml-20.4.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/recommonmark[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-3.5[${PYTHON_USEDEP}]
+	>=dev-python/coverage-5.5[${PYTHON_USEDEP}]
+	>=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}]
 	dev-python/sphinx-intl[${PYTHON_USEDEP}]
-	dev-python/sphinx-autoapi[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
-	dev-python/astroid[${PYTHON_USEDEP}]"
+	>=dev-python/sphinx-autoapi-1.8.1[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}]
+	>=dev-python/astroid-2.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

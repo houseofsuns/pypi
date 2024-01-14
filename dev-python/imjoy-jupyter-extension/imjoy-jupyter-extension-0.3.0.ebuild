@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/imjoy-rpc[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]"
+	>=dev-python/notebook-5.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

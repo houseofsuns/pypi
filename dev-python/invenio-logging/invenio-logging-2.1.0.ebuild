@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="sentry_sdk tests"
 DEPENDENCIES="dev-python/invenio-celery[${PYTHON_USEDEP}]
 	dev-python/invenio-db[${PYTHON_USEDEP}]
-	sentry_sdk? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
+	sentry_sdk? ( >=dev-python/sentry-sdk-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask-login[${PYTHON_USEDEP}] )
-	tests? ( dev-python/httpretty[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flask-login-0.6.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/httpretty-0.8.14[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/iniconfig[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sentry-sdk-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

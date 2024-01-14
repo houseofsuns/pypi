@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/debtcollector[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/oslo-concurrency[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/debtcollector-1.19.0[${PYTHON_USEDEP}]
+	>=dev-python/netaddr-0.7.18[${PYTHON_USEDEP}]
+	>=dev-python/oslo-concurrency-3.20.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-5.1.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-3.15.3[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.30.0[${PYTHON_USEDEP}]
 	dev-python/oslo-privsep[${PYTHON_USEDEP}]
 	dev-python/oslo-versionedobjects[${PYTHON_USEDEP}]
 	dev-python/ovsdbapp[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/pyroute2[${PYTHON_USEDEP}]"
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/pyroute2-0.5.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

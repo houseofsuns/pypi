@@ -33,8 +33,8 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	all? ( dev-python/accelerate[${PYTHON_USEDEP}] )
-	embeddings? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	embeddings? ( ~dev-python/numpy-1.24[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/numpy-1.24[${PYTHON_USEDEP}] )
 	embeddings? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	all? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/seqeval[${PYTHON_USEDEP}] )
@@ -46,8 +46,8 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	all? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	audio? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	all? ( dev-python/librosa[${PYTHON_USEDEP}] )
-	vision? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	vision? ( <=dev-python/pillow-10.0[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/pillow-10.0[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	all? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/rouge_score[${PYTHON_USEDEP}] )

@@ -26,28 +26,28 @@ KEYWORDS="~amd64 ~x86"
 IUSE="complete tests visualization"
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/affine[${PYTHON_USEDEP}]
-	dev-python/blosc[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	>=dev-python/blosc-1.10.6[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]
-	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
+	>=dev-python/lazy-object-proxy-1.7.1[${PYTHON_USEDEP}]
 	dev-python/mercantile[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2021.1[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-65.6.3[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.8.1[${PYTHON_USEDEP}]
 	dev-python/strenum[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]
-	complete? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/responses[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	>=dev-python/tqdm-4.32.1[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
+	>=dev-python/tifffile-2023.9.26[${PYTHON_USEDEP}]
+	complete? ( >=dev-python/matplotlib-3.1.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/freezegun-0.3.12[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/responses-0.12.1[${PYTHON_USEDEP}] )
+	visualization? ( >=dev-python/matplotlib-3.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all datasets outliers"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scipy-1.3.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn-extra[${PYTHON_USEDEP}] )

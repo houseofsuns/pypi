@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/flasgger[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
+	~dev-python/flasgger-0.9.5[${PYTHON_USEDEP}]
+	~dev-python/flask-2.2.5[${PYTHON_USEDEP}]
 	dev-python/Flask-Cors[${PYTHON_USEDEP}]
 	dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}]
 	dev-python/Flask-Mail[${PYTHON_USEDEP}]
@@ -35,20 +35,20 @@ DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
 	dev-python/flask-marshmallow[${PYTHON_USEDEP}]
 	dev-python/Flask-SocketIO[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/kombu[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	~dev-python/ipython-8.10.0[${PYTHON_USEDEP}]
+	~dev-python/kombu-5.2.4[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.19.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/pyotp[${PYTHON_USEDEP}]
+	~dev-python/pyotp-2.8.0[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/requests-oauthlib-1.3.1[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.3.4[${PYTHON_USEDEP}]
 	dev-python/vantage6[${PYTHON_USEDEP}]
 	dev-python/vantage6-common[${PYTHON_USEDEP}]
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/coverage-6.4.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

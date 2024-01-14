@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev doc"
 DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/port-for[${PYTHON_USEDEP}]
-	dev-python/kafka-python[${PYTHON_USEDEP}]
+	>=dev-python/kafka-python-1.4.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyflakes-1.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-tuple[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	doc? ( ~dev-python/sphinx-autodoc-typehints-1.9.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

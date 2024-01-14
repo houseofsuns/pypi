@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all exl ext nlp"
 DEPENDENCIES="dev-python/argsense[${PYTHON_USEDEP}]
 	dev-python/lk-logger[${PYTHON_USEDEP}]
-	exl? ( dev-python/xlrd[${PYTHON_USEDEP}] )
-	all? ( dev-python/xlrd[${PYTHON_USEDEP}] )
+	exl? ( ~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}] )
 	exl? ( dev-python/xlsxwriter[${PYTHON_USEDEP}] )
 	all? ( dev-python/xlsxwriter[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/pypinyin[${PYTHON_USEDEP}] )

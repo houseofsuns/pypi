@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="execo google pulsar"
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/python-dotenv-0.15.0[${PYTHON_USEDEP}]
+	<dev-python/tox-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/docker-5.0.0[${PYTHON_USEDEP}]
 	execo? ( dev-python/execo[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
 	pulsar? ( dev-python/pulsar-client[${PYTHON_USEDEP}] )
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/asciichartpy[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]"
+	<dev-python/humanize-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

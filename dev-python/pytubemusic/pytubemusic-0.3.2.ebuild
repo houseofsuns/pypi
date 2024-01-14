@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
 	dev-python/cowexcept[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
 	dev-python/pipe-utils[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
 	dev-python/python-cowsay[${PYTHON_USEDEP}]

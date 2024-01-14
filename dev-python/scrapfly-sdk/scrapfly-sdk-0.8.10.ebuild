@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all deploy develop parser scrapy speedups"
-DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/decorator-4.2.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.5[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
+	>=dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
 	all? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	all? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/pdoc3[${PYTHON_USEDEP}] )

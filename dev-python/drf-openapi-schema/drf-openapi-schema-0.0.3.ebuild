@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pydantic uritemplate"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.12.0[${PYTHON_USEDEP}]
 	dev-python/drf-serializer-inference[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	uritemplate? ( dev-python/uritemplate[${PYTHON_USEDEP}] )"
+	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
+	pydantic? ( >=dev-python/pydantic-1.6.2[${PYTHON_USEDEP}] )
+	uritemplate? ( >=dev-python/uritemplate-4.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

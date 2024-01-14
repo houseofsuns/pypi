@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="configure"
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pymongo-4.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	configure? ( dev-python/FormEncode[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

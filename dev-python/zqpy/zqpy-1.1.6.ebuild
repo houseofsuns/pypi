@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
+	~dev-python/natsort-7.0.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.0[${PYTHON_USEDEP}]
+	~dev-python/pymongo-4.1.1[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pytesseract[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	~dev-python/pytesseract-0.3.7[${PYTHON_USEDEP}]
+	~dev-python/websockets-8.1[${PYTHON_USEDEP}]
 	dev-python/websockets-routes[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
 	dev-python/pywin32[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
 	dev-python/aircv[${PYTHON_USEDEP}]
 	dev-python/pyttsx3[${PYTHON_USEDEP}]
 	dev-python/jieba[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.6[${PYTHON_USEDEP}]
+	~dev-python/qrcode-6.1[${PYTHON_USEDEP}]
 	dev-python/moviepy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

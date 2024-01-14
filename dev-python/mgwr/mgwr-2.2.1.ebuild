@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scipy-0.11[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.3[${PYTHON_USEDEP}]
 	dev-python/libpysal[${PYTHON_USEDEP}]
 	dev-python/spglm[${PYTHON_USEDEP}]
 	dev-python/spreg[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.4.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	tests? ( dev-python/nose[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nose-progressive[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nose-exclude[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

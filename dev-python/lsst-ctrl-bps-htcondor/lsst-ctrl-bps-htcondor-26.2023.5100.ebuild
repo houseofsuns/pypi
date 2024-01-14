@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/htcondor[${PYTHON_USEDEP}]
 	dev-python/lsst-ctrl-bps[${PYTHON_USEDEP}]
 	dev-python/lsst-daf-butler[${PYTHON_USEDEP}]
 	dev-python/lsst-utils[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-openfiles[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

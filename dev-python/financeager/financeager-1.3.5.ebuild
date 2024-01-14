@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop packaging"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	~dev-python/argcomplete-3.2.1[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.20.1[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/rich-13.7.0[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
-	develop? ( dev-python/black[${PYTHON_USEDEP}] )
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
 	develop? ( dev-python/gitlint-core[${PYTHON_USEDEP}] )
-	develop? ( dev-python/isort[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	packaging? ( dev-python/build[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

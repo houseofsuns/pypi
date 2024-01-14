@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/flask-wtf[${PYTHON_USEDEP}]
-	dev-python/wtforms[${PYTHON_USEDEP}]
+	~dev-python/wtforms-2.3.3[${PYTHON_USEDEP}]
 	dev-python/Flask-Bootstrap[${PYTHON_USEDEP}]
 	dev-python/html5lib[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
 	dev-python/helium[${PYTHON_USEDEP}]
 	dev-python/xlsxwriter[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]

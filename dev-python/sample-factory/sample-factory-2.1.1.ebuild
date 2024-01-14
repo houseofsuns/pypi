@@ -40,14 +40,14 @@ DEPENDENCIES="dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	mujoco? ( dev-python/mujoco[${PYTHON_USEDEP}] )
 	vizdoom? ( dev-python/vizdoom[${PYTHON_USEDEP}] )
 	vizdoom? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/pyglet[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/tensorboardx[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7.0[${PYTHON_USEDEP}]
+	>=dev-python/threadpoolctl-2.0.0[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/signal-slot-mp[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
@@ -56,8 +56,8 @@ DEPENDENCIES="dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	atari? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.12[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/sh[${PYTHON_USEDEP}]
 	dev-python/bluepyopt[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/ipyparallel[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]

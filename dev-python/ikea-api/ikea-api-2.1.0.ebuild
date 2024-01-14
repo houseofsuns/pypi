@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all httpx requests wrappers"
 DEPENDENCIES="requests? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
-	wrappers? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	all? ( dev-python/httpx[${PYTHON_USEDEP}] )"
+	wrappers? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
+	httpx? ( <dev-python/httpx-0.25[${PYTHON_USEDEP}] )
+	all? ( <dev-python/httpx-0.25[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

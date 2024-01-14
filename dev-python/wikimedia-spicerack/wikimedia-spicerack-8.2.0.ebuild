@@ -26,35 +26,35 @@ KEYWORDS="~amd64 ~x86"
 IUSE="format prospector tests"
 DEPENDENCIES="dev-python/conftool[${PYTHON_USEDEP}]
 	dev-python/cumin[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	~dev-python/dnspython-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/elasticsearch-7.15.0[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-curator[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/kafka-python[${PYTHON_USEDEP}]
+	>=dev-python/kafka-python-2.0.1[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
+	>=dev-python/pymysql-0.9.3[${PYTHON_USEDEP}]
 	dev-python/pynetbox[${PYTHON_USEDEP}]
 	dev-python/python-etcd[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<=dev-python/redis-4.1.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	dev-python/wmflib[${PYTHON_USEDEP}]
-	format? ( dev-python/black[${PYTHON_USEDEP}] )
+	format? ( <=dev-python/black-21.12[${PYTHON_USEDEP}] )
 	format? ( dev-python/isort[${PYTHON_USEDEP}] )
 	prospector? ( dev-python/prospector[${PYTHON_USEDEP}] )
-	prospector? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	prospector? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	prospector? ( >=dev-python/pytest-6.0.2[${PYTHON_USEDEP}] )
+	prospector? ( >=dev-python/requests-mock-1.7.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/bandit-1.6.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-xdist-2.2.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.0.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/requests-mock-1.7.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/setuptools-53.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-argparse-0.2.5[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-autodoc-typehints-1.9.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-PyMySQL[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-redis[${PYTHON_USEDEP}] )

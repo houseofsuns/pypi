@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+	<dev-python/tornado-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/prometheus-client-0.8.0[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

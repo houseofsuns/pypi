@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docutils-0.16[${PYTHON_USEDEP}]
+	<dev-python/sphinx-8.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-jinja2-compat[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

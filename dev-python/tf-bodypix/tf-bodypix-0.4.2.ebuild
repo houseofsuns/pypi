@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all image tf tfjs tflite video webcam"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/numpy-1.24[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyfakewebcam[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow-estimator[${PYTHON_USEDEP}] )
 	all? ( dev-python/tfjs-graph-converter[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
 	image? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow-estimator[${PYTHON_USEDEP}] )
-	tfjs? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	tfjs? ( <dev-python/numpy-1.24[${PYTHON_USEDEP}] )
 	tfjs? ( dev-python/tfjs-graph-converter[${PYTHON_USEDEP}] )
 	tflite? ( dev-python/tflite-runtime[${PYTHON_USEDEP}] )
 	video? ( dev-python/opencv-python[${PYTHON_USEDEP}] )

@@ -50,9 +50,9 @@ DEPENDENCIES="dev-python/pyro-ppl[${PYTHON_USEDEP}]
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbval[${PYTHON_USEDEP}] )"

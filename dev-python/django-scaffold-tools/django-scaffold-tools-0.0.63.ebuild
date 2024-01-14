@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/django-cors-headers[${PYTHON_USEDEP}]
 	dev-python/django-cron[${PYTHON_USEDEP}]
 	dev-python/django-filter[${PYTHON_USEDEP}]
 	dev-python/django-fullclean[${PYTHON_USEDEP}]
 	dev-python/django-uuslug[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-4.0[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-queryfields[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-yaml[${PYTHON_USEDEP}]
 	dev-python/mysqlclient[${PYTHON_USEDEP}]

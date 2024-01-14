@@ -24,61 +24,61 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs docsold excel format notebook test"
-DEPENDENCIES="dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.13.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	all? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62[${PYTHON_USEDEP}]
+	all? ( >=dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/notebook-6.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipywidgets-7.6.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipython-7.28.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipykernel-6.4.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jupyterlab-3.1.12[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/mdformat-gfm[${PYTHON_USEDEP}] )
 	all? ( dev-python/mdformat-frontmatter[${PYTHON_USEDEP}] )
 	all? ( dev-python/mdformat-footnote[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	all? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	all? ( >dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/coverage-6.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/parameterized-0.9.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pydata-sphinx-theme-0.14.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.19.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-remove-toctrees[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/requests[${PYTHON_USEDEP}] )
-	docs? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/requests-2.27.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/packaging-21.0[${PYTHON_USEDEP}] )
 	docsold? ( dev-python/mdformat-gfm[${PYTHON_USEDEP}] )
 	docsold? ( dev-python/mdformat-frontmatter[${PYTHON_USEDEP}] )
 	docsold? ( dev-python/mdformat-footnote[${PYTHON_USEDEP}] )
 	docsold? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	docsold? ( dev-python/jupyter-book[${PYTHON_USEDEP}] )
-	excel? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	format? ( dev-python/black[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )"
+	excel? ( >=dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}] )
+	format? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/notebook-6.0.0[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/ipywidgets-7.6.5[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/ipython-7.28.0[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/ipykernel-6.4.1[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/jupyterlab-3.1.12[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	test? ( >dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-6.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/parameterized-0.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

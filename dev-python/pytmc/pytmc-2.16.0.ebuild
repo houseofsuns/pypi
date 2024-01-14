@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

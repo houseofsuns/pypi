@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tzdata[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tzdata-2022.7[${PYTHON_USEDEP}]
+	>=dev-python/regex-2022.10.31[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

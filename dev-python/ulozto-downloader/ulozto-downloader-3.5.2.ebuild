@@ -27,7 +27,7 @@ IUSE="auto-captcha"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/ansicolors[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pysocks[${PYTHON_USEDEP}]
 	dev-python/stem[${PYTHON_USEDEP}]

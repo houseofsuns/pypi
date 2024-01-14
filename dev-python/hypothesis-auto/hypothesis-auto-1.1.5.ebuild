@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pytest"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/hypothesis[${PYTHON_USEDEP}]
-	pytest? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/hypothesis-6.0.0[${PYTHON_USEDEP}]
+	pytest? ( >=dev-python/pytest-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

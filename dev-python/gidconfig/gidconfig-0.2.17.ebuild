@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/fuzzywuzzy-0.18.0[${PYTHON_USEDEP}]
 	dev-python/gidlogger[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

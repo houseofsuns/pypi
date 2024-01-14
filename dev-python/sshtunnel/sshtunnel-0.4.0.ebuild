@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build_sphinx dev test"
-DEPENDENCIES="dev-python/paramiko[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/paramiko-2.7.2[${PYTHON_USEDEP}]
 	build_sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	build_sphinx? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/tox-1.8.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

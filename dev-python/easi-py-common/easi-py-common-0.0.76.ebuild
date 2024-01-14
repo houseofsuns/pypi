@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
+	~dev-python/flask-sqlalchemy-2.4.4[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.7.2[${PYTHON_USEDEP}]
+	~dev-python/orjson-3.4.6[${PYTHON_USEDEP}]
+	~dev-python/itsdangerous-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/pytz-2020.4[${PYTHON_USEDEP}]
+	~dev-python/pymysql-0.10.1[${PYTHON_USEDEP}]
 	dev-python/flaskerk[${PYTHON_USEDEP}]
 	dev-python/flask-redis[${PYTHON_USEDEP}]
 	dev-python/flask-wtf[${PYTHON_USEDEP}]
 	dev-python/flask-uploads[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-1.0.1[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.16.19[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.25.0[${PYTHON_USEDEP}]
+	~dev-python/pip-21.0.1[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.3.24[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

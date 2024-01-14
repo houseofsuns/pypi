@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli dev docker docker_ssh hub opensearch web_extra"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	<dev-python/elasticsearch-8.0[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
+	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	cli? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	>=dev-python/orjson-3.6.1[${PYTHON_USEDEP}]
+	~dev-python/tornado-6.2.0[${PYTHON_USEDEP}]
+	cli? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
-	dev? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/msgpack-0.6.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sentry-sdk-1.5.3[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aiocron[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/asyncssh[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jsonpointer[${PYTHON_USEDEP}] )
@@ -48,28 +48,28 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev? ( dev-python/dill[${PYTHON_USEDEP}] )
 	dev? ( dev-python/prettytable[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sockjs-tornado[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests-aws4auth[${PYTHON_USEDEP}] )
 	dev? ( dev-python/biothings-client[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/cryptography-38.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docker[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/docker-6.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-2.4.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-reredirects[${PYTHON_USEDEP}] )
-	dev? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
-	docker_ssh? ( dev-python/docker[${PYTHON_USEDEP}] )
-	hub? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/networkx-3.0[${PYTHON_USEDEP}] )
+	docker? ( >=dev-python/docker-6.0.1[${PYTHON_USEDEP}] )
+	docker_ssh? ( >=dev-python/docker-6.0.1[${PYTHON_USEDEP}] )
+	hub? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
 	hub? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	hub? ( dev-python/aiocron[${PYTHON_USEDEP}] )
-	hub? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	hub? ( ~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}] )
 	hub? ( dev-python/asyncssh[${PYTHON_USEDEP}] )
 	hub? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	hub? ( dev-python/jsonpointer[${PYTHON_USEDEP}] )
@@ -78,18 +78,18 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	hub? ( dev-python/dill[${PYTHON_USEDEP}] )
 	hub? ( dev-python/prettytable[${PYTHON_USEDEP}] )
 	hub? ( dev-python/sockjs-tornado[${PYTHON_USEDEP}] )
-	hub? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	hub? ( >=dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}] )
 	hub? ( dev-python/pip[${PYTHON_USEDEP}] )
 	hub? ( dev-python/black[${PYTHON_USEDEP}] )
 	hub? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	hub? ( dev-python/requests-aws4auth[${PYTHON_USEDEP}] )
 	hub? ( dev-python/biothings-client[${PYTHON_USEDEP}] )
-	hub? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	hub? ( >=dev-python/cryptography-38.0.3[${PYTHON_USEDEP}] )
 	hub? ( dev-python/typer[${PYTHON_USEDEP}] )
-	hub? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	hub? ( <dev-python/networkx-3.0[${PYTHON_USEDEP}] )
 	opensearch? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	opensearch? ( dev-python/requests-aws4auth[${PYTHON_USEDEP}] )
-	web_extra? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	web_extra? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )"
+	web_extra? ( >=dev-python/msgpack-0.6.1[${PYTHON_USEDEP}] )
+	web_extra? ( >=dev-python/sentry-sdk-1.5.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gcloud-rest-auth[${PYTHON_USEDEP}]
-	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]"
+	<dev-python/pyasn1-modules-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/rsa-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

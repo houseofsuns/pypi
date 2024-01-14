@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/django-classy-tags[${PYTHON_USEDEP}]
 	dev-python/django-cms[${PYTHON_USEDEP}]
 	dev-python/django-entangled[${PYTHON_USEDEP}]

@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/kedro[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	~dev-python/requests-2.20[${PYTHON_USEDEP}]
+	test? ( <dev-python/bandit-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/behave[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-2.2.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	test? ( dev-python/trufflehog[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )

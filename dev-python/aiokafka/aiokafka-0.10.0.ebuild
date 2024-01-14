@@ -27,10 +27,10 @@ IUSE="all gssapi lz4 snappy zstd"
 DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	all? ( dev-python/cramjam[${PYTHON_USEDEP}] )
-	all? ( dev-python/lz4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/lz4-3.1.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/gssapi[${PYTHON_USEDEP}] )
 	gssapi? ( dev-python/gssapi[${PYTHON_USEDEP}] )
-	lz4? ( dev-python/lz4[${PYTHON_USEDEP}] )
+	lz4? ( >=dev-python/lz4-3.1.3[${PYTHON_USEDEP}] )
 	snappy? ( dev-python/cramjam[${PYTHON_USEDEP}] )
 	zstd? ( dev-python/cramjam[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

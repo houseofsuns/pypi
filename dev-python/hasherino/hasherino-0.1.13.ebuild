@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
+	~dev-python/websockets-11.0.3[${PYTHON_USEDEP}]
+	~dev-python/keyring-24.2.0[${PYTHON_USEDEP}]
 	dev-python/flet[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+	~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

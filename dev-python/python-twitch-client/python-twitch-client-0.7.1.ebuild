@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.1.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/responses-0.12.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

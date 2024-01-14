@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mypy pkcs11 pkcs12 requests-mocker testing web-api"
-DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asn1crypto-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/oscrypto[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-2.1[${PYTHON_USEDEP}]
 	mypy? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-tzlocal[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/certomancer[${PYTHON_USEDEP}] )
 	pkcs11? ( dev-python/python-pkcs11[${PYTHON_USEDEP}] )
-	pkcs12? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	requests-mocker? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	testing? ( dev-python/freezegun[${PYTHON_USEDEP}] )
+	pkcs12? ( >=dev-python/cryptography-3.4.7[${PYTHON_USEDEP}] )
+	requests-mocker? ( >=dev-python/requests-mock-1.8.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.1.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytz-2020.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/freezegun-1.1.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pyhanko-certvalidator[${PYTHON_USEDEP}] )
-	testing? ( dev-python/requests[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/requests-2.0.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/certomancer[${PYTHON_USEDEP}] )
 	web-api? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
 	web-api? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"

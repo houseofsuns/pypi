@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/xmltodict[${PYTHON_USEDEP}]
 	dev-python/DataModelDict[${PYTHON_USEDEP}]
 	dev-python/numericalunits[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]

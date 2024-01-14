@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/qiskit-terra[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
+	>=dev-python/qiskit-terra-0.22[${PYTHON_USEDEP}]
 	dev-python/qiskit-ibm-experiment[${PYTHON_USEDEP}]
 	dev-python/qiskit-dynamics[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4[${PYTHON_USEDEP}]
 	dev-python/uncertainties[${PYTHON_USEDEP}]
 	dev-python/lmfit[${PYTHON_USEDEP}]
 	dev-python/rustworkx[${PYTHON_USEDEP}]"

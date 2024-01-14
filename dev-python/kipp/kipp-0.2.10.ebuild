@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aio all doc image test"
-DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/ruamel-yaml-0.14[${PYTHON_USEDEP}]
+	<dev-python/future-1.0[${PYTHON_USEDEP}]
 	dev-python/maya[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]
-	aio? ( dev-python/tornado[${PYTHON_USEDEP}] )
+	>=dev-python/tornado-4.5[${PYTHON_USEDEP}]
+	~dev-python/xxhash-1.3[${PYTHON_USEDEP}]
+	aio? ( ~dev-python/tornado-4.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/mock[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	all? ( dev-python/tornado[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pillow-3.4.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/tornado-4.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	image? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	image? ( ~dev-python/pillow-3.4.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

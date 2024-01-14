@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/bottle[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bottle-0.12.16[${PYTHON_USEDEP}]
+	>=dev-python/waitress-2.1.0[${PYTHON_USEDEP}]
 	dev-python/doreah[${PYTHON_USEDEP}]
 	dev-python/nimrodel[${PYTHON_USEDEP}]
-	dev-python/setproctitle[${PYTHON_USEDEP}]
+	>=dev-python/setproctitle-1.1.10[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/python-datauri[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	>dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]
 	full? ( dev-python/pyvips[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

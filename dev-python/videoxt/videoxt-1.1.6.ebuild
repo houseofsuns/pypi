@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/moviepy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	>=dev-python/rich-13.6.0[${PYTHON_USEDEP}]
+	testing? ( >=dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

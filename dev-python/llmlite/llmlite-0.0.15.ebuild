@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/vllm[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]

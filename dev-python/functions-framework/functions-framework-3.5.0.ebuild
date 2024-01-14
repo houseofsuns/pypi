@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-4.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-1.0.0[${PYTHON_USEDEP}]
 	dev-python/cloudevents[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

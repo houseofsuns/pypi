@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="nats-and-pydantic nats-and-pydantic2 pydantic pydantic2"
 DEPENDENCIES="dev-python/aiodebug[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
+	>=dev-python/python-json-logger-2.0.4[${PYTHON_USEDEP}]
 	nats-and-pydantic? ( dev-python/nats-py[${PYTHON_USEDEP}] )
 	nats-and-pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	nats-and-pydantic2? ( dev-python/nats-py[${PYTHON_USEDEP}] )
-	nats-and-pydantic2? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	nats-and-pydantic2? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	nats-and-pydantic2? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	pydantic2? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	pydantic? ( >=dev-python/pydantic-1.9[${PYTHON_USEDEP}] )
+	pydantic2? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	pydantic2? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

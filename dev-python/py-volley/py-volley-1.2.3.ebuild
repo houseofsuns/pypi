@@ -26,20 +26,20 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all kafka rsmq zmq"
 DEPENDENCIES="all? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
-	all? ( dev-python/hiredis[${PYTHON_USEDEP}] )
-	rsmq? ( dev-python/hiredis[${PYTHON_USEDEP}] )
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	all? ( <dev-python/hiredis-3.0[${PYTHON_USEDEP}] )
+	rsmq? ( <dev-python/hiredis-3.0[${PYTHON_USEDEP}] )
+	<dev-python/msgpack-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-1.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/PyRSMQ[${PYTHON_USEDEP}] )
 	rsmq? ( dev-python/PyRSMQ[${PYTHON_USEDEP}] )
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	all? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
-	zmq? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
-	dev-python/starlette[${PYTHON_USEDEP}]
-	all? ( dev-python/tenacity[${PYTHON_USEDEP}] )
-	rsmq? ( dev-python/tenacity[${PYTHON_USEDEP}] )
-	dev-python/uvicorn[${PYTHON_USEDEP}]"
+	all? ( >=dev-python/pyzmq-22.3.0[${PYTHON_USEDEP}] )
+	zmq? ( >=dev-python/pyzmq-22.3.0[${PYTHON_USEDEP}] )
+	<dev-python/starlette-1.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/tenacity-9.0.0[${PYTHON_USEDEP}] )
+	rsmq? ( <dev-python/tenacity-9.0.0[${PYTHON_USEDEP}] )
+	<dev-python/uvicorn-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

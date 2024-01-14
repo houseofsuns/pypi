@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc stan tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.8.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	all? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	all? ( <dev-python/mistune-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-gallery-0.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	all? ( dev-python/codecov[${PYTHON_USEDEP}] )
@@ -53,15 +53,15 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	doc? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mistune-2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	doc? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-gallery-0.10.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	stan? ( dev-python/pystan[${PYTHON_USEDEP}] )

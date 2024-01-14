@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/coverage-4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-3.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-sugar-0.9.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

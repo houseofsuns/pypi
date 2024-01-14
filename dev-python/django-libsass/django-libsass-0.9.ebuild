@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/django-compressor[${PYTHON_USEDEP}]
-	dev-python/libsass[${PYTHON_USEDEP}]"
+	<dev-python/libsass-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

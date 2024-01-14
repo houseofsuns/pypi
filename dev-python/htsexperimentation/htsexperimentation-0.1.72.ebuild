@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/setuptools-58.0.4[${PYTHON_USEDEP}]
 	dev-python/tsaugmentation[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]"
+	~dev-python/pandas-1.2.5[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

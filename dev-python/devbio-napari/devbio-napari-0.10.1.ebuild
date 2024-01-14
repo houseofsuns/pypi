@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/napari-plugin-engine[${PYTHON_USEDEP}]
 	dev-python/npe2[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.4[${PYTHON_USEDEP}]
 	dev-python/napari-pyclesperanto-assistant[${PYTHON_USEDEP}]
 	dev-python/napari-skimage-regionprops[${PYTHON_USEDEP}]
 	dev-python/napari-animation[${PYTHON_USEDEP}]
@@ -53,11 +53,11 @@ DEPENDENCIES="dev-python/napari-plugin-engine[${PYTHON_USEDEP}]
 	dev-python/jupyterlab[${PYTHON_USEDEP}]
 	dev-python/napari-czifile2[${PYTHON_USEDEP}]
 	dev-python/napari-roi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>dev-python/pydantic-1.10.0[${PYTHON_USEDEP}]
 	dev-python/napari-pystackreg[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
+	>dev-python/imageio-2.22.1[${PYTHON_USEDEP}]
 	dev-python/redlionfish[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]
+	<dev-python/jupyter-server-2.0.0[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

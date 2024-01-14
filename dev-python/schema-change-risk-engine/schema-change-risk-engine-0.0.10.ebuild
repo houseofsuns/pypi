@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test typing virtualenv"
-DEPENDENCIES="docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( >=dev-python/furo-2021.8.31[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse-cli[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	test? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	test? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	typing? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.10[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/filelock-3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.12[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-rerunfailures-9.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-1.34[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/wheel-0.36.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/setuptools-56.0.0[${PYTHON_USEDEP}] )
+	typing? ( >=dev-python/importlib-metadata-5.1[${PYTHON_USEDEP}] )
+	typing? ( ~dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )
 	typing? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	typing? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	virtualenv? ( dev-python/virtualenv[${PYTHON_USEDEP}] )"
+	typing? ( >=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}] )
+	virtualenv? ( >=dev-python/virtualenv-20.0.35[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

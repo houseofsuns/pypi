@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="setup testing"
-DEPENDENCIES="dev-python/olefile[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/olefile-1.0[${PYTHON_USEDEP}]
+	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	setup? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )

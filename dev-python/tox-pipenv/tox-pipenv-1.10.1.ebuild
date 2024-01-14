@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tox[${PYTHON_USEDEP}]
-	dev-python/pipenv[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/tox-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pipenv-2018.5.18[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

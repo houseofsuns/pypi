@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/py-vapid[${PYTHON_USEDEP}]
 	dev-python/http-ece[${PYTHON_USEDEP}]
 	dev-python/pyelliptic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

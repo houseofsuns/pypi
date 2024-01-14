@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="install run screenvis"
 DEPENDENCIES="install? ( dev-python/ansible[${PYTHON_USEDEP}] )
-	install? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	run? ( dev-python/cachetools[${PYTHON_USEDEP}] )
+	install? ( >=dev-python/pyyaml-5.4[${PYTHON_USEDEP}] )
+	run? ( >=dev-python/cachetools-4.2.1[${PYTHON_USEDEP}] )
 	run? ( dev-python/celery[${PYTHON_USEDEP}] )
 	run? ( dev-python/channels[${PYTHON_USEDEP}] )
 	run? ( dev-python/channels-redis[${PYTHON_USEDEP}] )
@@ -34,14 +34,14 @@ DEPENDENCIES="install? ( dev-python/ansible[${PYTHON_USEDEP}] )
 	run? ( dev-python/Django[${PYTHON_USEDEP}] )
 	run? ( dev-python/django-ipware[${PYTHON_USEDEP}] )
 	run? ( dev-python/mutagen[${PYTHON_USEDEP}] )
-	run? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	run? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	run? ( dev-python/qrcode[${PYTHON_USEDEP}] )
+	run? ( >=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}] )
+	run? ( >=dev-python/pyyaml-5.4[${PYTHON_USEDEP}] )
+	run? ( >=dev-python/qrcode-6.1[${PYTHON_USEDEP}] )
 	run? ( dev-python/raveberry-mopidyapi[${PYTHON_USEDEP}] )
-	run? ( dev-python/redis[${PYTHON_USEDEP}] )
-	run? ( dev-python/requests[${PYTHON_USEDEP}] )
+	run? ( >=dev-python/redis-3.5.3[${PYTHON_USEDEP}] )
+	run? ( >=dev-python/requests-2.22.0[${PYTHON_USEDEP}] )
 	run? ( dev-python/yt-dlp[${PYTHON_USEDEP}] )
-	run? ( dev-python/ytmusicapi[${PYTHON_USEDEP}] )
+	run? ( >=dev-python/ytmusicapi-1.3.2[${PYTHON_USEDEP}] )
 	screenvis? ( dev-python/raveberry-visualization[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

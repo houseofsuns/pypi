@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pulpcore[${PYTHON_USEDEP}]
-	dev-python/python-debian[${PYTHON_USEDEP}]
-	dev-python/python-gnupg[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]"
+	<dev-python/python-debian-0.2.0[${PYTHON_USEDEP}]
+	<dev-python/python-gnupg-0.6[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/motuclient[${PYTHON_USEDEP}]
-	dev-python/configobj[${PYTHON_USEDEP}]"
+	~dev-python/configobj-5.0.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

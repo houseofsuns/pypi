@@ -33,12 +33,12 @@ DEPENDENCIES="dev-python/skellycam[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/aniposelib[${PYTHON_USEDEP}]
-	dev-python/libsass[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/libsass-0.21.0[${PYTHON_USEDEP}]
+	~dev-python/ipykernel-6.23.1[${PYTHON_USEDEP}]
+	~dev-python/plotly-5.14.1[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.0[${PYTHON_USEDEP}]
 	dev-python/PySide6[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )

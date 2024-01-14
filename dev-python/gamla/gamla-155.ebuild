@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
 	dev-python/dataclasses_json[${PYTHON_USEDEP}]
 	dev-python/heapq_max[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	dev-python/immutables[${PYTHON_USEDEP}]
 	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]

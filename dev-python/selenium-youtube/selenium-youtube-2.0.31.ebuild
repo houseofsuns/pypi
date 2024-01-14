@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
 	dev-python/kcu[${PYTHON_USEDEP}]
 	dev-python/kstopit[${PYTHON_USEDEP}]
 	dev-python/kyoutubescraper[${PYTHON_USEDEP}]
 	dev-python/noraise[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	>=dev-python/selenium-4.0.0[${PYTHON_USEDEP}]
 	dev-python/selenium-browser[${PYTHON_USEDEP}]
 	dev-python/selenium-chrome[${PYTHON_USEDEP}]
 	dev-python/selenium-firefox[${PYTHON_USEDEP}]
 	dev-python/selenium-uploader-account[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-67.8.0[${PYTHON_USEDEP}]
 	dev-python/xpath-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="complete"
 DEPENDENCIES="dev-python/locket[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
-	complete? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/numpy-1.9.0[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/pandas-0.19.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
 	complete? ( dev-python/blosc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

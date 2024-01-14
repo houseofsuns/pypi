@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	docstest? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	pep8test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	pep8test? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	sqlalchemy? ( >=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/plumbum[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

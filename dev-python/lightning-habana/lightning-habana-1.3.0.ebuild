@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/lightning-utilities[${PYTHON_USEDEP}]
 	examples? ( dev-python/jsonargparse[${PYTHON_USEDEP}] )
 	lightning? ( dev-python/lightning[${PYTHON_USEDEP}] )
 	pytorch-lightning? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
-	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	typing? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
 	typing? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

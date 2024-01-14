@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.26.89[${PYTHON_USEDEP}]
 	dev-python/awscli[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
+	~dev-python/validators-0.20.0[${PYTHON_USEDEP}]
 	dev-python/aws-cdk-lib[${PYTHON_USEDEP}]
 	dev-python/constructs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

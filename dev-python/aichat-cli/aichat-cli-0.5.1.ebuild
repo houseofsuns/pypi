@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/poe-api[${PYTHON_USEDEP}]
 	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
+	~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
 	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
 	dev-python/bardapi[${PYTHON_USEDEP}]
 	dev-python/EdgeGPT[${PYTHON_USEDEP}]"

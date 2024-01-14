@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jupyter tests"
-DEPENDENCIES="jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )"
+DEPENDENCIES="jupyter? ( >=dev-python/ipywidgets-7.5[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-5.4[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-console-scripts-0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

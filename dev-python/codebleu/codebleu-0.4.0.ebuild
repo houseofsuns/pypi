@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/tree-sitter[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/tree-sitter-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-61.0.0[${PYTHON_USEDEP}]
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-timeout-3.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mypy-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-tree-sitter[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
+	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/nltk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

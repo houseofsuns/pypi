@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/property-cached[${PYTHON_USEDEP}]
-	dev-python/fs[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	~dev-python/fs-2.1[${PYTHON_USEDEP}]
+	~dev-python/six-1.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

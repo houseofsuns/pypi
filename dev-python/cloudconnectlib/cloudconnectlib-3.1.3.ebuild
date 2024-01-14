@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/splunk-sdk[${PYTHON_USEDEP}]
-	dev-python/munch[${PYTHON_USEDEP}]
+	<dev-python/munch-3.0.0[${PYTHON_USEDEP}]
 	dev-python/splunktaucclib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonpath-ng-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/decorator-5.1.1[${PYTHON_USEDEP}]
+	<dev-python/PySocks-2.0.0[${PYTHON_USEDEP}]
 	dev-python/solnlib[${PYTHON_USEDEP}]
 	dev-python/splunktalib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

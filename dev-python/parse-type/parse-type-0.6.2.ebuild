@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop docs testing"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/parse[${PYTHON_USEDEP}]
-	develop? ( dev-python/build[${PYTHON_USEDEP}] )
-	develop? ( dev-python/twine[${PYTHON_USEDEP}] )
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/six-1.15[${PYTHON_USEDEP}]
+	>=dev-python/parse-1.18.0[${PYTHON_USEDEP}]
+	develop? ( >=dev-python/build-0.5.1[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/twine-1.13.0[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/coverage-4.4[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	develop? ( dev-python/tox[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	develop? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/virtualenv-20.0.0[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-bootstrap-theme-0.6.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

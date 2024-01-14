@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="xarray"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	xarray? ( dev-python/xarray[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/pandas-0.17[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.10[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.0[${PYTHON_USEDEP}]
+	xarray? ( >=dev-python/xarray-0.7[${PYTHON_USEDEP}] )
 	xarray? ( dev-python/netCDF4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

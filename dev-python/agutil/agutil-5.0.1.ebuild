@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]"
+	~dev-python/rsa-4.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

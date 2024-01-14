@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
-	full? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	full? ( dev-python/pygments[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/django-4.3[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.0[${PYTHON_USEDEP}]
+	<dev-python/unidecode-2.0[${PYTHON_USEDEP}]
+	full? ( >=dev-python/markdown-3.1.1[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/pygments-2.5.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

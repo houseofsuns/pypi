@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop test"
-DEPENDENCIES="develop? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES="develop? ( >=dev-python/black-23.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	develop? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/cibuildwheel[${PYTHON_USEDEP}] )

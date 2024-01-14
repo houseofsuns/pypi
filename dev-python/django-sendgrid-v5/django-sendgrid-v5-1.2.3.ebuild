@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.8[${PYTHON_USEDEP}]
 	dev-python/sendgrid[${PYTHON_USEDEP}]
 	dev-python/python-http-client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

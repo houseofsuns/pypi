@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all build doc full gui ica onnx style test torch"
 DEPENDENCIES="dev-python/mne[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pooch[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.0[${PYTHON_USEDEP}]
 	all? ( dev-python/mne-icalabel[${PYTHON_USEDEP}] )
 	all? ( dev-python/mne-icalabel[${PYTHON_USEDEP}] )
 	all? ( dev-python/mne-icalabel[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/mne[${PYTHON_USEDEP}]
 	doc? ( dev-python/mne-icalabel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mne-icalabel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pydata-sphinx-theme-0.14.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )

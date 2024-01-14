@@ -24,37 +24,37 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bigquery snowflake"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-8.2[${PYTHON_USEDEP}]
 	dev-python/clickhouse-toolset[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.4.8[${PYTHON_USEDEP}]
+	~dev-python/croniter-1.3.8[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1.29[${PYTHON_USEDEP}]
+	~dev-python/humanfriendly-8.2[${PYTHON_USEDEP}]
+	~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.1[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/shandy-sqlfmt[${PYTHON_USEDEP}]
 	dev-python/shandy-sqlfmt[${PYTHON_USEDEP}]
-	dev-python/toposort[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/toposort-1.10[${PYTHON_USEDEP}]
+	~dev-python/tornado-5.1.1[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	bigquery? ( dev-python/gsutil[${PYTHON_USEDEP}] )
-	bigquery? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	bigquery? ( dev-python/google-auth[${PYTHON_USEDEP}] )
-	bigquery? ( dev-python/google-auth-httplib2[${PYTHON_USEDEP}] )
+	bigquery? ( ~dev-python/google-api-python-client-2.0.2[${PYTHON_USEDEP}] )
+	bigquery? ( ~dev-python/google-auth-1.27.1[${PYTHON_USEDEP}] )
+	bigquery? ( ~dev-python/google-auth-httplib2-0.1.0[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/gsutil[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/google-auth[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/google-auth-httplib2[${PYTHON_USEDEP}] )
+	snowflake? ( ~dev-python/google-api-python-client-2.0.2[${PYTHON_USEDEP}] )
+	snowflake? ( ~dev-python/google-auth-1.27.1[${PYTHON_USEDEP}] )
+	snowflake? ( ~dev-python/google-auth-httplib2-0.1.0[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/oauth2client[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/chardet[${PYTHON_USEDEP}] )
+	snowflake? ( <dev-python/chardet-4.0[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

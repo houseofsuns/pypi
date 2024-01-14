@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/jupyter-server[${PYTHON_USEDEP}]
-	dev-python/jupyter-server-mathjax[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-server-mathjax-0.2.2[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-tornado[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/tabulate[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

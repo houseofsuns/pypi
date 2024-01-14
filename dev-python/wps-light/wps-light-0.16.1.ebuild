@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flake8[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flake8-3.7[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
-	dev-python/astor[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/flake8-polyfill[${PYTHON_USEDEP}]"
+	>=dev-python/astor-0.8[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.4[${PYTHON_USEDEP}]
+	>=dev-python/flake8-polyfill-1.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

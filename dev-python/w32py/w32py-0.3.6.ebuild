@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/PyQt5-5.16[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.7[${PYTHON_USEDEP}]
+	<dev-python/psutil-5.10[${PYTHON_USEDEP}]
 	dev-python/pywin32[${PYTHON_USEDEP}]
 	dev-python/pywinauto[${PYTHON_USEDEP}]
-	develop? ( dev-python/black[${PYTHON_USEDEP}] )
-	develop? ( dev-python/isort[${PYTHON_USEDEP}] )
-	develop? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/black-23.2[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/isort-5.13[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/mypy-1.1[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pylint-2.18[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pytest-7.3[${PYTHON_USEDEP}] )
 	develop? ( dev-python/types-pytz[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

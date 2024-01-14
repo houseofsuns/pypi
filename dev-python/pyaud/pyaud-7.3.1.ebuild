@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/arcon[${PYTHON_USEDEP}]
 	dev-python/lsfiles[${PYTHON_USEDEP}]
 	dev-python/object-colors[${PYTHON_USEDEP}]
 	dev-python/pyaud-plugins[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

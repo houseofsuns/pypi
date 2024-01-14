@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/requests-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-0.15[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

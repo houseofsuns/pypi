@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
 	dev-python/gcp-docuploader[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/recommonmark[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+	~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-markdown-builder[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]"
+	>=dev-python/wheel-0.24.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

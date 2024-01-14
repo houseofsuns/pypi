@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="full? ( dev-python/dill[${PYTHON_USEDEP}] )
-	full? ( dev-python/numpy[${PYTHON_USEDEP}] )
+DEPENDENCIES="full? ( >=dev-python/dill-0.3.6[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/numpy-1.24.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/torch[${PYTHON_USEDEP}] )
-	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/stable-baselines3[${PYTHON_USEDEP}] )
-	full? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/pettingzoo[${PYTHON_USEDEP}] )
-	full? ( dev-python/pygame[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/pygame-2.1.3[${PYTHON_USEDEP}] )
 	full? ( dev-python/pymunk[${PYTHON_USEDEP}] )
-	full? ( dev-python/multiprocess[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/multiprocess-0.70.14[${PYTHON_USEDEP}] )
 	full? ( dev-python/river[${PYTHON_USEDEP}] )
 	full? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	full? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	full? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
-	full? ( dev-python/pyglet[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/pyglet-1.5.27[${PYTHON_USEDEP}] )
 	full? ( dev-python/mujoco[${PYTHON_USEDEP}] )
-	full? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/lxml-4.9.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/gymnasium[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

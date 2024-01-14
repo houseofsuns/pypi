@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]"
+	>=dev-python/docutils-0.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

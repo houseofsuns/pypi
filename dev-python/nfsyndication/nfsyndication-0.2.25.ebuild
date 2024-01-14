@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/colorful[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	~dev-python/colorful-0.5.4[${PYTHON_USEDEP}]
 	dev-python/cssutils[${PYTHON_USEDEP}]
-	dev-python/feedparser[${PYTHON_USEDEP}]
+	~dev-python/feedparser-6.0.2[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2017.2[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.24.0[${PYTHON_USEDEP}]
 	test? ( dev-python/multipart[${PYTHON_USEDEP}] )
 	test? ( dev-python/flask[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pigments[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/responses-0.11.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/tornado[${PYTHON_USEDEP}] )
 	test? ( dev-python/twine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

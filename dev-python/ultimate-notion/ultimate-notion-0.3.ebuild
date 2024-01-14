@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all google"
-DEPENDENCIES="dev-python/emoji[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/emoji-2.8[${PYTHON_USEDEP}]
+	~dev-python/mistune-3.0[${PYTHON_USEDEP}]
 	dev-python/notion-client[${PYTHON_USEDEP}]
 	dev-python/notion2md[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.9[${PYTHON_USEDEP}]
 	all? ( dev-python/ultimate-notion[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-auth-httplib2[${PYTHON_USEDEP}] )

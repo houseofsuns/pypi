@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hid"
-DEPENDENCIES="hid? ( dev-python/hidapi[${PYTHON_USEDEP}] )"
+DEPENDENCIES="hid? ( >=dev-python/hidapi-0.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

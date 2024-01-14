@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/cython[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	test? ( <dev-python/ipywidgets-8.0.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	test? ( dev-python/joblib[${PYTHON_USEDEP}] )
 	test? ( dev-python/jacobi[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/unicodeitplus[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	test? ( dev-python/annotated_types[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbconvert[${PYTHON_USEDEP}] )

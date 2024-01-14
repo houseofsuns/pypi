@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs gdspy gdstk jax trimesh vtk"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
+	~dev-python/boto3-1.23.1[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev-python/dask[${PYTHON_USEDEP}]
 	dev? ( dev-python/dill[${PYTHON_USEDEP}] )
@@ -40,8 +40,8 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev? ( dev-python/grcwa[${PYTHON_USEDEP}] )
 	docs? ( dev-python/grcwa[${PYTHON_USEDEP}] )
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-7.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
@@ -61,20 +61,20 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	docs? ( dev-python/m2r3[${PYTHON_USEDEP}] )
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev? ( dev-python/memory_profiler[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nbconvert-7.11.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbconvert-7.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbdime[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbdime[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	trimesh? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nbsphinx-0.8.7[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.8.7[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/networkx-3.0.0[${PYTHON_USEDEP}] )
+	trimesh? ( <dev-python/networkx-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/optax[${PYTHON_USEDEP}] )
 	docs? ( dev-python/optax[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pydata-sphinx-theme-0.13.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pydata-sphinx-theme-0.13.3[${PYTHON_USEDEP}] )
 	dev-python/pyjwt[${PYTHON_USEDEP}]
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylint[${PYTHON_USEDEP}] )
@@ -84,22 +84,22 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/responses[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-12.6.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/rtree[${PYTHON_USEDEP}] )
 	trimesh? ( dev-python/rtree[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sax[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sax[${PYTHON_USEDEP}] )
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	<dev-python/shapely-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/signac[${PYTHON_USEDEP}] )
 	docs? ( dev-python/signac[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
@@ -110,10 +110,10 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	docs? ( dev-python/tmm[${PYTHON_USEDEP}] )
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/trimesh[${PYTHON_USEDEP}] )
-	trimesh? ( dev-python/trimesh[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/trimesh-3.20.0[${PYTHON_USEDEP}] )
+	trimesh? ( ~dev-python/trimesh-3.20.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	vtk? ( dev-python/vtk[${PYTHON_USEDEP}] )
-	dev-python/xarray[${PYTHON_USEDEP}]"
+	>=dev-python/xarray-0.16.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

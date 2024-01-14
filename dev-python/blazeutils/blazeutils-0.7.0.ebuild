@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/wrapt[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/xlwt[${PYTHON_USEDEP}] )
-	dev? ( dev-python/xlrd[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/xlrd-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/xlsxwriter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/wrapt[${PYTHON_USEDEP}]
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	test? ( dev-python/xlwt[${PYTHON_USEDEP}] )
-	test? ( dev-python/xlrd[${PYTHON_USEDEP}] )
+	test? ( <dev-python/xlrd-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/xlsxwriter[${PYTHON_USEDEP}] )
 	test? ( dev-python/colorama[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

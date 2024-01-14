@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/appdirs-1.5[${PYTHON_USEDEP}]
 	dev-python/hat-aio[${PYTHON_USEDEP}]
 	dev-python/hat-json[${PYTHON_USEDEP}]
 	dev-python/hat-monitor[${PYTHON_USEDEP}]
 	dev-python/hat-event[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]"
+	<dev-python/psutil-5.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

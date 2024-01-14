@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/blinkstick[${PYTHON_USEDEP}]
-	dev-python/pyusb[${PYTHON_USEDEP}]
+	~dev-python/pyusb-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pywinusb[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

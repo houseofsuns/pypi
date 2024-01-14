@@ -29,7 +29,7 @@ DEPENDENCIES="test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/scspell3k[${PYTHON_USEDEP}] )
 	dev-python/colcon-core[${PYTHON_USEDEP}]
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-class-newline[${PYTHON_USEDEP}] )

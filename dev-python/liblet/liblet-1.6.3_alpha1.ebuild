@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.12.0[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
 	dev-python/jupyter[${PYTHON_USEDEP}]

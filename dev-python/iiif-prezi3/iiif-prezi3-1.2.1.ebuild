@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/autopep8-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/tox-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/deepdiff-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datamodel-code-generator[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	docs? ( dev-python/griffe[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocstrings-python-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/griffe-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

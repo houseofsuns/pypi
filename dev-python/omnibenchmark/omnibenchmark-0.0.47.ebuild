@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/renku[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/iteration-utilities[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	~dev-python/typeguard-3.0.2[${PYTHON_USEDEP}]
 	dev-python/trycast[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]

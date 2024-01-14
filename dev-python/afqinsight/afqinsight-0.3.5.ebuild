@@ -28,12 +28,12 @@ DEPENDENCIES="dev-python/dipy[${PYTHON_USEDEP}]
 	dev-python/groupyr[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/sklearn-pandas[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
+	>=dev-python/tables-3.0.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
@@ -49,13 +49,13 @@ DEPENDENCIES="dev-python/dipy[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/tox[${PYTHON_USEDEP}] )
-	all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/rapidfuzz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -68,13 +68,13 @@ DEPENDENCIES="dev-python/dipy[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}] )
 	maint? ( dev-python/rapidfuzz[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tf? ( dev-python/keras-tuner[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="build example postgres tests"
 DEPENDENCIES="dev-python/aio-peewee[${PYTHON_USEDEP}]
 	dev-python/muffin[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
+	>=dev-python/peewee-3.0[${PYTHON_USEDEP}]
 	dev-python/peewee-migrate[${PYTHON_USEDEP}]
 	build? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )

@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="contrib dev docs tests"
-DEPENDENCIES="dev-python/pyparsing[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	dev-python/csv-diff[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.5[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.31.4[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	dev-python/pybids[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.11[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.30[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/torchio[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
@@ -47,22 +47,22 @@ DEPENDENCIES="dev-python/pyparsing[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]
 	contrib? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	contrib? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pyparsing-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/csv-diff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/loguru[${PYTHON_USEDEP}] )
-	dev? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/loguru-0.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/imageio-2.31.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/joblib-1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nibabel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pybids[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	dev? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/seaborn-0.11[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tqdm-4.30[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torchio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -70,30 +70,30 @@ DEPENDENCIES="dev-python/pyparsing[${PYTHON_USEDEP}]
 	dev? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-tabs-3.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cases[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-ordering[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-ordering-0.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-console-scripts-1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-tabs-3.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cases[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-ordering[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-ordering-0.6[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-console-scripts-1.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

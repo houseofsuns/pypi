@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/google-cloud-firestore[${PYTHON_USEDEP}]
 	dev-python/google-cloud-ndb[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/trex-lib[${PYTHON_USEDEP}]
-	dev-python/flask-login[${PYTHON_USEDEP}]"
+	~dev-python/flask-login-0.6.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

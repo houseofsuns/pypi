@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/cliff[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cliff-2.14.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/RESTEasy[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/Docify[${PYTHON_USEDEP}]
-	develop? ( dev-python/pip[${PYTHON_USEDEP}] )
-	develop? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	develop? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	develop? ( dev-python/twine[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	develop? ( dev-python/autopep8[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pip-19.0.3[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/setuptools-40.8.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/wheel-0.33.1[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/twine-1.13.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pylint-2.3.1[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/autopep8-1.4.3[${PYTHON_USEDEP}] )
 	develop? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	develop? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	develop? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/ipykernel-5.1.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/mkdocs-1.0.4[${PYTHON_USEDEP}] )
 	develop? ( dev-python/mkdocs-rtd-dropdown[${PYTHON_USEDEP}] )
-	develop? ( dev-python/tox[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/tox-3.7.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	develop? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiomysql aiosqlite asyncmy asyncpg default mysql postgresql psycopg sqlite"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/alembic-1.12[${PYTHON_USEDEP}]
+	~dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/nonebot-plugin-localstore[${PYTHON_USEDEP}]
 	dev-python/nonebot2[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	default? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+	~dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.8[${PYTHON_USEDEP}]
+	default? ( ~dev-python/aiosqlite-0.19[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	asyncmy? ( dev-python/asyncmy[${PYTHON_USEDEP}] )
 	aiomysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	psycopg? ( dev-python/psycopg[${PYTHON_USEDEP}] )
+	postgresql? ( ~dev-python/psycopg-3.1[${PYTHON_USEDEP}] )
+	psycopg? ( ~dev-python/psycopg-3.1[${PYTHON_USEDEP}] )
 	asyncpg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	aiosqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )"
+	sqlite? ( ~dev-python/aiosqlite-0.19[${PYTHON_USEDEP}] )
+	aiosqlite? ( ~dev-python/aiosqlite-0.19[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

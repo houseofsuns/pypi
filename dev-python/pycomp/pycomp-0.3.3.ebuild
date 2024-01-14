@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
+	~dev-python/joblib-0.14.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.2.1[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.10.0[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async develop docs requests"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	async? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	develop? ( dev-python/requests[${PYTHON_USEDEP}] )
+	async? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	develop? ( dev-python/mock[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	develop? ( dev-python/black[${PYTHON_USEDEP}] )
 	develop? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	requests? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	requests? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

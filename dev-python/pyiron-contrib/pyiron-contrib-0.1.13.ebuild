@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="atomistic executors fenics generic image tinybase workflow"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/pyiron-base[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.11.1[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.12.2[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-3.0.9[${PYTHON_USEDEP}]
 	atomistic? ( dev-python/ase[${PYTHON_USEDEP}] )
 	atomistic? ( dev-python/pyiron-atomistics[${PYTHON_USEDEP}] )
 	atomistic? ( dev-python/pycp2k[${PYTHON_USEDEP}] )
 	executors? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	fenics? ( dev-python/fenics[${PYTHON_USEDEP}] )
 	fenics? ( dev-python/mshr[${PYTHON_USEDEP}] )
-	generic? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	generic? ( dev-python/moto[${PYTHON_USEDEP}] )
+	generic? ( >=dev-python/boto3-1.28.25[${PYTHON_USEDEP}] )
+	generic? ( >=dev-python/moto-4.1.14[${PYTHON_USEDEP}] )
 	image? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	tinybase? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	tinybase? ( dev-python/pympipool[${PYTHON_USEDEP}] )
@@ -45,6 +45,6 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	workflow? ( dev-python/python[${PYTHON_USEDEP}] )
 	workflow? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	workflow? ( dev-python/toposort[${PYTHON_USEDEP}] )
-	workflow? ( dev-python/typeguard[${PYTHON_USEDEP}] )"
+	workflow? ( >=dev-python/typeguard-4.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

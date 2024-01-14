@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc queue test"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/lazy-model[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.7[${PYTHON_USEDEP}]
 	doc? ( dev-python/Pygments[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Markdown[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-1.4[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-material-9.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	queue? ( dev-python/beanie-batteries-queue[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/dnspython[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/dnspython-2.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	test? ( dev-python/asgi-lifespan[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/httpx-0.23.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydantic-extra-types[${PYTHON_USEDEP}] )

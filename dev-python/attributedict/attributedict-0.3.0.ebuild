@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/rootpath[${PYTHON_USEDEP}]
 	dev-python/inspecta[${PYTHON_USEDEP}]
 	dev-python/colour-runner[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
+	>=dev-python/deepdiff-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/tox-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/coverage-4.5.2[${PYTHON_USEDEP}]
 	dev-python/codecov[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

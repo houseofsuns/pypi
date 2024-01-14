@@ -27,9 +27,9 @@ IUSE="docs"
 DEPENDENCIES="dev-python/anyascii[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/astroid[${PYTHON_USEDEP}]
-	dev-python/astroid[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-6.1.0[${PYTHON_USEDEP}]
+	>=dev-python/astroid-2.7[${PYTHON_USEDEP}]
+	>=dev-python/astroid-3.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )"

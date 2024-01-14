@@ -24,39 +24,39 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="complete dask dev docs spark test updater"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.4.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
 	complete? ( dev-python/woodwork[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( >=dev-python/dask-2022.11.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/click-8.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/woodwork[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pydata-sphinx-theme-0.9.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-inline-tabs-2022.1.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbconvert-6.5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ipython-8.4.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/woodwork[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	spark? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	spark? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	spark? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	test? ( dev-python/moto[${PYTHON_USEDEP}] )
+	spark? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	spark? ( <dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
+	spark? ( <dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/boto3-1.10.45[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/moto-3.0.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/smart-open[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}] )
 	updater? ( dev-python/alteryx-open-src-update-checker[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/bda-service-utils[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
 	dev-python/alida-arg-parser[${PYTHON_USEDEP}]
-	dev-python/kafka-python[${PYTHON_USEDEP}]"
+	>=dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

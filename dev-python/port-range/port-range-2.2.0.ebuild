@@ -27,10 +27,10 @@ IUSE="develop tests"
 DEPENDENCIES="develop? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	develop? ( dev-python/isort[${PYTHON_USEDEP}] )
 	develop? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
-	develop? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/setuptools-24.2.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nose[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pycodestyle-2.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev gui"
 DEPENDENCIES="dev-python/bbcode[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.9.1[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
+	>=dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
+	>=dev-python/filetype-1.0.7[${PYTHON_USEDEP}]
 	dev-python/fpdf[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/imagesize[${PYTHON_USEDEP}]
+	>=dev-python/html5lib-1.1[${PYTHON_USEDEP}]
+	>=dev-python/imagesize-1.2.0[${PYTHON_USEDEP}]
 	dev-python/MangaDex-py[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/natsort-7.1.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )

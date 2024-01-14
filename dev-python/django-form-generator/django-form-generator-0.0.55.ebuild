@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/django-htmx[${PYTHON_USEDEP}]
-	dev-python/crispy-bootstrap5[${PYTHON_USEDEP}]
+	>=dev-python/crispy-bootstrap5-0.6[${PYTHON_USEDEP}]
 	dev-python/django-recaptcha[${PYTHON_USEDEP}]
-	dev-python/django-crispy-forms[${PYTHON_USEDEP}]
+	>=dev-python/django-crispy-forms-1.14.0[${PYTHON_USEDEP}]
 	dev-python/django-tempus-dominus[${PYTHON_USEDEP}]
 	dev-python/drf-recaptcha[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]"
+	>=dev-python/djangorestframework-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

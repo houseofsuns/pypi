@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/decorator-5.0[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.0[${PYTHON_USEDEP}]
 	dev-python/imutils[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.0[${PYTHON_USEDEP}]
+	>=dev-python/validators-0.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

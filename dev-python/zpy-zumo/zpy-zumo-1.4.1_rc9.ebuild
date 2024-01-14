@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
 	dev-python/gin-config[${PYTHON_USEDEP}]
 	dev-python/versioneer[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	~dev-python/shapely-1.7.1[${PYTHON_USEDEP}]
 	dev-python/ptvsd[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.11.0[${PYTHON_USEDEP}]
 	dev-python/zmq[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

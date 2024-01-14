@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/tmuxp[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/emport[${PYTHON_USEDEP}]
 	dev-python/gossip[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]

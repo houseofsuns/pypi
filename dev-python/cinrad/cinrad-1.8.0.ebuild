@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/metpy[${PYTHON_USEDEP}]
 	dev-python/cartopy[${PYTHON_USEDEP}]
 	dev-python/pyshp[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.2[${PYTHON_USEDEP}]
 	dev-python/vanadis[${PYTHON_USEDEP}]
 	dev-python/cinrad-data[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

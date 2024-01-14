@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="full"
 DEPENDENCIES="full? ( dev-python/ttp[${PYTHON_USEDEP}] )
 	full? ( dev-python/ttp_templates[${PYTHON_USEDEP}] )
-	full? ( dev-python/flask[${PYTHON_USEDEP}] )
-	full? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/flask-2.2.2[${PYTHON_USEDEP}] )
+	full? ( <dev-python/openpyxl-3.2.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/python-igraph[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

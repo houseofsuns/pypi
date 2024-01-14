@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="themes"
 DEPENDENCIES="dev-python/bleak[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	<dev-python/prompt-toolkit-4.0.0[${PYTHON_USEDEP}]
 	dev-python/asyncclick[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
+	<dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
 	themes? ( dev-python/ttkthemes[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

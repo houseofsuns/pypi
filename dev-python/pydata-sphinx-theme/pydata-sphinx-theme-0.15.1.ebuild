@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="a11y dev doc test"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-5.0[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
+	>dev-python/docutils-0.17.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/Babel[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.7[${PYTHON_USEDEP}]
 	dev-python/accessible-pygments[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
 	doc? ( dev-python/rich[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxext-rediraffe[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-autoapi-3.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ablog[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter_sphinx[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all watch"
 DEPENDENCIES="dev-python/libcst[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	watch? ( dev-python/watchfiles[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyfuture[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

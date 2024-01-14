@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/ZConfig[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	>=dev-python/idna-2.5[${PYTHON_USEDEP}]
 	dev-python/netifaces[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

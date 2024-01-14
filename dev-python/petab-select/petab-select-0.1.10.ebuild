@@ -31,8 +31,8 @@ DEPENDENCIES="dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/amici[${PYTHON_USEDEP}] )
 	test? ( dev-python/fides[${PYTHON_USEDEP}] )
 	test? ( dev-python/pypesto[${PYTHON_USEDEP}] )"

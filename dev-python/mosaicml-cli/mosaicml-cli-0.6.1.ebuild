@@ -24,86 +24,86 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev sphinx"
-DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/argcomplete-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/arrow-1.2.2[${PYTHON_USEDEP}]
+	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0.29[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.6.0[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.1[${PYTHON_USEDEP}]
+	>=dev-python/validators-0.20.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.23[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/sphinxcontrib-images[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pylint-2.12.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-external-toc[${PYTHON_USEDEP}] )
-	all? ( dev-python/build[${PYTHON_USEDEP}] )
-	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	all? ( dev-python/furo[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
-	all? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/docutils-0.17.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/furo-2022.9.29[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-panels-0.6.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinxemoji-0.2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/yapf-0.33.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-argparse-0.4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	all? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/myst-parser-0.16.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-mock-3.7.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinxcontrib-devhelp-1.0.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinxcontrib-qthelp-1.0.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinxcontrib-serializinghtml-1.1.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinxcontrib-htmlhelp-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-katex[${PYTHON_USEDEP}] )
-	all? ( dev-python/radon[${PYTHON_USEDEP}] )
-	all? ( dev-python/twine[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/radon-5.1.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinxcontrib-applehelp-1.0.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.12.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/radon[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-3.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/radon-5.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/furo[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/yapf-0.33.0[${PYTHON_USEDEP}] )
+	sphinx? ( ~dev-python/furo-2022.9.29[${PYTHON_USEDEP}] )
+	sphinx? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
+	sphinx? ( ~dev-python/sphinx-argparse-0.4.0[${PYTHON_USEDEP}] )
+	sphinx? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	sphinx? ( ~dev-python/sphinx-panels-0.6.0[${PYTHON_USEDEP}] )
+	sphinx? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx-external-toc[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}] )
+	sphinx? ( >=dev-python/sphinxcontrib-applehelp-1.0.2[${PYTHON_USEDEP}] )
+	sphinx? ( >=dev-python/sphinxcontrib-devhelp-1.0.2[${PYTHON_USEDEP}] )
+	sphinx? ( >=dev-python/sphinxcontrib-htmlhelp-2.0.0[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinxcontrib-images[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}] )
+	sphinx? ( >=dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinxcontrib-katex[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
+	sphinx? ( >=dev-python/sphinxcontrib-qthelp-1.0.3[${PYTHON_USEDEP}] )
+	sphinx? ( ~dev-python/sphinxcontrib-serializinghtml-1.1.5[${PYTHON_USEDEP}] )
+	sphinx? ( ~dev-python/sphinxemoji-0.2.0[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	sphinx? ( >=dev-python/myst-parser-0.16.1[${PYTHON_USEDEP}] )
+	sphinx? ( >=dev-python/docutils-0.17.0[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,68 +24,68 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc tests"
-DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dask-2021.8.1[${PYTHON_USEDEP}]
 	dev-python/diffpy-structure[${PYTHON_USEDEP}]
 	dev-python/diffsims[${PYTHON_USEDEP}]
 	dev-python/hyperspy[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.10[${PYTHON_USEDEP}]
 	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	dev-python/orix[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
+	>=dev-python/pooch-1.3.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-0.5.2[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	>=dev-python/scipy-1.7[${PYTHON_USEDEP}]
+	all? ( >=dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/nlopt[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyebsdindex[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyvista[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/manifix[${PYTHON_USEDEP}] )
 	dev? ( dev-python/outdated[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nbsphinx-0.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nlopt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyebsdindex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyvista[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-3.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-codeautolink[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-copybutton-0.2.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinxcontrib-bibtex-1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/nbsphinx-0.7[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nlopt[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyebsdindex[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyvista[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-3.0.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-codeautolink[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-copybutton-0.2.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinxcontrib-bibtex-1.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-5.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

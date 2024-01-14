@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="lint test"
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	~dev-python/filelock-3.0[${PYTHON_USEDEP}]
+	lint? ( ~dev-python/mypy-1.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

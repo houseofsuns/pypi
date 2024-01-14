@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/attributedict[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
+	~dev-python/black-23.7.0[${PYTHON_USEDEP}]
 	dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/eth-tester[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]
 	dev-python/hexbytes[${PYTHON_USEDEP}]
 	dev-python/py-evm[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4.0[${PYTHON_USEDEP}]
 	dev-python/python-semantic-release[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
 	dev-python/subgrounds[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

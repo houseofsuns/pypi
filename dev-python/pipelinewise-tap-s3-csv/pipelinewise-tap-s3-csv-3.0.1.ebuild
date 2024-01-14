@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/boto3-1.26.165[${PYTHON_USEDEP}]
 	dev-python/singer-encodings[${PYTHON_USEDEP}]
 	dev-python/pipelinewise-singer-python[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	~dev-python/voluptuous-0.13.1[${PYTHON_USEDEP}]
+	~dev-python/ujson-5.4.0[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-8.12[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/ipdb-0.13.9[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.12[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

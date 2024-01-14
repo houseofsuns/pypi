@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="couchdb mongodb"
-DEPENDENCIES="dev-python/debugpy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/debugpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<=dev-python/requests-2.29.0[${PYTHON_USEDEP}]
 	dev-python/mojo-errors[${PYTHON_USEDEP}]
 	dev-python/mojo-collections[${PYTHON_USEDEP}]
 	dev-python/mojo-config[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/debugpy[${PYTHON_USEDEP}]
 	dev-python/mojo-xmodules[${PYTHON_USEDEP}]
 	dev-python/mojo-runtime[${PYTHON_USEDEP}]
 	dev-python/mojo-results[${PYTHON_USEDEP}]
-	mongodb? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	mongodb? ( <dev-python/pymongo-5.0.0[${PYTHON_USEDEP}] )
 	couchdb? ( dev-python/couchdb[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

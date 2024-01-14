@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/databricks-cli[${PYTHON_USEDEP}]
-	dev-python/poetry-core[${PYTHON_USEDEP}]
+	<dev-python/poetry-core-2.0.0[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

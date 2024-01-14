@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/convcolors[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.16.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/yapf-0.30.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

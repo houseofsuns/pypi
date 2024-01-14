@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test test-noextras trio"
 DEPENDENCIES="dev-python/represent[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	dev-python/outcome[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-trio[${PYTHON_USEDEP}] )
-	test-noextras? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test-noextras? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	trio? ( dev-python/trio[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-5.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.14[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-trio-0.6[${PYTHON_USEDEP}] )
+	test-noextras? ( >=dev-python/pytest-5.4[${PYTHON_USEDEP}] )
+	test-noextras? ( >=dev-python/pytest-asyncio-0.14[${PYTHON_USEDEP}] )
+	trio? ( >=dev-python/trio-0.15[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

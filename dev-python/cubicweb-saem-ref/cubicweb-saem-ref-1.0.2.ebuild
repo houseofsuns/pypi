@@ -35,10 +35,10 @@ DEPENDENCIES="dev-python/cubicweb[${PYTHON_USEDEP}]
 	dev-python/cubicweb-skos[${PYTHON_USEDEP}]
 	dev-python/cubicweb-vtimeline[${PYTHON_USEDEP}]
 	dev-python/cubicweb-signedrequest[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	<dev-python/isodate-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-2.9.0[${PYTHON_USEDEP}]
+	<dev-python/pytz-2021.2.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]"
+	<dev-python/rdflib-5.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

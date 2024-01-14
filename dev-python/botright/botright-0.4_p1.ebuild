@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/async-class[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	dev-python/playwright[${PYTHON_USEDEP}]
 	dev-python/playwright-stealth[${PYTHON_USEDEP}]
 	dev-python/pybrowsers[${PYTHON_USEDEP}]
 	dev-python/fake-useragent[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.11.2[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/hcaptcha-challenger[${PYTHON_USEDEP}]
 	dev-python/yolov5[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
 	dev-python/easyocr[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	~dev-python/Faker-19.6.1[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	~dev-python/pytest-7.4.2[${PYTHON_USEDEP}]
+	~dev-python/imageio-2.31.3[${PYTHON_USEDEP}]
+	~dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

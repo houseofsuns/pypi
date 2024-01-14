@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all base cv dev plot"
-DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
+	>=dev-python/click-6.7[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-2.5.8[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.23.4[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/pypdf-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
 	all? ( dev-python/ghostscript[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/pdftopng[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-2.2.3[${PYTHON_USEDEP}] )
 	base? ( dev-python/ghostscript[${PYTHON_USEDEP}] )
 	base? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	base? ( dev-python/pdftopng[${PYTHON_USEDEP}] )
@@ -43,16 +43,16 @@ DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
 	cv? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	cv? ( dev-python/pdftopng[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mpl-0.11[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ghostscript[${PYTHON_USEDEP}] )
 	dev? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdftopng[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/matplotlib-2.2.3[${PYTHON_USEDEP}] )
+	plot? ( >=dev-python/matplotlib-2.2.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aws google rapidjson simplejson ujson"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	aws? ( dev-python/botocore[${PYTHON_USEDEP}] )
+	aws? ( >=dev-python/boto3-1.10.0[${PYTHON_USEDEP}] )
+	aws? ( >=dev-python/botocore-1.13.26[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-dataproc[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="jupyter-integration tests"
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	>dev-python/pyserial-3.0[${PYTHON_USEDEP}]
 	dev-python/SimpleWebSocketServer[${PYTHON_USEDEP}]
 	dev-python/zeroconf[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

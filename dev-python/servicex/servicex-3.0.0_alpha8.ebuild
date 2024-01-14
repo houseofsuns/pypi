@@ -26,21 +26,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs pandas"
 DEPENDENCIES="dev-python/qastle[${PYTHON_USEDEP}]
 	dev-python/func_adl[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25[${PYTHON_USEDEP}]
 	dev-python/miniopy-async[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
+	<dev-python/google-auth-3.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	dev-python/make_it_sync[${PYTHON_USEDEP}]
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	pandas? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
+	pandas? ( <dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/fastparquet[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	dev-python/jupyter[${PYTHON_USEDEP}]"
+	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/furo-2024.0.0[${PYTHON_USEDEP}] )
+	<dev-python/jupyter-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

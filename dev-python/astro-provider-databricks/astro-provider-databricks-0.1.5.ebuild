@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/apache-airflow-providers-databricks[${PYTHON_USEDEP}]
 	dev-python/databricks-cli[${PYTHON_USEDEP}]
 	dev-python/databricks-sql-connector[${PYTHON_USEDEP}]
 	dev-python/mergedeep[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/apache-airflow-providers-databricks[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-describe[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-dotenv[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-split[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sqlalchemy-stubs[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )"

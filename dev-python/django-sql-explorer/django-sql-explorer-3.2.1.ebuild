@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="charts snapshots xls"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
-	charts? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	charts? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	snapshots? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	>=dev-python/sqlparse-0.4.0[${PYTHON_USEDEP}]
+	charts? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
+	charts? ( <dev-python/seaborn-0.12[${PYTHON_USEDEP}] )
+	snapshots? ( >=dev-python/boto3-1.20.0[${PYTHON_USEDEP}] )
 	snapshots? ( dev-python/celery[${PYTHON_USEDEP}] )
-	xls? ( dev-python/xlsxwriter[${PYTHON_USEDEP}] )"
+	xls? ( >=dev-python/xlsxwriter-1.3.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

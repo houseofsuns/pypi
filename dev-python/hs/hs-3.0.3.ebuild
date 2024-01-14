@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-7.2.0[${PYTHON_USEDEP}]
 	dev-python/click-aliases[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
+	<dev-python/click-log-0.4[${PYTHON_USEDEP}]
 	dev-python/hydrosdk[${PYTHON_USEDEP}]
-	dev-python/kafka-python[${PYTHON_USEDEP}]
+	~dev-python/kafka-python-1.4.3[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+	<dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	<dev-python/requests-toolbelt-0.10[${PYTHON_USEDEP}]
 	dev-python/sseclient-py[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9[${PYTHON_USEDEP}]
 	dev-python/pydantic-yaml[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]"
+	<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

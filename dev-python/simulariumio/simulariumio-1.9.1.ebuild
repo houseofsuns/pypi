@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark cellpack dev docs lint mcell md physicell test tutorial"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.2[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/awscli[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/quilt3[${PYTHON_USEDEP}] )
@@ -33,29 +33,29 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/furo-2022.4.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/docutils-0.19[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-typing-imports[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/mypy-0.790[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	mcell? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	mcell? ( >=dev-python/scipy-1.5.2[${PYTHON_USEDEP}] )
 	md? ( dev-python/MDAnalysis[${PYTHON_USEDEP}] )
 	md? ( dev-python/MDAnalysisTests[${PYTHON_USEDEP}] )
-	physicell? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	physicell? ( >=dev-python/scipy-1.5.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbmake[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	tutorial? ( >=dev-python/scipy-1.5.2[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/MDAnalysis[${PYTHON_USEDEP}] )
 	tutorial? ( dev-python/MDAnalysisTests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

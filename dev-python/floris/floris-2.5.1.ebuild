@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop docs wind_tool_kit"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	>=dev-python/pytest-4.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1[${PYTHON_USEDEP}]
+	>=dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-2.1[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.9[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.7.1[${PYTHON_USEDEP}]
 	develop? ( dev-python/black[${PYTHON_USEDEP}] )
 	develop? ( dev-python/isort[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )

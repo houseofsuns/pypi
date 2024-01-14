@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pywinrm[${PYTHON_USEDEP}]
-	dev-python/requests-credssp[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pywinrm-0.4.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-credssp-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/plogger[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

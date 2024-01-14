@@ -24,46 +24,46 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs lint release types"
-DEPENDENCIES="dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/overrides[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/keyring-23.0[${PYTHON_USEDEP}]
+	>=dev-python/overrides-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}]
 	dev-python/macaroonbakery[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pyxdg[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-check[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-subprocess[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-check-2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-subprocess-1.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-timeout-2.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
 	docs? ( dev-python/lxd-sphinx-extensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pyspelling[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pyspelling-2.9[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-jquery-4.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-lint[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-notfound-page-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-reredirects[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-tabs-3.4.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/yamllint[${PYTHON_USEDEP}] )
 	release? ( dev-python/twine[${PYTHON_USEDEP}] )
 	release? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	types? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	types? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
 	types? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-Pygments[${PYTHON_USEDEP}] )

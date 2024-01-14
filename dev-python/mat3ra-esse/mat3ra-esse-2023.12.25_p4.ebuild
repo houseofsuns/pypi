@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all tests"
 DEPENDENCIES="dev-python/exabyte-json-include[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
+	~dev-python/python-slugify-2.0.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/Unidecode[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	all? ( dev-python/mat3ra-esse[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/coverage-5.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/parameterized-0.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

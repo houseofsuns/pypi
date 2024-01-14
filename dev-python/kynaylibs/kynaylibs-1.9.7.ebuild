@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiosqlite[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}]
 	dev-python/kymang[${PYTHON_USEDEP}]
-	dev-python/pyaes[${PYTHON_USEDEP}]
+	~dev-python/pyaes-1.6.1[${PYTHON_USEDEP}]
 	dev-python/pysocks[${PYTHON_USEDEP}]
 	dev-python/pytgcalls[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]

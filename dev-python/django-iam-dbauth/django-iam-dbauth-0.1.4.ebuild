@@ -27,13 +27,13 @@ IUSE="test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pretend[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-5.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pretend-1.0.9[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-5.3.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-1.10.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-django-3.8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	test? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/mysqlclient-1.4.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

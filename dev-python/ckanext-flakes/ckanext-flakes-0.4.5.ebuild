@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	dev-python/ckanext-toolbelt[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
-	test? ( dev-python/six[${PYTHON_USEDEP}] )
-	test? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	test? ( dev-python/pluggy[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/virtualenv-20.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/six-1.14.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/packaging-17.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pluggy-0.13.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

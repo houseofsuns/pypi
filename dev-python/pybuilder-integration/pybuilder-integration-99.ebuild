@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/tavern[${PYTHON_USEDEP}]
+	~dev-python/tavern-1.25.2[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

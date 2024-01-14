@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-6.7[${PYTHON_USEDEP}]
 	dev-python/click-repl[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/wcwidth[${PYTHON_USEDEP}]"
+	~dev-python/pika-0.11.0[${PYTHON_USEDEP}]
+	~dev-python/prompt-toolkit-1.0.15[${PYTHON_USEDEP}]
+	~dev-python/wcwidth-0.1.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

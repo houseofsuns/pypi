@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/tomli-w[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

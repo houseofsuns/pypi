@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/anyio-2.0.2[${PYTHON_USEDEP}]
 	dev-python/async-stagger[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
 	dev-python/asyncio-rlock[${PYTHON_USEDEP}]
 	dev-python/asyncio-throttle[${PYTHON_USEDEP}]
 	dev-python/ircstates[${PYTHON_USEDEP}]"

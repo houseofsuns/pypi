@@ -27,7 +27,7 @@ IUSE="subscription"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/graphene[${PYTHON_USEDEP}]
 	dev-python/graphene-django[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	~dev-python/django-filter-2.4.0[${PYTHON_USEDEP}]
 	subscription? ( dev-python/channels[${PYTHON_USEDEP}] )
 	subscription? ( dev-python/django-channels-graphql-ws[${PYTHON_USEDEP}] )
 	dev-python/graphene-file-upload[${PYTHON_USEDEP}]"

@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="awskms azurekms crypto gcpkms hsm pynacl pyspx sigstore"
 DEPENDENCIES="awskms? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	awskms? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	awskms? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	awskms? ( >=dev-python/cryptography-40.0.0[${PYTHON_USEDEP}] )
 	azurekms? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	azurekms? ( dev-python/azure-keyvault-keys[${PYTHON_USEDEP}] )
-	azurekms? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	crypto? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	gcpkms? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	azurekms? ( >=dev-python/cryptography-40.0.0[${PYTHON_USEDEP}] )
+	crypto? ( >=dev-python/cryptography-40.0.0[${PYTHON_USEDEP}] )
+	gcpkms? ( >=dev-python/cryptography-40.0.0[${PYTHON_USEDEP}] )
 	gcpkms? ( dev-python/google-cloud-kms[${PYTHON_USEDEP}] )
 	hsm? ( dev-python/asn1crypto[${PYTHON_USEDEP}] )
-	hsm? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	hsm? ( >=dev-python/cryptography-40.0.0[${PYTHON_USEDEP}] )
 	hsm? ( dev-python/pykcs11[${PYTHON_USEDEP}] )
-	pynacl? ( dev-python/pynacl[${PYTHON_USEDEP}] )
+	pynacl? ( >dev-python/pynacl-1.2.0[${PYTHON_USEDEP}] )
 	pyspx? ( dev-python/pyspx[${PYTHON_USEDEP}] )
 	sigstore? ( dev-python/sigstore[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

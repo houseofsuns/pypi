@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hjson test toml yaml"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
 	hjson? ( dev-python/hjson[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tox-3.24.5[${PYTHON_USEDEP}] )
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

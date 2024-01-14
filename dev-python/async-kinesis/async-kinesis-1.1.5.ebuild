@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="kpl msgpack redis"
 DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
 	dev-python/asyncio-throttle[${PYTHON_USEDEP}]
 	kpl? ( dev-python/aws-kinesis-agg[${PYTHON_USEDEP}] )
-	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )
+	msgpack? ( >=dev-python/msgpack-0.6.1[${PYTHON_USEDEP}] )
 	redis? ( dev-python/aredis[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,29 +25,29 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests tools"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-3.4[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	tools? ( dev-python/black[${PYTHON_USEDEP}] )
 	tools? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tools? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tools? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tools? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	tools? ( >=dev-python/mypy-0.9[${PYTHON_USEDEP}] )
+	tools? ( >=dev-python/pylint-2.5[${PYTHON_USEDEP}] )
+	tools? ( >=dev-python/tox-3.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

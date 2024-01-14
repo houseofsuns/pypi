@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/channels[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	~dev-python/bleach-3.1.0[${PYTHON_USEDEP}]
+	<dev-python/django-3.0[${PYTHON_USEDEP}]
 	dev-python/channels-redis[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev lint packaging test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/watchfiles[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/rlpython[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	lint? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	lint? ( dev-python/rlpython[${PYTHON_USEDEP}] )
 	lint? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	lint? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8_2020[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-commas[${PYTHON_USEDEP}] )
@@ -47,20 +47,20 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	lint? ( dev-python/flake8-pytest-style[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-use-fstring[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	packaging? ( dev-python/build[${PYTHON_USEDEP}] )
 	packaging? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	test? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	test? ( dev-python/rlpython[${PYTHON_USEDEP}] )
 	test? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-aiohttp-1.0.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-timeout-2.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/playwright[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

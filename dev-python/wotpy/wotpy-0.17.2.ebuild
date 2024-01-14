@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests uvloop"
-DEPENDENCIES="dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tornado-7.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
 	dev-python/rx[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-2.0[${PYTHON_USEDEP}]
 	dev-python/aiocoap[${PYTHON_USEDEP}]
 	dev-python/aiomqtt[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tox[${PYTHON_USEDEP}] )
+	<dev-python/zeroconf-0.37.0[${PYTHON_USEDEP}]
+	tests? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-rerunfailures-11.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/mock-3.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/faker[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	tests? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/rope[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/cryptography-3.4.8[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/autopep8-2.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/rope-1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coloredlogs[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aiozeroconf[${PYTHON_USEDEP}] )
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	uvloop? ( <dev-python/uvloop-0.13.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

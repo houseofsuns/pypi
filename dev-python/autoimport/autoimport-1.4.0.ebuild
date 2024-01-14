@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/autoflake[${PYTHON_USEDEP}]
 	dev-python/pyprojroot[${PYTHON_USEDEP}]
-	dev-python/sh[${PYTHON_USEDEP}]
+	>=dev-python/sh-1.14.2[${PYTHON_USEDEP}]
 	dev-python/maison[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

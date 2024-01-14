@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs noviz test viz viz_extra"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.8.0[${PYTHON_USEDEP}]
 	dev-python/radio-beam[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/regions[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	viz? ( dev-python/aplpy[${PYTHON_USEDEP}] )
 	viz? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

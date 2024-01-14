@@ -28,15 +28,15 @@ DEPENDENCIES="dev-python/graphene[${PYTHON_USEDEP}]
 	dev-python/promise[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/aiodataloader[${PYTHON_USEDEP}]
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.18.3[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	test? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/greenlet[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

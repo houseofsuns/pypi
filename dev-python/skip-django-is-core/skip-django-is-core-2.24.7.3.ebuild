@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/import-string[${PYTHON_USEDEP}]
 	dev-python/skip-django-block-snippets[${PYTHON_USEDEP}]
 	dev-python/skip-django-chamber[${PYTHON_USEDEP}]
 	dev-python/skip-django-pyston[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/Unidecode[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

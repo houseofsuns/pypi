@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/pathspec[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/securesystemslib[${PYTHON_USEDEP}]
-	pynacl? ( dev-python/pynacl[${PYTHON_USEDEP}] )"
+	pynacl? ( >dev-python/pynacl-1.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

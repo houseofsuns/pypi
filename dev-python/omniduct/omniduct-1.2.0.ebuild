@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.20.3[${PYTHON_USEDEP}]
+	>=dev-python/progressbar2-3.30.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
@@ -55,14 +55,14 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	all? ( dev-python/thrift[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/thrift-0.10.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	druid? ( dev-python/pydruid[${PYTHON_USEDEP}] )
 	exasol? ( dev-python/pyexasol[${PYTHON_USEDEP}] )
 	hiveserver2? ( dev-python/pyhive[${PYTHON_USEDEP}] )
-	hiveserver2? ( dev-python/thrift[${PYTHON_USEDEP}] )
+	hiveserver2? ( >=dev-python/thrift-0.10.0[${PYTHON_USEDEP}] )
 	presto? ( dev-python/pyhive[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	rest? ( dev-python/requests[${PYTHON_USEDEP}] )

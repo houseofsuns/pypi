@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/emoji[${PYTHON_USEDEP}]
-	dev-python/tokenize-rt[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/emoji-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/tokenize-rt-4.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

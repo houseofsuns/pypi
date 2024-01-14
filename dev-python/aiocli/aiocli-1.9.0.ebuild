@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy dev docs fmt security-analysis static-analysis test"
-DEPENDENCIES="deploy? ( dev-python/build[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/twine[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/wheel[${PYTHON_USEDEP}] )
+DEPENDENCIES="deploy? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	deploy? ( >=dev-python/setuptools-68.1.2[${PYTHON_USEDEP}] )
+	deploy? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	deploy? ( >=dev-python/wheel-0.41.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-toml[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	fmt? ( dev-python/black[${PYTHON_USEDEP}] )
-	fmt? ( dev-python/isort[${PYTHON_USEDEP}] )
-	security-analysis? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-1.5.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-9.1.21[${PYTHON_USEDEP}] )
+	fmt? ( >=dev-python/black-23.7.0[${PYTHON_USEDEP}] )
+	fmt? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	security-analysis? ( >=dev-python/bandit-1.7.5[${PYTHON_USEDEP}] )
 	security-analysis? ( dev-python/liccheck[${PYTHON_USEDEP}] )
-	static-analysis? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	static-analysis? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	static-analysis? ( >=dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
+	static-analysis? ( >=dev-python/pylint-2.17.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/psutil-5.9.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

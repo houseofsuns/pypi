@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="database feather hdf"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/tushare[${PYTHON_USEDEP}]
 	dev-python/mplfinance[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	database? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	database? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	feather? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	>=dev-python/rich-10.0.0[${PYTHON_USEDEP}]
+	database? ( >=dev-python/pymysql-1.0.0[${PYTHON_USEDEP}] )
+	database? ( <=dev-python/sqlalchemy-1.4.23[${PYTHON_USEDEP}] )
+	feather? ( >=dev-python/pyarrow-3.0[${PYTHON_USEDEP}] )
 	hdf? ( dev-python/pytables[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

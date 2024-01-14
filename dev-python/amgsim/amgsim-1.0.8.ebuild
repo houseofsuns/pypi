@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/configobj[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.17[${PYTHON_USEDEP}]
+	>=dev-python/configobj-5.0.6[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/pyfastx[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.48[${PYTHON_USEDEP}]
 	dev-python/pyfaidx[${PYTHON_USEDEP}]
 	dev-python/biolib[${PYTHON_USEDEP}]
 	dev-python/sorted-nearest[${PYTHON_USEDEP}]
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/MGSIM[${PYTHON_USEDEP}]
 	dev-python/pandarallel[${PYTHON_USEDEP}]
 	dev-python/taxopy[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
+	>=dev-python/ujson-5.1.0[${PYTHON_USEDEP}]
 	dev-python/decoratio[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

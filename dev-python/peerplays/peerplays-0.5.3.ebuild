@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/scrypt[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/scrypt-0.8.13[${PYTHON_USEDEP}]
+	~dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	dev-python/graphenelib[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/events[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/treelib[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+	~dev-python/ecdsa-0.18[${PYTHON_USEDEP}]
+	>=dev-python/websockets-10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

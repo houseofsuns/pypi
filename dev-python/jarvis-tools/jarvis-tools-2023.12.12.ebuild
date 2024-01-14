@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ai babel doc"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}]
 	dev-python/spglib[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.14.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	>=dev-python/toolz-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.11.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.41.1[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-material-9.0.5[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.2.1[${PYTHON_USEDEP}]
 	ai? ( dev-python/torch[${PYTHON_USEDEP}] )
 	ai? ( dev-python/dgl[${PYTHON_USEDEP}] )
 	ai? ( dev-python/keras[${PYTHON_USEDEP}] )
@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	ai? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	babel? ( dev-python/openbabel[${PYTHON_USEDEP}] )
 	babel? ( dev-python/pybel[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/sphinx-1.3.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-0.1.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

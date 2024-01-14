@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aio"
 DEPENDENCIES="dev-python/azure-core[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.1.4[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
+	>=dev-python/isodate-0.6.1[${PYTHON_USEDEP}]
 	aio? ( dev-python/azure-core[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

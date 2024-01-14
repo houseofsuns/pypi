@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/colored[${PYTHON_USEDEP}]
 	dev-python/boxing[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs py37 test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.27[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-1.3[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytkdocs[${PYTHON_USEDEP}] )

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cookiecutter pipenv poetry"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	pipenv? ( dev-python/pipenv[${PYTHON_USEDEP}] )
-	poetry? ( dev-python/poetry[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	pipenv? ( <dev-python/pipenv-2022.0.0[${PYTHON_USEDEP}] )
+	poetry? ( <dev-python/poetry-2.0.0[${PYTHON_USEDEP}] )
 	cookiecutter? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flake8-3.0[${PYTHON_USEDEP}]
+	>=dev-python/black-22.1.0[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	develop? ( dev-python/build[${PYTHON_USEDEP}] )
 	develop? ( dev-python/twine[${PYTHON_USEDEP}] )"

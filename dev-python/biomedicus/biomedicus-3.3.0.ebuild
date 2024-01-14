@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs stanza test"
 DEPENDENCIES="dev-python/biomedicus-client[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
+	~dev-python/regex-2023.10.3[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	stanza? ( dev-python/stanza[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/userpath[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/distlib[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/userpath-1.9.1[${PYTHON_USEDEP}]
+	~dev-python/virtualenv-20.24.6[${PYTHON_USEDEP}]
+	~dev-python/tomlkit-0.12.3[${PYTHON_USEDEP}]
+	~dev-python/distlib-0.3.7[${PYTHON_USEDEP}]
+	~dev-python/filelock-3.13.1[${PYTHON_USEDEP}]
+	~dev-python/platformdirs-3.11.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

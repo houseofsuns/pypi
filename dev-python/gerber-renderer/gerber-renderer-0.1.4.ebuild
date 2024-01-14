@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/svgwrite[${PYTHON_USEDEP}]
-	dev-python/reportlab[${PYTHON_USEDEP}]
-	dev-python/svglib[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/svgwrite-1.4[${PYTHON_USEDEP}]
+	>=dev-python/reportlab-3.5[${PYTHON_USEDEP}]
+	>=dev-python/svglib-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

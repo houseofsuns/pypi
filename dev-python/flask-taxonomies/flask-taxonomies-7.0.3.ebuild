@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/luqum[${PYTHON_USEDEP}]
 	migrate? ( dev-python/flask-migrate[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-5.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-flask-sqlalchemy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/md-toc[${PYTHON_USEDEP}] )
 	tests? ( dev-python/isort[${PYTHON_USEDEP}] )

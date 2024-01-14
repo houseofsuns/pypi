@@ -24,35 +24,35 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all all-nored docs nored redis"
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/APScheduler[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pip-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/wheel-0.42.0[${PYTHON_USEDEP}]
+	<dev-python/APScheduler-4.0.0[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/aiohttp-client-cache[${PYTHON_USEDEP}]
 	dev-python/aiopath[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/asyncspotify[${PYTHON_USEDEP}]
-	dev-python/asyncstdlib[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]
+	<dev-python/asyncstdlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/cached-property-2.0.0[${PYTHON_USEDEP}]
 	dev-python/cashews[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
 	dev-python/deepdiff6[${PYTHON_USEDEP}]
 	dev-python/expiringdict[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	nored? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	all-nored? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	dev-python/iso8601[${PYTHON_USEDEP}]
+	<dev-python/humanize-5.0.0[${PYTHON_USEDEP}]
+	nored? ( <dev-python/importlib-metadata-7.0.0[${PYTHON_USEDEP}] )
+	all-nored? ( <dev-python/importlib-metadata-7.0.0[${PYTHON_USEDEP}] )
+	<dev-python/iso8601-3.0.0[${PYTHON_USEDEP}]
 	dev-python/mutagen[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/netaddr-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/piccolo[${PYTHON_USEDEP}]
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all-nored? ( dev-python/redis[${PYTHON_USEDEP}] )
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/watchfiles[${PYTHON_USEDEP}]
+	redis? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )
+	all-nored? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/watchfiles-0.21.0[${PYTHON_USEDEP}]
 	nored? ( dev-python/Red-Commons[${PYTHON_USEDEP}] )
 	all-nored? ( dev-python/Red-Commons[${PYTHON_USEDEP}] )
 	nored? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
@@ -81,12 +81,12 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	nored? ( dev-python/uvloop[${PYTHON_USEDEP}] )
 	all-nored? ( dev-python/uvloop[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Red-DiscordBot[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/olefile[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/furo-2024.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/olefile-0.47[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-inline-tabs-2024.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-issues-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-removed-in[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

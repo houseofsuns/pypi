@@ -27,8 +27,8 @@ IUSE="pytorch-nightly tensorflow tensorflow-gpu testing tf-nightly torch"
 DEPENDENCIES="pytorch-nightly? ( dev-python/pytorch-nightly[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflow-gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
-	testing? ( dev-python/absl-py[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/absl-py-0.1.6[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nose[${PYTHON_USEDEP}] )
 	tf-nightly? ( dev-python/tf-nightly[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )"

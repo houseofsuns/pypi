@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="k8s"
 DEPENDENCIES="dev-python/hadoop-fs-wrapper[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/cryptography-36.1[${PYTHON_USEDEP}]
 	dev-python/delta-spark[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
+	<dev-python/backoff-2.3[${PYTHON_USEDEP}]
 	k8s? ( dev-python/kubernetes[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

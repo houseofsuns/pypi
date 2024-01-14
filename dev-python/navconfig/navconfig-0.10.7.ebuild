@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="default gdrive logstash memcache redis toml yaml"
-DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/wheel-0.37.1[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/objectpath[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	~dev-python/iso8601-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
+	~dev-python/orjson-3.8.0[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	~dev-python/cryptography-38.0.1[${PYTHON_USEDEP}]
+	~dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]
 	default? ( dev-python/pytomlpp[${PYTHON_USEDEP}] )
-	default? ( dev-python/redis[${PYTHON_USEDEP}] )
+	default? ( ~dev-python/redis-4.3.4[${PYTHON_USEDEP}] )
 	default? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	default? ( dev-python/python-logstash-async[${PYTHON_USEDEP}] )
 	default? ( dev-python/aiologstash[${PYTHON_USEDEP}] )
@@ -46,9 +46,9 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	gdrive? ( dev-python/PyDrive[${PYTHON_USEDEP}] )
 	logstash? ( dev-python/python-logstash-async[${PYTHON_USEDEP}] )
 	logstash? ( dev-python/aiologstash[${PYTHON_USEDEP}] )
-	memcache? ( dev-python/pylibmc[${PYTHON_USEDEP}] )
+	memcache? ( ~dev-python/pylibmc-1.6.3[${PYTHON_USEDEP}] )
 	memcache? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( ~dev-python/redis-4.3.4[${PYTHON_USEDEP}] )
 	redis? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	toml? ( dev-python/pytomlpp[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"

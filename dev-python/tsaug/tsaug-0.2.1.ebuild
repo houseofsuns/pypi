@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	doc? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.14[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-19.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/nbsphinx-0.4[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/python-dateutil-2.5[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/jupyter-1.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/librosa[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tox-3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-0.641[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

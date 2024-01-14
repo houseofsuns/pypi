@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="examples"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/littleutils[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/networkx-3.0[${PYTHON_USEDEP}]
+	<dev-python/graphviz-0.14.0[${PYTHON_USEDEP}]
+	<dev-python/littleutils-0.3.0[${PYTHON_USEDEP}]
 	examples? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	examples? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
 	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

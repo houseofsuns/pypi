@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all fastapi mssql oracle postgres sqlite"
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	all? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sqlalchemy-2.0.99[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/aioodbc[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	fastapi? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/aioodbc[${PYTHON_USEDEP}] )
-	mssql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	mssql? ( <dev-python/sqlalchemy-2.0.99[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
-	oracle? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	oracle? ( <dev-python/sqlalchemy-2.0.99[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	sqlite? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	postgres? ( <dev-python/sqlalchemy-2.0.99[${PYTHON_USEDEP}] )
+	sqlite? ( >=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}] )
+	sqlite? ( <dev-python/sqlalchemy-2.0.99[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

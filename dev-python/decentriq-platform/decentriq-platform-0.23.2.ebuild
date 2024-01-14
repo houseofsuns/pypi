@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/sgx-ias-structs[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	dev-python/chily[${PYTHON_USEDEP}]
-	dev-python/asn1crypto[${PYTHON_USEDEP}]
+	<dev-python/asn1crypto-2.0.0[${PYTHON_USEDEP}]
 	dev-python/oscrypto[${PYTHON_USEDEP}]
 	dev-python/certvalidator[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
+	<dev-python/ecdsa-0.19.0[${PYTHON_USEDEP}]
 	dev-python/pem[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+	<dev-python/certifi-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/sqloxide[${PYTHON_USEDEP}]
-	dev-python/cbor2[${PYTHON_USEDEP}]
+	<dev-python/cbor2-6.0.0[${PYTHON_USEDEP}]
 	dev-python/decentriq_dcr_compiler[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

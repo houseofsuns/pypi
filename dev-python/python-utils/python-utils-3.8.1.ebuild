@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs loguru tests"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/typing-extensions-3.10.0.2[${PYTHON_USEDEP}]
 	docs? ( dev-python/mock[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/python-utils[${PYTHON_USEDEP}] )

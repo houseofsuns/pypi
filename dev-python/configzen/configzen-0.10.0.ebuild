@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all bson cbor cbor2 configobj ion"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}]
 	dev-python/anyconfig[${PYTHON_USEDEP}]
 	bson? ( dev-python/anyconfig-bson-backend[${PYTHON_USEDEP}] )
 	all? ( dev-python/anyconfig-bson-backend[${PYTHON_USEDEP}] )
@@ -36,11 +36,11 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	all? ( dev-python/anyconfig-configobj-backend[${PYTHON_USEDEP}] )
 	ion? ( dev-python/anyconfig-ion-backend[${PYTHON_USEDEP}] )
 	all? ( dev-python/anyconfig-ion-backend[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

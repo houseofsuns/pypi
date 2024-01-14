@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="toml yaml"
 DEPENDENCIES="dev-python/ptera[${PYTHON_USEDEP}]
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-5.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

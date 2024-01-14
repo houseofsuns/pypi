@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aiohttp django"
 DEPENDENCIES="dev-python/connexion[${PYTHON_USEDEP}]
 	dev-python/Faker[${PYTHON_USEDEP}]
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	aiohttp? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	aiohttp? ( dev-python/aiohttp_jinja2[${PYTHON_USEDEP}] )
 	django? ( dev-python/Django[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-connexion[${PYTHON_USEDEP}] )"

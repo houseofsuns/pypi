@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp-backend httpx-backend"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	aiohttp-backend? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	httpx-backend? ( dev-python/httpx[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/pydantic-1.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	aiohttp-backend? ( >=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}] )
+	httpx-backend? ( >=dev-python/httpx-0.23.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

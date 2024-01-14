@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="console yaml"
 DEPENDENCIES="dev-python/mapz[${PYTHON_USEDEP}]
-	console? ( dev-python/cleo[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )"
+	console? ( <dev-python/cleo-0.9.0[${PYTHON_USEDEP}] )
+	yaml? ( <dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

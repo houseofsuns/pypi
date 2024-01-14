@@ -25,36 +25,36 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all crash_reporter irc linux_i2c osc pin2dmd rpi vpe"
 DEPENDENCIES="dev-python/asciimatics[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.1[${PYTHON_USEDEP}]
+	~dev-python/prompt-toolkit-3.0.39[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
+	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/terminaltables[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.32[${PYTHON_USEDEP}]
+	~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
+	~dev-python/terminaltables-3.1.10[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	all? ( dev-python/prompt-toolkit[${PYTHON_USEDEP}] )
+	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
+	all? ( ~dev-python/prompt-toolkit-3.0.33[${PYTHON_USEDEP}] )
 	all? ( dev-python/asciimatics[${PYTHON_USEDEP}] )
-	all? ( dev-python/terminaltables[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
-	all? ( dev-python/irc[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/irc-19.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/smbus2-asyncio[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-osc[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyusb[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pyusb-1.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/apigpio-mpf[${PYTHON_USEDEP}] )
-	all? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
-	all? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/grpcio-tools-1.34.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/grpcio-1.34.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	crash_reporter? ( dev-python/requests[${PYTHON_USEDEP}] )
-	irc? ( dev-python/irc[${PYTHON_USEDEP}] )
+	crash_reporter? ( ~dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
+	irc? ( ~dev-python/irc-19.0.1[${PYTHON_USEDEP}] )
 	linux_i2c? ( dev-python/smbus2-asyncio[${PYTHON_USEDEP}] )
 	osc? ( dev-python/python-osc[${PYTHON_USEDEP}] )
-	pin2dmd? ( dev-python/pyusb[${PYTHON_USEDEP}] )
+	pin2dmd? ( ~dev-python/pyusb-1.1.0[${PYTHON_USEDEP}] )
 	rpi? ( dev-python/apigpio-mpf[${PYTHON_USEDEP}] )
-	vpe? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
-	vpe? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	vpe? ( ~dev-python/grpcio-tools-1.34.0[${PYTHON_USEDEP}] )
+	vpe? ( ~dev-python/grpcio-1.34.0[${PYTHON_USEDEP}] )
 	vpe? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

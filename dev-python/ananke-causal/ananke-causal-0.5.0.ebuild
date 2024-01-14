@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="opt viz"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
 	viz? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
 	dev-python/pgmpy[${PYTHON_USEDEP}]
-	viz? ( dev-python/graphviz[${PYTHON_USEDEP}] )
+	viz? ( <dev-python/graphviz-0.21.0[${PYTHON_USEDEP}] )
 	opt? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dev-python/mystic[${PYTHON_USEDEP}]
 	dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]"
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

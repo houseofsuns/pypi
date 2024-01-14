@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/anybadge[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pefile[${PYTHON_USEDEP}]
-	dev-python/plumbum[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
+	~dev-python/flake8-6.1.0[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
+	~dev-python/pefile-2023.2.7[${PYTHON_USEDEP}]
+	~dev-python/plumbum-1.8.2[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

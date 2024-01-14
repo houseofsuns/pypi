@@ -26,64 +26,64 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs loop test zurichinstruments"
 DEPENDENCIES="dev-python/broadbean[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.9.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/opencensus[${PYTHON_USEDEP}]
 	dev-python/opencensus-ext-azure[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	dev-python/pyvisa[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/uncertainties[${PYTHON_USEDEP}]
-	dev-python/versioningit[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.16.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.59.0[${PYTHON_USEDEP}]
+	>=dev-python/uncertainties-3.1.4[${PYTHON_USEDEP}]
+	>=dev-python/versioningit-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/websockets-9.1[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2022.6.0[${PYTHON_USEDEP}]
 	dev-python/cf-xarray[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	>=dev-python/dask-2022.1.0[${PYTHON_USEDEP}]
+	>=dev-python/ipython-8.10.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.0.0[${PYTHON_USEDEP}]
+	>=dev-python/rsa-4.7[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.13.2[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.16.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/PyVisa-sim[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-6.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-favicon[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-issues-3.0.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-towncrier[${PYTHON_USEDEP}] )
-	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/towncrier-22.8.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/scipy-1.7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/qcodes-loop[${PYTHON_USEDEP}] )
 	loop? ( dev-python/qcodes-loop[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-6.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/deepdiff-5.0.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-6.85.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/lxml-4.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/lxml-stubs[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-0.971[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.19.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-rerunfailures-10.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyVisa-sim[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-jsonschema[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/types-setuptools-57.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-tqdm[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-pywin32[${PYTHON_USEDEP}] )

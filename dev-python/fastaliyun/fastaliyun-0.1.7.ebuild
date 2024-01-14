@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/envx[${PYTHON_USEDEP}]
 	dev-python/pydatahub[${PYTHON_USEDEP}]
 	dev-python/showlog[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.9[${PYTHON_USEDEP}]
 	dev-python/oss2[${PYTHON_USEDEP}]
 	dev-python/fastredis[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	<=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

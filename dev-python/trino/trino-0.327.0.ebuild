@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all external-authentication-token-cache kerberos sqlalchemy tests"
 DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/tzlocal[${PYTHON_USEDEP}]
 	all? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}] )
 	external-authentication-token-cache? ( dev-python/keyring[${PYTHON_USEDEP}] )
 	kerberos? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	sqlalchemy? ( >=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/httpretty[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/httpretty-1.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

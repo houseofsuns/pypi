@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
 	extended? ( dev-python/gym[${PYTHON_USEDEP}] )
 	extended? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	rllib? ( dev-python/ray[${PYTHON_USEDEP}] )
-	rllib? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	rllib? ( <dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
 	rllib? ( dev-python/torch[${PYTHON_USEDEP}] )
 	rllib? ( dev-python/gym[${PYTHON_USEDEP}] )
 	rllib? ( dev-python/wandb[${PYTHON_USEDEP}] )"

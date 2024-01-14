@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="crontrigger"
 DEPENDENCIES="dev-python/hikari[${PYTHON_USEDEP}]
-	crontrigger? ( dev-python/croniter[${PYTHON_USEDEP}] )
+	crontrigger? ( ~dev-python/croniter-2.0.1[${PYTHON_USEDEP}] )
 	crontrigger? ( dev-python/types-croniter[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

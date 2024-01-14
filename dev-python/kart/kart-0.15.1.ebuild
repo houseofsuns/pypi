@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="toml"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )"
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/mistune-3.0[${PYTHON_USEDEP}]
+	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/watchdog-3.0[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	toml? ( <dev-python/tomli-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

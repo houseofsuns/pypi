@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/beartype[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
+	~dev-python/beartype-0.14.1[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.28.39[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

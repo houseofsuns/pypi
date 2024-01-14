@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/igor2[${PYTHON_USEDEP}]
 	dev-python/jprops[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	>=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

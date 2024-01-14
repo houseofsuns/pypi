@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/regex[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/regex-2022.9.11[${PYTHON_USEDEP}]
 	dev-python/wcwidth[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"

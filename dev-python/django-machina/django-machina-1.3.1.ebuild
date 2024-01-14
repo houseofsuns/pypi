@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/django-haystack[${PYTHON_USEDEP}]
 	dev-python/django-mptt[${PYTHON_USEDEP}]
 	dev-python/django-widget-tweaks[${PYTHON_USEDEP}]
-	dev-python/markdown2[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]"
+	>=dev-python/markdown2-2.3[${PYTHON_USEDEP}]
+	>=dev-python/pillow-2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

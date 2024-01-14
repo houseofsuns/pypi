@@ -30,14 +30,14 @@ DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
+	>dev-python/stevedore-1.20.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/ld[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/ld[${PYTHON_USEDEP}]
 	config? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
-	config? ( dev-python/typeguard[${PYTHON_USEDEP}] )
+	config? ( <dev-python/typeguard-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-socket[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

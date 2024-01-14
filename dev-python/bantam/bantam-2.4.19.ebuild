@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.0[${PYTHON_USEDEP}]
 	dev-python/asynciomultiplexer[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]"
+	~dev-python/docutils-0.16[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

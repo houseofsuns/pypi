@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="benchmark mlflow simulation"
 DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/louvain[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
 	dev-python/ortools[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.1[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.11.1[${PYTHON_USEDEP}]
 	dev-python/squidpy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
-	benchmark? ( dev-python/multiprocess[${PYTHON_USEDEP}] )
+	benchmark? ( >=dev-python/multiprocess-0.70.15[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	mlflow? ( dev-python/toml[${PYTHON_USEDEP}] )
 	simulation? ( dev-python/ipycanvas[${PYTHON_USEDEP}] )

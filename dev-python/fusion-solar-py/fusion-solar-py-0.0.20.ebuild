@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="captcha"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	captcha? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	captcha? ( dev-python/numpy[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	captcha? ( >=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
+	captcha? ( >=dev-python/numpy-1.24.3[${PYTHON_USEDEP}] )
 	captcha? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	captcha? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/djangorestframework[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/djangorestframework-3.7[${PYTHON_USEDEP}]
 	dev-python/django-rest-swagger[${PYTHON_USEDEP}]
 	dev-python/django-websocket-redis[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
 	dev-python/premailer[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/coreapi[${PYTHON_USEDEP}]
 	dev-python/django-push-notifications[${PYTHON_USEDEP}]
 	dev-python/pyfcm[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
+	>=dev-python/phonenumbers-7.7.3[${PYTHON_USEDEP}]
 	dev-python/twilio[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]"
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

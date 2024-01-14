@@ -27,15 +27,15 @@ IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/django-compressor[${PYTHON_USEDEP}]
-	dev-python/django-redis[${PYTHON_USEDEP}]
-	dev-python/django-timezone-field[${PYTHON_USEDEP}]
+	<dev-python/django-redis-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/django-timezone-field-7.0.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
-	dev-python/psycopg[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/phonenumbers-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/psycopg-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/rapidpro-python[${PYTHON_USEDEP}]
 	dev-python/smartmin[${PYTHON_USEDEP}]
 	dev-python/sorl-thumbnail[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]"
+	<dev-python/isort-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

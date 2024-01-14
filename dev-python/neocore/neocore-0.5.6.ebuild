@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/bitcoin[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
+	~dev-python/ecdsa-0.13[${PYTHON_USEDEP}]
 	dev-python/logzero[${PYTHON_USEDEP}]
-	dev-python/mpmath[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/scrypt[${PYTHON_USEDEP}]"
+	~dev-python/mpmath-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.7.2[${PYTHON_USEDEP}]
+	~dev-python/scrypt-0.8.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

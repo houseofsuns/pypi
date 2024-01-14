@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/openapi-core[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/openapi-core-0.16.1[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

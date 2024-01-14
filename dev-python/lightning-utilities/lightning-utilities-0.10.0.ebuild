@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli docs typing"
-DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/packaging-17.1[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	cli? ( dev-python/fire[${PYTHON_USEDEP}] )
-	docs? ( dev-python/requests[${PYTHON_USEDEP}] )
-	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/requests-2.0.0[${PYTHON_USEDEP}] )
+	typing? ( >=dev-python/mypy-1.0.0[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

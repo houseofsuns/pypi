@@ -27,12 +27,12 @@ IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/behave[${PYTHON_USEDEP}]
 	dev-python/cachier[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/plumbum[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	~dev-python/click-7.1[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.5.3[${PYTHON_USEDEP}]
+	~dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	~dev-python/plumbum-1.7.1[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.12.1[${PYTHON_USEDEP}]
 	dev-python/python-rex[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/ftfy[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	dev-python/Unidecode[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]
+	>=dev-python/xxhash-2.0.0[${PYTHON_USEDEP}]
 	loomchild? ( dev-python/loomchild-segment[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

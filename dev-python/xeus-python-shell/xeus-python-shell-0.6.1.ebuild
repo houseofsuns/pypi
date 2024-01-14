@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ipython wasm"
-DEPENDENCIES="dev-python/debugpy[${PYTHON_USEDEP}]
-	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/debugpy-2.0[${PYTHON_USEDEP}]
+	ipython? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )
 	wasm? ( dev-python/pyjs[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

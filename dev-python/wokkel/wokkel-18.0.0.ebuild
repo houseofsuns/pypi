@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/incremental[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/incremental-16.9.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/Twisted[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )

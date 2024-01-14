@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/margo-parser[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]"
+	<dev-python/nbformat-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

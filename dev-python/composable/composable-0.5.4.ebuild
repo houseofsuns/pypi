@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/python-forge[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]"
+	<dev-python/toolz-0.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/flit_core[${PYTHON_USEDEP}]
 	doc? ( dev-python/pygments-github-lexers[${PYTHON_USEDEP}] )
 	test? ( dev-python/testpath[${PYTHON_USEDEP}] )
 	test? ( dev-python/responses[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-2.7.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/tomli[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

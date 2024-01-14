@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="arrow complete s3 testing xarray zarr"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/dask-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/donfig[${PYTHON_USEDEP}]
 	testing? ( dev-python/minio[${PYTHON_USEDEP}] )
-	arrow? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	arrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	arrow? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
+	complete? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
+	arrow? ( <dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}] )
+	complete? ( <dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	dev-python/python-casacore[${PYTHON_USEDEP}]
 	s3? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	complete? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	xarray? ( dev-python/xarray[${PYTHON_USEDEP}] )
-	complete? ( dev-python/xarray[${PYTHON_USEDEP}] )
+	xarray? ( <dev-python/xarray-2024.0.0[${PYTHON_USEDEP}] )
+	complete? ( <dev-python/xarray-2024.0.0[${PYTHON_USEDEP}] )
 	zarr? ( dev-python/zarr[${PYTHON_USEDEP}] )
 	complete? ( dev-python/zarr[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

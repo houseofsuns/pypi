@@ -30,11 +30,11 @@ DEPENDENCIES="aiopg? ( dev-python/aiopg[${PYTHON_USEDEP}] )
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/configargparse[${PYTHON_USEDEP}]
 	dev-python/croniter[${PYTHON_USEDEP}]
-	django? ( dev-python/django[${PYTHON_USEDEP}] )
-	dev-python/psycopg[${PYTHON_USEDEP}]
+	django? ( >=dev-python/django-2.2[${PYTHON_USEDEP}] )
+	<dev-python/psycopg-4.0.0[${PYTHON_USEDEP}]
 	aiopg? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	psycopg2? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	sqlalchemy? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

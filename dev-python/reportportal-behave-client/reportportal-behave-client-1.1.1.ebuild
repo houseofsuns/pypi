@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mss[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/mss-5.1.0[${PYTHON_USEDEP}]
 	dev-python/behave[${PYTHON_USEDEP}]
 	dev-python/reportportal-client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

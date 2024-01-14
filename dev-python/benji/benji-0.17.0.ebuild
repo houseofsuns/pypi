@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="b2 compression dev doc helpers rest-api s3"
 DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/setproctitle[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	<dev-python/setproctitle-2.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	<dev-python/alembic-2.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]
+	<dev-python/argcomplete-2.0[${PYTHON_USEDEP}]
 	dev-python/sparsebitfield[${PYTHON_USEDEP}]
-	dev-python/cerberus[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
+	<dev-python/cerberus-2.0[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
+	<dev-python/semantic-version-3.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/structlog-19.1.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-1.0[${PYTHON_USEDEP}]
+	>=dev-python/diskcache-3.0.6[${PYTHON_USEDEP}]
+	<dev-python/attrs-22.0[${PYTHON_USEDEP}]
 	b2? ( dev-python/b2sdk[${PYTHON_USEDEP}] )
-	compression? ( dev-python/zstandard[${PYTHON_USEDEP}] )
+	compression? ( >=dev-python/zstandard-0.9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
@@ -53,12 +53,12 @@ DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
-	helpers? ( dev-python/blinker[${PYTHON_USEDEP}] )
-	helpers? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	rest-api? ( dev-python/bottle[${PYTHON_USEDEP}] )
+	helpers? ( <dev-python/blinker-2.0[${PYTHON_USEDEP}] )
+	helpers? ( <dev-python/prometheus-client-1.0[${PYTHON_USEDEP}] )
+	rest-api? ( <dev-python/bottle-0.13.0[${PYTHON_USEDEP}] )
 	rest-api? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	rest-api? ( dev-python/webargs[${PYTHON_USEDEP}] )
-	rest-api? ( dev-python/requests[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )"
+	rest-api? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/boto3-1.15.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

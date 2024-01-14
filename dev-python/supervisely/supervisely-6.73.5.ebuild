@@ -24,85 +24,85 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="apps aug docs extras plugins sdk-nn-plugins sdk-no-usages"
-DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cachetools-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/PTable[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+	<dev-python/python-json-logger-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
 	dev-python/Shapely[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
 	dev-python/varname[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	<=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pynrrd[${PYTHON_USEDEP}]
 	dev-python/SimpleITK[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/trimesh[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
+	<dev-python/python-magic-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/trimesh-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-1.0.0[${PYTHON_USEDEP}]
+	<=dev-python/pydantic-2.5.0[${PYTHON_USEDEP}]
+	<dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	<dev-python/websockets-11.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/jsonpatch[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonpatch-2.0[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
 	dev-python/arel[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<=dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
 	dev-python/async-asgi-testclient[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/distinctipy[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/numerize[${PYTHON_USEDEP}]
-	dev-python/ffmpeg-python[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	~dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}]
+	~dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/giturlparse[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/imutils[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<=dev-python/urllib3-2.1.0[${PYTHON_USEDEP}]
 	dev-python/cacheout[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	apps? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	<=dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
+	apps? ( <dev-python/uvicorn-1.0.0[${PYTHON_USEDEP}] )
 	apps? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	apps? ( dev-python/websockets[${PYTHON_USEDEP}] )
+	apps? ( <dev-python/websockets-11.0[${PYTHON_USEDEP}] )
 	apps? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	apps? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	apps? ( dev-python/jsonpatch[${PYTHON_USEDEP}] )
+	apps? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
+	apps? ( <dev-python/jsonpatch-2.0[${PYTHON_USEDEP}] )
 	apps? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
 	apps? ( dev-python/arel[${PYTHON_USEDEP}] )
-	apps? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	apps? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	apps? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
+	apps? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
 	aug? ( dev-python/imgaug[${PYTHON_USEDEP}] )
 	aug? ( dev-python/imagecorruptions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-immaterial[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.15.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-details-directive[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	extras? ( dev-python/docker[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )
+	extras? ( <dev-python/docker-6.0.0[${PYTHON_USEDEP}] )
 	extras? ( dev-python/imagecorruptions[${PYTHON_USEDEP}] )
 	extras? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	extras? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	extras? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	extras? ( dev-python/pascal-voc-writer[${PYTHON_USEDEP}] )
-	extras? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	extras? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	extras? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	plugins? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	extras? ( <dev-python/scipy-2.0.0[${PYTHON_USEDEP}] )
+	extras? ( <dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
+	extras? ( ~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}] )
+	plugins? ( <dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}] )
 	sdk-nn-plugins? ( dev-python/flask-restful[${PYTHON_USEDEP}] )
 	sdk-nn-plugins? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
-	sdk-no-usages? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	sdk-no-usages? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	sdk-no-usages? ( dev-python/psutil[${PYTHON_USEDEP}] )"
+	sdk-no-usages? ( <dev-python/grpcio-2.0.0[${PYTHON_USEDEP}] )
+	sdk-no-usages? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	sdk-no-usages? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

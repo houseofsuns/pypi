@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	dev-python/ffmpy[${PYTHON_USEDEP}]
 	dev-python/video-utils[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/prettytable-4.0.0[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
 	dev-python/iso639[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

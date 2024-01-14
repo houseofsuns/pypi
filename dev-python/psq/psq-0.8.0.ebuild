@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/google-cloud-pubsub[${PYTHON_USEDEP}]
 	dev-python/google-cloud-datastore[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]"
+	<dev-python/werkzeug-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/click-4.0[${PYTHON_USEDEP}]
+	<dev-python/colorlog-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

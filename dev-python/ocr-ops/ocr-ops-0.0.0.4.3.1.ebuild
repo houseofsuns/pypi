@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/algo-ops[${PYTHON_USEDEP}]
 	dev-python/easyocr[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
 	dev-python/pyspellchecker[${PYTHON_USEDEP}]
 	dev-python/pytesseract[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]"

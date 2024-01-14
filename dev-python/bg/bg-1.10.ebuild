@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/coverage[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	dev-python/nose[${PYTHON_USEDEP}]
 	dev-python/marshmallow[${PYTHON_USEDEP}]
 	dev-python/ete3[${PYTHON_USEDEP}]

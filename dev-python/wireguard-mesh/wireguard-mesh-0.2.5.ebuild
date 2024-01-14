@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pulumi"
 DEPENDENCIES="dev-python/wireguard-tools[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	pulumi? ( dev-python/pulumi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

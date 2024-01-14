@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/aiohutils[${PYTHON_USEDEP}]
 	dev-python/jdatetime[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	test? ( dev-python/aiohutils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

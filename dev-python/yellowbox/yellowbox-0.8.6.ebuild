@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aerospike azure dev kafka mssql postgresql rabbit redis vault webserver websocket"
-DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docker-4.2.0[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-3.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/redis-3.3.0[${PYTHON_USEDEP}] )
 	rabbit? ( dev-python/pika[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pika[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
@@ -37,19 +37,19 @@ DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
 	dev? ( dev-python/aerospike[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	azure? ( dev-python/cffi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cffi[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	mssql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	azure? ( >=dev-python/cffi-1.14.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/cffi-1.14.0[${PYTHON_USEDEP}] )
+	postgresql? ( >=dev-python/sqlalchemy-1.3.0[${PYTHON_USEDEP}] )
+	mssql? ( >=dev-python/sqlalchemy-1.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sqlalchemy-1.3.0[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	websocket? ( dev-python/simple_websocket_server[${PYTHON_USEDEP}] )
 	dev? ( dev-python/simple_websocket_server[${PYTHON_USEDEP}] )
-	webserver? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	dev? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	webserver? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	webserver? ( >=dev-python/starlette-0.9.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/starlette-0.9.0[${PYTHON_USEDEP}] )
+	webserver? ( >=dev-python/uvicorn-0.13.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/uvicorn-0.13.0[${PYTHON_USEDEP}] )
 	webserver? ( dev-python/websockets[${PYTHON_USEDEP}] )
 	dev? ( dev-python/websockets[${PYTHON_USEDEP}] )
 	vault? ( dev-python/hvac[${PYTHON_USEDEP}] )

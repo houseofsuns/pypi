@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development gdal tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/PyQt5-5.15.0[${PYTHON_USEDEP}]
+	~dev-python/pyqtgraph-0.11.0[${PYTHON_USEDEP}]
 	dev-python/pyrocko[${PYTHON_USEDEP}]
 	dev-python/utm[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]

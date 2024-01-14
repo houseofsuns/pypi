@@ -27,12 +27,12 @@ IUSE="all"
 DEPENDENCIES="all? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	dev-python/multimethod[${PYTHON_USEDEP}]
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev-python/parse[${PYTHON_USEDEP}]
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	all? ( >=dev-python/numpy-1.23.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-1.4.3[${PYTHON_USEDEP}] )
+	>=dev-python/parse-1.19.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/pyarrow-8.0[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pyfarmhash[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]"
+	>=dev-python/python-box-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

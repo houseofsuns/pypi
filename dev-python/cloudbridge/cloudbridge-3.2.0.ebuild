@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws azure dev full gcp openstack"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.11[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-6.0[${PYTHON_USEDEP}]
+	>=dev-python/deprecation-2.0.7[${PYTHON_USEDEP}]
 	dev-python/pyeventsystem[${PYTHON_USEDEP}]
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	aws? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	azure? ( dev-python/msrestazure[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-common[${PYTHON_USEDEP}] )
@@ -40,20 +40,20 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-cosmosdb-table[${PYTHON_USEDEP}] )
 	azure? ( dev-python/pysftp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/moto-3.1.18[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydevd[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
-	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	dev? ( dev-python/openstacksdk[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-novaclient[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-swiftclient[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-neutronclient[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-keystoneclient[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/openstacksdk-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/python-novaclient-19.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/python-swiftclient-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/python-neutronclient-9.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/python-keystoneclient-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/msrestazure[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-common[${PYTHON_USEDEP}] )
@@ -65,13 +65,13 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-cosmosdb-table[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pysftp[${PYTHON_USEDEP}] )
-	full? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	full? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	full? ( dev-python/openstacksdk[${PYTHON_USEDEP}] )
-	full? ( dev-python/python-novaclient[${PYTHON_USEDEP}] )
-	full? ( dev-python/python-swiftclient[${PYTHON_USEDEP}] )
-	full? ( dev-python/python-neutronclient[${PYTHON_USEDEP}] )
-	full? ( dev-python/python-keystoneclient[${PYTHON_USEDEP}] )
+	full? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/openstacksdk-1.0.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/python-novaclient-19.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/python-swiftclient-5.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/python-neutronclient-9.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/python-keystoneclient-6.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/msrestazure[${PYTHON_USEDEP}] )
 	full? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	full? ( dev-python/azure-common[${PYTHON_USEDEP}] )
@@ -83,11 +83,11 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	full? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	full? ( dev-python/azure-cosmosdb-table[${PYTHON_USEDEP}] )
 	full? ( dev-python/pysftp[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	openstack? ( dev-python/openstacksdk[${PYTHON_USEDEP}] )
-	openstack? ( dev-python/python-novaclient[${PYTHON_USEDEP}] )
-	openstack? ( dev-python/python-swiftclient[${PYTHON_USEDEP}] )
-	openstack? ( dev-python/python-neutronclient[${PYTHON_USEDEP}] )
-	openstack? ( dev-python/python-keystoneclient[${PYTHON_USEDEP}] )"
+	gcp? ( <dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}] )
+	openstack? ( <dev-python/openstacksdk-1.0.0[${PYTHON_USEDEP}] )
+	openstack? ( <dev-python/python-novaclient-19.0[${PYTHON_USEDEP}] )
+	openstack? ( <dev-python/python-swiftclient-5.0[${PYTHON_USEDEP}] )
+	openstack? ( <dev-python/python-neutronclient-9.0[${PYTHON_USEDEP}] )
+	openstack? ( <dev-python/python-keystoneclient-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build publish test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	publish? ( dev-python/twine[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	build? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

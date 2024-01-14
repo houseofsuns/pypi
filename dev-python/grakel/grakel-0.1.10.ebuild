@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev lovasz test wheel"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.27.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
+	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
-	dev? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/cvxopt-1.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch-geometric[${PYTHON_USEDEP}] )
-	lovasz? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
+	lovasz? ( >=dev-python/cvxopt-1.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/torch-geometric[${PYTHON_USEDEP}] )

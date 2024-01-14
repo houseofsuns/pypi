@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="curses discord-rpc gtk qt trackers twitter ui"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	trackers? ( dev-python/inotify[${PYTHON_USEDEP}] )
-	gtk? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	qt? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	ui? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	gtk? ( dev-python/pycairo[${PYTHON_USEDEP}] )
-	ui? ( dev-python/pycairo[${PYTHON_USEDEP}] )
-	trackers? ( dev-python/pydbus[${PYTHON_USEDEP}] )
-	gtk? ( dev-python/pygobject[${PYTHON_USEDEP}] )
-	ui? ( dev-python/pygobject[${PYTHON_USEDEP}] )
-	trackers? ( dev-python/pyinotify[${PYTHON_USEDEP}] )
-	discord-rpc? ( dev-python/pypresence[${PYTHON_USEDEP}] )
+	gtk? ( <dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
+	qt? ( <dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
+	ui? ( <dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
+	gtk? ( <dev-python/pycairo-2.0.0[${PYTHON_USEDEP}] )
+	ui? ( <dev-python/pycairo-2.0.0[${PYTHON_USEDEP}] )
+	trackers? ( <dev-python/pydbus-0.7.0[${PYTHON_USEDEP}] )
+	gtk? ( <dev-python/pygobject-4.0.0[${PYTHON_USEDEP}] )
+	ui? ( <dev-python/pygobject-4.0.0[${PYTHON_USEDEP}] )
+	trackers? ( <dev-python/pyinotify-0.10.0[${PYTHON_USEDEP}] )
+	discord-rpc? ( <dev-python/pypresence-5.0.0[${PYTHON_USEDEP}] )
 	qt? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	ui? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
-	twitter? ( dev-python/requests-oauthlib[${PYTHON_USEDEP}] )
+	twitter? ( <dev-python/requests-oauthlib-2.0.0[${PYTHON_USEDEP}] )
 	twitter? ( dev-python/twitter[${PYTHON_USEDEP}] )
-	curses? ( dev-python/urwid[${PYTHON_USEDEP}] )
-	ui? ( dev-python/urwid[${PYTHON_USEDEP}] )"
+	curses? ( <dev-python/urwid-3.0.0[${PYTHON_USEDEP}] )
+	ui? ( <dev-python/urwid-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

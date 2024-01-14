@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev mfa orbital tensorflow tensornets video"
 DEPENDENCIES="dev-python/utm[${PYTHON_USEDEP}]
 	dev? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/folium[${PYTHON_USEDEP}] )
 	dev? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
@@ -37,8 +37,8 @@ DEPENDENCIES="dev-python/utm[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-remotedata[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-1.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-gallery-0.10.1[${PYTHON_USEDEP}] )
 	mfa? ( dev-python/ortools[${PYTHON_USEDEP}] )
 	orbital? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
@@ -48,10 +48,10 @@ DEPENDENCIES="dev-python/utm[${PYTHON_USEDEP}]
 	video? ( dev-python/moviepy[${PYTHON_USEDEP}] )
 	video? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	dev-python/ordered-set[${PYTHON_USEDEP}]
 	dev-python/pymap3d[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.16.5[${PYTHON_USEDEP}]
 	dev-python/rtree[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

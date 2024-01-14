@@ -27,13 +27,13 @@ IUSE=""
 DEPENDENCIES="dev-python/VapourSynth[${PYTHON_USEDEP}]
 	dev-python/vstools[${PYTHON_USEDEP}]
 	dev-python/vsengine[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
-	dev-python/PyQt6-sip[${PYTHON_USEDEP}]
+	>=dev-python/PyQt6-6.4.0[${PYTHON_USEDEP}]
+	>=dev-python/PyQt6-sip-13.4.0[${PYTHON_USEDEP}]
 	dev-python/QDarkStyle[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	>=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

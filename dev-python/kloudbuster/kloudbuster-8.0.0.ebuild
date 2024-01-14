@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
 	dev-python/attrdict[${PYTHON_USEDEP}]
 	dev-python/hdrhistogram[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/pecan[${PYTHON_USEDEP}]
-	dev-python/python-cinderclient[${PYTHON_USEDEP}]
-	dev-python/python-glanceclient[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
-	dev-python/python-neutronclient[${PYTHON_USEDEP}]
-	dev-python/python-novaclient[${PYTHON_USEDEP}]
-	dev-python/python-openstackclient[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]"
+	>=dev-python/oslo-config-4.1.1[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.26.1[${PYTHON_USEDEP}]
+	>=dev-python/pbr-3.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pecan-1.2.1[${PYTHON_USEDEP}]
+	>=dev-python/python-cinderclient-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/python-glanceclient-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/python-keystoneclient-3.10.0[${PYTHON_USEDEP}]
+	>=dev-python/python-neutronclient-6.2.0[${PYTHON_USEDEP}]
+	>=dev-python/python-novaclient-9.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-openstackclient-3.11.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2016.4[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
+	>=dev-python/redis-2.10.5[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.7.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

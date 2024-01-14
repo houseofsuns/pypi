@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pybind11[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pybind11-2.4[${PYTHON_USEDEP}]
 	dev-python/infomap[${PYTHON_USEDEP}]
 	dev-python/folium[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

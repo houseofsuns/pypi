@@ -29,63 +29,63 @@ DEPENDENCIES="dev-python/Paste[${PYTHON_USEDEP}]
 	dev-python/Routes[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/WebOb[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.16.51[${PYTHON_USEDEP}]
 	dev-python/castellan[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.1[${PYTHON_USEDEP}]
 	dev-python/cursive[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
+	>=dev-python/decorator-4.4.2[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-1.11.0[${PYTHON_USEDEP}]
+	>=dev-python/greenlet-0.4.16[${PYTHON_USEDEP}]
+	>=dev-python/httplib2-0.18.1[${PYTHON_USEDEP}]
+	>=dev-python/iso8601-0.1.12[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-4.2.1[${PYTHON_USEDEP}]
 	dev-python/keystonemiddleware[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.5.2[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
 	dev-python/os-brick[${PYTHON_USEDEP}]
 	dev-python/os-win[${PYTHON_USEDEP}]
-	dev-python/oslo-concurrency[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-context[${PYTHON_USEDEP}]
+	>=dev-python/oslo-concurrency-4.5.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-8.3.2[${PYTHON_USEDEP}]
+	>=dev-python/oslo-context-3.4.0[${PYTHON_USEDEP}]
 	dev-python/oslo-db[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-5.1.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-4.6.1[${PYTHON_USEDEP}]
 	dev-python/oslo-messaging[${PYTHON_USEDEP}]
 	dev-python/oslo-middleware[${PYTHON_USEDEP}]
 	dev-python/oslo-policy[${PYTHON_USEDEP}]
 	dev-python/oslo-privsep[${PYTHON_USEDEP}]
 	dev-python/oslo-reports[${PYTHON_USEDEP}]
 	dev-python/oslo-rootwrap[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-4.2.0[${PYTHON_USEDEP}]
 	dev-python/oslo-service[${PYTHON_USEDEP}]
 	dev-python/oslo-upgradecheck[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-4.12.1[${PYTHON_USEDEP}]
 	dev-python/oslo-versionedobjects[${PYTHON_USEDEP}]
 	dev-python/oslo-vmware[${PYTHON_USEDEP}]
 	dev-python/osprofiler[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.4[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.7.2[${PYTHON_USEDEP}]
+	>=dev-python/pbr-5.8.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
 	dev-python/python-barbicanclient[${PYTHON_USEDEP}]
-	dev-python/python-glanceclient[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
-	dev-python/python-novaclient[${PYTHON_USEDEP}]
-	dev-python/python-swiftclient[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rtslib-fb[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/python-glanceclient-3.2.2[${PYTHON_USEDEP}]
+	>=dev-python/python-keystoneclient-4.1.1[${PYTHON_USEDEP}]
+	>=dev-python/python-novaclient-17.2.1[${PYTHON_USEDEP}]
+	>=dev-python/python-swiftclient-3.10.1[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2020.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	>=dev-python/rtslib-fb-2.1.74[${PYTHON_USEDEP}]
+	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-migrate[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-3.2.2[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
 	dev-python/taskflow[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-6.3.1[${PYTHON_USEDEP}]
 	dev-python/tooz[${PYTHON_USEDEP}]
-	dev-python/zstd[${PYTHON_USEDEP}]
+	>=dev-python/zstd-1.4.5.1[${PYTHON_USEDEP}]
 	all? ( dev-python/dfs-sdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/infinisdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/krest[${PYTHON_USEDEP}] )
@@ -98,8 +98,8 @@ DEPENDENCIES="dev-python/Paste[${PYTHON_USEDEP}]
 	all? ( dev-python/storops[${PYTHON_USEDEP}] )
 	all? ( dev-python/storpool-spopenstack[${PYTHON_USEDEP}] )
 	all? ( dev-python/storpool[${PYTHON_USEDEP}] )
-	all? ( dev-python/websocket-client[${PYTHON_USEDEP}] )
-	datacore? ( dev-python/websocket-client[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/websocket-client-0.32.0[${PYTHON_USEDEP}] )
+	datacore? ( >=dev-python/websocket-client-0.32.0[${PYTHON_USEDEP}] )
 	datera? ( dev-python/dfs-sdk[${PYTHON_USEDEP}] )
 	ds8k? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
 	fujitsu? ( dev-python/pywbem[${PYTHON_USEDEP}] )
@@ -114,20 +114,20 @@ DEPENDENCIES="dev-python/Paste[${PYTHON_USEDEP}]
 	storpool? ( dev-python/storpool[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
 	test? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
-	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/ddt[${PYTHON_USEDEP}] )
-	test? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	test? ( dev-python/fixtures[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/bandit-1.6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/ddt-1.4.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/doc8-0.8.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/fixtures-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-logging-format[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
-	test? ( dev-python/moto[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/oslotest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/moto-1.3.15[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/oslotest-4.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-3.2.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testtools-2.4.0[${PYTHON_USEDEP}] )
 	unity? ( dev-python/storops[${PYTHON_USEDEP}] )
 	vnx? ( dev-python/storops[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

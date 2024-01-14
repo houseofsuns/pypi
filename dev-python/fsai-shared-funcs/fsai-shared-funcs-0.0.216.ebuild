@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/beartype[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/beartype-0.17.0[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	dev-python/google[${PYTHON_USEDEP}]

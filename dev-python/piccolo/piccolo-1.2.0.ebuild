@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all orjson playground postgres sqlite uvloop"
 DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/targ[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	all? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	>=dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/orjson-3.5.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	all? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/aiosqlite-0.16.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/uvloop-0.12.0[${PYTHON_USEDEP}] )
+	orjson? ( >=dev-python/orjson-3.5.1[${PYTHON_USEDEP}] )
 	playground? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	sqlite? ( >=dev-python/aiosqlite-0.16.0[${PYTHON_USEDEP}] )
+	uvloop? ( >=dev-python/uvloop-0.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

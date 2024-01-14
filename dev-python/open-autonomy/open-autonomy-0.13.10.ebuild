@@ -26,31 +26,31 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all cli"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/open-aea[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-2.1.6[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.2.1[${PYTHON_USEDEP}]
 	dev-python/valory-docker-compose[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.0.3[${PYTHON_USEDEP}]
+	~dev-python/docker-6.1.2[${PYTHON_USEDEP}]
 	dev-python/hexbytes[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.4.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.2[${PYTHON_USEDEP}]
 	dev-python/open-aea-cli-ipfs[${PYTHON_USEDEP}]
-	dev-python/texttable[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	all? ( dev-python/click[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/texttable[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	~dev-python/texttable-1.6.7[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.18.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-7.3.0[${PYTHON_USEDEP}]
+	<dev-python/coverage-8.0.0[${PYTHON_USEDEP}]
+	all? ( ~dev-python/click-8.0.2[${PYTHON_USEDEP}] )
+	all? ( <dev-python/coverage-8.0.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/texttable-1.6.7[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-7.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/open-aea-cli-ipfs[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
+	all? ( <dev-python/python-dotenv-0.18.0[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/click-8.0.2[${PYTHON_USEDEP}] )
 	cli? ( dev-python/open-aea-cli-ipfs[${PYTHON_USEDEP}] )
-	cli? ( dev-python/texttable[${PYTHON_USEDEP}] )
-	cli? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	cli? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	cli? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	cli? ( ~dev-python/texttable-1.6.7[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/python-dotenv-0.18.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/pytest-7.3.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/coverage-8.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

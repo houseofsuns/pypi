@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/spyne[${PYTHON_USEDEP}]
-	dev-python/xlsxwriter[${PYTHON_USEDEP}]
+	<dev-python/xlsxwriter-1.0[${PYTHON_USEDEP}]
 	dev-python/m3-builder[${PYTHON_USEDEP}]
 	dev-python/m3-db-utils[${PYTHON_USEDEP}]
 	dev-python/m3-django-compat[${PYTHON_USEDEP}]
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/m3-objectpack[${PYTHON_USEDEP}]
 	dev-python/m3-simple-report[${PYTHON_USEDEP}]
 	dev-python/m3-spyne-smev[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]"
+	~dev-python/python-magic-0.4.15[${PYTHON_USEDEP}]
+	<dev-python/distro-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

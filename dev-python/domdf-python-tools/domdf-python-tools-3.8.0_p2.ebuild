@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dates"
-DEPENDENCIES="dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	all? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	dates? ( dev-python/pytz[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/natsort-7.0.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.1[${PYTHON_USEDEP}]
+	all? ( >=dev-python/pytz-2019.1[${PYTHON_USEDEP}] )
+	dates? ( >=dev-python/pytz-2019.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

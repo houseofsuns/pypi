@@ -28,12 +28,12 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/psygnal[${PYTHON_USEDEP}]
 	dev-python/pymmcore[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.2.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/useq-schema[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
-	cli? ( dev-python/rich[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/rich-10.2.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/typer[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
@@ -47,9 +47,9 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-appdirs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-1.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-python-1.1.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.22.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/msgpack[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )

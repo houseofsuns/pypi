@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/crypto-ws-api[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/pyotp[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.48.2[${PYTHON_USEDEP}]
+	~dev-python/grpcio-tools-1.48.2[${PYTHON_USEDEP}]
+	~dev-python/idna-3.4[${PYTHON_USEDEP}]
+	~dev-python/pyotp-2.9.0[${PYTHON_USEDEP}]
+	~dev-python/simplejson-3.19.2[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	dev-python/Pympler[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	~dev-python/websockets-12.0[${PYTHON_USEDEP}]
 	dev-python/expiringdict[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]"
+	~dev-python/ujson-5.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full mars"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	full? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	full? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	full? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	full? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	full? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	full? ( dev-python/cython[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]
+	>=dev-python/charset-normalizer-2.0[${PYTHON_USEDEP}]
+	>=dev-python/idna-2.5[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-2.0.0[${PYTHON_USEDEP}]
+	full? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/ipython-4.0.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/numpy-1.6.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/pandas-0.17.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/matplotlib-1.4[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/graphviz-0.4[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/cython-0.20[${PYTHON_USEDEP}] )
 	mars? ( dev-python/pymars[${PYTHON_USEDEP}] )
 	mars? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

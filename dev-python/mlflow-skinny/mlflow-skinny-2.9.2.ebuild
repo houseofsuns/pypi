@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aliyun-oss databricks extras gateway genai sqlserver xethub"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/cloudpickle-4.0[${PYTHON_USEDEP}]
 	dev-python/databricks-cli[${PYTHON_USEDEP}]
-	dev-python/entrypoints[${PYTHON_USEDEP}]
+	<dev-python/entrypoints-1.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-8.0[${PYTHON_USEDEP}]
+	<dev-python/sqlparse-1.0[${PYTHON_USEDEP}]
 	aliyun-oss? ( dev-python/aliyunstoreplugin[${PYTHON_USEDEP}] )
 	databricks? ( dev-python/azure-storage-file-datalake[${PYTHON_USEDEP}] )
 	databricks? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	databricks? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	databricks? ( >dev-python/boto3-1.0[${PYTHON_USEDEP}] )
 	extras? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	extras? ( dev-python/requests-auth-aws-sigv4[${PYTHON_USEDEP}] )
 	extras? ( dev-python/boto3[${PYTHON_USEDEP}] )
@@ -51,19 +51,19 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	extras? ( dev-python/mlserver-mlflow[${PYTHON_USEDEP}] )
 	extras? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
 	extras? ( dev-python/prometheus-flask-exporter[${PYTHON_USEDEP}] )
-	gateway? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	gateway? ( <dev-python/pydantic-3.0[${PYTHON_USEDEP}] )
 	gateway? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	gateway? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	gateway? ( dev-python/watchfiles[${PYTHON_USEDEP}] )
-	gateway? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	gateway? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	gateway? ( <dev-python/uvicorn-1.0[${PYTHON_USEDEP}] )
+	gateway? ( <dev-python/watchfiles-1.0[${PYTHON_USEDEP}] )
+	gateway? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
+	gateway? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
 	gateway? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
-	genai? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	genai? ( <dev-python/pydantic-3.0[${PYTHON_USEDEP}] )
 	genai? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	genai? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	genai? ( dev-python/watchfiles[${PYTHON_USEDEP}] )
-	genai? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	genai? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	genai? ( <dev-python/uvicorn-1.0[${PYTHON_USEDEP}] )
+	genai? ( <dev-python/watchfiles-1.0[${PYTHON_USEDEP}] )
+	genai? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
+	genai? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
 	genai? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	sqlserver? ( dev-python/mlflow-dbstore[${PYTHON_USEDEP}] )
 	xethub? ( dev-python/mlflow-xethub[${PYTHON_USEDEP}] )"

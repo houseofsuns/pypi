@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/cliff[${PYTHON_USEDEP}]
+	>=dev-python/cliff-3.5.0[${PYTHON_USEDEP}]
 	dev-python/jsonpath-rw-ext[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
-	dev-python/os-client-config[${PYTHON_USEDEP}]
-	dev-python/osc-lib[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]"
+	>=dev-python/keystoneauth1-4.3.0[${PYTHON_USEDEP}]
+	>=dev-python/os-client-config-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/osc-lib-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-4.4.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-4.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-5.5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

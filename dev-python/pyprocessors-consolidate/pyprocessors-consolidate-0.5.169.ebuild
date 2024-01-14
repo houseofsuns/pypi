@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
 DEPENDENCIES="dev-python/pymultirole-plugins[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.2.3[${PYTHON_USEDEP}]
 	dev-python/collections-extended[${PYTHON_USEDEP}]
 	dev-python/PyICU[${PYTHON_USEDEP}]
 	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/pymultirole-plugins[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/dirty-equals[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

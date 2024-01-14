@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="repl"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/aiodns[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiodns-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pyld[${PYTHON_USEDEP}]
-	dev-python/asyncstdlib[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	<dev-python/asyncstdlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/based58[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	repl? ( dev-python/ptpython[${PYTHON_USEDEP}] )
-	repl? ( dev-python/bleach[${PYTHON_USEDEP}] )
+	repl? ( <dev-python/bleach-7.0.0[${PYTHON_USEDEP}] )
 	repl? ( dev-python/black[${PYTHON_USEDEP}] )
-	repl? ( dev-python/click[${PYTHON_USEDEP}] )
+	repl? ( <dev-python/click-9.0.0[${PYTHON_USEDEP}] )
 	dev-python/jcs[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

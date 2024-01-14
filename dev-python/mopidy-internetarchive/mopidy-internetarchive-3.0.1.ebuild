@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs lint release test"
 DEPENDENCIES="dev-python/Mopidy[${PYTHON_USEDEP}]
 	dev-python/Pykka[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-1.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/uritools[${PYTHON_USEDEP}]
+	>=dev-python/uritools-1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )

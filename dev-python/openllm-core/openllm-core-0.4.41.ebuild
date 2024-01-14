@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bentoml fine-tune full vllm"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
+	<dev-python/cattrs-23.2.0[${PYTHON_USEDEP}]
 	dev-python/deepmerge[${PYTHON_USEDEP}]
 	dev-python/inflection[${PYTHON_USEDEP}]
 	dev-python/mypy_extensions[${PYTHON_USEDEP}]

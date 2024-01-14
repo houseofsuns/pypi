@@ -33,14 +33,14 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/requests-html[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-1.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/unstructured[${PYTHON_USEDEP}]
 	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.25[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
@@ -78,7 +78,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	full? ( dev-python/lunary[${PYTHON_USEDEP}] )
 	full? ( dev-python/promptlayer[${PYTHON_USEDEP}] )
 	full? ( dev-python/omegaconf[${PYTHON_USEDEP}] )
-	full? ( dev-python/prompt-toolkit[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	local? ( dev-python/TTS[${PYTHON_USEDEP}] )
 	local? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )

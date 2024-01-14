@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/dotty-dict[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	~dev-python/elasticsearch-7.0.5[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.0.2[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.9.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.36.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

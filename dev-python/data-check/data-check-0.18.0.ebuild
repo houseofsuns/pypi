@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="databricks duckdb mssql mysql oracle oracledb postgres"
-DEPENDENCIES="dev-python/Faker[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/Faker-21.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-default-group-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	oracle? ( dev-python/cx_Oracle[${PYTHON_USEDEP}] )
 	databricks? ( dev-python/databricks-sql-connector[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
 	oracledb? ( dev-python/oracledb[${PYTHON_USEDEP}] )
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	mysql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]"
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

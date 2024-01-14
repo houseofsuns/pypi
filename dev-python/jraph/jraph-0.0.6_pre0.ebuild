@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="examples ogb_examples"
 DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
 	examples? ( dev-python/dm-haiku[${PYTHON_USEDEP}] )
-	examples? ( dev-python/absl-py[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/absl-py-0.9[${PYTHON_USEDEP}] )
 	examples? ( dev-python/frozendict[${PYTHON_USEDEP}] )
 	examples? ( dev-python/optax[${PYTHON_USEDEP}] )
-	examples? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/scipy-1.2.1[${PYTHON_USEDEP}] )
 	ogb_examples? ( dev-python/dm-haiku[${PYTHON_USEDEP}] )
-	ogb_examples? ( dev-python/absl-py[${PYTHON_USEDEP}] )
+	ogb_examples? ( >=dev-python/absl-py-0.9[${PYTHON_USEDEP}] )
 	ogb_examples? ( dev-python/optax[${PYTHON_USEDEP}] )
-	ogb_examples? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	ogb_examples? ( >=dev-python/pandas-1.0.5[${PYTHON_USEDEP}] )
 	ogb_examples? ( dev-python/dm-tree[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

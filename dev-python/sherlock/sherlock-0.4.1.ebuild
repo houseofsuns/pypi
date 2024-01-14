@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all etcd filelock kubernetes memcached redis"
-DEPENDENCIES="all? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	filelock? ( dev-python/filelock[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( <dev-python/filelock-4.0.0[${PYTHON_USEDEP}] )
+	filelock? ( <dev-python/filelock-4.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	all? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
 	etcd? ( dev-python/python-etcd[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylibmc[${PYTHON_USEDEP}] )
-	memcached? ( dev-python/pylibmc[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/pylibmc-2.0.0[${PYTHON_USEDEP}] )
+	memcached? ( <dev-python/pylibmc-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

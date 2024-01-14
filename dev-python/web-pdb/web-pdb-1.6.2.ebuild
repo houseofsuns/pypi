@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bottle[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bottle-0.12.25[${PYTHON_USEDEP}]
 	dev-python/asyncore-wsgi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

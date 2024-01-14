@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="accessibility kaldi playsound sphinx test"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-40.0.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/lark-parser[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.5.1[${PYTHON_USEDEP}]
+	>=dev-python/pyperclip-1.7.0[${PYTHON_USEDEP}]
 	dev-python/pynput[${PYTHON_USEDEP}]
 	dev-python/pyobjc[${PYTHON_USEDEP}]
 	dev-python/py-applescript[${PYTHON_USEDEP}]
@@ -41,6 +41,6 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	sphinx? ( dev-python/sounddevice[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinxwrapper[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/pyjsgf[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-3.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

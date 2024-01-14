@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/nbformat[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/nbformat-5.7.1[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev? ( dev-python/nbdev-mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/semgrep[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-0.20.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-material-9.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-section-index[${PYTHON_USEDEP}] )
-	dev? ( dev-python/configupdater[${PYTHON_USEDEP}] )
-	dev? ( dev-python/griffe[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/configupdater-3.1.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/griffe-0.24.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}] )
 	dev? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/detect-secrets[${PYTHON_USEDEP}] )"

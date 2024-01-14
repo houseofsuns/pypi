@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cuda dev doc minio setfit test"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.20.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-5.0.0[${PYTHON_USEDEP}]
 	dev-python/vaex-core[${PYTHON_USEDEP}]
 	dev-python/vaex-hdf5[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
+	>=dev-python/diskcache-5.2.1[${PYTHON_USEDEP}]
 	dev-python/resource[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/blake3[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
+	>=dev-python/blake3-0.2.1[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.13.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-4.2.4[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-6.0.1[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/seqeval[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.1.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.1.0[${PYTHON_USEDEP}]
 	dev-python/evaluate[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-8.1.0[${PYTHON_USEDEP}]
 	dev-python/imagededup[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	dev-python/peft[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	cuda? ( dev-python/ucx-py-cu11[${PYTHON_USEDEP}] )
@@ -61,10 +61,10 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	cuda? ( dev-python/dask-cudf-cu11[${PYTHON_USEDEP}] )
 	cuda? ( dev-python/cudf-cu11[${PYTHON_USEDEP}] )
 	cuda? ( dev-python/cuml-cu11[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -75,15 +75,15 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	minio? ( dev-python/minio[${PYTHON_USEDEP}] )
 	setfit? ( dev-python/setfit[${PYTHON_USEDEP}] )
 	test? ( dev-python/ultralytics[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/freezegun-1.2.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-7.0.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	test? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-env-0.8.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/types-setuptools-67.3.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-cachetools[${PYTHON_USEDEP}] )
 	test? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	test? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -92,12 +92,12 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	test? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	test? ( dev-python/timm[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastai[${PYTHON_USEDEP}] )
-	test? ( dev-python/portalocker[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/portalocker-2.7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	test? ( dev-python/setfit[${PYTHON_USEDEP}] )
 	test? ( dev-python/accelerate[${PYTHON_USEDEP}] )
 	test? ( dev-python/typing-inspect[${PYTHON_USEDEP}] )
-	test? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/typing-extensions-4.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/lightning[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

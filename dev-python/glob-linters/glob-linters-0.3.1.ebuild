@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/clang-format[${PYTHON_USEDEP}]
 	dev-python/cpplint[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]"
+	~dev-python/pylint-2.15.7[${PYTHON_USEDEP}]
+	~dev-python/flake8-5.0.4[${PYTHON_USEDEP}]
+	~dev-python/black-22.10.0[${PYTHON_USEDEP}]
+	~dev-python/isort-5.10.1[${PYTHON_USEDEP}]
+	~dev-python/mypy-0.991[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

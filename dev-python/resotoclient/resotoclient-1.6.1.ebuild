@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="extras"
 DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	extras? ( dev-python/graphviz[${PYTHON_USEDEP}] )
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-36.0.2[${PYTHON_USEDEP}]
+	extras? ( <dev-python/graphviz-0.21[${PYTHON_USEDEP}] )
 	dev-python/jsons[${PYTHON_USEDEP}]
-	extras? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	extras? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

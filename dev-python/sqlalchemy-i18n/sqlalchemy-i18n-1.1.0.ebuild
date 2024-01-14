@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-2.2.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/Pygments[${PYTHON_USEDEP}] )
 	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	test? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	test? ( dev-python/flexmock[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/docutils-0.10[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flexmock-0.9.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/flake8-2.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/isort-3.9.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

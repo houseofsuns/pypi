@@ -29,16 +29,16 @@ DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/gevent-websocket[${PYTHON_USEDEP}]
 	dev-python/kconfiglib[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/python-daemon[${PYTHON_USEDEP}]
-	dev-python/pyusb[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-2.6[${PYTHON_USEDEP}]
+	>=dev-python/python-daemon-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyusb-1.0[${PYTHON_USEDEP}]
+	<dev-python/pyzmq-25.0.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/systemd-python[${PYTHON_USEDEP}]
 	dev-python/urwid[${PYTHON_USEDEP}]
 	dev-python/zerorpc[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]"
+	>=dev-python/zstandard-0.14[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.28.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

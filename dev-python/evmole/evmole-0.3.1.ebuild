@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark"
-DEPENDENCIES="benchmark? ( dev-python/aiohttp[${PYTHON_USEDEP}] )"
+DEPENDENCIES="benchmark? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

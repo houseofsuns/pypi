@@ -24,44 +24,44 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev scheduler server serverless web_page"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cryptography-37.0[${PYTHON_USEDEP}]
 	dev-python/json-urley[${PYTHON_USEDEP}]
 	dev-python/marshy[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.4[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
 	dev-python/schemey[${PYTHON_USEDEP}]
-	all? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pygments-2.13[${PYTHON_USEDEP}] )
 	all? ( dev-python/strawberry-graphql[${PYTHON_USEDEP}] )
 	all? ( dev-python/strawberry-graphql[${PYTHON_USEDEP}] )
 	all? ( dev-python/celery[${PYTHON_USEDEP}] )
-	all? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/starlette-0.19[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/boto3-1.26[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/black-23.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	all? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/uvicorn-0.18[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/python-multipart-0.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/requests-2.28[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pylint-3.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-xdist-3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/boto3-1.26[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	scheduler? ( dev-python/celery[${PYTHON_USEDEP}] )
-	server? ( dev-python/starlette[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/starlette-0.19[${PYTHON_USEDEP}] )
 	server? ( dev-python/strawberry-graphql[${PYTHON_USEDEP}] )
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	server? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	server? ( dev-python/requests[${PYTHON_USEDEP}] )
-	server? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
-	serverless? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	serverless? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/uvicorn-0.18[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/pygments-2.13[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/requests-2.28[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/python-multipart-0.0[${PYTHON_USEDEP}] )
+	serverless? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	serverless? ( ~dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}] )
 	serverless? ( dev-python/strawberry-graphql[${PYTHON_USEDEP}] )
 	web_page? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

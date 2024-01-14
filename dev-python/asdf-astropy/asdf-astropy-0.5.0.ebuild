@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/asdf[${PYTHON_USEDEP}]
 	dev-python/asdf-coordinates-schemas[${PYTHON_USEDEP}]
 	dev-python/asdf-transform-schemas[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

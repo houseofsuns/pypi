@@ -30,18 +30,18 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/drain3[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
 	dev-python/salt[${PYTHON_USEDEP}]
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	changelog? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/build-0.7.0[${PYTHON_USEDEP}] )
+	changelog? ( ~dev-python/towncrier-21.9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-attrs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/astroid[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.12.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/astroid-2.9.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-pydantic[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -56,8 +56,8 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-towncrier[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
 	docsauto? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-salt-factories[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-salt-factories-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
-	dev-python/jupyter-server-proxy[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-server-proxy-1.3.2[${PYTHON_USEDEP}]
+	<dev-python/jupyterlab-5.0[${PYTHON_USEDEP}]
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

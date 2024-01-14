@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fast"
-DEPENDENCIES="dev-python/h2[${PYTHON_USEDEP}]
-	dev-python/hyperframe[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/h2-3.0[${PYTHON_USEDEP}]
+	<dev-python/hyperframe-4.0[${PYTHON_USEDEP}]
 	fast? ( dev-python/pycohttpparser[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/anitya-schema[${PYTHON_USEDEP}]
 	dev-python/fedora-messaging[${PYTHON_USEDEP}]
 	dev-python/fedora-messaging-the-new-hotness-schema[${PYTHON_USEDEP}]
 	dev-python/koji[${PYTHON_USEDEP}]
-	dev-python/python-bugzilla[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	<dev-python/python-bugzilla-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/redis-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

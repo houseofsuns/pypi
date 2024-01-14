@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests typecheck"
-DEPENDENCIES="tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES="tests? ( >=dev-python/pytest-3.2.1[${PYTHON_USEDEP}] )
 	typecheck? ( dev-python/mypy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

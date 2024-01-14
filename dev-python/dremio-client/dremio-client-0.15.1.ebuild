@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full noarrow"
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/confuse[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	full? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	full? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	full? ( dev-python/requests-futures[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/pyarrow-0.15.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/pandas-0.24.2[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/requests-futures-1.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	noarrow? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	noarrow? ( dev-python/requests-futures[${PYTHON_USEDEP}] )
+	noarrow? ( >=dev-python/pandas-0.24.2[${PYTHON_USEDEP}] )
+	noarrow? ( ~dev-python/requests-futures-1.0.0[${PYTHON_USEDEP}] )
 	noarrow? ( dev-python/markdown[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

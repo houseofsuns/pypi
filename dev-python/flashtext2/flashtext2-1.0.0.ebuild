@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark test"
-DEPENDENCIES="test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES="test? ( >=dev-python/coverage-7.2.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/flashtext[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	benchmark? ( >=dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )
+	benchmark? ( >=dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

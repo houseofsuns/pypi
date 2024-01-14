@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/boto[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+	~dev-python/inflection-0.3.1[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

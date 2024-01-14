@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/markdown-3.3.4[${PYTHON_USEDEP}]
+	>=dev-python/pymdown-extensions-9.0[${PYTHON_USEDEP}]
 	dev-python/treeview-karjakak[${PYTHON_USEDEP}]
 	dev-python/excptr-karjakak[${PYTHON_USEDEP}]
 	dev-python/demoji[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.11.6[${PYTHON_USEDEP}]
 	dev-python/darkdetect[${PYTHON_USEDEP}]
 	dev-python/pdfkit[${PYTHON_USEDEP}]
 	dev-python/addon-tvg-karjakak[${PYTHON_USEDEP}]
 	dev-python/sqlmodel[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+	>=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/typechecks[${PYTHON_USEDEP}]
 	dev-python/tinytimer[${PYTHON_USEDEP}]
 	dev-python/gtfparse[${PYTHON_USEDEP}]
 	dev-python/serializable[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]"
+	>=dev-python/pylint-1.4.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

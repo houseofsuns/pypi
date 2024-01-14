@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc examples netcdf test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.8[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	>=dev-python/requests-1.2[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.6[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-3.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-1.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	doc? ( dev-python/doc8[${PYTHON_USEDEP}] )
 	doc? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/matplotlib-1.3[${PYTHON_USEDEP}] )
 	examples? ( dev-python/cartopy[${PYTHON_USEDEP}] )
 	examples? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	examples? ( dev-python/metpy[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	test? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >dev-python/flake8-3.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-copyright[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-rst-docstrings[${PYTHON_USEDEP}] )
 	test? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	test? ( dev-python/vcrpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/xarray[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/vcrpy-1.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/xarray-0.10.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

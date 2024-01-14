@@ -27,24 +27,24 @@ IUSE="api db encrypt excel image jira mail ocr"
 DEPENDENCIES="dev-python/tidevice[${PYTHON_USEDEP}]
 	dev-python/facebook-wda[${PYTHON_USEDEP}]
 	dev-python/uiautomator2[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	~dev-python/selenium-4.8.2[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-rerunfailures[${PYTHON_USEDEP}]
-	dev-python/pytest-ordering[${PYTHON_USEDEP}]
-	dev-python/pytest-xdist[${PYTHON_USEDEP}]
+	~dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
+	~dev-python/pytest-rerunfailures-10.2[${PYTHON_USEDEP}]
+	~dev-python/pytest-ordering-0.6[${PYTHON_USEDEP}]
+	~dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}]
 	dev-python/pytest-dependency[${PYTHON_USEDEP}]
 	dev-python/allure-pytest[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	~dev-python/jmespath-0.9.5[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.17.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	api? ( dev-python/genson[${PYTHON_USEDEP}] )
-	api? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	api? ( ~dev-python/genson-1.2.2[${PYTHON_USEDEP}] )
+	api? ( ~dev-python/jsonschema-4.17.0[${PYTHON_USEDEP}] )
 	db? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	db? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	encrypt? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
-	excel? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	excel? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	db? ( ~dev-python/pymongo-4.0.1[${PYTHON_USEDEP}] )
+	encrypt? ( ~dev-python/pycryptodome-3.14.1[${PYTHON_USEDEP}] )
+	excel? ( ~dev-python/pandas-1.3.4[${PYTHON_USEDEP}] )
+	excel? ( ~dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}] )
 	excel? ( dev-python/XlsxWriter[${PYTHON_USEDEP}] )
 	image? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	image? ( dev-python/opencv-contrib-python[${PYTHON_USEDEP}] )

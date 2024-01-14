@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/cython-0.29[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2023.1[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	>dev-python/scipy-1.10[${PYTHON_USEDEP}]
+	>dev-python/pandas-1.5[${PYTHON_USEDEP}]
+	>dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>dev-python/tqdm-4.64[${PYTHON_USEDEP}]
+	>dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	>dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

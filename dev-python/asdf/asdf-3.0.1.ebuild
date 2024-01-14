@@ -27,22 +27,22 @@ IUSE="all docs tests"
 DEPENDENCIES="dev-python/asdf-standard[${PYTHON_USEDEP}]
 	dev-python/asdf-transform-schemas[${PYTHON_USEDEP}]
 	dev-python/asdf-unit-schemas[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	all? ( dev-python/lz4[${PYTHON_USEDEP}] )
+	>=dev-python/importlib-metadata-4.11.4[${PYTHON_USEDEP}]
+	>=dev-python/jmespath-0.6.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
+	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	>=dev-python/semantic-version-2.8[${PYTHON_USEDEP}]
+	>=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/lz4-0.10[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-asdf[${PYTHON_USEDEP}] )
 	docs? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	tests? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	tests? ( dev-python/lz4[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/fsspec-2022.8.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/lz4-0.10[${PYTHON_USEDEP}] )
 	tests? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-remotedata[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

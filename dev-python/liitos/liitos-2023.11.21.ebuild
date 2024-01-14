@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/foran[${PYTHON_USEDEP}]
-	dev-python/shellingham[${PYTHON_USEDEP}]
+	>=dev-python/shellingham-1.5.4[${PYTHON_USEDEP}]
 	dev-python/taksonomia[${PYTHON_USEDEP}]
 	dev-python/treelib[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]

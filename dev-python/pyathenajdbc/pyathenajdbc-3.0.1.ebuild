@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pandas sqlalchemy"
 DEPENDENCIES="dev-python/jpype1[${PYTHON_USEDEP}]
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	pandas? ( >=dev-python/pandas-1.0.0[${PYTHON_USEDEP}] )
+	sqlalchemy? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

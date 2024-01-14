@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/websockets[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/websockets-8.0.2[${PYTHON_USEDEP}]
 	test? ( dev-python/asynctest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pycodestyle-2.5.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.3.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-5.1.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-1.29.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

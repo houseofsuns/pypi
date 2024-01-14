@@ -33,8 +33,8 @@ DEPENDENCIES="dev-python/aiida-core[${PYTHON_USEDEP}]
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/yapf[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/yapf-0.24.0[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/prospector[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/pylint[${PYTHON_USEDEP}] )"
+	pre-commit? ( ~dev-python/pylint-1.9.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

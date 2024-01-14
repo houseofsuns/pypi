@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.21.0[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	dev-python/email_validator[${PYTHON_USEDEP}]
 	dev-python/pyee[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/ifaddr[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/ifaddr-0.3.0[${PYTHON_USEDEP}]
+	<dev-python/zeroconf-0.40.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
 	dev-python/async-cron[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

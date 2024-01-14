@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/mona-sdk[${PYTHON_USEDEP}]
 	dev-python/alt-profanity-check[${PYTHON_USEDEP}]
 	dev-python/phonenumberslite[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]"
+	>=dev-python/nest-asyncio-1.5.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

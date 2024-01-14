@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docstest pep8test test"
 DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/logbook[${PYTHON_USEDEP}]
+	>=dev-python/logbook-0.12.3[${PYTHON_USEDEP}]
 	dev-python/represent[${PYTHON_USEDEP}]
 	dev-python/rush[${PYTHON_USEDEP}]
 	dev-python/sniffio[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	pep8test? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-trio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/respx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

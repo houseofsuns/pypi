@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/configargparse[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	<dev-python/passlib-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/six-2.0.0[${PYTHON_USEDEP}]
+	dev? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
-	test? ( dev-python/zipp[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/pydocstyle-4.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/requests-mock-2.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/testfixtures-7.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/zipp-2.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

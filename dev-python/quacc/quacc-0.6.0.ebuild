@@ -30,15 +30,15 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/emmet-core[${PYTHON_USEDEP}]
 	dev-python/maggma[${PYTHON_USEDEP}]
 	dev-python/monty[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0.1[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/pymatgen[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	covalent? ( dev-python/covalent[${PYTHON_USEDEP}] )
 	covalent? ( dev-python/covalent-hpc-plugin[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( >=dev-python/dask-2023.12.1[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask-jobqueue[${PYTHON_USEDEP}] )
 	defects? ( dev-python/pymatgen-analysis-defects[${PYTHON_USEDEP}] )
 	defects? ( dev-python/shakenbreak[${PYTHON_USEDEP}] )
@@ -57,18 +57,18 @@ DEPENDENCIES="dev-python/ase[${PYTHON_USEDEP}]
 	redun? ( dev-python/redun[${PYTHON_USEDEP}] )
 	sella? ( dev-python/sella[${PYTHON_USEDEP}] )
 	tblite? ( dev-python/tblite[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov-cli[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	docs? ( dev-python/blacken-docs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-9.1.21[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-0.22.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/cairosvg[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

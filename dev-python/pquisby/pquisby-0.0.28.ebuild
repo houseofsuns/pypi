@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/appier[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/google-api[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
-	dev-python/soupsieve[${PYTHON_USEDEP}]"
+	~dev-python/google-api-python-client-2.9.0[${PYTHON_USEDEP}]
+	~dev-python/google-auth-httplib2-0.1.0[${PYTHON_USEDEP}]
+	~dev-python/google-auth-oauthlib-0.4.4[${PYTHON_USEDEP}]
+	~dev-python/httplib2-0.19.1[${PYTHON_USEDEP}]
+	~dev-python/soupsieve-2.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

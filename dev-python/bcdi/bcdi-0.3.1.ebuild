@@ -27,35 +27,35 @@ IUSE="dev doc"
 DEPENDENCIES="dev-python/colorcet[${PYTHON_USEDEP}]
 	dev-python/fabio[${PYTHON_USEDEP}]
 	dev-python/hdf5plugin[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	~dev-python/h5py-3.8.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/ipywidgets-8.0.4[${PYTHON_USEDEP}]
+	~dev-python/lmfit-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
 	dev-python/moviepy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
 	dev-python/pyqt5[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.9.1[${PYTHON_USEDEP}]
 	dev-python/silx[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
+	~dev-python/tables-3.8.0[${PYTHON_USEDEP}]
 	dev-python/traits[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]
 	dev-python/xrayutilities[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/doit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.2.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/doit-0.36.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pycodestyle-2.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyfakefs-5.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.40.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

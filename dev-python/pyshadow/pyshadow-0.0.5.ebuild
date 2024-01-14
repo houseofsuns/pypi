@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/multipledispatch[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/multipledispatch-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
 	dev-python/webdriver-manager[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

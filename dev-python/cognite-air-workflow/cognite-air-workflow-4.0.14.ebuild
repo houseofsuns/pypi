@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cognite-sdk[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
 	dev-python/cognite-sdk-experimental[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
+	<dev-python/croniter-0.4.0[${PYTHON_USEDEP}]
 	dev-python/pytest-custom_exit_code[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
-	dev-python/cerberus[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/PyGithub-2.0[${PYTHON_USEDEP}]
+	<dev-python/cerberus-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/cognite-air-sdk[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]"
+	<dev-python/pytest-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

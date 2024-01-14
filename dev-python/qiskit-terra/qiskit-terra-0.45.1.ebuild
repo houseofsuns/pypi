@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all crosstalk-pass csp-layout-pass qasm3-import visualization"
-DEPENDENCIES="dev-python/rustworkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/ply[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/symengine[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/rustworkx-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/ply-3.10[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.3[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/symengine-0.9[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipywidgets-7.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylatexenc[${PYTHON_USEDEP}] )
-	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	all? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pillow-4.2.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pylatexenc-1.4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pygments-2.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/z3-solver[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-constraint[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/python-constraint-1.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/qiskit-qasm3-import[${PYTHON_USEDEP}] )
 	crosstalk-pass? ( dev-python/z3-solver[${PYTHON_USEDEP}] )
-	csp-layout-pass? ( dev-python/python-constraint[${PYTHON_USEDEP}] )
+	csp-layout-pass? ( >=dev-python/python-constraint-1.4[${PYTHON_USEDEP}] )
 	qasm3-import? ( dev-python/qiskit-qasm3-import[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	visualization? ( >=dev-python/matplotlib-3.3[${PYTHON_USEDEP}] )
+	visualization? ( >=dev-python/ipywidgets-7.3.0[${PYTHON_USEDEP}] )
 	visualization? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/pylatexenc[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/pygments[${PYTHON_USEDEP}] )"
+	visualization? ( >=dev-python/pillow-4.2.1[${PYTHON_USEDEP}] )
+	visualization? ( >=dev-python/pylatexenc-1.4[${PYTHON_USEDEP}] )
+	visualization? ( >=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
+	visualization? ( >=dev-python/pygments-2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

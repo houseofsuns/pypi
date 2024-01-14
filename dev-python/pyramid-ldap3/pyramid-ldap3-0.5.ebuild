@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs sampleapp testing"
 DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
-	dev-python/ldap3[${PYTHON_USEDEP}]
+	>=dev-python/ldap3-2.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/repoze-sphinx-autointerface[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )

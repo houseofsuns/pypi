@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/geocoder[${PYTHON_USEDEP}]
 	dev-python/mkdocs[${PYTHON_USEDEP}]
 	dev-python/mkdocs-material[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

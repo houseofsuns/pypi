@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
 DEPENDENCIES="develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	develop? ( dev-python/tox[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/tox-4.12[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	develop? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	develop? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	develop? ( dev-python/six[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/six-1.16.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pycmd[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	develop? ( dev-python/path[${PYTHON_USEDEP}] )"
+	develop? ( >=dev-python/path-13.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

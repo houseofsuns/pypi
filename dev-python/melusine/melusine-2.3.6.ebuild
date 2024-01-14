@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all emoji exchange lemmatizer stemmer tf_probability transformers viz"
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.34[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-1.0[${PYTHON_USEDEP}]
 	dev-python/flashtext[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.0[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	all? ( dev-python/emoji[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/emoji-1.6.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow-probability[${PYTHON_USEDEP}] )
 	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	all? ( dev-python/nltk[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	all? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	all? ( dev-python/spacy-lefff[${PYTHON_USEDEP}] )
 	all? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	emoji? ( dev-python/emoji[${PYTHON_USEDEP}] )
+	emoji? ( >=dev-python/emoji-1.6.3[${PYTHON_USEDEP}] )
 	exchange? ( dev-python/exchangelib[${PYTHON_USEDEP}] )
 	lemmatizer? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	lemmatizer? ( dev-python/spacy-lefff[${PYTHON_USEDEP}] )

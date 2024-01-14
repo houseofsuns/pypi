@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp-middlewares[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
+	<dev-python/attrs-24.0[${PYTHON_USEDEP}]
+	<dev-python/email-validator-3.0.0[${PYTHON_USEDEP}]
 	dev-python/environ-config[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/openapi-core[${PYTHON_USEDEP}]
-	dev-python/openapi-spec-validator[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]"
+	<dev-python/isodate-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/openapi-core-0.13.7[${PYTHON_USEDEP}]
+	~dev-python/openapi-spec-validator-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/pyrsistent-0.20[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

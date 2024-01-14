@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev docs lint redis snappy test thrift typecheck zeromq"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.4[${PYTHON_USEDEP}]
 	dev-python/temporenc[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	build? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	>=dev-python/yarl-1.8.2[${PYTHON_USEDEP}]
+	build? ( >=dev-python/build-1.0.3[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/wheel-0.41.0[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/towncrier-22.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff-lsp[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	snappy? ( dev-python/python-snappy[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.6.0[${PYTHON_USEDEP}] )
+	snappy? ( >=dev-python/python-snappy-0.6.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/Click[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.21[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-3.10[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	thrift? ( dev-python/thriftpy2[${PYTHON_USEDEP}] )
-	typecheck? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	thrift? ( >=dev-python/thriftpy2-0.4.16[${PYTHON_USEDEP}] )
+	typecheck? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
 	typecheck? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
-	zeromq? ( dev-python/pyzmq[${PYTHON_USEDEP}] )"
+	zeromq? ( >=dev-python/pyzmq-23.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

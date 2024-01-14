@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/schema[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
 	dev-python/lupa[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

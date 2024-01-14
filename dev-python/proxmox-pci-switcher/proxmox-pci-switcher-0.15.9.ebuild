@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/proxmoxer[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/argh[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	~dev-python/paramiko-2.11.0[${PYTHON_USEDEP}]
+	~dev-python/argh-0.26.2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.10[${PYTHON_USEDEP}]
 	dev-python/Kivy[${PYTHON_USEDEP}]
 	dev-python/kivymd[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

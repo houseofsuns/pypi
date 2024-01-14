@@ -27,6 +27,6 @@ IUSE="test"
 DEPENDENCIES="dev-python/httpbin[${PYTHON_USEDEP}]
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/werkzeug[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/werkzeug-2.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

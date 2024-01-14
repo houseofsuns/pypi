@@ -25,36 +25,36 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docs test"
 DEPENDENCIES="all? ( dev-python/furo[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10[${PYTHON_USEDEP}] )
 	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.942[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/black-22.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev-python/lark[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	test? ( ~dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	~dev-python/lark-1.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.6[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.7[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
-	all? ( dev-python/lark[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/lark-1.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/numpy-1.22[${PYTHON_USEDEP}] )
 	all? ( dev-python/onnx[${PYTHON_USEDEP}] )
-	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/psutil-5.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/scipy-1.7[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/isort-5.10[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mypy-0.942[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/torch[${PYTHON_USEDEP}] )
 	test? ( dev-python/torchvision[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

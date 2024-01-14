@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jupyter"
-DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/hjson[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	jupyter? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/termcolor[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	jupyter? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/termcolor-3.0.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
 	dev-python/PyJWT[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

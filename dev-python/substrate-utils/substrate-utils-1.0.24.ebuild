@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/websockets[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/websockets-8.1[${PYTHON_USEDEP}]
 	dev-python/scalecodec[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/py-bip39-bindings[${PYTHON_USEDEP}]
 	dev-python/py-sr25519-bindings[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	~dev-python/xxhash-1.4.3[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/coverage-5.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipython-7.14.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/portray[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

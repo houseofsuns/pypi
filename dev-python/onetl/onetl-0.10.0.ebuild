@@ -29,18 +29,18 @@ DEPENDENCIES="dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/evacuator[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-3.6.0[${PYTHON_USEDEP}]
 	dev-python/ordered-set[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/ftputil[${PYTHON_USEDEP}] )
 	all? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	all? ( dev-python/hdfs[${PYTHON_USEDEP}] )
 	all? ( dev-python/minio[${PYTHON_USEDEP}] )
 	all? ( dev-python/webdavclient3[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/requests-kerberos-0.7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	files? ( dev-python/ftputil[${PYTHON_USEDEP}] )
 	files? ( dev-python/paramiko[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/deprecated[${PYTHON_USEDEP}]
 	ftp? ( dev-python/ftputil[${PYTHON_USEDEP}] )
 	ftps? ( dev-python/ftputil[${PYTHON_USEDEP}] )
 	hdfs? ( dev-python/hdfs[${PYTHON_USEDEP}] )
-	kerberos? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
+	kerberos? ( >=dev-python/requests-kerberos-0.7.0[${PYTHON_USEDEP}] )
 	s3? ( dev-python/minio[${PYTHON_USEDEP}] )
 	samba? ( dev-python/pysmb[${PYTHON_USEDEP}] )
 	sftp? ( dev-python/paramiko[${PYTHON_USEDEP}] )

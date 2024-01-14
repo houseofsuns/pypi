@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs qa test"
 DEPENDENCIES="qa? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	qa? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/google-api-core-1.26.2[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-1.28.0[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-httplib2-0.1.0[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-oauthlib-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/googleapis-common-protos-1.53.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.16.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

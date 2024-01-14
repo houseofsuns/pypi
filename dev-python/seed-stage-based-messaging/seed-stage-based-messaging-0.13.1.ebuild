@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.9.1[${PYTHON_USEDEP}]
 	dev-python/coreapi[${PYTHON_USEDEP}]
-	dev-python/dj-database-url[${PYTHON_USEDEP}]
+	~dev-python/dj-database-url-0.5.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/raven[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	~dev-python/django-filter-2.0.0[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/pytz-2018.5[${PYTHON_USEDEP}]
+	~dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/seed-services-client[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
+	~dev-python/croniter-0.3.25[${PYTHON_USEDEP}]
 	dev-python/sftpclone[${PYTHON_USEDEP}]
-	dev-python/django-prometheus[${PYTHON_USEDEP}]
+	~dev-python/django-prometheus-1.0.15[${PYTHON_USEDEP}]
 	dev-python/django-environ[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

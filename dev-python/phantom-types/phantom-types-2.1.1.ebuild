@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dateutil hypothesis phonenumbers pydantic test"
-DEPENDENCIES="dev-python/typeguard[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typeguard-4.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
 	dev-python/numerary[${PYTHON_USEDEP}]
 	all? ( dev-python/phantom-types[${PYTHON_USEDEP}] )
 	all? ( dev-python/phantom-types[${PYTHON_USEDEP}] )
 	all? ( dev-python/phantom-types[${PYTHON_USEDEP}] )
 	all? ( dev-python/phantom-types[${PYTHON_USEDEP}] )
-	dateutil? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	hypothesis? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	phonenumbers? ( dev-python/phonenumbers[${PYTHON_USEDEP}] )
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dateutil? ( >=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
+	hypothesis? ( >=dev-python/hypothesis-6.68.0[${PYTHON_USEDEP}] )
+	phonenumbers? ( >=dev-python/phonenumbers-8.12.41[${PYTHON_USEDEP}] )
+	pydantic? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-0.991[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mypy-plugins[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"

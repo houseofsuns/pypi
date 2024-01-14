@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/asgiref-3.3.1[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.13.4[${PYTHON_USEDEP}]
 	dev-python/quart[${PYTHON_USEDEP}]
 	dev-python/quart-compress[${PYTHON_USEDEP}]
 	dev-python/flask-caching[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	~dev-python/click-7.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

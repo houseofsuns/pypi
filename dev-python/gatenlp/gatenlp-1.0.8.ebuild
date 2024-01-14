@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all alldev base clientelg clientgatecloud clientgooglenlp clientibm clientperspective clients clienttagme clienttextrazor dev formats github java mltner nltk notebook ray spacy stanza"
-DEPENDENCIES="dev-python/sortedcontainers[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sortedcontainers-2.0.0[${PYTHON_USEDEP}]
 	dev-python/iobes[${PYTHON_USEDEP}]
-	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/conllu[${PYTHON_USEDEP}] )
 	all? ( dev-python/elg[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
@@ -36,10 +36,10 @@ DEPENDENCIES="dev-python/sortedcontainers[${PYTHON_USEDEP}]
 	all? ( dev-python/msgpack[${PYTHON_USEDEP}] )
 	all? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	all? ( dev-python/py4j[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyyaml-5.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/ray[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
-	all? ( dev-python/sortedcontainers[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sortedcontainers-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	all? ( dev-python/stanza[${PYTHON_USEDEP}] )
 	all? ( dev-python/tner[${PYTHON_USEDEP}] )
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/sortedcontainers[${PYTHON_USEDEP}]
 	alldev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	alldev? ( dev-python/voila[${PYTHON_USEDEP}] )
-	base? ( dev-python/sortedcontainers[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/sortedcontainers-2.0.0[${PYTHON_USEDEP}] )
 	base? ( dev-python/iobes[${PYTHON_USEDEP}] )
 	clientelg? ( dev-python/requests[${PYTHON_USEDEP}] )
 	clientelg? ( dev-python/elg[${PYTHON_USEDEP}] )
@@ -92,8 +92,8 @@ DEPENDENCIES="dev-python/sortedcontainers[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	formats? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	formats? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	formats? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
+	formats? ( >=dev-python/pyyaml-5.2[${PYTHON_USEDEP}] )
+	formats? ( >=dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}] )
 	formats? ( dev-python/requests[${PYTHON_USEDEP}] )
 	formats? ( dev-python/conllu[${PYTHON_USEDEP}] )
 	formats? ( dev-python/iobes[${PYTHON_USEDEP}] )

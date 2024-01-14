@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all api auth crypt dev objectstorage"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	all? ( dev-python/ghga-service-commons[${PYTHON_USEDEP}] )
 	api? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	api? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	api? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	api? ( <dev-python/uvicorn-0.24[${PYTHON_USEDEP}] )
+	api? ( <dev-python/httpx-0.26[${PYTHON_USEDEP}] )
 	api? ( dev-python/ghga-service-commons[${PYTHON_USEDEP}] )
-	auth? ( dev-python/jwcrypto[${PYTHON_USEDEP}] )
-	auth? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	crypt? ( dev-python/pynacl[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
+	auth? ( <dev-python/jwcrypto-2.0[${PYTHON_USEDEP}] )
+	auth? ( <dev-python/pydantic-3.0[${PYTHON_USEDEP}] )
+	crypt? ( <dev-python/pynacl-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
 	objectstorage? ( dev-python/hexkit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

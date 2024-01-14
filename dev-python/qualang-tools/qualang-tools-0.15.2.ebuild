@@ -31,16 +31,16 @@ DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/dash-dangerously-set-inner-html[${PYTHON_USEDEP}]
 	dev-python/dash-html-components[${PYTHON_USEDEP}]
 	dev-python/dash-table[${PYTHON_USEDEP}]
-	interplot? ( dev-python/dill[${PYTHON_USEDEP}] )
-	dev-python/docutils[${PYTHON_USEDEP}]
-	interplot? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	interplot? ( <dev-python/dill-0.4.0[${PYTHON_USEDEP}] )
+	>=dev-python/docutils-0.14.0[${PYTHON_USEDEP}]
+	interplot? ( <dev-python/ipython-8.0.0[${PYTHON_USEDEP}] )
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.4[${PYTHON_USEDEP}]
 	interplot? ( dev-python/pypiwin32[${PYTHON_USEDEP}] )
 	dev-python/qm-qua[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]"
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/waitress-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

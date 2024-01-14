@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="sa"
 DEPENDENCIES="dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	sa? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	<dev-python/async-timeout-5.0[${PYTHON_USEDEP}]
+	sa? ( <dev-python/sqlalchemy-2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

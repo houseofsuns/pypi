@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.9.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )

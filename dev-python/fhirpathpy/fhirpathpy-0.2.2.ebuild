@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.8[${PYTHON_USEDEP}]
+	test? ( ~dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/freezegun-1.2.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pyyaml-5.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

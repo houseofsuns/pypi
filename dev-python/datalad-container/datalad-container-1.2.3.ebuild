@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="devel extras"
 DEPENDENCIES="dev-python/datalad[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-1.2[${PYTHON_USEDEP}]
 	devel? ( dev-python/datalad-metalad[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

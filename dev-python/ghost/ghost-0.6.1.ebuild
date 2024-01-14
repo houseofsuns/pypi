@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="consul elasticsearch sqlalchemy vault"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-6.7[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	consul? ( dev-python/requests[${PYTHON_USEDEP}] )
-	elasticsearch? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	>=dev-python/cryptography-1.5.0[${PYTHON_USEDEP}]
+	consul? ( >=dev-python/requests-2.11.1[${PYTHON_USEDEP}] )
+	elasticsearch? ( >=dev-python/elasticsearch-2.4.0[${PYTHON_USEDEP}] )
+	sqlalchemy? ( >=dev-python/sqlalchemy-1.0.15[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
-	vault? ( dev-python/hvac[${PYTHON_USEDEP}] )"
+	vault? ( >=dev-python/hvac-0.2.16[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

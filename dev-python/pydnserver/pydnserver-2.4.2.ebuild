@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pip-18.1[${PYTHON_USEDEP}]
+	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	~dev-python/dnspython-1.16.0[${PYTHON_USEDEP}]
 	dev-python/logging-helper[${PYTHON_USEDEP}]
 	dev-python/configurationutil[${PYTHON_USEDEP}]
 	dev-python/tableutil[${PYTHON_USEDEP}]

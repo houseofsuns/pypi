@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	develop? ( dev-python/black[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/pytest-6.1.0[${PYTHON_USEDEP}]
+	develop? ( >=dev-python/black-22.12.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )

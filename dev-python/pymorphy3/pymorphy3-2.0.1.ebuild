@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli fast"
 DEPENDENCIES="dev-python/dawg-python[${PYTHON_USEDEP}]
 	dev-python/pymorphy3-dicts-ru[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-68.2.2[${PYTHON_USEDEP}]
 	cli? ( dev-python/click[${PYTHON_USEDEP}] )
 	fast? ( dev-python/DAWG[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

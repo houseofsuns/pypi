@@ -27,18 +27,18 @@ IUSE="dev prod test"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/bpy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-6.7[${PYTHON_USEDEP}]
 	dev-python/flask-restful[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	~dev-python/flask-1.1.1[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/rq[${PYTHON_USEDEP}]
+	~dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/redis-3.5.3[${PYTHON_USEDEP}]
+	~dev-python/rq-1.8.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	prod? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	prod? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	test? ( dev-python/fakeredis[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-5.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

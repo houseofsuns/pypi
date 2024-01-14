@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="sphinx test"
-DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docutils-0.13.1[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.1[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	sphinx? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )"

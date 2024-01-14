@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/beets[${PYTHON_USEDEP}]
-	dev-python/mediafile[${PYTHON_USEDEP}]"
+	>=dev-python/mediafile-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

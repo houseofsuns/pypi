@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/asn1crypto-1.5.1[${PYTHON_USEDEP}]
 	dev-python/oscrypto[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/toml[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylama[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/coverage-5.0.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pylint-2.12.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pylama-8.3.7[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylama-pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-22.6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyflakes[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pyflakes-2.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

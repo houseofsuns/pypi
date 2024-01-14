@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="documentation fast_fft"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.8[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.16[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.15[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	documentation? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	fast_fft? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )"

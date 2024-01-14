@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="debug graphql http validation"
 DEPENDENCIES="debug? ( dev-python/PySnooper[${PYTHON_USEDEP}] )
-	dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/genson[${PYTHON_USEDEP}]
+	<dev-python/argcomplete-4.0[${PYTHON_USEDEP}]
+	>=dev-python/black-19.10[${PYTHON_USEDEP}]
+	<dev-python/genson-2.0[${PYTHON_USEDEP}]
 	graphql? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
 	http? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	dev-python/inflect[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+	<dev-python/inflect-6.0[${PYTHON_USEDEP}]
+	<dev-python/isort-6.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	validation? ( dev-python/openapi-spec-validator[${PYTHON_USEDEP}] )
+	validation? ( <dev-python/openapi-spec-validator-0.7.0[${PYTHON_USEDEP}] )
 	dev-python/packaging[${PYTHON_USEDEP}]
 	validation? ( dev-python/prance[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

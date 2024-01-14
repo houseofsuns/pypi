@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pop[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.23.10[${PYTHON_USEDEP}]
 	dev-python/idem[${PYTHON_USEDEP}]
 	dev-python/python-hcl2[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.4[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml-jinja2[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+	~dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	dev-python/idem-aws[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
 	dev-python/idem-data-insights[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

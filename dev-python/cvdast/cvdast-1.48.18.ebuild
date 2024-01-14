@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/autopep8[${PYTHON_USEDEP}]
+	~dev-python/autopep8-1.5.4[${PYTHON_USEDEP}]
 	dev-python/curlify[${PYTHON_USEDEP}]
 	dev-python/cvapianalyser[${PYTHON_USEDEP}]
 	dev-python/dictor[${PYTHON_USEDEP}]
@@ -34,16 +34,16 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/openapispecdiff[${PYTHON_USEDEP}]
 	dev-python/pytest-cases[${PYTHON_USEDEP}]
 	dev-python/pytest-html[${PYTHON_USEDEP}]
-	dev-python/pytest-metadata[${PYTHON_USEDEP}]
+	~dev-python/pytest-metadata-1.11.0[${PYTHON_USEDEP}]
 	dev-python/pytest-json[${PYTHON_USEDEP}]
-	dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}]
-	dev-python/pytest-rerunfailures[${PYTHON_USEDEP}]
+	~dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}]
+	~dev-python/pytest-rerunfailures-9.0[${PYTHON_USEDEP}]
 	dev-python/pytest-testrail[${PYTHON_USEDEP}]
-	dev-python/pytest-timeout[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	~dev-python/pytest-timeout-1.4.2[${PYTHON_USEDEP}]
+	~dev-python/pytest-5.4.3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.46.1[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]"
+	~dev-python/validators-0.18.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

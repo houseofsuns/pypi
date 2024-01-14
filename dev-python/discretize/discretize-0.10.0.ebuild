@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all build doc omf plot style test viz"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	viz? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	viz? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	omf? ( dev-python/omf[${PYTHON_USEDEP}] )
 	all? ( dev-python/discretize[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	doc? ( >dev-python/sphinx-4.1.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/pydata-sphinx-theme-0.9.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-gallery-0.1.13[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/numpydoc-1.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	doc? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pymatsolver[${PYTHON_USEDEP}] )
@@ -44,18 +44,18 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/sympy[${PYTHON_USEDEP}] )
 	test? ( dev-python/discretize[${PYTHON_USEDEP}] )
-	style? ( dev-python/black[${PYTHON_USEDEP}] )
-	style? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	style? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	style? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	style? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	style? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	style? ( dev-python/flake8-mutable[${PYTHON_USEDEP}] )
 	style? ( dev-python/flake8-rst-docstrings[${PYTHON_USEDEP}] )
 	style? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	build? ( dev-python/meson-python[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/meson-python-0.14.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/meson[${PYTHON_USEDEP}] )
 	build? ( dev-python/ninja[${PYTHON_USEDEP}] )
-	build? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	build? ( dev-python/cython[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/numpy-1.22.4[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/cython-0.29.35[${PYTHON_USEDEP}] )
 	build? ( dev-python/setuptools_scm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

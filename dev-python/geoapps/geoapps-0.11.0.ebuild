@@ -26,40 +26,40 @@ KEYWORDS="~amd64 ~x86"
 IUSE="apps core"
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	apps? ( dev-python/dash-daq[${PYTHON_USEDEP}] )
-	core? ( dev-python/dask[${PYTHON_USEDEP}] )
+	core? ( ~dev-python/dask-2022.10[${PYTHON_USEDEP}] )
 	core? ( dev-python/discretize[${PYTHON_USEDEP}] )
 	core? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	core? ( dev-python/empymod[${PYTHON_USEDEP}] )
 	core? ( dev-python/fiona[${PYTHON_USEDEP}] )
-	core? ( dev-python/fsspec[${PYTHON_USEDEP}] )
+	core? ( ~dev-python/fsspec-2022.0[${PYTHON_USEDEP}] )
 	core? ( dev-python/gdal[${PYTHON_USEDEP}] )
 	core? ( dev-python/geoana[${PYTHON_USEDEP}] )
 	dev-python/geoh5py[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
 	apps? ( dev-python/ipyfilechooser[${PYTHON_USEDEP}] )
-	apps? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	apps? ( <dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}] )
 	dev-python/las-geoh5[${PYTHON_USEDEP}]
-	core? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	core? ( <dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}] )
 	dev-python/mira-omf[${PYTHON_USEDEP}]
 	core? ( dev-python/mira-simpeg[${PYTHON_USEDEP}] )
 	core? ( dev-python/mkl[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
-	core? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
+	core? ( <dev-python/pandas-1.6.0[${PYTHON_USEDEP}] )
 	dev-python/param-sweeps[${PYTHON_USEDEP}]
-	apps? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	apps? ( <dev-python/plotly-5.14.0[${PYTHON_USEDEP}] )
 	dev-python/properties[${PYTHON_USEDEP}]
 	core? ( dev-python/pydiso[${PYTHON_USEDEP}] )
 	core? ( dev-python/pymatsolver[${PYTHON_USEDEP}] )
-	dev-python/pypng[${PYTHON_USEDEP}]
+	<dev-python/pypng-0.20220716[${PYTHON_USEDEP}]
 	apps? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
-	apps? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	apps? ( <dev-python/pyside2-5.16[${PYTHON_USEDEP}] )
 	core? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	core? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	<dev-python/scipy-1.11.0[${PYTHON_USEDEP}]
+	<dev-python/semver-3.1.0[${PYTHON_USEDEP}]
 	core? ( dev-python/simpeg-archive[${PYTHON_USEDEP}] )
-	dev-python/six[${PYTHON_USEDEP}]
-	core? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	<dev-python/six-2.0[${PYTHON_USEDEP}]
+	core? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
 	dev-python/vectormath[${PYTHON_USEDEP}]
 	core? ( dev-python/zarr[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

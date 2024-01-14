@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="levenshtein pylev"
 DEPENDENCIES="levenshtein? ( dev-python/python-Levenshtein[${PYTHON_USEDEP}] )
-	pylev? ( dev-python/pylev[${PYTHON_USEDEP}] )"
+	pylev? ( >=dev-python/pylev-1.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

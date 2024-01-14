@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-16.3.0[${PYTHON_USEDEP}]
+	>=dev-python/pendulum-1.2.0[${PYTHON_USEDEP}]
 	dev-python/singer-python[${PYTHON_USEDEP}]
 	dev-python/pymssql[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]"
+	>=dev-python/backoff-1.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

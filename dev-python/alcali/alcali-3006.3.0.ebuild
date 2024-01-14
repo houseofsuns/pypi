@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev ldap social"
-DEPENDENCIES="dev-python/ansi2html[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/django-cors-headers[${PYTHON_USEDEP}]
+	~dev-python/django-cors-headers-4.2.0[${PYTHON_USEDEP}]
 	dev-python/django-currentuser[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-simplejwt[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/salt-pepper[${PYTHON_USEDEP}]
 	dev-python/whitenoise[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	ldap? ( dev-python/django-auth-ldap[${PYTHON_USEDEP}] )
-	ldap? ( dev-python/python-ldap[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipython-7.31.1[${PYTHON_USEDEP}] )
+	ldap? ( ~dev-python/django-auth-ldap-4.5.0[${PYTHON_USEDEP}] )
+	ldap? ( ~dev-python/python-ldap-3.4.3[${PYTHON_USEDEP}] )
 	social? ( dev-python/rest-social-auth[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

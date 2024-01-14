@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/Genshi[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-stdnum[${PYTHON_USEDEP}]
+	>=dev-python/python-stdnum-1.0[${PYTHON_USEDEP}]
 	dev-python/trytond-account-payment[${PYTHON_USEDEP}]
 	dev-python/trytond-company[${PYTHON_USEDEP}]
 	dev-python/trytond-bank[${PYTHON_USEDEP}]

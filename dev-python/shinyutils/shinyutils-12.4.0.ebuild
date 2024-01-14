@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="colors"
 DEPENDENCIES="dev-python/corgy[${PYTHON_USEDEP}]
-	colors? ( dev-python/rich[${PYTHON_USEDEP}] )
+	colors? ( <dev-python/rich-11.0[${PYTHON_USEDEP}] )
 	colors? ( dev-python/crayons[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

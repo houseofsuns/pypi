@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/qtconsole[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/qtconsole-4.5.1[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

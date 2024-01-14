@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cython-0.29.32[${PYTHON_USEDEP}]
 	dev-python/pycodestyle[${PYTHON_USEDEP}]
-	dev-python/tokenize-rt[${PYTHON_USEDEP}]
+	>=dev-python/tokenize-rt-3.2.0[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

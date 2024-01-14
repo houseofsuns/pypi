@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/markdown-3.4[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-1.1[${PYTHON_USEDEP}]
 	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
 	dev-python/mkdocs-material[${PYTHON_USEDEP}]
 	dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}]
 	dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}]
-	dev-python/mkdocs-git-authors-plugin[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-git-authors-plugin-0.6.2[${PYTHON_USEDEP}]
 	dev-python/mkdocs-mermaid2-plugin[${PYTHON_USEDEP}]
 	dev-python/mkdocs-git-revision-date-plugin[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]"
+	>=dev-python/natsort-8.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

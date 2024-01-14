@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc full test test-ci"
 DEPENDENCIES="doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-5.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-code-tabs[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	full? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	full? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	full? ( dev-python/black[${PYTHON_USEDEP}] )
-	full? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	full? ( <dev-python/sphinx-5.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/cattrs[${PYTHON_USEDEP}] )

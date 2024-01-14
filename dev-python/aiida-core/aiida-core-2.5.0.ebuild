@@ -24,85 +24,85 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="atomic_tools bpython docs notebook pre-commit rest ssh_kerberos tests tui"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/alembic-1.2[${PYTHON_USEDEP}]
 	dev-python/archive-path[${PYTHON_USEDEP}]
 	dev-python/aio-pika[${PYTHON_USEDEP}]
 	dev-python/circus[${PYTHON_USEDEP}]
 	dev-python/click-spinner[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/disk-objectstore[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/jedi[${PYTHON_USEDEP}]
+	~dev-python/graphviz-0.19[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.0[${PYTHON_USEDEP}]
+	<dev-python/jedi-0.19[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/kiwipy[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-6.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	~dev-python/paramiko-2.7[${PYTHON_USEDEP}]
 	dev-python/plumpy[${PYTHON_USEDEP}]
 	dev-python/pgsu[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.6[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.4[${PYTHON_USEDEP}]
+	~dev-python/pytz-2021.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.0[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.5[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.45[${PYTHON_USEDEP}]
 	dev-python/upf_to_json[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	~dev-python/wrapt-1.11[${PYTHON_USEDEP}]
 	atomic_tools? ( dev-python/PyCifRW[${PYTHON_USEDEP}] )
 	atomic_tools? ( dev-python/ase[${PYTHON_USEDEP}] )
-	atomic_tools? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	atomic_tools? ( ~dev-python/matplotlib-3.3[${PYTHON_USEDEP}] )
 	atomic_tools? ( dev-python/pymatgen[${PYTHON_USEDEP}] )
-	atomic_tools? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	atomic_tools? ( ~dev-python/pymysql-0.9.3[${PYTHON_USEDEP}] )
 	atomic_tools? ( dev-python/seekpath[${PYTHON_USEDEP}] )
 	atomic_tools? ( dev-python/spglib[${PYTHON_USEDEP}] )
-	bpython? ( dev-python/bpython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	bpython? ( ~dev-python/bpython-0.18.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pydata-sphinx-theme-0.13.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-notfound-page-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-rediraffe[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-sqlalchemy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-intl[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	notebook? ( ~dev-python/jupyter-client-8.0[${PYTHON_USEDEP}] )
+	notebook? ( ~dev-python/jupyter-1.0[${PYTHON_USEDEP}] )
+	notebook? ( ~dev-python/notebook-6.1[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/mypy-1.7[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/packaging-23.0[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/pylint-2.17.4[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/pylint-aiida[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	rest? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
+	rest? ( ~dev-python/flask-cors-3.0[${PYTHON_USEDEP}] )
 	rest? ( dev-python/flask-restful[${PYTHON_USEDEP}] )
-	rest? ( dev-python/flask[${PYTHON_USEDEP}] )
-	rest? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
-	rest? ( dev-python/python-memcached[${PYTHON_USEDEP}] )
+	rest? ( ~dev-python/flask-2.2[${PYTHON_USEDEP}] )
+	rest? ( ~dev-python/pyparsing-2.4[${PYTHON_USEDEP}] )
+	rest? ( ~dev-python/python-memcached-1.59[${PYTHON_USEDEP}] )
 	rest? ( dev-python/seekpath[${PYTHON_USEDEP}] )
-	ssh_kerberos? ( dev-python/gssapi[${PYTHON_USEDEP}] )
-	ssh_kerberos? ( dev-python/pyasn1[${PYTHON_USEDEP}] )
+	ssh_kerberos? ( ~dev-python/gssapi-1.6[${PYTHON_USEDEP}] )
+	ssh_kerberos? ( ~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aiida-export-migration-tests[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pg8000[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pgtest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-asyncio-0.12[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-timeout-2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-2.7[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-rerunfailures-12.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-regressions-2.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pympler[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/coverage-6.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/sphinx-7.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/docutils-0.20[${PYTHON_USEDEP}] )
 	tui? ( dev-python/trogon[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

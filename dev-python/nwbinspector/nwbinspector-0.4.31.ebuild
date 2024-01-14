@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/pynwb[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	dandi? ( dev-python/dandi[${PYTHON_USEDEP}] )
 	zarr? ( dev-python/hdmf-zarr[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

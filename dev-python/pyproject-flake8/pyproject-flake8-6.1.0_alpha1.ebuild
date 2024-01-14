@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]"
+	>=dev-python/flake8-6.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

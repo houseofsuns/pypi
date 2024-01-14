@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
 	dev-python/srvlookup[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
 	dev-python/meraki[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

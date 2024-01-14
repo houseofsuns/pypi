@@ -27,13 +27,13 @@ IUSE="docs test"
 DEPENDENCIES="dev-python/Cerberus[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-3.8.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-django-3.4.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-4.2.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

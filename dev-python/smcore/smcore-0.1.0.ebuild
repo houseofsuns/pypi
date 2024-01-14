@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pycurl[${PYTHON_USEDEP}]"
+	~dev-python/pycurl-7.45.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

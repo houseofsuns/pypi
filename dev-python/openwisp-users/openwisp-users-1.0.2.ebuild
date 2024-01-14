@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/django-organizations[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
 	dev-python/django-allauth[${PYTHON_USEDEP}]
 	dev-python/django-phonenumber-field[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
+	<dev-python/phonenumbers-8.13.0[${PYTHON_USEDEP}]
 	dev-python/openwisp-utils[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/django-sesame[${PYTHON_USEDEP}]"

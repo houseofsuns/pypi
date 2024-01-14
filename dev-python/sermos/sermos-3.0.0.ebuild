@@ -25,39 +25,39 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev docs flask generators proxy test web workers"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	<dev-python/croniter-2.0[${PYTHON_USEDEP}]
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/honcho[${PYTHON_USEDEP}] )
 	dev? ( dev-python/awscli[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.5.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-licenses[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.0.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/boto3-1.11[${PYTHON_USEDEP}] )
 	docs? ( dev-python/celery[${PYTHON_USEDEP}] )
 	flask? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	flask? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask-smorest[${PYTHON_USEDEP}] )
-	generators? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	generators? ( >=dev-python/boto3-1.11[${PYTHON_USEDEP}] )
 	proxy? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
-	proxy? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	proxy? ( <dev-python/cryptography-4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mock-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/moto[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
-	test? ( dev-python/fakeredis[${PYTHON_USEDEP}] )
-	test? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
+	test? ( <dev-python/responses-0.11[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/fakeredis-1.0.5[${PYTHON_USEDEP}] )
+	test? ( <dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	web? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	workers? ( dev-python/celery[${PYTHON_USEDEP}] )
-	workers? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	workers? ( dev-python/redis[${PYTHON_USEDEP}] )
+	workers? ( >=dev-python/networkx-2.4[${PYTHON_USEDEP}] )
+	workers? ( >=dev-python/redis-3.3.11[${PYTHON_USEDEP}] )
 	workers? ( dev-python/rhodb[${PYTHON_USEDEP}] )
 	workers? ( dev-python/sermos-tools[${PYTHON_USEDEP}] )
-	workers? ( dev-python/boto3[${PYTHON_USEDEP}] )"
+	workers? ( >=dev-python/boto3-1.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

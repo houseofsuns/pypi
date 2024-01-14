@@ -25,31 +25,31 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev doc test"
 DEPENDENCIES="dev-python/geopy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-scm-6.3.2[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-21.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.26[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/requests[${PYTHON_USEDEP}] )
-	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/notebook-6.4.1[${PYTHON_USEDEP}] )
+	doc? ( >dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/furo-2023.3.27[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/altair[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
-	test? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	test? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/nbsphinx-0.9.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-autoapi-2.1.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-inline-tabs-2023.4.21[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinxcontrib-programoutput-0.17[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/deepdiff-5.7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

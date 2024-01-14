@@ -24,41 +24,41 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all autopep8 flake8 mccabe pycodestyle pydocstyle pyflakes pylint rope test websockets yapf"
-DEPENDENCIES="dev-python/jedi[${PYTHON_USEDEP}]
-	dev-python/python-lsp-jsonrpc[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jedi-0.19.0[${PYTHON_USEDEP}]
+	>=dev-python/python-lsp-jsonrpc-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ujson-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-39.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	all? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	all? ( dev-python/mccabe[${PYTHON_USEDEP}] )
-	all? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	all? ( dev-python/rope[${PYTHON_USEDEP}] )
+	all? ( <dev-python/autopep8-1.7.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/flake8-5.1.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/mccabe-0.8.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pycodestyle-2.10.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pydocstyle-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyflakes-2.6.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pylint-2.5.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/rope-0.10.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	all? ( dev-python/whatthepatch[${PYTHON_USEDEP}] )
-	autopep8? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	flake8? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	mccabe? ( dev-python/mccabe[${PYTHON_USEDEP}] )
-	pycodestyle? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	pydocstyle? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	pyflakes? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	pylint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	rope? ( dev-python/rope[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	autopep8? ( <dev-python/autopep8-1.7.0[${PYTHON_USEDEP}] )
+	flake8? ( <dev-python/flake8-5.1.0[${PYTHON_USEDEP}] )
+	mccabe? ( <dev-python/mccabe-0.8.0[${PYTHON_USEDEP}] )
+	pycodestyle? ( <dev-python/pycodestyle-2.10.0[${PYTHON_USEDEP}] )
+	pydocstyle? ( >=dev-python/pydocstyle-2.0.0[${PYTHON_USEDEP}] )
+	pyflakes? ( <dev-python/pyflakes-2.6.0[${PYTHON_USEDEP}] )
+	pylint? ( >=dev-python/pylint-2.5.0[${PYTHON_USEDEP}] )
+	rope? ( >dev-python/rope-0.10.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pylint-2.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	test? ( <dev-python/numpy-1.23[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	websockets? ( dev-python/websockets[${PYTHON_USEDEP}] )
+	websockets? ( >=dev-python/websockets-10.3[${PYTHON_USEDEP}] )
 	yapf? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	yapf? ( dev-python/whatthepatch[${PYTHON_USEDEP}] )"
+	yapf? ( <dev-python/whatthepatch-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

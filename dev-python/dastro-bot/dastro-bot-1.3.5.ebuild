@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.4.4[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
 	dev-python/base-astro-bot[${PYTHON_USEDEP}]
 	dev-python/disco-py[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-0.44.0[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/attrdict[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
+	<dev-python/click-default-group-2.0.0[${PYTHON_USEDEP}]
 	dev-python/daemonocle[${PYTHON_USEDEP}]
-	dev-python/expandvars[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
+	>=dev-python/expandvars-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/jsonpickle-1.3[${PYTHON_USEDEP}]
 	dev-python/sdss-access[${PYTHON_USEDEP}]
 	dev-python/sdss-clu[${PYTHON_USEDEP}]
 	dev-python/sdss-tree[${PYTHON_USEDEP}]

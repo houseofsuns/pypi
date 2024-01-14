@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/types-pytz[${PYTHON_USEDEP}]
 	dev-python/types-PyYAML[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
-	compatible-mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	compatible-mypy? ( ~dev-python/mypy-1.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

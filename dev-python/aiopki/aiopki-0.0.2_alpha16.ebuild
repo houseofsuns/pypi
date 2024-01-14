@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all azure google"
 DEPENDENCIES="dev-python/asyncio_atexit[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
 	dev-python/canonical[${PYTHON_USEDEP}]
 	dev-python/crcmod[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-keyvault-keys[${PYTHON_USEDEP}] )

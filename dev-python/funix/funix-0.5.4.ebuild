@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all git ipython pandas plot"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.2.2[${PYTHON_USEDEP}]
 	dev-python/functions-framework[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/plac[${PYTHON_USEDEP}]
 	dev-python/gitignore-parser[${PYTHON_USEDEP}]
 	dev-python/flask-sock[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/mpld3[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/GitPython-3.1.31[${PYTHON_USEDEP}] )
 	all? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipywidgets-8.0.7[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandera[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	git? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )
+	git? ( >=dev-python/GitPython-3.1.31[${PYTHON_USEDEP}] )
 	ipython? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	ipython? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	ipython? ( >=dev-python/ipywidgets-8.0.7[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandera[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )
+	plot? ( >=dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}] )
 	plot? ( dev-python/mpld3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

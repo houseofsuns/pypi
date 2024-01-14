@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/dbt-core[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/google-cloud-dataproc[${PYTHON_USEDEP}]
-	dev-python/google-api-core[${PYTHON_USEDEP}]"
+	>=dev-python/google-api-core-2.11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

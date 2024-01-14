@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-3.0[${PYTHON_USEDEP}]
 	dev-python/Flask-API[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

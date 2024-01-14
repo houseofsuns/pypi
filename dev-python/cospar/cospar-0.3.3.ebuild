@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.4[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
 	dev-python/plotnine[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
 	dev-python/fastcluster[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
@@ -40,16 +40,16 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/ete3[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
 	dev-python/gseapy[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpy-1.21[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/scipy-1.5.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scanpy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	docs? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pandas-1.1.4[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/plotnine[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/fastcluster[${PYTHON_USEDEP}] )
 	docs? ( dev-python/anndata[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numba[${PYTHON_USEDEP}] )
@@ -62,11 +62,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	docs? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
 	docs? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.3[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/sphinx-autodoc-typehints-1.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinx-3.5.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

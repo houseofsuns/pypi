@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/backports-strenum[${PYTHON_USEDEP}]
 	dev-python/cognite-sdk[${PYTHON_USEDEP}]
 	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
+	<dev-python/exceptiongroup-2.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	google? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	graphql? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-autorefs-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-git-authors-plugin[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-gitbook[${PYTHON_USEDEP}] )
@@ -51,17 +51,17 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	oxi? ( dev-python/oxrdflib[${PYTHON_USEDEP}] )
 	all? ( dev-python/oxrdflib[${PYTHON_USEDEP}] )
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.18.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
 	dev-python/pyoxigraph[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]
 	dev-python/rdflib[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]"
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

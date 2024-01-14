@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="notebooks qkeras testing"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	dev-python/clize[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/bitstring[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/bitstring-3.1.7[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.1[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
 	dev-python/sigtools[${PYTHON_USEDEP}]
-	dev-python/toposort[${PYTHON_USEDEP}]
+	>=dev-python/toposort-1.7.0[${PYTHON_USEDEP}]
 	notebooks? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/netron[${PYTHON_USEDEP}] )
 	qkeras? ( dev-python/pyparsing[${PYTHON_USEDEP}] )

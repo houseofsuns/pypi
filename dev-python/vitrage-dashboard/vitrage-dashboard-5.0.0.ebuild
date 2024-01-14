@@ -40,8 +40,8 @@ DEPENDENCIES="dev-python/XStatic-Angular-Bootstrap[${PYTHON_USEDEP}]
 	dev-python/XStatic-smart-table[${PYTHON_USEDEP}]
 	dev-python/django-compressor[${PYTHON_USEDEP}]
 	dev-python/horizon[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
+	>=dev-python/iso8601-0.1.11[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
 	dev-python/python-vitrageclient[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

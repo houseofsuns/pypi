@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="edu"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/pynput[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
 	dev-python/pybullet[${PYTHON_USEDEP}]
 	dev-python/meshcat[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	>=dev-python/PyQt5-5.15.10[${PYTHON_USEDEP}]
 	edu? ( dev-python/control[${PYTHON_USEDEP}] )
-	edu? ( dev-python/sympy[${PYTHON_USEDEP}] )
-	edu? ( dev-python/spyder[${PYTHON_USEDEP}] )
-	edu? ( dev-python/notebook[${PYTHON_USEDEP}] )"
+	edu? ( >=dev-python/sympy-1.12[${PYTHON_USEDEP}] )
+	edu? ( >=dev-python/spyder-5.5.0[${PYTHON_USEDEP}] )
+	edu? ( >=dev-python/notebook-7.0.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

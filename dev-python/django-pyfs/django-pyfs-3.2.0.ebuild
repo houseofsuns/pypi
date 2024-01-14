@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/fs[${PYTHON_USEDEP}]
+	>=dev-python/fs-2.0.1[${PYTHON_USEDEP}]
 	dev-python/fs-s3fs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

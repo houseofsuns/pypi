@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyrsistent-0.16.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	test? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	>=dev-python/cryptography-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/idna-2.10[${PYTHON_USEDEP}]
+	test? ( >=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/funcsigs[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/idna[${PYTHON_USEDEP}] )
-	test? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/idna-2.10[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/cryptography-2.8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyrsistent[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-2.21[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyrsistent-0.16.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

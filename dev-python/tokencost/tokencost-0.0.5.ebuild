@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev llama-index"
 DEPENDENCIES="dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
 	llama-index? ( dev-python/llama-index[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

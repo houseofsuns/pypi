@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc"
 DEPENDENCIES="dev-python/Mako[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/construct[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	>=dev-python/chardet-5.2.0[${PYTHON_USEDEP}]
+	<dev-python/construct-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
 	dev-python/python-can[${PYTHON_USEDEP}]
-	dev-python/pyusb[${PYTHON_USEDEP}]
+	<dev-python/pyusb-2.0.0[${PYTHON_USEDEP}]
 	dev-python/setuptools-cpp[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.9.0[${PYTHON_USEDEP}]
 	dev-python/uptime[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )"

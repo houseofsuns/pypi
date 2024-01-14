@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all astronomy docs qt recommended test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2[${PYTHON_USEDEP}]
 	dev-python/echo[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-30.3.0[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/qtconsole[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	>=dev-python/ipython-4.0[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-4.0[${PYTHON_USEDEP}]
+	>=dev-python/qtconsole-4.3[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.2[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.2[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0[${PYTHON_USEDEP}]
 	dev-python/mpl-scatter-density[${PYTHON_USEDEP}]
 	dev-python/pvextractor[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.10[${PYTHON_USEDEP}]
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyAVM[${PYTHON_USEDEP}] )
 	all? ( dev-python/astrodendro[${PYTHON_USEDEP}] )
-	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/h5py-2.10[${PYTHON_USEDEP}] )
 	all? ( dev-python/spectral-cube[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	all? ( >dev-python/pillow-7.1.0[${PYTHON_USEDEP}] )
 	astronomy? ( dev-python/PyAVM[${PYTHON_USEDEP}] )
 	astronomy? ( dev-python/astrodendro[${PYTHON_USEDEP}] )
 	astronomy? ( dev-python/spectral-cube[${PYTHON_USEDEP}] )
@@ -57,13 +57,13 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	qt? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	qt? ( >=dev-python/PyQt5-5.14[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-faulthandler[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/objgraph[${PYTHON_USEDEP}] )
-	test? ( dev-python/h5py[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/h5py-2.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

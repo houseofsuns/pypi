@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc quality"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/libsass[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-5.1[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}]
+	>=dev-python/libsass-0.19.4[${PYTHON_USEDEP}]
 	dev-python/pyaml[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	quality? ( dev-python/tox[${PYTHON_USEDEP}] )
 	quality? ( dev-python/twine[${PYTHON_USEDEP}] )
 	doc? ( dev-python/livereload[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/sphinx-4.3.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-1.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

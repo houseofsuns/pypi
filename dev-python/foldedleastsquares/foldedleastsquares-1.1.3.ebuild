@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cupy"
 DEPENDENCIES="dev-python/astroquery[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/batman-package[${PYTHON_USEDEP}]

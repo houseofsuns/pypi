@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/firebolt-sdk[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/devtools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/greenlet[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/greenlet-2.0.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-trio[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-trio-0.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlalchemy-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/trio-typing[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

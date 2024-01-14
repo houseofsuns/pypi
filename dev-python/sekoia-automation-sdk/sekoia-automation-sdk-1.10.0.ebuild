@@ -24,33 +24,33 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all async-aws async-files async-http logging"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/s3path[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-6.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/black[${PYTHON_USEDEP}]
 	dev-python/poetry[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	all? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	async-http? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	<dev-python/prometheus-client-0.17.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
+	async-http? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiolimiter[${PYTHON_USEDEP}] )
 	async-http? ( dev-python/aiolimiter[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	async-aws? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
-	async-http? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
-	async-files? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
+	all? ( <dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}] )
+	async-http? ( <dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}] )
+	async-files? ( <dev-python/aiofiles-24.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiocsv[${PYTHON_USEDEP}] )
 	async-files? ( dev-python/aiocsv[${PYTHON_USEDEP}] )
-	all? ( dev-python/loguru[${PYTHON_USEDEP}] )
-	logging? ( dev-python/loguru[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/loguru-0.8.0[${PYTHON_USEDEP}] )
+	logging? ( <dev-python/loguru-0.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

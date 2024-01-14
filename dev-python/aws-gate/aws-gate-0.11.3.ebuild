@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/boto3-1.26.151[${PYTHON_USEDEP}]
+	~dev-python/cryptography-39.0.2[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.19.0[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/unix-ar[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	tests? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	tests? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
+	~dev-python/wrapt-1.15.0[${PYTHON_USEDEP}]
+	tests? ( ~dev-python/attrs-22.2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/bandit-1.7.5[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dlint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-bandit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/hypothesis-6.68.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	tests? ( dev-python/placebo[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pylint-2.17.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-datadir[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-datadir-1.4.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pylint[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

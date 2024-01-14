@@ -25,32 +25,32 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ciso8601 dev"
 DEPENDENCIES="dev-python/aiorwlock[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+	>=dev-python/anyio-3.7.1[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/appdirs-stubs[${PYTHON_USEDEP}]
 	dev-python/async-generator[${PYTHON_USEDEP}]
 	dev-python/async-property[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/httpcore[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.4.0[${PYTHON_USEDEP}]
+	<dev-python/httpcore-0.17.3[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/readerwriterlock[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/trio[${PYTHON_USEDEP}]
+	>=dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}]
+	>=dev-python/trio-0.22.0[${PYTHON_USEDEP}]
 	ciso8601? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
 	dev? ( dev-python/allure-pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/devtools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-httpx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-trio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyfakefs-4.5.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-httpx-0.22.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-trio-0.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/trio-typing[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-cryptography[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bitstring[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bitstring-3.0.2[${PYTHON_USEDEP}]
 	dev-python/enum34[${PYTHON_USEDEP}]
 	dev-python/siphash[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/jupyter-packaging[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ipywidgets-9.0[${PYTHON_USEDEP}]
+	~dev-python/jupyter-packaging-0.7.9[${PYTHON_USEDEP}]
+	~dev-python/jupyterlab-3.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-40.8.0[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

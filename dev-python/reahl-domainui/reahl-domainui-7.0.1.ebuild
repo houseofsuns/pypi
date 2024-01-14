@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/reahl-component[${PYTHON_USEDEP}]
 	dev-python/reahl-web[${PYTHON_USEDEP}]
 	dev-python/reahl-web-declarative[${PYTHON_USEDEP}]
 	dev-python/reahl-domain[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	>=dev-python/setuptools-51.0.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/reahl-tofu[${PYTHON_USEDEP}] )
 	test? ( dev-python/reahl-stubble[${PYTHON_USEDEP}] )
 	test? ( dev-python/reahl-dev[${PYTHON_USEDEP}] )

@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES="dev-python/scrapli[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-24.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/darglint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylama[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nox-2023.4.22[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pycodestyle-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pydocstyle-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylama-9.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.17.5[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mdx-gh-links[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mdx-gh-links-1.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-gen-files-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-material-extensions-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-section-index[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/mkdocstrings-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

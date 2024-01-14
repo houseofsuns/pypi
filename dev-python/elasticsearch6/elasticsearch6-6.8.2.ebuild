@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop requests"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	develop? ( dev-python/requests[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/urllib3-1.21.1[${PYTHON_USEDEP}]
+	develop? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/nose[${PYTHON_USEDEP}] )
 	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	develop? ( dev-python/mock[${PYTHON_USEDEP}] )
@@ -33,8 +33,8 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	develop? ( dev-python/nosexcover[${PYTHON_USEDEP}] )
 	develop? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	requests? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	requests? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

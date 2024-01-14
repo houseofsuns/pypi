@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]
+	<dev-python/netifaces-0.12.0[${PYTHON_USEDEP}]
 	dev-python/pynvml[${PYTHON_USEDEP}]
 	dev-python/together-web3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev test toml yaml"
 DEPENDENCIES="dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/tomli[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tomli-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/python-dotenv-0.15.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tomli-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	test? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-dotenv-0.15.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tomli-2.0.0[${PYTHON_USEDEP}] )
+	toml? ( >=dev-python/tomli-2.0.0[${PYTHON_USEDEP}] )
+	yaml? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,9 +27,9 @@ IUSE="dev"
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/betterproto[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
-	dev? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/betterproto[${PYTHON_USEDEP}] )
-	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/grpcio-tools-1.44.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

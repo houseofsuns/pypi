@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docutils-0.12[${PYTHON_USEDEP}]
 	dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev-python/breathe[${PYTHON_USEDEP}]
+	>=dev-python/breathe-4.32.0[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"

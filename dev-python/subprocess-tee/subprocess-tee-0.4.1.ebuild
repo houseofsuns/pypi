@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="test? ( dev-python/enrich[${PYTHON_USEDEP}] )
+DEPENDENCIES="test? ( >=dev-python/enrich-1.2.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/molecule[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-plus[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-plus-0.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

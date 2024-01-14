@@ -31,12 +31,12 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	dev-python/imgaug[${PYTHON_USEDEP}]
 	dev-python/jsonargparse[${PYTHON_USEDEP}]
 	dev-python/kornia[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}]
 	dev-python/timm[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
 	full? ( dev-python/comet-ml[${PYTHON_USEDEP}] )
@@ -48,9 +48,9 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	full? ( dev-python/gitpython[${PYTHON_USEDEP}] )
 	full? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	full? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	full? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
-	full? ( dev-python/requests[${PYTHON_USEDEP}] )
-	full? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/networkx-2.5[${PYTHON_USEDEP}] )
 	full? ( dev-python/nncf[${PYTHON_USEDEP}] )
 	full? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	full? ( dev-python/openvino-dev[${PYTHON_USEDEP}] )
@@ -64,9 +64,9 @@ DEPENDENCIES="dev-python/albumentations[${PYTHON_USEDEP}]
 	notebooks? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	openvino? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
-	openvino? ( dev-python/requests[${PYTHON_USEDEP}] )
-	openvino? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	openvino? ( ~dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}] )
+	openvino? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
+	openvino? ( ~dev-python/networkx-2.5[${PYTHON_USEDEP}] )
 	openvino? ( dev-python/nncf[${PYTHON_USEDEP}] )
 	openvino? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	openvino? ( dev-python/openvino-dev[${PYTHON_USEDEP}] )"

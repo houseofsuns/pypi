@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bibtexparser[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/bibtexparser-1.1.0[${PYTHON_USEDEP}]
 	dev-python/BTrees[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
+	~dev-python/lazy-object-proxy-1.2.1[${PYTHON_USEDEP}]
 	dev-python/libneuroml[${PYTHON_USEDEP}]
-	dev-python/numpydoc[${PYTHON_USEDEP}]
+	>=dev-python/numpydoc-0.7.0[${PYTHON_USEDEP}]
 	dev-python/persistent[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/pow-store-zodb[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	>=dev-python/rdflib-4.1.2[${PYTHON_USEDEP}]
+	~dev-python/six-1.10[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.23.4[${PYTHON_USEDEP}]
+	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	dev-python/transaction[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	~dev-python/wrapt-1.10.11[${PYTHON_USEDEP}]
 	dev-python/yarom[${PYTHON_USEDEP}]
-	dev-python/zc-lockfile[${PYTHON_USEDEP}]
+	~dev-python/zc-lockfile-1.1.0[${PYTHON_USEDEP}]
 	dev-python/ZConfig[${PYTHON_USEDEP}]
 	dev-python/zdaemon[${PYTHON_USEDEP}]
 	dev-python/zodb[${PYTHON_USEDEP}]
@@ -48,6 +48,6 @@ DEPENDENCIES="dev-python/bibtexparser[${PYTHON_USEDEP}]
 	dev-python/Sphinx[${PYTHON_USEDEP}]
 	dev-python/backports-tempfile[${PYTHON_USEDEP}]
 	dev-python/scandir[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]"
+	<dev-python/docutils-0.15[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

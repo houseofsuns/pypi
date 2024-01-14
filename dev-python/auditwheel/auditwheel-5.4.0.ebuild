@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="coverage develop test"
-DEPENDENCIES="dev-python/pyelftools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyelftools-0.24[${PYTHON_USEDEP}]
 	coverage? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	coverage? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	coverage? ( >=dev-python/pytest-3.4[${PYTHON_USEDEP}] )
 	coverage? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	coverage? ( dev-python/pypatchelf[${PYTHON_USEDEP}] )
 	coverage? ( dev-python/pretend[${PYTHON_USEDEP}] )
 	coverage? ( dev-python/docker[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-3.4[${PYTHON_USEDEP}] )
 	develop? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pypatchelf[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pretend[${PYTHON_USEDEP}] )
 	develop? ( dev-python/docker[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	test? ( dev-python/pypatchelf[${PYTHON_USEDEP}] )
 	test? ( dev-python/pretend[${PYTHON_USEDEP}] )

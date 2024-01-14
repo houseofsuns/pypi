@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="patchelf zig"
-DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	zig? ( dev-python/ziglang[${PYTHON_USEDEP}] )
 	patchelf? ( dev-python/patchelf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

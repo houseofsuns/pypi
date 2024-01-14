@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
+	<=dev-python/sympy-1.9[${PYTHON_USEDEP}]
 	dev-python/qiskit[${PYTHON_USEDEP}]
-	dev-python/qiskit-aer[${PYTHON_USEDEP}]
+	~dev-python/qiskit-aer-0.12.2[${PYTHON_USEDEP}]
 	dev-python/qiskit-ibm-provider[${PYTHON_USEDEP}]
-	dev-python/symengine[${PYTHON_USEDEP}]
+	~dev-python/symengine-0.7[${PYTHON_USEDEP}]
 	dev-python/orquestra-quantum[${PYTHON_USEDEP}]
 	dev? ( dev-python/orquestra-python-dev[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

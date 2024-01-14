@@ -38,9 +38,9 @@ DEPENDENCIES="dev-python/babel-edtf[${PYTHON_USEDEP}]
 	dev-python/invenio-stats[${PYTHON_USEDEP}]
 	dev-python/luqum[${PYTHON_USEDEP}]
 	dev-python/marshmallow-utils[${PYTHON_USEDEP}]
-	dev-python/uritemplate[${PYTHON_USEDEP}]
-	dev-python/wand[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
+	>=dev-python/uritemplate-3.0.1[${PYTHON_USEDEP}]
+	<dev-python/wand-0.7.0[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
 	dev-python/zipstream-ng[${PYTHON_USEDEP}]
 	elasticsearch7? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch1? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/babel-edtf[${PYTHON_USEDEP}]
 	tests? ( dev-python/invenio-app[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-mock-1.6.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

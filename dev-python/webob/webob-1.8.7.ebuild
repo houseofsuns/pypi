@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs testing"
 DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-3.1.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"

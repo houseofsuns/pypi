@@ -27,9 +27,9 @@ IUSE="doc test"
 DEPENDENCIES="dev-python/asphalt[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-autodoc-typehints-1.22[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-tabs-3.3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
 	test? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -37,6 +37,6 @@ DEPENDENCIES="dev-python/asphalt[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	test? ( dev-python/asyncmy[${PYTHON_USEDEP}] )
 	test? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	test? ( dev-python/psycopg[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/psycopg-3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

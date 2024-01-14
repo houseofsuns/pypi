@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ssl_backport"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.13[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-0.56[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/funcsigs[${PYTHON_USEDEP}]

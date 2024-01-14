@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop docs testing"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	develop? ( dev-python/twine[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	develop? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	develop? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/six[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/six[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/six-1.15.0[${PYTHON_USEDEP}]
+	develop? ( ~dev-python/twine-3.2.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/wheel-0.35.1[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/coverage-5.2.1[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/sphinx-3.2.1[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/setuptools-50.3.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/ipython-7.17.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-3.2.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/six-1.15.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/coverage-5.2.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/six-1.15.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

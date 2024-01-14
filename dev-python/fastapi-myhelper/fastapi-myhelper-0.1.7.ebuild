@@ -28,9 +28,9 @@ DEPENDENCIES="all? ( dev-python/strawberry-graphql[${PYTHON_USEDEP}] )
 	strawberry? ( dev-python/strawberry-graphql[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlmodel[${PYTHON_USEDEP}] )
 	sqlmodel? ( dev-python/sqlmodel[${PYTHON_USEDEP}] )
-	sqlmodel? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	sqlmodel? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )"
+	sqlmodel? ( <=dev-python/sqlalchemy-1.4.41[${PYTHON_USEDEP}] )
+	sqlalchemy? ( <=dev-python/sqlalchemy-1.4.41[${PYTHON_USEDEP}] )
+	sqlmodel? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
+	pydantic? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

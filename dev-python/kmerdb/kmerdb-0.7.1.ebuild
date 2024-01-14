@@ -24,44 +24,44 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/s3transfer[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/boto3-1.20.25[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.23.25[${PYTHON_USEDEP}]
+	~dev-python/s3transfer-0.5.0[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/distlib[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/cython-0.29.26[${PYTHON_USEDEP}]
+	~dev-python/distlib-0.3.4[${PYTHON_USEDEP}]
+	~dev-python/docutils-0.17[${PYTHON_USEDEP}]
+	~dev-python/sphinx-4.3.2[${PYTHON_USEDEP}]
+	~dev-python/sphinxcontrib-htmlhelp-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/sphinxcontrib-serializinghtml-1.1.5[${PYTHON_USEDEP}]
+	~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	dev-python/cupy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]
 	dev-python/rpy2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.3.2[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/auditwheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/expects[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/build-0.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/expects-0.9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ghstats[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipykernel-5.1.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipython-7.16.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython-genutils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jedi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter-console[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter-core[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mamba[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipywidgets-7.5.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jedi-0.16.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jupyter-client-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jupyter-console-6.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jupyter-core-4.6.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mamba-0.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-5.3.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

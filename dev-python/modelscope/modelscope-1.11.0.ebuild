@@ -28,22 +28,22 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/gast[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/gast-0.2.2[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/oss2[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.1[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/sortedcontainers-1.5.9[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26[${PYTHON_USEDEP}]
 	dev-python/yapf[${PYTHON_USEDEP}]
 	all? ( dev-python/accelerate[${PYTHON_USEDEP}] )
 	all? ( dev-python/albumentations[${PYTHON_USEDEP}] )
@@ -61,11 +61,11 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	all? ( dev-python/fairscale[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastai[${PYTHON_USEDEP}] )
 	all? ( dev-python/ffmpeg[${PYTHON_USEDEP}] )
-	all? ( dev-python/ffmpeg-python[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/ftfy[${PYTHON_USEDEP}] )
 	all? ( dev-python/fvcore[${PYTHON_USEDEP}] )
-	all? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	all? ( dev-python/imageio-ffmpeg[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/imageio-2.9.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/imageio-ffmpeg-0.4.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/imgaug[${PYTHON_USEDEP}] )
 	all? ( dev-python/kornia[${PYTHON_USEDEP}] )
 	all? ( dev-python/lap[${PYTHON_USEDEP}] )
@@ -180,29 +180,29 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	audio? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	audio? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	audio? ( dev-python/bitstring[${PYTHON_USEDEP}] )
-	audio? ( dev-python/greenlet[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/greenlet-1.1.2[${PYTHON_USEDEP}] )
 	audio? ( dev-python/inflect[${PYTHON_USEDEP}] )
-	audio? ( dev-python/jedi[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/jedi-0.18.1[${PYTHON_USEDEP}] )
 	audio? ( dev-python/kantts[${PYTHON_USEDEP}] )
 	audio? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	audio? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	audio? ( dev-python/parso[${PYTHON_USEDEP}] )
-	audio? ( dev-python/pexpect[${PYTHON_USEDEP}] )
-	audio? ( dev-python/pickleshare[${PYTHON_USEDEP}] )
-	audio? ( dev-python/prompt-toolkit[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/msgpack-1.0.4[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/parso-0.8.3[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/pexpect-4.8.0[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/pickleshare-0.7.5[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/prompt-toolkit-3.0.30[${PYTHON_USEDEP}] )
 	audio? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	audio? ( dev-python/ptflops[${PYTHON_USEDEP}] )
-	audio? ( dev-python/ptyprocess[${PYTHON_USEDEP}] )
-	audio? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/ptyprocess-0.7.0[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/pygments-2.12.0[${PYTHON_USEDEP}] )
 	audio? ( dev-python/pysptk[${PYTHON_USEDEP}] )
 	audio? ( dev-python/pytorch-wavelets[${PYTHON_USEDEP}] )
 	audio? ( dev-python/PyWavelets[${PYTHON_USEDEP}] )
 	audio? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	audio? ( dev-python/sox[${PYTHON_USEDEP}] )
-	audio? ( dev-python/traitlets[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/traitlets-5.3.0[${PYTHON_USEDEP}] )
 	audio? ( dev-python/ttsfrd[${PYTHON_USEDEP}] )
 	audio? ( dev-python/unidecode[${PYTHON_USEDEP}] )
-	audio? ( dev-python/wcwidth[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/wcwidth-0.2.5[${PYTHON_USEDEP}] )
 	audio? ( dev-python/funcodec[${PYTHON_USEDEP}] )
 	audio_asr? ( dev-python/funasr[${PYTHON_USEDEP}] )
 	audio_kws? ( dev-python/kaldiio[${PYTHON_USEDEP}] )
@@ -225,22 +225,22 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	audio_signal? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	audio_signal? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	audio_tts? ( dev-python/bitstring[${PYTHON_USEDEP}] )
-	audio_tts? ( dev-python/greenlet[${PYTHON_USEDEP}] )
+	audio_tts? ( >=dev-python/greenlet-1.1.2[${PYTHON_USEDEP}] )
 	audio_tts? ( dev-python/inflect[${PYTHON_USEDEP}] )
-	audio_tts? ( dev-python/jedi[${PYTHON_USEDEP}] )
+	audio_tts? ( >=dev-python/jedi-0.18.1[${PYTHON_USEDEP}] )
 	audio_tts? ( dev-python/kantts[${PYTHON_USEDEP}] )
 	audio_tts? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	audio_tts? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	audio_tts? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	audio_tts? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	audio_tts? ( dev-python/parso[${PYTHON_USEDEP}] )
-	audio_tts? ( dev-python/pexpect[${PYTHON_USEDEP}] )
-	audio_tts? ( dev-python/pickleshare[${PYTHON_USEDEP}] )
-	audio_tts? ( dev-python/prompt-toolkit[${PYTHON_USEDEP}] )
+	audio_tts? ( >=dev-python/msgpack-1.0.4[${PYTHON_USEDEP}] )
+	audio_tts? ( >=dev-python/parso-0.8.3[${PYTHON_USEDEP}] )
+	audio_tts? ( >=dev-python/pexpect-4.8.0[${PYTHON_USEDEP}] )
+	audio_tts? ( >=dev-python/pickleshare-0.7.5[${PYTHON_USEDEP}] )
+	audio_tts? ( >=dev-python/prompt-toolkit-3.0.30[${PYTHON_USEDEP}] )
 	audio_tts? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	audio_tts? ( dev-python/ptflops[${PYTHON_USEDEP}] )
-	audio_tts? ( dev-python/ptyprocess[${PYTHON_USEDEP}] )
-	audio_tts? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	audio_tts? ( >=dev-python/ptyprocess-0.7.0[${PYTHON_USEDEP}] )
+	audio_tts? ( >=dev-python/pygments-2.12.0[${PYTHON_USEDEP}] )
 	audio_tts? ( dev-python/pysptk[${PYTHON_USEDEP}] )
 	audio_tts? ( dev-python/pytorch-wavelets[${PYTHON_USEDEP}] )
 	audio_tts? ( dev-python/PyWavelets[${PYTHON_USEDEP}] )
@@ -248,10 +248,10 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	audio_tts? ( dev-python/sox[${PYTHON_USEDEP}] )
 	audio_tts? ( dev-python/tensorboardx[${PYTHON_USEDEP}] )
 	audio_tts? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	audio_tts? ( dev-python/traitlets[${PYTHON_USEDEP}] )
+	audio_tts? ( >=dev-python/traitlets-5.3.0[${PYTHON_USEDEP}] )
 	audio_tts? ( dev-python/ttsfrd[${PYTHON_USEDEP}] )
 	audio_tts? ( dev-python/unidecode[${PYTHON_USEDEP}] )
-	audio_tts? ( dev-python/wcwidth[${PYTHON_USEDEP}] )
+	audio_tts? ( >=dev-python/wcwidth-0.2.5[${PYTHON_USEDEP}] )
 	cv? ( dev-python/accelerate[${PYTHON_USEDEP}] )
 	cv? ( dev-python/albumentations[${PYTHON_USEDEP}] )
 	cv? ( dev-python/av[${PYTHON_USEDEP}] )
@@ -268,11 +268,11 @@ DEPENDENCIES="dev-python/addict[${PYTHON_USEDEP}]
 	cv? ( dev-python/fairscale[${PYTHON_USEDEP}] )
 	cv? ( dev-python/fastai[${PYTHON_USEDEP}] )
 	cv? ( dev-python/ffmpeg[${PYTHON_USEDEP}] )
-	cv? ( dev-python/ffmpeg-python[${PYTHON_USEDEP}] )
+	cv? ( >=dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}] )
 	cv? ( dev-python/ftfy[${PYTHON_USEDEP}] )
 	cv? ( dev-python/fvcore[${PYTHON_USEDEP}] )
-	cv? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	cv? ( dev-python/imageio-ffmpeg[${PYTHON_USEDEP}] )
+	cv? ( >=dev-python/imageio-2.9.0[${PYTHON_USEDEP}] )
+	cv? ( >=dev-python/imageio-ffmpeg-0.4.2[${PYTHON_USEDEP}] )
 	cv? ( dev-python/imgaug[${PYTHON_USEDEP}] )
 	cv? ( dev-python/kornia[${PYTHON_USEDEP}] )
 	cv? ( dev-python/lap[${PYTHON_USEDEP}] )

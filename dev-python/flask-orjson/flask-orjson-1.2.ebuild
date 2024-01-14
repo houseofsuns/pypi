@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/orjson-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/flask-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

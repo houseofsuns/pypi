@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.61[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.6[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.14.0[${PYTHON_USEDEP}]
+	~dev-python/setuptools-67.0.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-3.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

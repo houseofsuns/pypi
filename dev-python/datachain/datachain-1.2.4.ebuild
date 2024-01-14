@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ftp http kaggle mysql pgsql salesforce sftp sharepoint snowflake tabular"
-DEPENDENCIES="tabular? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	sharepoint? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	salesforce? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	pgsql? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	kaggle? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	sftp? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	ftp? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
+DEPENDENCIES="tabular? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	sharepoint? ( <dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}] )
+	salesforce? ( <dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}] )
+	pgsql? ( <dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}] )
+	kaggle? ( <dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}] )
+	sftp? ( <dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}] )
+	ftp? ( <dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}] )
 	sharepoint? ( dev-python/azure-common[${PYTHON_USEDEP}] )
 	sharepoint? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	sharepoint? ( dev-python/azure-storage-common[${PYTHON_USEDEP}] )
 	sharepoint? ( dev-python/shareplum[${PYTHON_USEDEP}] )
 	salesforce? ( dev-python/simple-salesforce[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	pgsql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	snowflake? ( ~dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}] )
+	mysql? ( ~dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}] )
+	pgsql? ( ~dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	snowflake? ( ~dev-python/cryptography-38.0.4[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/mysqlclient-3.0.0[${PYTHON_USEDEP}] )
 	pgsql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	http? ( dev-python/requests[${PYTHON_USEDEP}] )
-	sftp? ( dev-python/paramiko[${PYTHON_USEDEP}] )"
+	http? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	sftp? ( <dev-python/paramiko-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

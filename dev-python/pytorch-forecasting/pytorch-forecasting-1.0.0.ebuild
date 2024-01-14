@@ -27,13 +27,13 @@ IUSE="github-actions graph mqf2"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/lightning[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	<=dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
 	github-actions? ( dev-python/pytest-github-actions-annotate-failures[${PYTHON_USEDEP}] )
-	graph? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	graph? ( <dev-python/networkx-4.0.0[${PYTHON_USEDEP}] )
 	mqf2? ( dev-python/cpflows[${PYTHON_USEDEP}] )
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/pytorch-optimizer[${PYTHON_USEDEP}]"

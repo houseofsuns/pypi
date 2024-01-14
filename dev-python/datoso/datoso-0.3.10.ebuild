@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev fbneo md-enhanced nointro pleasuredome redump sfc-enhancedcolors sfc-msu1 sfc-speedhacks translatedenglish vpinmame"
 DEPENDENCIES="dev-python/tinydb[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.9[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	all? ( dev-python/datoso-seed-fbneo[${PYTHON_USEDEP}] )
 	all? ( dev-python/datoso-seed-md-enhanced[${PYTHON_USEDEP}] )
 	all? ( dev-python/datoso-seed-nointro[${PYTHON_USEDEP}] )
@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/tinydb[${PYTHON_USEDEP}]
 	all? ( dev-python/datoso-seed-translatedenglish[${PYTHON_USEDEP}] )
 	all? ( dev-python/datoso-seed-vpinmame[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/line-profiler-4.0.3[${PYTHON_USEDEP}] )
 	fbneo? ( dev-python/datoso-seed-fbneo[${PYTHON_USEDEP}] )
 	md-enhanced? ( dev-python/datoso-seed-md-enhanced[${PYTHON_USEDEP}] )
 	nointro? ( dev-python/datoso-seed-nointro[${PYTHON_USEDEP}] )

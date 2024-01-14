@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp docs flask swagger-ui tests"
 DEPENDENCIES="dev-python/clickclick[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/openapi-spec-validator[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/inflection-0.6[${PYTHON_USEDEP}]
+	<dev-python/openapi-spec-validator-0.4[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-3.0[${PYTHON_USEDEP}]
+	<dev-python/flask-3.0[${PYTHON_USEDEP}]
+	aiohttp? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	aiohttp? ( dev-python/aiohttp-jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autoapi-1.8.1[${PYTHON_USEDEP}] )
+	flask? ( <dev-python/flask-3.0[${PYTHON_USEDEP}] )
 	swagger-ui? ( dev-python/swagger-ui-bundle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/decorator[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/decorator-6.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/testfixtures-7.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/flask-3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/swagger-ui-bundle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aiohttp-jinja2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aiohttp-remotes[${PYTHON_USEDEP}] )"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/Chameleon[${PYTHON_USEDEP}]
 	dev-python/WTForms[${PYTHON_USEDEP}]
 	dev-python/Whoosh[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.4.0[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
 	dev-python/pyramid-chameleon[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="instruments test"
 DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
-	instruments? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	instruments? ( >=dev-python/pydantic-1.10.2[${PYTHON_USEDEP}] )
 	instruments? ( dev-python/tortoise-orm[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-tortoiseorm[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )"

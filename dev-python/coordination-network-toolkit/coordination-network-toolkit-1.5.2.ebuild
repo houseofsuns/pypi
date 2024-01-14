@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="development"
 DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	>=dev-python/regex-2021.3.17[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	dev-python/twarc[${PYTHON_USEDEP}]
 	development? ( dev-python/nox[${PYTHON_USEDEP}] )
 	development? ( dev-python/pytest[${PYTHON_USEDEP}] )

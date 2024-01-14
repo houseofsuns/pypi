@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docs markdown notebook tests"
-DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docutils-0.18[${PYTHON_USEDEP}]
 	dev-python/feedgen[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-2.1.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/ipython-7.30.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/nbsphinx-0.8.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/myst-parser-0.17.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.30.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nbsphinx-0.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/myst-parser-0.17.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/alabaster[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	docs? ( dev-python/alabaster[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
-	markdown? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	markdown? ( >=dev-python/myst-parser-0.17.0[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/ipython-7.30.0[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/nbsphinx-0.8.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

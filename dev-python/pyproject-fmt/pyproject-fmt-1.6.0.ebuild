@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/natsort-8.4[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.2[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.12.3[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse-cli[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.25.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/covdefaults[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-3.12[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

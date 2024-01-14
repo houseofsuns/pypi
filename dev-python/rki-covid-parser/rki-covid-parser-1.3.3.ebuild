@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/aiohttp-3.5.2[${PYTHON_USEDEP}]
+	all? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

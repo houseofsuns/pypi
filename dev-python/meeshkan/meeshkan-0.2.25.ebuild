@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/lenses[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
@@ -32,18 +32,18 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/openapi-typed_2[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	>=dev-python/typeguard-2.7.0[${PYTHON_USEDEP}]
 	dev-python/genson[${PYTHON_USEDEP}]
 	dev-python/http-types[${PYTHON_USEDEP}]
 	dev-python/faust[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/tornado-5.1.1[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.25.6[${PYTHON_USEDEP}]
 	dev-python/meeshkan-daemonocle[${PYTHON_USEDEP}]
 	dev-python/clint[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
 	dev-python/progress[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	>=dev-python/psutil-5.6.3[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )

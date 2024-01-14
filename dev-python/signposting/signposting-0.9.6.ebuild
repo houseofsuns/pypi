@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.10[${PYTHON_USEDEP}]
 	dev-python/httplink[${PYTHON_USEDEP}]
-	dev-python/rfc3987[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/rfc3987-1.3.8[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-beautifulsoup4[${PYTHON_USEDEP}] )
-	tests? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/requests-mock-1.9.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

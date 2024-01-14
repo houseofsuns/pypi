@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-enumchoicefield[${PYTHON_USEDEP}]
 	dev-python/bcp47[${PYTHON_USEDEP}]
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

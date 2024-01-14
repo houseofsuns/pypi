@@ -24,60 +24,60 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="autonormalize complete dask dev docs premium sklearn spark sql test tsfresh updater"
-DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cloudpickle-1.5.0[${PYTHON_USEDEP}]
 	dev-python/holidays[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.6.6[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.32.0[${PYTHON_USEDEP}]
 	dev-python/woodwork[${PYTHON_USEDEP}]
 	autonormalize? ( dev-python/autonormalize[${PYTHON_USEDEP}] )
 	complete? ( dev-python/featuretools[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( >=dev-python/dask-2022.11.1[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dask? ( dev-python/woodwork[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/featuretools[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ipython-8.4.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jupyter-client-8.0.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbconvert-6.5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pydata-sphinx-theme-0.9.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-inline-tabs-2022.1.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-0.18.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/premium-primitives[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autonormalize[${PYTHON_USEDEP}] )
-	docs? ( dev-python/click[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/click-7.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/featuretools[${PYTHON_USEDEP}] )
 	premium? ( dev-python/premium-primitives[${PYTHON_USEDEP}] )
 	sklearn? ( dev-python/featuretools-sklearn-transformer[${PYTHON_USEDEP}] )
 	spark? ( dev-python/woodwork[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	spark? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	spark? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	spark? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	spark? ( <dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
+	spark? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	spark? ( <dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}] )
 	sql? ( dev-python/featuretools-sql[${PYTHON_USEDEP}] )
-	test? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/boto3-1.17.46[${PYTHON_USEDEP}] )
 	test? ( dev-python/composeml[${PYTHON_USEDEP}] )
-	test? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	test? ( dev-python/moto[${PYTHON_USEDEP}] )
-	test? ( dev-python/pip[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/graphviz-0.8.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/moto-3.0.7[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pip-21.3.1[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pympler[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/smart-open[${PYTHON_USEDEP}] )
-	test? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/urllib3-1.26.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
 	tsfresh? ( dev-python/featuretools-tsfresh-primitives[${PYTHON_USEDEP}] )
 	updater? ( dev-python/alteryx-open-src-update-checker[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="dev test"
 DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/voluptuous[${PYTHON_USEDEP}]
 	dev-python/ddtrace[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	>=dev-python/sentry-sdk-0.14.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )

@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	dev-python/scikit-fuzzy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	~dev-python/shapely-1.8[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/traitlets[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

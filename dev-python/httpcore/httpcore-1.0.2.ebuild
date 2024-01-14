@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="asyncio http2 socks trio"
 DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/h11[${PYTHON_USEDEP}]
-	asyncio? ( dev-python/anyio[${PYTHON_USEDEP}] )
-	http2? ( dev-python/h2[${PYTHON_USEDEP}] )
-	socks? ( dev-python/socksio[${PYTHON_USEDEP}] )
-	trio? ( dev-python/trio[${PYTHON_USEDEP}] )"
+	<dev-python/h11-0.15[${PYTHON_USEDEP}]
+	asyncio? ( <dev-python/anyio-5.0[${PYTHON_USEDEP}] )
+	http2? ( <dev-python/h2-5.0[${PYTHON_USEDEP}] )
+	socks? ( ~dev-python/socksio-1.0[${PYTHON_USEDEP}] )
+	trio? ( <dev-python/trio-0.23.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

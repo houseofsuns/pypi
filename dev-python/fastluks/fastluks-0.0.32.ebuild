@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/zc-lockfile[${PYTHON_USEDEP}]
-	dev-python/hvac[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/zc-lockfile-2.0[${PYTHON_USEDEP}]
+	~dev-python/hvac-0.11.2[${PYTHON_USEDEP}]
+	~dev-python/distro-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/flask-2.0.0[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]"
+	~dev-python/cryptography-36.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

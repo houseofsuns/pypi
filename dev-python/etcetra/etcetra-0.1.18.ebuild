@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build lint test typecheck"
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	~dev-python/grpcio-1.59.0[${PYTHON_USEDEP}]
+	~dev-python/grpcio-tools-1.59.0[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]
+	build? ( >=dev-python/wheel-0.36.2[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/twine-3.4.1[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-commas[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.16.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.11[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-3.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	typecheck? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	typecheck? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	typecheck? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	typecheck? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

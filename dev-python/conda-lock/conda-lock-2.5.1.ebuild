@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cachecontrol[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cachecontrol-0.12.9[${PYTHON_USEDEP}]
 	dev-python/cachy[${PYTHON_USEDEP}]
 	dev-python/click-default-group[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/clikit[${PYTHON_USEDEP}]
-	dev-python/crashtest[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
+	>=dev-python/clikit-0.6.2[${PYTHON_USEDEP}]
+	>=dev-python/crashtest-0.3.0[${PYTHON_USEDEP}]
 	dev-python/ensureconda[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
+	>=dev-python/html5lib-1.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pkginfo[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/keyring-21.2.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.4[${PYTHON_USEDEP}]
+	>=dev-python/pkginfo-1.4[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/toolz-1.0.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]"
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	>=dev-python/virtualenv-20.0.26[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

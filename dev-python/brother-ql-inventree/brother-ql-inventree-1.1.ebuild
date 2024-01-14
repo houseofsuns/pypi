@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/packbits[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/pyusb[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

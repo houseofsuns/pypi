@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/lark[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lark-1.1.7[${PYTHON_USEDEP}]
+	<dev-python/cython-0.29.35[${PYTHON_USEDEP}]
 	dev-python/Cython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

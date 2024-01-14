@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pyseabreeze tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	pyseabreeze? ( dev-python/pyusb[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	pyseabreeze? ( >=dev-python/pyusb-1.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

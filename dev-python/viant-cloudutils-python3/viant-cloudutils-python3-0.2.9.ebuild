@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.19.0[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.16.0[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

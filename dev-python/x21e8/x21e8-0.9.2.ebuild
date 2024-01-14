@@ -29,14 +29,14 @@ DEPENDENCIES="dev-python/TrezorCryptoTestRc[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/bitcoin-utils[${PYTHON_USEDEP}]
 	dev-python/w3storage[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
+	>dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	<dev-python/mypy-0.983[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson-schema[${PYTHON_USEDEP}]
 	dev-python/multiformats[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.20.0[${PYTHON_USEDEP}]
 	dev-python/planetmint-driver[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

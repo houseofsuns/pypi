@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="configuration fuse"
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/django-allauth[${PYTHON_USEDEP}]
 	dev-python/django-click[${PYTHON_USEDEP}]
 	dev-python/django-crum[${PYTHON_USEDEP}]
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	configuration? ( dev-python/django-composed-configuration[${PYTHON_USEDEP}] )
-	configuration? ( dev-python/django-configurations[${PYTHON_USEDEP}] )
+	configuration? ( >=dev-python/django-configurations-0.19.2[${PYTHON_USEDEP}] )
 	configuration? ( dev-python/django-cache-url[${PYTHON_USEDEP}] )
 	configuration? ( dev-python/redis[${PYTHON_USEDEP}] )
 	fuse? ( dev-python/numpy[${PYTHON_USEDEP}] )

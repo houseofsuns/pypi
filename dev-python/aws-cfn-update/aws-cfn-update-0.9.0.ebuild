@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/croniter[${PYTHON_USEDEP}]
 	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/jsonmerge[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]"

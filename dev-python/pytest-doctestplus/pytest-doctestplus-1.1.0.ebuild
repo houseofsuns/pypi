@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-4.6[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-30.3.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-17.0[${PYTHON_USEDEP}]
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-remotedata[${PYTHON_USEDEP}] )
 	test? ( dev-python/sphinx[${PYTHON_USEDEP}] )"

@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-snapshot[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vetiver[${PYTHON_USEDEP}] )
 	docs? ( dev-python/quartodoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/griffe[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/griffe-0.32.3[${PYTHON_USEDEP}] )
 	spacy? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	statsmodels? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )

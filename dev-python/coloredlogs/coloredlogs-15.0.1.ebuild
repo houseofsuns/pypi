@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cron"
-DEPENDENCIES="dev-python/humanfriendly[${PYTHON_USEDEP}]
-	cron? ( dev-python/capturer[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/humanfriendly-9.1[${PYTHON_USEDEP}]
+	cron? ( >=dev-python/capturer-2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

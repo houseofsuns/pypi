@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs extras tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	extras? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	extras? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.16.3[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-rtd-theme-0.2.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.8.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/ipython-7.34.0[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/pandas-0.24.2[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-22.6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/coverage-5.3.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-4.6.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

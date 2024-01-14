@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pandas polars test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-10.0[${PYTHON_USEDEP}]
 	dev-python/Shapely[${PYTHON_USEDEP}]
 	polars? ( dev-python/polars[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/rasterio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/h3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

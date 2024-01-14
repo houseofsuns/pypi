@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="vcr"
 DEPENDENCIES="dev-python/contextlib2[${PYTHON_USEDEP}]
 	dev-python/futures[${PYTHON_USEDEP}]
-	dev-python/crcmod[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	<dev-python/crcmod-2.0[${PYTHON_USEDEP}]
+	<dev-python/tornado-5.0[${PYTHON_USEDEP}]
 	dev-python/thriftrw[${PYTHON_USEDEP}]
 	dev-python/threadloop[${PYTHON_USEDEP}]
 	dev-python/opentracing[${PYTHON_USEDEP}]

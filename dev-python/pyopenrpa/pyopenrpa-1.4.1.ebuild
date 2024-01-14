@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-6.0.0[${PYTHON_USEDEP}]
 	dev-python/keyboard[${PYTHON_USEDEP}]
 	dev-python/pyscreeze[${PYTHON_USEDEP}]
 	dev-python/pyautogui[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.6.2[${PYTHON_USEDEP}]
 	dev-python/crypto[${PYTHON_USEDEP}]
 	dev-python/schedule[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	~dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.18.3[${PYTHON_USEDEP}]
+	>=dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	dev-python/autodocsumm[${PYTHON_USEDEP}]
 	dev-python/screeninfo[${PYTHON_USEDEP}]
 	dev-python/pytesseract[${PYTHON_USEDEP}]

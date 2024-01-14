@@ -27,12 +27,12 @@ IUSE="admin macaroon optional redis sieve swim systemd"
 DEPENDENCIES="dev-python/proxy-protocol[${PYTHON_USEDEP}]
 	dev-python/pysasl[${PYTHON_USEDEP}]
 	admin? ( dev-python/pymap-admin[${PYTHON_USEDEP}] )
-	macaroon? ( dev-python/pymacaroons[${PYTHON_USEDEP}] )
+	macaroon? ( ~dev-python/pymacaroons-0.13.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/hiredis[${PYTHON_USEDEP}] )
-	optional? ( dev-python/passlib[${PYTHON_USEDEP}] )
-	optional? ( dev-python/pid[${PYTHON_USEDEP}] )
-	redis? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	optional? ( ~dev-python/passlib-1.7[${PYTHON_USEDEP}] )
+	optional? ( ~dev-python/pid-3.0[${PYTHON_USEDEP}] )
+	redis? ( ~dev-python/msgpack-1.0[${PYTHON_USEDEP}] )
+	redis? ( ~dev-python/redis-4.2[${PYTHON_USEDEP}] )
 	sieve? ( dev-python/sievelib[${PYTHON_USEDEP}] )
 	swim? ( dev-python/swim-protocol[${PYTHON_USEDEP}] )
 	systemd? ( dev-python/systemd-python[${PYTHON_USEDEP}] )"

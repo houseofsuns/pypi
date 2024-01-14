@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/eth-abi[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.4.7[${PYTHON_USEDEP}]
 	dev-python/py-ecc[${PYTHON_USEDEP}]
 	dev-python/rlp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

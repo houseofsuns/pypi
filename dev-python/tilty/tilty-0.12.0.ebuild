@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/datadog[${PYTHON_USEDEP}]
 	dev-python/influxdb-client[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+	~dev-python/prometheus-client-0.8.0[${PYTHON_USEDEP}]
 	dev-python/pybluez[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
+	~dev-python/google-auth-1.30.1[${PYTHON_USEDEP}]
+	~dev-python/google-api-core-1.20.1[${PYTHON_USEDEP}]
+	~dev-python/google-api-python-client-1.11.0[${PYTHON_USEDEP}]
+	~dev-python/google-auth-httplib2-0.0.4[${PYTHON_USEDEP}]
+	~dev-python/google-auth-oauthlib-0.4.4[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

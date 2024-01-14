@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.12[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.11.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-1.2.0[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
 	dev-python/pygeogrids[${PYTHON_USEDEP}]
 	dev-python/pygeobase[${PYTHON_USEDEP}]

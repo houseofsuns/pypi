@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/behave[${PYTHON_USEDEP}]
-	dev-python/dominate[${PYTHON_USEDEP}]
+	~dev-python/dominate-2.9.0[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

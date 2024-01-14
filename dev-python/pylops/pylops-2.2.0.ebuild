@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="advanced"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.0[${PYTHON_USEDEP}]
 	advanced? ( dev-python/llvmlite[${PYTHON_USEDEP}] )
 	advanced? ( dev-python/numba[${PYTHON_USEDEP}] )
 	advanced? ( dev-python/pyfftw[${PYTHON_USEDEP}] )

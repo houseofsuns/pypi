@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17.2[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/emcee[${PYTHON_USEDEP}]
+	>=dev-python/emcee-3.0.0[${PYTHON_USEDEP}]
 	dev-python/astroquery[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
+	>=dev-python/lmfit-0.9.14[${PYTHON_USEDEP}]
 	dev-python/corner[${PYTHON_USEDEP}]
 	dev-python/photutils[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>dev-python/matplotlib-3.2[${PYTHON_USEDEP}]
 	dev-python/celerite2[${PYTHON_USEDEP}]
 	dev-python/cdspyreadme[${PYTHON_USEDEP}]
 	dev-python/dace-query[${PYTHON_USEDEP}]

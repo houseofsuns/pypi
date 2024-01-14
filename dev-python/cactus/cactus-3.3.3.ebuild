@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="CloudFilesDeployment GCSDeployment MacNativeFSEvents"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/boto[${PYTHON_USEDEP}]
+	>=dev-python/boto-2.4.1[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/django-markwhat[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
+	<dev-python/keyring-6.0[${PYTHON_USEDEP}]
 	dev-python/markdown2[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/tornado-3.2[${PYTHON_USEDEP}]
 	CloudFilesDeployment? ( dev-python/pyrax[${PYTHON_USEDEP}] )
 	GCSDeployment? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	MacNativeFSEvents? ( dev-python/macfsevents[${PYTHON_USEDEP}] )"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/clickclick[${PYTHON_USEDEP}]
 	dev-python/easydict[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.2.1[${PYTHON_USEDEP}]
 	dev-python/stups-zign[${PYTHON_USEDEP}]
 	dev-python/opentracing-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -31,11 +31,11 @@ DEPENDENCIES="dev-python/aiida-core[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pgtest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/wheel-0.31[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-6.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-regressions-2.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coveralls[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

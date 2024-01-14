@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/inflection[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pyxdg[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.7[${PYTHON_USEDEP}]
 	dev-python/blinker-herald[${PYTHON_USEDEP}]
 	dev-python/fauxfactory[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

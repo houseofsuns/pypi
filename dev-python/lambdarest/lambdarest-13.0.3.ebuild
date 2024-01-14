@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/strict-rfc3339[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/jsonschema-4.4.0[${PYTHON_USEDEP}]
+	>=dev-python/strict-rfc3339-0.7[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-7.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyYaml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mock-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-readme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

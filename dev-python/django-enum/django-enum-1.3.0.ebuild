@@ -27,9 +27,9 @@ IUSE="all djangorestframework filters properties"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	all? ( dev-python/enum-properties[${PYTHON_USEDEP}] )
 	properties? ( dev-python/enum-properties[${PYTHON_USEDEP}] )
-	all? ( dev-python/django-filter[${PYTHON_USEDEP}] )
-	filters? ( dev-python/django-filter[${PYTHON_USEDEP}] )
-	all? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
-	djangorestframework? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/django-filter-24.0[${PYTHON_USEDEP}] )
+	filters? ( <dev-python/django-filter-24.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/djangorestframework-4.0[${PYTHON_USEDEP}] )
+	djangorestframework? ( <dev-python/djangorestframework-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

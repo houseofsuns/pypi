@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="recaptcha"
 DEPENDENCIES="dev-python/playwright[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/w3lib[${PYTHON_USEDEP}]
-	recaptcha? ( dev-python/requests[${PYTHON_USEDEP}] )
+	recaptcha? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	recaptcha? ( dev-python/pydub[${PYTHON_USEDEP}] )
 	recaptcha? ( dev-python/SpeechRecognition[${PYTHON_USEDEP}] )
-	dev-python/tzdata[${PYTHON_USEDEP}]
+	<dev-python/tzdata-2024.0[${PYTHON_USEDEP}]
 	dev-python/playwright-stealth[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	<dev-python/setuptools-70.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

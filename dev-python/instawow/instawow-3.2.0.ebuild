@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gui test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp-client-cache[${PYTHON_USEDEP}]
 	gui? ( dev-python/aiohttp-rpc[${PYTHON_USEDEP}] )
-	dev-python/alembic[${PYTHON_USEDEP}]
-	gui? ( dev-python/anyio[${PYTHON_USEDEP}] )
+	>=dev-python/alembic-1.12.0[${PYTHON_USEDEP}]
+	gui? ( >=dev-python/anyio-3.6.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/aresponses[${PYTHON_USEDEP}] )
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/mako[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	>=dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
+	>=dev-python/cattrs-23.1.2[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	>=dev-python/iso8601-1.0.2[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
+	>=dev-python/mako-1.2.4[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-1.3.0[${PYTHON_USEDEP}]
+	<dev-python/prompt-toolkit-4.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/rapidfuzz-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.21[${PYTHON_USEDEP}]
 	gui? ( dev-python/toga[${PYTHON_USEDEP}] )
-	dev-python/truststore[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	>=dev-python/truststore-0.7.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.9.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

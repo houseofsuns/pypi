@@ -24,65 +24,65 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build data default developer docs optional test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.8[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.0.1[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.4.1[${PYTHON_USEDEP}]
+	>=dev-python/tifffile-2019.7.26[${PYTHON_USEDEP}]
 	dev-python/PyWavelets[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/lazy_loader[${PYTHON_USEDEP}]
-	build? ( dev-python/meson-python[${PYTHON_USEDEP}] )
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/lazy_loader-0.1[${PYTHON_USEDEP}]
+	build? ( >=dev-python/meson-python-0.13.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	build? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/setuptools-67.0[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/packaging-20.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/ninja[${PYTHON_USEDEP}] )
 	build? ( dev-python/Cython[${PYTHON_USEDEP}] )
 	build? ( dev-python/pythran[${PYTHON_USEDEP}] )
-	build? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/numpy-1.21.1[${PYTHON_USEDEP}] )
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	data? ( dev-python/pooch[${PYTHON_USEDEP}] )
-	default? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	default? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	default? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	default? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	default? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	default? ( dev-python/tifffile[${PYTHON_USEDEP}] )
+	data? ( >=dev-python/pooch-1.3.0[${PYTHON_USEDEP}] )
+	default? ( >=dev-python/numpy-1.21.1[${PYTHON_USEDEP}] )
+	default? ( >=dev-python/scipy-1.8[${PYTHON_USEDEP}] )
+	default? ( >=dev-python/networkx-2.8[${PYTHON_USEDEP}] )
+	default? ( >=dev-python/pillow-9.0.1[${PYTHON_USEDEP}] )
+	default? ( >=dev-python/imageio-2.4.1[${PYTHON_USEDEP}] )
+	default? ( >=dev-python/tifffile-2019.7.26[${PYTHON_USEDEP}] )
 	default? ( dev-python/PyWavelets[${PYTHON_USEDEP}] )
-	default? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	default? ( dev-python/lazy_loader[${PYTHON_USEDEP}] )
+	default? ( >=dev-python/packaging-20.0[${PYTHON_USEDEP}] )
+	default? ( >=dev-python/lazy_loader-0.1[${PYTHON_USEDEP}] )
 	developer? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	developer? ( dev-python/rtoml[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-5.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-gallery-0.11[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-1.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/dask[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	docs? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pooch[${PYTHON_USEDEP}] )
-	docs? ( dev-python/tifffile[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/matplotlib-3.6[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/dask-2022.9.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pandas-1.5[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/seaborn-0.11[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pooch-1.6[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/tifffile-2022.8.12[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	docs? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/plotly-5.10[${PYTHON_USEDEP}] )
 	docs? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	optional? ( dev-python/SimpleITK[${PYTHON_USEDEP}] )
 	optional? ( dev-python/astropy[${PYTHON_USEDEP}] )
-	optional? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	optional? ( dev-python/dask[${PYTHON_USEDEP}] )
-	optional? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	optional? ( dev-python/pooch[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/cloudpickle-0.2.1[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/dask-1.0.0[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/matplotlib-3.3[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/pooch-1.3.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pyamg[${PYTHON_USEDEP}] )
 	test? ( dev-python/asv[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/pooch[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/matplotlib-3.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pooch-1.3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-localserver[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-faulthandler[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

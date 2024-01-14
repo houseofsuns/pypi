@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
 	dev-python/nicegui[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pydevd[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.9.10[${PYTHON_USEDEP}]
+	>=dev-python/pydevd-2.10.0[${PYTHON_USEDEP}]
 	dev-python/pygithub[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/tdqm[${PYTHON_USEDEP}]
 	test? ( dev-python/green[${PYTHON_USEDEP}] )"

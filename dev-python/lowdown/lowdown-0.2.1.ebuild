@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/docutils-0.17[${PYTHON_USEDEP}]
+	<dev-python/arrow-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

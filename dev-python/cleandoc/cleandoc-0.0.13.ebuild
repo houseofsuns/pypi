@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/black-23.3.0[${PYTHON_USEDEP}]
 	dev-python/Sphinx[${PYTHON_USEDEP}]
 	dev-python/doq[${PYTHON_USEDEP}]
 	dev-python/m2r2[${PYTHON_USEDEP}]

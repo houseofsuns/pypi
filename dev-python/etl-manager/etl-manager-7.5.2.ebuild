@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/parameterized[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/boto3-1.9.205[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/parameterized-0.8.0[${PYTHON_USEDEP}]
+	<dev-python/regex-2021.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

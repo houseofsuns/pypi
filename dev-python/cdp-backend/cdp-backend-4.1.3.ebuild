@@ -24,62 +24,62 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs functions lint pipeline test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
+	>=dev-python/backoff-2.2[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/fireo[${PYTHON_USEDEP}]
 	dev-python/fsspec[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
 	dev-python/google-cloud-firestore[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/bokeh[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-8.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/furo-2022.4.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	functions? ( dev-python/flask[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/docutils-0.19[${PYTHON_USEDEP}] )
+	functions? ( ~dev-python/flask-2.1.0[${PYTHON_USEDEP}] )
 	functions? ( dev-python/functions-framework[${PYTHON_USEDEP}] )
-	functions? ( dev-python/ffmpeg-python[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	functions? ( ~dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/mypy-0.790[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/dask[${PYTHON_USEDEP}] )
+	pipeline? ( >=dev-python/dask-2021.7.0[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/faster-whisper[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/ffmpeg-python[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/imageio-ffmpeg[${PYTHON_USEDEP}] )
+	pipeline? ( >=dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}] )
+	pipeline? ( >=dev-python/graphviz-0.16[${PYTHON_USEDEP}] )
+	pipeline? ( >=dev-python/imageio-2.18[${PYTHON_USEDEP}] )
+	pipeline? ( >=dev-python/imageio-ffmpeg-0.4[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/m3u8-To-MP4[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	pipeline? ( >=dev-python/numpy-1.0[${PYTHON_USEDEP}] )
+	pipeline? ( >=dev-python/pandas-1.2[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/prefect[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	pipeline? ( >=dev-python/pyarrow-8.0[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/pydub[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/pypdf[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/rapidfuzz[${PYTHON_USEDEP}] )
+	pipeline? ( >=dev-python/pypdf-2.0[${PYTHON_USEDEP}] )
+	pipeline? ( >=dev-python/rapidfuzz-2.0[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/tika[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/torch[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	pipeline? ( >=dev-python/tqdm-4.62[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/vimeo-downloader[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/yt-dlp[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )
-	test? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/networkx-2.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pydot-1.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-mock-1.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

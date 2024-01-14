@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	>=dev-python/pygame-2.4.0[${PYTHON_USEDEP}]
+	testing? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="databases storage"
 DEPENDENCIES="dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/streamlit-js-eval[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+	<dev-python/chardet-6.0[${PYTHON_USEDEP}]
 	dev-python/streamlit-tree-select[${PYTHON_USEDEP}]
 	storage? ( dev-python/minio[${PYTHON_USEDEP}] )
-	dev-python/plotly[${PYTHON_USEDEP}]
-	databases? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	>=dev-python/plotly-4.14.3[${PYTHON_USEDEP}]
+	databases? ( >=dev-python/pymongo-4.3.3[${PYTHON_USEDEP}] )
 	databases? ( dev-python/pymongo-auth-aws[${PYTHON_USEDEP}] )
-	databases? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	databases? ( >=dev-python/botocore-1.33.13[${PYTHON_USEDEP}] )
+	<dev-python/natsort-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-extra-types[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

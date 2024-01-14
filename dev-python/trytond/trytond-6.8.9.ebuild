@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="argon2 barcode bcrypt completion coroutine graphviz html2text image levenshtein postgresql qrcode test weasyprint"
 DEPENDENCIES="dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-2.0[${PYTHON_USEDEP}]
 	dev-python/relatorio[${PYTHON_USEDEP}]
 	dev-python/Genshi[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/polib[${PYTHON_USEDEP}]
 	dev-python/python-sql[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-0.12[${PYTHON_USEDEP}]
+	>=dev-python/passlib-1.7.0[${PYTHON_USEDEP}]
 	argon2? ( dev-python/passlib[${PYTHON_USEDEP}] )
 	bcrypt? ( dev-python/passlib[${PYTHON_USEDEP}] )
 	levenshtein? ( dev-python/python-Levenshtein[${PYTHON_USEDEP}] )

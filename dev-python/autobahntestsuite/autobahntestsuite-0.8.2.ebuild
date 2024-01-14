@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/txaio[${PYTHON_USEDEP}]
-	dev-python/autobahn[${PYTHON_USEDEP}]
+	<=dev-python/txaio-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/autobahn-0.10.9[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-0.19[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev-python/klein[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
-	dev-python/service-identity[${PYTHON_USEDEP}]
+	>=dev-python/klein-0.2.1[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-0.14[${PYTHON_USEDEP}]
+	>=dev-python/service-identity-14.0.0[${PYTHON_USEDEP}]
 	dev-python/unittest2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

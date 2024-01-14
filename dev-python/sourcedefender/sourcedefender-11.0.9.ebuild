@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/boltons[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/environs[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/boltons-23.1.1[${PYTHON_USEDEP}]
+	>=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
+	>=dev-python/environs-10.1.0[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.5[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.2[${PYTHON_USEDEP}]
 	dev-python/TgCrypto[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>dev-python/setuptools-60.7.0[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.42.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc"
 DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.7.0[${PYTHON_USEDEP}]
 	dev-python/jaxtyping[${PYTHON_USEDEP}]
 	dev-python/optax[${PYTHON_USEDEP}]
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-material-9.5.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mike[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

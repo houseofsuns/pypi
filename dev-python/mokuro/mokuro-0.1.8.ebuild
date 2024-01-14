@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/torchsummary[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.41.0[${PYTHON_USEDEP}]
 	dev-python/yattag[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

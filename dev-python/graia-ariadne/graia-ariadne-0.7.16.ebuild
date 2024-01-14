@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="alconna fastapi full graia standard"
 DEPENDENCIES="dev-python/graia-broadcast[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev-python/graia-amnesia[${PYTHON_USEDEP}]
 	standard? ( dev-python/richuru[${PYTHON_USEDEP}] )
 	full? ( dev-python/richuru[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/graia-broadcast[${PYTHON_USEDEP}]
 	standard? ( dev-python/graia-saya[${PYTHON_USEDEP}] )
 	full? ( dev-python/graia-saya[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	fastapi? ( <dev-python/uvicorn-0.18.0[${PYTHON_USEDEP}] )
 	dev-python/creart-graia[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

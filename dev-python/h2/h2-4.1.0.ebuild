@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/hyperframe[${PYTHON_USEDEP}]
-	dev-python/hpack[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/hyperframe-7.0[${PYTHON_USEDEP}]
+	<dev-python/hpack-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

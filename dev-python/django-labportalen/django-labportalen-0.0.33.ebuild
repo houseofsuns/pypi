@@ -27,13 +27,13 @@ IUSE=""
 DEPENDENCIES="dev-python/coreapi[${PYTHON_USEDEP}]
 	dev-python/coreschema[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/django-cors-headers[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/django-cors-headers-3.10.0[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.12.4[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/pysftp[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/zeep[${PYTHON_USEDEP}]"
+	>=dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
+	>=dev-python/zeep-3.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

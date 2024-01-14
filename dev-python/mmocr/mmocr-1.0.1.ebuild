@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/imgaug[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/pyclipper[${PYTHON_USEDEP}]
 	dev-python/pycocotools[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
+	>=dev-python/rapidfuzz-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyclipper[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/imgaug[${PYTHON_USEDEP}]
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/pycocotools[${PYTHON_USEDEP}] )
-	all? ( dev-python/rapidfuzz[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/rapidfuzz-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	all? ( dev-python/asynctest[${PYTHON_USEDEP}] )
 	all? ( dev-python/codecov[${PYTHON_USEDEP}] )
@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/imgaug[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	all? ( dev-python/ubelt[${PYTHON_USEDEP}] )
-	all? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/xdoctest-0.10.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	build? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	build? ( dev-python/pyclipper[${PYTHON_USEDEP}] )
@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/imgaug[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ubelt[${PYTHON_USEDEP}] )
-	tests? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/xdoctest-0.10.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/yapf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

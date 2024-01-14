@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="server"
 DEPENDENCIES="server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	server? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	server? ( <dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	server? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	dev-python/zipp[${PYTHON_USEDEP}]"
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/shapely-3.0.0[${PYTHON_USEDEP}]
+	server? ( <dev-python/starlette-0.27.0[${PYTHON_USEDEP}] )
+	server? ( <dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
+	<dev-python/zipp-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

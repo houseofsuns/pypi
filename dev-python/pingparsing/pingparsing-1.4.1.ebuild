@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli test"
 DEPENDENCIES="dev-python/humanreadable[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-4.0[${PYTHON_USEDEP}]
 	dev-python/subprocrunner[${PYTHON_USEDEP}]
 	dev-python/typepy[${PYTHON_USEDEP}]
-	cli? ( dev-python/loguru[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/loguru-1.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-discord[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-md-report[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

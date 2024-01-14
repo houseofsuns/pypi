@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/dbnd[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
+	>=dev-python/httplib2-0.9.2[${PYTHON_USEDEP}]
+	<dev-python/google-api-python-client-2.16.0[${PYTHON_USEDEP}]
+	<dev-python/google-auth-2.16.0[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-httplib2-0.0.1[${PYTHON_USEDEP}]
 	dev-python/google-cloud-container[${PYTHON_USEDEP}]
 	dev-python/PyOpenSSL[${PYTHON_USEDEP}]
 	dev-python/pandas-gbq[${PYTHON_USEDEP}]

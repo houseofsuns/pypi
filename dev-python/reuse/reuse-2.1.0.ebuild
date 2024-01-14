@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/binaryornot[${PYTHON_USEDEP}]
-	dev-python/boolean-py[${PYTHON_USEDEP}]
-	dev-python/license-expression[${PYTHON_USEDEP}]
-	dev-python/python-debian[${PYTHON_USEDEP}]"
+	<dev-python/binaryornot-0.5.0[${PYTHON_USEDEP}]
+	>=dev-python/boolean-py-3.8[${PYTHON_USEDEP}]
+	>=dev-python/license-expression-1.0[${PYTHON_USEDEP}]
+	<dev-python/python-debian-0.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

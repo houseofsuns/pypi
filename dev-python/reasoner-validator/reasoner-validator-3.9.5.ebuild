@@ -26,22 +26,22 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs web"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/bmt[${PYTHON_USEDEP}]
-	dev-python/dictdiffer[${PYTHON_USEDEP}]
+	<dev-python/dictdiffer-0.10.0[${PYTHON_USEDEP}]
 	web? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	web? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	web? ( <dev-python/httpx-0.19.0[${PYTHON_USEDEP}] )
+	<dev-python/jsonschema-4.18.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/myst-parser-3.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/numpydoc-2.0.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/opentelemetry-exporter-otlp-proto-http[${PYTHON_USEDEP}] )
 	web? ( dev-python/opentelemetry-instrumentation-fastapi[${PYTHON_USEDEP}] )
 	web? ( dev-python/opentelemetry-instrumentation-httpx[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	web? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

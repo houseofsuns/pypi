@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc tox"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	doc? ( dev-python/black[${PYTHON_USEDEP}] )
-	doc? ( dev-python/isort[${PYTHON_USEDEP}] )
-	doc? ( dev-python/click[${PYTHON_USEDEP}] )
-	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	doc? ( ~dev-python/black-21.5[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/isort-5.11.5[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/click-8.0.4[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/furo-2022.12.7[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-autodoc-typehints-1.12.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-readable-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	tox? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	tox? ( ~dev-python/tox-3.23.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

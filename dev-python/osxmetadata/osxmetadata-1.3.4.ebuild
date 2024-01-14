@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bitstring[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/bitstring-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/py-applescript[${PYTHON_USEDEP}]
 	dev-python/pyobjc-core[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-AVFoundation[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/bitstring[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-CoreServices[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Quartz[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-ScriptingBridge[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.41.2[${PYTHON_USEDEP}]
 	dev-python/xattr[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="estimate-area test"
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.2[${PYTHON_USEDEP}]
 	dev-python/cligj[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
 	dev-python/jsonseq[${PYTHON_USEDEP}]
 	dev-python/mercantile[${PYTHON_USEDEP}]
 	dev-python/geojson[${PYTHON_USEDEP}]
 	estimate-area? ( dev-python/supermercado[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pep8[${PYTHON_USEDEP}] )
 	test? ( dev-python/supermercado[${PYTHON_USEDEP}] )
 	test? ( dev-python/toml[${PYTHON_USEDEP}] )"

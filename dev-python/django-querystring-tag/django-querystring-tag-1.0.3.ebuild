@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="lint test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	lint? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-django-4.4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

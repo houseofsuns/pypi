@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hypothesis"
-DEPENDENCIES="dev-python/pycryptodome[${PYTHON_USEDEP}]
-	hypothesis? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
+	hypothesis? ( <dev-python/hypothesis-7.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

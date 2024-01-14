@@ -30,52 +30,52 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/fairscale[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.4[${PYTHON_USEDEP}]
 	dev-python/tensorboardX[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.6.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/lmdb[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	<dev-python/filelock-3.8[${PYTHON_USEDEP}]
+	>=dev-python/lmdb-1.2.1[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-8.12.0[${PYTHON_USEDEP}]
+	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.4[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/sacremoses[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+	>dev-python/traitlets-5.1.1[${PYTHON_USEDEP}]
 	dev-python/jsonnet[${PYTHON_USEDEP}]
 	all? ( dev-python/checklist[${PYTHON_USEDEP}] )
 	checklist? ( dev-python/checklist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.961[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-6.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flaky[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-2.2.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/responses-0.21[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flaky-3.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ruamel-yaml-0.17.17[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )
 	dev? ( dev-python/databind-core[${PYTHON_USEDEP}] )
 	dev? ( dev-python/databind-json[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docspec[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docspec-python[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-1.3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mkdocs-material-8.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/markdown-include-0.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pymdown-extensions-9.5[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/twine-5.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

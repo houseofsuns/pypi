@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pypng[${PYTHON_USEDEP}]
-	dev-python/svgwrite[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/pypng-0.0.21[${PYTHON_USEDEP}]
+	<dev-python/svgwrite-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

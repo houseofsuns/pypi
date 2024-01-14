@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="recommended"
 DEPENDENCIES="dev-python/eradiate-mitsuba[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-22.2[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/dessinemoi[${PYTHON_USEDEP}]
 	dev-python/environ-config[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/joseki[${PYTHON_USEDEP}]
 	dev-python/lazy-loader[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
 	dev-python/netcdf4[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
@@ -42,10 +42,10 @@ DEPENDENCIES="dev-python/eradiate-mitsuba[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/shellingham[${PYTHON_USEDEP}]
+	>dev-python/shellingham-1.5.1[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.19[${PYTHON_USEDEP}]
 	recommended? ( dev-python/aabbtree[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/ipython[${PYTHON_USEDEP}] )
@@ -54,14 +54,14 @@ DEPENDENCIES="dev-python/eradiate-mitsuba[${PYTHON_USEDEP}]
 	recommended? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/aenum[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/attrs[${PYTHON_USEDEP}] )
+	recommended? ( >=dev-python/attrs-22.2[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/click[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/dessinemoi[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/environ-config[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/joseki[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/lazy-loader[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	recommended? ( >=dev-python/matplotlib-3.3[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/pint[${PYTHON_USEDEP}] )
@@ -70,9 +70,9 @@ DEPENDENCIES="dev-python/eradiate-mitsuba[${PYTHON_USEDEP}]
 	recommended? ( dev-python/rich[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/shellingham[${PYTHON_USEDEP}] )
+	recommended? ( >dev-python/shellingham-1.5.1[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/typer[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/xarray[${PYTHON_USEDEP}] )"
+	recommended? ( >=dev-python/xarray-0.19[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

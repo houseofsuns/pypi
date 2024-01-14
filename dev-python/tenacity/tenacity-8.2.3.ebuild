@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 DEPENDENCIES="doc? ( dev-python/reno[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/tornado[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/tornado-4.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

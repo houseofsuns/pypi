@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="data"
 DEPENDENCIES="dev-python/aws-cdk-lib[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.24.9[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.27.9[${PYTHON_USEDEP}]
 	dev-python/constructs[${PYTHON_USEDEP}]
 	data? ( dev-python/awswrangler[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

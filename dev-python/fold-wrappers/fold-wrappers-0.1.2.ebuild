@@ -35,16 +35,16 @@ DEPENDENCIES="dev-python/fold-core[${PYTHON_USEDEP}]
 	neuralforecast? ( dev-python/neuralforecast[${PYTHON_USEDEP}] )
 	neuralforecast? ( dev-python/torch[${PYTHON_USEDEP}] )
 	prophet? ( dev-python/prophet[${PYTHON_USEDEP}] )
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
-	quality? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	quality? ( dev-python/isort[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	quality? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	sktime? ( dev-python/pmdarima[${PYTHON_USEDEP}] )
 	sktime? ( dev-python/sktime[${PYTHON_USEDEP}] )
 	statsforecast? ( dev-python/statsforecast[${PYTHON_USEDEP}] )
-	statsmodels? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	statsmodels? ( >=dev-python/statsmodels-0.12.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/fold-core[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

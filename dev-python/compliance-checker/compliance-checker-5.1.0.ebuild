@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cf-units[${PYTHON_USEDEP}]
-	dev-python/cftime[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
+	>=dev-python/cftime-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/isodate-0.5.4[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/netcdf4[${PYTHON_USEDEP}]
+	>=dev-python/lxml-3.2.1[${PYTHON_USEDEP}]
+	>=dev-python/netcdf4-1.5.7[${PYTHON_USEDEP}]
 	dev-python/owsLib[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	>=dev-python/pendulum-1.2.4[${PYTHON_USEDEP}]
 	dev-python/pygeoif[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]"
+	>=dev-python/pyproj-2.2.1[${PYTHON_USEDEP}]
+	>=dev-python/regex-2017.7.28[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.2.1[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-15.0[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.7.1[${PYTHON_USEDEP}]
+	>=dev-python/validators-0.14.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

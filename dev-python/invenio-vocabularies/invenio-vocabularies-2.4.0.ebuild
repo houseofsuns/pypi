@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="elasticsearch7 opensearch1 opensearch2 tests"
 DEPENDENCIES="dev-python/invenio-i18n[${PYTHON_USEDEP}]
 	dev-python/invenio-records-resources[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.5.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	elasticsearch7? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch1? ( dev-python/invenio-search[${PYTHON_USEDEP}] )

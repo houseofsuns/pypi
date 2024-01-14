@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/Cython[${PYTHON_USEDEP}]
 	dev-python/everest-pipeline[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/lightkurve[${PYTHON_USEDEP}]
 	dev-python/photutils[${PYTHON_USEDEP}]
-	dev-python/pybind11[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	~dev-python/pybind11-2.11.1[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.11.4[${PYTHON_USEDEP}]
+	~dev-python/statsmodels-0.13.5[${PYTHON_USEDEP}]
 	dev-python/tess-point[${PYTHON_USEDEP}]
 	dev-python/foldedleastsquares[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.13[${PYTHON_USEDEP}]
 	dev-python/wotan[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

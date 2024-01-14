@@ -27,13 +27,13 @@ IUSE=""
 DEPENDENCIES="dev-python/applescript[${PYTHON_USEDEP}]
 	dev-python/qqmusic-api[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/strsimpy[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	<dev-python/coverage-6.0[${PYTHON_USEDEP}]
+	<dev-python/regex-2022.0.0[${PYTHON_USEDEP}]
 	dev-python/hanziconv[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/pyaes[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]"
+	<dev-python/diskcache-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyaes-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

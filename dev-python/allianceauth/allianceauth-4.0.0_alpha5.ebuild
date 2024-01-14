@@ -32,20 +32,20 @@ DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap-form[${PYTHON_USEDEP}]
 	dev-python/django-celery-beat[${PYTHON_USEDEP}]
 	dev-python/django-esi[${PYTHON_USEDEP}]
-	dev-python/django-redis[${PYTHON_USEDEP}]
-	dev-python/django-registration[${PYTHON_USEDEP}]
+	>=dev-python/django-redis-5.2.0[${PYTHON_USEDEP}]
+	<dev-python/django-registration-3.4[${PYTHON_USEDEP}]
 	dev-python/django-sortedm2m[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/mysqlclient[${PYTHON_USEDEP}]
+	>=dev-python/mysqlclient-2.1.0[${PYTHON_USEDEP}]
 	dev-python/openfire-restapi[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
 	dev-python/passlib[${PYTHON_USEDEP}]
 	dev-python/pydiscourse[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	>=dev-python/python-slugify-1.2[${PYTHON_USEDEP}]
+	>=dev-python/redis-4.0.0[${PYTHON_USEDEP}]
 	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
 	dev-python/semantic-version[${PYTHON_USEDEP}]
 	dev-python/slixmpp[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -54,8 +54,8 @@ DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-django[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-webtest[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/requests-mock-1.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all-plugins all-plugins-pypy build dev docs ffmpeg fits full gdal itk linting pillow-heif pyav test tifffile"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.3.2[${PYTHON_USEDEP}]
 	all-plugins? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	all-plugins? ( dev-python/av[${PYTHON_USEDEP}] )
 	all-plugins? ( dev-python/imageio-ffmpeg[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	ffmpeg? ( dev-python/imageio-ffmpeg[${PYTHON_USEDEP}] )
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	full? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	full? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	full? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/tifffile[${PYTHON_USEDEP}] )
 	full? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	gdal? ( dev-python/gdal[${PYTHON_USEDEP}] )

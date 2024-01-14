@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/fastjsonschema[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+DEPENDENCIES="<=dev-python/requests-2.28[${PYTHON_USEDEP}]
+	<dev-python/fastjsonschema-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/future-0.19.0[${PYTHON_USEDEP}]
+	<dev-python/requests-toolbelt-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

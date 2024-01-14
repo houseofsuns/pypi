@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="toml yaml"
-DEPENDENCIES="dev-python/boltons[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boltons-19.3.0[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/face[${PYTHON_USEDEP}]
 	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )

@@ -24,35 +24,35 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev"
-DEPENDENCIES="dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyjwt-2.4[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.15[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.26[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/pyIIIFpres[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
+	~dev-python/python-magic-0.4[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	all? ( dev-python/moto[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/isort-5.10[${PYTHON_USEDEP}] )
+	all? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/python-dotenv-2.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/moto-4.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-7.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-mock-3.8[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-dotenv[${PYTHON_USEDEP}] )
-	all? ( dev-python/build[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/build-0.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/python-dotenv-2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/moto-4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-dotenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/build-0.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="video"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.10.0[${PYTHON_USEDEP}]
 	dev-python/cloudinary[${PYTHON_USEDEP}]
-	video? ( dev-python/python-magic[${PYTHON_USEDEP}] )"
+	video? ( >=dev-python/python-magic-0.4.12[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

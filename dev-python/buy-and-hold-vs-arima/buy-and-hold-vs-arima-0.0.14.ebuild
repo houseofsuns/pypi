@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
 	dev-python/pmdarima[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	dev-python/fastcore[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/yfinance[${PYTHON_USEDEP}]
@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/dash-bootstrap-components[${PYTHON_USEDEP}]
 	dev-python/buy-and-hold-vs-arima[${PYTHON_USEDEP}]
 	dev-python/waitress[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]"
+	>=dev-python/nbformat-4.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

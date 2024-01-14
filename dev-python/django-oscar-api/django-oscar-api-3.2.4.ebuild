@@ -27,7 +27,7 @@ IUSE="dev lint"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/django-oscar[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.9[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev? ( dev-python/easy-thumbnails[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pylint-django[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )"
+	lint? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

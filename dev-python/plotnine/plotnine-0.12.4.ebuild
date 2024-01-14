@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all build dev doc extra lint test typing"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]
 	dev-python/mizani[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/patsy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/patsy-0.5.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
 	all? ( dev-python/plotnine[${PYTHON_USEDEP}] )
 	all? ( dev-python/plotnine[${PYTHON_USEDEP}] )
 	all? ( dev-python/plotnine[${PYTHON_USEDEP}] )
@@ -43,14 +43,14 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev? ( dev-python/plotnine[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/numpydoc-0.9.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-6.1.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
 	extra? ( dev-python/adjustText[${PYTHON_USEDEP}] )
 	extra? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	extra? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	extra? ( dev-python/scikit-misc[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	typing? ( dev-python/pyright[${PYTHON_USEDEP}] )

@@ -29,20 +29,20 @@ DEPENDENCIES="dev-python/nipype[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/nistats[${PYTHON_USEDEP}]
 	dev-python/nilearn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/niworkflows[${PYTHON_USEDEP}]
 	dev-python/duecredit[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-2.2.4[${PYTHON_USEDEP}]
 	dev-python/mne[${PYTHON_USEDEP}]
 	all? ( dev-python/tox[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-5.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-travis-fold[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/nipype[${PYTHON_USEDEP}]
 	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	all? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	binder? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	binder? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	binder? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	binder? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	binder? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
@@ -63,12 +63,12 @@ DEPENDENCIES="dev-python/nipype[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
@@ -76,11 +76,11 @@ DEPENDENCIES="dev-python/nipype[${PYTHON_USEDEP}]
 	nb? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	nb? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-5.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-travis-fold[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tox[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-5.0.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-travis-fold[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

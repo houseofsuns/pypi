@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev tests viz-plotly viz-tiledb"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-21.4.0[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+	<dev-python/cloudpickle-3.0[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.4[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tblib[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10[${PYTHON_USEDEP}]
+	~dev-python/tblib-1.7[${PYTHON_USEDEP}]
 	dev-python/tiledb[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	>=dev-python/urllib3-1.26[${PYTHON_USEDEP}]
+	all? ( >=dev-python/networkx-2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/plotly-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	all? ( dev-python/tiledb-plot-widget[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	tests? ( dev-python/xarray[${PYTHON_USEDEP}] )
-	viz-plotly? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	viz-plotly? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	viz-plotly? ( >=dev-python/networkx-2.0[${PYTHON_USEDEP}] )
+	viz-plotly? ( >=dev-python/plotly-4.0[${PYTHON_USEDEP}] )
 	viz-plotly? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	viz-tiledb? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	viz-tiledb? ( >=dev-python/networkx-2.0[${PYTHON_USEDEP}] )
 	viz-tiledb? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	viz-tiledb? ( dev-python/tiledb-plot-widget[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

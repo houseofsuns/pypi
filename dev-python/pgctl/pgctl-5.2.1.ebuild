@@ -27,7 +27,7 @@ IUSE="telemetry"
 DEPENDENCIES="dev-python/frozendict[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/contextlib2[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]
+	>=dev-python/py-1.4.32[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/s6[${PYTHON_USEDEP}]
 	telemetry? ( dev-python/yelp-clog[${PYTHON_USEDEP}] )"

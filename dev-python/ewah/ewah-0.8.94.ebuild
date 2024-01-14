@@ -53,7 +53,7 @@ DEPENDENCIES="dev-python/avro[${PYTHON_USEDEP}]
 	dev-python/selenium[${PYTHON_USEDEP}]
 	dev-python/simple-salesforce[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
-	dev-python/sshtunnel[${PYTHON_USEDEP}]
+	>=dev-python/sshtunnel-0.2.2[${PYTHON_USEDEP}]
 	dev-python/stripe[${PYTHON_USEDEP}]
 	dev-python/virtualenv[${PYTHON_USEDEP}]
 	dev-python/yahoofinancials[${PYTHON_USEDEP}]"

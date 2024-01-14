@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/crcmod[${PYTHON_USEDEP}]
+	~dev-python/crcmod-1.7[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/hidapi[${PYTHON_USEDEP}]
 	dev-python/pyusb[${PYTHON_USEDEP}]

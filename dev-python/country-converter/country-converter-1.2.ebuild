@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev lint test"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/country-converter[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/isort-5.5.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-datadir[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

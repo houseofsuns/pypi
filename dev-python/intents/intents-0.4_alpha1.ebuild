@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="snips"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-dialogflow[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
 	snips? ( dev-python/snips-nlu[${PYTHON_USEDEP}] )
 	dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]"
+	<dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

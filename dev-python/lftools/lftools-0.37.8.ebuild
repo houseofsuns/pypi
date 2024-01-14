@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	~dev-python/docker-4.2.2[${PYTHON_USEDEP}]
 	dev-python/email-validator[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/multi-key-dict[${PYTHON_USEDEP}]
 	dev-python/nodeenv[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/openstacksdk[${PYTHON_USEDEP}]
+	<dev-python/openstacksdk-1.5.0[${PYTHON_USEDEP}]
 	dev-python/pbr[${PYTHON_USEDEP}]
 	dev-python/pyasn1[${PYTHON_USEDEP}]
 	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
@@ -69,7 +69,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]
@@ -77,13 +77,13 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	docs? ( dev-python/lfdocs-conf[${PYTHON_USEDEP}] )
 	docs? ( dev-python/reno[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
-	ldap? ( dev-python/python-ldap[${PYTHON_USEDEP}] )
-	openstack? ( dev-python/osc-lib[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	ldap? ( ~dev-python/python-ldap-3.1.0[${PYTHON_USEDEP}] )
+	openstack? ( ~dev-python/osc-lib-2.2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-5.3.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-click[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-datafiles[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-datafiles-2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-responses[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
 DEPENDENCIES="dev-python/contracts-lib-py[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/eciespy[${PYTHON_USEDEP}]
 	dev-python/eth-keys[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
+	~dev-python/rsa-4.7[${PYTHON_USEDEP}]
 	dev-python/nevermined-authlib[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pkginfo[${PYTHON_USEDEP}] )

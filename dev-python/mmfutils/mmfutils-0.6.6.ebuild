@@ -24,37 +24,37 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc test"
-DEPENDENCIES="dev-python/zope-interface[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/zope-interface-5.4.0[${PYTHON_USEDEP}]
 	dev-python/husl[${PYTHON_USEDEP}]
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipyparallel[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipyparallel-8.4.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/ipyparallel-8.4.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mmf-setup[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mock[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/nbconvert-7.2.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/numba[${PYTHON_USEDEP}] )
-	all? ( dev-python/numexpr[${PYTHON_USEDEP}] )
-	test? ( dev-python/numexpr[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numexpr-2.8.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/numexpr-2.8.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/persist[${PYTHON_USEDEP}] )
-	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/psutil-5.9.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyFFTW[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	test? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
+	>=dev-python/sphinx-rtd-theme-1.2.1[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinxcontrib-zopeext[${PYTHON_USEDEP}] )
-	all? ( dev-python/uncertainties[${PYTHON_USEDEP}] )
-	test? ( dev-python/uncertainties[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/uncertainties-3.1.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/uncertainties-3.1.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-rerunfailures-11.1.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/numpy-1.23.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-1.8.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scipy-1.8.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

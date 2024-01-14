@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="algorithms all benchmarks jax test tf"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/absl-py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
+	>=dev-python/absl-py-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/portpicker[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.35.0[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-tools-1.35.0[${PYTHON_USEDEP}]
+	>=dev-python/googleapis-common-protos-1.56.4[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	algorithms? ( dev-python/emukit[${PYTHON_USEDEP}] )
-	algorithms? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	algorithms? ( <dev-python/scipy-1.8.0[${PYTHON_USEDEP}] )
 	algorithms? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
-	algorithms? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
+	algorithms? ( ~dev-python/cvxopt-1.3.0[${PYTHON_USEDEP}] )
 	algorithms? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	algorithms? ( dev-python/evojax[${PYTHON_USEDEP}] )
 	algorithms? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
@@ -49,12 +49,12 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	all? ( dev-python/tfp-nightly[${PYTHON_USEDEP}] )
 	all? ( dev-python/equinox[${PYTHON_USEDEP}] )
 	all? ( dev-python/jaxtyping[${PYTHON_USEDEP}] )
-	all? ( dev-python/typeguard[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/typeguard-2.13.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	all? ( dev-python/emukit[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( <dev-python/scipy-1.8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/cvxopt-1.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	all? ( dev-python/evojax[${PYTHON_USEDEP}] )
 	all? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
@@ -63,8 +63,8 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	all? ( dev-python/nats-bench[${PYTHON_USEDEP}] )
 	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	all? ( dev-python/ray[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/mock[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/coverage-6.4.2[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/ale-py[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/dopamine-rl[${PYTHON_USEDEP}] )
@@ -80,9 +80,9 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	jax? ( dev-python/tfp-nightly[${PYTHON_USEDEP}] )
 	jax? ( dev-python/equinox[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jaxtyping[${PYTHON_USEDEP}] )
-	jax? ( dev-python/typeguard[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	jax? ( <=dev-python/typeguard-2.13.3[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/coverage-6.4.2[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

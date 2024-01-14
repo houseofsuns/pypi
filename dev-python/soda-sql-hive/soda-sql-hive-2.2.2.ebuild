@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/soda-sql-core[${PYTHON_USEDEP}]
 	dev-python/PyHive[${PYTHON_USEDEP}]
-	dev-python/thrift[${PYTHON_USEDEP}]"
+	<dev-python/thrift-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -37,17 +37,17 @@ DEPENDENCIES="dev-python/param[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}]
+	<dev-python/pydata-sphinx-theme-0.14[${PYTHON_USEDEP}]
 	dev-python/myst-parser[${PYTHON_USEDEP}]
 	dev-python/sphinx-copybutton[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	build? ( dev-python/param[${PYTHON_USEDEP}] )
 	gallery? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	gallery? ( dev-python/phantomjs[${PYTHON_USEDEP}] )
 	refman? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-3.9.1[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

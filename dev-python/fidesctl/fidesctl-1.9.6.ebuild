@@ -24,42 +24,42 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws bigquery mssql mysql okta redshift snowflake"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/alembic-1.8.0[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-36.0[${PYTHON_USEDEP}]
+	~dev-python/deepdiff-5.8.0[${PYTHON_USEDEP}]
 	dev-python/fastapi-pagination[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/fideslang[${PYTHON_USEDEP}]
 	dev-python/fideslib[${PYTHON_USEDEP}]
 	dev-python/fideslog[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.6[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.4[${PYTHON_USEDEP}]
+	~dev-python/plotly-5.4[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-1.10.0[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.27[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/versioneer[${PYTHON_USEDEP}]
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	all? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	~dev-python/uvicorn-0.17.6[${PYTHON_USEDEP}]
+	~dev-python/versioneer-0.19[${PYTHON_USEDEP}]
+	all? ( ~dev-python/boto3-1.20.54[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pymysql-1.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/okta[${PYTHON_USEDEP}] )
 	all? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}] )
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	aws? ( ~dev-python/boto3-1.20.54[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	mysql? ( ~dev-python/pymysql-1.0.0[${PYTHON_USEDEP}] )
 	okta? ( dev-python/okta[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )"

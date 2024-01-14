@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="hiredis"
 DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	hiredis? ( dev-python/hiredis[${PYTHON_USEDEP}] )"
+	hiredis? ( >=dev-python/hiredis-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

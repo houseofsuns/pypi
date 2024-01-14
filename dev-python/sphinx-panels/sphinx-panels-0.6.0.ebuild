@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="code_style live-dev testing themes"
 DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+	<dev-python/sphinx-5.0[${PYTHON_USEDEP}]
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	live-dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	live-dev? ( dev-python/web-compile[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-regressions-2.0.1[${PYTHON_USEDEP}] )
 	themes? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	themes? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	themes? ( ~dev-python/pydata-sphinx-theme-0.4.0[${PYTHON_USEDEP}] )
 	themes? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	themes? ( dev-python/myst-parser[${PYTHON_USEDEP}] )"
+	themes? ( ~dev-python/myst-parser-0.12.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

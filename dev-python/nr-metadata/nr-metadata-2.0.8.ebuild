@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/oarepo-runtime[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
+	>=dev-python/deepmerge-1.1.0[${PYTHON_USEDEP}]
 	dev-python/oarepo-vocabularies[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/black[${PYTHON_USEDEP}] )

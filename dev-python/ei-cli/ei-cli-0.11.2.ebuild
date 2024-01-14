@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="devel"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.26.42[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/mypy-boto3-ec2[${PYTHON_USEDEP}]
 	dev-python/mypy-boto3-elasticache[${PYTHON_USEDEP}]
@@ -33,14 +33,14 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/mypy-boto3-s3[${PYTHON_USEDEP}]
 	dev-python/mypy-boto3[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	devel? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	>=dev-python/uvicorn-0.23.2[${PYTHON_USEDEP}]
+	>=dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
+	devel? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	devel? ( dev-python/hatch[${PYTHON_USEDEP}] )
-	devel? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	devel? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	devel? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	devel? ( >=dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
+	devel? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	devel? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

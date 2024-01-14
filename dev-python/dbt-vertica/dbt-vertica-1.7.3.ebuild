@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/dbt-core[${PYTHON_USEDEP}]
 	dev-python/vertica-python[${PYTHON_USEDEP}]
 	dev-python/dbt-tests-adapter[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]"
+	~dev-python/python-dotenv-0.21.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

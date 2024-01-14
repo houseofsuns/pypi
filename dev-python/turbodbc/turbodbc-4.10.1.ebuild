@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="arrow numpy"
-DEPENDENCIES="arrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+DEPENDENCIES="arrow? ( <dev-python/pyarrow-15.0[${PYTHON_USEDEP}] )
+	numpy? ( >=dev-python/numpy-1.20.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

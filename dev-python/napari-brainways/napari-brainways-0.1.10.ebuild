@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/brainways[${PYTHON_USEDEP}]
 	testing? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-qt-4.1.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

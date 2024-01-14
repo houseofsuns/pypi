@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/langcodes[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
 	dev-python/shutils[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]"

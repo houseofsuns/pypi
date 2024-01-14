@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.1[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-41.0[${PYTHON_USEDEP}]
+	>=dev-python/bcrypt-4.0[${PYTHON_USEDEP}]
 	dev-python/enum34[${PYTHON_USEDEP}]
 	dev-python/PrettyTable[${PYTHON_USEDEP}]
 	dev-python/pytimeparse2[${PYTHON_USEDEP}]"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="heif"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.1[${PYTHON_USEDEP}]
 	dev-python/django-polymorphic[${PYTHON_USEDEP}]
 	dev-python/easy-thumbnails[${PYTHON_USEDEP}]
 	heif? ( dev-python/pillow-heif[${PYTHON_USEDEP}] )"

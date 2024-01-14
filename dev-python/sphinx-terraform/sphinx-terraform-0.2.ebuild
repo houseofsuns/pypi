@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs markdown test"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-3.0[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	all? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
@@ -34,10 +34,10 @@ DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
 	all? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-paramlinks[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-paramlinks[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	markdown? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	markdown? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	markdown? ( >=dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	test? ( dev-python/nox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

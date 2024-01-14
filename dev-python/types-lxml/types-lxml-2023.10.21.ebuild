@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/types-beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.5[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-mypy-plugins[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-1.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typeguard[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/lxml-4.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/typeguard-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

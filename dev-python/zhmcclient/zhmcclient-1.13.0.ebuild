@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testutils"
-DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/immutable-views[${PYTHON_USEDEP}]
 	dev-python/nocasedict[${PYTHON_USEDEP}]
 	dev-python/yamlloader[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pyrsistent-0.15.1[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/stomp-py[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/decorator-4.0.11[${PYTHON_USEDEP}]
+	<dev-python/stomp-py-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	testutils? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	testutils? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

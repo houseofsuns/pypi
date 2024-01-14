@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/mimerender[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/flask-0.10[${PYTHON_USEDEP}]
+	>=dev-python/mimerender-0.5.2[${PYTHON_USEDEP}]
+	>dev-python/python-dateutil-2.2[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-0.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full kafka rabbitmq"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiofiles-0.7.0[${PYTHON_USEDEP}]
 	dev-python/acct[${PYTHON_USEDEP}]
 	dev-python/dict-toolbox[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]

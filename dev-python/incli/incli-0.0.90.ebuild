@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	<dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/ansi2html[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

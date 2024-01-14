@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	<dev-python/selenium-5.0.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/pytesseract[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytesseract-0.4.0[${PYTHON_USEDEP}]
 	dev-python/pygsheets[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/discord[${PYTHON_USEDEP}]
 	dev-python/py-trello[${PYTHON_USEDEP}]
 	dev-python/numpi[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/simple-zpl2[${PYTHON_USEDEP}]
 	dev-python/luddite[${PYTHON_USEDEP}]
 	dev-python/py-applescript[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
+	<dev-python/waitress-3.0.0[${PYTHON_USEDEP}]
 	dev-python/kivy[${PYTHON_USEDEP}]
 	dev-python/homeassistant-api[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

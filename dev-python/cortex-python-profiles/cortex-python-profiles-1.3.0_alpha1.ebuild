@@ -26,32 +26,32 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bulk dev docs synthetic test viz"
 DEPENDENCIES="dev-python/cortex-python[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	<dev-python/arrow-0.13[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.23.4[${PYTHON_USEDEP}]
+	~dev-python/attrs-18.2.0[${PYTHON_USEDEP}]
 	dev-python/objectpath[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
-	bulk? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	~dev-python/deprecation-2.0.6[${PYTHON_USEDEP}]
+	bulk? ( <dev-python/pymongo-3.11[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/twine-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.770[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-multiversion[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-multiversion-0.2.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/gitpython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-restbuilder[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbconvert-5.4.0[${PYTHON_USEDEP}] )
 	synthetic? ( dev-python/iso3166[${PYTHON_USEDEP}] )
-	synthetic? ( dev-python/Faker[${PYTHON_USEDEP}] )
+	synthetic? ( ~dev-python/Faker-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/mocket[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mock-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/tox-3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	viz? ( dev-python/cortex-python[${PYTHON_USEDEP}] )
 	viz? ( dev-python/psutil[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

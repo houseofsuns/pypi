@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="kombu pypendency"
 DEPENDENCIES="pypendency? ( dev-python/pypendency[${PYTHON_USEDEP}] )
-	kombu? ( dev-python/kombu[${PYTHON_USEDEP}] )"
+	kombu? ( >=dev-python/kombu-4.6.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

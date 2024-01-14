@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
 	dev-python/pypdf2[${PYTHON_USEDEP}]
 	dev-python/pyqt6[${PYTHON_USEDEP}]
-	dev-python/qtawesome[${PYTHON_USEDEP}]
-	dev-python/apsw[${PYTHON_USEDEP}]"
+	<dev-python/qtawesome-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/apsw-4.0.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

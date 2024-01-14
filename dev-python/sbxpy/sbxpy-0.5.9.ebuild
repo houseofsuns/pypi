@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/aiohttp-3.7.3[${PYTHON_USEDEP}]
+	>=dev-python/redis-4.5.2[${PYTHON_USEDEP}]
+	>dev-python/pydantic-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/deepmerge-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

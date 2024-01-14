@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all gin polyaxon"
-DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dask-2.14.0[${PYTHON_USEDEP}]
 	dev-python/dask-distance[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.8.0[${PYTHON_USEDEP}]
 	dev-python/kneed[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-0.12.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.20.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.19.1[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.11.2[${PYTHON_USEDEP}]
+	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
 	polyaxon? ( dev-python/polyaxon[${PYTHON_USEDEP}] )
 	all? ( dev-python/polyaxon[${PYTHON_USEDEP}] )
 	gin? ( dev-python/gin-config[${PYTHON_USEDEP}] )

@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/relaxed-poetry-core[${PYTHON_USEDEP}]
-	dev-python/cleo[${PYTHON_USEDEP}]
-	dev-python/crashtest[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/cleo-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/crashtest-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/cachy[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/cachecontrol[${PYTHON_USEDEP}]
-	dev-python/pkginfo[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/shellingham[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	<dev-python/requests-toolbelt-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/cachecontrol-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/pkginfo-2.0[${PYTHON_USEDEP}]
+	<dev-python/html5lib-2.0[${PYTHON_USEDEP}]
+	<dev-python/shellingham-2.0[${PYTHON_USEDEP}]
+	<dev-python/pexpect-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/packaging-21.0[${PYTHON_USEDEP}]
 	dev-python/virtualenv[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/entrypoints[${PYTHON_USEDEP}]
+	>=dev-python/keyring-21.2.0[${PYTHON_USEDEP}]
+	<dev-python/entrypoints-0.4[${PYTHON_USEDEP}]
 	dev-python/protopy-lib[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-4.0.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

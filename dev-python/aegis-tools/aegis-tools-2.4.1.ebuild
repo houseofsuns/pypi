@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}]
 	dev-python/pympler[${PYTHON_USEDEP}]
 	dev-python/pyreferrer[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	>=dev-python/tornado-6.2.0[${PYTHON_USEDEP}]
 	dev-python/user-agents[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="devel"
 DEPENDENCIES="dev-python/streamlit[${PYTHON_USEDEP}]
 	devel? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	devel? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	devel? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
 	devel? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	devel? ( dev-python/requests[${PYTHON_USEDEP}] )
+	devel? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pytest-playwright-snapshot[${PYTHON_USEDEP}] )
-	devel? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )"
+	devel? ( ~dev-python/pytest-rerunfailures-12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

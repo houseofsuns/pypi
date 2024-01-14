@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/ply[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
+	~dev-python/ply-3.11[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.1[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/idp-engine[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

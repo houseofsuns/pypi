@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tomark[${PYTHON_USEDEP}]
 	dev-python/pandas-datareader[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/pyportfolioopt[${PYTHON_USEDEP}]
 	dev-python/collinearity[${PYTHON_USEDEP}]
 	dev-python/yfinance[${PYTHON_USEDEP}]"

@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/espn-api[${PYTHON_USEDEP}]
 	dev-python/fleaflicker[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.4[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
 	dev-python/pymfl[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/setuptools-66.1.1[${PYTHON_USEDEP}]
 	dev-python/sleeper[${PYTHON_USEDEP}]
 	dev-python/yahoofantasy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

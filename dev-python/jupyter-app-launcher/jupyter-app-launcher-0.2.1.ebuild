@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/jupyter-server-proxy[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]
+	<dev-python/jupyter-server-proxy-5.0[${PYTHON_USEDEP}]
+	<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/trafaret-config[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
+	<dev-python/ujson-2.0[${PYTHON_USEDEP}]
 	dev-python/jsonrpcclient[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
+	<dev-python/pymongo-4.0[${PYTHON_USEDEP}]
+	<dev-python/python-json-logger-0.2.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp_graphql[${PYTHON_USEDEP}]
 	dev-python/graphene-file-upload[${PYTHON_USEDEP}]
 	dev-python/graphene[${PYTHON_USEDEP}]"

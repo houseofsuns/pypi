@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev write-exif"
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
 	dev-python/pyexiv2[${PYTHON_USEDEP}]
-	build? ( dev-python/flit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-datafiles[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/flit-3.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-datafiles-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typer-cli-forked[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lazydocs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-xmltodict[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	write-exif? ( dev-python/timezonefinder[${PYTHON_USEDEP}] )
-	write-exif? ( dev-python/pytz[${PYTHON_USEDEP}] )
+	write-exif? ( ~dev-python/pytz-2023.3[${PYTHON_USEDEP}] )
 	write-exif? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
-	write-exif? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )"
+	write-exif? ( ~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

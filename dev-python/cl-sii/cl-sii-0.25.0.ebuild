@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="django djangorestframework"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-38.0.0[${PYTHON_USEDEP}]
+	<dev-python/defusedxml-1.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.1.1[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.3.0[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
 	dev-python/signxml[${PYTHON_USEDEP}]
 	django? ( dev-python/Django[${PYTHON_USEDEP}] )
-	djangorestframework? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )"
+	djangorestframework? ( <dev-python/djangorestframework-3.15[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

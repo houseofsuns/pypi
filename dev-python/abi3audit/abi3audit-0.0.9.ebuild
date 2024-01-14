@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev lint test"
 DEPENDENCIES="dev-python/abi3info[${PYTHON_USEDEP}]
-	dev-python/kaitaistruct[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pefile[${PYTHON_USEDEP}]
-	dev-python/pyelftools[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/kaitaistruct-0.10[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
+	>=dev-python/pefile-2022.5.30[${PYTHON_USEDEP}]
+	>=dev-python/pyelftools-0.29[${PYTHON_USEDEP}]
+	<dev-python/requests-2.32.0[${PYTHON_USEDEP}]
+	<dev-python/requests-cache-1.2.0[${PYTHON_USEDEP}]
+	<dev-python/rich-13.7.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdoc3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/abi3audit[${PYTHON_USEDEP}] )

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gcp oidc"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	oidc? ( dev-python/requests-oauthlib[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/urllib3-1.26.9[${PYTHON_USEDEP}]
+	oidc? ( <dev-python/requests-oauthlib-2.0.0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-auth[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/jsonpath-ng[${PYTHON_USEDEP}] )
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

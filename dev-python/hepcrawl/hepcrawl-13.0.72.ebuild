@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/LinkHeader[${PYTHON_USEDEP}]
 	dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/Sickle[${PYTHON_USEDEP}]
 	dev-python/Twisted[${PYTHON_USEDEP}]
-	dev-python/amqp[${PYTHON_USEDEP}]
-	dev-python/automat[${PYTHON_USEDEP}]
+	~dev-python/amqp-2.0[${PYTHON_USEDEP}]
+	~dev-python/automat-20.2.0[${PYTHON_USEDEP}]
 	dev-python/autosemver[${PYTHON_USEDEP}]
 	dev-python/backports-tempfile[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.14[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/ftputil[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
@@ -40,50 +40,50 @@ DEPENDENCIES="dev-python/LinkHeader[${PYTHON_USEDEP}]
 	dev-python/inspire-dojson[${PYTHON_USEDEP}]
 	dev-python/inspire-schemas[${PYTHON_USEDEP}]
 	dev-python/inspire-utils[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/pylatexenc[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-0.1.8[${PYTHON_USEDEP}]
+	~dev-python/pylatexenc-2.9[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.0[${PYTHON_USEDEP}]
 	dev-python/python-logstash[${PYTHON_USEDEP}]
 	dev-python/python-scrapyd-api[${PYTHON_USEDEP}]
 	dev-python/queuelib[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/redis-2.10.5[${PYTHON_USEDEP}]
+	~dev-python/requests-2.22[${PYTHON_USEDEP}]
 	dev-python/scrapy-crawl-once[${PYTHON_USEDEP}]
 	dev-python/scrapy-sentry[${PYTHON_USEDEP}]
 	dev-python/scrapyd-client[${PYTHON_USEDEP}]
 	dev-python/scrapyd[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
+	~dev-python/sentry-sdk-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
+	~dev-python/structlog-20.1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	all? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/deepdiff-3.3.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/freezegun-0.3.9[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pydocstyle-1.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-2.8.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/requests-mock-1.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	tests? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
-	tests? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/deepdiff-3.3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/freezegun-0.3.9[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pydocstyle-1.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-2.8.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/requests-mock-1.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

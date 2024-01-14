@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all demos docs tests"
-DEPENDENCIES="dev-python/meshio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/meshio-4.1.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	all? ( dev-python/cashocs[${PYTHON_USEDEP}] )

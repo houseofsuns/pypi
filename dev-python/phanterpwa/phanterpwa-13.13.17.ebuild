@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/libsass[${PYTHON_USEDEP}]
 	dev-python/transcrypt[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
 	dev-python/pydal[${PYTHON_USEDEP}]
 	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]"
+	>=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

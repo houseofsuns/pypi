@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="i18n"
 DEPENDENCIES="dev-python/django-countries[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2017.2[${PYTHON_USEDEP}]
 	dev-python/django-ordered-model[${PYTHON_USEDEP}]
 	dev-python/python-stdnum[${PYTHON_USEDEP}]
 	dev-python/django-next-url-mixin[${PYTHON_USEDEP}]

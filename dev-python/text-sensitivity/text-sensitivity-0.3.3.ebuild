@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/genbase[${PYTHON_USEDEP}]
 	dev-python/text-explainability[${PYTHON_USEDEP}]
 	dev-python/nlpaug[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	>=dev-python/Faker-9.2.0[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="eventlet gevent uvloop"
-DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/colorlog-2.9.0[${PYTHON_USEDEP}]
+	>=dev-python/croniter-0.3.16[${PYTHON_USEDEP}]
 	dev-python/mypy_extensions[${PYTHON_USEDEP}]
 	eventlet? ( dev-python/dnspython[${PYTHON_USEDEP}] )
 	eventlet? ( dev-python/faust-aioeventlet[${PYTHON_USEDEP}] )
 	gevent? ( dev-python/aiogevent[${PYTHON_USEDEP}] )
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	uvloop? ( >=dev-python/uvloop-0.8.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

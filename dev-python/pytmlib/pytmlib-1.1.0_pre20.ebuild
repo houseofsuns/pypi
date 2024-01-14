@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask-cors[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
+	~dev-python/flask-2.3.2[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

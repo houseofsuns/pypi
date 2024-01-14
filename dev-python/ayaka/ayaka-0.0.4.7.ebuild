@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fastapi nb2ob11 playwright"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pydantic-1.10.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
 	dev-python/ayaka-db[${PYTHON_USEDEP}]
 	dev-python/ayaka-utils[${PYTHON_USEDEP}]
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	fastapi? ( <dev-python/uvicorn-1.0.0[${PYTHON_USEDEP}] )
 	nb2ob11? ( dev-python/nonebot2[${PYTHON_USEDEP}] )
 	nb2ob11? ( dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}] )
 	playwright? ( dev-python/playwright[${PYTHON_USEDEP}] )"

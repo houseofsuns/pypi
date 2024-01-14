@@ -32,21 +32,21 @@ DEPENDENCIES="dev-python/cftime[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/owslib[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.25[${PYTHON_USEDEP}]
+	<dev-python/owslib-0.29[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pymbolic[${PYTHON_USEDEP}]
 	dev-python/raven-hydro[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/spotpy[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	<dev-python/xarray-2023.9.0[${PYTHON_USEDEP}]
 	dev-python/xclim[${PYTHON_USEDEP}]
 	dev-python/xskillscore[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/cftime[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-xdist-3.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
@@ -90,7 +90,7 @@ DEPENDENCIES="dev-python/cftime[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-codeautolink[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/xesmf[${PYTHON_USEDEP}] )
 	gis? ( dev-python/affine[${PYTHON_USEDEP}] )
 	gis? ( dev-python/fiona[${PYTHON_USEDEP}] )
@@ -98,7 +98,7 @@ DEPENDENCIES="dev-python/cftime[${PYTHON_USEDEP}]
 	gis? ( dev-python/gdal[${PYTHON_USEDEP}] )
 	gis? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	gis? ( dev-python/pyogrio[${PYTHON_USEDEP}] )
-	gis? ( dev-python/pyproj[${PYTHON_USEDEP}] )
+	gis? ( >=dev-python/pyproj-3.0.0[${PYTHON_USEDEP}] )
 	gis? ( dev-python/rasterio[${PYTHON_USEDEP}] )
 	gis? ( dev-python/rioxarray[${PYTHON_USEDEP}] )
 	gis? ( dev-python/shapely[${PYTHON_USEDEP}] )"

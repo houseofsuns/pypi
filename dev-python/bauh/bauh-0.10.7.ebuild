@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="web"
 DEPENDENCIES="dev-python/pyqt5[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	web? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	web? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )"
+	>=dev-python/requests-2.18[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.3.8[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7[${PYTHON_USEDEP}]
+	web? ( >=dev-python/lxml-4.2.0[${PYTHON_USEDEP}] )
+	web? ( >=dev-python/beautifulsoup4-4.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

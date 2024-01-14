@@ -24,84 +24,84 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="allure coverage flake8 ipdb pdfminer pillow psutil selenium-stealth selenium-wire"
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/parse[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pip-23.3.2[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.2[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.42.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-23.2.0[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
+	>=dev-python/parse-1.20.0[${PYTHON_USEDEP}]
 	dev-python/parse-type[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/idna-3.6[${PYTHON_USEDEP}]
+	~dev-python/chardet-5.2.0[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/pynose[${PYTHON_USEDEP}]
-	dev-python/sniffio[${PYTHON_USEDEP}]
-	dev-python/h11[${PYTHON_USEDEP}]
-	dev-python/outcome[${PYTHON_USEDEP}]
-	dev-python/trio-websocket[${PYTHON_USEDEP}]
-	dev-python/wsproto[${PYTHON_USEDEP}]
-	dev-python/cssselect[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
-	dev-python/execnet[${PYTHON_USEDEP}]
-	dev-python/iniconfig[${PYTHON_USEDEP}]
-	dev-python/py[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	~dev-python/sniffio-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/h11-0.14.0[${PYTHON_USEDEP}]
+	~dev-python/outcome-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/trio-websocket-0.11.1[${PYTHON_USEDEP}]
+	~dev-python/wsproto-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/cssselect-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
+	~dev-python/fasteners-0.19[${PYTHON_USEDEP}]
+	~dev-python/execnet-2.0.2[${PYTHON_USEDEP}]
+	~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/py-1.11.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.4.4[${PYTHON_USEDEP}]
 	dev-python/pytest-html[${PYTHON_USEDEP}]
-	dev-python/pytest-metadata[${PYTHON_USEDEP}]
-	dev-python/pytest-ordering[${PYTHON_USEDEP}]
-	dev-python/pytest-rerunfailures[${PYTHON_USEDEP}]
-	dev-python/pytest-xdist[${PYTHON_USEDEP}]
-	dev-python/parameterized[${PYTHON_USEDEP}]
+	~dev-python/pytest-metadata-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-ordering-0.6[${PYTHON_USEDEP}]
+	~dev-python/pytest-rerunfailures-13.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-xdist-3.5.0[${PYTHON_USEDEP}]
+	~dev-python/parameterized-0.9.0[${PYTHON_USEDEP}]
 	dev-python/sbvirtualdisplay[${PYTHON_USEDEP}]
 	dev-python/behave[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.17.2[${PYTHON_USEDEP}]
 	dev-python/tabcompleter[${PYTHON_USEDEP}]
 	dev-python/pdbp[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	dev-python/pyotp[${PYTHON_USEDEP}]
-	dev-python/mdurl[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/trio[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/soupsieve[${PYTHON_USEDEP}]
-	dev-python/markdown-it-py[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/pyotp-2.9.0[${PYTHON_USEDEP}]
+	~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}]
+	~dev-python/rich-13.7.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-69.0.3[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.13.1[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-4.1.0[${PYTHON_USEDEP}]
+	~dev-python/trio-0.23.2[${PYTHON_USEDEP}]
+	~dev-python/selenium-4.16.0[${PYTHON_USEDEP}]
+	~dev-python/pluggy-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/soupsieve-2.5[${PYTHON_USEDEP}]
+	~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
 	allure? ( dev-python/allure-pytest[${PYTHON_USEDEP}] )
 	allure? ( dev-python/allure-python-commons[${PYTHON_USEDEP}] )
 	allure? ( dev-python/allure-behave[${PYTHON_USEDEP}] )
-	coverage? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	coverage? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	flake8? ( dev-python/mccabe[${PYTHON_USEDEP}] )
-	flake8? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	flake8? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	flake8? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	ipdb? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	ipdb? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	pdfminer? ( dev-python/pycparser[${PYTHON_USEDEP}] )
+	coverage? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	coverage? ( ~dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
+	flake8? ( ~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
+	flake8? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
+	flake8? ( ~dev-python/pyflakes-3.1.0[${PYTHON_USEDEP}] )
+	flake8? ( ~dev-python/pycodestyle-2.11.1[${PYTHON_USEDEP}] )
+	ipdb? ( ~dev-python/ipdb-0.13.13[${PYTHON_USEDEP}] )
+	ipdb? ( ~dev-python/ipython-7.34.0[${PYTHON_USEDEP}] )
+	pdfminer? ( ~dev-python/pycparser-2.21[${PYTHON_USEDEP}] )
 	pdfminer? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
-	pdfminer? ( dev-python/cffi[${PYTHON_USEDEP}] )
-	pdfminer? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	pdfminer? ( ~dev-python/cffi-1.16.0[${PYTHON_USEDEP}] )
+	pdfminer? ( ~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}] )
 	pillow? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	psutil? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	psutil? ( ~dev-python/psutil-5.9.6[${PYTHON_USEDEP}] )
 	selenium-stealth? ( dev-python/selenium-stealth[${PYTHON_USEDEP}] )
 	selenium-wire? ( dev-python/selenium-wire[${PYTHON_USEDEP}] )
 	selenium-wire? ( dev-python/Brotli[${PYTHON_USEDEP}] )
-	selenium-wire? ( dev-python/blinker[${PYTHON_USEDEP}] )
-	selenium-wire? ( dev-python/h2[${PYTHON_USEDEP}] )
-	selenium-wire? ( dev-python/hpack[${PYTHON_USEDEP}] )
-	selenium-wire? ( dev-python/hyperframe[${PYTHON_USEDEP}] )
-	selenium-wire? ( dev-python/kaitaistruct[${PYTHON_USEDEP}] )
-	selenium-wire? ( dev-python/pyasn1[${PYTHON_USEDEP}] )
-	selenium-wire? ( dev-python/zstandard[${PYTHON_USEDEP}] )"
+	selenium-wire? ( ~dev-python/blinker-1.7.0[${PYTHON_USEDEP}] )
+	selenium-wire? ( ~dev-python/h2-4.1.0[${PYTHON_USEDEP}] )
+	selenium-wire? ( ~dev-python/hpack-4.0.0[${PYTHON_USEDEP}] )
+	selenium-wire? ( ~dev-python/hyperframe-6.0.1[${PYTHON_USEDEP}] )
+	selenium-wire? ( ~dev-python/kaitaistruct-0.10[${PYTHON_USEDEP}] )
+	selenium-wire? ( ~dev-python/pyasn1-0.5.1[${PYTHON_USEDEP}] )
+	selenium-wire? ( ~dev-python/zstandard-0.22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

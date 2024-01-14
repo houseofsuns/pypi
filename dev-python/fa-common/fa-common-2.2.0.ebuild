@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="argo gcp gitlab jupyter minio rollbar secure windows"
 DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	<dev-python/python-jose-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]
+	<dev-python/email-validator-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/six-2.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]
 	dev-python/humps[${PYTHON_USEDEP}]
 	secure? ( dev-python/secure[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
@@ -45,15 +45,15 @@ DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
 	gitlab? ( dev-python/oyaml[${PYTHON_USEDEP}] )
 	gitlab? ( dev-python/python-gitlab[${PYTHON_USEDEP}] )
 	argo? ( dev-python/argo-workflows[${PYTHON_USEDEP}] )
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	rollbar? ( dev-python/rollbar[${PYTHON_USEDEP}] )
-	rollbar? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	rollbar? ( >=dev-python/httpx-0.24.1[${PYTHON_USEDEP}] )
 	dev-python/beanie[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	jupyter? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipykernel[${PYTHON_USEDEP}] )"
+	jupyter? ( <dev-python/jupyterlab-5.0.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

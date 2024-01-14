@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	advance? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	advance? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
 	advance? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
-	advance? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+	advance? ( ~dev-python/pycryptodome-3.14.1[${PYTHON_USEDEP}] )
 	advance? ( dev-python/appdirs[${PYTHON_USEDEP}] )
 	advance? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	advance? ( dev-python/tqdm[${PYTHON_USEDEP}] )

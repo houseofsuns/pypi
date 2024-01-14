@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/boto3-1.26[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.29[${PYTHON_USEDEP}]
+	<dev-python/pathspec-0.12[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.6[${PYTHON_USEDEP}]
+	<dev-python/tenacity-8.3[${PYTHON_USEDEP}]
+	<dev-python/tqdm-4.66[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-2.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

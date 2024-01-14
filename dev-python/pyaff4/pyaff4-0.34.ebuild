@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cloud"
-DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/future-0.17.1[${PYTHON_USEDEP}]
 	dev-python/aff4-snappy[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/intervaltree[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/rdflib-4.2.2[${PYTHON_USEDEP}]
+	~dev-python/intervaltree-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
+	~dev-python/tzlocal-2.1[${PYTHON_USEDEP}]
+	~dev-python/html5lib-1.0.1[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
 	dev-python/fastchunking[${PYTHON_USEDEP}]
 	dev-python/hexdump[${PYTHON_USEDEP}]
 	dev-python/pynacl[${PYTHON_USEDEP}]

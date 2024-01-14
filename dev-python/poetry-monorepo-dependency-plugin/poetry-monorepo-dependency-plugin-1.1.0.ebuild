@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/poetry[${PYTHON_USEDEP}]
-	dev-python/cleo[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/poetry-1.6[${PYTHON_USEDEP}]
+	>=dev-python/cleo-2.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev enum"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/click-9.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gitchangelog[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jsonschema-4.18.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/marshmallow-objects[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/parametrize[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-order[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-order-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-jsonschema[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/types-setuptools-68.0.0.3[${PYTHON_USEDEP}] )
 	enum? ( dev-python/marshmallow-enum[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

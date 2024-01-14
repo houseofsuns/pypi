@@ -27,7 +27,7 @@ IUSE="testing"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/magicgui[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
-	dev-python/pyopencl[${PYTHON_USEDEP}]
+	~dev-python/pyopencl-2022.1.5[${PYTHON_USEDEP}]
 	dev-python/gputools[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	testing? ( dev-python/tox[${PYTHON_USEDEP}] )

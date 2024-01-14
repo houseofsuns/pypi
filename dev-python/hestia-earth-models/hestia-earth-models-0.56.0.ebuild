@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="spatial"
 DEPENDENCIES="dev-python/hestia-earth-schema[${PYTHON_USEDEP}]
 	dev-python/hestia-earth-utils[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	dev-python/CurrencyConverter[${PYTHON_USEDEP}]
 	dev-python/haversine[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]

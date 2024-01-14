@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/sagemath-objects[${PYTHON_USEDEP}]
 	dev-python/sagemath-environment[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]"
+	>=dev-python/ipython-7.13.0[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

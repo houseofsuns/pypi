@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
 	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
 	jenkins? ( dev-python/python-jenkins[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
-	mongodb? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	mongodb? ( >=dev-python/pymongo-3.6.0[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
 	rethinkdb? ( dev-python/rethinkdb[${PYTHON_USEDEP}] )

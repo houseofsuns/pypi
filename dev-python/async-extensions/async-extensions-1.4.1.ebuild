@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
+	>=dev-python/anyio-3.6.2[${PYTHON_USEDEP}]
 	dev-python/solus[${PYTHON_USEDEP}]
 	dev-python/wraps[${PYTHON_USEDEP}]
 	dev-python/typing-aliases[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev plots tests tutorials"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.0[${PYTHON_USEDEP}]
 	dev-python/mdanalysis[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/multiprocess[${PYTHON_USEDEP}]
@@ -34,14 +34,14 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/prolif[${PYTHON_USEDEP}] )
 	plots? ( dev-python/py3Dmol[${PYTHON_USEDEP}] )
-	plots? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	plots? ( >=dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.1.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	tests? ( dev-python/prolif[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/rdkit[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	tutorials? ( >=dev-python/matplotlib-3.7[${PYTHON_USEDEP}] )
+	tutorials? ( <dev-python/seaborn-1.0[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/pyvis[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/prolif[${PYTHON_USEDEP}] )"

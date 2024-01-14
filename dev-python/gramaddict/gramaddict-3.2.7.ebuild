@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="analytics dev telegram-reports"
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	~dev-python/ConfigArgParse-1.5.3[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/uiautomator2[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.7[${PYTHON_USEDEP}]
+	~dev-python/emoji-1.6.1[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
-	dev-python/atomicwrites[${PYTHON_USEDEP}]
+	~dev-python/atomicwrites-1.4.0[${PYTHON_USEDEP}]
 	dev-python/spintax[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	analytics? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	~dev-python/packaging-20.9[${PYTHON_USEDEP}]
+	analytics? ( ~dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	telegram-reports? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	telegram-reports? ( ~dev-python/pandas-1.2.4[${PYTHON_USEDEP}] )
 	telegram-reports? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

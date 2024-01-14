@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="codegen server"
 DEPENDENCIES="dev-python/dataclass-factory[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.10.1[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/xcept[${PYTHON_USEDEP}]
 	codegen? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	server? ( dev-python/cherrypy[${PYTHON_USEDEP}] )"
+	server? ( <dev-python/cherrypy-19.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

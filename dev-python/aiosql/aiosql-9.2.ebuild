@@ -41,7 +41,7 @@ DEPENDENCIES="dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev-mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	dev-postgres? ( dev-python/pytest-postgresql[${PYTHON_USEDEP}] )
 	dev-postgres? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	dev-postgres? ( dev-python/psycopg[${PYTHON_USEDEP}] )
+	dev-postgres? ( >=dev-python/psycopg-3.0[${PYTHON_USEDEP}] )
 	dev-postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	dev-postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	dev-postgres? ( dev-python/pygresql[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dist? ( dev-python/build[${PYTHON_USEDEP}] )
 	dist? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dist? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dist? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dist? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	dist? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
+	dist? ( >=dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

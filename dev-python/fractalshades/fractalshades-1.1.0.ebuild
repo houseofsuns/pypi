@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/mpmath[${PYTHON_USEDEP}]
+	>=dev-python/mpmath-1.1.0[${PYTHON_USEDEP}]
 	dev-python/gmpy2[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]"
+	>=dev-python/PyQt6-6.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.9.0[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.37.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

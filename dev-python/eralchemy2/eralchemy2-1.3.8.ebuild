@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci"
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/pygraphviz[${PYTHON_USEDEP}]
-	ci? ( dev-python/flask-sqlalchemy[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
+	<dev-python/pygraphviz-2.0[${PYTHON_USEDEP}]
+	ci? ( >=dev-python/flask-sqlalchemy-2.5.1[${PYTHON_USEDEP}] )
 	ci? ( dev-python/psycopg2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

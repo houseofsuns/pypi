@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli p_checks p_docs p_tests pyqt5 pyqt6 pyside2 pyside6 s_pytest s_towncrier"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}]
+	cli? ( ~dev-python/click-8.0[${PYTHON_USEDEP}] )
 	p_checks? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	p_checks? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	p_checks? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	p_checks? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	p_checks? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	p_checks? ( dev-python/black[${PYTHON_USEDEP}] )
-	p_docs? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	p_docs? ( dev-python/pyside2[${PYTHON_USEDEP}] )
-	p_docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	p_docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	p_checks? ( ~dev-python/flake8-3.8[${PYTHON_USEDEP}] )
+	p_checks? ( ~dev-python/mypy-0.901[${PYTHON_USEDEP}] )
+	p_checks? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	p_checks? ( ~dev-python/towncrier-21.3[${PYTHON_USEDEP}] )
+	p_checks? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	p_docs? ( ~dev-python/importlib-metadata-4.5[${PYTHON_USEDEP}] )
+	p_docs? ( ~dev-python/pyside2-5.15[${PYTHON_USEDEP}] )
+	p_docs? ( ~dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
+	p_docs? ( ~dev-python/sphinx-autodoc-typehints-1.11[${PYTHON_USEDEP}] )
 	p_docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	p_docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
+	p_docs? ( ~dev-python/sphinx-inline-tabs-2020.10.19[${PYTHON_USEDEP}] )
 	p_docs? ( dev-python/sphinx-qt-documentation[${PYTHON_USEDEP}] )
-	p_docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	p_docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	p_tests? ( dev-python/click[${PYTHON_USEDEP}] )
-	p_tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	p_tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	p_tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	p_tests? ( dev-python/pytest-xvfb[${PYTHON_USEDEP}] )
+	p_docs? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	p_docs? ( ~dev-python/towncrier-21.3[${PYTHON_USEDEP}] )
+	p_tests? ( ~dev-python/click-8.0[${PYTHON_USEDEP}] )
+	p_tests? ( ~dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	p_tests? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	p_tests? ( ~dev-python/pytest-cov-2.12[${PYTHON_USEDEP}] )
+	p_tests? ( ~dev-python/pytest-xvfb-2.0[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
-	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
-	s_pytest? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	s_towncrier? ( dev-python/towncrier[${PYTHON_USEDEP}] )"
+	pyside2? ( ~dev-python/pyside2-5.15[${PYTHON_USEDEP}] )
+	pyside6? ( ~dev-python/pyside6-6.0[${PYTHON_USEDEP}] )
+	s_pytest? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	s_towncrier? ( ~dev-python/towncrier-21.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

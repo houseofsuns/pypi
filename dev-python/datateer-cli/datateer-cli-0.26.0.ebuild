@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="visualization"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	visualization? ( dev-python/erd-python[${PYTHON_USEDEP}] )
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	visualization? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )"
+	<dev-python/pathspec-0.10.0[${PYTHON_USEDEP}]
+	visualization? ( <dev-python/pygraphviz-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

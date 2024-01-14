@@ -24,35 +24,35 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev onnx openvino pytorch tensorflow tensorflow2 tests tf torch"
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/jstyleson[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/natsort-7.1.0[${PYTHON_USEDEP}]
+	<=dev-python/networkx-2.8.2[${PYTHON_USEDEP}]
 	dev-python/ninja[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.27[${PYTHON_USEDEP}]
 	dev-python/openvino-telemetry[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.1[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
+	>=dev-python/pydot-1.4.1[${PYTHON_USEDEP}]
 	dev-python/pymoo[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.5.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/texttable[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.2[${PYTHON_USEDEP}]
+	>=dev-python/texttable-1.6.3[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.54.1[${PYTHON_USEDEP}]
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow-metadata[${PYTHON_USEDEP}] )
 	all? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	all? ( dev-python/openvino[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kaleido[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/matplotlib-3.6[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pillow-9.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/plotly-express[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/onnx[${PYTHON_USEDEP}] )

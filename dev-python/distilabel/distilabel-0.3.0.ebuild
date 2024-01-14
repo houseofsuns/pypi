@@ -25,29 +25,29 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="argilla dev docs hf-inference-endpoints hf-transformers llama-cpp openai tests together vertexai vllm"
 DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.7[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/multiprocess[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.5.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.0[${PYTHON_USEDEP}]
 	argilla? ( dev-python/argilla[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	docs? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mike[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-9.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-section-index[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pillow-9.5.0[${PYTHON_USEDEP}] )
 	hf-inference-endpoints? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	hf-transformers? ( dev-python/torch[${PYTHON_USEDEP}] )
 	hf-transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	llama-cpp? ( dev-python/llama-cpp-python[${PYTHON_USEDEP}] )
 	openai? ( dev-python/openai[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
 	together? ( dev-python/together[${PYTHON_USEDEP}] )
 	vertexai? ( dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}] )
 	vllm? ( dev-python/vllm[${PYTHON_USEDEP}] )"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/simpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/simpy-4.0[${PYTHON_USEDEP}]
 	dev-python/pyvcd[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

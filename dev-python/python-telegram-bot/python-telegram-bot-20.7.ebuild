@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all callback-data ext http2 job-queue passport rate-limiter socks webhooks"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/httpx-0.25.2[${PYTHON_USEDEP}]
 	all? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	all? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/cryptography-39.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiolimiter[${PYTHON_USEDEP}] )
-	all? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	all? ( dev-python/cachetools[${PYTHON_USEDEP}] )
-	all? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	callback-data? ( dev-python/cachetools[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/tornado-6.3.3[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/cachetools-5.3.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/APScheduler-3.10.4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytz-2018.6[${PYTHON_USEDEP}] )
+	callback-data? ( ~dev-python/cachetools-5.3.2[${PYTHON_USEDEP}] )
 	ext? ( dev-python/aiolimiter[${PYTHON_USEDEP}] )
-	ext? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	ext? ( dev-python/cachetools[${PYTHON_USEDEP}] )
-	ext? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
-	ext? ( dev-python/pytz[${PYTHON_USEDEP}] )
+	ext? ( ~dev-python/tornado-6.3.3[${PYTHON_USEDEP}] )
+	ext? ( ~dev-python/cachetools-5.3.2[${PYTHON_USEDEP}] )
+	ext? ( ~dev-python/APScheduler-3.10.4[${PYTHON_USEDEP}] )
+	ext? ( >=dev-python/pytz-2018.6[${PYTHON_USEDEP}] )
 	http2? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	job-queue? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
-	job-queue? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	passport? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	job-queue? ( ~dev-python/APScheduler-3.10.4[${PYTHON_USEDEP}] )
+	job-queue? ( >=dev-python/pytz-2018.6[${PYTHON_USEDEP}] )
+	passport? ( >=dev-python/cryptography-39.0.1[${PYTHON_USEDEP}] )
 	rate-limiter? ( dev-python/aiolimiter[${PYTHON_USEDEP}] )
 	socks? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	webhooks? ( dev-python/tornado[${PYTHON_USEDEP}] )"
+	webhooks? ( ~dev-python/tornado-6.3.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

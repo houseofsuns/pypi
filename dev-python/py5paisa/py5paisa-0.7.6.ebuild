@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/pbkdf2[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]"
+	>=dev-python/pycryptodome-3.9.8[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2020.4.5.1[${PYTHON_USEDEP}]
+	>=dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
+	>=dev-python/pbkdf2-1.3[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.8[${PYTHON_USEDEP}]
+	>=dev-python/idna-2.9[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.5.1[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-0.58.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

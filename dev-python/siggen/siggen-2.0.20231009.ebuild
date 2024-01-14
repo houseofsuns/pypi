@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli"
 DEPENDENCIES="dev-python/glom[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	cli? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	cli? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

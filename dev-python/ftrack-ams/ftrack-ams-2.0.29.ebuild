@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/pick[${PYTHON_USEDEP}]
 	dev-python/ftrack-python-api[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]"
+	<dev-python/PyQt5-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

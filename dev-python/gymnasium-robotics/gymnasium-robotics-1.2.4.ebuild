@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mujoco_py testing"
 DEPENDENCIES="dev-python/mujoco[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/PettingZoo[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/imageio[${PYTHON_USEDEP}]
 	mujoco_py? ( dev-python/mujoco-py[${PYTHON_USEDEP}] )
-	mujoco_py? ( dev-python/cython[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	mujoco_py? ( <dev-python/cython-3.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mujoco-py[${PYTHON_USEDEP}] )
-	testing? ( dev-python/cython[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/cython-3.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/PettingZoo[${PYTHON_USEDEP}] )
 	testing? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

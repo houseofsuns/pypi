@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="collocation_net downloader postgresql tests"
 DEPENDENCIES="dev-python/estnltk-core[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	>=dev-python/regex-2015.7.19[${PYTHON_USEDEP}]
 	dev-python/python-crfsuite[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]
+	>=dev-python/cached-property-1.2.0[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/html5lib[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]

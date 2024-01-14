@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/Babel-2.3.4[${PYTHON_USEDEP}]
 	dev-python/iptools[${PYTHON_USEDEP}]
 	dev-python/nodeconductor[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
+	>dev-python/pbr-2.1.0[${PYTHON_USEDEP}]
 	dev-python/python-ceilometerclient[${PYTHON_USEDEP}]
-	dev-python/python-cinderclient[${PYTHON_USEDEP}]
-	dev-python/python-glanceclient[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
-	dev-python/python-neutronclient[${PYTHON_USEDEP}]
-	dev-python/python-novaclient[${PYTHON_USEDEP}]
+	>=dev-python/python-cinderclient-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/python-glanceclient-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-keystoneclient-2.3.1[${PYTHON_USEDEP}]
+	>=dev-python/python-neutronclient-4.1.1[${PYTHON_USEDEP}]
+	>=dev-python/python-novaclient-3.3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ddt[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/ddt-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

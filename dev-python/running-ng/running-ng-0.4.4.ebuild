@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests zulip"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	tests? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mypy-1.7.0[${PYTHON_USEDEP}] )
 	zulip? ( dev-python/zulip[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

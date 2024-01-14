@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
 	dev-python/deprecation[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
-	dev-python/python-engineio[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	~dev-python/python-engineio-3.14.2[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-1.3.2[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="couchdb mongodb"
 DEPENDENCIES="dev-python/mojo-errors[${PYTHON_USEDEP}]
-	mongodb? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	mongodb? ( <dev-python/pymongo-5.0.0[${PYTHON_USEDEP}] )
 	couchdb? ( dev-python/couchdb[${PYTHON_USEDEP}] )
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	dev-python/mojo-collections[${PYTHON_USEDEP}]
 	dev-python/mojo-startup[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

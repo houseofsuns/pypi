@@ -29,16 +29,16 @@ DEPENDENCIES="dev-python/dependencies[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
 	dev-python/unfoldNd[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-gallery-0.10.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
 	export? ( dev-python/onnx[${PYTHON_USEDEP}] )
@@ -56,10 +56,10 @@ DEPENDENCIES="dev-python/dependencies[${PYTHON_USEDEP}]
 	ort_integration? ( dev-python/onnxoptimizer[${PYTHON_USEDEP}] )
 	ort_integration? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	ort_integration? ( dev-python/qonnx[${PYTHON_USEDEP}] )
-	stt? ( dev-python/inflect[${PYTHON_USEDEP}] )
+	stt? ( ~dev-python/inflect-5.6.2[${PYTHON_USEDEP}] )
 	stt? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	stt? ( dev-python/numba[${PYTHON_USEDEP}] )
-	stt? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	stt? ( >=dev-python/pillow-4.3.0[${PYTHON_USEDEP}] )
 	stt? ( dev-python/requests[${PYTHON_USEDEP}] )
 	stt? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
 	stt? ( dev-python/soundfile[${PYTHON_USEDEP}] )

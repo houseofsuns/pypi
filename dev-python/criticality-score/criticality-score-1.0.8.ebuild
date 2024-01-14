@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyGithub[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/PyGithub-1.53[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

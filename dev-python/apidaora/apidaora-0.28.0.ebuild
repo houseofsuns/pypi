@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/jsondaora[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.1.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	test? ( dev-python/aioredis[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

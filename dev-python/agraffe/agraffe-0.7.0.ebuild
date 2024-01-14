@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/mypy-0.931[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-functions[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-0.931[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/azure-functions[${PYTHON_USEDEP}] )
 	test? ( dev-python/functions-framework[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-multipart[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pydantic-1.10.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

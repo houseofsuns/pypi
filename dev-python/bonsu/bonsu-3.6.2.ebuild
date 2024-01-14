@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hdf5plugin"
-DEPENDENCIES="dev-python/wxpython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/wxpython-4.1.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]

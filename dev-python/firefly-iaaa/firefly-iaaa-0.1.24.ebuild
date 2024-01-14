@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws_cognito_support"
-DEPENDENCIES="dev-python/bcrypt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bcrypt-3.1.7[${PYTHON_USEDEP}]
 	dev-python/firefly-framework[${PYTHON_USEDEP}]
 	dev-python/firefly-aws[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
+	>=dev-python/oauthlib-3.1.1[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	aws_cognito_support? ( dev-python/firefly-aws[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

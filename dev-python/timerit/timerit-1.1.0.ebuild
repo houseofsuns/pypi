@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all all-strict tests tests-strict"
-DEPENDENCIES="all? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
-	tests-strict? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
-	tests-strict? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests-strict? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+DEPENDENCIES="all? ( >=dev-python/xdoctest-1.1.0[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/xdoctest-1.1.0[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	all-strict? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/xdoctest-1.1.0[${PYTHON_USEDEP}] )
+	tests-strict? ( ~dev-python/xdoctest-1.1.0[${PYTHON_USEDEP}] )
+	tests-strict? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	tests-strict? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

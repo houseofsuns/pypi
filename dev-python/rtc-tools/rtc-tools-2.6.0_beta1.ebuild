@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all netcdf"
 DEPENDENCIES="dev-python/casadi[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.26[${PYTHON_USEDEP}]
+	<dev-python/scipy-1.11[${PYTHON_USEDEP}]
 	dev-python/pymoca[${PYTHON_USEDEP}]
 	dev-python/rtc-tools-channel-flow[${PYTHON_USEDEP}]
 	all? ( dev-python/netCDF4[${PYTHON_USEDEP}] )

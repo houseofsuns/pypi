@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="coverage flake8"
-DEPENDENCIES="coverage? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	coverage? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	flake8? ( dev-python/mccabe[${PYTHON_USEDEP}] )
-	flake8? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	flake8? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	flake8? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )"
+DEPENDENCIES="coverage? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	coverage? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	flake8? ( ~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
+	flake8? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
+	flake8? ( ~dev-python/pyflakes-3.1.0[${PYTHON_USEDEP}] )
+	flake8? ( ~dev-python/pycodestyle-2.11.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

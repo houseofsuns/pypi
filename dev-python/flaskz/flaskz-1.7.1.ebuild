@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ext"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	ext? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
-	ext? ( dev-python/paramiko[${PYTHON_USEDEP}] )"
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	ext? ( >=dev-python/pycryptodome-3.15.0[${PYTHON_USEDEP}] )
+	ext? ( >=dev-python/paramiko-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

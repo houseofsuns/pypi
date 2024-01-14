@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="app-scaffold"
-DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/backoff-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	app-scaffold? ( dev-python/typer[${PYTHON_USEDEP}] )
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	app-scaffold? ( dev-python/black[${PYTHON_USEDEP}] )
+	<=dev-python/httpx-0.22.0[${PYTHON_USEDEP}]
+	<=dev-python/attrs-22.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	app-scaffold? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
 	app-scaffold? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	app-scaffold? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev-python/benchling-api-client[${PYTHON_USEDEP}]"

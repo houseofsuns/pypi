@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="process uvloop"
 DEPENDENCIES="dev-python/qtpy[${PYTHON_USEDEP}]
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )
+	uvloop? ( <dev-python/uvloop-0.17.0[${PYTHON_USEDEP}] )
 	dev-python/janus[${PYTHON_USEDEP}]
-	process? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )"
+	process? ( <dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

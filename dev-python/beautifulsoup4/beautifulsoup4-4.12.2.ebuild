@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="html5lib lxml"
-DEPENDENCIES="dev-python/soupsieve[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/soupsieve-1.2[${PYTHON_USEDEP}]
 	html5lib? ( dev-python/html5lib[${PYTHON_USEDEP}] )
 	lxml? ( dev-python/lxml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

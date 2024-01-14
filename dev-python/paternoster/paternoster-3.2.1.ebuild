@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ansible21 ansible22 ansible23 ansible24 ansible25 ansible26 ansible27 ansible28 ansible29"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tldextract[${PYTHON_USEDEP}]
+	>=dev-python/tldextract-2.0.1[${PYTHON_USEDEP}]
 	ansible21? ( dev-python/ansible[${PYTHON_USEDEP}] )
 	ansible22? ( dev-python/ansible[${PYTHON_USEDEP}] )
 	ansible23? ( dev-python/ansible[${PYTHON_USEDEP}] )

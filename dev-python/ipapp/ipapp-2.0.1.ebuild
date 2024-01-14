@@ -24,49 +24,49 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dbtm fastapi oracle postgres rabbitmq redis s3 sftp testing"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/aiozipkin[${PYTHON_USEDEP}]
 	dev-python/aiojobs[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.12[${PYTHON_USEDEP}]
+	<dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/deepmerge-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/async-timeout-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev-python/tinyrpc[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	fastapi? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	<dev-python/jsonschema-4.0.0[${PYTHON_USEDEP}]
+	fastapi? ( <dev-python/uvicorn-0.16.0[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	dbtm? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	rabbitmq? ( dev-python/pika[${PYTHON_USEDEP}] )
+	rabbitmq? ( <dev-python/pika-2.0.0[${PYTHON_USEDEP}] )
 	s3? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
-	s3? ( dev-python/python-magic[${PYTHON_USEDEP}] )
+	s3? ( <dev-python/python-magic-0.5.0[${PYTHON_USEDEP}] )
 	sftp? ( dev-python/asyncssh[${PYTHON_USEDEP}] )
-	testing? ( dev-python/black[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	testing? ( dev-python/isort[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/mock-5.0.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/mypy-0.982[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/bandit-1.7.2[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pylint-3.0.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-aiohttp-0.4.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-asyncio-0.15.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/docker-compose[${PYTHON_USEDEP}] )
-	testing? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	dbtm? ( dev-python/pytz[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/watchdog-3.0.0[${PYTHON_USEDEP}] )
+	dbtm? ( <dev-python/pytz-2023.0.0[${PYTHON_USEDEP}] )
 	dbtm? ( dev-python/crontab[${PYTHON_USEDEP}] )
 	redis? ( dev-python/aioredis[${PYTHON_USEDEP}] )
-	testing? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/types-docutils-0.19.1.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
-	testing? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/importlib-metadata-4.13.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

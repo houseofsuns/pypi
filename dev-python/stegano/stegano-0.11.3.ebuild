@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/piexif[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pillow-11.0[${PYTHON_USEDEP}]
+	<dev-python/piexif-2.0.0[${PYTHON_USEDEP}]
 	dev-python/crayons[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

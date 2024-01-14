@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli tree xml"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.18.0[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	tree? ( dev-python/lark[${PYTHON_USEDEP}] )
-	xml? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	tree? ( >=dev-python/lark-1.1.5[${PYTHON_USEDEP}] )
+	xml? ( >=dev-python/lxml-4.9.2[${PYTHON_USEDEP}] )
 	xml? ( dev-python/xmltodict[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="edit json optional pick testing"
-DEPENDENCIES="dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	edit? ( dev-python/click[${PYTHON_USEDEP}] )

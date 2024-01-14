@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bin-builder chaostoolkit"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.2[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/anyio-3.6.2[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.3.1[${PYTHON_USEDEP}]
 	dev-python/chaostoolkit-addons[${PYTHON_USEDEP}]
 	dev-python/chaostoolkit[${PYTHON_USEDEP}]
 	dev-python/chaostoolkit-lib[${PYTHON_USEDEP}]
 	dev-python/chaostoolkit-reliably[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.8.10[${PYTHON_USEDEP}]
 	bin-builder? ( dev-python/pyoxidizer[${PYTHON_USEDEP}] )
 	chaostoolkit? ( dev-python/chaostoolkit-aws[${PYTHON_USEDEP}] )
 	chaostoolkit? ( dev-python/chaostoolkit-kubernetes[${PYTHON_USEDEP}] )

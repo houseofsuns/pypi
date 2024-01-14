@@ -27,7 +27,7 @@ IUSE="dev docs lint release test"
 DEPENDENCIES="dev-python/Mopidy[${PYTHON_USEDEP}]
 	dev-python/Pykka[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/uritools[${PYTHON_USEDEP}]
+	>=dev-python/uritools-1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )

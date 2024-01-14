@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-3.1[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
 	dev-python/netjsonconfig[${PYTHON_USEDEP}]
-	dev-python/django-sortedm2m[${PYTHON_USEDEP}]
+	<dev-python/django-sortedm2m-3.1.0[${PYTHON_USEDEP}]
 	dev-python/django-reversion[${PYTHON_USEDEP}]
 	dev-python/django-x509[${PYTHON_USEDEP}]
-	dev-python/django-taggit[${PYTHON_USEDEP}]
+	<dev-python/django-taggit-1.3.0[${PYTHON_USEDEP}]
 	dev-python/openwisp-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

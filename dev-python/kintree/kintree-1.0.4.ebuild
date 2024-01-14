@@ -30,9 +30,9 @@ DEPENDENCIES="dev-python/digikey-api[${PYTHON_USEDEP}]
 	dev-python/inventree[${PYTHON_USEDEP}]
 	dev-python/kiutils[${PYTHON_USEDEP}]
 	dev-python/mouser[${PYTHON_USEDEP}]
-	dev-python/multiprocess[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
+	<dev-python/multiprocess-0.71.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/validators-0.20.0[${PYTHON_USEDEP}]
 	dev-python/wrapt_timeout_decorator[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

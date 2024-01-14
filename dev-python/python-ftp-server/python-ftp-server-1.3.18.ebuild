@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyftpdlib[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.26[${PYTHON_USEDEP}]
+	>=dev-python/pyftpdlib-1.5.6[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-21.0.0[${PYTHON_USEDEP}]
 	dev-python/pysendfile[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

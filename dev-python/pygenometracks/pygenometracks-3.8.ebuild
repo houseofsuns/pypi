@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/intervaltree[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	<=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}]
+	>=dev-python/intervaltree-2.1.0[${PYTHON_USEDEP}]
 	dev-python/pyBigWig[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	>=dev-python/future-0.17.0[${PYTHON_USEDEP}]
 	dev-python/hicmatrix[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/gffutils[${PYTHON_USEDEP}]
 	dev-python/pybedtools[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.20[${PYTHON_USEDEP}]
 	dev-python/bx-python[${PYTHON_USEDEP}]
 	dev-python/pyfaidx[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

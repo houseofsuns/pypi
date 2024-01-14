@@ -31,9 +31,9 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/dash-iconify[${PYTHON_USEDEP}]
 	dev-python/dash-mantine-components[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]"
+	<=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.1.1[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

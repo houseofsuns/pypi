@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/napari[${PYTHON_USEDEP}]
 	dev-python/napari-plugin-engine[${PYTHON_USEDEP}]
 	dev-python/cellpose[${PYTHON_USEDEP}]
 	dev-python/imagecodecs[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )

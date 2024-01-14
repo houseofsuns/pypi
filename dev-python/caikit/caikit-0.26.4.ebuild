@@ -28,51 +28,51 @@ DEPENDENCIES="dev-python/alchemy-config[${PYTHON_USEDEP}]
 	dev-python/alchemy-logging[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/munch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
+	<dev-python/ijson-3.3.0[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/munch-5.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
 	dev-python/py-to-proto[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	<dev-python/semver-4.0[${PYTHON_USEDEP}]
+	<dev-python/six-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-4.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/caikit[${PYTHON_USEDEP}] )
 	all-dev? ( dev-python/caikit[${PYTHON_USEDEP}] )
-	dev-build? ( dev-python/flit[${PYTHON_USEDEP}] )
-	dev-docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev-docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	dev-docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev-build? ( ~dev-python/flit-3.9.0[${PYTHON_USEDEP}] )
+	dev-docs? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
+	dev-docs? ( >=dev-python/sphinx-autoapi-2.1.0[${PYTHON_USEDEP}] )
+	dev-docs? ( <dev-python/sphinx-rtd-theme-2.1.0[${PYTHON_USEDEP}] )
 	dev-fmt? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev-fmt? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev-fmt? ( dev-python/pydeps[${PYTHON_USEDEP}] )
 	dev-proto3? ( dev-python/caikit[${PYTHON_USEDEP}] )
 	dev-proto3? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	dev-proto3? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	dev-proto3? ( <dev-python/grpcio-1.49[${PYTHON_USEDEP}] )
 	dev-proto3? ( dev-python/grpcio-health-checking[${PYTHON_USEDEP}] )
 	dev-proto3? ( dev-python/grpcio-reflection[${PYTHON_USEDEP}] )
-	dev-test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev-test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev-test? ( <dev-python/pytest-asyncio-0.22[${PYTHON_USEDEP}] )
+	dev-test? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	dev-test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	dev-test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev-test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	dev-test? ( dev-python/tls-test-tools[${PYTHON_USEDEP}] )
-	dev-test? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev-test? ( >=dev-python/wheel-0.38.4[${PYTHON_USEDEP}] )
 	dev-test? ( dev-python/caikit[${PYTHON_USEDEP}] )
-	interfaces-ts? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	interfaces-ts? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
 	interfaces-ts-pyspark? ( dev-python/caikit[${PYTHON_USEDEP}] )
 	interfaces-ts-pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	interfaces-ts-pyspark? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	interfaces-vision? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	interfaces-ts-pyspark? ( <dev-python/pyarrow-15.0[${PYTHON_USEDEP}] )
+	interfaces-vision? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
 	runtime-grpc? ( dev-python/grpcio-health-checking[${PYTHON_USEDEP}] )
 	runtime-grpc? ( dev-python/grpcio-reflection[${PYTHON_USEDEP}] )
-	runtime-grpc? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
+	runtime-grpc? ( <dev-python/prometheus-client-1.0[${PYTHON_USEDEP}] )
 	runtime-grpc? ( dev-python/py-grpc-prometheus[${PYTHON_USEDEP}] )
 	runtime-http? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	runtime-http? ( dev-python/requests[${PYTHON_USEDEP}] )
+	runtime-http? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
 	runtime-http? ( dev-python/sse-starlette[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

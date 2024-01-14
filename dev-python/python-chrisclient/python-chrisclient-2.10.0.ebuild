@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/collection-json[${PYTHON_USEDEP}]
 	dev-python/pudb[${PYTHON_USEDEP}]
 	dev-python/pfstate[${PYTHON_USEDEP}]

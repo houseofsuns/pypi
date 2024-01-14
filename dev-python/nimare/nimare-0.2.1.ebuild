@@ -28,36 +28,36 @@ DEPENDENCIES="dev-python/cognitiveatlas[${PYTHON_USEDEP}]
 	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/nilearn[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/patsy[${PYTHON_USEDEP}]
 	dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/pymare[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
 	dev-python/sparse[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>dev-python/statsmodels-0.13.2[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	all? ( dev-python/indexed-gzip[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/indexed-gzip-1.4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	all? ( <dev-python/mistune-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/sphinx-gallery-0.10.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	all? ( dev-python/coveralls[${PYTHON_USEDEP}] )
@@ -69,26 +69,26 @@ DEPENDENCIES="dev-python/cognitiveatlas[${PYTHON_USEDEP}]
 	cbmr? ( dev-python/torch[${PYTHON_USEDEP}] )
 	doc? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mistune-2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pillow[${PYTHON_USEDEP}] )
 	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	doc? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-gallery-0.10.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	gzip? ( dev-python/indexed-gzip[${PYTHON_USEDEP}] )
-	minimum? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	gzip? ( >=dev-python/indexed-gzip-1.4.0[${PYTHON_USEDEP}] )
+	minimum? ( ~dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}] )
 	minimum? ( dev-python/nibabel[${PYTHON_USEDEP}] )
 	minimum? ( dev-python/nilearn[${PYTHON_USEDEP}] )
-	minimum? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	minimum? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	minimum? ( ~dev-python/numpy-1.22[${PYTHON_USEDEP}] )
+	minimum? ( ~dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	minimum? ( dev-python/pymare[${PYTHON_USEDEP}] )
 	minimum? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	minimum? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	minimum? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	minimum? ( ~dev-python/scipy-1.6.0[${PYTHON_USEDEP}] )
+	minimum? ( ~dev-python/seaborn-0.13.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-black[${PYTHON_USEDEP}] )

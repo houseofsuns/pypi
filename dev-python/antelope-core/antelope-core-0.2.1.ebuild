@@ -27,10 +27,10 @@ IUSE="write_to_excel xml"
 DEPENDENCIES="dev-python/synonym-dict[${PYTHON_USEDEP}]
 	dev-python/antelope-interface[${PYTHON_USEDEP}]
 	dev-python/xlstools[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	xml? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	write_to_excel? ( dev-python/xlsxwriter[${PYTHON_USEDEP}] )"
+	>=dev-python/python-magic-0.4.18[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
+	xml? ( >=dev-python/lxml-1.2.0[${PYTHON_USEDEP}] )
+	write_to_excel? ( >=dev-python/xlsxwriter-1.3.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

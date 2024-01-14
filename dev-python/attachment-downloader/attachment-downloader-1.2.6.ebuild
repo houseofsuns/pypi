@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/assertpy[${PYTHON_USEDEP}]
 	dev-python/imbox[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
+	~dev-python/iso8601-1.0.2[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/pylint-2.17.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.2.2[${PYTHON_USEDEP}]
+	~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/pytz-2021.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

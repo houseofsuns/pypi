@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs"
 DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/entrypoints[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
+	<dev-python/flake8-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	docs? ( dev-python/alabaster[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pygments-github-lexers[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/myst-parser-0.19.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

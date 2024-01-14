@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/reportlab[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/reportlab-4.0.4[${PYTHON_USEDEP}]
 	dev-python/img2pdf[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
@@ -38,11 +38,11 @@ DEPENDENCIES="dev-python/reportlab[${PYTHON_USEDEP}]
 	dev-python/ebooklib[${PYTHON_USEDEP}]
 	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
-	dev-python/cloudscraper[${PYTHON_USEDEP}]
+	>=dev-python/cloudscraper-1.2.71[${PYTHON_USEDEP}]
 	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	dev-python/nest-asyncio[${PYTHON_USEDEP}]
 	dev-python/pytimedinput[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	>=dev-python/selenium-4.0.0[${PYTHON_USEDEP}]
 	dev-python/chromedriver-autoinstaller[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

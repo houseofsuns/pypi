@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs speed voice"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-trio[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-trio-1.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	speed? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	speed? ( dev-python/aiodns[${PYTHON_USEDEP}] )
+	speed? ( >=dev-python/orjson-3.5.4[${PYTHON_USEDEP}] )
+	speed? ( >=dev-python/aiodns-1.1[${PYTHON_USEDEP}] )
 	speed? ( dev-python/Brotlipy[${PYTHON_USEDEP}] )
 	speed? ( dev-python/cchardet[${PYTHON_USEDEP}] )
 	voice? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )"

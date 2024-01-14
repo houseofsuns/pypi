@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs docstrings pib_docs types"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/bandit[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/bandit-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/commitizen[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+	<dev-python/isort-6.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	<dev-python/pylint-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pytest-pylint[${PYTHON_USEDEP}]
 	dev-python/safety[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+	<dev-python/wheel-0.38.0[${PYTHON_USEDEP}]
 	dev-python/yamllint[${PYTHON_USEDEP}]
-	dev-python/yapf[${PYTHON_USEDEP}]
+	<dev-python/yapf-0.33.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/darglint[${PYTHON_USEDEP}] )
 	types? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	docstrings? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	pib_docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docstrings? ( <dev-python/pydocstyle-7.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
+	pib_docs? ( <dev-python/sphinx-5.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autopackagesummary[${PYTHON_USEDEP}] )
 	pib_docs? ( dev-python/sphinx-autopackagesummary[${PYTHON_USEDEP}] )
 	pib_docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )

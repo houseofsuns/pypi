@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/rich-12.5.1[${PYTHON_USEDEP}]
 	dev-python/neoxelox-invoke[${PYTHON_USEDEP}]
 	dev-python/download[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]"
+	~dev-python/semantic-version-2.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

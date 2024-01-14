@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pdf"
-DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/colorlog-5.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
 	pdf? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	pdf? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

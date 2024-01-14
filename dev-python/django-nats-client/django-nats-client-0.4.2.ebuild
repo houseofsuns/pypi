@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.1[${PYTHON_USEDEP}]
 	dev-python/nats-py[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]"
+	<dev-python/jsonpickle-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

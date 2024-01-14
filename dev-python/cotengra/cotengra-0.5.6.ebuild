@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs recommended test"
 DEPENDENCIES="dev-python/autoray[${PYTHON_USEDEP}]
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/ipython-8.7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	docs? ( dev-python/astroid[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/astroid-3.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/cotengrust[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/cytoolz[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/kahypar[${PYTHON_USEDEP}] )

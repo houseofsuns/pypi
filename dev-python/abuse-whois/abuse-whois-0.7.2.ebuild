@@ -28,18 +28,18 @@ DEPENDENCIES="dev-python/asyncache[${PYTHON_USEDEP}]
 	dev-python/asyncer[${PYTHON_USEDEP}]
 	dev-python/asyncwhois[${PYTHON_USEDEP}]
 	dev-python/azuma[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	<dev-python/cachetools-6.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	api? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/stamina[${PYTHON_USEDEP}]
-	dev-python/tldextract[${PYTHON_USEDEP}]
+	<dev-python/tldextract-4.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	api? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	dev-python/validators[${PYTHON_USEDEP}]
+	api? ( <dev-python/uvicorn-0.24[${PYTHON_USEDEP}] )
+	<dev-python/validators-0.21[${PYTHON_USEDEP}]
 	dev-python/whois-parser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs release test"
 DEPENDENCIES="dev-python/arabic-reshaper[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
+	>=dev-python/html5lib-1.1[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/pyHanko[${PYTHON_USEDEP}]
 	dev-python/pyhanko-certvalidator[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]
+	>=dev-python/pypdf-3.1.0[${PYTHON_USEDEP}]
 	dev-python/python-bidi[${PYTHON_USEDEP}]
-	dev-python/reportlab[${PYTHON_USEDEP}]
-	dev-python/svglib[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	>=dev-python/reportlab-4.0.4[${PYTHON_USEDEP}]
+	>=dev-python/svglib-1.2.1[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	release? ( dev-python/build[${PYTHON_USEDEP}] )
 	release? ( dev-python/twine[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/tomli[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/coverage-5.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

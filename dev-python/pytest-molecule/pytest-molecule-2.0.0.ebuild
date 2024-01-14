@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ansi docker podman vagrant"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
 	dev-python/molecule[${PYTHON_USEDEP}]
 	dev-python/pytest-html[${PYTHON_USEDEP}]
 	ansi? ( dev-python/ansi2html[${PYTHON_USEDEP}] )
 	docker? ( dev-python/molecule-docker[${PYTHON_USEDEP}] )
-	docker? ( dev-python/paramiko[${PYTHON_USEDEP}] )
+	docker? ( >=dev-python/paramiko-2.5.0[${PYTHON_USEDEP}] )
 	podman? ( dev-python/molecule-podman[${PYTHON_USEDEP}] )
 	vagrant? ( dev-python/molecule-vagrant[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

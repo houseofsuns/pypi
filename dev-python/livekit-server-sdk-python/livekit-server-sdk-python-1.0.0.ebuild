@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pyjwt[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	dev-python/twirp[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )

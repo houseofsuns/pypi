@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/fair-research-login[${PYTHON_USEDEP}]
 	dev-python/globus-nexus-client[${PYTHON_USEDEP}]
 	dev-python/globus-sdk[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/djangorestframework-3.0[${PYTHON_USEDEP}]
+	<dev-python/inflection-0.4.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-3.7[${PYTHON_USEDEP}]
 	dev-python/pytest-assert-utils[${PYTHON_USEDEP}]
 	dev-python/pytest-common-subject[${PYTHON_USEDEP}]
 	dev-python/pytest-lambda[${PYTHON_USEDEP}]"

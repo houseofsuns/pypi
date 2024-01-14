@@ -27,19 +27,19 @@ IUSE="all"
 DEPENDENCIES="all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/PySide6[${PYTHON_USEDEP}] )
 	dev-python/Shapely[${PYTHON_USEDEP}]
-	dev-python/asteval[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/asteval-0.9.26[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-4.2.2[${PYTHON_USEDEP}]
+	<dev-python/click-8.2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/glcontext[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/moderngl[${PYTHON_USEDEP}] )
-	dev-python/multiprocess[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/multiprocess-0.70.11[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	dev-python/pnoise[${PYTHON_USEDEP}]
-	dev-python/pyphen[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/pyphen-0.15.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6[${PYTHON_USEDEP}]
 	dev-python/svgelements[${PYTHON_USEDEP}]
-	dev-python/svgwrite[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]"
+	<dev-python/svgwrite-1.5[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/puremagic[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]"
+	>=dev-python/pypdf-3.15.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

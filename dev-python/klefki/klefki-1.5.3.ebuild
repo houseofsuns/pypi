@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyasn1[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyasn1-0.3.7[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/asn1ate[${PYTHON_USEDEP}]
 	dev-python/pysha3[${PYTHON_USEDEP}]

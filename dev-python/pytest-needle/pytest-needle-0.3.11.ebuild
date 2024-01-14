@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="release"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pytest-5.0.0[${PYTHON_USEDEP}]
 	dev-python/needle[${PYTHON_USEDEP}]
 	dev-python/pytest-selenium[${PYTHON_USEDEP}]
 	release? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	release? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	release? ( >=dev-python/recommonmark-0.4.0[${PYTHON_USEDEP}] )
 	release? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	release? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	release? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	release? ( >=dev-python/sphinx-rtd-theme-0.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

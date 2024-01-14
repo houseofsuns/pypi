@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="clickhouse duckdb mssql mysql oracle postgresql preql presto redshift snowflake trino vertica"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pydantic-1.10.12[${PYTHON_USEDEP}]
 	dev-python/dsnparse[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	mysql? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
@@ -40,14 +40,14 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	duckdb? ( dev-python/duckdb[${PYTHON_USEDEP}] )
 	dev-python/dbt-core[${PYTHON_USEDEP}]
 	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
 	preql? ( dev-python/preql[${PYTHON_USEDEP}] )
 	vertica? ( dev-python/vertica-python[${PYTHON_USEDEP}] )
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	oracle? ( dev-python/oracledb[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.1[${PYTHON_USEDEP}]
+	<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	dev-python/mashumaro[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

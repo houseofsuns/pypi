@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
-	dev-python/wand[${PYTHON_USEDEP}]
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	~dev-python/wand-0.6.10[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pillow-9.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyvoronoi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/shapely-1.8.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/ddt[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )
-	test? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	test? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/ddt-1.6.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pillow-9.2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

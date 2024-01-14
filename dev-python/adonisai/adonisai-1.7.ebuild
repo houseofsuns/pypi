@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/pyaudio[${PYTHON_USEDEP}]
 	dev-python/download[${PYTHON_USEDEP}]
 	dev-python/pyjokes[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]
 	dev-python/wikipedia[${PYTHON_USEDEP}]
 	dev-python/deepspeech[${PYTHON_USEDEP}]
 	dev-python/deepspeech-gpu[${PYTHON_USEDEP}]
@@ -55,9 +55,9 @@ DEPENDENCIES="dev-python/pyaudio[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/textdistance[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pyscreenshot[${PYTHON_USEDEP}]
+	~dev-python/pyscreenshot-3.0[${PYTHON_USEDEP}]
 	dev-python/speedtest-cli[${PYTHON_USEDEP}]
 	dev-python/pytube[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]"
+	~dev-python/pycountry-22.3.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

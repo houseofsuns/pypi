@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all athena bigquery databricks postgres redshift snowflake spark"
 DEPENDENCIES="dev-python/alive-progress[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-8.1.4[${PYTHON_USEDEP}]
 	athena? ( dev-python/dbt-athena-community[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/dbt-bigquery[${PYTHON_USEDEP}] )
 	all? ( dev-python/dbt-bigquery[${PYTHON_USEDEP}] )
@@ -44,15 +44,15 @@ DEPENDENCIES="dev-python/alive-progress[${PYTHON_USEDEP}]
 	spark? ( dev-python/dbt-spark[${PYTHON_USEDEP}] )
 	all? ( dev-python/dbt-spark[${PYTHON_USEDEP}] )
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
+	<=dev-python/packaging-23.1[${PYTHON_USEDEP}]
 	dev-python/posthog[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pyfiglet[${PYTHON_USEDEP}]
 	dev-python/pytest-parametrization[${PYTHON_USEDEP}]
 	dev-python/ratelimit[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-1.0.0[${PYTHON_USEDEP}]
 	dev-python/slack-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

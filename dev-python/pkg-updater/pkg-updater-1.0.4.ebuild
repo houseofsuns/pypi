@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/PyQt6[${PYTHON_USEDEP}]
+	~dev-python/PyQt6-6.5.3[${PYTHON_USEDEP}]
 	dev-python/PyQt6-Qt6[${PYTHON_USEDEP}]
-	dev-python/PyQt6-sip[${PYTHON_USEDEP}]"
+	~dev-python/PyQt6-sip-13.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

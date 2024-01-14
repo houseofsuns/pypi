@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="yaml"
-DEPENDENCIES="dev-python/regex[${PYTHON_USEDEP}]
-	yaml? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/regex-2022.0[${PYTHON_USEDEP}]
+	yaml? ( <dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}] )
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

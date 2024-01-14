@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
+	~dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/ujson-5.9.0[${PYTHON_USEDEP}]
 	dev-python/aiomqtt[${PYTHON_USEDEP}]
-	dev-python/immutables[${PYTHON_USEDEP}]
+	~dev-python/immutables-0.20[${PYTHON_USEDEP}]
 	dev-python/eascheduler[${PYTHON_USEDEP}]
 	dev-python/easyconfig[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/stack-data[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
+	~dev-python/stack-data-0.6.3[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/voluptuous-0.14.1[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
 	dev-python/aiohttp-sse-client[${PYTHON_USEDEP}]
 	dev-python/javaproperties[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

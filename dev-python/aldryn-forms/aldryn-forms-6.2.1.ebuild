@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="captcha"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.0[${PYTHON_USEDEP}]
 	dev-python/aldryn-boilerplates[${PYTHON_USEDEP}]
 	dev-python/django-cms[${PYTHON_USEDEP}]
 	dev-python/django-emailit[${PYTHON_USEDEP}]
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/django-filer[${PYTHON_USEDEP}]
 	dev-python/django-sizefield[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.0[${PYTHON_USEDEP}]
 	captcha? ( dev-python/django-simple-captcha[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

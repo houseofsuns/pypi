@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
+	~dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/graphviz-0.10.1[${PYTHON_USEDEP}]
 	dev-python/hbreader[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
+	>=dev-python/isodate-0.6.0[${PYTHON_USEDEP}]
 	dev-python/jsonasobj[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0.1[${PYTHON_USEDEP}]
 	dev-python/parse[${PYTHON_USEDEP}]
 	dev-python/prefixcommons[${PYTHON_USEDEP}]
 	dev-python/prologterms[${PYTHON_USEDEP}]
@@ -38,11 +38,11 @@ DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/pyld[${PYTHON_USEDEP}]
 	dev-python/pyshex[${PYTHON_USEDEP}]
 	dev-python/pyshexc[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/rdflib-jsonld[${PYTHON_USEDEP}]
 	dev-python/rdflib-pyld-compat[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]"
+	>=dev-python/rdflib-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,13 +29,13 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/jsmin[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+	>=dev-python/pip-9.0.1[${PYTHON_USEDEP}]
 	dev-python/bump2version[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.29.0[${PYTHON_USEDEP}]
+	>=dev-python/tox-2.6.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/astroid[${PYTHON_USEDEP}]"
+	>=dev-python/astroid-2.2.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

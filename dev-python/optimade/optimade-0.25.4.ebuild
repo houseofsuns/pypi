@@ -24,47 +24,47 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiida all ase cif client dev docs elastic http_client jarvis mongo pymatgen server testing"
-DEPENDENCIES="dev-python/lark[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/lark-1.1[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10[${PYTHON_USEDEP}]
+	>=dev-python/email-validator-1.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28[${PYTHON_USEDEP}]
 	aiida? ( dev-python/aiida-core[${PYTHON_USEDEP}] )
 	all? ( dev-python/optimade[${PYTHON_USEDEP}] )
 	ase? ( dev-python/ase[${PYTHON_USEDEP}] )
-	cif? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	cif? ( ~dev-python/numpy-1.20[${PYTHON_USEDEP}] )
 	client? ( dev-python/optimade[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-all[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/optimade[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mike[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.20[${PYTHON_USEDEP}] )
 	elastic? ( dev-python/elasticsearch-dsl[${PYTHON_USEDEP}] )
-	elastic? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	http_client? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	http_client? ( dev-python/rich[${PYTHON_USEDEP}] )
-	http_client? ( dev-python/click[${PYTHON_USEDEP}] )
+	elastic? ( ~dev-python/elasticsearch-7.17[${PYTHON_USEDEP}] )
+	http_client? ( ~dev-python/httpx-0.23[${PYTHON_USEDEP}] )
+	http_client? ( ~dev-python/rich-13.0[${PYTHON_USEDEP}] )
+	http_client? ( ~dev-python/click-8.1[${PYTHON_USEDEP}] )
 	jarvis? ( dev-python/jarvis-tools[${PYTHON_USEDEP}] )
-	mongo? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	mongo? ( ~dev-python/pymongo-4.0[${PYTHON_USEDEP}] )
 	mongo? ( dev-python/mongomock[${PYTHON_USEDEP}] )
 	pymatgen? ( dev-python/pymatgen[${PYTHON_USEDEP}] )
 	pymatgen? ( dev-python/mp-api[${PYTHON_USEDEP}] )
 	pymatgen? ( dev-python/emmet-core[${PYTHON_USEDEP}] )
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/uvicorn-0.19[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	server? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/optimade[${PYTHON_USEDEP}] )
-	testing? ( dev-python/build[${PYTHON_USEDEP}] )
-	testing? ( dev-python/jsondiff[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/build-1.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/jsondiff-2.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/optimade[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/sunpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sunpy-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/towncrier-22.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hissw[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/sunpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sunpy-sphinx-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/towncrier-22.12.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/hissw[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )"

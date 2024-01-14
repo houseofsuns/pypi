@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all reports"
-DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/psutil-2.0.0[${PYTHON_USEDEP}]
 	dev-python/appscript[${PYTHON_USEDEP}]
 	reports? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	reports? ( dev-python/pdfrw[${PYTHON_USEDEP}] )

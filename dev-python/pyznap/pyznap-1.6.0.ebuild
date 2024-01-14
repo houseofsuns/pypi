@@ -27,6 +27,6 @@ IUSE="dev"
 DEPENDENCIES="dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-dependency[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	dev? ( dev-python/paramiko[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/paramiko-2.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

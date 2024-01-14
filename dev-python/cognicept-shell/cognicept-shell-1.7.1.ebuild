@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-dotenv-0.13.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.14.0[${PYTHON_USEDEP}]
+	>=dev-python/docker-5.0.0[${PYTHON_USEDEP}]
 	dev-python/PyCryptodome[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]
+	>=dev-python/argcomplete-1.12.3[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/ping3[${PYTHON_USEDEP}]
 	dev-python/docker-compose[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-0.59.0[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.4.2[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

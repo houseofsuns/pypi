@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/allianceauth-app-utils[${PYTHON_USEDEP}]
 	dev-python/bleach[${PYTHON_USEDEP}]
 	dev-python/dj-datatables-view[${PYTHON_USEDEP}]
 	dev-python/django-eveuniverse[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+	>=dev-python/humanize-4.7.0[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	>=dev-python/tqdm-4.66[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

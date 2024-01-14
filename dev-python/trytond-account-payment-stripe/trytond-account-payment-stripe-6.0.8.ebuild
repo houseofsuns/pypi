@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/stripe[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/stripe-2.32.0[${PYTHON_USEDEP}]
 	dev-python/werkzeug[${PYTHON_USEDEP}]
 	dev-python/trytond-account[${PYTHON_USEDEP}]
 	dev-python/trytond-account-payment[${PYTHON_USEDEP}]

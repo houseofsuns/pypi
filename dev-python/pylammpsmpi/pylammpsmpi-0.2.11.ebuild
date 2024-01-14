@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ase"
-DEPENDENCIES="dev-python/mpi4py[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/mpi4py-3.1.5[${PYTHON_USEDEP}]
 	dev-python/pympipool[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.26.3[${PYTHON_USEDEP}]
 	ase? ( dev-python/ase[${PYTHON_USEDEP}] )
-	ase? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	ase? ( <=dev-python/scipy-1.11.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

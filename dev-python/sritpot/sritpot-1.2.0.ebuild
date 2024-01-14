@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mdr skrebate xgboost"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.12.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.19.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/deap[${PYTHON_USEDEP}]
 	dev-python/update-checker[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.11.2[${PYTHON_USEDEP}]
 	dev-python/stopit[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.20.2[${PYTHON_USEDEP}]
 	mdr? ( dev-python/scikit-mdr[${PYTHON_USEDEP}] )
 	skrebate? ( dev-python/skrebate[${PYTHON_USEDEP}] )
 	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )"

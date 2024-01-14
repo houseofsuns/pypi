@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/in-dbt-core[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	odbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	pyhive? ( dev-python/PyHive[${PYTHON_USEDEP}] )
-	pyhive? ( dev-python/thrift[${PYTHON_USEDEP}] )
+	pyhive? ( <dev-python/thrift-0.17.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyHive[${PYTHON_USEDEP}] )
-	all? ( dev-python/thrift[${PYTHON_USEDEP}] )
+	all? ( <dev-python/thrift-0.17.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	session? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

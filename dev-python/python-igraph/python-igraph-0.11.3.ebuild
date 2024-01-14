@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cairo matplotlib plotly plotting"
 DEPENDENCIES="dev-python/igraph[${PYTHON_USEDEP}]
-	cairo? ( dev-python/cairocffi[${PYTHON_USEDEP}] )
-	matplotlib? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	plotly? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/cairocffi[${PYTHON_USEDEP}] )"
+	cairo? ( >=dev-python/cairocffi-1.2.0[${PYTHON_USEDEP}] )
+	matplotlib? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
+	plotly? ( >=dev-python/plotly-5.3.0[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/cairocffi-1.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

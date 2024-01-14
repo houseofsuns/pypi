@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.24.55[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.27.55[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-37.0.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )

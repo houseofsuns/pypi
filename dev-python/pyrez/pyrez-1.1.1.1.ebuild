@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs httpx"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pipenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pip-21.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pipenv-2020.11.15[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/setuptools-54.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.36.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
-	docs? ( dev-python/requests[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
+	httpx? ( ~dev-python/httpx-0.17[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

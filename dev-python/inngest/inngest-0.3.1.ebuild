@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extra"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.1.1[${PYTHON_USEDEP}]
 	extra? ( dev-python/Django[${PYTHON_USEDEP}] )
 	extra? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	extra? ( dev-python/build[${PYTHON_USEDEP}] )
+	extra? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
 	extra? ( dev-python/django-types[${PYTHON_USEDEP}] )
 	extra? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	extra? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	extra? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	extra? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	extra? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	extra? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
+	extra? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	extra? ( ~dev-python/pytest-django-4.7.0[${PYTHON_USEDEP}] )
+	extra? ( ~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
 	extra? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	extra? ( dev-python/toml[${PYTHON_USEDEP}] )
-	extra? ( dev-python/tornado[${PYTHON_USEDEP}] )
+	extra? ( ~dev-python/tornado-6.3.3[${PYTHON_USEDEP}] )
 	extra? ( dev-python/types-toml[${PYTHON_USEDEP}] )
 	extra? ( dev-python/types-tornado[${PYTHON_USEDEP}] )
-	extra? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	extra? ( ~dev-python/uvicorn-0.23.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

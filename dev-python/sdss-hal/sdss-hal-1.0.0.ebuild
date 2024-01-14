@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click-default-group[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-default-group-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/peewee-4.0.0[${PYTHON_USEDEP}]
 	dev-python/sdss-clu[${PYTHON_USEDEP}]
 	dev-python/sdssdb[${PYTHON_USEDEP}]
 	dev-python/sdsstools[${PYTHON_USEDEP}]"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/build[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-59.6.0[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.41.1[${PYTHON_USEDEP}]
+	>=dev-python/build-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
+	<=dev-python/pytest-7.4.0[${PYTHON_USEDEP}]
+	>=dev-python/coverage-7.3.0[${PYTHON_USEDEP}]
+	>=dev-python/pylint-2.17.5[${PYTHON_USEDEP}]
 	dev-python/pdftextsplitter[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

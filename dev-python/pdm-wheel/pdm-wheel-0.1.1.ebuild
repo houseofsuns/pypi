@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pdm"
-DEPENDENCIES="pdm? ( dev-python/pdm[${PYTHON_USEDEP}] )"
+DEPENDENCIES="pdm? ( >=dev-python/pdm-2.7.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

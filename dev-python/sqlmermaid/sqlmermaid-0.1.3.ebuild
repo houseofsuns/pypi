@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/branthebuilder[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
 	test? ( dev-python/branthebuilder[${PYTHON_USEDEP}] )"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/zenlog[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/platformdirs-3.11[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.6[${PYTHON_USEDEP}]
 	dev-python/mccode-antlr[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/chopcal[${PYTHON_USEDEP}] )"

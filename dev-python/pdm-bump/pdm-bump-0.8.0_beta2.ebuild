@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pdm[${PYTHON_USEDEP}]
-	dev-python/annotated-types[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/pyproject-metadata[${PYTHON_USEDEP}]
-	dev-python/tomli-w[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pdm-2.0[${PYTHON_USEDEP}]
+	>=dev-python/annotated-types-0.2.0[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.11.6[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pyproject-metadata-0.6.1[${PYTHON_USEDEP}]
+	>=dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

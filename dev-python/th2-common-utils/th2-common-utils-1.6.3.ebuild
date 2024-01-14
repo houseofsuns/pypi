@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	dev-python/sortedcollections[${PYTHON_USEDEP}]
 	dev-python/th2-grpc-common[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

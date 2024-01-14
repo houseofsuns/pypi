@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev"
 DEPENDENCIES="dev-python/databricks-sdk[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
 	dev-python/mosaicml-cli[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/mlflow[${PYTHON_USEDEP}]
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	all? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pylint-3.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/yapf-0.40.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/yapf-0.40.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

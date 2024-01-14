@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs linter tester"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
 	dev-python/eth-hash[${PYTHON_USEDEP}]
@@ -32,64 +32,64 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]
 	dev-python/hexbytes[${PYTHON_USEDEP}]
 	dev-python/ipfshttpclient[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/websockets-11.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/py-geth[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-4.3.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/types-setuptools-58.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-better-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/click-5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/configparser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/contextlib2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py-geth[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py-solc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/toposort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.1.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/toposort-1.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/towncrier-18.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flaky-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/hypothesis-6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-asyncio-0.19[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-mock-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-pythonpath[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pluggy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-xdist-2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-38.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-1.8.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/tqdm-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/twine-2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pluggy-0.13.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/when-changed[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mock[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-better-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/click[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/click-5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/configparser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/contextlib2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/py-geth[${PYTHON_USEDEP}] )
 	docs? ( dev-python/py-solc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/toposort[${PYTHON_USEDEP}] )
-	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.1.9[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/toposort-1.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/towncrier-18.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/urllib3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	linter? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	linter? ( dev-python/isort[${PYTHON_USEDEP}] )
-	linter? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	linter? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	linter? ( ~dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	linter? ( <dev-python/isort-4.3.5[${PYTHON_USEDEP}] )
+	linter? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	linter? ( <dev-python/types-setuptools-58.0[${PYTHON_USEDEP}] )
 	linter? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	linter? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	tester? ( dev-python/py-geth[${PYTHON_USEDEP}] )"

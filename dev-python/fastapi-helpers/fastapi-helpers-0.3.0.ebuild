@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mysql orjson postgresql sqlite"
-DEPENDENCIES="dev-python/argon2-cffi[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/argon2-cffi-23.1.0[${PYTHON_USEDEP}]
+	>=dev-python/aiosqlite-0.19.0[${PYTHON_USEDEP}]
 	dev-python/ormar[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.8[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/fastapi-better-logger[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
 	dev-python/watchtower[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.20.3[${PYTHON_USEDEP}]
 	mysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )

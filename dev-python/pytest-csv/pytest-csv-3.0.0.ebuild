@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/pytest-6.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.0.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-xdist-1.29.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/tabulate[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/tabulate-0.8.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

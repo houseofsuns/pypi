@@ -24,39 +24,39 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all ccxt dev dydx ib oanda yfinance"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
 	dev-python/art[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.1[${PYTHON_USEDEP}]
 	dev-python/finta[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/python-telegram-bot[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.2[${PYTHON_USEDEP}]
+	>=dev-python/prometheus-client-0.15.0[${PYTHON_USEDEP}]
 	all? ( dev-python/ccxt[${PYTHON_USEDEP}] )
 	all? ( dev-python/v20[${PYTHON_USEDEP}] )
 	all? ( dev-python/ib-insync[${PYTHON_USEDEP}] )
 	all? ( dev-python/yfinance[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	all? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	all? ( dev-python/furo[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-inline-tabs-2022.1.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/furo-2022.9.29[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	all? ( dev-python/commitizen[${PYTHON_USEDEP}] )
 	ccxt? ( dev-python/ccxt[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-inline-tabs-2022.1.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/furo-2022.9.29[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	dev? ( dev-python/commitizen[${PYTHON_USEDEP}] )
 	dydx? ( dev-python/dydx-v3-python[${PYTHON_USEDEP}] )

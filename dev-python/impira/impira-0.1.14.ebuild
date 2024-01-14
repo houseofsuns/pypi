@@ -28,16 +28,16 @@ DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	all? ( dev-python/commonmark[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/commonmark-0.9[${PYTHON_USEDEP}] )
 	all? ( dev-python/enum-tools[${PYTHON_USEDEP}] )
-	all? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/myst-parser-0.15[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/textract-trp[${PYTHON_USEDEP}] )
 	cli? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	cli? ( dev-python/textract-trp[${PYTHON_USEDEP}] )
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/commonmark[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/myst-parser-0.15[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/commonmark-0.9[${PYTHON_USEDEP}] )
 	doc? ( dev-python/enum-tools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

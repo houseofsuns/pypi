@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/bqplot[${PYTHON_USEDEP}]
 	extra? ( dev-python/geojson[${PYTHON_USEDEP}] )
 	extra? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	extra? ( dev-python/ipynb-py-convert[${PYTHON_USEDEP}] )
-	extra? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/jupyterlab-3.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/mapclassify[${PYTHON_USEDEP}] )
 	extra? ( dev-python/mss[${PYTHON_USEDEP}] )
 	extra? ( dev-python/oeel[${PYTHON_USEDEP}] )

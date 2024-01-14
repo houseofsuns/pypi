@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	testing? ( dev-python/testflo[${PYTHON_USEDEP}] )
 	testing? ( dev-python/parameterized[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

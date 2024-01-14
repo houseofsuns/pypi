@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-0.14[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-1.4[${PYTHON_USEDEP}]
+	>=dev-python/pyqtgraph-0.9[${PYTHON_USEDEP}]
 	dev-python/PyQt6[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/pyqt6-tools[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-1.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-1.0[${PYTHON_USEDEP}]
 	dev-python/ipykernel[${PYTHON_USEDEP}]
 	dev-python/qtconsole[${PYTHON_USEDEP}]
 	dev-python/pyopengl[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pyfluidsynth[${PYTHON_USEDEP}]
 	dev-python/asyncinotify[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
+	<dev-python/pygame-3.0.0[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/sf2utils[${PYTHON_USEDEP}]"

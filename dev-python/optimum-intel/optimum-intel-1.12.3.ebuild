@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/optimum[${PYTHON_USEDEP}]
 	openvino? ( dev-python/onnx[${PYTHON_USEDEP}] )
 	openvino? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	openvino? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/black-23.1[${PYTHON_USEDEP}] )
 	quality? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )

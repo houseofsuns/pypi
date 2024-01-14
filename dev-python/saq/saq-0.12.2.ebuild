@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev hiredis web"
-DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/redis-6.0[${PYTHON_USEDEP}]
+	>=dev-python/croniter-0.3.18[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
 	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/starlette[${PYTHON_USEDEP}] )
 	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	hiredis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	hiredis? ( >=dev-python/redis-4.2.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	web? ( dev-python/aiohttp-basicauth[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

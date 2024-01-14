@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/dockerfile[${PYTHON_USEDEP}]
-	dev-python/pygit2[${PYTHON_USEDEP}]
+	<dev-python/pygit2-2.0.0[${PYTHON_USEDEP}]
 	dev-python/python-on-whales[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

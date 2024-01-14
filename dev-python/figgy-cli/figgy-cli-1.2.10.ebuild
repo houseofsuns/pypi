@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.13.19[${PYTHON_USEDEP}]
+	~dev-python/prompt-toolkit-2.0.7[${PYTHON_USEDEP}]
 	dev-python/sty[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.46.0[${PYTHON_USEDEP}]
 	dev-python/npyscreen[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/keyrings-alt[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/pyotp[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.9.1[${PYTHON_USEDEP}]
+	>=dev-python/keyring-21.2.1[${PYTHON_USEDEP}]
+	>=dev-python/keyrings-alt-3.4.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
+	>=dev-python/jsonpickle-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.7[${PYTHON_USEDEP}]
+	>=dev-python/pyotp-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.5.1[${PYTHON_USEDEP}]
 	dev-python/python-u2flib-host[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]"
+	>=dev-python/pycryptodome-3.9.7[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.0.12[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

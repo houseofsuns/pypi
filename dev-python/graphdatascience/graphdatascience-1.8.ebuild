@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="networkx ogb"
 DEPENDENCIES="dev-python/multimethod[${PYTHON_USEDEP}]
 	dev-python/neo4j[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/textdistance[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	networkx? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-14.0[${PYTHON_USEDEP}]
+	<dev-python/textdistance-5.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	networkx? ( <dev-python/networkx-4.0[${PYTHON_USEDEP}] )
 	ogb? ( dev-python/ogb[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/bottleneck[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
+	~dev-python/bottleneck-1.3.2[${PYTHON_USEDEP}]
+	~dev-python/numexpr-2.8.1[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
+	~dev-python/statsmodels-0.13.0[${PYTHON_USEDEP}]
+	~dev-python/natsort-7.1.1[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/traits[${PYTHON_USEDEP}]
 	dev-python/traitsui[${PYTHON_USEDEP}]
 	dev-python/pyface[${PYTHON_USEDEP}]
 	dev-python/envisage[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/nbformat-5.1.3[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/pyopengl[${PYTHON_USEDEP}]
+	~dev-python/pyopengl-3.1.1[${PYTHON_USEDEP}]
 	dev-python/camel[${PYTHON_USEDEP}]
-	dev-python/yapf[${PYTHON_USEDEP}]"
+	~dev-python/yapf-0.30.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

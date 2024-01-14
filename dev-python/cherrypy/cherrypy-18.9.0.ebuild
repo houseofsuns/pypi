@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs json memcached_session routes_dispatcher ssl testing xcgi"
-DEPENDENCIES="dev-python/cheroot[${PYTHON_USEDEP}]
-	dev-python/portend[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cheroot-8.2.1[${PYTHON_USEDEP}]
+	>=dev-python/portend-2.1.1[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/zc-lockfile[${PYTHON_USEDEP}]
 	dev-python/jaraco-collections[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/alabaster[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/rst-linker[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-apidoc-0.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/rst-linker-1.11[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-packaging[${PYTHON_USEDEP}] )
 	docs? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	json? ( dev-python/simplejson[${PYTHON_USEDEP}] )
-	memcached_session? ( dev-python/python-memcached[${PYTHON_USEDEP}] )
-	routes_dispatcher? ( dev-python/routes[${PYTHON_USEDEP}] )
+	memcached_session? ( >=dev-python/python-memcached-1.58[${PYTHON_USEDEP}] )
+	routes_dispatcher? ( >=dev-python/routes-2.3.1[${PYTHON_USEDEP}] )
 	ssl? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	testing? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/objgraph[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-5.3.5[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
 	testing? ( dev-python/path-py[${PYTHON_USEDEP}] )
 	testing? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-services[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-services-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	xcgi? ( dev-python/flup[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

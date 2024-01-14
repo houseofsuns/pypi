@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.9.0[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
 	dev-python/ndg-httpsclient[${PYTHON_USEDEP}]
 	dev-python/pyasn1[${PYTHON_USEDEP}]

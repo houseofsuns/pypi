@@ -29,11 +29,11 @@ DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.7.0[${PYTHON_USEDEP}]
+	<dev-python/setuptools-scm-6.0[${PYTHON_USEDEP}]
 	dev-python/bagit[${PYTHON_USEDEP}]
 	dev-python/bagit-profile[${PYTHON_USEDEP}]
-	boto? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	boto? ( >=dev-python/boto3-1.9.5[${PYTHON_USEDEP}] )
 	boto? ( dev-python/botocore[${PYTHON_USEDEP}] )
 	boto? ( dev-python/awscli[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )

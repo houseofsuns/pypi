@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="google"
 DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/roboflow[${PYTHON_USEDEP}]
 	google? ( dev-python/googlemaps[${PYTHON_USEDEP}] )
 	dev-python/opencv-python[${PYTHON_USEDEP}]
@@ -36,8 +36,8 @@ DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
 	dev-python/ensemble-boxes[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

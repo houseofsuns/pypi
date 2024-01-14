@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cryptography tests"
-DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/redis-4.6[${PYTHON_USEDEP}]
+	~dev-python/msgpack-1.0[${PYTHON_USEDEP}]
+	<dev-python/asgiref-4.0[${PYTHON_USEDEP}]
 	dev-python/channels[${PYTHON_USEDEP}]
-	cryptography? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	tests? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	cryptography? ( >=dev-python/cryptography-1.3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/cryptography-1.3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/async-timeout[${PYTHON_USEDEP}] )

@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/bugsy[${PYTHON_USEDEP}]
 	dev-python/jsbeautifier[${PYTHON_USEDEP}]
 	dev-python/lithium-reducer[${PYTHON_USEDEP}]
 	dev-python/prefpicker[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

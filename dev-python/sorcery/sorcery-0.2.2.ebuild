@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/executing[${PYTHON_USEDEP}]
-	dev-python/littleutils[${PYTHON_USEDEP}]
+	>=dev-python/littleutils-0.2.1[${PYTHON_USEDEP}]
 	dev-python/asttokens[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

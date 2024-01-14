@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mypy"
 DEPENDENCIES="dev-python/onnx[${PYTHON_USEDEP}]
-	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	mypy? ( ~dev-python/mypy-0.600[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

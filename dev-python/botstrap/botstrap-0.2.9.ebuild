@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-39.0.0[${PYTHON_USEDEP}]
+	tests? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-repeat[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

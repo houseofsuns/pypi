@@ -43,12 +43,12 @@ DEPENDENCIES="dev-python/herre[${PYTHON_USEDEP}]
 	kluster? ( dev-python/kluster[${PYTHON_USEDEP}] )
 	cli? ( dev-python/rich-click[${PYTHON_USEDEP}] )
 	all? ( dev-python/rich-click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/watchfiles[${PYTHON_USEDEP}] )
-	all? ( dev-python/watchfiles[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/watchfiles-0.19.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/watchfiles-0.19.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/turms[${PYTHON_USEDEP}] )
 	all? ( dev-python/turms[${PYTHON_USEDEP}] )
-	cli? ( dev-python/semver[${PYTHON_USEDEP}] )
-	all? ( dev-python/semver[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/semver-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/semver-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/dokker[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

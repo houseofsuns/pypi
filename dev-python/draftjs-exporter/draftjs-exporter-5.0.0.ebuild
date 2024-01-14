@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="html5lib lxml"
-DEPENDENCIES="html5lib? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	html5lib? ( dev-python/html5lib[${PYTHON_USEDEP}] )
-	lxml? ( dev-python/lxml[${PYTHON_USEDEP}] )"
+DEPENDENCIES="html5lib? ( <dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}] )
+	html5lib? ( <dev-python/html5lib-2.0[${PYTHON_USEDEP}] )
+	lxml? ( <dev-python/lxml-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -35,12 +35,12 @@ DEPENDENCIES="dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/drawsvg[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	~dev-python/networkx-3.1[${PYTHON_USEDEP}]
 	dev-python/latexcodec[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	myqlm_bridge? ( dev-python/myqlm[${PYTHON_USEDEP}] )
 	qiskit_bridge? ( dev-python/qiskit[${PYTHON_USEDEP}] )
-	qiskit_bridge? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	qiskit_bridge? ( ~dev-python/seaborn-0.13[${PYTHON_USEDEP}] )
 	qutip_bridge? ( dev-python/qutip[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

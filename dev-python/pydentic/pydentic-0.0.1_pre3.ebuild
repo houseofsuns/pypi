@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/python-stdnum[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-stdnum-1.16[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydantic[${PYTHON_USEDEP}] )"

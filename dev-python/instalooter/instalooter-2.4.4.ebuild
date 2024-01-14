@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all coverage dev doc metadata test"
-DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/fs[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/verboselogs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.1[${PYTHON_USEDEP}]
+	~dev-python/docopt-0.4[${PYTHON_USEDEP}]
+	~dev-python/fs-2.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.18[${PYTHON_USEDEP}]
+	~dev-python/six-1.4[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.19[${PYTHON_USEDEP}]
+	~dev-python/tenacity-6.0[${PYTHON_USEDEP}]
+	~dev-python/verboselogs-1.7[${PYTHON_USEDEP}]
 	all? ( dev-python/piexif[${PYTHON_USEDEP}] )
 	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	coverage? ( dev-python/coverage[${PYTHON_USEDEP}] )
@@ -41,20 +41,20 @@ DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
 	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Pygments[${PYTHON_USEDEP}] )
 	dev? ( dev-python/contexter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/parameterized-0.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/green[${PYTHON_USEDEP}] )
 	dev? ( dev-python/piexif[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/semantic-version[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-bootstrap-theme-0.6[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/semantic-version-2.6[${PYTHON_USEDEP}] )
 	metadata? ( dev-python/piexif[${PYTHON_USEDEP}] )
 	metadata? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	test? ( dev-python/contexter[${PYTHON_USEDEP}] )
-	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/parameterized-0.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/green[${PYTHON_USEDEP}] )
 	test? ( dev-python/piexif[${PYTHON_USEDEP}] )
 	test? ( dev-python/Pillow[${PYTHON_USEDEP}] )"

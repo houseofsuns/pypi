@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/kombu[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/loky[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/kombu-6.0[${PYTHON_USEDEP}]
+	<dev-python/websockets-9.0[${PYTHON_USEDEP}]
+	<dev-python/websocket-client-1.0[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.9[${PYTHON_USEDEP}]
+	<dev-python/loky-3.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

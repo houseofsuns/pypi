@@ -27,13 +27,13 @@ IUSE="dev"
 DEPENDENCIES="dev-python/backports-datetime-fromisoformat[${PYTHON_USEDEP}]
 	dev-python/ccxt[${PYTHON_USEDEP}]
 	dev-python/Historic-Crypto[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/prezzemolo[${PYTHON_USEDEP}]
 	dev-python/pyexcel-ezodf[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2021.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/rp2[${PYTHON_USEDEP}]
 	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )

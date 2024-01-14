@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/art[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.26.84[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
 	dev-python/junitparser[${PYTHON_USEDEP}]
 	dev-python/licensing[${PYTHON_USEDEP}]
 	dev-python/pulumi[${PYTHON_USEDEP}]
 	dev-python/pulumi-aws[${PYTHON_USEDEP}]
 	dev-python/pulumi-docker[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.2.2[${PYTHON_USEDEP}]
 	dev-python/python-logging-loki[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

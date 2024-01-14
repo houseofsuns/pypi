@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/command-runner[${PYTHON_USEDEP}]
 	dev-python/ofunctions-file-utils[${PYTHON_USEDEP}]
 	dev-python/ofunctions-network[${PYTHON_USEDEP}]
 	dev-python/wmi[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.6.0[${PYTHON_USEDEP}]
 	dev-python/pywin32[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,22 +29,22 @@ DEPENDENCIES="dev-python/pyqt6[${PYTHON_USEDEP}]
 	dev-python/orange3[${PYTHON_USEDEP}]
 	dev-python/orange3-text[${PYTHON_USEDEP}]
 	dev-python/orange3-network[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.1.2[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/dhtmlparser3[${PYTHON_USEDEP}]
 	dev-python/textblob[${PYTHON_USEDEP}]
 	dev-python/textblob-nl[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
+	>=dev-python/pydot-1.4.2[${PYTHON_USEDEP}]
+	>=dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
 	dev-python/thefuzz[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/prospector[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/sphinx-autoapi-2.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )

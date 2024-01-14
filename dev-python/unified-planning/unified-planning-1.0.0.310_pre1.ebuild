@@ -49,7 +49,7 @@ DEPENDENCIES="dev-python/pyparsing[${PYTHON_USEDEP}]
 	grpc? ( dev-python/grpc-stubs[${PYTHON_USEDEP}] )
 	lpg? ( dev-python/up-lpg[${PYTHON_USEDEP}] )
 	plot? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	plot? ( ~dev-python/matplotlib-3.7.3[${PYTHON_USEDEP}] )
 	plot? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	plot? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
 	plot? ( dev-python/graphviz[${PYTHON_USEDEP}] )

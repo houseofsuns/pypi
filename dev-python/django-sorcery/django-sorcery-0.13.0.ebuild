@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	dev-python/inflect[${PYTHON_USEDEP}]
 	dev-python/django[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

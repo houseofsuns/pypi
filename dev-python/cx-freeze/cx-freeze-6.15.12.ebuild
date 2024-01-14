@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/setuptools-70.0[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.38.4[${PYTHON_USEDEP}]
 	dev-python/patchelf[${PYTHON_USEDEP}]
 	dev-python/patchelf[${PYTHON_USEDEP}]
 	dev-python/patchelf[${PYTHON_USEDEP}]
@@ -35,15 +35,15 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev? ( dev-python/bump-my-version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cibuildwheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-datafiles[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pylint-2.17.6[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-tabs-3.4.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/furo-2023.8.19[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.2.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-datafiles-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

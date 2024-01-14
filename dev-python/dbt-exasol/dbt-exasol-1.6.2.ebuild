@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/dbt-core[${PYTHON_USEDEP}]
 	dev-python/pyexasol[${PYTHON_USEDEP}]
 	dev-python/sqlfluff[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pytest-xdist[${PYTHON_USEDEP}]"
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	<dev-python/pytest-xdist-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

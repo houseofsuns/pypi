@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/versioneer[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/setuptools-59.6.0[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.37.1[${PYTHON_USEDEP}]
+	~dev-python/versioneer-0.22[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
+	~dev-python/google-api-python-client-2.43.0[${PYTHON_USEDEP}]
+	~dev-python/google-auth-oauthlib-0.5.1[${PYTHON_USEDEP}]
 	dev-python/SecretStorage[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

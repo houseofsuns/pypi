@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/boolean-py[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
+	~dev-python/boolean-py-4.0[${PYTHON_USEDEP}]
+	~dev-python/certifi-2023.5.7[${PYTHON_USEDEP}]
+	~dev-python/chardet-5.1.0[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-3.2.0[${PYTHON_USEDEP}]
 	dev-python/debian-inspector[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	~dev-python/docker-6.1.3[${PYTHON_USEDEP}]
 	dev-python/dockerfile-parse[${PYTHON_USEDEP}]
-	dev-python/gitdb[${PYTHON_USEDEP}]
+	~dev-python/gitdb-4.0.10[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/license-expression[${PYTHON_USEDEP}]
+	~dev-python/idna-3.4[${PYTHON_USEDEP}]
+	~dev-python/license-expression-30.1.1[${PYTHON_USEDEP}]
 	dev-python/packageurl-python[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/smmap[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/wcwidth[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	~dev-python/packaging-23.1[${PYTHON_USEDEP}]
+	~dev-python/pbr-5.11.1[${PYTHON_USEDEP}]
+	~dev-python/prettytable-3.8.0[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/regex-2023.6.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/smmap-5.0.0[${PYTHON_USEDEP}]
+	~dev-python/stevedore-5.1.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-2.0.3[${PYTHON_USEDEP}]
+	~dev-python/wcwidth-0.2.6[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-1.6.1[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/bandit-1.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/prospector[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/tox-3.14[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

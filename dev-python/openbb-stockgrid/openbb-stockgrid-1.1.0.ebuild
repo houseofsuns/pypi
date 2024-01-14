@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/openbb-core[${PYTHON_USEDEP}]
-	dev-python/pytest-freezegun[${PYTHON_USEDEP}]"
+	<dev-python/pytest-freezegun-0.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

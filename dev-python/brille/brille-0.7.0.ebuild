@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="plotting vis"
-DEPENDENCIES="plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	vis? ( dev-python/pyglet[${PYTHON_USEDEP}] )
+DEPENDENCIES="plotting? ( >=dev-python/matplotlib-2.2.0[${PYTHON_USEDEP}] )
+	vis? ( >=dev-python/pyglet-1.5.27[${PYTHON_USEDEP}] )
 	vis? ( dev-python/vispy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

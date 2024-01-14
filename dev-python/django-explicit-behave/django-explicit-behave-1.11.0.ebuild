@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/behave[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/freezegun[${PYTHON_USEDEP}]
+	>=dev-python/freezegun-0.3.11[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/jq[${PYTHON_USEDEP}]
+	>=dev-python/jq-0.1.6[${PYTHON_USEDEP}]
 	dev-python/factory-boy[${PYTHON_USEDEP}]
 	dev-python/model-bakery[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]"
+	>=dev-python/tabulate-0.8.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

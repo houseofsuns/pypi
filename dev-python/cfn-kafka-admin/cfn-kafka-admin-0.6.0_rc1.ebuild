@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/compose-x-common[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/troposphere[${PYTHON_USEDEP}]
 	dev-python/kafka-schema-registry-admin[${PYTHON_USEDEP}]
 	dev-python/datamodel-code-generator[${PYTHON_USEDEP}]
 	dev-python/aws-cfn-custom-resource-resolve-parser[${PYTHON_USEDEP}]
-	dev-python/kafka-python[${PYTHON_USEDEP}]
+	<dev-python/kafka-python-3.0.0[${PYTHON_USEDEP}]
 	dev-python/cfn-resource-provider[${PYTHON_USEDEP}]
 	dev-python/retry2[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]"

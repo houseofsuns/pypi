@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/Paste[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-compute[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-network[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-resource[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.20.0[${PYTHON_USEDEP}]
 	dev-python/diskimage-builder[${PYTHON_USEDEP}]
 	dev-python/extras[${PYTHON_USEDEP}]
 	dev-python/google-api-python-client[${PYTHON_USEDEP}]
@@ -40,25 +40,25 @@ DEPENDENCIES="dev-python/Paste[${PYTHON_USEDEP}]
 	dev-python/ibm-vpc[${PYTHON_USEDEP}]
 	dev-python/kazoo[${PYTHON_USEDEP}]
 	dev-python/openshift[${PYTHON_USEDEP}]
-	dev-python/openstacksdk[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/python-daemon[${PYTHON_USEDEP}]
-	dev-python/statsd[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/openstacksdk-0.103.0[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pbr-1.3[${PYTHON_USEDEP}]
+	>=dev-python/python-daemon-2.0.4[${PYTHON_USEDEP}]
+	>=dev-python/statsd-3.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
 	dev-python/voluptuous[${PYTHON_USEDEP}]
 	nodepool_base? ( dev-python/objgraph[${PYTHON_USEDEP}] )
 	nodepool_base? ( dev-python/python-logstash-async[${PYTHON_USEDEP}] )
 	nodepool_base? ( dev-python/yappi[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/fixtures[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/fixtures-0.3.12[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/moto[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/moto-3.1.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/responses-0.12.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-1.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/testscenarios[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/testtools-0.9.27[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

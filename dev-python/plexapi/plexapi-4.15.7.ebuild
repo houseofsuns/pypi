@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="alert"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	alert? ( dev-python/websocket-client[${PYTHON_USEDEP}] )"
+	alert? ( >=dev-python/websocket-client-1.3.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

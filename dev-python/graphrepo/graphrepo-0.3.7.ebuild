@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/lizard[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/pytz-2018.9[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.7.0[${PYTHON_USEDEP}]
 	dev-python/py2neo[${PYTHON_USEDEP}]
 	dev-python/pydriller[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	~dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-5.3.5[${PYTHON_USEDEP}]
+	~dev-python/GitPython-3.1.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/stomp-py[${PYTHON_USEDEP}]"
+	~dev-python/diskcache-4.1.0[${PYTHON_USEDEP}]
+	~dev-python/pika-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/stomp-py-6.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

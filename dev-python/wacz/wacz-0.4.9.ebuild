@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/frictionless[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/cdxj-indexer[${PYTHON_USEDEP}]
 	dev-python/boilerpy3[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	>=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
+	>=dev-python/black-20.8[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	signing? ( dev-python/authsign[${PYTHON_USEDEP}] )
 	signing? ( dev-python/requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

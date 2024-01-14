@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aws disk redis spf"
 DEPENDENCIES="dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/pysasl[${PYTHON_USEDEP}]
-	dev-python/pycares[${PYTHON_USEDEP}]
+	>=dev-python/pycares-1.0[${PYTHON_USEDEP}]
 	aws? ( dev-python/boto[${PYTHON_USEDEP}] )
 	disk? ( dev-python/pyaio[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )

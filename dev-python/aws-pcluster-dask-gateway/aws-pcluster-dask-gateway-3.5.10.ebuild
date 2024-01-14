@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/dask-gateway-server[${PYTHON_USEDEP}]
 	dev-python/datasize[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/aws-pcluster-helpers[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

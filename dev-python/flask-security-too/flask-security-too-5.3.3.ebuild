@@ -28,18 +28,18 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Login[${PYTHON_USEDEP}]
 	dev-python/Flask-Principal[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/wtforms[${PYTHON_USEDEP}]
+	>=dev-python/email-validator-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/passlib-1.7.4[${PYTHON_USEDEP}]
+	>=dev-python/wtforms-3.0.0[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	babel? ( dev-python/babel[${PYTHON_USEDEP}] )
-	babel? ( dev-python/flask-babel[${PYTHON_USEDEP}] )
-	common? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
+	babel? ( >=dev-python/flask-babel-3.1.0[${PYTHON_USEDEP}] )
+	common? ( >=dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}] )
 	common? ( dev-python/flask-mailman[${PYTHON_USEDEP}] )
-	common? ( dev-python/bleach[${PYTHON_USEDEP}] )
-	fsqla? ( dev-python/flask-sqlalchemy[${PYTHON_USEDEP}] )
-	fsqla? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	common? ( >=dev-python/bleach-6.0.0[${PYTHON_USEDEP}] )
+	fsqla? ( >=dev-python/flask-sqlalchemy-3.0.3[${PYTHON_USEDEP}] )
+	fsqla? ( >=dev-python/sqlalchemy-2.0.12[${PYTHON_USEDEP}] )
 	fsqla? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
 	low? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	low? ( dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}] )
@@ -47,30 +47,30 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	low? ( dev-python/Flask-Mailman[${PYTHON_USEDEP}] )
 	low? ( dev-python/Flask-Login[${PYTHON_USEDEP}] )
 	low? ( dev-python/Flask-WTF[${PYTHON_USEDEP}] )
-	low? ( dev-python/peewee[${PYTHON_USEDEP}] )
-	low? ( dev-python/argon2-cffi[${PYTHON_USEDEP}] )
+	low? ( ~dev-python/peewee-3.16.2[${PYTHON_USEDEP}] )
+	low? ( ~dev-python/argon2-cffi-21.3.0[${PYTHON_USEDEP}] )
 	low? ( dev-python/authlib[${PYTHON_USEDEP}] )
 	low? ( dev-python/babel[${PYTHON_USEDEP}] )
-	low? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
-	low? ( dev-python/bleach[${PYTHON_USEDEP}] )
-	low? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
+	low? ( ~dev-python/bcrypt-4.0.1[${PYTHON_USEDEP}] )
+	low? ( ~dev-python/bleach-6.0.0[${PYTHON_USEDEP}] )
+	low? ( ~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
 	low? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	low? ( dev-python/itsdangerous[${PYTHON_USEDEP}] )
-	low? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
+	low? ( ~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}] )
+	low? ( ~dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}] )
 	low? ( dev-python/mongoengine[${PYTHON_USEDEP}] )
 	low? ( dev-python/mongomock[${PYTHON_USEDEP}] )
 	low? ( dev-python/phonenumberslite[${PYTHON_USEDEP}] )
-	low? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	low? ( dev-python/qrcode[${PYTHON_USEDEP}] )
+	low? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
+	low? ( ~dev-python/qrcode-7.4.2[${PYTHON_USEDEP}] )
 	low? ( dev-python/requests[${PYTHON_USEDEP}] )
-	low? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	low? ( ~dev-python/sqlalchemy-2.0.12[${PYTHON_USEDEP}] )
 	low? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
 	low? ( dev-python/webauthn[${PYTHON_USEDEP}] )
-	low? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
+	low? ( ~dev-python/werkzeug-2.3.3[${PYTHON_USEDEP}] )
 	low? ( dev-python/zxcvbn[${PYTHON_USEDEP}] )
 	low? ( dev-python/pony[${PYTHON_USEDEP}] )
-	mfa? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	mfa? ( dev-python/qrcode[${PYTHON_USEDEP}] )
+	mfa? ( >=dev-python/cryptography-40.0.2[${PYTHON_USEDEP}] )
+	mfa? ( >=dev-python/qrcode-7.4.2[${PYTHON_USEDEP}] )
 	mfa? ( dev-python/phonenumberslite[${PYTHON_USEDEP}] )
 	mfa? ( dev-python/webauthn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs single_cell testing"
-DEPENDENCIES="dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-scm-3.3.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
 	dev-python/fastcluster[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.10.0[${PYTHON_USEDEP}]
 	dev-python/parmap[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
 	dev-python/pybedtools[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/patsy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/patsy-0.4.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.19.5[${PYTHON_USEDEP}]
 	dev-python/peppy[${PYTHON_USEDEP}]
 	dev-python/divvy[${PYTHON_USEDEP}]
 	dev-python/attmap[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/natsort-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.12.5[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
@@ -60,8 +60,8 @@ DEPENDENCIES="dev-python/setuptools-scm[${PYTHON_USEDEP}]
 	single_cell? ( dev-python/louvain[${PYTHON_USEDEP}] )
 	single_cell? ( dev-python/leidenalg[${PYTHON_USEDEP}] )
 	single_cell? ( dev-python/fa2[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-4.4.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/coverage-4.5.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )

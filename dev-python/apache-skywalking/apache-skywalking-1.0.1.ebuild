@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	kafka? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
-	http? ( dev-python/requests[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
+	http? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
 	dev-python/wrapt[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

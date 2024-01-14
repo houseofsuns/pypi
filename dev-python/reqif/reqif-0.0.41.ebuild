@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="development"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/xmlschema[${PYTHON_USEDEP}]
-	development? ( dev-python/black[${PYTHON_USEDEP}] )
-	development? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	>=dev-python/lxml-4.6.2[${PYTHON_USEDEP}]
+	>=dev-python/xmlschema-2.4.0[${PYTHON_USEDEP}]
+	development? ( >=dev-python/black-21.9[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/coverage-5.4[${PYTHON_USEDEP}] )
 	development? ( dev-python/filecheck[${PYTHON_USEDEP}] )
-	development? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	development? ( dev-python/html5lib[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/html5lib-1.1[${PYTHON_USEDEP}] )
 	development? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	development? ( dev-python/lit[${PYTHON_USEDEP}] )
-	development? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	development? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	development? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	development? ( dev-python/pytidylib[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/lit-0.11.0[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/pylint-2.11.1[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/pytidylib-0.3.2[${PYTHON_USEDEP}] )
 	development? ( dev-python/ruff[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

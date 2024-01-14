@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/loca[${PYTHON_USEDEP}]
 	dev-python/palace[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]"
+	>=dev-python/pygame-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

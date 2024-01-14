@@ -24,33 +24,33 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	test? ( dev-python/aioresponses[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	test? ( <dev-python/aioresponses-0.8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/black-24.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
+	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-autorefs-0.6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}]
-	doc? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
+	<dev-python/mkdocs-material-extensions-2.0.0[${PYTHON_USEDEP}]
+	doc? ( <dev-python/mkdocstrings-python-2.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mypy-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/mypy_extensions-2.0.0[${PYTHON_USEDEP}]
+	dev? ( <dev-python/pip-24.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/py[${PYTHON_USEDEP}] )
-	dev-python/pydocstyle[${PYTHON_USEDEP}]
-	dev-python/pyproject-api[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev-python/snowballstemmer[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	test? ( <dev-python/py-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pydocstyle-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyproject-api-2.0.0[${PYTHON_USEDEP}]
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
+	<dev-python/snowballstemmer-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/virtualenv[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/tox-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/twine-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/virtualenv-21.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

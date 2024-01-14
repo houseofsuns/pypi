@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/celery_once[${PYTHON_USEDEP}]
 	dev-python/django-bitfield[${PYTHON_USEDEP}]
 	dev-python/django-esi[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	>=dev-python/django-3.2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

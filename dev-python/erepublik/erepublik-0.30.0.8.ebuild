@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PySocks[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]
-	dev-python/socksio[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/PySocks-1.7.1[${PYTHON_USEDEP}]
+	>dev-python/pytz-2021.0[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.22.0[${PYTHON_USEDEP}]
+	~dev-python/h2-4.1.0[${PYTHON_USEDEP}]
+	~dev-python/socksio-1.0.0[${PYTHON_USEDEP}]
 	dev-python/brotli[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

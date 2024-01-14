@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/click-5.0[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-1.0[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/tox-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

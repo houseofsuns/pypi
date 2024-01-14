@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cython-0.29.33[${PYTHON_USEDEP}]
 	dev-python/aioboto3[${PYTHON_USEDEP}]
 	dev-python/aiojobs[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/backoff-2.1.2[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.33.1[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.33.1[${PYTHON_USEDEP}]
 	dev-python/ddtrace[${PYTHON_USEDEP}]
 	dev-python/faust-cchardet[${PYTHON_USEDEP}]
-	dev-python/fakeredis[${PYTHON_USEDEP}]
+	>=dev-python/fakeredis-2.20.0[${PYTHON_USEDEP}]
 	dev-python/haversine[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	dev-python/mandrill[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.6.8[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}]
 	dev-python/pysmb[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
+	>=dev-python/python-json-logger-2.0.2[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]"
+	~dev-python/redis-5.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

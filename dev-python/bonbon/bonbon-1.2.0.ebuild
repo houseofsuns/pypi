@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pipenv[${PYTHON_USEDEP}]
-	dev-python/twine[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pipenv-2022.1.8[${PYTHON_USEDEP}]
+	~dev-python/twine-3.7.1[${PYTHON_USEDEP}]
 	dev-python/pynput[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
+	~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
 	dev-python/pydirectinput[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.19.3[${PYTHON_USEDEP}]
 	dev-python/dearpygui[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]

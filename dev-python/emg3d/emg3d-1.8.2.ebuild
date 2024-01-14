@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scipy-1.5[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	full? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	full? ( dev-python/h5py[${PYTHON_USEDEP}] )

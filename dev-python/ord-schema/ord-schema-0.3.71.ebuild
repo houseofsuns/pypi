@@ -24,37 +24,37 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs examples tests"
-DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docopt-0.6.2[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.1.2[${PYTHON_USEDEP}]
+	>=dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.4[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/pygithub[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-1.10.0[${PYTHON_USEDEP}]
 	dev-python/rdkit[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	>=dev-python/sqlalchemy-1.4.39[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/ipython-8.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Pygments[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.1.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-tabs-3.4.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/glob2[${PYTHON_USEDEP}] )
-	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}] )
 	examples? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	examples? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	examples? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	examples? ( >=dev-python/tqdm-4.61.2[${PYTHON_USEDEP}] )
 	examples? ( dev-python/wget[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-5.2.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pylint-2.17.4[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-xdist-3.0.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytype[${PYTHON_USEDEP}] )
 	tests? ( dev-python/testing-postgresql[${PYTHON_USEDEP}] )
 	tests? ( dev-python/treon[${PYTHON_USEDEP}] )"

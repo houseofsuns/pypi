@@ -24,33 +24,33 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev"
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/wcwidth[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/termcolor-2.3.0[${PYTHON_USEDEP}]
+	~dev-python/wcwidth-0.2.6[${PYTHON_USEDEP}]
 	dev-python/ida-settings[${PYTHON_USEDEP}]
 	dev-python/viv-utils[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	~dev-python/networkx-3.1[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.17.32[${PYTHON_USEDEP}]
 	dev-python/vivisect[${PYTHON_USEDEP}]
-	dev-python/pefile[${PYTHON_USEDEP}]
-	dev-python/pyelftools[${PYTHON_USEDEP}]
+	~dev-python/pefile-2023.2.7[${PYTHON_USEDEP}]
+	~dev-python/pyelftools-0.29[${PYTHON_USEDEP}]
 	dev-python/dnfile[${PYTHON_USEDEP}]
 	dev-python/dncil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.1.1[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	build? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
-	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	build? ( dev-python/build[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/setuptools-68.0.0[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-sugar-0.9.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-instafail[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-encodings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
@@ -62,19 +62,19 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-use-pathlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-copyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.11.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/psutil-5.9.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/stix2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-backports[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-colorama[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-termcolor[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/types-psutil-5.8.23[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

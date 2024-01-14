@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc examples gym mlagents neptune pettingzoo plot tensorboard test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/jsons[${PYTHON_USEDEP}]
 	dev-python/gym[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pycodestyle-2.8.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}] )
 	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	examples? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	examples? ( dev-python/gym[${PYTHON_USEDEP}] )
@@ -43,11 +43,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	pettingzoo? ( dev-python/pettingzoo[${PYTHON_USEDEP}] )
 	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	tensorboard? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-5.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.10[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.9[${PYTHON_USEDEP}] )
 	test? ( dev-python/gym[${PYTHON_USEDEP}] )
 	test? ( dev-python/pettingzoo[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

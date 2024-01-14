@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="awesomeversion htmlparser pypi vercmp"
 DEPENDENCIES="dev-python/structlog[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	>=dev-python/tornado-6.0[${PYTHON_USEDEP}]
 	dev-python/pycurl[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	awesomeversion? ( dev-python/awesomeversion[${PYTHON_USEDEP}] )

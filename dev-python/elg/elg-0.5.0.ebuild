@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="flask quality quart"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
-	flask? ( dev-python/docker[${PYTHON_USEDEP}] )
-	flask? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
-	quality? ( dev-python/isort[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/requests-2.25[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.49[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.5[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.7.4[${PYTHON_USEDEP}]
+	flask? ( >=dev-python/flask-2.2[${PYTHON_USEDEP}] )
+	flask? ( >=dev-python/docker-5.0[${PYTHON_USEDEP}] )
+	flask? ( >=dev-python/requests-toolbelt-0.9[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	quart? ( dev-python/quart[${PYTHON_USEDEP}] )
-	quart? ( dev-python/docker[${PYTHON_USEDEP}] )
-	quart? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )"
+	quart? ( >=dev-python/docker-5.0[${PYTHON_USEDEP}] )
+	quart? ( >=dev-python/requests-toolbelt-0.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

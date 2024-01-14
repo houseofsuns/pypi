@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/SciQLopPlots[${PYTHON_USEDEP}]
 	dev-python/speasy[${PYTHON_USEDEP}]
-	dev-python/qtconsole[${PYTHON_USEDEP}]
+	~dev-python/qtconsole-5.4.1[${PYTHON_USEDEP}]
 	dev-python/tscat_gui[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]

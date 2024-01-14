@@ -27,14 +27,14 @@ IUSE="dev docs"
 DEPENDENCIES="dev-python/aiida-core[${PYTHON_USEDEP}]
 	dev-python/aiida-gaussian-datatypes[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.16.5[${PYTHON_USEDEP}]
 	dev-python/cp2k-output-tools[${PYTHON_USEDEP}]
 	dev-python/aiida-pseudo[${PYTHON_USEDEP}]
 	dev-python/upf-to-json[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pgtest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

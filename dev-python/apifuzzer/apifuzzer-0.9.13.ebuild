@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/kittyfuzzer[${PYTHON_USEDEP}]
-	dev-python/pycurl[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/junit-xml[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
+	~dev-python/pycurl-7.43.0.6[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.16.12[${PYTHON_USEDEP}]
+	~dev-python/junit-xml-1.9[${PYTHON_USEDEP}]
+	~dev-python/jsonpath-ng-1.5.2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/json-ref-dict[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -26,30 +26,30 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs hallucination notebooks sagemaker transformers"
 DEPENDENCIES="dev-python/flax[${PYTHON_USEDEP}]
 	dev-python/optax[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-cpu[${PYTHON_USEDEP}]
 	dev-python/tensorflow-macos[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/nbsphinx-0.9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-gallery-0.12.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/pydata-sphinx-theme-0.13.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
+	notebooks? ( <dev-python/jupyter-2.0.0[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	hallucination? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	transformers? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	hallucination? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	sagemaker? ( dev-python/sagemaker-utils[${PYTHON_USEDEP}] )
 	sagemaker? ( dev-python/sagemaker[${PYTHON_USEDEP}] )
-	sagemaker? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	sagemaker? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	sagemaker? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
 	hallucination? ( dev-python/torch[${PYTHON_USEDEP}] )
 	hallucination? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	hallucination? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
-	docs? ( dev-python/tabulate[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/tabulate-0.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

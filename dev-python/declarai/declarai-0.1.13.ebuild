@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="wandb"
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/jsonref[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonref-2.0.0[${PYTHON_USEDEP}]
 	wandb? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	dev-python/jinja2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

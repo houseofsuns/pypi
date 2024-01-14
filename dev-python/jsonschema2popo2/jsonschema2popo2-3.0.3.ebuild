@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="format_js format_python"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	~dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	format_js? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )
 	format_python? ( dev-python/black[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

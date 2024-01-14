@@ -27,7 +27,7 @@ IUSE="all docs luigi test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/ipyparallel[${PYTHON_USEDEP}]
+	>=dev-python/ipyparallel-6.3[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
@@ -38,13 +38,13 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/neuron[${PYTHON_USEDEP}]
 	dev-python/morph-tool[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
+	>=dev-python/fasteners-0.16[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/currentscape[${PYTHON_USEDEP}]
 	all? ( dev-python/luigi[${PYTHON_USEDEP}] )
 	all? ( dev-python/luigi-tools[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/dictdiffer[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/dictdiffer-0.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-bluebrain-theme[${PYTHON_USEDEP}] )
@@ -52,7 +52,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/luigi-tools[${PYTHON_USEDEP}] )
 	luigi? ( dev-python/luigi[${PYTHON_USEDEP}] )
 	luigi? ( dev-python/luigi-tools[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/dictdiffer[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/dictdiffer-0.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

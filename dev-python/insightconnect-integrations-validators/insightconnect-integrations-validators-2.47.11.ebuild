@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jsonschema-2.3.0[${PYTHON_USEDEP}]
+	~dev-python/validators-0.22.0[${PYTHON_USEDEP}]
+	~dev-python/filetype-1.0.5[${PYTHON_USEDEP}]
 	dev-python/insightconnect-integrations-plugin-spec-tooling[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/urlextract[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]"
+	~dev-python/GitPython-3.1.37[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

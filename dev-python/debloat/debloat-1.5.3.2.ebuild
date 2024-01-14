@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/tkinterdnd2[${PYTHON_USEDEP}]
-	dev-python/pefile[${PYTHON_USEDEP}]"
+	>=dev-python/pefile-2023.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

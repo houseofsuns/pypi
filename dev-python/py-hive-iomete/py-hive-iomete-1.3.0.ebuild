@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="hive kerberos presto sqlalchemy test trino"
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/thrift[${PYTHON_USEDEP}]
+	~dev-python/thrift-0.13.0[${PYTHON_USEDEP}]
 	hive? ( dev-python/sasl[${PYTHON_USEDEP}] )
-	hive? ( dev-python/thrift[${PYTHON_USEDEP}] )
+	hive? ( >=dev-python/thrift-0.10.0[${PYTHON_USEDEP}] )
 	hive? ( dev-python/thrift-sasl[${PYTHON_USEDEP}] )
-	kerberos? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
-	presto? ( dev-python/requests[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	kerberos? ( >=dev-python/requests-kerberos-0.12.0[${PYTHON_USEDEP}] )
+	presto? ( >=dev-python/requests-1.0.0[${PYTHON_USEDEP}] )
+	sqlalchemy? ( <=dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-1.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	test? ( dev-python/thrift[${PYTHON_USEDEP}] )
-	trino? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/requests-1.0.0[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/thrift-0.13.0[${PYTHON_USEDEP}] )
+	trino? ( >=dev-python/requests-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

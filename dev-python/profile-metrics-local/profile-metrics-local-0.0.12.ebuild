@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.4.0[${PYTHON_USEDEP}]
 	dev-python/mysql-connector[${PYTHON_USEDEP}]
 	dev-python/logzio-python-handler[${PYTHON_USEDEP}]
 	dev-python/user-context-remote[${PYTHON_USEDEP}]
 	dev-python/python-sdk-local[${PYTHON_USEDEP}]
-	dev-python/multipledispatch[${PYTHON_USEDEP}]"
+	>=dev-python/multipledispatch-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="app bench calendar dev dev-min docs"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	app? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.1.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-1.0[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.13[${PYTHON_USEDEP}]
+	app? ( >=dev-python/uvicorn-0.23.2[${PYTHON_USEDEP}] )
 	bench? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	bench? ( dev-python/nc-py-api[${PYTHON_USEDEP}] )
 	bench? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	bench? ( dev-python/py-cpuinfo[${PYTHON_USEDEP}] )
-	calendar? ( dev-python/caldav[${PYTHON_USEDEP}] )
+	calendar? ( ~dev-python/caldav-1.3.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nc-py-api[${PYTHON_USEDEP}] )
 	dev-min? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev-min? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
@@ -47,8 +47,8 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	docs? ( dev-python/nc-py-api[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-issues-3.0.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-6.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

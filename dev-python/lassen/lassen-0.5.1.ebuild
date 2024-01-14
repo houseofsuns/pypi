@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aws database datasets"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/inflection-0.6.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/alembic-autogenerate-enums[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	datasets? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	datasets? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	datasets? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	datasets? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
+	datasets? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
 	database? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	database? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	dev-python/Jinja2[${PYTHON_USEDEP}]

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="boto3 dev moto redis"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	boto3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	boto3? ( >=dev-python/boto3-1.19.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-xdist-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-redis[${PYTHON_USEDEP}] )
-	moto? ( dev-python/moto[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	moto? ( <dev-python/moto-5.0[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

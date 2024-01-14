@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="discord irc mattermost slack telegram xmpp"
-DEPENDENCIES="dev-python/webtest[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/webtest-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/setuptools-68.1.2[${PYTHON_USEDEP}]
+	~dev-python/flask-2.3.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/ansi[${PYTHON_USEDEP}]
+	~dev-python/colorlog-6.7.0[${PYTHON_USEDEP}]
+	~dev-python/markdown-3.4.4[${PYTHON_USEDEP}]
+	~dev-python/ansi-0.3.6[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
 	dev-python/pygments-markdown-lexer[${PYTHON_USEDEP}]
-	dev-python/dulwich[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
-	dev-python/daemonize[${PYTHON_USEDEP}]
-	irc? ( dev-python/irc[${PYTHON_USEDEP}] )
-	xmpp? ( dev-python/slixmpp[${PYTHON_USEDEP}] )
-	xmpp? ( dev-python/pyasn1[${PYTHON_USEDEP}] )
-	xmpp? ( dev-python/pyasn1-modules[${PYTHON_USEDEP}] )
+	~dev-python/dulwich-0.21.5[${PYTHON_USEDEP}]
+	~dev-python/deepmerge-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/daemonize-2.5.0[${PYTHON_USEDEP}]
+	irc? ( ~dev-python/irc-20.3.0[${PYTHON_USEDEP}] )
+	xmpp? ( ~dev-python/slixmpp-1.8.4[${PYTHON_USEDEP}] )
+	xmpp? ( ~dev-python/pyasn1-0.5.0[${PYTHON_USEDEP}] )
+	xmpp? ( ~dev-python/pyasn1-modules-0.3.0[${PYTHON_USEDEP}] )
 	discord? ( dev-python/err-backend-discord[${PYTHON_USEDEP}] )
 	mattermost? ( dev-python/err-backend-mattermost[${PYTHON_USEDEP}] )
 	slack? ( dev-python/errbot-backend-slackv3[${PYTHON_USEDEP}] )

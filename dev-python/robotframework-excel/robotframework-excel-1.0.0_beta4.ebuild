@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/six-1.11.0[${PYTHON_USEDEP}]
+	~dev-python/natsort-5.2.0[${PYTHON_USEDEP}]
 	dev-python/xlutils[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-2.5.1[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
 	dev-python/enum34[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

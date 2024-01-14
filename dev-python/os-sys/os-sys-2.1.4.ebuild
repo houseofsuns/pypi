@@ -64,10 +64,10 @@ DEPENDENCIES="dev-python/wmi[${PYTHON_USEDEP}]
 	dev-python/mathparse[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-5.2[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	dev-python/os-sys-php[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

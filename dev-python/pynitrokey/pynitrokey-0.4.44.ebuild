@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev pcsc"
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/certifi-14.5.14[${PYTHON_USEDEP}]
 	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<=dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	<dev-python/cryptography-44.0[${PYTHON_USEDEP}]
 	dev-python/ecdsa[${PYTHON_USEDEP}]
-	dev-python/fido2[${PYTHON_USEDEP}]
+	<dev-python/fido2-2.0[${PYTHON_USEDEP}]
 	dev-python/intelhex[${PYTHON_USEDEP}]
 	dev-python/nkdfu[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}]
 	dev-python/pyusb[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/spsdk[${PYTHON_USEDEP}]
@@ -44,18 +44,18 @@ DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/click-aliases[${PYTHON_USEDEP}]
 	dev-python/semver[${PYTHON_USEDEP}]
 	dev-python/nethsm[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flit-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-1.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-tqdm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-reporter-html1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/oath[${PYTHON_USEDEP}] )
-	pcsc? ( dev-python/pyscard[${PYTHON_USEDEP}] )"
+	pcsc? ( <dev-python/pyscard-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

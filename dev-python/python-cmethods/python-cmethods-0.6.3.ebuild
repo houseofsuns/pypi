@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests working_examples_notebook"
-DEPENDENCIES="dev-python/xarray[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/xarray-2022.11.0[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

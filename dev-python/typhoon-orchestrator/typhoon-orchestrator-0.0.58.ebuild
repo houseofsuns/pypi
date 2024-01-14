@@ -35,13 +35,13 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
 	all? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datadiff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jedi[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jedi-0.17.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlitedict[${PYTHON_USEDEP}] )

@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
+	>=dev-python/lmfit-1.0.2[${PYTHON_USEDEP}]
 	dev-python/numdifftools[${PYTHON_USEDEP}]
-	dev-python/emcee[${PYTHON_USEDEP}]
+	>=dev-python/emcee-3.0.0[${PYTHON_USEDEP}]
 	dev-python/corner[${PYTHON_USEDEP}]
 	dev-python/mpl-interactions[${PYTHON_USEDEP}]
 	dev-python/mpl-interactions[${PYTHON_USEDEP}]"

@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all casa dev doc healpix moon sim test"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pyradiosky[${PYTHON_USEDEP}]
 	dev-python/pyuvdata[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	all? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-scm-7.0.3[${PYTHON_USEDEP}]
+	all? ( >=dev-python/mpi4py-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/lunarsky[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-casacore[${PYTHON_USEDEP}] )
 	all? ( dev-python/astropy-healpix[${PYTHON_USEDEP}] )
 	casa? ( dev-python/python-casacore[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mpi4py-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lunarsky[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-casacore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/astropy-healpix[${PYTHON_USEDEP}] )
@@ -52,8 +52,8 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	doc? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	healpix? ( dev-python/astropy-healpix[${PYTHON_USEDEP}] )
 	moon? ( dev-python/lunarsky[${PYTHON_USEDEP}] )
-	sim? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
-	test? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
+	sim? ( >=dev-python/mpi4py-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mpi4py-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/lunarsky[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-casacore[${PYTHON_USEDEP}] )
 	test? ( dev-python/astropy-healpix[${PYTHON_USEDEP}] )

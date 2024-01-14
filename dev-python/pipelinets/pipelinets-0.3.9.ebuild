@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all core"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
 	dev-python/darts[${PYTHON_USEDEP}]
@@ -35,13 +35,13 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/spinesTS[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
 	dev-python/spinesUtils[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/MAPIE[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	>=dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
+	all? ( >=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/numpy-1.25.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	all? ( dev-python/darts[${PYTHON_USEDEP}] )
@@ -50,14 +50,14 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	all? ( dev-python/spinesTS[${PYTHON_USEDEP}] )
 	all? ( dev-python/frozendict[${PYTHON_USEDEP}] )
 	all? ( dev-python/spinesUtils[${PYTHON_USEDEP}] )
-	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/MAPIE[${PYTHON_USEDEP}] )
-	all? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/prophet[${PYTHON_USEDEP}] )
-	core? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	core? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	core? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	core? ( >=dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}] )
+	core? ( <=dev-python/numpy-1.25.0[${PYTHON_USEDEP}] )
+	core? ( >=dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )
 	core? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	core? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	core? ( dev-python/darts[${PYTHON_USEDEP}] )
@@ -66,9 +66,9 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	core? ( dev-python/spinesTS[${PYTHON_USEDEP}] )
 	core? ( dev-python/frozendict[${PYTHON_USEDEP}] )
 	core? ( dev-python/spinesUtils[${PYTHON_USEDEP}] )
-	core? ( dev-python/tabulate[${PYTHON_USEDEP}] )
+	core? ( >=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}] )
 	core? ( dev-python/torch[${PYTHON_USEDEP}] )
 	core? ( dev-python/MAPIE[${PYTHON_USEDEP}] )
-	core? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )"
+	core? ( >=dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

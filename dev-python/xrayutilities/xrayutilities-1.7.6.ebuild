@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="3d plot"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.9.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.18.0[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
+	>=dev-python/lmfit-1.0.1[${PYTHON_USEDEP}]
 	3d? ( dev-python/mayavi[${PYTHON_USEDEP}] )
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	plot? ( >=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

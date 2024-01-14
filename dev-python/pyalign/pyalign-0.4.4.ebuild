@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pybind11[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.19[${PYTHON_USEDEP}]
+	~dev-python/pybind11-2.6.2[${PYTHON_USEDEP}]
 	dev-python/cached-property[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
+	~dev-python/py-cpuinfo-8.0.0[${PYTHON_USEDEP}]
 	dev-python/pymorton[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/cpufeature[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

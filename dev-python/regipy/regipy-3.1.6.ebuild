@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli full test"
-DEPENDENCIES="dev-python/construct[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/construct-2.10[${PYTHON_USEDEP}]
+	>=dev-python/attrs-21.0[${PYTHON_USEDEP}]
+	>=dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/click-7.0.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	full? ( dev-python/click[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/click-7.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/tabulatelibfwsi-python[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )"

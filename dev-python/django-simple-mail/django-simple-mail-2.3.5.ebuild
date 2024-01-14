@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/html2text[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/html2text-2018.1.9[${PYTHON_USEDEP}]
 	dev-python/premailer[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/django-imagekit[${PYTHON_USEDEP}]"

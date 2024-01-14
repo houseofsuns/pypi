@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pbr[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pbr-2.0[${PYTHON_USEDEP}]
 	dev-python/rjsmin[${PYTHON_USEDEP}]
 	dev-python/rcssmin[${PYTHON_USEDEP}]
 	dev-python/htmlmin[${PYTHON_USEDEP}]"

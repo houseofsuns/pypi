@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws dev test"
-DEPENDENCIES="aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
+DEPENDENCIES="aws? ( >=dev-python/boto3-1.18.56[${PYTHON_USEDEP}] )
 	aws? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
 	aws? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/importlib-metadata-4.4[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-3.8[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-3.0[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

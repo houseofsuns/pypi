@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="base dev"
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
 	dev-python/Flask-Admin[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	base? ( dev-python/apache-airflow[${PYTHON_USEDEP}] )
-	base? ( dev-python/pendulum[${PYTHON_USEDEP}] )
+	base? ( ~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}] )
 	base? ( dev-python/Flask-Admin[${PYTHON_USEDEP}] )
 	base? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -37,6 +37,6 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/google-api-core-1.26.3[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-1.28.0[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-oauthlib-0.4.4[${PYTHON_USEDEP}]
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/google-cloud-translate[${PYTHON_USEDEP}]
 	dev-python/google-cloud-vision[${PYTHON_USEDEP}]
 	dev-python/google-crc32c[${PYTHON_USEDEP}]
 	dev-python/google-resumable-media[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
+	>=dev-python/googleapis-common-protos-1.53.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]

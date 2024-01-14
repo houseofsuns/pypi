@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/roadlib[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/flask-3.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/flask-sqlalchemy-2.5[${PYTHON_USEDEP}]
 	dev-python/flask-marshmallow[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]
 	dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}]

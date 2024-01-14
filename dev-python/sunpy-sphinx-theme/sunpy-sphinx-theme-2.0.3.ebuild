@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydata-sphinx-theme-0.14[${PYTHON_USEDEP}]
 	dev-python/sphinx[${PYTHON_USEDEP}]
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )

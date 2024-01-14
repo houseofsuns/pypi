@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pook speedups test"
-DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/decorator-4.0.0[${PYTHON_USEDEP}]
 	dev-python/httptools[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/python-magic-0.4.5[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.3[${PYTHON_USEDEP}]
 	pook? ( dev-python/pook[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/xxhash-cffi[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/xxhash[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
 	test? ( dev-python/asgiref[${PYTHON_USEDEP}] )
 	test? ( dev-python/build[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	test? ( dev-python/pipfile[${PYTHON_USEDEP}] )

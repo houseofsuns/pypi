@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cjk-commons[${PYTHON_USEDEP}]
-	dev-python/fleep[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	~dev-python/fleep-1.0.1[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/parse-1c-build[${PYTHON_USEDEP}]
-	dev-python/plumbum[${PYTHON_USEDEP}]"
+	~dev-python/plumbum-1.8.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

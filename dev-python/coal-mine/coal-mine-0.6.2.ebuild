@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/certifi-2022.9.24[${PYTHON_USEDEP}]
+	<dev-python/dnspython-2.5[${PYTHON_USEDEP}]
+	<dev-python/idna-3.5[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.1[${PYTHON_USEDEP}]
 	dev-python/crontab[${PYTHON_USEDEP}]
-	dev-python/logbook[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	<dev-python/logbook-1.7[${PYTHON_USEDEP}]
+	<dev-python/pymongo-4.6[${PYTHON_USEDEP}]
+	<dev-python/charset-normalizer-3.3[${PYTHON_USEDEP}]
+	<dev-python/requests-2.32[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="dependencies tests"
 DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	dependencies? ( dev-python/dash[${PYTHON_USEDEP}] )
 	tests? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/black-22.12[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dash[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	tests? ( dev-python/selenium[${PYTHON_USEDEP}] )"

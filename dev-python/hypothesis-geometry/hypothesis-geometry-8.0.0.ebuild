@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/bentley-ottmann[${PYTHON_USEDEP}]
 	dev-python/decision[${PYTHON_USEDEP}]
 	dev-python/dendroid[${PYTHON_USEDEP}]
 	dev-python/ground[${PYTHON_USEDEP}]
-	dev-python/hypothesis[${PYTHON_USEDEP}]
+	<dev-python/hypothesis-7.0[${PYTHON_USEDEP}]
 	dev-python/locus[${PYTHON_USEDEP}]
 	dev-python/reprit[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

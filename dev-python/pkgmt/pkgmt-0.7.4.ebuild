@@ -37,12 +37,12 @@ DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
 	all? ( dev-python/nbclient[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	check? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	check? ( >=dev-python/mistune-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbclient[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mistune[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/mistune-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

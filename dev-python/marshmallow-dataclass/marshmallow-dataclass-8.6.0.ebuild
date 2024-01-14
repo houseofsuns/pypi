@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs enum lint tests union"
-DEPENDENCIES="dev-python/marshmallow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/typeguard[${PYTHON_USEDEP}] )
+	>=dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
+	dev? ( <dev-python/typeguard-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mypy-plugins[${PYTHON_USEDEP}] )
-	dev? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/marshmallow-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	enum? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
+	enum? ( <dev-python/marshmallow-4.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-5.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mypy-plugins[${PYTHON_USEDEP}] )
-	union? ( dev-python/typeguard[${PYTHON_USEDEP}] )"
+	union? ( <dev-python/typeguard-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

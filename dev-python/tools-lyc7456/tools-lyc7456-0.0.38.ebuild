@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/bce-python-sdk[${PYTHON_USEDEP}]
 	dev-python/ucloud-sdk-python3[${PYTHON_USEDEP}]
 	dev-python/tencentcloud-sdk-python[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	~dev-python/paramiko-2.7.1[${PYTHON_USEDEP}]
 	dev-python/alibabacloud-swas-open20200601[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

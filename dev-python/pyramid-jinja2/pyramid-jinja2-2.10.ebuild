@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
 	dev-python/zope-deprecation[${PYTHON_USEDEP}]
 	docs? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.7.5[${PYTHON_USEDEP}] )
 	testing? ( dev-python/webtest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-5.4.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

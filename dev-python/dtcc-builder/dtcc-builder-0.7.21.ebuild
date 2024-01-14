@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/pybind11[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pybind11-2.11.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/dtcc-model[${PYTHON_USEDEP}]
 	dev-python/dtcc-io[${PYTHON_USEDEP}]

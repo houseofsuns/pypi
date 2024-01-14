@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/saintBioutils[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.4.20[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/html5lib[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

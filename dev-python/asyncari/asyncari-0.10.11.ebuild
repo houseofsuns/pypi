@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/anyio-3.7[${PYTHON_USEDEP}]
 	dev-python/asks[${PYTHON_USEDEP}]
 	dev-python/asyncswagger11[${PYTHON_USEDEP}]
 	dev-python/asyncwebsockets[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]"
+	>=dev-python/attrs-18.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	>=dev-python/dnspython-1.15.0[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/fcache[${PYTHON_USEDEP}]

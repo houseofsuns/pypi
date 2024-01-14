@@ -42,10 +42,10 @@ DEPENDENCIES="dev-python/adcircpy[${PYTHON_USEDEP}]
 	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/pint-pandas[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-2.6[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
 	dev-python/typepigeon[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]

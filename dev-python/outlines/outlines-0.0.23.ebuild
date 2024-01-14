@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/interegular[${PYTHON_USEDEP}]
 	dev-python/nest-asyncio[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/perscache[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
@@ -46,10 +46,10 @@ DEPENDENCIES="dev-python/interegular[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/diff-cover[${PYTHON_USEDEP}] )
 	test? ( dev-python/accelerate[${PYTHON_USEDEP}] )
-	test? ( dev-python/beartype[${PYTHON_USEDEP}] )
+	test? ( <dev-python/beartype-0.16.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	test? ( dev-python/responses[${PYTHON_USEDEP}] )
 	test? ( dev-python/llama-cpp-python[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/setuptools-36.2.0[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.29.0[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.25.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

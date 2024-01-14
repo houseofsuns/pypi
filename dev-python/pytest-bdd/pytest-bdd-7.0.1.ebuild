@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/Mako[${PYTHON_USEDEP}]
 	dev-python/parse[${PYTHON_USEDEP}]
 	dev-python/parse-type[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.2.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

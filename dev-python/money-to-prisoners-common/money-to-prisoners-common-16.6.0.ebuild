@@ -27,32 +27,32 @@ IUSE="testing"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-widget-tweaks[${PYTHON_USEDEP}]
 	dev-python/notifications-python-client[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31[${PYTHON_USEDEP}]
+	~dev-python/requests-oauthlib-1.3[${PYTHON_USEDEP}]
 	dev-python/slumber[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/selenium-4.15[${PYTHON_USEDEP}]
+	~dev-python/cryptography-41.0[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.28[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/opencensus[${PYTHON_USEDEP}]
 	dev-python/opencensus-ext-azure[${PYTHON_USEDEP}]
 	dev-python/opencensus-ext-django[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/libsass[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-1.0[${PYTHON_USEDEP}]
+	~dev-python/sentry-sdk-1.38[${PYTHON_USEDEP}]
+	~dev-python/libsass-0.22[${PYTHON_USEDEP}]
 	dev-python/uWSGI[${PYTHON_USEDEP}]
 	dev-python/django-moj-irat[${PYTHON_USEDEP}]
 	dev-python/django-zendesk-tickets[${PYTHON_USEDEP}]
 	dev-python/govuk-bank-holidays[${PYTHON_USEDEP}]
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/flake8-7.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	testing? ( dev-python/responses[${PYTHON_USEDEP}] )
-	testing? ( dev-python/twine[${PYTHON_USEDEP}] )
-	testing? ( dev-python/watchdog[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/responses-0.24.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/watchdog-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

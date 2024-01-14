@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev postgres pydantic rabbitmq redis server"
-DEPENDENCIES="dev-python/prometheus-client[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/prometheus-client-0.2[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.8[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/simplejson[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/amqpstorm[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask-apispec[${PYTHON_USEDEP}] )
-	all? ( dev-python/flask[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/flask-2.3.3[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/redis-5.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/marshmallow-3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/simplejson[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/amqpstorm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flask-apispec[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flask[${PYTHON_USEDEP}] )
-	dev? ( dev-python/redis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flask-2.3.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/redis-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/marshmallow-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/alabaster[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-4.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-versioning[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/prometheus-client[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.930[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-redis[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
@@ -71,14 +71,14 @@ DEPENDENCIES="dev-python/prometheus-client[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	postgres? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	pydantic? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	pydantic? ( dev-python/simplejson[${PYTHON_USEDEP}] )
 	rabbitmq? ( dev-python/amqpstorm[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	server? ( dev-python/flask[${PYTHON_USEDEP}] )
-	server? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
+	redis? ( ~dev-python/redis-5.0[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/flask-2.3.3[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/marshmallow-3.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/flask-apispec[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

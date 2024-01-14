@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.2[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	~dev-python/statsmodels-0.9[${PYTHON_USEDEP}]
 	dev-python/pypubsub[${PYTHON_USEDEP}]
 	dev-python/wxPython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

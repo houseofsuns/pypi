@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="vis"
-DEPENDENCIES="vis? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	vis? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+DEPENDENCIES="vis? ( >=dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}] )
+	vis? ( >=dev-python/numpy-1.26.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

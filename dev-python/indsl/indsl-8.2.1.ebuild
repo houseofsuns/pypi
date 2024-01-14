@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all fluids modeling numba plot scikit stats"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
+	<dev-python/typeguard-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	fluids? ( dev-python/fluids[${PYTHON_USEDEP}] )
 	all? ( dev-python/fluids[${PYTHON_USEDEP}] )
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	plot? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	numba? ( dev-python/numba[${PYTHON_USEDEP}] )
 	all? ( dev-python/numba[${PYTHON_USEDEP}] )
 	modeling? ( dev-python/kneed[${PYTHON_USEDEP}] )
 	all? ( dev-python/kneed[${PYTHON_USEDEP}] )
 	modeling? ( dev-python/csaps[${PYTHON_USEDEP}] )
 	all? ( dev-python/csaps[${PYTHON_USEDEP}] )
-	stats? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	all? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	stats? ( <dev-python/statsmodels-0.15.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/statsmodels-0.15.0[${PYTHON_USEDEP}] )
 	scikit? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	scikit? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )

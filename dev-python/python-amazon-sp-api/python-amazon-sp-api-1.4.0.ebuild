@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aws aws-caching"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/confuse[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-4.2[${PYTHON_USEDEP}]
+	>=dev-python/confuse-1.4[${PYTHON_USEDEP}]
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	aws-caching? ( dev-python/aws-secretsmanager-caching[${PYTHON_USEDEP}] )
 	aws-caching? ( dev-python/boto3[${PYTHON_USEDEP}] )"

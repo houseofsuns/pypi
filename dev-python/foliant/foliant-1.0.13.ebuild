@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	dev-python/cliar[${PYTHON_USEDEP}]
 	dev-python/prompt_toolkit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

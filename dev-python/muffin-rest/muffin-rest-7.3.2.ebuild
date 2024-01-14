@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="peewee sqlalchemy yaml"
-DEPENDENCIES="dev-python/apispec[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/apispec-7.0[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
 	dev-python/muffin[${PYTHON_USEDEP}]
 	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	peewee? ( dev-python/muffin-peewee-aio[${PYTHON_USEDEP}] )

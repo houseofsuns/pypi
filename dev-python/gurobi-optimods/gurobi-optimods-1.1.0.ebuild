@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/gurobipy-pandas[${PYTHON_USEDEP}]
 	dev-python/gurobipy[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
 	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	examples? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	examples? ( dev-python/plotly[${PYTHON_USEDEP}] )

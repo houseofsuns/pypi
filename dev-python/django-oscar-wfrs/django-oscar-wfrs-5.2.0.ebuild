@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cybersource development kms"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-2.1.4[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-oscar[${PYTHON_USEDEP}]
 	dev-python/django-oscar-api[${PYTHON_USEDEP}]
@@ -32,21 +32,21 @@ DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/django-oscar-bluelight[${PYTHON_USEDEP}]
 	dev-python/django-ipware[${PYTHON_USEDEP}]
 	dev-python/django-localflavor[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.11[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	cybersource? ( dev-python/instrumented-soap[${PYTHON_USEDEP}] )
-	development? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	development? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/coverage-4.4.2[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/instrumented-soap[${PYTHON_USEDEP}] )
 	development? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	development? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	development? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/requests-mock-1.7.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/sorl-thumbnail[${PYTHON_USEDEP}] )
-	development? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	development? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	development? ( dev-python/tox[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/sphinx-1.6.5[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/tox-2.9.1[${PYTHON_USEDEP}] )
 	development? ( dev-python/unittest-xml-reporting[${PYTHON_USEDEP}] )
 	development? ( dev-python/versiontag[${PYTHON_USEDEP}] )
-	kms? ( dev-python/boto3[${PYTHON_USEDEP}] )"
+	kms? ( >=dev-python/boto3-1.5.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

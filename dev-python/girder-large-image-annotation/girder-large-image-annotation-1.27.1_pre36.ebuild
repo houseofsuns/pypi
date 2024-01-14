@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tasks"
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}]
 	dev-python/girder-large-image[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	tasks? ( dev-python/girder-large-image[${PYTHON_USEDEP}] )"

@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/lml[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	dev-python/crayons[${PYTHON_USEDEP}]
-	dev-python/fs[${PYTHON_USEDEP}]
+	>=dev-python/fs-2.4.11[${PYTHON_USEDEP}]
 	dev-python/jinja2-fsloader[${PYTHON_USEDEP}]
 	dev-python/moban-jinja2-github[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

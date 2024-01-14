@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cffi-1.9.1[${PYTHON_USEDEP}]
+	>=dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
 	dev-python/img2pdf[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
-	dev-python/pikepdf[${PYTHON_USEDEP}]
+	>=dev-python/pikepdf-2.10.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/reportlab[${PYTHON_USEDEP}]
+	<dev-python/pluggy-1.0[${PYTHON_USEDEP}]
+	>=dev-python/reportlab-3.5.66[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.0[${PYTHON_USEDEP}]
 	dev-python/ocrmypdf[${PYTHON_USEDEP}]
-	dev-python/pytesseract[${PYTHON_USEDEP}]
+	>=dev-python/pytesseract-0.3.8[${PYTHON_USEDEP}]
 	dev-python/PyGObject[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

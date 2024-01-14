@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.11.0[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.11.6[${PYTHON_USEDEP}]
+	>=dev-python/argcomplete-1.8.1[${PYTHON_USEDEP}]
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	tests? ( dev-python/build[${PYTHON_USEDEP}] )

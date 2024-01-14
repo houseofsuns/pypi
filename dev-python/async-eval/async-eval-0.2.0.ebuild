@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all pydevd-pycharm trio"
 DEPENDENCIES="pydevd-pycharm? ( dev-python/pydevd-pycharm[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydevd-pycharm[${PYTHON_USEDEP}] )
-	trio? ( dev-python/trio[${PYTHON_USEDEP}] )
-	all? ( dev-python/trio[${PYTHON_USEDEP}] )"
+	trio? ( <dev-python/trio-0.23[${PYTHON_USEDEP}] )
+	all? ( <dev-python/trio-0.23[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

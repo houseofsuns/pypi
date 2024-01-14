@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev examples lint tests"
 DEPENDENCIES="dev-python/webargs[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	>=dev-python/starlette-0.21.0[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/webtest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/webtest-2.0.32[${PYTHON_USEDEP}] )
 	dev? ( dev-python/webtest-asgi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.971[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/httpie[${PYTHON_USEDEP}] )
@@ -40,13 +40,13 @@ DEPENDENCIES="dev-python/webargs[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	examples? ( dev-python/httpie[${PYTHON_USEDEP}] )
 	examples? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-0.971[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/webtest[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/webtest-2.0.32[${PYTHON_USEDEP}] )
 	tests? ( dev-python/webtest-asgi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

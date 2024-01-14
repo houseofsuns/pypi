@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	lesionseg? ( dev-python/jsonargparse[${PYTHON_USEDEP}] )
 	lesionseg? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	lesionseg? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	lesionseg? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	lesionseg? ( >=dev-python/pillow-9.0.0[${PYTHON_USEDEP}] )
 	lesionseg? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	lesionseg? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	lesionseg? ( dev-python/ruyaml[${PYTHON_USEDEP}] )

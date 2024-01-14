@@ -33,9 +33,9 @@ DEPENDENCIES="dev-python/bert-score[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/terminaltables[${PYTHON_USEDEP}]
@@ -43,12 +43,12 @@ DEPENDENCIES="dev-python/bert-score[${PYTHON_USEDEP}]
 	dev-python/word2number[${PYTHON_USEDEP}]
 	dev-python/num2words[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/PySocks[${PYTHON_USEDEP}]
+	>=dev-python/PySocks-1.5.6[${PYTHON_USEDEP}]
 	dev-python/pinyin[${PYTHON_USEDEP}]
 	dev-python/jieba[${PYTHON_USEDEP}]
 	dev-python/OpenHowNet[${PYTHON_USEDEP}]
 	dev-python/pycld2[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-8.1.0[${PYTHON_USEDEP}]
 	dev-python/pinyin[${PYTHON_USEDEP}]
 	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
@@ -56,9 +56,9 @@ DEPENDENCIES="dev-python/bert-score[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docformatter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
@@ -88,9 +88,9 @@ DEPENDENCIES="dev-python/bert-score[${PYTHON_USEDEP}]
 	tensorflow? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow-estimator[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/docformatter[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"

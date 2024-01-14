@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	all? ( dev-python/phonenumbers[${PYTHON_USEDEP}] )
-	all? ( dev-python/pycountry[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]
+	all? ( <dev-python/phonenumbers-9.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pycountry-24.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-ulid[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

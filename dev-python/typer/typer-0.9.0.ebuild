@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc test"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	all? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	all? ( dev-python/shellingham[${PYTHON_USEDEP}] )
-	all? ( dev-python/rich[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
+	all? ( <dev-python/colorama-0.5.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/shellingham-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/rich-14.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
-	test? ( dev-python/shellingham[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/rich[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/shellingham-2.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-7.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-xdist-4.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-sugar-0.10.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
+	test? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/rich-14.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

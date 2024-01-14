@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/docutils-0.18[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/cairosvg[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/breathe[${PYTHON_USEDEP}]
-	dev-python/sphinx-copybutton[${PYTHON_USEDEP}]
+	~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}]
+	<dev-python/breathe-4.36.0[${PYTHON_USEDEP}]
+	~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-notfound-page[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-blockdiag[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-seqdiag[${PYTHON_USEDEP}]

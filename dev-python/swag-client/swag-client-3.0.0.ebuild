@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/dogpile-cache[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/marshmallow-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.3.7[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.7.7[${PYTHON_USEDEP}]
+	>=dev-python/dogpile-cache-0.6.4[${PYTHON_USEDEP}]
+	>=dev-python/click-6.7[${PYTHON_USEDEP}]
+	>=dev-python/click-log-0.2.1[${PYTHON_USEDEP}]
+	>=dev-python/jmespath-0.9.3[${PYTHON_USEDEP}]
+	>=dev-python/deepdiff-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
+	tests? ( ~dev-python/pytest-3.1.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/moto[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

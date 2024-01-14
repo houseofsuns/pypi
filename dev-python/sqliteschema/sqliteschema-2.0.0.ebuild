@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/mbstrdecoder[${PYTHON_USEDEP}]
 	dev-python/tabledata[${PYTHON_USEDEP}]
 	dev-python/typepy[${PYTHON_USEDEP}]
 	cli? ( dev-python/pytablewriter[${PYTHON_USEDEP}] )
-	cli? ( dev-python/loguru[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/loguru-1.0[${PYTHON_USEDEP}] )
 	dumps? ( dev-python/pytablewriter[${PYTHON_USEDEP}] )
-	logging? ( dev-python/loguru[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	logging? ( <dev-python/loguru-1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytablewriter[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-md-report[${PYTHON_USEDEP}] )
 	test? ( dev-python/SimpleSQLite[${PYTHON_USEDEP}] )

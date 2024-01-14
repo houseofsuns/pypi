@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-63.2.0[${PYTHON_USEDEP}]
 	dev-python/pkg-about[${PYTHON_USEDEP}]
-	doc? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/docutils-0.19[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
-	doc? ( dev-python/restructuredtext-lint[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/deepdiff[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/sphinx-tabs-3.4.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinxcontrib-spelling-7.6.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/restructuredtext-lint-1.4.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/deepdiff-5.8.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

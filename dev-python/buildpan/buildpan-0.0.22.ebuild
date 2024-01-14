@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyGithub[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/PyGithub-1.55[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.1[${PYTHON_USEDEP}]
+	~dev-python/idna-3.2[${PYTHON_USEDEP}]
+	~dev-python/platformdirs-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/pycparser-2.20[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/PyNaCl[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.6[${PYTHON_USEDEP}]
+	~dev-python/virtualenv-20.6.0[${PYTHON_USEDEP}]
+	~dev-python/wrapt-1.12.1[${PYTHON_USEDEP}]
 	dev-python/backports-entry-points-selectable[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	~dev-python/certifi-2021.5.30[${PYTHON_USEDEP}]
+	~dev-python/cffi-1.14.6[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-2.0.3[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
-	dev-python/distlib[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]"
+	~dev-python/distlib-0.3.2[${PYTHON_USEDEP}]
+	~dev-python/filelock-3.0.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

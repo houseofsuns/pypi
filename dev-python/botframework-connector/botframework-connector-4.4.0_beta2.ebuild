@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/msrest[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.1.4[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/botbuilder-schema[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

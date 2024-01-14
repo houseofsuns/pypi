@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jesd"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/pylibiio[${PYTHON_USEDEP}]
 	jesd? ( dev-python/paramiko[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

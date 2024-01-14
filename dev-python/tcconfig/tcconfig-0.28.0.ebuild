@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all buildexe color test"
 DEPENDENCIES="dev-python/DataProperty[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	<dev-python/docker-7.0[${PYTHON_USEDEP}]
 	dev-python/humanreadable[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/loguru-1.0[${PYTHON_USEDEP}]
 	dev-python/msgfy[${PYTHON_USEDEP}]
-	dev-python/path[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/pyroute2[${PYTHON_USEDEP}]
+	<dev-python/path-17.0[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-4.0[${PYTHON_USEDEP}]
+	<dev-python/pyroute2-1.0[${PYTHON_USEDEP}]
 	dev-python/SimpleSQLite[${PYTHON_USEDEP}]
 	dev-python/subprocrunner[${PYTHON_USEDEP}]
 	dev-python/typepy[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
+	<dev-python/voluptuous-1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/Pygments[${PYTHON_USEDEP}] )
 	buildexe? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	color? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	test? ( dev-python/allpairspy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/allpairspy-2.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pingparsing[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-discord[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-md-report[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

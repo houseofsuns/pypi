@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/CairoSVG[${PYTHON_USEDEP}]
 	dev-python/cadquery-massembly[${PYTHON_USEDEP}]
 	cadquery? ( dev-python/casadi[${PYTHON_USEDEP}] )
 	dev-python/jupyter-cadquery[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/minify-html[${PYTHON_USEDEP}]"
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/minify-html-0.11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

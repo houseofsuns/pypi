@@ -24,38 +24,38 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs optional"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.1.1[${PYTHON_USEDEP}]
 	dev-python/cufflinks[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
+	>=dev-python/decorator-4.4.2[${PYTHON_USEDEP}]
 	dev-python/folium[${PYTHON_USEDEP}]
 	dev-python/Grid2Op[${PYTHON_USEDEP}]
 	dev-python/ipython-genutils[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/json5[${PYTHON_USEDEP}]
-	dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pandocfilters[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.5.1[${PYTHON_USEDEP}]
+	>=dev-python/json5-0.9.3[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.5[${PYTHON_USEDEP}]
+	>=dev-python/pandocfilters-1.4.2[${PYTHON_USEDEP}]
+	>=dev-python/plotly-4.5.2[${PYTHON_USEDEP}]
 	dev-python/Pyomo[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-tornasync[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.2.2[${PYTHON_USEDEP}]
+	>=dev-python/pytest-tornasync-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.3[${PYTHON_USEDEP}]
 	dev-python/PyUtilib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/widgetsnbextension[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.10.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/widgetsnbextension-3.5.1[${PYTHON_USEDEP}]
 	dev-python/lightsim2grid[${PYTHON_USEDEP}]
 	dev-python/pypsa[${PYTHON_USEDEP}]
 	dev-python/cvxpy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-trio[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-0.9.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.4.4[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-trio-1.1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pypsa[${PYTHON_USEDEP}] )
 	optional? ( dev-python/ligthsim2grid[${PYTHON_USEDEP}] )"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docbuild play"
-DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/docutils-0.17.1[${PYTHON_USEDEP}]
 	dev-python/turberfield-utils[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	docbuild? ( dev-python/babel[${PYTHON_USEDEP}] )
-	docbuild? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docbuild? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
+	docbuild? ( >=dev-python/sphinx-1.6.1[${PYTHON_USEDEP}] )
+	docbuild? ( >=dev-python/sphinx-argparse-0.2.0[${PYTHON_USEDEP}] )
 	docbuild? ( dev-python/sphinxcontrib-seqdiag[${PYTHON_USEDEP}] )
-	docbuild? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docbuild? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	play? ( dev-python/blessings[${PYTHON_USEDEP}] )
 	play? ( dev-python/simpleaudio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

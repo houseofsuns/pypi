@@ -29,14 +29,14 @@ DEPENDENCIES="dev-python/optimade[${PYTHON_USEDEP}]
 	dev-python/pymatgen[${PYTHON_USEDEP}]
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/httpx-0.25.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pgtest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/httpx-0.25.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pgtest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

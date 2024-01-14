@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="typing_extensions"
-DEPENDENCIES="typing_extensions? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+DEPENDENCIES="typing_extensions? ( >=dev-python/typing-extensions-3.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

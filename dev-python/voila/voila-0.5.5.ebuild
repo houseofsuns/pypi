@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/jupyter-core[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]
-	dev-python/jupyterlab-server[${PYTHON_USEDEP}]
-	dev-python/nbclient[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jupyter-client-9.0[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-core-4.11.0[${PYTHON_USEDEP}]
+	<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
+	<dev-python/jupyterlab-server-3.0[${PYTHON_USEDEP}]
+	<dev-python/nbclient-0.8[${PYTHON_USEDEP}]
+	<dev-python/nbconvert-8.0[${PYTHON_USEDEP}]
+	<dev-python/traitlets-6.0[${PYTHON_USEDEP}]
+	>=dev-python/websockets-9.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-releaser[${PYTHON_USEDEP}] )

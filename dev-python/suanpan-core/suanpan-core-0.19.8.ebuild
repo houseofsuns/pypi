@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="table"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.13.0[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.4.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.28.1[${PYTHON_USEDEP}]
+	>=dev-python/retrying-1.3.3[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.3[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.1[${PYTHON_USEDEP}]
 	dev-python/lostc[${PYTHON_USEDEP}]
 	dev-python/addict[${PYTHON_USEDEP}]
-	dev-python/timeout-decorator[${PYTHON_USEDEP}]
+	>=dev-python/timeout-decorator-0.4.1[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
 	dev-python/gevent-websocket[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/ujson-5.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2020.1[${PYTHON_USEDEP}]
 	dev-python/oss2[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/hiredis[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
+	>=dev-python/redis-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/hiredis-2.2.3[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-18.1.0[${PYTHON_USEDEP}]
 	table? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	table? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	table? ( dev-python/thrift-sasl[${PYTHON_USEDEP}] )
-	table? ( dev-python/thrift[${PYTHON_USEDEP}] )
+	table? ( >=dev-python/thrift-0.11.0[${PYTHON_USEDEP}] )
 	table? ( dev-python/pyhive[${PYTHON_USEDEP}] )
 	table? ( dev-python/pyodps[${PYTHON_USEDEP}] )
 	table? ( dev-python/sasl[${PYTHON_USEDEP}] )"

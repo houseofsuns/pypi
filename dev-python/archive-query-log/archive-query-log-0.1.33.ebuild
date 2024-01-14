@@ -24,56 +24,56 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="examples tests"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	dev-python/aiohttp-retry[${PYTHON_USEDEP}]
 	dev-python/asyncio-pool[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cssselect[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.12[${PYTHON_USEDEP}]
+	~dev-python/bleach-6.0[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.28[${PYTHON_USEDEP}]
+	~dev-python/certifi-2023.7[${PYTHON_USEDEP}]
+	~dev-python/click-8.1[${PYTHON_USEDEP}]
+	~dev-python/cssselect-1.2[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	~dev-python/diskcache-5.6[${PYTHON_USEDEP}]
+	~dev-python/elasticsearch-7.0[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
 	dev-python/expiringdict[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/mergedeep[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/flask-2.3[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-6.0[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.3[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.20[${PYTHON_USEDEP}]
+	~dev-python/mergedeep-1.3[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-10.1[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/publicsuffixlist[${PYTHON_USEDEP}]
 	dev-python/pycld3[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	~dev-python/python-slugify-8.0[${PYTHON_USEDEP}]
 	dev-python/python-whois[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/ranx[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31[${PYTHON_USEDEP}]
 	dev-python/requests-html[${PYTHON_USEDEP}]
 	dev-python/requests-ratelimiter[${PYTHON_USEDEP}]
 	dev-python/resiliparse[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.66[${PYTHON_USEDEP}]
+	~dev-python/unidecode-1.3[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26[${PYTHON_USEDEP}]
 	dev-python/warcio[${PYTHON_USEDEP}]
 	dev-python/warc-s3[${PYTHON_USEDEP}]
 	dev-python/web-archive-api[${PYTHON_USEDEP}]
-	examples? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	examples? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	examples? ( ~dev-python/jupyter-1.0[${PYTHON_USEDEP}] )
+	examples? ( ~dev-python/matplotlib-3.7[${PYTHON_USEDEP}] )
+	examples? ( ~dev-python/seaborn-0.13.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/approvaltests[${PYTHON_USEDEP}] )
-	tests? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/bandit-1.7[${PYTHON_USEDEP}] )
 	tests? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flake8-6.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mypy-1.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pylint-2.17[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-beautifulsoup4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-bleach[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-lxml[${PYTHON_USEDEP}] )

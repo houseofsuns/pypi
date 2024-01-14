@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development"
-DEPENDENCIES="dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dnspython-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-1.2.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.5[${PYTHON_USEDEP}]
 	dev-python/python-termstyle[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/redis-2.10[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.2.0[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	development? ( dev-python/Cerberus[${PYTHON_USEDEP}] )
 	development? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"

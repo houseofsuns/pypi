@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/flet-runtime[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
+	<dev-python/qrcode-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/watchdog-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/websocket-client-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/websockets-12.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

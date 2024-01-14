@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-6.0[${PYTHON_USEDEP}]
 	dev-python/django-storages[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+	>=dev-python/django-filter-21.1[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.12.4[${PYTHON_USEDEP}]
+	>=dev-python/pip-21.3.1[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-csv[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.8.0[${PYTHON_USEDEP}]
 	dev-python/django-currentuser[${PYTHON_USEDEP}]
 	dev-python/drf-flex-fields[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

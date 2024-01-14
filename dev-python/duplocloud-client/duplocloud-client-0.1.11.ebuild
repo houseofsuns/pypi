@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build formats test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
 	build? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	build? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	build? ( dev-python/build[${PYTHON_USEDEP}] )

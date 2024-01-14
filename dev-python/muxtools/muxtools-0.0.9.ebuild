@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/fontcollector[${PYTHON_USEDEP}]
 	dev-python/ass[${PYTHON_USEDEP}]
 	dev-python/wget[${PYTHON_USEDEP}]
 	dev-python/py7zr[${PYTHON_USEDEP}]
-	dev-python/pymediainfo[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/pymediainfo-6.0.1[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.1.0[${PYTHON_USEDEP}]
 	dev-python/pyparsebluray[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

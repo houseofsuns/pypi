@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="catboost lightgbm lime report xgboost"
-DEPENDENCIES="dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/plotly-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.2.0[${PYTHON_USEDEP}]
+	>dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
+	>dev-python/pandas-1.0.2[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
@@ -37,18 +37,18 @@ DEPENDENCIES="dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/dash-html-components[${PYTHON_USEDEP}]
 	dev-python/dash-renderer[${PYTHON_USEDEP}]
 	dev-python/dash-table[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
+	>dev-python/nbformat-4.2.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/category-encoders[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.19.1[${PYTHON_USEDEP}]
 	catboost? ( dev-python/catboost[${PYTHON_USEDEP}] )
 	lightgbm? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	lime? ( dev-python/lime[${PYTHON_USEDEP}] )
-	report? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	report? ( >=dev-python/nbconvert-6.0.7[${PYTHON_USEDEP}] )
 	report? ( dev-python/papermill[${PYTHON_USEDEP}] )
-	report? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
-	report? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	report? ( >=dev-python/jupyter-client-7.4.0[${PYTHON_USEDEP}] )
+	report? ( ~dev-python/seaborn-0.12.2[${PYTHON_USEDEP}] )
 	report? ( dev-python/notebook[${PYTHON_USEDEP}] )
 	report? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	report? ( dev-python/phik[${PYTHON_USEDEP}] )

@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Twisted[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/cssselect[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-36.0.0[${PYTHON_USEDEP}]
+	>=dev-python/cssselect-0.9.1[${PYTHON_USEDEP}]
 	dev-python/itemloaders[${PYTHON_USEDEP}]
 	dev-python/parsel[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
 	dev-python/queuelib[${PYTHON_USEDEP}]
-	dev-python/service-identity[${PYTHON_USEDEP}]
+	>=dev-python/service-identity-18.1.0[${PYTHON_USEDEP}]
 	dev-python/w3lib[${PYTHON_USEDEP}]
-	dev-python/zope-interface[${PYTHON_USEDEP}]
+	>=dev-python/zope-interface-5.1.0[${PYTHON_USEDEP}]
 	dev-python/protego[${PYTHON_USEDEP}]
 	dev-python/itemadapter[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/tldextract[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.4.1[${PYTHON_USEDEP}]
 	dev-python/PyDispatcher[${PYTHON_USEDEP}]
 	dev-python/PyPyDispatcher[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

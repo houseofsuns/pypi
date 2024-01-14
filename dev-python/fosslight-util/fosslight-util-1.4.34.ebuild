@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/XlsxWriter[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/progress[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
@@ -35,10 +35,10 @@ DEPENDENCIES="dev-python/XlsxWriter[${PYTHON_USEDEP}]
 	dev-python/python3-wget[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/jsonmerge[${PYTHON_USEDEP}]
-	dev-python/spdx-tools[${PYTHON_USEDEP}]
+	~dev-python/spdx-tools-0.7.0[${PYTHON_USEDEP}]
 	dev-python/npm[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pygit2[${PYTHON_USEDEP}]"
+	>=dev-python/setuptools-65.5.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.2[${PYTHON_USEDEP}]
+	>=dev-python/pygit2-1.10.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

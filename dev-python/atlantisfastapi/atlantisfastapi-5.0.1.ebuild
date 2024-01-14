@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev test"
 DEPENDENCIES="dev-python/coderfastapi[${PYTHON_USEDEP}]
 	dev-python/atlantiscore[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/black-23.9[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.21[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.11[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-3.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

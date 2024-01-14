@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="zstd"
-DEPENDENCIES="zstd? ( dev-python/zstandard[${PYTHON_USEDEP}] )"
+DEPENDENCIES="zstd? ( >=dev-python/zstandard-0.13.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

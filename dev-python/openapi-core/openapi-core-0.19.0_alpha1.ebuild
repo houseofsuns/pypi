@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp django falcon flask requests starlette"
-DEPENDENCIES="django? ( dev-python/django[${PYTHON_USEDEP}] )
+DEPENDENCIES="django? ( >=dev-python/django-3.0[${PYTHON_USEDEP}] )
 	falcon? ( dev-python/falcon[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	starlette? ( dev-python/starlette[${PYTHON_USEDEP}] )
+	aiohttp? ( >=dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )
+	starlette? ( <dev-python/starlette-0.33.0[${PYTHON_USEDEP}] )
 	dev-python/isodate[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/parse[${PYTHON_USEDEP}]
-	dev-python/openapi-schema-validator[${PYTHON_USEDEP}]
-	dev-python/openapi-spec-validator[${PYTHON_USEDEP}]
+	<dev-python/openapi-schema-validator-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/openapi-spec-validator-0.8.0[${PYTHON_USEDEP}]
 	requests? ( dev-python/requests[${PYTHON_USEDEP}] )
 	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/jsonschema-path[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	aiohttp? ( dev-python/multidict[${PYTHON_USEDEP}] )
+	<dev-python/jsonschema-path-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/asgiref-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	aiohttp? ( <dev-python/multidict-7.0.0[${PYTHON_USEDEP}] )
 	starlette? ( dev-python/aioitertools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

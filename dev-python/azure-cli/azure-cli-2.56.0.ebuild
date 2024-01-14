@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.13.1[${PYTHON_USEDEP}]
 	dev-python/azure-appconfiguration[${PYTHON_USEDEP}]
 	dev-python/azure-batch[${PYTHON_USEDEP}]
 	dev-python/azure-cli-core[${PYTHON_USEDEP}]
@@ -105,22 +105,22 @@ DEPENDENCIES="dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
 	dev-python/azure-synapse-artifacts[${PYTHON_USEDEP}]
 	dev-python/azure-synapse-managedprivateendpoints[${PYTHON_USEDEP}]
 	dev-python/azure-synapse-spark[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	~dev-python/chardet-5.2.0[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	dev-python/distro[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
 	dev-python/javaproperties[${PYTHON_USEDEP}]
-	dev-python/jsondiff[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/jsondiff-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
 	dev-python/pycomposefile[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	~dev-python/PyGithub-1.38[${PYTHON_USEDEP}]
 	dev-python/PyNaCl[${PYTHON_USEDEP}]
 	dev-python/scp[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/sshtunnel[${PYTHON_USEDEP}]
+	~dev-python/semver-2.13.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	~dev-python/sshtunnel-0.1.4[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+	~dev-python/websocket-client-1.3.1[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

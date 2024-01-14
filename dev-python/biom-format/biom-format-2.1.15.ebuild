@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="anndata hdf5"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.9.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.20.0[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	anndata? ( dev-python/anndata[${PYTHON_USEDEP}] )
-	hdf5? ( dev-python/h5py[${PYTHON_USEDEP}] )"
+	hdf5? ( >=dev-python/h5py-2.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

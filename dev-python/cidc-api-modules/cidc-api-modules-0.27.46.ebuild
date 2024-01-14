@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-migrate[${PYTHON_USEDEP}]
-	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/werkzeug-2.0.3[${PYTHON_USEDEP}]
+	~dev-python/flask-2.0.3[${PYTHON_USEDEP}]
+	~dev-python/flask-migrate-2.5.2[${PYTHON_USEDEP}]
+	~dev-python/flask-sqlalchemy-2.4.0[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.3.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/google-cloud-pubsub[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/google-api-python-client-2.64.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.2.4[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.10.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/cidc-schemas[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

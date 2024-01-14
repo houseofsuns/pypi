@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all benchmarks devel"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/appdirs-1.0[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.1[${PYTHON_USEDEP}]
 	all? ( dev-python/asv[${PYTHON_USEDEP}] )
 	all? ( dev-python/morecontext[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

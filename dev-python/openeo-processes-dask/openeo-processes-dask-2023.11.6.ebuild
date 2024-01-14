@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="implementations ml"
 DEPENDENCIES="implementations? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	implementations? ( dev-python/xarray[${PYTHON_USEDEP}] )
-	implementations? ( dev-python/dask[${PYTHON_USEDEP}] )
+	implementations? ( >=dev-python/xarray-2022.11.0[${PYTHON_USEDEP}] )
+	implementations? ( >=dev-python/dask-2023.4.0[${PYTHON_USEDEP}] )
 	implementations? ( dev-python/rasterio[${PYTHON_USEDEP}] )
 	implementations? ( dev-python/dask-geopandas[${PYTHON_USEDEP}] )
 	ml? ( dev-python/xgboost[${PYTHON_USEDEP}] )

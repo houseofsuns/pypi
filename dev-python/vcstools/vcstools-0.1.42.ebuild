@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	test? ( dev-python/pep8[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox-pyenv[${PYTHON_USEDEP}] )
-	test? ( dev-python/radon[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/radon-1.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coala[${PYTHON_USEDEP}] )
 	test? ( dev-python/coala-bears[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )"

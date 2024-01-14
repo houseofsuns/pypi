@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-17.4.0[${PYTHON_USEDEP}]
 	dev-python/biocommons-seqrepo[${PYTHON_USEDEP}]
 	dev-python/bioutils[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
@@ -37,8 +37,8 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-vcr[${PYTHON_USEDEP}] )
 	dev? ( dev-python/restview[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )

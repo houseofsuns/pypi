@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytz-2021.3[${PYTHON_USEDEP}]
 	dev-python/amqpstorm[${PYTHON_USEDEP}]
 	dev-python/apacheconfig[${PYTHON_USEDEP}]
 	dev-python/file-magic[${PYTHON_USEDEP}]
@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/python-statsd[${PYTHON_USEDEP}]
 	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

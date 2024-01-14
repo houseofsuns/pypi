@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+DEPENDENCIES="test? ( >=dev-python/coverage-4.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/importlib-metadata-2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.0.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

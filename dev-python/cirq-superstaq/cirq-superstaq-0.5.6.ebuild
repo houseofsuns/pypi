@@ -27,9 +27,9 @@ IUSE="dev examples"
 DEPENDENCIES="dev-python/cirq[${PYTHON_USEDEP}]
 	dev-python/general-superstaq[${PYTHON_USEDEP}]
 	dev? ( dev-python/checks-superstaq[${PYTHON_USEDEP}] )
-	dev? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/notebook-6.5.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/qiskit-superstaq[${PYTHON_USEDEP}] )
-	examples? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	examples? ( ~dev-python/notebook-6.5.5[${PYTHON_USEDEP}] )
 	examples? ( dev-python/qiskit-superstaq[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

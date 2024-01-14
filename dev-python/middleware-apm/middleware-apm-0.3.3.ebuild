@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/distro[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/distro-1.4.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-distro[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-grpc[${PYTHON_USEDEP}]
@@ -34,9 +34,9 @@ DEPENDENCIES="dev-python/distro[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-util-http[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/thrift[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/thrift-0.16.0[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-propagator-b3[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-propagator-jaeger[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-propagator-aws-xray[${PYTHON_USEDEP}]

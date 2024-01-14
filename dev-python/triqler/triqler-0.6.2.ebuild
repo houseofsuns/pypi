@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="distribution"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/threadpoolctl[${PYTHON_USEDEP}]
-	distribution? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/numpy-1.12[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.17[${PYTHON_USEDEP}]
+	>=dev-python/threadpoolctl-1.0[${PYTHON_USEDEP}]
+	distribution? ( >=dev-python/matplotlib-2.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

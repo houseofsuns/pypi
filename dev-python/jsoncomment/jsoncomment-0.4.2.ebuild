@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ujson"
 DEPENDENCIES="dev-python/json-spec[${PYTHON_USEDEP}]
-	ujson? ( dev-python/ujson[${PYTHON_USEDEP}] )"
+	ujson? ( >=dev-python/ujson-1.30[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

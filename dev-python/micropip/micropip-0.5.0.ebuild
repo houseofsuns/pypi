@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-httpserver[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pyodide[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/build[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/build-0.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

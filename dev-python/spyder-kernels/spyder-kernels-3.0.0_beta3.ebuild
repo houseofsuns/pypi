@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/wurlitzer[${PYTHON_USEDEP}]
-	dev-python/pyxdg[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	<dev-python/ipykernel-7.0[${PYTHON_USEDEP}]
+	<dev-python/jupyter-client-9.0[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-22.1.0[${PYTHON_USEDEP}]
+	>=dev-python/wurlitzer-1.0.3[${PYTHON_USEDEP}]
+	>=dev-python/pyxdg-0.26[${PYTHON_USEDEP}]
+	<dev-python/ipython-9.0[${PYTHON_USEDEP}]
 	test? ( dev-python/cython[${PYTHON_USEDEP}] )
 	test? ( dev-python/dask[${PYTHON_USEDEP}] )
 	test? ( dev-python/flaky[${PYTHON_USEDEP}] )

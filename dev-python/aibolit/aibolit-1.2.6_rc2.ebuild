@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.8.2[${PYTHON_USEDEP}]
+	~dev-python/cached-property-1.2.0[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
-	dev-python/cchardet[${PYTHON_USEDEP}]
+	~dev-python/cchardet-2.1.6[${PYTHON_USEDEP}]
 	dev-python/codecov[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
+	~dev-python/coverage-5.0.3[${PYTHON_USEDEP}]
+	~dev-python/deprecated-1.2.10[${PYTHON_USEDEP}]
+	~dev-python/flake8-3.7.9[${PYTHON_USEDEP}]
 	dev-python/javalang[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.5.0[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.2.1[${PYTHON_USEDEP}]
+	~dev-python/mypy-0.770[${PYTHON_USEDEP}]
+	~dev-python/networkx-2.4[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	~dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
+	~dev-python/sphinx-2.3.1[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.32.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

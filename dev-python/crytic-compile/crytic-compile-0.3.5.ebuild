@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc lint test"
-DEPENDENCIES="dev-python/pycryptodome[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pycryptodome-3.4.6[${PYTHON_USEDEP}]
 	dev-python/cbor2[${PYTHON_USEDEP}]
 	dev-python/solc-select[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev? ( dev-python/crytic-compile[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pdoc[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pylint-2.13.4[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-0.942[${PYTHON_USEDEP}] )
 	lint? ( dev-python/darglint[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"

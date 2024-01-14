@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/vcrpy[${PYTHON_USEDEP}]
-	dev-python/time-machine[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/vcrpy-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/time-machine-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

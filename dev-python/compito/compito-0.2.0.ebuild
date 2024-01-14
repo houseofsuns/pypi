@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="croniter"
-DEPENDENCIES="croniter? ( dev-python/croniter[${PYTHON_USEDEP}] )"
+DEPENDENCIES="croniter? ( <dev-python/croniter-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

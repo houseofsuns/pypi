@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/dclab[${PYTHON_USEDEP}]
 	dev-python/dcor-shared[${PYTHON_USEDEP}]
 	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/rq[${PYTHON_USEDEP}]"
+	<dev-python/rq-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

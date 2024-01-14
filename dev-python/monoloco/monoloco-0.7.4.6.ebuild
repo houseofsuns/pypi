@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="eval prep test"
-DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pillow-8.3[${PYTHON_USEDEP}]
 	dev-python/openpifpaf[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]

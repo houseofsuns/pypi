@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev sphinx testing"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-4.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-thebe[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )

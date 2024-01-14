@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/boltons[${PYTHON_USEDEP}]
-	dev-python/bottleneck[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boltons-20.1[${PYTHON_USEDEP}]
+	>=dev-python/bottleneck-1.3.1[${PYTHON_USEDEP}]
 	dev-python/cf-xarray[${PYTHON_USEDEP}]
-	dev-python/cftime[${PYTHON_USEDEP}]
+	>=dev-python/cftime-1.4.1[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/dask-2.6[${PYTHON_USEDEP}]
 	dev-python/jsonpickle[${PYTHON_USEDEP}]
 	dev-python/lmoments3[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.2[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	<dev-python/xarray-2023.11.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/blackdoc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
@@ -54,14 +54,14 @@ DEPENDENCIES="dev-python/boltons[${PYTHON_USEDEP}]
 	dev? ( dev-python/nbqa[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbval[${PYTHON_USEDEP}] )
 	dev? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/platformdirs-3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pybtex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-socket[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-xdist-3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tokenize-rt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
@@ -78,7 +78,7 @@ DEPENDENCIES="dev-python/boltons[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-codeautolink[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-svg2pdfconverter[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.5[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
 	dev? ( dev-python/lightning-flash[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecarbon[${PYTHON_USEDEP}] )

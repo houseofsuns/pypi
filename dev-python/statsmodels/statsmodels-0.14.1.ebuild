@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build develop docs"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/patsy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	build? ( dev-python/cython[${PYTHON_USEDEP}] )
-	develop? ( dev-python/cython[${PYTHON_USEDEP}] )
-	develop? ( dev-python/cython[${PYTHON_USEDEP}] )
-	develop? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	>=dev-python/patsy-0.5.4[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	build? ( >=dev-python/cython-0.29.33[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/cython-0.29.33[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/cython-4.0.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/setuptools-scm-8.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/oldest-supported-numpy[${PYTHON_USEDEP}] )
-	develop? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	develop? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-7.3.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/arrow-0.12.1[${PYTHON_USEDEP}]
+	~dev-python/click-6.7[${PYTHON_USEDEP}]
+	~dev-python/ipython-7.2.0[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-2.2.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.14.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-0.22.0[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

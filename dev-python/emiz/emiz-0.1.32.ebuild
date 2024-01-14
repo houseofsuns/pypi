@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/configobj[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/certifi-2018.1.18[${PYTHON_USEDEP}]
+	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
+	~dev-python/click-6.7[${PYTHON_USEDEP}]
+	~dev-python/configobj-5.0.6[${PYTHON_USEDEP}]
 	dev-python/delegator-py[${PYTHON_USEDEP}]
 	dev-python/elib[${PYTHON_USEDEP}]
 	dev-python/everett[${PYTHON_USEDEP}]
 	dev-python/gtts[${PYTHON_USEDEP}]
 	dev-python/gtts-token[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	~dev-python/idna-2.6[${PYTHON_USEDEP}]
 	dev-python/metar[${PYTHON_USEDEP}]
-	dev-python/mpmath[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
-	dev-python/ptyprocess[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	~dev-python/mpmath-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/natsort-5.2.0[${PYTHON_USEDEP}]
+	~dev-python/pathvalidate-0.16.3[${PYTHON_USEDEP}]
+	~dev-python/pexpect-4.4.0[${PYTHON_USEDEP}]
+	~dev-python/ptyprocess-0.5.2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
+	~dev-python/requests-2.18.4[${PYTHON_USEDEP}]
+	~dev-python/six-1.11.0[${PYTHON_USEDEP}]
+	~dev-python/ujson-1.35[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.22[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="changelog docker docs lint salt tests"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/pytest-helpers-namespace[${PYTHON_USEDEP}]
-	dev-python/pytest-skip-markers[${PYTHON_USEDEP}]
-	dev-python/pytest-system-statistics[${PYTHON_USEDEP}]
-	dev-python/pytest-shell-utilities[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-helpers-namespace-2021.4.29[${PYTHON_USEDEP}]
+	>=dev-python/pytest-skip-markers-1.1.3[${PYTHON_USEDEP}]
+	>=dev-python/pytest-system-statistics-1.0.2[${PYTHON_USEDEP}]
+	>=dev-python/pytest-shell-utilities-1.4.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-0.5.2[${PYTHON_USEDEP}]
 	dev-python/virtualenv[${PYTHON_USEDEP}]
-	changelog? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
+	changelog? ( ~dev-python/towncrier-21.9.0[${PYTHON_USEDEP}] )
+	docker? ( >=dev-python/docker-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-towncrier[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pylint-2.14.5[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/reorder-python-imports[${PYTHON_USEDEP}] )
 	salt? ( dev-python/salt[${PYTHON_USEDEP}] )
-	tests? ( dev-python/docker[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/docker-4.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )
 	tests? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )"

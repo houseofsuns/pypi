@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/clickhouse-driver[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/parameterized[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/pytest-7.4.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/parameterized-0.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

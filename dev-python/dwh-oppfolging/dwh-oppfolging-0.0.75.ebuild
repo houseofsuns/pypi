@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	dev-python/dbt-oracle[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
 	dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
+	~dev-python/ijson-3.2.3[${PYTHON_USEDEP}]
 	dev-python/oracledb[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

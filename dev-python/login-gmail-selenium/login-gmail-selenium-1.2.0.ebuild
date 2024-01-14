@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/selenium-4.8.2[${PYTHON_USEDEP}]
 	dev-python/undetected-chromedriver[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

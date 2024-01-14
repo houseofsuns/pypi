@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/altair[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/altair-saver[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	<dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
 	dev-python/vega-datasets[${PYTHON_USEDEP}]
-	dev-python/griffe[${PYTHON_USEDEP}]
-	dev-python/emcee[${PYTHON_USEDEP}]"
+	<dev-python/griffe-0.33.0[${PYTHON_USEDEP}]
+	<dev-python/emcee-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

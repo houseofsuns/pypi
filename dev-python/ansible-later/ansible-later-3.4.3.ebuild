@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	ansible? ( dev-python/ansible[${PYTHON_USEDEP}] )
 	ansible-core? ( dev-python/ansible-core[${PYTHON_USEDEP}] )
 	dev-python/anyconfig[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.20.0[${PYTHON_USEDEP}]
 	dev-python/nested-lookup[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
-	dev-python/unidiff[${PYTHON_USEDEP}]
+	~dev-python/pathspec-0.12.1[${PYTHON_USEDEP}]
+	~dev-python/python-json-logger-2.0.7[${PYTHON_USEDEP}]
+	~dev-python/toolz-0.12.0[${PYTHON_USEDEP}]
+	~dev-python/unidiff-0.7.5[${PYTHON_USEDEP}]
 	dev-python/yamllint[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

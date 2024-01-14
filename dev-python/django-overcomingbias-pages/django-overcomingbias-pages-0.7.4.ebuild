@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="production recaptcha redis test"
 DEPENDENCIES="dev-python/django-overcomingbias-api[${PYTHON_USEDEP}]
 	dev-python/django-select2[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/huey[${PYTHON_USEDEP}]
 	dev-python/meilisearch[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	>=dev-python/python-slugify-5.0[${PYTHON_USEDEP}]
 	production? ( dev-python/django-overcomingbias-pages[${PYTHON_USEDEP}] )
 	recaptcha? ( dev-python/google-cloud-recaptcha-enterprise[${PYTHON_USEDEP}] )
 	redis? ( dev-python/hiredis[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )"

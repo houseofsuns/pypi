@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="proxy"
 DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/py-cpuinfo-10.0[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.20.0[${PYTHON_USEDEP}]
 	dev-python/chevron[${PYTHON_USEDEP}]
 	proxy? ( dev-python/proxy-py[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

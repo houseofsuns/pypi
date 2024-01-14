@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/kconfiglib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/kconfiglib-13.7.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/commitizen[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pexpect[${PYTHON_USEDEP}] )"

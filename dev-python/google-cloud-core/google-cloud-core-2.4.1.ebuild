@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="grpc"
-DEPENDENCIES="dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/google-auth-3.0[${PYTHON_USEDEP}]
+	grpc? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

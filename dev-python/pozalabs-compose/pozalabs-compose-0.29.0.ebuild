@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws logging orjson"
-DEPENDENCIES="dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pymongo-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/inflection-0.6.0[${PYTHON_USEDEP}]
 	dev-python/dependency-injector[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	logging? ( dev-python/loguru[${PYTHON_USEDEP}] )
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )"
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	aws? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	logging? ( <dev-python/loguru-0.8.0[${PYTHON_USEDEP}] )
+	orjson? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

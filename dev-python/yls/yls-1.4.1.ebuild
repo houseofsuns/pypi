@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/pygls[${PYTHON_USEDEP}]
 	dev-python/yaramod[${PYTHON_USEDEP}]
 	dev-python/yari-py[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]"
+	<dev-python/pluggy-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

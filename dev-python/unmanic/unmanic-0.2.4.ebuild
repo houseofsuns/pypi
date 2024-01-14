@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/schedule[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
+	~dev-python/tornado-6.0.2[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.13.0[${PYTHON_USEDEP}]
+	>=dev-python/peewee-3.14.4[${PYTHON_USEDEP}]
 	dev-python/peewee-migrate[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
+	>=dev-python/py-cpuinfo-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-2.1.1[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
 	dev-python/swagger-ui-py[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pycodestyle-2.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.38.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-39.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/apispec[${PYTHON_USEDEP}] )
 	dev? ( dev-python/apispec-webframeworks[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"

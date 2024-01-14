@@ -26,31 +26,31 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/SPARQLWrapper[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.4[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	~dev-python/rdflib-7.0.0[${PYTHON_USEDEP}]
 	dev-python/py-singleton[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	test? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-bdd[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
+	~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	test? ( ~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-bdd-7.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-subtests-0.11.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tox-4.11.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox-pytest-summary[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
-	test? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	test? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/sphinxcontrib-apidoc-0.4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/setuptools-68.2.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/wheel-0.41.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

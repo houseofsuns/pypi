@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+DEPENDENCIES="testing? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/mypy-1.6.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/tox-4.11.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

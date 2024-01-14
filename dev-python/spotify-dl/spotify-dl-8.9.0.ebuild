@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sentry-sdk[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/sentry-sdk-1.16[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]
-	dev-python/spotipy[${PYTHON_USEDEP}]
+	~dev-python/spotipy-2.21[${PYTHON_USEDEP}]
 	dev-python/mutagen[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	~dev-python/rich-12.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

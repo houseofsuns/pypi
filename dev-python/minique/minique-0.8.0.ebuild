@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="sentry test"
-DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
-	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/redis-2.10.0[${PYTHON_USEDEP}]
+	sentry? ( ~dev-python/sentry-sdk-1.10[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

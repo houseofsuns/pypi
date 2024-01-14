@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	dev-python/gyver-attrs-converter[${PYTHON_USEDEP}]
 	dev-python/lazy-fields[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

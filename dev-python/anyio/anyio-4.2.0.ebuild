@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test trio"
-DEPENDENCIES="dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/sniffio[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/idna-2.8[${PYTHON_USEDEP}]
+	>=dev-python/sniffio-1.1[${PYTHON_USEDEP}]
+	>=dev-python/exceptiongroup-1.0.2[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1[${PYTHON_USEDEP}]
 	doc? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-autodoc-typehints-1.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/anyio[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/exceptiongroup[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/psutil-5.9[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/trustme[${PYTHON_USEDEP}] )
-	test? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	trio? ( dev-python/trio[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/uvloop-0.17[${PYTHON_USEDEP}] )
+	trio? ( >=dev-python/trio-0.23[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

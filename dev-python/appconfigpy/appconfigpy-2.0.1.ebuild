@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="logging test"
-DEPENDENCIES="logging? ( dev-python/loguru[${PYTHON_USEDEP}] )
+DEPENDENCIES="logging? ( <dev-python/loguru-1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

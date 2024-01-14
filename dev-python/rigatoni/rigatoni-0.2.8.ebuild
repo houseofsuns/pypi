@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="geometry testing"
-DEPENDENCIES="dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/cbor2[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/websockets-11.0.3[${PYTHON_USEDEP}]
+	~dev-python/cbor2-5.4.6[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.1.1[${PYTHON_USEDEP}]
 	geometry? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	geometry? ( dev-python/meshio[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/click-completion[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]
 	dev-python/polyaxon-client[${PYTHON_USEDEP}]
 	dev-python/polyaxon-deploy[${PYTHON_USEDEP}]
 	dev-python/polyaxon-dockerizer[${PYTHON_USEDEP}]
 	dev-python/raven[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]"
+	~dev-python/tabulate-0.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

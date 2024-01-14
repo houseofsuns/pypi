@@ -27,7 +27,7 @@ IUSE="dev"
 DEPENDENCIES="dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/InquirerPy[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
+	~dev-python/mistune-3.0.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"

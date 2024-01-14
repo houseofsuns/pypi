@@ -37,11 +37,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/myst-parser-0.15.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nbformat-4.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/conda-souschef[${PYTHON_USEDEP}] )
 	test? ( dev-python/matbench[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	export? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	export? ( dev-python/mapbox-earcut[${PYTHON_USEDEP}] )
 	export? ( dev-python/triangle[${PYTHON_USEDEP}] )
-	reproject? ( dev-python/pyproj[${PYTHON_USEDEP}] )
+	reproject? ( >=dev-python/pyproj-3.0.0[${PYTHON_USEDEP}] )
 	validate? ( dev-python/cjvalpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

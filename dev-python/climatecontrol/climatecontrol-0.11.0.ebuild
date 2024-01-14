@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dataclasses"
-DEPENDENCIES="dev-python/wrapt[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/wrapt-2.0[${PYTHON_USEDEP}]
 	dataclasses? ( dev-python/dacite[${PYTHON_USEDEP}] )
-	dataclasses? ( dev-python/pydantic[${PYTHON_USEDEP}] )"
+	dataclasses? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

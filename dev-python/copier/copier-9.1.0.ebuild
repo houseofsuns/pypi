@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	>=dev-python/decorator-5.1.1[${PYTHON_USEDEP}]
 	dev-python/dunamai[${PYTHON_USEDEP}]
-	dev-python/funcy[${PYTHON_USEDEP}]
+	>=dev-python/funcy-1.17[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/jinja2-ansible-filters[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/plumbum[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
+	>=dev-python/pathspec-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/plumbum-1.6.9[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.7.1[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	dev-python/pyyaml-include[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

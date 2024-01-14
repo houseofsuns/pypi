@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="progress-bar"
-DEPENDENCIES="progress-bar? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+DEPENDENCIES="progress-bar? ( >=dev-python/tqdm-4.8.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

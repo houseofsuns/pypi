@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cookies[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pbr[${PYTHON_USEDEP}] )
-	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
-	dev? ( dev-python/six[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.37.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/cookies-2.2.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pbr-5.6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/responses-0.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

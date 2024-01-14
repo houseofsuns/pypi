@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/grai-client[${PYTHON_USEDEP}]
 	dev-python/grai-schemas[${PYTHON_USEDEP}]
 	dev-python/multimethod[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/botocore-2.0.0[${PYTHON_USEDEP}]
 	dev-python/redshift-connector[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

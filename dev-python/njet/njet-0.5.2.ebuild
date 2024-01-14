@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/numpy-1.0[${PYTHON_USEDEP}]
+	~dev-python/sympy-1.0[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-9.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/ipykernel-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

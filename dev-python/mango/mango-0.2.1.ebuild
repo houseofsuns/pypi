@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli dashboard data gcloud models plot shap"
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	<=dev-python/charset-normalizer-3.3.0[${PYTHON_USEDEP}]
 	dev-python/et-xmlfile[${PYTHON_USEDEP}]
-	dev-python/fastjsonschema[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<=dev-python/fastjsonschema-2.18.1[${PYTHON_USEDEP}]
+	<=dev-python/idna-3.4[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.26.1[${PYTHON_USEDEP}]
+	<=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}]
+	<=dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
+	<=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/pytups[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<=dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	<=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	<=dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	<=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
+	<=dev-python/urllib3-2.0.7[${PYTHON_USEDEP}]
 	dev-python/XlsxWriter[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
+	cli? ( <=dev-python/click-8.1.7[${PYTHON_USEDEP}] )
 	dashboard? ( dev-python/streamlit[${PYTHON_USEDEP}] )
-	dashboard? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dashboard? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	data? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dashboard? ( ~dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )
+	dashboard? ( <=dev-python/plotly-5.17.0[${PYTHON_USEDEP}] )
+	data? ( <=dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )
 	data? ( dev-python/holidays[${PYTHON_USEDEP}] )
-	data? ( dev-python/pycountry[${PYTHON_USEDEP}] )
-	data? ( dev-python/unidecode[${PYTHON_USEDEP}] )
-	data? ( dev-python/tabulate[${PYTHON_USEDEP}] )
+	data? ( <=dev-python/pycountry-22.3.5[${PYTHON_USEDEP}] )
+	data? ( <=dev-python/unidecode-1.3.7[${PYTHON_USEDEP}] )
+	data? ( <=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	gcloud? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	models? ( dev-python/pyomo[${PYTHON_USEDEP}] )
-	plot? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	plot? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	plot? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	plot? ( <=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
+	plot? ( <=dev-python/pandas-2.0.3[${PYTHON_USEDEP}] )
+	plot? ( <=dev-python/plotly-5.17.0[${PYTHON_USEDEP}] )
 	shap? ( dev-python/shap[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

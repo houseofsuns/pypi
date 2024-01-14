@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/keyring[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/keyring-20.0[${PYTHON_USEDEP}]
 	dev-python/dvc[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/paramiko-3.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/cc-faice[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]"
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	<dev-python/nbconvert-6.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
+	<dev-python/seaborn-1.0[${PYTHON_USEDEP}]
+	<dev-python/pyrsistent-0.16.0[${PYTHON_USEDEP}]
+	<dev-python/pexpect-5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

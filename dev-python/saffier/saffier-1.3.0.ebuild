@@ -24,51 +24,51 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc ipython mysql postgres ptpython sqlite test testing"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/anyio-5.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/databasez[${PYTHON_USEDEP}]
 	dev-python/dymmond-settings[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/databasez[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	all? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/ptpython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/watchfiles[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/watchfiles-0.22.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/griffe-typingdoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkautodoc[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkautodoc-0.3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-meta-descriptions-plugin[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocstrings-0.30.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}] )
+	ipython? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/databasez[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/databasez[${PYTHON_USEDEP}] )
 	ptpython? ( dev-python/ptpython[${PYTHON_USEDEP}] )
 	sqlite? ( dev-python/databasez[${PYTHON_USEDEP}] )
 	test? ( dev-python/asyncmy[${PYTHON_USEDEP}] )
 	test? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/esmerald[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
+	test? ( <dev-python/freezegun-2.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-5.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.19.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-orjson[${PYTHON_USEDEP}] )
 	testing? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )"

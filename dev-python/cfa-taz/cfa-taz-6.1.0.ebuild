@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/azure-keyvault-secrets[${PYTHON_USEDEP}]
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dls? ( dev-python/azure-datalake-store[${PYTHON_USEDEP}] )
 	storage? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	storage? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	storage? ( >=dev-python/pandas-0.25.3[${PYTHON_USEDEP}] )
 	storage? ( dev-python/azure-cosmosdb-table[${PYTHON_USEDEP}] )
 	storage? ( dev-python/azure-storage-queue[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dash plotly"
 DEPENDENCIES="dash? ( dev-python/dash[${PYTHON_USEDEP}] )
 	all? ( dev-python/dash[${PYTHON_USEDEP}] )
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	dev-python/pipe[${PYTHON_USEDEP}]
-	plotly? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]"
+	plotly? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-asyncio-0.22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="alembic sqlalchemy"
-DEPENDENCIES="dev-python/thrift[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/lz4[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	alembic? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	alembic? ( dev-python/alembic[${PYTHON_USEDEP}] )
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/thrift-0.17.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
+	<dev-python/lz4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/oauthlib-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.6[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
+	sqlalchemy? ( >=dev-python/sqlalchemy-2.0.21[${PYTHON_USEDEP}] )
+	alembic? ( >=dev-python/sqlalchemy-2.0.21[${PYTHON_USEDEP}] )
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
+	alembic? ( <dev-python/alembic-2.0.0[${PYTHON_USEDEP}] )
+	>=dev-python/urllib3-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

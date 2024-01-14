@@ -25,27 +25,27 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="chafa format hub jupytext"
 DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
-	dev-python/fastjsonschema[${PYTHON_USEDEP}]
+	~dev-python/fastjsonschema-2.15[${PYTHON_USEDEP}]
 	dev-python/flatlatex[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/imagesize[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/linkify-it-py[${PYTHON_USEDEP}]
-	dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	dev-python/mdit-py-plugins[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2022.8.0[${PYTHON_USEDEP}]
+	~dev-python/imagesize-1.3[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-client-7.1[${PYTHON_USEDEP}]
+	~dev-python/linkify-it-py-1.0[${PYTHON_USEDEP}]
+	~dev-python/markdown-it-py-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/mdit-py-plugins-0.3.0[${PYTHON_USEDEP}]
+	~dev-python/nbformat-5.0[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.0[${PYTHON_USEDEP}]
+	~dev-python/platformdirs-3.5[${PYTHON_USEDEP}]
+	~dev-python/prompt-toolkit-3.0.36[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.11[${PYTHON_USEDEP}]
+	~dev-python/pyperclip-1.8[${PYTHON_USEDEP}]
 	dev-python/sixelcrop[${PYTHON_USEDEP}]
 	dev-python/timg[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.5[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]
 	chafa? ( dev-python/chafa-py[${PYTHON_USEDEP}] )
-	format? ( dev-python/black[${PYTHON_USEDEP}] )
-	format? ( dev-python/isort[${PYTHON_USEDEP}] )
+	format? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
+	format? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	hub? ( dev-python/asyncssh[${PYTHON_USEDEP}] )
 	jupytext? ( dev-python/jupytext[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

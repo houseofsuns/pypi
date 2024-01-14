@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.9.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.11.1[${PYTHON_USEDEP}]
+	>=dev-python/python-magic-0.4.18[${PYTHON_USEDEP}]
 	test? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipdb[${PYTHON_USEDEP}] )
 	test? ( dev-python/Sphinx[${PYTHON_USEDEP}] )

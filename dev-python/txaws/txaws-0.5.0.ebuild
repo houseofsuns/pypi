@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/twisted[${PYTHON_USEDEP}]
+	>=dev-python/twisted-15.5.0[${PYTHON_USEDEP}]
 	dev-python/venusian[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/incremental[${PYTHON_USEDEP}]

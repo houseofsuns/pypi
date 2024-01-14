@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/inflect[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/inflect-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/DateTime[${PYTHON_USEDEP}]
 	dev-python/pypattyrn[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/inspyred-print[${PYTHON_USEDEP}]
 	dev-python/inspy-logger[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

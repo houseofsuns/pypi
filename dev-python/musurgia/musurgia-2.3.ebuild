@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/quicktions[${PYTHON_USEDEP}]
 	dev-python/musicscore[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
+	~dev-python/prettytable-2.1.0[${PYTHON_USEDEP}]
 	dev-python/fpdf2[${PYTHON_USEDEP}]
 	dev-python/diff-pdf-visually[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]"
+	~dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

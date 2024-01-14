@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="samples"
-DEPENDENCIES="dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/google-auth-oauthlib-0.1.0[${PYTHON_USEDEP}]
 	samples? ( dev-python/google-assistant-grpc[${PYTHON_USEDEP}] )
-	samples? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
-	samples? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	samples? ( <dev-python/google-auth-oauthlib-0.3[${PYTHON_USEDEP}] )
+	samples? ( <dev-python/urllib3-2.0[${PYTHON_USEDEP}] )
 	samples? ( dev-python/sounddevice[${PYTHON_USEDEP}] )
-	samples? ( dev-python/click[${PYTHON_USEDEP}] )
-	samples? ( dev-python/tenacity[${PYTHON_USEDEP}] )
+	samples? ( <dev-python/click-7.0[${PYTHON_USEDEP}] )
+	samples? ( <dev-python/tenacity-5.0[${PYTHON_USEDEP}] )
 	samples? ( dev-python/futures[${PYTHON_USEDEP}] )
-	samples? ( dev-python/pathlib2[${PYTHON_USEDEP}] )"
+	samples? ( <dev-python/pathlib2-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

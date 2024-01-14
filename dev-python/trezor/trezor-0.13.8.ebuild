@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ethereum extra full hidapi qt-widgets stellar"
-DEPENDENCIES="dev-python/ecdsa[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ecdsa-0.9[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.4.0[${PYTHON_USEDEP}]
+	<dev-python/click-8.2[${PYTHON_USEDEP}]
 	dev-python/libusb1[${PYTHON_USEDEP}]
-	dev-python/construct[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/construct-2.9[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}]
 	dev-python/construct-classes[${PYTHON_USEDEP}]
 	ethereum? ( dev-python/web3[${PYTHON_USEDEP}] )
 	extra? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	full? ( dev-python/hidapi[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/hidapi-0.7.99[${PYTHON_USEDEP}] )
 	full? ( dev-python/web3[${PYTHON_USEDEP}] )
 	full? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	full? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	full? ( dev-python/stellar-sdk[${PYTHON_USEDEP}] )
-	hidapi? ( dev-python/hidapi[${PYTHON_USEDEP}] )
+	hidapi? ( >=dev-python/hidapi-0.7.99[${PYTHON_USEDEP}] )
 	qt-widgets? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	stellar? ( dev-python/stellar-sdk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

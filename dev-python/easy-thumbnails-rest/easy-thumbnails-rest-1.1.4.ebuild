@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/easy-thumbnails[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/django-2.2.24[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.11.1[${PYTHON_USEDEP}]
+	>=dev-python/easy-thumbnails-2.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

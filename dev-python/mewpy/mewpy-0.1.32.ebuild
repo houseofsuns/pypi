@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/cobra[${PYTHON_USEDEP}]
 	dev-python/jmetalpy[${PYTHON_USEDEP}]
 	dev-python/reframed[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
 	dev-python/tdqm[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]"
+	<=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

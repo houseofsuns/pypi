@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.14.0[${PYTHON_USEDEP}]
 	dev-python/findspark[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

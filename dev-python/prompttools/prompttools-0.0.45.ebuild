@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/jupyterlab[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
 	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]"
+	>=dev-python/sentry-sdk-1.23.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

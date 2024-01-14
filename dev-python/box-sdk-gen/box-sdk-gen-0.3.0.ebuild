@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev jwt test"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	jwt? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
-	jwt? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	jwt? ( >=dev-python/pyjwt-1.7.0[${PYTHON_USEDEP}] )
+	jwt? ( >=dev-python/cryptography-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
-	test? ( dev-python/cryptography[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pyjwt-1.7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/cryptography-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

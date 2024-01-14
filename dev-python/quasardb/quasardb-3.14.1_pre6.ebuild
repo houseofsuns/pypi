@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pandas tests"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	tests? ( dev-python/teamcity-messages[${PYTHON_USEDEP}] )"

@@ -27,7 +27,7 @@ IUSE="memcache"
 DEPENDENCIES="dev-python/google-cloud-datastore[${PYTHON_USEDEP}]
 	dev-python/gcloud-requests[${PYTHON_USEDEP}]
 	dev-python/msgpack-python[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	memcache? ( dev-python/pylibmc[${PYTHON_USEDEP}] )"
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	memcache? ( ~dev-python/pylibmc-1.5.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

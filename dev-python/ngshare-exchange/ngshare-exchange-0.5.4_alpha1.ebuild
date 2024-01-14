@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/rapidfuzz[${PYTHON_USEDEP}]
 	dev-python/traitlets[${PYTHON_USEDEP}]
-	dev-python/jupyter-core[${PYTHON_USEDEP}]
+	<dev-python/jupyter-core-4.11.2[${PYTHON_USEDEP}]
 	dev-python/nbgrader[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

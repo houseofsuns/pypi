@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyzotero[${PYTHON_USEDEP}]
-	dev-python/bibtexparser[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/pyzotero-1.5[${PYTHON_USEDEP}]
+	~dev-python/bibtexparser-1.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

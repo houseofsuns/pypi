@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tornado-6.2[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.21.0[${PYTHON_USEDEP}]
+	>=dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
+	>=dev-python/redis-4.3.5[${PYTHON_USEDEP}]
 	dev-python/aiopg[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/datadog[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	>=dev-python/sentry-sdk-1.9.4[${PYTHON_USEDEP}]
 	dev-python/ddtrace[${PYTHON_USEDEP}]
 	dev-python/motor[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

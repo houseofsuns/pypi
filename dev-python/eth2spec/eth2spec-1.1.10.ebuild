@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="generator lint test"
 DEPENDENCIES="dev-python/eth-utils[${PYTHON_USEDEP}]
 	dev-python/eth-typing[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.9.4[${PYTHON_USEDEP}]
 	dev-python/py-ecc[${PYTHON_USEDEP}]
 	dev-python/milagro-bls-binding[${PYTHON_USEDEP}]
 	dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev-python/remerkleable[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.16.5[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
 	dev-python/marko[${PYTHON_USEDEP}]
-	generator? ( dev-python/python-snappy[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	generator? ( ~dev-python/python-snappy-0.5.4[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/pylint-2.12.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	full? ( dev-python/auto-sklearn[${PYTHON_USEDEP}] )
@@ -35,8 +35,8 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	full? ( dev-python/gpytorch[${PYTHON_USEDEP}] )
 	full? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
 	full? ( dev-python/openml[${PYTHON_USEDEP}] )
-	full? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	full? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/seaborn-0.11[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/tqdm-4.62.1[${PYTHON_USEDEP}] )
 	full? ( dev-python/xgboost[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

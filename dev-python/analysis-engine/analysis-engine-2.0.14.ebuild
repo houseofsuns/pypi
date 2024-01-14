@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/datamaps[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.4.1[${PYTHON_USEDEP}]
 	dev-python/pdf2image[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

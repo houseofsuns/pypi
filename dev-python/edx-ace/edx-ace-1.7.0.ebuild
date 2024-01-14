@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="sailthru"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-17.2.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/sailthru-client[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-1.10.0[${PYTHON_USEDEP}]
 	sailthru? ( dev-python/sailthru-client[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

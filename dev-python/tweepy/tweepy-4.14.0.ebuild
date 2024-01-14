@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async dev docs socks test"
-DEPENDENCIES="dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	async? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	async? ( dev-python/async-lru[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/oauthlib-4.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/requests-oauthlib-2.0[${PYTHON_USEDEP}]
+	async? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
+	async? ( <dev-python/async-lru-3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-4.4.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-3.21.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-0.15.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-hoverxref[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	socks? ( dev-python/requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/vcrpy[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinx-tabs-3.2.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	socks? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/vcrpy-1.10.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

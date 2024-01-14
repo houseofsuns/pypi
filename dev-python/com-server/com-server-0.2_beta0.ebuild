@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-58.5.3[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.37.0[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	dev-python/flask-restful[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]"
+	>=dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
+	>=dev-python/waitress-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

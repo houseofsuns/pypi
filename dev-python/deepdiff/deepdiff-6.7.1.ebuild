@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli optimize"
-DEPENDENCIES="dev-python/ordered-set[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/ordered-set-4.2.0[${PYTHON_USEDEP}]
+	cli? ( ~dev-python/click-8.1.3[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	optimize? ( dev-python/orjson[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

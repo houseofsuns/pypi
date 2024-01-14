@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pymatgen rdkit test tf"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	pymatgen? ( dev-python/pymatgen[${PYTHON_USEDEP}] )
 	rdkit? ( dev-python/rdkit-pypi[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

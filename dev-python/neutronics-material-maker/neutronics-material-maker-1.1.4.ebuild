@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="density docs tests"
-DEPENDENCIES="dev-python/asteval[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asteval-0.9.20[${PYTHON_USEDEP}]
 	density? ( dev-python/coolprop[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )

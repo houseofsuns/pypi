@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dask modin pandas polars pyarrow"
-DEPENDENCIES="all? ( dev-python/dask[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( <dev-python/dask-2022.0[${PYTHON_USEDEP}] )
+	dask? ( <dev-python/dask-2022.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/modin[${PYTHON_USEDEP}] )
 	modin? ( dev-python/modin[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dask? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	modin? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	dask? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	modin? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	pandas? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/polars[${PYTHON_USEDEP}] )
 	polars? ( dev-python/polars[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	polars? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	pyarrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/pyarrow-4.0[${PYTHON_USEDEP}] )
+	polars? ( >=dev-python/pyarrow-4.0[${PYTHON_USEDEP}] )
+	pyarrow? ( >=dev-python/pyarrow-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

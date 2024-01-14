@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extras"
-DEPENDENCIES="dev-python/backrefs[${PYTHON_USEDEP}]
-	dev-python/bracex[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/backrefs-6.0[${PYTHON_USEDEP}]
+	>=dev-python/bracex-2.4[${PYTHON_USEDEP}]
+	>=dev-python/chardet-5.1.0[${PYTHON_USEDEP}]
 	dev-python/coloraide[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
-	dev-python/send2trash[${PYTHON_USEDEP}]
-	dev-python/wcmatch[${PYTHON_USEDEP}]
-	dev-python/wxpython[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.12.2[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.4.4[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.14.1[${PYTHON_USEDEP}]
+	>=dev-python/pymdown-extensions-10.3[${PYTHON_USEDEP}]
+	>=dev-python/send2trash-1.8.2[${PYTHON_USEDEP}]
+	<dev-python/wcmatch-9.0[${PYTHON_USEDEP}]
+	>=dev-python/wxpython-4.1.0[${PYTHON_USEDEP}]
 	extras? ( dev-python/faust-cchardet[${PYTHON_USEDEP}] )
-	extras? ( dev-python/regex[${PYTHON_USEDEP}] )"
+	extras? ( >=dev-python/regex-2023.6.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

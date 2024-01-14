@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/mpmath[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/symengine[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/mpmath-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.4[${PYTHON_USEDEP}]
+	~dev-python/symengine-0.10.0[${PYTHON_USEDEP}]
+	~dev-python/sympy-1.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/openapi3[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
 	dev-python/linode-metadata[${PYTHON_USEDEP}]
 	obj? ( dev-python/boto3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

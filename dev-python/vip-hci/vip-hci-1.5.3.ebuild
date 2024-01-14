@@ -30,11 +30,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/photutils[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/emcee[${PYTHON_USEDEP}]
+	~dev-python/emcee-2.2.1[${PYTHON_USEDEP}]
 	dev-python/nestle[${PYTHON_USEDEP}]
 	dev-python/corner[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pyprind[${PYTHON_USEDEP}]
 	dev-python/munch[${PYTHON_USEDEP}]
@@ -48,11 +48,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/photutils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	dev? ( dev-python/emcee[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/emcee-2.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nestle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/corner[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-3.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyprind[${PYTHON_USEDEP}] )
 	dev? ( dev-python/munch[${PYTHON_USEDEP}] )
@@ -64,7 +64,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-split[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bandit[${PYTHON_USEDEP}] )

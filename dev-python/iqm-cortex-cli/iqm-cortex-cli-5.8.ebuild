@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cicd dev docs testing"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-daemon[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	cicd? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.6.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.2[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	>=dev-python/python-daemon-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	cicd? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-4.11.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-multiversion-contrib[${PYTHON_USEDEP}] )
-	testing? ( dev-python/black[${PYTHON_USEDEP}] )
-	testing? ( dev-python/isort[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/black-23.12.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-pylint[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mockito[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-requests[${PYTHON_USEDEP}] )"

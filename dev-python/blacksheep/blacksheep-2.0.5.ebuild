@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full jinja"
 DEPENDENCIES="dev-python/httptools[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2022.9.24[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-3.1.0[${PYTHON_USEDEP}]
 	dev-python/guardpost[${PYTHON_USEDEP}]
 	dev-python/rodi[${PYTHON_USEDEP}]
 	dev-python/essentials[${PYTHON_USEDEP}]
 	dev-python/essentials-openapi[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	full? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
+	full? ( <dev-python/cryptography-41.1.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
-	full? ( dev-python/websockets[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/websockets-10.3[${PYTHON_USEDEP}] )
 	jinja? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

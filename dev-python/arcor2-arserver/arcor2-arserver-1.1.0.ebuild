@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	~dev-python/aiofiles-23.1.0[${PYTHON_USEDEP}]
 	dev-python/aiologger[${PYTHON_USEDEP}]
 	dev-python/aiorun[${PYTHON_USEDEP}]
 	dev-python/apispec-webframeworks[${PYTHON_USEDEP}]
-	dev-python/apispec[${PYTHON_USEDEP}]
+	~dev-python/apispec-6.3.0[${PYTHON_USEDEP}]
 	dev-python/arcor2-arserver-data[${PYTHON_USEDEP}]
 	dev-python/arcor2-build-data[${PYTHON_USEDEP}]
 	dev-python/arcor2-calibration-data[${PYTHON_USEDEP}]
@@ -39,10 +39,10 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/dataclasses-jsonschema[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
 	dev-python/numpy-quaternion[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/pyhumps[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/setuptools-66.0.0[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+	~dev-python/websockets-10.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev examples lint test"
-DEPENDENCIES="dev-python/astunparse[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/astunparse-1.6.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fickling[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )

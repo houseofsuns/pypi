@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dataclasses dev pydantic"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dataclasses? ( dev-python/dacite[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datamodel-code-generator[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pysen[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

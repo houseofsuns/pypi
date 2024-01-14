@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/nlpaug[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.0[${PYTHON_USEDEP}]
 	dev-python/rouge-score[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/unidic-lite[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/tokenizers[${PYTHON_USEDEP}]
-	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/yapf-0.40.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )

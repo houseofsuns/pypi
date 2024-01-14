@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/siliconcompiler[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tclint[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

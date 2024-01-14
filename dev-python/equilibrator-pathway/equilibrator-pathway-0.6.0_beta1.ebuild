@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deployment development test"
-DEPENDENCIES="dev-python/seaborn[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/seaborn-0.13[${PYTHON_USEDEP}]
 	dev-python/cvxpy[${PYTHON_USEDEP}]
 	dev-python/sbtab[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.8[${PYTHON_USEDEP}]
 	dev-python/equilibrator-api[${PYTHON_USEDEP}]
 	deployment? ( dev-python/click[${PYTHON_USEDEP}] )
 	deployment? ( dev-python/click-log[${PYTHON_USEDEP}] )

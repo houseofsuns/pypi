@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/PyGithub-1.46[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-commas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.770[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-check-reqs-pip-gte_20[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydocstyle-5.0.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyenchant-3.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.4.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyroma[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-5.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vulture[${PYTHON_USEDEP}] )
-	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/yapf-0.29.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

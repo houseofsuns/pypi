@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="socks use_chardet_on_py3"
-DEPENDENCIES="dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )
-	use_chardet_on_py3? ( dev-python/chardet[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/charset-normalizer-4.0[${PYTHON_USEDEP}]
+	<dev-python/idna-4.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]
+	socks? ( >=dev-python/PySocks-1.5.6[${PYTHON_USEDEP}] )
+	use_chardet_on_py3? ( <dev-python/chardet-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

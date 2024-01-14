@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/blessed[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/blessed-1.5[${PYTHON_USEDEP}]
 	dev-python/cwcwidth[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

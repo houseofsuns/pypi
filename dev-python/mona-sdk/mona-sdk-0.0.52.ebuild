@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	dev-python/requests-mock[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
+	>=dev-python/python-jose-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-mock-1.8.0[${PYTHON_USEDEP}]
+	~dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

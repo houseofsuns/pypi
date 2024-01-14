@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/inform[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/ply[${PYTHON_USEDEP}]
+	~dev-python/ply-3.10[${PYTHON_USEDEP}]
 	dev-python/quantiphy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

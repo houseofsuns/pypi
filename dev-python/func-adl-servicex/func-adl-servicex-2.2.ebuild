@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/func-adl[${PYTHON_USEDEP}]
 	dev-python/qastle[${PYTHON_USEDEP}]
 	dev-python/servicex[${PYTHON_USEDEP}]
 	local? ( dev-python/func-adl-xAOD[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.9[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

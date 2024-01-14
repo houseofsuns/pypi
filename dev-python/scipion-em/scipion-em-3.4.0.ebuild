@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/scipion-pyworkflow[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]
+	<=dev-python/tifffile-2021.11.2[${PYTHON_USEDEP}]
 	dev-python/emtable[${PYTHON_USEDEP}]
-	dev-python/mrcfile[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]"
+	<=dev-python/mrcfile-1.4.3[${PYTHON_USEDEP}]
+	<=dev-python/scipy-1.8.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

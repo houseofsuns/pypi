@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs fuzzing testing"
 DEPENDENCIES="dev-python/bitstring[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
+	>=dev-python/cffi-1.0.3[${PYTHON_USEDEP}]
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )

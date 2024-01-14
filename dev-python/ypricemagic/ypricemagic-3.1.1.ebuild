@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bobs-lazy-logging[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	<dev-python/cachetools-4.3[${PYTHON_USEDEP}]
 	dev-python/checksum-dict[${PYTHON_USEDEP}]
 	dev-python/dank-mids[${PYTHON_USEDEP}]
 	dev-python/eth-brownie[${PYTHON_USEDEP}]
 	dev-python/eth-retry[${PYTHON_USEDEP}]
 	dev-python/ez-a-sync[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.0.1[${PYTHON_USEDEP}]
 	dev-python/multicall[${PYTHON_USEDEP}]
 	dev-python/pony[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/cmd2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cmd2-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )

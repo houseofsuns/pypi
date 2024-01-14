@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	>=dev-python/django-filter-21.1[${PYTHON_USEDEP}]
 	dev-python/django-cache-memoize[${PYTHON_USEDEP}]
 	dev-python/django-user-agents[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.12.0[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]
 	dev-python/drf-flex-fields[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-filters[${PYTHON_USEDEP}]
@@ -36,15 +36,15 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-rest-durin[${PYTHON_USEDEP}]
 	dev-python/drf-recaptcha[${PYTHON_USEDEP}]
 	dev-python/slack-sdk[${PYTHON_USEDEP}]
-	dev-python/stripe[${PYTHON_USEDEP}]
+	>=dev-python/stripe-2.61.0[${PYTHON_USEDEP}]
 	dev-python/python-twitter[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	>=dev-python/elasticsearch-6.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/Django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/django-filter[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/django-filter-21.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-cache-memoize[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-user-agents[${PYTHON_USEDEP}] )
-	dev? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/djangorestframework-3.12.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/drf-spectacular[${PYTHON_USEDEP}] )
 	dev? ( dev-python/drf-flex-fields[${PYTHON_USEDEP}] )
 	dev? ( dev-python/djangorestframework-filters[${PYTHON_USEDEP}] )
@@ -52,20 +52,20 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev? ( dev-python/django-rest-durin[${PYTHON_USEDEP}] )
 	dev? ( dev-python/drf-recaptcha[${PYTHON_USEDEP}] )
 	dev? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
-	dev? ( dev-python/stripe[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/stripe-2.61.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-twitter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Markdown[${PYTHON_USEDEP}] )
-	dev? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/elasticsearch-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.12.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/djangorestframework-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-Markdown[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-6.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox-gh-actions[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

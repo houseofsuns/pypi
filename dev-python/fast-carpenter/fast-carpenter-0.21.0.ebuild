@@ -33,11 +33,11 @@ DEPENDENCIES="dev-python/atuproot[${PYTHON_USEDEP}]
 	dev-python/fast-curator[${PYTHON_USEDEP}]
 	dev-python/awkward[${PYTHON_USEDEP}]
 	dev-python/coffea[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1[${PYTHON_USEDEP}]
 	dev-python/numexpr[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1.1[${PYTHON_USEDEP}]
 	dev-python/uproot[${PYTHON_USEDEP}]
 	dev-python/uproot3[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-38.4.0[${PYTHON_USEDEP}]
+	>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.7.0[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
 	dev-python/textfsm[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
@@ -37,11 +37,11 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/netmiko[${PYTHON_USEDEP}]
 	dev-python/junos-eznc[${PYTHON_USEDEP}]
 	dev-python/scp[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.3.0[${PYTHON_USEDEP}]
 	dev-python/ncclient[${PYTHON_USEDEP}]
 	dev-python/ttp[${PYTHON_USEDEP}]
 	dev-python/ttp-templates[${PYTHON_USEDEP}]
 	dev-python/netutils[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

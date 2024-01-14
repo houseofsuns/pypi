@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="deep-analysis multilingual pymorphy2-ru pymorphy2-uk web"
 DEPENDENCIES="dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]
+	<dev-python/ordered-set-4.0[${PYTHON_USEDEP}]
+	<dev-python/cached-property-2.0[${PYTHON_USEDEP}]
 	dev-python/ordered-set-stubs[${PYTHON_USEDEP}]
 	dev-python/poetry-version[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-9.0[${PYTHON_USEDEP}]
+	<dev-python/redis-4.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.16.0[${PYTHON_USEDEP}]
 	deep-analysis? ( dev-python/hunspell[${PYTHON_USEDEP}] )
 	deep-analysis? ( dev-python/python-Levenshtein[${PYTHON_USEDEP}] )
-	deep-analysis? ( dev-python/regex[${PYTHON_USEDEP}] )
+	deep-analysis? ( <dev-python/regex-2020.0.0[${PYTHON_USEDEP}] )
 	multilingual? ( dev-python/polyglot[${PYTHON_USEDEP}] )
 	multilingual? ( dev-python/pycld2[${PYTHON_USEDEP}] )
 	multilingual? ( dev-python/PyICU[${PYTHON_USEDEP}] )
 	pymorphy2-ru? ( dev-python/pymorphy2-dicts-ru[${PYTHON_USEDEP}] )
 	pymorphy2-uk? ( dev-python/pymorphy2-dicts-uk[${PYTHON_USEDEP}] )
-	web? ( dev-python/appdirs[${PYTHON_USEDEP}] )
+	web? ( <dev-python/appdirs-2.0.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	web? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	web? ( <dev-python/uvicorn-0.12.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

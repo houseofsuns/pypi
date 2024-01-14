@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws dev docs tests"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-17.4.0[${PYTHON_USEDEP}]
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/environ-config[${PYTHON_USEDEP}] )
 	docs? ( dev-python/environ-config[${PYTHON_USEDEP}] )

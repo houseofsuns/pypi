@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES="dev-python/incremental[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/hyperlink[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/hyperlink-21.0.0[${PYTHON_USEDEP}]
 	dev-python/Twisted[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/pep8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/httpbin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/httpbin-0.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/werkzeug-2.0.3[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

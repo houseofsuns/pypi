@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pweave"
 DEPENDENCIES="dev-python/altair[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	<dev-python/attrs-20.0[${PYTHON_USEDEP}]
 	dev-python/autosig[${PYTHON_USEDEP}]
-	dev-python/boltons[${PYTHON_USEDEP}]
-	pweave? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]"
+	>=dev-python/boltons-19.1.0[${PYTHON_USEDEP}]
+	pweave? ( <dev-python/ipython-8.0.0[${PYTHON_USEDEP}] )
+	>=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	>=dev-python/toolz-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

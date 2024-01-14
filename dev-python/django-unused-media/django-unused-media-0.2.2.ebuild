@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.8[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nose[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	tests? ( dev-python/yanc[${PYTHON_USEDEP}] )
 	tests? ( dev-python/preggy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tox[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/tox-2.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	tests? ( dev-python/django-nose[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pypandoc[${PYTHON_USEDEP}] )

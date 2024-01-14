@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-haystack[${PYTHON_USEDEP}]
 	dev-python/path-py[${PYTHON_USEDEP}]
 	dev-python/psd-tools[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	~dev-python/pytz-2015.2[${PYTHON_USEDEP}]
+	~dev-python/six-1.9.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.10.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

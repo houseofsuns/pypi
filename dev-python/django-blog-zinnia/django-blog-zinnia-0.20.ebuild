@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.3.2[${PYTHON_USEDEP}]
 	dev-python/django-contrib-comments[${PYTHON_USEDEP}]
 	dev-python/django-mptt[${PYTHON_USEDEP}]
 	dev-python/django-tagging[${PYTHON_USEDEP}]
 	dev-python/django-xmlrpc[${PYTHON_USEDEP}]
 	dev-python/mots-vides[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]"
+	>=dev-python/pillow-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.0.3[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2014.10[${PYTHON_USEDEP}]
+	>=dev-python/regex-2016.3.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

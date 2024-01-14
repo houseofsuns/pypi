@@ -26,21 +26,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/pytailwindcss[${PYTHON_USEDEP}]
-	dev-python/dominate[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/dominate-2.0[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.20[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/jsmin[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.0[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-23.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.0[${PYTHON_USEDEP}]
+	>=dev-python/jsmin-3.0[${PYTHON_USEDEP}]
 	dev-python/starlette-cramjam[${PYTHON_USEDEP}]
 	dev-python/starlette-securecookies[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/aiocache[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiocache-0.12[${PYTHON_USEDEP}]
+	>=dev-python/itsdangerous-2.0.0[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]"
+	<dev-python/python-multipart-0.0.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,37 +25,37 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="build classesgen doc style tests"
 DEPENDENCIES="dev-python/ansys-api-systemcoupling[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.30.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-status[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
+	>=dev-python/googleapis-common-protos-1.50.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.0[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	classesgen? ( dev-python/black[${PYTHON_USEDEP}] )
-	classesgen? ( dev-python/isort[${PYTHON_USEDEP}] )
+	classesgen? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )
+	classesgen? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter_sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/numpydoc-1.5.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pytest-sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-websupport[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-autodoc-typehints-1.24.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-gallery-0.14.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-notfound-page-1.0.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-websupport-1.2.6[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxemoji-0.2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-fluent-core[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-dpf-core[${PYTHON_USEDEP}] )
 	style? ( dev-python/codespell[${PYTHON_USEDEP}] )
-	style? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	style? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/psutil[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/psutil-5.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

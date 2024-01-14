@@ -24,52 +24,52 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cachetools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/certifi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cfgv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/chardet[${PYTHON_USEDEP}] )
-	dev? ( dev-python/charset-normalizer[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	dev? ( dev-python/distlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/identify[${PYTHON_USEDEP}] )
-	dev? ( dev-python/idna[${PYTHON_USEDEP}] )
-	dev? ( dev-python/iniconfig[${PYTHON_USEDEP}] )
-	dev? ( dev-python/lxml[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
+	>=dev-python/charset-normalizer-3.0.1[${PYTHON_USEDEP}]
+	>=dev-python/idna-3.4[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.14[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/attrs-22.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/cachetools-5.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/cfgv-3.3.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/chardet-5.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/charset-normalizer-3.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/click-8.1.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/colorama-0.4.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/distlib-0.3.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/filelock-3.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/identify-2.5.15[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/idna-3.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/lxml-4.9.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lxml-stubs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nodeenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nodeenv-1.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/packaging-23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pluggy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/platformdirs-2.6.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pluggy-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyproject-api[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyproject-hooks[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/six[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyproject-api-1.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyproject-hooks-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-4.3.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/urllib3-1.26.14[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/virtualenv-20.17.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.38.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

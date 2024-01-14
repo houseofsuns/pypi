@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/certifi-2024.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/structlog-24.0.0[${PYTHON_USEDEP}]
 	dev-python/choicelib[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

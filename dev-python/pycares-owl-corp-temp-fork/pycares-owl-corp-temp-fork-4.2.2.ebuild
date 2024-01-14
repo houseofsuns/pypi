@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="idna"
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
-	idna? ( dev-python/idna[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/cffi-1.5.0[${PYTHON_USEDEP}]
+	idna? ( >=dev-python/idna-2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

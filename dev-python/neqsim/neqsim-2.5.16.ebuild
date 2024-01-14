@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="interactive"
 DEPENDENCIES="dev-python/JPype1[${PYTHON_USEDEP}]
-	interactive? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	interactive? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev-python/pandas[${PYTHON_USEDEP}]
-	interactive? ( dev-python/tabulate[${PYTHON_USEDEP}] )"
+	interactive? ( <dev-python/jupyter-2.0.0[${PYTHON_USEDEP}] )
+	interactive? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	interactive? ( <dev-python/tabulate-0.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

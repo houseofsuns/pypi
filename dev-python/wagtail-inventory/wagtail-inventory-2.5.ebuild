@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	dev-python/wagtail[${PYTHON_USEDEP}]
 	dev-python/django-autocomplete-light[${PYTHON_USEDEP}]
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )"

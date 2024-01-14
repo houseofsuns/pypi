@@ -27,8 +27,8 @@ IUSE="babel docs"
 DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
 	dev-python/pyramid-basemodel[${PYTHON_USEDEP}]
 	dev-python/pyramid-mako[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
-	babel? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	>=dev-python/pycountry-18.12.8[${PYTHON_USEDEP}]
+	babel? ( >=dev-python/Babel-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

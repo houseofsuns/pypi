@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pandas"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
 	dev-python/pglast[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22[${PYTHON_USEDEP}]
+	>=dev-python/docker-5.0.2[${PYTHON_USEDEP}]
 	dev-python/click_log[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.46.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.1[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
 	dev-python/asciitree[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.4.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.8.1[${PYTHON_USEDEP}]
+	<dev-python/chardet-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/cffi-1.15[${PYTHON_USEDEP}]
 	dev-python/sodapy[${PYTHON_USEDEP}]
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	pandas? ( ~dev-python/pandas-1.1.5[${PYTHON_USEDEP}] )
+	pandas? ( <dev-python/sqlalchemy-1.4.23[${PYTHON_USEDEP}] )
 	dev-python/splitgraph-pipelinewise-target-postgres[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

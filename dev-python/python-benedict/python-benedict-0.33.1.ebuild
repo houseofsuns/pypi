@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all html io parse s3 toml xls xml yaml"
 DEPENDENCIES="dev-python/python-fsutil[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/python-benedict[${PYTHON_USEDEP}] )
-	html? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
+	html? ( <dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}] )
 	html? ( dev-python/python-benedict[${PYTHON_USEDEP}] )
 	io? ( dev-python/python-benedict[${PYTHON_USEDEP}] )
 	parse? ( dev-python/ftfy[${PYTHON_USEDEP}] )
 	parse? ( dev-python/mailchecker[${PYTHON_USEDEP}] )
-	parse? ( dev-python/phonenumbers[${PYTHON_USEDEP}] )
-	parse? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	parse? ( <dev-python/phonenumbers-9.0.0[${PYTHON_USEDEP}] )
+	parse? ( <dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}] )
+	s3? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
-	xls? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	xls? ( dev-python/xlrd[${PYTHON_USEDEP}] )
-	xml? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	xls? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )
+	xls? ( <dev-python/xlrd-3.0.0[${PYTHON_USEDEP}] )
+	xml? ( <dev-python/xmltodict-1.0.0[${PYTHON_USEDEP}] )
+	yaml? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

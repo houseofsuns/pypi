@@ -24,39 +24,39 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli test_tools"
-DEPENDENCIES="dev-python/semver[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/semver-3.0.0[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.4.0[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pymultihash[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.18.0[${PYTHON_USEDEP}]
+	<dev-python/ecdsa-0.17.0[${PYTHON_USEDEP}]
 	dev-python/morphys[${PYTHON_USEDEP}]
 	dev-python/py-multibase[${PYTHON_USEDEP}]
 	dev-python/py-multicodec[${PYTHON_USEDEP}]
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/semver[${PYTHON_USEDEP}] )
-	all? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	all? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/click[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	cli? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	cli? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	cli? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	cli? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	cli? ( dev-python/semver[${PYTHON_USEDEP}] )
-	test_tools? ( dev-python/click[${PYTHON_USEDEP}] )
-	test_tools? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	test_tools? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	test_tools? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test_tools? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test_tools? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	test_tools? ( dev-python/semver[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/coverage-8.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/semver-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/jsonschema-4.4.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/packaging-24.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/click-8.0.2[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-7.3.0[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/click-8.0.2[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/packaging-24.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/pytest-7.3.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/coverage-8.0.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/jsonschema-4.4.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/semver-3.0.0[${PYTHON_USEDEP}] )
+	test_tools? ( ~dev-python/click-8.0.2[${PYTHON_USEDEP}] )
+	test_tools? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
+	test_tools? ( <dev-python/packaging-24.0[${PYTHON_USEDEP}] )
+	test_tools? ( <dev-python/pytest-7.3.0[${PYTHON_USEDEP}] )
+	test_tools? ( <dev-python/coverage-8.0.0[${PYTHON_USEDEP}] )
+	test_tools? ( <dev-python/jsonschema-4.4.0[${PYTHON_USEDEP}] )
+	test_tools? ( <dev-python/semver-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

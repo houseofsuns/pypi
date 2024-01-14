@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/spectral-cube[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.3[${PYTHON_USEDEP}]
 	dev-python/jampy[${PYTHON_USEDEP}]
 	dev-python/kinms[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

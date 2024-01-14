@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/lorem-pysum[${PYTHON_USEDEP}]
 	dev-python/case-switcher[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.27.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/starlette-0.35.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.26.0[${PYTHON_USEDEP}]
 	dev-python/openrpcclientgenerator[${PYTHON_USEDEP}]
 	dev-python/openrpc[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

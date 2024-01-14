@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
 	test? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	test? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/setuptools-59.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

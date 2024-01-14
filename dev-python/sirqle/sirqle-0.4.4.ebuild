@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-0.18[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

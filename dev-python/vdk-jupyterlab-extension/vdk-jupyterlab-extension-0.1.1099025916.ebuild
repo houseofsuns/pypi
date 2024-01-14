@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="opinionated test"
-DEPENDENCIES="dev-python/jupyter-server[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
+	~dev-python/jupyterlab-3.6.3[${PYTHON_USEDEP}]
+	~dev-python/traitlets-5.9.0[${PYTHON_USEDEP}]
 	dev-python/vdk-control-cli[${PYTHON_USEDEP}]
 	dev-python/vdk-core[${PYTHON_USEDEP}]
 	opinionated? ( dev-python/ipyaggrid[${PYTHON_USEDEP}] )

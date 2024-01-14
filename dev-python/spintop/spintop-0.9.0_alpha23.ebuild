@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/anytree[${PYTHON_USEDEP}]
 	dev-python/dataclasses[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.5[${PYTHON_USEDEP}]
 	dev-python/marshmallow-dataclass[${PYTHON_USEDEP}]
 	dev-python/marshmallow-union[${PYTHON_USEDEP}]
 	dev-python/marshmallow-jsonschema[${PYTHON_USEDEP}]
@@ -48,9 +48,9 @@ DEPENDENCIES="dev-python/anytree[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
 	dev-python/simple-memory-cache[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]
-	bigquery? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	bigquery? ( >=dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/singer-python[${PYTHON_USEDEP}] )
-	bigquery? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	bigquery? ( >=dev-python/google-api-python-client-1.6.2[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/oauth2client[${PYTHON_USEDEP}] )

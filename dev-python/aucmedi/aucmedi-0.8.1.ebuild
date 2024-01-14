@@ -27,14 +27,14 @@ IUSE=""
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-addons[${PYTHON_USEDEP}]
 	dev-python/keras-applications[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.3.0[${PYTHON_USEDEP}]
 	dev-python/albumentations[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/lime[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
+	>=dev-python/pooch-1.6.0[${PYTHON_USEDEP}]
 	dev-python/classification-models_3D[${PYTHON_USEDEP}]
 	dev-python/vit-keras[${PYTHON_USEDEP}]
 	dev-python/SimpleITK[${PYTHON_USEDEP}]
@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/volumentations-aucmedi[${PYTHON_USEDEP}]
 	dev-python/plotnine[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]"
+	<dev-python/matplotlib-3.5.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/h11[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/h11-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/h2-5.0.0[${PYTHON_USEDEP}]
 	dev-python/qh3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

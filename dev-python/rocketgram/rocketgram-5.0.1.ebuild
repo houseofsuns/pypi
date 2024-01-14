@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp orjson ujson uvloop"
-DEPENDENCIES="aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	ujson? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+DEPENDENCIES="aiohttp? ( >=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] )
+	orjson? ( >=dev-python/orjson-3.6.8[${PYTHON_USEDEP}] )
+	ujson? ( >=dev-python/ujson-5.2.0[${PYTHON_USEDEP}] )
+	uvloop? ( >=dev-python/uvloop-0.12.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

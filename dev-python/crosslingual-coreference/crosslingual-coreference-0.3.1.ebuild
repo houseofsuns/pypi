@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/allennlp[${PYTHON_USEDEP}]
 	dev-python/allennlp-models[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	dev-python/cached-path[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

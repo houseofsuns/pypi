@@ -27,15 +27,15 @@ IUSE=""
 DEPENDENCIES="dev-python/apiflask[${PYTHON_USEDEP}]
 	dev-python/authlib[${PYTHON_USEDEP}]
 	dev-python/bootstrap-flask[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.5[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
-	dev-python/flask-compress[${PYTHON_USEDEP}]
-	dev-python/flask-login[${PYTHON_USEDEP}]
-	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/flask-compress-1.10[${PYTHON_USEDEP}]
+	~dev-python/flask-login-0.5[${PYTHON_USEDEP}]
+	~dev-python/flask-sqlalchemy-2.5[${PYTHON_USEDEP}]
 	dev-python/flask-wtf[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	>=dev-python/flask-2.2.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}]
 	dev-python/wtforms-sqlalchemy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,7 +33,7 @@ DEPENDENCIES="splade? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dev-python/wget[${PYTHON_USEDEP}]
 	dev-python/mmh3[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
 	dense? ( dev-python/openai[${PYTHON_USEDEP}] )
 	openai? ( dev-python/openai[${PYTHON_USEDEP}] )
 	cohere? ( dev-python/cohere[${PYTHON_USEDEP}] )"

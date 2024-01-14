@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/python3-saml[${PYTHON_USEDEP}]
+	~dev-python/python3-saml-1.16[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

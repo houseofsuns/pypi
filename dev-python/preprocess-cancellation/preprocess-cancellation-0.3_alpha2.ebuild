@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="shapely"
 DEPENDENCIES="shapely? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	shapely? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	shapely? ( <dev-python/numpy-1.23.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

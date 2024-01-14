@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	develop? ( dev-python/nose[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/importlib-metadata-3.7.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
+	>=dev-python/progressbar2-3.53.1[${PYTHON_USEDEP}]
+	develop? ( >=dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-emoji[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	develop? ( dev-python/wemake-python-styleguide[${PYTHON_USEDEP}] )
-	develop? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	develop? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	develop? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/myst-parser-0.16.1[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/nbsphinx-0.8.7[${PYTHON_USEDEP}] )
 	develop? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )
-	develop? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/numpydoc-1.1.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/sphinx-4.3.1[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/sphinxcontrib-bibtex-2.4.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinxawesome-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

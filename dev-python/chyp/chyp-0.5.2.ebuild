@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PySide6[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]
+	>=dev-python/lark-1.1.5[${PYTHON_USEDEP}]
 	dev-python/cvxpy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

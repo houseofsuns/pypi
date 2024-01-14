@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="inspector"
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	inspector? ( dev-python/click[${PYTHON_USEDEP}] )
+	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]
+	inspector? ( <dev-python/click-9.0.0[${PYTHON_USEDEP}] )
 	inspector? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]"
+	<=dev-python/importlib-metadata-4.13[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mypy test"
-DEPENDENCIES="dev-python/tree-sitter[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/tree-sitter-0.20.1[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	mypy? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	test? ( dev-python/bumpver[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-golden[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-golden-0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

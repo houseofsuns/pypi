@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]"
+	>=dev-python/flake8-3.8.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

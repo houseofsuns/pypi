@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/crowd-kit[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	~dev-python/shapely-2.0.1[${PYTHON_USEDEP}]
 	dev-python/toloka-kit[${PYTHON_USEDEP}]
 	dev-python/wasabi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

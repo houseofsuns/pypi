@@ -26,28 +26,28 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pipeline"
 DEPENDENCIES="pipeline? ( dev-python/diagrams[${PYTHON_USEDEP}] )
 	dev-python/dtale[${PYTHON_USEDEP}]
-	dev-python/ipdb[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	<dev-python/ipdb-0.14.0[${PYTHON_USEDEP}]
+	~dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
 	dev-python/leximpact-aggregates[${PYTHON_USEDEP}]
 	dev-python/leximpact-common-python-libraries[${PYTHON_USEDEP}]
 	dev-python/leximpact-survey-scenario[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/multipledispatch[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
+	<dev-python/multipledispatch-0.7.0[${PYTHON_USEDEP}]
 	dev-python/nbdev[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]
+	~dev-python/numexpr-2.8.4[${PYTHON_USEDEP}]
 	dev-python/openfisca-survey-manager[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	<dev-python/pip-24.0[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-6.0.1[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pypandoc[${PYTHON_USEDEP}]
-	pipeline? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
+	pipeline? ( <dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/tables[${PYTHON_USEDEP}] )
+	pipeline? ( <dev-python/tables-4.0.0[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/vaex-core[${PYTHON_USEDEP}] )
 	dev-python/vaex-jupyter[${PYTHON_USEDEP}]
 	dev-python/vaex-server[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]"
+	~dev-python/werkzeug-2.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

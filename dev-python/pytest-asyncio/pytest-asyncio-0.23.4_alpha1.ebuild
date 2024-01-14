@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/pytest-8.0[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-5.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/coverage-6.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/hypothesis-5.7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

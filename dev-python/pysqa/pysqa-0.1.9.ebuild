@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="executor remote sge"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<=dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
+	<=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
 	executor? ( dev-python/pympipool[${PYTHON_USEDEP}] )
-	executor? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	remote? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	remote? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	sge? ( dev-python/defusedxml[${PYTHON_USEDEP}] )"
+	executor? ( <=dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}] )
+	remote? ( <=dev-python/paramiko-3.4.0[${PYTHON_USEDEP}] )
+	remote? ( ~dev-python/tqdm-4.66.1[${PYTHON_USEDEP}] )
+	sge? ( <=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

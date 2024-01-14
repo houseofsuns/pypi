@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]"
+	>=dev-python/nbconvert-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

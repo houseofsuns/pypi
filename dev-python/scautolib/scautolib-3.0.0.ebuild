@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="graphical"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
+	>=dev-python/coloredlogs-15.0[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.10[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.0[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
 	dev-python/python-freeipa[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
+	>=dev-python/pexpect-4.0[${PYTHON_USEDEP}]
 	graphical? ( dev-python/python-uinput[${PYTHON_USEDEP}] )
 	graphical? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	graphical? ( dev-python/pandas[${PYTHON_USEDEP}] )

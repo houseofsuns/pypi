@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs examples test"
 DEPENDENCIES="docs? ( dev-python/enthought-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/pygments-2.15[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	test? ( dev-python/Cython[${PYTHON_USEDEP}] )
@@ -34,7 +34,7 @@ DEPENDENCIES="docs? ( dev-python/enthought-sphinx-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyface[${PYTHON_USEDEP}] )
-	test? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pygments-2.15[${PYTHON_USEDEP}] )
 	test? ( dev-python/PySide6[${PYTHON_USEDEP}] )
 	test? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	test? ( dev-python/Sphinx[${PYTHON_USEDEP}] )

@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="scriptflow"
 DEPENDENCIES="dev-python/asyncssh[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.26.1[${PYTHON_USEDEP}]
 	dev-python/jcs[${PYTHON_USEDEP}]
 	dev-python/ortools[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	scriptflow? ( dev-python/scriptflow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

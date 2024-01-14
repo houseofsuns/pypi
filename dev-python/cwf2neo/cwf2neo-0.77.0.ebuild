@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/confuse[${PYTHON_USEDEP}]
 	dev-python/progress[${PYTHON_USEDEP}]
 	dev-python/py2neo[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]"
+	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

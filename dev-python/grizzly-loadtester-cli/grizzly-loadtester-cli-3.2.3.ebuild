@@ -26,36 +26,36 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ci dev"
 DEPENDENCIES="dev-python/behave[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/pyotp[${PYTHON_USEDEP}]
-	dev-python/progress[${PYTHON_USEDEP}]
-	ci? ( dev-python/build[${PYTHON_USEDEP}] )
-	ci? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/atomicwrites[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	<dev-python/chardet-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyotp-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/progress-2.0[${PYTHON_USEDEP}]
+	ci? ( >=dev-python/build-0.7.0[${PYTHON_USEDEP}] )
+	ci? ( <dev-python/twine-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/mypy-1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylint-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-mock-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-timeout-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/atomicwrites-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/requests-mock-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-licenses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytablewriter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/line-profiler-3.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gevent[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flask[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flask-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-scm-7.0.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.37.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/snakeviz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/setuptools-60.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

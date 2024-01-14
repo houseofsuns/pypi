@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
-	dev-python/fixtures[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pbr-1.6[${PYTHON_USEDEP}]
+	>=dev-python/Babel-1.3[${PYTHON_USEDEP}]
+	>=dev-python/fixtures-1.3.1[${PYTHON_USEDEP}]
+	>=dev-python/iso8601-0.1.9[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/httplib2-0.7.5[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-1.14.0[${PYTHON_USEDEP}]
 	dev-python/os-testr[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

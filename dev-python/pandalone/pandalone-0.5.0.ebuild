@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc excel pandas test xlrd"
 DEPENDENCIES="dev-python/toolz[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/asteval[${PYTHON_USEDEP}]
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	>=dev-python/asteval-0.9.7[${PYTHON_USEDEP}]
+	all? ( >=dev-python/sphinx-1.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/easygui[${PYTHON_USEDEP}] )
 	all? ( dev-python/xlrd[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/toolz[${PYTHON_USEDEP}]
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	all? ( dev-python/doc8[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/easygui[${PYTHON_USEDEP}] )
 	dev? ( dev-python/xlrd[${PYTHON_USEDEP}] )
@@ -66,10 +66,10 @@ DEPENDENCIES="dev-python/toolz[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/doc8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-1.3[${PYTHON_USEDEP}] )
 	excel? ( dev-python/easygui[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/sphinx-1.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/easygui[${PYTHON_USEDEP}] )
 	test? ( dev-python/xlrd[${PYTHON_USEDEP}] )

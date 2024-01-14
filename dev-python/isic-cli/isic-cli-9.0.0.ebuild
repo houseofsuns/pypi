@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/django-s3-file-field-client[${PYTHON_USEDEP}]
 	dev-python/girder-cli-oauth-client[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]

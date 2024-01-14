@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs textract"
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
 	dev-python/docopt-ng[${PYTHON_USEDEP}]
 	dev-python/ExifRead[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/macos-tags[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/Send2Trash[${PYTHON_USEDEP}]
 	dev-python/simplematch[${PYTHON_USEDEP}]
 	textract? ( dev-python/textract[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-autorefs-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/markupsafe[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/mkdocstrings-0.25.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

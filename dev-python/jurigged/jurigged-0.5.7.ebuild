@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develoop"
-DEPENDENCIES="dev-python/blessed[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/blessed-2.0.0[${PYTHON_USEDEP}]
 	dev-python/codefind[${PYTHON_USEDEP}]
 	dev-python/ovld[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-1.0.2[${PYTHON_USEDEP}]
 	develoop? ( dev-python/giving[${PYTHON_USEDEP}] )
-	develoop? ( dev-python/rich[${PYTHON_USEDEP}] )"
+	develoop? ( >=dev-python/rich-10.13.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

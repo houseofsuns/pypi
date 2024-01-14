@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/ai2thor[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.0.3[${PYTHON_USEDEP}]
 	full? ( dev-python/ai2thor[${PYTHON_USEDEP}] )
 	full? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	full? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
@@ -43,6 +43,6 @@ DEPENDENCIES="dev-python/ai2thor[${PYTHON_USEDEP}]
 	full? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	full? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	full? ( dev-python/visdom[${PYTHON_USEDEP}] )
-	full? ( dev-python/werkzeug[${PYTHON_USEDEP}] )"
+	full? ( ~dev-python/werkzeug-2.2.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

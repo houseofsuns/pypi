@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="full"
 DEPENDENCIES="dev-python/mne[${PYTHON_USEDEP}]
 	dev-python/PySide6[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}]
 	dev-python/pyxdf[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Cocoa[${PYTHON_USEDEP}]
 	full? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )

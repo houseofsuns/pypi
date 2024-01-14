@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="bumps dfo gofit gradient_free levmar lmfit mantid matlab minuit nlopt numdifftools sas"
 DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.60[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.18[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/codecarbon[${PYTHON_USEDEP}]
@@ -42,11 +42,11 @@ DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	gradient_free? ( dev-python/gradient-free-optimizers[${PYTHON_USEDEP}] )
 	levmar? ( dev-python/levmar[${PYTHON_USEDEP}] )
 	lmfit? ( dev-python/lmfit[${PYTHON_USEDEP}] )
-	lmfit? ( dev-python/emcee[${PYTHON_USEDEP}] )
-	mantid? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	mantid? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	lmfit? ( >=dev-python/emcee-3.1.0[${PYTHON_USEDEP}] )
+	mantid? ( <dev-python/h5py-3.0[${PYTHON_USEDEP}] )
+	mantid? ( >=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}] )
 	matlab? ( dev-python/dill[${PYTHON_USEDEP}] )
-	minuit? ( dev-python/iminuit[${PYTHON_USEDEP}] )
+	minuit? ( >=dev-python/iminuit-2.0[${PYTHON_USEDEP}] )
 	nlopt? ( dev-python/nlopt[${PYTHON_USEDEP}] )
 	numdifftools? ( dev-python/numdifftools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

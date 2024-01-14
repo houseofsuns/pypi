@@ -35,13 +35,13 @@ DEPENDENCIES="dev-python/aiida-core[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-remoteliteralinclude[${PYTHON_USEDEP}] )
 	graphs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/tox[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
+	pre-commit? ( >=dev-python/tox-3.23.0[${PYTHON_USEDEP}] )
+	pre-commit? ( >dev-python/virtualenv-20.0[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	pre-commit? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	pre-commit? ( ~dev-python/pylint-2.15.0[${PYTHON_USEDEP}] )
 	pre-commit? ( dev-python/sphinx-lint[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aiida-core[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tox[${PYTHON_USEDEP}] )
-	tests? ( dev-python/virtualenv[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/tox-3.23.0[${PYTHON_USEDEP}] )
+	tests? ( >dev-python/virtualenv-20.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

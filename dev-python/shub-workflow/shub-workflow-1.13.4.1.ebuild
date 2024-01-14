@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="with-gcs-tools with-s3-tools"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	dev-python/scrapinghub[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/sqlitedict[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/sqlitedict-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.9.92[${PYTHON_USEDEP}]
 	dev-python/bloom-filter2[${PYTHON_USEDEP}]
 	dev-python/collection-scanner[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]

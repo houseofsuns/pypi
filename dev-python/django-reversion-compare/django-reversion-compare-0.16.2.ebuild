@@ -48,12 +48,12 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/darker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/model-bakery[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-override-storage[${PYTHON_USEDEP}] )
-	django32? ( dev-python/django[${PYTHON_USEDEP}] )
-	django41? ( dev-python/django[${PYTHON_USEDEP}] )
-	django42? ( dev-python/django[${PYTHON_USEDEP}] )"
+	django32? ( <dev-python/django-3.3[${PYTHON_USEDEP}] )
+	django41? ( <dev-python/django-4.2[${PYTHON_USEDEP}] )
+	django42? ( <dev-python/django-4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

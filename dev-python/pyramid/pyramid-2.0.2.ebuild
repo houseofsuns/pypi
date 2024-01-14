@@ -30,9 +30,9 @@ DEPENDENCIES="dev-python/hupper[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/translationstring[${PYTHON_USEDEP}]
 	dev-python/venusian[${PYTHON_USEDEP}]
-	dev-python/webob[${PYTHON_USEDEP}]
-	dev-python/zope-deprecation[${PYTHON_USEDEP}]
-	dev-python/zope-interface[${PYTHON_USEDEP}]
+	>=dev-python/webob-1.8.3[${PYTHON_USEDEP}]
+	>=dev-python/zope-deprecation-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/zope-interface-3.8.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )
@@ -40,10 +40,10 @@ DEPENDENCIES="dev-python/hupper[${PYTHON_USEDEP}]
 	docs? ( dev-python/repoze-sphinx-autointerface[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-autoprogram[${PYTHON_USEDEP}] )
-	testing? ( dev-python/webtest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/zope-component[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/webtest-1.3.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/zope-component-4.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-5.4.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="webapi"
-DEPENDENCIES="webapi? ( dev-python/flask[${PYTHON_USEDEP}] )
+DEPENDENCIES="webapi? ( ~dev-python/flask-2.0.3[${PYTHON_USEDEP}] )
 	webapi? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	webapi? ( dev-python/werkzeug[${PYTHON_USEDEP}] )"
+	webapi? ( ~dev-python/werkzeug-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

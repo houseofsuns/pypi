@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/fabric[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/statsd[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	~dev-python/requests-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/statsd-2.0.3[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.3.2[${PYTHON_USEDEP}]
 	dev-python/pycrypto[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-localserver[${PYTHON_USEDEP}]"
+	~dev-python/pika-0.9.13[${PYTHON_USEDEP}]
+	~dev-python/pytest-2.4.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-localserver-0.3.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

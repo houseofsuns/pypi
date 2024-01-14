@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pysimdjson[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-1.5.1[${PYTHON_USEDEP}]
+	~dev-python/pysimdjson-5.0.2[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

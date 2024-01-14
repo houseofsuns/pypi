@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="examples"
 DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	examples? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	examples? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
 	examples? ( dev-python/timm[${PYTHON_USEDEP}] )

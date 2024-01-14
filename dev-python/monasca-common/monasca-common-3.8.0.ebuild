@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
 	dev-python/confluent-kafka[${PYTHON_USEDEP}]
 	dev-python/kazoo[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-6.8.0[${PYTHON_USEDEP}]
 	dev-python/oslo-policy[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]"
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.13.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

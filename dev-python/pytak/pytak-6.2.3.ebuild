@@ -30,7 +30,7 @@ DEPENDENCIES="test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	with_crypto? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	with_crypto? ( >=dev-python/cryptography-39.0.0[${PYTHON_USEDEP}] )
 	with_takproto? ( dev-python/takproto[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

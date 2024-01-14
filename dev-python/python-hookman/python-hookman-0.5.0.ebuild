@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/strictyaml[${PYTHON_USEDEP}]
 	dev-python/invoke[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

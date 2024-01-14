@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="algebra experiments"
-DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/blake3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/wheel-0.38.0[${PYTHON_USEDEP}]
+	<dev-python/blake3-0.3.0[${PYTHON_USEDEP}]
 	dev-python/colored[${PYTHON_USEDEP}]
-	dev-python/ansi2html[${PYTHON_USEDEP}]
-	algebra? ( dev-python/progress[${PYTHON_USEDEP}] )
+	~dev-python/ansi2html-1.6.0[${PYTHON_USEDEP}]
+	algebra? ( <dev-python/progress-2.0[${PYTHON_USEDEP}] )
 	algebra? ( dev-python/pathos[${PYTHON_USEDEP}] )
 	experiments? ( dev-python/bigfloat[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

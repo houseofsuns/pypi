@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/lxml-4.6.3[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	tests? ( dev-python/chardet[${PYTHON_USEDEP}] )
 	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
 	tests? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nose[${PYTHON_USEDEP}] )
 	tests? ( dev-python/twine[${PYTHON_USEDEP}] )
-	tests? ( dev-python/chardet[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/chardet-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

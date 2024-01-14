@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/towncrier[${PYTHON_USEDEP}]
+	~dev-python/towncrier-19.2.0[${PYTHON_USEDEP}]
 	dev-python/pyautoversion[${PYTHON_USEDEP}]
 	dev-python/pdoc3[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyter-core[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jupyter-core-4.11.1[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYaml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

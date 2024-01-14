@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/os-client-config[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
-	dev-python/openstacksdk[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pbr-1.6[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/os-client-config-1.13.1[${PYTHON_USEDEP}]
+	<=dev-python/keystoneauth1-3.4.0[${PYTHON_USEDEP}]
+	<=dev-python/openstacksdk-0.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	develop? ( dev-python/numpydoc[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/numpy-1.13[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.14.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.19.1[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.10.9[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.8[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.0.2[${PYTHON_USEDEP}]
+	develop? ( >=dev-python/sphinx-1.5.0[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/sphinx-rtd-theme-0.2.0[${PYTHON_USEDEP}] )
+	develop? ( >dev-python/numpydoc-0.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

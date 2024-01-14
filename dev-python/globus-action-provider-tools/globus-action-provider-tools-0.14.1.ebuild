@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="flask testing"
 DEPENDENCIES="dev-python/globus-sdk[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/pybase62[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/responses[${PYTHON_USEDEP}] )"
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/isodate-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/cachetools-6.0[${PYTHON_USEDEP}]
+	flask? ( <dev-python/flask-3.0.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/freezegun-2.0.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/responses-0.24.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

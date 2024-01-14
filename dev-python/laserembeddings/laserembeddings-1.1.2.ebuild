@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ja zh"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/subword-nmt[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sacremoses[${PYTHON_USEDEP}]
 	dev-python/transliterate[${PYTHON_USEDEP}]
 	ja? ( dev-python/mecab-python3[${PYTHON_USEDEP}] )

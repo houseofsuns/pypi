@@ -28,18 +28,18 @@ DEPENDENCIES="dev-python/ripix[${PYTHON_USEDEP}]
 	dev-python/playsoundsimple-py[${PYTHON_USEDEP}]
 	dev-python/properties-py[${PYTHON_USEDEP}]
 	dev-python/urlopen2[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	docs? ( dev-python/rich[${PYTHON_USEDEP}] )
+	>=dev-python/pillow-9.5[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-23.1[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/rich-13.0[${PYTHON_USEDEP}] )
 	dev-python/mutagen[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-3.5[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.5[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
+	>=dev-python/validators-0.20[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	build? ( dev-python/poetry[${PYTHON_USEDEP}] )
+	>=dev-python/typing-extensions-4.6[${PYTHON_USEDEP}]
+	build? ( >=dev-python/poetry-1.5[${PYTHON_USEDEP}] )
 	build? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

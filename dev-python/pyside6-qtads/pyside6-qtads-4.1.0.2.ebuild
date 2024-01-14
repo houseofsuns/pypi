@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PySide6-Essentials[${PYTHON_USEDEP}]
-	dev-python/shiboken6[${PYTHON_USEDEP}]"
+	~dev-python/shiboken6-6.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

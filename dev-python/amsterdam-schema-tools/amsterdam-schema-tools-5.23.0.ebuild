@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev django kafka tests"
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev-python/geoalchemy2[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
 	dev-python/pg-grant[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/deepdiff[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/shapely-1.8.0[${PYTHON_USEDEP}]
 	dev-python/python-string-utils[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-environ[${PYTHON_USEDEP}] )
-	django? ( dev-python/django[${PYTHON_USEDEP}] )
+	django? ( <dev-python/django-4.2[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-gisserver[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-environ[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-db-comments[${PYTHON_USEDEP}] )
@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	tests? ( dev-python/flake8-logging-format[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-django-4.7.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-sqlalchemy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

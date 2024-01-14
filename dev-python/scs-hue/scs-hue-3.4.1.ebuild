@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/paho-mqtt-1.5.0[${PYTHON_USEDEP}]
+	~dev-python/pytz-2020.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	~dev-python/setuptools-50.3.0[${PYTHON_USEDEP}]
+	~dev-python/tzlocal-2.1[${PYTHON_USEDEP}]
 	dev-python/scs-core[${PYTHON_USEDEP}]
 	dev-python/scs-host-posix[${PYTHON_USEDEP}]
 	dev? ( dev-python/pypandoc[${PYTHON_USEDEP}] )"

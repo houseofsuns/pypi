@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/aicsimageio[${PYTHON_USEDEP}]
 	dev-python/npy2bdv[${PYTHON_USEDEP}]
 	dev-python/redlionfish[${PYTHON_USEDEP}]
 	dev-python/tifffile[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2022.8.2[${PYTHON_USEDEP}]
 	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/allianceauth-app-utils[${PYTHON_USEDEP}]
 	dev-python/django-eveuniverse[${PYTHON_USEDEP}]
 	dev-python/django-multiselectfield[${PYTHON_USEDEP}]
 	dev-python/django-navhelper[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>dev-python/pytz-2022.2[${PYTHON_USEDEP}]
 	dev-python/redis-simple-mq[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]"
+	>=dev-python/humanize-4.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="requirements requirements_dev requirements_test"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/segno[${PYTHON_USEDEP}]
-	requirements? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	requirements? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	requirements? ( dev-python/segno[${PYTHON_USEDEP}] )
+DEPENDENCIES=">dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
+	>dev-python/orjson-3.9[${PYTHON_USEDEP}]
+	>=dev-python/segno-1.5.2[${PYTHON_USEDEP}]
+	requirements? ( ~dev-python/aiohttp-3.9[${PYTHON_USEDEP}] )
+	requirements? ( ~dev-python/orjson-3.9.5[${PYTHON_USEDEP}] )
+	requirements? ( ~dev-python/segno-1.6.0[${PYTHON_USEDEP}] )
 	requirements_dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	requirements_test? ( dev-python/aioresponses[${PYTHON_USEDEP}] )
-	requirements_test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	requirements_test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	requirements_test? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
-	requirements_test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	requirements_test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	requirements_test? ( ~dev-python/aioresponses-0.7.6[${PYTHON_USEDEP}] )
+	requirements_test? ( ~dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )
+	requirements_test? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	requirements_test? ( ~dev-python/pytest-aiohttp-1.0.5[${PYTHON_USEDEP}] )
+	requirements_test? ( ~dev-python/pytest-asyncio-0.23.2[${PYTHON_USEDEP}] )
+	requirements_test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	requirements_test? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	requirements_test? ( dev-python/trustme[${PYTHON_USEDEP}] )
+	requirements_test? ( ~dev-python/trustme-1.1.0[${PYTHON_USEDEP}] )
 	requirements_test? ( dev-python/types-orjson[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

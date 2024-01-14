@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/bavard-ml-common[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/keras-tuner[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.5.3[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.7.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
@@ -37,6 +37,6 @@ DEPENDENCIES="dev-python/bavard-ml-common[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/uncertainty-metrics[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]"
+	~dev-python/uvicorn-0.13.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

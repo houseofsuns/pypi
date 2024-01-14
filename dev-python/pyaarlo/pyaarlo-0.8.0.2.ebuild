@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/pycryptodome[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/cloudscraper[${PYTHON_USEDEP}]
+	>=dev-python/cloudscraper-1.2.71[${PYTHON_USEDEP}]
 	dev-python/paho-mqtt[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

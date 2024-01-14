@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
-	segmentation? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	segmentation? ( >=dev-python/numpy-1.26[${PYTHON_USEDEP}] )
 	segmentation? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	segmentation? ( dev-python/pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

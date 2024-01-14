@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="documentation google testing"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/Wagtail[${PYTHON_USEDEP}]
-	dev-python/polib[${PYTHON_USEDEP}]
+	<dev-python/polib-2.0[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
-	documentation? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
+	documentation? ( ~dev-python/mkdocs-1.4.3[${PYTHON_USEDEP}] )
+	documentation? ( <dev-python/mkdocs-material-10.0[${PYTHON_USEDEP}] )
+	documentation? ( ~dev-python/mkdocstrings-0.22.0[${PYTHON_USEDEP}] )
+	documentation? ( <dev-python/mkdocs-autorefs-0.5[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	documentation? ( <dev-python/pygments-2.16[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-translate[${PYTHON_USEDEP}] )
-	testing? ( dev-python/dj-database-url[${PYTHON_USEDEP}] )
-	testing? ( dev-python/freezegun[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/dj-database-url-3.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/freezegun-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/django-rq[${PYTHON_USEDEP}] )
 	testing? ( dev-python/google-cloud-translate[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"

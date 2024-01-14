@@ -24,42 +24,42 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="dev-python/aniso8601[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aniso8601-0.82[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	>dev-python/werkzeug-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev? ( dev-python/blinker[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Faker[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/Faker-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-profiling[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tzlocal[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	doc? ( dev-python/alabaster[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-issues-3.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/blinker[${PYTHON_USEDEP}] )
-	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/Faker-2.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-profiling[${PYTHON_USEDEP}] )
 	test? ( dev-python/tzlocal[${PYTHON_USEDEP}] )
 	test? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	test? ( dev-python/twine[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/twine-3.8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/setuptools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

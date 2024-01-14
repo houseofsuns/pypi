@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev fs platform sandbox streams"
-DEPENDENCIES="dev-python/croniter[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/croniter-2.0.1[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/django-cors-headers[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
+	~dev-python/django-cors-headers-4.3.1[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/polyaxon[${PYTHON_USEDEP}]
 	dev-python/traceml[${PYTHON_USEDEP}]
@@ -35,31 +35,31 @@ DEPENDENCIES="dev-python/croniter[${PYTHON_USEDEP}]
 	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )
 	fs? ( dev-python/adlfs[${PYTHON_USEDEP}] )
-	fs? ( dev-python/fsspec[${PYTHON_USEDEP}] )
+	fs? ( ~dev-python/fsspec-2023.12.2[${PYTHON_USEDEP}] )
 	fs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	fs? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	platform? ( dev-python/celery[${PYTHON_USEDEP}] )
-	platform? ( dev-python/psycopg[${PYTHON_USEDEP}] )
+	platform? ( ~dev-python/psycopg-3.1.12[${PYTHON_USEDEP}] )
 	platform? ( dev-python/psycopg-binary[${PYTHON_USEDEP}] )
-	platform? ( dev-python/redis[${PYTHON_USEDEP}] )
+	platform? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/whitenoise[${PYTHON_USEDEP}] )
-	sandbox? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	sandbox? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	sandbox? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	sandbox? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
+	sandbox? ( ~dev-python/fsspec-2023.12.2[${PYTHON_USEDEP}] )
+	sandbox? ( ~dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )
+	sandbox? ( ~dev-python/uvloop-0.19.0[${PYTHON_USEDEP}] )
+	sandbox? ( ~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/kubernetes-asyncio[${PYTHON_USEDEP}] )
-	sandbox? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	sandbox? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
-	sandbox? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	sandbox? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	streams? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	streams? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	streams? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	streams? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
+	sandbox? ( >=dev-python/nbconvert-6.5.0[${PYTHON_USEDEP}] )
+	sandbox? ( ~dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}] )
+	sandbox? ( <=dev-python/pandas-2.1.3[${PYTHON_USEDEP}] )
+	sandbox? ( <dev-python/pyarrow-14.1[${PYTHON_USEDEP}] )
+	streams? ( ~dev-python/fsspec-2023.12.2[${PYTHON_USEDEP}] )
+	streams? ( ~dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )
+	streams? ( ~dev-python/uvloop-0.19.0[${PYTHON_USEDEP}] )
+	streams? ( ~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}] )
 	streams? ( dev-python/kubernetes-asyncio[${PYTHON_USEDEP}] )
-	streams? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	streams? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
-	streams? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	streams? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"
+	streams? ( >=dev-python/nbconvert-6.5.0[${PYTHON_USEDEP}] )
+	streams? ( ~dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}] )
+	streams? ( <=dev-python/pandas-2.1.3[${PYTHON_USEDEP}] )
+	streams? ( <dev-python/pyarrow-14.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

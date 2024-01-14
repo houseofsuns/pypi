@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="build dev"
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/ulid-py[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )

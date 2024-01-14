@@ -28,9 +28,9 @@ DEPENDENCIES="redis? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	all? ( dev-python/aioredis[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	websockets? ( dev-python/websockets[${PYTHON_USEDEP}] )
-	all? ( dev-python/websockets[${PYTHON_USEDEP}] )"
+	jupyter? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
+	websockets? ( <dev-python/websockets-11.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/websockets-11.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

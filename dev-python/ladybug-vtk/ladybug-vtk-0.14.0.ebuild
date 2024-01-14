@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/ladybug-core[${PYTHON_USEDEP}]
 	dev-python/ladybug-display-schema[${PYTHON_USEDEP}]
 	dev-python/ladybug-display[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

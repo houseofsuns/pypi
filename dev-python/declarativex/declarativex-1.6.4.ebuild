@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="brotli graphql http2"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	http2? ( dev-python/h2[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	http2? ( ~dev-python/h2-0.0[${PYTHON_USEDEP}] )
 	brotli? ( dev-python/brotli[${PYTHON_USEDEP}] )
-	brotli? ( dev-python/brotlicffi[${PYTHON_USEDEP}] )
+	brotli? ( ~dev-python/brotlicffi-0.0[${PYTHON_USEDEP}] )
 	graphql? ( dev-python/graphql-py[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

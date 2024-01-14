@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tomli-w[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/odb-plotter[${PYTHON_USEDEP}] )
 	plot? ( dev-python/pyvista[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

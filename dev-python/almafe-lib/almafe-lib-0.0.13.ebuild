@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="oracle"
-DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python[${PYTHON_USEDEP}]
 	oracle? ( dev-python/cx-oracle[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

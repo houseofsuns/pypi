@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pyodbc vertica-python"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.1.11[${PYTHON_USEDEP}]
 	pyodbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	vertica-python? ( dev-python/vertica-python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

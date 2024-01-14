@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="test? ( dev-python/atomicwrites[${PYTHON_USEDEP}] )
-	test? ( dev-python/attrs[${PYTHON_USEDEP}] )
+DEPENDENCIES="test? ( >=dev-python/atomicwrites-1.3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/attrs-19.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
-	test? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	test? ( dev-python/py[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/six[${PYTHON_USEDEP}] )
-	test? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/coverage-4.5.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/more-itertools-7.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pluggy-0.11.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/py-1.8.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.12.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/six-1.12.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/uvloop-0.14.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

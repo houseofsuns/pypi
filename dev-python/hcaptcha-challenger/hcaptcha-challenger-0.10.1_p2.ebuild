@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="istock playwright selenium sentinel server"
 DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
@@ -36,16 +36,16 @@ DEPENDENCIES="dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	selenium? ( dev-python/undetected-chromedriver[${PYTHON_USEDEP}] )
 	selenium? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )
 	selenium? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	playwright? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	sentinel? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	server? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	sentinel? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
-	server? ( dev-python/PyGithub[${PYTHON_USEDEP}] )
+	sentinel? ( <dev-python/PyGithub-2.0.0[${PYTHON_USEDEP}] )
+	server? ( <dev-python/PyGithub-2.0.0[${PYTHON_USEDEP}] )
 	istock? ( dev-python/istockphoto[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"

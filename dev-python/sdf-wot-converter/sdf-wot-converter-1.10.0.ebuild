@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/jsonpointer[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
+	<dev-python/jsonpointer-3.0[${PYTHON_USEDEP}]
 	dev-python/json-merge-patch[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]"
+	<dev-python/validators-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

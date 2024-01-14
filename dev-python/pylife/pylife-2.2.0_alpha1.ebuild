@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all analysis docs extras pymc testing tsfresh"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
+	>dev-python/h5py-3.7.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/cython[${PYTHON_USEDEP}]
 	all? ( dev-python/tsfresh[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymc[${PYTHON_USEDEP}] )
 	all? ( dev-python/bambi[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( <dev-python/numpy-1.26[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	docs? ( dev-python/trame[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/ipython-8.17.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/xvfbwrapper[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ansys-mapdl-reader[${PYTHON_USEDEP}] )
@@ -56,7 +56,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	extras? ( dev-python/ansys-mapdl-reader[${PYTHON_USEDEP}] )
 	pymc? ( dev-python/pymc[${PYTHON_USEDEP}] )
 	pymc? ( dev-python/bambi[${PYTHON_USEDEP}] )
-	pymc? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	pymc? ( <dev-python/numpy-1.26[${PYTHON_USEDEP}] )
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	testing? ( dev-python/testbook[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	testing? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/ipython-8.17.0[${PYTHON_USEDEP}] )
 	tsfresh? ( dev-python/tsfresh[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

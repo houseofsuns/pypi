@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev elastic elastic-apm fastapi rabbitmq redis rich slack sqlalchemy"
 DEPENDENCIES="dev-python/meiga[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/loguru-1.0[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
+	<dev-python/validators-1.0.0[${PYTHON_USEDEP}]
 	dev-python/deprecation[${PYTHON_USEDEP}]
 	dev? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	elastic? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
+	elastic? ( <dev-python/elasticsearch-9.0.0[${PYTHON_USEDEP}] )
 	elastic? ( dev-python/elastic-apm[${PYTHON_USEDEP}] )
 	elastic-apm? ( dev-python/elastic-apm[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	rabbitmq? ( dev-python/pika[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	rabbitmq? ( ~dev-python/pika-1.3.2[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
 	rich? ( dev-python/rich[${PYTHON_USEDEP}] )
 	slack? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	sqlalchemy? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -33,8 +33,8 @@ DEPENDENCIES="dev-python/azure-common[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-resource[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-storage[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.26.135[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.29.135[${PYTHON_USEDEP}]
 	dev-python/google-api-core[${PYTHON_USEDEP}]
 	dev-python/google-api-python-client[${PYTHON_USEDEP}]
 	dev-python/httplib2[${PYTHON_USEDEP}]
@@ -47,6 +47,6 @@ DEPENDENCIES="dev-python/azure-common[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/pyopenssl[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	<dev-python/urllib3-1.27[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

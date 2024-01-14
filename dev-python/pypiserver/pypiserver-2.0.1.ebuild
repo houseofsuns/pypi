@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cache passlib"
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pip-7.0[${PYTHON_USEDEP}]
 	cache? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	passlib? ( dev-python/passlib[${PYTHON_USEDEP}] )"
+	passlib? ( >=dev-python/passlib-1.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="code_style rtd testing"
-DEPENDENCIES="testing? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+DEPENDENCIES="testing? ( >=dev-python/ipywidgets-8.0[${PYTHON_USEDEP}] )
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/jupyter-cache[${PYTHON_USEDEP}]
 	dev-python/nbclient[${PYTHON_USEDEP}]
-	dev-python/myst-parser[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
+	>=dev-python/myst-parser-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/nbformat-5.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-5.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/ipykernel[${PYTHON_USEDEP}]
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -40,7 +40,7 @@ DEPENDENCIES="testing? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/altair[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/coconut[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	rtd? ( <dev-python/ipykernel-7.0[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -52,19 +52,19 @@ DEPENDENCIES="testing? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sympy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	testing? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	testing? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/ipykernel-7.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/ipython-8.17[${PYTHON_USEDEP}] )
 	testing? ( dev-python/jupytext[${PYTHON_USEDEP}] )
-	testing? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/matplotlib-3.7[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nbdime[${PYTHON_USEDEP}] )
 	testing? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-7.1[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-param-files[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sympy[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/pytest-param-files-0.3.3[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/sympy-1.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

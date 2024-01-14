@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/black[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/black-23.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/callee[${PYTHON_USEDEP}] )
 	dev? ( dev-python/maturin[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mike[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/mkdocs-autorefs-0.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-material-9.4.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

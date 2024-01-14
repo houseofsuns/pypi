@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async dev docs examples"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	async? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
+	async? ( ~dev-python/aiosqlite-0.19.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.4.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.21.2[${PYTHON_USEDEP}] )
 	examples? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	examples? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	examples? ( ~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

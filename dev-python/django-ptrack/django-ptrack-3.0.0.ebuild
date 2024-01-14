@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="legacy"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
+	>=dev-python/pynacl-1.0.1[${PYTHON_USEDEP}]
 	legacy? ( dev-python/pycrypto[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

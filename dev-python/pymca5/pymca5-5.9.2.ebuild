@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>dev-python/matplotlib-1.0[${PYTHON_USEDEP}]
 	dev-python/fisx[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

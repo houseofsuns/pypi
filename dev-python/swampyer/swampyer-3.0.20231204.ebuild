@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cbor msgpack websockets"
-DEPENDENCIES="dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/websocket-client-0.59.0[${PYTHON_USEDEP}]
+	<dev-python/six-2.0.0[${PYTHON_USEDEP}]
 	cbor? ( dev-python/cbor[${PYTHON_USEDEP}] )
 	all? ( dev-python/cbor[${PYTHON_USEDEP}] )
-	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	all? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	websockets? ( dev-python/websockets[${PYTHON_USEDEP}] )
-	all? ( dev-python/websockets[${PYTHON_USEDEP}] )
-	dev-python/certifi[${PYTHON_USEDEP}]"
+	msgpack? ( <dev-python/msgpack-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/msgpack-2.0.0[${PYTHON_USEDEP}] )
+	websockets? ( <dev-python/websockets-12.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/websockets-12.0.0[${PYTHON_USEDEP}] )
+	<dev-python/certifi-2024.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

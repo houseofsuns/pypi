@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/bech32[${PYTHON_USEDEP}]
 	dev-python/secp256k1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -27,10 +27,10 @@ IUSE="test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/bleach[${PYTHON_USEDEP}]
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-django-4.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pythonpath[${PYTHON_USEDEP}] )
 	test? ( dev-python/dj-database-url[${PYTHON_USEDEP}] )
 	test? ( dev-python/testing-postgresql[${PYTHON_USEDEP}] )

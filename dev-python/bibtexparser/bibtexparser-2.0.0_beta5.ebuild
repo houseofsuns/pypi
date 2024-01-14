@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs lint test"
-DEPENDENCIES="dev-python/pylatexenc[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pylatexenc-2.10[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/docstr-coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )

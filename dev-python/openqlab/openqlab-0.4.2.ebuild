@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hdf visa"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/wcwidth[${PYTHON_USEDEP}]
-	hdf? ( dev-python/tables[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-7.0[${PYTHON_USEDEP}]
+	<dev-python/typeguard-3.0[${PYTHON_USEDEP}]
+	<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-1.0[${PYTHON_USEDEP}]
+	<dev-python/wcwidth-0.3.0[${PYTHON_USEDEP}]
+	hdf? ( <dev-python/tables-4.0[${PYTHON_USEDEP}] )
 	visa? ( dev-python/pyvisa-py[${PYTHON_USEDEP}] )
 	visa? ( dev-python/PyVISA[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test testinfra"
-DEPENDENCIES="dev-python/ansible-compat[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ansible-compat-4.1.8[${PYTHON_USEDEP}]
 	dev-python/ansible-core[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-help-colors[${PYTHON_USEDEP}]
-	dev-python/enrich[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	>=dev-python/click-help-colors-0.9[${PYTHON_USEDEP}]
+	>=dev-python/enrich-1.2.7[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.9.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
+	<dev-python/pluggy-2.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/wcmatch[${PYTHON_USEDEP}]
-	docs? ( dev-python/mkdocs-ansible[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
+	>=dev-python/rich-9.5.1[${PYTHON_USEDEP}]
+	>=dev-python/wcmatch-8.1.2[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/mkdocs-ansible-0.2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pipdeptree-2.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/linkchecker[${PYTHON_USEDEP}] )
 	test? ( dev-python/ansible-lint[${PYTHON_USEDEP}] )
-	test? ( dev-python/ansi2html[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pexpect[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-plus[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/ansi2html-1.8.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-7.0.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/filelock-3.9.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pexpect-5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-plus-0.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-3.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/check-jsonschema[${PYTHON_USEDEP}] )
-	testinfra? ( dev-python/pytest-testinfra[${PYTHON_USEDEP}] )"
+	testinfra? ( >=dev-python/pytest-testinfra-8.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

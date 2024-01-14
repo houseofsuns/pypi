@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="graph"
-DEPENDENCIES="graph? ( dev-python/objgraph[${PYTHON_USEDEP}] )"
+DEPENDENCIES="graph? ( >=dev-python/objgraph-1.7.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

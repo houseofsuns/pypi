@@ -28,17 +28,17 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/boto-session-manager[${PYTHON_USEDEP}]
 	dev-python/aws-arns[${PYTHON_USEDEP}]
 	dev-python/aws-console-url[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	<dev-python/colorama-1.0.0[${PYTHON_USEDEP}]
 	dev-python/light-emoji[${PYTHON_USEDEP}]
 	dev-python/iterproxy[${PYTHON_USEDEP}]
 	dev-python/func-args[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-inline-tabs-2021.8.17[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/rstobj[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docfly[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2021.8.31[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/moto[${PYTHON_USEDEP}] )

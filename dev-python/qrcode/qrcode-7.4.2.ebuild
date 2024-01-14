@@ -30,12 +30,12 @@ DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	all? ( dev-python/tox[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pillow-9.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	maintainer? ( dev-python/zest-releaser[${PYTHON_USEDEP}] )
-	pil? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	pil? ( >=dev-python/pillow-9.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

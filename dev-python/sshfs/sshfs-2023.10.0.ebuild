@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bcrypt fido2 gssapi libnacl pkcs11 pyopenssl pywin32"
-DEPENDENCIES="dev-python/fsspec[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/fsspec-2021.8.1[${PYTHON_USEDEP}]
 	dev-python/asyncssh[${PYTHON_USEDEP}]
 	bcrypt? ( dev-python/asyncssh[${PYTHON_USEDEP}] )
 	fido2? ( dev-python/asyncssh[${PYTHON_USEDEP}] )

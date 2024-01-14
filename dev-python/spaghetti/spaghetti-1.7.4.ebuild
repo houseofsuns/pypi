@@ -27,9 +27,9 @@ IUSE="dev docs nb_conda nb_pypi plus tests"
 DEPENDENCIES="dev-python/esda[${PYTHON_USEDEP}]
 	dev-python/libpysal[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/rtree[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/esda[${PYTHON_USEDEP}]
 	nb_pypi? ( dev-python/mip[${PYTHON_USEDEP}] )
 	nb_pypi? ( dev-python/ortools[${PYTHON_USEDEP}] )
 	plus? ( dev-python/geopandas[${PYTHON_USEDEP}] )
-	plus? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	plus? ( >=dev-python/shapely-2.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )

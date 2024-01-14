@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/sgqlc[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
+	<dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/jmespath-0.11.0[${PYTHON_USEDEP}]
 	dev-python/PyHamcrest[${PYTHON_USEDEP}]
-	dev-python/python-utils[${PYTHON_USEDEP}]
+	<dev-python/python-utils-3.0.0[${PYTHON_USEDEP}]
 	dev-python/beeprint[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]"
+	<dev-python/Faker-10.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

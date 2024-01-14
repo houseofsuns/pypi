@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/cryptography-38.0.3[${PYTHON_USEDEP}]
+	~dev-python/keyring-23.11.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

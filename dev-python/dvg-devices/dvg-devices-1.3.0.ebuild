@@ -30,9 +30,9 @@ DEPENDENCIES="dev-python/dvg-debug-functions[${PYTHON_USEDEP}]
 	dev-python/dvg-pyqt-filelogger[${PYTHON_USEDEP}]
 	dev-python/dvg-pyqtgraph-threadsafe[${PYTHON_USEDEP}]
 	dev-python/dvg-qdeviceio[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.1[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.15[${PYTHON_USEDEP}]
+	~dev-python/pyserial-3.4[${PYTHON_USEDEP}]
 	dev-python/pyvisa[${PYTHON_USEDEP}]
 	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )

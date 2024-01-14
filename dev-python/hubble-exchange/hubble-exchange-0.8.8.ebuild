@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/web3[${PYTHON_USEDEP}]
 	dev-python/eth-typing[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

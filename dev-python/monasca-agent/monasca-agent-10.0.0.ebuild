@@ -26,43 +26,43 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cert_file_check influxdb influxdb_relay kafka_plugin libvirt ovs prometheus swift_handoffs test"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/eventlet[${PYTHON_USEDEP}]
-	dev-python/httplib2[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
+	>=dev-python/httplib2-0.9.1[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-3.3.0[${PYTHON_USEDEP}]
 	dev-python/monasca-common[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/ntplib[${PYTHON_USEDEP}]
-	dev-python/oslo-concurrency[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-i18n[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
+	>=dev-python/netaddr-0.7.18[${PYTHON_USEDEP}]
+	<dev-python/ntplib-0.4[${PYTHON_USEDEP}]
+	>=dev-python/oslo-concurrency-3.25.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-i18n-3.15.3[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.33.0[${PYTHON_USEDEP}]
 	dev-python/oslo-vmware[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
-	dev-python/python-memcached[${PYTHON_USEDEP}]
+	>=dev-python/psutil-3.2.2[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-3.0.2[${PYTHON_USEDEP}]
+	>=dev-python/python-keystoneclient-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/python-memcached-1.56[${PYTHON_USEDEP}]
 	dev-python/python-monascaclient[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	cert_file_check? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	>=dev-python/redis-2.10.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/tornado-4.5.3[${PYTHON_USEDEP}]
+	cert_file_check? ( >=dev-python/cryptography-2.1[${PYTHON_USEDEP}] )
 	influxdb? ( dev-python/toml[${PYTHON_USEDEP}] )
 	influxdb_relay? ( dev-python/toml[${PYTHON_USEDEP}] )
 	kafka_plugin? ( dev-python/monasca-common[${PYTHON_USEDEP}] )
-	libvirt? ( dev-python/libvirt-python[${PYTHON_USEDEP}] )
-	libvirt? ( dev-python/python-neutronclient[${PYTHON_USEDEP}] )
-	libvirt? ( dev-python/python-novaclient[${PYTHON_USEDEP}] )
-	ovs? ( dev-python/python-neutronclient[${PYTHON_USEDEP}] )
-	ovs? ( dev-python/python-novaclient[${PYTHON_USEDEP}] )
+	libvirt? ( >=dev-python/libvirt-python-3.5.0[${PYTHON_USEDEP}] )
+	libvirt? ( >=dev-python/python-neutronclient-6.3.0[${PYTHON_USEDEP}] )
+	libvirt? ( >=dev-python/python-novaclient-9.1.0[${PYTHON_USEDEP}] )
+	ovs? ( >=dev-python/python-neutronclient-6.3.0[${PYTHON_USEDEP}] )
+	ovs? ( >=dev-python/python-novaclient-9.1.0[${PYTHON_USEDEP}] )
 	prometheus? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
 	swift_handoffs? ( dev-python/swift[${PYTHON_USEDEP}] )
-	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/bandit-1.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/docutils-0.11[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/freezegun-0.3.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
-	test? ( dev-python/oslotest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/oslotest-3.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/stestr-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

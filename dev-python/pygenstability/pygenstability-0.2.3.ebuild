@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all leiden networkx plotly"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/cmake[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pybind11[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.45.0[${PYTHON_USEDEP}]
+	>=dev-python/pybind11-2.10.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	dev-python/threadpoolctl[${PYTHON_USEDEP}]
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/plotly-3.6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	all? ( dev-python/dictdiffer[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
 	all? ( dev-python/diff-pdf-visually[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	all? ( >dev-python/ipython-8.7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/igraph[${PYTHON_USEDEP}] )
 	all? ( dev-python/leidenalg[${PYTHON_USEDEP}] )
-	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/networkx-3.0[${PYTHON_USEDEP}] )
 	leiden? ( dev-python/igraph[${PYTHON_USEDEP}] )
 	leiden? ( dev-python/leidenalg[${PYTHON_USEDEP}] )
-	networkx? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	plotly? ( dev-python/plotly[${PYTHON_USEDEP}] )"
+	networkx? ( >=dev-python/networkx-3.0[${PYTHON_USEDEP}] )
+	plotly? ( >=dev-python/plotly-3.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

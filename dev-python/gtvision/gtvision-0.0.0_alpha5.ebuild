@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/coola[${PYTHON_USEDEP}]
 	dev-python/gravitorch[${PYTHON_USEDEP}]
 	dev-python/hya[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/objectory[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
-	all? ( dev-python/colorlog[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/colorlog-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

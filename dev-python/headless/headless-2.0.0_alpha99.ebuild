@@ -27,18 +27,18 @@ IUSE="aiohttp all httpx oidc-server picqer xml"
 DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/canonical[${PYTHON_USEDEP}]
 	dev-python/ckms[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/inflect[${PYTHON_USEDEP}]
 	all? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	all? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	oidc-server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	oidc-server? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	oidc-server? ( >=dev-python/pydantic-2.4.2[${PYTHON_USEDEP}] )
 	picqer? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	xml? ( dev-python/lxml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

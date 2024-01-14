@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="notebook test"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/dagster[${PYTHON_USEDEP}]
 	dev-python/dagster-graphql[${PYTHON_USEDEP}]
 	dev-python/starlette[${PYTHON_USEDEP}]

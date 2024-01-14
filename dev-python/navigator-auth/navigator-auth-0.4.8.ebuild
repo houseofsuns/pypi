@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyNaCl[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
+	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
 	dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/asyncdb[${PYTHON_USEDEP}]
 	dev-python/navconfig[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.15.0[${PYTHON_USEDEP}]
 	dev-python/rncryptor[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
 	dev-python/aiogoogle[${PYTHON_USEDEP}]
 	dev-python/okta-jwt-verifier[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/aiohttp-cors[${PYTHON_USEDEP}]
+	~dev-python/python-slugify-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-cors-0.7.0[${PYTHON_USEDEP}]
 	dev-python/navigator-session[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]"
+	~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

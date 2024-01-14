@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="psycopg2 psycopg2-binary s3"
 DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/configly[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	dev-python/strapp[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0.0[${PYTHON_USEDEP}]
 	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	psycopg2? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	psycopg2-binary? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )"

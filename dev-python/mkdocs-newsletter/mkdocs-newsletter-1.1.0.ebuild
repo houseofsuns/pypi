@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-1.2.3[${PYTHON_USEDEP}]
 	dev-python/mkdocs-section-index[${PYTHON_USEDEP}]
 	dev-python/mkdocs-autolinks-plugin[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/python-semantic-release[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material[${PYTHON_USEDEP}]
-	dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}]"
+	>=dev-python/deepdiff-5.7.0[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-material-8.2.5[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-git-revision-date-localized-plugin-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

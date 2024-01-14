@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-util-http[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	instruments? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]
+	instruments? ( ~dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/http-server-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-aiohttp-client[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

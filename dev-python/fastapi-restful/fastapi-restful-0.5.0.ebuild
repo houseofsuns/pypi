@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all session"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	session? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
+	session? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )
 	all? ( dev-python/typing-inspect[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/s3transfer[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/botocore-1.34.18[${PYTHON_USEDEP}]
+	<dev-python/docutils-0.17[${PYTHON_USEDEP}]
+	<dev-python/s3transfer-0.11.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]"
+	<dev-python/colorama-0.4.5[${PYTHON_USEDEP}]
+	<dev-python/rsa-4.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

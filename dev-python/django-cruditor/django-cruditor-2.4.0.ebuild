@@ -27,7 +27,7 @@ IUSE="docs"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/django-tapeforms[${PYTHON_USEDEP}] )
-	docs? ( dev-python/django-tables2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/django-filter[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/django-tables2-2.4.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/django-filter-21.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

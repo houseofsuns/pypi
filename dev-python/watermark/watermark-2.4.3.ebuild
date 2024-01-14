@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gpu"
-DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipython-6.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-1.4[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	gpu? ( dev-python/py3nvml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

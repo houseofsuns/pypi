@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev"
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/anki[${PYTHON_USEDEP}]
-	dev-python/colour[${PYTHON_USEDEP}]
+	~dev-python/colour-0.1.5[${PYTHON_USEDEP}]
 	dev-python/genanki[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
+	~dev-python/graphviz-0.13.2[${PYTHON_USEDEP}]
 	dev-python/orgparse[${PYTHON_USEDEP}]
 	dev-python/pypandoc[${PYTHON_USEDEP}]
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/ipdb-0.13.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/ipdb-0.13.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

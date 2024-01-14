@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/authlib[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]"
+	<dev-python/starlette-0.36[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

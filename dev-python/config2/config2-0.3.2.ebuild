@@ -30,12 +30,12 @@ DEPENDENCIES="dev-python/colour-runner[${PYTHON_USEDEP}]
 	dev-python/attributedict[${PYTHON_USEDEP}]
 	dev-python/inspecta[${PYTHON_USEDEP}]
 	dev-python/mybad[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
+	>=dev-python/deepmerge-0.0.5[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
+	>=dev-python/deepdiff-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/tox-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/coverage-4.5.2[${PYTHON_USEDEP}]
 	dev-python/codecov[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

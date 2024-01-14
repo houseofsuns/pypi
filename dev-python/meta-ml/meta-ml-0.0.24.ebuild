@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all experiments sklearn tasks"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
+	~dev-python/dill-0.3.1.1[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.0.5[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	all? ( dev-python/kaggle[${PYTHON_USEDEP}] )

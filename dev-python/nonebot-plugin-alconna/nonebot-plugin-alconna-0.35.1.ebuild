@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/arclet-alconna[${PYTHON_USEDEP}]
 	dev-python/arclet-alconna-tools[${PYTHON_USEDEP}]
 	dev-python/nepattern[${PYTHON_USEDEP}]
 	dev-python/nonebot2[${PYTHON_USEDEP}]
-	dev-python/fleep[${PYTHON_USEDEP}]"
+	>=dev-python/fleep-1.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/croniter[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/croniter-1.3[${PYTHON_USEDEP}]
 	dev-python/python-crontab[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
+	~dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/workalendar[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.16[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mock-4.0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/gender-guesser[${PYTHON_USEDEP}]
 	dev-python/negspacy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.2[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]

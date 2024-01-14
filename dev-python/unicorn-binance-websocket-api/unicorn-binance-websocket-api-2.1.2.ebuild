@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	~dev-python/websockets-10.4[${PYTHON_USEDEP}]
 	dev-python/flask-restful[${PYTHON_USEDEP}]
 	dev-python/cheroot[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]

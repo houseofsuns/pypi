@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/simplug[${PYTHON_USEDEP}]
 	dev-python/diot[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0[${PYTHON_USEDEP}]
+	<dev-python/uvloop-1.0[${PYTHON_USEDEP}]
 	dev-python/aiopath[${PYTHON_USEDEP}]
 	dev-python/aiopath[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

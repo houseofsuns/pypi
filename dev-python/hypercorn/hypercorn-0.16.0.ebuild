@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs h3 trio uvloop"
 DEPENDENCIES="h3? ( dev-python/aioquic[${PYTHON_USEDEP}] )
-	trio? ( dev-python/exceptiongroup[${PYTHON_USEDEP}] )
+	trio? ( >=dev-python/exceptiongroup-1.1.0[${PYTHON_USEDEP}] )
 	dev-python/h11[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]
+	>=dev-python/h2-3.1.0[${PYTHON_USEDEP}]
 	dev-python/priority[${PYTHON_USEDEP}]
 	docs? ( dev-python/pydata_sphinx_theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib_mermaid[${PYTHON_USEDEP}] )
 	dev-python/taskgroup[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
-	trio? ( dev-python/trio[${PYTHON_USEDEP}] )
+	trio? ( >=dev-python/trio-0.22.0[${PYTHON_USEDEP}] )
 	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	dev-python/wsproto[${PYTHON_USEDEP}]"
+	>=dev-python/wsproto-0.14.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

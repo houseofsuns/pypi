@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="brotli cli http2 socks"
 DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/httpcore[${PYTHON_USEDEP}]
+	~dev-python/httpcore-1.0[${PYTHON_USEDEP}]
 	dev-python/idna[${PYTHON_USEDEP}]
 	dev-python/sniffio[${PYTHON_USEDEP}]
 	brotli? ( dev-python/brotli[${PYTHON_USEDEP}] )
 	brotli? ( dev-python/brotlicffi[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	cli? ( dev-python/rich[${PYTHON_USEDEP}] )
-	http2? ( dev-python/h2[${PYTHON_USEDEP}] )
-	socks? ( dev-python/socksio[${PYTHON_USEDEP}] )"
+	cli? ( ~dev-python/click-8.0[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/pygments-2.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/rich-14.0[${PYTHON_USEDEP}] )
+	http2? ( <dev-python/h2-5.0[${PYTHON_USEDEP}] )
+	socks? ( ~dev-python/socksio-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

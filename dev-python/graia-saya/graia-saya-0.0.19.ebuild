@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="broadcast scheduler"
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/loguru-1.0[${PYTHON_USEDEP}]
 	broadcast? ( dev-python/graia-broadcast[${PYTHON_USEDEP}] )
 	scheduler? ( dev-python/graia-scheduler[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

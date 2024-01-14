@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/rastermap[${PYTHON_USEDEP}]
 	dev-python/tifffile[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/cellpose[${PYTHON_USEDEP}]
 	dev-python/scanimage-tiff-reader[${PYTHON_USEDEP}]
@@ -44,13 +44,13 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/tenacity[${PYTHON_USEDEP}] )
 	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
+	all? ( >dev-python/pytest-qt-3.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	all? ( dev-python/nd2[${PYTHON_USEDEP}] )
 	all? ( dev-python/sbxreader[${PYTHON_USEDEP}] )
 	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python-headless[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )
@@ -69,6 +69,6 @@ DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	tests? ( dev-python/tenacity[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pynwb[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )"
+	tests? ( >dev-python/pytest-qt-3.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

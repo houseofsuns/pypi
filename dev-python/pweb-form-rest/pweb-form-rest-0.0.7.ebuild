@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/apispec[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/marshmallow-3.20.1[${PYTHON_USEDEP}]
+	~dev-python/apispec-6.3.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/ppy-common[${PYTHON_USEDEP}]
 	dev-python/pweb-orm[${PYTHON_USEDEP}]

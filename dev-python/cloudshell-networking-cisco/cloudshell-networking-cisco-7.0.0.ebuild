@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/cloudshell-shell-flows[${PYTHON_USEDEP}]
 	dev-python/cloudshell-snmp[${PYTHON_USEDEP}]
 	dev-python/cloudshell-snmp-autoload[${PYTHON_USEDEP}]
 	dev-python/cloudshell-cli[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]"
+	<dev-python/attrs-23.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

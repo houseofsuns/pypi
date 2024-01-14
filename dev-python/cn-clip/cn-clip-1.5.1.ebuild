@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/timm[${PYTHON_USEDEP}]
-	dev-python/lmdb[${PYTHON_USEDEP}]
+	~dev-python/lmdb-1.3.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

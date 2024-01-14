@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cssselect[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cssselect-0.7.1[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-3.0[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
-	dev-python/pyquery[${PYTHON_USEDEP}]
-	dev-python/roman[${PYTHON_USEDEP}]"
+	>=dev-python/pyquery-1.2.2[${PYTHON_USEDEP}]
+	>=dev-python/roman-1.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

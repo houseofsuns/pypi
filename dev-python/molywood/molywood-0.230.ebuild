@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/setuptools-24.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pip-9.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

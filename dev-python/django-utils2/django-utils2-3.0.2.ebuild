@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
-DEPENDENCIES="dev-python/python-utils[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-utils-3.5.2[${PYTHON_USEDEP}]
 	docs? ( dev-python/django[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mock[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.7.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )

@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
 DEPENDENCIES="dev-python/fissix[${PYTHON_USEDEP}]
-	docs? ( dev-python/alabaster[${PYTHON_USEDEP}] )
-	docs? ( dev-python/commonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mock[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	docs? ( dev-python/readthedocs-sphinx-ext[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/commonmark-0.9.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/docutils-0.16.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mock-4.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pillow-7.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/readthedocs-sphinx-ext-2.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/recommonmark-0.6.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-3.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/coverage-5.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

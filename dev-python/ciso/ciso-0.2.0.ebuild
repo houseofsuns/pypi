@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="extras"
 DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	extras? ( dev-python/gridgeo[${PYTHON_USEDEP}] )
 	extras? ( dev-python/cartopy[${PYTHON_USEDEP}] )
 	extras? ( dev-python/xarray[${PYTHON_USEDEP}] )"

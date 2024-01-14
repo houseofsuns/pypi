@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/Flask-BabelEx[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Continuum[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
-	dev-python/dictdiffer[${PYTHON_USEDEP}]
+	>=dev-python/dictdiffer-0.5.0[${PYTHON_USEDEP}]
 	dev-python/invenio-assets[${PYTHON_USEDEP}]
 	dev-python/invenio-db[${PYTHON_USEDEP}]
 	dev-python/invenio-files-rest[${PYTHON_USEDEP}]
@@ -41,31 +41,31 @@ DEPENDENCIES="dev-python/Flask-BabelEx[${PYTHON_USEDEP}]
 	dev-python/invenio-search-ui[${PYTHON_USEDEP}]
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/invenio-access[${PYTHON_USEDEP}] )
 	all? ( dev-python/invenio-accounts[${PYTHON_USEDEP}] )
 	all? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pydocstyle-1.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-1.8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/reportlab[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-3.0.4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/reportlab-3.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	elasticsearch2? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	elasticsearch5? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	elasticsearch6? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	elasticsearch7? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-access[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-accounts[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pydocstyle-1.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-1.8.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/reportlab[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-3.0.4[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/reportlab-3.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

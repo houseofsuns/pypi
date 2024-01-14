@@ -30,10 +30,10 @@ DEPENDENCIES="dev-python/sb3-contrib[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/pytablewriter[${PYTHON_USEDEP}]
 	plots? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	plots? ( dev-python/rliable[${PYTHON_USEDEP}] )
-	plots? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	plots? ( ~dev-python/scipy-1.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

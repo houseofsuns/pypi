@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="asymmetric dev doc test"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	asymmetric? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	asymmetric? ( <dev-python/cryptography-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/cryptography-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/uvicorn-0.12.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-material-6.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/markdown-include-0.6.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

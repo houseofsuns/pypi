@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
 	dev-python/testrail-api[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

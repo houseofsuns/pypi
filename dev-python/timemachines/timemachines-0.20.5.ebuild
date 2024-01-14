@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-1.7.0[${PYTHON_USEDEP}]
 	dev-python/microconventions[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/convertdate[${PYTHON_USEDEP}]

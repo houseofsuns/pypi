@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/cachecontrol[${PYTHON_USEDEP}]
-	dev-python/lockfile[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-7.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-0.25.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	~dev-python/cachecontrol-0.12.5[${PYTHON_USEDEP}]
+	~dev-python/lockfile-0.12.2[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.3[${PYTHON_USEDEP}]
+	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.32.2[${PYTHON_USEDEP}]
+	~dev-python/redis-3.3.8[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-0.15.0[${PYTHON_USEDEP}]
 	dev-python/awscli[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.9.238[${PYTHON_USEDEP}]
 	dev-python/datadog[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
 	dev-python/visidata[${PYTHON_USEDEP}]
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/aws-requests-auth[${PYTHON_USEDEP}]
 	dev-python/matomo-sdk-py[${PYTHON_USEDEP}]
 	dev-python/simple-cache[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]"
+	~dev-python/sentry-sdk-0.13.5[${PYTHON_USEDEP}]
+	~dev-python/pytest-5.2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

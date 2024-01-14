@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/uplc[${PYTHON_USEDEP}]
 	dev-python/pluthon[${PYTHON_USEDEP}]
 	dev-python/pycardano[${PYTHON_USEDEP}]
-	dev-python/frozenlist[${PYTHON_USEDEP}]"
+	<dev-python/frozenlist-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

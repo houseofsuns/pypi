@@ -27,7 +27,7 @@ IUSE="gilda llm"
 DEPENDENCIES="dev-python/SPARQLWrapper[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/airium[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/class-resolver[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/curies[${PYTHON_USEDEP}]
@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/SPARQLWrapper[${PYTHON_USEDEP}]
 	dev-python/linkml-runtime[${PYTHON_USEDEP}]
 	llm? ( dev-python/llm[${PYTHON_USEDEP}] )
 	dev-python/ndex2[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.7.1[${PYTHON_USEDEP}]
 	dev-python/ols-client[${PYTHON_USEDEP}]
 	dev-python/ontoportal-client[${PYTHON_USEDEP}]
 	dev-python/prefixmaps[${PYTHON_USEDEP}]
@@ -48,11 +48,11 @@ DEPENDENCIES="dev-python/SPARQLWrapper[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/pysolr[${PYTHON_USEDEP}]
 	dev-python/pystow[${PYTHON_USEDEP}]
-	dev-python/ratelimit[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
+	>=dev-python/ratelimit-2.2.1[${PYTHON_USEDEP}]
+	<dev-python/requests-cache-2.0.0[${PYTHON_USEDEP}]
 	dev-python/semsimian[${PYTHON_USEDEP}]
 	dev-python/semsql[${PYTHON_USEDEP}]
 	dev-python/sssom[${PYTHON_USEDEP}]
-	gilda? ( dev-python/urllib3[${PYTHON_USEDEP}] )"
+	gilda? ( <dev-python/urllib3-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

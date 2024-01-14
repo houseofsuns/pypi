@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="autogen bootstrap full google_auth heist localstack"
 DEPENDENCIES="dev-python/acct[${PYTHON_USEDEP}]
 	dev-python/dict-toolbox[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<dev-python/boto3-1.27.0[${PYTHON_USEDEP}]
 	dev-python/idem[${PYTHON_USEDEP}]
 	dev-python/pgpy[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
+	<dev-python/deepdiff-7.0.0[${PYTHON_USEDEP}]
 	dev-python/pop-serial[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	autogen? ( dev-python/pop-create-idem[${PYTHON_USEDEP}] )
 	autogen? ( dev-python/inflect[${PYTHON_USEDEP}] )
 	autogen? ( dev-python/textwrap3[${PYTHON_USEDEP}] )

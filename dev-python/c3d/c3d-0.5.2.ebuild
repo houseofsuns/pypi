@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gui"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	gui? ( dev-python/pyglet[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	gui? ( <dev-python/pyglet-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

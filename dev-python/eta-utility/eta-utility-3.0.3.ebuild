@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop eta-x examples"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.25.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
+	<dev-python/xlrd-3.0.0[${PYTHON_USEDEP}]
 	dev-python/opcua[${PYTHON_USEDEP}]
 	dev-python/asyncua-fork-for-eta-utility[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pymodbustcp[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	dev-python/fmpy[${PYTHON_USEDEP}]
 	develop? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
 	eta-x? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
@@ -46,33 +46,33 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	eta-x? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pyomo[${PYTHON_USEDEP}] )
 	eta-x? ( dev-python/pyomo[${PYTHON_USEDEP}] )
-	develop? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	examples? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}] )
+	examples? ( <dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/keyboard[${PYTHON_USEDEP}] )
 	examples? ( dev-python/keyboard[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pygame[${PYTHON_USEDEP}] )
-	examples? ( dev-python/pygame[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pyglet[${PYTHON_USEDEP}] )
-	examples? ( dev-python/pyglet[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pygame-3.0.0[${PYTHON_USEDEP}] )
+	examples? ( <dev-python/pygame-3.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pyglet-2.0[${PYTHON_USEDEP}] )
+	examples? ( <dev-python/pyglet-2.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	examples? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	develop? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	develop? ( dev-python/black[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/black-23.8[${PYTHON_USEDEP}] )
 	develop? ( dev-python/blacken_docs[${PYTHON_USEDEP}] )
-	develop? ( dev-python/isort[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pyupgrade[${PYTHON_USEDEP}] )
-	develop? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/isort-5.13[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pyupgrade-3.11[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/mypy-1.6[${PYTHON_USEDEP}] )
 	develop? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	develop? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pyflakes-3.2[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pycodestyle-2.12.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8-eradicate[${PYTHON_USEDEP}] )

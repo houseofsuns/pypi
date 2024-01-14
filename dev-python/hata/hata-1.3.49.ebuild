@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all autoreload cpythonspeedups profiling relativedelta voice"
 DEPENDENCIES="dev-python/scarletio[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+	>=dev-python/chardet-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )
-	all? ( dev-python/cchardet[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/cchardet-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/inotify-simple[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/python-dateutil-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/snakeviz[${PYTHON_USEDEP}] )
 	all? ( dev-python/yappi[${PYTHON_USEDEP}] )
 	autoreload? ( dev-python/inotify-simple[${PYTHON_USEDEP}] )
-	cpythonspeedups? ( dev-python/cchardet[${PYTHON_USEDEP}] )
+	cpythonspeedups? ( >=dev-python/cchardet-2.0[${PYTHON_USEDEP}] )
 	profiling? ( dev-python/snakeviz[${PYTHON_USEDEP}] )
 	profiling? ( dev-python/yappi[${PYTHON_USEDEP}] )
-	relativedelta? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
+	relativedelta? ( >=dev-python/python-dateutil-2.0[${PYTHON_USEDEP}] )
 	voice? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

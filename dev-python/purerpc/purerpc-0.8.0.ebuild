@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev grpc grpc-pypy"
-DEPENDENCIES="dev-python/h2[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/h2-4.0[${PYTHON_USEDEP}]
+	>=dev-python/anyio-3.0.0[${PYTHON_USEDEP}]
 	dev-python/async-generator[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tblib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/trio[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tblib-1.3.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/trio-0.11[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-forge[${PYTHON_USEDEP}] )
 	dev? ( dev-python/trustme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/uvloop[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
-	grpc-pypy? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	grpc-pypy? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )"
+	grpc-pypy? ( <=dev-python/grpcio-1.26[${PYTHON_USEDEP}] )
+	grpc-pypy? ( <=dev-python/grpcio-tools-1.26[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

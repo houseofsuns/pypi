@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development nuitka"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.0[${PYTHON_USEDEP}]
+	~dev-python/docutils-0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
+	>=dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
+	>=dev-python/html5lib-1.1[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pybtex[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.0[${PYTHON_USEDEP}]
+	~dev-python/pybtex-0.0[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.0[${PYTHON_USEDEP}]
 	dev-python/python-datauri[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]
 	dev-python/reqif[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/textx[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.14.0[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/xlsxwriter[${PYTHON_USEDEP}]
+	~dev-python/xlrd-2.0[${PYTHON_USEDEP}]
+	~dev-python/xlsxwriter-1.0[${PYTHON_USEDEP}]
 	development? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	development? ( dev-python/tox[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/tox-4.4.8[${PYTHON_USEDEP}] )
 	nuitka? ( dev-python/nuitka[${PYTHON_USEDEP}] )
 	nuitka? ( dev-python/ordered-set[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

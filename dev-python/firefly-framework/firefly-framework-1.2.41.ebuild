@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="openapi_generation"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiohttp-cors[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-cors-0.7.0[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/dirsync[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+	>=dev-python/inflection-0.3.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jinjasql[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/routes[${PYTHON_USEDEP}]
-	dev-python/terminaltables[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.10.3[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1.1[${PYTHON_USEDEP}]
+	>=dev-python/routes-2.4.1[${PYTHON_USEDEP}]
+	>=dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/websockets-8.0.2[${PYTHON_USEDEP}]
 	dev-python/firefly-dependency-injection[${PYTHON_USEDEP}]
-	openapi_generation? ( dev-python/apispec[${PYTHON_USEDEP}] )
+	openapi_generation? ( >=dev-python/apispec-3.3.0[${PYTHON_USEDEP}] )
 	openapi_generation? ( dev-python/docstring-parser[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

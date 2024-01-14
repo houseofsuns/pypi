@@ -28,22 +28,22 @@ DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/imjoy-rpc[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.2[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.8.2[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/python-engineio[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.17.0[${PYTHON_USEDEP}]
+	~dev-python/python-engineio-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/python-jose-3.3.0[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	jupyter? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	>=dev-python/uvicorn-0.13.4[${PYTHON_USEDEP}]
+	jupyter? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/ipykernel-5.1.4[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/imjoy-jupyter-extension[${PYTHON_USEDEP}] )
-	server-apps? ( dev-python/requests[${PYTHON_USEDEP}] )
+	server-apps? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
 	server-apps? ( dev-python/playwright[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

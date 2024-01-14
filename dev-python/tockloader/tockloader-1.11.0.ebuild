@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/crcmod[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/argcomplete-1.8.2[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.3.7[${PYTHON_USEDEP}]
+	>=dev-python/crcmod-1.7[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.15.0[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.0.1[${PYTHON_USEDEP}]
 	dev-python/siphash[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.45.0[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

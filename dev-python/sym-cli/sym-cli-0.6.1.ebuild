@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/validators[${PYTHON_USEDEP}]
+	<dev-python/sentry-sdk-0.20.0[${PYTHON_USEDEP}]
+	<dev-python/validators-0.19.0[${PYTHON_USEDEP}]
 	dev-python/analytics-python[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/click-option-group[${PYTHON_USEDEP}]
-	dev-python/immutables[${PYTHON_USEDEP}]
-	dev-python/portalocker[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
+	<dev-python/immutables-0.15[${PYTHON_USEDEP}]
+	<dev-python/portalocker-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/keyring-22.0.0[${PYTHON_USEDEP}]
 	dev-python/SecretStorage[${PYTHON_USEDEP}]
 	dev-python/policyuniverse[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/semver-3.0.0[${PYTHON_USEDEP}]
 	dev-python/sym-shared-cli[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	~dev-python/cryptography-3.4.8[${PYTHON_USEDEP}]
+	<dev-python/mistune-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

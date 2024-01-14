@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli dev docs jupyter publish test types"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	cli? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	<dev-python/blinker-2.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	cli? ( <dev-python/aiosqlite-1.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/click-9.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	cli? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jupyterlab-3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/novella[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	publish? ( dev-python/build[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/ipython-6.1.0[${PYTHON_USEDEP}] )
+	jupyter? ( >=dev-python/ipywidgets-7.0.0[${PYTHON_USEDEP}] )
+	publish? ( >=dev-python/build-1.0.0[${PYTHON_USEDEP}] )
 	publish? ( dev-python/twine[${PYTHON_USEDEP}] )
 	test? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	test? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/selenium-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )
-	types? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	types? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
 	types? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

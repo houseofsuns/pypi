@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/discid[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/discid-1.0[${PYTHON_USEDEP}]
+	~dev-python/fasteners-0.14[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
 	dev-python/mutagen[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/PyQt5-5.11[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.7[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/pyobjc-core[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Cocoa[${PYTHON_USEDEP}]"

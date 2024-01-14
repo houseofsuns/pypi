@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="inline-persistent"
 DEPENDENCIES="inline-persistent? ( dev-python/jupyter-dash[${PYTHON_USEDEP}] )
-	dev-python/plotly[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/trace-updater[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
 	inline-persistent? ( dev-python/Flask-Cors[${PYTHON_USEDEP}] )
 	inline-persistent? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	dev-python/tsdownsample[${PYTHON_USEDEP}]"

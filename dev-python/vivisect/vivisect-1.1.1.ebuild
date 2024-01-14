@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs gui"
-DEPENDENCIES="dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyasn1-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/pyasn1-modules-0.3.0[${PYTHON_USEDEP}]
 	dev-python/cxxfilt[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	<dev-python/msgpack-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pycparser-2.20[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

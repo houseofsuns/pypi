@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cvxopt cvxpy dev kvxopt"
-DEPENDENCIES="dev-python/lmfit[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/lmfit-1.0[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.6[${PYTHON_USEDEP}]
 	dev-python/numdifftools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/odfpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	~dev-python/odfpy-1.4[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.1[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5[${PYTHON_USEDEP}]
 	dev-python/schemdraw[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.10[${PYTHON_USEDEP}]
+	~dev-python/statsmodels-0.13[${PYTHON_USEDEP}]
+	~dev-python/sympy-1.11[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.9[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]
-	cvxopt? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
+	cvxopt? ( ~dev-python/cvxopt-1.3[${PYTHON_USEDEP}] )
 	cvxpy? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/setuptools-67.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-5.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.2[${PYTHON_USEDEP}] )
 	kvxopt? ( dev-python/kvxopt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
 	dev-python/hyperlink[${PYTHON_USEDEP}]
 	dev-python/incremental[${PYTHON_USEDEP}]
 	dev-python/Tubes[${PYTHON_USEDEP}]

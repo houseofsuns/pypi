@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pbr-4.1.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
 	dev-python/dirq[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-concurrency[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/python-cinderclient[${PYTHON_USEDEP}]
-	dev-python/python-novaclient[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
-	dev-python/python-glanceclient[${PYTHON_USEDEP}]
-	dev-python/python-neutronclient[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.4.2[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-concurrency-3.20.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-4.10.1[${PYTHON_USEDEP}]
+	>=dev-python/python-cinderclient-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-novaclient-2.28.1[${PYTHON_USEDEP}]
+	>=dev-python/python-keystoneclient-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-glanceclient-0.18.0[${PYTHON_USEDEP}]
+	>=dev-python/python-neutronclient-6.7.0[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-3.4.0[${PYTHON_USEDEP}]
 	dev-python/stevedore[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

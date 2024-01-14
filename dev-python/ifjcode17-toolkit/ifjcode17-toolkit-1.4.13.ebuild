@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyOpenGL[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]"
+	~dev-python/PyQt5-5.7.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

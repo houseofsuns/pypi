@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev django docs linting sqlalchemy testing"
-DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/sly[${PYTHON_USEDEP}]
-	django? ( dev-python/django[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	linting? ( dev-python/black[${PYTHON_USEDEP}] )
+	django? ( >=dev-python/django-2.2[${PYTHON_USEDEP}] )
+	sqlalchemy? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
+	linting? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	linting? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	linting? ( dev-python/isort[${PYTHON_USEDEP}] )
-	linting? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	linting? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
+	linting? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
+	linting? ( <dev-python/mypy-0.932[${PYTHON_USEDEP}] )
 	linting? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0[${PYTHON_USEDEP}] )
 	linting? ( dev-python/vulture[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

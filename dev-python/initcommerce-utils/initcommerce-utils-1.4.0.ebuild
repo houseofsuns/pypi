@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cache db email-sender jwt message-queue object-storage phonenumbers sms-sender"
-DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/coloredlogs-15.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.8[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.15[${PYTHON_USEDEP}]
 	cache? ( dev-python/aioredis[${PYTHON_USEDEP}] )
-	db? ( dev-python/alembic[${PYTHON_USEDEP}] )
-	db? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	db? ( ~dev-python/alembic-1.7[${PYTHON_USEDEP}] )
+	db? ( ~dev-python/sqlalchemy-1.4.25[${PYTHON_USEDEP}] )
 	email-sender? ( dev-python/sendgrid[${PYTHON_USEDEP}] )
-	jwt? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
+	jwt? ( ~dev-python/pyjwt-2.3[${PYTHON_USEDEP}] )
 	message-queue? ( dev-python/aio-pika[${PYTHON_USEDEP}] )
 	object-storage? ( dev-python/minio[${PYTHON_USEDEP}] )
-	phonenumbers? ( dev-python/phonenumbers[${PYTHON_USEDEP}] )
+	phonenumbers? ( ~dev-python/phonenumbers-8.12[${PYTHON_USEDEP}] )
 	sms-sender? ( dev-python/twilio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

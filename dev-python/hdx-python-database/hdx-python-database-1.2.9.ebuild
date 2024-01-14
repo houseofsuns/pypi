@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev postgresql sshtunnel test"
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg[${PYTHON_USEDEP}] )
 	sshtunnel? ( dev-python/sshtunnel[${PYTHON_USEDEP}] )

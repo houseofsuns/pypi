@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/email-validator[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/email-validator-1.0.5[${PYTHON_USEDEP}]
 	dev-python/speaklater[${PYTHON_USEDEP}]
 	dev-python/Flask-Babel[${PYTHON_USEDEP}]
 	dev-python/Flask-Login[${PYTHON_USEDEP}]
@@ -32,22 +32,22 @@ DEPENDENCIES="dev-python/email-validator[${PYTHON_USEDEP}]
 	dev-python/Flask-Principal[${PYTHON_USEDEP}]
 	dev-python/Flask-WTF[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	tests? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
+	>=dev-python/itsdangerous-2.0[${PYTHON_USEDEP}]
+	>=dev-python/passlib-1.7[${PYTHON_USEDEP}]
+	tests? ( >=dev-python/bcrypt-3.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/coverage-6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Flask-Sphinx-Themes[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/msgcheck[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="graphviz test"
-DEPENDENCIES="graphviz? ( dev-python/graphviz[${PYTHON_USEDEP}] )
+DEPENDENCIES="graphviz? ( >=dev-python/graphviz-0.20.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/covdefaults[${PYTHON_USEDEP}] )
 	test? ( dev-python/diff-cover[${PYTHON_USEDEP}] )
-	test? ( dev-python/pip[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/virtualenv[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pip-23.3.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-3.12[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	test? ( <dev-python/virtualenv-21.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

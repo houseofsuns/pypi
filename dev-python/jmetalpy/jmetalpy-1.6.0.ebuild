@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev distributed test"
 DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	all? ( dev-python/dask[${PYTHON_USEDEP}] )
+	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
+	>=dev-python/plotly-3.3.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.9.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/dask-1.2.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	all? ( dev-python/isort[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	distributed? ( dev-python/dask[${PYTHON_USEDEP}] )
+	distributed? ( >=dev-python/dask-1.2.2[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	test? ( dev-python/mockito[${PYTHON_USEDEP}] )

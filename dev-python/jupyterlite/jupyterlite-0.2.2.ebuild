@@ -26,20 +26,20 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all check contents lab libarchive serve translation"
 DEPENDENCIES="dev-python/jupyterlite-core[${PYTHON_USEDEP}]
 	dev-python/jupyterlite-javascript-kernel[${PYTHON_USEDEP}]
-	all? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jsonschema-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyterlab-server[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	all? ( dev-python/libarchive-c[${PYTHON_USEDEP}] )
-	all? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	all? ( <dev-python/jupyterlab-server-3.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/jupyterlab-5.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/libarchive-c-4.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/notebook-8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pkginfo[${PYTHON_USEDEP}] )
-	all? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	check? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tornado-6.1[${PYTHON_USEDEP}] )
+	check? ( >=dev-python/jsonschema-3.0[${PYTHON_USEDEP}] )
 	contents? ( dev-python/jupyter-server[${PYTHON_USEDEP}] )
-	lab? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	lab? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	libarchive? ( dev-python/libarchive-c[${PYTHON_USEDEP}] )
-	serve? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	translation? ( dev-python/jupyterlab-server[${PYTHON_USEDEP}] )"
+	lab? ( <dev-python/jupyterlab-5.0[${PYTHON_USEDEP}] )
+	lab? ( <dev-python/notebook-8.0[${PYTHON_USEDEP}] )
+	libarchive? ( >=dev-python/libarchive-c-4.0[${PYTHON_USEDEP}] )
+	serve? ( >=dev-python/tornado-6.1[${PYTHON_USEDEP}] )
+	translation? ( <dev-python/jupyterlab-server-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

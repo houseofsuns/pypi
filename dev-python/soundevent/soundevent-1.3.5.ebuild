@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all audio evaluation geometry plot"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	audio? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	audio? ( dev-python/xarray[${PYTHON_USEDEP}] )
-	audio? ( dev-python/cython[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/email-validator-2.0[${PYTHON_USEDEP}]
+	plot? ( >=dev-python/matplotlib-3.7.3[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/scipy-1.6.1[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/xarray-0.20.2[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/cython-0.29.36[${PYTHON_USEDEP}] )
 	audio? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	evaluation? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	geometry? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	geometry? ( >=dev-python/shapely-2.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/soundevent[${PYTHON_USEDEP}] )
 	all? ( dev-python/soundevent[${PYTHON_USEDEP}] )
 	all? ( dev-python/soundevent[${PYTHON_USEDEP}] )

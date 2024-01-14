@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/incremental[${PYTHON_USEDEP}]
+	~dev-python/incremental-22.10.0[${PYTHON_USEDEP}]
 	dev-python/keyboard[${PYTHON_USEDEP}]
 	dev-python/mutagen[${PYTHON_USEDEP}]
 	dev-python/plyer[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.7[${PYTHON_USEDEP}]
+	~dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	dev-python/screeninfo[${PYTHON_USEDEP}]
 	dev-python/systembridgeconnector[${PYTHON_USEDEP}]
 	dev-python/systembridgemodels[${PYTHON_USEDEP}]
 	dev-python/systembridgeshared[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]"
+	~dev-python/uvicorn-0.25.0[${PYTHON_USEDEP}]
+	~dev-python/zeroconf-0.131.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

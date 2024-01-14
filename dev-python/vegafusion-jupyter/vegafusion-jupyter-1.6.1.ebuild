@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="embed"
-DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ipywidgets-9.0[${PYTHON_USEDEP}]
 	dev-python/altair[${PYTHON_USEDEP}]
 	dev-python/vegafusion[${PYTHON_USEDEP}]
 	embed? ( dev-python/vegafusion-python-embed[${PYTHON_USEDEP}] )

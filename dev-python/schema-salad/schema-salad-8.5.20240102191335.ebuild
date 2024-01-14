@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs pycodegen"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-1.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.19[${PYTHON_USEDEP}]
+	<dev-python/rdflib-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/mistune-2.1[${PYTHON_USEDEP}]
 	dev-python/CacheControl[${PYTHON_USEDEP}]
 	dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-autoprogram[${PYTHON_USEDEP}] )

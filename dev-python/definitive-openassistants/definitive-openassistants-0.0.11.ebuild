@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="duckdb duckduckgo sql"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
+	<dev-python/starlette-0.28.0[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	sql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	duckdb? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
+	sql? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
+	duckdb? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/openai[${PYTHON_USEDEP}]
 	duckdb? ( dev-python/duckdb-engine[${PYTHON_USEDEP}] )
 	duckduckgo? ( dev-python/duckduckgo-search[${PYTHON_USEDEP}] )
 	dev-python/usearch[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.19.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/langchain-community[${PYTHON_USEDEP}]
 	dev-python/openapi-pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

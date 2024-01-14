@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="admin app client database dev-shell legacy postgresql sqlite tasks"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	app? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	admin? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	database? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	dev-shell? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	app? ( dev-python/alembic[${PYTHON_USEDEP}] )
-	database? ( dev-python/alembic[${PYTHON_USEDEP}] )
-	dev-shell? ( dev-python/alembic[${PYTHON_USEDEP}] )
-	app? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
-	admin? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
-	database? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
-	dev-shell? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
+	app? ( <dev-python/alembic-2.0.0[${PYTHON_USEDEP}] )
+	database? ( <dev-python/alembic-2.0.0[${PYTHON_USEDEP}] )
+	dev-shell? ( <dev-python/alembic-2.0.0[${PYTHON_USEDEP}] )
+	app? ( <dev-python/bcrypt-5.0[${PYTHON_USEDEP}] )
+	admin? ( <dev-python/bcrypt-5.0[${PYTHON_USEDEP}] )
+	database? ( <dev-python/bcrypt-5.0[${PYTHON_USEDEP}] )
+	dev-shell? ( <dev-python/bcrypt-5.0[${PYTHON_USEDEP}] )
 	app? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	admin? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	app? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	app? ( <dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )
 	app? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	tasks? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	legacy? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
@@ -48,20 +48,20 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	postgresql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	app? ( dev-python/celery[${PYTHON_USEDEP}] )
 	tasks? ( dev-python/celery[${PYTHON_USEDEP}] )
-	legacy? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	client? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	dev-shell? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	app? ( dev-python/jmespath[${PYTHON_USEDEP}] )
-	tasks? ( dev-python/jmespath[${PYTHON_USEDEP}] )
+	legacy? ( <dev-python/httpx-0.26.0[${PYTHON_USEDEP}] )
+	client? ( <dev-python/httpx-0.26.0[${PYTHON_USEDEP}] )
+	dev-shell? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )
+	app? ( <dev-python/jmespath-2.0[${PYTHON_USEDEP}] )
+	tasks? ( <dev-python/jmespath-2.0[${PYTHON_USEDEP}] )
 	app? ( dev-python/pottery[${PYTHON_USEDEP}] )
 	tasks? ( dev-python/pottery[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	app? ( dev-python/aiodns[${PYTHON_USEDEP}] )
-	tasks? ( dev-python/aiodns[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	dev-python/pyxdg[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]"
+	app? ( <dev-python/aiodns-4.0.0[${PYTHON_USEDEP}] )
+	tasks? ( <dev-python/aiodns-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	sqlite? ( <dev-python/aiosqlite-0.20[${PYTHON_USEDEP}] )
+	<dev-python/pyxdg-0.29[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/greenlet-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

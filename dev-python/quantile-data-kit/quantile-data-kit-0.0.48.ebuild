@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development test"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-1.3.3[${PYTHON_USEDEP}]
 	dev-python/dagster[${PYTHON_USEDEP}]
 	dev-python/dagster-aws[${PYTHON_USEDEP}]
 	dev-python/mlflow[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-6.0.0[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/dask-2021.9.1[${PYTHON_USEDEP}]
 	dev-python/dask-ml[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
-	dev-python/blosc[${PYTHON_USEDEP}]
-	dev-python/lz4[${PYTHON_USEDEP}]
+	~dev-python/blosc-1.10.6[${PYTHON_USEDEP}]
+	~dev-python/lz4-3.1.3[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/stop-words[${PYTHON_USEDEP}]
@@ -43,13 +43,13 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	development? ( dev-python/black[${PYTHON_USEDEP}] )
-	development? ( dev-python/isort[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/black-21.9[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
 	development? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	development? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	development? ( dev-python/twine[${PYTHON_USEDEP}] )
 	development? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	development? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	development? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

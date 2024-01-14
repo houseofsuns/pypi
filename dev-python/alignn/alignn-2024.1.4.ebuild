@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.1[${PYTHON_USEDEP}]
 	dev-python/jarvis-tools[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/dgl[${PYTHON_USEDEP}]
 	dev-python/spglib[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.3[${PYTHON_USEDEP}]
 	dev-python/pytorch-ignite[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]
-	dev-python/pydocstyle[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.8.1[${PYTHON_USEDEP}]
+	>=dev-python/flake8-3.9.1[${PYTHON_USEDEP}]
+	>=dev-python/pycodestyle-2.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pydocstyle-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	dev-python/ase[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

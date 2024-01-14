@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/dclab[${PYTHON_USEDEP}]
 	dev-python/dcor-shared[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/html2text[${PYTHON_USEDEP}]
+	~dev-python/html2text-2019.8.11[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

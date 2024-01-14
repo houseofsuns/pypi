@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/invenio-i18n[${PYTHON_USEDEP}]
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-cli[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	tests? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

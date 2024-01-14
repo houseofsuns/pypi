@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fonttools[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/fonttools-5.0[${PYTHON_USEDEP}]
 	dev-python/imagehash[${PYTHON_USEDEP}]
 	dev-python/opentype-sanitizer[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/python-fsutil[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/django-htmx[${PYTHON_USEDEP}]
-	build? ( dev-python/django[${PYTHON_USEDEP}] )
+	build? ( <dev-python/django-5.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/django-htmx[${PYTHON_USEDEP}] )
-	build? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/django-debug-toolbar-3.8.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
 	build? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	build? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
-	build? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	test? ( dev-python/django[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/coverage-7.2.0[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/django-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-htmx[${PYTHON_USEDEP}] )
-	test? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/django-debug-toolbar-3.8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	test? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/coverage-7.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

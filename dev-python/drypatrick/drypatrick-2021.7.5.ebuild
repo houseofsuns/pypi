@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	dev-python/astral[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
+	~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	dev-python/awesomeversion[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+	~dev-python/bcrypt-3.1.7[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2020.12.5[${PYTHON_USEDEP}]
 	dev-python/ciso8601[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.18.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
+	~dev-python/cryptography-3.3.2[${PYTHON_USEDEP}]
+	<dev-python/pip-20.3[${PYTHON_USEDEP}]
+	~dev-python/python-slugify-4.0.1[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.15.100[${PYTHON_USEDEP}]
+	~dev-python/voluptuous-0.12.1[${PYTHON_USEDEP}]
 	dev-python/voluptuous-serialize[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	~dev-python/yarl-1.6.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

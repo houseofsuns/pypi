@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/virtualenv[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/virtualenv-20.17[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/jupyterlab-3.4.7[${PYTHON_USEDEP}]
+	>=dev-python/notebook-6.5.6[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	~dev-python/networkx-2.8.6[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.10.0[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.12.1[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.14.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.11.2[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-8.0.4[${PYTHON_USEDEP}]
 	dev-python/docrep[${PYTHON_USEDEP}]
 	dev-python/nanoid[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]"
+	~dev-python/ipython-7.34.0[${PYTHON_USEDEP}]
+	~dev-python/ipykernel-5.5.6[${PYTHON_USEDEP}]
+	~dev-python/tornado-6.3.2[${PYTHON_USEDEP}]
+	~dev-python/pyzmq-23.2.1[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.7.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

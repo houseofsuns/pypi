@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="django"
 DEPENDENCIES="dev-python/autoflake[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+	<dev-python/black-23.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/coloredlogs-16.0.0[${PYTHON_USEDEP}]
 	django? ( dev-python/django-coverage-plugin[${PYTHON_USEDEP}] )
-	django? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )
+	django? ( <dev-python/django-debug-toolbar-4.0.0[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-extra-checks[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-migration-linter[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-querycount[${PYTHON_USEDEP}] )
@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/autoflake[${PYTHON_USEDEP}]
 	django? ( dev-python/django-stubs[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-stubs-ext[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-test-migrations[${PYTHON_USEDEP}] )
-	dev-python/flake8[${PYTHON_USEDEP}]
+	<dev-python/flake8-6.0.0[${PYTHON_USEDEP}]
 	dev-python/flake8-broken-line[${PYTHON_USEDEP}]
 	dev-python/flake8-debugger[${PYTHON_USEDEP}]
 	django? ( dev-python/flake8-django[${PYTHON_USEDEP}] )
@@ -45,20 +45,20 @@ DEPENDENCIES="dev-python/autoflake[${PYTHON_USEDEP}]
 	dev-python/flake8-print[${PYTHON_USEDEP}]
 	dev-python/flake8-pytest-style[${PYTHON_USEDEP}]
 	dev-python/flake8-use-fstring[${PYTHON_USEDEP}]
-	dev-python/ipdb[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/poetry[${PYTHON_USEDEP}]
+	<dev-python/ipdb-0.14.0[${PYTHON_USEDEP}]
+	<dev-python/isort-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/mypy-0.992[${PYTHON_USEDEP}]
+	<dev-python/poetry-2.0.0[${PYTHON_USEDEP}]
 	dev-python/poetryup[${PYTHON_USEDEP}]
 	dev-python/pre-commit[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}]
 	dev-python/pytest-blockage[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	<dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pytest-deadfixtures[${PYTHON_USEDEP}]
-	django? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev-python/pytest-env[${PYTHON_USEDEP}]
-	dev-python/pytest-timeout[${PYTHON_USEDEP}]
+	django? ( <dev-python/pytest-django-5.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pytest-env-0.9.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-timeout-3.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

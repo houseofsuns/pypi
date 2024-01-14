@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all azsentinel azure azuresentinel dev kql ml panel riskiq sentinel splunk sql2kql sumologic test vt3 x_azure_core"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-18.2.0[${PYTHON_USEDEP}]
 	dev-python/azure-common[${PYTHON_USEDEP}]
 	dev-python/azure-core[${PYTHON_USEDEP}]
 	dev-python/azure-identity[${PYTHON_USEDEP}]
@@ -33,38 +33,38 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-keyvault[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-subscription[${PYTHON_USEDEP}]
 	dev-python/azure-monitor-query[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.0.0[${PYTHON_USEDEP}]
 	dev-python/bokeh[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.1[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2.4[${PYTHON_USEDEP}]
+	<dev-python/dnspython-3.0.0[${PYTHON_USEDEP}]
 	dev-python/folium[${PYTHON_USEDEP}]
 	dev-python/geoip2[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
 	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}]
+	>=dev-python/keyring-13.2.1[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.6.5[${PYTHON_USEDEP}]
 	dev-python/msal[${PYTHON_USEDEP}]
 	dev-python/msal-extensions[${PYTHON_USEDEP}]
 	dev-python/msrest[${PYTHON_USEDEP}]
 	dev-python/msrestazure[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/tldextract[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	>=dev-python/nest-asyncio-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15.4[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-40.6.3[${PYTHON_USEDEP}]
+	>=dev-python/tldextract-2.2.2[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.36.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.23[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.23.1[${PYTHON_USEDEP}]
 	x_azure_core? ( dev-python/azure-mgmt-compute[${PYTHON_USEDEP}] )
 	x_azure_core? ( dev-python/azure-mgmt-core[${PYTHON_USEDEP}] )
 	x_azure_core? ( dev-python/azure-mgmt-monitor[${PYTHON_USEDEP}] )
@@ -80,16 +80,16 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	all? ( dev-python/azure-mgmt-resource[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-mgmt-resourcegraph[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/mo-sql-parsing[${PYTHON_USEDEP}] )
-	all? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )
-	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/nest-asyncio-1.4.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/openpyxl-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/panel[${PYTHON_USEDEP}] )
 	all? ( dev-python/passivetotal[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-1.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/splunk-sdk[${PYTHON_USEDEP}] )
-	all? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/statsmodels-0.11.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/sumologic-sdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/vt-graph-api[${PYTHON_USEDEP}] )
 	all? ( dev-python/vt-py[${PYTHON_USEDEP}] )
@@ -116,48 +116,48 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	azuresentinel? ( dev-python/azure-mgmt-resource[${PYTHON_USEDEP}] )
 	azuresentinel? ( dev-python/azure-mgmt-resourcegraph[${PYTHON_USEDEP}] )
 	azuresentinel? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/async-cache[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	dev? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mccabe[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbdime[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/bandit-1.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/beautifulsoup4-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/docutils-0.20.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/filelock-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/markdown-3.3.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mccabe-0.6.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nbdime-2.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nbconvert-6.1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pipreqs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pycodestyle-2.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydocstyle-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyflakes-2.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pygeohash[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.5.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyroma[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-check[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/readthedocs-sphinx-ext[${PYTHON_USEDEP}] )
-	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-check-1.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/readthedocs-sphinx-ext-2.2.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/responses-0.13.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/respx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-attrs[${PYTHON_USEDEP}] )
 	kql? ( dev-python/KqlmagicCustom[${PYTHON_USEDEP}] )
 	ml? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	ml? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	ml? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	ml? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	ml? ( >=dev-python/scipy-1.1.0[${PYTHON_USEDEP}] )
+	ml? ( >=dev-python/statsmodels-0.11.1[${PYTHON_USEDEP}] )
+	ml? ( >=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}] )
 	panel? ( dev-python/panel[${PYTHON_USEDEP}] )
 	riskiq? ( dev-python/passivetotal[${PYTHON_USEDEP}] )
 	sentinel? ( dev-python/KqlmagicCustom[${PYTHON_USEDEP}] )
@@ -171,9 +171,9 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	splunk? ( dev-python/splunk-sdk[${PYTHON_USEDEP}] )
 	sql2kql? ( dev-python/mo-sql-parsing[${PYTHON_USEDEP}] )
 	sumologic? ( dev-python/sumologic-sdk[${PYTHON_USEDEP}] )
-	sumologic? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	sumologic? ( >=dev-python/openpyxl-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/KqlmagicCustom[${PYTHON_USEDEP}] )
-	test? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/async-cache[${PYTHON_USEDEP}] )
 	test? ( dev-python/azure-mgmt-compute[${PYTHON_USEDEP}] )
 	test? ( dev-python/azure-mgmt-core[${PYTHON_USEDEP}] )
@@ -182,56 +182,56 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	test? ( dev-python/azure-mgmt-resource[${PYTHON_USEDEP}] )
 	test? ( dev-python/azure-mgmt-resourcegraph[${PYTHON_USEDEP}] )
 	test? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	test? ( dev-python/filelock[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	test? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/mccabe[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/bandit-1.7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/beautifulsoup4-4.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	test? ( <dev-python/docutils-0.20.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/filelock-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/markdown-3.3.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mccabe-0.6.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/mo-sql-parsing[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbdime[${PYTHON_USEDEP}] )
-	test? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nbconvert-6.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nbdime-2.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nest-asyncio-1.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/openpyxl-3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/panel[${PYTHON_USEDEP}] )
 	test? ( dev-python/passivetotal[${PYTHON_USEDEP}] )
 	test? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	test? ( dev-python/pep8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pipreqs[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pycodestyle-2.6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pydocstyle-6.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyflakes-2.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pygeohash[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pylint-2.5.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyroma[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-check[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/readthedocs-sphinx-ext[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-check-1.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/readthedocs-sphinx-ext-2.2.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/responses-0.13.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/respx[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scipy-1.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/splunk-sdk[${PYTHON_USEDEP}] )
-	test? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/statsmodels-0.11.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/sumologic-sdk[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-attrs[${PYTHON_USEDEP}] )
 	test? ( dev-python/vt-graph-api[${PYTHON_USEDEP}] )
 	test? ( dev-python/vt-py[${PYTHON_USEDEP}] )
 	vt3? ( dev-python/vt-py[${PYTHON_USEDEP}] )
 	vt3? ( dev-python/vt-graph-api[${PYTHON_USEDEP}] )
-	vt3? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )"
+	vt3? ( >=dev-python/nest-asyncio-1.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

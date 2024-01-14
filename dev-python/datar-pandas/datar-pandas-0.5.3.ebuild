@@ -27,7 +27,7 @@ IUSE="all"
 DEPENDENCIES="dev-python/pdtypes[${PYTHON_USEDEP}]
 	dev-python/datar[${PYTHON_USEDEP}]
 	dev-python/datar-numpy[${PYTHON_USEDEP}]
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/wcwidth[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/wcwidth-0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

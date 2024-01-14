@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/libsass[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/libsass-0.16.1[${PYTHON_USEDEP}]
 	dev-python/markdown-code-blocks[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,8 +27,8 @@ IUSE="test"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/celery[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

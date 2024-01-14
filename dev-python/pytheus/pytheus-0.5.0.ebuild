@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs prometheus_client redis test"
-DEPENDENCIES="docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	prometheus_client? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( ~dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.1.5[${PYTHON_USEDEP}] )
+	prometheus_client? ( >=dev-python/prometheus-client-0.17.1[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tox-4.4.11[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-redis[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

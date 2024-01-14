@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/cached-property-1.5.2[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.65.1[${PYTHON_USEDEP}]
 	dev-python/garth[${PYTHON_USEDEP}]
 	dev-python/fitfile[${PYTHON_USEDEP}]
 	dev-python/tcxfile[${PYTHON_USEDEP}]

@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="websocket-client"
 DEPENDENCIES="dev-python/coincurve[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-37.0.4[${PYTHON_USEDEP}]
 	dev-python/tlv8[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	websocket-client? ( dev-python/websocket-client[${PYTHON_USEDEP}] )"
+	websocket-client? ( >=dev-python/websocket-client-1.3.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

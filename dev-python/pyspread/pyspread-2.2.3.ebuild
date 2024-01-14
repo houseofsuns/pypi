@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="matplotlib pip plotnine py-moneyed pyenchant python-dateutil rpy2"
-DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/markdown2[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	matplotlib? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	pip? ( dev-python/pip[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/PyQt5-5.10[${PYTHON_USEDEP}]
+	>=dev-python/markdown2-2.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.1[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-40.0[${PYTHON_USEDEP}]
+	matplotlib? ( >=dev-python/matplotlib-1.1.1[${PYTHON_USEDEP}] )
+	pip? ( >=dev-python/pip-18.0[${PYTHON_USEDEP}] )
 	plotnine? ( dev-python/plotnine[${PYTHON_USEDEP}] )
 	py-moneyed? ( dev-python/py-moneyed[${PYTHON_USEDEP}] )
-	pyenchant? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
-	python-dateutil? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
+	pyenchant? ( >=dev-python/pyenchant-1.1[${PYTHON_USEDEP}] )
+	python-dateutil? ( >=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}] )
 	rpy2? ( dev-python/rpy2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

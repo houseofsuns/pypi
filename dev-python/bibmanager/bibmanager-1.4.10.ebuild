@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.15.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.19.1[${PYTHON_USEDEP}]
+	>=dev-python/packaging-17.1[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0.5[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.2.0[${PYTHON_USEDEP}]
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/prompt-toolkit[${PYTHON_USEDEP}] )
-	test? ( dev-python/pygments[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/prompt-toolkit-3.0.30[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pygments-2.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

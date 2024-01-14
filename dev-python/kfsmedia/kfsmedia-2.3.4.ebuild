@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/img2pdf[${PYTHON_USEDEP}]
 	dev-python/kfsfstr[${PYTHON_USEDEP}]
 	dev-python/kfslog[${PYTHON_USEDEP}]
-	dev-python/pebble[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	<dev-python/pebble-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.3.1[${PYTHON_USEDEP}]
+	~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
 	dev-python/hydra-colorlog[${PYTHON_USEDEP}]
 	dev-python/wrapt-timeout-decorator[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
+	~dev-python/diskcache-5.6.1[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/mock-5.0.2[${PYTHON_USEDEP}]
+	~dev-python/rich-12.6.0[${PYTHON_USEDEP}]
 	dev-python/litellm[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

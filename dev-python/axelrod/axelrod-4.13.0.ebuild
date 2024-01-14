@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development human"
-DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	development? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	human? ( dev-python/prompt-toolkit[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/cloudpickle-0.2.2[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/toolz-0.8.2[${PYTHON_USEDEP}]
+	>=dev-python/dask-2.9.2[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.4[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.3[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.39.0[${PYTHON_USEDEP}]
+	development? ( ~dev-python/hypothesis-5.19.3[${PYTHON_USEDEP}] )
+	human? ( >=dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

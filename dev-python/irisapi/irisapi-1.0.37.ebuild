@@ -26,46 +26,46 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev influxdb kazoo prometheus"
 DEPENDENCIES="dev-python/streql[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
+	~dev-python/phonenumbers-7.4.1[${PYTHON_USEDEP}]
 	dev-python/twilio[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
+	~dev-python/google-api-python-client-1.4.2[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
 	dev-python/slackclient[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
+	~dev-python/greenlet-0.4.16[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/falcon[${PYTHON_USEDEP}]
 	dev-python/falcon-cors[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
+	~dev-python/ujson-1.35[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/PyMySQL[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	~dev-python/msgpack-1.0.0[${PYTHON_USEDEP}]
 	dev-python/cssmin[${PYTHON_USEDEP}]
 	dev-python/beaker[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	~dev-python/cryptography-2.3[${PYTHON_USEDEP}]
 	dev-python/webassets[${PYTHON_USEDEP}]
-	dev-python/python-ldap[${PYTHON_USEDEP}]
+	~dev-python/python-ldap-3.1.0[${PYTHON_USEDEP}]
 	dev-python/exchangelib[${PYTHON_USEDEP}]
 	dev-python/setproctitle[${PYTHON_USEDEP}]
 	dev-python/pyfcm[${PYTHON_USEDEP}]
 	dev-python/oncallclient[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	~dev-python/idna-2.7[${PYTHON_USEDEP}]
 	dev-python/pyqrcode[${PYTHON_USEDEP}]
 	dev? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-5.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-1.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-mock-1.1.0[${PYTHON_USEDEP}] )
 	influxdb? ( dev-python/influxdb[${PYTHON_USEDEP}] )
 	kazoo? ( dev-python/kazoo[${PYTHON_USEDEP}] )
 	prometheus? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )"

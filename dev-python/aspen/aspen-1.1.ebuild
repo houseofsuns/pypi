@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-mimeparse[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-mimeparse-0.1.4[${PYTHON_USEDEP}]
 	dev-python/filesystem-tree[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

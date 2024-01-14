@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/construct[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiofiles-24.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	>=dev-python/aiosqlite-0.18[${PYTHON_USEDEP}]
+	<dev-python/argcomplete-4.0[${PYTHON_USEDEP}]
+	<dev-python/construct-3.0[${PYTHON_USEDEP}]
 	dev-python/exitcode[${PYTHON_USEDEP}]
 	dev-python/msgspec[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pygit2[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-5.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	<dev-python/pygit2-2.0[${PYTHON_USEDEP}]
 	dev-python/python-can[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]"
+	>=dev-python/tabulate-0.9[${PYTHON_USEDEP}]
+	>=dev-python/zstandard-0.19[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

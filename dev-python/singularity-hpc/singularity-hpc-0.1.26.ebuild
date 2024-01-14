@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/spython[${PYTHON_USEDEP}]
 	all? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	all? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/pytest-4.6.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,8 +33,8 @@ DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	testing? ( dev-python/tox-factor[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-cov-2.11[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/xmlunittest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/parameterized[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

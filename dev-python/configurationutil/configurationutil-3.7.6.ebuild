@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test ui"
-DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-2.5.1[${PYTHON_USEDEP}]
 	dev-python/fdutil[${PYTHON_USEDEP}]
 	dev-python/logging-helper[${PYTHON_USEDEP}]
 	dev-python/classutils[${PYTHON_USEDEP}]

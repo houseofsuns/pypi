@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/jaconv[${PYTHON_USEDEP}]
 	dev-python/mecab-python3[${PYTHON_USEDEP}]
 	dev-python/pexpect[${PYTHON_USEDEP}]
-	dev-python/pip[${PYTHON_USEDEP}]
+	>=dev-python/pip-8.1.0[${PYTHON_USEDEP}]
 	dev-python/pyknp[${PYTHON_USEDEP}]
 	dev-python/pypandoc[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"

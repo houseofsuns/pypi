@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="apis demo dev docs quality server testing torch"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.16[${PYTHON_USEDEP}]
+	>=dev-python/dask-2022.6.0[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
 	dev-python/loki-logger-handler[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.8.8[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/pylance[${PYTHON_USEDEP}]
 	dev-python/readerwriterlock[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/overrides[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.0[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-4.3.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
+	>=dev-python/overrides-7.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.1.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.4.0[${PYTHON_USEDEP}]
 	dev-python/mongomock[${PYTHON_USEDEP}]
 	dev-python/ibis-framework[${PYTHON_USEDEP}]
 	dev-python/ibis-framework[${PYTHON_USEDEP}]
@@ -65,28 +65,28 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	quality? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	quality? ( dev-python/types-pillow[${PYTHON_USEDEP}] )
 	quality? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	quality? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	quality? ( dev-python/types-tqdm[${PYTHON_USEDEP}] )
 	quality? ( dev-python/monkeytype[${PYTHON_USEDEP}] )
 	quality? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/black-23.3[${PYTHON_USEDEP}] )
 	quality? ( dev-python/interrogate[${PYTHON_USEDEP}] )
 	quality? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	server? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	server? ( >=dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	testing? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	testing? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/httpx-0.24.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/lorem[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	testing? ( dev-python/nbval[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/nbval-0.10.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/vcrpy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	testing? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/urllib3-2.0[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	torch? ( dev-python/accelerate[${PYTHON_USEDEP}] )
 	torch? ( dev-python/transformers[${PYTHON_USEDEP}] )

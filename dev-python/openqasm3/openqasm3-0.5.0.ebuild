@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all parser tests"
-DEPENDENCIES="all? ( dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( <dev-python/antlr4-python3-runtime-4.14[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	parser? ( dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	parser? ( <dev-python/antlr4-python3-runtime-4.14[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

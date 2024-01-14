@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="controller-support"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/asyncssh[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-3.0.29[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
 	dev-python/samplerate[${PYTHON_USEDEP}]
 	dev-python/pynput[${PYTHON_USEDEP}]
 	dev-python/python-xlib[${PYTHON_USEDEP}]
-	controller-support? ( dev-python/pygame[${PYTHON_USEDEP}] )"
+	controller-support? ( >=dev-python/pygame-1.9.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

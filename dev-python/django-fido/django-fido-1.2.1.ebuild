@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="quality test types"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/fido2[${PYTHON_USEDEP}]
+	~dev-python/fido2-1.1.0[${PYTHON_USEDEP}]
 	dev-python/django-app-settings[${PYTHON_USEDEP}]
 	dev-python/jwcrypto[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.4.1[${PYTHON_USEDEP}]
 	dev-python/inscriptis[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.5.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.38.0[${PYTHON_USEDEP}]
 	dev-python/trec-car-tools[${PYTHON_USEDEP}]
-	dev-python/lz4[${PYTHON_USEDEP}]
+	>=dev-python/lz4-3.1.10[${PYTHON_USEDEP}]
 	dev-python/warc3-wet[${PYTHON_USEDEP}]
 	dev-python/warc3-wet-clueweb09[${PYTHON_USEDEP}]
 	dev-python/zlib-state[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
+	>=dev-python/ijson-3.1.3[${PYTHON_USEDEP}]
 	dev-python/pyautocorpus[${PYTHON_USEDEP}]
 	dev-python/unlzw3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

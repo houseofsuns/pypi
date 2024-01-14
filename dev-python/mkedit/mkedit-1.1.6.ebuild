@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/rx[${PYTHON_USEDEP}]
 	dev-python/PySide2[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
+	>=dev-python/mistune-0.8.4[${PYTHON_USEDEP}]
 	dev-python/rxbus[${PYTHON_USEDEP}]
-	dev-python/qtawesome[${PYTHON_USEDEP}]
+	>=dev-python/qtawesome-0.6.0[${PYTHON_USEDEP}]
 	dev-python/PySild2QtScheduler[${PYTHON_USEDEP}]
 	dev-python/EasyMenusBar[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cssutils[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cssutils-2.0[${PYTHON_USEDEP}]
+	<dev-python/pillow-5.0[${PYTHON_USEDEP}]
 	dev-python/progressbar33[${PYTHON_USEDEP}]
 	dev-python/python-bash-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

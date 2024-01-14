@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PILLOW[${PYTHON_USEDEP}]
 	dev-python/keyboard[${PYTHON_USEDEP}]
-	dev-python/mss[${PYTHON_USEDEP}]
-	dev-python/pytesseract[${PYTHON_USEDEP}]
+	>=dev-python/mss-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pytesseract-0.3.3[${PYTHON_USEDEP}]
 	dev-python/translators[${PYTHON_USEDEP}]
 	dev-python/deepl[${PYTHON_USEDEP}]
 	dev-python/argostranslate[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]"
+	>=dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

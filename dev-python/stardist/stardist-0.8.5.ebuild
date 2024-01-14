@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/csbdeep[${PYTHON_USEDEP}]
 	dev-python/imageio[${PYTHON_USEDEP}]
 	bioimageio? ( dev-python/bioimageio-core[${PYTHON_USEDEP}] )
 	bioimageio? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	tf1? ( dev-python/csbdeep[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

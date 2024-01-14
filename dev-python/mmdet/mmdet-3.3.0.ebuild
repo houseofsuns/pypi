@@ -67,7 +67,7 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	tests? ( dev-python/imagecorruptions[${PYTHON_USEDEP}] )
 	tests? ( dev-python/instaboostfast[${PYTHON_USEDEP}] )
 	tests? ( dev-python/interrogate[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	tests? ( dev-python/kwarray[${PYTHON_USEDEP}] )
 	tests? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
 	tests? ( dev-python/mmtrack[${PYTHON_USEDEP}] )
@@ -81,11 +81,11 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ubelt[${PYTHON_USEDEP}] )
-	tests? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/xdoctest-0.10.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	tracking? ( dev-python/mmpretrain[${PYTHON_USEDEP}] )
 	tracking? ( dev-python/motmetrics[${PYTHON_USEDEP}] )
-	tracking? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	tracking? ( <dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
 	tracking? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	tracking? ( dev-python/seaborn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

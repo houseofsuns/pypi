@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/scrapy[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/redis-4.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.15[${PYTHON_USEDEP}]
 	dev-python/coverage[${PYTHON_USEDEP}]
 	dev-python/flake8[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]

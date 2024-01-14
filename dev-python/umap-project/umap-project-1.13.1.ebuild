@@ -28,26 +28,26 @@ DEPENDENCIES="dev-python/django-agnocomplete[${PYTHON_USEDEP}]
 	dev-python/django-compressor[${PYTHON_USEDEP}]
 	dev-python/django-environ[${PYTHON_USEDEP}]
 	dev-python/django-probes[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/django-5.0[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	dev-python/psycopg2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/social-auth-app-django[${PYTHON_USEDEP}]
 	dev-python/social-auth-core[${PYTHON_USEDEP}]
 	dev? ( dev-python/djlint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mkdocs-material-10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pymdown-extensions-10.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vermin[${PYTHON_USEDEP}] )
 	docker? ( dev-python/uwsgi[${PYTHON_USEDEP}] )
 	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	test? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-playwright[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/pytest-xdist-4.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	airflow-providers? ( dev-python/apache-airflow-providers-ssh[${PYTHON_USEDEP}] )
 	git? ( dev-python/apache-airflow-providers-ssh[${PYTHON_USEDEP}] )
 	dev-python/connexion[${PYTHON_USEDEP}]
-	git? ( dev-python/dulwich[${PYTHON_USEDEP}] )
+	git? ( >=dev-python/dulwich-0.21[${PYTHON_USEDEP}] )
 	dev-python/contextlib-chdir[${PYTHON_USEDEP}]
 	dev-python/dbt-core[${PYTHON_USEDEP}]
 	adapters? ( dev-python/dbt-bigquery[${PYTHON_USEDEP}] )

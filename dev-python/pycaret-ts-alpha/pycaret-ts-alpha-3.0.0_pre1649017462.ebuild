@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="analysis full mlops models nlp tuners"
-DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipython-5.5.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21[${PYTHON_USEDEP}]
+	<dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.0.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/pyod[${PYTHON_USEDEP}]
 	dev-python/imbalanced-learn[${PYTHON_USEDEP}]
 	dev-python/category-encoders[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-plot[${PYTHON_USEDEP}]
 	dev-python/yellowbrick[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.0.0[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}]
 	dev-python/sktime[${PYTHON_USEDEP}]
 	dev-python/tbats[${PYTHON_USEDEP}]
 	dev-python/pmdarima[${PYTHON_USEDEP}]
 	analysis? ( dev-python/shap[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/interpret[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
-	analysis? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	analysis? ( >=dev-python/ipywidgets-7.6.5[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/pandas-profiling[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/explainerdashboard[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/autoviz[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	full? ( dev-python/shap[${PYTHON_USEDEP}] )
 	full? ( dev-python/interpret[${PYTHON_USEDEP}] )
 	full? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
-	full? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/ipywidgets-7.6.5[${PYTHON_USEDEP}] )
 	full? ( dev-python/pandas-profiling[${PYTHON_USEDEP}] )
 	full? ( dev-python/explainerdashboard[${PYTHON_USEDEP}] )
 	full? ( dev-python/autoviz[${PYTHON_USEDEP}] )
@@ -72,7 +72,7 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	full? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	full? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	full? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	full? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/uvicorn-0.17.6[${PYTHON_USEDEP}] )
 	full? ( dev-python/m2cgen[${PYTHON_USEDEP}] )
 	full? ( dev-python/evidently[${PYTHON_USEDEP}] )
 	full? ( dev-python/nltk[${PYTHON_USEDEP}] )
@@ -81,12 +81,12 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	full? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	full? ( dev-python/wordcloud[${PYTHON_USEDEP}] )
 	full? ( dev-python/textblob[${PYTHON_USEDEP}] )
-	full? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/psutil-5.9.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/fugue[${PYTHON_USEDEP}] )
 	mlops? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	mlops? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	mlops? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	mlops? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	mlops? ( >=dev-python/uvicorn-0.17.6[${PYTHON_USEDEP}] )
 	mlops? ( dev-python/m2cgen[${PYTHON_USEDEP}] )
 	mlops? ( dev-python/evidently[${PYTHON_USEDEP}] )
 	models? ( dev-python/xgboost[${PYTHON_USEDEP}] )

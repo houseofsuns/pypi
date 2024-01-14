@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="netcdf zarr"
-DEPENDENCIES="dev-python/cftime[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cftime-1.2.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-0.15.0[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
 	dev-python/f90nml[${PYTHON_USEDEP}]
-	netcdf? ( dev-python/xarray[${PYTHON_USEDEP}] )
-	netcdf? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	netcdf? ( >=dev-python/xarray-0.15.1[${PYTHON_USEDEP}] )
+	netcdf? ( >=dev-python/scipy-1.3.1[${PYTHON_USEDEP}] )
 	zarr? ( dev-python/zarr[${PYTHON_USEDEP}] )
-	zarr? ( dev-python/xarray[${PYTHON_USEDEP}] )
-	zarr? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	zarr? ( >=dev-python/xarray-0.15.1[${PYTHON_USEDEP}] )
+	zarr? ( >=dev-python/scipy-1.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

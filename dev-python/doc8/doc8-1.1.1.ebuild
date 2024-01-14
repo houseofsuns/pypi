@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/restructuredtext-lint[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/docutils-0.21[${PYTHON_USEDEP}]
+	>=dev-python/restructuredtext-lint-0.7[${PYTHON_USEDEP}]
 	dev-python/stevedore[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]"

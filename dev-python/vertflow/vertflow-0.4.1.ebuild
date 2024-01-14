@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-api-python-client-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/requests-cache-0.6.0[${PYTHON_USEDEP}]
 	dev-python/geocoder[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp arq asyncpg beam bottle celery chalice clickhouse-driver django falcon fastapi flask grpcio httpx huey loguru opentelemetry opentelemetry-experimental pure-eval pymongo pyspark quart rq sanic sqlalchemy starlette starlite tornado"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/urllib3-1.26.11[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	aiohttp? ( >=dev-python/aiohttp-3.5[${PYTHON_USEDEP}] )
 	arq? ( dev-python/arq[${PYTHON_USEDEP}] )
 	asyncpg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	beam? ( dev-python/apache-beam[${PYTHON_USEDEP}] )
-	bottle? ( dev-python/bottle[${PYTHON_USEDEP}] )
+	bottle? ( >=dev-python/bottle-0.12.13[${PYTHON_USEDEP}] )
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	chalice? ( dev-python/chalice[${PYTHON_USEDEP}] )
 	clickhouse-driver? ( dev-python/clickhouse-driver[${PYTHON_USEDEP}] )
-	django? ( dev-python/django[${PYTHON_USEDEP}] )
+	django? ( >=dev-python/django-1.8[${PYTHON_USEDEP}] )
 	falcon? ( dev-python/falcon[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
-	flask? ( dev-python/blinker[${PYTHON_USEDEP}] )
+	flask? ( >=dev-python/flask-0.11[${PYTHON_USEDEP}] )
+	flask? ( >=dev-python/blinker-1.1[${PYTHON_USEDEP}] )
 	flask? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
-	grpcio? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	grpcio? ( >=dev-python/grpcio-1.21.1[${PYTHON_USEDEP}] )
+	httpx? ( >=dev-python/httpx-0.16.0[${PYTHON_USEDEP}] )
 	huey? ( dev-python/huey[${PYTHON_USEDEP}] )
-	loguru? ( dev-python/loguru[${PYTHON_USEDEP}] )
+	loguru? ( >=dev-python/loguru-0.5[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-distro[${PYTHON_USEDEP}] )
 	opentelemetry-experimental? ( dev-python/opentelemetry-distro[${PYTHON_USEDEP}] )
 	opentelemetry-experimental? ( dev-python/opentelemetry-instrumentation-aiohttp-client[${PYTHON_USEDEP}] )
@@ -56,15 +56,15 @@ DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
 	pure-eval? ( dev-python/pure_eval[${PYTHON_USEDEP}] )
 	pure-eval? ( dev-python/executing[${PYTHON_USEDEP}] )
 	pure-eval? ( dev-python/asttokens[${PYTHON_USEDEP}] )
-	pymongo? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	pymongo? ( >=dev-python/pymongo-3.1[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	quart? ( dev-python/quart[${PYTHON_USEDEP}] )
-	quart? ( dev-python/blinker[${PYTHON_USEDEP}] )
-	rq? ( dev-python/rq[${PYTHON_USEDEP}] )
+	quart? ( >=dev-python/blinker-1.1[${PYTHON_USEDEP}] )
+	rq? ( >=dev-python/rq-0.6[${PYTHON_USEDEP}] )
 	sanic? ( dev-python/sanic[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	starlette? ( dev-python/starlette[${PYTHON_USEDEP}] )
+	sqlalchemy? ( >=dev-python/sqlalchemy-1.2[${PYTHON_USEDEP}] )
+	starlette? ( >=dev-python/starlette-0.19.1[${PYTHON_USEDEP}] )
 	starlite? ( dev-python/starlite[${PYTHON_USEDEP}] )
-	tornado? ( dev-python/tornado[${PYTHON_USEDEP}] )"
+	tornado? ( >=dev-python/tornado-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

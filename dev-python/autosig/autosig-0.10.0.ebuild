@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
+	>=dev-python/toolz-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

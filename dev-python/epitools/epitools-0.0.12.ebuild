@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/PartSeg[${PYTHON_USEDEP}]
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-video[${PYTHON_USEDEP}] )
 	docs? ( dev-python/types-pytz[${PYTHON_USEDEP}] )

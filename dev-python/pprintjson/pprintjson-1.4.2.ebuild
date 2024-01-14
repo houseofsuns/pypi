@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="simplejson"
-DEPENDENCIES="dev-python/pygments[${PYTHON_USEDEP}]
-	simplejson? ( dev-python/simplejson[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/pygments-1.6[${PYTHON_USEDEP}]
+	simplejson? ( >=dev-python/simplejson-2.0.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

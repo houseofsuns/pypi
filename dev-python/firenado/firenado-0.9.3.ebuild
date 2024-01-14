@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all pexpect redis schedule sqlalchemy"
 DEPENDENCIES="dev-python/cartola[${PYTHON_USEDEP}]
 	dev-python/taskio[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	all? ( dev-python/pexpect[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/hiredis[${PYTHON_USEDEP}] )
-	all? ( dev-python/croniter[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	pexpect? ( dev-python/pexpect[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	redis? ( dev-python/hiredis[${PYTHON_USEDEP}] )
-	schedule? ( dev-python/croniter[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	~dev-python/tornado-6.3.3[${PYTHON_USEDEP}]
+	all? ( >=dev-python/pexpect-4.9.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/hiredis-2.2.3[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/croniter-2.0.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}] )
+	pexpect? ( >=dev-python/pexpect-4.9.0[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/hiredis-2.2.3[${PYTHON_USEDEP}] )
+	schedule? ( ~dev-python/croniter-2.0.1[${PYTHON_USEDEP}] )
+	sqlalchemy? ( >=dev-python/sqlalchemy-2.0.23[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="chatbots padatious"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
+	~dev-python/click-default-group-1.2[${PYTHON_USEDEP}]
 	dev-python/ovos-utils[${PYTHON_USEDEP}]
 	dev-python/ovos-workshop[${PYTHON_USEDEP}]
 	dev-python/padacioso[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	chatbots? ( dev-python/klat-connector[${PYTHON_USEDEP}] )
 	chatbots? ( dev-python/neon-chatbot-core[${PYTHON_USEDEP}] )
 	padatious? ( dev-python/padatious[${PYTHON_USEDEP}] )

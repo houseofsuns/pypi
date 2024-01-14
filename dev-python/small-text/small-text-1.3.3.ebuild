@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pytorch transformers"
 DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]

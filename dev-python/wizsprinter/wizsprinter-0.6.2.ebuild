@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/wizwalker[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]"
+	<dev-python/lark-0.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

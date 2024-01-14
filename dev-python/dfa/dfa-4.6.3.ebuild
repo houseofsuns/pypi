@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="draw"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/funcy[${PYTHON_USEDEP}]
-	draw? ( dev-python/pydot[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/attrs-23.0[${PYTHON_USEDEP}]
+	<dev-python/funcy-2.0[${PYTHON_USEDEP}]
+	draw? ( <dev-python/pydot-2.0[${PYTHON_USEDEP}] )
 	dev-python/bidict[${PYTHON_USEDEP}]
-	dev-python/bitarray[${PYTHON_USEDEP}]"
+	<dev-python/bitarray-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

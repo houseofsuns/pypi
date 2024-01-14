@@ -24,46 +24,46 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/cfn-flip[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	~dev-python/pluggy-0.13.1[${PYTHON_USEDEP}]
 	dev-python/pycfmodel[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
-	docs? ( dev-python/click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/csscompressor[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ghp-import[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/moto-3.1.9[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/click-8.1.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/csscompressor-0.9.5[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ghp-import-2.0.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/htmlmin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/importlib-metadata-4.11.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jsmin[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/jsmin-3.0.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Markdown[${PYTHON_USEDEP}] )
 	docs? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mergedeep[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-exclude[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-8.2.8[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-extensions-1.0.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-minify-plugin-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/packaging-21.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
-	docs? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pymdown-extensions-9.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pyparsing-3.0.7[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyyaml-env-tag[${PYTHON_USEDEP}] )
-	docs? ( dev-python/six[${PYTHON_USEDEP}] )
-	docs? ( dev-python/termcolor[${PYTHON_USEDEP}] )
-	docs? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	docs? ( dev-python/zipp[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/watchdog-2.1.7[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/zipp-3.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

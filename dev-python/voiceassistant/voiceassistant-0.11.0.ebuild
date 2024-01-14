@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-speech[${PYTHON_USEDEP}]
 	dev-python/PyAudio[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/six-2.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/pvporcupine[${PYTHON_USEDEP}]
 	dev-python/iterators[${PYTHON_USEDEP}]
-	dev-python/hypothesis[${PYTHON_USEDEP}]
+	<dev-python/hypothesis-6.0[${PYTHON_USEDEP}]
 	dev-python/hassapi[${PYTHON_USEDEP}]
 	dev-python/pixel-ring[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	<dev-python/flask-3.0[${PYTHON_USEDEP}]
 	dev-python/gpiozero[${PYTHON_USEDEP}]
 	dev-python/RPi-GPIO[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/tekore[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	<dev-python/diskcache-6.0[${PYTHON_USEDEP}]
+	~dev-python/tekore-4.3.0[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0[${PYTHON_USEDEP}]
 	dev-python/pyalsaaudio[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

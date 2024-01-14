@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="benchmark deepspeed dev diffusers peft quantization test"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.2[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/tyro[${PYTHON_USEDEP}]

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="beta schemas"
-DEPENDENCIES="dev-python/tblib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tblib-1.7.0[${PYTHON_USEDEP}]
 	dev-python/graypy[${PYTHON_USEDEP}]
-	beta? ( dev-python/redis[${PYTHON_USEDEP}] )
-	schemas? ( dev-python/marshmallow[${PYTHON_USEDEP}] )"
+	beta? ( >=dev-python/redis-4.1.3[${PYTHON_USEDEP}] )
+	schemas? ( >=dev-python/marshmallow-3.18.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

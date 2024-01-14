@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/weasyprint[${PYTHON_USEDEP}]
+	<dev-python/weasyprint-61.0[${PYTHON_USEDEP}]
 	dev-python/pdf2image[${PYTHON_USEDEP}]
 	dev-python/drawsvg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

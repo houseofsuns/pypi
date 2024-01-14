@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/pyelftools[${PYTHON_USEDEP}]"
+	<dev-python/pyelftools-0.31[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

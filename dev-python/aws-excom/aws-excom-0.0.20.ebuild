@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="deploy dev"
 DEPENDENCIES="dev-python/simple-term-menu[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.26[${PYTHON_USEDEP}]
 	deploy? ( dev-python/build[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.3.2[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]
 	dev-python/python-minifier[${PYTHON_USEDEP}]
 	dev-python/flask-session[${PYTHON_USEDEP}]
-	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/flask-sqlalchemy-3.0.3[${PYTHON_USEDEP}]
 	dev-python/py-domapi[${PYTHON_USEDEP}]
 	dev-python/pyx-pysite[${PYTHON_USEDEP}]
 	dev-python/marko[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]"
+	>=dev-python/waitress-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/asgiref-3.7.2[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/parver[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/parver-0.2.1[${PYTHON_USEDEP}]
 	dev-python/pulumi[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]"
+	>=dev-python/semver-2.8.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/unipipeline[${PYTHON_USEDEP}]
 	dev-python/ul-api-utils[${PYTHON_USEDEP}]
-	dev-python/wtforms[${PYTHON_USEDEP}]
+	~dev-python/wtforms-3.0.1[${PYTHON_USEDEP}]
 	dev-python/wtforms-alchemy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

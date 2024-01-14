@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/flake8-5.0.5[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.8.0[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-5.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

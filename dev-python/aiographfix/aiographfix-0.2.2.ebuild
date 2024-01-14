@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev? ( dev-python/certifi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aiohttp-socks[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/certifi-2018.11.29[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/certifi-2018.11.29[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/attrs-19.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/aiohttp-socks-0.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.31.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

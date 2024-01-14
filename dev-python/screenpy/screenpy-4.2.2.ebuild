@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/PyHamcrest[${PYTHON_USEDEP}]
 	dev-all? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev-all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev-all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/PyHamcrest[${PYTHON_USEDEP}]
 	requests? ( dev-python/screenpy-requests[${PYTHON_USEDEP}] )
 	selenium? ( dev-python/screenpy-selenium[${PYTHON_USEDEP}] )
 	dev-all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev-python/tomli[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev-all? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev-python/typing_extensions[${PYTHON_USEDEP}]"

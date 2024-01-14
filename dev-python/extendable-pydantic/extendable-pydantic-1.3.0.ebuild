@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mypy release test"
 DEPENDENCIES="dev-python/extendable[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0.2[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
-	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	mypy? ( >=dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	release? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	release? ( dev-python/towncrier[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )

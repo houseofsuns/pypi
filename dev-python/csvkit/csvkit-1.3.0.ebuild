@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/agate[${PYTHON_USEDEP}]
-	dev-python/agate-excel[${PYTHON_USEDEP}]
-	dev-python/agate-dbf[${PYTHON_USEDEP}]
-	dev-python/agate-sql[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/agate-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/agate-excel-0.2.2[${PYTHON_USEDEP}]
+	>=dev-python/agate-dbf-0.2.2[${PYTHON_USEDEP}]
+	>=dev-python/agate-sql-0.5.3[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.4.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

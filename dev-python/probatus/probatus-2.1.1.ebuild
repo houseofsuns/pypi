@@ -25,44 +25,44 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.13.2[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.41.0[${PYTHON_USEDEP}]
 	dev-python/shap[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	all? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-1.4.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mypy-0.770[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	all? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	all? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/joblib-0.13.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/nbconvert-6.0.7[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/codespell[${PYTHON_USEDEP}] )
 	all? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-git-authors-plugin[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mkdocs-material-6.1.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mkdocs-git-revision-date-localized-plugin-0.7.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mkdocs-git-authors-plugin-0.3.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/mkdocs-table-reader-plugin[${PYTHON_USEDEP}] )
 	all? ( dev-python/mkdocs-enumerate-headings-plugin[${PYTHON_USEDEP}] )
 	all? ( dev-python/mkdocs-awesome-pages-plugin[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mkdocs-minify-plugin-0.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/mknotebooks[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mkdocstrings-0.13.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/mkdocs-print-site-plugin[${PYTHON_USEDEP}] )
 	all? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mkdocstrings-python-1.1.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/catboost[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	~dev-python/filetype-1.0.5[${PYTHON_USEDEP}]
 	dev-python/instagram-private-api[${PYTHON_USEDEP}]
 	dev-python/instagram-private-api-extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

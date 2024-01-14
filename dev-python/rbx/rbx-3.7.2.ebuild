@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="auth buildtools notifications platform queues storage tasks test web"
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/arrow-2.0[${PYTHON_USEDEP}]
+	<dev-python/cachetools-6.0[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	auth? ( dev-python/google-cloud-firestore[${PYTHON_USEDEP}] )
 	buildtools? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	buildtools? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
@@ -38,22 +38,22 @@ DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
 	notifications? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
 	platform? ( dev-python/google-cloud-firestore[${PYTHON_USEDEP}] )
 	platform? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
-	platform? ( dev-python/redis[${PYTHON_USEDEP}] )
-	platform? ( dev-python/hiredis[${PYTHON_USEDEP}] )
-	platform? ( dev-python/rq[${PYTHON_USEDEP}] )
+	platform? ( <dev-python/redis-4.2[${PYTHON_USEDEP}] )
+	platform? ( ~dev-python/hiredis-2.0.0[${PYTHON_USEDEP}] )
+	platform? ( ~dev-python/rq-1.10.1[${PYTHON_USEDEP}] )
 	platform? ( dev-python/rq-scheduler[${PYTHON_USEDEP}] )
 	platform? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	queues? ( dev-python/redis[${PYTHON_USEDEP}] )
-	queues? ( dev-python/hiredis[${PYTHON_USEDEP}] )
-	queues? ( dev-python/rq[${PYTHON_USEDEP}] )
+	queues? ( <dev-python/redis-4.2[${PYTHON_USEDEP}] )
+	queues? ( ~dev-python/hiredis-2.0.0[${PYTHON_USEDEP}] )
+	queues? ( ~dev-python/rq-1.10.1[${PYTHON_USEDEP}] )
 	queues? ( dev-python/rq-scheduler[${PYTHON_USEDEP}] )
 	storage? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	tasks? ( dev-python/google-cloud-tasks[${PYTHON_USEDEP}] )
 	test? ( dev-python/google-cloud-firestore[${PYTHON_USEDEP}] )
 	test? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
-	test? ( dev-python/redis[${PYTHON_USEDEP}] )
-	test? ( dev-python/hiredis[${PYTHON_USEDEP}] )
-	test? ( dev-python/rq[${PYTHON_USEDEP}] )
+	test? ( <dev-python/redis-4.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/hiredis-2.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/rq-1.10.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/rq-scheduler[${PYTHON_USEDEP}] )
 	test? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	test? ( dev-python/google-cloud-tasks[${PYTHON_USEDEP}] )

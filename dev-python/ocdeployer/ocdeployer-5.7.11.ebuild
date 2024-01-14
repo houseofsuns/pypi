@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sh[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sh-1.13.1[${PYTHON_USEDEP}]
 	dev-python/prompter[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]

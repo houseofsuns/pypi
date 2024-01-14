@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/jupyter-packaging[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jupyterlab-3.4[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-packaging-0.12.3[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-4.2.4[${PYTHON_USEDEP}]
 	dev-python/remote-ikernel[${PYTHON_USEDEP}]
-	dev-python/terminado[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]"
+	~dev-python/terminado-0.15.0[${PYTHON_USEDEP}]
+	~dev-python/arrow-1.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

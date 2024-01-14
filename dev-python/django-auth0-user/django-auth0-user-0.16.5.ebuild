@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="auth0 drf"
 DEPENDENCIES="dev-python/social-auth-core[${PYTHON_USEDEP}]
 	dev-python/social-auth-app-django[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]
-	drf? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
+	<dev-python/cached-property-2.0.0[${PYTHON_USEDEP}]
+	drf? ( <dev-python/djangorestframework-4.0.0[${PYTHON_USEDEP}] )
 	drf? ( dev-python/djangorestframework-jwt[${PYTHON_USEDEP}] )
-	drf? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
+	drf? ( <dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}] )
 	auth0? ( dev-python/auth0-python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc graphviz"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scipy-0.19[${PYTHON_USEDEP}]
 	dev-python/GPy[${PYTHON_USEDEP}]
-	dev-python/ipyparallel[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/ipyparallel-6.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-1.1[${PYTHON_USEDEP}]
 	dev-python/networkX[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.12.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
+	>=dev-python/toolz-0.8[${PYTHON_USEDEP}]
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	graphviz? ( dev-python/graphviz[${PYTHON_USEDEP}] )"
+	graphviz? ( >=dev-python/graphviz-0.7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

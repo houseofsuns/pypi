@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc docs full notebook other others test tests"
-DEPENDENCIES="dev-python/markupsafe[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/migas[${PYTHON_USEDEP}]
 	dev-python/mriqc-learn[${PYTHON_USEDEP}]
@@ -34,27 +34,27 @@ DEPENDENCIES="dev-python/markupsafe[${PYTHON_USEDEP}]
 	dev-python/nireports[${PYTHON_USEDEP}]
 	dev-python/nitransforms[${PYTHON_USEDEP}]
 	dev-python/niworkflows[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	dev-python/pybids[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	dev-python/statsmodels[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	all? ( dev-python/mriqc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nipype[${PYTHON_USEDEP}] )
 	doc? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydot[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/pydot-1.2.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydotplus[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mriqc[${PYTHON_USEDEP}] )
 	full? ( dev-python/nirodents[${PYTHON_USEDEP}] )
 	full? ( dev-python/nitime[${PYTHON_USEDEP}] )

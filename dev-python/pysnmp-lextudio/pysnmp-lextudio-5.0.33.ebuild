@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyasn1[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
 	dev-python/pysnmpcrypto[${PYTHON_USEDEP}]
 	dev-python/pysmi-lextudio[${PYTHON_USEDEP}]
 	dev-python/pyasyncore[${PYTHON_USEDEP}]"

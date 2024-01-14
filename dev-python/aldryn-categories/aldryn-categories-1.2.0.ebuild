@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.11[${PYTHON_USEDEP}]
 	dev-python/django-parler[${PYTHON_USEDEP}]
 	dev-python/django-treebeard[${PYTHON_USEDEP}]
 	dev-python/aldryn-translation-tools[${PYTHON_USEDEP}]"

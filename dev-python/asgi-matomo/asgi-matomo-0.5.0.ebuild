@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci docs"
-DEPENDENCIES="dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asgiref-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24[${PYTHON_USEDEP}]
 	ci? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	docs? ( dev-python/markdown[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/markdown-3.5.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mdx-include[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mike[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-markdownextradata-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/mkdocs-material-9.4.8[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

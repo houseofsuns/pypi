@@ -33,9 +33,9 @@ DEPENDENCIES="dev-python/corider[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
 	dev-python/coloredlogs[${PYTHON_USEDEP}]
 	dev-python/gputil[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
+	>=dev-python/py-cpuinfo-7.0[${PYTHON_USEDEP}]
 	dev-python/ptflops[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pytorch-benchmark[${PYTHON_USEDEP}]
 	build? ( dev-python/protobuf[${PYTHON_USEDEP}] )
@@ -46,9 +46,9 @@ DEPENDENCIES="dev-python/corider[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-order[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
@@ -57,17 +57,17 @@ DEPENDENCIES="dev-python/corider[${PYTHON_USEDEP}]
 	dev? ( dev-python/ray[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lightning-bolts[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/docutils-0.16[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-fulltoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-mockautodoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-paramlinks[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autoapi-1.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	extras? ( dev-python/lightning-bolts[${PYTHON_USEDEP}] )
 	extras? ( dev-python/ray[${PYTHON_USEDEP}] )

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extra"
-DEPENDENCIES="extra? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	extra? ( dev-python/django[${PYTHON_USEDEP}] )
-	extra? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )
+DEPENDENCIES="extra? ( >=dev-python/tabulate-0.8.10[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/django-4.0.4[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/djangorestframework-3.13.1[${PYTHON_USEDEP}] )
 	extra? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	extra? ( dev-python/django-postgres-copy[${PYTHON_USEDEP}] )
 	extra? ( dev-python/cmarkgfm[${PYTHON_USEDEP}] )
-	extra? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )"
+	extra? ( >=dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

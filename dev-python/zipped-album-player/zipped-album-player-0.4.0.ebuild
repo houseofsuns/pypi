@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/pillow-9.1.1[${PYTHON_USEDEP}]
 	dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	dev-python/audio-metadata[${PYTHON_USEDEP}]
-	dev-python/pyglet[${PYTHON_USEDEP}]"
+	~dev-python/pyglet-1.5.26[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="notebooks"
 DEPENDENCIES="dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/globalwarmingpotentials[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	notebooks? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/seaborn[${PYTHON_USEDEP}] )"
+	notebooks? ( <dev-python/notebook-8.0.0[${PYTHON_USEDEP}] )
+	notebooks? ( <dev-python/seaborn-0.14.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
 DEPENDENCIES="dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/isoweek[${PYTHON_USEDEP}]
 	full? ( dev-python/geopandas[${PYTHON_USEDEP}] )"

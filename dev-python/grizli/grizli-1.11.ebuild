@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/astro-prospector[${PYTHON_USEDEP}]
 	dev-python/stwcs[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/tristars[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/drizzlepac[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/astro-prospector[${PYTHON_USEDEP}]
 	aws? ( dev-python/awscli[${PYTHON_USEDEP}] )
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	aws? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	aws? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	aws? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	hst? ( dev-python/reprocess-wfc3[${PYTHON_USEDEP}] )
 	hst? ( dev-python/astroscrappy[${PYTHON_USEDEP}] )
 	hst? ( dev-python/drizzlepac[${PYTHON_USEDEP}] )

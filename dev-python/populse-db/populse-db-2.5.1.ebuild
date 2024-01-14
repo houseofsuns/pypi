@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc postgres"
 DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/lark[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-1.0[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

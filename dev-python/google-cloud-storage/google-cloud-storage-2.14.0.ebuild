@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="protobuf"
-DEPENDENCIES="dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/google-api-core[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-auth-3.0[${PYTHON_USEDEP}]
+	<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]
 	dev-python/google-resumable-media[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/google-crc32c[${PYTHON_USEDEP}]
 	protobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

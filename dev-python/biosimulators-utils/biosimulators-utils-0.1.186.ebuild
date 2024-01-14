@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/mpmath[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.6[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	all? ( dev-python/bezier[${PYTHON_USEDEP}] )
 	all? ( dev-python/bionetgen[${PYTHON_USEDEP}] )
 	all? ( dev-python/capturer[${PYTHON_USEDEP}] )
-	all? ( dev-python/docker[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/docker-4.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	all? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	all? ( dev-python/libcellml[${PYTHON_USEDEP}] )
@@ -68,7 +68,7 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	all? ( dev-python/smoldyn[${PYTHON_USEDEP}] )
 	bngl? ( dev-python/bionetgen[${PYTHON_USEDEP}] )
 	cellml? ( dev-python/libcellml[${PYTHON_USEDEP}] )
-	containers? ( dev-python/docker[${PYTHON_USEDEP}] )
+	containers? ( >=dev-python/docker-4.4[${PYTHON_USEDEP}] )
 	escher? ( dev-python/bezier[${PYTHON_USEDEP}] )
 	lems? ( dev-python/pint[${PYTHON_USEDEP}] )
 	lems? ( dev-python/pylems[${PYTHON_USEDEP}] )

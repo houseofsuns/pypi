@@ -63,6 +63,6 @@ DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-regtest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toolz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/xlrd[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.9.9[${PYTHON_USEDEP}]
+	>=dev-python/python-slugify-4.0.1[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.13.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

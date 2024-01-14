@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dis"
-DEPENDENCIES="dis? ( dev-python/rich[${PYTHON_USEDEP}] )
+DEPENDENCIES="dis? ( >=dev-python/rich-11.0[${PYTHON_USEDEP}] )
 	dis? ( dev-python/distorm3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

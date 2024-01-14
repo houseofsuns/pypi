@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc hdf5 test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.9[${PYTHON_USEDEP}] )
 	all? ( dev-python/cpymad[${PYTHON_USEDEP}] )
-	all? ( dev-python/zstandard[${PYTHON_USEDEP}] )
-	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	all? ( dev-python/tables[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/zstandard-0.15.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/h5py-2.9.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tables-3.6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
@@ -42,13 +42,13 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-codeautolink[${PYTHON_USEDEP}] )
-	hdf5? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	hdf5? ( dev-python/tables[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	hdf5? ( >=dev-python/h5py-2.9.0[${PYTHON_USEDEP}] )
+	hdf5? ( >=dev-python/tables-3.6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.9[${PYTHON_USEDEP}] )
 	test? ( dev-python/cpymad[${PYTHON_USEDEP}] )
-	test? ( dev-python/zstandard[${PYTHON_USEDEP}] )
-	test? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	test? ( dev-python/tables[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/zstandard-0.15.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/h5py-2.9.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tables-3.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

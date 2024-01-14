@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/django-anymail[${PYTHON_USEDEP}]
 	dev-python/django-tinymce[${PYTHON_USEDEP}]
 	dev-python/django-rq[${PYTHON_USEDEP}]
-	dev-python/html2text[${PYTHON_USEDEP}]
+	~dev-python/html2text-2018.1.9[${PYTHON_USEDEP}]
 	dev-python/sendgrid[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

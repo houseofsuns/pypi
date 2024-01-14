@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pyqt pyside"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.22[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
 	dev-python/colorspacious[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	pyqt? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/PySide6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

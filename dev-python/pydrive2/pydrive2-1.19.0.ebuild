@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fsspec tests"
-DEPENDENCIES="dev-python/google-api-python-client[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/google-api-python-client-1.12.5[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	fsspec? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	fsspec? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	fsspec? ( dev-python/funcy[${PYTHON_USEDEP}] )
-	fsspec? ( dev-python/appdirs[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	fsspec? ( >=dev-python/fsspec-2021.7.0[${PYTHON_USEDEP}] )
+	fsspec? ( >=dev-python/tqdm-4.0.0[${PYTHON_USEDEP}] )
+	fsspec? ( >=dev-python/funcy-1.14[${PYTHON_USEDEP}] )
+	fsspec? ( >=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-4.6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/timeout-decorator[${PYTHON_USEDEP}] )
-	tests? ( dev-python/funcy[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/funcy-1.14[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

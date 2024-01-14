@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/requests-0.27.1[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.1.2[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2022.9.24[${PYTHON_USEDEP}]
+	>=dev-python/websockets-10.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

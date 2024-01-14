@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/certbot[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-mock[${PYTHON_USEDEP}]
-	dev-python/dns-lexicon[${PYTHON_USEDEP}]"
+	>=dev-python/dns-lexicon-3.11.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

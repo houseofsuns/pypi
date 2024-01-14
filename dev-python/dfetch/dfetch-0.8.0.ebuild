@@ -25,39 +25,39 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="casts development docs test"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
-	dev-python/pykwalify[${PYTHON_USEDEP}]
+	~dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
+	~dev-python/pykwalify-1.8.0[${PYTHON_USEDEP}]
 	dev-python/halo[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/sarif-om[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/patch-ng[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/sarif-om-1.0.4[${PYTHON_USEDEP}]
+	~dev-python/semver-3.0.2[${PYTHON_USEDEP}]
+	~dev-python/patch-ng-1.17.4[${PYTHON_USEDEP}]
 	dev-python/cyclonedx-python-lib[${PYTHON_USEDEP}]
 	dev-python/infer-license[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	casts? ( dev-python/asciinema[${PYTHON_USEDEP}] )
-	development? ( dev-python/black[${PYTHON_USEDEP}] )
-	development? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	development? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	development? ( dev-python/radon[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/black-23.12.0[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/doc8-1.1.1[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/radon-6.0.1[${PYTHON_USEDEP}] )
 	development? ( dev-python/xenon[${PYTHON_USEDEP}] )
 	development? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	development? ( dev-python/codespell[${PYTHON_USEDEP}] )
-	development? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	development? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/mypy-1.8.0[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/bandit-1.7.6[${PYTHON_USEDEP}] )
 	development? ( dev-python/vulture[${PYTHON_USEDEP}] )
 	development? ( dev-python/pyroma[${PYTHON_USEDEP}] )
-	development? ( dev-python/isort[${PYTHON_USEDEP}] )
-	development? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )
 	development? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	development? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-argparse-0.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/plantweb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-asciinema[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/behave[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

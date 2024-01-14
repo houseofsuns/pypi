@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/pydid[${PYTHON_USEDEP}]
 	dev-python/varint[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-xdist-2.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

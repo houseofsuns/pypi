@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/google-api-core[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/botocore-1.12.250[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.9.250[${PYTHON_USEDEP}]
+	~dev-python/google-api-core-1.22.4[${PYTHON_USEDEP}]
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/azure-storage-blob[${PYTHON_USEDEP}]

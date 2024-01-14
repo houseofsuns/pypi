@@ -27,7 +27,7 @@ IUSE="doc oslo test"
 DEPENDENCIES="dev-python/setproctitle[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	oslo? ( dev-python/oslo-config[${PYTHON_USEDEP}] )
+	oslo? ( >=dev-python/oslo-config-3.14.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

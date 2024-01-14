@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyusb[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pyusb-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

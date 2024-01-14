@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/asana[${PYTHON_USEDEP}]
 	dev-python/azure-devops[${PYTHON_USEDEP}]
 	dev-python/azure-monitor-opentelemetry[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	<dev-python/pytz-2024.0[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

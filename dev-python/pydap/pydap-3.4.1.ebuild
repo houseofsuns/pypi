@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/Webob[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.4.0[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	cas? ( dev-python/lxml[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	testing? ( dev-python/PasteDeploy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ordereddict[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-attrib[${PYTHON_USEDEP}] )
 	testing? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	testing? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-attrib[${PYTHON_USEDEP}] )
 	tests? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )

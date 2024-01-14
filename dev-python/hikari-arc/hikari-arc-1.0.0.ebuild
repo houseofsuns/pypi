@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cron dev docs rest"
 DEPENDENCIES="dev-python/hikari[${PYTHON_USEDEP}]
 	dev-python/alluka[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	cron? ( dev-python/croniter[${PYTHON_USEDEP}] )
+	>=dev-python/attrs-23.1[${PYTHON_USEDEP}]
+	cron? ( ~dev-python/croniter-2.0.1[${PYTHON_USEDEP}] )
 	cron? ( dev-python/types-croniter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	docs? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nox-2023.4.22[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-asyncio-0.23.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.5.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-python-1.8.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/black-23.12.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/griffe-inherited-docstrings[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-glightbox[${PYTHON_USEDEP}] )
 	rest? ( dev-python/hikari[${PYTHON_USEDEP}] )"

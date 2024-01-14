@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/databases[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]"
+	<dev-python/cached-property-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

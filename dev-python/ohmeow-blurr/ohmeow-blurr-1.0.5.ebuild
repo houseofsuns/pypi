@@ -32,8 +32,8 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/seqeval[${PYTHON_USEDEP}]
 	dev-python/rouge-score[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0[${PYTHON_USEDEP}]
+	<dev-python/xlrd-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbdev[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gputil[${PYTHON_USEDEP}] )"

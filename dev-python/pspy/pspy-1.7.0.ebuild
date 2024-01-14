@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/healpy[${PYTHON_USEDEP}]
 	dev-python/pyFFTW[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]

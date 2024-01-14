@@ -46,6 +46,6 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-asyncio-0.18.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

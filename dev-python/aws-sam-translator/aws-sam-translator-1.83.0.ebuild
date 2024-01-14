@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/boto3-1.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.4[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	dev? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-xdist-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-env-1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-rerunfailures-12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/parameterized-0.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dateparser[${PYTHON_USEDEP}] )
-	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tenacity[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tenacity-8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-2.28[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.10.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-jsonschema[${PYTHON_USEDEP}] )"

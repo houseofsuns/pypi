@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	>=dev-python/boto3-1.9.0[${PYTHON_USEDEP}]
+	tests? ( >=dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
 	tests? ( dev-python/black[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

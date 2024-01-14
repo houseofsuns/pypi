@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs ipython test"
-DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/platformdirs-3.9.1[${PYTHON_USEDEP}]
 	dev-python/uqbar[${PYTHON_USEDEP}]
 	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/librosa[${PYTHON_USEDEP}] )

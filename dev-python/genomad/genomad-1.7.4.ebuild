@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/keras[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/pyrodigal-gv[${PYTHON_USEDEP}]
 	dev-python/python-crfsuite[${PYTHON_USEDEP}]
 	dev-python/rich-click[${PYTHON_USEDEP}]

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pydantic"
 DEPENDENCIES="dev-python/iso3166[${PYTHON_USEDEP}]
 	dev-python/pycountry[${PYTHON_USEDEP}]
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )"
+	pydantic? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/edc[${PYTHON_USEDEP}]
 	dev-python/edc-microscopy[${PYTHON_USEDEP}]
 	dev-python/canned-views[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	~dev-python/inflect-6.0.4[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="check docs fuzzer test"
-DEPENDENCIES="check? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	check? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
+DEPENDENCIES="check? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	check? ( >=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
 	check? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	check? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	check? ( <dev-python/flake8-5.0[${PYTHON_USEDEP}] )
 	check? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
 	check? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	check? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
 	check? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	check? ( dev-python/isort[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	check? ( >=dev-python/isort-5.0.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	fuzzer? ( dev-python/atheris[${PYTHON_USEDEP}] )
 	fuzzer? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/coverage-5.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

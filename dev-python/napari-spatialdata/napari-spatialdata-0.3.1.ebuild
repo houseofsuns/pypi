@@ -44,15 +44,15 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/spatialdata[${PYTHON_USEDEP}]
 	dev-python/superqt[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
 	dev-python/vispy[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
 	all? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinxcontrib-bibtex-1.0.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-autodoc-typehints-1.11.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	doc? ( dev-python/scanpydoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
@@ -62,7 +62,7 @@ DEPENDENCIES="dev-python/anndata[${PYTHON_USEDEP}]
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	doc? ( dev-python/squidpy[${PYTHON_USEDEP}] )
 	doc? ( dev-python/scanpy[${PYTHON_USEDEP}] )
-	readthedocs? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	readthedocs? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/loguru[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

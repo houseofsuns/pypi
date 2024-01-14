@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiodns[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	~dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
 	dev-python/aioredis[${PYTHON_USEDEP}]
-	dev-python/aioresponses[${PYTHON_USEDEP}]
+	~dev-python/aioresponses-0.7.2[${PYTHON_USEDEP}]
 	dev-python/aiorwlock[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	~dev-python/cachetools-4.1.0[${PYTHON_USEDEP}]
 	dev-python/asynctest[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
+	~dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/hexbytes[${PYTHON_USEDEP}]
 	dev-python/polyswarm-artifact[${PYTHON_USEDEP}]
 	dev-python/polyswarm-transaction[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.10.1[${PYTHON_USEDEP}]
+	~dev-python/python-json-logger-0.1.9[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/yara-python[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]"
+	~dev-python/websockets-8.1[${PYTHON_USEDEP}]
+	~dev-python/yara-python-4.0.1[${PYTHON_USEDEP}]
+	~dev-python/python-magic-0.4.15[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/cement[${PYTHON_USEDEP}]
 	dev-python/cement[${PYTHON_USEDEP}]
 	dev-python/cement[${PYTHON_USEDEP}]
 	dev-python/cement[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-38.0.3[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/peewee-3.15.3[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	dev-python/web3client[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/ansys-fluent-core[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pyside6[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
+	>=dev-python/pyside6-6.2.3[${PYTHON_USEDEP}]
 	dev-python/pyvista[${PYTHON_USEDEP}]
 	dev-python/pyvistaqt[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]"

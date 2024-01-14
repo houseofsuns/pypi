@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="uvicorn"
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	uvicorn? ( dev-python/uvicorn[${PYTHON_USEDEP}] )"
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.19.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
+	uvicorn? ( >=dev-python/uvicorn-0.21.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

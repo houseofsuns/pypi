@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/prefect[${PYTHON_USEDEP}]
 	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-asyncio-0.23.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
 	dev? ( dev-python/interrogate[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )

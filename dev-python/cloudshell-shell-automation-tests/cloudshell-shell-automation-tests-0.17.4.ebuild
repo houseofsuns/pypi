@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/cloudshell-automation-api[${PYTHON_USEDEP}]
 	dev-python/cloudshell-rest-api[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	~dev-python/cryptography-3.1[${PYTHON_USEDEP}]
 	dev-python/pysmb[${PYTHON_USEDEP}]
 	dev-python/pyvmomi[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.20[${PYTHON_USEDEP}]
 	dev-python/teamcity-messages[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10[${PYTHON_USEDEP}]
+	~dev-python/paramiko-2.7[${PYTHON_USEDEP}]
 	dev-python/tftpy[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]"
+	~dev-python/retrying-1.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

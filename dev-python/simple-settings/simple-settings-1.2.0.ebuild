@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all database dynamic_settings memcache redis s3 toml yaml"
-DEPENDENCIES="all? ( dev-python/jsonpickle[${PYTHON_USEDEP}] )
-	dynamic_settings? ( dev-python/jsonpickle[${PYTHON_USEDEP}] )
+DEPENDENCIES="all? ( ~dev-python/jsonpickle-2.0.0[${PYTHON_USEDEP}] )
+	dynamic_settings? ( ~dev-python/jsonpickle-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
@@ -34,11 +34,11 @@ DEPENDENCIES="all? ( dev-python/jsonpickle[${PYTHON_USEDEP}] )
 	database? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymemcache[${PYTHON_USEDEP}] )
 	memcache? ( dev-python/pymemcache[${PYTHON_USEDEP}] )
-	all? ( dev-python/six[${PYTHON_USEDEP}] )
-	memcache? ( dev-python/six[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )"
+	all? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
+	memcache? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/redis-3.5.3[${PYTHON_USEDEP}] )
+	redis? ( ~dev-python/redis-3.5.3[${PYTHON_USEDEP}] )
+	all? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	s3? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

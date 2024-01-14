@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="fec"
 DEPENDENCIES="dev-python/distro[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-gnupg[${PYTHON_USEDEP}]
+	>=dev-python/python-gnupg-0.4.7[${PYTHON_USEDEP}]
 	dev-python/qrcode[${PYTHON_USEDEP}]
 	dev-python/pysnmp[${PYTHON_USEDEP}]
 	fec? ( dev-python/zfec[${PYTHON_USEDEP}] )"

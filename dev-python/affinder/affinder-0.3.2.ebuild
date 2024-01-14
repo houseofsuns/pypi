@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/napari[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	testing? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	testing? ( dev-python/napari[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	testing? ( >dev-python/pygments-2.16[${PYTHON_USEDEP}] )
 	testing? ( dev-python/zarr[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

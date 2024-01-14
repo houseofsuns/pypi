@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ipython mssql mysql postgresql redshift snowflake vertica"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pypika[${PYTHON_USEDEP}]
-	dev-python/toposort[${PYTHON_USEDEP}]
-	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	mssql? ( dev-python/cython[${PYTHON_USEDEP}] )
+	~dev-python/toposort-1.6[${PYTHON_USEDEP}]
+	mysql? ( ~dev-python/pymysql-1.0.2[${PYTHON_USEDEP}] )
+	mssql? ( ~dev-python/cython-3.0.0[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	vertica? ( dev-python/vertica-python[${PYTHON_USEDEP}] )
-	ipython? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )"
+	ipython? ( >=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}] )
+	ipython? ( >=dev-python/ipython-7.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

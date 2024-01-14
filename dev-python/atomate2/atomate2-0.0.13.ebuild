@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/monty[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]
 	dev-python/pymatgen[${PYTHON_USEDEP}]
 	amset? ( dev-python/amset[${PYTHON_USEDEP}] )
 	amset? ( dev-python/pydash[${PYTHON_USEDEP}] )
@@ -42,20 +42,20 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/FireWorks[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodoc-pydantic[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/ipython-8.19.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	forcefields? ( dev-python/ase[${PYTHON_USEDEP}] )
 	forcefields? ( dev-python/chgnet[${PYTHON_USEDEP}] )
 	forcefields? ( dev-python/mace-torch[${PYTHON_USEDEP}] )
 	forcefields? ( dev-python/matgl[${PYTHON_USEDEP}] )
 	forcefields? ( dev-python/quippy-ase[${PYTHON_USEDEP}] )
-	lobster? ( dev-python/ijson[${PYTHON_USEDEP}] )
+	lobster? ( >=dev-python/ijson-3.2.2[${PYTHON_USEDEP}] )
 	lobster? ( dev-python/lobsterpy[${PYTHON_USEDEP}] )
 	mp? ( dev-python/mp-api[${PYTHON_USEDEP}] )
 	phonons? ( dev-python/phonopy[${PYTHON_USEDEP}] )
@@ -64,11 +64,11 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	strict? ( dev-python/ase[${PYTHON_USEDEP}] )
 	strict? ( dev-python/cclib[${PYTHON_USEDEP}] )
 	strict? ( dev-python/chgnet[${PYTHON_USEDEP}] )
-	strict? ( dev-python/click[${PYTHON_USEDEP}] )
+	strict? ( ~dev-python/click-8.1.7[${PYTHON_USEDEP}] )
 	strict? ( dev-python/custodian[${PYTHON_USEDEP}] )
 	strict? ( dev-python/dscribe[${PYTHON_USEDEP}] )
 	strict? ( dev-python/emmet-core[${PYTHON_USEDEP}] )
-	strict? ( dev-python/ijson[${PYTHON_USEDEP}] )
+	strict? ( ~dev-python/ijson-3.2.3[${PYTHON_USEDEP}] )
 	strict? ( dev-python/jobflow[${PYTHON_USEDEP}] )
 	strict? ( dev-python/lobsterpy[${PYTHON_USEDEP}] )
 	strict? ( dev-python/mace-torch[${PYTHON_USEDEP}] )
@@ -78,14 +78,14 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	strict? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	strict? ( dev-python/phonopy[${PYTHON_USEDEP}] )
 	strict? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )
-	strict? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	strict? ( ~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}] )
 	strict? ( dev-python/pymatgen-analysis-defects[${PYTHON_USEDEP}] )
 	strict? ( dev-python/pymatgen[${PYTHON_USEDEP}] )
 	strict? ( dev-python/quippy-ase[${PYTHON_USEDEP}] )
 	strict? ( dev-python/seekpath[${PYTHON_USEDEP}] )
-	strict? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	strict? ( ~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/FireWorks[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

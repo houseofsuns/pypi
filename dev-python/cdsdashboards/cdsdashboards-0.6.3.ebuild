@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="sudospawner user"
-DEPENDENCIES="dev-python/tornado[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tornado-6.0.4[${PYTHON_USEDEP}]
 	dev-python/traitlets[${PYTHON_USEDEP}]
 	dev-python/jupyterhub[${PYTHON_USEDEP}]
 	dev-python/alembic[${PYTHON_USEDEP}]

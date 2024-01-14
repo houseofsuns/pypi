@@ -37,6 +37,6 @@ DEPENDENCIES="docs? ( dev-python/toml[${PYTHON_USEDEP}] )
 	test? ( dev-python/asdf[${PYTHON_USEDEP}] )
 	test? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	test? ( dev-python/gwcs[${PYTHON_USEDEP}] )
-	test? ( dev-python/packaging[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/packaging-16.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

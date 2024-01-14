@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	tests? ( dev-python/pylama[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pylama-7.4.3[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-3.6.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

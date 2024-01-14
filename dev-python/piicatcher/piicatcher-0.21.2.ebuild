@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="datahub"
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
+	<dev-python/python-json-logger-3.0.0[${PYTHON_USEDEP}]
 	dev-python/commonregex-improved[${PYTHON_USEDEP}]
 	dev-python/dbcat[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/goog-stats[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}]
 	dev-python/dataclasses[${PYTHON_USEDEP}]
 	datahub? ( dev-python/great-expectations[${PYTHON_USEDEP}] )
 	datahub? ( dev-python/acryl-datahub[${PYTHON_USEDEP}] )
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/catalogue[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

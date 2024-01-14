@@ -29,31 +29,31 @@ DEPENDENCIES="dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev-python/magicgui[${PYTHON_USEDEP}]
 	dev-python/psygnal[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
-	dev-python/superqt[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	>=dev-python/superqt-0.6.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-autorefs-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-extensions-1.3.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.5.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-python-1.7.5[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pandas-2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pyqtgraph-0.13.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/vispy[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
-	pyside2? ( dev-python/pyside2[${PYTHON_USEDEP}] )
+	pyside2? ( >=dev-python/pyside2-5.15[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/pyside6[${PYTHON_USEDEP}] )
 	testing? ( dev-python/dask[${PYTHON_USEDEP}] )
 	testing? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/polars[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pyqtgraph-0.13.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
 	testing? ( dev-python/vispy[${PYTHON_USEDEP}] )"

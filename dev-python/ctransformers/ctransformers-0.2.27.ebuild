@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cuda gptq tests"
 DEPENDENCIES="dev-python/huggingface-hub[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
+	<dev-python/py-cpuinfo-10.0.0[${PYTHON_USEDEP}]
 	cuda? ( dev-python/nvidia-cublas-cu12[${PYTHON_USEDEP}] )
 	cuda? ( dev-python/nvidia-cuda-runtime-cu12[${PYTHON_USEDEP}] )
 	gptq? ( dev-python/exllama[${PYTHON_USEDEP}] )

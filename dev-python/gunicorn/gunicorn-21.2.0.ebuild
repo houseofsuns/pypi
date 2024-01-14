@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	eventlet? ( dev-python/eventlet[${PYTHON_USEDEP}] )
 	gevent? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	setproctitle? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
-	tornado? ( dev-python/tornado[${PYTHON_USEDEP}] )"
+	tornado? ( >=dev-python/tornado-0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

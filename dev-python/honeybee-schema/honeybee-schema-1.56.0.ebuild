@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli"
 DEPENDENCIES="dev-python/pydantic-openapi-helper[${PYTHON_USEDEP}]
 	dev-python/honeybee-standards[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )"
+	cli? ( ~dev-python/click-7.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

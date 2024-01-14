@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="books citation-api-import gitrepo-export languagetool mysql ojs payment-paddle phplist postgresql website"
-DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/bleach-5.0.1[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-allauth[${PYTHON_USEDEP}]
 	dev-python/django-avatar[${PYTHON_USEDEP}]
@@ -32,12 +32,12 @@ DEPENDENCIES="dev-python/bleach[${PYTHON_USEDEP}]
 	dev-python/django-npm-mjs[${PYTHON_USEDEP}]
 	dev-python/django-loginas[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
+	~dev-python/tornado-6.2[${PYTHON_USEDEP}]
 	dev-python/prosemirror-py[${PYTHON_USEDEP}]
-	dev-python/jsonpatch[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	~dev-python/jsonpatch-1.32[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
 	books? ( dev-python/fiduswriter-books[${PYTHON_USEDEP}] )
 	citation-api-import? ( dev-python/fiduswriter-citation-api-import[${PYTHON_USEDEP}] )
 	gitrepo-export? ( dev-python/fiduswriter-gitrepo-export[${PYTHON_USEDEP}] )

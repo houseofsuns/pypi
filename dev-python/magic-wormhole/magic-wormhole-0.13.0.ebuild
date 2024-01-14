@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev dilate"
-DEPENDENCIES="dev-python/spake2[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/spake2-0.8[${PYTHON_USEDEP}]
 	dev-python/pynacl[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/twisted[${PYTHON_USEDEP}]
-	dev-python/autobahn[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
+	>=dev-python/twisted-17.5.0[${PYTHON_USEDEP}]
+	>=dev-python/autobahn-0.14.1[${PYTHON_USEDEP}]
 	dev-python/automat[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.13.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/txtorcon[${PYTHON_USEDEP}]
+	>=dev-python/txtorcon-18.0.2[${PYTHON_USEDEP}]
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	build? ( dev-python/dulwich[${PYTHON_USEDEP}] )
 	build? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
@@ -43,8 +43,8 @@ DEPENDENCIES="dev-python/spake2[${PYTHON_USEDEP}]
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/magic-wormhole-transit-relay[${PYTHON_USEDEP}] )
-	dev? ( dev-python/magic-wormhole-mailbox-server[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/magic-wormhole-transit-relay-0.1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/magic-wormhole-mailbox-server-0.3.1[${PYTHON_USEDEP}] )
 	dilate? ( dev-python/noiseprotocol[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

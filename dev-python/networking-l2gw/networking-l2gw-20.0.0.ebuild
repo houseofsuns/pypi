@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/neutron-lib[${PYTHON_USEDEP}]
 	dev-python/neutron[${PYTHON_USEDEP}]
 	dev-python/ovsdbapp[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/python-neutronclient[${PYTHON_USEDEP}]"
+	>=dev-python/pbr-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/python-neutronclient-7.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

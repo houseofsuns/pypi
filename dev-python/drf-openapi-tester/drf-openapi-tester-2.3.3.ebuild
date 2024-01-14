@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="drf-spectacular drf-yasg"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/djangorestframework[${PYTHON_USEDEP}]
 	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/openapi-spec-validator[${PYTHON_USEDEP}]
+	>=dev-python/openapi-spec-validator-0.4[${PYTHON_USEDEP}]
 	dev-python/prance[${PYTHON_USEDEP}]
 	dev-python/pyYAML[${PYTHON_USEDEP}]
 	drf-spectacular? ( dev-python/drf-spectacular[${PYTHON_USEDEP}] )

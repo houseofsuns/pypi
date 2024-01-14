@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc gendocs global validation"
-DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	validation? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	global? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	gendocs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	gendocs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	gendocs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.2[${PYTHON_USEDEP}]
+	validation? ( >=dev-python/pydantic-2.5.3[${PYTHON_USEDEP}] )
+	global? ( >=dev-python/platformdirs-3.11.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
+	gendocs? ( >=dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
+	gendocs? ( >=dev-python/sphinx-autodoc-typehints-1.25.2[${PYTHON_USEDEP}] )
+	gendocs? ( >=dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	gendocs? ( dev-python/pytoolconfig[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

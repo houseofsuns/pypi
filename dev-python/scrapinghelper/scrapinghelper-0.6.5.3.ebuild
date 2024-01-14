@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="converter socks"
 DEPENDENCIES="dev-python/requests-html[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-0.10.0[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	converter? ( dev-python/multimethod[${PYTHON_USEDEP}] )
-	socks? ( dev-python/PySocks[${PYTHON_USEDEP}] )"
+	socks? ( >=dev-python/PySocks-1.5.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

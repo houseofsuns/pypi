@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/sphinx-click[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
+	<dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}]
 	dev-python/walkdir[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
+	<dev-python/tomlkit-0.6.0[${PYTHON_USEDEP}]
 	dev-python/semantic_version[${PYTHON_USEDEP}]
 	dev-python/pypi-simple[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

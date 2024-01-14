@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="globus test"
 DEPENDENCIES="dev-python/parsl[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.0[${PYTHON_USEDEP}]
+	>=dev-python/redis-4.3[${PYTHON_USEDEP}]
 	dev-python/proxystore[${PYTHON_USEDEP}]
 	globus? ( dev-python/globus-compute-sdk[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )

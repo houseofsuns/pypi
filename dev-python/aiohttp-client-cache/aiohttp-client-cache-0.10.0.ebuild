@@ -24,33 +24,33 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs dynamodb filesystem mongodb redis sqlite"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	dev-python/url-normalize[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-21.2[${PYTHON_USEDEP}]
+	>=dev-python/itsdangerous-2.0[${PYTHON_USEDEP}]
+	<dev-python/url-normalize-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/aioboto3[${PYTHON_USEDEP}] )
 	dynamodb? ( dev-python/aioboto3[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	dynamodb? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
-	filesystem? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	filesystem? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/aiofiles-0.6.0[${PYTHON_USEDEP}] )
+	filesystem? ( >=dev-python/aiofiles-0.6.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/aiosqlite-0.16[${PYTHON_USEDEP}] )
+	filesystem? ( >=dev-python/aiosqlite-0.16[${PYTHON_USEDEP}] )
+	sqlite? ( >=dev-python/aiosqlite-0.16[${PYTHON_USEDEP}] )
 	all? ( dev-python/motor[${PYTHON_USEDEP}] )
 	mongodb? ( dev-python/motor[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
-	docs? ( dev-python/markdown-it-py[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/redis-4.2[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.2[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/furo-2024.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/linkify-it-py-2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/markdown-it-py-2.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/myst-parser-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/python-forge[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-copybutton-0.4[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-inline-tabs-2023.4[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-apidoc-0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

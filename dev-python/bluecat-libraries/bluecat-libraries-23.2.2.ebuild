@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev internal-suds"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
-	dev? ( dev-python/paramiko[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/requests-2.26[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/responses-0.14.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/paramiko-2.7.2[${PYTHON_USEDEP}] )
 	internal-suds? ( dev-python/suds-py3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

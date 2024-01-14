@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/uvloop[${PYTHON_USEDEP}]
-	dev-python/pylru[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pid[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/uvloop-0.16.0[${PYTHON_USEDEP}]
+	<dev-python/pylru-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/pid-4.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-0.15.0[${PYTHON_USEDEP}]
 	dev-python/asyncio_dgram[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pyroute2[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]"
+	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/async-timeout-4.0[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
+	<dev-python/pyroute2-0.8.0[${PYTHON_USEDEP}]
+	>dev-python/sentry-sdk-1.14.0[${PYTHON_USEDEP}]
+	<dev-python/cached-property-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

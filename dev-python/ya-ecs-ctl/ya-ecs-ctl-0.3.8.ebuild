@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/terminaltables[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-6.6[${PYTHON_USEDEP}]
+	<dev-python/boto3-1.18[${PYTHON_USEDEP}]
+	~dev-python/terminaltables-3.1.0[${PYTHON_USEDEP}]
+	~dev-python/humanize-0.5.1[${PYTHON_USEDEP}]
 	dev-python/EasySettings[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	~dev-python/prompt-toolkit-2.0.4[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/colored[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]"

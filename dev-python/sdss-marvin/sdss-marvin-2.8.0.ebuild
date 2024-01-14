@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="db dev docs web"
 DEPENDENCIES="dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}]
 	dev-python/numpyencoder[${PYTHON_USEDEP}]
-	dev-python/dogpile-cache[${PYTHON_USEDEP}]
+	<dev-python/dogpile-cache-1.1[${PYTHON_USEDEP}]
 	db? ( dev-python/pgpasslib[${PYTHON_USEDEP}] )
 	dev-python/sdsstools[${PYTHON_USEDEP}]
 	dev-python/sdss-tree[${PYTHON_USEDEP}]
@@ -35,72 +35,72 @@ DEPENDENCIES="dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}]
 	dev-python/marvin-sqlalchemy-boolean-search[${PYTHON_USEDEP}]
 	dev-python/marvin-wtforms-alchemy[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
+	>=dev-python/fuzzywuzzy-0.15.0[${PYTHON_USEDEP}]
 	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	dev-python/raven[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	<dev-python/packaging-21.0[${PYTHON_USEDEP}]
 	dev-python/yamlordereddictloader[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.18.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-1.5.3[${PYTHON_USEDEP}]
 	dev-python/webargs[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-2.1[${PYTHON_USEDEP}]
 	db? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	db? ( dev-python/Flask-Login[${PYTHON_USEDEP}] )
-	db? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	db? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-bootstrap-theme-0.4.12[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinxcontrib-httpdomain-1.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-issues-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.4.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nbsphinx-0.3.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/photutils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mpl-scatter-density[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jupyter-client-5.2.3[${PYTHON_USEDEP}] )
+	dev? ( >dev-python/ipykernel-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.9.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/doc8-0.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-sugar-0.9.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-remotedata[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-xdist-1.18.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-timeout-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-1.13.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-split[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipdb-0.12.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.33.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/selenium-3.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/page-objects[${PYTHON_USEDEP}] )
-	dev? ( dev-python/decorator[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/decorator-4.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pympler[${PYTHON_USEDEP}] )
-	dev? ( dev-python/msgpack[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/msgpack-0.5.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/msgpack-numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flask-Testing[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-bootstrap-theme-0.4.12[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-httpdomain-1.5.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-issues-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.4.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.3.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/photutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mpl-scatter-density[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	web? ( dev-python/blinker[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jupyter-client-5.2.3[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/ipykernel-5.0[${PYTHON_USEDEP}] )
+	web? ( >=dev-python/blinker-1.4[${PYTHON_USEDEP}] )
 	web? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	web? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
+	web? ( <dev-python/werkzeug-2.1[${PYTHON_USEDEP}] )
 	web? ( dev-python/Flask-FeatureFlags[${PYTHON_USEDEP}] )
 	web? ( dev-python/Flask-Compress[${PYTHON_USEDEP}] )
 	web? ( dev-python/Flask-Limiter[${PYTHON_USEDEP}] )
@@ -109,8 +109,8 @@ DEPENDENCIES="dev-python/Flask-JWT-Extended[${PYTHON_USEDEP}]
 	web? ( dev-python/Flask-Login[${PYTHON_USEDEP}] )
 	web? ( dev-python/Flask-Cors[${PYTHON_USEDEP}] )
 	web? ( dev-python/Flask-Session[${PYTHON_USEDEP}] )
-	web? ( dev-python/redis[${PYTHON_USEDEP}] )
-	web? ( dev-python/validators[${PYTHON_USEDEP}] )
+	web? ( >=dev-python/redis-3.3[${PYTHON_USEDEP}] )
+	web? ( >=dev-python/validators-0.10.3[${PYTHON_USEDEP}] )
 	web? ( dev-python/intervals[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/bandit[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pytest-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/bandit-1.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

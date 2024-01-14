@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="coverage docs pep8 release tests"
-DEPENDENCIES="dev-python/pyjwt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	coverage? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

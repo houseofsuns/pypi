@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/arrow-0.12.1[${PYTHON_USEDEP}]
+	tests? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

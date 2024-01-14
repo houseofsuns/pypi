@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all md sup"
 DEPENDENCIES="all? ( dev-python/MDAnalysis[${PYTHON_USEDEP}] )
 	all? ( dev-python/mdtraj[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
 	md? ( dev-python/MDAnalysis[${PYTHON_USEDEP}] )
 	md? ( dev-python/mdtraj[${PYTHON_USEDEP}] )
-	sup? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	sup? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	sup? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
+	sup? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

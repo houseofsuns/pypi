@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli docs tests"
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cffi-1.6.0[${PYTHON_USEDEP}]
 	dev-python/strip-hints[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/enum34[${PYTHON_USEDEP}]
-	cli? ( dev-python/cffi[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/cffi-1.6.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/strip-hints[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/click-8.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/enum34[${PYTHON_USEDEP}] )
-	cli? ( dev-python/flask[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/flask-2.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/requests[${PYTHON_USEDEP}] )
 	cli? ( dev-python/flask-restful[${PYTHON_USEDEP}] )
 	cli? ( dev-python/flask-cors[${PYTHON_USEDEP}] )

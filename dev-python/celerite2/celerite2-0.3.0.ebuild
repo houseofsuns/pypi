@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs jax pymc pymc3 style test theano tutorials"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.13.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black-nbconvert[${PYTHON_USEDEP}] )
@@ -51,8 +51,8 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	jax? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	pymc? ( dev-python/pymc[${PYTHON_USEDEP}] )
 	pymc3? ( dev-python/pymc3[${PYTHON_USEDEP}] )
-	pymc3? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	pymc3? ( dev-python/xarray[${PYTHON_USEDEP}] )
+	pymc3? ( <dev-python/numpy-1.22[${PYTHON_USEDEP}] )
+	pymc3? ( <dev-python/xarray-2023.10.0[${PYTHON_USEDEP}] )
 	style? ( dev-python/isort[${PYTHON_USEDEP}] )
 	style? ( dev-python/black[${PYTHON_USEDEP}] )
 	style? ( dev-python/black-nbconvert[${PYTHON_USEDEP}] )
@@ -62,8 +62,8 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	test? ( dev-python/celerite[${PYTHON_USEDEP}] )
 	theano? ( dev-python/pymc3[${PYTHON_USEDEP}] )
-	theano? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	theano? ( dev-python/xarray[${PYTHON_USEDEP}] )
+	theano? ( <dev-python/numpy-1.22[${PYTHON_USEDEP}] )
+	theano? ( <dev-python/xarray-2023.10.0[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/emcee[${PYTHON_USEDEP}] )

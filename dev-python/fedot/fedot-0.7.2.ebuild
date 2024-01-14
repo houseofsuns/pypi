@@ -25,38 +25,38 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs examples extra profilers"
 DEPENDENCIES="dev-python/thegolem[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.12.0[${PYTHON_USEDEP}]
 	dev-python/ete3[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	dev-python/hyperopt[${PYTHON_USEDEP}]
 	dev-python/SALib[${PYTHON_USEDEP}]
 	dev-python/scikit-optimize[${PYTHON_USEDEP}]
 	dev-python/pyvis[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}]
 	dev-python/func-timeout[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.17.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/testfixtures[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7.3[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.2.0[${PYTHON_USEDEP}]
+	>=dev-python/testfixtures-6.18.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	>=dev-python/matplotlib-3.3.1[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/readthedocs-sphinx-search[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-details-directive[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	examples? ( dev-python/tpot[${PYTHON_USEDEP}] )
 	examples? ( dev-python/h2o[${PYTHON_USEDEP}] )
-	examples? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	examples? ( ~dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}] )
 	extra? ( dev-python/torch[${PYTHON_USEDEP}] )
 	extra? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	extra? ( dev-python/Pillow[${PYTHON_USEDEP}] )
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/thegolem[${PYTHON_USEDEP}]
 	extra? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	profilers? ( dev-python/snakeviz[${PYTHON_USEDEP}] )
 	profilers? ( dev-python/gprof2dot[${PYTHON_USEDEP}] )
-	profilers? ( dev-python/objgraph[${PYTHON_USEDEP}] )
+	profilers? ( ~dev-python/objgraph-3.5.0[${PYTHON_USEDEP}] )
 	profilers? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

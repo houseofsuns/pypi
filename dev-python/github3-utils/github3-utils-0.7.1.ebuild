@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all testing"
 DEPENDENCIES="dev-python/apeye-core[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/attrs-20.3.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/github3-py[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	testing? ( dev-python/betamax[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/betamax[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	>=dev-python/github3-py-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/pynacl-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}]
+	testing? ( >=dev-python/betamax-0.8.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/betamax-0.8.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

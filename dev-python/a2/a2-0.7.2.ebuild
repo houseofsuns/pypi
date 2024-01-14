@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmarks coordinates llama-chatbot tweets"
-DEPENDENCIES="dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/xarray-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/Shapely[${PYTHON_USEDEP}]
-	coordinates? ( dev-python/pyproj[${PYTHON_USEDEP}] )
+	coordinates? ( <dev-python/pyproj-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/rioxarray[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/ecmwflibs[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/mantik[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	benchmarks? ( dev-python/pynvml[${PYTHON_USEDEP}] )
 	llama-chatbot? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	llama-chatbot? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	tweets? ( dev-python/requests[${PYTHON_USEDEP}] )
-	tweets? ( dev-python/emoji[${PYTHON_USEDEP}] )
+	tweets? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	tweets? ( <dev-python/emoji-1.0.0[${PYTHON_USEDEP}] )
 	tweets? ( dev-python/spacymoji[${PYTHON_USEDEP}] )
 	tweets? ( dev-python/jsonlines[${PYTHON_USEDEP}] )
 	tweets? ( dev-python/tweepy[${PYTHON_USEDEP}] )"

@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs examples test"
-DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipywidgets-7.2.1[${PYTHON_USEDEP}]
 	dev-python/ipydatawidgets[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/traitlets[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.5[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.2.13[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	examples? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -38,6 +38,6 @@ DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
 	examples? ( dev-python/ipywebrtc[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbval[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-check-links[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/numpy-1.14[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

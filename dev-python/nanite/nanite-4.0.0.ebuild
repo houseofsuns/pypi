@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
 DEPENDENCIES="dev-python/afmformats[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/lmfit-1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/appdirs[${PYTHON_USEDEP}] )
-	cli? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	cli? ( dev-python/tifffile[${PYTHON_USEDEP}] )"
+	cli? ( >=dev-python/matplotlib-2.2.2[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/tifffile-0.15.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

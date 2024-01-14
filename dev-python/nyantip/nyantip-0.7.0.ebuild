@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="gpg lint"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/mysqlclient[${PYTHON_USEDEP}]
+	~dev-python/mysqlclient-2.2[${PYTHON_USEDEP}]
 	dev-python/praw[${PYTHON_USEDEP}]
 	dev-python/python-bitcoinrpc[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	gpg? ( dev-python/python-gnupg[${PYTHON_USEDEP}] )
+	~dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
+	gpg? ( ~dev-python/python-gnupg-0.4.7[${PYTHON_USEDEP}] )
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/isort[${PYTHON_USEDEP}] )"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gpu"
 DEPENDENCIES="dev-python/typing[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.14.6[${PYTHON_USEDEP}]
 	dev-python/mxnet[${PYTHON_USEDEP}]
 	dev-python/gluonnlp[${PYTHON_USEDEP}]
 	gpu? ( dev-python/mxnet-cu92[${PYTHON_USEDEP}] )"

@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/autopep8[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.4.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-2.3.1[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
+	>=dev-python/autopep8-1.4.4[${PYTHON_USEDEP}]
 	dev-python/cpplint[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
+	>=dev-python/pygame-1.9.6[${PYTHON_USEDEP}]
 	dev-python/aabbtree[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
-	dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]"
+	>=dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
+	>=dev-python/notebook-6.0.3[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

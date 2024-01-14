@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.10[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.11[${PYTHON_USEDEP}]
 	dev-python/PySide6[${PYTHON_USEDEP}]
 	dev-python/opencv-contrib-python-headless[${PYTHON_USEDEP}]
 	dev-python/scikit-surgerycore[${PYTHON_USEDEP}]

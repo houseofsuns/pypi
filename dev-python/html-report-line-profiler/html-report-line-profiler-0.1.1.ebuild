@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test upload"
-DEPENDENCIES="dev-python/line-profiler[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/line-profiler-4.0.3[${PYTHON_USEDEP}]
+	doc? ( ~dev-python/sphinx-6.2.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-1.2.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/myst-parser-1.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-7.2.7[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-html[${PYTHON_USEDEP}] )
-	upload? ( dev-python/twine[${PYTHON_USEDEP}] )
-	upload? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	upload? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	upload? ( ~dev-python/wheel-0.40.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

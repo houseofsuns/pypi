@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/jupyter-packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipywidgets-7.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-6.22.0[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-packaging-0.12.3[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.2.2[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-67.6.0[${PYTHON_USEDEP}]
 	dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.9.0[${PYTHON_USEDEP}]
 	dev-python/traittypes[${PYTHON_USEDEP}]
 	docs? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
@@ -41,9 +41,9 @@ DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
 	docs? ( dev-python/pytest-check-links[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbval[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

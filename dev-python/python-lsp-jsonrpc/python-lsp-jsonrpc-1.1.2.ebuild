@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/ujson[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ujson-3.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyflakes[${PYTHON_USEDEP}] )

@@ -24,38 +24,38 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="algo app docs"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	dev-python/cbor2[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/h5py-4.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/pyusb[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.5[${PYTHON_USEDEP}]
+	>=dev-python/pyusb-1.2.1[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
+	~dev-python/exceptiongroup-1.1.1[${PYTHON_USEDEP}]
 	dev-python/attributes-doc[${PYTHON_USEDEP}]
 	algo? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	app? ( dev-python/bs4[${PYTHON_USEDEP}] )
-	app? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	app? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	app? ( >=dev-python/docutils-0.17[${PYTHON_USEDEP}] )
+	app? ( >dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}] )
 	app? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
 	app? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	app? ( dev-python/pyperclip[${PYTHON_USEDEP}] )
-	app? ( dev-python/pyside6[${PYTHON_USEDEP}] )
+	app? ( >dev-python/pyside6-6.3.0[${PYTHON_USEDEP}] )
 	app? ( dev-python/pyqtdarktheme[${PYTHON_USEDEP}] )
-	app? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
+	app? ( >=dev-python/pyqtgraph-0.12.4[${PYTHON_USEDEP}] )
 	app? ( dev-python/qtawesome[${PYTHON_USEDEP}] )
 	app? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	app? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/docutils-0.17[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-0.17.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pydata-sphinx-theme-0.9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-rediraffe[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

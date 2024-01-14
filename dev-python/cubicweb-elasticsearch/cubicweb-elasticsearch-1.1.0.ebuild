@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/cubicweb[${PYTHON_USEDEP}]
 	dev-python/cubicweb-web[${PYTHON_USEDEP}]
 	dev-python/cwtags[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	<dev-python/elasticsearch-8.0.0[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

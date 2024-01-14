@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/xlsxwriter[${PYTHON_USEDEP}]
+	~dev-python/xlsxwriter-1.1.6[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/jsonmerge[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/jsonpointer[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.0.1[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]
+	~dev-python/jsonmerge-1.6.1[${PYTHON_USEDEP}]
+	~dev-python/deepdiff-4.3.0[${PYTHON_USEDEP}]
+	~dev-python/jsonpointer-2.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.2.4[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/cidc-ngs-pipeline-api[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]"
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/regex-2022.3.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

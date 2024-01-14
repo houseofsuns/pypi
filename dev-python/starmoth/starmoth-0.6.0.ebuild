@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pyzmq-25.0.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.5[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

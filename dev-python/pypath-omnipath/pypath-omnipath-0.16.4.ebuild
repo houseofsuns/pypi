@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="graph metabo pathophenodb"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-41.0.4[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	metabo? ( dev-python/epam-indigo[${PYTHON_USEDEP}] )
 	dev-python/future[${PYTHON_USEDEP}]
@@ -47,13 +47,13 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/rdata[${PYTHON_USEDEP}]
 	metabo? ( dev-python/rdkit[${PYTHON_USEDEP}] )
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
 	pathophenodb? ( dev-python/sparqlwrapper[${PYTHON_USEDEP}] )
 	dev-python/sqlparse[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/timeloop[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	>=dev-python/tornado-3.6.6[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]"

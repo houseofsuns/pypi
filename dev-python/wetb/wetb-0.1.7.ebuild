@@ -28,29 +28,29 @@ DEPENDENCIES="prepost? ( dev-python/Cython[${PYTHON_USEDEP}] )
 	all? ( dev-python/Cython[${PYTHON_USEDEP}] )
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/XlsxWriter[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/h5py-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
+	<dev-python/mock-6.0.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	prepost? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	dev-python/pandas[${PYTHON_USEDEP}]
-	all? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	all? ( dev-python/sshtunnel[${PYTHON_USEDEP}] )
-	prepost? ( dev-python/tables[${PYTHON_USEDEP}] )
-	all? ( dev-python/tables[${PYTHON_USEDEP}] )
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.4[${PYTHON_USEDEP}]
+	prepost? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/paramiko-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.9.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/sshtunnel-0.5.0[${PYTHON_USEDEP}] )
+	prepost? ( <dev-python/tables-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tables-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	prepost? ( dev-python/wafo[${PYTHON_USEDEP}] )
 	all? ( dev-python/wafo[${PYTHON_USEDEP}] )
-	prepost? ( dev-python/xlwt[${PYTHON_USEDEP}] )
-	all? ( dev-python/xlwt[${PYTHON_USEDEP}] )"
+	prepost? ( <dev-python/xlwt-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/xlwt-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

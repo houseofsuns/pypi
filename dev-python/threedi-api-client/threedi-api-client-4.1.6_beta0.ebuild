@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aio test"
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/certifi-2019.3.9[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	aio? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	aio? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
+	aio? ( >=dev-python/aiohttp-3.6.3[${PYTHON_USEDEP}] )
+	aio? ( >=dev-python/aiofiles-0.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyjwt[${PYTHON_USEDEP}] )"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/tempest[${PYTHON_USEDEP}]
-	dev-python/testtools[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/dnspython-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-2.25.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.33.0[${PYTHON_USEDEP}]
+	>=dev-python/tempest-17.1.0[${PYTHON_USEDEP}]
+	>=dev-python/testtools-2.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

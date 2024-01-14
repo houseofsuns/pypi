@@ -25,28 +25,28 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="async ciso extra test"
 DEPENDENCIES="dev-python/reactivex[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	async? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	>=dev-python/certifi-14.5.14[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.5.3[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-21.0.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
+	async? ( >=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] )
 	async? ( dev-python/aiocsv[${PYTHON_USEDEP}] )
 	ciso? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
-	extra? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/pandas-0.25.3[${PYTHON_USEDEP}] )
 	extra? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )
-	test? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	test? ( dev-python/py[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-5.0.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.0.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nose-1.3.7[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pluggy-0.3.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/py-1.4.31[${PYTHON_USEDEP}] )
 	test? ( dev-python/randomize[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpretty[${PYTHON_USEDEP}] )
-	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/aioresponses[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/httpretty-1.0.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/psutil-5.6.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/aioresponses-0.7.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/sphinx-1.8.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

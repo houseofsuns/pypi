@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ceq dev notebook survey"
 DEPENDENCIES="dev-python/OpenFisca-Core[${PYTHON_USEDEP}]
 	ceq? ( dev-python/openfisca-ceq[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/autopep8-1.4.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/openfisca-ceq[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-3.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
 	dev? ( dev-python/openfisca-survey-manager[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pycodestyle-2.6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yamllint[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/notebook[${PYTHON_USEDEP}] )

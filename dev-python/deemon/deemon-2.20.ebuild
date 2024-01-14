@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/deemix[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.0[${PYTHON_USEDEP}]
+	~dev-python/setuptools-65.6.3[${PYTHON_USEDEP}]
 	dev-python/PlexAPI[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.61.0[${PYTHON_USEDEP}]
 	dev-python/mutagen[${PYTHON_USEDEP}]
 	dev-python/Unidecode[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

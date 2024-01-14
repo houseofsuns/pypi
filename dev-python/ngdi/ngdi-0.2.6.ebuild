@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all networkx spark"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.0.3[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.5.1[${PYTHON_USEDEP}]
 	all? ( dev-python/ngdi[${PYTHON_USEDEP}] )
-	networkx? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	networkx? ( >=dev-python/networkx-2.5.1[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

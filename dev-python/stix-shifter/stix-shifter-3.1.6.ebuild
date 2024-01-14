@@ -27,15 +27,15 @@ IUSE=""
 DEPENDENCIES="dev-python/stix2-patterns[${PYTHON_USEDEP}]
 	dev-python/adal[${PYTHON_USEDEP}]
 	dev-python/stix2-validator[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
+	~dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
+	~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
+	~dev-python/colorlog-4.1.0[${PYTHON_USEDEP}]
 	dev-python/stix2-matcher[${PYTHON_USEDEP}]
 	dev-python/flatten-json[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/jsonmerge[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]"
+	~dev-python/boto3-1.12.40[${PYTHON_USEDEP}]
+	~dev-python/jsonmerge-1.7.0[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	~dev-python/flask-1.1.2[${PYTHON_USEDEP}]
+	~dev-python/antlr4-python3-runtime-4.8[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

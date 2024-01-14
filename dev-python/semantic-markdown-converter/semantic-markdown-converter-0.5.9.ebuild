@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/py2neo[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-1.0.2[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/mdx-wikilink-plus[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

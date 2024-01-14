@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.9[${PYTHON_USEDEP}]
 	dev-python/swiglpk[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.12.0[${PYTHON_USEDEP}]
 	development? ( dev-python/black[${PYTHON_USEDEP}] )
 	development? ( dev-python/isort[${PYTHON_USEDEP}] )
 	development? ( dev-python/tox[${PYTHON_USEDEP}] )"

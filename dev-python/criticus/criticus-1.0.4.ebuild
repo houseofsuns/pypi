@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lxml-4.8.0[${PYTHON_USEDEP}]
 	dev-python/markdown-del-ins[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
+	~dev-python/markdown-3.5.1[${PYTHON_USEDEP}]
+	>=dev-python/natsort-8.1.0[${PYTHON_USEDEP}]
 	dev-python/pysimplegui[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

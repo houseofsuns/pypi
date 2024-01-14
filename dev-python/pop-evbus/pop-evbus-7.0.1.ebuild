@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/acct[${PYTHON_USEDEP}]
 	dev-python/pop[${PYTHON_USEDEP}]
 	dev-python/pop-serial[${PYTHON_USEDEP}]
 	dev-python/rend[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]"
+	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

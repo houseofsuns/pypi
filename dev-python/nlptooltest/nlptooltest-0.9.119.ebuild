@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/torchtext[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/seqeval[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]"
+	~dev-python/natsort-7.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

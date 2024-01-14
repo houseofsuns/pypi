@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="couchdb mongodb"
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
 	couchdb? ( dev-python/couchdb[${PYTHON_USEDEP}] )
-	mongodb? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	mongodb? ( <dev-python/pymongo-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/pydash[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/webexception[${PYTHON_USEDEP}]
 	dev-python/pydantic-db-backend-common[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]"

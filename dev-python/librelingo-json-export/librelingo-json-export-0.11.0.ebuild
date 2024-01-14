@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="hunspell"
 DEPENDENCIES="dev-python/librelingo-types[${PYTHON_USEDEP}]
 	dev-python/librelingo-utils[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-9.0.0[${PYTHON_USEDEP}]
 	dev-python/editdistance[${PYTHON_USEDEP}]
 	hunspell? ( dev-python/hunspell[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/librelingo-yaml-loader[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

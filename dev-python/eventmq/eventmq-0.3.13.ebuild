@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES="dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pyzmq-18.1.0[${PYTHON_USEDEP}]
+	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	dev-python/monotonic[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/croniter-0.3.10[${PYTHON_USEDEP}]
+	~dev-python/future-0.15.2[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.6.6[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/flake8-3.7.8[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
-	testing? ( dev-python/freezegun[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/coverage-4.0.3[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/testfixtures-4.7.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/freezegun-0.3.7[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tl-testing[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/mock-1.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs gui optional pyqt pyside"
 DEPENDENCIES="dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.2[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.7.4[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	gui? ( dev-python/sip[${PYTHON_USEDEP}] )
 	optional? ( dev-python/scipy[${PYTHON_USEDEP}] )

@@ -27,8 +27,8 @@ IUSE="docs tests"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/iso8601[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pycodestyle-2.4.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-4.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-import-order-spoqa[${PYTHON_USEDEP}] )"

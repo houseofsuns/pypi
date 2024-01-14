@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws google otel"
-DEPENDENCIES="aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
+DEPENDENCIES="aws? ( >=dev-python/boto3-1.14[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
 	otel? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

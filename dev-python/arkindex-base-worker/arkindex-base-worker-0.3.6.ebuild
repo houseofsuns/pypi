@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/arkindex-client[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
+	~dev-python/peewee-3.17.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
-	dev-python/python-gnupg[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]
-	docs? ( dev-python/black[${PYTHON_USEDEP}] )
-	docs? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )"
+	~dev-python/pymdown-extensions-10.5[${PYTHON_USEDEP}]
+	~dev-python/python-gnupg-0.5.2[${PYTHON_USEDEP}]
+	~dev-python/shapely-2.0.2[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.2.3[${PYTHON_USEDEP}]
+	~dev-python/zstandard-0.22.0[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/black-23.12.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/doc8-1.1.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.5.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-python-1.7.5[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

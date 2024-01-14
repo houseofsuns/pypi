@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="base full plot-brain"
 DEPENDENCIES="base? ( dev-python/colormath[${PYTHON_USEDEP}] )
-	base? ( dev-python/keyring[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/keyring-5.0[${PYTHON_USEDEP}] )
 	base? ( dev-python/mne[${PYTHON_USEDEP}] )
 	base? ( dev-python/nibabel[${PYTHON_USEDEP}] )
 	base? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	base? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	full? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	full? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	base? ( >=dev-python/tqdm-4.40[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/numpy-1.20[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/scipy-1.3[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/matplotlib-3.3.4[${PYTHON_USEDEP}] )
 	plot-brain? ( dev-python/pysurfer[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pydflow[${PYTHON_USEDEP}]
 	dev-python/lbg[${PYTHON_USEDEP}]
 	dev-python/dpdata[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.6.3[${PYTHON_USEDEP}]
 	dev-python/sportran[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

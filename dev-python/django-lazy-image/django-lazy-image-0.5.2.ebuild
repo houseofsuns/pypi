@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES="dev-python/sorl-thumbnail[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	<dev-python/django-1.12[${PYTHON_USEDEP}]
 	dev-python/django-jinja[${PYTHON_USEDEP}]
 	testing? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )

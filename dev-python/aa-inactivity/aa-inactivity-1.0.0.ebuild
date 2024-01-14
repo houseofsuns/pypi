@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/aa-memberaudit[${PYTHON_USEDEP}]
 	dev-python/allianceauth[${PYTHON_USEDEP}]
 	dev-python/django-multiselectfield[${PYTHON_USEDEP}]
 	dev-python/py-cord[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]"
+	>=dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	>=dev-python/humanize-4.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

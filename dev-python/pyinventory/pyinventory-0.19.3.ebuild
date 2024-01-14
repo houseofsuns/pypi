@@ -58,7 +58,7 @@ DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/darker[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/model-bakery[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-override-storage[${PYTHON_USEDEP}] )"

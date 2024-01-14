@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="postgres redis"
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	postgres? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	redis? ( dev-python/hiredis[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-13.7.0[${PYTHON_USEDEP}]
+	>=dev-python/starlette-0.31.1[${PYTHON_USEDEP}]
+	>=dev-python/structlog-23.2.0[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.23.2[${PYTHON_USEDEP}]
+	postgres? ( >=dev-python/psycopg-3.1.14[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/hiredis-2.2.3[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-5.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs tests"
 DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
+	<dev-python/sphinx-rtd-theme-1.4[${PYTHON_USEDEP}]
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-rtd-theme-1.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	all? ( dev-python/twine[${PYTHON_USEDEP}] )
-	all? ( dev-python/pkginfo[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pydocstyle-1.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/twine-5.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pkginfo-1.10[${PYTHON_USEDEP}] )
 	all? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	all? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-1.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/twine[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pkginfo[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pydocstyle-1.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/twine-5.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pkginfo-1.10[${PYTHON_USEDEP}] )
 	tests? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	tests? ( dev-python/wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

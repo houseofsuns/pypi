@@ -27,19 +27,19 @@ IUSE=""
 DEPENDENCIES="dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	dev-python/imutils[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
 	dev-python/pytesseract[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/Wand[${PYTHON_USEDEP}]
 	dev-python/pylibdmtx[${PYTHON_USEDEP}]
 	dev-python/deepdiff[${PYTHON_USEDEP}]
-	dev-python/pyzbar[${PYTHON_USEDEP}]
+	<dev-python/pyzbar-0.2.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

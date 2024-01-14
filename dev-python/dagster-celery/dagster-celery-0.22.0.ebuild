@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="flower kubernetes redis test"
 DEPENDENCIES="dev-python/dagster[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	flower? ( dev-python/flower[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )

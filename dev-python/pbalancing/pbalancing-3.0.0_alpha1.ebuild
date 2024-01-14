@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deployment development test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	dev-python/cvxpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	dev-python/python-libsbml[${PYTHON_USEDEP}]
 	dev-python/sbtab[${PYTHON_USEDEP}]
 	deployment? ( dev-python/click[${PYTHON_USEDEP}] )
 	deployment? ( dev-python/click-log[${PYTHON_USEDEP}] )
 	deployment? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
 	deployment? ( dev-python/requests[${PYTHON_USEDEP}] )
-	development? ( dev-python/black[${PYTHON_USEDEP}] )
-	development? ( dev-python/isort[${PYTHON_USEDEP}] )
-	development? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/black-22.1[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/isort-5.10[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/safety[${PYTHON_USEDEP}] )
-	development? ( dev-python/tox[${PYTHON_USEDEP}] )
-	development? ( dev-python/twine[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/tox-3.24[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/twine-3.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )

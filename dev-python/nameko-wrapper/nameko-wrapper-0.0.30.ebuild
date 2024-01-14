@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/nameko[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]"
+	>dev-python/marshmallow-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

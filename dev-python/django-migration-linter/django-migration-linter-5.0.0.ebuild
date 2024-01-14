@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tox-4.6.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mysqlclient-2.1.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-add-default-value[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/coverage-7.2.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

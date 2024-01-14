@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build lint test typecheck"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.42[${PYTHON_USEDEP}]
+	build? ( >=dev-python/wheel-0.34.2[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/twine-3.2.0[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.14.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-3.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	typecheck? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	typecheck? ( >=dev-python/mypy-0.782[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	io? ( dev-python/meshio[${PYTHON_USEDEP}] )
 	io? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	ipython-static? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	pyglet? ( dev-python/pyglet[${PYTHON_USEDEP}] )
+	pyglet? ( >=dev-python/pyglet-1.2[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	pyside? ( dev-python/PySide[${PYTHON_USEDEP}] )

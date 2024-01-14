@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/asyncio-dgram[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]"
+	<dev-python/dnspython-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

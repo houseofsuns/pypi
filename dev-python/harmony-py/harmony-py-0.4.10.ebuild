@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.20.0[${PYTHON_USEDEP}]
+	~dev-python/progressbar2-3.55.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}]
 	dev-python/curlify[${PYTHON_USEDEP}]
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/autopep8-1.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/camel-case-switcher[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nose[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-5.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/hypothesis-6.2[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nose-1.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.11[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/responses[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/responses-0.12[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-54.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.36[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

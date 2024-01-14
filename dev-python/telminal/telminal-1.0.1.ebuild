@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pexpect[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pexpect-5.0[${PYTHON_USEDEP}]
 	dev-python/Telethon[${PYTHON_USEDEP}]
 	dev-python/pyppeteer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cryptography pycrypto pycryptodome"
-DEPENDENCIES="dev-python/ecdsa[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/ecdsa-0.15[${PYTHON_USEDEP}]
 	dev-python/rsa[${PYTHON_USEDEP}]
 	dev-python/pyasn1[${PYTHON_USEDEP}]
-	cryptography? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	cryptography? ( >=dev-python/cryptography-3.4.0[${PYTHON_USEDEP}] )
 	pycrypto? ( dev-python/pycrypto[${PYTHON_USEDEP}] )
 	pycrypto? ( dev-python/pyasn1[${PYTHON_USEDEP}] )
-	pycryptodome? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+	pycryptodome? ( <dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}] )
 	pycryptodome? ( dev-python/pyasn1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

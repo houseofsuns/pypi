@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="viz"
-DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dask-2022.1.1[${PYTHON_USEDEP}]
+	<dev-python/pyproj-4.0.0[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.18[${PYTHON_USEDEP}]
 	viz? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	viz? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	viz? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	viz? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	viz? ( dev-python/cachetools[${PYTHON_USEDEP}] )
+	viz? ( <dev-python/cachetools-5.0.0[${PYTHON_USEDEP}] )
 	viz? ( dev-python/mercantile[${PYTHON_USEDEP}] )
-	viz? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	viz? ( <dev-python/scipy-2.0.0[${PYTHON_USEDEP}] )
 	viz? ( dev-python/ipyleaflet[${PYTHON_USEDEP}] )
-	viz? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	viz? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	viz? ( dev-python/jupyter-server-proxy[${PYTHON_USEDEP}] )"
+	viz? ( <dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}] )
+	viz? ( >=dev-python/matplotlib-3.4.1[${PYTHON_USEDEP}] )
+	viz? ( >=dev-python/jupyter-server-proxy-3.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

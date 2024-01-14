@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.6.0[${PYTHON_USEDEP}]
 	test? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pythonpath[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-echo[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-django-3.7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tox-3.14.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox-pyenv[${PYTHON_USEDEP}] )
 	test? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/isort-5.5.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mysqlclient-2.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

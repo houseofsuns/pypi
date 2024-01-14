@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-0.4.13[${PYTHON_USEDEP}]
 	dev-python/django-autoslug[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]"
+	>=dev-python/progressbar2-3.51.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

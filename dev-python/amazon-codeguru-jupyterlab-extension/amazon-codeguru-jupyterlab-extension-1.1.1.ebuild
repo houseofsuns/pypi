@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/jupyterlab-lsp[${PYTHON_USEDEP}]
-	dev-python/python-lsp-server[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.26.162[${PYTHON_USEDEP}]
+	>=dev-python/jupyterlab-lsp-4.0.0[${PYTHON_USEDEP}]
+	<=dev-python/python-lsp-server-1.7.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )

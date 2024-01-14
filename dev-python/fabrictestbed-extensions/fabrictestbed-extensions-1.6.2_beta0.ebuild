@@ -34,14 +34,14 @@ DEPENDENCIES="dev-python/ipycytoscape[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-8.12.0[${PYTHON_USEDEP}]
 	dev-python/fabric_fss_utils[${PYTHON_USEDEP}]
 	dev-python/atomicwrites[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

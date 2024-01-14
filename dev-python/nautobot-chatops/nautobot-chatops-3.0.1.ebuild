@@ -28,27 +28,27 @@ DEPENDENCIES="dev-python/Markdown[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	ansible? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	dev-python/aiodns[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
-	all? ( dev-python/certifi[${PYTHON_USEDEP}] )
-	aristacv? ( dev-python/certifi[${PYTHON_USEDEP}] )
+	<dev-python/aiodns-2.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/asgiref-4.0.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/certifi-2021.5.30[${PYTHON_USEDEP}] )
+	aristacv? ( >=dev-python/certifi-2021.5.30[${PYTHON_USEDEP}] )
 	all? ( dev-python/cloudvision[${PYTHON_USEDEP}] )
 	aristacv? ( dev-python/cloudvision[${PYTHON_USEDEP}] )
 	all? ( dev-python/cvprac[${PYTHON_USEDEP}] )
 	aristacv? ( dev-python/cvprac[${PYTHON_USEDEP}] )
-	all? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
-	panorama? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
+	all? ( <dev-python/defusedxml-0.8.0[${PYTHON_USEDEP}] )
+	panorama? ( <dev-python/defusedxml-0.8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/diffsync[${PYTHON_USEDEP}] )
 	grafana? ( dev-python/diffsync[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipaddr[${PYTHON_USEDEP}] )
-	panorama? ( dev-python/ipaddr[${PYTHON_USEDEP}] )
+	all? ( <dev-python/ipaddr-3.0.0[${PYTHON_USEDEP}] )
+	panorama? ( <dev-python/ipaddr-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipfabric[${PYTHON_USEDEP}] )
 	ipfabric? ( dev-python/ipfabric[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipfabric-diagrams[${PYTHON_USEDEP}] )
 	ipfabric? ( dev-python/ipfabric-diagrams[${PYTHON_USEDEP}] )
-	all? ( dev-python/isodate[${PYTHON_USEDEP}] )
-	grafana? ( dev-python/isodate[${PYTHON_USEDEP}] )
+	all? ( <dev-python/isodate-0.7.0[${PYTHON_USEDEP}] )
+	grafana? ( <dev-python/isodate-0.7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/meraki[${PYTHON_USEDEP}] )
 	meraki? ( dev-python/meraki[${PYTHON_USEDEP}] )
 	nautobot? ( dev-python/nautobot[${PYTHON_USEDEP}] )
@@ -60,19 +60,19 @@ DEPENDENCIES="dev-python/Markdown[${PYTHON_USEDEP}]
 	panorama? ( dev-python/netutils[${PYTHON_USEDEP}] )
 	all? ( dev-python/pan-os-python[${PYTHON_USEDEP}] )
 	panorama? ( dev-python/pan-os-python[${PYTHON_USEDEP}] )
-	all? ( dev-python/prettytable[${PYTHON_USEDEP}] )
-	aci? ( dev-python/prettytable[${PYTHON_USEDEP}] )
+	all? ( <dev-python/prettytable-3.0.0[${PYTHON_USEDEP}] )
+	aci? ( <dev-python/prettytable-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	aristacv? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	grafana? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
+	all? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
+	grafana? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	all? ( dev-python/schema-enforcer[${PYTHON_USEDEP}] )
 	grafana? ( dev-python/schema-enforcer[${PYTHON_USEDEP}] )
 	dev-python/slack-sdk[${PYTHON_USEDEP}]
-	all? ( dev-python/termcolor[${PYTHON_USEDEP}] )
-	grafana? ( dev-python/termcolor[${PYTHON_USEDEP}] )
-	dev-python/texttable[${PYTHON_USEDEP}]
+	all? ( ~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}] )
+	grafana? ( ~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}] )
+	<dev-python/texttable-2.0.0[${PYTHON_USEDEP}]
 	dev-python/webexteamssdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

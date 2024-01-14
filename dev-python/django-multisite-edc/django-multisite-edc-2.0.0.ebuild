@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/tldextract[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/pluggy-1.0[${PYTHON_USEDEP}]
+	<dev-python/tldextract-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

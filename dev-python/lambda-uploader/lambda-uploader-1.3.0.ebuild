@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lint style test test-requirements"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.4.2[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.4.85[${PYTHON_USEDEP}]
 	dev-python/virtualenv[${PYTHON_USEDEP}]
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	style? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	style? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/moto[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/flake8-2.5.4[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/pylint-1.5.5[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/flake8-2.5.4[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/pylint-1.5.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.0.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-2.9.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/moto-0.4.23[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/nose[${PYTHON_USEDEP}] )
-	test-requirements? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test-requirements? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test-requirements? ( dev-python/moto[${PYTHON_USEDEP}] )
+	test-requirements? ( >=dev-python/coverage-4.0.3[${PYTHON_USEDEP}] )
+	test-requirements? ( >=dev-python/pytest-2.9.1[${PYTHON_USEDEP}] )
+	test-requirements? ( >=dev-python/moto-0.4.23[${PYTHON_USEDEP}] )
 	test-requirements? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test-requirements? ( dev-python/nose[${PYTHON_USEDEP}] )
-	test-requirements? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test-requirements? ( dev-python/pylint[${PYTHON_USEDEP}] )"
+	test-requirements? ( >=dev-python/flake8-2.5.4[${PYTHON_USEDEP}] )
+	test-requirements? ( >=dev-python/pylint-1.5.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

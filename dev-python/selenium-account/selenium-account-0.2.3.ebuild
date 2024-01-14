@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/kproxy[${PYTHON_USEDEP}]
 	dev-python/kstopit[${PYTHON_USEDEP}]
 	dev-python/selenium-browser[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/tldextract[${PYTHON_USEDEP}]"
+	>=dev-python/setuptools-67.8.0[${PYTHON_USEDEP}]
+	>=dev-python/tldextract-3.1.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

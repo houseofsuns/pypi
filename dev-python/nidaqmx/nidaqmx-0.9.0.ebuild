@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs grpc"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26[${PYTHON_USEDEP}]
+	>=dev-python/deprecation-2.1[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	grpc? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	dev-python/hightime[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

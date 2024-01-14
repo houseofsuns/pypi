@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="devel"
-DEPENDENCIES="dev-python/hiredis[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/hiredis-3.0.0[${PYTHON_USEDEP}]
 	dev-python/async-timeout[${PYTHON_USEDEP}]
 	devel? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	devel? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
 	devel? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	devel? ( dev-python/isort[${PYTHON_USEDEP}] )
-	devel? ( dev-python/black[${PYTHON_USEDEP}] )
+	devel? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )
 	devel? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	devel? ( dev-python/cython[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	devel? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	devel? ( <dev-python/pytest-asyncio-1.0[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

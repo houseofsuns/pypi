@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests types"
-DEPENDENCIES="docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	types? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+DEPENDENCIES="docs? ( >=dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.19.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-7.2.1[${PYTHON_USEDEP}] )
+	types? ( >=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="elasticsearch7 opensearch1 opensearch2 tests"
 DEPENDENCIES="dev-python/invenio-base[${PYTHON_USEDEP}]
-	dev-python/dictdiffer[${PYTHON_USEDEP}]
-	elasticsearch7? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
+	>=dev-python/dictdiffer-0.9.0[${PYTHON_USEDEP}]
+	elasticsearch7? ( <dev-python/elasticsearch-7.14[${PYTHON_USEDEP}] )
 	elasticsearch7? ( dev-python/elasticsearch-dsl[${PYTHON_USEDEP}] )
-	opensearch1? ( dev-python/opensearch-py[${PYTHON_USEDEP}] )
+	opensearch1? ( <dev-python/opensearch-py-2.0.0[${PYTHON_USEDEP}] )
 	opensearch1? ( dev-python/opensearch-dsl[${PYTHON_USEDEP}] )
-	opensearch2? ( dev-python/opensearch-py[${PYTHON_USEDEP}] )
+	opensearch2? ( <dev-python/opensearch-py-3.0.0[${PYTHON_USEDEP}] )
 	opensearch2? ( dev-python/opensearch-dsl[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-accounts[${PYTHON_USEDEP}] )"

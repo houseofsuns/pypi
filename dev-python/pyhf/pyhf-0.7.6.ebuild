@@ -24,38 +24,38 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all backends contrib develop docs jax minuit shellcomplete tensorflow test torch xmlio"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/jsonpatch[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonpatch-1.15[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.15.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.56.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pyhf[${PYTHON_USEDEP}] )
 	backends? ( dev-python/pyhf[${PYTHON_USEDEP}] )
-	contrib? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	contrib? ( dev-python/requests[${PYTHON_USEDEP}] )
+	contrib? ( >=dev-python/matplotlib-3.0.0[${PYTHON_USEDEP}] )
+	contrib? ( >=dev-python/requests-2.22.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/codemetapy[${PYTHON_USEDEP}] )
 	develop? ( dev-python/nox[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pyhf[${PYTHON_USEDEP}] )
 	develop? ( dev-python/tbump[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/ipython-8.7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyterlite-pyodide-kernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyterlite-sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupytext[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/nbsphinx-0.8.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyhf[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.3.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-bibtex-2.1[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jax[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
-	minuit? ( dev-python/iminuit[${PYTHON_USEDEP}] )
+	minuit? ( >=dev-python/iminuit-2.7.0[${PYTHON_USEDEP}] )
 	shellcomplete? ( dev-python/click-completion[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow-macos[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow-probability[${PYTHON_USEDEP}] )
@@ -67,13 +67,13 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyhf[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-console-scripts-1.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-socket[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-mock-1.9.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-hep-testdata[${PYTHON_USEDEP}] )
 	test? ( dev-python/scrapbook[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )

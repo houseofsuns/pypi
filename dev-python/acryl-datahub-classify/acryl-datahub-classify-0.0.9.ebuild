@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/python-stdnum[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-stdnum-1.17[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
+	<=dev-python/phonenumbers-8.13.0[${PYTHON_USEDEP}]
 	dev-python/schwifty[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/vininfo[${PYTHON_USEDEP}]
-	dev? ( dev-python/python-stdnum[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/python-stdnum-1.17[${PYTHON_USEDEP}] )
 	dev? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipaddress[${PYTHON_USEDEP}] )
-	dev? ( dev-python/phonenumbers[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/phonenumbers-8.13.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/schwifty[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/pandas-1.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vininfo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-tidy-imports[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/mypy-0.981[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

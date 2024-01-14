@@ -28,12 +28,12 @@ DEPENDENCIES="dev-python/related[${PYTHON_USEDEP}]
 	dev-python/kipoi-utils[${PYTHON_USEDEP}]
 	develop? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	develop? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-3.3.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	develop? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	develop? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	develop? ( >=dev-python/pandas-0.21.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

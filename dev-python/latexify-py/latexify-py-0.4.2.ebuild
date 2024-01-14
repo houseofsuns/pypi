@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev mypy"
-DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/notebook[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/dill-0.3.2[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-22.10[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/build-0.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.10[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.991[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/notebook-6.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyproject-flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-7.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	mypy? ( >=dev-python/mypy-0.991[${PYTHON_USEDEP}] )
+	mypy? ( >=dev-python/pytest-7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

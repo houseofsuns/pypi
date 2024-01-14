@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="png"
-DEPENDENCIES="png? ( dev-python/pypng[${PYTHON_USEDEP}] )"
+DEPENDENCIES="png? ( >=dev-python/pypng-0.0.13[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

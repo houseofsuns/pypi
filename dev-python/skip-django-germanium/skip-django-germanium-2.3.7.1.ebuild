@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	dev-python/PyVirtualDisplay[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/nose[${PYTHON_USEDEP}]
-	dev-python/responses[${PYTHON_USEDEP}]"
+	>=dev-python/selenium-2.37.2[${PYTHON_USEDEP}]
+	>=dev-python/nose-1.3.6[${PYTHON_USEDEP}]
+	>=dev-python/responses-0.5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

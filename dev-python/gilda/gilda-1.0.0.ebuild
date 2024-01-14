@@ -33,8 +33,8 @@ DEPENDENCIES="dev-python/regex[${PYTHON_USEDEP}]
 	dev-python/flask-restx[${PYTHON_USEDEP}]
 	dev-python/pystow[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	benchmarks? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	<dev-python/werkzeug-2.2[${PYTHON_USEDEP}]
+	benchmarks? ( >=dev-python/pandas-1.0[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/requests[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	benchmarks? ( dev-python/tqdm[${PYTHON_USEDEP}] )

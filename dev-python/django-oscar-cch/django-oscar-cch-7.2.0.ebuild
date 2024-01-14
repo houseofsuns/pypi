@@ -28,15 +28,15 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-oscar[${PYTHON_USEDEP}]
 	dev-python/instrumented-soap[${PYTHON_USEDEP}]
 	circuitbreaker? ( dev-python/pybreaker[${PYTHON_USEDEP}] )
-	development? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	development? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	development? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	development? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/coverage-4.4.2[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/flake8-3.2.1[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/freezegun-0.3.8[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/lxml-3.7.2[${PYTHON_USEDEP}] )
 	development? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	development? ( dev-python/sorl-thumbnail[${PYTHON_USEDEP}] )
-	development? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	development? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	development? ( dev-python/tox[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/sphinx-1.5.2[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/tox-2.6.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/unittest-xml-reporting[${PYTHON_USEDEP}] )
 	development? ( dev-python/versiontag[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

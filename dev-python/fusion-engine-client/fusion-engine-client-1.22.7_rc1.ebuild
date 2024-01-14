@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	>=dev-python/plotly-4.0.0[${PYTHON_USEDEP}]
 	dev-python/p1-gpstime[${PYTHON_USEDEP}]
 	dev-python/argparse-formatter[${PYTHON_USEDEP}]
-	dev-python/construct[${PYTHON_USEDEP}]
+	>=dev-python/construct-2.10.0[${PYTHON_USEDEP}]
 	dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/palettable[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.0.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
 	dev-python/pymap3d[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

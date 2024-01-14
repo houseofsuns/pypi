@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all xorbits"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/sshtunnel[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.2.0[${PYTHON_USEDEP}]
 	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/kafka-python[${PYTHON_USEDEP}]
+	>=dev-python/elasticsearch-7.17.2[${PYTHON_USEDEP}]
+	~dev-python/redis-4.0.2[${PYTHON_USEDEP}]
+	~dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}]
 	dev-python/mysql-replication[${PYTHON_USEDEP}]
 	all? ( dev-python/xorbits[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyarrow-5.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/akshare[${PYTHON_USEDEP}] )
 	all? ( dev-python/ccxt[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
@@ -53,6 +53,6 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	all? ( dev-python/mongoengine[${PYTHON_USEDEP}] )
 	all? ( dev-python/influxdb[${PYTHON_USEDEP}] )
 	xorbits? ( dev-python/xorbits[${PYTHON_USEDEP}] )
-	xorbits? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"
+	xorbits? ( >=dev-python/pyarrow-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="init"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/xdg-base-dirs[${PYTHON_USEDEP}]
 	dev-python/dateutils[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	init? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )"
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
+	init? ( <dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

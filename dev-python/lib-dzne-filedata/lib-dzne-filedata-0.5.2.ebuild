@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tomli-w[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tomli-w-1.0.0[${PYTHON_USEDEP}]
 	dev-python/lib-dzne-math[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

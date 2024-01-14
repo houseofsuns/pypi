@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs export_mpl import_gmsh matrix_mkl matrix_scipy"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/appdirs-1.0[${PYTHON_USEDEP}]
 	dev-python/bottombar[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	dev-python/nutils-poly[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.0[${PYTHON_USEDEP}]
 	dev-python/stringly[${PYTHON_USEDEP}]
 	dev-python/treelog[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	export_mpl? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	export_mpl? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	export_mpl? ( >=dev-python/matplotlib-1.3[${PYTHON_USEDEP}] )
+	export_mpl? ( >dev-python/pillow-2.6[${PYTHON_USEDEP}] )
 	import_gmsh? ( dev-python/meshio[${PYTHON_USEDEP}] )
 	matrix_mkl? ( dev-python/mkl[${PYTHON_USEDEP}] )
-	matrix_scipy? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	matrix_scipy? ( >=dev-python/scipy-0.13[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

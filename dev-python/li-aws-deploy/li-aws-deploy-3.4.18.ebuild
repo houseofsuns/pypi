@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/gitdb[${PYTHON_USEDEP}]
 	dev-python/ipdb[${PYTHON_USEDEP}]
 	dev-python/nose[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
 	dev-python/slackweb[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

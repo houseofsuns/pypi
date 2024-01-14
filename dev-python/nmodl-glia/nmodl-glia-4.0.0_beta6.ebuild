@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="arbor dev docs neuron parallel"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.0[${PYTHON_USEDEP}]
+	~dev-python/appdirs-1.0[${PYTHON_USEDEP}]
 	dev-python/errr[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
+	>=dev-python/black-23.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/nmodl[${PYTHON_USEDEP}]
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]
 	arbor? ( dev-python/arbor[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.11[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.9[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxemoji-0.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	neuron? ( dev-python/nrn-patch[${PYTHON_USEDEP}] )
-	parallel? ( dev-python/mpi4py[${PYTHON_USEDEP}] )"
+	parallel? ( ~dev-python/mpi4py-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

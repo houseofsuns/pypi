@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/insight-engine-schema-python[${PYTHON_USEDEP}]
 	dev-python/rialtic-data-dev-py[${PYTHON_USEDEP}]
 	dev-python/fhir-resources[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]"
+	<dev-python/sphinx-5.0.0[${PYTHON_USEDEP}]
+	>dev-python/deprecation-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

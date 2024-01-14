@@ -27,7 +27,7 @@ IUSE="all dev freqai freqai_rl hdf5 hyperopt jupyter plot"
 DEPENDENCIES="dev-python/ccxt[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
 	dev-python/python-telegram-bot[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
+	>=dev-python/arrow-1.0.0[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
@@ -47,10 +47,10 @@ DEPENDENCIES="dev-python/ccxt[${PYTHON_USEDEP}]
 	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.2.0[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
@@ -61,11 +61,11 @@ DEPENDENCIES="dev-python/ccxt[${PYTHON_USEDEP}]
 	dev-python/ast-comments[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/plotly-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	all? ( dev-python/ruff[${PYTHON_USEDEP}] )
@@ -103,7 +103,7 @@ DEPENDENCIES="dev-python/ccxt[${PYTHON_USEDEP}]
 	all? ( dev-python/sb3-contrib[${PYTHON_USEDEP}] )
 	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	all? ( dev-python/catboost[${PYTHON_USEDEP}] )
-	dev? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/plotly-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
@@ -163,6 +163,6 @@ DEPENDENCIES="dev-python/ccxt[${PYTHON_USEDEP}]
 	jupyter? ( dev-python/nbstripout[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	plot? ( dev-python/plotly[${PYTHON_USEDEP}] )"
+	plot? ( >=dev-python/plotly-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

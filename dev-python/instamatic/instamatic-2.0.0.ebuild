@@ -25,26 +25,26 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="develop docs publishing serval"
 DEPENDENCIES="dev-python/comtypes[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/mrcfile[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.11.1[${PYTHON_USEDEP}]
+	>=dev-python/lmfit-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.2[${PYTHON_USEDEP}]
+	>=dev-python/mrcfile-1.1.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-7.0.0[${PYTHON_USEDEP}]
 	dev-python/pywinauto[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.3.2[${PYTHON_USEDEP}]
+	>=dev-python/tifffile-2019.7.26.2[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.41.1[${PYTHON_USEDEP}]
 	dev-python/virtualbox[${PYTHON_USEDEP}]
 	dev-python/pyserialem[${PYTHON_USEDEP}]
 	develop? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	develop? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	docs? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )

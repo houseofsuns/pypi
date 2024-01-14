@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rfc3986[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-7.0[${PYTHON_USEDEP}]
+	<dev-python/future-1.0[${PYTHON_USEDEP}]
+	<dev-python/isodate-1.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-3.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/rfc3986-1.0[${PYTHON_USEDEP}]
 	dev-python/tabulator[${PYTHON_USEDEP}]
 	dev-python/unicodecsv[${PYTHON_USEDEP}]
 	develop? ( dev-python/pylama[${PYTHON_USEDEP}] )

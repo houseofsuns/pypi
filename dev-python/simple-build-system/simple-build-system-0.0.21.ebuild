@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
 DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
-	all? ( dev-python/pybind11[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pybind11-2.10.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/cmake[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

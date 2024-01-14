@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mongo redis"
 DEPENDENCIES="dev-python/oic[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	mongo? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	mongo? ( <dev-python/pymongo-4.0[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

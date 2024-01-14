@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark dev docs lint test"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-11.2.0[${PYTHON_USEDEP}]
 	dev-python/textual[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/asv[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Cython[${PYTHON_USEDEP}] )

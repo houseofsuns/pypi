@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/pipelinewise-singer-python[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.12.39[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	~dev-python/inflection-0.4.0[${PYTHON_USEDEP}]
+	~dev-python/joblib-0.14.1[${PYTHON_USEDEP}]
+	test? ( ~dev-python/pylint-2.4.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-5.3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

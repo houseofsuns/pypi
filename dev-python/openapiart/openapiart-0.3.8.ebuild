@@ -29,15 +29,15 @@ DEPENDENCIES="dev-python/jsonpath-ng[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/openapi-spec-validator[${PYTHON_USEDEP}]
+	~dev-python/openapi-spec-validator-0.3.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.4[${PYTHON_USEDEP}]
+	~dev-python/black-22.1.0[${PYTHON_USEDEP}]
 	dev-python/pipreqs[${PYTHON_USEDEP}]
-	dev-python/grpcio-tools[${PYTHON_USEDEP}]
+	~dev-python/grpcio-tools-1.54.2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.54.2[${PYTHON_USEDEP}]
 	testing? ( dev-python/twine[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -45,6 +45,6 @@ DEPENDENCIES="dev-python/jsonpath-ng[${PYTHON_USEDEP}]
 	testing? ( dev-python/jsonpath-ng[${PYTHON_USEDEP}] )
 	testing? ( dev-python/urllib3[${PYTHON_USEDEP}] )
 	testing? ( dev-python/semantic-version[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flask[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/flask-2.2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

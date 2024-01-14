@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aws azure gcp toml validation vault yaml"
 DEPENDENCIES="azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-keyvault[${PYTHON_USEDEP}] )
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	aws? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}] )
-	vault? ( dev-python/hvac[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	vault? ( <dev-python/hvac-2.0.0[${PYTHON_USEDEP}] )
+	yaml? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
-	validation? ( dev-python/jsonschema[${PYTHON_USEDEP}] )"
+	validation? ( <dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

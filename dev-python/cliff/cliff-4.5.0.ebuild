@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PrettyTable[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/autopage[${PYTHON_USEDEP}]
-	dev-python/cmd2[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]"
+	>=dev-python/autopage-0.4.0[${PYTHON_USEDEP}]
+	>=dev-python/cmd2-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-2.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pkgconfig[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	>=dev-python/pkgconfig-1.5[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.7[${PYTHON_USEDEP}]
+	>=dev-python/virtualenv-20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

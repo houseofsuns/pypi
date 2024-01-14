@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES="docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( >=dev-python/mkdocs-1.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-nature[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mdx-gh-links[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mdx-gh-links-0.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-section-index[${PYTHON_USEDEP}] )

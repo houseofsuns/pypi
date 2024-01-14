@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/fastcore[${PYTHON_USEDEP}]
-	dev-python/multiprocess[${PYTHON_USEDEP}]
+	>=dev-python/multiprocess-0.70.12.2[${PYTHON_USEDEP}]
 	dev-python/aria2p[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

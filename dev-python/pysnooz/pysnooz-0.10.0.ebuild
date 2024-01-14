@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/Events[${PYTHON_USEDEP}]
 	dev-python/bleak-retry-connector[${PYTHON_USEDEP}]
 	dev-python/bluetooth-sensor-state-data[${PYTHON_USEDEP}]
 	dev-python/home-assistant-bluetooth[${PYTHON_USEDEP}]
-	dev-python/transitions[${PYTHON_USEDEP}]"
+	<dev-python/transitions-0.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

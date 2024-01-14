@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]"
+	>=dev-python/tifffile-2020.8.25[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

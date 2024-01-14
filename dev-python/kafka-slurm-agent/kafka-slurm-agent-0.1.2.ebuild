@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/faust-streaming[${PYTHON_USEDEP}]
 	dev-python/kafka-python[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.6.6[${PYTHON_USEDEP}]
 	dev-python/python-math[${PYTHON_USEDEP}]
 	dev-python/simple-slurm[${PYTHON_USEDEP}]
 	dev-python/werkzeug[${PYTHON_USEDEP}]"

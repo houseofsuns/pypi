@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="annotations"
 DEPENDENCIES="dev-python/enoslib[${PYTHON_USEDEP}]
 	dev-python/ansible[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]
-	dev-python/python-openstackclient[${PYTHON_USEDEP}]
+	<dev-python/docopt-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/virtualenv-21.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-openstackclient-7.0.0[${PYTHON_USEDEP}]
 	dev-python/python-heatclient[${PYTHON_USEDEP}]
 	annotations? ( dev-python/influxdb[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

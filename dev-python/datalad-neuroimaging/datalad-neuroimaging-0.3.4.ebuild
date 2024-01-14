@@ -37,10 +37,10 @@ DEPENDENCIES="dev-python/datalad-deprecated[${PYTHON_USEDEP}]
 	devel? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	devel? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	devel? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	devel? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	devel? ( >=dev-python/sphinx-1.6.2[${PYTHON_USEDEP}] )
 	devel-docs? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
 	devel-docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	devel-docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	devel-docs? ( >=dev-python/sphinx-1.6.2[${PYTHON_USEDEP}] )
 	devel-downstream? ( dev-python/heudiconv[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]"
+	>=dev-python/idna-2.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

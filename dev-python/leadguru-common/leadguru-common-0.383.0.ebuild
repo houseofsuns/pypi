@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.2.4[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/leadguru-data[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]"

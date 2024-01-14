@@ -33,8 +33,8 @@ DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/xarray[${PYTHON_USEDEP}]
 	dev-python/rioxarray[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-64.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-scm-8.0[${PYTHON_USEDEP}]
 	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )

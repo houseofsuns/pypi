@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="accel complete io parallel viz"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4[${PYTHON_USEDEP}]
 	accel? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	accel? ( dev-python/bottleneck[${PYTHON_USEDEP}] )
 	accel? ( dev-python/numbagg[${PYTHON_USEDEP}] )

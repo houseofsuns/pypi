@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/kh-common[${PYTHON_USEDEP}]
 	dev-python/fuzzly-configs[${PYTHON_USEDEP}]
 	dev-python/fuzzly-users[${PYTHON_USEDEP}]
 	dev-python/gunicorn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	build? ( dev-python/isort[${PYTHON_USEDEP}] )"
+	~dev-python/scipy-1.5.2[${PYTHON_USEDEP}]
+	build? ( ~dev-python/wheel-0.36.2[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/twine-3.4.1[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/isort-5.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

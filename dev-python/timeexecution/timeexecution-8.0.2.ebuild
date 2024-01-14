@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all elasticsearch"
 DEPENDENCIES="dev-python/pkgsettings[${PYTHON_USEDEP}]
 	dev-python/fqn-decorators[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	all? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	elasticsearch? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )"
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/elasticsearch-9.0.0[${PYTHON_USEDEP}] )
+	elasticsearch? ( <dev-python/elasticsearch-9.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

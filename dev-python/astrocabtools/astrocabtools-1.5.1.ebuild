@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.1.3[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/lmfit[${PYTHON_USEDEP}]
+	~dev-python/PyQt5-5.14[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/lmfit-1.0.0[${PYTHON_USEDEP}]
 	dev-python/PyPubSub[${PYTHON_USEDEP}]
 	dev-python/photutils[${PYTHON_USEDEP}]
 	dev-python/jwst[${PYTHON_USEDEP}]"

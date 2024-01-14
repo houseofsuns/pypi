@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/ansys-additive-core[${PYTHON_USEDEP}]
 	all? ( dev-python/pyansys-tools-versioning[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	fluent-all? ( dev-python/ansys-fluent-visualization[${PYTHON_USEDEP}] )
 	fluent-all? ( dev-python/ansys-fluent-parametric[${PYTHON_USEDEP}] )

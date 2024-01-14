@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/ckantools[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-4.2.4[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.4.2[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
 	dev-python/ckanext-contact[${PYTHON_USEDEP}]
 	dev-python/ckanext-doi[${PYTHON_USEDEP}]
@@ -40,8 +40,8 @@ DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/ckanext-statistics[${PYTHON_USEDEP}]
 	dev-python/ckanext-versioned-datastore[${PYTHON_USEDEP}]
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

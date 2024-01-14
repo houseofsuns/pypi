@@ -24,46 +24,46 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli dev docs fast i18n proxy redis test"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
 	dev-python/magic-filter[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.6[${PYTHON_USEDEP}]
+	<=dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/aiogram-cli[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/packaging-23.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/markdown-include-0.8.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pygments-2.16.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pymdown-extensions-10.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-intl[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-substitution-extensions[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-towncrier[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	fast? ( dev-python/aiodns[${PYTHON_USEDEP}] )
-	fast? ( dev-python/uvloop[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/towncrier-23.6.0[${PYTHON_USEDEP}] )
+	fast? ( >=dev-python/aiodns-3.0.0[${PYTHON_USEDEP}] )
+	fast? ( >=dev-python/uvloop-0.17.0[${PYTHON_USEDEP}] )
 	i18n? ( dev-python/babel[${PYTHON_USEDEP}] )
-	proxy? ( dev-python/aiohttp-socks[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	proxy? ( ~dev-python/aiohttp-socks-0.8.3[${PYTHON_USEDEP}] )
+	redis? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/aresponses[${PYTHON_USEDEP}] )
 	test? ( dev-python/pycryptodomex[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-aiohttp-1.0.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytz[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytz-2023.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

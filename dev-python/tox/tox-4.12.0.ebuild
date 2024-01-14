@@ -24,40 +24,40 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/pyproject-api[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/virtualenv[${PYTHON_USEDEP}]
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/cachetools-5.3.2[${PYTHON_USEDEP}]
+	>=dev-python/chardet-5.2[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.13.1[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.2[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-4.1[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-1.3[${PYTHON_USEDEP}]
+	>=dev-python/pyproject-api-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/virtualenv-20.25[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse-cli[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.25.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-inline-tabs-2023.4.21[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-towncrier[${PYTHON_USEDEP}] )
-	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	testing? ( dev-python/build[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/towncrier-23.11[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/build-1.0.3[${PYTHON_USEDEP}] )
 	testing? ( dev-python/covdefaults[${PYTHON_USEDEP}] )
 	testing? ( dev-python/detect-test-pollution[${PYTHON_USEDEP}] )
 	testing? ( dev-python/devpi-process[${PYTHON_USEDEP}] )
 	testing? ( dev-python/diff-cover[${PYTHON_USEDEP}] )
-	testing? ( dev-python/distlib[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	testing? ( dev-python/hatch-vcs[${PYTHON_USEDEP}] )
-	testing? ( dev-python/hatchling[${PYTHON_USEDEP}] )
-	testing? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/re-assert[${PYTHON_USEDEP}] )
-	testing? ( dev-python/time-machine[${PYTHON_USEDEP}] )
-	testing? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/distlib-0.3.8[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/flaky-3.7[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/hatch-vcs-0.4[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/hatchling-1.21[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/psutil-5.9.7[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-mock-3.12[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-xdist-3.5[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/re-assert-1.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/time-machine-2.13[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/wheel-0.42[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

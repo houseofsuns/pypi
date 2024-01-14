@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="colr defcon ufo_normalization"
 DEPENDENCIES="dev-python/ufoLib2[${PYTHON_USEDEP}]
-	dev-python/fonttools[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-4.38.0[${PYTHON_USEDEP}]
 	dev-python/openstep-plist[${PYTHON_USEDEP}]
 	colr? ( dev-python/skia-pathops[${PYTHON_USEDEP}] )
 	defcon? ( dev-python/defcon[${PYTHON_USEDEP}] )

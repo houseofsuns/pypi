@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev docs ignition linting testing"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	build? ( dev-python/build[${PYTHON_USEDEP}] )
-	build? ( dev-python/twine[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/build-0.7.0[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/twine-3.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lxml-stubs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-semantic-release[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/cachetools[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/numpydoc-1.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.17.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pydata-sphinx-theme-0.8.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/cachetools-5.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-gallery-0.10.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/xsdata[${PYTHON_USEDEP}] )
-	docs? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	ignition? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/lxml-4.6.5[${PYTHON_USEDEP}] )
+	ignition? ( ~dev-python/pyzmq-22.3.0[${PYTHON_USEDEP}] )
 	ignition? ( dev-python/betterproto[${PYTHON_USEDEP}] )
-	ignition? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	ignition? ( dev-python/requests[${PYTHON_USEDEP}] )
+	ignition? ( ~dev-python/psutil-5.9.0[${PYTHON_USEDEP}] )
+	ignition? ( ~dev-python/requests-2.27.1[${PYTHON_USEDEP}] )
 	ignition? ( dev-python/xsdata[${PYTHON_USEDEP}] )
-	ignition? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	ignition? ( dev-python/cachetools[${PYTHON_USEDEP}] )
-	linting? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	linting? ( dev-python/black[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	ignition? ( ~dev-python/lxml-4.6.5[${PYTHON_USEDEP}] )
+	ignition? ( ~dev-python/cachetools-5.0.0[${PYTHON_USEDEP}] )
+	linting? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	linting? ( ~dev-python/black-21.12[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/coverage-6.3.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

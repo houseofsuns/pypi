@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full httpx requests"
 DEPENDENCIES="dev-python/authlib[${PYTHON_USEDEP}]
-	full? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	full? ( dev-python/requests[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	requests? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	full? ( <dev-python/httpx-1.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
+	httpx? ( <dev-python/httpx-1.0[${PYTHON_USEDEP}] )
+	requests? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

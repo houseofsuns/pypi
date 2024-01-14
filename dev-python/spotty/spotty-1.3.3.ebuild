@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-1.7.8[${PYTHON_USEDEP}]
 	dev-python/google-cloud-storage[${PYTHON_USEDEP}]
 	dev-python/cfn-flip[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]

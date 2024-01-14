@@ -27,7 +27,7 @@ IUSE="docs"
 DEPENDENCIES="dev-python/azure-identity[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-dns[${PYTHON_USEDEP}]
 	dev-python/azure-core[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-41.6.0[${PYTHON_USEDEP}]
 	dev-python/certbot[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"

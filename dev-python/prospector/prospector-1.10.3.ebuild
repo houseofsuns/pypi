@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="with_bandit with_everything with_mypy with_pyright with_pyroma with_vulture"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/GitPython-4.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	with_bandit? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	with_everything? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	with_bandit? ( >=dev-python/bandit-1.5.1[${PYTHON_USEDEP}] )
+	with_everything? ( >=dev-python/bandit-1.5.1[${PYTHON_USEDEP}] )
 	dev-python/dodgy[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/mccabe[${PYTHON_USEDEP}]
-	with_mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	with_everything? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	<dev-python/flake8-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/mccabe-0.8.0[${PYTHON_USEDEP}]
+	with_mypy? ( >=dev-python/mypy-0.600[${PYTHON_USEDEP}] )
+	with_everything? ( >=dev-python/mypy-0.600[${PYTHON_USEDEP}] )
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pep8-naming[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]
-	dev-python/pydocstyle[${PYTHON_USEDEP}]
-	dev-python/pyflakes[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
+	>=dev-python/pycodestyle-2.9.0[${PYTHON_USEDEP}]
+	>=dev-python/pydocstyle-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyflakes-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pylint-2.8.3[${PYTHON_USEDEP}]
 	dev-python/pylint-celery[${PYTHON_USEDEP}]
 	dev-python/pylint-django[${PYTHON_USEDEP}]
 	dev-python/pylint-flask[${PYTHON_USEDEP}]

@@ -24,39 +24,39 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc gui online test"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/beautifulsoup4-4.11[${PYTHON_USEDEP}]
 	dev-python/collatex[${PYTHON_USEDEP}]
 	dev-python/hdbscan[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]
+	<dev-python/lxml-4.10[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
+	<dev-python/packaging-21.4[${PYTHON_USEDEP}]
+	<dev-python/pandas-1.4.4[${PYTHON_USEDEP}]
+	<dev-python/progressbar2-4.1[${PYTHON_USEDEP}]
 	dev-python/python-levenshtein[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-6.2[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-6.1[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	<dev-python/scipy-1.9.1[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}]
+	<dev-python/shapely-1.8.3[${PYTHON_USEDEP}]
+	doc? ( <dev-python/matplotlib-3.6[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-5.2[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinxcontrib-httpdomain-1.9[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-rtd-theme-1.1[${PYTHON_USEDEP}] )
 	gui? ( dev-python/Gooey[${PYTHON_USEDEP}] )
-	online? ( dev-python/flask[${PYTHON_USEDEP}] )
-	online? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
+	online? ( <dev-python/flask-2.3[${PYTHON_USEDEP}] )
+	online? ( <dev-python/flask-cors-3.1[${PYTHON_USEDEP}] )
 	online? ( dev-python/panoptes-client[${PYTHON_USEDEP}] )
-	online? ( dev-python/requests[${PYTHON_USEDEP}] )
+	online? ( <dev-python/requests-2.29[${PYTHON_USEDEP}] )
 	online? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	online? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
+	online? ( <dev-python/sentry-sdk-1.10[${PYTHON_USEDEP}] )
 	online? ( dev-python/newrelic[${PYTHON_USEDEP}] )
 	online? ( dev-python/gitpython[${PYTHON_USEDEP}] )
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( <dev-python/nose-1.4[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-6.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]
+	<dev-python/lark-1.2.0[${PYTHON_USEDEP}]
 	dev-python/pyld[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )

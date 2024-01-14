@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/websockets[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/websockets-10.3[${PYTHON_USEDEP}]
 	dev-python/persuader-technology-automata-core[${PYTHON_USEDEP}]
 	dev-python/persuader-technology-automata-logger[${PYTHON_USEDEP}]
 	dev-python/persuader-technology-automata-auth[${PYTHON_USEDEP}]"

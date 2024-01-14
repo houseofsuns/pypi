@@ -35,18 +35,18 @@ DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxopt[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyink[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pymc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-7.3.6[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pymdown-extensions-9.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.17.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mknotebooks[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytkdocs_tweaks[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/nbconvert-6.5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbformat-5.4.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pygments-2.14.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

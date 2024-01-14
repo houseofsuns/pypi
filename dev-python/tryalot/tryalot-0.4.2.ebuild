@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/zstandard[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/zstandard-0.20[${PYTHON_USEDEP}]
+	<dev-python/graphviz-0.21[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/ratarmountcore[${PYTHON_USEDEP}]
 	dev-python/fusepy[${PYTHON_USEDEP}]
 	dev-python/indexed-bzip2[${PYTHON_USEDEP}]
-	dev-python/indexed-gzip[${PYTHON_USEDEP}]
+	<dev-python/indexed-gzip-2.0[${PYTHON_USEDEP}]
 	dev-python/python-xz[${PYTHON_USEDEP}]
 	dev-python/rapidgzip[${PYTHON_USEDEP}]
-	dev-python/rarfile[${PYTHON_USEDEP}]
+	~dev-python/rarfile-4.0[${PYTHON_USEDEP}]
 	dev-python/indexed-zstd[${PYTHON_USEDEP}]
 	dev-python/indexed-zstd[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

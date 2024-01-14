@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/tox[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/tox-4.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

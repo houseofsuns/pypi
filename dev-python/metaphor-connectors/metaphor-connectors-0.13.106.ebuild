@@ -34,9 +34,9 @@ DEPENDENCIES="all? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	datafactory? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-mgmt-datafactory[${PYTHON_USEDEP}] )
 	datafactory? ( dev-python/azure-mgmt-datafactory[${PYTHON_USEDEP}] )
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/canonicaljson[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/botocore-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/canonicaljson-3.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	all? ( dev-python/databricks-sdk[${PYTHON_USEDEP}] )
@@ -45,48 +45,48 @@ DEPENDENCIES="all? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	unity-catalog? ( dev-python/databricks-sql-connector[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastavro[${PYTHON_USEDEP}] )
 	s3? ( dev-python/fastavro[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	looker? ( dev-python/GitPython[${PYTHON_USEDEP}] )
+	all? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
+	looker? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
 	all? ( dev-python/gql[${PYTHON_USEDEP}] )
 	datahub? ( dev-python/gql[${PYTHON_USEDEP}] )
-	all? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
-	kafka? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	all? ( <dev-python/grpcio-tools-2.0.0[${PYTHON_USEDEP}] )
+	kafka? ( <dev-python/grpcio-tools-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/lkml[${PYTHON_USEDEP}] )
 	looker? ( dev-python/lkml[${PYTHON_USEDEP}] )
 	all? ( dev-python/looker-sdk[${PYTHON_USEDEP}] )
 	looker? ( dev-python/looker-sdk[${PYTHON_USEDEP}] )
 	dev-python/metaphor-models[${PYTHON_USEDEP}]
-	all? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
-	s3? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
+	all? ( <dev-python/more-itertools-11.0.0[${PYTHON_USEDEP}] )
+	s3? ( <dev-python/more-itertools-11.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/msal[${PYTHON_USEDEP}] )
 	power-bi? ( dev-python/msal[${PYTHON_USEDEP}] )
 	all? ( dev-python/msgraph-beta-sdk[${PYTHON_USEDEP}] )
 	power-bi? ( dev-python/msgraph-beta-sdk[${PYTHON_USEDEP}] )
-	all? ( dev-python/parse[${PYTHON_USEDEP}] )
-	s3? ( dev-python/parse[${PYTHON_USEDEP}] )
-	dev-python/pathvalidate[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	all? ( <dev-python/parse-2.0.0[${PYTHON_USEDEP}] )
+	s3? ( <dev-python/parse-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pathvalidate-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pycarlo[${PYTHON_USEDEP}] )
 	monte-carlo? ( dev-python/pycarlo[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-2.5.1[${PYTHON_USEDEP}]
 	all? ( dev-python/pyhive[${PYTHON_USEDEP}] )
 	hive? ( dev-python/pyhive[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	synapse? ( dev-python/pymssql[${PYTHON_USEDEP}] )
-	all? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	all? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/sasl[${PYTHON_USEDEP}] )
 	hive? ( dev-python/sasl[${PYTHON_USEDEP}] )
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	<dev-python/setuptools-69.0.0[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
 	all? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
@@ -105,8 +105,8 @@ DEPENDENCIES="all? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	tableau? ( dev-python/tableauserverclient[${PYTHON_USEDEP}] )
 	all? ( dev-python/thoughtspot_rest_api_v1[${PYTHON_USEDEP}] )
 	throughtspot? ( dev-python/thoughtspot_rest_api_v1[${PYTHON_USEDEP}] )
-	all? ( dev-python/thrift[${PYTHON_USEDEP}] )
-	hive? ( dev-python/thrift[${PYTHON_USEDEP}] )
+	all? ( <dev-python/thrift-0.17.0[${PYTHON_USEDEP}] )
+	hive? ( <dev-python/thrift-0.17.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/thrift-sasl[${PYTHON_USEDEP}] )
 	hive? ( dev-python/thrift-sasl[${PYTHON_USEDEP}] )
 	all? ( dev-python/trino[${PYTHON_USEDEP}] )

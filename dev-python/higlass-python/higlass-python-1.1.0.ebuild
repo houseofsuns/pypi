@@ -27,14 +27,14 @@ IUSE="dev docs fuse"
 DEPENDENCIES="dev-python/anywidget[${PYTHON_USEDEP}]
 	dev-python/higlass-schema[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jupyter-server-proxy[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-server-proxy-3.0[${PYTHON_USEDEP}]
 	dev-python/servir[${PYTHON_USEDEP}]
 	dev? ( dev-python/anywidget[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	docs? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-js[${PYTHON_USEDEP}] )

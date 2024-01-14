@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev gif test"
-DEPENDENCIES="dev-python/marshmallow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	dev-python/mistune[${PYTHON_USEDEP}]
-	dev-python/urwid[${PYTHON_USEDEP}]
+	<dev-python/urwid-3.0[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	all? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	dev? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	all? ( <dev-python/selenium-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/selenium-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/marshmallow[${PYTHON_USEDEP}]
 	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/six[${PYTHON_USEDEP}] )
 	dev? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	gif? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	gif? ( <dev-python/selenium-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )

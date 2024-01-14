@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc docs test tests"
 DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.4.2[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/nilearn[${PYTHON_USEDEP}]
 	dev-python/nipype[${PYTHON_USEDEP}]
@@ -37,16 +37,16 @@ DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/svgutils[${PYTHON_USEDEP}]
 	dev-python/templateflow[${PYTHON_USEDEP}]
 	all? ( dev-python/nireports[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydot[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/furo-2021.10.9[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/pydot-1.2.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydotplus[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nireports[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )

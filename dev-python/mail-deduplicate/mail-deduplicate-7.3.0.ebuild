@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/boltons[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/boltons-24.0.0[${PYTHON_USEDEP}]
 	dev-python/click-extra[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]"
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

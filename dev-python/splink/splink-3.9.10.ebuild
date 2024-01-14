@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="athena postgres pyspark spark"
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
+	>dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
 	dev-python/duckdb[${PYTHON_USEDEP}]
-	dev-python/sqlglot[${PYTHON_USEDEP}]
+	<dev-python/sqlglot-19.0.0[${PYTHON_USEDEP}]
 	dev-python/altair[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/phonetics[${PYTHON_USEDEP}]
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	athena? ( dev-python/awswrangler[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	postgres? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

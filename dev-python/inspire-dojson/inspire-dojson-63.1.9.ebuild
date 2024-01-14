@@ -31,17 +31,17 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/inspire-utils[${PYTHON_USEDEP}]
 	dev-python/isbnid-fork[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
+	~dev-python/pycountry-17.0[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.25.0[${PYTHON_USEDEP}]
 	all? ( dev-python/flake8-future-import[${PYTHON_USEDEP}] )
-	all? ( dev-python/mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-4.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/unicode-string-literal[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8-future-import[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-4.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

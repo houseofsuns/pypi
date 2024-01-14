@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all atari box2d comet dev docs ma-atari pybullet test"
 DEPENDENCIES="dev-python/gym[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.3[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/gym[${PYTHON_USEDEP}] )
 	all? ( dev-python/gym[${PYTHON_USEDEP}] )
 	all? ( dev-python/pybullet[${PYTHON_USEDEP}] )
@@ -46,22 +46,22 @@ DEPENDENCIES="dev-python/gym[${PYTHON_USEDEP}]
 	dev? ( dev-python/PettingZoo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/supersuit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/comet-ml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/autopep8-1.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch-testing[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-3.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	ma-atari? ( dev-python/PettingZoo[${PYTHON_USEDEP}] )
 	ma-atari? ( dev-python/supersuit[${PYTHON_USEDEP}] )
 	pybullet? ( dev-python/pybullet[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/autopep8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/autopep8-1.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/torch-testing[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

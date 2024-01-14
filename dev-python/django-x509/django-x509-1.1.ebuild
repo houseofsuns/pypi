@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/django-4.1.0[${PYTHON_USEDEP}]
 	dev-python/openwisp-utils[${PYTHON_USEDEP}]
 	dev-python/jsonfield[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]"
+	~dev-python/cryptography-36.0.0[${PYTHON_USEDEP}]
+	~dev-python/pyopenssl-21.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

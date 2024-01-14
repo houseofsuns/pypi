@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="origin"
-DEPENDENCIES="dev-python/guessit[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/guessit-4.0.0[${PYTHON_USEDEP}]
 	dev-python/pyrosimple[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Tempita[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/bencode-py[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+	<dev-python/humanize-5.0.0[${PYTHON_USEDEP}]
 	dev-python/libtc[${PYTHON_USEDEP}]
-	origin? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )"
+	origin? ( <dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

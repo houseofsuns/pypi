@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev dev-opt"
 DEPENDENCIES="dev-python/igraph[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
+	~dev-python/ijson-3.1.4[${PYTHON_USEDEP}]
 	dev-python/jsonargparse[${PYTHON_USEDEP}]
 	dev-python/lazy-import[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.4[${PYTHON_USEDEP}]
 	dev-python/pygithub[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
-	dev-python/unidiff[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
+	>=dev-python/unidiff-0.5.5[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.2.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev-opt? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	dev-opt? ( dev-python/numpy[${PYTHON_USEDEP}] )

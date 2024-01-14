@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/dockerpty[${PYTHON_USEDEP}]
+	>=dev-python/dockerpty-0.4.1[${PYTHON_USEDEP}]
 	dev-python/fabric[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]
 	dev-python/pyjson5[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/python-on-whales[${PYTHON_USEDEP}]

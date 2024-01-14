@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	build? ( dev-python/jsmin[${PYTHON_USEDEP}] )
-	build? ( dev-python/libsass[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/click-6.6[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.15.37[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20[${PYTHON_USEDEP}]
+	build? ( >=dev-python/jsmin-2.2.1[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/libsass-0.14.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

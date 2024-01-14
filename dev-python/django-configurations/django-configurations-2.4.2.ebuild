@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cache database email search testing"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
 	cache? ( dev-python/django-cache-url[${PYTHON_USEDEP}] )
 	database? ( dev-python/dj-database-url[${PYTHON_USEDEP}] )
 	email? ( dev-python/dj-email-url[${PYTHON_USEDEP}] )
 	search? ( dev-python/dj-search-url[${PYTHON_USEDEP}] )
-	testing? ( dev-python/django-cache-url[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/django-cache-url-1.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/dj-database-url[${PYTHON_USEDEP}] )
 	testing? ( dev-python/dj-email-url[${PYTHON_USEDEP}] )
 	testing? ( dev-python/dj-search-url[${PYTHON_USEDEP}] )"

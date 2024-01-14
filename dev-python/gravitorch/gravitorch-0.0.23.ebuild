@@ -28,19 +28,19 @@ DEPENDENCIES="dev-python/coola[${PYTHON_USEDEP}]
 	dev-python/hya[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
 	dev-python/minevent[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.27[${PYTHON_USEDEP}]
 	dev-python/objectory[${PYTHON_USEDEP}]
 	dev-python/pytorch-ignite[${PYTHON_USEDEP}]
 	dev-python/pytorch-ignite[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	all? ( dev-python/colorlog[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	all? ( <dev-python/colorlog-6.8[${PYTHON_USEDEP}] )
+	all? ( <dev-python/matplotlib-3.9[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pillow-11.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/psutil-5.10[${PYTHON_USEDEP}] )
 	all? ( dev-python/startorch[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	tb? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/tqdm-4.67[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

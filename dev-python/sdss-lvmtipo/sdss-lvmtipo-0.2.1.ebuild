@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click-default-group[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-default-group-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sdss-cluplus[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

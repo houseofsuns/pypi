@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs docs-screenshots test"
-DEPENDENCIES="dev-python/async-lru[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/async-lru-1.0.0[${PYTHON_USEDEP}]
 	dev-python/ipykernel[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/jupyter-core[${PYTHON_USEDEP}]
-	dev-python/jupyter-lsp[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]
-	dev-python/jupyterlab-server[${PYTHON_USEDEP}]
-	dev-python/notebook-shim[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-lsp-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
+	<dev-python/jupyterlab-server-3.0[${PYTHON_USEDEP}]
+	>=dev-python/notebook-shim-0.2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	>=dev-python/tornado-6.2.0[${PYTHON_USEDEP}]
 	dev-python/traitlets[${PYTHON_USEDEP}]
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
@@ -45,30 +45,30 @@ DEPENDENCIES="dev-python/async-lru[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jsx-lexer[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pydata-sphinx-theme-0.13.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytest-check-links[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pytest-tornasync[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.2.0[${PYTHON_USEDEP}] )
 	docs-screenshots? ( dev-python/altair[${PYTHON_USEDEP}] )
-	docs-screenshots? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs-screenshots? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	docs-screenshots? ( ~dev-python/ipython-8.14.0[${PYTHON_USEDEP}] )
+	docs-screenshots? ( ~dev-python/ipywidgets-8.0.6[${PYTHON_USEDEP}] )
 	docs-screenshots? ( dev-python/jupyterlab-geojson[${PYTHON_USEDEP}] )
 	docs-screenshots? ( dev-python/jupyterlab-language-pack-zh-cn[${PYTHON_USEDEP}] )
-	docs-screenshots? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs-screenshots? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	docs-screenshots? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	docs-screenshots? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	docs-screenshots? ( ~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}] )
+	docs-screenshots? ( >=dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}] )
+	docs-screenshots? ( ~dev-python/pandas-2.0.2[${PYTHON_USEDEP}] )
+	docs-screenshots? ( ~dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
 	docs-screenshots? ( dev-python/vega-datasets[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-check-links[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-jupyter[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-jupyter-0.5.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-tornasync[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-cache[${PYTHON_USEDEP}] )
 	test? ( dev-python/virtualenv[${PYTHON_USEDEP}] )"

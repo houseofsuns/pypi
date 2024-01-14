@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
 	lint? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	lint? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

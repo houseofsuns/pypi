@@ -26,31 +26,31 @@ KEYWORDS="~amd64 ~x86"
 IUSE="virtual widgets xarray"
 DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	dev-python/aioitertools[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	<dev-python/botocore-2.0[${PYTHON_USEDEP}]
+	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	virtual? ( dev-python/cfgrib[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/donfig[${PYTHON_USEDEP}]
 	virtual? ( dev-python/eccodes[${PYTHON_USEDEP}] )
 	virtual? ( dev-python/ecmwflibs[${PYTHON_USEDEP}] )
-	virtual? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	virtual? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	dev-python/httpx[${PYTHON_USEDEP}]
+	virtual? ( >=dev-python/fsspec-2022.11.0[${PYTHON_USEDEP}] )
+	virtual? ( <dev-python/h5py-4.0.0[${PYTHON_USEDEP}] )
+	<dev-python/httpx-1.0[${PYTHON_USEDEP}]
 	widgets? ( dev-python/ipytree[${PYTHON_USEDEP}] )
 	virtual? ( dev-python/kerchunk[${PYTHON_USEDEP}] )
 	dev-python/numcodecs[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-1.0[${PYTHON_USEDEP}]
 	virtual? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	dev-python/structlog[${PYTHON_USEDEP}]
-	virtual? ( dev-python/tifffile[${PYTHON_USEDEP}] )
+	<dev-python/structlog-24.0.0[${PYTHON_USEDEP}]
+	virtual? ( >=dev-python/tifffile-2023.2.27[${PYTHON_USEDEP}] )
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/types-cachetools[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	xarray? ( dev-python/xarray[${PYTHON_USEDEP}] )
+	<dev-python/uvloop-1.0[${PYTHON_USEDEP}]
+	xarray? ( >=dev-python/xarray-0.0[${PYTHON_USEDEP}] )
 	dev-python/zarr[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

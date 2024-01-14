@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/opensearch-py[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/opensearch-py-2.4.1[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
+	~dev-python/py-cpuinfo-7.0.0[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.1.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
 	dev-python/thespian[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/yappi[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
+	~dev-python/yappi-1.4.0[${PYTHON_USEDEP}]
+	~dev-python/ijson-2.6.1[${PYTHON_USEDEP}]
 	dev-python/google-resumable-media[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/google-auth-1.22.1[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.38.4[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.28.62[${PYTHON_USEDEP}]
+	~dev-python/zstandard-0.22.0[${PYTHON_USEDEP}]
+	~dev-python/h5py-3.10.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	develop? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	develop? ( dev-python/tox[${PYTHON_USEDEP}] )
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	develop? ( dev-python/twine[${PYTHON_USEDEP}] )
-	develop? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	develop? ( dev-python/github3-py[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pytest-asyncio-0.14.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/tox-3.14.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/twine-1.15.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/wheel-0.38.4[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/github3-py-1.3.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pylint-quotes[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/protobuf[${PYTHON_USEDEP}]
-	testing? ( dev-python/google-api-core[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/google-api-core-1.31.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

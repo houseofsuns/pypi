@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/ctk-cli[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	girder? ( dev-python/docker[${PYTHON_USEDEP}] )
+	girder? ( >=dev-python/docker-2.6.0[${PYTHON_USEDEP}] )
 	girder? ( dev-python/girder[${PYTHON_USEDEP}] )
 	girder? ( dev-python/girder-jobs[${PYTHON_USEDEP}] )
 	girder? ( dev-python/girder-worker[${PYTHON_USEDEP}] )
-	worker? ( dev-python/docker[${PYTHON_USEDEP}] )
+	worker? ( >=dev-python/docker-2.6.0[${PYTHON_USEDEP}] )
 	worker? ( dev-python/girder-worker[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

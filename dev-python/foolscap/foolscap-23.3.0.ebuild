@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev i2p tor"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/twisted[${PYTHON_USEDEP}]
+	>=dev-python/twisted-16.0.0[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/txtorcon[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/txtorcon-19.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/txi2p-tahoe[${PYTHON_USEDEP}] )
 	i2p? ( dev-python/txi2p-tahoe[${PYTHON_USEDEP}] )
-	tor? ( dev-python/txtorcon[${PYTHON_USEDEP}] )"
+	tor? ( >=dev-python/txtorcon-19.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

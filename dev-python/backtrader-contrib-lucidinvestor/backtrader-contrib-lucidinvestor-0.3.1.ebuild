@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/backtrader-lucidinvestor[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	dev-python/pandas-datareader[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	dev-python/yfinance[${PYTHON_USEDEP}]
 	dev-python/pandas-market-calendars[${PYTHON_USEDEP}]
 	dev-python/pyfolio-reloaded[${PYTHON_USEDEP}]

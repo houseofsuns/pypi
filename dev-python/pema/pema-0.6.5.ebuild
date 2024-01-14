@@ -33,20 +33,20 @@ DEPENDENCIES="dev-python/strax[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/nestpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
-	docs? ( dev-python/commonmark[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/commonmark-0.9.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/gitpython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}] )
-	docs? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/graphviz-0.19.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/nbsphinx-0.8.9[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/numpy-1.22.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-applehelp-1.0.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-devhelp-1.0.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-htmlhelp-2.0.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-qthelp-1.0.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/typing-extensions-4.6.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

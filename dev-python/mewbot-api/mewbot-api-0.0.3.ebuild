@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}]
 	dev-python/mewbot-core[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev lint networkx spark test"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.0.3[${PYTHON_USEDEP}]
 	all? ( dev-python/ng_ai[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ng_ai[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/isort-5.11.5[${PYTHON_USEDEP}] )
 	networkx? ( dev-python/ng_nx[${PYTHON_USEDEP}] )
-	networkx? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	networkx? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	networkx? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	networkx? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
+	networkx? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
+	networkx? ( >=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/chispa[${PYTHON_USEDEP}] )
 	test? ( dev-python/nebula3-python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

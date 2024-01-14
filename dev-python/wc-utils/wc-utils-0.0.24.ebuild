@@ -34,12 +34,12 @@ DEPENDENCIES="dev-python/abduct[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/objsize[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	<=dev-python/openpyxl-3.0.1[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/pronto[${PYTHON_USEDEP}]
 	dev-python/pyexcel[${PYTHON_USEDEP}]
 	dev-python/pyexcel-io[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/qualname[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
@@ -55,18 +55,18 @@ DEPENDENCIES="dev-python/abduct[${PYTHON_USEDEP}]
 	all? ( dev-python/pyjnius[${PYTHON_USEDEP}] )
 	all? ( dev-python/quilt3[${PYTHON_USEDEP}] )
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-fontawesome[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-rtd-theme-0.4.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-addmetahtml[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-googleanalytics[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxprettysearchresults[${PYTHON_USEDEP}] )
 	chem? ( dev-python/openbabel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-fontawesome[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.4.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-addmetahtml[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-googleanalytics[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/black-23.1.0[${PYTHON_USEDEP}]
+	>=dev-python/mypy-1.1.1[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

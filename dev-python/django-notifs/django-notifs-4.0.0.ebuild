@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="anymail celery channels pusher_channels rq slack sms sqs_lambda"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/django-jsonfield-backport[${PYTHON_USEDEP}]
 	anymail? ( dev-python/django-anymail[${PYTHON_USEDEP}] )
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	rq? ( dev-python/django-rq[${PYTHON_USEDEP}] )
 	slack? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
 	sms? ( dev-python/django-sms[${PYTHON_USEDEP}] )
-	sqs_lambda? ( dev-python/boto3[${PYTHON_USEDEP}] )"
+	sqs_lambda? ( >=dev-python/boto3-1.18.48[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

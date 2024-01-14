@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cache react test"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/comm[${PYTHON_USEDEP}]
-	dev-python/gast[${PYTHON_USEDEP}]
+	<dev-python/comm-1.0[${PYTHON_USEDEP}]
+	>=dev-python/gast-0.5.3[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pyzmq[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]

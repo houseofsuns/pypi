@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="treeplot"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/multiprocess[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tables[${PYTHON_USEDEP}]
 	treeplot? ( dev-python/ete3[${PYTHON_USEDEP}] )
-	treeplot? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	treeplot? ( ~dev-python/PyQt5-5.12[${PYTHON_USEDEP}] )
 	treeplot? ( dev-python/sourmash[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

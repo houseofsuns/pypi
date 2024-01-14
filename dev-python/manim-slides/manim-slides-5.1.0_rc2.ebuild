@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="magic manim manimgl sphinx-directive"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
-	sphinx-directive? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	magic? ( dev-python/ipython[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-default-group-2.0.0[${PYTHON_USEDEP}]
+	sphinx-directive? ( <dev-python/docutils-0.21.0[${PYTHON_USEDEP}] )
+	magic? ( >=dev-python/ipython-8.12.2[${PYTHON_USEDEP}] )
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	magic? ( dev-python/manim[${PYTHON_USEDEP}] )
 	manim? ( dev-python/manim[${PYTHON_USEDEP}] )
 	sphinx-directive? ( dev-python/manim[${PYTHON_USEDEP}] )
 	manimgl? ( dev-python/manimgl[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-extra-types[${PYTHON_USEDEP}]
-	dev-python/pyside6[${PYTHON_USEDEP}]
+	~dev-python/pyside6-6.5.2[${PYTHON_USEDEP}]
 	dev-python/python-pptx[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/rtoml[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

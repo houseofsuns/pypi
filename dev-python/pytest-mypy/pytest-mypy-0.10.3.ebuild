@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/attrs-19.0[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.2[${PYTHON_USEDEP}]
+	>=dev-python/mypy-0.900[${PYTHON_USEDEP}]
+	>=dev-python/mypy-0.780[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

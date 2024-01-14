@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/elasticsearch[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/elasticsearch-7.1.0[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
 	dev-python/hurry-filesize[${PYTHON_USEDEP}]
-	dev-python/rarfile[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/rarfile-3.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.40.1[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.7[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.4.2[${PYTHON_USEDEP}]
 	dev-python/py-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

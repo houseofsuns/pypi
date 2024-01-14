@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ujson-1.35[${PYTHON_USEDEP}]
+	~dev-python/peewee-2.8.5[${PYTHON_USEDEP}]
 	dev-python/pymssql[${PYTHON_USEDEP}]
 	dev-python/peewee-mssql[${PYTHON_USEDEP}]
 	dev-python/concurrent-log-handler[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/httplib2[${PYTHON_USEDEP}]"

@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Sphinx[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/pybtex[${PYTHON_USEDEP}]
-	dev-python/pybtex-docutils[${PYTHON_USEDEP}]"
+	>=dev-python/docutils-0.8[${PYTHON_USEDEP}]
+	>=dev-python/pybtex-0.24[${PYTHON_USEDEP}]
+	>=dev-python/pybtex-docutils-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

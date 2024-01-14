@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES="test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/y-py[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pydantic-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/genson[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	<=dev-python/genson-1.2.2[${PYTHON_USEDEP}]
+	<=dev-python/jsonschema-4.19.1[${PYTHON_USEDEP}]
+	<=dev-python/marshmallow-3.19.0[${PYTHON_USEDEP}]
 	dev-python/pytups[${PYTHON_USEDEP}]
 	dev-python/ortools[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
 	dev-python/PuLP[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

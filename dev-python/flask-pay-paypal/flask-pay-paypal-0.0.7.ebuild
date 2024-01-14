@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="async dotenv"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	async? ( dev-python/asgiref[${PYTHON_USEDEP}] )
+	async? ( >=dev-python/asgiref-3.2[${PYTHON_USEDEP}] )
 	dotenv? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

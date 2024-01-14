@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/undetected-chromedriver[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	~dev-python/selenium-4.9.1[${PYTHON_USEDEP}]
 	dev-python/PyVirtualDisplay[${PYTHON_USEDEP}]
 	dev-python/pyperclip[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

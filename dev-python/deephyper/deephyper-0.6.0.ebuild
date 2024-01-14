@@ -27,18 +27,18 @@ IUSE="analytics autodeuq automl default dev hps-tl hvd jax-cpu jax-cuda mpi nas 
 DEPENDENCIES="dev-python/ConfigSpace[${PYTHON_USEDEP}]
 	dev-python/dm-tree[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/parse[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	analytics? ( dev-python/altair[${PYTHON_USEDEP}] )
 	analytics? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	analytics? ( dev-python/jupyter-contrib-nbextensions[${PYTHON_USEDEP}] )
-	analytics? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	analytics? ( <dev-python/nbconvert-6.0[${PYTHON_USEDEP}] )
 	analytics? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	analytics? ( dev-python/streamlit-aggrid[${PYTHON_USEDEP}] )
 	analytics? ( dev-python/tinydb[${PYTHON_USEDEP}] )
@@ -51,13 +51,13 @@ DEPENDENCIES="dev-python/ConfigSpace[${PYTHON_USEDEP}]
 	default? ( dev-python/ConfigSpace[${PYTHON_USEDEP}] )
 	default? ( dev-python/dm-tree[${PYTHON_USEDEP}] )
 	default? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	default? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	default? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	default? ( >=dev-python/numpy-1.20[${PYTHON_USEDEP}] )
+	default? ( >=dev-python/pandas-0.24.2[${PYTHON_USEDEP}] )
 	default? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	default? ( dev-python/parse[${PYTHON_USEDEP}] )
 	default? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	default? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	default? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	default? ( >=dev-python/scipy-1.7[${PYTHON_USEDEP}] )
+	default? ( >=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}] )
 	default? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	default? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	default? ( dev-python/pydot[${PYTHON_USEDEP}] )
@@ -69,28 +69,28 @@ DEPENDENCIES="dev-python/ConfigSpace[${PYTHON_USEDEP}]
 	default? ( dev-python/numpyro[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rstcheck[${PYTHON_USEDEP}] )
 	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydata-sphinx-theme-0.13.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-lfs-content[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
 	hps-tl? ( dev-python/sdv[${PYTHON_USEDEP}] )
 	hvd? ( dev-python/horovod[${PYTHON_USEDEP}] )
-	hvd? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
+	hvd? ( >=dev-python/mpi4py-3.0.0[${PYTHON_USEDEP}] )
 	jax-cpu? ( dev-python/jax[${PYTHON_USEDEP}] )
 	jax-cpu? ( dev-python/numpyro[${PYTHON_USEDEP}] )
 	jax-cuda? ( dev-python/jax[${PYTHON_USEDEP}] )
 	jax-cuda? ( dev-python/numpyro[${PYTHON_USEDEP}] )
-	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )
+	mpi? ( >=dev-python/mpi4py-3.1.3[${PYTHON_USEDEP}] )
 	nas? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	nas? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	nas? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

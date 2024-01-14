@@ -33,17 +33,17 @@ DEPENDENCIES="dev-python/astroid[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/autopep8-1.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-4.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/wheel-0.37[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

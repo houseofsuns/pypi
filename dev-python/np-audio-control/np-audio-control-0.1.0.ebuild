@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/fabric[${PYTHON_USEDEP}]
 	dev-python/np-config[${PYTHON_USEDEP}]
 	dev-python/np-logging[${PYTHON_USEDEP}]
 	dev? ( dev-python/blue[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pdm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-7.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pdm-2.4.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-backports[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )"

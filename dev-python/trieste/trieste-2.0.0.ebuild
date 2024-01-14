@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="plotting qhsri"
 DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	>dev-python/dill-0.3.6[${PYTHON_USEDEP}]
 	dev-python/gpflow[${PYTHON_USEDEP}]
 	dev-python/gpflux[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/tensorflow-probability[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
+	>=dev-python/greenlet-1.1.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-macos[${PYTHON_USEDEP}]
 	plotting? ( dev-python/seaborn[${PYTHON_USEDEP}] )

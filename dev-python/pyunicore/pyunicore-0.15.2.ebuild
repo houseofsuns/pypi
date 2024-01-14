@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="crypto fs fuse"
 DEPENDENCIES="dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.5[${PYTHON_USEDEP}]
 	fuse? ( dev-python/fusepy[${PYTHON_USEDEP}] )
-	crypto? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	fs? ( dev-python/fs[${PYTHON_USEDEP}] )"
+	crypto? ( >=dev-python/cryptography-3.3.1[${PYTHON_USEDEP}] )
+	fs? ( >=dev-python/fs-2.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

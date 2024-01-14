@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	dev-python/fido2[${PYTHON_USEDEP}]
 	dev-python/pyotp[${PYTHON_USEDEP}]
 	dev-python/qrcode[${PYTHON_USEDEP}]"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tenacity[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/supabase[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

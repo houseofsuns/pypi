@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="telemetry"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-1.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/wrapt-2.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	telemetry? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
 	telemetry? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
 	telemetry? ( dev-python/opentelemetry-exporter-otlp-proto-grpc[${PYTHON_USEDEP}] )
@@ -43,6 +43,6 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	telemetry? ( dev-python/opentelemetry-instrumentation-system-metrics[${PYTHON_USEDEP}] )
 	telemetry? ( dev-python/opentelemetry-instrumentation-urllib[${PYTHON_USEDEP}] )
 	telemetry? ( dev-python/opentelemetry-exporter-prometheus[${PYTHON_USEDEP}] )
-	telemetry? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )"
+	telemetry? ( ~dev-python/prometheus-client-0.17.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

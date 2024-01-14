@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test_generation"
-DEPENDENCIES="dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/cerberus[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asgiref-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/cerberus-1.3.4[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/toolz-0.11.1[${PYTHON_USEDEP}]
 	dev-python/ulid-py[${PYTHON_USEDEP}]
 	test_generation? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	test_generation? ( dev-python/more_itertools[${PYTHON_USEDEP}] )
-	test_generation? ( dev-python/sqlglot[${PYTHON_USEDEP}] )"
+	test_generation? ( >=dev-python/sqlglot-16.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

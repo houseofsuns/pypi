@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pytest"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-1.0.0[${PYTHON_USEDEP}]
 	dev-python/astmonkey[${PYTHON_USEDEP}]
-	pytest? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	pytest? ( >=dev-python/pytest-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

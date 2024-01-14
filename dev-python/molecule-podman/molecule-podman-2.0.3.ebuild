@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/ansible-compat[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ansible-compat-2.2.0[${PYTHON_USEDEP}]
 	dev-python/molecule[${PYTHON_USEDEP}]
 	dev-python/selinux[${PYTHON_USEDEP}]
 	dev-python/selinux[${PYTHON_USEDEP}]

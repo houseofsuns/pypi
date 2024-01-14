@@ -26,26 +26,26 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all tests"
 DEPENDENCIES="dev-python/buvar[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.1[${PYTHON_USEDEP}]
 	dev-python/structlog[${PYTHON_USEDEP}]
 	dev-python/pendulum[${PYTHON_USEDEP}]
 	dev-python/uritools[${PYTHON_USEDEP}]
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-asyncio-0.11.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	all? ( dev-python/mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mock-3.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-mock-1.10[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-anything[${PYTHON_USEDEP}] )
 	all? ( dev-python/pdbpp[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-4.6[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-asyncio-0.11.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mock-3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-mock-1.10[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )

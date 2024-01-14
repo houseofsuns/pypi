@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	dev-python/django-cms[${PYTHON_USEDEP}]
 	dev-python/algoliasearch-django[${PYTHON_USEDEP}]
 	dev-python/aldryn-search[${PYTHON_USEDEP}]

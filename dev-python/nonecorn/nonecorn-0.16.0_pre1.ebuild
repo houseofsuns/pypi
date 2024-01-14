@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="h3 tests trio uvloop"
 DEPENDENCIES="dev-python/h11[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]
+	>=dev-python/h2-3.1.0[${PYTHON_USEDEP}]
 	dev-python/priority[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/wsproto[${PYTHON_USEDEP}]
+	>=dev-python/wsproto-0.14.0[${PYTHON_USEDEP}]
 	dev-python/taskgroup[${PYTHON_USEDEP}]
 	h3? ( dev-python/aioquic[${PYTHON_USEDEP}] )
 	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/h11[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-trio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/trio[${PYTHON_USEDEP}] )
-	trio? ( dev-python/trio[${PYTHON_USEDEP}] )
+	trio? ( >=dev-python/trio-0.11.0[${PYTHON_USEDEP}] )
 	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

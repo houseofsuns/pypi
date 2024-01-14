@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
 DEPENDENCIES="cli? ( dev-python/termcolor[${PYTHON_USEDEP}] )
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]"
+	<dev-python/importlib-metadata-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

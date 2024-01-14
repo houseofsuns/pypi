@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/autopep8[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/autopep8-2.0.0[${PYTHON_USEDEP}]
 	dev-python/icdiff[${PYTHON_USEDEP}]
 	dev-python/jsbeautifier[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]
+	~dev-python/pycodestyle-2.10.0[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]"

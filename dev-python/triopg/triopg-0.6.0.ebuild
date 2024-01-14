@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev-python/trio-asyncio[${PYTHON_USEDEP}]
-	dev-python/trio[${PYTHON_USEDEP}]"
+	>=dev-python/trio-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

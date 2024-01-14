@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/Flask-APScheduler[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
 	dev-python/meshtastic[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
+	~dev-python/paho-mqtt-1.5.1[${PYTHON_USEDEP}]
 	dev-python/timeago[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]"
+	~dev-python/waitress-1.4.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

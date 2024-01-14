@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/boto3-1.14[${PYTHON_USEDEP}]
+	~dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/pynacl-1.4[${PYTHON_USEDEP}]
 	dev-python/pystac[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	~dev-python/python-json-logger-2.0.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.24[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

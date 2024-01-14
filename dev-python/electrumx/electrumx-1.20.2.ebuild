@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rocksdb uvloop"
-DEPENDENCIES="dev-python/aiorpcX[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiorpcX-0.23[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/plyvel[${PYTHON_USEDEP}]
 	dev-python/pylru[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	rocksdb? ( dev-python/python-rocksdb[${PYTHON_USEDEP}] )
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	uvloop? ( >=dev-python/uvloop-0.14[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

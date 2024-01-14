@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiodns[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]"
+DEPENDENCIES="<=dev-python/aiodns-2.0[${PYTHON_USEDEP}]
+	<dev-python/idna-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

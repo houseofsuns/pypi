@@ -24,101 +24,101 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/autobahn[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-17.2.0[${PYTHON_USEDEP}]
+	>=dev-python/autobahn-22.6.1[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/bitstring[${PYTHON_USEDEP}]
-	dev-python/cbor2[${PYTHON_USEDEP}]
+	>=dev-python/bcrypt-3.1.6[${PYTHON_USEDEP}]
+	>=dev-python/bitstring-3.1.5[${PYTHON_USEDEP}]
+	>=dev-python/cbor2-5.2.0[${PYTHON_USEDEP}]
 	dev-python/cfxdb[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/constantly[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/constantly-15.1.0[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.6.1[${PYTHON_USEDEP}]
+	>=dev-python/docker-3.5.0[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
 	dev-python/eth-typing[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]
+	>=dev-python/flask-1.1.1[${PYTHON_USEDEP}]
+	<dev-python/h2-4.0[${PYTHON_USEDEP}]
 	dev-python/hexbytes[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/hyperframe[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	>=dev-python/humanize-0.5.1[${PYTHON_USEDEP}]
+	<dev-python/hyperframe-6.0[${PYTHON_USEDEP}]
+	>=dev-python/idna-2.5[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/incremental[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
+	>=dev-python/incremental-17.5.0[${PYTHON_USEDEP}]
+	>=dev-python/iso8601-0.1.12[${PYTHON_USEDEP}]
 	dev-python/jinja2-highlight[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/lmdb[${PYTHON_USEDEP}]
+	>=dev-python/lmdb-1.1.1[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
+	>=dev-python/mistune-0.8.4[${PYTHON_USEDEP}]
 	dev-python/morphys[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/netaddr-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/priority[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/passlib-1.7.1[${PYTHON_USEDEP}]
+	<dev-python/priority-2.0[${PYTHON_USEDEP}]
+	>=dev-python/prompt-toolkit-2.0.10[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
 	dev-python/py-eth-sig-utils[${PYTHON_USEDEP}]
-	dev-python/py-ubjson[${PYTHON_USEDEP}]
-	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
+	>=dev-python/py-ubjson-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-modules-0.2.4[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-0.4.5[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.7.1[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pynacl-1.1.2[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-17.1.0[${PYTHON_USEDEP}]
 	dev-python/pyqrcode[${PYTHON_USEDEP}]
-	dev-python/pytrie[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pytrie-0.3[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	dev-python/sdnotify[${PYTHON_USEDEP}]
-	dev-python/service-identity[${PYTHON_USEDEP}]
-	dev-python/setproctitle[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
+	>=dev-python/service-identity-17.0.0[${PYTHON_USEDEP}]
+	>=dev-python/setproctitle-1.1.10[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-36.2.7[${PYTHON_USEDEP}]
+	>=dev-python/six-1.13.0[${PYTHON_USEDEP}]
+	>=dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/treq[${PYTHON_USEDEP}]
-	dev-python/txaio[${PYTHON_USEDEP}]
-	dev-python/txtorcon[${PYTHON_USEDEP}]
-	dev-python/u-msgpack-python[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.7.7[${PYTHON_USEDEP}]
+	>=dev-python/treq-20.4.1[${PYTHON_USEDEP}]
+	>=dev-python/txaio-22.2.1[${PYTHON_USEDEP}]
+	>=dev-python/txtorcon-20.0.0[${PYTHON_USEDEP}]
+	>=dev-python/u-msgpack-python-2.4.1[${PYTHON_USEDEP}]
+	>=dev-python/ujson-5.1.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.8[${PYTHON_USEDEP}]
 	dev-python/validate-email[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-2.0[${PYTHON_USEDEP}]
 	dev-python/xbr[${PYTHON_USEDEP}]
 	dev-python/zlmdb[${PYTHON_USEDEP}]
-	dev-python/zope-interface[${PYTHON_USEDEP}]
-	dev-python/wsaccel[${PYTHON_USEDEP}]
-	dev-python/twisted[${PYTHON_USEDEP}]
-	dev-python/twisted[${PYTHON_USEDEP}]
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	>=dev-python/zope-interface-4.4.2[${PYTHON_USEDEP}]
+	>=dev-python/wsaccel-0.6.2[${PYTHON_USEDEP}]
+	>=dev-python/twisted-21.7.0[${PYTHON_USEDEP}]
+	>=dev-python/twisted-21.7.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-images[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinxcontrib-spelling-7.3.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pygments-2.11.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyenchant-3.2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-licenses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	dev? ( dev-python/humanize[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/nbsphinx-0.8.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-autodoc-typehints-1.17.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/humanize-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pip-22.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tap-py[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-tap[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-twisted[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/yapf-0.29.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )

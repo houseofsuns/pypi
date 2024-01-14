@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/flake8[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flake8-3.0[${PYTHON_USEDEP}]
 	dev-python/restructuredtext-lint[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	develop? ( dev-python/build[${PYTHON_USEDEP}] )

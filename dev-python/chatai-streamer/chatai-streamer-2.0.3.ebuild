@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/chatai-stream[${PYTHON_USEDEP}]
 	dev-python/gTTS[${PYTHON_USEDEP}]
 	dev-python/noisereduce[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]"
+	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

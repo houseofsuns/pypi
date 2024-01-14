@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all fuzz scipy shape"
 DEPENDENCIES="dev-python/geopy[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	all? ( dev-python/rapidfuzz[${PYTHON_USEDEP}] )
-	fuzz? ( dev-python/rapidfuzz[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	scipy? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/shapely[${PYTHON_USEDEP}] )
-	shape? ( dev-python/shapely[${PYTHON_USEDEP}] )"
+	>=dev-python/httpx-0.26[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.13[${PYTHON_USEDEP}]
+	all? ( >=dev-python/rapidfuzz-3.6[${PYTHON_USEDEP}] )
+	fuzz? ( >=dev-python/rapidfuzz-3.6[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-1.10[${PYTHON_USEDEP}] )
+	scipy? ( >=dev-python/scipy-1.10[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/shapely-2.0[${PYTHON_USEDEP}] )
+	shape? ( >=dev-python/shapely-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

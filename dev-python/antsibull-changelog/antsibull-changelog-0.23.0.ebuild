@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/rstcheck[${PYTHON_USEDEP}]
 	dev-python/semantic-version[${PYTHON_USEDEP}]
-	codeqa? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	codeqa? ( >=dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
 	codeqa? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	codeqa? ( dev-python/reuse[${PYTHON_USEDEP}] )
 	coverage? ( dev-python/coverage[${PYTHON_USEDEP}] )

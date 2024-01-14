@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="brownie testing web3"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/eth-prototype[${PYTHON_USEDEP}]
 	brownie? ( dev-python/eth-prototype[${PYTHON_USEDEP}] )
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )

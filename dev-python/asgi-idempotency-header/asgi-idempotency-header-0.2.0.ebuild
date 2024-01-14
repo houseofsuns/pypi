@@ -28,8 +28,8 @@ DEPENDENCIES="fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	starlette? ( dev-python/starlette[${PYTHON_USEDEP}] )
 	all? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-5.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/redis-5.0[${PYTHON_USEDEP}] )
 	redis? ( dev-python/lupa[${PYTHON_USEDEP}] )
 	all? ( dev-python/lupa[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

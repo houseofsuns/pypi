@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/redis-4.3.4[${PYTHON_USEDEP}]
 	dev-python/persuader-technology-automata-core[${PYTHON_USEDEP}]
 	dev-python/persuader-technology-automata-utilities[${PYTHON_USEDEP}]
 	dev-python/persuader-technology-automata-logger[${PYTHON_USEDEP}]"

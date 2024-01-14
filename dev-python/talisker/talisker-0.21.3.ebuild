@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="celery dev django flask gevent gunicorn pg prometheus raven"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev-python/statsd[${PYTHON_USEDEP}]
+	<dev-python/statsd-4.0[${PYTHON_USEDEP}]
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	dev? ( dev-python/logging-tree[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/objgraph[${PYTHON_USEDEP}] )
-	django? ( dev-python/django[${PYTHON_USEDEP}] )
-	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
-	flask? ( dev-python/blinker[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pygments-2.11[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/psutil-5.9[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/objgraph-3.5[${PYTHON_USEDEP}] )
+	django? ( <dev-python/django-4.0[${PYTHON_USEDEP}] )
+	flask? ( <dev-python/flask-3.0[${PYTHON_USEDEP}] )
+	flask? ( <dev-python/blinker-2.0[${PYTHON_USEDEP}] )
 	gevent? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	gunicorn? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	pg? ( dev-python/sqlparse[${PYTHON_USEDEP}] )
+	pg? ( >=dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}] )
 	pg? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	prometheus? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
+	prometheus? ( <dev-python/prometheus-client-0.8[${PYTHON_USEDEP}] )
 	raven? ( dev-python/raven[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

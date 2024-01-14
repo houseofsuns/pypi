@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/jupyter-core[${PYTHON_USEDEP}]
 	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]"
+	>=dev-python/notebook-4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

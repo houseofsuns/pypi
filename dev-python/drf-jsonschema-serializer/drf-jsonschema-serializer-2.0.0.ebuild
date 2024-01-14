@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all-format-validators coverage docs release tests"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.13[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.0.0[${PYTHON_USEDEP}]
 	all-format-validators? ( dev-python/fqdn[${PYTHON_USEDEP}] )
 	all-format-validators? ( dev-python/idna[${PYTHON_USEDEP}] )
 	all-format-validators? ( dev-python/rfc3987[${PYTHON_USEDEP}] )

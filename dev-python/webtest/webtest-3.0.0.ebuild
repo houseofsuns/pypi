@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
 DEPENDENCIES="dev-python/WebOb[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
+	>=dev-python/waitress-0.8.5[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )

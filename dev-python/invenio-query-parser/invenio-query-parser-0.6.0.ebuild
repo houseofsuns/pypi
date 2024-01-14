@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs elasticsearch tests"
 DEPENDENCIES="dev-python/pypeg2[${PYTHON_USEDEP}]
 	dev-python/ordereddict[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-rtd-theme-0.1.9[${PYTHON_USEDEP}] )
 	elasticsearch? ( dev-python/elasticsearch-dsl[${PYTHON_USEDEP}] )
 	tests? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-4.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/isort-4.2.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pydocstyle-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-2.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

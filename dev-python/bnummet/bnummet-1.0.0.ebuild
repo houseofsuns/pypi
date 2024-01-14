@@ -27,8 +27,8 @@ IUSE="testing"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/bqplot[${PYTHON_USEDEP}]
 	dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	<=dev-python/jupyter-client-7.4.9[${PYTHON_USEDEP}]
+	~dev-python/ipywidgets-8.0.4[${PYTHON_USEDEP}]
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tox[${PYTHON_USEDEP}] )

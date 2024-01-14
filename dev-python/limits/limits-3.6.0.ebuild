@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all async-etcd async-memcached async-mongodb async-redis etcd memcached mongodb redis rediscluster"
-DEPENDENCIES="dev-python/deprecated[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/deprecated-1.2[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
+	all? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/redis-4.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymemcache[${PYTHON_USEDEP}] )
-	all? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/etcd3[${PYTHON_USEDEP}] )
 	all? ( dev-python/coredis[${PYTHON_USEDEP}] )
 	all? ( dev-python/motor[${PYTHON_USEDEP}] )
@@ -45,8 +45,8 @@ DEPENDENCIES="dev-python/deprecated[${PYTHON_USEDEP}]
 	async-redis? ( dev-python/coredis[${PYTHON_USEDEP}] )
 	etcd? ( dev-python/etcd3[${PYTHON_USEDEP}] )
 	memcached? ( dev-python/pymemcache[${PYTHON_USEDEP}] )
-	mongodb? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	rediscluster? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	mongodb? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
+	redis? ( <dev-python/redis-6.0.0[${PYTHON_USEDEP}] )
+	rediscluster? ( >=dev-python/redis-4.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

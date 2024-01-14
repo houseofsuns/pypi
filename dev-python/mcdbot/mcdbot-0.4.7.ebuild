@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/discord-py[${PYTHON_USEDEP}]
 	dev-python/asyncrcon[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/aioredis[${PYTHON_USEDEP}]
 	dev-python/aiofile[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

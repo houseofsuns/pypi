@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="azure nexus"
 DEPENDENCIES="dev-python/adapta[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-3.16[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	nexus? ( dev-python/injector[${PYTHON_USEDEP}] )
-	nexus? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	dev-python/pyjwt[${PYTHON_USEDEP}]"
+	nexus? ( <dev-python/httpx-0.27.0[${PYTHON_USEDEP}] )
+	<dev-python/pyjwt-2.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

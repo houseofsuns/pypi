@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev legacy-keyring upnp"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}]
+	~dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.29.4[${PYTHON_USEDEP}]
 	dev-python/chiavdf[${PYTHON_USEDEP}]
 	dev-python/chiabip158[${PYTHON_USEDEP}]
 	dev-python/chiapos[${PYTHON_USEDEP}]
@@ -34,50 +34,50 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/clvm_tools[${PYTHON_USEDEP}]
 	dev-python/chia_rs[${PYTHON_USEDEP}]
 	dev-python/clvm-tools-rs[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiosqlite[${PYTHON_USEDEP}]
-	dev-python/bitstring[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
+	~dev-python/aiosqlite-0.19.0[${PYTHON_USEDEP}]
+	~dev-python/bitstring-4.1.2[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/colorlog-6.7.0[${PYTHON_USEDEP}]
 	dev-python/concurrent-log-handler[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
+	~dev-python/cryptography-41.0.5[${PYTHON_USEDEP}]
+	~dev-python/filelock-3.13.1[${PYTHON_USEDEP}]
+	~dev-python/keyring-24.3.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/setproctitle[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	~dev-python/setproctitle-1.3.3[${PYTHON_USEDEP}]
+	~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/dnspython-2.4.2[${PYTHON_USEDEP}]
+	~dev-python/watchdog-2.2.0[${PYTHON_USEDEP}]
 	dev-python/dnslib[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/zstd[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	~dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
+	~dev-python/zstd-1.5.5.1[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/diff-cover[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py3createtorrent[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyupgrade[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-3.0.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-3.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyupgrade-3.15.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/lxml-4.9.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aiohttp_cors[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-cryptography[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	upnp? ( dev-python/miniupnpc[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/types-setuptools-68.2.0.1[${PYTHON_USEDEP}] )
+	upnp? ( ~dev-python/miniupnpc-2.2.2[${PYTHON_USEDEP}] )
 	legacy-keyring? ( dev-python/keyrings-cryptfile[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/nibabel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.3[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.1[${PYTHON_USEDEP}]
 	dev-python/transforms3d[${PYTHON_USEDEP}]
-	dev-python/indexed-gzip[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	>=dev-python/indexed-gzip-1.7.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pybids[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

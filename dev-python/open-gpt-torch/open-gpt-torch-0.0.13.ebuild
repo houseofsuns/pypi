@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/jina[${PYTHON_USEDEP}]
 	dev-python/docarray[${PYTHON_USEDEP}]
 	dev-python/jcloud[${PYTHON_USEDEP}]
 	dev-python/inference-client[${PYTHON_USEDEP}]
-	dev-python/cleo[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/cleo-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]

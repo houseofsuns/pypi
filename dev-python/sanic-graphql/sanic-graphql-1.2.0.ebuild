@@ -27,9 +27,9 @@ IUSE="test"
 DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
 	dev-python/graphql-server-core[${PYTHON_USEDEP}]
 	dev-python/sanic[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	test? ( dev-python/yarl[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-2.7.3[${PYTHON_USEDEP}] )
+	test? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/yarl-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/Jinja2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

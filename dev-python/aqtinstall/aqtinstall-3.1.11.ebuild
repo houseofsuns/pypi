@@ -29,11 +29,11 @@ DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
 	dev-python/patch[${PYTHON_USEDEP}]
 	dev-python/py7zr[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/semantic-version[${PYTHON_USEDEP}]
 	dev-python/texttable[${PYTHON_USEDEP}]
-	check? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	check? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	check? ( >=dev-python/mypy-0.990[${PYTHON_USEDEP}] )
+	check? ( <dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
 	check? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	check? ( dev-python/flake8-colors[${PYTHON_USEDEP}] )
 	check? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
@@ -45,10 +45,10 @@ DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	check? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	check? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	debug? ( dev-python/pytest-leaks[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-py3doc-enhanced-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-py3doc-enhanced-theme-2.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-remotedata[${PYTHON_USEDEP}] )

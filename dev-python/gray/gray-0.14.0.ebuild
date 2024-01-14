@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/ConfigArgParse[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ConfigArgParse-2.0[${PYTHON_USEDEP}]
 	dev-python/add-trailing-comma[${PYTHON_USEDEP}]
 	dev-python/autoflake[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
+	>=dev-python/black-22.1.0[${PYTHON_USEDEP}]
 	dev-python/fixit[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/pyupgrade[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/isort-5.10.1[${PYTHON_USEDEP}]
+	>=dev-python/pyupgrade-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/rich-12.6[${PYTHON_USEDEP}]
 	dev-python/unify[${PYTHON_USEDEP}]
-	develop? ( dev-python/pylama[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
-	develop? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pylama-8.4.1[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/pytest-subtests-0.7.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/wheel-0.37.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

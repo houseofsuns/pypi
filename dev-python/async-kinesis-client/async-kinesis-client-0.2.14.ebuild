@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aioboto3[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]"
+	>=dev-python/multidict-4.5.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

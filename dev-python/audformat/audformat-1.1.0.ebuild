@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/audeer[${PYTHON_USEDEP}]
 	dev-python/iso_639[${PYTHON_USEDEP}]
 	dev-python/iso3166[${PYTHON_USEDEP}]
 	dev-python/oyaml[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]"
+	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

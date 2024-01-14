@@ -39,6 +39,6 @@ DEPENDENCIES="dev-python/defopt[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/markdown-katex[${PYTHON_USEDEP}]
 	dev-python/pathlib2[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	>=dev-python/pydantic-2.5.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci dev"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	dev-python/mipac[${PYTHON_USEDEP}]
 	dev-python/versioneer[${PYTHON_USEDEP}]
 	ci? ( dev-python/flake8[${PYTHON_USEDEP}] )

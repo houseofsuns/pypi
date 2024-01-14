@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.4[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	examples? ( dev-python/streamz[${PYTHON_USEDEP}] )
 	images? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	images? ( dev-python/photutils[${PYTHON_USEDEP}] )
-	images? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	images? ( >=dev-python/pillow-9.1.1[${PYTHON_USEDEP}] )
 	images? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	images? ( dev-python/watchfiles[${PYTHON_USEDEP}] )
 	social? ( dev-python/requests[${PYTHON_USEDEP}] )

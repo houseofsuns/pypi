@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/colorama-0.4[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/markdown-3.2[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-material-extensions-1.1[${PYTHON_USEDEP}]
+	>=dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.14[${PYTHON_USEDEP}]
+	>=dev-python/pymdown-extensions-9.9[${PYTHON_USEDEP}]
+	>=dev-python/regex-2022.4.24[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

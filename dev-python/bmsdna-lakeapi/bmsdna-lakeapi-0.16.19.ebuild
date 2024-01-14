@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="auth odbc polars useradd"
 DEPENDENCIES="dev-python/adlfs[${PYTHON_USEDEP}]
-	auth? ( dev-python/argon2-cffi[${PYTHON_USEDEP}] )
+	auth? ( <dev-python/argon2-cffi-24.0.0[${PYTHON_USEDEP}] )
 	odbc? ( dev-python/arrow-odbc[${PYTHON_USEDEP}] )
 	dev-python/deltalake[${PYTHON_USEDEP}]
 	dev-python/duckdb[${PYTHON_USEDEP}]
-	dev-python/expandvars[${PYTHON_USEDEP}]
+	<dev-python/expandvars-0.10.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/fsspec-2024.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
-	auth? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
+	auth? ( <dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/pypika[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	useradd? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	useradd? ( <dev-python/ruamel-yaml-0.19.0[${PYTHON_USEDEP}] )
 	polars? ( dev-python/xlsx2csv[${PYTHON_USEDEP}] )
-	dev-python/xlsxwriter[${PYTHON_USEDEP}]"
+	<dev-python/xlsxwriter-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

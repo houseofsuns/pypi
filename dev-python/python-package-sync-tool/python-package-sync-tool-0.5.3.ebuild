@@ -26,17 +26,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="dev-python/alex-ber-utils[${PYTHON_USEDEP}]
 	dev-python/alex-ber-utils[${PYTHON_USEDEP}]
-	tests? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/py[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/attrs-20.2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mock-4.0.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/py-1.9.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-6.1.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-assume[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-mock-3.3.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	tests? ( dev-python/toml[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	tests? ( dev-python/iniconfig[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyparsing[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pluggy-0.13.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/packaging-20.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

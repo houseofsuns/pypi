@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hyper sklearn"
-DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dill-0.3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.14.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.43.0[${PYTHON_USEDEP}]
 	hyper? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
-	hyper? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	hyper? ( >=dev-python/matplotlib-2.2.0[${PYTHON_USEDEP}] )
 	hyper? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -31,24 +31,24 @@ DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-grpc[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-grpc[${PYTHON_USEDEP}]
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.20.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-string-format[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pydocstyle-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-licenses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/licenseheaders[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pdoc3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pdoc3-0.9.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/betterproto[${PYTHON_USEDEP}] )
-	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/grpcio-tools-1.54.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

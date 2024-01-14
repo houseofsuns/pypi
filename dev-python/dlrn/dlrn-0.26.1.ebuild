@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pbr[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pbr-0.5.6[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/sh[${PYTHON_USEDEP}]
+	<dev-python/sh-2.0.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/PyMySQL[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/distroinfo[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	>=dev-python/alembic-0.7.0[${PYTHON_USEDEP}]
 	dev-python/pymod2pkg[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
+	>=dev-python/passlib-1.7.0[${PYTHON_USEDEP}]
 	dev-python/graphene[${PYTHON_USEDEP}]
 	dev-python/graphene-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]

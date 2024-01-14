@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/watchfiles[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.19[${PYTHON_USEDEP}]
+	~dev-python/watchfiles-0.18[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/yattag[${PYTHON_USEDEP}]
+	~dev-python/yattag-1.14[${PYTHON_USEDEP}]
 	dev-python/starlette-context[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]"

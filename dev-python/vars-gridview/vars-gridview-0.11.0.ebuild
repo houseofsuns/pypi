@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pyqt6[${PYTHON_USEDEP}]
 	dev-python/pymssql[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyqtgraph-0.14.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/qdarkstyle[${PYTHON_USEDEP}]
+	<dev-python/qdarkstyle-4.0.0[${PYTHON_USEDEP}]
 	dev-python/beholder-client[${PYTHON_USEDEP}]
 	dev-python/sharktopoda-client[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]"
+	<dev-python/platformdirs-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="chatbot chroma huggingface markdown mongodb openai pdf selfcheck sitemap solr"
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0.21[${PYTHON_USEDEP}]
+	~dev-python/rich-13.4.2[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.26.0[${PYTHON_USEDEP}]
 	chatbot? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	chroma? ( dev-python/chromadb[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	huggingface? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	markdown? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	mongodb? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	markdown? ( ~dev-python/markdown-3.5.1[${PYTHON_USEDEP}] )
+	mongodb? ( ~dev-python/pymongo-4.6.1[${PYTHON_USEDEP}] )
 	openai? ( dev-python/openai[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/pypdf[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	pdf? ( ~dev-python/pypdf-3.16.4[${PYTHON_USEDEP}] )
+	pdf? ( ~dev-python/cryptography-41.0.7[${PYTHON_USEDEP}] )
 	selfcheck? ( dev-python/selfcheckgpt[${PYTHON_USEDEP}] )
-	selfcheck? ( dev-python/lark[${PYTHON_USEDEP}] )
-	sitemap? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	sitemap? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
+	selfcheck? ( ~dev-python/lark-1.1.8[${PYTHON_USEDEP}] )
+	sitemap? ( ~dev-python/lxml-4.9.3[${PYTHON_USEDEP}] )
+	sitemap? ( ~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
 	solr? ( dev-python/eurelis-langchain-solr-vectorstore[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

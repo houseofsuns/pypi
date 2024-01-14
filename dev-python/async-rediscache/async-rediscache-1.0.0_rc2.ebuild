@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fakeredis"
-DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
-	fakeredis? ( dev-python/fakeredis[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/redis-4.2[${PYTHON_USEDEP}]
+	fakeredis? ( >=dev-python/fakeredis-1.7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

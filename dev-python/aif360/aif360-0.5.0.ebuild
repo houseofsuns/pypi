@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="adversarialdebiasing all art disparateimpactremover docs fairadapt lawschoolgpa lfr lime notebooks optimpreproc reductions tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	art? ( dev-python/adversarial-robustness-toolbox[${PYTHON_USEDEP}] )
@@ -42,11 +42,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipympl[${PYTHON_USEDEP}] )
 	all? ( dev-python/adversarial-robustness-toolbox[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-3.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/BlackBoxAuditing[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/tempeh[${PYTHON_USEDEP}] )
 	all? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/lime[${PYTHON_USEDEP}] )
 	all? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/jupyter[${PYTHON_USEDEP}] )
@@ -66,7 +66,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	notebooks? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/ipympl[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-3.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tests? ( dev-python/BlackBoxAuditing[${PYTHON_USEDEP}] )

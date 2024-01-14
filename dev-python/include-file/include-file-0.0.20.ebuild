@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
+	~dev-python/flake8-3.9.2[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/mccabe[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]
-	dev-python/pyflakes[${PYTHON_USEDEP}]
-	dev-python/soupsieve[${PYTHON_USEDEP}]
+	~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}]
+	~dev-python/mypy-0.910[${PYTHON_USEDEP}]
+	~dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+	~dev-python/pycodestyle-2.7.0[${PYTHON_USEDEP}]
+	~dev-python/pyflakes-2.3.1[${PYTHON_USEDEP}]
+	~dev-python/soupsieve-2.2.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/yapf[${PYTHON_USEDEP}]"
+	~dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}]
+	~dev-python/yapf-0.31.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

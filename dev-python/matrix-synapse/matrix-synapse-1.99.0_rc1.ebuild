@@ -30,35 +30,35 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	cache-memory? ( dev-python/Pympler[${PYTHON_USEDEP}] )
 	all? ( dev-python/Pympler[${PYTHON_USEDEP}] )
 	dev-python/Twisted[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
 	oidc? ( dev-python/authlib[${PYTHON_USEDEP}] )
 	jwt? ( dev-python/authlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/authlib[${PYTHON_USEDEP}] )
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
-	dev-python/canonicaljson[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/bcrypt-3.1.7[${PYTHON_USEDEP}]
+	>=dev-python/bleach-1.4.3[${PYTHON_USEDEP}]
+	<dev-python/canonicaljson-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.4.7[${PYTHON_USEDEP}]
 	redis? ( dev-python/hiredis[${PYTHON_USEDEP}] )
 	all? ( dev-python/hiredis[${PYTHON_USEDEP}] )
-	test? ( dev-python/idna[${PYTHON_USEDEP}] )
-	dev-python/ijson[${PYTHON_USEDEP}]
-	dev-python/immutabledict[${PYTHON_USEDEP}]
+	test? ( >=dev-python/idna-2.5[${PYTHON_USEDEP}] )
+	>=dev-python/ijson-3.1.4[${PYTHON_USEDEP}]
+	>=dev-python/immutabledict-2.0[${PYTHON_USEDEP}]
 	opentracing? ( dev-python/jaeger-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/jaeger-client[${PYTHON_USEDEP}] )
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	url-preview? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	dev-python/matrix-common[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
+	url-preview? ( >=dev-python/lxml-4.2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/lxml-4.2.0[${PYTHON_USEDEP}] )
+	<dev-python/matrix-common-2.0.0[${PYTHON_USEDEP}]
 	matrix-synapse-ldap3? ( dev-python/matrix-synapse-ldap3[${PYTHON_USEDEP}] )
 	all? ( dev-python/matrix-synapse-ldap3[${PYTHON_USEDEP}] )
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-0.5.2[${PYTHON_USEDEP}]
+	>=dev-python/netaddr-0.7.18[${PYTHON_USEDEP}]
 	opentracing? ( dev-python/opentracing[${PYTHON_USEDEP}] )
 	all? ( dev-python/opentracing[${PYTHON_USEDEP}] )
-	dev-python/packaging[${PYTHON_USEDEP}]
-	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/parameterized-0.7.4[${PYTHON_USEDEP}] )
+	>=dev-python/phonenumbers-8.2.0[${PYTHON_USEDEP}]
+	>=dev-python/prometheus-client-0.4.0[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2cffi[${PYTHON_USEDEP}] )
@@ -66,25 +66,25 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2cffi-compat[${PYTHON_USEDEP}] )
 	all? ( dev-python/psycopg2cffi-compat[${PYTHON_USEDEP}] )
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	user-search? ( dev-python/pyicu[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyicu[${PYTHON_USEDEP}] )
-	dev-python/pymacaroons[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-0.1.9[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-modules-0.0.7[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	user-search? ( >=dev-python/pyicu-2.10.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyicu-2.10.2[${PYTHON_USEDEP}] )
+	>=dev-python/pymacaroons-0.13.0[${PYTHON_USEDEP}]
 	saml2? ( dev-python/pysaml2[${PYTHON_USEDEP}] )
 	all? ( dev-python/pysaml2[${PYTHON_USEDEP}] )
-	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
-	all? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
-	dev-python/service-identity[${PYTHON_USEDEP}]
+	sentry? ( >=dev-python/sentry-sdk-0.7.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sentry-sdk-0.7.2[${PYTHON_USEDEP}] )
+	>=dev-python/service-identity-18.1.0[${PYTHON_USEDEP}]
 	dev-python/setuptools_rust[${PYTHON_USEDEP}]
-	dev-python/signedjson[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
+	<dev-python/signedjson-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sortedcontainers-1.5.2[${PYTHON_USEDEP}]
 	systemd? ( dev-python/systemd-python[${PYTHON_USEDEP}] )
-	dev-python/treq[${PYTHON_USEDEP}]
-	redis? ( dev-python/txredisapi[${PYTHON_USEDEP}] )
-	all? ( dev-python/txredisapi[${PYTHON_USEDEP}] )
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/unpaddedbase64[${PYTHON_USEDEP}]"
+	>=dev-python/treq-15.1[${PYTHON_USEDEP}]
+	redis? ( >=dev-python/txredisapi-1.4.7[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/txredisapi-1.4.7[${PYTHON_USEDEP}] )
+	>=dev-python/typing-extensions-3.10.0.1[${PYTHON_USEDEP}]
+	>=dev-python/unpaddedbase64-2.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

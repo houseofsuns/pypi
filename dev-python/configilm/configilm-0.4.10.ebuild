@@ -27,13 +27,13 @@ IUSE="bigearthnet full"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/timm[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	bigearthnet? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	full? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	bigearthnet? ( dev-python/lmdb[${PYTHON_USEDEP}] )
-	full? ( dev-python/lmdb[${PYTHON_USEDEP}] )
-	bigearthnet? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	full? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	<dev-python/appdirs-2.0.0[${PYTHON_USEDEP}]
+	bigearthnet? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/pydantic-2.0[${PYTHON_USEDEP}] )
+	bigearthnet? ( <dev-python/lmdb-2.0.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/lmdb-2.0.0[${PYTHON_USEDEP}] )
+	bigearthnet? ( <dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/pyarrow-13.0.0[${PYTHON_USEDEP}] )
 	bigearthnet? ( dev-python/bigearthnet-encoder[${PYTHON_USEDEP}] )
 	full? ( dev-python/bigearthnet-encoder[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )"

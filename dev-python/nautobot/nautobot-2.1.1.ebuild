@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all ldap mysql napalm remote-storage sso"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-3.2.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
@@ -33,47 +33,47 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/django-ajax-tables[${PYTHON_USEDEP}]
-	all? ( dev-python/django-auth-ldap[${PYTHON_USEDEP}] )
-	ldap? ( dev-python/django-auth-ldap[${PYTHON_USEDEP}] )
+	all? ( <dev-python/django-auth-ldap-4.4.0[${PYTHON_USEDEP}] )
+	ldap? ( <dev-python/django-auth-ldap-4.4.0[${PYTHON_USEDEP}] )
 	dev-python/django-celery-beat[${PYTHON_USEDEP}]
 	dev-python/django-celery-results[${PYTHON_USEDEP}]
 	dev-python/django-constance[${PYTHON_USEDEP}]
-	dev-python/django-cors-headers[${PYTHON_USEDEP}]
+	<dev-python/django-cors-headers-4.3.0[${PYTHON_USEDEP}]
 	dev-python/django-db-file-storage[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	<dev-python/django-filter-23.2[${PYTHON_USEDEP}]
 	dev-python/django-health-check[${PYTHON_USEDEP}]
 	dev-python/django-jinja[${PYTHON_USEDEP}]
-	dev-python/django-prometheus[${PYTHON_USEDEP}]
-	dev-python/django-redis[${PYTHON_USEDEP}]
+	<dev-python/django-prometheus-2.4.0[${PYTHON_USEDEP}]
+	<dev-python/django-redis-5.4.0[${PYTHON_USEDEP}]
 	all? ( dev-python/django-storages[${PYTHON_USEDEP}] )
 	remote-storage? ( dev-python/django-storages[${PYTHON_USEDEP}] )
-	dev-python/django-tables2[${PYTHON_USEDEP}]
-	dev-python/django-taggit[${PYTHON_USEDEP}]
-	dev-python/django-timezone-field[${PYTHON_USEDEP}]
+	<dev-python/django-tables2-2.7.0[${PYTHON_USEDEP}]
+	<dev-python/django-taggit-4.1.0[${PYTHON_USEDEP}]
+	<dev-python/django-timezone-field-5.2[${PYTHON_USEDEP}]
 	dev-python/django-tree-queries[${PYTHON_USEDEP}]
 	dev-python/django-webserver[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-3.15.0[${PYTHON_USEDEP}]
 	dev-python/drf-react-template-framework[${PYTHON_USEDEP}]
 	dev-python/drf-spectacular[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
+	<dev-python/emoji-2.9.0[${PYTHON_USEDEP}]
 	dev-python/graphene-django[${PYTHON_USEDEP}]
 	dev-python/graphene-django-optimizer[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	all? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	<dev-python/jsonschema-4.19.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/mysqlclient-2.3.0[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/mysqlclient-2.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/napalm[${PYTHON_USEDEP}] )
 	napalm? ( dev-python/napalm[${PYTHON_USEDEP}] )
-	dev-python/netaddr[${PYTHON_USEDEP}]
+	<dev-python/netaddr-0.9.0[${PYTHON_USEDEP}]
 	dev-python/netutils[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+	<dev-python/packaging-23.2[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.18.0[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	<dev-python/python-slugify-8.1.0[${PYTHON_USEDEP}]
 	dev-python/pyuwsgi[${PYTHON_USEDEP}]
 	dev-python/social-auth-app-django[${PYTHON_USEDEP}]
 	all? ( dev-python/social-auth-core[${PYTHON_USEDEP}] )
 	sso? ( dev-python/social-auth-core[${PYTHON_USEDEP}] )
-	dev-python/svgwrite[${PYTHON_USEDEP}]"
+	<dev-python/svgwrite-1.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

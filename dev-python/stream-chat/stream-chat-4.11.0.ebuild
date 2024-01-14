@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/aiodns[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/aiofile[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
 	ci? ( dev-python/black[${PYTHON_USEDEP}] )
 	ci? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	ci? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )

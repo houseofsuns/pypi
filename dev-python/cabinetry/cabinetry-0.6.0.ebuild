@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="complete contrib develop docs pyhf_backends test"
 DEPENDENCIES="dev-python/pyhf[${PYTHON_USEDEP}]
 	dev-python/boost-histogram[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/iminuit[${PYTHON_USEDEP}]
@@ -46,14 +46,14 @@ DEPENDENCIES="dev-python/pyhf[${PYTHON_USEDEP}]
 	complete? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pyhf[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	complete? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
+	complete? ( >dev-python/sphinx-5.2.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	complete? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	complete? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
 	complete? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	complete? ( dev-python/twine[${PYTHON_USEDEP}] )
-	complete? ( dev-python/typeguard[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/typeguard-4.0.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	complete? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	complete? ( dev-python/uproot[${PYTHON_USEDEP}] )
@@ -68,18 +68,18 @@ DEPENDENCIES="dev-python/pyhf[${PYTHON_USEDEP}]
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
+	develop? ( >dev-python/sphinx-5.2.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	develop? ( dev-python/twine[${PYTHON_USEDEP}] )
-	develop? ( dev-python/typeguard[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/typeguard-4.0.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	develop? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	develop? ( dev-python/uproot[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/sphinx-5.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
@@ -94,8 +94,8 @@ DEPENDENCIES="dev-python/pyhf[${PYTHON_USEDEP}]
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/typeguard[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/typeguard-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
 	test? ( dev-python/uproot[${PYTHON_USEDEP}] )"

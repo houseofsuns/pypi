@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pytrace"
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/black-23.3.0[${PYTHON_USEDEP}]
+	>=dev-python/coverage-5.2.1[${PYTHON_USEDEP}]
 	dev-python/dash[${PYTHON_USEDEP}]
-	dev-python/hypothesis[${PYTHON_USEDEP}]
+	>=dev-python/hypothesis-6.91.0[${PYTHON_USEDEP}]
 	dev-python/libcst[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	pytrace? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
+	>=dev-python/pandas-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.0.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	pytrace? ( >=dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}] )
 	pytrace? ( dev-python/pycrunch-trace[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

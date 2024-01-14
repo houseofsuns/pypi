@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="explorer graphics h5-support pathos"
 DEPENDENCIES="dev-python/cycler[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/cython-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.2[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/qutip[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	explorer? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	explorer? ( >=dev-python/ipywidgets-7.5[${PYTHON_USEDEP}] )
 	graphics? ( dev-python/matplotlib-label-lines[${PYTHON_USEDEP}] )
-	h5-support? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	h5-support? ( >=dev-python/h5py-2.10[${PYTHON_USEDEP}] )
 	pathos? ( dev-python/pathos[${PYTHON_USEDEP}] )
 	pathos? ( dev-python/dill[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

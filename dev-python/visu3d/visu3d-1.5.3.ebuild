@@ -29,9 +29,9 @@ DEPENDENCIES="dev-python/dataclass_array[${PYTHON_USEDEP}]
 	dev-python/etils[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyink[${PYTHON_USEDEP}] )
 	dev? ( dev-python/chex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jax[${PYTHON_USEDEP}] )
@@ -43,6 +43,6 @@ DEPENDENCIES="dev-python/dataclass_array[${PYTHON_USEDEP}]
 	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-apitree[${PYTHON_USEDEP}] )
 	docs? ( dev-python/visu3d[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/scipy-1.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

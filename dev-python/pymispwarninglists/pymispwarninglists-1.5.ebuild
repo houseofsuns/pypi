@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fetch-lists"
-DEPENDENCIES="fetch-lists? ( dev-python/requests[${PYTHON_USEDEP}] )"
+DEPENDENCIES="fetch-lists? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

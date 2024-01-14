@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="http3 ocsp socks"
-DEPENDENCIES="dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/charset-normalizer-4.0[${PYTHON_USEDEP}]
+	<dev-python/idna-4.0[${PYTHON_USEDEP}]
 	dev-python/kiss-headers[${PYTHON_USEDEP}]
 	dev-python/urllib3-future[${PYTHON_USEDEP}]
 	dev-python/wassima[${PYTHON_USEDEP}]
 	http3? ( dev-python/urllib3-future[${PYTHON_USEDEP}] )
-	ocsp? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	ocsp? ( <dev-python/cryptography-42.0.0[${PYTHON_USEDEP}] )
 	socks? ( dev-python/urllib3-future[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

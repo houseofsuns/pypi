@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="memcached msgpack redis"
-DEPENDENCIES="redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	memcached? ( dev-python/python-memcached[${PYTHON_USEDEP}] )
+DEPENDENCIES="redis? ( <dev-python/redis-4.0.0[${PYTHON_USEDEP}] )
+	memcached? ( <dev-python/python-memcached-2.0[${PYTHON_USEDEP}] )
 	msgpack? ( dev-python/msgpack-python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

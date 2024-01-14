@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/django-compressor[${PYTHON_USEDEP}]
 	dev-python/horizon[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
+	>=dev-python/iso8601-0.1.12[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-4.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-5.5.0[${PYTHON_USEDEP}]
+	>=dev-python/python-keystoneclient-4.1.1[${PYTHON_USEDEP}]
 	dev-python/python-manilaclient[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

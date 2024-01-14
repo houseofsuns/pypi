@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="app docs"
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.5.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pydot[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	app? ( dev-python/papermill[${PYTHON_USEDEP}] )
 	app? ( dev-python/itables[${PYTHON_USEDEP}] )
 	app? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	app? ( dev-python/xlsxwriter[${PYTHON_USEDEP}] )
+	app? ( >=dev-python/xlsxwriter-3.0[${PYTHON_USEDEP}] )
 	app? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )

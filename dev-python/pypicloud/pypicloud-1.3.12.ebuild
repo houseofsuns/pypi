@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all_plugins azure-blob dynamo gcs ldap redis server"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.7.0[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/distlib[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
+	>=dev-python/passlib-1.7[${PYTHON_USEDEP}]
 	dev-python/paste[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
 	dev-python/pyramid-beaker[${PYTHON_USEDEP}]

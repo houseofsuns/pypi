@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/redis-4.6.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.10.9[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.1[${PYTHON_USEDEP}]
 	dev-python/factory-boy[${PYTHON_USEDEP}]
 	dev-python/faker[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs numpy testing"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/sphinx-7.1.2[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/furo-2023.7.26[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
 	numpy? ( dev-python/nptyping[${PYTHON_USEDEP}] )
 	testing? ( dev-python/covdefaults[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/coverage-7.3[${PYTHON_USEDEP}] )
 	testing? ( dev-python/diff-cover[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sphobjinv[${PYTHON_USEDEP}] )
-	testing? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/sphobjinv-2.3.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

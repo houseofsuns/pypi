@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/IPython[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/simple-websocket[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<=dev-python/sqlalchemy-1.4.49[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-mutable[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

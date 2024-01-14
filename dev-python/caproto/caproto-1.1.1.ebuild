@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="async complete standard test"
 DEPENDENCIES="async? ( dev-python/curio[${PYTHON_USEDEP}] )
-	async? ( dev-python/trio[${PYTHON_USEDEP}] )
+	async? ( >=dev-python/trio-0.12.1[${PYTHON_USEDEP}] )
 	complete? ( dev-python/curio[${PYTHON_USEDEP}] )
 	complete? ( dev-python/dpkt[${PYTHON_USEDEP}] )
 	complete? ( dev-python/netifaces[${PYTHON_USEDEP}] )
 	complete? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	complete? ( dev-python/trio[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/trio-0.12.1[${PYTHON_USEDEP}] )
 	standard? ( dev-python/netifaces[${PYTHON_USEDEP}] )
 	standard? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	standard? ( dev-python/dpkt[${PYTHON_USEDEP}] )
@@ -49,7 +49,7 @@ DEPENDENCIES="async? ( dev-python/curio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/trio[${PYTHON_USEDEP}] )
-	test? ( dev-python/trio[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/trio-0.18.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/trio-0.12.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all audio vision"
-DEPENDENCIES="dev-python/pika[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pika-1.2.0[${PYTHON_USEDEP}]
 	dev-python/pywagglemsg[${PYTHON_USEDEP}]
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpy-1.18.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/soundcard[${PYTHON_USEDEP}] )
 	all? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	audio? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	audio? ( >=dev-python/numpy-1.18.0[${PYTHON_USEDEP}] )
 	audio? ( dev-python/soundcard[${PYTHON_USEDEP}] )
 	audio? ( dev-python/soundfile[${PYTHON_USEDEP}] )
-	vision? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	vision? ( >=dev-python/numpy-1.18.0[${PYTHON_USEDEP}] )
 	vision? ( dev-python/opencv-python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

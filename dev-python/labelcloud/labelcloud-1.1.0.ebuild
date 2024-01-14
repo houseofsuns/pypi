@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/open3d[${PYTHON_USEDEP}]
 	dev-python/PyOpenGL[${PYTHON_USEDEP}]
 	dev-python/PyOpenGL-accelerate[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	>=dev-python/PyQt5-5.15.7[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

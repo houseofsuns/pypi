@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="analysis test"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	analysis? ( dev-python/black[${PYTHON_USEDEP}] )
-	analysis? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	analysis? ( ~dev-python/black-19.10[${PYTHON_USEDEP}] )
+	analysis? ( ~dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	analysis? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	analysis? ( dev-python/isort[${PYTHON_USEDEP}] )
+	analysis? ( ~dev-python/autopep8-1.4.4[${PYTHON_USEDEP}] )
+	analysis? ( ~dev-python/isort-4.3.20[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/docformatter[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-5.2.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

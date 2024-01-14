@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci dev"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	ci? ( dev-python/httpx[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/httpx-0.18.2[${PYTHON_USEDEP}]
+	ci? ( ~dev-python/httpx-0.18.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

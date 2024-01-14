@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/BTrees[${PYTHON_USEDEP}]
 	dev-python/ZODB[${PYTHON_USEDEP}]
 	dev-python/transaction[${PYTHON_USEDEP}]
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/mysqlclient-2.0.0[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/pg8000[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2cffi[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ZEO[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	all-tested-drivers? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	all-tested-drivers? ( >=dev-python/mysqlclient-2.0.0[${PYTHON_USEDEP}] )
 	all-tested-drivers? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	all-tested-drivers? ( dev-python/pg8000[${PYTHON_USEDEP}] )
 	all-tested-drivers? ( dev-python/psycopg2cffi[${PYTHON_USEDEP}] )

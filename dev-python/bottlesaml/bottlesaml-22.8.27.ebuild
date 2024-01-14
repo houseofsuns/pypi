@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bottle[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bottle-0.12.0[${PYTHON_USEDEP}]
 	dev-python/BottleSessions[${PYTHON_USEDEP}]
 	dev-python/BottleAuth[${PYTHON_USEDEP}]
 	dev-python/minisaml[${PYTHON_USEDEP}]"

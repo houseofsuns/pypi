@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
-	dev-python/pythonnet[${PYTHON_USEDEP}]
-	dev-python/clr-loader[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	~dev-python/pythonnet-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/clr-loader-0.1.7[${PYTHON_USEDEP}]
 	dev-python/pywebview[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	<=dev-python/flask-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pygetwindow[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	dev-python/pywebview[${PYTHON_USEDEP}]
-	dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}]
+	<dev-python/PyQt6-WebEngine-7.0[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-Quartz[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

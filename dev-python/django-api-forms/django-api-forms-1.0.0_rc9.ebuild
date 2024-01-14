@@ -27,7 +27,7 @@ IUSE="gdal msgpack pillow rrule"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	pillow? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	rrule? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
+	rrule? ( <dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}] )
 	gdal? ( dev-python/gdal[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

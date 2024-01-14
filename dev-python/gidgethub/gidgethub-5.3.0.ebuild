@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp dev doc httpx test tornado"
-DEPENDENCIES="dev-python/uritemplate[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/uritemplate-3.0.1[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.0.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
+	httpx? ( >=dev-python/httpx-0.16.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-tornasync[${PYTHON_USEDEP}] )
 	tornado? ( dev-python/tornado[${PYTHON_USEDEP}] )"

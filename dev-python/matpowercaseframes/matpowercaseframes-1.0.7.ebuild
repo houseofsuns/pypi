@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev matpower"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev? ( dev-python/oct2py[${PYTHON_USEDEP}] )
-	dev? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/oct2py-5.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matpower[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-xdist-3.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	matpower? ( dev-python/matpower[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

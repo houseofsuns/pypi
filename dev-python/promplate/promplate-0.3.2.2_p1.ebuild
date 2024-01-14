@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiofiles all httpx openai"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	aiofiles? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	all? ( dev-python/httpx[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	aiofiles? ( <dev-python/aiofiles-24.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/aiofiles-24.0[${PYTHON_USEDEP}] )
+	httpx? ( <dev-python/httpx-1.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/httpx-1.0[${PYTHON_USEDEP}] )
 	openai? ( dev-python/openai[${PYTHON_USEDEP}] )
 	all? ( dev-python/openai[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

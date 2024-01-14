@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiodns[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/coverage-4.2[${PYTHON_USEDEP}]
 	dev-python/easyinject[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
+	~dev-python/flake8-3.8.4[${PYTHON_USEDEP}]
 	dev-python/marshmallow-autoschema[${PYTHON_USEDEP}]
 	dev-python/marshmallow-har[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/networkx-2.2[${PYTHON_USEDEP}]
 	dev-python/asttokens[${PYTHON_USEDEP}]
 	dev-python/libcst[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

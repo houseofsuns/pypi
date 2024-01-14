@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev mypy"
-DEPENDENCIES="dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( >=dev-python/black-23.10.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/build-0.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyproject-flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
+	mypy? ( >=dev-python/mypy-1.6.1[${PYTHON_USEDEP}] )
+	mypy? ( >=dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

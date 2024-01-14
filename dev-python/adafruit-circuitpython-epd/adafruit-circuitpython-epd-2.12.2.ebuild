@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/Adafruit-Blinka[${PYTHON_USEDEP}]
 	dev-python/adafruit-circuitpython-busdevice[${PYTHON_USEDEP}]
 	dev-python/adafruit-circuitpython-framebuf[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	~dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

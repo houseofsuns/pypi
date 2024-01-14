@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="audio configuration network test"
 DEPENDENCIES="dev-python/ovos-bus-client[${PYTHON_USEDEP}]
 	dev-python/combo-lock[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	~dev-python/pendulum-2.1[${PYTHON_USEDEP}]
 	dev-python/timezonefinder[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/ovos-lingua-franca[${PYTHON_USEDEP}]
 	dev-python/ovos-utils[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
@@ -38,11 +38,11 @@ DEPENDENCIES="dev-python/ovos-bus-client[${PYTHON_USEDEP}]
 	audio? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	audio? ( dev-python/librosa[${PYTHON_USEDEP}] )
 	audio? ( dev-python/pydub[${PYTHON_USEDEP}] )
-	configuration? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
+	configuration? ( ~dev-python/ruamel-yaml-0.16[${PYTHON_USEDEP}] )
 	network? ( dev-python/requests[${PYTHON_USEDEP}] )
-	network? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	network? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	network? ( dev-python/netifaces[${PYTHON_USEDEP}] )
+	network? ( ~dev-python/beautifulsoup4-4.9[${PYTHON_USEDEP}] )
+	network? ( ~dev-python/lxml-4.5[${PYTHON_USEDEP}] )
+	network? ( ~dev-python/netifaces-0.10[${PYTHON_USEDEP}] )
 	network? ( dev-python/neon-mq-connector[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )

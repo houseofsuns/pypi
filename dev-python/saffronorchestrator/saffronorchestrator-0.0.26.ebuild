@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/rankexpansion[${PYTHON_USEDEP}]
 	dev-python/searchdatamodels[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	~dev-python/pymongo-4.5.0[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/basilsweepercrawler[${PYTHON_USEDEP}]
 	dev-python/nutmegredundancysolver[${PYTHON_USEDEP}]"

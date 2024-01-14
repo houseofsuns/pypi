@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all_extras binder dev docs"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.27[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.2.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/scikit-base[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	all_extras? ( dev-python/attrs[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/distfit[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/mapie[${PYTHON_USEDEP}] )
-	all_extras? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all_extras? ( >=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/ngboost[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/polars[${PYTHON_USEDEP}] )
-	all_extras? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	all_extras? ( >=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/uncertainties[${PYTHON_USEDEP}] )
-	all_extras? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	all_extras? ( <dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )
 	binder? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/backoff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
@@ -52,13 +52,13 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.8.6[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-issues-4.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-gallery-0.16.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-panels[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tabulate[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

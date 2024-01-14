@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/astroid[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
+	<dev-python/pylint-2.13.0[${PYTHON_USEDEP}]
+	<dev-python/astroid-2.10.0[${PYTHON_USEDEP}]
+	<dev-python/mypy-0.932[${PYTHON_USEDEP}]
 	dev-python/data-science-types[${PYTHON_USEDEP}]
 	dev-python/pyspark-stubs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all allpy3 azuread saml"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
+	>=dev-python/oauthlib-1.0.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-0.6.1[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-1.4[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.5.0[${PYTHON_USEDEP}]
 	dev-python/python3-openid[${PYTHON_USEDEP}]
-	all? ( dev-python/python3-saml[${PYTHON_USEDEP}] )
-	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	allpy3? ( dev-python/python3-saml[${PYTHON_USEDEP}] )
-	allpy3? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	azuread? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	saml? ( dev-python/python3-saml[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/python3-saml-1.5.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/cryptography-2.1.1[${PYTHON_USEDEP}] )
+	allpy3? ( >=dev-python/python3-saml-1.5.0[${PYTHON_USEDEP}] )
+	allpy3? ( >=dev-python/cryptography-2.1.1[${PYTHON_USEDEP}] )
+	azuread? ( >=dev-python/cryptography-2.1.1[${PYTHON_USEDEP}] )
+	saml? ( >=dev-python/python3-saml-1.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

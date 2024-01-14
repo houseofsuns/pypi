@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/fastprogress[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
+	<dev-python/markupsafe-2.1[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]

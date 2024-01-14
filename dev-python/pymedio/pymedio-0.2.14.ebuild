@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cryptography dicom"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
 	all? ( dev-python/SimpleITK[${PYTHON_USEDEP}] )
-	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/cryptography-36.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/nibabel[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydicom[${PYTHON_USEDEP}] )
-	cryptography? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	cryptography? ( >=dev-python/cryptography-36.0[${PYTHON_USEDEP}] )
 	dicom? ( dev-python/pydicom[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

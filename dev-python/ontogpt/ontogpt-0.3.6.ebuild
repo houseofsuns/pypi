@@ -25,46 +25,46 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs gpt4all huggingface recipes textract web"
 DEPENDENCIES="web? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
 	dev-python/airium[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
 	dev-python/bioc[${PYTHON_USEDEP}]
 	dev-python/cachier[${PYTHON_USEDEP}]
 	dev-python/class-resolver[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/eutils[${PYTHON_USEDEP}]
 	web? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	dev-python/gilda[${PYTHON_USEDEP}]
 	dev-python/gpt4[${PYTHON_USEDEP}]
 	gpt4all? ( dev-python/gpt4all[${PYTHON_USEDEP}] )
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
 	huggingface? ( dev-python/huggingface_hub[${PYTHON_USEDEP}] )
-	dev-python/inflect[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+	>=dev-python/inflect-6.0.2[${PYTHON_USEDEP}]
+	>=dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
 	dev-python/linkml[${PYTHON_USEDEP}]
 	dev-python/linkml-owl[${PYTHON_USEDEP}]
 	dev-python/llm[${PYTHON_USEDEP}]
 	gpt4all? ( dev-python/llm-gpt4all[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/myst-parser-0.18.1[${PYTHON_USEDEP}] )
 	dev-python/nlpcloud[${PYTHON_USEDEP}]
 	dev-python/oaklib[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.4.0[${PYTHON_USEDEP}]
 	dev-python/pystow[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	<dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	recipes? ( dev-python/recipe-scrapers[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-cache-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.31[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.19.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	dev-python/streamlit[${PYTHON_USEDEP}]
 	textract? ( dev-python/textract[${PYTHON_USEDEP}] )
 	dev-python/tiktoken[${PYTHON_USEDEP}]
-	web? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	web? ( >=dev-python/uvicorn-0.20.0[${PYTHON_USEDEP}] )
 	dev-python/wikipedia[${PYTHON_USEDEP}]
 	dev-python/wikipedia-api[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

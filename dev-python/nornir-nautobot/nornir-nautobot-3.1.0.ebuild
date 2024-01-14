@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mikrotik-driver"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	dev-python/netutils[${PYTHON_USEDEP}]
 	dev-python/nornir[${PYTHON_USEDEP}]
 	dev-python/nornir-jinja2[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/nornir-netmiko[${PYTHON_USEDEP}]
 	dev-python/nornir-utils[${PYTHON_USEDEP}]
 	dev-python/pynautobot[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	mikrotik-driver? ( dev-python/routeros-api[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

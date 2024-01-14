@@ -25,76 +25,76 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="crossbar deb dev doc docker graph kasa modbus modbusrtu mqtt onewire pyvisa snmp vxi11 xena"
 DEPENDENCIES="dev-python/ansicolors[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/autobahn[${PYTHON_USEDEP}]
+	~dev-python/attrs-21.4.0[${PYTHON_USEDEP}]
+	~dev-python/autobahn-21.3.1[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pexpect[${PYTHON_USEDEP}]
+	~dev-python/packaging-21.0[${PYTHON_USEDEP}]
+	~dev-python/pexpect-4.8.0[${PYTHON_USEDEP}]
 	dev-python/pyserial-labgrid[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pyudev[${PYTHON_USEDEP}]
-	dev-python/pyusb[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.2.2[${PYTHON_USEDEP}]
+	~dev-python/pyudev-0.22.0[${PYTHON_USEDEP}]
+	~dev-python/pyusb-1.2.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 	dev-python/xmodem[${PYTHON_USEDEP}]
 	crossbar? ( dev-python/crossbar[${PYTHON_USEDEP}] )
-	crossbar? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
+	crossbar? ( <dev-python/werkzeug-2.1[${PYTHON_USEDEP}] )
 	deb? ( dev-python/crossbar[${PYTHON_USEDEP}] )
-	deb? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
+	deb? ( <dev-python/werkzeug-2.1[${PYTHON_USEDEP}] )
 	deb? ( dev-python/pyModbusTCP[${PYTHON_USEDEP}] )
 	deb? ( dev-python/onewire[${PYTHON_USEDEP}] )
-	deb? ( dev-python/pysnmp[${PYTHON_USEDEP}] )
-	deb? ( dev-python/pysnmp-mibs[${PYTHON_USEDEP}] )
+	deb? ( ~dev-python/pysnmp-4.4.12[${PYTHON_USEDEP}] )
+	deb? ( ~dev-python/pysnmp-mibs-0.1.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/crossbar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/werkzeug-2.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docker[${PYTHON_USEDEP}] )
-	dev? ( dev-python/graphviz[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinxcontrib-applehelp-1.0.8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinxcontrib-devhelp-1.0.5[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinxcontrib-htmlhelp-2.0.4[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinxcontrib-qthelp-1.0.6[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinxcontrib-jsmath-1.0.2[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinxcontrib-serializinghtml-1.1.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/docker-5.0.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/graphviz-0.17.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-kasa[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyModbusTCP[${PYTHON_USEDEP}] )
 	dev? ( dev-python/minimalmodbus[${PYTHON_USEDEP}] )
-	dev? ( dev-python/paho-mqtt[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/paho-mqtt-1.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/onewire[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyvisa[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyVISA-py[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pysnmp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pysnmp-mibs[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pysnmp-4.4.12[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pysnmp-mibs-0.1.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-vxi11[${PYTHON_USEDEP}] )
-	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/psutil-5.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-dependency[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.17.7[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-pylint[${PYTHON_USEDEP}] )
-	doc? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/docutils-0.17.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
-	graph? ( dev-python/graphviz[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinxcontrib-applehelp-1.0.8[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinxcontrib-devhelp-1.0.5[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinxcontrib-htmlhelp-2.0.4[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinxcontrib-qthelp-1.0.6[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinxcontrib-jsmath-1.0.2[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinxcontrib-serializinghtml-1.1.10[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	docker? ( ~dev-python/docker-5.0.2[${PYTHON_USEDEP}] )
+	graph? ( ~dev-python/graphviz-0.17.0[${PYTHON_USEDEP}] )
 	kasa? ( dev-python/python-kasa[${PYTHON_USEDEP}] )
 	modbus? ( dev-python/pyModbusTCP[${PYTHON_USEDEP}] )
 	modbusrtu? ( dev-python/minimalmodbus[${PYTHON_USEDEP}] )
-	mqtt? ( dev-python/paho-mqtt[${PYTHON_USEDEP}] )
+	mqtt? ( ~dev-python/paho-mqtt-1.5.1[${PYTHON_USEDEP}] )
 	onewire? ( dev-python/onewire[${PYTHON_USEDEP}] )
 	pyvisa? ( dev-python/pyvisa[${PYTHON_USEDEP}] )
 	pyvisa? ( dev-python/PyVISA-py[${PYTHON_USEDEP}] )
-	snmp? ( dev-python/pysnmp[${PYTHON_USEDEP}] )
-	snmp? ( dev-python/pysnmp-mibs[${PYTHON_USEDEP}] )
+	snmp? ( ~dev-python/pysnmp-4.4.12[${PYTHON_USEDEP}] )
+	snmp? ( ~dev-python/pysnmp-mibs-0.1.6[${PYTHON_USEDEP}] )
 	vxi11? ( dev-python/python-vxi11[${PYTHON_USEDEP}] )
 	xena? ( dev-python/xenavalkyrie[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

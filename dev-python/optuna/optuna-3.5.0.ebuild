@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark checking document integration optional test"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/alembic-1.5.0[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/asv[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	checking? ( dev-python/types-redis[${PYTHON_USEDEP}] )
 	checking? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	checking? ( dev-python/types-tqdm[${PYTHON_USEDEP}] )
-	checking? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	checking? ( >=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}] )
 	document? ( dev-python/ase[${PYTHON_USEDEP}] )
 	document? ( dev-python/cma[${PYTHON_USEDEP}] )
 	document? ( dev-python/cmaes[${PYTHON_USEDEP}] )
@@ -54,18 +54,18 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	document? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	document? ( dev-python/fvcore[${PYTHON_USEDEP}] )
 	document? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
-	document? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	document? ( >dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}] )
 	document? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	document? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	document? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	document? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	document? ( >=dev-python/plotly-4.9.0[${PYTHON_USEDEP}] )
 	document? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	document? ( dev-python/scikit-optimize[${PYTHON_USEDEP}] )
 	document? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	document? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	document? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	document? ( dev-python/sphinx-plotly-directive[${PYTHON_USEDEP}] )
-	document? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	document? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
 	document? ( dev-python/torch[${PYTHON_USEDEP}] )
 	document? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
 	document? ( dev-python/torchvision[${PYTHON_USEDEP}] )
@@ -91,9 +91,9 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	optional? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	optional? ( dev-python/cmaes[${PYTHON_USEDEP}] )
 	optional? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	optional? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	optional? ( >dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	optional? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/plotly-4.9.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/redis[${PYTHON_USEDEP}] )
 	optional? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	optional? ( dev-python/botorch[${PYTHON_USEDEP}] )
@@ -102,6 +102,6 @@ DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
 	test? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	test? ( dev-python/moto[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/scipy-1.9.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

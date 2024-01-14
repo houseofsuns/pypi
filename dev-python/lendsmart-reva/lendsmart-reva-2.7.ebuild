@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/remoto[${PYTHON_USEDEP}]
 	dev-python/ramda[${PYTHON_USEDEP}]
 	dev-python/lendsmart-autotest[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	~dev-python/cryptography-37.0.4[${PYTHON_USEDEP}]
 	dev-python/lendsmart-api[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

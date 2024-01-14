@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all console dev docs jurigged sentry speedup tests voice"
 DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-22.1[${PYTHON_USEDEP}]
 	dev-python/discord-typings[${PYTHON_USEDEP}]
 	dev-python/emoji[${PYTHON_USEDEP}]
 	all? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )
@@ -59,7 +59,7 @@ DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
 	dev? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-git-committers-plugin_2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/griffe[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/griffe-0.25[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/uvloop[${PYTHON_USEDEP}] )
 	docs? ( dev-python/PyNaCl[${PYTHON_USEDEP}] )
@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-git-committers-plugin_2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/griffe[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/griffe-0.25[${PYTHON_USEDEP}] )
 	docs? ( dev-python/uvloop[${PYTHON_USEDEP}] )
 	jurigged? ( dev-python/jurigged[${PYTHON_USEDEP}] )
 	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )

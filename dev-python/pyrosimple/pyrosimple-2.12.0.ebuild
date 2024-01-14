@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="torque"
 DEPENDENCIES="dev-python/bencode-py[${PYTHON_USEDEP}]
-	torque? ( dev-python/APScheduler[${PYTHON_USEDEP}] )
+	torque? ( <dev-python/APScheduler-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/python-daemon[${PYTHON_USEDEP}]
+	<dev-python/python-daemon-4.0.0[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.17.0[${PYTHON_USEDEP}]
+	<dev-python/prompt-toolkit-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/shtab[${PYTHON_USEDEP}]
 	torque? ( dev-python/inotify[${PYTHON_USEDEP}] )
-	dev-python/python-box[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/tomli-w[${PYTHON_USEDEP}]"
+	<dev-python/python-box-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/tomli-w-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

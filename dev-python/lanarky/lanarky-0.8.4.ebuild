@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="langchain openai"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/sse-starlette[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8.0[${PYTHON_USEDEP}]
 	dev-python/httpx-sse[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	<dev-python/websockets-12.0[${PYTHON_USEDEP}]
 	openai? ( dev-python/openai[${PYTHON_USEDEP}] )
 	openai? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	langchain? ( dev-python/langchain[${PYTHON_USEDEP}] )"

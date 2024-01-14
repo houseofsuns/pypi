@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy pil tests"
-DEPENDENCIES="dev-python/astroid[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/astroid-2.5.7[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/pylint[${PYTHON_USEDEP}]
 	dev-python/sphinx[${PYTHON_USEDEP}]
 	deploy? ( dev-python/twine[${PYTHON_USEDEP}] )
 	pil? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-21.6[${PYTHON_USEDEP}] )
 	tests? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/isort-5.8.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )"

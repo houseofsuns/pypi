@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rtd test"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
-	rtd? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/sphinx-4.0[${PYTHON_USEDEP}]
+	rtd? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

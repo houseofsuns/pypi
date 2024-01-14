@@ -27,7 +27,7 @@ IUSE="ci dev"
 DEPENDENCIES="dev-python/kivy-garden-mapview[${PYTHON_USEDEP}]
 	ci? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )

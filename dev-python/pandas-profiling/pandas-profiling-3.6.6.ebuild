@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="notebook unicode"
 DEPENDENCIES="dev-python/ydata-profiling[${PYTHON_USEDEP}]
-	notebook? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/jupyter-core[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/jupyter-client-5.3.4[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/jupyter-core-4.6.3[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/ipywidgets-7.5.1[${PYTHON_USEDEP}] )
 	unicode? ( dev-python/tangled-up-in-unicode[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

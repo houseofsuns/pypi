@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/zope-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/webassets[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	>=dev-python/rdflib-4.1.1[${PYTHON_USEDEP}]
 	dev-python/nameparser[${PYTHON_USEDEP}]
 	bootstrap? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
 	bootstrap? ( dev-python/pycldf[${PYTHON_USEDEP}] )
@@ -51,11 +51,11 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/repoze-sphinx-autointerface[${PYTHON_USEDEP}] )
 	test? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-clld[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/zope-component[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/coverage-4.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/zope-component-3.11.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

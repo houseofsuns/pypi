@@ -27,9 +27,9 @@ IUSE="docs pytorch vs"
 DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	vs? ( dev-python/VapourSynth[${PYTHON_USEDEP}] )
 	docs? ( dev-python/dunamai[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/furo-2022.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-images[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-youtube[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )"

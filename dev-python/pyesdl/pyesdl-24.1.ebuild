@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all geometry profiles"
 DEPENDENCIES="dev-python/pyecore[${PYTHON_USEDEP}]
 	all? ( dev-python/influxdb[${PYTHON_USEDEP}] )
-	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	all? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/shapely-2.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/geojson[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyproj[${PYTHON_USEDEP}] )
-	geometry? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pyproj-3.6.1[${PYTHON_USEDEP}] )
+	geometry? ( ~dev-python/shapely-2.0.1[${PYTHON_USEDEP}] )
 	geometry? ( dev-python/geojson[${PYTHON_USEDEP}] )
-	geometry? ( dev-python/pyproj[${PYTHON_USEDEP}] )
+	geometry? ( ~dev-python/pyproj-3.6.1[${PYTHON_USEDEP}] )
 	profiles? ( dev-python/influxdb[${PYTHON_USEDEP}] )
-	profiles? ( dev-python/openpyxl[${PYTHON_USEDEP}] )"
+	profiles? ( ~dev-python/openpyxl-3.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

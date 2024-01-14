@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-section-index[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-0.18[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mknotebooks[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nltk[${PYTHON_USEDEP}] )

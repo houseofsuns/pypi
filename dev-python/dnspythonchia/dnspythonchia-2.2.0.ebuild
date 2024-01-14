@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="curio dnssec doh idna trio"
-DEPENDENCIES="dnssec? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+DEPENDENCIES="dnssec? ( <dev-python/cryptography-36.0[${PYTHON_USEDEP}] )
 	curio? ( dev-python/curio[${PYTHON_USEDEP}] )
-	idna? ( dev-python/idna[${PYTHON_USEDEP}] )
-	doh? ( dev-python/requests[${PYTHON_USEDEP}] )
-	doh? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )
-	curio? ( dev-python/sniffio[${PYTHON_USEDEP}] )
-	trio? ( dev-python/trio[${PYTHON_USEDEP}] )"
+	idna? ( <dev-python/idna-4.0[${PYTHON_USEDEP}] )
+	doh? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	doh? ( <dev-python/requests-toolbelt-0.10.0[${PYTHON_USEDEP}] )
+	curio? ( <dev-python/sniffio-2.0[${PYTHON_USEDEP}] )
+	trio? ( <dev-python/trio-0.20[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

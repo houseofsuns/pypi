@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/c8y-device-proxy[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
-	dev-python/sense-hat[${PYTHON_USEDEP}]"
+	>=dev-python/certifi-2022.6.15[${PYTHON_USEDEP}]
+	>=dev-python/distro-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/sense-hat-2.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

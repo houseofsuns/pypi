@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
 	dev-python/booleanOperations[${PYTHON_USEDEP}]
 	dev-python/defcon[${PYTHON_USEDEP}]
 	dev-python/fontMath[${PYTHON_USEDEP}]
 	dev-python/fontTools[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	dev-python/ufonormalizer[${PYTHON_USEDEP}]
 	dev-python/ufoProcessor[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

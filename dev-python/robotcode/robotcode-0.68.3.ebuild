@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all analyze colored debugger languageserver lint rest runner tidy yaml"
 DEPENDENCIES="dev-python/robotcode-core[${PYTHON_USEDEP}]
 	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyyaml-5.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/rich[${PYTHON_USEDEP}] )
 	all? ( dev-python/robotcode-analyze[${PYTHON_USEDEP}] )
 	all? ( dev-python/robotcode-debugger[${PYTHON_USEDEP}] )
@@ -42,6 +42,6 @@ DEPENDENCIES="dev-python/robotcode-core[${PYTHON_USEDEP}]
 	rest? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	runner? ( dev-python/robotcode-runner[${PYTHON_USEDEP}] )
 	tidy? ( dev-python/robotframework-tidy[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/pyyaml-5.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="with-fonttools"
-DEPENDENCIES="with-fonttools? ( dev-python/fonttools[${PYTHON_USEDEP}] )"
+DEPENDENCIES="with-fonttools? ( >=dev-python/fonttools-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

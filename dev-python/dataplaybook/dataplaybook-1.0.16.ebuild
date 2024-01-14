@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mongodb pptx tests"
 DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
+	>=dev-python/attrs-21.0[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.11.5[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0[${PYTHON_USEDEP}]
+	<dev-python/typeguard-3.0[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]
 	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
 	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
 	mongodb? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	pptx? ( dev-python/python-pptx[${PYTHON_USEDEP}] )
 	pptx? ( dev-python/colordict[${PYTHON_USEDEP}] )

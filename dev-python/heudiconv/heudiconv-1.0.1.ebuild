@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all datalad extras tests"
 DEPENDENCIES="dev-python/dcmstack[${PYTHON_USEDEP}]
 	dev-python/etelemetry[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.0.12[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/nipype[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]

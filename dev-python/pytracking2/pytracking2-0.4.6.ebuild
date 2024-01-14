@@ -27,18 +27,18 @@ IUSE="all crypto django html test webhook"
 DEPENDENCIES="all? ( dev-python/tox[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
-	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/requests-2.10.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/lxml-4.4.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/cryptography-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/django-ipware[${PYTHON_USEDEP}] )
-	all? ( dev-python/django[${PYTHON_USEDEP}] )
-	crypto? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/django-4.2[${PYTHON_USEDEP}] )
+	crypto? ( >=dev-python/cryptography-2.0.0[${PYTHON_USEDEP}] )
 	django? ( dev-python/django-ipware[${PYTHON_USEDEP}] )
-	django? ( dev-python/django[${PYTHON_USEDEP}] )
-	html? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	django? ( >=dev-python/django-4.2[${PYTHON_USEDEP}] )
+	html? ( >=dev-python/lxml-4.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	webhook? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	webhook? ( >=dev-python/requests-2.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

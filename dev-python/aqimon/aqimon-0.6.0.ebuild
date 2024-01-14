@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]
 	dev-python/databases[${PYTHON_USEDEP}]
 	dev-python/fastapi-utils[${PYTHON_USEDEP}]
 	dev-python/sds011lib[${PYTHON_USEDEP}]"

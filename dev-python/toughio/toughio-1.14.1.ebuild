@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
 DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/meshio[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13.0[${PYTHON_USEDEP}]
+	<dev-python/meshio-6.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.0[${PYTHON_USEDEP}]
 	full? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	full? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
 	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	full? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	full? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	full? ( >=dev-python/scipy-0.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

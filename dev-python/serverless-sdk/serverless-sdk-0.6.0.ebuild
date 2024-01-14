@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/backports-cached-property[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]
+	>=dev-python/blinker-1.5[${PYTHON_USEDEP}]
 	dev-python/js-regex[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	tests? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask[${PYTHON_USEDEP}] )
-	tests? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-httpserver[${PYTHON_USEDEP}] )
-	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
+	>=dev-python/typing-extensions-4.4[${PYTHON_USEDEP}]
+	tests? ( >=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/black-22.12[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flask-2.2.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/importlib-metadata-5.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mypy-1.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-httpserver-1.0.6[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/requests-2.28.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	tests? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	tests? ( dev-python/yarl[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/urllib3-1.26.15[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/yarl-1.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

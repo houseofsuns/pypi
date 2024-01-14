@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bash benchmark dev doc gui man test"
 DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]
+	>=dev-python/progressbar2-3.7[${PYTHON_USEDEP}]
 	dev-python/RestrictedPython[${PYTHON_USEDEP}]
 	dev-python/redbaron[${PYTHON_USEDEP}]
 	dev-python/python-sat[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
+	>=dev-python/fasteners-0.16[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
 	dev-python/patool[${PYTHON_USEDEP}]
 	bash? ( dev-python/argcomplete[${PYTHON_USEDEP}] )

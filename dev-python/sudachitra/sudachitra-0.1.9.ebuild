@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/logzero[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/sudachipy[${PYTHON_USEDEP}]
 	dev-python/sudachidict_core[${PYTHON_USEDEP}]
-	pretrain? ( dev-python/progressbar2[${PYTHON_USEDEP}] )
+	pretrain? ( ~dev-python/progressbar2-3.53.1[${PYTHON_USEDEP}] )
 	pretrain? ( dev-python/bunkai[${PYTHON_USEDEP}] )
 	pretrain? ( dev-python/pytextspan[${PYTHON_USEDEP}] )
 	pretrain? ( dev-python/tensorflow[${PYTHON_USEDEP}] )

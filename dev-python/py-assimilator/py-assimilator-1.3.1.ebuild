@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="alchemy kafka mongo redis"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	alchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	kafka? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
-	mongo? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	alchemy? ( >=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
+	kafka? ( >=dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}] )
+	mongo? ( >=dev-python/pymongo-4.3.3[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

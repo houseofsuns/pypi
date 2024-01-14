@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	analysis? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	analysis? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	analysis? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	analysis? ( >=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/image[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-gallery[${PYTHON_USEDEP}] )
@@ -49,13 +49,13 @@ DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
 	plotting? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/pangocffi[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
-	quality? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	quality? ( dev-python/isort[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
 	quality? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

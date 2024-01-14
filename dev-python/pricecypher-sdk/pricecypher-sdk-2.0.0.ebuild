@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/better-abc[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.14.0[${PYTHON_USEDEP}]
 	dev-python/marshmallow-dataclass[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )"
+	>=dev-python/pandas-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
+	>=dev-python/typeguard-2.13.3[${PYTHON_USEDEP}]
+	>=dev-python/pbr-5.11.1[${PYTHON_USEDEP}]
+	testing? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

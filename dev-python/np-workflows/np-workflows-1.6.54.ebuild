@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/np-services[${PYTHON_USEDEP}]
 	dev-python/np-session[${PYTHON_USEDEP}]
 	dev-python/np-config[${PYTHON_USEDEP}]
 	dev-python/np-datajoint[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
+	>=dev-python/ipywidgets-7.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/jupyterlab-3.6[${PYTHON_USEDEP}]
 	dev-python/jupyterlab-git[${PYTHON_USEDEP}]
 	dev-python/jupyter-scheduler[${PYTHON_USEDEP}]
 	dev-python/ipylab[${PYTHON_USEDEP}]
@@ -40,10 +40,10 @@ DEPENDENCIES="dev-python/np-services[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/npc-shields[${PYTHON_USEDEP}]
 	dev? ( dev-python/blue[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-7.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-backports[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )"

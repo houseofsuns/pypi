@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pb"
-DEPENDENCIES="dev-python/fs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/fs-2.4[${PYTHON_USEDEP}]
 	dev-python/pronto[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	pb? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	>=dev-python/openpyxl-2.5[${PYTHON_USEDEP}]
+	pb? ( ~dev-python/tqdm-4.25[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

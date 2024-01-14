@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="django-extensions"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
+	<dev-python/certifi-2024.0.0[${PYTHON_USEDEP}]
 	django-extensions? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
-	django-extensions? ( dev-python/werkzeug[${PYTHON_USEDEP}] )"
+	django-extensions? ( <dev-python/werkzeug-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

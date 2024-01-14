@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs test"
-DEPENDENCIES="docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs? ( >=dev-python/furo-2023.7.26[${PYTHON_USEDEP}] )
 	docs? ( dev-python/proselint[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/appdirs[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.24[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.1.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/covdefaults[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

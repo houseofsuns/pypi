@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/wrapt[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/wrapt-1.11.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/oarepo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invenio-app[${PYTHON_USEDEP}] )
 	dev? ( dev-python/redis[${PYTHON_USEDEP}] )

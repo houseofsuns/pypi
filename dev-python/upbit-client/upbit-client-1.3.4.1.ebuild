@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="fido"
 DEPENDENCIES="dev-python/bravado[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	>=dev-python/websockets-10.3[${PYTHON_USEDEP}]
 	fido? ( dev-python/fido[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

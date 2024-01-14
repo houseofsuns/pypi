@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pydantic2"
-DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/backoff-2.0[${PYTHON_USEDEP}]
+	>=dev-python/colorlog-6.0[${PYTHON_USEDEP}]
 	dev-python/nats-py[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
+	>=dev-python/prometheus-client-0.14[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.9[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/starlette-0.20[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.18[${PYTHON_USEDEP}]
+	>=dev-python/redis-4.3.4[${PYTHON_USEDEP}]
 	pydantic2? ( dev-python/pydantic-settings[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

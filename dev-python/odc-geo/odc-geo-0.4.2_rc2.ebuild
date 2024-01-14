@@ -27,13 +27,13 @@ IUSE="all s3 test tiff warp xr"
 DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-3.0.0[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
 	all? ( dev-python/rasterio[${PYTHON_USEDEP}] )
 	all? ( dev-python/tifffile[${PYTHON_USEDEP}] )
 	all? ( dev-python/imagecodecs[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask[${PYTHON_USEDEP}] )
-	all? ( dev-python/xarray[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/xarray-0.19[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -42,13 +42,13 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	test? ( dev-python/imagecodecs[${PYTHON_USEDEP}] )
 	test? ( dev-python/dask[${PYTHON_USEDEP}] )
 	test? ( dev-python/rasterio[${PYTHON_USEDEP}] )
-	test? ( dev-python/xarray[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/xarray-0.19[${PYTHON_USEDEP}] )
 	tiff? ( dev-python/tifffile[${PYTHON_USEDEP}] )
 	tiff? ( dev-python/imagecodecs[${PYTHON_USEDEP}] )
 	tiff? ( dev-python/dask[${PYTHON_USEDEP}] )
 	tiff? ( dev-python/rasterio[${PYTHON_USEDEP}] )
-	tiff? ( dev-python/xarray[${PYTHON_USEDEP}] )
+	tiff? ( >=dev-python/xarray-0.19[${PYTHON_USEDEP}] )
 	warp? ( dev-python/rasterio[${PYTHON_USEDEP}] )
-	xr? ( dev-python/xarray[${PYTHON_USEDEP}] )"
+	xr? ( >=dev-python/xarray-0.19[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

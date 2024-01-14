@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/tox[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tox-5.0[${PYTHON_USEDEP}]
 	testing? ( dev-python/devpi-process[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
 	testing? ( dev-python/black[${PYTHON_USEDEP}] )
 	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	testing? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

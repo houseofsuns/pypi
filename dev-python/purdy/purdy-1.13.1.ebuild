@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/asttokens[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asttokens-2.0.4[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/urwid[${PYTHON_USEDEP}]
+	>=dev-python/urwid-2.0.1[${PYTHON_USEDEP}]
 	dev-python/colored[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

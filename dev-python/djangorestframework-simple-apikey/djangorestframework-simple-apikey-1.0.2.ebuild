@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test tooling"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-4.2[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-38.0.4[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	tooling? ( dev-python/black[${PYTHON_USEDEP}] )
+	tooling? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	tooling? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	tooling? ( dev-python/bump2version[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="dev-python/ttp[${PYTHON_USEDEP}]
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/mkdocs-1.2.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-7.2.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-extensions-1.0.1[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocstrings-0.19.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pygments-2.11[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pymdown-extensions-9.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

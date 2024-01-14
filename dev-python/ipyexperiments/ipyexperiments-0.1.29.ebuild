@@ -27,12 +27,12 @@ IUSE="dev testing"
 DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/pynvml[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-6.0.0[${PYTHON_USEDEP}]
 	dev-python/pynvx[${PYTHON_USEDEP}]
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pynvml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-6.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pynvx[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/nbmake[${PYTHON_USEDEP}] )"

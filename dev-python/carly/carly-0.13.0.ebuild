@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/Twisted[${PYTHON_USEDEP}]
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	test? ( dev-python/autobahn[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )"
+	test? ( >dev-python/testfixtures-6.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,29 +28,29 @@ DEPENDENCIES="dev-python/brainstem[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
 	dev-python/unittest-xml-reporting[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
 	dev-python/pyreadline3[${PYTHON_USEDEP}]
-	dev-python/hidapi[${PYTHON_USEDEP}]
-	testrail? ( dev-python/rich[${PYTHON_USEDEP}] )
-	all? ( dev-python/rich[${PYTHON_USEDEP}] )
-	testrail? ( dev-python/requests[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
-	pykitest? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	pykitest? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+	<dev-python/hidapi-0.15[${PYTHON_USEDEP}]
+	testrail? ( <dev-python/rich-14.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/rich-14.0.0[${PYTHON_USEDEP}] )
+	testrail? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	pykitest? ( >=dev-python/isort-5.11.4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/isort-5.11.4[${PYTHON_USEDEP}] )
+	pykitest? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )
 	plugins? ( dev-python/pylink-square[${PYTHON_USEDEP}] )
 	debugger? ( dev-python/pylink-square[${PYTHON_USEDEP}] )
 	all? ( dev-python/pylink-square[${PYTHON_USEDEP}] )
 	plugins? ( dev-python/pykiso-python-uds[${PYTHON_USEDEP}] )
 	can? ( dev-python/pykiso-python-uds[${PYTHON_USEDEP}] )
 	all? ( dev-python/pykiso-python-uds[${PYTHON_USEDEP}] )
-	plugins? ( dev-python/pyserial[${PYTHON_USEDEP}] )
-	serial? ( dev-python/pyserial[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyserial[${PYTHON_USEDEP}] )
+	plugins? ( <dev-python/pyserial-4.0[${PYTHON_USEDEP}] )
+	serial? ( <dev-python/pyserial-4.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyserial-4.0[${PYTHON_USEDEP}] )
 	plugins? ( dev-python/PyVISA[${PYTHON_USEDEP}] )
 	instrument? ( dev-python/PyVISA[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyVISA[${PYTHON_USEDEP}] )
@@ -60,10 +60,10 @@ DEPENDENCIES="dev-python/brainstem[${PYTHON_USEDEP}]
 	plugins? ( dev-python/python-can[${PYTHON_USEDEP}] )
 	can? ( dev-python/python-can[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-can[${PYTHON_USEDEP}] )
-	dev-python/defusedxml[${PYTHON_USEDEP}]
+	<dev-python/defusedxml-0.8.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	all? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	grpc? ( <dev-python/grpcio-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/grpcio-2.0.0[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

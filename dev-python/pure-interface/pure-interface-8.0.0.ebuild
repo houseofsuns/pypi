@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev typing"
-DEPENDENCIES="dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( >=dev-python/mypy-1.4[${PYTHON_USEDEP}] )
 	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

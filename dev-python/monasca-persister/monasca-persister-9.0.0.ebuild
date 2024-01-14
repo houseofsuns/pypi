@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cassandra elasticsearch influxdb test"
 DEPENDENCIES="dev-python/cassandra-driver[${PYTHON_USEDEP}]
 	dev-python/monasca-common[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-3.36.0[${PYTHON_USEDEP}]
+	>=dev-python/simplejson-3.8.1[${PYTHON_USEDEP}]
 	cassandra? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
-	elasticsearch? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
+	elasticsearch? ( <dev-python/elasticsearch-3.0.0[${PYTHON_USEDEP}] )
 	influxdb? ( dev-python/influxdb[${PYTHON_USEDEP}] )
-	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/bandit-1.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
-	test? ( dev-python/oslotest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/oslotest-3.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pycodestyle-2.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

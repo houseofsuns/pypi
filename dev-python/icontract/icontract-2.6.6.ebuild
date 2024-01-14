@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/asttokens[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/asttokens-3.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pydocstyle-7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/docutils-1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pygments-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dpcontracts[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	dev? ( dev-python/py-cpuinfo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typeguard[${PYTHON_USEDEP}] )
-	dev? ( dev-python/astor[${PYTHON_USEDEP}] )
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/tabulate-1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/py-cpuinfo-6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/typeguard-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/astor-0.8.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.17.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/deal[${PYTHON_USEDEP}] )
-	dev? ( dev-python/asyncstdlib[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/asyncstdlib-3.9.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

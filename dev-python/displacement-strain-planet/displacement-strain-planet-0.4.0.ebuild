@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pyshtools[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/cmcrameri[${PYTHON_USEDEP}]
 	dev-python/jupyter[${PYTHON_USEDEP}]"

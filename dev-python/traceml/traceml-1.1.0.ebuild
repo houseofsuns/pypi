@@ -39,11 +39,11 @@ DEPENDENCIES="all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/altair[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/moviepy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/plotly-4.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bokeh[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
-	dev? ( dev-python/imageio[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/aiofiles-23.2.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/imageio-2.28.0[${PYTHON_USEDEP}] )
 	polyaxon? ( dev-python/polyaxon[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

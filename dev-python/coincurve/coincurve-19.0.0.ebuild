@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]"
+	>=dev-python/cffi-1.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

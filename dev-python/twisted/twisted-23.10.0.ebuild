@@ -24,37 +24,37 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all-non-platform all_non_platform conch dev dev-release dev_release gtk-platform gtk_platform http2 macos-platform macos_platform mypy osx-platform osx_platform serial test tls windows-platform windows_platform"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/automat[${PYTHON_USEDEP}]
-	dev-python/constantly[${PYTHON_USEDEP}]
-	dev-python/hyperlink[${PYTHON_USEDEP}]
-	dev-python/incremental[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/zope-interface[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
+	>=dev-python/automat-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/constantly-15.1[${PYTHON_USEDEP}]
+	>=dev-python/hyperlink-17.1.1[${PYTHON_USEDEP}]
+	>=dev-python/incremental-22.10.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
+	>=dev-python/zope-interface-5.0[${PYTHON_USEDEP}]
 	all-non-platform? ( dev-python/twisted[${PYTHON_USEDEP}] )
 	all_non_platform? ( dev-python/twisted[${PYTHON_USEDEP}] )
-	conch? ( dev-python/appdirs[${PYTHON_USEDEP}] )
-	conch? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
-	conch? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
+	conch? ( >=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}] )
+	conch? ( >=dev-python/bcrypt-3.1.3[${PYTHON_USEDEP}] )
+	conch? ( >=dev-python/cryptography-3.3[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyflakes-2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-subunit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twisted[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twistedchecker[${PYTHON_USEDEP}] )
 	dev-release? ( dev-python/pydoctor[${PYTHON_USEDEP}] )
-	dev-release? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev-release? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev-release? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	dev-release? ( ~dev-python/sphinx-rtd-theme-1.3[${PYTHON_USEDEP}] )
+	dev-release? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
+	dev-release? ( ~dev-python/towncrier-23.6[${PYTHON_USEDEP}] )
 	dev_release? ( dev-python/pydoctor[${PYTHON_USEDEP}] )
-	dev_release? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev_release? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev_release? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	dev_release? ( ~dev-python/sphinx-rtd-theme-1.3[${PYTHON_USEDEP}] )
+	dev_release? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
+	dev_release? ( ~dev-python/towncrier-23.6[${PYTHON_USEDEP}] )
 	gtk-platform? ( dev-python/pygobject[${PYTHON_USEDEP}] )
 	gtk-platform? ( dev-python/twisted[${PYTHON_USEDEP}] )
 	gtk_platform? ( dev-python/pygobject[${PYTHON_USEDEP}] )
 	gtk_platform? ( dev-python/twisted[${PYTHON_USEDEP}] )
-	http2? ( dev-python/h2[${PYTHON_USEDEP}] )
-	http2? ( dev-python/priority[${PYTHON_USEDEP}] )
+	http2? ( <dev-python/h2-5.0[${PYTHON_USEDEP}] )
+	http2? ( <dev-python/priority-2.0[${PYTHON_USEDEP}] )
 	macos-platform? ( dev-python/pyobjc-core[${PYTHON_USEDEP}] )
 	macos-platform? ( dev-python/pyobjc-framework-cfnetwork[${PYTHON_USEDEP}] )
 	macos-platform? ( dev-python/pyobjc-framework-cocoa[${PYTHON_USEDEP}] )
@@ -64,19 +64,19 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	macos_platform? ( dev-python/pyobjc-framework-cocoa[${PYTHON_USEDEP}] )
 	macos_platform? ( dev-python/twisted[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/mypy-zope[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	mypy? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/twisted[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-pyopenssl[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	osx-platform? ( dev-python/twisted[${PYTHON_USEDEP}] )
 	osx_platform? ( dev-python/twisted[${PYTHON_USEDEP}] )
-	serial? ( dev-python/pyserial[${PYTHON_USEDEP}] )
-	test? ( dev-python/cython-test-exception-raiser[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyhamcrest[${PYTHON_USEDEP}] )
-	tls? ( dev-python/idna[${PYTHON_USEDEP}] )
-	tls? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
-	tls? ( dev-python/service-identity[${PYTHON_USEDEP}] )
+	serial? ( >=dev-python/pyserial-3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/cython-test-exception-raiser-2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-6.56[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyhamcrest-2.0[${PYTHON_USEDEP}] )
+	tls? ( >=dev-python/idna-2.4[${PYTHON_USEDEP}] )
+	tls? ( >=dev-python/pyopenssl-21.0.0[${PYTHON_USEDEP}] )
+	tls? ( >=dev-python/service-identity-18.1.0[${PYTHON_USEDEP}] )
 	windows-platform? ( dev-python/pywin32[${PYTHON_USEDEP}] )
 	windows-platform? ( dev-python/twisted[${PYTHON_USEDEP}] )
 	windows_platform? ( dev-python/pywin32[${PYTHON_USEDEP}] )

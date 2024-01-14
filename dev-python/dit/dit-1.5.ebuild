@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/boltons[${PYTHON_USEDEP}]
 	dev-python/debtcollector[${PYTHON_USEDEP}]
 	dev-python/lattices[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.6[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.11[${PYTHON_USEDEP}]
 	dev-python/PLTable[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
 	dev-python/pypoman[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="colors toml"
 DEPENDENCIES="colors? ( dev-python/crayons[${PYTHON_USEDEP}] )
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
-	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )"
+	toml? ( <dev-python/tomli-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

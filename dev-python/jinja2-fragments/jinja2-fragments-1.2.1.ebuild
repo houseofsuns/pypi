@@ -27,7 +27,7 @@ IUSE="dev tests"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/quart[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flask-2.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sanic[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sanic-ext[${PYTHON_USEDEP}] )

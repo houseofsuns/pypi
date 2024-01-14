@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
 DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
+	<dev-python/elasticsearch-9.0.0[${PYTHON_USEDEP}]
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	develop? ( >dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
+	develop? ( >dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

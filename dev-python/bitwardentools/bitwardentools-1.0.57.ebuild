@@ -28,8 +28,8 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/hkdf[${PYTHON_USEDEP}]
 	dev-python/pycryptodome[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jedi[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.13.0[${PYTHON_USEDEP}]
+	<dev-python/jedi-0.18.0[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/pdbpp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

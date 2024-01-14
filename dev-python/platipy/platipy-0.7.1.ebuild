@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="backend cardiac nnunet"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/SimpleITK[${PYTHON_USEDEP}]
 	dev-python/pydicom[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	dev-python/pynetdicom[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/rt-utils[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	cardiac? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	cardiac? ( dev-python/nnunet[${PYTHON_USEDEP}] )
 	nnunet? ( dev-python/nnunet[${PYTHON_USEDEP}] )
@@ -40,8 +40,8 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	backend? ( dev-python/Flask-RESTful[${PYTHON_USEDEP}] )
 	backend? ( dev-python/Flask-SQLAlchemy[${PYTHON_USEDEP}] )
 	backend? ( dev-python/celery[${PYTHON_USEDEP}] )
-	backend? ( dev-python/redis[${PYTHON_USEDEP}] )
-	backend? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	backend? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
+	backend? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
 	backend? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	backend? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	backend? ( dev-python/pymedphys[${PYTHON_USEDEP}] )"

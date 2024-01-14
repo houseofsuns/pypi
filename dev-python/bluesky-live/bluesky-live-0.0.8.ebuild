@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dask-2.0[${PYTHON_USEDEP}]
 	dev-python/entrypoints[${PYTHON_USEDEP}]
 	dev-python/event-model[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

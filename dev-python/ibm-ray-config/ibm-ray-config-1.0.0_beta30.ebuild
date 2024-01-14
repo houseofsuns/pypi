@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0.1[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
 	dev-python/ibm-cloud-sdk-core[${PYTHON_USEDEP}]
 	dev-python/ibm-platform-services[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/ibm-watson[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	>=dev-python/docker-5.0.3[${PYTHON_USEDEP}]
 	dev-python/ibm-vpc[${PYTHON_USEDEP}]
 	dev-python/ibm-vpc-ray-connector[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

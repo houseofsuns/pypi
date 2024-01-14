@@ -26,43 +26,43 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all azure dask excel feather gcp numba parquet s3 torch wandb zarr"
 DEPENDENCIES="azure? ( dev-python/adlfs[${PYTHON_USEDEP}] )
 	all? ( dev-python/adlfs[${PYTHON_USEDEP}] )
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
-	all? ( dev-python/dask[${PYTHON_USEDEP}] )
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	dask? ( >=dev-python/dask-2021.10.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/dask-2021.10.0[${PYTHON_USEDEP}] )
+	>=dev-python/fsspec-2021.7.0[${PYTHON_USEDEP}]
 	gcp? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	all? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	dev-python/mako[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	>=dev-python/mako-1.2.4[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-9.0.0[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.4[${PYTHON_USEDEP}]
 	dev-python/msgpack-numpy[${PYTHON_USEDEP}]
 	numba? ( dev-python/numba[${PYTHON_USEDEP}] )
 	all? ( dev-python/numba[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	excel? ( dev-python/odfpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/odfpy[${PYTHON_USEDEP}] )
-	excel? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	all? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
-	feather? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	parquet? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
+	>=dev-python/oauthlib-3.2.2[${PYTHON_USEDEP}]
+	excel? ( >=dev-python/odfpy-1.4.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/odfpy-1.4.1[${PYTHON_USEDEP}] )
+	excel? ( >=dev-python/openpyxl-3.1.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/openpyxl-3.1.1[${PYTHON_USEDEP}] )
+	<=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-1.0.0[${PYTHON_USEDEP}]
+	feather? ( >=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}] )
+	parquet? ( >=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}] )
+	>=dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
 	excel? ( dev-python/pyxlsb[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyxlsb[${PYTHON_USEDEP}] )
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}]
 	s3? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	all? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.1[${PYTHON_USEDEP}]
+	<dev-python/urllib3-1.27[${PYTHON_USEDEP}]
 	wandb? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	all? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	excel? ( dev-python/xlrd[${PYTHON_USEDEP}] )
-	all? ( dev-python/xlrd[${PYTHON_USEDEP}] )
+	excel? ( >=dev-python/xlrd-2.0.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/xlrd-2.0.1[${PYTHON_USEDEP}] )
 	zarr? ( dev-python/zarr[${PYTHON_USEDEP}] )
 	all? ( dev-python/zarr[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

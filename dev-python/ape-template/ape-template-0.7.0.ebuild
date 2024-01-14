@@ -27,17 +27,17 @@ IUSE="dev lint release test"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	dev-python/eth-ape[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-breakpoint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdformat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdformat-gfm[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdformat-frontmatter[${PYTHON_USEDEP}] )
@@ -50,13 +50,13 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-breakpoint[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mdformat[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mdformat-gfm[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mdformat-frontmatter[${PYTHON_USEDEP}] )
@@ -64,9 +64,9 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	release? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	release? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	release? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="deeplearning"
 DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/raiutils[${PYTHON_USEDEP}]

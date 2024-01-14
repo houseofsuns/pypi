@@ -25,44 +25,44 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/colorlog-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/click-spinner[${PYTHON_USEDEP}]
 	dev-python/pymsteams[${PYTHON_USEDEP}]
 	all? ( dev-python/supabase[${PYTHON_USEDEP}] )
-	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
 	dev-python/slack-sdk[${PYTHON_USEDEP}]
 	all? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	all? ( dev-python/grafana-api[${PYTHON_USEDEP}] )
-	all? ( dev-python/watchdog[${PYTHON_USEDEP}] )
+	all? ( <dev-python/watchdog-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/better-exceptions[${PYTHON_USEDEP}] )
 	all? ( dev-python/CairoSVG[${PYTHON_USEDEP}] )
-	all? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
+	all? ( <dev-python/kafka-python-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/datadog-api-client[${PYTHON_USEDEP}] )
 	dev-python/dpath[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	all? ( dev-python/poetry-core[${PYTHON_USEDEP}] )
-	dev-python/docutils[${PYTHON_USEDEP}]
-	all? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
+	~dev-python/websocket-client-1.3.3[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-0.13.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/pytz-2022.0[${PYTHON_USEDEP}]
+	all? ( ~dev-python/poetry-core-1.1.0[${PYTHON_USEDEP}] )
+	<dev-python/docutils-0.18.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/opsgenie-sdk[${PYTHON_USEDEP}]
-	dev-python/markdown2[${PYTHON_USEDEP}]
+	<dev-python/markdown2-3.0.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/watchgod[${PYTHON_USEDEP}]
 	dev-python/webexteamssdk[${PYTHON_USEDEP}]
 	dev-python/bitmath[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	all? ( dev-python/dulwich[${PYTHON_USEDEP}] )
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	<dev-python/croniter-2.0.0[${PYTHON_USEDEP}]
+	all? ( ~dev-python/dulwich-0.20.28[${PYTHON_USEDEP}] )
+	<dev-python/cryptography-37.0.0[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/fpdf2[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	dev-python/prometrix[${PYTHON_USEDEP}]
 	dev-python/hikaru-model_26[${PYTHON_USEDEP}]
-	dev-python/apprise[${PYTHON_USEDEP}]
+	<dev-python/apprise-2.0.0[${PYTHON_USEDEP}]
 	dev-python/rocketchat-api[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

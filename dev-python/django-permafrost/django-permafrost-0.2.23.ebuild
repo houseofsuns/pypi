@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	build? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	build? ( <dev-python/mistune-2.0.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-crispy-forms[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-allauth[${PYTHON_USEDEP}] )

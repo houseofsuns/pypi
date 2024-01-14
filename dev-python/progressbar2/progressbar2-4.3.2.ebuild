@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
-DEPENDENCIES="dev-python/python-utils[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	tests? ( dev-python/dill[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/python-utils-3.8.1[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-1.8.5[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.6.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/dill-0.3.6[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/freezegun-0.3.11[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-4.6.9[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-1.8.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

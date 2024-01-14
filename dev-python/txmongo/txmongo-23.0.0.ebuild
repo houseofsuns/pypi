@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="srv"
-DEPENDENCIES="dev-python/twisted[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	srv? ( dev-python/pymongo[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/twisted-14.0[${PYTHON_USEDEP}]
+	<dev-python/pymongo-4.0[${PYTHON_USEDEP}]
+	srv? ( >=dev-python/pymongo-3.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

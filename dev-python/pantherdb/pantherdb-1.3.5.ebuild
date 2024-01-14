@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
-	full? ( dev-python/cryptography[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/orjson-3.9.5[${PYTHON_USEDEP}]
+	full? ( ~dev-python/cryptography-41.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

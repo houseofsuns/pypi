@@ -24,58 +24,58 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc gensim recommended rinterop sklearn test textproc textproc_extra topic_modeling_eval_extra"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	dev-python/globre[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	dev-python/bidict[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+	<dev-python/wheel-1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	all? ( dev-python/loky[${PYTHON_USEDEP}] )
+	all? ( <dev-python/loky-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyICU[${PYTHON_USEDEP}] )
 	all? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	all? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	all? ( dev-python/gmpy2[${PYTHON_USEDEP}] )
 	all? ( dev-python/rpy2[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	all? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/nbsphinx-1.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/twine[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	all? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	all? ( dev-python/tox[${PYTHON_USEDEP}] )
-	all? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipython-8.12.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/notebook-6.5.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tox-5.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/setuptools-67.6[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-8.12.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/notebook-6.5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/tox-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-67.6[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/nbsphinx-1.0[${PYTHON_USEDEP}] )
 	gensim? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	recommended? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/loky[${PYTHON_USEDEP}] )
+	recommended? ( <dev-python/loky-4.0[${PYTHON_USEDEP}] )
 	rinterop? ( dev-python/rpy2[${PYTHON_USEDEP}] )
 	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
 	textproc? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	textproc? ( dev-python/loky[${PYTHON_USEDEP}] )
+	textproc? ( <dev-python/loky-4.0[${PYTHON_USEDEP}] )
 	textproc_extra? ( dev-python/PyICU[${PYTHON_USEDEP}] )
 	textproc_extra? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	topic_modeling_eval_extra? ( dev-python/gmpy2[${PYTHON_USEDEP}] )"

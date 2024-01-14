@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pytest-7.4.0[${PYTHON_USEDEP}]
+	>=dev-python/selenium-4.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

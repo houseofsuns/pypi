@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="alconna"
 DEPENDENCIES="dev-python/graia-broadcast[${PYTHON_USEDEP}]
 	dev-python/graia-amnesia[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
 	dev-python/launart[${PYTHON_USEDEP}]
 	dev-python/creart[${PYTHON_USEDEP}]
 	alconna? ( dev-python/arclet-alconna[${PYTHON_USEDEP}] )

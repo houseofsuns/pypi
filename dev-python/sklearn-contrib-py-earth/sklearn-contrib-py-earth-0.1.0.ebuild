@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all_tests dev docs export"
 DEPENDENCIES="dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.16[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	all_tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all_tests? ( dev-python/patsy[${PYTHON_USEDEP}] )

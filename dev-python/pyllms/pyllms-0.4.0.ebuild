@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.54.2[${PYTHON_USEDEP}]
 	dev-python/google-generativeai[${PYTHON_USEDEP}]
 	local? ( dev-python/einops[${PYTHON_USEDEP}] )
 	local? ( dev-python/accelerate[${PYTHON_USEDEP}] )"

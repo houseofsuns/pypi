@@ -26,62 +26,62 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cloud dashboard dev gateway ml"
 DEPENDENCIES="dev-python/Markdown[${PYTHON_USEDEP}]
 	gateway? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev-python/colorama[${PYTHON_USEDEP}]
+	dev? ( <dev-python/black-22.0[${PYTHON_USEDEP}] )
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	cloud? ( dev-python/cronsim[${PYTHON_USEDEP}] )
-	gateway? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	gateway? ( <dev-python/cryptography-36.0.0[${PYTHON_USEDEP}] )
 	dashboard? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
 	dashboard? ( dev-python/dash-mantine-components[${PYTHON_USEDEP}] )
 	dashboard? ( dev-python/dash[${PYTHON_USEDEP}] )
-	dev-python/debugpy[${PYTHON_USEDEP}]
-	gateway? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
+	~dev-python/debugpy-1.6.6[${PYTHON_USEDEP}]
+	gateway? ( <dev-python/deepdiff-6.0.0[${PYTHON_USEDEP}] )
 	dev-python/dynaconf[${PYTHON_USEDEP}]
 	ml? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	dev-python/firebase-admin[${PYTHON_USEDEP}]
 	cloud? ( dev-python/fpdf[${PYTHON_USEDEP}] )
-	gateway? ( dev-python/freezegun[${PYTHON_USEDEP}] )
+	gateway? ( <dev-python/freezegun-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/google[${PYTHON_USEDEP}] )
-	dev? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	dev? ( dev-python/google-auth[${PYTHON_USEDEP}] )
-	dev? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/google-auth-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/google-auth-oauthlib-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev? ( dev-python/google-cloud-firestore[${PYTHON_USEDEP}] )
 	dev? ( dev-python/google-cloud-iot[${PYTHON_USEDEP}] )
 	dev? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
-	gateway? ( dev-python/ifaddr[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	gateway? ( <dev-python/ifaddr-0.2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jupyterlab-4.0.0[${PYTHON_USEDEP}] )
 	cloud? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	ml? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	gateway? ( dev-python/mcp9600[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbmake[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
-	gateway? ( dev-python/paho-mqtt[${PYTHON_USEDEP}] )
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	gateway? ( <dev-python/paho-mqtt-2.0.0[${PYTHON_USEDEP}] )
+	~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
 	cloud? ( dev-python/prophet[${PYTHON_USEDEP}] )
 	ml? ( dev-python/prophet[${PYTHON_USEDEP}] )
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	gateway? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev-python/pytz[${PYTHON_USEDEP}]
-	gateway? ( dev-python/pyudev[${PYTHON_USEDEP}] )
+	gateway? ( <dev-python/psutil-6.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-xdist-3.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pytz-2023.0.0[${PYTHON_USEDEP}]
+	gateway? ( <dev-python/pyudev-0.24.0[${PYTHON_USEDEP}] )
 	gateway? ( dev-python/queuelib[${PYTHON_USEDEP}] )
 	ml? ( dev-python/ray[${PYTHON_USEDEP}] )
-	cloud? ( dev-python/requests[${PYTHON_USEDEP}] )
-	gateway? ( dev-python/requests[${PYTHON_USEDEP}] )
+	cloud? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	gateway? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	gateway? ( dev-python/schedule[${PYTHON_USEDEP}] )
-	cloud? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	gateway? ( dev-python/six[${PYTHON_USEDEP}] )
+	cloud? ( <dev-python/scipy-2.0.0[${PYTHON_USEDEP}] )
+	gateway? ( <dev-python/six-2.0.0[${PYTHON_USEDEP}] )
 	ml? ( dev-python/sklearn[${PYTHON_USEDEP}] )
 	dev-python/streamlit[${PYTHON_USEDEP}]
 	dev-python/streamlit-aggrid[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	gateway? ( dev-python/transitions[${PYTHON_USEDEP}] )
+	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
+	gateway? ( <dev-python/transitions-0.9.0[${PYTHON_USEDEP}] )
 	ml? ( dev-python/xgboost[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

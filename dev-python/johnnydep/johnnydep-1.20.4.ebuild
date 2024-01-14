@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/anytree[${PYTHON_USEDEP}]
 	dev-python/oyaml[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]"
+	>=dev-python/packaging-17.0[${PYTHON_USEDEP}]
+	>=dev-python/wheel-0.32.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

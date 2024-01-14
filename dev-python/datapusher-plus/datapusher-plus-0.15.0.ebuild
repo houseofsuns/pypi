@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/APScheduler-3.9.1[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/ckanserviceprovider[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]

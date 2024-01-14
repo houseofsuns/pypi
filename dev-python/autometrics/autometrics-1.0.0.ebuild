@@ -28,9 +28,9 @@ DEPENDENCIES="exporter-otlp-proto-grpc? ( dev-python/opentelemetry-exporter-otlp
 	exporter-otlp-proto-http? ( dev-python/opentelemetry-exporter-otlp-proto-http[${PYTHON_USEDEP}] )
 	dev-python/opentelemetry-exporter-prometheus[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/prometheus-client-0.18.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

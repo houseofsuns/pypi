@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/argo-workflows[${PYTHON_USEDEP}]
 	dev-python/autoflake[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
-	dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+	<dev-python/coverage-6.4[${PYTHON_USEDEP}]
+	>=dev-python/google-api-core-2.11.0[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.51.3[${PYTHON_USEDEP}]
+	>=dev-python/isort-5.11.1[${PYTHON_USEDEP}]
 	dev-python/mlflow[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	dev-python/yapf[${PYTHON_USEDEP}]"
+	>=dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
+	<dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.2.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-scm-6.4.2[${PYTHON_USEDEP}]
+	>=dev-python/yapf-0.32.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

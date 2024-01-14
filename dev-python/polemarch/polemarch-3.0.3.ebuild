@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mysql postgresql test"
 DEPENDENCIES="dev-python/vstutils[${PYTHON_USEDEP}]
-	dev-python/markdown2[${PYTHON_USEDEP}]
+	~dev-python/markdown2-2.4.9[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/gitdb2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]
 	dev-python/polemarch-ansible[${PYTHON_USEDEP}]
 	dev-python/netaddr[${PYTHON_USEDEP}]
 	dev-python/coreapi[${PYTHON_USEDEP}]
 	dev-python/coreschema[${PYTHON_USEDEP}]
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/mysqlclient-2.2[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-test-migrations[${PYTHON_USEDEP}] )
 	test? ( dev-python/vstutils[${PYTHON_USEDEP}] )"

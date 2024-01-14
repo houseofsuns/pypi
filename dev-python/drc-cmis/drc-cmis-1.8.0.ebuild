@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="coverage docs pep8 release tests"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/cmislib-maykin[${PYTHON_USEDEP}]
 	dev-python/django-solo[${PYTHON_USEDEP}]
 	dev-python/iso8601[${PYTHON_USEDEP}]

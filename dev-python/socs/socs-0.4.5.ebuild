@@ -33,9 +33,9 @@ DEPENDENCIES="dev-python/autobahn[${PYTHON_USEDEP}]
 	dev-python/pysmi[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	dev-python/twisted[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
+	~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
 	acu? ( dev-python/pixell[${PYTHON_USEDEP}] )
 	acu? ( dev-python/so3g[${PYTHON_USEDEP}] )
 	all? ( dev-python/labjack-ljm[${PYTHON_USEDEP}] )

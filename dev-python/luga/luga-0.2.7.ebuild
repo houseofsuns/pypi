@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/fasttext-wheel[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/nptyping[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev host_test ide target_test"
-DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyserial-3.3[${PYTHON_USEDEP}]
 	dev-python/esp-coredump[${PYTHON_USEDEP}]
 	dev-python/pyelftools[${PYTHON_USEDEP}]
 	dev-python/esp-idf-panic-decoder[${PYTHON_USEDEP}]

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all"
 DEPENDENCIES="dev-python/coola[${PYTHON_USEDEP}]
 	dev-python/gravitorch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/redcat[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	all? ( dev-python/gdown[${PYTHON_USEDEP}] )

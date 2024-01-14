@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/coola[${PYTHON_USEDEP}]
 	dev-python/objectory[${PYTHON_USEDEP}]
 	dev-python/redcat[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/plotly-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

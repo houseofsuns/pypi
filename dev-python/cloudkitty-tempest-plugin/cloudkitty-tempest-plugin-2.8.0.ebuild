@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/keystoneauth1[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/python-keystoneclient[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tempest[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/keystoneauth1-2.18.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-3.18.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-2.14.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0[${PYTHON_USEDEP}]
+	>=dev-python/python-keystoneclient-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/tempest-15.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

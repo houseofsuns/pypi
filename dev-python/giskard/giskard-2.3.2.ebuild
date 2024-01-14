@@ -24,41 +24,41 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hub llm"
-DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cloudpickle-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/zstandard-0.10.0[${PYTHON_USEDEP}]
 	dev-python/mlflow-skinny[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/mixpanel[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.19[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
+	>=dev-python/xxhash-3.2.0[${PYTHON_USEDEP}]
 	dev-python/langdetect[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.9.1[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/griffe[${PYTHON_USEDEP}]
-	hub? ( dev-python/websockets[${PYTHON_USEDEP}] )
-	hub? ( dev-python/tenacity[${PYTHON_USEDEP}] )
-	hub? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	hub? ( dev-python/click[${PYTHON_USEDEP}] )
-	hub? ( dev-python/docker[${PYTHON_USEDEP}] )
+	>=dev-python/griffe-0.36.9[${PYTHON_USEDEP}]
+	hub? ( >=dev-python/websockets-11.0[${PYTHON_USEDEP}] )
+	hub? ( >=dev-python/tenacity-4.11.0[${PYTHON_USEDEP}] )
+	hub? ( >=dev-python/psutil-5.4.6[${PYTHON_USEDEP}] )
+	hub? ( >=dev-python/click-7.0[${PYTHON_USEDEP}] )
+	hub? ( >=dev-python/docker-6.0.0[${PYTHON_USEDEP}] )
 	hub? ( dev-python/shap[${PYTHON_USEDEP}] )
 	hub? ( dev-python/llvmlite[${PYTHON_USEDEP}] )
 	hub? ( dev-python/numba[${PYTHON_USEDEP}] )
-	hub? ( dev-python/lockfile[${PYTHON_USEDEP}] )
-	hub? ( dev-python/python-daemon[${PYTHON_USEDEP}] )
-	hub? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+	hub? ( >=dev-python/lockfile-0.12.2[${PYTHON_USEDEP}] )
+	hub? ( <dev-python/python-daemon-3.0[${PYTHON_USEDEP}] )
+	hub? ( >=dev-python/pycryptodome-3.6.1[${PYTHON_USEDEP}] )
 	hub? ( dev-python/pyngrok[${PYTHON_USEDEP}] )
-	hub? ( dev-python/uvloop[${PYTHON_USEDEP}] )
+	hub? ( >=dev-python/uvloop-0.18.0[${PYTHON_USEDEP}] )
 	llm? ( dev-python/openai[${PYTHON_USEDEP}] )
 	llm? ( dev-python/evaluate[${PYTHON_USEDEP}] )
 	llm? ( dev-python/bert-score[${PYTHON_USEDEP}] )"

@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy test"
-DEPENDENCIES="dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/flask-migrate[${PYTHON_USEDEP}]
-	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/ldap3[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	deploy? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/flake8[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/alembic-1.9.1[${PYTHON_USEDEP}]
+	~dev-python/flask-migrate-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/flask-sqlalchemy-3.0.2[${PYTHON_USEDEP}]
+	~dev-python/flask-2.2.2[${PYTHON_USEDEP}]
+	~dev-python/ldap3-2.9.1[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.2.2[${PYTHON_USEDEP}]
+	deploy? ( ~dev-python/coverage-7.0.2[${PYTHON_USEDEP}] )
+	deploy? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flask[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

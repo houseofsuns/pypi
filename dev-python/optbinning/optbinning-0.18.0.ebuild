@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="distributed"
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.1[${PYTHON_USEDEP}]
 	dev-python/ortools[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/ropwr[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
 	distributed? ( dev-python/pympler[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/tdigest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

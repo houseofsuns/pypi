@@ -50,10 +50,10 @@ DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
 	pipeline? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	storage? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
 	storage? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	storage? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	storage? ( >=dev-python/boto3-1.15[${PYTHON_USEDEP}] )
 	storage? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	storage? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	storage? ( dev-python/httplib2[${PYTHON_USEDEP}] )
+	storage? ( <=dev-python/httplib2-0.15[${PYTHON_USEDEP}] )
 	storage? ( dev-python/pysftp[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

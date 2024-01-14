@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
 	dev-python/rpy2[${PYTHON_USEDEP}]
-	dev-python/requests-file[${PYTHON_USEDEP}]"
+	<dev-python/requests-file-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

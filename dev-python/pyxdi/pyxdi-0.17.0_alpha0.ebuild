@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async docs"
-DEPENDENCIES="async? ( dev-python/anyio[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )"
+DEPENDENCIES="async? ( <dev-python/anyio-4.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

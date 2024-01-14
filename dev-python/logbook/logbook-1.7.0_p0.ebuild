@@ -27,13 +27,13 @@ IUSE="all compression dev docs execnet jinja redis sqlalchemy test zmq"
 DEPENDENCIES="all? ( dev-python/Logbook[${PYTHON_USEDEP}] )
 	compression? ( dev-python/brotli[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Logbook[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	execnet? ( dev-python/execnet[${PYTHON_USEDEP}] )
+	execnet? ( >=dev-python/execnet-1.0.9[${PYTHON_USEDEP}] )
 	jinja? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	sqlalchemy? ( >=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	zmq? ( dev-python/pyzmq[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

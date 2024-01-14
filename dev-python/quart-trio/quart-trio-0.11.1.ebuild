@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/exceptiongroup[${PYTHON_USEDEP}]
-	dev-python/hypercorn[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/exceptiongroup-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/hypercorn-0.12.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/pydata_sphinx_theme[${PYTHON_USEDEP}] )
 	dev-python/quart[${PYTHON_USEDEP}]
-	dev-python/trio[${PYTHON_USEDEP}]"
+	>=dev-python/trio-0.19.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

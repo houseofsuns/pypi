@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deconvolution full plot pynumpress"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.8.0[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	deconvolution? ( dev-python/ms-deisotope[${PYTHON_USEDEP}] )
-	full? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	full? ( <dev-python/plotly-5.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/pynumpress[${PYTHON_USEDEP}] )
 	full? ( dev-python/ms-deisotope[${PYTHON_USEDEP}] )
-	plot? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	plot? ( <dev-python/plotly-5.0[${PYTHON_USEDEP}] )
 	pynumpress? ( dev-python/pynumpress[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

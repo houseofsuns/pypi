@@ -27,7 +27,7 @@ IUSE="instruments test"
 DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
-	instruments? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	instruments? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-pymongo[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

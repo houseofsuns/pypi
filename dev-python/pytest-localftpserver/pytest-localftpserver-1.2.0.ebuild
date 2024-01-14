@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyftpdlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyftpdlib-1.2.0[${PYTHON_USEDEP}]
 	dev-python/PyOpenSSL[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

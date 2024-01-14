@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.3[${PYTHON_USEDEP}]
 	dev-python/scikit-sparse[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pybind11[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.2.1[${PYTHON_USEDEP}]
+	>=dev-python/pybind11-2.7.1[${PYTHON_USEDEP}]
+	~dev-python/semantic-version-2.10.0[${PYTHON_USEDEP}]
 	dev-python/torchlie[${PYTHON_USEDEP}]
 	dev-python/torchkin[${PYTHON_USEDEP}]
-	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/numpy-1.19.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/scipy-1.5.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-sparse[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pybind11[${PYTHON_USEDEP}] )
-	dev? ( dev-python/semantic-version[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pybind11-2.7.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/semantic-version-2.10.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torchlie[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torchkin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.981[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-copyright[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

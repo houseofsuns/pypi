@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cache"
-DEPENDENCIES="dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/wcmatch[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/mkdocs-1.4[${PYTHON_USEDEP}]
+	<dev-python/wcmatch-9.0[${PYTHON_USEDEP}]
 	cache? ( dev-python/platformdirs[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

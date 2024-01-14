@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev format lint test"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
-	format? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	format? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	format? ( <dev-python/black-24.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-24.0.0[${PYTHON_USEDEP}] )
+	format? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	lint? ( <dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
@@ -48,6 +48,6 @@ DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -32,8 +32,8 @@ DEPENDENCIES="dev-python/fileformats[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/fileformats-medimage-extras[${PYTHON_USEDEP}] )
 	test? ( dev-python/medimages4tests[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-env-0.6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop docs example"
-DEPENDENCIES="dev-python/helpdev[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/helpdev-0.6.10[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/PyQtWebEngine[${PYTHON_USEDEP}]
 	develop? ( dev-python/qtsass[${PYTHON_USEDEP}] )

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="arabic chinese greek hebrew japanese korean lexrank lsa"
-DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/docopt-0.7[${PYTHON_USEDEP}]
 	dev-python/breadability[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pycountry-18.2.23[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
 	arabic? ( dev-python/pyarabic[${PYTHON_USEDEP}] )
 	chinese? ( dev-python/jieba[${PYTHON_USEDEP}] )

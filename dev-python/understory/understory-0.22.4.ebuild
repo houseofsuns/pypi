@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/python-whois[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
-	dev-python/stripe[${PYTHON_USEDEP}]
+	<dev-python/phonenumbers-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/stripe-6.0.0[${PYTHON_USEDEP}]
 	dev-python/webint[${PYTHON_USEDEP}]
 	dev-python/webint-data[${PYTHON_USEDEP}]
 	dev-python/webint-system[${PYTHON_USEDEP}]"

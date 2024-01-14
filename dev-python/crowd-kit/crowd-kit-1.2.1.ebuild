@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="learning"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]

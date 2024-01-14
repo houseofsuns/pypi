@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="dev-python/gssapi[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/gssapi-2.0.0[${PYTHON_USEDEP}]
 	dev-python/bravado[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/requests-gssapi[${PYTHON_USEDEP}]
-	cli? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/cryptography-2.3[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/click-9.0[${PYTHON_USEDEP}] )
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

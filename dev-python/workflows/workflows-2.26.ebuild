@@ -27,7 +27,7 @@ IUSE="prometheus"
 DEPENDENCIES="dev-python/bidict[${PYTHON_USEDEP}]
 	dev-python/pika[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/stomp-py[${PYTHON_USEDEP}]
+	>=dev-python/stomp-py-7.0[${PYTHON_USEDEP}]
 	prometheus? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

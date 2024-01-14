@@ -26,20 +26,20 @@ KEYWORDS="~amd64 ~x86"
 IUSE="base dev"
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/openmetadata-ingestion[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
+	~dev-python/packaging-21.2[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Admin[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/setuptools-58.3.0[${PYTHON_USEDEP}]
 	base? ( dev-python/apache-airflow[${PYTHON_USEDEP}] )
 	base? ( dev-python/openmetadata-ingestion[${PYTHON_USEDEP}] )
-	base? ( dev-python/pendulum[${PYTHON_USEDEP}] )
-	base? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	base? ( ~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}] )
+	base? ( ~dev-python/packaging-21.2[${PYTHON_USEDEP}] )
 	base? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	base? ( dev-python/Flask-Admin[${PYTHON_USEDEP}] )
-	base? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	base? ( ~dev-python/setuptools-58.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )

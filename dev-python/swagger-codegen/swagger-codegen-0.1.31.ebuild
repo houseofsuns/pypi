@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all async sync"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	<dev-python/multidict-6.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+	<dev-python/inflection-0.6[${PYTHON_USEDEP}]
 	dev-python/schemathesis[${PYTHON_USEDEP}]
-	dev-python/boltons[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/boltons-21.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-10.0.0[${PYTHON_USEDEP}]
 	async? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	all? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	async? ( dev-python/aiohttp[${PYTHON_USEDEP}] )

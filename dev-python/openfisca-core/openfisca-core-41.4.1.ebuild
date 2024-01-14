@@ -26,34 +26,34 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ci dev tracker web-api"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/numexpr[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-7.0[${PYTHON_USEDEP}]
+	<dev-python/numexpr-3.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.25[${PYTHON_USEDEP}]
+	<dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0[${PYTHON_USEDEP}]
+	<dev-python/sortedcontainers-3.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev-python/StrEnum[${PYTHON_USEDEP}]
-	ci? ( dev-python/build[${PYTHON_USEDEP}] )
+	ci? ( <dev-python/build-0.11.0[${PYTHON_USEDEP}] )
 	ci? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	ci? ( dev-python/twine[${PYTHON_USEDEP}] )
-	ci? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	ci? ( <dev-python/twine-5.0[${PYTHON_USEDEP}] )
+	ci? ( <dev-python/wheel-0.41.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/coverage-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/darglint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-rst-docstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/idna[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/openapi-spec-validator[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/xdoctest[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/idna-4.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/openapi-spec-validator-0.6.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pycodestyle-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/xdoctest-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flask-Cors[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gunicorn[${PYTHON_USEDEP}] )

@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/basicserial[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]
+	<dev-python/pycodestyle-2.9[${PYTHON_USEDEP}]
 	dev-python/pep8-naming[${PYTHON_USEDEP}]
 	dev-python/pyroma[${PYTHON_USEDEP}]
 	dev-python/vulture[${PYTHON_USEDEP}]
-	dev-python/bandit[${PYTHON_USEDEP}]
-	dev-python/pyflakes[${PYTHON_USEDEP}]
-	dev-python/mccabe[${PYTHON_USEDEP}]
+	<dev-python/bandit-2.0[${PYTHON_USEDEP}]
+	<dev-python/pyflakes-2.5[${PYTHON_USEDEP}]
+	<dev-python/mccabe-0.7[${PYTHON_USEDEP}]
 	dev-python/demjson3[${PYTHON_USEDEP}]
 	dev-python/yamllint[${PYTHON_USEDEP}]
-	dev-python/restructuredtext-lint[${PYTHON_USEDEP}]
+	<dev-python/restructuredtext-lint-2.0[${PYTHON_USEDEP}]
 	dev-python/dennis[${PYTHON_USEDEP}]
 	dev-python/check-manifest[${PYTHON_USEDEP}]
 	dev-python/pydiatra[${PYTHON_USEDEP}]
 	dev-python/detect-secrets[${PYTHON_USEDEP}]
-	dev-python/eradicate[${PYTHON_USEDEP}]
+	<dev-python/eradicate-3.0[${PYTHON_USEDEP}]
 	dev-python/dlint[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/pydocstyle[${PYTHON_USEDEP}]"
+	<dev-python/pylint-2.12[${PYTHON_USEDEP}]
+	<dev-python/pydocstyle-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

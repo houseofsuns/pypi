@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="array"
 DEPENDENCIES="array? ( dev-python/jaxtyping[${PYTHON_USEDEP}] )
-	array? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	array? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
 	array? ( dev-python/torch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

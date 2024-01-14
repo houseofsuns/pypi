@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="argcomplete dumper kerberos sftp ssh swift"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/dogpile-cache[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	ssh? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	kerberos? ( dev-python/kerberos[${PYTHON_USEDEP}] )
+DEPENDENCIES="<=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]
+	~dev-python/dogpile-cache-1.2.2[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.18.4[${PYTHON_USEDEP}]
+	ssh? ( ~dev-python/paramiko-3.4.0[${PYTHON_USEDEP}] )
+	kerberos? ( ~dev-python/kerberos-1.3.1[${PYTHON_USEDEP}] )
 	kerberos? ( dev-python/pykerberos[${PYTHON_USEDEP}] )
-	kerberos? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
-	swift? ( dev-python/python-swiftclient[${PYTHON_USEDEP}] )
-	argcomplete? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
-	sftp? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	dumper? ( dev-python/python-magic[${PYTHON_USEDEP}] )"
+	kerberos? ( >=dev-python/requests-kerberos-0.14.0[${PYTHON_USEDEP}] )
+	swift? ( ~dev-python/python-swiftclient-4.3.0[${PYTHON_USEDEP}] )
+	argcomplete? ( ~dev-python/argcomplete-3.1.1[${PYTHON_USEDEP}] )
+	sftp? ( ~dev-python/paramiko-3.4.0[${PYTHON_USEDEP}] )
+	dumper? ( ~dev-python/python-magic-0.4.27[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.9.2[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	async? ( dev-python/flask[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

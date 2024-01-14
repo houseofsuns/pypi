@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc tests"
 DEPENDENCIES="dev-python/joblib[${PYTHON_USEDEP}]
 	dev-python/segments[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-18.1[${PYTHON_USEDEP}]
 	dev-python/dlinfo[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )

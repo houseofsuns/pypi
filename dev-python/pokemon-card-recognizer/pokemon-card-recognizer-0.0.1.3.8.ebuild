@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/bidict[${PYTHON_USEDEP}]
 	dev-python/ocr-ops[${PYTHON_USEDEP}]
 	dev-python/ordered-set[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
 	dev-python/pokemontcgsdk[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

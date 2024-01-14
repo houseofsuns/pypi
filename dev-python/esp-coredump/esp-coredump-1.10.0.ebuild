@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/construct[${PYTHON_USEDEP}]
-	dev-python/pygdbmi[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/construct-2.10[${PYTHON_USEDEP}]
+	>=dev-python/pygdbmi-0.9.0.2[${PYTHON_USEDEP}]
 	dev-python/esptool[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/commitizen[${PYTHON_USEDEP}] )"

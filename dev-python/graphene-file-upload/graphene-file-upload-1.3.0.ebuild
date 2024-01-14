@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all django flask tests"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	all? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	all? ( dev-python/graphene[${PYTHON_USEDEP}] )
 	all? ( dev-python/Flask-Graphql[${PYTHON_USEDEP}] )

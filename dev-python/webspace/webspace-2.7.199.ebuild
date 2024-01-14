@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-3.0.9[${PYTHON_USEDEP}]
 	dev-python/wagtail[${PYTHON_USEDEP}]
 	dev-python/django-storages[${PYTHON_USEDEP}]
 	dev-python/django-user-agents[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/readtime[${PYTHON_USEDEP}]
-	dev-python/fs[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.2.1[${PYTHON_USEDEP}]
+	~dev-python/readtime-1.1.1[${PYTHON_USEDEP}]
+	~dev-python/fs-2.4.11[${PYTHON_USEDEP}]
 	dev-python/django-social-share[${PYTHON_USEDEP}]
 	dev-python/django-environ[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.6.19[${PYTHON_USEDEP}]
 	dev-python/uwsgi[${PYTHON_USEDEP}]
 	dev-python/django-wagtail-feeds[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	~dev-python/ipython-5.3.0[${PYTHON_USEDEP}]
 	dev-python/django-rosetta[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	~dev-python/sentry-sdk-0.16.5[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/redis-3.5.3[${PYTHON_USEDEP}]
 	dev-python/django-csp[${PYTHON_USEDEP}]
 	dev-python/wagtailyoast[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

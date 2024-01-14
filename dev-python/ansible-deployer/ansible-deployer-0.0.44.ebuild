@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/cerberus[${PYTHON_USEDEP}]
-	dev-python/pytest-testinfra[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/cerberus-1.3.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-testinfra-6.6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

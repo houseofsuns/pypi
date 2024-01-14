@@ -24,42 +24,42 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dist docs format heroku lint tests validation"
-DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/packaging-18.0[${PYTHON_USEDEP}]
 	dev-python/coreapi[${PYTHON_USEDEP}]
 	dev-python/coreschema[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/uritemplate[${PYTHON_USEDEP}]
+	>=dev-python/django-2.2.0[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/inflection-0.3.1[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.16.12[${PYTHON_USEDEP}]
+	>=dev-python/six-1.15.0[${PYTHON_USEDEP}]
+	>=dev-python/uritemplate-3.0.1[${PYTHON_USEDEP}]
 	dist? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dist? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/djangorestframework-camel-case[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	docs? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/readme-renderer-24.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.2.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/twine[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/twine-1.12.1[${PYTHON_USEDEP}] )
 	format? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	format? ( dev-python/black[${PYTHON_USEDEP}] )
-	format? ( dev-python/isort[${PYTHON_USEDEP}] )
-	heroku? ( dev-python/dj-database-url[${PYTHON_USEDEP}] )
+	format? ( >=dev-python/black-20.8.0[${PYTHON_USEDEP}] )
+	format? ( >=dev-python/isort-4.2.0[${PYTHON_USEDEP}] )
+	heroku? ( >=dev-python/dj-database-url-0.4.2[${PYTHON_USEDEP}] )
 	heroku? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	heroku? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	heroku? ( dev-python/whitenoise[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/dj-database-url[${PYTHON_USEDEP}] )
-	tests? ( dev-python/django-cors-headers[${PYTHON_USEDEP}] )
-	tests? ( dev-python/django-filter[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/dj-database-url-0.4.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/django-cors-headers-3.0.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/django-filter-1.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/django-oauth-toolkit[${PYTHON_USEDEP}] )
 	tests? ( dev-python/djangorestframework-camel-case[${PYTHON_USEDEP}] )
 	tests? ( dev-python/djangorestframework-recursive[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tox[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-4.6.11[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-django-3.10.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/tox-3.3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/user-agents[${PYTHON_USEDEP}] )
-	validation? ( dev-python/swagger-spec-validator[${PYTHON_USEDEP}] )"
+	validation? ( >=dev-python/swagger-spec-validator-2.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

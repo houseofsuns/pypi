@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="experimental"
 DEPENDENCIES="dev-python/tiledbsoma[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.25[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/tiledbsoma[${PYTHON_USEDEP}]
 	experimental? ( dev-python/torchdata[${PYTHON_USEDEP}] )
 	experimental? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	experimental? ( dev-python/scikit-misc[${PYTHON_USEDEP}] )
-	experimental? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	experimental? ( ~dev-python/psutil-5.9.5[${PYTHON_USEDEP}] )
 	experimental? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	experimental? ( dev-python/tdigest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

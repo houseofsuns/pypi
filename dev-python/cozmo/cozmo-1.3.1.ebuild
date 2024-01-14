@@ -28,9 +28,9 @@ DEPENDENCIES="3dviewer? ( dev-python/PyOpenGL[${PYTHON_USEDEP}] )
 	dev-python/cozmoclad[${PYTHON_USEDEP}]
 	3dviewer? ( dev-python/PyOpenGL-accelerate[${PYTHON_USEDEP}] )
 	3dviewer? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	3dviewer? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	3dviewer? ( >=dev-python/numpy-1.11[${PYTHON_USEDEP}] )
 	camera? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	camera? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	camera? ( >=dev-python/numpy-1.11[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

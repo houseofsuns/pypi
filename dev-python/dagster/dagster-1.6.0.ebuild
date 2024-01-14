@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docker mypy pyright ruff test"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-5.0[${PYTHON_USEDEP}]
+	<=dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	>=dev-python/alembic-1.2.1[${PYTHON_USEDEP}]
+	>=dev-python/croniter-0.3.34[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.44.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-health-checking[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
+	<dev-python/pendulum-3.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
@@ -41,20 +41,20 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/tomli-3.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
 	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/toposort[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}]
+	>=dev-python/toposort-1.0[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev-python/universal-pathlib[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/dagster-pipes[${PYTHON_USEDEP}]
 	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	mypy? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
 	pyright? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	pyright? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	pyright? ( dev-python/types-backports[${PYTHON_USEDEP}] )
@@ -78,20 +78,20 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	pyright? ( dev-python/types-toml[${PYTHON_USEDEP}] )
 	ruff? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/docker[${PYTHON_USEDEP}] )
-	test? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/grpcio-tools-1.44.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-3.0.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
 	test? ( dev-python/objgraph[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-dependency[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.3.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-rerunfailures-10.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/responses-0.23.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/syrupy[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tox-3.25.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/buildkite-test-collector[${PYTHON_USEDEP}] )
 	test? ( dev-python/morefs[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

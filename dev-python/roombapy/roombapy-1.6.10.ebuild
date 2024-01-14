@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/paho-mqtt-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.8.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

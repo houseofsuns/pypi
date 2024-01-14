@@ -26,55 +26,55 @@ KEYWORDS="~amd64 ~x86"
 IUSE="celery ci compress dev diskcache testing"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Werkzeug[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.0.0[${PYTHON_USEDEP}]
 	dev-python/dash-html-components[${PYTHON_USEDEP}]
 	dev-python/dash-core-components[${PYTHON_USEDEP}]
 	dev-python/dash-table[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/retrying[${PYTHON_USEDEP}]
 	dev-python/ansi2html[${PYTHON_USEDEP}]
 	dev-python/nest-asyncio[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	celery? ( dev-python/redis[${PYTHON_USEDEP}] )
+	celery? ( >=dev-python/redis-3.5.3[${PYTHON_USEDEP}] )
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	ci? ( dev-python/dash-flow-example[${PYTHON_USEDEP}] )
 	ci? ( dev-python/dash-dangerously-set-inner-html[${PYTHON_USEDEP}] )
-	ci? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	ci? ( dev-python/flaky[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/flaky-3.7.0[${PYTHON_USEDEP}] )
 	ci? ( dev-python/flask-talisman[${PYTHON_USEDEP}] )
 	ci? ( dev-python/mimesis[${PYTHON_USEDEP}] )
-	ci? ( dev-python/mock[${PYTHON_USEDEP}] )
-	ci? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
+	ci? ( <=dev-python/numpy-1.25.2[${PYTHON_USEDEP}] )
 	ci? ( dev-python/preconditions[${PYTHON_USEDEP}] )
-	ci? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/pylint-2.13.5[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	ci? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/pytest-sugar-0.9.6[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	ci? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	ci? ( dev-python/black[${PYTHON_USEDEP}] )
-	ci? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	ci? ( <dev-python/jupyterlab-4.0.0[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/orjson-3.6.7[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	ci? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	ci? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	ci? ( dev-python/xlrd[${PYTHON_USEDEP}] )
+	ci? ( >=dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
+	ci? ( >=dev-python/xlrd-2.0.1[${PYTHON_USEDEP}] )
 	compress? ( dev-python/flask-compress[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coloredlogs[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fire[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	diskcache? ( dev-python/diskcache[${PYTHON_USEDEP}] )
-	diskcache? ( dev-python/multiprocess[${PYTHON_USEDEP}] )
-	diskcache? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	testing? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	testing? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	diskcache? ( >=dev-python/diskcache-5.2.1[${PYTHON_USEDEP}] )
+	diskcache? ( >=dev-python/multiprocess-0.70.12[${PYTHON_USEDEP}] )
+	diskcache? ( >=dev-python/psutil-5.8.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/beautifulsoup4-4.8.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/lxml-4.6.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/percy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/requests[${PYTHON_USEDEP}] )
-	testing? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	testing? ( dev-python/waitress[${PYTHON_USEDEP}] )
-	testing? ( dev-python/multiprocess[${PYTHON_USEDEP}] )
-	testing? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/requests-2.21.0[${PYTHON_USEDEP}] )
+	testing? ( <=dev-python/selenium-4.2.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/waitress-1.4.4[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/multiprocess-0.70.12[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/psutil-5.8.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/dash-testing-stub[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

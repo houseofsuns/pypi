@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="format lint tests"
-DEPENDENCIES="dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	format? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/paho-mqtt-1.6.0[${PYTHON_USEDEP}]
+	format? ( >=dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/mypy-0.991[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-paho-mqtt[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/anyio[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/anyio-3.6.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

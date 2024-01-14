@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/meteor-ejson[${PYTHON_USEDEP}]
 	dev-python/psycogreen[${PYTHON_USEDEP}]
 	dev-python/pybars3[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/gevent-websocket[${PYTHON_USEDEP}]
 	dev-python/psycopg2cffi[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
@@ -36,6 +36,6 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	develop? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	develop? ( dev-python/Sphinx-PyPI-upload[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinxcontrib-dashbuilder[${PYTHON_USEDEP}] )
-	develop? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	develop? ( >=dev-python/twine-1.6.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

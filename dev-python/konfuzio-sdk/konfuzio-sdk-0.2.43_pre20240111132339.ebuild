@@ -24,49 +24,49 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ai dev"
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
-	dev-python/lz4[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
+	~dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
+	~dev-python/filetype-1.0.7[${PYTHON_USEDEP}]
+	>=dev-python/lz4-4.3.2[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.7.1[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.4[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	>=dev-python/regex-2020.6.8[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
 	dev-python/pympler[${PYTHON_USEDEP}]
 	ai? ( dev-python/accelerate[${PYTHON_USEDEP}] )
-	ai? ( dev-python/chardet[${PYTHON_USEDEP}] )
+	ai? ( ~dev-python/chardet-5.1.0[${PYTHON_USEDEP}] )
 	ai? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	ai? ( dev-python/evaluate[${PYTHON_USEDEP}] )
-	ai? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	ai? ( ~dev-python/pydantic-1.10.8[${PYTHON_USEDEP}] )
 	ai? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	ai? ( dev-python/torch[${PYTHON_USEDEP}] )
 	ai? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	ai? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	ai? ( dev-python/tensorflow-cpu[${PYTHON_USEDEP}] )
 	ai? ( dev-python/timm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/parameterized-0.8.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-reload[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-notfound-page-0.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-nb[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

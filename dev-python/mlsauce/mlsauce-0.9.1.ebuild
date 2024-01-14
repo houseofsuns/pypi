@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="alldeps"
 DEPENDENCIES="dev-python/jax[${PYTHON_USEDEP}]
 	dev-python/jaxlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.13.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.19.0[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	alldeps? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	alldeps? ( >=dev-python/numpy-1.13.0[${PYTHON_USEDEP}] )
+	alldeps? ( >=dev-python/scipy-0.19.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

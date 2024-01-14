@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/ruff[${PYTHON_USEDEP}]
 	dev-python/python-lsp-server[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
+	>dev-python/cattrs-23.2.1[${PYTHON_USEDEP}]
 	dev-python/lsprotocol[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

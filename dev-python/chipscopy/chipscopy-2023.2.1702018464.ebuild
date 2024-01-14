@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="core-addons jupyter pytcf"
-DEPENDENCIES="dev-python/more-itertools[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/more-itertools-11.0[${PYTHON_USEDEP}]
 	dev-python/typing_extensions[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.8[${PYTHON_USEDEP}]
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}]
+	~dev-python/antlr4-python3-runtime-4.10[${PYTHON_USEDEP}]
 	core-addons? ( dev-python/kaleido[${PYTHON_USEDEP}] )
-	core-addons? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	core-addons? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	core-addons? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	core-addons? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	core-addons? ( <dev-python/plotly-6.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/notebook-8.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/ipywidgets-9.0[${PYTHON_USEDEP}] )
+	core-addons? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	core-addons? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
+	core-addons? ( <dev-python/PyQt5-6.0[${PYTHON_USEDEP}] )
 	pytcf? ( dev-python/pytcf[${PYTHON_USEDEP}] )
 	core-addons? ( dev-python/ipympl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/catkin-pkg[${PYTHON_USEDEP}]
 	dev-python/colcon-pkg-config[${PYTHON_USEDEP}]
 	dev-python/colcon-python-setup-py[${PYTHON_USEDEP}]
 	dev-python/colcon-recursive-crawl[${PYTHON_USEDEP}]
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-class-newline[${PYTHON_USEDEP}] )

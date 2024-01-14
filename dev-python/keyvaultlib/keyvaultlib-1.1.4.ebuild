@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/msrestazure[${PYTHON_USEDEP}]
 	dev-python/azure-keyvault[${PYTHON_USEDEP}]
 	dev-python/azure-common[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.24.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

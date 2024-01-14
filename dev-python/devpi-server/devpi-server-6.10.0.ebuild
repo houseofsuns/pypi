@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/py-1.4.23[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/argon2-cffi[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
 	dev-python/devpi-common[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	>=dev-python/itsdangerous-0.24[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
-	dev-python/repoze-lru[${PYTHON_USEDEP}]
+	>=dev-python/waitress-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/repoze-lru-0.6[${PYTHON_USEDEP}]
 	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
+	<dev-python/pluggy-2.0[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/strictyaml[${PYTHON_USEDEP}]
 	dev-python/lazy[${PYTHON_USEDEP}]"

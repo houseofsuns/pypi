@@ -29,8 +29,8 @@ DEPENDENCIES="dev-python/notebook[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
 	dev-python/jupyter-server[${PYTHON_USEDEP}]
 	dev-python/singleton-decorator[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev? ( dev-python/jupyter-packaging[${PYTHON_USEDEP}] )
+	>=dev-python/jupyterlab-2.0.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/jupyter-packaging-0.7.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )"

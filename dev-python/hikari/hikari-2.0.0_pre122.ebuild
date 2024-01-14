@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="server speedups"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	server? ( dev-python/pynacl[${PYTHON_USEDEP}] )
-	speedups? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
+	~dev-python/attrs-23.1[${PYTHON_USEDEP}]
+	~dev-python/colorlog-6.7[${PYTHON_USEDEP}]
+	~dev-python/multidict-6.0[${PYTHON_USEDEP}]
+	server? ( ~dev-python/pynacl-1.5[${PYTHON_USEDEP}] )
+	speedups? ( ~dev-python/aiohttp-3.8[${PYTHON_USEDEP}] )
 	speedups? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
-	speedups? ( dev-python/orjson[${PYTHON_USEDEP}] )"
+	speedups? ( ~dev-python/orjson-3.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

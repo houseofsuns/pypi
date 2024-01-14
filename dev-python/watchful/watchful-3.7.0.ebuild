@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="enrich"
-DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/chardet-5.1.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	enrich? ( dev-python/flair[${PYTHON_USEDEP}] )
 	enrich? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	enrich? ( dev-python/spacytextblob[${PYTHON_USEDEP}] )"

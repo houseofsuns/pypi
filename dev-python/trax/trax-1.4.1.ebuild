@@ -47,6 +47,6 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/wrapt[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/wrapt-1.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

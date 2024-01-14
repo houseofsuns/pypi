@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="queuable sentry test"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.9.68[${PYTHON_USEDEP}]
 	dev-python/memoized-property[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	queuable? ( dev-python/pyinotify[${PYTHON_USEDEP}] )
+	>=dev-python/click-4.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.1.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.5[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.4.2[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2015.4[${PYTHON_USEDEP}]
+	queuable? ( >=dev-python/pyinotify-0.9.4[${PYTHON_USEDEP}] )
 	sentry? ( dev-python/raven[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/moto[${PYTHON_USEDEP}] )
-	test? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/pip[${PYTHON_USEDEP}] )
-	test? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/moto-5.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/twine-4.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pip-22.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/wheel-0.38.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-4.1[${PYTHON_USEDEP}] )
+	test? ( <dev-python/responses-0.22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="ods xls xlsx"
 DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
 	dev-python/lml[${PYTHON_USEDEP}]
 	dev-python/pyexcel-io[${PYTHON_USEDEP}]
-	dev-python/texttable[${PYTHON_USEDEP}]
+	>=dev-python/texttable-0.8.2[${PYTHON_USEDEP}]
 	ods? ( dev-python/pyexcel-ods3[${PYTHON_USEDEP}] )
 	xls? ( dev-python/pyexcel-xls[${PYTHON_USEDEP}] )
 	xlsx? ( dev-python/pyexcel-xlsx[${PYTHON_USEDEP}] )"

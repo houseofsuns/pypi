@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/orjson-3.7.5[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.9.1[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/coverage-5.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aws-cdk-lib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( dev-python/awslambdaric[${PYTHON_USEDEP}] )
-	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/botocore[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/boto3-1.20.32[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/botocore-1.23.32[${PYTHON_USEDEP}] )
 	dev? ( dev-python/openapi-schema-pydantic[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
 	tests? ( dev-python/awslambdaric[${PYTHON_USEDEP}] )
-	tests? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	tests? ( dev-python/botocore[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/boto3-1.20.32[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/botocore-1.23.32[${PYTHON_USEDEP}] )
 	tests? ( dev-python/openapi-schema-pydantic[${PYTHON_USEDEP}] )
 	tests? ( dev-python/openapi-spec-validator[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pydantic-core[${PYTHON_USEDEP}] )"

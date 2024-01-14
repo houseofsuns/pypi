@@ -28,13 +28,13 @@ DEPENDENCIES="dev-python/SigProfilerMatrixGenerator[${PYTHON_USEDEP}]
 	dev-python/SigProfilerSimulator[${PYTHON_USEDEP}]
 	dev-python/SigProfilerAssignment[${PYTHON_USEDEP}]
 	dev-python/XlsxWriter[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.2.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.9.0[${PYTHON_USEDEP}]
 	dev-python/fastrand[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/intervaltree[${PYTHON_USEDEP}]"
+	>=dev-python/psutil-5.6.3[${PYTHON_USEDEP}]
+	>=dev-python/intervaltree-3.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/chroma-py[${PYTHON_USEDEP}]
 	dev-python/colour[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )

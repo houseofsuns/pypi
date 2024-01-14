@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
+	>=dev-python/ujson-5.9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

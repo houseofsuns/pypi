@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/streamdeck[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/pynput[${PYTHON_USEDEP}]
-	dev-python/pyside6[${PYTHON_USEDEP}]
+	<dev-python/pyside6-7.0.0[${PYTHON_USEDEP}]
 	dev-python/CairoSVG[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
-	dev-python/python-xlib[${PYTHON_USEDEP}]"
+	<dev-python/filetype-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-xlib-0.34[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

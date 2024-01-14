@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev tests"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )"
+	~dev-python/click-8.0.4[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/black-21.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.9.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/black-21.7[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/isort-5.9.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

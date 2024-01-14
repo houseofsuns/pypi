@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/kipoi[${PYTHON_USEDEP}]
 	develop? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	develop? ( dev-python/epc[${PYTHON_USEDEP}] )
 	develop? ( dev-python/jedi[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-3.3.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )

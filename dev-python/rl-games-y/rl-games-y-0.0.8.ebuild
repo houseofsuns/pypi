@@ -33,9 +33,9 @@ DEPENDENCIES="atari? ( dev-python/AutoROM[${PYTHON_USEDEP}] )
 	brax? ( dev-python/jax[${PYTHON_USEDEP}] )
 	mujoco? ( dev-python/mujoco-py[${PYTHON_USEDEP}] )
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/ray[${PYTHON_USEDEP}]
-	dev-python/setproctitle[${PYTHON_USEDEP}]
+	<dev-python/setproctitle-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
 	dev-python/tensorboardX[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]"

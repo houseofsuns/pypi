@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/liquidpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
 	dev-python/enlighten[${PYTHON_USEDEP}]
 	dev-python/argx[${PYTHON_USEDEP}]
 	dev-python/xqute[${PYTHON_USEDEP}]

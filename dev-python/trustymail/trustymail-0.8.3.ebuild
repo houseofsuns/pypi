@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/dnspython[${PYTHON_USEDEP}]
 	dev-python/py3dns[${PYTHON_USEDEP}]
 	dev-python/pyspf[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-24.2.0[${PYTHON_USEDEP}]
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )

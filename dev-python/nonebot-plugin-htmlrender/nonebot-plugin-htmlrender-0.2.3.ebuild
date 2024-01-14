@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/playwright[${PYTHON_USEDEP}]
 	dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.3.6[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
-	dev-python/python-markdown-math[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]"
+	>=dev-python/python-markdown-math-0.8[${PYTHON_USEDEP}]
+	>=dev-python/pymdown-extensions-9.1[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

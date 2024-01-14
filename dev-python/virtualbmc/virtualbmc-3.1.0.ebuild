@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cliff[${PYTHON_USEDEP}]
-	dev-python/libvirt-python[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/pyghmi[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/cliff-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/libvirt-python-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyghmi-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-19.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

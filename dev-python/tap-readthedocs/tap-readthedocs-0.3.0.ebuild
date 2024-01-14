@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev testing typing"
-DEPENDENCIES="dev-python/requests-cache[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-cache-1.0[${PYTHON_USEDEP}]
 	dev-python/singer-sdk[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
+	~dev-python/toolz-0.12.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/tap-readthedocs[${PYTHON_USEDEP}] )
 	testing? ( dev-python/deptry[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/singer-sdk[${PYTHON_USEDEP}] )
 	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	typing? ( dev-python/types-requests[${PYTHON_USEDEP}] )"

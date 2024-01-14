@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmarking code_style compare linkify plugins profiling rtd testing"
-DEPENDENCIES="dev-python/mdurl[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/mdurl-0.1[${PYTHON_USEDEP}]
 	benchmarking? ( dev-python/psutil[${PYTHON_USEDEP}] )
 	benchmarking? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	benchmarking? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	compare? ( dev-python/commonmark[${PYTHON_USEDEP}] )
-	compare? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	compare? ( dev-python/mistletoe[${PYTHON_USEDEP}] )
-	compare? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	compare? ( ~dev-python/commonmark-0.9[${PYTHON_USEDEP}] )
+	compare? ( ~dev-python/markdown-3.4[${PYTHON_USEDEP}] )
+	compare? ( ~dev-python/mistletoe-1.0[${PYTHON_USEDEP}] )
+	compare? ( ~dev-python/mistune-2.0[${PYTHON_USEDEP}] )
 	compare? ( dev-python/panflute[${PYTHON_USEDEP}] )
-	linkify? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
+	linkify? ( <dev-python/linkify-it-py-3.0[${PYTHON_USEDEP}] )
 	plugins? ( dev-python/mdit-py-plugins[${PYTHON_USEDEP}] )
 	profiling? ( dev-python/gprof2dot[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/mdit-py-plugins[${PYTHON_USEDEP}] )

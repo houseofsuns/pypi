@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy docs"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/markdown2[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>dev-python/python-dotenv-0.17[${PYTHON_USEDEP}]
+	<dev-python/markdown2-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/django-browser-reload[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/linkify-it-py-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/myst-parser-0.17.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/furo-2022.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/toml[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/gunicorn[${PYTHON_USEDEP}] )

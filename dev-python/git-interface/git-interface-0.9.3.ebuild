@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="quart ssh"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiofiles-0.8[${PYTHON_USEDEP}]
 	quart? ( dev-python/quart[${PYTHON_USEDEP}] )
-	quart? ( dev-python/async-timeout[${PYTHON_USEDEP}] )
+	quart? ( >=dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}] )
 	ssh? ( dev-python/asyncssh[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

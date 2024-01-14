@@ -34,7 +34,7 @@ DEPENDENCIES="dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jedi[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jedi-0.17.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

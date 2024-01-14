@@ -25,39 +25,39 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="azure docs memray montydb notebook_runner testing vault"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.18[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-4.2.0[${PYTHON_USEDEP}]
 	dev-python/monty[${PYTHON_USEDEP}]
 	dev-python/mongomock[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.1.1[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.19.6[${PYTHON_USEDEP}]
 	dev-python/mongogrant[${PYTHON_USEDEP}]
 	dev-python/aioitertools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.3[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/sshtunnel[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-24.0.1[${PYTHON_USEDEP}]
+	>=dev-python/dnspython-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/sshtunnel-0.1.5[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-0.5.6[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.20.41[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.18.3[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-1.4.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-8.3.9[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-minify-plugin-0.5.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-0.18.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	memray? ( dev-python/memray[${PYTHON_USEDEP}] )
 	montydb? ( dev-python/montydb[${PYTHON_USEDEP}] )
 	notebook_runner? ( dev-python/IPython[${PYTHON_USEDEP}] )
-	notebook_runner? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	notebook_runner? ( dev-python/regex[${PYTHON_USEDEP}] )
+	notebook_runner? ( >=dev-python/nbformat-5.0[${PYTHON_USEDEP}] )
+	notebook_runner? ( >=dev-python/regex-2020.6[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
@@ -66,11 +66,11 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	testing? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	testing? ( dev-python/moto[${PYTHON_USEDEP}] )
 	testing? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	testing? ( dev-python/responses[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/responses-0.22.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-pyYAML[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
 	testing? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	vault? ( dev-python/hvac[${PYTHON_USEDEP}] )"
+	vault? ( >=dev-python/hvac-0.9.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

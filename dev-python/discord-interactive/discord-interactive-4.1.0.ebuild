@@ -26,19 +26,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev docs hook lint"
 DEPENDENCIES="dev-python/discord-py[${PYTHON_USEDEP}]
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/black-23.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mkdocs-material-9.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mkdocstrings-0.18[${PYTHON_USEDEP}] )
 	all? ( dev-python/mike[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.18[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mike[${PYTHON_USEDEP}] )
 	hook? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
+	lint? ( ~dev-python/black-23.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

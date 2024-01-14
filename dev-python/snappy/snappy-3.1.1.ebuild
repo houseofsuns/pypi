@@ -32,6 +32,6 @@ DEPENDENCIES="dev-python/plink[${PYTHON_USEDEP}]
 	dev-python/snappy-manifolds[${PYTHON_USEDEP}]
 	dev-python/low-index[${PYTHON_USEDEP}]
 	dev-python/cypari[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]"
+	>=dev-python/ipython-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="abi-l1b acspo all amsr2-l1b angles animations avhrr-l1b-gaclac awips-tiled cf clavrx doc filters geocat geotiff geoviews gms5-vissr-l1b holoviews hrit-msg hrpt hsaf-grib hvplot insat-3d modis-l1b msi-safe nc-nwcsaf-msg ninjo omps-edr overlays rayleigh remote-reading sar-c satpos-from-tle seviri-l1b-hrit seviri-l1b-native seviri-l1b-nc seviri-l2-bufr seviri-l2-grib tests units viirs-compact viirs-l1b viirs-sdr"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pyresample[${PYTHON_USEDEP}]
 	dev-python/trollsift[${PYTHON_USEDEP}]
 	dev-python/trollimage[${PYTHON_USEDEP}]
 	dev-python/pykdtree[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.14.1[${PYTHON_USEDEP}]
+	>=dev-python/dask-0.17.1[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-2.2[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	dev-python/donfig[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
@@ -47,10 +47,10 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	acspo? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	clavrx? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	viirs-l1b? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
-	viirs-sdr? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	viirs-compact? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	omps-edr? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	amsr2-l1b? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	viirs-sdr? ( >=dev-python/h5py-2.7.0[${PYTHON_USEDEP}] )
+	viirs-compact? ( >=dev-python/h5py-2.7.0[${PYTHON_USEDEP}] )
+	omps-edr? ( >=dev-python/h5py-2.7.0[${PYTHON_USEDEP}] )
+	amsr2-l1b? ( >=dev-python/h5py-2.7.0[${PYTHON_USEDEP}] )
 	hrpt? ( dev-python/pyorbital[${PYTHON_USEDEP}] )
 	hrpt? ( dev-python/pygac[${PYTHON_USEDEP}] )
 	hrpt? ( dev-python/python-geotiepoints[${PYTHON_USEDEP}] )
@@ -141,7 +141,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/holoviews[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-geotiepoints[${PYTHON_USEDEP}] )
 	all? ( dev-python/pygrib[${PYTHON_USEDEP}] )
-	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/h5py-2.7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
 	all? ( dev-python/pycoast[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pysmi[${PYTHON_USEDEP}]
-	dev-python/pysnmp[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/pysmi-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/pysnmp-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cle graph"
 DEPENDENCIES="dev-python/geomet[${PYTHON_USEDEP}]
-	cle? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	cle? ( >=dev-python/cryptography-35.0[${PYTHON_USEDEP}] )
 	graph? ( dev-python/gremlinpython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

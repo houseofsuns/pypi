@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-1.3.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-1.9.0[${PYTHON_USEDEP}]
 	dev-python/bottleneck[${PYTHON_USEDEP}]
 	dev-python/obspy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.12[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

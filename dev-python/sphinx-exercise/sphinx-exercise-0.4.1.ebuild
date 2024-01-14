@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all code_style rtd testing"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-4.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-book-theme[${PYTHON_USEDEP}]
 	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( <dev-python/docutils-0.19[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	all? ( <dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/texsoup[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	code_style? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	code_style? ( <dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
 	code_style? ( dev-python/black[${PYTHON_USEDEP}] )
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	rtd? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/pytest-4.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-regressions[${PYTHON_USEDEP}] )
 	testing? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	testing? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/docutils-0.19[${PYTHON_USEDEP}] )
 	testing? ( dev-python/texsoup[${PYTHON_USEDEP}] )
 	testing? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

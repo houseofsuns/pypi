@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/asgiref[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/asgiref-4.0.0[${PYTHON_USEDEP}]
 	dev-python/graphene[${PYTHON_USEDEP}]
 	dev-python/mongoengine[${PYTHON_USEDEP}]
 	dev-python/promise[${PYTHON_USEDEP}]

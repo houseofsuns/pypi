@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="hiredis"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	hiredis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	>=dev-python/redis-3.0[${PYTHON_USEDEP}]
+	hiredis? ( >=dev-python/redis-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

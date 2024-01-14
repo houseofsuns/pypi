@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/PyQt6[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/PyQt6-6.3.1[${PYTHON_USEDEP}]
 	dev-python/PyQt6-Frameless-Window[${PYTHON_USEDEP}]
 	dev-python/darkdetect[${PYTHON_USEDEP}]
 	full? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	full? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	full? ( <=dev-python/pillow-9.4.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/colorthief[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

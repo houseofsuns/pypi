@@ -25,26 +25,26 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs graphs notebooks simulations tests"
 DEPENDENCIES="dev-python/klayout[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	graphs? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	graphs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.61[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/sphinx-4.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.4[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/networkx-3.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}] )
+	graphs? ( <dev-python/networkx-3.2[${PYTHON_USEDEP}] )
+	graphs? ( >=dev-python/matplotlib-3.6.3[${PYTHON_USEDEP}] )
+	notebooks? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/klayout[${PYTHON_USEDEP}] )
 	simulations? ( dev-python/gmsh[${PYTHON_USEDEP}] )
-	simulations? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	simulations? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tox[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	simulations? ( >=dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
+	simulations? ( >=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.0.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-2.8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-xdist-2.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/tox-3.18[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pylint-2.9[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/networkx-3.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

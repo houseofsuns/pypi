@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
 	dev-python/polling2[${PYTHON_USEDEP}]
 	dev-python/shibuya[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

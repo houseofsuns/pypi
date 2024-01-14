@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/python-snap7[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	~dev-python/docker-6.0.1[${PYTHON_USEDEP}]
 	dev-python/modbus_tk[${PYTHON_USEDEP}]
 	dev-python/pyModbusTCP[${PYTHON_USEDEP}]
 	dev-python/pyinstaller[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-2.0.4[${PYTHON_USEDEP}]
 	dev-python/pony[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	~dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
+	~dev-python/redis-4.5.1[${PYTHON_USEDEP}]
 	dev-python/pywin32[${PYTHON_USEDEP}]
-	dev-python/rpyc[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
+	~dev-python/rpyc-5.3.1[${PYTHON_USEDEP}]
+	~dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
 	dev-python/websocket[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/DBUtils[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]"
+	~dev-python/websocket-client-1.6.4[${PYTHON_USEDEP}]
+	~dev-python/DBUtils-3.0.3[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.26.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

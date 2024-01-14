@@ -24,37 +24,37 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all llms"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	all? ( dev-python/wikipedia[${PYTHON_USEDEP}] )
-	all? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	all? ( dev-python/opensearch-py[${PYTHON_USEDEP}] )
-	all? ( dev-python/redis[${PYTHON_USEDEP}] )
+	all? ( <dev-python/elasticsearch-9.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/opensearch-py-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/redis-5.0[${PYTHON_USEDEP}] )
 	llms? ( dev-python/manifest-ml[${PYTHON_USEDEP}] )
 	all? ( dev-python/manifest-ml[${PYTHON_USEDEP}] )
 	all? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	all? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	llms? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
+	all? ( <dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}] )
 	llms? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	all? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/weaviate-client[${PYTHON_USEDEP}] )
-	all? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/google-api-python-client-2.70.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/wolframalpha[${PYTHON_USEDEP}] )
 	llms? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	all? ( dev-python/anthropic[${PYTHON_USEDEP}] )
 	all? ( dev-python/qdrant-client[${PYTHON_USEDEP}] )
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	all? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	llms? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	all? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	llms? ( dev-python/openai[${PYTHON_USEDEP}] )
@@ -66,9 +66,9 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	all? ( dev-python/huggingface_hub[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-search-results[${PYTHON_USEDEP}] )
 	all? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	all? ( dev-python/pypdf[${PYTHON_USEDEP}] )
-	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/pypdf-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/networkx-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/aleph-alpha-client[${PYTHON_USEDEP}]
 	dev-python/deeplake[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

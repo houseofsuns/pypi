@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
 DEPENDENCIES="dev-python/django-utils2[${PYTHON_USEDEP}]
-	dev-python/python-utils[${PYTHON_USEDEP}]
+	>=dev-python/python-utils-3.5.2[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	docs? ( dev-python/django[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/django-3.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mock[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-django[${PYTHON_USEDEP}] )

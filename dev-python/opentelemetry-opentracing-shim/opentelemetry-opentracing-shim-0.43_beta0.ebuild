@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/deprecated[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/deprecated-1.2.6[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentracing[${PYTHON_USEDEP}]
 	test? ( dev-python/opentelemetry-test-utils[${PYTHON_USEDEP}] )

@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev-coverage dev-lint dev-type-checking http js"
-DEPENDENCIES="dev-lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev-coverage? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-type-checking? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev-lint? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
+	dev-coverage? ( <dev-python/coverage-7.0[${PYTHON_USEDEP}] )
+	<dev-python/html5lib-2.0[${PYTHON_USEDEP}]
+	>dev-python/importlib-metadata-6.0[${PYTHON_USEDEP}]
+	dev-type-checking? ( <dev-python/mypy-0.1000[${PYTHON_USEDEP}] )
 	dev-python/owlrl[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
 	dev-lint? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
 	dev-type-checking? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
 	dev-coverage? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
+	>=dev-python/prettytable-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/prettytable-3.7.0[${PYTHON_USEDEP}]
 	js? ( dev-python/pyduktape2[${PYTHON_USEDEP}] )
-	dev-coverage? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	dev-coverage? ( <dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	<dev-python/rdflib-8.0[${PYTHON_USEDEP}]
 	dev-lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	http? ( dev-python/sanic[${PYTHON_USEDEP}] )
 	http? ( dev-python/sanic-cors[${PYTHON_USEDEP}] )

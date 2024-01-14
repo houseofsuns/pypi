@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2.19[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/django-crispy-forms[${PYTHON_USEDEP}]
-	dev-python/crispy-bootstrap5[${PYTHON_USEDEP}]"
+	>=dev-python/arrow-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/django-crispy-forms-2.0[${PYTHON_USEDEP}]
+	>=dev-python/crispy-bootstrap5-0.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="arrow dask pandas scikit-learn"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
-	arrow? ( dev-python/cffi[${PYTHON_USEDEP}] )
-	arrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
-	dask? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	arrow? ( >=dev-python/cffi-1.15.1[${PYTHON_USEDEP}] )
+	arrow? ( >=dev-python/pyarrow-6.0.1[${PYTHON_USEDEP}] )
+	dask? ( >=dev-python/dask-2.0.0[${PYTHON_USEDEP}] )
+	dask? ( >=dev-python/pandas-0.24.0[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-0.24.0[${PYTHON_USEDEP}] )
 	scikit-learn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

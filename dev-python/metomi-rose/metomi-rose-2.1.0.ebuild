@@ -26,35 +26,35 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all docs graph tests"
 DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
+	~dev-python/keyring-23.0[${PYTHON_USEDEP}]
 	dev-python/ldap3[${PYTHON_USEDEP}]
 	dev-python/metomi-isodatetime[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.6.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	~dev-python/sqlalchemy-1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/cylc-sphinx-extensions[${PYTHON_USEDEP}] )
 	all? ( dev-python/hieroglyph[${PYTHON_USEDEP}] )
-	all? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/setuptools-49.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-svg2pdfconverter[${PYTHON_USEDEP}] )
-	all? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	all? ( >dev-python/pygraphviz-1.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
 	docs? ( dev-python/cylc-sphinx-extensions[${PYTHON_USEDEP}] )
 	docs? ( dev-python/hieroglyph[${PYTHON_USEDEP}] )
-	docs? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/setuptools-49.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-svg2pdfconverter[${PYTHON_USEDEP}] )
-	graph? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	graph? ( >dev-python/pygraphviz-1.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mypy-0.800[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )"

@@ -27,10 +27,10 @@ IUSE="demo test"
 DEPENDENCIES="dev-python/asyncer[${PYTHON_USEDEP}]
 	dev-python/fastapi-amis-admin[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-database[${PYTHON_USEDEP}]
-	demo? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	demo? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
+	demo? ( >=dev-python/pydantic-1.10.1[${PYTHON_USEDEP}] )
+	demo? ( >=dev-python/uvicorn-0.18.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/aiosqlite-0.17.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.19.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

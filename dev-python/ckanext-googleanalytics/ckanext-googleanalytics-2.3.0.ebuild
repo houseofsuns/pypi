@@ -27,8 +27,8 @@ IUSE="requirements"
 DEPENDENCIES="dev-python/ckantoolkit[${PYTHON_USEDEP}]
 	dev-python/google-api-python-client[${PYTHON_USEDEP}]
 	requirements? ( dev-python/gdata[${PYTHON_USEDEP}] )
-	requirements? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	requirements? ( <dev-python/google-api-python-client-1.7.0[${PYTHON_USEDEP}] )
 	requirements? ( dev-python/pyOpenSSL[${PYTHON_USEDEP}] )
-	requirements? ( dev-python/rsa[${PYTHON_USEDEP}] )"
+	requirements? ( <=dev-python/rsa-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

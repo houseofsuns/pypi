@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/dj-database-url[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dj-database-url-0.4[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/tzlocal[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs example pygments tests"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.3[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-4.0[${PYTHON_USEDEP}]
 	pygments? ( dev-python/Pygments[${PYTHON_USEDEP}] )
 	example? ( dev-python/Pygments[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Pygments[${PYTHON_USEDEP}] )
 	example? ( dev-python/wagtail[${PYTHON_USEDEP}] )
 	tests? ( dev-python/wagtail[${PYTHON_USEDEP}] )
 	docs? ( dev-python/wagtail[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-7.1.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-django-4.6.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-cov-3.1.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-1.1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-httpdomain[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinxcontrib-httpdomain-1.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

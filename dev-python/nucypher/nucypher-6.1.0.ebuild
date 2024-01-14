@@ -24,221 +24,221 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="alice benchmark bob deploy dev porter ursula"
-DEPENDENCIES="dev-python/automat[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/bitarray[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/automat-20.2.0[${PYTHON_USEDEP}]
+	~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	~dev-python/bitarray-1.2.2[${PYTHON_USEDEP}]
 	dev-python/bytestring-splitter[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	~dev-python/cached-property-1.5.2[${PYTHON_USEDEP}]
+	~dev-python/certifi-2021.10.8[${PYTHON_USEDEP}]
+	~dev-python/cffi-1.15.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.2[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	dev-python/constant-sorrow[${PYTHON_USEDEP}]
-	dev-python/constantly[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	~dev-python/constantly-15.1.0[${PYTHON_USEDEP}]
+	~dev-python/cryptography-36.0.2[${PYTHON_USEDEP}]
 	dev-python/eth-keyfile[${PYTHON_USEDEP}]
 	dev-python/eth-keys[${PYTHON_USEDEP}]
 	dev-python/eth-tester[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	~dev-python/flask-2.1.1[${PYTHON_USEDEP}]
 	dev-python/hendrix[${PYTHON_USEDEP}]
-	dev-python/hyperlink[${PYTHON_USEDEP}]
-	dev-python/incremental[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	~dev-python/hyperlink-21.0.0[${PYTHON_USEDEP}]
+	~dev-python/incremental-21.3.0[${PYTHON_USEDEP}]
+	~dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/libusb1[${PYTHON_USEDEP}]
-	dev-python/lmdb[${PYTHON_USEDEP}]
+	~dev-python/lmdb-1.3.0[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
-	dev-python/mako[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	~dev-python/mako-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.15.0[${PYTHON_USEDEP}]
 	dev-python/maya[${PYTHON_USEDEP}]
 	dev-python/msgpack-python[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
+	~dev-python/msgpack-1.0.3[${PYTHON_USEDEP}]
+	~dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+	~dev-python/netaddr-0.8.0[${PYTHON_USEDEP}]
 	dev-python/nucypher-core[${PYTHON_USEDEP}]
 	dev-python/parsimonious[${PYTHON_USEDEP}]
 	dev-python/py-evm[${PYTHON_USEDEP}]
-	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
+	~dev-python/pyasn1-modules-0.2.8[${PYTHON_USEDEP}]
+	~dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
 	dev-python/pychalk[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.14.1[${PYTHON_USEDEP}]
 	dev-python/pyethash[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
+	~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
+	~dev-python/pyopenssl-22.0.0[${PYTHON_USEDEP}]
 	dev-python/pysha3[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/pytz-2022.1[${PYTHON_USEDEP}]
+	~dev-python/qrcode-7.3.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	dev-python/rlp[${PYTHON_USEDEP}]
-	dev-python/service-identity[${PYTHON_USEDEP}]
+	~dev-python/service-identity-21.1.0[${PYTHON_USEDEP}]
 	dev-python/snaptime[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8.9[${PYTHON_USEDEP}]
 	dev-python/trezor[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-3.10.0.2[${PYTHON_USEDEP}]
+	~dev-python/tzlocal-2.1[${PYTHON_USEDEP}]
 	dev-python/varint[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]
 	dev-python/cytoolz[${PYTHON_USEDEP}]
 	dev-python/ipfshttpclient[${PYTHON_USEDEP}]
-	dev-python/twisted[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	~dev-python/twisted-22.4.0[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-3.0.8[${PYTHON_USEDEP}]
+	~dev-python/ecdsa-0.18.0[${PYTHON_USEDEP}]
+	~dev-python/semantic-version-2.9.0[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	dev-python/multiaddr[${PYTHON_USEDEP}]
-	dev-python/pytzdata[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/zope-interface[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	~dev-python/pytzdata-2020.1[${PYTHON_USEDEP}]
+	~dev-python/attrs-21.4.0[${PYTHON_USEDEP}]
+	~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
+	~dev-python/zope-interface-5.4.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.9[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-2.0.12[${PYTHON_USEDEP}]
+	~dev-python/idna-3.3[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
 	dev-python/mnemonic[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
+	~dev-python/toolz-0.11.2[${PYTHON_USEDEP}]
 	dev-python/eth-hash[${PYTHON_USEDEP}]
 	dev-python/eth-typing[${PYTHON_USEDEP}]
 	dev-python/py-ecc[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiosignal[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/construct[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/txaio[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
+	~dev-python/aiosignal-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
+	~dev-python/construct-2.10.68[${PYTHON_USEDEP}]
+	~dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	~dev-python/regex-2022.3.2[${PYTHON_USEDEP}]
+	~dev-python/txaio-22.2.1[${PYTHON_USEDEP}]
+	~dev-python/watchdog-2.1.7[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.7.2[${PYTHON_USEDEP}]
 	dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
 	dev-python/eth-bloom[${PYTHON_USEDEP}]
 	dev-python/eth-rlp[${PYTHON_USEDEP}]
 	dev-python/hexbytes[${PYTHON_USEDEP}]
 	dev-python/trie[${PYTHON_USEDEP}]
-	dev-python/autobahn[${PYTHON_USEDEP}]
-	dev-python/frozenlist[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/autobahn-22.3.2[${PYTHON_USEDEP}]
+	~dev-python/frozenlist-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/humanize-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.4.0[${PYTHON_USEDEP}]
+	~dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
+	~dev-python/multidict-6.0.2[${PYTHON_USEDEP}]
+	~dev-python/pillow-9.1.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	~dev-python/pyrsistent-0.18.1[${PYTHON_USEDEP}]
+	~dev-python/setuptools-62.1.0[${PYTHON_USEDEP}]
+	~dev-python/websockets-10.3[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.1.1[${PYTHON_USEDEP}]
 	alice? ( dev-python/qrcode[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/certifi[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/distlib[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/iniconfig[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/nodeenv[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/certifi-2021.10.8[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/coverage-6.3.2[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/distlib-0.3.4[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/hypothesis-6.45.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/mypy-0.942[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/nodeenv-1.6.0[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/py-solc-x[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/pytest-twisted[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/requests[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/sortedcontainers[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/pyflakes-2.4.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/pytest-mock-3.7.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/pytest-twisted-1.13.4[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/requests-2.27.1[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/typing-extensions-3.10.0.2[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/cfgv[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/pbr[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/cfgv-3.3.1[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/pyparsing-3.0.8[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/pbr-5.8.1[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/toml[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/semantic-version[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/six[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/execnet[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/greenlet[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/py[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/charset-normalizer[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/idna[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/decorator[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/gitdb[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/smmap[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/stevedore[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/filelock[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/semantic-version-2.9.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/attrs-21.4.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/execnet-1.9.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/greenlet-2.0.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/py-1.11.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/virtualenv-20.14.1[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/urllib3-1.26.9[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/charset-normalizer-2.0.12[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/idna-3.3[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/decorator-5.1.1[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/gitdb-4.0.9[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/packaging-21.3[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/pluggy-1.0.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/pytest-forked-1.4.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/smmap-5.0.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/stevedore-3.5.0[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/filelock-3.6.0[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/gitpython[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/identify[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/tomli[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/identify-2.4.12[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/platformdirs-2.5.2[${PYTHON_USEDEP}] )
+	benchmark? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	bob? ( dev-python/qrcode[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/ansible[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/twine[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/certifi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/distlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/iniconfig[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nodeenv[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/certifi-2021.10.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-6.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/distlib-0.3.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/hypothesis-6.45.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/iniconfig-1.1.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.942[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nodeenv-1.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/py-solc-x[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-twisted[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sortedcontainers[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyflakes-2.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-twisted-1.13.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-2.27.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/typing-extensions-3.10.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	dev? ( dev-python/qrcode[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flask-htpasswd[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cfgv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pbr[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/cfgv-3.3.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyparsing-3.0.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pbr-5.8.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/semantic-version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/six[${PYTHON_USEDEP}] )
-	dev? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/execnet[${PYTHON_USEDEP}] )
-	dev? ( dev-python/greenlet[${PYTHON_USEDEP}] )
-	dev? ( dev-python/py[${PYTHON_USEDEP}] )
-	dev? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/charset-normalizer[${PYTHON_USEDEP}] )
-	dev? ( dev-python/idna[${PYTHON_USEDEP}] )
-	dev? ( dev-python/decorator[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gitdb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/smmap[${PYTHON_USEDEP}] )
-	dev? ( dev-python/stevedore[${PYTHON_USEDEP}] )
-	dev? ( dev-python/filelock[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/semantic-version-2.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/attrs-21.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/execnet-1.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/greenlet-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/py-1.11.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/virtualenv-20.14.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/urllib3-1.26.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/charset-normalizer-2.0.12[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/idna-3.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/decorator-5.1.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/gitdb-4.0.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/packaging-21.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pluggy-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-forked-1.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/smmap-5.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/stevedore-3.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/filelock-3.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gitpython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/identify[${PYTHON_USEDEP}] )
-	dev? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/identify-2.4.12[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/platformdirs-2.5.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	porter? ( dev-python/flask-htpasswd[${PYTHON_USEDEP}] )
 	porter? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
 	ursula? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )

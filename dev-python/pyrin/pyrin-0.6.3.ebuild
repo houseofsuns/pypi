@@ -24,48 +24,48 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="celery docs memcached redis sentry tests"
-DEPENDENCIES="dev-python/aniso8601[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}]
+	~dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}]
+	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/flask-babel[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.18.0[${PYTHON_USEDEP}]
+	~dev-python/cryptography-3.4.7[${PYTHON_USEDEP}]
+	~dev-python/flask-babel-2.0.0[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	~dev-python/alembic-1.6.5[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+	~dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}]
 	dev-python/titlecase[${PYTHON_USEDEP}]
-	dev-python/flasgger[${PYTHON_USEDEP}]
+	~dev-python/flasgger-0.9.5[${PYTHON_USEDEP}]
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-log-cabinet[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
 	memcached? ( dev-python/pymemcache[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
-	sentry? ( dev-python/blinker[${PYTHON_USEDEP}] )
-	tests? ( dev-python/aniso8601[${PYTHON_USEDEP}] )
-	tests? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytz[${PYTHON_USEDEP}] )
+	redis? ( ~dev-python/redis-3.5.3[${PYTHON_USEDEP}] )
+	sentry? ( ~dev-python/sentry-sdk-1.1.0[${PYTHON_USEDEP}] )
+	sentry? ( ~dev-python/blinker-1.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/bcrypt-3.2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytz-2023.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	tests? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
 	tests? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	tests? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	tests? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask-babel[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/colorama-0.4.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/python-dotenv-0.18.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/cryptography-3.4.7[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flask-babel-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/babel[${PYTHON_USEDEP}] )
-	tests? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/alembic-1.6.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/fire[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sqlparse[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/titlecase[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flasgger[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pygments[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/flasgger-0.9.5[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pygments-2.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

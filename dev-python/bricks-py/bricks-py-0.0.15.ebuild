@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mongo"
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/loguru-0.7.2[${PYTHON_USEDEP}]
+	~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
 	dev-python/jsonpath[${PYTHON_USEDEP}]
 	dev-python/w3lib[${PYTHON_USEDEP}]
 	dev-python/curl-cffi[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/redis-5.0.1[${PYTHON_USEDEP}]
 	dev-python/better-exceptions[${PYTHON_USEDEP}]
-	mongo? ( dev-python/pymongo[${PYTHON_USEDEP}] )"
+	mongo? ( ~dev-python/pymongo-4.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

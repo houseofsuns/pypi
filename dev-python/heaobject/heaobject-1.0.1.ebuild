@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
-	dev-python/uritemplate[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/multidict-6.0.4[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.9.2[${PYTHON_USEDEP}]
+	~dev-python/humanize-4.7.0[${PYTHON_USEDEP}]
+	~dev-python/email-validator-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/uritemplate-4.1.1[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

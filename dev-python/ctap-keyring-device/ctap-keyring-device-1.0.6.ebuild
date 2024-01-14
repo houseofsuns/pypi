@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs testing"
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/fido2[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-3.4.6[${PYTHON_USEDEP}]
+	>=dev-python/keyring-23.0.0[${PYTHON_USEDEP}]
+	>=dev-python/fido2-0.9.1[${PYTHON_USEDEP}]
 	dev-python/pyobjc-framework-LocalAuthentication[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.2.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-packaging[${PYTHON_USEDEP}] )
-	docs? ( dev-python/rst-linker[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/rst-linker-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autoapi-1.5.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

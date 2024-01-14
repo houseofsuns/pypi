@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="redis sqlite yaml"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/httpx-0.22.0[${PYTHON_USEDEP}]
+	redis? ( ~dev-python/redis-5.0.1[${PYTHON_USEDEP}] )
 	sqlite? ( dev-python/anysqlite[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	yaml? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

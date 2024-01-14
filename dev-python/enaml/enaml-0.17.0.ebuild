@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="ipython-qt matplotlib-qt qt5-pyqt qt5-pyside qt6-pyqt qt6-pyside scintilla-qt5-pyqt scintilla-qt6-pyqt vtk-qt webview-qt5-pyqt webview-qt6-pyqt"
 DEPENDENCIES="dev-python/ply[${PYTHON_USEDEP}]
 	dev-python/atom[${PYTHON_USEDEP}]
-	dev-python/kiwisolver[${PYTHON_USEDEP}]
+	>=dev-python/kiwisolver-1.2.0[${PYTHON_USEDEP}]
 	dev-python/bytecode[${PYTHON_USEDEP}]
 	dev-python/pegen[${PYTHON_USEDEP}]
 	ipython-qt? ( dev-python/qtconsole[${PYTHON_USEDEP}] )
@@ -36,9 +36,9 @@ DEPENDENCIES="dev-python/ply[${PYTHON_USEDEP}]
 	qt5-pyside? ( dev-python/qtpy[${PYTHON_USEDEP}] )
 	qt5-pyside? ( dev-python/pyside2[${PYTHON_USEDEP}] )
 	qt6-pyqt? ( dev-python/qtpy[${PYTHON_USEDEP}] )
-	qt6-pyqt? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
+	qt6-pyqt? ( >=dev-python/PyQt6-6.3.1[${PYTHON_USEDEP}] )
 	qt6-pyside? ( dev-python/qtpy[${PYTHON_USEDEP}] )
-	qt6-pyside? ( dev-python/pyside6[${PYTHON_USEDEP}] )
+	qt6-pyside? ( >=dev-python/pyside6-6.2.3[${PYTHON_USEDEP}] )
 	scintilla-qt5-pyqt? ( dev-python/QScintilla[${PYTHON_USEDEP}] )
 	scintilla-qt6-pyqt? ( dev-python/PyQt6-QScintilla[${PYTHON_USEDEP}] )
 	vtk-qt? ( dev-python/vtk[${PYTHON_USEDEP}] )

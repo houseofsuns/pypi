@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs monitor testing"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
+	>=dev-python/typeguard-2.0[${PYTHON_USEDEP}]
+	>=dev-python/nest-asyncio-1.5[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
@@ -42,12 +42,12 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	docs? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/qslib[${PYTHON_USEDEP}] )
 	monitor? ( dev-python/matrix-nio[${PYTHON_USEDEP}] )
 	monitor? ( dev-python/influxdb-client[${PYTHON_USEDEP}] )
 	monitor? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	monitor? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	monitor? ( ~dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

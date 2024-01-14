@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/allure-behave[${PYTHON_USEDEP}]
 	dev-python/Appium-Python-Client[${PYTHON_USEDEP}]
 	dev-python/behave[${PYTHON_USEDEP}]
 	dev-python/mitmproxy[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/deepdiff[${PYTHON_USEDEP}]"
+	>=dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
+	>=dev-python/deepdiff-4.0.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

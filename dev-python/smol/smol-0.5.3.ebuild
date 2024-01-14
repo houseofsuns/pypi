@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs optional test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.24[${PYTHON_USEDEP}]
 	dev-python/pymatgen[${PYTHON_USEDEP}]
 	dev-python/monty[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -34,24 +34,24 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pydata-sphinx-theme-0.13.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/ipython-8.2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.24.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	optional? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	optional? ( >=dev-python/h5py-3.6.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/polytope[${PYTHON_USEDEP}] )
 	optional? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
 	optional? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
 	optional? ( dev-python/gurobipy[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pyscipopt[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	test? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/h5py-3.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/polytope[${PYTHON_USEDEP}] )
 	test? ( dev-python/cvxpy[${PYTHON_USEDEP}] )

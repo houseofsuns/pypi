@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc tatt test"
-DEPENDENCIES="dev-python/snakeoil[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/snakeoil-0.10.5[${PYTHON_USEDEP}]
 	dev-python/pkgcore[${PYTHON_USEDEP}]
 	dev-python/pkgcheck[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/tomli[${PYTHON_USEDEP}] )
 	tatt? ( dev-python/nattka[${PYTHON_USEDEP}] )
 	tatt? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

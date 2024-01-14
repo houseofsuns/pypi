@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/charset-normalizer[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/charset-normalizer-4.0[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/weblate-language-data[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django-sortedm2m[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-sortedm2m-3.1.1[${PYTHON_USEDEP}]
 	dev-python/django-reversion[${PYTHON_USEDEP}]
 	dev-python/django-x509[${PYTHON_USEDEP}]
-	dev-python/django-taggit[${PYTHON_USEDEP}]
+	~dev-python/django-taggit-2.1.0[${PYTHON_USEDEP}]
 	dev-python/django-loci[${PYTHON_USEDEP}]
 	dev-python/django-flat-json-widget[${PYTHON_USEDEP}]
 	dev-python/openwisp-utils[${PYTHON_USEDEP}]
@@ -36,11 +36,11 @@ DEPENDENCIES="dev-python/django-sortedm2m[${PYTHON_USEDEP}]
 	dev-python/openwisp-notifications[${PYTHON_USEDEP}]
 	dev-python/openwisp-ipam[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-gis[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	~dev-python/paramiko-2.10.3[${PYTHON_USEDEP}]
 	dev-python/scp[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/django-cache-memoize[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]"
+	~dev-python/netaddr-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dist extras torch"
-DEPENDENCIES="dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/regex-2018.1.10[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.6[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/funcsigs[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/asyml-utilities[${PYTHON_USEDEP}]
 	dist? ( dev-python/adaptdl[${PYTHON_USEDEP}] )
 	extras? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	extras? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
-	extras? ( dev-python/six[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/six-1.15[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

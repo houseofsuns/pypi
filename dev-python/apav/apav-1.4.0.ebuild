@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
+	>=dev-python/pyqtgraph-0.11.1[${PYTHON_USEDEP}]
 	dev-python/lmfit[${PYTHON_USEDEP}]
 	dev-python/fast-histogram[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	>=dev-python/PyQt5-5.11[${PYTHON_USEDEP}]
 	dev-python/periodictable[${PYTHON_USEDEP}]
 	dev? ( dev-python/cython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

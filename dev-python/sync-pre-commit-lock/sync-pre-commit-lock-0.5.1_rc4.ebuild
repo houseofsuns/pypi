@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pdm poetry"
-DEPENDENCIES="dev-python/tomli[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tomli-2.0.0[${PYTHON_USEDEP}]
 	dev-python/strictyaml[${PYTHON_USEDEP}]
-	poetry? ( dev-python/poetry[${PYTHON_USEDEP}] )
-	pdm? ( dev-python/pdm[${PYTHON_USEDEP}] )"
+	poetry? ( >=dev-python/poetry-1.6.0[${PYTHON_USEDEP}] )
+	pdm? ( >=dev-python/pdm-2.7.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

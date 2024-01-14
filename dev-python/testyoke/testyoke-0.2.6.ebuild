@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="server"
-DEPENDENCIES="server? ( dev-python/flask[${PYTHON_USEDEP}] )"
+DEPENDENCIES="server? ( >=dev-python/flask-1.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

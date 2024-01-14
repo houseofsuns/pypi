@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="s3 sftp test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-6.0[${PYTHON_USEDEP}]
 	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	test? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	sftp? ( dev-python/paramiko[${PYTHON_USEDEP}] )

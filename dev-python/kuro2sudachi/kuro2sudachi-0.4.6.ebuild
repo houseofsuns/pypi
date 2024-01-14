@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/importlib-metadata-7.0.0[${PYTHON_USEDEP}]
 	dev-python/jaconv[${PYTHON_USEDEP}]
 	dev-python/sudachidict-core[${PYTHON_USEDEP}]
 	dev-python/sudachidict-full[${PYTHON_USEDEP}]

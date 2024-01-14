@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.3[${PYTHON_USEDEP}]
 	dev-python/rauth[${PYTHON_USEDEP}]
 	dev-python/types-beautifulsoup4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

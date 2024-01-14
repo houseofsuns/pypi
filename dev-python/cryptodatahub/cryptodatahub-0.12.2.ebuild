@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="pep8 pylint test"
 DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	<dev-python/attrs-22.0.1[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.13[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/pathlib2[${PYTHON_USEDEP}]
 	pep8? ( dev-python/flake8[${PYTHON_USEDEP}] )

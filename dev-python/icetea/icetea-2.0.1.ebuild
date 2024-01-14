@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/prettytable[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/prettytable-1.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/yattag[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/jsonmerge[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/yattag-2.0[${PYTHON_USEDEP}]
+	>dev-python/pyserial-2.5[${PYTHON_USEDEP}]
+	<dev-python/jsonmerge-2.0[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
 	dev-python/mbed-ls[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	<dev-python/semver-3.0[${PYTHON_USEDEP}]
 	dev-python/mbed-flasher[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
-	dev-python/transitions[${PYTHON_USEDEP}]"
+	<dev-python/transitions-1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

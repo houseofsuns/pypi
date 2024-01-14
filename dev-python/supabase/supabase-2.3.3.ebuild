@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gotrue[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.26[${PYTHON_USEDEP}]
 	dev-python/postgrest[${PYTHON_USEDEP}]
 	dev-python/realtime[${PYTHON_USEDEP}]
 	dev-python/storage3[${PYTHON_USEDEP}]

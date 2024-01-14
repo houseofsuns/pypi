@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiodns[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.7[${PYTHON_USEDEP}]
+	>=dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/charset-normalizer-3.0.1[${PYTHON_USEDEP}]
 	dev-python/pick[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

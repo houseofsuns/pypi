@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	<dev-python/itsdangerous-3.0.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/mkdocs-material-8.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/markdown-include-0.7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/black-21.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/uvicorn-0.15.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

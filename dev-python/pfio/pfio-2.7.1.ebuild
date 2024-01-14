@@ -27,12 +27,12 @@ IUSE="bench doc hdfs test"
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/deprecation[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	bench? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	bench? ( >=dev-python/numpy-1.19.5[${PYTHON_USEDEP}] )
 	bench? ( dev-python/torch[${PYTHON_USEDEP}] )
 	bench? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	hdfs? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	hdfs? ( >=dev-python/pyarrow-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/autopep8[${PYTHON_USEDEP}] )

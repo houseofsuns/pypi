@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/coincurve[${PYTHON_USEDEP}]
 	dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	mnemonic? ( dev-python/mnemonic[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

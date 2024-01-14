@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/astunparse[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/astunparse-1.6.2[${PYTHON_USEDEP}]
 	dev-python/typed-ast[${PYTHON_USEDEP}]
 	dev-python/version-query[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

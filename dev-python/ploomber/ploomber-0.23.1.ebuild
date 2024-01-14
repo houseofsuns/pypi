@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/ploomber-scaffold[${PYTHON_USEDEP}]
 	dev-python/ploomber-engine[${PYTHON_USEDEP}]
 	dev-python/ploomber-core[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
@@ -46,11 +46,11 @@ DEPENDENCIES="dev-python/ploomber-scaffold[${PYTHON_USEDEP}]
 	dev-python/ipdb[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/papermill[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
+	<dev-python/notebook-7.0[${PYTHON_USEDEP}]
 	dev-python/jupytext[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
+	>=dev-python/ipykernel-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-client-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-5.6.0[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
 	dev-python/pyflakes[${PYTHON_USEDEP}]
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
@@ -67,7 +67,7 @@ DEPENDENCIES="dev-python/ploomber-scaffold[${PYTHON_USEDEP}]
 	dev? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/moto[${PYTHON_USEDEP}] )
 	dev? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nose[${PYTHON_USEDEP}] )
@@ -83,8 +83,8 @@ DEPENDENCIES="dev-python/ploomber-scaffold[${PYTHON_USEDEP}]
 	dev? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	dev? ( dev-python/multiprocess[${PYTHON_USEDEP}] )
-	dev? ( dev-python/dill[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/dill-0.3.5.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pkgmt[${PYTHON_USEDEP}] )"

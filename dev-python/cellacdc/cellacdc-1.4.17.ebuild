@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	all? ( dev-python/tables[${PYTHON_USEDEP}] )
 	gui? ( dev-python/qtpy[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pyqtgraph[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/pyqtgraph-0.13.3[${PYTHON_USEDEP}] )
 	gui? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )

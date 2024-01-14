@@ -27,6 +27,6 @@ IUSE="hcl yaml"
 DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	hcl? ( dev-python/pyhcl[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )"
+	yaml? ( >=dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

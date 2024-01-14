@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
 DEPENDENCIES="dev-python/msgpack-python[${PYTHON_USEDEP}]
-	testing? ( dev-python/attrs[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/attrs-19.3.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	testing? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
-	testing? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/py[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pyparsing[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/six[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sortedcontainers[${PYTHON_USEDEP}] )
-	testing? ( dev-python/wcwidth[${PYTHON_USEDEP}] )
-	testing? ( dev-python/zipp[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/coverage-5.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/hypothesis-5.10.4[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/more-itertools-8.2.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/packaging-20.3[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pluggy-0.13.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/py-1.8.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pyparsing-3.0.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/six-1.14.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/sortedcontainers-2.1.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/wcwidth-0.1.9[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/zipp-3.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

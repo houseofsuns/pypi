@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/qiskit-aer[${PYTHON_USEDEP}]
-	dev-python/qiskit-terra[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/certifi-2021.5.30[${PYTHON_USEDEP}]
+	>=dev-python/qiskit-aer-0.10.2[${PYTHON_USEDEP}]
+	>=dev-python/qiskit-terra-0.19.2[${PYTHON_USEDEP}]
 	dev-python/amazon-braket-sdk[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	>=dev-python/setuptools-40.1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

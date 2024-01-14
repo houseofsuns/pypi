@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/xlwt[${PYTHON_USEDEP}]"
+	~dev-python/xlwt-1.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

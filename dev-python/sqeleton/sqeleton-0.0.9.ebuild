@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="clickhouse duckdb mysql postgresql presto snowflake trino tui"
 DEPENDENCIES="dev-python/runtype[${PYTHON_USEDEP}]
 	dev-python/dsnparse[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	mysql? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/runtype[${PYTHON_USEDEP}]
 	duckdb? ( dev-python/duckdb[${PYTHON_USEDEP}] )
 	tui? ( dev-python/textual[${PYTHON_USEDEP}] )
 	tui? ( dev-python/textual-select[${PYTHON_USEDEP}] )
-	tui? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	tui? ( dev-python/prompt-toolkit[${PYTHON_USEDEP}] )"
+	tui? ( <dev-python/pygments-3.0.0[${PYTHON_USEDEP}] )
+	tui? ( <dev-python/prompt-toolkit-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev nn"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/numpy-1.18.0[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.5[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev? ( dev-python/autograd[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipython-7.18[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mock-4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-2.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-6.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tabulate-0.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.35[${PYTHON_USEDEP}] )
 	nn? ( dev-python/Keras[${PYTHON_USEDEP}] )
 	nn? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/klein[${PYTHON_USEDEP}]
+	<=dev-python/klein-17.10.0[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/treq[${PYTHON_USEDEP}]
+	<dev-python/treq-20.4.1[${PYTHON_USEDEP}]
 	dev-python/Twisted[${PYTHON_USEDEP}]
 	dev-python/vumi[${PYTHON_USEDEP}]
 	dev-python/confmodel[${PYTHON_USEDEP}]

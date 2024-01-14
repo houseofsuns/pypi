@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all prefect s3 ui viz"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	<=dev-python/fsspec-2023.10.0[${PYTHON_USEDEP}]
 	dev-python/intake[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	<=dev-python/jsonpath-ng-1.6.0[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
+	<=dev-python/pandas-2.1.3[${PYTHON_USEDEP}]
+	<=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	all? ( dev-python/dash[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fastjsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/fastjsonschema-2.18.1[${PYTHON_USEDEP}]
 	dev-python/aws-cron-expression-validator[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

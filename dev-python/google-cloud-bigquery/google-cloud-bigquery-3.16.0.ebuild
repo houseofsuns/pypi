@@ -24,47 +24,47 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all bigquery_v2 bqstorage geopandas ipython ipywidgets opentelemetry pandas tqdm"
-DEPENDENCIES="dev-python/google-api-core[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
 	dev-python/google-cloud-core[${PYTHON_USEDEP}]
 	dev-python/google-resumable-media[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
-	all? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-1.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/db-dtypes[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipywidgets-7.7.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipykernel-6.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/Shapely[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipython-7.23.1[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
 	all? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}] )
-	all? ( dev-python/proto-plus[${PYTHON_USEDEP}] )
+	all? ( <dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	all? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	bigquery_v2? ( dev-python/proto-plus[${PYTHON_USEDEP}] )
+	all? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
+	bigquery_v2? ( <dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}] )
 	bigquery_v2? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	bqstorage? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
-	bqstorage? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	bqstorage? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	bqstorage? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	bqstorage? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
+	bqstorage? ( >=dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}] )
+	bqstorage? ( <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
 	geopandas? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	geopandas? ( dev-python/Shapely[${PYTHON_USEDEP}] )
-	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	ipython? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	ipywidgets? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	ipywidgets? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	ipython? ( >=dev-python/ipython-7.23.1[${PYTHON_USEDEP}] )
+	ipython? ( >=dev-python/ipykernel-6.0.0[${PYTHON_USEDEP}] )
+	ipywidgets? ( >=dev-python/ipywidgets-7.7.0[${PYTHON_USEDEP}] )
+	ipywidgets? ( >=dev-python/ipykernel-6.0.0[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-sdk[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-1.1.0[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/db-dtypes[${PYTHON_USEDEP}] )
-	tqdm? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	tqdm? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

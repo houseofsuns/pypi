@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="babel mysql postgresql psycopg2 psycopg2-binary pygments rest textile"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-30.3[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	babel? ( dev-python/Babel[${PYTHON_USEDEP}] )
+	babel? ( <dev-python/Babel-2.10[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	psycopg2? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	psycopg2-binary? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	pygments? ( dev-python/Pygments[${PYTHON_USEDEP}] )
-	rest? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	textile? ( dev-python/textile[${PYTHON_USEDEP}] )"
+	rest? ( >=dev-python/docutils-0.14[${PYTHON_USEDEP}] )
+	textile? ( >=dev-python/textile-2.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,28 +25,28 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/holoviews[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<=dev-python/numpy-1.26.2[${PYTHON_USEDEP}]
 	dev-python/param[${PYTHON_USEDEP}]
 	dev-python/hvplot[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<=dev-python/matplotlib-3.8.2[${PYTHON_USEDEP}]
 	dev-python/panel[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
+	<=dev-python/diskcache-5.6.3[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<=dev-python/xarray-2023.12.0[${PYTHON_USEDEP}]
+	<=dev-python/plotly-5.18.0[${PYTHON_USEDEP}]
+	<=dev-python/sortedcontainers-2.4[${PYTHON_USEDEP}]
+	<=dev-python/pandas-2.1.4[${PYTHON_USEDEP}]
 	dev-python/strenum[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/str2bool[${PYTHON_USEDEP}]
 	dev-python/scoop[${PYTHON_USEDEP}]
 	dev-python/moviepy[${PYTHON_USEDEP}]
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/black-23.12.1[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	test? ( <=dev-python/hypothesis-6.92.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	test? ( <=dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

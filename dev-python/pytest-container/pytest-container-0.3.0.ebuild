@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-testinfra[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/filelock-4.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-3.10[${PYTHON_USEDEP}]
+	>=dev-python/pytest-testinfra-6.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

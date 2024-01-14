@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/ipywidgets-8.0[${PYTHON_USEDEP}]
+	~dev-python/jupyterlab-4.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pyparsing[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

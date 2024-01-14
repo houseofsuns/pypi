@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/qiskit[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pylatexenc[${PYTHON_USEDEP}]"
+	~dev-python/matplotlib-3.5.2[${PYTHON_USEDEP}]
+	~dev-python/pylatexenc-2.10[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

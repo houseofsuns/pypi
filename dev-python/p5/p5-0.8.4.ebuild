@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/glfw[${PYTHON_USEDEP}]
 	dev-python/vispy[${PYTHON_USEDEP}]
 	dev-python/PyOpenGL-accelerate[${PYTHON_USEDEP}]
 	dev-python/PyOpenGL[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	dev-python/skia-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

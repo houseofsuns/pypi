@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev tests"
-DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-5.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.10[${PYTHON_USEDEP}] )
+	dev? ( >dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-5.4[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.10[${PYTHON_USEDEP}] )
+	tests? ( >dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="bayes fp healpix kafka light-curve"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-toolbelt-0.11.0[${PYTHON_USEDEP}]
 	kafka? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	healpix? ( dev-python/healpy[${PYTHON_USEDEP}] )
 	light-curve? ( dev-python/light-curve[${PYTHON_USEDEP}] )
@@ -39,9 +39,9 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/ampel-core[${PYTHON_USEDEP}]
 	dev-python/ampel-photometry[${PYTHON_USEDEP}]
 	dev-python/ampel-alerts[${PYTHON_USEDEP}]
-	fp? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	bayes? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev-python/scipy[${PYTHON_USEDEP}]
+	fp? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	bayes? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	fp? ( dev-python/planobs[${PYTHON_USEDEP}] )
 	bayes? ( dev-python/planobs[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

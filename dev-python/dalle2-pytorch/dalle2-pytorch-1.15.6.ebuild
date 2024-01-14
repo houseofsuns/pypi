@@ -36,7 +36,7 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pytorch-warmup[${PYTHON_USEDEP}]
 	dev-python/resize-right[${PYTHON_USEDEP}]
 	dev-python/rotary-embedding-torch[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/vector-quantize-pytorch[${PYTHON_USEDEP}]
 	dev-python/x-clip[${PYTHON_USEDEP}]
 	dev-python/webdataset[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2022.1.0[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

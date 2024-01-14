@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="duckdb postgres sqlite workbench"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
+	>dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/dbt-core[${PYTHON_USEDEP}]
 	duckdb? ( dev-python/dbt-duckdb[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/dbt-postgres[${PYTHON_USEDEP}] )
 	sqlite? ( dev-python/dbt-sqlite[${PYTHON_USEDEP}] )
-	workbench? ( dev-python/feedparser[${PYTHON_USEDEP}] )
+	workbench? ( <dev-python/feedparser-7.0.0[${PYTHON_USEDEP}] )
 	dev-python/openai[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.0[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}]
 	workbench? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	workbench? ( dev-python/streamlit-ace[${PYTHON_USEDEP}] )
 	workbench? ( dev-python/streamlit-elements-fluence[${PYTHON_USEDEP}] )

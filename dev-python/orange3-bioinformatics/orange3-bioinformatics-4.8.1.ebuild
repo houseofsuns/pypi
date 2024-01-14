@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 DEPENDENCIES="dev-python/Orange3[${PYTHON_USEDEP}]
 	dev-python/orange-widget-base[${PYTHON_USEDEP}]
-	dev-python/pyclipper[${PYTHON_USEDEP}]
+	>=dev-python/pyclipper-1.2.0[${PYTHON_USEDEP}]
 	dev-python/point-annotator[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
+	>=dev-python/requests-cache-0.8.0[${PYTHON_USEDEP}]
 	dev-python/resdk[${PYTHON_USEDEP}]
 	dev-python/genesis-pyapi[${PYTHON_USEDEP}]
 	dev-python/single-sample-gsea[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/Orange3[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/docutils-0.17[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-black[${PYTHON_USEDEP}] )

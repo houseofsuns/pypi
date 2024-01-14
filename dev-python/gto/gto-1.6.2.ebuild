@@ -27,18 +27,18 @@ IUSE="tests"
 DEPENDENCIES="dev-python/scmrepo[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	>=dev-python/semver-3.0.0[${PYTHON_USEDEP}]
 	dev-python/entrypoints[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.10[${PYTHON_USEDEP}]
 	dev-python/funcy[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-lazy-fixture-0.6.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-test-utils[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pylint-3.0.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint-plugin-utils[${PYTHON_USEDEP}] )
 	tests? ( dev-python/freezegun[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-freezegun[${PYTHON_USEDEP}] )"

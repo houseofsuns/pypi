@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/eradicate[${PYTHON_USEDEP}]
+DEPENDENCIES=">dev-python/flake8-5.0[${PYTHON_USEDEP}]
+	<dev-python/eradicate-3.0[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

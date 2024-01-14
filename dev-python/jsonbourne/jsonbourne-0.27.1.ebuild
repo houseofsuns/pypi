@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all orjson pydantic rapidjson"
 DEPENDENCIES="dev-python/xtyping[${PYTHON_USEDEP}]
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	pydantic? ( dev-python/pydantic-core[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic-core[${PYTHON_USEDEP}] )
+	pydantic? ( >=dev-python/pydantic-2.0.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pydantic-2.0.2[${PYTHON_USEDEP}] )
+	pydantic? ( >=dev-python/pydantic-core-2.1.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pydantic-core-2.1.2[${PYTHON_USEDEP}] )
 	rapidjson? ( dev-python/python-rapidjson[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-rapidjson[${PYTHON_USEDEP}] )
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	all? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	orjson? ( <dev-python/orjson-4.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/orjson-4.0[${PYTHON_USEDEP}] )
 	dev-python/jsonc2json[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

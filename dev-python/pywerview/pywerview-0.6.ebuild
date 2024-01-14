@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/impacket[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/ldap3[${PYTHON_USEDEP}]
+	>=dev-python/ldap3-2.8.1[${PYTHON_USEDEP}]
 	dev-python/gssapi[${PYTHON_USEDEP}]
 	dev-python/pycryptodome[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

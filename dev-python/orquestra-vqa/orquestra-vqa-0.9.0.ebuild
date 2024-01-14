@@ -27,8 +27,8 @@ IUSE="dev"
 DEPENDENCIES="dev-python/orquestra-quantum[${PYTHON_USEDEP}]
 	dev-python/orquestra-opt[${PYTHON_USEDEP}]
 	dev-python/orquestra-cirq[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/overrides[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/overrides-3.10[${PYTHON_USEDEP}]
 	dev? ( dev-python/orquestra-python-dev[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

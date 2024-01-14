@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="athena bigquery databricks mysql postgres redshift snowflake trinodwh webapp"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
+	<dev-python/plotly-5.6.0[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-1.5.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-8.1.0[${PYTHON_USEDEP}]
 	dev-python/fastparquet[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	~dev-python/cryptography-38.0.4[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
@@ -44,15 +44,15 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-core[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/geoalchemy2[${PYTHON_USEDEP}] )
-	bigquery? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	bigquery? ( <dev-python/shapely-3.0.0[${PYTHON_USEDEP}] )
 	bigquery? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
 	webapp? ( dev-python/dash[${PYTHON_USEDEP}] )
 	webapp? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
 	webapp? ( dev-python/dash-mantine-components[${PYTHON_USEDEP}] )
-	webapp? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	webapp? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
 	webapp? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
 	webapp? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	webapp? ( dev-python/redis[${PYTHON_USEDEP}] )
+	webapp? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
 	webapp? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	webapp? ( dev-python/dash-iconify[${PYTHON_USEDEP}] )
 	webapp? ( dev-python/dash-draggable[${PYTHON_USEDEP}] )

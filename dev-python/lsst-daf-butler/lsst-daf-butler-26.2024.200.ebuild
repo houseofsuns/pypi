@@ -25,26 +25,26 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gs https postgres s3 server test"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/lsst-sphgeom[${PYTHON_USEDEP}]
 	dev-python/lsst-utils[${PYTHON_USEDEP}]
 	dev-python/lsst-resources[${PYTHON_USEDEP}]
 	dev-python/lsst-daf-relation[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-0.16[${PYTHON_USEDEP}]
 	gs? ( dev-python/lsst-resources[${PYTHON_USEDEP}] )
 	https? ( dev-python/lsst-resources[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	s3? ( dev-python/lsst-resources[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	server? ( dev-python/safir[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-openfiles[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/numpy-1.17[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pandas-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

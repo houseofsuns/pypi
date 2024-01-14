@@ -27,13 +27,13 @@ IUSE="all bootstrapnas neural_compressor test"
 DEPENDENCIES="dev-python/autograd[${PYTHON_USEDEP}]
 	dev-python/fairseq[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/pymoo[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/sacremoses[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchprofile[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
@@ -49,15 +49,15 @@ DEPENDENCIES="dev-python/autograd[${PYTHON_USEDEP}]
 	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	all? ( dev-python/neural-compressor[${PYTHON_USEDEP}] )
 	all? ( dev-python/numba[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymoo[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	all? ( dev-python/texttable[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -70,13 +70,13 @@ DEPENDENCIES="dev-python/autograd[${PYTHON_USEDEP}]
 	bootstrapnas? ( dev-python/fairseq[${PYTHON_USEDEP}] )
 	bootstrapnas? ( dev-python/jstyleson[${PYTHON_USEDEP}] )
 	bootstrapnas? ( dev-python/numba[${PYTHON_USEDEP}] )
-	bootstrapnas? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	bootstrapnas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	bootstrapnas? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
+	bootstrapnas? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	bootstrapnas? ( dev-python/pymoo[${PYTHON_USEDEP}] )
-	bootstrapnas? ( dev-python/requests[${PYTHON_USEDEP}] )
+	bootstrapnas? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
 	bootstrapnas? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	bootstrapnas? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	bootstrapnas? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	bootstrapnas? ( >=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	bootstrapnas? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	bootstrapnas? ( dev-python/texttable[${PYTHON_USEDEP}] )
 	bootstrapnas? ( dev-python/torch[${PYTHON_USEDEP}] )
@@ -87,13 +87,13 @@ DEPENDENCIES="dev-python/autograd[${PYTHON_USEDEP}]
 	neural_compressor? ( dev-python/fairseq[${PYTHON_USEDEP}] )
 	neural_compressor? ( dev-python/neural-compressor[${PYTHON_USEDEP}] )
 	neural_compressor? ( dev-python/numba[${PYTHON_USEDEP}] )
-	neural_compressor? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	neural_compressor? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	neural_compressor? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
+	neural_compressor? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	neural_compressor? ( dev-python/pymoo[${PYTHON_USEDEP}] )
-	neural_compressor? ( dev-python/requests[${PYTHON_USEDEP}] )
+	neural_compressor? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
 	neural_compressor? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	neural_compressor? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	neural_compressor? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	neural_compressor? ( >=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	neural_compressor? ( dev-python/torch[${PYTHON_USEDEP}] )
 	neural_compressor? ( dev-python/torchprofile[${PYTHON_USEDEP}] )
 	neural_compressor? ( dev-python/torchvision[${PYTHON_USEDEP}] )
@@ -106,15 +106,15 @@ DEPENDENCIES="dev-python/autograd[${PYTHON_USEDEP}]
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/numba[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/pymoo[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/torch[${PYTHON_USEDEP}] )
 	test? ( dev-python/torchprofile[${PYTHON_USEDEP}] )
 	test? ( dev-python/torchvision[${PYTHON_USEDEP}] )

@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="benchmark docs plotting test test-parallel"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/requests-file[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/sphinx-8.0[${PYTHON_USEDEP}]
+	<dev-python/requests-file-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/sphinx-data-viewer[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}]
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinxcontrib-plantuml[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-plantuml[${PYTHON_USEDEP}] )
+	<dev-python/sphinxcontrib-jquery-5.0[${PYTHON_USEDEP}]
+	plotting? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/lxml-5.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-mock-1.9.3[${PYTHON_USEDEP}] )
+	test? ( <dev-python/responses-0.23.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/sphinxcontrib-plantuml-1.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-plantuml-1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/syrupy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xprocess[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-xprocess-0.23.0[${PYTHON_USEDEP}] )
 	test-parallel? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/memray[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-copybutton-0.6[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-programoutput-0.18[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-immaterial[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydantic[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/pydantic-2.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

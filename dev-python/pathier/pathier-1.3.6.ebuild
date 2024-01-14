@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/griddle[${PYTHON_USEDEP}]
 	dev-python/noiftimer[${PYTHON_USEDEP}]
 	dev-python/printbuddies[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.11.8[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

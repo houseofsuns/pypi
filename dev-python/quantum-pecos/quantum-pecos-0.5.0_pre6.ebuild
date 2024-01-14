@@ -25,23 +25,23 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all simulators tests visualization wasmer wasmtime"
 DEPENDENCIES="dev-python/phir[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	all? ( dev-python/cython[${PYTHON_USEDEP}] )
-	all? ( dev-python/pybind11[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pybind11-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/projectq[${PYTHON_USEDEP}] )
 	all? ( dev-python/wasmtime[${PYTHON_USEDEP}] )
 	all? ( dev-python/wasmer[${PYTHON_USEDEP}] )
 	all? ( dev-python/wasmer-compiler-cranelift[${PYTHON_USEDEP}] )
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/plotly-5.9.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )
 	simulators? ( dev-python/cython[${PYTHON_USEDEP}] )
-	simulators? ( dev-python/pybind11[${PYTHON_USEDEP}] )
+	simulators? ( <dev-python/pybind11-3.0[${PYTHON_USEDEP}] )
 	simulators? ( dev-python/projectq[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-5.0.0[${PYTHON_USEDEP}] )
+	visualization? ( ~dev-python/plotly-5.9.0[${PYTHON_USEDEP}] )
 	wasmer? ( dev-python/wasmer[${PYTHON_USEDEP}] )
 	wasmer? ( dev-python/wasmer-compiler-cranelift[${PYTHON_USEDEP}] )
 	wasmtime? ( dev-python/wasmtime[${PYTHON_USEDEP}] )"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev testing_libraries"
-DEPENDENCIES="dev-python/pyglet[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyglet-2.1[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	dev-python/pymunk[${PYTHON_USEDEP}]
 	dev-python/pytiled-parser[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -35,21 +35,21 @@ DEPENDENCIES="dev-python/pyglet[${PYTHON_USEDEP}]
 	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pygments-2.16.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/docutils-0.20.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-7.2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-sitemap[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	testing_libraries? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing_libraries? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	testing_libraries? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing_libraries? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	testing_libraries? ( ~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}] )
 	testing_libraries? ( dev-python/typer[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

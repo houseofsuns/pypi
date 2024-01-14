@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc"
-DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/scipy-0.12.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tables[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>dev-python/tables-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/h5py-1.3[${PYTHON_USEDEP}]
 	dev-python/schwimmbad[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
+	>=dev-python/matplotlib-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-5.0[${PYTHON_USEDEP}]
+	doc? ( >=dev-python/sphinx-1.6.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/numpydoc-0.8.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-bootstrap-theme-0.6[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )

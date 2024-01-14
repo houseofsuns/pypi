@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build docs sast sca style test"
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/colorama-0.4.4[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	build? ( dev-python/invoke[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docstr-coverage[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	sast? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-material-7.2.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocs-1.2.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/mkdocstrings-0.16.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	sast? ( >=dev-python/bandit-1.6.2[${PYTHON_USEDEP}] )
 	sast? ( dev-python/safety[${PYTHON_USEDEP}] )
-	sca? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	sca? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	sca? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	style? ( dev-python/black[${PYTHON_USEDEP}] )
-	style? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	style? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	sca? ( >=dev-python/bandit-1.6.2[${PYTHON_USEDEP}] )
+	sca? ( >=dev-python/mypy-0.942[${PYTHON_USEDEP}] )
+	sca? ( >=dev-python/pylint-2.9.5[${PYTHON_USEDEP}] )
+	style? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	style? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.10.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tox-3.25.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

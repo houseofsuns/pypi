@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/dsnparse[${PYTHON_USEDEP}]
 	all? ( dev-python/types-psycopg2[${PYTHON_USEDEP}] )
 	pymssql? ( dev-python/types-pymssql[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-pymssql[${PYTHON_USEDEP}] )
-	dev-python/cached-property[${PYTHON_USEDEP}]
+	<dev-python/cached-property-2.0.0[${PYTHON_USEDEP}]
 	mysql-connector-python? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	cx-oracle? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
@@ -46,9 +46,9 @@ DEPENDENCIES="dev-python/dsnparse[${PYTHON_USEDEP}]
 	all? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	google-cloud-bigquery-storage? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-bigquery-storage[${PYTHON_USEDEP}] )
-	google-cloud-bigquery-storage? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	google-cloud-bigquery-storage? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	google-cloud-bigquery-storage? ( <dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )
+	google-cloud-bigquery-storage? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

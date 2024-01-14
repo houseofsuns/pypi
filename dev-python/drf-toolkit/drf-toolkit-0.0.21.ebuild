@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/try-parse[${PYTHON_USEDEP}]
 	dev-python/power-dict[${PYTHON_USEDEP}]
 	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]"
+	>=dev-python/django-2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

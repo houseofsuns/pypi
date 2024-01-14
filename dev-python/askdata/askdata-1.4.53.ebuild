@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.1.2[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
+	~dev-python/pyarrow-7.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/yaml-1_3[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.8[${PYTHON_USEDEP}]
 	dev-python/mysql-connector[${PYTHON_USEDEP}]
 	dev-python/NotebookScripter[${PYTHON_USEDEP}]
 	dev-python/jsons[${PYTHON_USEDEP}]
 	dev-python/google-ads[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-2.42.0[${PYTHON_USEDEP}]
+	>=dev-python/oauthlib-3.2.0[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
 	dev-python/facebook-business[${PYTHON_USEDEP}]
 	dev-python/hubspot3[${PYTHON_USEDEP}]"

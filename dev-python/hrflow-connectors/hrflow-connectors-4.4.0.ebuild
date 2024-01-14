@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="s3"
 DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	~dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}]
+	s3? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/hrflow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.8[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/simple-salesforce[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

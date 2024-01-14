@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1.6[${PYTHON_USEDEP}]
 	dev-python/coverage[${PYTHON_USEDEP}]
 	dev-python/datadog-api-client[${PYTHON_USEDEP}]
 	dev-python/datadog-checks-dev[${PYTHON_USEDEP}]
@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
 	dev-python/jsonpointer[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.5.1[${PYTHON_USEDEP}]
 	dev-python/stamina[${PYTHON_USEDEP}]
 	dev-python/tomli-w[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]

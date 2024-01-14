@@ -25,26 +25,26 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs jupyter tests"
 DEPENDENCIES="tests? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/black-24.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/icecream[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	tests? ( dev-python/isort[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/nbsphinx-0.10.0[${PYTHON_USEDEP}] )
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	tests? ( <dev-python/pylint-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pypandoc[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}] )
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-3.0.0[${PYTHON_USEDEP}] )
+	>=dev-python/statsmodels-0.13[${PYTHON_USEDEP}]
 	docs? ( dev-python/toml[${PYTHON_USEDEP}] )
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

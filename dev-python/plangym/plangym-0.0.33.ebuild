@@ -30,20 +30,20 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/ale-py[${PYTHON_USEDEP}] )
 	all? ( dev-python/autorom[${PYTHON_USEDEP}] )
 	all? ( dev-python/gym-retro[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyvirtualdisplay[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-5.3.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyvirtualdisplay-1.3.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/ray[${PYTHON_USEDEP}] )
 	all? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
 	all? ( dev-python/box2d-py[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyglet[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyglet-1.4.0[${PYTHON_USEDEP}] )
 	atari? ( dev-python/ale-py[${PYTHON_USEDEP}] )
 	atari? ( dev-python/autorom[${PYTHON_USEDEP}] )
 	box2d? ( dev-python/box2d-py[${PYTHON_USEDEP}] )
-	box2d? ( dev-python/pyglet[${PYTHON_USEDEP}] )
+	box2d? ( >=dev-python/pyglet-1.4.0[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
 	ray? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
 	retro? ( dev-python/gym-retro[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyvirtualdisplay[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-5.3.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyvirtualdisplay-1.3.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

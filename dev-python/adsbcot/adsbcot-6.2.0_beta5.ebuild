@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test with_pymodes with_takproto"
 DEPENDENCIES="dev-python/aircot[${PYTHON_USEDEP}]
 	dev-python/pytak[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	dev-python/asyncinotify[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

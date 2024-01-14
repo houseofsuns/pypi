@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/agora-py[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/SPARQLWrapper[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	~dev-python/rdflib-4.2.1[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pyld[${PYTHON_USEDEP}]
 	dev-python/rdflib-jsonld[${PYTHON_USEDEP}]

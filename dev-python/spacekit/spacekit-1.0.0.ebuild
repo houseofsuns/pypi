@@ -27,7 +27,7 @@ IUSE="docs test x"
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	x? ( dev-python/astroquery[${PYTHON_USEDEP}] )
-	x? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	x? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
 	x? ( dev-python/pydot[${PYTHON_USEDEP}] )
 	x? ( dev-python/graphviz[${PYTHON_USEDEP}] )
 	x? ( dev-python/plotly[${PYTHON_USEDEP}] )

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/clr-loader[${PYTHON_USEDEP}]
-	dev-python/pythonnet[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/clr-loader-0.2.5[${PYTHON_USEDEP}]
+	>=dev-python/pythonnet-3.0.1[${PYTHON_USEDEP}]
 	dev-python/udsoncan[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/rich-11.2[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.1[${PYTHON_USEDEP}]
 	dev-python/canmatrix[${PYTHON_USEDEP}]
 	dev-python/ldfparser[${PYTHON_USEDEP}]
 	dev-python/python-can[${PYTHON_USEDEP}]"

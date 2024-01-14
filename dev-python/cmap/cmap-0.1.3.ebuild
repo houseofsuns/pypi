@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/numba[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	thirdparty? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	thirdparty? ( dev-python/colour[${PYTHON_USEDEP}] )
 	thirdparty? ( dev-python/napari[${PYTHON_USEDEP}] )

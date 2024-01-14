@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="apache-hive exasol ftp google imap mongo mysql postgres ssh"
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+	<dev-python/boto3-1.16.0[${PYTHON_USEDEP}]
+	<dev-python/botocore-1.19.0[${PYTHON_USEDEP}]
 	dev-python/watchtower[${PYTHON_USEDEP}]
 	apache-hive? ( dev-python/apache-airflow-backport-providers-apache-hive[${PYTHON_USEDEP}] )
 	exasol? ( dev-python/apache-airflow-backport-providers-exasol[${PYTHON_USEDEP}] )

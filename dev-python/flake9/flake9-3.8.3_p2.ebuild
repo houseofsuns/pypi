@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyflakes[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]
-	dev-python/mccabe[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/pyflakes-2.3.0[${PYTHON_USEDEP}]
+	<dev-python/pycodestyle-2.7.0[${PYTHON_USEDEP}]
+	<dev-python/mccabe-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

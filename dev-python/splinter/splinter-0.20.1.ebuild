@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="django flask selenium zope-testbrowser"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
 	django? ( dev-python/Django[${PYTHON_USEDEP}] )
-	django? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	django? ( >=dev-python/lxml-4.2.4[${PYTHON_USEDEP}] )
 	django? ( dev-python/cssselect[${PYTHON_USEDEP}] )
 	flask? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	flask? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	flask? ( >=dev-python/lxml-4.2.4[${PYTHON_USEDEP}] )
 	flask? ( dev-python/cssselect[${PYTHON_USEDEP}] )
-	selenium? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	selenium? ( <dev-python/selenium-4.16.0[${PYTHON_USEDEP}] )
 	zope-testbrowser? ( dev-python/zope-testbrowser[${PYTHON_USEDEP}] )
-	zope-testbrowser? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	zope-testbrowser? ( >=dev-python/lxml-4.2.4[${PYTHON_USEDEP}] )
 	zope-testbrowser? ( dev-python/cssselect[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop"
 DEPENDENCIES="develop? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	develop? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	develop? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	develop? ( <dev-python/pytest-4.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/recommonmark-1.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/sphinx-2.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/tox-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

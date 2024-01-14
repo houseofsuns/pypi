@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/brotli[${PYTHON_USEDEP}]
-	dev-python/js2py[${PYTHON_USEDEP}]
+	>=dev-python/js2py-0.74[${PYTHON_USEDEP}]
 	dev-python/tweepy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

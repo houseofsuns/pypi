@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="server"
 DEPENDENCIES="dev-python/pymavlink[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	server? ( dev-python/flask[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

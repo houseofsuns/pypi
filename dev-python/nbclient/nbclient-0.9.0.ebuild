@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
-DEPENDENCIES="dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/jupyter-core[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jupyter-client-6.1.12[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-core-4.12[${PYTHON_USEDEP}]
+	>=dev-python/nbformat-5.1[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-5.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodoc-traits[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mock[${PYTHON_USEDEP}] )
@@ -35,16 +35,16 @@ DEPENDENCIES="dev-python/jupyter-client[${PYTHON_USEDEP}]
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbclient[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/ipykernel-6.19.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nbconvert-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/testpath[${PYTHON_USEDEP}] )
 	test? ( dev-python/xmltodict[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

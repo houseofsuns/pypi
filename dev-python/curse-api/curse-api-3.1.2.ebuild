@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp httpx quick"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	quick? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	quick? ( <dev-python/httpx-0.24.0[${PYTHON_USEDEP}] )
+	httpx? ( <dev-python/httpx-0.24.0[${PYTHON_USEDEP}] )
+	aiohttp? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

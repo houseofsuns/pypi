@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pywebview[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
-	dev-python/PyQtWebEngine[${PYTHON_USEDEP}]"
+	<dev-python/PyQt5-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/PyQtWebEngine-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

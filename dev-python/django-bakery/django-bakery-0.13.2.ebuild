@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/fs[${PYTHON_USEDEP}]"
+DEPENDENCIES=">dev-python/six-1.5.2[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/fs-2.0.17[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

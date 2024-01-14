@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests typing"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-21.3.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/svcs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( >dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	docs? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/flask[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/furo-2023.8.17[${PYTHON_USEDEP}] )
 	docs? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyramid[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.2.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/starlette[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	typing? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	typing? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	typing? ( dev-python/flask[${PYTHON_USEDEP}] )
-	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	typing? ( >=dev-python/mypy-1.4[${PYTHON_USEDEP}] )
 	typing? ( dev-python/pyramid[${PYTHON_USEDEP}] )
 	typing? ( dev-python/starlette[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

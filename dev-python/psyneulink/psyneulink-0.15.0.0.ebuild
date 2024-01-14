@@ -25,44 +25,44 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cuda dev doc tutorial"
 DEPENDENCIES="dev-python/autograd[${PYTHON_USEDEP}]
-	dev-python/beartype[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+	<dev-python/beartype-0.16.0[${PYTHON_USEDEP}]
+	<dev-python/dill-0.3.8[${PYTHON_USEDEP}]
 	dev-python/fastkde[${PYTHON_USEDEP}]
 	dev-python/graph-scheduler[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	<dev-python/graphviz-0.21.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-1.60.0[${PYTHON_USEDEP}]
 	dev-python/leabra-psyneulink[${PYTHON_USEDEP}]
 	dev-python/llvmlite[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-3.7.3[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.3[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.24.5[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.1.5[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.2.0[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/toposort[${PYTHON_USEDEP}]
+	<dev-python/rich-10.13[${PYTHON_USEDEP}]
+	<dev-python/toposort-1.11[${PYTHON_USEDEP}]
 	dev-python/modeci-mdf[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	cuda? ( dev-python/pycuda[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	cuda? ( <dev-python/pycuda-2023.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/jupyter-1.0.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/packaging-24.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-helpers-namespace[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-4.1.1[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-forked-1.7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-helpers-namespace-2021.12.30[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-profiling[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-pycodestyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-pydocstyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-xdist-3.6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/psyneulink-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	doc? ( <dev-python/sphinx-4.2.1[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-autodoc-typehints-1.16.0[${PYTHON_USEDEP}] )
+	tutorial? ( <dev-python/graphviz-0.21.0[${PYTHON_USEDEP}] )
+	tutorial? ( <dev-python/jupyter-1.0.1[${PYTHON_USEDEP}] )
+	tutorial? ( <dev-python/matplotlib-3.7.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

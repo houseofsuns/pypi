@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/mmtf-python[${PYTHON_USEDEP}]
-	dev-python/looseversion[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
+	~dev-python/mmtf-python-1.1.3[${PYTHON_USEDEP}]
+	~dev-python/looseversion-1.1.2[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

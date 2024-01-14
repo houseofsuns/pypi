@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rtlsdr"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	rtlsdr? ( dev-python/pyrtlsdr[${PYTHON_USEDEP}] )
-	dev-python/pyzmq[${PYTHON_USEDEP}]"
+	<dev-python/pyzmq-25.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

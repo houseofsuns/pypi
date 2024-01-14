@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.17.0[${PYTHON_USEDEP}]
 	dev-python/xgcm[${PYTHON_USEDEP}]
 	dev-python/cftime[${PYTHON_USEDEP}]
 	dev-python/xarrayutils[${PYTHON_USEDEP}]

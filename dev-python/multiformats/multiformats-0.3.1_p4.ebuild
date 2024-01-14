@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev full"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]
 	dev-python/typing-validation[${PYTHON_USEDEP}]
 	dev-python/bases[${PYTHON_USEDEP}]
 	dev-python/multiformats-config[${PYTHON_USEDEP}]

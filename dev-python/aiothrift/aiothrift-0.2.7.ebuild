@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/thriftpy2[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/async-timeout-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/thriftpy2-0.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

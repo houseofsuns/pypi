@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/mediajson[${PYTHON_USEDEP}]
 	dev-python/mediatimestamp[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/bitstring[${PYTHON_USEDEP}]"
+	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2.6[${PYTHON_USEDEP}]
+	>=dev-python/bitstring-4.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

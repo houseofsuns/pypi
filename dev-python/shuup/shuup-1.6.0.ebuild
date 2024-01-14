@@ -24,72 +24,72 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="coding-style docs everything testing"
-DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pillow-4.0[${PYTHON_USEDEP}]
+	~dev-python/Babel-2.5.3[${PYTHON_USEDEP}]
+	~dev-python/cryptography-1.7.1[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap3[${PYTHON_USEDEP}]
 	dev-python/django-countries[${PYTHON_USEDEP}]
 	dev-python/django-enumfields[${PYTHON_USEDEP}]
 	dev-python/django-filer[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+	<dev-python/django-filter-1.1[${PYTHON_USEDEP}]
 	dev-python/django-jinja[${PYTHON_USEDEP}]
 	dev-python/django-mptt[${PYTHON_USEDEP}]
 	dev-python/django-parler[${PYTHON_USEDEP}]
 	dev-python/django-parler-rest[${PYTHON_USEDEP}]
 	dev-python/django-polymorphic[${PYTHON_USEDEP}]
 	dev-python/django-registration-redux[${PYTHON_USEDEP}]
-	dev-python/django-timezone-field[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	<dev-python/django-timezone-field-2.0[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-3.6[${PYTHON_USEDEP}]
 	dev-python/djangorestframework-jwt[${PYTHON_USEDEP}]
 	dev-python/django-rest-swagger[${PYTHON_USEDEP}]
 	dev-python/factory-boy[${PYTHON_USEDEP}]
 	dev-python/fake-factory[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/jsonfield[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
-	dev-python/keyrings-alt[${PYTHON_USEDEP}]
+	~dev-python/keyring-10.2[${PYTHON_USEDEP}]
+	~dev-python/keyrings-alt-2.0[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-2.3.5[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.6.0[${PYTHON_USEDEP}]
 	dev-python/pytoml[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/secretstorage[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2015.4[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	~dev-python/secretstorage-2.3.1[${PYTHON_USEDEP}]
+	<dev-python/six-2.0[${PYTHON_USEDEP}]
 	dev-python/unicodecsv[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	coding-style? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	~dev-python/xlrd-1.0.0[${PYTHON_USEDEP}]
+	coding-style? ( <dev-python/flake8-3.0[${PYTHON_USEDEP}] )
 	coding-style? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
 	coding-style? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	everything? ( dev-python/mock[${PYTHON_USEDEP}] )
-	everything? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	everything? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	everything? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
+	everything? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	everything? ( ~dev-python/beautifulsoup4-4.5.3[${PYTHON_USEDEP}] )
+	everything? ( <dev-python/flake8-3.0[${PYTHON_USEDEP}] )
+	everything? ( ~dev-python/pytest-django-3.1.2[${PYTHON_USEDEP}] )
 	everything? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	everything? ( dev-python/html5lib[${PYTHON_USEDEP}] )
-	everything? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	everything? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	everything? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
+	everything? ( ~dev-python/html5lib-0.999999999[${PYTHON_USEDEP}] )
+	everything? ( ~dev-python/pytest-3.0.6[${PYTHON_USEDEP}] )
+	everything? ( ~dev-python/selenium-3.8.0[${PYTHON_USEDEP}] )
+	everything? ( ~dev-python/pytest-sugar-0.8.0[${PYTHON_USEDEP}] )
 	everything? ( dev-python/splinter[${PYTHON_USEDEP}] )
 	everything? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
 	everything? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	everything? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
+	everything? ( ~dev-python/weasyprint-0.34[${PYTHON_USEDEP}] )
 	everything? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
 	everything? ( dev-python/pytest-splinter[${PYTHON_USEDEP}] )
-	everything? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	testing? ( dev-python/html5lib[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
+	everything? ( ~dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/beautifulsoup4-4.5.3[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/html5lib-0.999999999[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-3.0.6[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-django-3.1.2[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-splinter[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	testing? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-sugar-0.8.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/selenium-3.8.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/splinter[${PYTHON_USEDEP}] )
-	testing? ( dev-python/weasyprint[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/weasyprint-0.34[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="train"
 DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/antialiased-cnns[${PYTHON_USEDEP}]
 	dev-python/axial-attention[${PYTHON_USEDEP}]

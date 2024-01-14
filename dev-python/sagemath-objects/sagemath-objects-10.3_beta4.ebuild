@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/gmpy2[${PYTHON_USEDEP}]
-	dev-python/cysignals[${PYTHON_USEDEP}]"
+	>=dev-python/cysignals-1.10.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

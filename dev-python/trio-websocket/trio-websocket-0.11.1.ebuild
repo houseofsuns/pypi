@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/trio[${PYTHON_USEDEP}]
-	dev-python/wsproto[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/trio-0.11[${PYTHON_USEDEP}]
+	>=dev-python/wsproto-0.14[${PYTHON_USEDEP}]
 	dev-python/exceptiongroup[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

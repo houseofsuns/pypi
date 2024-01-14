@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
+	>=dev-python/django-3.0.2[${PYTHON_USEDEP}]
 	dev-python/django-rest-framework[${PYTHON_USEDEP}]
 	dev-python/django-q[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

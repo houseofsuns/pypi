@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="django"
-DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-dateutil-2.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.2.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.6.1[${PYTHON_USEDEP}]
 	dev-python/slumber[${PYTHON_USEDEP}]
-	django? ( dev-python/django[${PYTHON_USEDEP}] )"
+	django? ( >=dev-python/django-1.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

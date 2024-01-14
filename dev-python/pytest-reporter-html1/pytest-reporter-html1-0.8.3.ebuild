@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pytest-reporter[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/ansi2html[${PYTHON_USEDEP}]
+	>=dev-python/ansi2html-1.3.0[${PYTHON_USEDEP}]
 	dev-python/htmlmin[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

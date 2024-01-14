@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev lz4 mypy test"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/ifaddr[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-2.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sdc11073[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sdc11073[${PYTHON_USEDEP}] )

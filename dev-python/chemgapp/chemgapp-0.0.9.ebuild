@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/streamlit[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.11.2[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/pathlib2[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/random2[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-8.7.0[${PYTHON_USEDEP}]
+	~dev-python/pathlib2-2.3.5[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.6.2[${PYTHON_USEDEP}]
+	~dev-python/regex-2022.9.13[${PYTHON_USEDEP}]
+	~dev-python/random2-1.0.1[${PYTHON_USEDEP}]
 	dev-python/pickle-mixin[${PYTHON_USEDEP}]
 	dev-python/bioinfokit[${PYTHON_USEDEP}]
 	dev-python/statannotations[${PYTHON_USEDEP}]"

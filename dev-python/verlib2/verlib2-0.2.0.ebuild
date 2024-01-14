@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop release test"
-DEPENDENCIES="develop? ( dev-python/black[${PYTHON_USEDEP}] )
-	develop? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES="develop? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
+	develop? ( ~dev-python/mypy-1.6.0[${PYTHON_USEDEP}] )
 	develop? ( dev-python/poethepoet[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pyproject-fmt[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pyproject-fmt-1.3[${PYTHON_USEDEP}] )
 	develop? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	develop? ( dev-python/validate-pyproject[${PYTHON_USEDEP}] )
-	release? ( dev-python/build[${PYTHON_USEDEP}] )
-	release? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/pretend[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	release? ( <dev-python/build-2.0[${PYTHON_USEDEP}] )
+	release? ( <dev-python/twine-5.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pretend-2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fcgi"
-DEPENDENCIES="dev-python/python-mimeparse[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-mimeparse-0.1.4[${PYTHON_USEDEP}]
 	dev-python/first[${PYTHON_USEDEP}]
 	dev-python/state-chain[${PYTHON_USEDEP}]
 	dev-python/filesystem-tree[${PYTHON_USEDEP}]

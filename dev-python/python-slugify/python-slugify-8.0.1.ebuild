@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="unidecode"
-DEPENDENCIES="dev-python/text-unidecode[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/text-unidecode-1.3[${PYTHON_USEDEP}]
 	unidecode? ( dev-python/Unidecode[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

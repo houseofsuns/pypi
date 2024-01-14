@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
+	<dev-python/tornado-6.0[${PYTHON_USEDEP}]
 	dev-python/contextlib2[${PYTHON_USEDEP}]
 	dev-python/opentracing[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
 	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
 	tests? ( dev-python/moto[${PYTHON_USEDEP}] )
 	tests? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sqlalchemy-1.3.7[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-localserver[${PYTHON_USEDEP}] )

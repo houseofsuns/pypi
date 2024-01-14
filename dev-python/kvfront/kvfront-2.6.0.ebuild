@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/python-memcached[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/sshtunnel[${PYTHON_USEDEP}]"
+	>=dev-python/python-memcached-1.58[${PYTHON_USEDEP}]
+	>=dev-python/redis-4.1.0[${PYTHON_USEDEP}]
+	>dev-python/sshtunnel-0.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

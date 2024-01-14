@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp cli docs flask swagger-ui tests"
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/inflection-0.6[${PYTHON_USEDEP}]
+	<dev-python/werkzeug-3.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	aiohttp? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	aiohttp? ( dev-python/aiohttp-jinja2[${PYTHON_USEDEP}] )
 	aiohttp? ( dev-python/MarkupSafe[${PYTHON_USEDEP}] )
 	cli? ( dev-python/clickclick[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
-	flask? ( dev-python/itsdangerous[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autoapi-1.8.1[${PYTHON_USEDEP}] )
+	flask? ( <dev-python/flask-3.0[${PYTHON_USEDEP}] )
+	flask? ( >=dev-python/itsdangerous-0.24[${PYTHON_USEDEP}] )
 	swagger-ui? ( dev-python/swagger-ui-bundle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-aiohttp-1.0.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aiohttp-remotes[${PYTHON_USEDEP}] )
-	tests? ( dev-python/decorator[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/testfixtures[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/decorator-5.1.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.2.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/testfixtures-7.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/resotoclient[${PYTHON_USEDEP}]
 	dev-python/resotolib[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	extra? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	extra? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )

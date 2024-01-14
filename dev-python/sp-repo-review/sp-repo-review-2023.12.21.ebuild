@@ -27,7 +27,7 @@ IUSE="cli dev test"
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/repo-review[${PYTHON_USEDEP}]
 	cli? ( dev-python/repo-review[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

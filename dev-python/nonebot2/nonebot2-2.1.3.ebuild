@@ -26,22 +26,22 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aiohttp all fastapi httpx quart websockets"
 DEPENDENCIES="quart? ( dev-python/Quart[${PYTHON_USEDEP}] )
 	all? ( dev-python/Quart[${PYTHON_USEDEP}] )
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	aiohttp? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	all? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	httpx? ( <dev-python/httpx-1.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/httpx-1.0.0[${PYTHON_USEDEP}] )
+	<dev-python/loguru-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pygtrie[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	quart? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	all? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	websockets? ( dev-python/websockets[${PYTHON_USEDEP}] )
-	all? ( dev-python/websockets[${PYTHON_USEDEP}] )
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	quart? ( <dev-python/uvicorn-1.0.0[${PYTHON_USEDEP}] )
+	fastapi? ( <dev-python/uvicorn-1.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/uvicorn-1.0.0[${PYTHON_USEDEP}] )
+	websockets? ( >=dev-python/websockets-10.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/websockets-10.0[${PYTHON_USEDEP}] )
+	<dev-python/yarl-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

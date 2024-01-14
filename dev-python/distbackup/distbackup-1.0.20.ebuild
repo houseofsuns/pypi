@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/argcomplete-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.9.0[${PYTHON_USEDEP}]
 	dev-python/ktpanda-modules[${PYTHON_USEDEP}]
 	dev-python/hashcopy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

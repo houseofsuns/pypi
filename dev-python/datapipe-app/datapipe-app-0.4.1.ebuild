@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="gcp jaeger"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.17.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	dev-python/datapipe-core[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+	<dev-python/prometheus-client-1.0.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-fastapi[${PYTHON_USEDEP}]
 	gcp? ( dev-python/opentelemetry-exporter-gcp-trace[${PYTHON_USEDEP}] )
 	jaeger? ( dev-python/opentelemetry-exporter-jaeger[${PYTHON_USEDEP}] )"

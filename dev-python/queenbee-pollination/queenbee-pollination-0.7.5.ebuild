@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli"
 DEPENDENCIES="dev-python/queenbee[${PYTHON_USEDEP}]
 	dev-python/pollination-sdk[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click-plugins[${PYTHON_USEDEP}] )"
+	>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	cli? ( ~dev-python/click-7.1.2[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/click-plugins-1.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

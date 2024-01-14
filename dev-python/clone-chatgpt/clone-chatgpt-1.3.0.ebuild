@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="api cloud"
 DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.23.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	~dev-python/rich-13.3.2[${PYTHON_USEDEP}]
+	~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.2.3[${PYTHON_USEDEP}]
+	~dev-python/flask-2.2.3[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
+	~dev-python/waitress-2.1.2[${PYTHON_USEDEP}]
+	~dev-python/loguru-0.6.0[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
+	~dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
 	api? ( dev-python/pandora-tiktoken[${PYTHON_USEDEP}] )
-	api? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	api? ( ~dev-python/sqlalchemy-2.0.7[${PYTHON_USEDEP}] )
 	api? ( dev-python/yoyo-migrations[${PYTHON_USEDEP}] )
 	cloud? ( dev-python/pandora-cloud[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

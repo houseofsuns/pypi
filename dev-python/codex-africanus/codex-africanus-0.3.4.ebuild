@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="astropy complete complete-cuda cuda dask ducc0 jax python-casacore scipy testing"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4.3[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	astropy? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	complete? ( dev-python/astropy[${PYTHON_USEDEP}] )
-	complete? ( dev-python/dask[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/dask-2.2.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/ducc0[${PYTHON_USEDEP}] )
-	complete? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	complete? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	complete? ( dev-python/jax[${PYTHON_USEDEP}] )
 	complete? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	complete? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	complete? ( dev-python/python-casacore[${PYTHON_USEDEP}] )
-	complete? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/scipy-1.4.0[${PYTHON_USEDEP}] )
 	complete-cuda? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	complete-cuda? ( dev-python/cupy[${PYTHON_USEDEP}] )
-	complete-cuda? ( dev-python/dask[${PYTHON_USEDEP}] )
+	complete-cuda? ( >=dev-python/dask-2.2.0[${PYTHON_USEDEP}] )
 	complete-cuda? ( dev-python/ducc0[${PYTHON_USEDEP}] )
-	complete-cuda? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	complete-cuda? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )
 	complete-cuda? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	complete-cuda? ( dev-python/jax[${PYTHON_USEDEP}] )
 	complete-cuda? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
@@ -52,18 +52,18 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	complete-cuda? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	complete-cuda? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	complete-cuda? ( dev-python/python-casacore[${PYTHON_USEDEP}] )
-	complete-cuda? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	complete-cuda? ( >=dev-python/scipy-1.4.0[${PYTHON_USEDEP}] )
 	cuda? ( dev-python/cupy[${PYTHON_USEDEP}] )
 	cuda? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( >=dev-python/dask-2.2.0[${PYTHON_USEDEP}] )
 	ducc0? ( dev-python/ducc0[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jax[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
 	python-casacore? ( dev-python/python-casacore[${PYTHON_USEDEP}] )
-	scipy? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	scipy? ( >=dev-python/scipy-1.4.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flaky[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	testing? ( <dev-python/flake8-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

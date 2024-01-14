@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="anyio"
-DEPENDENCIES="anyio? ( dev-python/anyio[${PYTHON_USEDEP}] )
+DEPENDENCIES="anyio? ( >=dev-python/anyio-3.5.0[${PYTHON_USEDEP}] )
 	dev-python/graphlib2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

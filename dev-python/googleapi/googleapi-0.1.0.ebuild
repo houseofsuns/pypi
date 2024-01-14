@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/google[${PYTHON_USEDEP}]
-	dev-python/google-api-core[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/google-auth-httplib2[${PYTHON_USEDEP}]
-	dev-python/google-auth-oauthlib[${PYTHON_USEDEP}]
-	dev-python/google-pasta[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
+	>=dev-python/google-api-core-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-1.9.3[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-1.17.0[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-httplib2-0.0.3[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-oauthlib-0.4.1[${PYTHON_USEDEP}]
+	>=dev-python/google-pasta-0.1.8[${PYTHON_USEDEP}]
+	>=dev-python/googleapis-common-protos-1.52.0[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]"
+	>=dev-python/oauthlib-3.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

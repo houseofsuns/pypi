@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	full? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	full? ( dev-python/google-cloud-firestore[${PYTHON_USEDEP}] )
 	full? ( dev-python/pyrebase4[${PYTHON_USEDEP}] )
-	full? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
+	full? ( <dev-python/google-auth-oauthlib-0.5[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	full? ( dev-python/Cython[${PYTHON_USEDEP}] )
 	full? ( dev-python/gspread[${PYTHON_USEDEP}] )

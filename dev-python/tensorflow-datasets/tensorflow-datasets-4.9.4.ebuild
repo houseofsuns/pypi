@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev-python/promise[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.19.0[${PYTHON_USEDEP}]
 	dev-python/tensorflow-metadata[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
@@ -64,7 +64,7 @@ DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
 	dev? ( dev-python/conllu[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorflow-io[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	duke_ultrasound? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	eurosat? ( dev-python/scikit-image[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all frida lief objection requests ssh ssl"
 DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.4.0[${PYTHON_USEDEP}]
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/frida[${PYTHON_USEDEP}] )
 	all? ( dev-python/objection[${PYTHON_USEDEP}] )

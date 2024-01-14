@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="detections"
 DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 	detections? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	detections? ( dev-python/presidio-analyzer[${PYTHON_USEDEP}] )
 	detections? ( dev-python/presidio-anonymizer[${PYTHON_USEDEP}] )

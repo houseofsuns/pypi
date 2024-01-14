@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
 	dev-python/wagtail-modeladmin[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	<dev-python/selenium-3.142.0[${PYTHON_USEDEP}]
+	docs? ( >=dev-python/sphinx-2.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	test? ( dev-python/Faker[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )

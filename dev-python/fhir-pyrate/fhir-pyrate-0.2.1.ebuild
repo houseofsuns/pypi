@@ -32,12 +32,12 @@ DEPENDENCIES="downloader? ( dev-python/SimpleITK[${PYTHON_USEDEP}] )
 	all? ( dev-python/dicomweb-client[${PYTHON_USEDEP}] )
 	miner? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	all? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
 	dev-python/fhirpathpy[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]"
+	<dev-python/requests-cache-0.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

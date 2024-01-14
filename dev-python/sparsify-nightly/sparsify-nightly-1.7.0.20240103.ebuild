@@ -27,18 +27,18 @@ IUSE="dev llm nm"
 DEPENDENCIES="dev-python/sparsezoo-nightly[${PYTHON_USEDEP}]
 	dev-python/deepsparse-nightly[${PYTHON_USEDEP}]
 	dev-python/sparseml-nightly[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-56.0.0[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
 	dev-python/onnxruntime-gpu[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.36.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/fastai[${PYTHON_USEDEP}] )
 	llm? ( dev-python/llm-foundry[${PYTHON_USEDEP}] )
 	llm? ( dev-python/nm-transformers-nightly[${PYTHON_USEDEP}] )

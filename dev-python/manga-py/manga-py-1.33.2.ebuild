@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cloudscraper[${PYTHON_USEDEP}]
-	dev-python/cssselect[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/progressbar2[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	>=dev-python/cssselect-1.1[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.3[${PYTHON_USEDEP}]
+	>=dev-python/progressbar2-3.50[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.9[${PYTHON_USEDEP}]
 	dev-python/PyExecJS[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23[${PYTHON_USEDEP}]
 	dev-python/better-exceptions[${PYTHON_USEDEP}]
 	dev-python/pysocks[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"

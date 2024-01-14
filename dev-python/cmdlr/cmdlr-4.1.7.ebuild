@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiohttp-socks[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
-	dev-python/wcwidth[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-socks-0.2[${PYTHON_USEDEP}]
+	<dev-python/voluptuous-0.12[${PYTHON_USEDEP}]
+	~dev-python/wcwidth-0.1.7[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/fake-useragent[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

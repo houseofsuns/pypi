@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jedi[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/asttokens[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jedi-0.18.1[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-45.2[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.4[${PYTHON_USEDEP}]
+	>=dev-python/pylint-2.4[${PYTHON_USEDEP}]
+	>=dev-python/docutils-0.16[${PYTHON_USEDEP}]
+	>=dev-python/mypy-0.761[${PYTHON_USEDEP}]
+	>=dev-python/asttokens-2.0[${PYTHON_USEDEP}]
 	dev-python/Send2Trash[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

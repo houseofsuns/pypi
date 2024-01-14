@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/colour[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}]
+	>=dev-python/colour-0.1.5[${PYTHON_USEDEP}]
 	dev-python/colorir[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]

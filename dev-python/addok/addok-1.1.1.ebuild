@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/falcon[${PYTHON_USEDEP}]
 	dev-python/hashids[${PYTHON_USEDEP}]
-	dev-python/hiredis[${PYTHON_USEDEP}]
+	~dev-python/hiredis-2.2.2[${PYTHON_USEDEP}]
 	dev-python/editdistance[${PYTHON_USEDEP}]
 	dev-python/ngram[${PYTHON_USEDEP}]
 	dev-python/progressist[${PYTHON_USEDEP}]
 	dev-python/python-geohash[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/redis-4.5.4[${PYTHON_USEDEP}]
 	dev-python/Unidecode[${PYTHON_USEDEP}]
 	dev-python/gnureadline[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )

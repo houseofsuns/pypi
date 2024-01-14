@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pbr-5.11.1[${PYTHON_USEDEP}]
+	~dev-python/iso8601-0.1.12[${PYTHON_USEDEP}]
+	>=dev-python/pytest-5.4.3[${PYTHON_USEDEP}]
+	~dev-python/pytest-asyncio-0.12.0[${PYTHON_USEDEP}]
 	dev-python/httptools[${PYTHON_USEDEP}]
 	dev-python/Cython[${PYTHON_USEDEP}]
 	dev-python/contextvars[${PYTHON_USEDEP}]"

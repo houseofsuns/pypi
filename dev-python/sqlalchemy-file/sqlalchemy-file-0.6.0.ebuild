@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc test"
-DEPENDENCIES="dev-python/apache-libcloud[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/apache-libcloud-3.9[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	test? ( dev-python/fasteners[${PYTHON_USEDEP}] )
-	test? ( dev-python/flask-sqlalchemy[${PYTHON_USEDEP}] )
-	test? ( dev-python/flask[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/fasteners-0.19[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flask-sqlalchemy-3.2[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flask-2.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pillow-10.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	test? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pymysql-1.2.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.5.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

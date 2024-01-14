@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/sagemaker[${PYTHON_USEDEP}]
 	dev-python/yaspin[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
 	dev-python/sagemaker-studio-image-build[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.14.12[${PYTHON_USEDEP}]
 	locust? ( dev-python/locustio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

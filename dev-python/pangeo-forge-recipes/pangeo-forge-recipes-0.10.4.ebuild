@@ -26,15 +26,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="minio test"
 DEPENDENCIES="dev-python/apache-beam[${PYTHON_USEDEP}]
 	dev-python/cftime[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	>=dev-python/dask-2021.11.2[${PYTHON_USEDEP}]
 	dev-python/fastparquet[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2023.4.0[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.3.0[${PYTHON_USEDEP}]
 	dev-python/kerchunk[${PYTHON_USEDEP}]
 	dev-python/netcdf4[${PYTHON_USEDEP}]
 	dev-python/numcodecs[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.18.0[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
 	minio? ( dev-python/docker[${PYTHON_USEDEP}] )
 	test? ( dev-python/click[${PYTHON_USEDEP}] )

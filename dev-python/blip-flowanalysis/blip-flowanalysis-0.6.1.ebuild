@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+DEPENDENCIES="tests? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-mock-2.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pytest-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

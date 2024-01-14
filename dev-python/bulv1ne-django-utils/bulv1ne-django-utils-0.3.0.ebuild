@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all frontmatter json markdown pipeline raven s3"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	all? ( dev-python/Markdown[${PYTHON_USEDEP}] )
 	all? ( dev-python/django-pipeline[${PYTHON_USEDEP}] )
-	all? ( dev-python/libsass[${PYTHON_USEDEP}] )
-	all? ( dev-python/csscompressor[${PYTHON_USEDEP}] )
+	all? ( <dev-python/libsass-0.21[${PYTHON_USEDEP}] )
+	all? ( <dev-python/csscompressor-1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/raven[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
@@ -37,8 +37,8 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	json? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	markdown? ( dev-python/Markdown[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/django-pipeline[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/libsass[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/csscompressor[${PYTHON_USEDEP}] )
+	pipeline? ( <dev-python/libsass-0.21[${PYTHON_USEDEP}] )
+	pipeline? ( <dev-python/csscompressor-1.0[${PYTHON_USEDEP}] )
 	raven? ( dev-python/raven[${PYTHON_USEDEP}] )
 	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

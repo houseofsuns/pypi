@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="client docs lint test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	client? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	client? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	client? ( dev-python/orjson[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	~dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
+	client? ( >=dev-python/ipython-7.3.0[${PYTHON_USEDEP}] )
+	client? ( <dev-python/numpy-2.0[${PYTHON_USEDEP}] )
+	client? ( <dev-python/orjson-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.22.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/asteroid-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/isort[${PYTHON_USEDEP}] )

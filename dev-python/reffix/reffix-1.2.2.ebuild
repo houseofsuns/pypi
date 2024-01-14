@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/bibtexparser[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/bibtexparser-1.4.0[${PYTHON_USEDEP}]
 	dev-python/titlecase[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-1.3.4[${PYTHON_USEDEP}]
+	>=dev-python/termcolor-2.2.0[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]

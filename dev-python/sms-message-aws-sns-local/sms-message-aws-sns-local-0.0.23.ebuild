@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/api-management-local[${PYTHON_USEDEP}]
 	dev-python/variable-local[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.28.70[${PYTHON_USEDEP}]
 	dev-python/message-local[${PYTHON_USEDEP}]
 	dev-python/database-mysql-local[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

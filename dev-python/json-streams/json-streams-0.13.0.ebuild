@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci orjson"
-DEPENDENCIES="dev-python/ijson[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ijson-3.2.3[${PYTHON_USEDEP}]
 	ci? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )"
+	orjson? ( >=dev-python/orjson-3.9.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

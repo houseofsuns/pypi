@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all docs"
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
-	all? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/nbsphinx-0.6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/nengo-sphinx-theme[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpydoc-0.9.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nengo-sphinx-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-0.9.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/oss2[${PYTHON_USEDEP}]
 	dev-python/synology-api[${PYTHON_USEDEP}]
 	dev-python/esdk-obs-python[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

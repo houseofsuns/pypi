@@ -32,16 +32,16 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	sbc? ( dev-python/adafruit-circuitpython-motorkit[${PYTHON_USEDEP}] )
 	sbc? ( dev-python/adafruit-circuitpython-mprls[${PYTHON_USEDEP}] )
 	sbc? ( dev-python/adafruit-circuitpython-busdevice[${PYTHON_USEDEP}] )
-	hardware? ( dev-python/pyusb[${PYTHON_USEDEP}] )
-	hardware? ( dev-python/pyserial[${PYTHON_USEDEP}] )
-	hardware? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	hardware? ( >=dev-python/pyusb-1.1.0[${PYTHON_USEDEP}] )
+	hardware? ( >=dev-python/pyserial-3.4[${PYTHON_USEDEP}] )
+	hardware? ( >=dev-python/pyyaml-5.3[${PYTHON_USEDEP}] )
 	image? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	image? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	image? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	image? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
 	image? ( dev-python/SimpleITK[${PYTHON_USEDEP}] )
 	image? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	main? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	main? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
 	main? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	main? ( dev-python/pyserial[${PYTHON_USEDEP}] )"
+	main? ( >=dev-python/pyserial-3.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

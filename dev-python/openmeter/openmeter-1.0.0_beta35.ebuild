@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aio"
-DEPENDENCIES="aio? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+DEPENDENCIES="aio? ( >=dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )
 	dev-python/azure-core[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
+	<dev-python/isodate-0.7.0[${PYTHON_USEDEP}]
 	dev-python/cloudevents[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

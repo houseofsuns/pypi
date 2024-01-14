@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/cliff[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}]
+	~dev-python/paramiko-2.7.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	~dev-python/cliff-3.4.0[${PYTHON_USEDEP}]
 	dev-python/python-libmaas[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

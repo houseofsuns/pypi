@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/thrift[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/thrift-0.10[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

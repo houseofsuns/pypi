@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="proxy"
 DEPENDENCIES="dev-python/jsonrpcclient[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	proxy? ( dev-python/aiohttp-socks[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

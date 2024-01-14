@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="hdf5"
-DEPENDENCIES="dev-python/absl-py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/absl-py-0.7.0[${PYTHON_USEDEP}]
 	dev-python/dm-env[${PYTHON_USEDEP}]
 	dev-python/dm-tree[${PYTHON_USEDEP}]
 	dev-python/glfw[${PYTHON_USEDEP}]
 	dev-python/labmaze[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/mujoco[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/pyopengl[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	>=dev-python/pyopengl-3.1.4[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-3.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>dev-python/setuptools-50.0.0[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	hdf5? ( dev-python/h5py[${PYTHON_USEDEP}] )"

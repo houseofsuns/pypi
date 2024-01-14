@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pymysql[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pymysql-1.0.2[${PYTHON_USEDEP}]
 	dev-python/inflect[${PYTHON_USEDEP}]
 	dev-python/flask[${PYTHON_USEDEP}]
 	dev-python/flask-sqlalchemy[${PYTHON_USEDEP}]

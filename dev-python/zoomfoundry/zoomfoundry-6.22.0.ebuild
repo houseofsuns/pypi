@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/bcrypt[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+	>=dev-python/bcrypt-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/passlib-1.7.1[${PYTHON_USEDEP}]
+	>=dev-python/markdown-2.6.1[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/faker[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/werkzeug[${PYTHON_USEDEP}]
 	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/pypugjs[${PYTHON_USEDEP}]
-	dev-python/libsass[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pytzdata[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	>=dev-python/pypugjs-5.9.1[${PYTHON_USEDEP}]
+	>=dev-python/libsass-0.19.4[${PYTHON_USEDEP}]
+	~dev-python/pytz-2020.1[${PYTHON_USEDEP}]
+	~dev-python/pytzdata-2019.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

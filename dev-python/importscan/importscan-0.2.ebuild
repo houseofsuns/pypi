@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	coverage? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	pep8? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	pep8? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-2.9.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-remove-stale-bytecode[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

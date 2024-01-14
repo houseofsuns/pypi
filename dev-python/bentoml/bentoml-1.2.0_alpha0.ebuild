@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws grpc grpc-channelz grpc-reflection io io-file io-image io-pandas monitor-otlp tracing tracing-jaeger tracing-otlp tracing-zipkin triton"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-21.1.0[${PYTHON_USEDEP}]
+	<dev-python/cattrs-23.2.0[${PYTHON_USEDEP}]
 	dev-python/circus[${PYTHON_USEDEP}]
 	dev-python/click-option-group[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/cloudpickle-2.0.0[${PYTHON_USEDEP}]
 	dev-python/deepmerge[${PYTHON_USEDEP}]
 	dev-python/fs[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
@@ -45,24 +45,24 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-util-http[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	dev-python/pathspec[${PYTHON_USEDEP}]
 	dev-python/pip-requirements-parser[${PYTHON_USEDEP}]
 	dev-python/pip-tools[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
+	>=dev-python/prometheus-client-0.10.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/python-json-logger[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/rich-11.2.0[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
 	dev-python/simple-di[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
+	>=dev-python/starlette-0.24.0[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/watchfiles[${PYTHON_USEDEP}]
+	>=dev-python/watchfiles-0.15.0[${PYTHON_USEDEP}]
 	all? ( dev-python/bentoml[${PYTHON_USEDEP}] )
 	aws? ( dev-python/fs-s3fs[${PYTHON_USEDEP}] )
 	grpc? ( dev-python/grpcio[${PYTHON_USEDEP}] )
@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	io-file? ( dev-python/filetype[${PYTHON_USEDEP}] )
 	io-image? ( dev-python/bentoml[${PYTHON_USEDEP}] )
 	io-image? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	io-pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	io-pandas? ( >=dev-python/pandas-1.0[${PYTHON_USEDEP}] )
 	io-pandas? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
 	monitor-otlp? ( dev-python/opentelemetry-exporter-otlp-proto-http[${PYTHON_USEDEP}] )
 	tracing? ( dev-python/bentoml[${PYTHON_USEDEP}] )

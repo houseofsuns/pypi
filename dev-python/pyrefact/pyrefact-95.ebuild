@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/black-23.1.0[${PYTHON_USEDEP}]
 	dev-python/compactify[${PYTHON_USEDEP}]
 	dev-python/rmspace[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev? ( dev-python/astunparse[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )"
+	>=dev-python/sympy-1.11.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/astunparse-1.6.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-3.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

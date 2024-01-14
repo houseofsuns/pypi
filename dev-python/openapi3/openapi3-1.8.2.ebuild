@@ -27,10 +27,10 @@ IUSE="test"
 DEPENDENCIES="dev-python/PyYaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypercorn[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.16[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/hypercorn-0.14.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pydantic-1.10.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastapi[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

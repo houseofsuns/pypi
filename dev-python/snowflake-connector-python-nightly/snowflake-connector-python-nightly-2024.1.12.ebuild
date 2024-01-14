@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development pandas secure-local-storage"
-DEPENDENCIES="dev-python/asn1crypto[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/asn1crypto-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/cffi-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
+	<dev-python/charset-normalizer-4.0[${PYTHON_USEDEP}]
+	<dev-python/idna-4.0[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	<dev-python/filelock-4.0[${PYTHON_USEDEP}]
+	>=dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]
 	development? ( dev-python/Cython[${PYTHON_USEDEP}] )
 	development? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	development? ( dev-python/more-itertools[${PYTHON_USEDEP}] )
-	development? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	development? ( dev-python/pendulum[${PYTHON_USEDEP}] )
+	development? ( <dev-python/numpy-1.27.0[${PYTHON_USEDEP}] )
+	development? ( >dev-python/pendulum-2.1.1[${PYTHON_USEDEP}] )
 	development? ( dev-python/pexpect[${PYTHON_USEDEP}] )
-	development? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	development? ( <dev-python/pytest-7.5.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	development? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	development? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	development? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	development? ( dev-python/pytzdata[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	pandas? ( <dev-python/pandas-2.2.0[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	secure-local-storage? ( dev-python/keyring[${PYTHON_USEDEP}] )"
+	secure-local-storage? ( <dev-python/keyring-25.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

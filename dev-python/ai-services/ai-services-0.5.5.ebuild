@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs google redis sql web"
-DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiofiles-23.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-41.0.1[${PYTHON_USEDEP}]
+	~dev-python/itsdangerous-2.1.2[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/rich-12.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	google? ( dev-python/smart-open[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	sql? ( dev-python/alembic[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	web? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( ~dev-python/redis-4.5.1[${PYTHON_USEDEP}] )
+	sql? ( >=dev-python/alembic-1.10.3[${PYTHON_USEDEP}] )
+	sql? ( >=dev-python/sqlalchemy-2.0.7[${PYTHON_USEDEP}] )
+	web? ( ~dev-python/redis-4.5.1[${PYTHON_USEDEP}] )
 	web? ( dev-python/sanic-ext[${PYTHON_USEDEP}] )
 	web? ( dev-python/sanic[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

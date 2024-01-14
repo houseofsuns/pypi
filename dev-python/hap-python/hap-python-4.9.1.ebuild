@@ -27,8 +27,8 @@ IUSE="qrcode"
 DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/chacha20poly1305-reuseable[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.7.2[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.36.2[${PYTHON_USEDEP}]
 	dev-python/h11[${PYTHON_USEDEP}]
 	qrcode? ( dev-python/base36[${PYTHON_USEDEP}] )
 	qrcode? ( dev-python/pyqrcode[${PYTHON_USEDEP}] )"

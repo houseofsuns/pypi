@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="msgpack orjson toml yaml"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/typing-extensions-4.1.0[${PYTHON_USEDEP}]
+	msgpack? ( >=dev-python/msgpack-0.5.6[${PYTHON_USEDEP}] )
 	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	toml? ( dev-python/tomli-w[${PYTHON_USEDEP}] )
-	toml? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	toml? ( >=dev-python/tomli-w-1.0[${PYTHON_USEDEP}] )
+	toml? ( >=dev-python/tomli-1.1.0[${PYTHON_USEDEP}] )
+	yaml? ( >=dev-python/pyyaml-3.13[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,13 +28,13 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	push? ( dev-python/apns[${PYTHON_USEDEP}] )
 	anymail? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dev-python/dj-database-url[${PYTHON_USEDEP}]
+	>=dev-python/dj-database-url-1.2.0[${PYTHON_USEDEP}]
 	anymail? ( dev-python/django-anymail[${PYTHON_USEDEP}] )
 	push? ( dev-python/django-push-notifications[${PYTHON_USEDEP}] )
 	dev-python/django-stdimage[${PYTHON_USEDEP}]
 	dev-python/html2text[${PYTHON_USEDEP}]
 	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
-	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
 	push? ( dev-python/pywebpush[${PYTHON_USEDEP}] )
 	dev-python/tenacity[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

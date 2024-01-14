@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/black-21.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.8.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiomysql aioodbc aiosqlite asyncio asyncmy mariadb-connector mssql mssql-pymssql mssql-pyodbc mypy mysql mysql-connector oracle oracle-oracledb postgresql postgresql-asyncpg postgresql-pg8000 postgresql-psycopg postgresql-psycopg2binary postgresql-psycopg2cffi postgresql-psycopgbinary pymysql sqlcipher"
-DEPENDENCIES="dev-python/greenlet[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	asyncio? ( dev-python/greenlet[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES=">dev-python/greenlet-0.4.17[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]
+	asyncio? ( >dev-python/greenlet-0.4.17[${PYTHON_USEDEP}] )
+	mypy? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	mssql-pymssql? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	mssql-pyodbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	mysql? ( >=dev-python/mysqlclient-1.4.0[${PYTHON_USEDEP}] )
 	mysql-connector? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	mariadb-connector? ( dev-python/mariadb[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/cx_oracle[${PYTHON_USEDEP}] )
 	oracle-oracledb? ( dev-python/oracledb[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgresql-pg8000? ( dev-python/pg8000[${PYTHON_USEDEP}] )
-	postgresql-asyncpg? ( dev-python/greenlet[${PYTHON_USEDEP}] )
+	postgresql-asyncpg? ( >dev-python/greenlet-0.4.17[${PYTHON_USEDEP}] )
 	postgresql-asyncpg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	postgresql-psycopg2binary? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	postgresql-psycopg2cffi? ( dev-python/psycopg2cffi[${PYTHON_USEDEP}] )
-	postgresql-psycopg? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	postgresql-psycopgbinary? ( dev-python/psycopg[${PYTHON_USEDEP}] )
+	postgresql-psycopg? ( >=dev-python/psycopg-3.0.7[${PYTHON_USEDEP}] )
+	postgresql-psycopgbinary? ( >=dev-python/psycopg-3.0.7[${PYTHON_USEDEP}] )
 	pymysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	aiomysql? ( dev-python/greenlet[${PYTHON_USEDEP}] )
+	aiomysql? ( >dev-python/greenlet-0.4.17[${PYTHON_USEDEP}] )
 	aiomysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
-	aioodbc? ( dev-python/greenlet[${PYTHON_USEDEP}] )
+	aioodbc? ( >dev-python/greenlet-0.4.17[${PYTHON_USEDEP}] )
 	aioodbc? ( dev-python/aioodbc[${PYTHON_USEDEP}] )
-	asyncmy? ( dev-python/greenlet[${PYTHON_USEDEP}] )
+	asyncmy? ( >dev-python/greenlet-0.4.17[${PYTHON_USEDEP}] )
 	asyncmy? ( dev-python/asyncmy[${PYTHON_USEDEP}] )
-	aiosqlite? ( dev-python/greenlet[${PYTHON_USEDEP}] )
+	aiosqlite? ( >dev-python/greenlet-0.4.17[${PYTHON_USEDEP}] )
 	aiosqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
 	aiosqlite? ( dev-python/typing_extensions[${PYTHON_USEDEP}] )
 	sqlcipher? ( dev-python/sqlcipher3_binary[${PYTHON_USEDEP}] )"

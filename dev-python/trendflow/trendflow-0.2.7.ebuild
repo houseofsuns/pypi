@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/yellowbrick[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
-	dev-python/textdistance[${PYTHON_USEDEP}]
+	~dev-python/textdistance-4.5.0[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/ml-leoxiang66[${PYTHON_USEDEP}]
 	dev-python/KeyBartAdapter[${PYTHON_USEDEP}]"

@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/cohere[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/emoji-1.7.0[${PYTHON_USEDEP}]
 	dev-python/emojificate[${PYTHON_USEDEP}]
 	dev-python/streamlit-ace[${PYTHON_USEDEP}]
 	dev-python/streamlit-talk[${PYTHON_USEDEP}]"

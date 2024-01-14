@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/validate-email[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/astunparse[${PYTHON_USEDEP}]"
+	>=dev-python/astunparse-1.6.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

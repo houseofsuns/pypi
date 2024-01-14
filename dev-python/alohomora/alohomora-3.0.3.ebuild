@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fido2"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	fido2? ( dev-python/fido2[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/boto3-1.3.1[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.5.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.11.1[${PYTHON_USEDEP}]
+	fido2? ( ~dev-python/fido2-0.9.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

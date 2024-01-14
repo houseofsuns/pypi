@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="coverage dev docs evaluation qiskit test"
-DEPENDENCIES="test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
+DEPENDENCIES="test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-console-scripts-1.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/mqt-core[${PYTHON_USEDEP}] )
 	coverage? ( dev-python/mqt-core[${PYTHON_USEDEP}] )
 	coverage? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	evaluation? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
+	evaluation? ( >=dev-python/pandas-2.1.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/furo-2023.8.17[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst_parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/setuptools-scm-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pybtex[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinxcontrib-bibtex-2.4.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pybtex-0.24[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
@@ -46,7 +46,7 @@ DEPENDENCIES="test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/qiskit-terra[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mqt-core[${PYTHON_USEDEP}] )
-	qiskit? ( dev-python/qiskit-terra[${PYTHON_USEDEP}] )
+	qiskit? ( >=dev-python/qiskit-terra-0.22.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mqt-core[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

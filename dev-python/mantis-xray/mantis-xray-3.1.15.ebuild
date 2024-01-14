@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
+	<=dev-python/pyqtgraph-0.12.4[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
 	netcdf? ( dev-python/netcdf4-python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

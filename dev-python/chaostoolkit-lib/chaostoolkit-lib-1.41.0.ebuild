@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="jsonpath vault"
 DEPENDENCIES="dev-python/logzero[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	~dev-python/requests-2.21[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-6.0[${PYTHON_USEDEP}]
 	dev-python/charset-normalizer[${PYTHON_USEDEP}]
 	jsonpath? ( dev-python/jsonpath2[${PYTHON_USEDEP}] )
-	vault? ( dev-python/hvac[${PYTHON_USEDEP}] )"
+	vault? ( >=dev-python/hvac-0.7.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

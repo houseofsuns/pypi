@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev examples"
 DEPENDENCIES="dev-python/nameko[${PYTHON_USEDEP}]
 	dev-python/kombu[${PYTHON_USEDEP}]
-	dev? ( dev-python/arrow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	examples? ( dev-python/arrow[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/arrow-0.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-4.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-2.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-1.5.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-2.8.3[${PYTHON_USEDEP}] )
+	examples? ( ~dev-python/arrow-0.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

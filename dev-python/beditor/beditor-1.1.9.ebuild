@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/regex-2018.7.11[${PYTHON_USEDEP}]
+	~dev-python/pandas-0.23.3[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.13.1[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-2.2.2[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
+	~dev-python/requests-2.19.1[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.23.4[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.8.1[${PYTHON_USEDEP}]
 	dev-python/datacache[${PYTHON_USEDEP}]
 	dev-python/dna-features-viewer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="accel aiomysql asyncmy asyncodbc asyncpg psycopg"
 DEPENDENCIES="aiomysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
-	dev-python/aiosqlite[${PYTHON_USEDEP}]
+	<dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}]
 	asyncmy? ( dev-python/asyncmy[${PYTHON_USEDEP}] )
 	asyncodbc? ( dev-python/asyncodbc[${PYTHON_USEDEP}] )
 	asyncpg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	accel? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
-	dev-python/iso8601[${PYTHON_USEDEP}]
+	<dev-python/iso8601-2.0.0[${PYTHON_USEDEP}]
 	accel? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	psycopg? ( dev-python/psycopg[${PYTHON_USEDEP}] )
+	psycopg? ( <dev-python/psycopg-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/pypika-tortoise[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	accel? ( dev-python/uvloop[${PYTHON_USEDEP}] )"

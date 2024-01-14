@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc test"
-DEPENDENCIES="dev-python/asteval[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/uncertainties[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/asteval-0.9.28[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6[${PYTHON_USEDEP}]
+	>=dev-python/uncertainties-3.1.4[${PYTHON_USEDEP}]
 	all? ( dev-python/build[${PYTHON_USEDEP}] )
 	all? ( dev-python/check-wheel-contents[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/asteval[${PYTHON_USEDEP}]
 	all? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
 	all? ( dev-python/corner[${PYTHON_USEDEP}] )
 	all? ( dev-python/dill[${PYTHON_USEDEP}] )
-	all? ( dev-python/emcee[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/emcee-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/asteval[${PYTHON_USEDEP}]
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-gallery-0.10[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-svg2pdfconverter[${PYTHON_USEDEP}] )
 	all? ( dev-python/sympy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/asteval[${PYTHON_USEDEP}]
 	doc? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
 	doc? ( dev-python/corner[${PYTHON_USEDEP}] )
 	doc? ( dev-python/dill[${PYTHON_USEDEP}] )
-	doc? ( dev-python/emcee[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/emcee-3.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/asteval[${PYTHON_USEDEP}]
 	doc? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-gallery-0.10[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-svg2pdfconverter[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sympy[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )

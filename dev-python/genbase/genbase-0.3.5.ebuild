@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/instancelib[${PYTHON_USEDEP}]
 	dev-python/instancelib-onnx[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
 	dev-python/python-i18n[${PYTHON_USEDEP}]
 	dev-python/srsly[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.30.1[${PYTHON_USEDEP}]
 	dev-python/lazy-load[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

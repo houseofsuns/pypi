@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cors demo dev doc httpauth jwt memcached password redis tests"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.2[${PYTHON_USEDEP}]
 	dev-python/ProxyPatternPool[${PYTHON_USEDEP}]
 	dev-python/CacheToolsUtils[${PYTHON_USEDEP}]
 	cors? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
@@ -57,6 +57,6 @@ DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
 	password? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pydantic[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/pydantic-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

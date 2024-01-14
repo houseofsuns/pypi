@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="extra"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	extra? ( dev-python/python-frontmatter[${PYTHON_USEDEP}] )
-	extra? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	extra? ( dev-python/regex[${PYTHON_USEDEP}] )
-	extra? ( dev-python/python-slugify[${PYTHON_USEDEP}] )
-	extra? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
+	extra? ( <dev-python/markdown-4.0[${PYTHON_USEDEP}] )
+	extra? ( <dev-python/regex-2024.0[${PYTHON_USEDEP}] )
+	extra? ( <dev-python/python-slugify-9.0[${PYTHON_USEDEP}] )
+	extra? ( <dev-python/python-dateutil-3.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/toml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

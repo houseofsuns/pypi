@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/yattag[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/verboselogs[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	<=dev-python/semver-2.13.0[${PYTHON_USEDEP}]
 	dev-python/natsort[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )"

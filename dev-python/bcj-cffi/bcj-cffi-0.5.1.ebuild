@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="check test"
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cffi-1.14.0[${PYTHON_USEDEP}]
 	check? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	check? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	check? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
 	check? ( dev-python/twine[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/coverage-5.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

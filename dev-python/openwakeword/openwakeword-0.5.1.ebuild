@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full test"
 DEPENDENCIES="dev-python/onnxruntime[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/tflite-runtime[${PYTHON_USEDEP}]
 	full? ( dev-python/mutagen[${PYTHON_USEDEP}] )
 	full? ( dev-python/speechbrain[${PYTHON_USEDEP}] )
-	full? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	full? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	full? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
 	full? ( dev-python/plotext[${PYTHON_USEDEP}] )
 	full? ( dev-python/sounddevice[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-4.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	test? ( <dev-python/mock-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

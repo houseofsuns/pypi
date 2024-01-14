@@ -27,12 +27,12 @@ IUSE="export"
 DEPENDENCIES="dev-python/arkindex-client[${PYTHON_USEDEP}]
 	dev-python/arkindex-export[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
-	dev-python/python-gnupg[${PYTHON_USEDEP}]
+	~dev-python/python-gnupg-0.5.1[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	~dev-python/rich-13.5.2[${PYTHON_USEDEP}]
+	~dev-python/tenacity-8.2.3[${PYTHON_USEDEP}]
 	dev-python/transkribus-client[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]
-	export? ( dev-python/reportlab[${PYTHON_USEDEP}] )"
+	~dev-python/zstandard-0.21.0[${PYTHON_USEDEP}]
+	export? ( ~dev-python/reportlab-3.6.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

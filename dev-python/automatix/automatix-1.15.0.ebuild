@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bash_completion tests"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	bash_completion? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
-	tests? ( dev-python/cython[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/cython-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-docker-compose[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

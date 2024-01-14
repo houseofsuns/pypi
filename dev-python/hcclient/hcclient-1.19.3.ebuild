@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="latex"
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	latex? ( dev-python/latex2sympy2[${PYTHON_USEDEP}] )
-	dev-python/linkify-it-py[${PYTHON_USEDEP}]
-	dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	dev-python/mdit-py-plugins[${PYTHON_USEDEP}]
+	~dev-python/linkify-it-py-2.0.2[${PYTHON_USEDEP}]
+	~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/mdit-py-plugins-0.4.0[${PYTHON_USEDEP}]
 	dev-python/notify-py[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/python-socks[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/wsaccel[${PYTHON_USEDEP}]"
+	~dev-python/packaging-23.2[${PYTHON_USEDEP}]
+	~dev-python/prompt-toolkit-3.0.43[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.17.2[${PYTHON_USEDEP}]
+	~dev-python/python-socks-2.4.4[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/termcolor-2.4.0[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-1.7.0[${PYTHON_USEDEP}]
+	~dev-python/wsaccel-0.6.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

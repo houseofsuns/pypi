@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/pipelinewise-singer-python[${PYTHON_USEDEP}]
 	dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
 	dev-python/c8connector[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	~dev-python/prometheus-client-0.16.0[${PYTHON_USEDEP}]
+	test? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.13.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="strategies"
 DEPENDENCIES="dev-python/aiodocker[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/diagnostic[${PYTHON_USEDEP}]
 	dev-python/github3-py[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.19.0[${PYTHON_USEDEP}]
 	dev-python/referencing-loaders[${PYTHON_USEDEP}]
-	dev-python/referencing[${PYTHON_USEDEP}]
+	>=dev-python/referencing-0.31.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/rpds-py[${PYTHON_USEDEP}]
+	>=dev-python/rpds-py-0.16.2[${PYTHON_USEDEP}]
 	dev-python/structlog[${PYTHON_USEDEP}]
 	dev-python/trogon[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/url-py[${PYTHON_USEDEP}]
-	strategies? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
+	strategies? ( >=dev-python/hypothesis-6.92.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

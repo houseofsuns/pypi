@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc full license"
-DEPENDENCIES="dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/argcomplete-4.0[${PYTHON_USEDEP}]
+	<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
 	dev-python/b2sdk[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	>=dev-python/docutils-0.18.1[${PYTHON_USEDEP}]
+	~dev-python/idna-3.4[${PYTHON_USEDEP}]
 	dev-python/phx-class-registry[${PYTHON_USEDEP}]
 	dev-python/rst2ansi[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	full? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-5.0[${PYTHON_USEDEP}]
+	full? ( >=dev-python/pydantic-2.0.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sadisplay[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-8.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-1.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-plantuml[${PYTHON_USEDEP}] )
 	license? ( dev-python/pip-licenses[${PYTHON_USEDEP}] )
-	license? ( dev-python/pipdeptree[${PYTHON_USEDEP}] )
-	license? ( dev-python/prettytable[${PYTHON_USEDEP}] )"
+	license? ( <dev-python/pipdeptree-3.0[${PYTHON_USEDEP}] )
+	license? ( ~dev-python/prettytable-3.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

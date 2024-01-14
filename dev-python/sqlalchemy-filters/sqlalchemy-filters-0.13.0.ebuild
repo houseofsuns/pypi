@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev mysql postgresql"
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/sqlalchemy-1.0.16[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-4.6.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-5.0.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/restructuredtext-lint[${PYTHON_USEDEP}] )

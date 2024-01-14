@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/PyQt5[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/PyQt5-5.15.9[${PYTHON_USEDEP}]
 	dev-python/PyQt5-Qt5[${PYTHON_USEDEP}]
-	dev-python/PyQt5-sip[${PYTHON_USEDEP}]
+	~dev-python/PyQt5-sip-12.11.1[${PYTHON_USEDEP}]
 	dev-python/pyrr[${PYTHON_USEDEP}]
 	dev-python/moderngl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

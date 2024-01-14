@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mssso"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/django-ipware[${PYTHON_USEDEP}]
 	dev-python/import-string[${PYTHON_USEDEP}]
 	dev-python/skip-django-chamber[${PYTHON_USEDEP}]
 	dev-python/skip-django-generic-m2m-field[${PYTHON_USEDEP}]
 	dev-python/skip-django-choice-enumfields[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	mssso? ( dev-python/requests[${PYTHON_USEDEP}] )
+	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
+	mssso? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
 	mssso? ( dev-python/msal[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

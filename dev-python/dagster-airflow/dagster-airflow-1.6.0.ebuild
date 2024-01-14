@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="kubernetes test test_airflow_1 test_airflow_2"
 DEPENDENCIES="dev-python/dagster[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	<dev-python/docker-6.0.0[${PYTHON_USEDEP}]
 	dev-python/lazy-object-proxy[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	<dev-python/pendulum-3.0[${PYTHON_USEDEP}]
 	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
-	kubernetes? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	kubernetes? ( >=dev-python/cryptography-2.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/connexion[${PYTHON_USEDEP}] )
 	test_airflow_1? ( dev-python/apache-airflow[${PYTHON_USEDEP}] )
-	test_airflow_1? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	test_airflow_1? ( >=dev-python/boto3-1.26.7[${PYTHON_USEDEP}] )
 	test_airflow_1? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
-	test_airflow_1? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
+	test_airflow_1? ( <=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	test_airflow_1? ( dev-python/WTForms[${PYTHON_USEDEP}] )
-	test_airflow_1? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	test_airflow_1? ( <dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}] )
 	test_airflow_1? ( dev-python/marshmallow-sqlalchemy[${PYTHON_USEDEP}] )
 	test_airflow_1? ( dev-python/connexion[${PYTHON_USEDEP}] )
 	test_airflow_2? ( dev-python/apache-airflow[${PYTHON_USEDEP}] )
-	test_airflow_2? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	test_airflow_2? ( >=dev-python/boto3-1.26.7[${PYTHON_USEDEP}] )
 	test_airflow_2? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	test_airflow_2? ( dev-python/apache-airflow-providers-docker[${PYTHON_USEDEP}] )
 	test_airflow_2? ( dev-python/apache-airflow-providers-apache-spark[${PYTHON_USEDEP}] )

@@ -24,37 +24,37 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs full plotting sarimax test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.27[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.2[${PYTHON_USEDEP}]
+	<dev-python/tqdm-4.67[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/optuna[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	<dev-python/joblib-1.4[${PYTHON_USEDEP}]
 	all? ( dev-python/pmdarima[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	all? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	all? ( <dev-python/matplotlib-3.9[${PYTHON_USEDEP}] )
+	all? ( <dev-python/seaborn-0.14[${PYTHON_USEDEP}] )
+	all? ( <dev-python/statsmodels-0.15[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mike[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.4.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.1.15[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.22.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-python-1.1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-contrib-nbextensions[${PYTHON_USEDEP}] )
 	full? ( dev-python/pmdarima[${PYTHON_USEDEP}] )
-	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	full? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	full? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	full? ( <dev-python/matplotlib-3.9[${PYTHON_USEDEP}] )
+	full? ( <dev-python/seaborn-0.14[${PYTHON_USEDEP}] )
+	full? ( <dev-python/statsmodels-0.15[${PYTHON_USEDEP}] )
+	plotting? ( <dev-python/matplotlib-3.9[${PYTHON_USEDEP}] )
+	plotting? ( <dev-python/seaborn-0.14[${PYTHON_USEDEP}] )
+	plotting? ( <dev-python/statsmodels-0.15[${PYTHON_USEDEP}] )
 	sarimax? ( dev-python/pmdarima[${PYTHON_USEDEP}] )
-	sarimax? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	sarimax? ( <dev-python/statsmodels-0.15[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-7.5[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-cov-4.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	test? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/tomli[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/pytest-xdist-3.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tomli-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

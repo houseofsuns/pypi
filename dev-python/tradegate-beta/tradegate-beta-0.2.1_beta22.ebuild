@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/binance-connector[${PYTHON_USEDEP}]
 	dev-python/apscheduler[${PYTHON_USEDEP}]
 	dev-python/websocket-client[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+	<dev-python/tzlocal-3.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pybit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

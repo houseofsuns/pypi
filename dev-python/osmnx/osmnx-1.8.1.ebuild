@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="entropy neighbors raster visualization"
 DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
-	entropy? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0[${PYTHON_USEDEP}]
+	entropy? ( >=dev-python/scipy-1.5[${PYTHON_USEDEP}] )
 	neighbors? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	neighbors? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	neighbors? ( >=dev-python/scipy-1.5[${PYTHON_USEDEP}] )
 	raster? ( dev-python/gdal[${PYTHON_USEDEP}] )
 	raster? ( dev-python/rasterio[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	visualization? ( >=dev-python/matplotlib-3.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev flax readthedocs win-installer"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/diffusers[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/accelerate[${PYTHON_USEDEP}]
@@ -32,41 +32,41 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/lightning-utilities[${PYTHON_USEDEP}]
 	dev-python/lightning-fabric[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/av[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	<dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/torchsde[${PYTHON_USEDEP}]
 	dev-python/fake-useragent[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
-	dev-python/portalocker[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/portalocker-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/filelock-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/timm[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/spandrel[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	flax? ( dev-python/absl-py[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
+	flax? ( ~dev-python/absl-py-2.0.0[${PYTHON_USEDEP}] )
 	flax? ( dev-python/chex[${PYTHON_USEDEP}] )
 	flax? ( dev-python/etils[${PYTHON_USEDEP}] )
 	flax? ( dev-python/flax[${PYTHON_USEDEP}] )
 	flax? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
 	flax? ( dev-python/jax[${PYTHON_USEDEP}] )
-	flax? ( dev-python/markdown-it-py[${PYTHON_USEDEP}] )
-	flax? ( dev-python/mdurl[${PYTHON_USEDEP}] )
+	flax? ( ~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}] )
+	flax? ( ~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}] )
 	flax? ( dev-python/ml-dtypes[${PYTHON_USEDEP}] )
-	flax? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	flax? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )
+	flax? ( ~dev-python/msgpack-1.0.7[${PYTHON_USEDEP}] )
+	flax? ( ~dev-python/nest-asyncio-1.5.8[${PYTHON_USEDEP}] )
 	flax? ( dev-python/nvidia-cublas-cu11[${PYTHON_USEDEP}] )
 	flax? ( dev-python/nvidia-cuda-cupti-cu11[${PYTHON_USEDEP}] )
 	flax? ( dev-python/nvidia-cuda-nvcc-cu11[${PYTHON_USEDEP}] )
@@ -77,16 +77,16 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	flax? ( dev-python/nvidia-cusolver-cu11[${PYTHON_USEDEP}] )
 	flax? ( dev-python/nvidia-cusparse-cu11[${PYTHON_USEDEP}] )
 	flax? ( dev-python/nvidia-nccl-cu11[${PYTHON_USEDEP}] )
-	flax? ( dev-python/opt-einsum[${PYTHON_USEDEP}] )
+	flax? ( ~dev-python/opt-einsum-3.3.0[${PYTHON_USEDEP}] )
 	flax? ( dev-python/optax[${PYTHON_USEDEP}] )
 	flax? ( dev-python/orbax-checkpoint[${PYTHON_USEDEP}] )
 	flax? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	flax? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	flax? ( dev-python/rich[${PYTHON_USEDEP}] )
+	flax? ( ~dev-python/pygments-2.17.2[${PYTHON_USEDEP}] )
+	flax? ( ~dev-python/rich-13.7.0[${PYTHON_USEDEP}] )
 	flax? ( dev-python/tensorstore[${PYTHON_USEDEP}] )
-	flax? ( dev-python/toolz[${PYTHON_USEDEP}] )
-	readthedocs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	readthedocs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	flax? ( ~dev-python/toolz-0.12.0[${PYTHON_USEDEP}] )
+	readthedocs? ( ~dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
+	readthedocs? ( ~dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	win-installer? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

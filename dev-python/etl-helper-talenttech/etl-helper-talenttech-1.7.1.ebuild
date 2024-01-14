@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/sqlalchemy-1.4.42[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/clickhouse-sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-vertica-python[${PYTHON_USEDEP}]

@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs-offline docs-online hooks package runner sast testing tooling tooling-extras"
-DEPENDENCIES="docs-offline? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+DEPENDENCIES="docs-offline? ( >=dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
 	docs-offline? ( dev-python/pypandoc-binary[${PYTHON_USEDEP}] )
-	docs-offline? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs-online? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs-online? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
-	docs-online? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs-online? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs-online? ( dev-python/pyaml[${PYTHON_USEDEP}] )
+	docs-offline? ( >=dev-python/sphinx-7.1.1[${PYTHON_USEDEP}] )
+	docs-online? ( >=dev-python/mkdocs-1.5.2[${PYTHON_USEDEP}] )
+	docs-online? ( >=dev-python/mkdocs-git-revision-date-localized-plugin-1.2.0[${PYTHON_USEDEP}] )
+	docs-online? ( >=dev-python/mkdocs-material-9.2.6[${PYTHON_USEDEP}] )
+	docs-online? ( >=dev-python/mkdocstrings-0.22.0[${PYTHON_USEDEP}] )
+	docs-online? ( >=dev-python/pyaml-23.7.0[${PYTHON_USEDEP}] )
 	hooks? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	package? ( dev-python/build[${PYTHON_USEDEP}] )
-	package? ( dev-python/twine[${PYTHON_USEDEP}] )
-	runner? ( dev-python/tox[${PYTHON_USEDEP}] )
-	sast? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tooling? ( dev-python/black[${PYTHON_USEDEP}] )
+	package? ( >=dev-python/build-1.0.0[${PYTHON_USEDEP}] )
+	package? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	runner? ( >=dev-python/tox-4.11.1[${PYTHON_USEDEP}] )
+	sast? ( >=dev-python/bandit-1.7.5[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	tooling? ( >=dev-python/black-23.7.0[${PYTHON_USEDEP}] )
 	tooling? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	tooling? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	tooling-extras? ( dev-python/pyaml[${PYTHON_USEDEP}] )
+	tooling-extras? ( >=dev-python/pyaml-23.7.0[${PYTHON_USEDEP}] )
 	tooling-extras? ( dev-python/pypandoc-binary[${PYTHON_USEDEP}] )
-	tooling-extras? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tooling-extras? ( >=dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/lark[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/lark-0.12.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/termcolor-2.0.0[${PYTHON_USEDEP}]
 	dev-python/cpymad[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	<dev-python/ipython-8.0.0[${PYTHON_USEDEP}]
 	dev-python/LatticeJSON[${PYTHON_USEDEP}]
 	dev-python/latticeconstructor[${PYTHON_USEDEP}]
-	dev-python/nbsphinx[${PYTHON_USEDEP}]
+	<dev-python/nbsphinx-0.9.0[${PYTHON_USEDEP}]
 	dev-python/pandoc[${PYTHON_USEDEP}]
-	dev-python/ipykernel[${PYTHON_USEDEP}]"
+	<dev-python/ipykernel-6.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

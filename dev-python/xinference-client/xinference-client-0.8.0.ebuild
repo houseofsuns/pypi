@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev? ( dev-python/cython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/cython-0.29[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-timeout-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-forked-1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.14.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-6.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

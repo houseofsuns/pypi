@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
-	test? ( dev-python/pip[${PYTHON_USEDEP}] )
-	test? ( dev-python/build[${PYTHON_USEDEP}] )
-	test? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pip-23.3.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/build-1.0.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-23.11.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pylint-3.0.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-1.7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

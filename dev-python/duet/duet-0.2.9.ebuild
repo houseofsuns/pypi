@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev_env"
-DEPENDENCIES="dev_env? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev_env? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev_env? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev_env? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev_env? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev_env? ( dev-python/twine[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev_env? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev_env? ( ~dev-python/isort-5.7[${PYTHON_USEDEP}] )
+	dev_env? ( ~dev-python/mypy-0.931[${PYTHON_USEDEP}] )
+	dev_env? ( ~dev-python/pylint-2.10[${PYTHON_USEDEP}] )
+	dev_env? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	dev_env? ( ~dev-python/twine-3.3[${PYTHON_USEDEP}] )
 	dev_env? ( dev-python/wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

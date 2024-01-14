@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pip-18.1[${PYTHON_USEDEP}]
 	dev-python/better-exceptions[${PYTHON_USEDEP}]
 	dev-python/logging-tree[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )"
+	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
+	test? ( >=dev-python/testfixtures-5.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

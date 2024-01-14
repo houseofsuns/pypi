@@ -27,14 +27,14 @@ IUSE="all"
 DEPENDENCIES="dev-python/tomorrow3[${PYTHON_USEDEP}]
 	dev-python/concurrent-log-handler[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
+	~dev-python/python-json-logger-0.1.10[${PYTHON_USEDEP}]
 	dev-python/nb-filelock[${PYTHON_USEDEP}]
 	dev-python/service-identity[${PYTHON_USEDEP}]
 	dev-python/deprecated[${PYTHON_USEDEP}]
 	dev-python/chained-mode-time-tool[${PYTHON_USEDEP}]
-	all? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pymongo-4.3.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	all? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/loguru[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

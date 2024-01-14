@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs lint test"
-DEPENDENCIES="dev-python/parso[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/parso-0.6.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	lint? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/bandit-1.6.3[${PYTHON_USEDEP}] )
 	lint? ( dev-python/vermin[${PYTHON_USEDEP}] )
 	lint? ( dev-python/colorlabels[${PYTHON_USEDEP}] )
-	lint? ( dev-python/parso[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/parso-0.8.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

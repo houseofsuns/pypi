@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/lxml-4.8.0[${PYTHON_USEDEP}]
 	dev-python/anchorpoint[${PYTHON_USEDEP}]
 	dev-python/eyecite[${PYTHON_USEDEP}]
 	dev-python/justopinion[${PYTHON_USEDEP}]
@@ -38,6 +38,6 @@ DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/roman[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]"
+	>=dev-python/sympy-1.7.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

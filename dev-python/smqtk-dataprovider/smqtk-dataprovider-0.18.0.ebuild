@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="filemagic girder psql"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.1[${PYTHON_USEDEP}]
 	dev-python/smqtk-core[${PYTHON_USEDEP}]
 	girder? ( dev-python/girder-client[${PYTHON_USEDEP}] )
 	filemagic? ( dev-python/file-magic[${PYTHON_USEDEP}] )

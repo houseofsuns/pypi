@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="azure elastic full kafka mongodb mysql pulsar rabbitmq redis rq"
-DEPENDENCIES="dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/prometheus-client-0.7[${PYTHON_USEDEP}]
+	~dev-python/zstandard-0.15[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-0.19[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-cosmosdb-table[${PYTHON_USEDEP}] )
-	elastic? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
+	elastic? ( ~dev-python/elasticsearch-7.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/redis[${PYTHON_USEDEP}] )
 	full? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	full? ( dev-python/pulsar-client[${PYTHON_USEDEP}] )
 	full? ( dev-python/azure-cosmosdb-table[${PYTHON_USEDEP}] )
 	full? ( dev-python/pika[${PYTHON_USEDEP}] )
-	full? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	full? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	full? ( dev-python/rq[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/pymongo-3.0[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/elasticsearch-7.0[${PYTHON_USEDEP}] )
+	full? ( ~dev-python/rq-1.10[${PYTHON_USEDEP}] )
 	kafka? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
 	mongodb? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	pulsar? ( dev-python/pulsar-client[${PYTHON_USEDEP}] )
 	rabbitmq? ( dev-python/pika[${PYTHON_USEDEP}] )
 	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	rq? ( dev-python/rq[${PYTHON_USEDEP}] )"
+	rq? ( ~dev-python/rq-1.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

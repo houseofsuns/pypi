@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
 DEPENDENCIES="dev-python/geopandas[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>dev-python/shapely-1.0[${PYTHON_USEDEP}]
 	dev-python/topojson[${PYTHON_USEDEP}]
 	full? ( dev-python/simplification[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

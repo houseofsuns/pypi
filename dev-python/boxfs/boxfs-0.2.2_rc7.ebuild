@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="upath"
 DEPENDENCIES="dev-python/boxsdk[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2023.4[${PYTHON_USEDEP}]
 	upath? ( dev-python/universal-pathlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

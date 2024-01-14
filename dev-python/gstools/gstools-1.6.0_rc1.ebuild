@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc lint plotting rust test"
-DEPENDENCIES="dev-python/emcee[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/emcee-3.0.0[${PYTHON_USEDEP}]
 	dev-python/hankel[${PYTHON_USEDEP}]
-	dev-python/meshio[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/meshio-5.1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.5[${PYTHON_USEDEP}]
 	dev-python/pyevtk[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/meshzoo[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/numpydoc-1.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pykrige[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyvista[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-gallery-0.8[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-rtd-theme-1.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-youtube[${PYTHON_USEDEP}] )
 	lint? ( dev-python/black[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
 	lint? ( dev-python/cython-lint[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	rust? ( dev-python/gstools-core[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

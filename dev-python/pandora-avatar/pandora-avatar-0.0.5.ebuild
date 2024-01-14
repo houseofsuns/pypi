@@ -27,17 +27,17 @@ IUSE="dev"
 DEPENDENCIES="dev-python/bt-test-interfaces[${PYTHON_USEDEP}]
 	dev-python/bumble[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.57[${PYTHON_USEDEP}]
 	dev-python/mobly[${PYTHON_USEDEP}]
 	dev-python/portpicker[${PYTHON_USEDEP}]
 	dev? ( dev-python/rootcanal[${PYTHON_USEDEP}] )
-	dev? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/grpcio-tools-1.57[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/types-psutil-5.9.5.16[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/types-setuptools-68.1.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

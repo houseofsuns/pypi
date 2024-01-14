@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli"
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tqdm-4.60[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-7.0[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.1[${PYTHON_USEDEP}]
 	dev-python/pyquaternion[${PYTHON_USEDEP}]
 	dev-python/numpy-quaternion[${PYTHON_USEDEP}]
 	dev-python/dataclass-wizard[${PYTHON_USEDEP}]
@@ -37,11 +37,11 @@ DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
 	cli? ( dev-python/dropbox[${PYTHON_USEDEP}] )
 	all? ( dev-python/dropbox[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/plotly-6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	all? ( dev-python/imageio[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/pandas-2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/notebook-5.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/imageio-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

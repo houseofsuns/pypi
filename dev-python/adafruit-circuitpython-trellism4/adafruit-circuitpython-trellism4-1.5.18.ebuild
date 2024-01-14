@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/Adafruit-Blinka[${PYTHON_USEDEP}]
 	dev-python/adafruit-circuitpython-matrixkeypad[${PYTHON_USEDEP}]
 	dev-python/adafruit-circuitpython-neopixel[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	~dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

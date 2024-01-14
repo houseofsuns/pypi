@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all-formats all_formats lxml xml yaml"
-DEPENDENCIES="dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/paramiko-2.4[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-4.4.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.0[${PYTHON_USEDEP}]
 	all-formats? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
-	all-formats? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	all-formats? ( >=dev-python/lxml-4.6.2[${PYTHON_USEDEP}] )
 	all-formats? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	all_formats? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
-	all_formats? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	all_formats? ( >=dev-python/lxml-4.6.2[${PYTHON_USEDEP}] )
 	all_formats? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	lxml? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	lxml? ( >=dev-python/lxml-4.6.2[${PYTHON_USEDEP}] )
 	xml? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -27,22 +27,22 @@ IUSE="gui test"
 DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/dclab[${PYTHON_USEDEP}]
 	dev-python/fcswrite[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.8.0[${PYTHON_USEDEP}]
+	<dev-python/imageio-2.5.0[${PYTHON_USEDEP}]
 	dev-python/nptdms[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.9.0[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]
 	dev-python/pyper[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.13.0[${PYTHON_USEDEP}]
 	gui? ( dev-python/chaco[${PYTHON_USEDEP}] )
 	gui? ( dev-python/simplejson[${PYTHON_USEDEP}] )
 	gui? ( dev-python/wxPython[${PYTHON_USEDEP}] )
 	gui? ( dev-python/kiwisolver[${PYTHON_USEDEP}] )
 	gui? ( dev-python/reportlab[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/urllib3[${PYTHON_USEDEP}] )
 	test? ( dev-python/configparser[${PYTHON_USEDEP}] )
-	test? ( dev-python/zipp[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyparsing[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/zipp-0.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pyparsing-2.4.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

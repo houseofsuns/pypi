@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/untangle[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/untangle-1.2.1[${PYTHON_USEDEP}]
 	dev-python/codeallybasic[${PYTHON_USEDEP}]
 	dev-python/codeallyadvanced[${PYTHON_USEDEP}]
 	dev-python/pyutmodelv2[${PYTHON_USEDEP}]

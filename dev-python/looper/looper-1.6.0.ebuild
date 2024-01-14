@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/colorama-0.3.9[${PYTHON_USEDEP}]
 	dev-python/divvy[${PYTHON_USEDEP}]
 	dev-python/eido[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/logmuse[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.2[${PYTHON_USEDEP}]
 	dev-python/pephubclient[${PYTHON_USEDEP}]
 	dev-python/peppy[${PYTHON_USEDEP}]
 	dev-python/pipestat[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
+	>=dev-python/rich-9.10.0[${PYTHON_USEDEP}]
 	dev-python/ubiquerg[${PYTHON_USEDEP}]
 	dev-python/yacman[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

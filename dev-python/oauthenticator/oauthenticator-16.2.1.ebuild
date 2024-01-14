@@ -30,15 +30,15 @@ DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/tornado[${PYTHON_USEDEP}]
 	dev-python/traitlets[${PYTHON_USEDEP}]
-	azuread? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
+	azuread? ( >=dev-python/pyjwt-2.0[${PYTHON_USEDEP}] )
 	googlegroups? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	googlegroups? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
 	mediawiki? ( dev-python/mwoauth[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-2.8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyjwt[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyjwt-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	test? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/mwoauth[${PYTHON_USEDEP}] )"

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
 	dev-python/bcbio-gff[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	<dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

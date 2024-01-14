@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-41.0.7[${PYTHON_USEDEP}]
+	>=dev-python/dnspython-2.0.0[${PYTHON_USEDEP}]
 	dev-python/expiringdict[${PYTHON_USEDEP}]
 	dev-python/publicsuffixlist[${PYTHON_USEDEP}]
 	dev-python/pyleri[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/timeout-decorator[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
+	>=dev-python/timeout-decorator-0.4.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,11 +27,11 @@ IUSE="docker notebook"
 DEPENDENCIES="dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml-clib[${PYTHON_USEDEP}]
 	dev-python/yachalk[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/stevedore-4.0.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
-	dev-python/click-plugins[${PYTHON_USEDEP}]
+	<dev-python/click-plugins-2.0.0[${PYTHON_USEDEP}]
 	notebook? ( dev-python/ploomber-engine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

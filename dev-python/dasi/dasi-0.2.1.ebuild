@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="documentation styling"
-DEPENDENCIES="dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/networkx-3.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	dev-python/loggable-jdv[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	<dev-python/msgpack-0.7.0[${PYTHON_USEDEP}]
 	dev-python/msgpack-numpy[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/sympy-2.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-9.0[${PYTHON_USEDEP}]
 	dev-python/primer3plus[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyblastbio[${PYTHON_USEDEP}]
 	dev-python/jdna[${PYTHON_USEDEP}]
 	styling? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	styling? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	styling? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	dev-python/autodocsumm[${PYTHON_USEDEP}]
-	dev-python/recommonmark[${PYTHON_USEDEP}]
-	documentation? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	<dev-python/recommonmark-0.7.0[${PYTHON_USEDEP}]
+	documentation? ( <dev-python/nbsphinx-0.5.0[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/sphinx_autodoc_typehints[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	documentation? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
-	styling? ( dev-python/black[${PYTHON_USEDEP}] )"
+	documentation? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
+	documentation? ( <dev-python/sphinx-bootstrap-theme-0.8.0[${PYTHON_USEDEP}] )
+	styling? ( <dev-python/black-21.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

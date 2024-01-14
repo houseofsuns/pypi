@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rq[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/rq-1.8.0[${PYTHON_USEDEP}]
+	>=dev-python/redis-3.5.3[${PYTHON_USEDEP}]
+	>=dev-python/prometheus-client-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

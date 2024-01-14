@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all aws azure datacrunch gcp lambda"
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
@@ -40,12 +40,12 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/simple-term-menu[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
+	>=dev-python/starlette-0.26.0[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	>=dev-python/alembic-1.10.2[${PYTHON_USEDEP}]
 	dev-python/apscheduler[${PYTHON_USEDEP}]
 	dev-python/aiosqlite[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
@@ -53,9 +53,9 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/watchfiles[${PYTHON_USEDEP}]
 	dev-python/python-multipart[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
+	>=dev-python/docker-6.0.0[${PYTHON_USEDEP}]
 	dev-python/dnspython[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.50[${PYTHON_USEDEP}]
 	dev-python/gpuhunt[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
@@ -75,12 +75,12 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	all? ( dev-python/azure-mgmt-msi[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-mgmt-monitor[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-graphrbac[${PYTHON_USEDEP}] )
-	all? ( dev-python/google-auth[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/google-auth-2.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-compute[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
-	all? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/google-api-python-client-2.80.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-billing[${PYTHON_USEDEP}] )
 	all? ( dev-python/datacrunch[${PYTHON_USEDEP}] )
 	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
@@ -101,12 +101,12 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-mgmt-monitor[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-graphrbac[${PYTHON_USEDEP}] )
 	datacrunch? ( dev-python/datacrunch[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/google-auth[${PYTHON_USEDEP}] )
+	gcp? ( >=dev-python/google-auth-2.3.0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-compute[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-secret-manager[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
-	gcp? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	gcp? ( >=dev-python/google-api-python-client-2.80.0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-billing[${PYTHON_USEDEP}] )
 	lambda? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	lambda? ( dev-python/botocore[${PYTHON_USEDEP}] )"

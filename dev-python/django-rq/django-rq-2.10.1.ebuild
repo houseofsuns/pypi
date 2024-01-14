@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="sentry testing"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/rq[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.2[${PYTHON_USEDEP}]
+	>=dev-python/rq-1.14[${PYTHON_USEDEP}]
+	>=dev-python/redis-3.0[${PYTHON_USEDEP}]
 	sentry? ( dev-python/raven[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

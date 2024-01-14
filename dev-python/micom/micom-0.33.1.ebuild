@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/cobra[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/symengine[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.1[${PYTHON_USEDEP}]
+	>=dev-python/symengine-0.6.1[${PYTHON_USEDEP}]
 	dev-python/osqp[${PYTHON_USEDEP}]
 	dev-python/highspy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

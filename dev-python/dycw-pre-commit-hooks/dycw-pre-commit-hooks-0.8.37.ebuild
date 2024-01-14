@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/dycw-utilities[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
+	<dev-python/semver-3.1[${PYTHON_USEDEP}]
+	<dev-python/tomlkit-0.13[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]
 	dev? ( dev-python/dycw-utilities[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )

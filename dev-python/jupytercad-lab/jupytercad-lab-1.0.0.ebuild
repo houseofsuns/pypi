@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/comm[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/comm-0.2.0[${PYTHON_USEDEP}]
 	dev-python/jupyter-collaboration[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]
+	<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
 	dev-python/jupyter-ydoc[${PYTHON_USEDEP}]
 	dev-python/jupytercad-core[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/jupyterlab-5.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/y-py[${PYTHON_USEDEP}]
 	dev-python/yjs-widgets[${PYTHON_USEDEP}]
 	dev-python/ypywidgets[${PYTHON_USEDEP}]"

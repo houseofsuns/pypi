@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/absl_py[${PYTHON_USEDEP}]
 	dev? ( dev-python/chex[${PYTHON_USEDEP}] )
 	dev? ( dev-python/absl_extra[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/clu[${PYTHON_USEDEP}] )
 	flax? ( dev-python/absl_extra[${PYTHON_USEDEP}] )
 	flax? ( dev-python/flax[${PYTHON_USEDEP}] )

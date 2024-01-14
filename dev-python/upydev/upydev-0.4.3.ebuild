@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/websocket-client-1.2.3[${PYTHON_USEDEP}]
+	>=dev-python/argcomplete-2.0.0[${PYTHON_USEDEP}]
 	dev-python/esptool[${PYTHON_USEDEP}]
 	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
 	dev-python/python-nmap[${PYTHON_USEDEP}]

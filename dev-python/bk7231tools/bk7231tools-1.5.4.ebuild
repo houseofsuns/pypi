@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="dev-python/pyserial[${PYTHON_USEDEP}]
-	cli? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/pyserial-4.0[${PYTHON_USEDEP}]
+	cli? ( <dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/py-datastruct[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

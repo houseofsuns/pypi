@@ -27,16 +27,16 @@ IUSE="docs test"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/shellingham[${PYTHON_USEDEP}]
-	docs? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/psutil-5.9.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.1.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/myst-parser-0.16.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/numpydoc-1.1.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/psutil-5.9.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pylint-2.13.9[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-sugar-0.9.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-xdist-3.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

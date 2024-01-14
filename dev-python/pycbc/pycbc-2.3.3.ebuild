@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cuda igwn"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/cython-0.29[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.16.0[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-1.5.1[${PYTHON_USEDEP}]
 	dev-python/mpld3[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.0.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/Mako[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.6.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/gwdatafind[${PYTHON_USEDEP}]
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/lalsuite[${PYTHON_USEDEP}]
 	dev-python/lscsoft-glue[${PYTHON_USEDEP}]
 	dev-python/pykerr[${PYTHON_USEDEP}]
-	cuda? ( dev-python/pycuda[${PYTHON_USEDEP}] )
+	cuda? ( >=dev-python/pycuda-2015.1[${PYTHON_USEDEP}] )
 	cuda? ( dev-python/scikit-cuda[${PYTHON_USEDEP}] )
 	igwn? ( dev-python/ciecplib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

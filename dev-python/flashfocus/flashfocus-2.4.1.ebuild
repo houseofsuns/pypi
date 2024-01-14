@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/xcffib[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/xcffib-1.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/cffi-2.0[${PYTHON_USEDEP}]
 	dev-python/xpybutil[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-4.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/i3ipc[${PYTHON_USEDEP}]
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-factoryboy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-lazy-fixture-1.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-factory-boy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pytest-lazy-fixture[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pyyaml[${PYTHON_USEDEP}] )"

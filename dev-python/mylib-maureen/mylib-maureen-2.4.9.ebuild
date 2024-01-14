@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/pynvml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/configobj[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

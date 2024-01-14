@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dask fastapi geopandas hypotheses io modin modin-dask modin-ray mypy pyspark strategies"
 DEPENDENCIES="dev-python/multimethod[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
+	>=dev-python/typeguard-3.0.2[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/hypothesis-5.41.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/multimethod[${PYTHON_USEDEP}]
 	geopandas? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	geopandas? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	hypotheses? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	io? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	io? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
 	io? ( dev-python/black[${PYTHON_USEDEP}] )
 	io? ( dev-python/frictionless[${PYTHON_USEDEP}] )
 	modin? ( dev-python/modin[${PYTHON_USEDEP}] )
@@ -62,6 +62,6 @@ DEPENDENCIES="dev-python/multimethod[${PYTHON_USEDEP}]
 	modin-ray? ( dev-python/ray[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	strategies? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
+	strategies? ( >=dev-python/hypothesis-5.41.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

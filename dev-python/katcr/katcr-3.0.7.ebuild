@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bot"
 DEPENDENCIES="dev-python/cleo[${PYTHON_USEDEP}]
 	dev-python/cutie[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/feedparser[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/feedparser-7.0.0[${PYTHON_USEDEP}]
 	dev-python/xdg[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	<dev-python/pytest-asyncio-0.15.0[${PYTHON_USEDEP}]
 	bot? ( dev-python/aiogram[${PYTHON_USEDEP}] )
 	dev-python/torrentmirror[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

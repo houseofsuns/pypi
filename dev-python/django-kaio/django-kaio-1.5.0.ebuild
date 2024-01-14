@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/clint[${PYTHON_USEDEP}]
-	dev-python/django-configurations[${PYTHON_USEDEP}]"
+	<dev-python/django-configurations-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/plotly[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/plotly-5.11.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/ipywidgets[${PYTHON_USEDEP}]"

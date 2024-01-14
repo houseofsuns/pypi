@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiofiles aiohttp all magic media tests"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/async-timeout[${PYTHON_USEDEP}]
 	aiofiles? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
 	aiohttp? ( dev-python/aiodns[${PYTHON_USEDEP}] )

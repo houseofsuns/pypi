@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev doc rbc test"
 DEPENDENCIES="test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev-python/thrift[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/thrift-0.13.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]
 	dev? ( dev-python/pyheavydb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyheavydb[${PYTHON_USEDEP}] )

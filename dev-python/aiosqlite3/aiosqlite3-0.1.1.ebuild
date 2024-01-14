@@ -24,6 +24,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="sa"
-DEPENDENCIES="sa? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+DEPENDENCIES="sa? ( >=dev-python/sqlalchemy-0.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

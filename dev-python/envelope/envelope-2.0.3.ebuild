@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="smime"
 DEPENDENCIES="dev-python/jsonpickle[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/python-gnupg[${PYTHON_USEDEP}]
+	>=dev-python/python-gnupg-0.5[${PYTHON_USEDEP}]
 	dev-python/py3-validate-email[${PYTHON_USEDEP}]
 	smime? ( dev-python/M2Crypto[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

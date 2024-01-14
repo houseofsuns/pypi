@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/bg-atlasapi[${PYTHON_USEDEP}]
 	dev-python/bg-space[${PYTHON_USEDEP}]
 	dev-python/brainglobe-utils[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]
+	>=dev-python/tifffile-2020.8.13[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

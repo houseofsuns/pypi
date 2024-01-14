@@ -28,12 +28,12 @@ DEPENDENCIES="dev-python/dimod[${PYTHON_USEDEP}]
 	dev-python/dwave-cloud-client[${PYTHON_USEDEP}]
 	dev-python/dwave-networkx[${PYTHON_USEDEP}]
 	dev-python/dwave-preprocessing[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	dev-python/homebase[${PYTHON_USEDEP}]
 	dev-python/minorminer[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
 	dev-python/dwave-samplers[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	drivers? ( dev-python/dwave-drivers[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

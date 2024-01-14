@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/trio[${PYTHON_USEDEP}]
-	dev-python/hypothesis[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/trio-0.11[${PYTHON_USEDEP}]
+	>=dev-python/hypothesis-6.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

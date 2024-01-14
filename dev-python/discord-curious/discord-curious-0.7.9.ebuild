@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs voice"
 DEPENDENCIES="dev-python/lomond[${PYTHON_USEDEP}]
-	dev-python/pylru[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	~dev-python/pylru-1.0.9[${PYTHON_USEDEP}]
+	<dev-python/oauthlib-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2017.3[${PYTHON_USEDEP}]
 	dev-python/asks[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
+	<dev-python/multidict-4.2.0[${PYTHON_USEDEP}]
 	dev-python/multio[${PYTHON_USEDEP}]
 	dev-python/async-generator[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]

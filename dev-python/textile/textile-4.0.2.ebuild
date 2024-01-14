@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop imagesize"
-DEPENDENCIES="dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/html5lib-1.0.1[${PYTHON_USEDEP}]
+	>dev-python/regex-1.0[${PYTHON_USEDEP}]
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	imagesize? ( dev-python/Pillow[${PYTHON_USEDEP}] )"

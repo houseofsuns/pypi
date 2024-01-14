@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop mysql postgresql"
-DEPENDENCIES="dev-python/peewee[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/peewee-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/importlib-metadata-7.0.0[${PYTHON_USEDEP}]
 	postgresql? ( dev-python/aiopg[${PYTHON_USEDEP}] )
 	develop? ( dev-python/aiopg[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	develop? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	develop? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
+	mysql? ( <dev-python/cryptography-42.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/cryptography-42.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pytest-asyncio-0.22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/comm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/comm-0.1.3[${PYTHON_USEDEP}]
 	dev-python/ipython-genutils[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
-	dev-python/widgetsnbextension[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-4.3.1[${PYTHON_USEDEP}]
+	~dev-python/widgetsnbextension-3.6.6[${PYTHON_USEDEP}]
+	>=dev-python/ipython-4.0.0[${PYTHON_USEDEP}]
 	dev-python/jupyterlab-widgets[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipykernel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

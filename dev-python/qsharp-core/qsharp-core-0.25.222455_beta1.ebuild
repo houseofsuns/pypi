@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/jupyter-client-7.0[${PYTHON_USEDEP}]
+	<dev-python/pyzmq-20.0.0[${PYTHON_USEDEP}]
+	>dev-python/traitlets-5.2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="h5"
-DEPENDENCIES="dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/filelock-3.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-15.0[${PYTHON_USEDEP}]
 	dev-python/synced-collections[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.10.0[${PYTHON_USEDEP}]
 	h5? ( dev-python/h5py[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

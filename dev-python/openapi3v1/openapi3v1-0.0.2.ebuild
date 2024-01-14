@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/PyYaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.16[${PYTHON_USEDEP}] )
 	test? ( dev-python/uvloop[${PYTHON_USEDEP}] )
 	test? ( dev-python/hypercorn[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydantic[${PYTHON_USEDEP}] )

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="host tests"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/transitions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/httpx-0.23[${PYTHON_USEDEP}]
+	>=dev-python/transitions-0.9[${PYTHON_USEDEP}]
 	host? ( dev-python/nextline-graphql[${PYTHON_USEDEP}] )
 	tests? ( dev-python/async-asgi-testclient[${PYTHON_USEDEP}] )
-	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-httpx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/hypothesis-6.65[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-asyncio-0.18[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-httpx-0.21[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-timeout-2.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="rustdeps"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/pysam[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.27[${PYTHON_USEDEP}]
 	dev-python/parasail[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
-	rustdeps? ( dev-python/orjson[${PYTHON_USEDEP}] )
+	<dev-python/scipy-1.12[${PYTHON_USEDEP}]
+	<dev-python/statsmodels-0.15[${PYTHON_USEDEP}]
+	rustdeps? ( <dev-python/orjson-4.0[${PYTHON_USEDEP}] )
 	rustdeps? ( dev-python/strkit-rust-ext[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

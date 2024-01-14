@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all autoquality dev jupyter-metrics pandas s3 zookeeper"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-20.3.0[${PYTHON_USEDEP}]
+	>=dev-python/cattrs-1.9[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.2.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-7.0.0[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
 	dev-python/simplejson[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/crowd-kit[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/boto3-1.4.7[${PYTHON_USEDEP}] )
 	all? ( dev-python/kazoo[${PYTHON_USEDEP}] )
 	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipyplot[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-dash[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	all? ( <dev-python/ipython-8.13[${PYTHON_USEDEP}] )
 	autoquality? ( dev-python/crowd-kit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	dev? ( dev-python/data-science-types[${PYTHON_USEDEP}] )
@@ -59,9 +59,9 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	jupyter-metrics? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	jupyter-metrics? ( dev-python/ipyplot[${PYTHON_USEDEP}] )
 	jupyter-metrics? ( dev-python/jupyter-dash[${PYTHON_USEDEP}] )
-	jupyter-metrics? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	jupyter-metrics? ( <dev-python/ipython-8.13[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	s3? ( >=dev-python/boto3-1.4.7[${PYTHON_USEDEP}] )
 	zookeeper? ( dev-python/kazoo[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

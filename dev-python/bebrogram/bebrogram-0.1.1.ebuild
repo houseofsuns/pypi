@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/envparse[${PYTHON_USEDEP}]
 	dev-python/mongoengine[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

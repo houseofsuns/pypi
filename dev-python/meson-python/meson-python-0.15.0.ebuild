@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs test"
 DEPENDENCIES="dev-python/meson[${PYTHON_USEDEP}]
 	dev-python/meson[${PYTHON_USEDEP}]
-	dev-python/pyproject-metadata[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	>=dev-python/pyproject-metadata-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.0.0[${PYTHON_USEDEP}]
 	test? ( dev-python/build[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/cython[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/cython-3.0.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	test? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/furo-2021.8.31[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

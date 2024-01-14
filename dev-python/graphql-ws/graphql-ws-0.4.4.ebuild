@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev maintainer test"
 DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	maintainer? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	maintainer? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	maintainer? ( >=dev-python/wheel-0.33.6[${PYTHON_USEDEP}] )
 	maintainer? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/graphene[${PYTHON_USEDEP}] )
 	test? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	test? ( dev-python/graphene-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/django[${PYTHON_USEDEP}] )
+	test? ( >dev-python/pytest-5.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/django-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/channels[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/aiohttp[${PYTHON_USEDEP}] )"

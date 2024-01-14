@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/catkin-pkg[${PYTHON_USEDEP}]
 	dev-python/rospkg[${PYTHON_USEDEP}]
 	dev-python/rosdistro[${PYTHON_USEDEP}]
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( <dev-python/flake8-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

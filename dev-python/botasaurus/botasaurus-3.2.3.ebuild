@@ -27,11 +27,11 @@ IUSE=""
 DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/javascript[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.3.2[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.11.2[${PYTHON_USEDEP}]
 	dev-python/chromedriver-autoinstaller[${PYTHON_USEDEP}]
 	dev-python/cloudscraper[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+	~dev-python/selenium-4.5.0[${PYTHON_USEDEP}]
 	dev-python/botasaurus-proxy-authentication[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

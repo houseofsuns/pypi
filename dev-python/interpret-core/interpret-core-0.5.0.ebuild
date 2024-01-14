@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dash debug lime notebook plotly sensitivity shap skoperules testing treeinterpreter"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.11.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.18.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.19.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.11[${PYTHON_USEDEP}]
 	dash? ( dev-python/dash[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash-core-components[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash-html-components[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash-table[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash-cytoscape[${PYTHON_USEDEP}] )
 	dash? ( dev-python/gevent[${PYTHON_USEDEP}] )
-	dash? ( dev-python/requests[${PYTHON_USEDEP}] )
-	debug? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	dash? ( >=dev-python/requests-2.19.0[${PYTHON_USEDEP}] )
+	debug? ( >=dev-python/psutil-5.6.2[${PYTHON_USEDEP}] )
 	lime? ( dev-python/lime[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	plotly? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/ipykernel-4.10.0[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/ipython-5.5.0[${PYTHON_USEDEP}] )
+	plotly? ( >=dev-python/plotly-3.8.1[${PYTHON_USEDEP}] )
 	sensitivity? ( dev-python/SALib[${PYTHON_USEDEP}] )
 	shap? ( dev-python/shap[${PYTHON_USEDEP}] )
-	shap? ( dev-python/dill[${PYTHON_USEDEP}] )
+	shap? ( >=dev-python/dill-0.2.5[${PYTHON_USEDEP}] )
 	skoperules? ( dev-python/skope-rules[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-4.3.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	testing? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	testing? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	testing? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-xdist-1.29[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/nbconvert-5.4.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/selenium-3.141.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/ipywidgets-7.4.2[${PYTHON_USEDEP}] )
 	treeinterpreter? ( dev-python/treeinterpreter[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

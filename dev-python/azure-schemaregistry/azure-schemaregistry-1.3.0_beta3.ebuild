@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="jsonencoder"
 DEPENDENCIES="dev-python/msrest[${PYTHON_USEDEP}]
 	dev-python/azure-core[${PYTHON_USEDEP}]
-	jsonencoder? ( dev-python/jsonschema[${PYTHON_USEDEP}] )"
+	jsonencoder? ( <dev-python/jsonschema-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

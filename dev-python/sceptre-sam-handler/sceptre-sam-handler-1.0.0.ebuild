@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="sam test"
 DEPENDENCIES="dev-python/sceptre[${PYTHON_USEDEP}]
 	sam? ( dev-python/aws-sam-cli[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-3.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyfakefs-4.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES="dev-python/sqlparse[${PYTHON_USEDEP}]
 	dev-python/dbnd[${PYTHON_USEDEP}]
 	tests? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	tests? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/numpy-1.22.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

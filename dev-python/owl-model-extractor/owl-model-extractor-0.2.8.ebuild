@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/Owlready2[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]"
+	~dev-python/rdflib-6.1.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

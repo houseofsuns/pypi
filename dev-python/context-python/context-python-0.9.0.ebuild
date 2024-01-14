@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/azure-core[${PYTHON_USEDEP}]
 	dev-python/msrest[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-core[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]"
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

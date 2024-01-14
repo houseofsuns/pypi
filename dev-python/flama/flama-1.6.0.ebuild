@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="client database full marshmallow pydantic typesystem"
-DEPENDENCIES="dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/starlette-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.23[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	full? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	marshmallow? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
-	full? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
-	marshmallow? ( dev-python/apispec[${PYTHON_USEDEP}] )
-	full? ( dev-python/apispec[${PYTHON_USEDEP}] )
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	pydantic? ( <dev-python/pydantic-3.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/pydantic-3.0[${PYTHON_USEDEP}] )
+	marshmallow? ( <dev-python/marshmallow-4.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/marshmallow-4.0[${PYTHON_USEDEP}] )
+	marshmallow? ( <dev-python/apispec-7.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/apispec-7.0[${PYTHON_USEDEP}] )
 	typesystem? ( dev-python/typesystem[${PYTHON_USEDEP}] )
 	full? ( dev-python/typesystem[${PYTHON_USEDEP}] )
 	database? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	full? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	client? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	full? ( dev-python/httpx[${PYTHON_USEDEP}] )"
+	client? ( <dev-python/httpx-0.25[${PYTHON_USEDEP}] )
+	full? ( <dev-python/httpx-0.25[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

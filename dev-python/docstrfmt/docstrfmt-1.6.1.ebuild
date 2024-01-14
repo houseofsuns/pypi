@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci d dev lint test"
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/black-23.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.0[${PYTHON_USEDEP}]
+	~dev-python/docutils-0.20[${PYTHON_USEDEP}]
 	dev-python/libcst[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	~dev-python/platformdirs-4.0[${PYTHON_USEDEP}]
+	~dev-python/sphinx-7.0[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.9[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	ci? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	d? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	d? ( ~dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

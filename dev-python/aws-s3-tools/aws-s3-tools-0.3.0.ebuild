@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="progress"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	progress? ( dev-python/rich[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/boto3-2.0[${PYTHON_USEDEP}]
+	<dev-python/ujson-6.0[${PYTHON_USEDEP}]
+	progress? ( <dev-python/rich-14.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

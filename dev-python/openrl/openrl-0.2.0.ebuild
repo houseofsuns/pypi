@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="atari dev mpe nlp nlp_test retro selfplay selfplay_test super_mario test"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-67.0[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	atari? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	mpe? ( dev-python/pyglet[${PYTHON_USEDEP}] )
+	mpe? ( ~dev-python/pyglet-1.5.27[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/nltk[${PYTHON_USEDEP}] )

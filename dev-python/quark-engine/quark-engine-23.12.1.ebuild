@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/prettytable[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/prettytable-1.0.0[${PYTHON_USEDEP}]
 	dev-python/androguard[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]

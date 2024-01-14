@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests type-tests"
 DEPENDENCIES="dev-python/babel[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tox[${PYTHON_USEDEP}] )
-	type-tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
+	tests? ( >=dev-python/pytest-2.3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/tox-1.6.0[${PYTHON_USEDEP}] )
+	type-tests? ( >=dev-python/pytest-2.3.0[${PYTHON_USEDEP}] )
 	type-tests? ( dev-python/pytest-mypy-plugins[${PYTHON_USEDEP}] )
-	type-tests? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	type-tests? ( >=dev-python/mypy-0.812[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

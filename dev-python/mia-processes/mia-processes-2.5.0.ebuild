@@ -45,6 +45,6 @@ DEPENDENCIES="dev-python/boto[${PYTHON_USEDEP}]
 	dev-python/templateflow[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/sphinx-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

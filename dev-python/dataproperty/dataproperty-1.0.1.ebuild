@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="logging test"
 DEPENDENCIES="dev-python/mbstrdecoder[${PYTHON_USEDEP}]
 	dev-python/typepy[${PYTHON_USEDEP}]
-	logging? ( dev-python/loguru[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	logging? ( <dev-python/loguru-1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-md-report[${PYTHON_USEDEP}] )
-	test? ( dev-python/tcolorpy[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/tcolorpy-0.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

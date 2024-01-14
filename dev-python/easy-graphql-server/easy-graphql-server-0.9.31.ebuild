@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
-	tests? ( dev-python/django[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/django-3.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/faker[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask-login[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/flask-2.0.2[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flask-login-0.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

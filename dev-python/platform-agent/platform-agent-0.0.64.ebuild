@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/pyroute2[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-1.26[${PYTHON_USEDEP}]
+	~dev-python/pyroute2-0.5.12[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-0.57.0[${PYTHON_USEDEP}]
 	dev-python/PyNaCl[${PYTHON_USEDEP}]
 	dev-python/docker-py[${PYTHON_USEDEP}]
 	dev-python/icmplibv2[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
+	~dev-python/dnspython-1.16.0[${PYTHON_USEDEP}]
 	dev-python/iperf3[${PYTHON_USEDEP}]
-	dev-python/prometheus-client[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/prometheus-client-0.8.0[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.7.2[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

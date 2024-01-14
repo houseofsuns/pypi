@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/metakernel[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/wurlitzer[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/metakernel-0.23.0[${PYTHON_USEDEP}]
+	>=dev-python/jupyter-client-4.4.0[${PYTHON_USEDEP}]
+	>=dev-python/ipython-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/wurlitzer-1.0.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

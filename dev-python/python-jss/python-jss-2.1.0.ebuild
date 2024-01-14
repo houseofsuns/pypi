@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="rest"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
 	rest? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	rest? ( dev-python/docutils[${PYTHON_USEDEP}] )"
+	rest? ( >=dev-python/docutils-0.16[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

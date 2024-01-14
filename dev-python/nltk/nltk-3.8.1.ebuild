@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all corenlp machine_learning plot tgrep twitter"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	>=dev-python/regex-2021.8.3[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-crfsuite[${PYTHON_USEDEP}] )

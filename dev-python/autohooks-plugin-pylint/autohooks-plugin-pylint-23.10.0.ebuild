@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pylint[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pylint-2.8.3[${PYTHON_USEDEP}]
 	dev-python/autohooks[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

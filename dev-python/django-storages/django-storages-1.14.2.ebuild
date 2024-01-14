@@ -27,11 +27,11 @@ IUSE="azure boto3 dropbox google libcloud s3 sftp"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-core[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	boto3? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	boto3? ( >=dev-python/boto3-1.4.4[${PYTHON_USEDEP}] )
 	dropbox? ( dev-python/dropbox[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	libcloud? ( dev-python/apache-libcloud[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	sftp? ( dev-python/paramiko[${PYTHON_USEDEP}] )"
+	s3? ( >=dev-python/boto3-1.4.4[${PYTHON_USEDEP}] )
+	sftp? ( >=dev-python/paramiko-1.15[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

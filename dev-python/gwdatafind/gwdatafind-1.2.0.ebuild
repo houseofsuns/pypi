@@ -27,7 +27,7 @@ IUSE="docs lint test"
 DEPENDENCIES="dev-python/igwn-auth-utils[${PYTHON_USEDEP}]
 	dev-python/ligo-segments[${PYTHON_USEDEP}]
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
@@ -35,7 +35,7 @@ DEPENDENCIES="dev-python/igwn-auth-utils[${PYTHON_USEDEP}]
 	lint? ( dev-python/flake8-bandit[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	lint? ( dev-python/radon[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-2.8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

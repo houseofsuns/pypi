@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/jsonobject[${PYTHON_USEDEP}]
-	dev-python/sh[${PYTHON_USEDEP}]
+	>=dev-python/sh-2.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/contextlib2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

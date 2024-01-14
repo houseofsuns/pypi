@@ -27,16 +27,16 @@ IUSE="aiodns amqp aws brotli color http opentelemetry opentelemetry-exporter-pro
 DEPENDENCIES="brotli? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	dev-python/aioamqp[${PYTHON_USEDEP}]
 	dev-python/aiobotocore[${PYTHON_USEDEP}]
-	aiodns? ( dev-python/aiodns[${PYTHON_USEDEP}] )
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	aiodns? ( >=dev-python/aiodns-1.2.0[${PYTHON_USEDEP}] )
+	<dev-python/aiohttp-3.10.0[${PYTHON_USEDEP}]
 	dev-python/asahi[${PYTHON_USEDEP}]
 	aws? ( dev-python/asahi-extras[${PYTHON_USEDEP}] )
 	amqp? ( dev-python/asahi-extras[${PYTHON_USEDEP}] )
 	http? ( dev-python/asahi-extras[${PYTHON_USEDEP}] )
 	scheduler? ( dev-python/asahi-extras[${PYTHON_USEDEP}] )
 	color? ( dev-python/asahi-extras[${PYTHON_USEDEP}] )
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.20.106[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.5.0[${PYTHON_USEDEP}]
 	opentelemetry? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
 	opentelemetry-exporter-prometheus? ( dev-python/opentelemetry-api[${PYTHON_USEDEP}] )
 	opentelemetry? ( dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}] )
@@ -50,8 +50,8 @@ DEPENDENCIES="brotli? ( dev-python/Brotli[${PYTHON_USEDEP}] )
 	opentelemetry-exporter-prometheus? ( dev-python/opentelemetry-util-http[${PYTHON_USEDEP}] )
 	protobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )
 	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )"
+	<dev-python/structlog-24.0.0[${PYTHON_USEDEP}]
+	<dev-python/tzlocal-6.0[${PYTHON_USEDEP}]
+	uvloop? ( <dev-python/uvloop-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

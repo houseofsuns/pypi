@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="markdown"
 DEPENDENCIES="dev-python/pelican[${PYTHON_USEDEP}]
-	markdown? ( dev-python/markdown[${PYTHON_USEDEP}] )
+	markdown? ( <dev-python/markdown-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/webassets[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

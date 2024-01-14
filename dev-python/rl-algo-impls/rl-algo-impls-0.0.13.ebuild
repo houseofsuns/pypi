@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/cmake[${PYTHON_USEDEP}]
 	dev-python/AutoROM-accept-rom-license[${PYTHON_USEDEP}]
 	dev-python/stable-baselines3[${PYTHON_USEDEP}]
 	dev-python/gym[${PYTHON_USEDEP}]
-	dev-python/pyglet[${PYTHON_USEDEP}]
+	~dev-python/pyglet-1.5.27[${PYTHON_USEDEP}]
 	dev-python/wandb[${PYTHON_USEDEP}]
 	dev-python/pyvirtualdisplay[${PYTHON_USEDEP}]
 	dev-python/pybullet[${PYTHON_USEDEP}]
@@ -53,11 +53,11 @@ DEPENDENCIES="dev-python/cmake[${PYTHON_USEDEP}]
 	lux? ( dev-python/luxai-s2[${PYTHON_USEDEP}] )
 	lux? ( dev-python/juxai-s2[${PYTHON_USEDEP}] )
 	microrts? ( dev-python/gym-microrts[${PYTHON_USEDEP}] )
-	microrts-paper? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	microrts-paper? ( <dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
 	microrts-paper? ( dev-python/gym-microrts[${PYTHON_USEDEP}] )
-	microrts-ppo? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	microrts-ppo? ( <dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
 	microrts-ppo? ( dev-python/gym-microrts[${PYTHON_USEDEP}] )
-	procgen? ( dev-python/numexpr[${PYTHON_USEDEP}] )
+	procgen? ( >=dev-python/numexpr-2.8.4[${PYTHON_USEDEP}] )
 	procgen? ( dev-python/gym3[${PYTHON_USEDEP}] )
 	procgen? ( dev-python/glfw[${PYTHON_USEDEP}] )
 	procgen? ( dev-python/procgen[${PYTHON_USEDEP}] )

@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extra playwright regex ujson"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/aiohttp-socks[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-socks-1.0.0[${PYTHON_USEDEP}]
 	dev-python/arko-wrapper[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	<dev-python/aiofiles-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
 	dev-python/aiolimiter[${PYTHON_USEDEP}]
 	dev-python/pyee[${PYTHON_USEDEP}]
-	regex? ( dev-python/regex[${PYTHON_USEDEP}] )
-	ujson? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	extra? ( dev-python/uvloop[${PYTHON_USEDEP}] )
+	regex? ( <dev-python/regex-2023.0.0[${PYTHON_USEDEP}] )
+	ujson? ( <dev-python/ujson-6.0.0[${PYTHON_USEDEP}] )
+	extra? ( <dev-python/uvloop-1.0.0[${PYTHON_USEDEP}] )
 	playwright? ( dev-python/playwright[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

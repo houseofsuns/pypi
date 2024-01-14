@@ -26,21 +26,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="dev-python/serverless-sdk[${PYTHON_USEDEP}]
 	dev-python/serverless-sdk-schema[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.5[${PYTHON_USEDEP}]
 	tests? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flask[${PYTHON_USEDEP}] )
-	tests? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/black-22.12[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/boto3-1.25.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/flask-2.2.3[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/importlib-metadata-5.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mypy-1.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pynamodb[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-httpserver[${PYTHON_USEDEP}] )
-	tests? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-aiohttp-1.0.4[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-httpserver-1.0.6[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/requests-mock-1.10[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	tests? ( dev-python/serverless-wsgi[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
-	tests? ( dev-python/yarl[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/yarl-1.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

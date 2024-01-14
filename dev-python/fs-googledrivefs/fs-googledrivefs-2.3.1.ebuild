@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fs[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/fs-2.4.13[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-1.7.10[${PYTHON_USEDEP}]
+	>=dev-python/google-auth-1.5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

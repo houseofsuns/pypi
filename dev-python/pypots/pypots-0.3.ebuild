@@ -30,14 +30,14 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/tensorboard[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pygrinder[${PYTHON_USEDEP}]
 	dev-python/tsdb[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	basic? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	basic? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	basic? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	basic? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	basic? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	basic? ( dev-python/torch[${PYTHON_USEDEP}] )
 	basic? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	basic? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -51,7 +51,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	full? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	full? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	full? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	full? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/torch[${PYTHON_USEDEP}] )
 	full? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	full? ( dev-python/scipy[${PYTHON_USEDEP}] )

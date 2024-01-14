@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="code_style rtd testing"
-DEPENDENCIES="dev-python/markdown-it-py[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/markdown-it-py-4.0.0[${PYTHON_USEDEP}]
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )

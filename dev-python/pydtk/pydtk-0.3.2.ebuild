@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pointcloud ros ros2 zstd"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/six-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	ros? ( dev-python/pycryptodomex[${PYTHON_USEDEP}] )
 	ros? ( dev-python/gnupg[${PYTHON_USEDEP}] )
 	ros? ( dev-python/rospkg[${PYTHON_USEDEP}] )
 	pointcloud? ( dev-python/pyntcloud[${PYTHON_USEDEP}] )
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-migrate[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/bitstring[${PYTHON_USEDEP}]
+	<dev-python/bitstring-4.0.0[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
+	<dev-python/pymongo-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/deepmerge-0.2.0[${PYTHON_USEDEP}]
 	dev-python/tinymongo[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
 	dev-python/montydb[${PYTHON_USEDEP}]
-	ros? ( dev-python/flatdict[${PYTHON_USEDEP}] )
-	ros2? ( dev-python/flatdict[${PYTHON_USEDEP}] )
+	ros? ( <dev-python/flatdict-5.0.0[${PYTHON_USEDEP}] )
+	ros2? ( <dev-python/flatdict-5.0.0[${PYTHON_USEDEP}] )
 	zstd? ( dev-python/pyzstd[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	ros2? ( dev-python/lark[${PYTHON_USEDEP}] )
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	ros2? ( <dev-python/lark-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/addict[${PYTHON_USEDEP}]
-	dev-python/iso8601[${PYTHON_USEDEP}]"
+	<dev-python/iso8601-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,9 +33,9 @@ DEPENDENCIES="dev-python/blis[${PYTHON_USEDEP}]
 	dev-python/catalogue[${PYTHON_USEDEP}]
 	dev-python/confection[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.0[${PYTHON_USEDEP}]
 	cuda? ( dev-python/cupy[${PYTHON_USEDEP}] )
 	cuda-autodetect? ( dev-python/cupy-wheel[${PYTHON_USEDEP}] )
 	cuda100? ( dev-python/cupy-cuda100[${PYTHON_USEDEP}] )

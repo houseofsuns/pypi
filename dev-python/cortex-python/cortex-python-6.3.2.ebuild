@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jupyter viz"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.8.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0[${PYTHON_USEDEP}]
 	dev-python/python-jwt[${PYTHON_USEDEP}]
 	dev-python/cuid[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	jupyter? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	>=dev-python/dill-0.2.8.2[${PYTHON_USEDEP}]
+	jupyter? ( <dev-python/ipython-7.0[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/maya[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	viz? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	viz? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	viz? ( <dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
+	viz? ( <dev-python/seaborn-0.10[${PYTHON_USEDEP}] )
 	viz? ( dev-python/pandas[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

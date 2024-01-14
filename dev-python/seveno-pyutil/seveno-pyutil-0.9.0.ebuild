@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/holidays[${PYTHON_USEDEP}]
 	dev-python/pretty-traceback[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.6.0[${PYTHON_USEDEP}]
 	dev-python/sqlparse[${PYTHON_USEDEP}]
 	dev-python/tzlocal[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )

@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="builders x--_tests"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/pyjwt-3.0[${PYTHON_USEDEP}]
+	<dev-python/arrow-2.0[${PYTHON_USEDEP}]
 	dev-python/gemd[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/boto3-2.0[${PYTHON_USEDEP}]
+	<dev-python/botocore-2.0[${PYTHON_USEDEP}]
+	<dev-python/deprecation-3.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
 	x--_tests? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	x--_tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	x--_tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	x--_tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	x--_tests? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	x--_tests? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	builders? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	x--_tests? ( <dev-python/mock-5.0[${PYTHON_USEDEP}] )
+	x--_tests? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
+	x--_tests? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	x--_tests? ( >=dev-python/pytz-2020.1[${PYTHON_USEDEP}] )
+	x--_tests? ( <dev-python/requests-mock-2.0[${PYTHON_USEDEP}] )
+	builders? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

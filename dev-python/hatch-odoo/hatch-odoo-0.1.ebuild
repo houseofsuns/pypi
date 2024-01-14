@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/hatchling[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/hatchling-1.4.1[${PYTHON_USEDEP}]
 	dev-python/manifestoo-core[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	test? ( dev-python/build[${PYTHON_USEDEP}] )

@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="7z all cbr icu"
-DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/importlib-metadata-9.0.0[${PYTHON_USEDEP}]
+	>=dev-python/natsort-8.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pillow-9.1.0[${PYTHON_USEDEP}]
+	<dev-python/pycountry-23.0.0[${PYTHON_USEDEP}]
+	<dev-python/rapidfuzz-4.0.0[${PYTHON_USEDEP}]
 	dev-python/text2digits[${PYTHON_USEDEP}]
 	dev-python/wordninja[${PYTHON_USEDEP}]
 	7z? ( dev-python/py7zr[${PYTHON_USEDEP}] )
 	all? ( dev-python/py7zr[${PYTHON_USEDEP}] )
-	all? ( dev-python/rarfile[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/rarfile-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyicu[${PYTHON_USEDEP}] )
-	cbr? ( dev-python/rarfile[${PYTHON_USEDEP}] )
+	cbr? ( ~dev-python/rarfile-4.0[${PYTHON_USEDEP}] )
 	icu? ( dev-python/pyicu[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

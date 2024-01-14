@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bitstring[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bitstring-3.1.5[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.11.2[${PYTHON_USEDEP}]
 	dev-python/unittest2[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

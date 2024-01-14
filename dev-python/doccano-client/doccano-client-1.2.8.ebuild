@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="al spacy whisper"
 DEPENDENCIES="dev-python/dataclasses-json[${PYTHON_USEDEP}]
-	whisper? ( dev-python/ffmpeg-python[${PYTHON_USEDEP}] )
-	al? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+	whisper? ( <dev-python/ffmpeg-python-0.3.0[${PYTHON_USEDEP}] )
+	al? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-toolbelt-0.10.0[${PYTHON_USEDEP}]
 	al? ( dev-python/seqal[${PYTHON_USEDEP}] )
 	spacy? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	al? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	spacy? ( dev-python/spacy-partial-tagger[${PYTHON_USEDEP}] )
-	spacy? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	whisper? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	spacy? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
+	whisper? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

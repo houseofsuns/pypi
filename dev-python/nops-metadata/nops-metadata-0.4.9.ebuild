@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.17.102[${PYTHON_USEDEP}]
+	>=dev-python/pyrsistent-0.17.3[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.8.0[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

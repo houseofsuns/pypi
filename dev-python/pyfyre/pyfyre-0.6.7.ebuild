@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/brython[${PYTHON_USEDEP}]
-	dev-python/livereload[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/brython-3.10.7[${PYTHON_USEDEP}]
+	~dev-python/livereload-2.6.3[${PYTHON_USEDEP}]
 	dev-python/python-minifier[${PYTHON_USEDEP}]
 	dev-python/autoflake[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]"

@@ -25,28 +25,28 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all render"
 DEPENDENCIES="dev-python/better-exceptions[${PYTHON_USEDEP}]
-	dev-python/DBUtils[${PYTHON_USEDEP}]
+	>=dev-python/DBUtils-2.0[${PYTHON_USEDEP}]
 	dev-python/parsel[${PYTHON_USEDEP}]
 	dev-python/PyMySQL[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/redis-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.22.0[${PYTHON_USEDEP}]
 	dev-python/bs4[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.14.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-3.3.2[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.8[${PYTHON_USEDEP}]
+	>=dev-python/loguru-0.5.3[${PYTHON_USEDEP}]
 	dev-python/influxdb[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
+	>=dev-python/pyperclip-1.8.2[${PYTHON_USEDEP}]
 	dev-python/terminal-layout[${PYTHON_USEDEP}]
-	all? ( dev-python/bitarray[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/bitarray-1.5.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyExecJS[${PYTHON_USEDEP}] )
-	all? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pymongo-3.10.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/redis-py-cluster[${PYTHON_USEDEP}] )
 	all? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )
 	all? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	all? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/selenium-3.141.0[${PYTHON_USEDEP}] )
 	render? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )
 	render? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	render? ( dev-python/selenium[${PYTHON_USEDEP}] )"
+	render? ( >=dev-python/selenium-3.141.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/rns[${PYTHON_USEDEP}]
 	dev-python/lxmf[${PYTHON_USEDEP}]
-	dev-python/urwid[${PYTHON_USEDEP}]
+	~dev-python/urwid-2.1.2[${PYTHON_USEDEP}]
 	dev-python/qrcode[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

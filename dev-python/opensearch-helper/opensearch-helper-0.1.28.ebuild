@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/baseblock[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/fast-sentence-tokenize[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/opensearch-py[${PYTHON_USEDEP}]
+	<dev-python/opensearch-py-3.0.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests_aws4auth[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

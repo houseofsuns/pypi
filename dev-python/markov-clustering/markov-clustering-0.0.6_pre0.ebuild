@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="drawing"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.19.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	drawing? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	drawing? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"

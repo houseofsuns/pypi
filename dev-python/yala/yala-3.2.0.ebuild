@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all black dev flake8 mypy pydocstyle pyflakes pylint radon"
 DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+	>=dev-python/isort-5.0[${PYTHON_USEDEP}]
 	dev-python/pycodestyle[${PYTHON_USEDEP}]
 	dev-python/pylint[${PYTHON_USEDEP}]
 	all? ( dev-python/mypy[${PYTHON_USEDEP}] )

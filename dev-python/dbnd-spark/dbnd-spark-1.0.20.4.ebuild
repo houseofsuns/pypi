@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="dev-python/dbnd[${PYTHON_USEDEP}]
-	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-spark[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="geopandas"
 DEPENDENCIES="dev-python/hestia-earth-utils[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
+	~dev-python/google-api-python-client-1.12.1[${PYTHON_USEDEP}]
 	dev-python/earthengine-api[${PYTHON_USEDEP}]
 	geopandas? ( dev-python/shapely[${PYTHON_USEDEP}] )
 	geopandas? ( dev-python/geopandas[${PYTHON_USEDEP}] )"

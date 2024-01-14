@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.4.3[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-2.1.7[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
+	>=dev-python/pymongo-3.4.0[${PYTHON_USEDEP}]
 	dev-python/stackility[${PYTHON_USEDEP}]
 	dev-python/Mako[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

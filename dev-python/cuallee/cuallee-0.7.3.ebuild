@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="bigquery dagster dev duckdb iso pandas polars pyspark snowpark test"
-DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/toolz[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	>=dev-python/toolz-0.12.0[${PYTHON_USEDEP}]
+	>=dev-python/pygments-2.15.1[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.3[${PYTHON_USEDEP}]
 	bigquery? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
-	bigquery? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	bigquery? ( >=dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}] )
 	dagster? ( dev-python/dagster[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	duckdb? ( dev-python/duckdb[${PYTHON_USEDEP}] )
-	iso? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	iso? ( >=dev-python/lxml-4.9.1[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-2.0.1[${PYTHON_USEDEP}] )
 	polars? ( dev-python/polars[${PYTHON_USEDEP}] )
 	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	snowpark? ( dev-python/snowflake-snowpark-python[${PYTHON_USEDEP}] )
-	snowpark? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	snowpark? ( >=dev-python/pyarrow-14.0.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pendulum[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pendulum-2.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

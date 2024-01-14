@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/dunamai[${PYTHON_USEDEP}]
 	dev-python/nomnomdata-cli[${PYTHON_USEDEP}]
 	dev-python/pycognito[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

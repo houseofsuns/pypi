@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.28.1[${PYTHON_USEDEP}]
+	~dev-python/qrcode-7.4.2[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	dev-python/requests-pkcs12[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

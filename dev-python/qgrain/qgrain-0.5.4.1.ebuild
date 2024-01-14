@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/xlrd[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/PySide6[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
 	dev-python/SciencePlots[${PYTHON_USEDEP}]
 	dev-python/qt-material[${PYTHON_USEDEP}]
 	server? ( dev-python/torch[${PYTHON_USEDEP}] )"

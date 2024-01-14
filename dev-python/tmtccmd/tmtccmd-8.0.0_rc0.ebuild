@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gui test"
-DEPENDENCIES="dev-python/crcmod[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/crcmod-1.7[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.0[${PYTHON_USEDEP}]
+	~dev-python/colorlog-6.6[${PYTHON_USEDEP}]
 	dev-python/cobs[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
+	~dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	dev-python/dle-encoder[${PYTHON_USEDEP}]
 	dev-python/spacepackets[${PYTHON_USEDEP}]
-	gui? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )"
+	gui? ( ~dev-python/PyQt6-6.6[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pyfakefs-4.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

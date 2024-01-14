@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	multivariate? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	multivariate? ( >=dev-python/scipy-1.6.0[${PYTHON_USEDEP}] )
 	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

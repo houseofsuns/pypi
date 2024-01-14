@@ -31,8 +31,8 @@ DEPENDENCIES="benchmark? ( dev-python/flask-restx[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/keras[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/recommonmark-0.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

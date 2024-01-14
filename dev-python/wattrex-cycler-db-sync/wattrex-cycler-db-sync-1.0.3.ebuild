@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/system-logger-tool[${PYTHON_USEDEP}]
 	dev-python/system-shared-tool[${PYTHON_USEDEP}]
 	dev-python/system-config-tool[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.0[${PYTHON_USEDEP}]
 	dev-python/wattrex-driver-db[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

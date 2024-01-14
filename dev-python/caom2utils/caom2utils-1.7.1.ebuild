@@ -30,9 +30,9 @@ DEPENDENCIES="dev-python/cadcdata[${PYTHON_USEDEP}]
 	dev-python/spherical-geometry[${PYTHON_USEDEP}]
 	dev-python/vos[${PYTHON_USEDEP}]
 	h5? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.12[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.9[${PYTHON_USEDEP}] )
 	test? ( dev-python/xml-compare[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

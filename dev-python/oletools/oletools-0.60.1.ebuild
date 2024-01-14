@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
-DEPENDENCIES="dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/olefile[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
+	>=dev-python/olefile-0.46[${PYTHON_USEDEP}]
 	dev-python/easygui[${PYTHON_USEDEP}]
 	dev-python/colorclass[${PYTHON_USEDEP}]
 	dev-python/pcodedmp[${PYTHON_USEDEP}]

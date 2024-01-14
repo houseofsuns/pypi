@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
 	dev-python/Celery[${PYTHON_USEDEP}]
-	dev-python/kombu[${PYTHON_USEDEP}]
+	<dev-python/kombu-5.3.0[${PYTHON_USEDEP}]
 	dev-python/billiard[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pymediainfo[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25.0[${PYTHON_USEDEP}]
+	<dev-python/pymediainfo-5.2[${PYTHON_USEDEP}]
 	dev-python/fffw[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

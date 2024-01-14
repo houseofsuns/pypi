@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/huggingface_hub[${PYTHON_USEDEP}]
 	testing? ( dev-python/requests[${PYTHON_USEDEP}] )
 	testing? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	testing? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	testing? ( dev-python/black[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/black-22.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/setuptools_rust[${PYTHON_USEDEP}] )

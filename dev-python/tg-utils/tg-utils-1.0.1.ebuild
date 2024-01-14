@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="health-check lock model-hash profiling"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	health-check? ( dev-python/django-health-check[${PYTHON_USEDEP}] )
 	model-hash? ( dev-python/hashids[${PYTHON_USEDEP}] )
 	health-check? ( dev-python/psutil[${PYTHON_USEDEP}] )

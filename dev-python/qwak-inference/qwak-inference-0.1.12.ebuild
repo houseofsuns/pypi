@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="batch feedback"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	batch? ( dev-python/qwak-core[${PYTHON_USEDEP}] )
 	feedback? ( dev-python/qwak-core[${PYTHON_USEDEP}] )
-	batch? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	feedback? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
-	batch? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	feedback? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	batch? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	feedback? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	batch? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"
+	batch? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	feedback? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	>=dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
+	batch? ( >=dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
+	feedback? ( >=dev-python/pandas-1.4.0[${PYTHON_USEDEP}] )
+	batch? ( <dev-python/joblib-2.0.0[${PYTHON_USEDEP}] )
+	feedback? ( <dev-python/joblib-2.0.0[${PYTHON_USEDEP}] )
+	batch? ( <dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

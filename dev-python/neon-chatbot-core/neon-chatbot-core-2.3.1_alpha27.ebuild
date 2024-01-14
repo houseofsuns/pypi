@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="lang lgpl"
 DEPENDENCIES="dev-python/ovos-bus-client[${PYTHON_USEDEP}]
 	dev-python/klat-connector[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.7[${PYTHON_USEDEP}]
 	dev-python/neon-utils[${PYTHON_USEDEP}]
 	dev-python/neon-mq-connector[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	lang? ( dev-python/jellyfish[${PYTHON_USEDEP}] )
+	~dev-python/click-8.0[${PYTHON_USEDEP}]
+	lang? ( ~dev-python/jellyfish-0.8[${PYTHON_USEDEP}] )
 	lang? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	lang? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	lgpl? ( dev-python/autocorrect[${PYTHON_USEDEP}] )"

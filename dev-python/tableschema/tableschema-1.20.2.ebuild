@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/cached-property[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.9[${PYTHON_USEDEP}]
+	>=dev-python/click-3.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.5[${PYTHON_USEDEP}]
+	>=dev-python/cached-property-1.5[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.4[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-2.5[${PYTHON_USEDEP}]
 	dev-python/unicodecsv[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/rfc3986[${PYTHON_USEDEP}]
+	>=dev-python/isodate-0.5.4[${PYTHON_USEDEP}]
+	>=dev-python/rfc3986-1.1.0[${PYTHON_USEDEP}]
 	dev-python/tabulator[${PYTHON_USEDEP}]
 	develop? ( dev-python/mock[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pylama[${PYTHON_USEDEP}] )

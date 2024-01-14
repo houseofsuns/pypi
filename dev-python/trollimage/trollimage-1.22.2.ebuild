@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="geotiff xarray"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	geotiff? ( dev-python/rasterio[${PYTHON_USEDEP}] )
 	xarray? ( dev-python/xarray[${PYTHON_USEDEP}] )

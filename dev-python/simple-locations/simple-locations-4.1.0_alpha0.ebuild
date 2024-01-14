@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/django-mptt[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/django-ninja[${PYTHON_USEDEP}]
 	dev-python/django-geojson[${PYTHON_USEDEP}]
 	dev-python/geojson-pydantic[${PYTHON_USEDEP}]"

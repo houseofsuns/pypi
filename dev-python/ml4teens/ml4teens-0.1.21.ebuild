@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/ipycanvas[${PYTHON_USEDEP}]
 	dev-python/ipyevents[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.4[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/face-recognition[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

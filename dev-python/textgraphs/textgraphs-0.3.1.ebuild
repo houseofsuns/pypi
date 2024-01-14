@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="demo dev test"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.12[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]
-	dev-python/markdown2[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/markdown2-2.4[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.8[${PYTHON_USEDEP}]
+	>=dev-python/networkx-3.2[${PYTHON_USEDEP}]
 	dev-python/pulp[${PYTHON_USEDEP}]
 	dev-python/pyvis[${PYTHON_USEDEP}]
 	dev-python/qwikidata[${PYTHON_USEDEP}]
@@ -38,22 +38,22 @@ DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/span-marker[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/wordcloud[${PYTHON_USEDEP}]
-	demo? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	demo? ( >=dev-python/ipywidgets-8.1[${PYTHON_USEDEP}] )
 	demo? ( dev-python/jupyterlab-execute-time[${PYTHON_USEDEP}] )
-	demo? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	demo? ( >=dev-python/jupyterlab-4.0[${PYTHON_USEDEP}] )
 	demo? ( dev-python/pyinstrument[${PYTHON_USEDEP}] )
 	demo? ( dev-python/sense2vec[${PYTHON_USEDEP}] )
 	demo? ( dev-python/spacy-entity-linker[${PYTHON_USEDEP}] )
 	demo? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	demo? ( dev-python/watermark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/build-1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-git-revision-date-plugin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocs-material-9.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mknotebooks[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/selenium-4.16[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

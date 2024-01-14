@@ -27,11 +27,11 @@ IUSE=""
 DEPENDENCIES="dev-python/imgio[${PYTHON_USEDEP}]
 	dev-python/imsize[${PYTHON_USEDEP}]
 	dev-python/moderngl[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/piexif[${PYTHON_USEDEP}]
+	>=dev-python/natsort-8.3.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.1[${PYTHON_USEDEP}]
+	>=dev-python/piexif-1.1.3[${PYTHON_USEDEP}]
 	dev-python/pqdm[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pyglet[${PYTHON_USEDEP}]"
+	>=dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
+	>=dev-python/pyglet-2.0.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

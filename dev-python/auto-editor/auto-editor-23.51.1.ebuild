@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.22.0[${PYTHON_USEDEP}]
+	~dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
 	dev-python/pyav[${PYTHON_USEDEP}]
 	dev-python/ae-ffmpeg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

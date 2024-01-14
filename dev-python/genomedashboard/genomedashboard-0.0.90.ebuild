@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
+	>=dev-python/docutils-0.3[${PYTHON_USEDEP}]
 	dev-python/twobitreader[${PYTHON_USEDEP}]
 	dev-python/pyBigWig[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

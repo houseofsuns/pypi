@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pygments rich"
-DEPENDENCIES="pygments? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	rich? ( dev-python/rich[${PYTHON_USEDEP}] )"
+DEPENDENCIES="pygments? ( <dev-python/pygments-3.0.0[${PYTHON_USEDEP}] )
+	rich? ( <dev-python/rich-14.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all check doc scipy test umfpack"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.14.5[${PYTHON_USEDEP}]
 	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-umfpack[${PYTHON_USEDEP}] )
-	check? ( dev-python/black[${PYTHON_USEDEP}] )
-	check? ( dev-python/isort[${PYTHON_USEDEP}] )
-	check? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	check? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
+	check? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
+	check? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/scipy-1.1.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/matplotlib-3.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/perfplot[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/numpydoc-1.1[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-gallery-0.8[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/sphinx-rtd-theme-1.1[${PYTHON_USEDEP}] )
 	scipy? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
 	umfpack? ( dev-python/scikit-umfpack[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

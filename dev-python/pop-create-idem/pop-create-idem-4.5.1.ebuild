@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/bs4[${PYTHON_USEDEP}]
 	dev-python/idem[${PYTHON_USEDEP}]
 	dev-python/inflect[${PYTHON_USEDEP}]
-	dev-python/openapi3[${PYTHON_USEDEP}]
+	~dev-python/openapi3-1.7.0[${PYTHON_USEDEP}]
 	dev-python/pop[${PYTHON_USEDEP}]
 	dev-python/pop-config[${PYTHON_USEDEP}]
 	dev-python/pop-create[${PYTHON_USEDEP}]

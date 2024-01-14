@@ -27,10 +27,10 @@ IUSE="tests"
 DEPENDENCIES="dev-python/Flask-Collect-Invenio[${PYTHON_USEDEP}]
 	dev-python/Flask-WebpackExt[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
-	dev-python/node-semver[${PYTHON_USEDEP}]
+	<dev-python/node-semver-0.2.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/mock-1.3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-4.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

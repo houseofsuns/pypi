@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="readline windows"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-6.0[${PYTHON_USEDEP}]
 	readline? ( dev-python/gnureadline[${PYTHON_USEDEP}] )
 	windows? ( dev-python/pyreadline[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

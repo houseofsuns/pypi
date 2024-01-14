@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="s3 tests tests-s3"
 DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
+	>=dev-python/packaging-17.0[${PYTHON_USEDEP}]
+	s3? ( >=dev-python/boto3-1.4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests-s3? ( dev-python/moto[${PYTHON_USEDEP}] )

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/httplib2[${PYTHON_USEDEP}]
-	dev-python/pyasn1[${PYTHON_USEDEP}]
-	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/httplib2-0.9.1[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-0.1.7[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-modules-0.0.5[${PYTHON_USEDEP}]
+	>=dev-python/rsa-3.1.4[${PYTHON_USEDEP}]
+	>=dev-python/six-1.6.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

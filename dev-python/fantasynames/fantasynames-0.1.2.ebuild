@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/black-21.0[${PYTHON_USEDEP}]
+	<dev-python/flake8-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/mypy-0.813[${PYTHON_USEDEP}]
+	<dev-python/pytest-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

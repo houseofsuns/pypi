@@ -27,9 +27,9 @@ IUSE="amazon common-sql microsoft-mssql mysql presto samba vertica"
 DEPENDENCIES="dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/hmsclient[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.17.1[${PYTHON_USEDEP}]
 	dev-python/pyhive[${PYTHON_USEDEP}]
-	dev-python/thrift[${PYTHON_USEDEP}]
+	>=dev-python/thrift-0.9.2[${PYTHON_USEDEP}]
 	amazon? ( dev-python/apache-airflow-providers-amazon[${PYTHON_USEDEP}] )
 	common-sql? ( dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}] )
 	microsoft-mssql? ( dev-python/apache-airflow-providers-microsoft-mssql[${PYTHON_USEDEP}] )

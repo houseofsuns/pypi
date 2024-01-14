@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/zeep[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/zeep-0.12[${PYTHON_USEDEP}]
+	>=dev-python/pypdf-3.0[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/trytond-party[${PYTHON_USEDEP}]
 	dev-python/trytond-product[${PYTHON_USEDEP}]

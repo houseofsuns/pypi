@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
-	all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	all? ( <dev-python/typing-extensions-4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/typing-inspect[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/typing-extensions-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typing-inspect[${PYTHON_USEDEP}] )
-	dev? ( dev-python/alabaster[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >dev-python/alabaster-0.7[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sphinx-1.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
@@ -43,9 +43,9 @@ DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	dev? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	dev? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/msgpack-0.6[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/prometheus-client-0.3[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wsgicors[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"

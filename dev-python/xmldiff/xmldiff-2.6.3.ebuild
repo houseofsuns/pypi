@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="devenv"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/lxml-3.1.0[${PYTHON_USEDEP}]
 	devenv? ( dev-python/black[${PYTHON_USEDEP}] )
 	devenv? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	devenv? ( dev-python/flake8[${PYTHON_USEDEP}] )

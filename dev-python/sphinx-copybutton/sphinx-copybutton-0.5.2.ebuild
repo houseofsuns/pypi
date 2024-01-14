@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="code_style rtd"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sphinx-1.8[${PYTHON_USEDEP}]
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/ipython[${PYTHON_USEDEP}] )

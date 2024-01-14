@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all sphinx"
-DEPENDENCIES="dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/pygments-2.6.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
+	sphinx? ( >=dev-python/sphinx-3.4.0[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx-jinja2-compat[${PYTHON_USEDEP}] )
 	sphinx? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-3.4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-jinja2-compat[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-toolbox[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

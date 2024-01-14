@@ -29,10 +29,10 @@ DEPENDENCIES="dev-python/bw2data[${PYTHON_USEDEP}]
 	dev-python/bw2io[${PYTHON_USEDEP}]
 	dev-python/bw2calc[${PYTHON_USEDEP}]
 	dev-python/cowsay[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/wurst[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/playsound[${PYTHON_USEDEP}]
 	dev-python/premise-gwp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

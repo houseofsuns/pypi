@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/license-expression[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/license-expression-30.2[${PYTHON_USEDEP}]
 	dev-python/osadl-matrix[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.42[${PYTHON_USEDEP}]
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dataclasses[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dlint[${PYTHON_USEDEP}] )
@@ -53,17 +53,17 @@ DEPENDENCIES="dev-python/license-expression[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-requirements[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-string-format[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-variables-names[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-forked-1.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-icdiff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-random-order[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-socket[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-sugar-0.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-tldr[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/reuse[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/twine-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

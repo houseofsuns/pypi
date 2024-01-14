@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc docs mem test tests"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
 	dev-python/migas[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
 	dev-python/nipype[${PYTHON_USEDEP}]
 	dev-python/nitransforms[${PYTHON_USEDEP}]
 	dev-python/niworkflows[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	dev-python/pybids[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.8.1[${PYTHON_USEDEP}]
 	dev-python/templateflow[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/traits[${PYTHON_USEDEP}]
@@ -42,12 +42,12 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	doc? ( dev-python/attrs[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/attrs-20.1.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/furo[${PYTHON_USEDEP}] )
 	doc? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/matplotlib-2.2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nibabel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nipype[${PYTHON_USEDEP}] )
@@ -55,11 +55,11 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	doc? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	doc? ( dev-python/packaging[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pandoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pydot[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/pydot-1.2.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydotplus[${PYTHON_USEDEP}] )
 	doc? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-7.2.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	doc? ( dev-python/templateflow[${PYTHON_USEDEP}] )
 	doc? ( dev-python/traits[${PYTHON_USEDEP}] )

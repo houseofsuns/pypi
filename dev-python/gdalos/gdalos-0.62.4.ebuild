@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="qt"
 DEPENDENCIES="dev-python/gdal[${PYTHON_USEDEP}]
 	dev-python/gdal-utils[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyproj[${PYTHON_USEDEP}]
+	>dev-python/numpy-1.19.4[${PYTHON_USEDEP}]
+	>=dev-python/pyproj-3.1.0[${PYTHON_USEDEP}]
 	qt? ( dev-python/fidget[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

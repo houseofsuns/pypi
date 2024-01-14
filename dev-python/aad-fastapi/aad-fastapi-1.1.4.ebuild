@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	dev-python/azure-keyvault[${PYTHON_USEDEP}]
 	dev-python/azure-keyvault-certificates[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	dev-python/async-asgi-testclient[${PYTHON_USEDEP}]
 	dev-python/multidict[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
@@ -48,7 +48,7 @@ DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	test? ( dev-python/azure-keyvault[${PYTHON_USEDEP}] )
 	test? ( dev-python/azure-keyvault-certificates[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	test? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/async-asgi-testclient[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

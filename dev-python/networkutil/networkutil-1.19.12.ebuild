@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="sniffer"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyftpdlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-17.3.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.7.0[${PYTHON_USEDEP}]
+	~dev-python/pyftpdlib-1.5.4[${PYTHON_USEDEP}]
 	dev-python/scp[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.0.2[${PYTHON_USEDEP}]
+	>=dev-python/netifaces-0.10.5[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.2.1[${PYTHON_USEDEP}]
 	dev-python/better-exceptions[${PYTHON_USEDEP}]
 	dev-python/logging-helper[${PYTHON_USEDEP}]
 	dev-python/conversionutil[${PYTHON_USEDEP}]
@@ -40,9 +40,9 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/uiutil[${PYTHON_USEDEP}]
 	dev-python/timingsutil[${PYTHON_USEDEP}]
 	dev-python/pydnserver[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-0.52.0[${PYTHON_USEDEP}]
 	dev-python/ipaddress[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
 	dev-python/fdutil[${PYTHON_USEDEP}]
 	sniffer? ( dev-python/pcapy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

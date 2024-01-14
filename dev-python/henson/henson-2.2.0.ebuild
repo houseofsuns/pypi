@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="sphinx"
 DEPENDENCIES="dev-python/argh[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/sphinxcontrib-autoprogram[${PYTHON_USEDEP}] )"
+	>=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}]
+	sphinx? ( <dev-python/sphinx-1.7.1[${PYTHON_USEDEP}] )
+	sphinx? ( >=dev-python/sphinxcontrib-autoprogram-0.1.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

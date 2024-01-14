@@ -24,40 +24,40 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="demo dev doc hpf implicit sklearn test tf"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/cffi-1.12.2[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.0[${PYTHON_USEDEP}]
 	dev-python/binpickle[${PYTHON_USEDEP}]
 	dev-python/seedbank[${PYTHON_USEDEP}]
 	dev-python/csr[${PYTHON_USEDEP}]
-	demo? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	demo? ( dev-python/nbval[${PYTHON_USEDEP}] )
-	demo? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	demo? ( >=dev-python/notebook-6.0[${PYTHON_USEDEP}] )
+	demo? ( >=dev-python/nbval-0.9[${PYTHON_USEDEP}] )
+	demo? ( ~dev-python/matplotlib-3.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lenskit-build-helpers[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flit-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docopt[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.12[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipython-7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/docopt-0.6[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tqdm-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinxcontrib-bibtex-2.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	doc? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/nbsphinx-0.8[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/ipython-7.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/notebook-6.0[${PYTHON_USEDEP}] )
 	hpf? ( dev-python/lenskit-hpf[${PYTHON_USEDEP}] )
 	implicit? ( dev-python/lenskit-implicit[${PYTHON_USEDEP}] )
 	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-6.0[${PYTHON_USEDEP}] )
 	tf? ( dev-python/lenskit-tf[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

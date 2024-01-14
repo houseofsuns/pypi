@@ -27,7 +27,7 @@ IUSE="lint"
 DEPENDENCIES="dev-python/blessings[${PYTHON_USEDEP}]
 	dev-python/distroinfo[${PYTHON_USEDEP}]
 	dev-python/munch[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
+	>=dev-python/pbr-0.5.6[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
 	dev-python/pymod2pkg[${PYTHON_USEDEP}]

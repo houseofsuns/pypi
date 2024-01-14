@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp httpx tests"
 DEPENDENCIES="aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	httpx? ( >=dev-python/httpx-0.20.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	tests? ( dev-python/httpx[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

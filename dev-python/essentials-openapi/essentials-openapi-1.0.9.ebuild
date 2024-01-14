@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
 DEPENDENCIES="dev-python/essentials[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	full? ( dev-python/click[${PYTHON_USEDEP}] )
-	full? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	~dev-python/markupsafe-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	full? ( ~dev-python/click-8.1.3[${PYTHON_USEDEP}] )
+	full? ( <dev-python/httpx-1.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	full? ( dev-python/rich[${PYTHON_USEDEP}] )"
+	full? ( ~dev-python/rich-12.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

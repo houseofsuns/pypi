@@ -57,7 +57,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	extras? ( dev-python/fasttext[${PYTHON_USEDEP}] )
 	extras? ( dev-python/langid[${PYTHON_USEDEP}] )
 	extras? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	extras? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/h5py-2.10[${PYTHON_USEDEP}] )
 	extras? ( dev-python/scipy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	~dev-python/Faker-13.2.0[${PYTHON_USEDEP}]
 	dev-python/Scrapy[${PYTHON_USEDEP}]
 	dev-python/scrapy-redis[${PYTHON_USEDEP}]
 	dev-python/Twisted[${PYTHON_USEDEP}]
 	dev-python/gerapy-pyppeteer[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	~dev-python/pytz-2021.3[${PYTHON_USEDEP}]
+	~dev-python/xlrd-2.0.1[${PYTHON_USEDEP}]
 	dev-python/xlutils[${PYTHON_USEDEP}]
-	dev-python/xlwt[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/xlwt-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.6.0[${PYTHON_USEDEP}]
+	~dev-python/pika-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/redis-4.1.4[${PYTHON_USEDEP}]
 	dev-python/PyMuPDF[${PYTHON_USEDEP}]
-	dev-python/pytesseract[${PYTHON_USEDEP}]
+	~dev-python/pytesseract-0.3.10[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/cpca[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

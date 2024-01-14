@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/colorlog[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/colorlog-7.0.0[${PYTHON_USEDEP}]
 	dev-python/importlib[${PYTHON_USEDEP}]
 	dev-python/openshift-cluster-management-python-client[${PYTHON_USEDEP}]
 	dev-python/openshift-python-utilities[${PYTHON_USEDEP}]
 	dev-python/openshift-python-wrapper[${PYTHON_USEDEP}]
 	dev-python/python-benedict[${PYTHON_USEDEP}]
 	dev-python/python-simple-logger[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/redhat-qe-cloud-tools[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/rosa-python-client[${PYTHON_USEDEP}]
 	dev-python/timeout-sampler[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

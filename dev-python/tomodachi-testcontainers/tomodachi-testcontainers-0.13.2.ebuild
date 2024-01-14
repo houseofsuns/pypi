@@ -26,18 +26,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="db mysql postgres sftp wiremock"
 DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	sftp? ( dev-python/asyncssh[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/cryptography-42.0[${PYTHON_USEDEP}] )
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	mysql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-asyncio-0.22.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
-	db? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	db? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
+	postgres? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	dev-python/testcontainers[${PYTHON_USEDEP}]
 	dev-python/types-aiobotocore[${PYTHON_USEDEP}]
 	wiremock? ( dev-python/wiremock[${PYTHON_USEDEP}] )"

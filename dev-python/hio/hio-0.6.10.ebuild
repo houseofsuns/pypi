@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/lmdb[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/cbor2[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lmdb-1.4.1[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.7[${PYTHON_USEDEP}]
+	>=dev-python/cbor2-5.5.1[${PYTHON_USEDEP}]
+	>=dev-python/multidict-6.0.4[${PYTHON_USEDEP}]
 	dev-python/falcon[${PYTHON_USEDEP}]
-	dev-python/ordered-set[${PYTHON_USEDEP}]"
+	>=dev-python/ordered-set-4.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

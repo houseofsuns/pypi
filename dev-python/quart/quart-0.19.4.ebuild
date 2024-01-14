@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs dotenv"
 DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/hypercorn[${PYTHON_USEDEP}]
+	>=dev-python/blinker-1.6[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/flask-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/hypercorn-0.11.2[${PYTHON_USEDEP}]
 	dev-python/itsdangerous[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/markupsafe[${PYTHON_USEDEP}]
 	docs? ( dev-python/pydata_sphinx_theme[${PYTHON_USEDEP}] )
 	dotenv? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	dev-python/werkzeug[${PYTHON_USEDEP}]"
+	>=dev-python/werkzeug-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

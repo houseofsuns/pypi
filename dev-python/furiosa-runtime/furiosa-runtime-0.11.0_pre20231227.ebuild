@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="legacy test"
 DEPENDENCIES="dev-python/furiosa-common[${PYTHON_USEDEP}]
 	dev-python/furiosa-native-runtime[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	~dev-python/cffi-1.14[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	legacy? ( dev-python/package-extras[${PYTHON_USEDEP}] )
 	test? ( dev-python/mnist[${PYTHON_USEDEP}] )

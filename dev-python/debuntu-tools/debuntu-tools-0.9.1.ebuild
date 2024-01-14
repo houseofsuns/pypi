@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/apt-mirror-updater[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+	>=dev-python/coloredlogs-14.0[${PYTHON_USEDEP}]
 	dev-python/deb-pkg-tools[${PYTHON_USEDEP}]
 	dev-python/executor[${PYTHON_USEDEP}]
-	dev-python/humanfriendly[${PYTHON_USEDEP}]
+	>=dev-python/humanfriendly-8.2[${PYTHON_USEDEP}]
 	dev-python/linux-utils[${PYTHON_USEDEP}]
 	dev-python/property-manager[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.14.0[${PYTHON_USEDEP}]
 	dev-python/update-dotdee[${PYTHON_USEDEP}]
-	dev-python/verboselogs[${PYTHON_USEDEP}]"
+	>=dev-python/verboselogs-1.7[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="spelling testutils"
-DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/mccabe[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	spelling? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/platformdirs-2.2.0[${PYTHON_USEDEP}]
+	<dev-python/isort-6.0[${PYTHON_USEDEP}]
+	<dev-python/mccabe-0.8[${PYTHON_USEDEP}]
+	>=dev-python/tomlkit-0.10.1[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.2[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.6[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.7[${PYTHON_USEDEP}]
+	spelling? ( ~dev-python/pyenchant-3.2[${PYTHON_USEDEP}] )
 	testutils? ( dev-python/gitpython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

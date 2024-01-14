@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/unicrypto[${PYTHON_USEDEP}]
-	dev-python/asn1crypto[${PYTHON_USEDEP}]
+	>=dev-python/asn1crypto-1.3.0[${PYTHON_USEDEP}]
 	dev-python/asysocks[${PYTHON_USEDEP}]
 	dev-python/minikerberos[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

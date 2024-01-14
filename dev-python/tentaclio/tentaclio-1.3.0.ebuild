@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="athena databricks gdrive gs postgres s3 snowflake"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/urllib3-1.24.2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>dev-python/importlib-metadata-3.7.0[${PYTHON_USEDEP}]
 	athena? ( dev-python/tentaclio-athena[${PYTHON_USEDEP}] )
 	databricks? ( dev-python/tentaclio-databricks[${PYTHON_USEDEP}] )
 	gdrive? ( dev-python/tentaclio-gdrive[${PYTHON_USEDEP}] )

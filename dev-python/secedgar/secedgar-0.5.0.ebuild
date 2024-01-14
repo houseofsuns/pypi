@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cli"
 DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+	<dev-python/async-timeout-4.0[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	cli? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	cli? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	cli? ( dev-python/async-timeout[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/async-timeout-4.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/urllib3[${PYTHON_USEDEP}] )
 	cli? ( dev-python/requests[${PYTHON_USEDEP}] )
 	cli? ( dev-python/lxml[${PYTHON_USEDEP}] )

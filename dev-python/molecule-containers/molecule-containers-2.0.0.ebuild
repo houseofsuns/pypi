@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docker podman"
 DEPENDENCIES="dev-python/molecule[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/molecule-docker[${PYTHON_USEDEP}]
 	dev-python/molecule-podman[${PYTHON_USEDEP}]
 	docker? ( dev-python/molecule-docker[${PYTHON_USEDEP}] )

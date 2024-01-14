@@ -26,32 +26,32 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev packaging"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/VWS-Python[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/setuptools-scm[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
+	~dev-python/setuptools-scm-7.1.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/Sphinx-Substitution-Extensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/VWS-Python-Mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/VWS-Test-Fixtures[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docker[${PYTHON_USEDEP}] )
-	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/doc8-1.1.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/docker-6.1.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/freezegun-1.2.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/furo-2023.8.19[${PYTHON_USEDEP}] )
 	dev? ( dev-python/homebrew-pypi-poet[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pdm[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.5.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pdm-2.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-check-reqs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.17.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyroma[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-inline-tabs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-inline-tabs-2023.4.21[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-prompt-1.5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-7.2.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinxcontrib-spelling-8.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	dev? ( dev-python/vulture[${PYTHON_USEDEP}] )
 	packaging? ( dev-python/PyInstaller[${PYTHON_USEDEP}] )"

@@ -25,26 +25,26 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.15.9[${PYTHON_USEDEP}]
 	dev-python/MarkupSafe[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]
-	dev-python/pywinrm[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/zipp-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/pywinrm-0.2.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	~dev-python/paramiko-2.7.2[${PYTHON_USEDEP}]
+	~dev-python/pyzmq-19.0.2[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.9.8[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-5.0.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.15.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-4.0.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/psutil-5.7.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
 	test? ( dev-python/statistics[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-testadapter[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-xdist-2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

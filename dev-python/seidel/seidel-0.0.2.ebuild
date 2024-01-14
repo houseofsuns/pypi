@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pybind11[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pybind11-2.5.0[${PYTHON_USEDEP}]
 	dev-python/reprit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

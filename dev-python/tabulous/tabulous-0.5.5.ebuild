@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all pyqt5 pyqt6 scikit-learn testing"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/collections-undo[${PYTHON_USEDEP}]
 	dev-python/magicgui[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.2[${PYTHON_USEDEP}]
 	dev-python/psygnal[${PYTHON_USEDEP}]
 	dev-python/qt-command-palette[${PYTHON_USEDEP}]
 	dev-python/qtconsole[${PYTHON_USEDEP}]
@@ -38,8 +38,8 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	all? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-1.7[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/seaborn-0.11[${PYTHON_USEDEP}] )
 	pyqt5? ( dev-python/pyqt5[${PYTHON_USEDEP}] )
 	pyqt6? ( dev-python/pyqt6[${PYTHON_USEDEP}] )
 	scikit-learn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )

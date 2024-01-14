@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
 	dev-python/pycryptodome[${PYTHON_USEDEP}]
 	dev-python/unicodecsv[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six-i[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-3.0.0[${PYTHON_USEDEP}]
 	dev-python/wand[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

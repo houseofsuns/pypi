@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev docs plotting reproject tests"
 DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev-python/gwcs[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	>dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	all? ( >=dev-python/matplotlib-3.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/mpl-animators[${PYTHON_USEDEP}] )
 	all? ( dev-python/reproject[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mpl-0.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sunpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -45,7 +45,7 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sunpy-sphinx-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/matplotlib-3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mpl-animators[${PYTHON_USEDEP}] )
 	dev? ( dev-python/reproject[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -58,13 +58,13 @@ DEPENDENCIES="dev-python/astropy[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sunpy-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sunpy[${PYTHON_USEDEP}] )
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	plotting? ( >=dev-python/matplotlib-3.2[${PYTHON_USEDEP}] )
 	plotting? ( dev-python/mpl-animators[${PYTHON_USEDEP}] )
 	reproject? ( dev-python/reproject[${PYTHON_USEDEP}] )
 	tests? ( dev-python/dask[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-mpl-0.12[${PYTHON_USEDEP}] )
 	tests? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sunpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

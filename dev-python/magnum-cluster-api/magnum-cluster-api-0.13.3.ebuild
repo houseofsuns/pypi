@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/diskcache[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.4[${PYTHON_USEDEP}]
+	>=dev-python/diskcache-5.6.1[${PYTHON_USEDEP}]
 	dev-python/magnum[${PYTHON_USEDEP}]
-	dev-python/oslo-concurrency[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
-	dev-python/oslo-context[${PYTHON_USEDEP}]
-	dev-python/oslo-log[${PYTHON_USEDEP}]
+	>=dev-python/oslo-concurrency-4.5.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-8.8.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-context-4.1.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-log-4.7.0[${PYTHON_USEDEP}]
 	dev-python/oslo-privsep[${PYTHON_USEDEP}]
 	dev-python/oslo-service[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-2.4.0[${PYTHON_USEDEP}]
 	dev-python/pykube-ng[${PYTHON_USEDEP}]
-	dev-python/pyroute2[${PYTHON_USEDEP}]
+	>=dev-python/pyroute2-0.3.4[${PYTHON_USEDEP}]
 	dev-python/python-manilaclient[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
+	<dev-python/semver-3.0.0[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

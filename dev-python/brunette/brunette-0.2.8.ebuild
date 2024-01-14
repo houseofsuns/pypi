@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
+	~dev-python/black-21.12[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-5.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mccabe[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mccabe-0.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/zest-releaser[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/ipdb-0.13.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-3.15.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

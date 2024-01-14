@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/pytube[${PYTHON_USEDEP}]
 	dev-python/moviepy[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

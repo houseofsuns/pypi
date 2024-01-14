@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
-	testing? ( dev-python/black[${PYTHON_USEDEP}] )"
+DEPENDENCIES="~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	testing? ( >=dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mypy-0.971[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/flake8-5.0.4[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-3.25.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/black-22.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

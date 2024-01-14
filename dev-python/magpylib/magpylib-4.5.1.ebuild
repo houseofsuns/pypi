@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="binder code_style docs test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.3[${PYTHON_USEDEP}]
 	binder? ( dev-python/jupytext[${PYTHON_USEDEP}] )
-	binder? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	binder? ( >=dev-python/jupyterlab-3.2[${PYTHON_USEDEP}] )
 	binder? ( dev-python/jupyterlab-myst[${PYTHON_USEDEP}] )
 	code_style? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-5.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-thebe[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-favicon[${PYTHON_USEDEP}] )
@@ -44,9 +44,9 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( dev-python/numpy-stl[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	docs? ( dev-python/panel[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tox-4.11[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	test? ( >dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyvista[${PYTHON_USEDEP}] )

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="optional"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	optional? ( dev-python/aiodns[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	optional? ( >dev-python/aiodns-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

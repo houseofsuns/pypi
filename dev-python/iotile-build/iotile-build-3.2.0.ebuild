@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/breathe[${PYTHON_USEDEP}]
-	dev-python/crcmod[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/breathe-4.30[${PYTHON_USEDEP}]
+	>=dev-python/crcmod-1.7[${PYTHON_USEDEP}]
 	dev-python/iotile-core[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/pygtrie[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/toposort[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-57.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-4.0[${PYTHON_USEDEP}]
+	>=dev-python/toposort-1.6[${PYTHON_USEDEP}]
+	>=dev-python/pycparser-2.20[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-2.2.0[${PYTHON_USEDEP}]
 	dev-python/scons[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]"
+	>=dev-python/wheel-0.33[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

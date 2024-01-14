@@ -37,7 +37,7 @@ DEPENDENCIES="dev-python/docker[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	podman? ( dev-python/podman[${PYTHON_USEDEP}] )
 	syntax? ( dev-python/black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-5.4[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pdb[${PYTHON_USEDEP}] )
 	tests? ( dev-python/poetry[${PYTHON_USEDEP}] )"

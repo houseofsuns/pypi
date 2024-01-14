@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/attrs-20.0[${PYTHON_USEDEP}]
+	>dev-python/future-0.18[${PYTHON_USEDEP}]
+	>dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
 	dev-python/related-mltoolbox[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

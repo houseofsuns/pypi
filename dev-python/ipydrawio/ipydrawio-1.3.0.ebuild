@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all clean lab test"
-DEPENDENCIES="dev-python/jupyterlab[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jupyterlab-3.0[${PYTHON_USEDEP}]
 	dev-python/ipydrawio-widgets[${PYTHON_USEDEP}]
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	all? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	all? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/jupyterlab-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyterlab-widgets[${PYTHON_USEDEP}] )
 	clean? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	clean? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	lab? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	lab? ( ~dev-python/jupyterlab-3.0[${PYTHON_USEDEP}] )
 	lab? ( dev-python/jupyterlab-widgets[${PYTHON_USEDEP}] )
 	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	test? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/jupyterlab-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/jupyterlab-widgets[${PYTHON_USEDEP}] )
 	test? ( dev-python/jsonpointer[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

@@ -24,34 +24,34 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all"
-DEPENDENCIES="dev-python/typeguard[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/typeguard-5.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/alembic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	all? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/faker[${PYTHON_USEDEP}] )
-	all? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/dynaconf[${PYTHON_USEDEP}] )
-	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
+	all? ( <dev-python/seaborn-0.13.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/lxml-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipyaggrid[${PYTHON_USEDEP}] )
-	all? ( dev-python/html5lib[${PYTHON_USEDEP}] )
-	all? ( dev-python/html2text[${PYTHON_USEDEP}] )
-	all? ( dev-python/markdown2[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	all? ( dev-python/nbformat[${PYTHON_USEDEP}] )
+	all? ( <dev-python/html5lib-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/html2text-2021.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/markdown2-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/ipykernel-7.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/ipywidgets-9.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/nbformat-6.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter-contrib-nbextensions[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
+	all? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/notebook-8.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/ibis-framework[${PYTHON_USEDEP}] )
 	all? ( dev-python/duckdb[${PYTHON_USEDEP}] )
-	dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
+	<dev-python/jupyter-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/jupyterlab-5.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/dateparser[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

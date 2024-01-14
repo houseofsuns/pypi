@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all ingestion plot spark-connect vector-search"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	plot? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	plot? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	plot? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
+	plot? ( >=dev-python/pandas-1.0.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-1.0.5[${PYTHON_USEDEP}] )
+	plot? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	plot? ( >=dev-python/pyarrow-4.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyarrow-4.0.0[${PYTHON_USEDEP}] )
 	vector-search? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	all? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	vector-search? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	vector-search? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
-	ingestion? ( dev-python/requests[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
+	ingestion? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	ingestion? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	all? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
-	ingestion? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	ingestion? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	all? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	spark-connect? ( dev-python/grpcio[${PYTHON_USEDEP}] )
-	all? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	ingestion? ( <dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}] )
+	ingestion? ( <dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}] )
+	spark-connect? ( >=dev-python/grpcio-1.56.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/grpcio-1.56.0[${PYTHON_USEDEP}] )
 	spark-connect? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )
 	all? ( dev-python/grpcio-status[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

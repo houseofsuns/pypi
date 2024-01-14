@@ -32,11 +32,11 @@ DEPENDENCIES="dev-python/colour[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/pydub[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/pycairo[${PYTHON_USEDEP}]
+	<dev-python/rich-7.0[${PYTHON_USEDEP}]
+	<dev-python/pycairo-2.0[${PYTHON_USEDEP}]
 	dev-python/pangocffi[${PYTHON_USEDEP}]
 	dev-python/pangocairocffi[${PYTHON_USEDEP}]
-	dev-python/cairocffi[${PYTHON_USEDEP}]
+	<dev-python/cairocffi-2.0.0[${PYTHON_USEDEP}]
 	js_renderer? ( dev-python/grpcio[${PYTHON_USEDEP}] )
 	js_renderer? ( dev-python/grpcio-tools[${PYTHON_USEDEP}] )
 	js_renderer? ( dev-python/watchdog[${PYTHON_USEDEP}] )"

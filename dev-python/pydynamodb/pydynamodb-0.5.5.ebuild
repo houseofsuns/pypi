@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="sqlalchemy"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/boto3-1.21.0[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.24.7[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-4.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-3.0.0[${PYTHON_USEDEP}]
+	sqlalchemy? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

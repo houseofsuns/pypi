@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all doc jupyter pygments rich server"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<dev-python/click-log-0.5[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0[${PYTHON_USEDEP}]
+	<dev-python/graphviz-0.21[${PYTHON_USEDEP}]
 	dev-python/ragraph[${PYTHON_USEDEP}]
 	dev-python/sly[${PYTHON_USEDEP}]
-	jupyter? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/ipykernel-7.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/ipykernel-7.0[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	all? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter_client[${PYTHON_USEDEP}] )
 	rich? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	all? ( dev-python/kaleido[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	all? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/notebook-7.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/notebook-7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pandoc_fignos[${PYTHON_USEDEP}] )
 	all? ( dev-python/pandoc_fignos[${PYTHON_USEDEP}] )
-	rich? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pluggy[${PYTHON_USEDEP}] )
+	rich? ( <dev-python/plotly-6.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/plotly-6.0[${PYTHON_USEDEP}] )
+	doc? ( <dev-python/pluggy-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pluggy-2.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/pygls[${PYTHON_USEDEP}] )
 	all? ( dev-python/pygls[${PYTHON_USEDEP}] )
 	pygments? ( dev-python/pygments[${PYTHON_USEDEP}] )

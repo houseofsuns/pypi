@@ -25,21 +25,21 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0[${PYTHON_USEDEP}]
 	dev-python/undetected-chromedriver[${PYTHON_USEDEP}]
 	dev-python/markdownify[${PYTHON_USEDEP}]
 	dev-python/chromedriver-autoinstaller[${PYTHON_USEDEP}]
 	dev-python/PyVirtualDisplay[${PYTHON_USEDEP}]
 	dev-python/ascii-magic[${PYTHON_USEDEP}]
-	dev-python/cloudscraper[${PYTHON_USEDEP}]
+	<dev-python/cloudscraper-2.0.0[${PYTHON_USEDEP}]
 	dev-python/click-shell[${PYTHON_USEDEP}]
-	dev-python/ratelimit[${PYTHON_USEDEP}]
+	<dev-python/ratelimit-3.0.0[${PYTHON_USEDEP}]
 	dev-python/fastapi-queue[${PYTHON_USEDEP}]
 	dev-python/aioredis[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/gtts[${PYTHON_USEDEP}]
 	dev-python/slowapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	<dev-python/uvicorn-0.21.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

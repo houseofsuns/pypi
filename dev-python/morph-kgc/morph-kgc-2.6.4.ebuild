@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all excel mssql mysql oracle postgresql spss tabular test"
 DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
-	dev-python/elementpath[${PYTHON_USEDEP}]
+	<dev-python/elementpath-5.0.0[${PYTHON_USEDEP}]
 	dev-python/falcon[${PYTHON_USEDEP}]
 	dev-python/jsonpath-python[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/pyoxigraph[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/rdflib-8.0.0[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
 	dev-python/sql-metadata[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	<dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/morph-kgc[${PYTHON_USEDEP}] )
 	all? ( dev-python/morph-kgc[${PYTHON_USEDEP}] )
 	all? ( dev-python/morph-kgc[${PYTHON_USEDEP}] )
@@ -41,18 +41,18 @@ DEPENDENCIES="dev-python/duckdb[${PYTHON_USEDEP}]
 	all? ( dev-python/morph-kgc[${PYTHON_USEDEP}] )
 	all? ( dev-python/morph-kgc[${PYTHON_USEDEP}] )
 	all? ( dev-python/morph-kgc[${PYTHON_USEDEP}] )
-	excel? ( dev-python/odfpy[${PYTHON_USEDEP}] )
-	excel? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	excel? ( <dev-python/odfpy-2.0.0[${PYTHON_USEDEP}] )
+	excel? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/pymssql[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/cryptography-42.0.0[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/cx-oracle[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/psycopg[${PYTHON_USEDEP}] )
+	postgresql? ( <dev-python/psycopg-4.0.0[${PYTHON_USEDEP}] )
 	spss? ( dev-python/pyreadstat[${PYTHON_USEDEP}] )
-	tabular? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	test? ( dev-python/odfpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tabular? ( <dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/odfpy-2.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

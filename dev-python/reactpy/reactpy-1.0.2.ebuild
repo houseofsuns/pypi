@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all fastapi flask sanic starlette testing tornado"
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/fastjsonschema[${PYTHON_USEDEP}]
-	dev-python/jsonpatch[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/mypy_extensions[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/anyio-3.0[${PYTHON_USEDEP}]
+	>=dev-python/asgiref-3.0[${PYTHON_USEDEP}]
+	>=dev-python/colorlog-6.0[${PYTHON_USEDEP}]
+	>=dev-python/fastjsonschema-2.14.5[${PYTHON_USEDEP}]
+	>=dev-python/jsonpatch-1.32[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.0[${PYTHON_USEDEP}]
+	>=dev-python/mypy_extensions-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}]
 	all? ( dev-python/reactpy[${PYTHON_USEDEP}] )
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	fastapi? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	fastapi? ( >=dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
 	flask? ( dev-python/flask-sock[${PYTHON_USEDEP}] )
-	flask? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
+	flask? ( <dev-python/markupsafe-2.1[${PYTHON_USEDEP}] )
 	sanic? ( dev-python/sanic-cors[${PYTHON_USEDEP}] )
 	sanic? ( dev-python/sanic[${PYTHON_USEDEP}] )
-	sanic? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	starlette? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	starlette? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	sanic? ( >=dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}] )
+	starlette? ( >=dev-python/starlette-0.13.6[${PYTHON_USEDEP}] )
+	starlette? ( >=dev-python/uvicorn-0.19.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	tornado? ( dev-python/tornado[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

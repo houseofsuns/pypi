@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fastapi fastapi-crudrouter"
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/anyio-4.0.0[${PYTHON_USEDEP}]
 	fastapi? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	fastapi-crudrouter? ( dev-python/fastapi-crudrouter[${PYTHON_USEDEP}] )
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]"
+	<dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

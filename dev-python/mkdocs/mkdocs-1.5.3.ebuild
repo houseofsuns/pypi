@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="i18n min-versions"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/ghp-import[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0[${PYTHON_USEDEP}]
+	>=dev-python/ghp-import-1.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
-	dev-python/mergedeep[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
+	>=dev-python/markdown-3.2.1[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}]
+	>=dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.5[${PYTHON_USEDEP}]
+	>=dev-python/pathspec-0.11.1[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-2.2.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml-env-tag[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/watchdog-2.0[${PYTHON_USEDEP}]
 	i18n? ( dev-python/babel[${PYTHON_USEDEP}] )
 	min-versions? ( dev-python/babel[${PYTHON_USEDEP}] )
-	min-versions? ( dev-python/click[${PYTHON_USEDEP}] )
-	min-versions? ( dev-python/ghp-import[${PYTHON_USEDEP}] )
+	min-versions? ( ~dev-python/click-7.0[${PYTHON_USEDEP}] )
+	min-versions? ( ~dev-python/ghp-import-1.0[${PYTHON_USEDEP}] )
 	min-versions? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	min-versions? ( dev-python/markdown[${PYTHON_USEDEP}] )
-	min-versions? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
-	min-versions? ( dev-python/mergedeep[${PYTHON_USEDEP}] )
-	min-versions? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	min-versions? ( dev-python/pathspec[${PYTHON_USEDEP}] )
-	min-versions? ( dev-python/platformdirs[${PYTHON_USEDEP}] )
+	min-versions? ( ~dev-python/markdown-3.2.1[${PYTHON_USEDEP}] )
+	min-versions? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
+	min-versions? ( ~dev-python/mergedeep-1.3.4[${PYTHON_USEDEP}] )
+	min-versions? ( ~dev-python/packaging-20.5[${PYTHON_USEDEP}] )
+	min-versions? ( ~dev-python/pathspec-0.11.1[${PYTHON_USEDEP}] )
+	min-versions? ( ~dev-python/platformdirs-2.2.0[${PYTHON_USEDEP}] )
 	min-versions? ( dev-python/pyyaml-env-tag[${PYTHON_USEDEP}] )
-	min-versions? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	min-versions? ( dev-python/watchdog[${PYTHON_USEDEP}] )"
+	min-versions? ( ~dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
+	min-versions? ( ~dev-python/watchdog-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

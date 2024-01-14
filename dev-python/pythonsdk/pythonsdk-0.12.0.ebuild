@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws cli dev lock-aws-dynamodb lock-s3 metrics-aws-cloudwatch testing"
-DEPENDENCIES="dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/freezegun[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( >=dev-python/build-0.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-4.0.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/hypothesis-6.54.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.1.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.19.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/freezegun-1.2.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	cli? ( dev-python/black[${PYTHON_USEDEP}] )
-	cli? ( dev-python/isort[${PYTHON_USEDEP}] )
-	testing? ( dev-python/black[${PYTHON_USEDEP}] )
-	testing? ( dev-python/isort[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	lock-aws-dynamodb? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	lock-s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	metrics-aws-cloudwatch? ( dev-python/boto3[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/uvloop-0.17.0[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mypy-0.982[${PYTHON_USEDEP}] )
+	aws? ( >=dev-python/boto3-1.24[${PYTHON_USEDEP}] )
+	lock-aws-dynamodb? ( >=dev-python/boto3-1.24[${PYTHON_USEDEP}] )
+	lock-s3? ( >=dev-python/boto3-1.24[${PYTHON_USEDEP}] )
+	metrics-aws-cloudwatch? ( >=dev-python/boto3-1.24[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,19 +27,19 @@ IUSE="benchmark dev legacy socks"
 DEPENDENCIES="dev-python/PySide6[${PYTHON_USEDEP}]
 	dev-python/gpg-lite[${PYTHON_USEDEP}]
 	dev-python/libbiomedit[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.12.0[${PYTHON_USEDEP}]
 	dev-python/sett-rs[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
 	dev-python/darkdetect[${PYTHON_USEDEP}]
 	benchmark? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	benchmark? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.17.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-factoryboy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/bandit-1.7.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pkg-resources[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-paramiko[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )

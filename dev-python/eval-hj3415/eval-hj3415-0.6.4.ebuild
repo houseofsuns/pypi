@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/util-hj3415[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.22.1[${PYTHON_USEDEP}]
 	dev-python/krx-hj3415[${PYTHON_USEDEP}]
 	dev-python/db-hj3415[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

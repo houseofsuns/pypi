@@ -33,12 +33,12 @@ DEPENDENCIES="dev-python/requests-doh[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-5.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	optional? ( dev-python/py7zr[${PYTHON_USEDEP}] )
-	optional? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	optional? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	optional? ( ~dev-python/orjson-3.8.9[${PYTHON_USEDEP}] )
+	optional? ( ~dev-python/lxml-4.9.2[${PYTHON_USEDEP}] )
 	optional? ( dev-python/Authlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

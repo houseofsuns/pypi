@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/Adafruit-Blinka[${PYTHON_USEDEP}]
 	dev-python/adafruit-circuitpython-busdevice[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]
 	dev-python/adafruit-circuitpython-typing[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	optional? ( dev-python/adafruit-circuitpython-sd[${PYTHON_USEDEP}] )
 	optional? ( dev-python/covdefaults[${PYTHON_USEDEP}] )
 	optional? ( dev-python/coverage[${PYTHON_USEDEP}] )

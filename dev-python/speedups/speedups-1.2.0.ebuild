@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="postgres tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	postgres? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	tests? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
+	postgres? ( >=dev-python/psycopg-3.0.8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/psycopg-3.0.8[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-postgresql[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

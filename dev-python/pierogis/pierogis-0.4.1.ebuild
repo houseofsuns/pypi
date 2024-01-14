@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/imageio-ffmpeg[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
+	>=dev-python/numpy-1.20.1[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.9.0[${PYTHON_USEDEP}]
+	>=dev-python/imageio-ffmpeg-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/natsort-7.1.1[${PYTHON_USEDEP}]
+	~dev-python/rich-10.1.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/setuptools-scm-6.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/setuptools-rust[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"

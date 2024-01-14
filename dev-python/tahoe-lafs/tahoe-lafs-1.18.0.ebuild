@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build i2p test tor"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-28.8.0[${PYTHON_USEDEP}]
 	dev-python/zfec[${PYTHON_USEDEP}]
-	dev-python/zope-interface[${PYTHON_USEDEP}]
+	>=dev-python/zope-interface-3.6.0[${PYTHON_USEDEP}]
 	dev-python/foolscap[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.6[${PYTHON_USEDEP}]
 	dev-python/Twisted[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/magic-wormhole[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/magic-wormhole-0.10.2[${PYTHON_USEDEP}]
 	dev-python/eliot[${PYTHON_USEDEP}]
 	dev-python/pyrsistent[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/autobahn[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	>=dev-python/attrs-18.2.0[${PYTHON_USEDEP}]
+	<dev-python/autobahn-22.4.1[${PYTHON_USEDEP}]
+	>=dev-python/future-0.18.2[${PYTHON_USEDEP}]
 	dev-python/netifaces[${PYTHON_USEDEP}]
 	dev-python/pyutil[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
+	>=dev-python/distro-1.4.0[${PYTHON_USEDEP}]
 	dev-python/collections-extended[${PYTHON_USEDEP}]
 	dev-python/klein[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	>dev-python/werkzeug-2.2.0[${PYTHON_USEDEP}]
 	dev-python/treq[${PYTHON_USEDEP}]
 	dev-python/cbor2[${PYTHON_USEDEP}]
 	dev-python/pycddl[${PYTHON_USEDEP}]
@@ -53,13 +53,13 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	build? ( dev-python/gpg[${PYTHON_USEDEP}] )
 	i2p? ( dev-python/txi2p-tahoe[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pyflakes-2.2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-twisted[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-3.6.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/towncrier[${PYTHON_USEDEP}] )
 	test? ( dev-python/testtools[${PYTHON_USEDEP}] )
 	test? ( dev-python/fixtures[${PYTHON_USEDEP}] )
@@ -67,11 +67,11 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	test? ( dev-python/html5lib[${PYTHON_USEDEP}] )
 	test? ( dev-python/junitxml[${PYTHON_USEDEP}] )
 	test? ( dev-python/tenacity[${PYTHON_USEDEP}] )
-	test? ( dev-python/paramiko[${PYTHON_USEDEP}] )
+	test? ( <dev-python/paramiko-2.9[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	test? ( dev-python/txtorcon[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/prometheus-client-0.11.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/txtorcon-0.17.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/txi2p-tahoe[${PYTHON_USEDEP}] )
-	tor? ( dev-python/txtorcon[${PYTHON_USEDEP}] )"
+	tor? ( >=dev-python/txtorcon-0.17.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

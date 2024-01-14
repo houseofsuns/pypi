@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="completion docs testing"
 DEPENDENCIES="dev-python/jaraco-classes[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	>=dev-python/importlib-metadata-4.11.4[${PYTHON_USEDEP}]
 	dev-python/SecretStorage[${PYTHON_USEDEP}]
-	dev-python/jeepney[${PYTHON_USEDEP}]
+	>=dev-python/jeepney-0.4.2[${PYTHON_USEDEP}]
 	completion? ( dev-python/shtab[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.2.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-packaging[${PYTHON_USEDEP}] )
-	docs? ( dev-python/rst-linker[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/rst-linker-1.9[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-lint[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jaraco-tidelift[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-checkdocs[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-enabler[${PYTHON_USEDEP}] )

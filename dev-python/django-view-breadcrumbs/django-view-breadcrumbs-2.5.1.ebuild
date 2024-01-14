@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	development? ( dev-python/tox-gh-actions[${PYTHON_USEDEP}] )
 	development? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	development? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	development? ( dev-python/pluggy[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/pluggy-0.7[${PYTHON_USEDEP}] )
 	development? ( dev-python/mock[${PYTHON_USEDEP}] )
 	development? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
 	development? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
@@ -47,7 +47,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	test? ( dev-python/tox-gh-actions[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pluggy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pluggy-0.7[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

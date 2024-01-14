@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/backtrader[${PYTHON_USEDEP}]
 	dev-python/alpaca-trade-api[${PYTHON_USEDEP}]
 	dev-python/exchange-calendars[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]"
+	~dev-python/matplotlib-2.2.5[${PYTHON_USEDEP}]
+	~dev-python/msgpack-1.0.2[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

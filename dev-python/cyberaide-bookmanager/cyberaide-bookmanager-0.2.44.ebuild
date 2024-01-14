@@ -31,7 +31,7 @@ DEPENDENCIES="dev-python/oyaml[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/munch[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
+	~dev-python/markdown-3.0[${PYTHON_USEDEP}]
 	dev-python/cloudmesh-common[${PYTHON_USEDEP}]
 	dev-python/cloudmesh-git[${PYTHON_USEDEP}]
 	dev-python/ebooklib[${PYTHON_USEDEP}]"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp httpx requests"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	requests? ( dev-python/requests[${PYTHON_USEDEP}] )
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	httpx? ( dev-python/httpx[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]
+	requests? ( >=dev-python/requests-2.18.4[${PYTHON_USEDEP}] )
+	aiohttp? ( >=dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )
+	httpx? ( >=dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

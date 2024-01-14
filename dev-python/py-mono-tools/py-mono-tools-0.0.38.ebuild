@@ -24,35 +24,35 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all python python-linters python-testers"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	python-linters? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	python? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	all? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	python-linters? ( dev-python/black[${PYTHON_USEDEP}] )
-	python? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	python-linters? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	python? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	python-linters? ( dev-python/isort[${PYTHON_USEDEP}] )
-	python? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	python-linters? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	python? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
+	python-linters? ( <dev-python/bandit-2.0[${PYTHON_USEDEP}] )
+	python? ( <dev-python/bandit-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/bandit-2.0[${PYTHON_USEDEP}] )
+	python-linters? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
+	python? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/black-23.0[${PYTHON_USEDEP}] )
+	python-linters? ( <dev-python/flake8-6.0[${PYTHON_USEDEP}] )
+	python? ( <dev-python/flake8-6.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/flake8-6.0[${PYTHON_USEDEP}] )
+	python-linters? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
+	python? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
+	python-linters? ( <dev-python/mypy-1.0[${PYTHON_USEDEP}] )
+	python? ( <dev-python/mypy-1.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/mypy-1.0[${PYTHON_USEDEP}] )
 	python-linters? ( dev-python/pydocstringformatter[${PYTHON_USEDEP}] )
 	python? ( dev-python/pydocstringformatter[${PYTHON_USEDEP}] )
 	all? ( dev-python/pydocstringformatter[${PYTHON_USEDEP}] )
-	dev-python/pydocstyle[${PYTHON_USEDEP}]
-	python-linters? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	python? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	<dev-python/pydocstyle-7.0[${PYTHON_USEDEP}]
+	python-linters? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
+	python? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )
 	python-linters? ( dev-python/pip-audit[${PYTHON_USEDEP}] )
 	python? ( dev-python/pip-audit[${PYTHON_USEDEP}] )
 	all? ( dev-python/pip-audit[${PYTHON_USEDEP}] )
-	python-testers? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	python? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	python-testers? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	python? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

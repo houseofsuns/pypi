@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="postgresql_async postgresql_psycopg2 postgresql_psycopg3 sqlalchemy sqlite_async"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sqlparse-0.4.1[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
 	postgresql_async? ( dev-python/databases[${PYTHON_USEDEP}] )
 	postgresql_psycopg2? ( dev-python/psycopg2[${PYTHON_USEDEP}] )

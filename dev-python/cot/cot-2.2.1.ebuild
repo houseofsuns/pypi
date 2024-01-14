@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tab-completion"
 DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
+	>=dev-python/colorlog-2.5.0[${PYTHON_USEDEP}]
 	dev-python/pyvmomi[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/verboselogs[${PYTHON_USEDEP}]
-	tab-completion? ( dev-python/argcomplete[${PYTHON_USEDEP}] )"
+	>=dev-python/requests-2.5.1[${PYTHON_USEDEP}]
+	>=dev-python/verboselogs-1.6[${PYTHON_USEDEP}]
+	tab-completion? ( >=dev-python/argcomplete-1.3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

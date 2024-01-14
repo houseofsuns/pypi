@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/cbor2[${PYTHON_USEDEP}]
+	~dev-python/cbor2-4.1.2[${PYTHON_USEDEP}]
 	dev-python/fluent-logger[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	~dev-python/paho-mqtt-1.5.0[${PYTHON_USEDEP}]
+	~dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
+	~dev-python/pycryptodome-3.9.4[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-0.48.0[${PYTHON_USEDEP}]
 	dev-python/wirepas-messaging[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

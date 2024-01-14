@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/python-hookman[${PYTHON_USEDEP}]
 	dev-python/boltons[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/barril[${PYTHON_USEDEP}]
-	dev-python/pluggy[${PYTHON_USEDEP}]
+	>=dev-python/pluggy-0.13.0[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

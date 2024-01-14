@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.9.0[${PYTHON_USEDEP}]
 	dev-python/siren-pytorch[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torch-optimizer[${PYTHON_USEDEP}]

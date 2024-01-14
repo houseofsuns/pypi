@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ci dev systemd test"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.24.0[${PYTHON_USEDEP}]
+	~dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}]
 	dev-python/boxsdk[${PYTHON_USEDEP}]
-	dev-python/pyinotify[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
+	~dev-python/pyinotify-0.9.6[${PYTHON_USEDEP}]
+	~dev-python/redis-3.3.0[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.22.0[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-16.0.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/certbot[${PYTHON_USEDEP}]
 	dev-python/Send2Trash[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
 	ci? ( dev-python/python-digitalocean[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )

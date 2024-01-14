@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/HABApp[${PYTHON_USEDEP}]
 	dev-python/multi-notifier[${PYTHON_USEDEP}]
-	dev-python/transitions[${PYTHON_USEDEP}]
+	~dev-python/transitions-0.9[${PYTHON_USEDEP}]
 	dev-python/holidays[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

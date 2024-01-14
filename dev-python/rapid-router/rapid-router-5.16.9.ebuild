@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-3.2.23[${PYTHON_USEDEP}]
 	dev-python/django-csp[${PYTHON_USEDEP}]
 	dev-python/django-js-reverse[${PYTHON_USEDEP}]
 	dev-python/django-pipeline[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/pyhamcrest[${PYTHON_USEDEP}]
-	dev-python/libsass[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.13.1[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-8.7.0[${PYTHON_USEDEP}]
+	~dev-python/pyhamcrest-2.0.2[${PYTHON_USEDEP}]
+	~dev-python/libsass-0.22.0[${PYTHON_USEDEP}]
 	dev-python/cfl-common[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

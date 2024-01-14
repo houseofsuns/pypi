@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/deepmerge[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/deepmerge-0.1.0[${PYTHON_USEDEP}]
 	dev-python/dpath[${PYTHON_USEDEP}]
 	dev-python/json-api-doc[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

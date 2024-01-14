@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing yaml"
-DEPENDENCIES="testing? ( dev-python/astroid[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )
+DEPENDENCIES="testing? ( >=dev-python/astroid-2.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pylint-2.3.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/PyYAML[${PYTHON_USEDEP}] )"

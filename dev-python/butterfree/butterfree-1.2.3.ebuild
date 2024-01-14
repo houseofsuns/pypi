@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="h3"
 DEPENDENCIES="dev-python/cassandra-driver[${PYTHON_USEDEP}]
 	dev-python/mdutils[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/parameters-validation[${PYTHON_USEDEP}]
 	dev-python/pyspark[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.17[${PYTHON_USEDEP}]
 	h3? ( dev-python/h3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

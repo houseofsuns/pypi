@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="addons"
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	addons? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	addons? ( <dev-python/scipy-2.0[${PYTHON_USEDEP}] )
 	dev-python/bidict[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

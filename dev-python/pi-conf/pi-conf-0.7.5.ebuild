@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="yaml"
-DEPENDENCIES="dev-python/platformdirs[${PYTHON_USEDEP}]
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/platformdirs-3.0.0[${PYTHON_USEDEP}]
+	yaml? ( >=dev-python/pyyaml-5.0.0[${PYTHON_USEDEP}] )
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	~dev-python/pytz-2018.4[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.14.3[${PYTHON_USEDEP}]
+	~dev-python/pandas-0.23.0[${PYTHON_USEDEP}]
+	~dev-python/statsmodels-0.9.0[${PYTHON_USEDEP}]
 	dev-python/schematics[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

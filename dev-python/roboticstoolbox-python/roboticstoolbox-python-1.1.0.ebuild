@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="collision dev docs"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17.4[${PYTHON_USEDEP}]
 	dev-python/spatialmath-python[${PYTHON_USEDEP}]
 	dev-python/spatialgeometry[${PYTHON_USEDEP}]
 	dev-python/pgraph-python[${PYTHON_USEDEP}]

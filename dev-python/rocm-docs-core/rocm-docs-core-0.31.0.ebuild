@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="api_reference development"
-DEPENDENCIES="dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/breathe[${PYTHON_USEDEP}]
-	dev-python/myst-parser[${PYTHON_USEDEP}]
-	dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/GitPython-3.1.30[${PYTHON_USEDEP}]
+	>=dev-python/PyGithub-1.58.1[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}]
+	>=dev-python/breathe-4.34.0[${PYTHON_USEDEP}]
+	>=dev-python/myst-parser-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pydata-sphinx-theme-0.13.3[${PYTHON_USEDEP}]
 	dev-python/sphinx-book-theme[${PYTHON_USEDEP}]
-	dev-python/sphinx-copybutton[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-copybutton-0.5.1[${PYTHON_USEDEP}]
 	dev-python/sphinx-design[${PYTHON_USEDEP}]
 	dev-python/sphinx-external-toc[${PYTHON_USEDEP}]
-	dev-python/sphinx-notfound-page[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/fastjsonschema[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-notfound-page-0.8.3[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/fastjsonschema-2.16[${PYTHON_USEDEP}]
 	api_reference? ( dev-python/doxysphinx[${PYTHON_USEDEP}] )
-	development? ( dev-python/black[${PYTHON_USEDEP}] )
-	development? ( dev-python/build[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/black-22.1[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/commitizen[${PYTHON_USEDEP}] )
-	development? ( dev-python/isort[${PYTHON_USEDEP}] )
-	development? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )
 	development? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	development? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	development? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	development? ( >=dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
 	development? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	development? ( dev-python/sphinxcontrib-doxylink[${PYTHON_USEDEP}] )"
+	development? ( >=dev-python/sphinxcontrib-doxylink-1.12.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

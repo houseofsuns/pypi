@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/victoria[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
 	dev-python/aiorun[${PYTHON_USEDEP}]
 	dev-python/cchardet[${PYTHON_USEDEP}]
 	dev-python/aiodns[${PYTHON_USEDEP}]

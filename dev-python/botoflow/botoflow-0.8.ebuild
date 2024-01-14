@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/botocore-1.1.10[${PYTHON_USEDEP}]
+	>=dev-python/six-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.2[${PYTHON_USEDEP}]
+	>=dev-python/retrying-1.3.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

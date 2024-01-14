@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
+	~dev-python/cattrs-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/tenacity-7.0.0[${PYTHON_USEDEP}]
+	~dev-python/future-0.18.2[${PYTHON_USEDEP}]
+	~dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	dev-python/Cerberus[${PYTHON_USEDEP}]
 	dev-python/rayvision-log[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

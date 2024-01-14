@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/xmltodict[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/xmltodict-0.14.0[${PYTHON_USEDEP}]
 	dev-python/cigam[${PYTHON_USEDEP}]
-	dev-python/pyelftools[${PYTHON_USEDEP}]"
+	<dev-python/pyelftools-0.31[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

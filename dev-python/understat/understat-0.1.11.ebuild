@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/pytest-mock[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]"
+DEPENDENCIES="~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}]
+	~dev-python/pytest-aiohttp-1.0.4[${PYTHON_USEDEP}]
+	~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-mock-3.6.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.2.0[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

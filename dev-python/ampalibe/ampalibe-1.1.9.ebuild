@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+	>dev-python/watchdog-2.2.0[${PYTHON_USEDEP}]
 	dev-python/aiocron[${PYTHON_USEDEP}]
 	dev-python/tinydb[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -25,32 +25,32 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="database eventlet redis test workers zookeeper"
 DEPENDENCIES="dev-python/automaton[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/fasteners[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/fasteners-0.17.3[${PYTHON_USEDEP}]
 	dev-python/futurist[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/oslo-serialization[${PYTHON_USEDEP}]
-	dev-python/oslo-utils[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
-	dev-python/stevedore[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-serialization-2.18.0[${PYTHON_USEDEP}]
+	>=dev-python/oslo-utils-3.33.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pydot-1.2.4[${PYTHON_USEDEP}]
+	>=dev-python/stevedore-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-6.0.0[${PYTHON_USEDEP}]
 	database? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
 	database? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	database? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
-	database? ( dev-python/alembic[${PYTHON_USEDEP}] )
+	database? ( >=dev-python/alembic-0.8.10[${PYTHON_USEDEP}] )
 	database? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	eventlet? ( dev-python/eventlet[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-3.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/oslotest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/oslotest-3.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pydotplus[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )
-	test? ( dev-python/testscenarios[${PYTHON_USEDEP}] )
-	test? ( dev-python/testtools[${PYTHON_USEDEP}] )
-	workers? ( dev-python/kombu[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-2.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testscenarios-0.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/testtools-2.2.0[${PYTHON_USEDEP}] )
+	workers? ( >=dev-python/kombu-4.3.0[${PYTHON_USEDEP}] )
 	zookeeper? ( dev-python/kazoo[${PYTHON_USEDEP}] )
 	zookeeper? ( dev-python/zake[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cbor metrics msgpack orjson reload uv zmq"
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}]
+	<=dev-python/pydantic-3.0[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/pycron[${PYTHON_USEDEP}]
 	dev-python/taskiq_dependencies[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/anyio-3.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	metrics? ( dev-python/prometheus_client[${PYTHON_USEDEP}] )
-	zmq? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
-	uv? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	reload? ( dev-python/watchdog[${PYTHON_USEDEP}] )
+	zmq? ( <dev-python/pyzmq-24.0.0[${PYTHON_USEDEP}] )
+	uv? ( <dev-python/uvloop-1.0[${PYTHON_USEDEP}] )
+	reload? ( <dev-python/watchdog-3.0.0[${PYTHON_USEDEP}] )
 	reload? ( dev-python/gitignore-parser[${PYTHON_USEDEP}] )
 	dev-python/pytz[${PYTHON_USEDEP}]
-	orjson? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	msgpack? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	cbor? ( dev-python/cbor2[${PYTHON_USEDEP}] )"
+	orjson? ( <dev-python/orjson-4.0.0[${PYTHON_USEDEP}] )
+	msgpack? ( <dev-python/msgpack-2.0.0[${PYTHON_USEDEP}] )
+	cbor? ( <dev-python/cbor2-6.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

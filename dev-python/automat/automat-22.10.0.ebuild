@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="visualize"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	visualize? ( dev-python/graphviz[${PYTHON_USEDEP}] )
+	visualize? ( >dev-python/graphviz-0.5.1[${PYTHON_USEDEP}] )
 	visualize? ( dev-python/Twisted[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

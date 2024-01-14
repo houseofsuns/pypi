@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="html oracle postgres proctitle requests"
-DEPENDENCIES="dev-python/cssutils[${PYTHON_USEDEP}]
-	html? ( dev-python/lxml[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/cssutils-2.6.0[${PYTHON_USEDEP}]
+	html? ( >=dev-python/lxml-4.3.4[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/pyscopg[${PYTHON_USEDEP}] )
-	proctitle? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
-	requests? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	proctitle? ( >=dev-python/setproctitle-1.1.8[${PYTHON_USEDEP}] )
+	requests? ( >=dev-python/requests-2.22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

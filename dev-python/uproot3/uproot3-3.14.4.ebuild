@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="compress testing"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.13.1[${PYTHON_USEDEP}]
 	dev-python/awkward0[${PYTHON_USEDEP}]
 	dev-python/uproot3-methods[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
 	compress? ( dev-python/lz4[${PYTHON_USEDEP}] )
 	compress? ( dev-python/zstandard[${PYTHON_USEDEP}] )
 	compress? ( dev-python/xxhash[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-3.9[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pkgconfig[${PYTHON_USEDEP}] )
 	testing? ( dev-python/lz4[${PYTHON_USEDEP}] )
 	testing? ( dev-python/zstandard[${PYTHON_USEDEP}] )

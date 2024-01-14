@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build models"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.22[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/zstandard[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.60.0[${PYTHON_USEDEP}]
+	>=dev-python/zstandard-0.18[${PYTHON_USEDEP}]
 	dev-python/icecream[${PYTHON_USEDEP}]
 	dev-python/nptyping[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.5[${PYTHON_USEDEP}]
 	dev-python/esds-spec[${PYTHON_USEDEP}]
-	build? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
 	build? ( dev-python/flake8-future-import[${PYTHON_USEDEP}] )
-	build? ( dev-python/black[${PYTHON_USEDEP}] )
-	build? ( dev-python/isort[${PYTHON_USEDEP}] )
-	build? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	build? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	build? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	build? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	build? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/isort-5.3.2[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/mypy-0.782[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/sphinx-3.2.1[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/sphinx-autoapi-1.5.1[${PYTHON_USEDEP}] )
 	build? ( dev-python/torchtyping[${PYTHON_USEDEP}] )
 	models? ( dev-python/torch[${PYTHON_USEDEP}] )
 	models? ( dev-python/transformers[${PYTHON_USEDEP}] )

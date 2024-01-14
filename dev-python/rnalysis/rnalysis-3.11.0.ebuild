@@ -24,51 +24,51 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cutadapt fastq hdbscan install-jdk networkx numba picardtools pyvis randomization reports single-set xlmhglite"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.12.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/grid-strategy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	dev-python/UpSetPlot[${PYTHON_USEDEP}]
 	dev-python/matplotlib-venn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.10.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn-extra[${PYTHON_USEDEP}]
 	dev-python/pairwisedist[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/PyQt5[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	>=dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
+	>=dev-python/joblib-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.65[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5[${PYTHON_USEDEP}]
+	>=dev-python/PyQt5-5.15.9[${PYTHON_USEDEP}]
 	dev-python/qdarkstyle[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiodns[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	>=dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
 	dev-python/Brotli[${PYTHON_USEDEP}]
 	dev-python/aiolimiter[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.2.3[${PYTHON_USEDEP}]
 	all? ( dev-python/pyvis[${PYTHON_USEDEP}] )
 	all? ( dev-python/install-jdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/cutadapt[${PYTHON_USEDEP}] )
 	all? ( dev-python/numba[${PYTHON_USEDEP}] )
 	all? ( dev-python/xlmhglite[${PYTHON_USEDEP}] )
 	all? ( dev-python/hdbscan[${PYTHON_USEDEP}] )
-	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/networkx-3.0.0[${PYTHON_USEDEP}] )
 	cutadapt? ( dev-python/cutadapt[${PYTHON_USEDEP}] )
 	fastq? ( dev-python/cutadapt[${PYTHON_USEDEP}] )
 	hdbscan? ( dev-python/hdbscan[${PYTHON_USEDEP}] )
 	install-jdk? ( dev-python/install-jdk[${PYTHON_USEDEP}] )
-	networkx? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	networkx? ( >=dev-python/networkx-3.0.0[${PYTHON_USEDEP}] )
 	numba? ( dev-python/numba[${PYTHON_USEDEP}] )
 	picardtools? ( dev-python/install-jdk[${PYTHON_USEDEP}] )
 	pyvis? ( dev-python/pyvis[${PYTHON_USEDEP}] )
 	randomization? ( dev-python/numba[${PYTHON_USEDEP}] )
 	reports? ( dev-python/pyvis[${PYTHON_USEDEP}] )
-	reports? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	reports? ( >=dev-python/networkx-3.0.0[${PYTHON_USEDEP}] )
 	single-set? ( dev-python/xlmhglite[${PYTHON_USEDEP}] )
 	xlmhglite? ( dev-python/xlmhglite[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

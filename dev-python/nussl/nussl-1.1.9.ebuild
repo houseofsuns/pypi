@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/jams[${PYTHON_USEDEP}]
 	dev-python/sox[${PYTHON_USEDEP}]
 	dev-python/pyloudnorm[${PYTHON_USEDEP}]
 	dev-python/soxbindings[${PYTHON_USEDEP}]
-	extras? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	extras? ( ~dev-python/sphinx-2.4.4[${PYTHON_USEDEP}] )
 	extras? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	extras? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	extras? ( dev-python/m2r2[${PYTHON_USEDEP}] )

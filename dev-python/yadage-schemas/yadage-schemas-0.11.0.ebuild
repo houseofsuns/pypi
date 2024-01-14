@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="develop"
 DEPENDENCIES="dev-python/jsonref[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.9[${PYTHON_USEDEP}]
+	<=dev-python/jsonschema-4.9.1[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/six-1.4.0[${PYTHON_USEDEP}]
 	develop? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-3.2.0[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/python-coveralls[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

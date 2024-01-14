@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/cobra[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-3.0.0[${PYTHON_USEDEP}]
 	dev-python/ncbi-genome-download[${PYTHON_USEDEP}]
 	dev-python/biopython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

@@ -33,10 +33,10 @@ DEPENDENCIES="dev-python/cachetools[${PYTHON_USEDEP}]
 	server? ( dev-python/DIRACWebAppResources[${PYTHON_USEDEP}] )
 	server? ( dev-python/DIRAC[${PYTHON_USEDEP}] )
 	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/mock-1.0.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pylint-1.6.5[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-3.6[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-2.2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

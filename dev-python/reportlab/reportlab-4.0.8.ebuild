@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="accel pycairo renderpm"
-DEPENDENCIES="dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pillow-9.0.0[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
 	accel? ( dev-python/rl-accel[${PYTHON_USEDEP}] )
 	pycairo? ( dev-python/rlPyCairo[${PYTHON_USEDEP}] )
-	pycairo? ( dev-python/freetype-py[${PYTHON_USEDEP}] )
+	pycairo? ( <dev-python/freetype-py-2.4[${PYTHON_USEDEP}] )
 	renderpm? ( dev-python/rl-renderPM[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

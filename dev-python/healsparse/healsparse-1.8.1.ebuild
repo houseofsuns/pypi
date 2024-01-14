@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/hpgeom[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]
 	healpy? ( dev-python/healpy[${PYTHON_USEDEP}] )
-	parquet? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"
+	parquet? ( >=dev-python/pyarrow-5.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

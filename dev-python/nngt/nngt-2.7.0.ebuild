@@ -25,22 +25,22 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full geometry geospatial ig matplotlib nx"
 DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.11[${PYTHON_USEDEP}]
 	dev-python/shapely[${PYTHON_USEDEP}]
-	dev-python/svg-path[${PYTHON_USEDEP}]
+	>=dev-python/svg-path-4.0[${PYTHON_USEDEP}]
 	dev-python/dxfgrabber[${PYTHON_USEDEP}]
-	full? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	full? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/networkx-2.4[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/shapely-2.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/dxfgrabber[${PYTHON_USEDEP}] )
-	full? ( dev-python/svg-path[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/svg-path-4.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	full? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	full? ( dev-python/descartes[${PYTHON_USEDEP}] )
 	full? ( dev-python/cartopy[${PYTHON_USEDEP}] )
 	full? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	geometry? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	geometry? ( dev-python/shapely[${PYTHON_USEDEP}] )
+	geometry? ( >=dev-python/shapely-2.0[${PYTHON_USEDEP}] )
 	geometry? ( dev-python/dxfgrabber[${PYTHON_USEDEP}] )
 	geometry? ( dev-python/svg-path[${PYTHON_USEDEP}] )
 	geospatial? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
@@ -49,6 +49,6 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	geospatial? ( dev-python/cartopy[${PYTHON_USEDEP}] )
 	ig? ( dev-python/igraph[${PYTHON_USEDEP}] )
 	matplotlib? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	nx? ( dev-python/networkx[${PYTHON_USEDEP}] )"
+	nx? ( >=dev-python/networkx-2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/ipython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/ipython-8.0.0[${PYTHON_USEDEP}]
 	dev-python/pexpect[${PYTHON_USEDEP}]
 	dev-python/pickleshare[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

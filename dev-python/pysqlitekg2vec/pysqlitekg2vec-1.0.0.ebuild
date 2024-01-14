@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs tests"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/attrs-23.0[${PYTHON_USEDEP}]
+	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/gensim[${PYTHON_USEDEP}] )
 	tests? ( dev-python/gensim[${PYTHON_USEDEP}] )
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/nest_asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/nest-asyncio-2.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	dev-python/python-louvain[${PYTHON_USEDEP}]
-	docs? ( dev-python/rdflib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/rdflib[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/rdflib-7.0.0[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/rdflib-7.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
+	<dev-python/sortedcontainers-3.0.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	tests? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	tests? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/toml[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

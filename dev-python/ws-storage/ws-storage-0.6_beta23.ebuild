@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-2.3.0[${PYTHON_USEDEP}]
 	dev-python/async-patterns[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.7.5[${PYTHON_USEDEP}]
+	~dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
+	~dev-python/docutils-0.14[${PYTHON_USEDEP}]
+	~dev-python/jmespath-0.9.3[${PYTHON_USEDEP}]
+	~dev-python/multidict-3.3.0[${PYTHON_USEDEP}]
+	~dev-python/packaging-16.8[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-2.2.0[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.6.1[${PYTHON_USEDEP}]
+	~dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]"
+	~dev-python/wrapt-1.10.11[${PYTHON_USEDEP}]
+	~dev-python/yarl-0.13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

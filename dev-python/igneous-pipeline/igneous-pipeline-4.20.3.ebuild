@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-6.7[${PYTHON_USEDEP}]
 	dev-python/cloud-files[${PYTHON_USEDEP}]
 	dev-python/cloud-volume[${PYTHON_USEDEP}]
 	dev-python/crackle-codec[${PYTHON_USEDEP}]
@@ -35,11 +35,11 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/kimimaro[${PYTHON_USEDEP}]
 	dev-python/mapbuffer[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14.2[${PYTHON_USEDEP}]
 	dev-python/pathos[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/pyfqmr[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-3.3.1[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/shard-computer[${PYTHON_USEDEP}]

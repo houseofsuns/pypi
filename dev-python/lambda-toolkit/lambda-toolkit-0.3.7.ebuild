@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.4.4[${PYTHON_USEDEP}]
+	>=dev-python/botocore-1.5.78[${PYTHON_USEDEP}]
+	>=dev-python/click-6.7.0[${PYTHON_USEDEP}]
 	dev-python/tail-toolkit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

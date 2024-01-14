@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/opster[${PYTHON_USEDEP}]
-	dev-python/termcolor[${PYTHON_USEDEP}]
+	~dev-python/termcolor-2.2.0[${PYTHON_USEDEP}]
 	test? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	test? ( dev-python/prysk[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyYAML[${PYTHON_USEDEP}] )

@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/orthauth[${PYTHON_USEDEP}]
 	org? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	rdf? ( dev-python/pyontutils[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/joblib[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/joblib-1.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyontutils[${PYTHON_USEDEP}] )
 	test? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )"

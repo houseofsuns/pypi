@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/ansible[${PYTHON_USEDEP}]
 	dev-python/docker-compose[${PYTHON_USEDEP}]
 	dev-python/molecule[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]"
+	~dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/rich-11.0.0[${PYTHON_USEDEP}]
+	~dev-python/passlib-1.7.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

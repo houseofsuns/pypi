@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pysigma[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
+	<dev-python/certifi-2024.0.0[${PYTHON_USEDEP}]
 	dev-python/pysigma-backend-carbonblack[${PYTHON_USEDEP}]
 	dev-python/pysigma-backend-cortexxdr[${PYTHON_USEDEP}]
 	dev-python/pysigma-backend-elasticsearch[${PYTHON_USEDEP}]

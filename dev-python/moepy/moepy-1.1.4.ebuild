@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cicd research"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3.3[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.59.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.0[${PYTHON_USEDEP}]
 	cicd? ( dev-python/configparser[${PYTHON_USEDEP}] )
 	cicd? ( dev-python/typer[${PYTHON_USEDEP}] )
-	research? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	research? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
+	research? ( >=dev-python/lxml-4.6.2[${PYTHON_USEDEP}] )
+	research? ( >=dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}] )
 	research? ( dev-python/entsoe-py[${PYTHON_USEDEP}] )
-	research? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )"
+	research? ( >=dev-python/python-dotenv-0.15.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

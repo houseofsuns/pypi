@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev extra socks"
-DEPENDENCIES="dev-python/keyring[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/keyring-23.11.0[${PYTHON_USEDEP}]
 	dev-python/Authlib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pdoc3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/ijson-3.1.4[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/mypy-1.6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-3.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pycodestyle-2.11.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pdoc3-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/build-1.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nbconvert-7.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.34.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-pywin32[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/filelock[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/types-setuptools-68.2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/filelock-3.12.4[${PYTHON_USEDEP}] )
 	extra? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	extra? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
 	extra? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	extra? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	socks? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	socks? ( >=dev-python/requests-2.31.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

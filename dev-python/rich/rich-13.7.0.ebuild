@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="jupyter"
-DEPENDENCIES="dev-python/pygments[${PYTHON_USEDEP}]
-	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	dev-python/markdown-it-py[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/pygments-3.0.0[${PYTHON_USEDEP}]
+	jupyter? ( <dev-python/ipywidgets-9.0[${PYTHON_USEDEP}] )
+	>=dev-python/markdown-it-py-2.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

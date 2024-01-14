@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build dev docs tests"
-DEPENDENCIES="dev-python/ipywidgets[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/ipywidgets-9.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	build? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mols2grid[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mistune-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/cairosvg[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flaky[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flaky-3.7.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/imagehash[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/ipython-7.12.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyautogecko[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/selenium[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/selenium-4.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

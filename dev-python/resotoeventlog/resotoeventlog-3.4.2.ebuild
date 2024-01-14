@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/aiohttp-swagger3[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiostream[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
+	~dev-python/aiostream-0.4.5[${PYTHON_USEDEP}]
 	dev-python/resotolib[${PYTHON_USEDEP}]
 	dev-python/jsons[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

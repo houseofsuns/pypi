@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/progress[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pip-20.2.4[${PYTHON_USEDEP}]
+	>=dev-python/progress-1.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lark_cython"
-DEPENDENCIES="dev-python/lark[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/jsonref[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lark-1.1.5[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.18.0[${PYTHON_USEDEP}]
+	~dev-python/jsonref-1.1.0[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	lark_cython? ( dev-python/lark-cython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

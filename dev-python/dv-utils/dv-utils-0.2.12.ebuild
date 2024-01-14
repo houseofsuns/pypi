@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material[${PYTHON_USEDEP}]
-	dev-python/mkdocstrings[${PYTHON_USEDEP}]
-	dev-python/mkdocstrings-python[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
+	<dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/mkdocs-material-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/mkdocstrings-0.20.0[${PYTHON_USEDEP}]
+	<dev-python/mkdocstrings-python-0.8.0[${PYTHON_USEDEP}]
 	dev-python/oauth2client[${PYTHON_USEDEP}]
 	dev-python/python-decouple[${PYTHON_USEDEP}]
 	dev-python/rdflib[${PYTHON_USEDEP}]

@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/cwl-upgrader[${PYTHON_USEDEP}]
 	dev-python/rdflib[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/schema-salad[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.19[${PYTHON_USEDEP}]
 	pretty? ( dev-python/cwlformat[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs"
 DEPENDENCIES="dev-python/sqlalchemy-utils[${PYTHON_USEDEP}]
 	dev? ( dev-python/mysql-connector-python-rf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.7.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-1.4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

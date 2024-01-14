@@ -38,9 +38,9 @@ DEPENDENCIES="dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	dev-python/texttable[${PYTHON_USEDEP}]
 	dev-python/build[${PYTHON_USEDEP}]
 	dev-python/pkginfo[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/build[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.23.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	<dev-python/build-1.0.0[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

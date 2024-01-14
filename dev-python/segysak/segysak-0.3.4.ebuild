@@ -36,26 +36,26 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/h5netcdf[${PYTHON_USEDEP}]
 	dev-python/setuptools-scm[${PYTHON_USEDEP}]
 	dev-python/addict[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-8.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pandoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/nbconvert-5.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/rtds-action[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupytext[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/ipykernel-4.8.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jupyter-client-5.2.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/jupyter-client[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/ipykernel-4.8.0[${PYTHON_USEDEP}] )
+	notebook? ( >=dev-python/jupyter-client-5.2.2[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/pyvista[${PYTHON_USEDEP}] )

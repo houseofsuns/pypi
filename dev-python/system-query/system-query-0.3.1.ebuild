@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all cpu gpu hdd ram swap"
 DEPENDENCIES="dev-python/version-query[${PYTHON_USEDEP}]
 	all? ( dev-python/pint[${PYTHON_USEDEP}] )
-	all? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	all? ( dev-python/py-cpuinfo[${PYTHON_USEDEP}] )
-	all? ( dev-python/pycuda[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyudev[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/psutil-5.6[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/py-cpuinfo-8.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pycuda-2022.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pyudev-0.24.0[${PYTHON_USEDEP}] )
 	cpu? ( dev-python/pint[${PYTHON_USEDEP}] )
-	cpu? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	cpu? ( dev-python/py-cpuinfo[${PYTHON_USEDEP}] )
-	gpu? ( dev-python/pycuda[${PYTHON_USEDEP}] )
-	hdd? ( dev-python/pyudev[${PYTHON_USEDEP}] )
-	ram? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	swap? ( dev-python/psutil[${PYTHON_USEDEP}] )"
+	cpu? ( ~dev-python/psutil-5.6[${PYTHON_USEDEP}] )
+	cpu? ( ~dev-python/py-cpuinfo-8.0[${PYTHON_USEDEP}] )
+	gpu? ( >=dev-python/pycuda-2022.1[${PYTHON_USEDEP}] )
+	hdd? ( ~dev-python/pyudev-0.24.0[${PYTHON_USEDEP}] )
+	ram? ( ~dev-python/psutil-5.6[${PYTHON_USEDEP}] )
+	swap? ( ~dev-python/psutil-5.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

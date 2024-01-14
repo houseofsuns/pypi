@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="lint tests"
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/black-18.6[${PYTHON_USEDEP}]
+	lint? ( >=dev-python/black-18.6[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/isort-5.6.0[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/mypy-0.790[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/pylint-2.6.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-sugar-0.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

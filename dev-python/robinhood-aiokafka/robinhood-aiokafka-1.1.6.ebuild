@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="snappy"
-DEPENDENCIES="dev-python/kafka-python[${PYTHON_USEDEP}]
-	snappy? ( dev-python/python-snappy[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/kafka-python-1.5[${PYTHON_USEDEP}]
+	snappy? ( >=dev-python/python-snappy-0.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

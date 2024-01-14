@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
+	~dev-python/waitress-2.1[${PYTHON_USEDEP}]
 	dev-python/minty[${PYTHON_USEDEP}]
-	dev-python/python-json-logger[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/python-json-logger-2.0[${PYTHON_USEDEP}]
+	~dev-python/jsonpath-ng-1.5[${PYTHON_USEDEP}]
+	~dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]"
+	~dev-python/redis-4.0[${PYTHON_USEDEP}]
+	~dev-python/wrapt-1.12[${PYTHON_USEDEP}]
+	~dev-python/python-jose-3.2[${PYTHON_USEDEP}]
+	~dev-python/orjson-3.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

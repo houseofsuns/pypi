@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/motor[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/depsolve[${PYTHON_USEDEP}]
 	dev-python/pydantic-partial[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

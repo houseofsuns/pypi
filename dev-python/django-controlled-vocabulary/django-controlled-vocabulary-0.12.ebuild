@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="toml_tox"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	toml_tox? ( dev-python/tox[${PYTHON_USEDEP}] )
-	toml_tox? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/django-3.3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
+	toml_tox? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
+	toml_tox? ( <dev-python/coverage-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pygame[${PYTHON_USEDEP}]
-	dev-python/audioread[${PYTHON_USEDEP}]
-	dev-python/mkdocs[${PYTHON_USEDEP}]
-	dev-python/pymdown-extensions[${PYTHON_USEDEP}]
-	dev-python/mkdocs-material[${PYTHON_USEDEP}]
-	dev-python/mkdocstrings[${PYTHON_USEDEP}]"
+DEPENDENCIES="<dev-python/pygame-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/audioread-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pymdown-extensions-10.0[${PYTHON_USEDEP}]
+	<dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}]
+	<dev-python/mkdocstrings-0.21.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

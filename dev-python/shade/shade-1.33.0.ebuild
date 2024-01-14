@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/os-client-config[${PYTHON_USEDEP}]
-	dev-python/openstacksdk[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/os-client-config-1.28.0[${PYTHON_USEDEP}]
+	>=dev-python/openstacksdk-0.15.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

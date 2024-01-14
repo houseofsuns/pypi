@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/sapientml[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/mecab-python3[${PYTHON_USEDEP}]
 	dev-python/fasttext-wheel[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/ipadic[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

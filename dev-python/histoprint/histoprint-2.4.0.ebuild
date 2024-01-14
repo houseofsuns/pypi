@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="boost rich test uproot"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.0.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/uhi[${PYTHON_USEDEP}]
 	boost? ( dev-python/boost-histogram[${PYTHON_USEDEP}] )
-	rich? ( dev-python/rich[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	rich? ( >=dev-python/rich-12.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	uproot? ( dev-python/awkward[${PYTHON_USEDEP}] )
 	uproot? ( dev-python/uproot[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

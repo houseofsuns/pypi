@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/Click[${PYTHON_USEDEP}]
 	dev-python/clint[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]"
+	~dev-python/joblib-0.13.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

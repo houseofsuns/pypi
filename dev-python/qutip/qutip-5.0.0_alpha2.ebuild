@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extras full graphics ipython runtime_compilation semidefinite tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16.6[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	extras? ( dev-python/loky[${PYTHON_USEDEP}] )
 	extras? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	full? ( dev-python/cython[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/matplotlib-1.2.1[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/cython-0.29.20[${PYTHON_USEDEP}] )
 	full? ( dev-python/filelock[${PYTHON_USEDEP}] )
 	full? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
 	full? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
-	full? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
 	full? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	full? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	full? ( dev-python/loky[${PYTHON_USEDEP}] )
 	full? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	graphics? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	graphics? ( >=dev-python/matplotlib-1.2.1[${PYTHON_USEDEP}] )
 	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	runtime_compilation? ( dev-python/cython[${PYTHON_USEDEP}] )
+	runtime_compilation? ( >=dev-python/cython-0.29.20[${PYTHON_USEDEP}] )
 	runtime_compilation? ( dev-python/filelock[${PYTHON_USEDEP}] )
 	semidefinite? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
 	semidefinite? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

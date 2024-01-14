@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pytorch"
-DEPENDENCIES="dev-python/python-box[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/python-box-4.2.3[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-8.3.0[${PYTHON_USEDEP}]
 	pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/pytorch-ignite[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="coreapi validation"
-DEPENDENCIES="dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/uritemplate[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/djangorestframework-3.10.3[${PYTHON_USEDEP}]
+	>=dev-python/django-2.2.16[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+	>=dev-python/inflection-0.3.1[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2021.1[${PYTHON_USEDEP}]
+	>=dev-python/uritemplate-3.0.0[${PYTHON_USEDEP}]
 	coreapi? ( dev-python/coreapi[${PYTHON_USEDEP}] )
 	coreapi? ( dev-python/coreschema[${PYTHON_USEDEP}] )
-	validation? ( dev-python/swagger-spec-validator[${PYTHON_USEDEP}] )"
+	validation? ( >=dev-python/swagger-spec-validator-2.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

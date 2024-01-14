@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="redis"
 DEPENDENCIES="dev-python/limits[${PYTHON_USEDEP}]
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )"
+	redis? ( <dev-python/redis-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

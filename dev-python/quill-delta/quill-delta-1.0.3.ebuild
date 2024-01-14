@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="html"
-DEPENDENCIES="dev-python/diff-match-patch[${PYTHON_USEDEP}]
-	html? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	html? ( dev-python/cssutils[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/diff-match-patch-20181112.0[${PYTHON_USEDEP}]
+	html? ( <dev-python/lxml-5.0[${PYTHON_USEDEP}] )
+	html? ( <dev-python/cssutils-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

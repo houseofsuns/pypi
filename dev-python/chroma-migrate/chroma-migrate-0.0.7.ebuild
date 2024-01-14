@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/clickhouse-connect[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/chromadb[${PYTHON_USEDEP}]
 	dev-python/chroma-bullet[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]"
+	>=dev-python/more-itertools-9.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

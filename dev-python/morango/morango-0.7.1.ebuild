@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-2.0[${PYTHON_USEDEP}]
 	dev-python/django-mptt[${PYTHON_USEDEP}]
-	dev-python/rsa[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	<dev-python/rsa-3.5[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.9.1[${PYTHON_USEDEP}]
 	dev-python/django-ipware[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	~dev-python/future-0.16.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/ifcfg[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

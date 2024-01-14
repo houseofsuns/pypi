@@ -24,41 +24,41 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs quality"
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/loguru-0.5.3[${PYTHON_USEDEP}]
+	~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.49[${PYTHON_USEDEP}]
+	~dev-python/prettytable-2.0.0[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
-	dev? ( dev-python/loguru[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/prettytable[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/loguru-0.5.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-2.25.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tqdm-4.49[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/prettytable-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	dev? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	docs? ( dev-python/loguru[${PYTHON_USEDEP}] )
-	docs? ( dev-python/requests[${PYTHON_USEDEP}] )
-	docs? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	docs? ( dev-python/prettytable[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/loguru-0.5.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/requests-2.25.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/tqdm-4.49[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/prettytable-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	docs? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-3.1.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	quality? ( dev-python/loguru[${PYTHON_USEDEP}] )
-	quality? ( dev-python/requests[${PYTHON_USEDEP}] )
-	quality? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	quality? ( dev-python/prettytable[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/loguru-0.5.3[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/requests-2.25.1[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/tqdm-4.49[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/prettytable-2.0.0[${PYTHON_USEDEP}] )
 	quality? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	quality? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	quality? ( dev-python/black[${PYTHON_USEDEP}] )
 	quality? ( dev-python/isort[${PYTHON_USEDEP}] )
-	quality? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	quality? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

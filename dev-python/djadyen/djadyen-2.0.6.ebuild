@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="coverage docs pep8 release tests"
 DEPENDENCIES="dev-python/Adyen[${PYTHON_USEDEP}]
-	dev-python/django[${PYTHON_USEDEP}]
+	>=dev-python/django-1.10[${PYTHON_USEDEP}]
 	dev-python/django-choices[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/glom[${PYTHON_USEDEP}]

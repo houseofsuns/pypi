@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/bytesparse[${PYTHON_USEDEP}]
 	dev-python/pyhidra[${PYTHON_USEDEP}]
 	dev-python/pefile[${PYTHON_USEDEP}]
 	dev-python/pyelftools[${PYTHON_USEDEP}]
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-3.0.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-datadir[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/optree[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/black[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/black-22.6.0[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/pylint-2.15.0[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/mypy-0.990[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )

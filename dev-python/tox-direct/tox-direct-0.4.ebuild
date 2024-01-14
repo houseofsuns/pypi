@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="publish test"
-DEPENDENCIES="dev-python/tox[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tox-4.0[${PYTHON_USEDEP}]
 	dev-python/py[${PYTHON_USEDEP}]
 	dev-python/pathlib2[${PYTHON_USEDEP}]
 	publish? ( dev-python/twine[${PYTHON_USEDEP}] )

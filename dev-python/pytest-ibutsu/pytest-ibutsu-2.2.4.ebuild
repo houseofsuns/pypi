@@ -27,7 +27,7 @@ IUSE="dev dev-without-xdist"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/cattrs[${PYTHON_USEDEP}]
 	dev-python/ibutsu-client[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-7.1[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev-without-xdist? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )"

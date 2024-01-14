@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/selenium[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.27[${PYTHON_USEDEP}]
+	~dev-python/selenium-4.0[${PYTHON_USEDEP}]
 	dev-python/Appium-Python-Client[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/screeninfo[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]"
+	~dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
+	~dev-python/Faker-18.3[${PYTHON_USEDEP}]
+	~dev-python/phonenumbers-8.13[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

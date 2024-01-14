@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/fastcore[${PYTHON_USEDEP}]
 	dev-python/onnxruntime[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/matplotlib-3.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/plotnine[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

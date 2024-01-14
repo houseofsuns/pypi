@@ -27,20 +27,20 @@ IUSE="dev"
 DEPENDENCIES="dev-python/ansible-core[${PYTHON_USEDEP}]
 	dev-python/ansible-builder[${PYTHON_USEDEP}]
 	dev-python/ansible-lint[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+	<dev-python/attrs-23.0[${PYTHON_USEDEP}]
+	<dev-python/bleach-4.0[${PYTHON_USEDEP}]
 	dev-python/bleach-allowlist[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	<dev-python/flake8-7.0[${PYTHON_USEDEP}]
+	<dev-python/markdown-4.0[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/semantic-version-3.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-21.7[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/GitPython-3.1.20[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pyfakefs-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/towncrier[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

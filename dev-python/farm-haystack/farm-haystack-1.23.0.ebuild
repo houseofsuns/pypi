@@ -36,11 +36,11 @@ DEPENDENCIES="dev-python/boilerpy3[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	dev-python/posthog[${PYTHON_USEDEP}]
 	dev-python/prompthub-py[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/quantulum3[${PYTHON_USEDEP}]
 	dev-python/rank-bm25[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
+	<dev-python/requests-cache-1.0.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/sseclient-py[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]
@@ -50,11 +50,11 @@ DEPENDENCIES="dev-python/boilerpy3[${PYTHON_USEDEP}]
 	all? ( dev-python/farm-haystack[${PYTHON_USEDEP}] )
 	all-gpu? ( dev-python/farm-haystack[${PYTHON_USEDEP}] )
 	audio? ( dev-python/openai-whisper[${PYTHON_USEDEP}] )
-	aws? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	colab? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	crawler? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	aws? ( >=dev-python/boto3-1.28.57[${PYTHON_USEDEP}] )
+	colab? ( <=dev-python/pillow-9.0.0[${PYTHON_USEDEP}] )
+	crawler? ( >=dev-python/selenium-4.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/dulwich[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/dulwich-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/farm-haystack[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
@@ -72,10 +72,10 @@ DEPENDENCIES="dev-python/boilerpy3[${PYTHON_USEDEP}]
 	docstores? ( dev-python/farm-haystack[${PYTHON_USEDEP}] )
 	docstores-gpu? ( dev-python/farm-haystack[${PYTHON_USEDEP}] )
 	elasticsearch? ( dev-python/farm-haystack[${PYTHON_USEDEP}] )
-	elasticsearch7? ( dev-python/elastic-transport[${PYTHON_USEDEP}] )
-	elasticsearch7? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	elasticsearch8? ( dev-python/elastic-transport[${PYTHON_USEDEP}] )
-	elasticsearch8? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
+	elasticsearch7? ( <dev-python/elastic-transport-8.0[${PYTHON_USEDEP}] )
+	elasticsearch7? ( <dev-python/elasticsearch-8.0[${PYTHON_USEDEP}] )
+	elasticsearch8? ( <dev-python/elastic-transport-9.0[${PYTHON_USEDEP}] )
+	elasticsearch8? ( <dev-python/elasticsearch-9.0[${PYTHON_USEDEP}] )
 	faiss? ( dev-python/farm-haystack[${PYTHON_USEDEP}] )
 	faiss-gpu? ( dev-python/farm-haystack[${PYTHON_USEDEP}] )
 	file-conversion? ( dev-python/azure-ai-formrecognizer[${PYTHON_USEDEP}] )
@@ -86,17 +86,17 @@ DEPENDENCIES="dev-python/boilerpy3[${PYTHON_USEDEP}]
 	file-conversion? ( dev-python/python-magic[${PYTHON_USEDEP}] )
 	file-conversion? ( dev-python/python-pptx[${PYTHON_USEDEP}] )
 	file-conversion? ( dev-python/tika[${PYTHON_USEDEP}] )
-	formatting? ( dev-python/black[${PYTHON_USEDEP}] )
+	formatting? ( ~dev-python/black-23.0[${PYTHON_USEDEP}] )
 	inference? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	inference? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
 	inference? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	metrics? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	metrics? ( dev-python/rapidfuzz[${PYTHON_USEDEP}] )
-	metrics? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	metrics? ( <dev-python/rapidfuzz-2.8.0[${PYTHON_USEDEP}] )
+	metrics? ( >=dev-python/scipy-1.3.2[${PYTHON_USEDEP}] )
 	metrics? ( dev-python/seqeval[${PYTHON_USEDEP}] )
-	mongodb? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	mongodb? ( >=dev-python/pymongo-4.6[${PYTHON_USEDEP}] )
 	ocr? ( dev-python/pdf2image[${PYTHON_USEDEP}] )
-	ocr? ( dev-python/pytesseract[${PYTHON_USEDEP}] )
+	ocr? ( >dev-python/pytesseract-0.3.7[${PYTHON_USEDEP}] )
 	only-faiss? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
 	only-faiss-gpu? ( dev-python/faiss-gpu[${PYTHON_USEDEP}] )
 	only-pinecone? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )
@@ -104,7 +104,7 @@ DEPENDENCIES="dev-python/boilerpy3[${PYTHON_USEDEP}]
 	onnx? ( dev-python/onnxruntime-tools[${PYTHON_USEDEP}] )
 	onnx-gpu? ( dev-python/onnxruntime-gpu[${PYTHON_USEDEP}] )
 	onnx-gpu? ( dev-python/onnxruntime-tools[${PYTHON_USEDEP}] )
-	opensearch? ( dev-python/opensearch-py[${PYTHON_USEDEP}] )
+	opensearch? ( >=dev-python/opensearch-py-2.0[${PYTHON_USEDEP}] )
 	pdf? ( dev-python/pymupdf[${PYTHON_USEDEP}] )
 	pinecone? ( dev-python/farm-haystack[${PYTHON_USEDEP}] )
 	preprocessing? ( dev-python/langdetect[${PYTHON_USEDEP}] )
@@ -113,7 +113,7 @@ DEPENDENCIES="dev-python/boilerpy3[${PYTHON_USEDEP}]
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
 	sql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	sql? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	sql? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 	weaviate? ( dev-python/weaviate-client[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

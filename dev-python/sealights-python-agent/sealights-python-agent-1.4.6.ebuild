@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test"
-DEPENDENCIES="dev-python/APScheduler[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/APScheduler-3.9.1[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/tzlocal-4.2[${PYTHON_USEDEP}]
 	dev-python/pytz-deprecation-shim[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
-	dev-python/gitdb[${PYTHON_USEDEP}]
-	dev-python/smmap[${PYTHON_USEDEP}]
+	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
+	~dev-python/gitdb-4.0.9[${PYTHON_USEDEP}]
+	~dev-python/smmap-5.0.0[${PYTHON_USEDEP}]
 	dev-python/unittest-xml-reporting[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/coverage[${PYTHON_USEDEP}]
+	~dev-python/pytz-2022.6[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-41.0.6[${PYTHON_USEDEP}]
+	~dev-python/cffi-1.15.1[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.35[${PYTHON_USEDEP}]
+	~dev-python/coverage-6.4[${PYTHON_USEDEP}]
 	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

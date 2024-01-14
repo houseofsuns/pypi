@@ -25,30 +25,30 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev dev-flake8 dev-formatting dev-mkdocs dev-mypy dev-noxfile dev-pylint dev-pytest"
 DEPENDENCIES="dev-python/frequenz-api-common[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	<dev-python/googleapis-common-protos-2.0[${PYTHON_USEDEP}]
+	<dev-python/grpcio-2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/frequenz-api-microgrid[${PYTHON_USEDEP}] )
-	dev-flake8? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev-flake8? ( ~dev-python/flake8-6.1.0[${PYTHON_USEDEP}] )
 	dev-flake8? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev-flake8? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )
 	dev-flake8? ( dev-python/pydoclint[${PYTHON_USEDEP}] )
-	dev-flake8? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	dev-formatting? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev-formatting? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev-flake8? ( ~dev-python/pydocstyle-6.3.0[${PYTHON_USEDEP}] )
+	dev-formatting? ( ~dev-python/black-23.11.0[${PYTHON_USEDEP}] )
+	dev-formatting? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( dev-python/mike[${PYTHON_USEDEP}] )
-	dev-mkdocs? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
+	dev-mkdocs? ( ~dev-python/mkdocs-gen-files-0.5.0[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	dev-mkdocs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev-mkdocs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	dev-mkdocs? ( ~dev-python/mkdocs-material-9.4.8[${PYTHON_USEDEP}] )
+	dev-mkdocs? ( ~dev-python/mkdocstrings-0.23.0[${PYTHON_USEDEP}] )
 	dev-mkdocs? ( dev-python/frequenz-repo-config[${PYTHON_USEDEP}] )
-	dev-mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	dev-mypy? ( ~dev-python/mypy-1.7.0[${PYTHON_USEDEP}] )
 	dev-mypy? ( dev-python/grpc-stubs[${PYTHON_USEDEP}] )
 	dev-mypy? ( dev-python/frequenz-api-microgrid[${PYTHON_USEDEP}] )
-	dev-noxfile? ( dev-python/nox[${PYTHON_USEDEP}] )
+	dev-noxfile? ( ~dev-python/nox-2023.4.22[${PYTHON_USEDEP}] )
 	dev-noxfile? ( dev-python/frequenz-repo-config[${PYTHON_USEDEP}] )
-	dev-pylint? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev-pylint? ( ~dev-python/pylint-3.0.2[${PYTHON_USEDEP}] )
 	dev-pylint? ( dev-python/frequenz-api-microgrid[${PYTHON_USEDEP}] )
-	dev-pytest? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev-pytest? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	dev-pytest? ( dev-python/frequenz-repo-config[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

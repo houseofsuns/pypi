@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ifaddr[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.20[${PYTHON_USEDEP}]
+	~dev-python/ifaddr-0.1[${PYTHON_USEDEP}]
 	dev-python/neon-utils[${PYTHON_USEDEP}]
 	dev-python/ovos-utils[${PYTHON_USEDEP}]
 	test? ( dev-python/neon-minerva[${PYTHON_USEDEP}] )"

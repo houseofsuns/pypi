@@ -31,19 +31,19 @@ DEPENDENCIES="dev-python/colorama[${PYTHON_USEDEP}]
 	all? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-auth-httplib2[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-repeat[${PYTHON_USEDEP}] )
-	all? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pylint-2.15.5[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/cryptography-38.0.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/readchar[${PYTHON_USEDEP}] )
 	audio? ( dev-python/moviepy[${PYTHON_USEDEP}] )
-	encryption? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	encryption? ( >=dev-python/cryptography-38.0.3[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-auth-httplib2[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-auth-oauthlib[${PYTHON_USEDEP}] )
 	terminal? ( dev-python/readchar[${PYTHON_USEDEP}] )
-	tools? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tools? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
 	tools? ( dev-python/pytest-repeat[${PYTHON_USEDEP}] )
-	tools? ( dev-python/pylint[${PYTHON_USEDEP}] )"
+	tools? ( >=dev-python/pylint-2.15.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all_extras binder dev dl docs unstable_extras"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
+	>=dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/numpy-1.27.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	<dev-python/scipy-2.0.0[${PYTHON_USEDEP}]
 	all_extras? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/filterpy[${PYTHON_USEDEP}] )
@@ -40,16 +40,16 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	all_extras? ( dev-python/gluonts[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/keras-self-attention[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/kotsu[${PYTHON_USEDEP}] )
-	all_extras? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	all_extras? ( >=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/mne[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/pmdarima[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/prophet[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/pyod[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/scikit-posthocs[${PYTHON_USEDEP}] )
-	all_extras? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	all_extras? ( >=dev-python/seaborn-0.11.0[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/statsforecast[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/plotly-resampler[${PYTHON_USEDEP}] )
-	all_extras? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	all_extras? ( >=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/stumpy[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/tbats[${PYTHON_USEDEP}] )
 	all_extras? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dl? ( dev-python/keras-self-attention[${PYTHON_USEDEP}] )
 	dl? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	dl? ( dev-python/tensorflow-probability[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-version-warning[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/sqlalchemy-1.2.15[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.12.1[${PYTHON_USEDEP}]
+	>=dev-python/networkx-1.11[${PYTHON_USEDEP}]
 	dev-python/alembic[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

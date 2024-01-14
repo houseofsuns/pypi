@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/construct[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/construct-2.10.0[${PYTHON_USEDEP}]
 	dev-python/randovania-lupa[${PYTHON_USEDEP}]
 	dev-python/zstd[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

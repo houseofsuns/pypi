@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/glean-sdk[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/configobj[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.7.1[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4.1[${PYTHON_USEDEP}]
+	>=dev-python/configobj-5.0.6[${PYTHON_USEDEP}]
+	>=dev-python/distro-1.8.0[${PYTHON_USEDEP}]
 	dev-python/mozdevice[${PYTHON_USEDEP}]
 	dev-python/mozfile[${PYTHON_USEDEP}]
 	dev-python/mozinfo[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ DEPENDENCIES="dev-python/glean-sdk[${PYTHON_USEDEP}]
 	dev-python/mozrunner[${PYTHON_USEDEP}]
 	dev-python/mozversion[${PYTHON_USEDEP}]
 	dev-python/redo[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/taskcluster[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

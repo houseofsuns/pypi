@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="hf"
 DEPENDENCIES="dev-python/olympipe[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
+	<dev-python/natsort-9.0.0[${PYTHON_USEDEP}]
 	dev-python/opencv-stubs[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	<dev-python/setuptools-69.0.0[${PYTHON_USEDEP}]
 	hf? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
 	hf? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	hf? ( dev-python/torch[${PYTHON_USEDEP}] )
-	hf? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	dev-python/numpy[${PYTHON_USEDEP}]
+	hf? ( <dev-python/pillow-11.0.0[${PYTHON_USEDEP}] )
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	hf? ( dev-python/timm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

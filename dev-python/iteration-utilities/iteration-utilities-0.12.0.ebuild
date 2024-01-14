@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="documentation test"
-DEPENDENCIES="documentation? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="documentation? ( >=dev-python/sphinx-2.2[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

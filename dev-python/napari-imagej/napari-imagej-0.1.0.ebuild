@@ -34,10 +34,10 @@ DEPENDENCIES="dev-python/confuse[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pyimagej[${PYTHON_USEDEP}]
 	dev-python/scyjava[${PYTHON_USEDEP}]
-	dev-python/qtconsole[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>dev-python/qtconsole-5.4.2[${PYTHON_USEDEP}]
+	>dev-python/typing-extensions-4.6.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-23.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-pyproject[${PYTHON_USEDEP}] )

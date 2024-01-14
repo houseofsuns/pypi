@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cpu_logging"
-DEPENDENCIES="dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/websocket-client-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.8.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/wurlitzer[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/semantic-version[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	>=dev-python/wurlitzer-1.0.2[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.11.2[${PYTHON_USEDEP}]
+	>=dev-python/semantic-version-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/sentry-sdk-1.1.0[${PYTHON_USEDEP}]
 	dev-python/everett[${PYTHON_USEDEP}]
-	dev-python/dulwich[${PYTHON_USEDEP}]
-	cpu_logging? ( dev-python/psutil[${PYTHON_USEDEP}] )"
+	>=dev-python/dulwich-0.20.6[${PYTHON_USEDEP}]
+	cpu_logging? ( >=dev-python/psutil-5.6.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

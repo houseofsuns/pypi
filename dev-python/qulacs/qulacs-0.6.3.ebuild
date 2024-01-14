@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	ci? ( dev-python/pybind11-stubgen[${PYTHON_USEDEP}] )
 	ci? ( dev-python/openfermion[${PYTHON_USEDEP}] )
 	ci? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/breathe[${PYTHON_USEDEP}] )
 	doc? ( dev-python/exhale[${PYTHON_USEDEP}] )
@@ -49,6 +49,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )"
+	doc? ( ~dev-python/sphinx-autoapi-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

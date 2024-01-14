@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="develop"
-DEPENDENCIES="dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/loguru-0.8[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.6[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-1.1[${PYTHON_USEDEP}]
+	<dev-python/pytz-2023.4[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
-	develop? ( dev-python/black[${PYTHON_USEDEP}] )
-	develop? ( dev-python/isort[${PYTHON_USEDEP}] )
-	develop? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/black-23.12[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/isort-5.13[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/mypy-1.8[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pylint-3.1[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pytest-7.5[${PYTHON_USEDEP}] )
 	develop? ( dev-python/types-pytz[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

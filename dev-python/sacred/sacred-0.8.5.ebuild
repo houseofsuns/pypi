@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]
-	dev-python/munch[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/docopt-1.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonpickle-2.2.0[${PYTHON_USEDEP}]
+	<dev-python/munch-5.0[${PYTHON_USEDEP}]
+	<dev-python/wrapt-2.0[${PYTHON_USEDEP}]
+	>=dev-python/py-cpuinfo-4.0[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.4[${PYTHON_USEDEP}]
+	>=dev-python/packaging-18.0[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

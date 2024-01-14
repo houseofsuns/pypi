@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs notebooks test"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16.2[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.1.2[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.9.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.31.1[${PYTHON_USEDEP}]
+	>=dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
 	dev-python/hyperopt[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
 	dev-python/scanpy[${PYTHON_USEDEP}]
 	dev-python/scikit-misc[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.0.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.3.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbsphinx-link[${PYTHON_USEDEP}] )
 	docs? ( dev-python/scanpydoc[${PYTHON_USEDEP}] )
@@ -47,19 +47,19 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	notebooks? ( dev-python/louvain[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/leidenalg[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/python-igraph[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/colour[${PYTHON_USEDEP}] )
+	notebooks? ( >=dev-python/colour-0.1.5[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	notebooks? ( >=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/loompy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	test? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipython[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/black-19.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nbconvert-5.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nbformat-4.4.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/ipython-7.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

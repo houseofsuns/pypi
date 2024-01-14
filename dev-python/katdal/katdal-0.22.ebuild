@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ms s3credentials"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.12.0[${PYTHON_USEDEP}]
 	dev-python/katpoint[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.3[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/katsdptelstate[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
+	>=dev-python/dask-2.7.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.0[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-2.0[${PYTHON_USEDEP}]
 	dev-python/cityhash[${PYTHON_USEDEP}]
 	ms? ( dev-python/python-casacore[${PYTHON_USEDEP}] )
 	s3credentials? ( dev-python/botocore[${PYTHON_USEDEP}] )"

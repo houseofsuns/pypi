@@ -24,35 +24,35 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs ecosystem"
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/inflection[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/h5py-3.0[${PYTHON_USEDEP}]
+	>=dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.2[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2020.1[${PYTHON_USEDEP}]
 	dev-python/quaternionic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.0[${PYTHON_USEDEP}]
 	dev-python/spherical[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.63.1[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.10[${PYTHON_USEDEP}]
 	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/corner[${PYTHON_USEDEP}] )
-	ecosystem? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	ecosystem? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
+	ecosystem? ( >=dev-python/ipykernel-5.3.4[${PYTHON_USEDEP}] )
+	ecosystem? ( >=dev-python/ipywidgets-7.5.1[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/jupyter-contrib-nbextensions[${PYTHON_USEDEP}] )
-	ecosystem? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	ecosystem? ( dev-python/line-profiler[${PYTHON_USEDEP}] )
-	ecosystem? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	ecosystem? ( >=dev-python/jupyterlab-2.2.8[${PYTHON_USEDEP}] )
+	ecosystem? ( >=dev-python/line-profiler-3.0.2[${PYTHON_USEDEP}] )
+	ecosystem? ( >=dev-python/matplotlib-2.1.1[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/numpy-quaternion[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/qgrid[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/rise[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/scri[${PYTHON_USEDEP}] )
 	ecosystem? ( dev-python/spinsfast[${PYTHON_USEDEP}] )
-	ecosystem? ( dev-python/sympy[${PYTHON_USEDEP}] )"
+	ecosystem? ( >=dev-python/sympy-1.6.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

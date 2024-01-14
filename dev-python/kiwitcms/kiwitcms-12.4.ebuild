@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/django-simple-captcha[${PYTHON_USEDEP}]
 	dev-python/django-vinaigrette[${PYTHON_USEDEP}]
-	dev-python/python-bugzilla[${PYTHON_USEDEP}]
+	~dev-python/python-bugzilla-3.2.0[${PYTHON_USEDEP}]
 	dev-python/uWSGI[${PYTHON_USEDEP}]
-	dev-python/allpairspy[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+	~dev-python/allpairspy-2.5.0[${PYTHON_USEDEP}]
+	~dev-python/bleach-6.0.0[${PYTHON_USEDEP}]
 	dev-python/bleach-allowlist[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-attachments[${PYTHON_USEDEP}]
@@ -44,11 +44,11 @@ DEPENDENCIES="dev-python/django-simple-captcha[${PYTHON_USEDEP}]
 	dev-python/django-uuslug[${PYTHON_USEDEP}]
 	dev-python/jira[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
-	dev-python/PyGithub[${PYTHON_USEDEP}]
+	~dev-python/PyGithub-1.58.2[${PYTHON_USEDEP}]
 	dev-python/Pygments[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
-	dev-python/python-redmine[${PYTHON_USEDEP}]
+	~dev-python/python-redmine-2.4.0[${PYTHON_USEDEP}]
 	dev-python/topicaxis-opengraph[${PYTHON_USEDEP}]
-	dev-python/tzdata[${PYTHON_USEDEP}]"
+	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs package test"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	~dev-python/djangorestframework-3.13.1[${PYTHON_USEDEP}]
 	dev-python/channels[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	package? ( dev-python/twine[${PYTHON_USEDEP}] )
 	package? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	test? ( dev-python/django-filter[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/django-filter-21.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-guardian[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-priority-batch[${PYTHON_USEDEP}] )
 	test? ( dev-python/channels-redis[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/async-timeout[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-django-3.5.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.16.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
 	test? ( dev-python/twine[${PYTHON_USEDEP}] )

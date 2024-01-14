@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyter-core[${PYTHON_USEDEP}]
-	dev-python/jupyter-client[${PYTHON_USEDEP}]
-	dev-python/notebook[${PYTHON_USEDEP}]
-	dev-python/traitlets[${PYTHON_USEDEP}]
-	dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/jupyter-core-4.4.0[${PYTHON_USEDEP}]
+	<dev-python/jupyter-client-8.0[${PYTHON_USEDEP}]
+	<dev-python/notebook-7.0[${PYTHON_USEDEP}]
+	>=dev-python/traitlets-4.2.0[${PYTHON_USEDEP}]
+	>=dev-python/tornado-4.2.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	>=dev-python/semver-2.13.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.16.0[${PYTHON_USEDEP}]
 	dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]

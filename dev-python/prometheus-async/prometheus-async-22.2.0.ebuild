@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="aiohttp consul dev docs tests twisted"
 DEPENDENCIES="dev-python/prometheus_client[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	consul? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	aiohttp? ( >=dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )
+	consul? ( >=dev-python/aiohttp-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-twisted[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )

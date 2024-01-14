@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/cubicweb[${PYTHON_USEDEP}]
 	dev-python/cubicweb-web[${PYTHON_USEDEP}]
 	dev-python/cubicweb-sioc[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.4.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

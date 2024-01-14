@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/hypothesis[${PYTHON_USEDEP}]
 	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	dev-python/selenium[${PYTHON_USEDEP}]
-	dev-python/tblib[${PYTHON_USEDEP}]
+	>=dev-python/tblib-3.0[${PYTHON_USEDEP}]
 	test? ( dev-python/build[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests[${PYTHON_USEDEP}] )"

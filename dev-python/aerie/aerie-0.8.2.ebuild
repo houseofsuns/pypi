@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full postgresql sqlite"
-DEPENDENCIES="sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	full? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
+DEPENDENCIES="sqlite? ( <dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/aiosqlite-0.18.0[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	full? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]"

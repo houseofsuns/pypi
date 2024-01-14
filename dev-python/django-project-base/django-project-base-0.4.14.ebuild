@@ -44,7 +44,7 @@ DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/django-redis-cache[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/ruff[${PYTHON_USEDEP}]
 	dev-python/ruff-lsp[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

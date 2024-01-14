@@ -26,14 +26,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="cvxopt cvxpy dev kvxopt"
 DEPENDENCIES="dev-python/dearpygui[${PYTHON_USEDEP}]
 	dev-python/pyimpspec[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	cvxopt? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
+	~dev-python/requests-2.28[${PYTHON_USEDEP}]
+	cvxopt? ( ~dev-python/cvxopt-1.3[${PYTHON_USEDEP}] )
 	cvxpy? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.10[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/setuptools-67.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-5.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.2[${PYTHON_USEDEP}] )
 	kvxopt? ( dev-python/kvxopt[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/ray[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
 	dev-python/hydra-ray-launcher[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.7[${PYTHON_USEDEP}]
 	dev-python/sqlitedict[${PYTHON_USEDEP}]
 	dev-python/ordered-set[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

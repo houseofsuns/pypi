@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli dev sqlmodel standard test"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/python-multipart[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy-database[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-0.17.0[${PYTHON_USEDEP}]
 	cli? ( dev-python/fastapi-amis-admin-cli[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	sqlmodel? ( dev-python/sqlmodel[${PYTHON_USEDEP}] )
-	standard? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	standard? ( <dev-python/uvicorn-1.0[${PYTHON_USEDEP}] )
 	standard? ( dev-python/fastapi-amis-admin-cli[${PYTHON_USEDEP}] )
-	test? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	test? ( <dev-python/uvicorn-1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/fastapi-amis-admin-cli[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/aiosqlite-0.15.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.17[${PYTHON_USEDEP}] )
+	test? ( <dev-python/httpx-1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	test? ( dev-python/ujson[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/ujson-4.0.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

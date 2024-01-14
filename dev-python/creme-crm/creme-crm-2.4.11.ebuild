@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="billing_weasyprint dev graphs mysql pgsql"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/django-3.2.23[${PYTHON_USEDEP}]
+	~dev-python/redis-4.5.5[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/bleach[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/bleach-5.0[${PYTHON_USEDEP}]
 	dev-python/django-formtools[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/xlwt[${PYTHON_USEDEP}]
-	dev-python/csscompressor[${PYTHON_USEDEP}]
+	~dev-python/cryptography-40.0.2[${PYTHON_USEDEP}]
+	~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}]
+	~dev-python/xlwt-1.3.0[${PYTHON_USEDEP}]
+	~dev-python/csscompressor-0.9[${PYTHON_USEDEP}]
 	dev-python/rjsmin[${PYTHON_USEDEP}]
 	dev-python/xhtml2pdf[${PYTHON_USEDEP}]
-	billing_weasyprint? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	billing_weasyprint? ( ~dev-python/weasyprint-57.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-6.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-5.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tblib[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/parameterized-0.8.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tblib-1.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/polib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
-	dev? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	graphs? ( dev-python/pygraphviz[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/polib-1.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyenchant-3.2.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/beautifulsoup4-4.10.0[${PYTHON_USEDEP}] )
+	graphs? ( ~dev-python/pygraphviz-1.6.0[${PYTHON_USEDEP}] )
+	mysql? ( ~dev-python/mysqlclient-2.1.0[${PYTHON_USEDEP}] )
 	pgsql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

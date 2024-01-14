@@ -24,41 +24,41 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/annotated-types[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/annotated-types-0.6.0[${PYTHON_USEDEP}]
+	~dev-python/attrs-23.2.0[${PYTHON_USEDEP}]
+	~dev-python/certifi-2023.11.17[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}]
 	dev-python/cloudflare[${PYTHON_USEDEP}]
-	dev-python/hcloud[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	~dev-python/hcloud-1.33.2[${PYTHON_USEDEP}]
+	~dev-python/idna-3.6[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pydantic-core[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/exceptiongroup[${PYTHON_USEDEP}] )
-	dev? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	dev? ( dev-python/iniconfig[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nodeenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	~dev-python/pydantic-2.5.3[${PYTHON_USEDEP}]
+	~dev-python/pydantic-core-2.14.6[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-2.1.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/click-8.1.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/exceptiongroup-1.2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/importlib-metadata-7.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nodeenv-1.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/packaging-23.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyproject-hooks[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pluggy-1.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyproject-hooks-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/zipp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.42.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/zipp-3.17.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pip-23.3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/setuptools-69.0.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

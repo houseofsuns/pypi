@@ -27,7 +27,7 @@ IUSE="tests"
 DEPENDENCIES="dev-python/backports-entry-points-selectable[${PYTHON_USEDEP}]
 	tests? ( dev-python/alt-pytest-asyncio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/noseofyeti[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.3.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/venvstarter[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

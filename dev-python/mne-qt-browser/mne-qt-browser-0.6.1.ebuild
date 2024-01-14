@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="opengl tests"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-65.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/qtpy[${PYTHON_USEDEP}]
 	dev-python/scooby[${PYTHON_USEDEP}]
 	dev-python/mne[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
+	>=dev-python/pyqtgraph-0.12.3[${PYTHON_USEDEP}]
 	dev-python/colorspacious[${PYTHON_USEDEP}]
 	dev-python/darkdetect[${PYTHON_USEDEP}]
 	dev-python/qdarkstyle[${PYTHON_USEDEP}]

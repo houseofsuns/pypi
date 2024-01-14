@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/deepdiff[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/deepdiff-7.0[${PYTHON_USEDEP}]
 	dev-python/django-pivot[${PYTHON_USEDEP}]
 	dev-python/hier-config[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/nautobot[${PYTHON_USEDEP}]
 	dev-python/nautobot-capacity-metrics[${PYTHON_USEDEP}]
 	dev-python/nautobot-plugin-nornir[${PYTHON_USEDEP}]

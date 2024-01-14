@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="readthedocs"
-DEPENDENCIES="dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	readthedocs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	readthedocs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/decorator-5.1.1[${PYTHON_USEDEP}]
+	>=dev-python/six-1.7.0[${PYTHON_USEDEP}]
+	readthedocs? ( <dev-python/sphinx-8.0.0[${PYTHON_USEDEP}] )
+	readthedocs? ( <dev-python/sphinx-rtd-theme-3.0.0[${PYTHON_USEDEP}] )
+	<dev-python/sqlalchemy-1.5.0[${PYTHON_USEDEP}]
+	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
 	dev-python/tempita-hotoffthehamster[${PYTHON_USEDEP}]
-	readthedocs? ( dev-python/tomli[${PYTHON_USEDEP}] )"
+	readthedocs? ( >=dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -28,7 +28,7 @@ DEPENDENCIES="db? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	dev-python/nextcord[${PYTHON_USEDEP}]
 	dev-python/nextcord-ext-menus[${PYTHON_USEDEP}]
 	db? ( dev-python/ormar[${PYTHON_USEDEP}] )
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]"
+	<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-1.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

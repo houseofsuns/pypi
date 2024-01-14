@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/numpy-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/h5py-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

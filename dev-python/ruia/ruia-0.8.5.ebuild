@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="uvloop"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.5.4[${PYTHON_USEDEP}]
 	dev-python/cssselect[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	uvloop? ( dev-python/uvloop[${PYTHON_USEDEP}] )"

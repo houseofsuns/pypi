@@ -25,19 +25,19 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/bokeh[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.7.80[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.1.4[${PYTHON_USEDEP}]
 	dev-python/dawgie-pydot3[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/psycopg[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-2.1.11[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-2.1.1[${PYTHON_USEDEP}]
+	>dev-python/psycopg-3.0.0[${PYTHON_USEDEP}]
 	dev-python/psycopg-binary[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
 	dev-python/pyOpenSSL[${PYTHON_USEDEP}]
-	dev-python/python-gnupg[${PYTHON_USEDEP}]
+	~dev-python/python-gnupg-0.4.9[${PYTHON_USEDEP}]
 	dev-python/pyxb[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/transitions[${PYTHON_USEDEP}]
-	dev-python/twisted[${PYTHON_USEDEP}]"
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	~dev-python/transitions-0.6.8[${PYTHON_USEDEP}]
+	>=dev-python/twisted-18.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

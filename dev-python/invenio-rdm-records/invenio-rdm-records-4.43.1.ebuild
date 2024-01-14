@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="elasticsearch7 opensearch1 opensearch2 tests"
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/arrow-0.17.0[${PYTHON_USEDEP}]
 	dev-python/babel-edtf[${PYTHON_USEDEP}]
 	dev-python/citeproc-py-styles[${PYTHON_USEDEP}]
 	dev-python/citeproc-py[${PYTHON_USEDEP}]
 	dev-python/commonmeta-py[${PYTHON_USEDEP}]
 	dev-python/datacite[${PYTHON_USEDEP}]
 	dev-python/dcxml[${PYTHON_USEDEP}]
-	dev-python/Faker[${PYTHON_USEDEP}]
+	>=dev-python/Faker-2.0.3[${PYTHON_USEDEP}]
 	dev-python/flask-iiif[${PYTHON_USEDEP}]
 	dev-python/ftfy[${PYTHON_USEDEP}]
 	dev-python/invenio-administration[${PYTHON_USEDEP}]
@@ -44,11 +44,11 @@ DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
 	dev-python/invenio-stats[${PYTHON_USEDEP}]
 	dev-python/invenio-vocabularies[${PYTHON_USEDEP}]
 	dev-python/nameparser[${PYTHON_USEDEP}]
-	dev-python/pycountry[${PYTHON_USEDEP}]
+	>=dev-python/pycountry-22.3.5[${PYTHON_USEDEP}]
 	dev-python/pydash[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2020.4[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.4.0[${PYTHON_USEDEP}]
+	>=dev-python/python-slugify-8.0.1[${PYTHON_USEDEP}]
 	dev-python/types-requests[${PYTHON_USEDEP}]
 	elasticsearch7? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	opensearch1? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
@@ -57,8 +57,8 @@ DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
 	tests? ( dev-python/invenio-app[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-mock-1.6.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tripoli[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

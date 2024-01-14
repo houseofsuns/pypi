@@ -33,7 +33,7 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/ansicolors[${PYTHON_USEDEP}]
 	dev-python/click-default-group[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

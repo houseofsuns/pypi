@@ -27,10 +27,10 @@ IUSE="all build tests"
 DEPENDENCIES="dev-python/param[${PYTHON_USEDEP}]
 	all? ( dev-python/pyviz-comms[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyviz-comms[${PYTHON_USEDEP}] )
-	build? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	build? ( ~dev-python/jupyterlab-4.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/keyring[${PYTHON_USEDEP}] )
 	build? ( dev-python/rfc3986[${PYTHON_USEDEP}] )
-	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/setuptools-40.8.0[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"

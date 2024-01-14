@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	dev-python/arf[${PYTHON_USEDEP}]
 	dev-python/neurobank[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.4.0[${PYTHON_USEDEP}]
 	dev-python/quickspikes[${PYTHON_USEDEP}]
 	dev-python/toelis[${PYTHON_USEDEP}]
 	dev-python/libtfr[${PYTHON_USEDEP}]

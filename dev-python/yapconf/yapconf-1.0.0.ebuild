@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deploy develop docs etcd k8s test yaml"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/six-2.0[${PYTHON_USEDEP}]
+	<dev-python/python-box-4.0[${PYTHON_USEDEP}]
+	>dev-python/watchdog-1.0[${PYTHON_USEDEP}]
 	deploy? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/twine[${PYTHON_USEDEP}] )
 	develop? ( dev-python/isort[${PYTHON_USEDEP}] )

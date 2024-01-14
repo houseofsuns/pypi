@@ -27,11 +27,11 @@ IUSE="develop test"
 DEPENDENCIES="dev-python/google-cloud-bigquery[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
 	develop? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-0.931[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.8.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

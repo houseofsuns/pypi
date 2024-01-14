@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws encryption gssapi ocsp snappy srv test zstd"
-DEPENDENCIES="dev-python/pymongo[${PYTHON_USEDEP}]
-	aws? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	encryption? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	gssapi? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	ocsp? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	snappy? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	srv? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/pymongo-5.0[${PYTHON_USEDEP}]
+	aws? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
+	encryption? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
+	gssapi? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
+	ocsp? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
+	snappy? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
+	srv? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/mockupdb[${PYTHON_USEDEP}] )
-	test? ( dev-python/tornado[${PYTHON_USEDEP}] )
-	test? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/tornado-5.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}] )
 	test? ( dev-python/motor[${PYTHON_USEDEP}] )
-	zstd? ( dev-python/pymongo[${PYTHON_USEDEP}] )"
+	zstd? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

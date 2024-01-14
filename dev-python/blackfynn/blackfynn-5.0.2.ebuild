@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="data"
-DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pytz-2016.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	>=dev-python/future-0.15.0[${PYTHON_USEDEP}]
 	dev-python/futures[${PYTHON_USEDEP}]
-	dev-python/deprecated[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/docopt[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	data? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	data? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	>=dev-python/deprecated-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/semver-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-0.50.0[${PYTHON_USEDEP}]
+	>=dev-python/docopt-0.6[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.4[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.0[${PYTHON_USEDEP}]
+	data? ( >=dev-python/numpy-1.13[${PYTHON_USEDEP}] )
+	data? ( >=dev-python/pandas-0.20[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

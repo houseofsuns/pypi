@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="crypto dev docs postgres postgres_dev"
-DEPENDENCIES="crypto? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+DEPENDENCIES="crypto? ( <=dev-python/pycryptodome-3.16.99999[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+	dev? ( <=dev-python/pycryptodome-3.16.99999[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
 	dev? ( dev-python/python-coveralls[${PYTHON_USEDEP}] )
@@ -39,9 +39,9 @@ DEPENDENCIES="crypto? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	docs? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/pycryptodome-3.16.99999[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	postgres_dev? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

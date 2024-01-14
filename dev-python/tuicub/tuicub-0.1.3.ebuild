@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/asockit[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	~dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	dev-python/binpacking[${PYTHON_USEDEP}]
 	dev-python/cacheout[${PYTHON_USEDEP}]
 	dev-python/eventoolkit[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/asockit[${PYTHON_USEDEP}]
 	dev-python/marshmallow[${PYTHON_USEDEP}]
 	dev-python/marshmallow-generic[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/pendulum[${PYTHON_USEDEP}]
+	~dev-python/pendulum-3.0.0[${PYTHON_USEDEP}]
 	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
 	dev-python/pydepot[${PYTHON_USEDEP}]
 	dev-python/pyllot[${PYTHON_USEDEP}]

@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="awslambda"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.16.14[${PYTHON_USEDEP}]
+	<=dev-python/tabulate-0.8.10[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	~dev-python/marshmallow-3.10[${PYTHON_USEDEP}]
 	dev-python/aws-cdk-core[${PYTHON_USEDEP}]
 	dev-python/aws-cdk-aws-batch[${PYTHON_USEDEP}]
 	dev-python/aws-cdk-aws-cloudwatch[${PYTHON_USEDEP}]
@@ -47,10 +47,10 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/aws-cdk-aws-ssm[${PYTHON_USEDEP}]
 	dev-python/aws-cdk-aws-sqs[${PYTHON_USEDEP}]
 	dev-python/aws-cdk-aws-cloudformation[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.0[${PYTHON_USEDEP}]
 	dev-python/connexion[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
+	<dev-python/flask-2.3[${PYTHON_USEDEP}]
+	~dev-python/jmespath-0.10[${PYTHON_USEDEP}]
 	dev-python/jsii[${PYTHON_USEDEP}]
 	awslambda? ( dev-python/aws-lambda-powertools[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

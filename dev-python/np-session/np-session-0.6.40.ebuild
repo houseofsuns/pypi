@@ -30,17 +30,17 @@ DEPENDENCIES="dev-python/backports-cached-property[${PYTHON_USEDEP}]
 	dev-python/np_config[${PYTHON_USEDEP}]
 	dev-python/np_logging[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	<=dev-python/redis-4.1.4[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/blue[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pdm[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-7.2.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pdm-2.4.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-backports[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )"

@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="clipboard jedi urwid watch"
-DEPENDENCIES="dev-python/curtsies[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/curtsies-0.4.0[${PYTHON_USEDEP}]
 	dev-python/cwcwidth[${PYTHON_USEDEP}]
 	dev-python/greenlet[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/pyxdg[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	clipboard? ( dev-python/pyperclip[${PYTHON_USEDEP}] )
-	jedi? ( dev-python/jedi[${PYTHON_USEDEP}] )
+	jedi? ( >=dev-python/jedi-0.16[${PYTHON_USEDEP}] )
 	urwid? ( dev-python/urwid[${PYTHON_USEDEP}] )
 	watch? ( dev-python/watchdog[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

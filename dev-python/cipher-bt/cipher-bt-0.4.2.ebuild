@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="finplot jupyter mplfinance yfinance"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/pandas-ta[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	mplfinance? ( dev-python/mplfinance[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/mplfinance[${PYTHON_USEDEP}] )
 	dev-python/dependency-injector[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10.0[${PYTHON_USEDEP}]
 	finplot? ( dev-python/finplot[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/jupyterlab-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	yfinance? ( dev-python/yfinance[${PYTHON_USEDEP}] )
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	<dev-python/setuptools-68.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

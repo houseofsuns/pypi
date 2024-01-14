@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.7[${PYTHON_USEDEP}]
 	dev-python/monotonic[${PYTHON_USEDEP}]
-	dev-python/backoff[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )"
+	~dev-python/backoff-2.1[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.2[${PYTHON_USEDEP}]
+	test? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.8.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

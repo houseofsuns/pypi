@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/cryptography-3.0[${PYTHON_USEDEP}]
+	>=dev-python/paramiko-2.7[${PYTHON_USEDEP}]
+	>=dev-python/pillow-7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

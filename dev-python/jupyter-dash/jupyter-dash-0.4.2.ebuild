@@ -32,8 +32,8 @@ DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/ipykernel[${PYTHON_USEDEP}]
 	dev-python/ansi2html[${PYTHON_USEDEP}]
 	dev-python/nest-asyncio[${PYTHON_USEDEP}]
-	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	dev? ( dev-python/notebook[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jupyterlab-2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/notebook-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter-server-proxy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

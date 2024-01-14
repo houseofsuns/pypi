@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pymediainfo[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pymediainfo-6.0.0[${PYTHON_USEDEP}]
 	dev-python/pyd2v[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]"
+	<dev-python/more-itertools-9.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

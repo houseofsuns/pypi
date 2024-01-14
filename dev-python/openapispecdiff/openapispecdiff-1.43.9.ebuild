@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/openapi-core[${PYTHON_USEDEP}]
-	dev-python/openapi-schema-validator[${PYTHON_USEDEP}]
-	dev-python/openapi-spec-validator[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/openapi-core-0.13.4[${PYTHON_USEDEP}]
+	~dev-python/openapi-schema-validator-0.1.1[${PYTHON_USEDEP}]
+	~dev-python/openapi-spec-validator-0.2.9[${PYTHON_USEDEP}]
 	dev-python/openapispecdiff[${PYTHON_USEDEP}]
 	dev-python/prance[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

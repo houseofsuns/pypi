@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/incremental[${PYTHON_USEDEP}]
 	dev? ( dev-python/incremental[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-21.12[${PYTHON_USEDEP}] )
 	dev? ( dev-python/click[${PYTHON_USEDEP}] )
 	dev? ( dev-python/twisted[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

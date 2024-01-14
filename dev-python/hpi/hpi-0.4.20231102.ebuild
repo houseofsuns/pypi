@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.1[${PYTHON_USEDEP}]
 	dev-python/kompress[${PYTHON_USEDEP}]
 	optional? ( dev-python/orjson[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pyfzf-iter[${PYTHON_USEDEP}] )

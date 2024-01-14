@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="libjpeg"
 DEPENDENCIES="dev-python/pydicom[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19[${PYTHON_USEDEP}]
+	>=dev-python/pillow-8.3[${PYTHON_USEDEP}]
 	dev-python/pillow-jpls[${PYTHON_USEDEP}]
 	libjpeg? ( dev-python/pylibjpeg[${PYTHON_USEDEP}] )
 	libjpeg? ( dev-python/pylibjpeg-libjpeg[${PYTHON_USEDEP}] )

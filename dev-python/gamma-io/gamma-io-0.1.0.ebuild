@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aws full polars sql"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.1.6[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.3[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-12.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.1.1[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2023.6.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/decorator-5.1.1[${PYTHON_USEDEP}]
 	polars? ( dev-python/polars[${PYTHON_USEDEP}] )
 	full? ( dev-python/polars[${PYTHON_USEDEP}] )
 	full? ( dev-python/gamma-config[${PYTHON_USEDEP}] )
 	full? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	full? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/sqlalchemy-2.0.20[${PYTHON_USEDEP}] )
 	aws? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	sql? ( >=dev-python/sqlalchemy-2.0.20[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

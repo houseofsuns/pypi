@@ -27,20 +27,20 @@ IUSE="testing"
 DEPENDENCIES="dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/python-version[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/unidecode[${PYTHON_USEDEP}]
+	>=dev-python/rdflib-6.2.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
+	>=dev-python/unidecode-1.3.6[${PYTHON_USEDEP}]
 	dev-python/iribaker[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
+	>=dev-python/regex-2022.10.31[${PYTHON_USEDEP}]
 	dev-python/syntok[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/rdflib[${PYTHON_USEDEP}] )
-	testing? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	testing? ( dev-python/unidecode[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/rdflib-6.2.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/lxml-4.9.2[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/unidecode-1.3.6[${PYTHON_USEDEP}] )
 	testing? ( dev-python/iribaker[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
 	testing? ( dev-python/stanza[${PYTHON_USEDEP}] )

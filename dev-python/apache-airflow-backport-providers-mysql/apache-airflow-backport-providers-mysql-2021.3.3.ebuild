@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="amazon presto vertica"
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/mysql-connector-python[${PYTHON_USEDEP}]
-	dev-python/mysqlclient[${PYTHON_USEDEP}]
+	<dev-python/mysqlclient-1.4[${PYTHON_USEDEP}]
 	amazon? ( dev-python/apache-airflow-backport-providers-amazon[${PYTHON_USEDEP}] )
 	presto? ( dev-python/apache-airflow-backport-providers-presto[${PYTHON_USEDEP}] )
 	vertica? ( dev-python/apache-airflow-backport-providers-vertica[${PYTHON_USEDEP}] )"

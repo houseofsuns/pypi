@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="full yaml"
-DEPENDENCIES="dev-python/deepmerge[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/deepmerge-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	full? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	full? ( dev-python/rich-click[${PYTHON_USEDEP}] )

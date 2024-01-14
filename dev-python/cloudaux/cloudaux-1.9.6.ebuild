@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="gcp openstack tests"
 DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/boto[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
+	>=dev-python/boto-2.41.0[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.9.4[${PYTHON_USEDEP}]
 	dev-python/inflection[${PYTHON_USEDEP}]
 	dev-python/flagpole[${PYTHON_USEDEP}]
 	dev-python/defusedxml[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	gcp? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
+	gcp? ( >=dev-python/google-api-python-client-1.6.1[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/oauth2client[${PYTHON_USEDEP}] )
-	openstack? ( dev-python/openstacksdk[${PYTHON_USEDEP}] )
+	openstack? ( >=dev-python/openstacksdk-0.13.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/moto[${PYTHON_USEDEP}] )

@@ -38,7 +38,7 @@ DEPENDENCIES="dev-python/furiosa-server[${PYTHON_USEDEP}]
 	openvino? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.17.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-Pillow[${PYTHON_USEDEP}] )"

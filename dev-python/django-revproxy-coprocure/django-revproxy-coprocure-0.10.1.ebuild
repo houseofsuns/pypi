@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="diazo"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.7[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.12[${PYTHON_USEDEP}]
 	diazo? ( dev-python/diazo[${PYTHON_USEDEP}] )
-	diazo? ( dev-python/lxml[${PYTHON_USEDEP}] )"
+	diazo? ( >=dev-python/lxml-3.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

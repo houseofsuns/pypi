@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all data metrics models plot"
-DEPENDENCIES="models? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	all? ( dev-python/GitPython[${PYTHON_USEDEP}] )
-	models? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	all? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
+DEPENDENCIES="models? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/GitPython-4.0.0[${PYTHON_USEDEP}] )
+	models? ( <dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}] )
 	models? ( dev-python/fairlearn[${PYTHON_USEDEP}] )
 	all? ( dev-python/fairlearn[${PYTHON_USEDEP}] )
 	dev-python/filelock[${PYTHON_USEDEP}]
@@ -36,28 +36,28 @@ DEPENDENCIES="models? ( dev-python/GitPython[${PYTHON_USEDEP}] )
 	models? ( dev-python/gitdb2[${PYTHON_USEDEP}] )
 	all? ( dev-python/gitdb2[${PYTHON_USEDEP}] )
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
+	plot? ( >=dev-python/matplotlib-3.8[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/matplotlib-3.8[${PYTHON_USEDEP}] )
 	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	models? ( dev-python/pdm[${PYTHON_USEDEP}] )
-	all? ( dev-python/pdm[${PYTHON_USEDEP}] )
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.2[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
+	models? ( <dev-python/pdm-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pdm-3.0.0[${PYTHON_USEDEP}] )
+	>=dev-python/pillow-8.4.0[${PYTHON_USEDEP}]
 	dev-python/ranzen[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	metrics? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	models? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	models? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	plot? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	all? ( dev-python/seaborn[${PYTHON_USEDEP}] )
+	models? ( <dev-python/scipy-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/scipy-2.0.0[${PYTHON_USEDEP}] )
+	plot? ( >=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
 	models? ( dev-python/smmap2[${PYTHON_USEDEP}] )
 	all? ( dev-python/smmap2[${PYTHON_USEDEP}] )
-	dev-python/sympy[${PYTHON_USEDEP}]
+	<dev-python/sympy-2.0[${PYTHON_USEDEP}]
 	dev-python/teext[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	>=dev-python/typing-extensions-4.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

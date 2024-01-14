@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/alabaster[${PYTHON_USEDEP}] )
-	docs? ( dev-python/commonmark[${PYTHON_USEDEP}] )
-	dev-python/deprecation[${PYTHON_USEDEP}]
+	docs? ( <dev-python/alabaster-0.8.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/commonmark-0.10.0[${PYTHON_USEDEP}] )
+	>=dev-python/deprecation-2.1.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	docs? ( dev-python/readthedocs-sphinx-ext[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	docs? ( <dev-python/mock-5.0.0[${PYTHON_USEDEP}] )
+	>=dev-python/python-jose-3.3.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/readthedocs-sphinx-ext-3.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/recommonmark-0.8.0[${PYTHON_USEDEP}] )
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-toolbelt-0.6.0[${PYTHON_USEDEP}]
+	docs? ( <dev-python/sphinx-autoapi-4.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

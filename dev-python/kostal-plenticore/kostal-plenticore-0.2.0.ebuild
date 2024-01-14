@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	cli? ( dev-python/prompt-toolkit[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/aiohttp-3.6[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.9[${PYTHON_USEDEP}]
+	cli? ( >=dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/click-7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/Werkzeug[${PYTHON_USEDEP}]
 	dev-python/wikibaseintegrator[${PYTHON_USEDEP}]
 	dev-python/gspread[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.4.2[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}]
 	dev-python/XlsxWriter[${PYTHON_USEDEP}]
-	dev-python/odfpy[${PYTHON_USEDEP}]
+	~dev-python/odfpy-1.4.1[${PYTHON_USEDEP}]
 	dev-python/pylodstorage[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

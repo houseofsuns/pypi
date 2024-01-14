@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all extensions extras style test tools"
 DEPENDENCIES="dev-python/bidsschematools[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.1[${PYTHON_USEDEP}]
 	dev-python/click-didyoumean[${PYTHON_USEDEP}]
 	dev-python/dandischema[${PYTHON_USEDEP}]
 	dev-python/etelemetry[${PYTHON_USEDEP}]
@@ -35,18 +35,18 @@ DEPENDENCIES="dev-python/bidsschematools[${PYTHON_USEDEP}]
 	dev-python/humanize[${PYTHON_USEDEP}]
 	dev-python/interleave[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/keyring[${PYTHON_USEDEP}]
+	>dev-python/keyring-23.9.0[${PYTHON_USEDEP}]
 	dev-python/keyrings-alt[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/platformdirs[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]
 	dev-python/pynwb[${PYTHON_USEDEP}]
 	dev-python/nwbinspector[${PYTHON_USEDEP}]
 	dev-python/pyout[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	~dev-python/requests-2.20[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-1.0[${PYTHON_USEDEP}]
 	dev-python/semantic-version[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]
 	dev-python/zarr[${PYTHON_USEDEP}]
@@ -63,7 +63,7 @@ DEPENDENCIES="dev-python/bidsschematools[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	all? ( dev-python/responses[${PYTHON_USEDEP}] )
+	all? ( >dev-python/responses-0.24.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/vcrpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	extensions? ( dev-python/allensdk[${PYTHON_USEDEP}] )
@@ -78,7 +78,7 @@ DEPENDENCIES="dev-python/bidsschematools[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
+	test? ( >dev-python/responses-0.24.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/vcrpy[${PYTHON_USEDEP}] )
 	tools? ( dev-python/boto3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

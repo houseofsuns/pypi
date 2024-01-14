@@ -30,8 +30,8 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/arcor2[${PYTHON_USEDEP}]
 	dev-python/dataclasses-jsonschema[${PYTHON_USEDEP}]
 	dev-python/fastuuid[${PYTHON_USEDEP}]
-	dev-python/sqlitedict[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]"
+	~dev-python/sqlitedict-2.1.0[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-1.5.0[${PYTHON_USEDEP}]
+	~dev-python/werkzeug-2.2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp asyncio"
 DEPENDENCIES="dev-python/aioworkers[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.1.0[${PYTHON_USEDEP}]
 	aiohttp? ( dev-python/pytest-aiohttp[${PYTHON_USEDEP}] )
 	asyncio? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

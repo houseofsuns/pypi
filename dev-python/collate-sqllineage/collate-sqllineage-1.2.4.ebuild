@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci docs"
-DEPENDENCIES="dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/sqlparse-0.4.3[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.4[${PYTHON_USEDEP}]
 	dev-python/sqlfluff[${PYTHON_USEDEP}]
 	ci? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	ci? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -41,6 +41,6 @@ DEPENDENCIES="dev-python/sqlparse[${PYTHON_USEDEP}]
 	ci? ( dev-python/twine[${PYTHON_USEDEP}] )
 	ci? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

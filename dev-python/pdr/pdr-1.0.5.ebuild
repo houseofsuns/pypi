@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="browsify fits notebooks pvl tests tiff"
 DEPENDENCIES="dev-python/pds4-tools[${PYTHON_USEDEP}]
 	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/python-Levenshtein[${PYTHON_USEDEP}]
 	dev-python/dustgoggles[${PYTHON_USEDEP}]

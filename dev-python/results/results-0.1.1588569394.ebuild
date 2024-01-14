@@ -27,9 +27,9 @@ IUSE="excel"
 DEPENDENCIES="dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	dev-python/logx[${PYTHON_USEDEP}]
 	dev-python/sqlbag[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}]
 	excel? ( dev-python/xlrd[${PYTHON_USEDEP}] )
-	excel? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	excel? ( <dev-python/openpyxl-2.6.3[${PYTHON_USEDEP}] )
 	excel? ( dev-python/xlsxwriter[${PYTHON_USEDEP}] )
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]

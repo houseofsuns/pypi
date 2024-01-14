@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="others"
 DEPENDENCIES="dev-python/jieba[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.23.1[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	others? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	others? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	others? ( >=dev-python/pandas-1.4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

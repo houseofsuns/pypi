@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci ci-psycopg2-sqlalchemy1 ci-psycopg2-sqlalchemy2 ci-psycopg3-sqlalchemy2 dev"
-DEPENDENCIES="dev-python/sqlalchemy[${PYTHON_USEDEP}]
-	ci? ( dev-python/pytest[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/sqlalchemy-1.4.24[${PYTHON_USEDEP}]
+	ci? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
 	ci-psycopg2-sqlalchemy1? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	ci-psycopg2-sqlalchemy1? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	ci-psycopg2-sqlalchemy1? ( ~dev-python/sqlalchemy-1.4.24[${PYTHON_USEDEP}] )
 	ci-psycopg2-sqlalchemy2? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	ci-psycopg2-sqlalchemy2? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	ci-psycopg3-sqlalchemy2? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	ci-psycopg3-sqlalchemy2? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	ci-psycopg2-sqlalchemy2? ( ~dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
+	ci-psycopg3-sqlalchemy2? ( ~dev-python/psycopg-3.1.4[${PYTHON_USEDEP}] )
+	ci-psycopg3-sqlalchemy2? ( ~dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/psycopg[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/psycopg-3.1.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,38 +24,38 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev pub sci serv"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.10[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-0.17[${PYTHON_USEDEP}]
 	dev-python/tabulate-expwidth[${PYTHON_USEDEP}]
-	dev-python/cwcwidth[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
+	>=dev-python/cwcwidth-0.1.5[${PYTHON_USEDEP}]
+	>=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonpath-ng-1.5.3[${PYTHON_USEDEP}]
 	dev-python/pypng[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/pydot-1.4.2[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-43.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.32.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/remote-pdb[${PYTHON_USEDEP}] )
-	pub? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	pub? ( >=dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
 	pub? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	pub? ( dev-python/alabaster[${PYTHON_USEDEP}] )
-	pub? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	pub? ( dev-python/twine[${PYTHON_USEDEP}] )
+	pub? ( >=dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )
+	pub? ( >=dev-python/sphinx-copybutton-0.3.0[${PYTHON_USEDEP}] )
+	pub? ( >=dev-python/twine-3.3.0[${PYTHON_USEDEP}] )
 	sci? ( dev-python/astropy[${PYTHON_USEDEP}] )
-	serv? ( dev-python/requests[${PYTHON_USEDEP}] )
-	serv? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	serv? ( ~dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
+	serv? ( ~dev-python/urllib3-1.26.13[${PYTHON_USEDEP}] )
 	serv? ( dev-python/Flask-HTTPAuth[${PYTHON_USEDEP}] )
 	serv? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	serv? ( dev-python/Werkzeug[${PYTHON_USEDEP}] )
 	serv? ( dev-python/uwsgi[${PYTHON_USEDEP}] )
-	serv? ( dev-python/flasgger[${PYTHON_USEDEP}] )
-	serv? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	serv? ( >=dev-python/flasgger-0.9.5[${PYTHON_USEDEP}] )
+	serv? ( >=dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}] )
 	serv? ( dev-python/aiohttp-retry[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

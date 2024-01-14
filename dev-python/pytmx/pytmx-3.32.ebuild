@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="pygame pygame-ce"
-DEPENDENCIES="pygame? ( dev-python/pygame[${PYTHON_USEDEP}] )
+DEPENDENCIES="pygame? ( >=dev-python/pygame-2.0.0[${PYTHON_USEDEP}] )
 	pygame-ce? ( dev-python/pygame-ce[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

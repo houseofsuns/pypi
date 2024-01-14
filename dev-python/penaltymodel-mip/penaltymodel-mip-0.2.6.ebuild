@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/dimod[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	<dev-python/networkx-3.0[${PYTHON_USEDEP}]
 	dev-python/ortools[${PYTHON_USEDEP}]
 	dev-python/penaltymodel[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

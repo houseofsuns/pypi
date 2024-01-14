@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/rouge[${PYTHON_USEDEP}]
 	dev-python/bert-score[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	dev-python/fairlearn[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

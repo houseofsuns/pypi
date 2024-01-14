@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="excel ftp sql webservices"
-DEPENDENCIES="dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	webservices? ( dev-python/requests[${PYTHON_USEDEP}] )
+DEPENDENCIES="<dev-python/arrow-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/sortedcontainers-3.0.0[${PYTHON_USEDEP}]
+	webservices? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	webservices? ( dev-python/suds[${PYTHON_USEDEP}] )
-	webservices? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
+	webservices? ( <dev-python/xmltodict-0.14.0[${PYTHON_USEDEP}] )
 	sql? ( dev-python/pypyodbc[${PYTHON_USEDEP}] )
 	excel? ( dev-python/pywin32[${PYTHON_USEDEP}] )
-	ftp? ( dev-python/paramiko[${PYTHON_USEDEP}] )"
+	ftp? ( <dev-python/paramiko-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

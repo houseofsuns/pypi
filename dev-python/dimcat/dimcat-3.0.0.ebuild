@@ -27,26 +27,26 @@ IUSE="dev docs testing"
 DEPENDENCIES="dev-python/colorlover[${PYTHON_USEDEP}]
 	dev-python/frictionless[${PYTHON_USEDEP}]
 	dev-python/kaleido[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-3.20.1[${PYTHON_USEDEP}]
 	dev-python/ms3[${PYTHON_USEDEP}]
 	dev-python/music21[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/plotly-5.18.0[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.11.3[${PYTHON_USEDEP}]
+	>=dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
+	~dev-python/setuptools-69.0.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/dimcat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dimcat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter-sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/linkify-it-py[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/linkify-it-py-2.0.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pitchtypes[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pyproject-api[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/pydata-sphinx-theme-0.13.3[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pyproject-api-1.6.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/tox-4.11.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

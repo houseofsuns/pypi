@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pip-18.1[${PYTHON_USEDEP}]
+	>=dev-python/future-0.16.0[${PYTHON_USEDEP}]
 	dev-python/logging-helper[${PYTHON_USEDEP}]
 	dev-python/conversionutil[${PYTHON_USEDEP}]
 	dev-python/fdutil[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/dominate[${PYTHON_USEDEP}]"
+	>=dev-python/attrs-16.3.0[${PYTHON_USEDEP}]
+	>=dev-python/dominate-2.3.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

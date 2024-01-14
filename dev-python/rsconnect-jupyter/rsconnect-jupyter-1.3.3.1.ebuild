@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/rsconnect-python[${PYTHON_USEDEP}]
 	dev-python/notebook[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
+	>=dev-python/nbconvert-5.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

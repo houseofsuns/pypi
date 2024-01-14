@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/attrs-22.2.0[${PYTHON_USEDEP}]
 	dev-python/AutoROM[${PYTHON_USEDEP}]
 	dev-python/catanatron[${PYTHON_USEDEP}]
-	dev-python/cattrs[${PYTHON_USEDEP}]
+	~dev-python/cattrs-22.2.0[${PYTHON_USEDEP}]
 	dev-python/chess[${PYTHON_USEDEP}]
 	dev-python/gymnasium[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.2[${PYTHON_USEDEP}]
 	dev-python/pettingzoo[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
+	~dev-python/pygame-2.4.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
 	dev-python/texasholdem[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

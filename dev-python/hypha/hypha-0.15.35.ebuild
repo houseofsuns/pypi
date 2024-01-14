@@ -27,29 +27,29 @@ IUSE="s3 server-apps"
 DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/imjoy-rpc[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-1.0.2[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.19.0[${PYTHON_USEDEP}]
+	>=dev-python/python-jose-3.3.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/fakeredis[${PYTHON_USEDEP}]
+	>=dev-python/fakeredis-2.14.1[${PYTHON_USEDEP}]
 	dev-python/shortuuid[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.13.4[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.21.1[${PYTHON_USEDEP}]
 	dev-python/pyotritonclient[${PYTHON_USEDEP}]
 	dev-python/sse-starlette[${PYTHON_USEDEP}]
-	dev-python/email-validator[${PYTHON_USEDEP}]
+	>=dev-python/email-validator-2.0.0[${PYTHON_USEDEP}]
 	dev-python/pyodide-http[${PYTHON_USEDEP}]
 	dev-python/ssl[${PYTHON_USEDEP}]
 	s3? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
-	server-apps? ( dev-python/redis[${PYTHON_USEDEP}] )
+	server-apps? ( >=dev-python/redis-4.5.5[${PYTHON_USEDEP}] )
 	server-apps? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
 	server-apps? ( dev-python/aiortc[${PYTHON_USEDEP}] )
-	server-apps? ( dev-python/requests[${PYTHON_USEDEP}] )
+	server-apps? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
 	server-apps? ( dev-python/playwright[${PYTHON_USEDEP}] )
 	server-apps? ( dev-python/base58[${PYTHON_USEDEP}] )
 	server-apps? ( dev-python/pymultihash[${PYTHON_USEDEP}] )"

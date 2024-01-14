@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="autolog dev doc gcs s3 test"
 DEPENDENCIES="dev-python/types-python-dateutil[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/python-dotenv-0.11.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.5.0[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/types-python-dateutil[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
 	autolog? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	autolog? ( dev-python/ipynbname[${PYTHON_USEDEP}] )
@@ -52,18 +52,18 @@ DEPENDENCIES="dev-python/types-python-dateutil[${PYTHON_USEDEP}]
 	dev? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
 	doc? ( dev-python/black[${PYTHON_USEDEP}] )
 	doc? ( dev-python/markdown-callouts[${PYTHON_USEDEP}] )
-	doc? ( dev-python/markdown-exec[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-redirects[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/markdown-exec-1.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-material-7.3[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-redirects-1.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-section-index[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocstrings-0.18[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
 	gcs? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	test? ( dev-python/docker-compose[${PYTHON_USEDEP}] )
 	test? ( dev-python/dslr[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mock-1.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
@@ -77,7 +77,7 @@ DEPENDENCIES="dev-python/types-python-dateutil[${PYTHON_USEDEP}]
 	test? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	test? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	test? ( dev-python/Cython[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/IPython[${PYTHON_USEDEP}] )
 	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/plotly[${PYTHON_USEDEP}] )

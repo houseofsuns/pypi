@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-3.1[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-3.12[${PYTHON_USEDEP}]
 	dev-python/django-model-utils[${PYTHON_USEDEP}]
 	dev-python/netdiff[${PYTHON_USEDEP}]
 	dev-python/openwisp-utils[${PYTHON_USEDEP}]

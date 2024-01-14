@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
-	dev-python/pyotp[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
+	>=dev-python/arrow-1.2[${PYTHON_USEDEP}]
+	>=dev-python/pyotp-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/rich-13.6.0[${PYTHON_USEDEP}]
 	dev-python/yt-dlp[${PYTHON_USEDEP}]
 	dev-python/mutagen[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]
 	dev-python/bilibili-api-python[${PYTHON_USEDEP}]
 	dev-python/audio-separator[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

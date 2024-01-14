@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs test"
 DEPENDENCIES="dev-python/pymultirole-plugins[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	<=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-3.0.7[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/inscriptis[${PYTHON_USEDEP}]
 	dev? ( dev-python/flit[${PYTHON_USEDEP}] )
@@ -37,19 +37,19 @@ DEPENDENCIES="dev-python/pymultirole-plugins[${PYTHON_USEDEP}]
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jupyter_sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests_cache[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	test? ( dev-python/ssh_pymongo[${PYTHON_USEDEP}] )
 	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests_cache[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-futures[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/requests-futures-1.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/bidict[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyenchant[${PYTHON_USEDEP}] )
 	test? ( dev-python/deepl[${PYTHON_USEDEP}] )

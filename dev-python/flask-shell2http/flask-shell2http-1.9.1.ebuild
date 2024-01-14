@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-1.0.0[${PYTHON_USEDEP}]
 	dev-python/blinker[${PYTHON_USEDEP}]
 	dev-python/flask-executor[${PYTHON_USEDEP}]
-	test? ( dev-python/flask[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flask-1.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/blinker[${PYTHON_USEDEP}] )
 	test? ( dev-python/flask-executor[${PYTHON_USEDEP}] )
 	test? ( dev-python/flask-testing[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox-gh-actions[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

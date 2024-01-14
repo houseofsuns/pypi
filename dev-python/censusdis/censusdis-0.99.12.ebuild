@@ -28,14 +28,14 @@ DEPENDENCIES="dev-python/divintseg[${PYTHON_USEDEP}]
 	dev-python/logargparser[${PYTHON_USEDEP}]
 	dev-python/geopandas[${PYTHON_USEDEP}]
 	dev-python/Rtree[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-copybutton-0.6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	dev-python/nbsphinx[${PYTHON_USEDEP}]
+	<dev-python/nbsphinx-0.10.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/toml[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]
 	dev-python/adjustText[${PYTHON_USEDEP}]
 	dev-python/Fiona[${PYTHON_USEDEP}]

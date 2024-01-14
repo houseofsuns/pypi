@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="http sql test"
-DEPENDENCIES="http? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+DEPENDENCIES="http? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	sql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	test? ( <dev-python/hypothesis-7.0.0[${PYTHON_USEDEP}] )
+	<dev-python/dill-0.4.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-4.0.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

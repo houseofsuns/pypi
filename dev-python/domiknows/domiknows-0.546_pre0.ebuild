@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/acls[${PYTHON_USEDEP}]
 	dev-python/Owlready2[${PYTHON_USEDEP}]
 	dev-python/gurobipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.5[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/ordered-set[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]

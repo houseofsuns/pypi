@@ -26,60 +26,60 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all doc tests"
 DEPENDENCIES="dev-python/ansys-api-geometry[${PYTHON_USEDEP}]
 	dev-python/ansys-tools-path[${PYTHON_USEDEP}]
-	dev-python/beartype[${PYTHON_USEDEP}]
-	dev-python/google-api-python-client[${PYTHON_USEDEP}]
-	dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
-	dev-python/grpcio[${PYTHON_USEDEP}]
+	>=dev-python/beartype-0.11.0[${PYTHON_USEDEP}]
+	>=dev-python/google-api-python-client-1.7.11[${PYTHON_USEDEP}]
+	>=dev-python/googleapis-common-protos-1.52.0[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-1.35.0[${PYTHON_USEDEP}]
 	dev-python/grpcio-health-checking[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
 	dev-python/Pint[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/pyvista[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
+	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	dev-python/vtk[${PYTHON_USEDEP}]
 	all? ( dev-python/ansys-platform-instancemanagement[${PYTHON_USEDEP}] )
-	all? ( dev-python/docker[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/docker-6.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyvista[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ansys-sphinx-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/docker[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/docker-7.0.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipyvtklink[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter_sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupytext[${PYTHON_USEDEP}] )
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/nbconvert-7.14.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/nbsphinx-0.9.3[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/notebook-7.0.6[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/numpydoc-1.6.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/panel[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pyvista[${PYTHON_USEDEP}] )
-	doc? ( dev-python/requests[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.2.5[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-autoapi-3.0.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-autodoc-typehints-1.24.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-jinja[${PYTHON_USEDEP}] )
 	doc? ( dev-python/vtk[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ansys-platform-instancemanagement[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ansys-tools-path[${PYTHON_USEDEP}] )
-	tests? ( dev-python/beartype[${PYTHON_USEDEP}] )
-	tests? ( dev-python/docker[${PYTHON_USEDEP}] )
-	tests? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	tests? ( dev-python/googleapis-common-protos[${PYTHON_USEDEP}] )
-	tests? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/beartype-0.16.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/docker-7.0.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/google-api-python-client-2.112.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/googleapis-common-protos-1.62.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/grpcio-1.60.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/grpcio-health-checking[${PYTHON_USEDEP}] )
-	tests? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/numpy-1.26.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Pint[${PYTHON_USEDEP}] )
 	tests? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pyvista[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xvfb[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-xvfb-3.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyvista[${PYTHON_USEDEP}] )
-	tests? ( dev-python/requests[${PYTHON_USEDEP}] )
-	tests? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/six[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/scipy-1.11.4[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/six-1.16.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/vtk[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

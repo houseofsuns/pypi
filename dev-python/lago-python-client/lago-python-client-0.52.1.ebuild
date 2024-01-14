@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/classes[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/typeguard[${PYTHON_USEDEP}]
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	~dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
+	~dev-python/orjson-3.8[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10[${PYTHON_USEDEP}]
+	~dev-python/typeguard-3.0.2[${PYTHON_USEDEP}]
+	test? ( ~dev-python/mypy-0.971[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-httpx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

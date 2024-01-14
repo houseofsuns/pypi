@@ -30,22 +30,22 @@ DEPENDENCIES="dev-python/cython[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	asyncio? ( dev-python/yt-dlp[${PYTHON_USEDEP}] )
-	asyncio? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
+	asyncio? ( ~dev-python/pyzmq-24.0.1[${PYTHON_USEDEP}] )
 	asyncio? ( dev-python/simplejpeg[${PYTHON_USEDEP}] )
-	asyncio? ( dev-python/mss[${PYTHON_USEDEP}] )
+	asyncio? ( >=dev-python/mss-9.0.1[${PYTHON_USEDEP}] )
 	asyncio? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	asyncio? ( dev-python/pyscreenshot[${PYTHON_USEDEP}] )
-	asyncio? ( dev-python/starlette[${PYTHON_USEDEP}] )
+	asyncio? ( >=dev-python/pyscreenshot-3.1[${PYTHON_USEDEP}] )
+	asyncio? ( >=dev-python/starlette-0.31.1[${PYTHON_USEDEP}] )
 	asyncio? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	asyncio? ( dev-python/msgpack[${PYTHON_USEDEP}] )
+	asyncio? ( >=dev-python/msgpack-1.0.5[${PYTHON_USEDEP}] )
 	asyncio? ( dev-python/msgpack-numpy[${PYTHON_USEDEP}] )
 	asyncio? ( dev-python/aiortc[${PYTHON_USEDEP}] )
-	asyncio? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	asyncio? ( >=dev-python/uvicorn-0.23.2[${PYTHON_USEDEP}] )
 	core? ( dev-python/yt-dlp[${PYTHON_USEDEP}] )
-	core? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
+	core? ( ~dev-python/pyzmq-24.0.1[${PYTHON_USEDEP}] )
 	core? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	core? ( dev-python/simplejpeg[${PYTHON_USEDEP}] )
-	core? ( dev-python/mss[${PYTHON_USEDEP}] )
-	core? ( dev-python/pyscreenshot[${PYTHON_USEDEP}] )"
+	core? ( >=dev-python/mss-9.0.1[${PYTHON_USEDEP}] )
+	core? ( >=dev-python/pyscreenshot-3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,9 +27,9 @@ IUSE="tests"
 DEPENDENCIES="dev-python/eth-keyfile[${PYTHON_USEDEP}]
 	dev-python/coincurve[${PYTHON_USEDEP}]
 	dev-python/multimethod[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-mock[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	~dev-python/requests-mock-1.10.0[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-1.5.1[${PYTHON_USEDEP}]
+	tests? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

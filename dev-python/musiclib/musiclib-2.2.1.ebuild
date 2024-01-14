@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev"
 DEPENDENCIES="dev-python/colortool[${PYTHON_USEDEP}]
 	dev-python/opseq[${PYTHON_USEDEP}]
-	dev-python/mido[${PYTHON_USEDEP}]
+	>=dev-python/mido-1.3.0[${PYTHON_USEDEP}]
 	dev-python/svg-py[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )

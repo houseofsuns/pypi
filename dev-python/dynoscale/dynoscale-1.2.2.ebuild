@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/asgiref[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/asgiref-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
+	test? ( >=dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pylint-2.17.4[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/responses-0.23.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/redislite[${PYTHON_USEDEP}] )
-	test? ( dev-python/rq[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/rq-1.14.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	test? ( dev-python/colorlog[${PYTHON_USEDEP}] )
-	test? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	test? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/colorlog-6.7.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/starlette-0.27.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/gunicorn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

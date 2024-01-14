@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/influxdb[${PYTHON_USEDEP}]
 	dev-python/pymoca[${PYTHON_USEDEP}]
 	dev-python/rtc-tools[${PYTHON_USEDEP}]
 	dev-python/pyesdl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	dev-python/casadi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

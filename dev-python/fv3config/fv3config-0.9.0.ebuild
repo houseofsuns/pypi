@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="bucket-access fv3run run_kubernetes"
 DEPENDENCIES="dev-python/f90nml[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.0[${PYTHON_USEDEP}]
 	dev-python/gcsfs[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-0.8.0[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
 	bucket-access? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	fv3run? ( dev-python/fv3gfs-python[${PYTHON_USEDEP}] )

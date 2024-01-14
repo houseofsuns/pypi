@@ -30,14 +30,14 @@ DEPENDENCIES="dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/argcomplete[${PYTHON_USEDEP}]
 	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/python-barcode[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
+	>=dev-python/qrcode-4.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	all? ( dev-python/pyserial[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyusb[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyusb-1.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pycups[${PYTHON_USEDEP}] )
 	cups? ( dev-python/pycups[${PYTHON_USEDEP}] )
 	serial? ( dev-python/pyserial[${PYTHON_USEDEP}] )
-	usb? ( dev-python/pyusb[${PYTHON_USEDEP}] )"
+	usb? ( >=dev-python/pyusb-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

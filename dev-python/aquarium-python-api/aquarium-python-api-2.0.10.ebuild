@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/dotmap[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )"
+	>=dev-python/pytz-2020.5[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/sphinx-3.4.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/furo-0.5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-copybutton-0.3.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/myst-parser-0.13.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

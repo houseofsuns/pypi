@@ -24,25 +24,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all bpx cite dev docs examples jax latexify odes pandas plot tqdm"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.23.5[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.9.3[${PYTHON_USEDEP}]
 	dev-python/casadi[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2022.6.0[${PYTHON_USEDEP}]
 	dev-python/anytree[${PYTHON_USEDEP}]
 	all? ( dev-python/autograd[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-fem[${PYTHON_USEDEP}] )
 	all? ( dev-python/pybamm[${PYTHON_USEDEP}] )
 	bpx? ( dev-python/bpx[${PYTHON_USEDEP}] )
-	cite? ( dev-python/pybtex[${PYTHON_USEDEP}] )
+	cite? ( >=dev-python/pybtex-0.24.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbmake[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-6.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.5[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
@@ -60,11 +60,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	examples? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jax[${PYTHON_USEDEP}] )
 	jax? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
-	latexify? ( dev-python/sympy[${PYTHON_USEDEP}] )
+	latexify? ( >=dev-python/sympy-1.12[${PYTHON_USEDEP}] )
 	odes? ( dev-python/scikits-odes[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	plot? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	plot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	pandas? ( >=dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
+	plot? ( >=dev-python/imageio-2.3.0[${PYTHON_USEDEP}] )
+	plot? ( >=dev-python/matplotlib-3.6.0[${PYTHON_USEDEP}] )
 	tqdm? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

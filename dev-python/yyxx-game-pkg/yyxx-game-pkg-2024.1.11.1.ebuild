@@ -33,25 +33,25 @@ DEPENDENCIES="dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-celery[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-flask[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation-django[${PYTHON_USEDEP}]
-	dev-python/line-profiler[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
-	dev-python/pymysql[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
+	<dev-python/line-profiler-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/pymysql-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pika-2.0.0[${PYTHON_USEDEP}]
 	dev-python/dbutils[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/ujson-6.0.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
+	<dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pycryptodome-4.0[${PYTHON_USEDEP}]
+	<dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
+	~dev-python/pymongo-3.13.0[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-4.0.0[${PYTHON_USEDEP}]
 	stat? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	server-center? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	server-center? ( dev-python/filetype[${PYTHON_USEDEP}] )
-	server-center? ( dev-python/django[${PYTHON_USEDEP}] )
-	center-api? ( dev-python/flask[${PYTHON_USEDEP}] )
+	server-center? ( <dev-python/pillow-10.0.0[${PYTHON_USEDEP}] )
+	server-center? ( <dev-python/filetype-2.0.0[${PYTHON_USEDEP}] )
+	server-center? ( <dev-python/django-5.0.0[${PYTHON_USEDEP}] )
+	center-api? ( <dev-python/flask-3.0.0[${PYTHON_USEDEP}] )
 	center-api? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

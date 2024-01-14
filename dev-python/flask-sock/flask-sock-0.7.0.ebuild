@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
-	dev-python/simple-websocket[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/flask-2.0[${PYTHON_USEDEP}]
+	>=dev-python/simple-websocket-0.5.1[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

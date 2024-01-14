@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/stix2-patterns[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]"
+	>=dev-python/deepmerge-1.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ds tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.17.0[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/rich-10.0.0[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0.0[${PYTHON_USEDEP}]
 	dev-python/python-rapidjson[${PYTHON_USEDEP}]
-	dev-python/py-cpuinfo[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	>=dev-python/py-cpuinfo-8.0.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
 	ds? ( dev-python/torch[${PYTHON_USEDEP}] )
-	ds? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	ds? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	ds? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	ds? ( >=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}] )
+	ds? ( >=dev-python/scipy-1.4.1[${PYTHON_USEDEP}] )
+	ds? ( >=dev-python/tqdm-4.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/torch[${PYTHON_USEDEP}] )
-	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/scipy-1.4.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/tqdm-4.0.0[${PYTHON_USEDEP}] )
+	tests? ( <=dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.12.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-5.5[${PYTHON_USEDEP}] )
 	tests? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	tests? ( dev-python/setuptools[${PYTHON_USEDEP}] )"
+	tests? ( >=dev-python/setuptools-60.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

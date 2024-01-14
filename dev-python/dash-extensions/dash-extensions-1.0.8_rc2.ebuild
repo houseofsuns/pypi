@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="mantine"
 DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	<dev-python/more-itertools-10.0.0[${PYTHON_USEDEP}]
 	dev-python/jsbeautifier[${PYTHON_USEDEP}]
 	dev-python/Flask-Caching[${PYTHON_USEDEP}]
 	mantine? ( dev-python/dash-mantine-components[${PYTHON_USEDEP}] )

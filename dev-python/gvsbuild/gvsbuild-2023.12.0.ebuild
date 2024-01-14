@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="outdated"
-DEPENDENCIES="dev-python/build[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/build-1.1[${PYTHON_USEDEP}]
 	outdated? ( dev-python/lastversion[${PYTHON_USEDEP}] )
-	outdated? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	outdated? ( <dev-python/packaging-24.0[${PYTHON_USEDEP}] )
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev"
-DEPENDENCIES="dev-python/nodeenv[${PYTHON_USEDEP}]
-	all? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/nodeenv-1.6.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/twine-3.4.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-3.4.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

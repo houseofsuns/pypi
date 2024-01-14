@@ -27,7 +27,7 @@ IUSE="testing"
 DEPENDENCIES="dev-python/cdo-local-uuid[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pyshacl[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	<dev-python/rdflib-8.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	testing? ( dev-python/PyLD[${PYTHON_USEDEP}] )

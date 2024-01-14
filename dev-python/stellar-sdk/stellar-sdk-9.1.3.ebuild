@@ -25,11 +25,11 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="aiohttp"
 DEPENDENCIES="dev-python/PyNaCl[${PYTHON_USEDEP}]
-	aiohttp? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	aiohttp? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
 	aiohttp? ( dev-python/aiohttp-sse-client[${PYTHON_USEDEP}] )
 	dev-python/mnemonic[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/requests-sse[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/xdrlib3[${PYTHON_USEDEP}]"

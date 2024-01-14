@@ -30,6 +30,6 @@ DEPENDENCIES="dev-python/watchmen-data-surface[${PYTHON_USEDEP}]
 	dev-python/watchmen-inquiry-trino[${PYTHON_USEDEP}]
 	dev-python/watchmen-indicator-surface[${PYTHON_USEDEP}]
 	dev-python/watchmen-storage-mysql[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]"
+	<dev-python/networkx-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/pybedtools[${PYTHON_USEDEP}]
 	dev-python/gffutils[${PYTHON_USEDEP}]
-	dev-python/progress[${PYTHON_USEDEP}]
+	>=dev-python/progress-1.0[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

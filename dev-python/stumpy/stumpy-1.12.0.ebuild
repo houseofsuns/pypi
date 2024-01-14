@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.18[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
-	ci? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	ci? ( dev-python/dask[${PYTHON_USEDEP}] )
+	ci? ( >=dev-python/pandas-0.20.0[${PYTHON_USEDEP}] )
+	ci? ( >=dev-python/dask-1.2.2[${PYTHON_USEDEP}] )
 	ci? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	ci? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	ci? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	ci? ( >=dev-python/coverage-4.5.3[${PYTHON_USEDEP}] )
+	ci? ( >=dev-python/flake8-3.7.7[${PYTHON_USEDEP}] )
 	ci? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	ci? ( dev-python/black[${PYTHON_USEDEP}] )
-	ci? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	ci? ( dev-python/isort[${PYTHON_USEDEP}] )"
+	ci? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
+	ci? ( >=dev-python/pytest-4.4.1[${PYTHON_USEDEP}] )
+	ci? ( >=dev-python/isort-5.11.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="complexity documentation formatting publishing style testing versioning"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-1.10[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.0[${PYTHON_USEDEP}]
 	dev-python/django-appconf[${PYTHON_USEDEP}]
 	dev-python/django-ipware[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	complexity? ( dev-python/xenon[${PYTHON_USEDEP}] )
 	documentation? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	formatting? ( dev-python/black[${PYTHON_USEDEP}] )
-	publishing? ( dev-python/twine[${PYTHON_USEDEP}] )
-	style? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
+	formatting? ( ~dev-python/black-18.6[${PYTHON_USEDEP}] )
+	publishing? ( ~dev-python/twine-1.11.0[${PYTHON_USEDEP}] )
+	style? ( ~dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-3.6.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-django-3.3.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/tox-3.0.0[${PYTHON_USEDEP}] )
 	versioning? ( dev-python/bumpversion[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

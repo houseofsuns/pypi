@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="coverage docs install test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	dev-python/furl[${PYTHON_USEDEP}]
-	dev-python/pyhamcrest[${PYTHON_USEDEP}]
+	>=dev-python/pyhamcrest-2.0[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
 	dev-python/brunns-matchers[${PYTHON_USEDEP}]
 	dev-python/imurl[${PYTHON_USEDEP}]
-	coverage? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	coverage? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
 	coverage? ( dev-python/codacy-coverage[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-autodoc-typehints-1.10[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
-	install? ( dev-python/requests[${PYTHON_USEDEP}] )
+	install? ( >=dev-python/requests-2.0[${PYTHON_USEDEP}] )
 	install? ( dev-python/furl[${PYTHON_USEDEP}] )
-	install? ( dev-python/pyhamcrest[${PYTHON_USEDEP}] )
+	install? ( >=dev-python/pyhamcrest-2.0[${PYTHON_USEDEP}] )
 	install? ( dev-python/Deprecated[${PYTHON_USEDEP}] )
 	install? ( dev-python/brunns-matchers[${PYTHON_USEDEP}] )
 	install? ( dev-python/imurl[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/contexttimer[${PYTHON_USEDEP}] )
 	test? ( dev-python/brunns-builder[${PYTHON_USEDEP}] )
-	test? ( dev-python/trustme[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/trustme-0.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

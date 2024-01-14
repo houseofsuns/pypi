@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tools"
 DEPENDENCIES="dev-python/aiogram[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	<dev-python/cachetools-6.0.0[${PYTHON_USEDEP}]
 	dev-python/magic-filter[${PYTHON_USEDEP}]
 	tools? ( dev-python/diagrams[${PYTHON_USEDEP}] )
 	tools? ( dev-python/aiohttp[${PYTHON_USEDEP}] )"

@@ -26,16 +26,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all dev docs ext http3 test"
 DEPENDENCIES="dev-python/sanic-routing[${PYTHON_USEDEP}]
 	dev-python/httptools[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-0.6.0[${PYTHON_USEDEP}]
+	>=dev-python/websockets-10.0[${PYTHON_USEDEP}]
+	<dev-python/multidict-7.0[${PYTHON_USEDEP}]
 	dev-python/html5tagger[${PYTHON_USEDEP}]
 	dev-python/tracerite[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	dev-python/ujson[${PYTHON_USEDEP}]
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
+	>=dev-python/uvloop-0.15.0[${PYTHON_USEDEP}]
+	>=dev-python/ujson-1.35[${PYTHON_USEDEP}]
+	all? ( >=dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	all? ( dev-python/enum-tools[${PYTHON_USEDEP}] )
@@ -47,58 +47,58 @@ DEPENDENCIES="dev-python/sanic-routing[${PYTHON_USEDEP}]
 	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	all? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	all? ( dev-python/mistune[${PYTHON_USEDEP}] )
-	all? ( dev-python/chardet[${PYTHON_USEDEP}] )
+	all? ( <dev-python/mistune-2.0.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/chardet-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	all? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-7.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/slotscheck[${PYTHON_USEDEP}] )
-	all? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	all? ( <dev-python/uvicorn-0.15.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	all? ( dev-python/sanic-testing[${PYTHON_USEDEP}] )
 	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-ujson[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sanic-testing[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-sanic[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/chardet[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/chardet-3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/uvicorn-0.15.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/slotscheck[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/towncrier[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-ujson[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
 	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/enum-tools[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mistune-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	ext? ( dev-python/sanic-ext[${PYTHON_USEDEP}] )
 	http3? ( dev-python/aioquic[${PYTHON_USEDEP}] )
 	test? ( dev-python/sanic-testing[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-sanic[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	test? ( dev-python/chardet[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/chardet-3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/bandit[${PYTHON_USEDEP}] )
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/docutils[${PYTHON_USEDEP}] )
 	test? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	test? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
+	test? ( <dev-python/uvicorn-0.15.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/slotscheck[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-ujson[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

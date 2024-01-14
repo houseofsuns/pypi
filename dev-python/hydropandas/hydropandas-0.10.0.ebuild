@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="coveraging dev formatting full linting pytesting rtd"
 DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.1.0[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -50,7 +50,7 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	linting? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	linting? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	pytesting? ( dev-python/hydropandas[${PYTHON_USEDEP}] )
-	pytesting? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	pytesting? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	pytesting? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	pytesting? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/hydropandas[${PYTHON_USEDEP}] )
@@ -60,7 +60,7 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	rtd? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/netCDF4[${PYTHON_USEDEP}] )
-	rtd? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	rtd? ( <dev-python/docutils-0.18[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/Ipython[${PYTHON_USEDEP}] )
 	rtd? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )

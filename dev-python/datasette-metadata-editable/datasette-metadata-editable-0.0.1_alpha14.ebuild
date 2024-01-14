@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/datasette[${PYTHON_USEDEP}]
-	dev-python/markdown2[${PYTHON_USEDEP}]
-	dev-python/nh3[${PYTHON_USEDEP}]
+	>=dev-python/markdown2-2.4.10[${PYTHON_USEDEP}]
+	~dev-python/nh3-0.2.14[${PYTHON_USEDEP}]
 	dev-python/sqlite-migrate[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs export-polarion provision-beaker provision-virtual report-junit report-polarion test-convert"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.0.3[${PYTHON_USEDEP}]
 	dev-python/fmf[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.16.6[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/tmt[${PYTHON_USEDEP}] )
 	all? ( dev-python/tmt[${PYTHON_USEDEP}] )
 	all? ( dev-python/tmt[${PYTHON_USEDEP}] )
@@ -38,19 +38,19 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	all? ( dev-python/tmt[${PYTHON_USEDEP}] )
 	all? ( dev-python/tmt[${PYTHON_USEDEP}] )
 	all? ( dev-python/tmt[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/fmf[${PYTHON_USEDEP}] )
 	docs? ( dev-python/readthedocs-sphinx-ext[${PYTHON_USEDEP}] )
 	docs? ( dev-python/renku-sphinx-theme[${PYTHON_USEDEP}] )
 	export-polarion? ( dev-python/pylero[${PYTHON_USEDEP}] )
 	provision-beaker? ( dev-python/mrack[${PYTHON_USEDEP}] )
 	provision-virtual? ( dev-python/testcloud[${PYTHON_USEDEP}] )
-	report-junit? ( dev-python/junit-xml[${PYTHON_USEDEP}] )
+	report-junit? ( >=dev-python/junit-xml-1.9[${PYTHON_USEDEP}] )
 	report-polarion? ( dev-python/tmt[${PYTHON_USEDEP}] )
 	report-polarion? ( dev-python/tmt[${PYTHON_USEDEP}] )
-	test-convert? ( dev-python/html2text[${PYTHON_USEDEP}] )
-	test-convert? ( dev-python/markdown[${PYTHON_USEDEP}] )
+	test-convert? ( >=dev-python/html2text-2020.1.16[${PYTHON_USEDEP}] )
+	test-convert? ( >=dev-python/markdown-3.3.4[${PYTHON_USEDEP}] )
 	test-convert? ( dev-python/nitrate[${PYTHON_USEDEP}] )
-	test-convert? ( dev-python/python-bugzilla[${PYTHON_USEDEP}] )"
+	test-convert? ( >=dev-python/python-bugzilla-3.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev sankey"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev-python/django-bootstrap-form[${PYTHON_USEDEP}]
 	dev-python/django-tastypie[${PYTHON_USEDEP}]
-	dev-python/django-registration[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/django-registration-3.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2018.9[${PYTHON_USEDEP}]
 	dev-python/ordereddict[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-4.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/pySankeyBeta[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-rosetta[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )

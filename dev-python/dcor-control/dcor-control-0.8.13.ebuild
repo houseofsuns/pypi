@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	dev-python/ckanext-dc-log-view[${PYTHON_USEDEP}]
 	dev-python/ckanext-dc-serve[${PYTHON_USEDEP}]
 	dev-python/ckanext-dc-view[${PYTHON_USEDEP}]
@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/ckanext-dcor-schemas[${PYTHON_USEDEP}]
 	dev-python/ckanext-dcor-theme[${PYTHON_USEDEP}]
 	dev-python/dcor-shared[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

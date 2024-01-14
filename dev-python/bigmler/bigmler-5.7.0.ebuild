@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full images topics"
 DEPENDENCIES="dev-python/bigml[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/nbformat[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-2.6.0[${PYTHON_USEDEP}]
+	>=dev-python/nbformat-4.4.0[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	full? ( dev-python/bigml[${PYTHON_USEDEP}] )
 	images? ( dev-python/bigml[${PYTHON_USEDEP}] )

@@ -24,127 +24,127 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc postgres style test"
-DEPENDENCIES="dev-python/aiodns[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/aiodns-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
 	dev-python/aiohttp-json-rpc[${PYTHON_USEDEP}]
-	dev-python/aiosignal[${PYTHON_USEDEP}]
-	dev-python/apsw[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	~dev-python/aiosignal-1.3.1[${PYTHON_USEDEP}]
+	~dev-python/apsw-3.43.1.0[${PYTHON_USEDEP}]
+	~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
+	~dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/brotli[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	dev-python/charset-normalizer[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	~dev-python/cffi-1.15.1[${PYTHON_USEDEP}]
+	~dev-python/charset-normalizer-3.2.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev-python/contextlib2[${PYTHON_USEDEP}]
 	dev-python/discord-py[${PYTHON_USEDEP}]
-	dev-python/frozenlist[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/importlib-metadata[${PYTHON_USEDEP}]
-	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/markdown-it-py[${PYTHON_USEDEP}]
-	dev-python/mdurl[${PYTHON_USEDEP}]
-	dev-python/multidict[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/pycares[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/rapidfuzz[${PYTHON_USEDEP}]
+	~dev-python/frozenlist-1.4.0[${PYTHON_USEDEP}]
+	~dev-python/idna-3.4[${PYTHON_USEDEP}]
+	~dev-python/importlib-metadata-6.8.0[${PYTHON_USEDEP}]
+	~dev-python/markdown-3.4.4[${PYTHON_USEDEP}]
+	~dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/mdurl-0.1.2[${PYTHON_USEDEP}]
+	~dev-python/multidict-6.0.4[${PYTHON_USEDEP}]
+	~dev-python/orjson-3.9.7[${PYTHON_USEDEP}]
+	~dev-python/packaging-23.1[${PYTHON_USEDEP}]
+	~dev-python/platformdirs-3.10.0[${PYTHON_USEDEP}]
+	~dev-python/psutil-5.9.5[${PYTHON_USEDEP}]
+	~dev-python/pycares-4.3.0[${PYTHON_USEDEP}]
+	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
+	~dev-python/pygments-2.16.1[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
+	~dev-python/rapidfuzz-3.3.0[${PYTHON_USEDEP}]
 	dev-python/red-commons[${PYTHON_USEDEP}]
 	dev-python/red-lavalink[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	~dev-python/rich-13.5.2[${PYTHON_USEDEP}]
 	dev-python/schema[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
+	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
+	~dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.9.2[${PYTHON_USEDEP}]
+	~dev-python/zipp-3.16.2[${PYTHON_USEDEP}]
+	~dev-python/uvloop-0.17.0[${PYTHON_USEDEP}]
+	~dev-python/distro-1.8.0[${PYTHON_USEDEP}]
 	all? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}] )
-	dev? ( dev-python/alabaster[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}] )
-	dev? ( dev-python/exceptiongroup[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )
-	dev? ( dev-python/certifi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pathspec[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinxcontrib-jquery-4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/exceptiongroup-1.1.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pluggy-1.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-prompt-1.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pathspec-0.11.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mccabe[${PYTHON_USEDEP}] )
-	dev? ( dev-python/dill[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/imagesize[${PYTHON_USEDEP}] )
-	dev? ( dev-python/lazy-object-proxy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/astroid[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-trio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/dill-0.3.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tomlkit-0.12.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinxcontrib-applehelp-1.0.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/imagesize-1.4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/lazy-object-proxy-1.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinxcontrib-devhelp-1.0.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinxcontrib-qthelp-1.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinxcontrib-serializinghtml-1.1.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/astroid-2.15.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinxcontrib-htmlhelp-2.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinxcontrib-trio-1.1.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/urllib3-2.0.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.17.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wrapt[${PYTHON_USEDEP}] )
-	dev? ( dev-python/iniconfig[${PYTHON_USEDEP}] )
-	dev? ( dev-python/snowballstemmer[${PYTHON_USEDEP}] )
-	doc? ( dev-python/alabaster[${PYTHON_USEDEP}] )
-	doc? ( dev-python/certifi[${PYTHON_USEDEP}] )
-	doc? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	doc? ( dev-python/imagesize[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wrapt-1.15.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/snowballstemmer-2.2.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/certifi-2023.7.22[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/docutils-0.18.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/imagesize-1.4.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
-	doc? ( dev-python/requests[${PYTHON_USEDEP}] )
-	doc? ( dev-python/snowballstemmer[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-prompt[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-trio[${PYTHON_USEDEP}] )
-	doc? ( dev-python/urllib3[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/snowballstemmer-2.2.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-7.1.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-prompt-1.7.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-applehelp-1.0.4[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-devhelp-1.0.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-htmlhelp-2.0.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-jquery-4.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-qthelp-1.0.3[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-serializinghtml-1.1.5[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinxcontrib-trio-1.1.2[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/urllib3-2.0.4[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	style? ( dev-python/black[${PYTHON_USEDEP}] )
-	style? ( dev-python/mypy_extensions[${PYTHON_USEDEP}] )
-	style? ( dev-python/pathspec[${PYTHON_USEDEP}] )
-	style? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	test? ( dev-python/astroid[${PYTHON_USEDEP}] )
-	test? ( dev-python/dill[${PYTHON_USEDEP}] )
-	test? ( dev-python/exceptiongroup[${PYTHON_USEDEP}] )
-	test? ( dev-python/iniconfig[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/lazy-object-proxy[${PYTHON_USEDEP}] )
-	test? ( dev-python/mccabe[${PYTHON_USEDEP}] )
-	test? ( dev-python/pluggy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	test? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
-	test? ( dev-python/wrapt[${PYTHON_USEDEP}] )"
+	style? ( ~dev-python/black-23.9.1[${PYTHON_USEDEP}] )
+	style? ( ~dev-python/mypy_extensions-1.0.0[${PYTHON_USEDEP}] )
+	style? ( ~dev-python/pathspec-0.11.2[${PYTHON_USEDEP}] )
+	style? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/astroid-2.15.6[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/dill-0.3.7[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/exceptiongroup-1.1.3[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/lazy-object-proxy-1.9.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mccabe-0.7.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pluggy-1.3.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pylint-2.17.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.4.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.11.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/tomlkit-0.12.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/wrapt-1.15.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

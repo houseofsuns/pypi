@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/emoji[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/emoji-3.0.0[${PYTHON_USEDEP}]
 	dev-python/python-yakh[${PYTHON_USEDEP}]
 	dev-python/questo[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]"
+	>=dev-python/rich-12.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

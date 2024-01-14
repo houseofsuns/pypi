@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyterlab[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/jupyterlab-3.6.3[${PYTHON_USEDEP}]
 	dev-python/jupyter-app-launcher[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/maskpass[${PYTHON_USEDEP}]"

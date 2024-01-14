@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="dev-python/flask-taxonomies[${PYTHON_USEDEP}]
 	dev-python/flatten-json[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
 	dev-python/oarepo-mapping-includes[${PYTHON_USEDEP}]
 	dev-python/oarepo-references[${PYTHON_USEDEP}]
-	dev-python/deepmerge[${PYTHON_USEDEP}]
-	dev-python/boltons[${PYTHON_USEDEP}]
+	>=dev-python/deepmerge-0.1.0[${PYTHON_USEDEP}]
+	>=dev-python/boltons-20.0.0[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/oarepo[${PYTHON_USEDEP}] )"

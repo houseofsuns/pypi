@@ -28,11 +28,11 @@ DEPENDENCIES="dev-python/affine[${PYTHON_USEDEP}]
 	dev-python/odc-geo[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pystac[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.19[${PYTHON_USEDEP}]
 	botocore? ( dev-python/botocore[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

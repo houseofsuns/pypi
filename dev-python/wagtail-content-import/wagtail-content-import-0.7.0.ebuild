@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="testing"
 DEPENDENCIES="dev-python/wagtail[${PYTHON_USEDEP}]
 	dev-python/python-docx[${PYTHON_USEDEP}]
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )
-	testing? ( dev-python/dj-database-url[${PYTHON_USEDEP}] )"
+	testing? ( >=dev-python/mock-1.0.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/coverage-3.7.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/flake8-2.2.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/tox-3.9.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/dj-database-url-0.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

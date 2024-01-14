@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli jupyter pyodide web"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/fs[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/fs-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	cli? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	cli? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/tqdm-5.0.0[${PYTHON_USEDEP}] )
 	web? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	web? ( dev-python/Flask-Cors[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	cli? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	pyodide? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	pyodide? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/jupyterlab-4.0.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )
+	pyodide? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )
+	jupyter? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
+	pyodide? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
 	dev-python/prpc-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

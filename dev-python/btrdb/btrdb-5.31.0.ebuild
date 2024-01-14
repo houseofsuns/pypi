@@ -32,12 +32,12 @@ DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	dev-python/polars[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.0[${PYTHON_USEDEP}]
 	all? ( dev-python/btrdb[${PYTHON_USEDEP}] )
 	all? ( dev-python/btrdb[${PYTHON_USEDEP}] )
 	all? ( dev-python/btrdb[${PYTHON_USEDEP}] )
 	data? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	data? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	data? ( >=dev-python/pandas-2.0[${PYTHON_USEDEP}] )
 	data? ( dev-python/polars[${PYTHON_USEDEP}] )
 	data? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	data? ( dev-python/tabulate[${PYTHON_USEDEP}] )

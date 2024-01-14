@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/ought-ice[${PYTHON_USEDEP}]
 	dev-python/fvalues[${PYTHON_USEDEP}]
 	dev-python/gorilla[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

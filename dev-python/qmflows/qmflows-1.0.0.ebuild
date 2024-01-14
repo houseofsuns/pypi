@@ -26,31 +26,31 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc lint test test-no-optional"
 DEPENDENCIES="dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/noodles[${PYTHON_USEDEP}]
 	dev-python/plams[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	>=dev-python/packaging-1.16.8[${PYTHON_USEDEP}]
+	doc? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pandoc[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/pydocstyle-6.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/qmflows[${PYTHON_USEDEP}] )
 	test? ( dev-python/rdkit[${PYTHON_USEDEP}] )
 	test-no-optional? ( dev-python/assertionlib[${PYTHON_USEDEP}] )
-	test-no-optional? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test-no-optional? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	test-no-optional? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test-no-optional? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test-no-optional? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )"

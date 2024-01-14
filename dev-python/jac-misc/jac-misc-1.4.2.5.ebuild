@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all cluster elastic_retrieval langchain openai pdf_ext ph translator"
 DEPENDENCIES="dev-python/jaseci[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-order[${PYTHON_USEDEP}]
-	all? ( dev-python/pypdf[${PYTHON_USEDEP}] )
+	<dev-python/pytest-7.1[${PYTHON_USEDEP}]
+	<dev-python/pytest-order-1.1[${PYTHON_USEDEP}]
+	all? ( ~dev-python/pypdf-3.15.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
 	all? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
@@ -39,8 +39,8 @@ DEPENDENCIES="dev-python/jaseci[${PYTHON_USEDEP}]
 	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/openai[${PYTHON_USEDEP}] )
 	all? ( dev-python/soundfile[${PYTHON_USEDEP}] )
-	all? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	all? ( dev-python/tenacity[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/elasticsearch-8.9.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tenacity-8.2.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyPDF[${PYTHON_USEDEP}] )
 	all? ( dev-python/docx2txt[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-pptx[${PYTHON_USEDEP}] )
@@ -53,8 +53,8 @@ DEPENDENCIES="dev-python/jaseci[${PYTHON_USEDEP}]
 	cluster? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
 	cluster? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	elastic_retrieval? ( dev-python/openai[${PYTHON_USEDEP}] )
-	elastic_retrieval? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
-	elastic_retrieval? ( dev-python/tenacity[${PYTHON_USEDEP}] )
+	elastic_retrieval? ( ~dev-python/elasticsearch-8.9.0[${PYTHON_USEDEP}] )
+	elastic_retrieval? ( >=dev-python/tenacity-8.2.1[${PYTHON_USEDEP}] )
 	elastic_retrieval? ( dev-python/PyPDF[${PYTHON_USEDEP}] )
 	elastic_retrieval? ( dev-python/docx2txt[${PYTHON_USEDEP}] )
 	elastic_retrieval? ( dev-python/python-pptx[${PYTHON_USEDEP}] )
@@ -65,7 +65,7 @@ DEPENDENCIES="dev-python/jaseci[${PYTHON_USEDEP}]
 	langchain? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
 	openai? ( dev-python/openai[${PYTHON_USEDEP}] )
 	openai? ( dev-python/soundfile[${PYTHON_USEDEP}] )
-	pdf_ext? ( dev-python/pypdf[${PYTHON_USEDEP}] )
+	pdf_ext? ( ~dev-python/pypdf-3.15.4[${PYTHON_USEDEP}] )
 	ph? ( dev-python/torch[${PYTHON_USEDEP}] )
 	ph? ( dev-python/uuid[${PYTHON_USEDEP}] )
 	ph? ( dev-python/transformers[${PYTHON_USEDEP}] )

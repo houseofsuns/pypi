@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gcp"
-DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/grpcio-1.50.0[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	gcp? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	~dev-python/croniter-1.0[${PYTHON_USEDEP}]
+	gcp? ( >=dev-python/pandas-1.0.0[${PYTHON_USEDEP}] )
 	gcp? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all lightgbm pyspark tensorflow_decision_forests xgboost"
-DEPENDENCIES="dev-python/graphviz[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/graphviz-0.9[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]

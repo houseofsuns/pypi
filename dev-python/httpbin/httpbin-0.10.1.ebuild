@@ -28,10 +28,10 @@ DEPENDENCIES="dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/brotlicffi[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/flasgger[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
+	>=dev-python/werkzeug-0.14.1[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
+	<dev-python/greenlet-3.0[${PYTHON_USEDEP}]
+	>=dev-python/greenlet-3.0.0[${PYTHON_USEDEP}]
 	mainapp? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	mainapp? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

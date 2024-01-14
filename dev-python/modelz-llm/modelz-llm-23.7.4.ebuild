@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="gpu"
 DEPENDENCIES="dev-python/llmspec[${PYTHON_USEDEP}]
 	dev-python/falcon[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.22[${PYTHON_USEDEP}]
 	dev-python/mosec[${PYTHON_USEDEP}]
 	gpu? ( dev-python/torch[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/transformers[${PYTHON_USEDEP}] )

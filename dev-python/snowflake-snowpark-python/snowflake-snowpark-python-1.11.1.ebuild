@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="development localtest pandas secure-local-storage"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-40.6.0[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
-	dev-python/cloudpickle[${PYTHON_USEDEP}]
+	<=dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
+	~dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
 	development? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	development? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	development? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	development? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	development? ( ~dev-python/sphinx-5.0.2[${PYTHON_USEDEP}] )
 	development? ( dev-python/cachetools[${PYTHON_USEDEP}] )
 	development? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	localtest? ( dev-python/pandas[${PYTHON_USEDEP}] )

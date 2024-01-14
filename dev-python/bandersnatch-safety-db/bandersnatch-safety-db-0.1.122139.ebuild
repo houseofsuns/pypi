@@ -27,7 +27,7 @@ IUSE="doc_build safety_package test"
 DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/bandersnatch[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	>dev-python/setuptools-40.0.0[${PYTHON_USEDEP}]
 	doc_build? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc_build? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
 	doc_build? ( dev-python/guzzle-sphinx-theme[${PYTHON_USEDEP}] )

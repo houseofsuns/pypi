@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pvapy[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
+	~dev-python/pyqtgraph-0.12.4[${PYTHON_USEDEP}]
 	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/blosc[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

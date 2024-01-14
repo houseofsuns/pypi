@@ -31,10 +31,10 @@ DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/regex[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
 	dev-python/minio[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/elasticsearch-8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pymysql[${PYTHON_USEDEP}] )

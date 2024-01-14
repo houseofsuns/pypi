@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/openfisca-core[${PYTHON_USEDEP}]
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/autopep8-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-coding[${PYTHON_USEDEP}] )
@@ -38,8 +38,8 @@ DEPENDENCIES="dev-python/openfisca-core[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-simplify[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-use-fstring[${PYTHON_USEDEP}] )
-	dev? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/importlib-metadata-7.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pycodestyle-3.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pylint-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

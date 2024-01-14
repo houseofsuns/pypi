@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/aiofile[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.12.14[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/piffle[${PYTHON_USEDEP}]
 	dev-python/urlpath[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
+	<dev-python/elasticsearch-8.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-asyncio-0.14.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

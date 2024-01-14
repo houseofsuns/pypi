@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all board cuml dask extra fg notebook tests zhcn"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/lightgbm[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-0.8.0[${PYTHON_USEDEP}]
 	dev-python/ipython[${PYTHON_USEDEP}]
 	dev-python/traitlets[${PYTHON_USEDEP}]
 	dev-python/XlsxWriter[${PYTHON_USEDEP}]
@@ -44,11 +44,11 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/cudf[${PYTHON_USEDEP}] )
 	all? ( dev-python/cuml[${PYTHON_USEDEP}] )
 	all? ( dev-python/cupy[${PYTHON_USEDEP}] )
-	all? ( dev-python/dask[${PYTHON_USEDEP}] )
+	all? ( >dev-python/dask-2023.2.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask-ml[${PYTHON_USEDEP}] )
 	all? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	all? ( dev-python/featuretools[${PYTHON_USEDEP}] )
-	all? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/grpcio-1.24.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	all? ( dev-python/jieba[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
@@ -65,12 +65,12 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	cuml? ( dev-python/cudf[${PYTHON_USEDEP}] )
 	cuml? ( dev-python/cuml[${PYTHON_USEDEP}] )
 	cuml? ( dev-python/pynvml[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
+	dask? ( >dev-python/dask-2023.2.1[${PYTHON_USEDEP}] )
 	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
 	dask? ( dev-python/dask-ml[${PYTHON_USEDEP}] )
 	extra? ( dev-python/paramiko[${PYTHON_USEDEP}] )
 	extra? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	extra? ( dev-python/grpcio[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/grpcio-1.24.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	extra? ( dev-python/python-geohash[${PYTHON_USEDEP}] )
 	fg? ( dev-python/featuretools[${PYTHON_USEDEP}] )

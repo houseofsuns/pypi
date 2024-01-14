@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/graphviz[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/graphviz-0.20.1[${PYTHON_USEDEP}]
+	~dev-python/ipython-8.12.1[${PYTHON_USEDEP}]
+	~dev-python/joblib-1.3.2[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.7.4[${PYTHON_USEDEP}]
+	~dev-python/networkx-3.1[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.24.4[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.2.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
-	dev-python/pygraphviz[${PYTHON_USEDEP}]
+	~dev-python/pydot-1.4.2[${PYTHON_USEDEP}]
+	~dev-python/pygraphviz-1.9[${PYTHON_USEDEP}]
 	dev-python/pyreadr[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	~dev-python/scipy-1.9.3[${PYTHON_USEDEP}]
+	~dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
+	~dev-python/setuptools-46.1.3[${PYTHON_USEDEP}]
 	dev-python/statannot[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchopt[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]"
+	~dev-python/tqdm-4.44.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

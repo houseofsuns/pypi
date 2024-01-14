@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/future[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/future-0.16.0[${PYTHON_USEDEP}]
 	dev-python/fdutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.7.0[${PYTHON_USEDEP}]
 	dev-python/logging-helper[${PYTHON_USEDEP}]
 	dev-python/configurationutil[${PYTHON_USEDEP}]
 	dev-python/uiutil[${PYTHON_USEDEP}]

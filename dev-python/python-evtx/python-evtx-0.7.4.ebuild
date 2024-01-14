@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
 	dev-python/hexdump[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-5.0.0[${PYTHON_USEDEP}]
+	~dev-python/zipp-1.0.0[${PYTHON_USEDEP}]
 	dev-python/configparser[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/lxml[${PYTHON_USEDEP}] )"
+	~dev-python/pyparsing-2.4.7[${PYTHON_USEDEP}]
+	test? ( ~dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-4.6.11[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/lxml-4.6.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

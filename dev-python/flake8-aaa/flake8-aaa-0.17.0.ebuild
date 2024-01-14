@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/asttokens[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/asttokens-2.0[${PYTHON_USEDEP}]
+	>=dev-python/flake8-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/pathlib[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/html2text[${PYTHON_USEDEP}]
-	dev-python/mistune[${PYTHON_USEDEP}]
+	<dev-python/click-6.8[${PYTHON_USEDEP}]
+	<dev-python/xmltodict-0.12[${PYTHON_USEDEP}]
+	<dev-python/html5lib-1.1[${PYTHON_USEDEP}]
+	~dev-python/html2text-2018.1.9[${PYTHON_USEDEP}]
+	<dev-python/mistune-0.9[${PYTHON_USEDEP}]
 	dev-python/dateparser[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	<dev-python/attrs-19.2[${PYTHON_USEDEP}]
+	<dev-python/future-0.17[${PYTHON_USEDEP}]
 	dev-python/lawfactory-utils[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

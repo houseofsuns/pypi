@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lxml-3.0.0[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pretend[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/freezegun-0.3.8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pretend-1.0.8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-3.1.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-mock-0.7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyOpenSSL[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/isort-4.2.5[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-imports[${PYTHON_USEDEP}] )"

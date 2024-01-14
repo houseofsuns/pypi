@@ -28,18 +28,18 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/logthing[${PYTHON_USEDEP}]
 	dev-python/screwdriver[${PYTHON_USEDEP}]
 	dev-python/waelstow[${PYTHON_USEDEP}]
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-1.0.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/context-temp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Django[${PYTHON_USEDEP}] )
 	dev? ( dev-python/logthing[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pudb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/nox-2023.4.22[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pudb-2023.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyflakes-3.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/screwdriver[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/waelstow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

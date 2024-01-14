@@ -25,16 +25,16 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/dbx-notebook-exporter[${PYTHON_USEDEP}]
-	dev-python/nbconvert[${PYTHON_USEDEP}]
-	dev-python/pygit2[${PYTHON_USEDEP}]
-	dev-python/python-box[${PYTHON_USEDEP}]
-	dev-python/tomlkit[${PYTHON_USEDEP}]
+	<dev-python/nbconvert-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/pygit2-2.0[${PYTHON_USEDEP}]
+	<dev-python/python-box-4.0[${PYTHON_USEDEP}]
+	<dev-python/tomlkit-1.0.0[${PYTHON_USEDEP}]
 	dev-python/pyfony-bundles[${PYTHON_USEDEP}]
 	dev-python/pyfony-core[${PYTHON_USEDEP}]
 	dev-python/console-bundle[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/databricks-cli[${PYTHON_USEDEP}]
 	dev-python/daipe-core[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]"
+	<dev-python/markupsafe-2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

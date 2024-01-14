@@ -33,11 +33,11 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	test? ( dev-python/anndata[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/nbsphinx-0.9.3[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/sphinx-autodoc-typehints-1.23.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/readthedocs-sphinx-ext[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )"
+	docs? ( <=dev-python/readthedocs-sphinx-ext-2.2.3[${PYTHON_USEDEP}] )
+	docs? ( <=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

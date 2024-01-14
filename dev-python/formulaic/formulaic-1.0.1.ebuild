@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="arrow calculus"
 DEPENDENCIES="dev-python/interface-meta[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
-	arrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	calculus? ( dev-python/sympy[${PYTHON_USEDEP}] )"
+	>=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
+	>=dev-python/wrapt-1.0[${PYTHON_USEDEP}]
+	arrow? ( >=dev-python/pyarrow-1.0[${PYTHON_USEDEP}] )
+	calculus? ( >=dev-python/sympy-1.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,79 +24,79 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all database gameserver imagerecognition performance stock ugly web windows"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/json5[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.3.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.2[${PYTHON_USEDEP}]
+	>=dev-python/json5-0.8.5[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3.3[${PYTHON_USEDEP}]
 	dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/pathlib2[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	>=dev-python/pillow-7.0.0[${PYTHON_USEDEP}]
 	dev-python/cmake[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 	dev-python/apscheduler[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.5.0[${PYTHON_USEDEP}]
+	>dev-python/openpyxl-3.0[${PYTHON_USEDEP}]
 	dev-python/pyKriging[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
+	>=dev-python/markupsafe-2.1.1[${PYTHON_USEDEP}]
 	dev-python/pyecharts[${PYTHON_USEDEP}]
 	dev-python/iapws[${PYTHON_USEDEP}]
 	dev-python/qt-material[${PYTHON_USEDEP}]
 	all? ( dev-python/paddleocr[${PYTHON_USEDEP}] )
-	all? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/selenium-3.141.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/requests-2.22.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	all? ( dev-python/torch[${PYTHON_USEDEP}] )
-	all? ( dev-python/DBUtils[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/DBUtils-1.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/sxtwl[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/cryptography-3.1.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/optuna[${PYTHON_USEDEP}] )
 	all? ( dev-python/Flask-Cors[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/sqlalchemy-1.4.39[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pymysql-0.9.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/iapws[${PYTHON_USEDEP}] )
 	all? ( dev-python/python-docx[${PYTHON_USEDEP}] )
-	all? ( dev-python/flask[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/flask-1.1.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/scrapy[${PYTHON_USEDEP}] )
 	all? ( dev-python/gevent-websocket[${PYTHON_USEDEP}] )
 	all? ( dev-python/pypiwin32[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyQt6-QScintilla[${PYTHON_USEDEP}] )
-	all? ( dev-python/waitress[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/waitress-1.4.4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sqlalchemy-1.3.23[${PYTHON_USEDEP}] )
 	all? ( dev-python/paddlepaddle[${PYTHON_USEDEP}] )
 	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	all? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	all? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pillow-7.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pygame[${PYTHON_USEDEP}] )
 	all? ( dev-python/tushare[${PYTHON_USEDEP}] )
 	all? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/waitress[${PYTHON_USEDEP}] )
 	all? ( dev-python/cmake[${PYTHON_USEDEP}] )
-	all? ( dev-python/twisted[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/twisted-20.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/boost[${PYTHON_USEDEP}] )
-	database? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	database? ( dev-python/DBUtils[${PYTHON_USEDEP}] )
-	database? ( dev-python/cryptography[${PYTHON_USEDEP}] )
+	database? ( >=dev-python/pymysql-0.9.3[${PYTHON_USEDEP}] )
+	database? ( >=dev-python/DBUtils-1.3[${PYTHON_USEDEP}] )
+	database? ( >=dev-python/cryptography-3.1.1[${PYTHON_USEDEP}] )
 	database? ( dev-python/python-docx[${PYTHON_USEDEP}] )
 	database? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
-	database? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	gameserver? ( dev-python/twisted[${PYTHON_USEDEP}] )
-	gameserver? ( dev-python/flask[${PYTHON_USEDEP}] )
-	gameserver? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
-	gameserver? ( dev-python/requests[${PYTHON_USEDEP}] )
+	database? ( <=dev-python/sqlalchemy-1.4.39[${PYTHON_USEDEP}] )
+	gameserver? ( >=dev-python/twisted-20.3.0[${PYTHON_USEDEP}] )
+	gameserver? ( >=dev-python/flask-1.1.2[${PYTHON_USEDEP}] )
+	gameserver? ( >=dev-python/flask-cors-3.0.8[${PYTHON_USEDEP}] )
+	gameserver? ( >=dev-python/requests-2.22.0[${PYTHON_USEDEP}] )
 	gameserver? ( dev-python/gevent[${PYTHON_USEDEP}] )
 	gameserver? ( dev-python/gevent-websocket[${PYTHON_USEDEP}] )
-	gameserver? ( dev-python/waitress[${PYTHON_USEDEP}] )
+	gameserver? ( >=dev-python/waitress-1.4.4[${PYTHON_USEDEP}] )
 	gameserver? ( dev-python/lxml[${PYTHON_USEDEP}] )
 	imagerecognition? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	imagerecognition? ( dev-python/cmake[${PYTHON_USEDEP}] )
 	imagerecognition? ( dev-python/boost[${PYTHON_USEDEP}] )
-	imagerecognition? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	imagerecognition? ( dev-python/requests[${PYTHON_USEDEP}] )
+	imagerecognition? ( >=dev-python/pillow-7.0.0[${PYTHON_USEDEP}] )
+	imagerecognition? ( >=dev-python/requests-2.22.0[${PYTHON_USEDEP}] )
 	imagerecognition? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	imagerecognition? ( dev-python/torch[${PYTHON_USEDEP}] )
 	imagerecognition? ( dev-python/optuna[${PYTHON_USEDEP}] )
@@ -110,11 +110,11 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	stock? ( dev-python/tushare[${PYTHON_USEDEP}] )
 	stock? ( dev-python/scrapy[${PYTHON_USEDEP}] )
 	stock? ( dev-python/sxtwl[${PYTHON_USEDEP}] )
-	stock? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	stock? ( dev-python/DBUtils[${PYTHON_USEDEP}] )
-	stock? ( dev-python/selenium[${PYTHON_USEDEP}] )
+	stock? ( >=dev-python/pymysql-0.9.3[${PYTHON_USEDEP}] )
+	stock? ( >=dev-python/DBUtils-1.3[${PYTHON_USEDEP}] )
+	stock? ( >=dev-python/selenium-3.141.0[${PYTHON_USEDEP}] )
 	stock? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
-	stock? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	stock? ( >=dev-python/sqlalchemy-1.3.23[${PYTHON_USEDEP}] )
 	ugly? ( dev-python/dlib[${PYTHON_USEDEP}] )
 	ugly? ( dev-python/torch[${PYTHON_USEDEP}] )
 	ugly? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
@@ -122,9 +122,9 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	ugly? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
 	ugly? ( dev-python/pyWinhook[${PYTHON_USEDEP}] )
 	ugly? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	ugly? ( dev-python/lmdb[${PYTHON_USEDEP}] )
-	ugly? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	web? ( dev-python/flask[${PYTHON_USEDEP}] )
+	ugly? ( >=dev-python/lmdb-1.3.0[${PYTHON_USEDEP}] )
+	ugly? ( >dev-python/orjson-3.7.3[${PYTHON_USEDEP}] )
+	web? ( >=dev-python/flask-1.1.2[${PYTHON_USEDEP}] )
 	web? ( dev-python/Flask-Cors[${PYTHON_USEDEP}] )
 	web? ( dev-python/waitress[${PYTHON_USEDEP}] )
 	windows? ( dev-python/pypiwin32[${PYTHON_USEDEP}] )"

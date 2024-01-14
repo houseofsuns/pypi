@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/atomicwrites[${PYTHON_USEDEP}]
-	dev-python/testfixtures[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pytest-6.1.2[${PYTHON_USEDEP}]
+	<dev-python/ruamel-yaml-1.0[${PYTHON_USEDEP}]
+	<dev-python/atomicwrites-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/testfixtures-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

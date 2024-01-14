@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev docs json testing"
 DEPENDENCIES="docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/build[${PYTHON_USEDEP}]
+	>=dev-python/build-1.0[${PYTHON_USEDEP}]
 	dev-python/psygnal[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]

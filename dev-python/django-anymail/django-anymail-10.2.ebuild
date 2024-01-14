@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="amazon-ses postal resend"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.4.3[${PYTHON_USEDEP}]
+	>=dev-python/urllib3-1.25.0[${PYTHON_USEDEP}]
 	amazon-ses? ( dev-python/boto3[${PYTHON_USEDEP}] )
 	postal? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	resend? ( dev-python/svix[${PYTHON_USEDEP}] )"

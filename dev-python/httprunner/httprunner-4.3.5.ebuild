@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="allure sql thrift upload"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-1.9[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.5.0[${PYTHON_USEDEP}]
+	<dev-python/jmespath-0.10.0[${PYTHON_USEDEP}]
+	<dev-python/black-23.0.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-8.0.0[${PYTHON_USEDEP}]
 	dev-python/pytest-html[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
+	<dev-python/sentry-sdk-0.15.0[${PYTHON_USEDEP}]
 	allure? ( dev-python/allure-pytest[${PYTHON_USEDEP}] )
-	upload? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )
-	upload? ( dev-python/filetype[${PYTHON_USEDEP}] )
+	upload? ( <dev-python/requests-toolbelt-0.11.0[${PYTHON_USEDEP}] )
+	upload? ( <dev-python/filetype-2.0.0[${PYTHON_USEDEP}] )
 	dev-python/Brotli[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	sql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	sql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	thrift? ( dev-python/cython[${PYTHON_USEDEP}] )
-	thrift? ( dev-python/thriftpy2[${PYTHON_USEDEP}] )
-	thrift? ( dev-python/thrift[${PYTHON_USEDEP}] )
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	sql? ( <dev-python/sqlalchemy-2.0.0[${PYTHON_USEDEP}] )
+	sql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
+	thrift? ( <dev-python/cython-0.30.0[${PYTHON_USEDEP}] )
+	thrift? ( <dev-python/thriftpy2-0.5.0[${PYTHON_USEDEP}] )
+	thrift? ( <dev-python/thrift-0.17.0[${PYTHON_USEDEP}] )
+	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -33,6 +33,6 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/xepmts-endpoints[${PYTHON_USEDEP}]
 	plotting? ( dev-python/hvplot[${PYTHON_USEDEP}] )
 	full? ( dev-python/hvplot[${PYTHON_USEDEP}] )
-	full? ( dev-python/dask[${PYTHON_USEDEP}] )"
+	full? ( <dev-python/dask-2022.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

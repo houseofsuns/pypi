@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pandas-1.2[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-6.0.0[${PYTHON_USEDEP}]
 	dev-python/mojap-metadata[${PYTHON_USEDEP}]
 	dev-python/awswrangler[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]"

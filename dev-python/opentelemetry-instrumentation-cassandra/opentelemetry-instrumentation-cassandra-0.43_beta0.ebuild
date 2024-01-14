@@ -27,7 +27,7 @@ IUSE="instruments test"
 DEPENDENCIES="dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-semantic-conventions[${PYTHON_USEDEP}]
-	dev-python/wrapt[${PYTHON_USEDEP}]
+	<dev-python/wrapt-2.0.0[${PYTHON_USEDEP}]
 	instruments? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
 	instruments? ( dev-python/scylla-driver[${PYTHON_USEDEP}] )
 	test? ( dev-python/opentelemetry-instrumentation-cassandra[${PYTHON_USEDEP}] )

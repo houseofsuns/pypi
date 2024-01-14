@@ -24,37 +24,37 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="extra"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/twisted[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.3[${PYTHON_USEDEP}]
+	<dev-python/twisted-24.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2022.6[${PYTHON_USEDEP}]
+	<dev-python/djangorestframework-3.15[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	~dev-python/django-filter-2.4[${PYTHON_USEDEP}]
 	dev-python/django-sekizai[${PYTHON_USEDEP}]
-	dev-python/inflect[${PYTHON_USEDEP}]
-	dev-python/autobahn[${PYTHON_USEDEP}]
+	>=dev-python/inflect-5.2.0[${PYTHON_USEDEP}]
+	<dev-python/autobahn-21.0.0[${PYTHON_USEDEP}]
 	dev-python/lunr[${PYTHON_USEDEP}]
-	dev-python/simpleeval[${PYTHON_USEDEP}]
-	dev-python/uritemplate[${PYTHON_USEDEP}]
+	<=dev-python/simpleeval-1.0[${PYTHON_USEDEP}]
+	~dev-python/uritemplate-4.1.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/tzdata[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
+	>=dev-python/tzdata-2022.6[${PYTHON_USEDEP}]
+	>=dev-python/mock-4.0.3[${PYTHON_USEDEP}]
 	dev-python/model-mommy[${PYTHON_USEDEP}]
 	dev-python/anything[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/parameterized[${PYTHON_USEDEP}]
-	extra? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	extra? ( dev-python/pyasn1[${PYTHON_USEDEP}] )
-	extra? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
-	extra? ( dev-python/pyopenssl[${PYTHON_USEDEP}] )
-	extra? ( dev-python/service-identity[${PYTHON_USEDEP}] )
-	extra? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	extra? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	extra? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	extra? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	>=dev-python/black-22.6[${PYTHON_USEDEP}]
+	>=dev-python/isort-5.10[${PYTHON_USEDEP}]
+	~dev-python/parameterized-0.8.1[${PYTHON_USEDEP}]
+	extra? ( >=dev-python/cryptography-2.8[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/bcrypt-3.1.7[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/pyopenssl-19.1[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/service-identity-18.1.0[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/boto3-1.4.4[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/botocore-1.15[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	extra? ( >=dev-python/ipython-7.19.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
-	extra? ( dev-python/scipy[${PYTHON_USEDEP}] )
+	extra? ( ~dev-python/scipy-1.9.3[${PYTHON_USEDEP}] )
 	extra? ( dev-python/gitpython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

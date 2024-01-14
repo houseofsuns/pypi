@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc test"
-DEPENDENCIES="dev-python/typeguard[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/typeguard-3.0[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/autoclasstoc[${PYTHON_USEDEP}] )

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all experimental full lite testing"
-DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	all? ( dev-python/configupdater[${PYTHON_USEDEP}] )
-	all? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
-	all? ( dev-python/tomli-w[${PYTHON_USEDEP}] )
-	experimental? ( dev-python/pyproject-fmt[${PYTHON_USEDEP}] )
-	full? ( dev-python/configupdater[${PYTHON_USEDEP}] )
-	full? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
-	lite? ( dev-python/tomli-w[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/packaging-20.7[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-59.6[${PYTHON_USEDEP}]
+	all? ( <dev-python/configupdater-4.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tomlkit-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/tomli-w-2.0[${PYTHON_USEDEP}] )
+	experimental? ( >=dev-python/pyproject-fmt-0.4.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/configupdater-4.0[${PYTHON_USEDEP}] )
+	full? ( <dev-python/tomlkit-2.0[${PYTHON_USEDEP}] )
+	lite? ( <dev-python/tomli-w-2.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/isort[${PYTHON_USEDEP}] )
 	testing? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	testing? ( dev-python/tomli[${PYTHON_USEDEP}] )

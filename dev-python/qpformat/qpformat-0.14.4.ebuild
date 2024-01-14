@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/h5py[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/h5py-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.12.0[${PYTHON_USEDEP}]
 	dev-python/qpimage[${PYTHON_USEDEP}]
 	dev-python/qpretrieve[${PYTHON_USEDEP}]
-	dev-python/tifffile[${PYTHON_USEDEP}]"
+	>=dev-python/tifffile-2020.5.25[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

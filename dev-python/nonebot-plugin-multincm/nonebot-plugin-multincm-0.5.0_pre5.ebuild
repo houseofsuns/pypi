@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="playwright"
 DEPENDENCIES="dev-python/nonebot2[${PYTHON_USEDEP}]
 	dev-python/nonebot-adapter-onebot[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	dev-python/pil-utils[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/pyncm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
+	>=dev-python/anyio-3.6.2[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
 	playwright? ( dev-python/nonebot-plugin-htmlrender[${PYTHON_USEDEP}] )
 	playwright? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	playwright? ( dev-python/bbcode[${PYTHON_USEDEP}] )"

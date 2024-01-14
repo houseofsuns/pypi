@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="monitoring"
-DEPENDENCIES="dev-python/jsonschema[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jsonschema-3.2.0[${PYTHON_USEDEP}]
 	dev-python/python-slugify[${PYTHON_USEDEP}]
 	monitoring? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	monitoring? ( dev-python/boto[${PYTHON_USEDEP}] )

@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
 DEPENDENCIES="tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pillow[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pillow-9.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

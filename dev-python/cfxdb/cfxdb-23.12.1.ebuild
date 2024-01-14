@@ -25,31 +25,31 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/parsimonious[${PYTHON_USEDEP}]
-	dev-python/autobahn[${PYTHON_USEDEP}]
+	>=dev-python/autobahn-23.1.1[${PYTHON_USEDEP}]
 	dev-python/zlmdb[${PYTHON_USEDEP}]
-	dev-python/argon2-cffi[${PYTHON_USEDEP}]
-	dev? ( dev-python/pip[${PYTHON_USEDEP}] )
+	>=dev-python/argon2-cffi-21.3.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pip-9.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/watchdog[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.30.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/watchdog-0.8.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-2.9.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox-gh-actions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-1.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-images[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-1.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-3.4.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	dev? ( dev-python/humanize[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/humanize-0.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/backports-tempfile[${PYTHON_USEDEP}] )
-	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/yapf-0.29.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pylint-1.9.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pyyaml-4.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cytoolz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/mypy-0.610[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/LbEnv[${PYTHON_USEDEP}]
 	dev-python/LbPlatformUtils[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/yapf[${PYTHON_USEDEP}]
+	~dev-python/yapf-0.24.0[${PYTHON_USEDEP}]
 	dev-python/whichcraft[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	<dev-python/GitPython-2.1.12[${PYTHON_USEDEP}]
 	dev-python/python-gitlab[${PYTHON_USEDEP}]
 	dev-python/gitdb2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

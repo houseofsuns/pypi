@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/opencv-python[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]
+	~dev-python/flask-2.2.3[${PYTHON_USEDEP}]
 	dev-python/flask-socketio[${PYTHON_USEDEP}]
 	dev-python/simple-websocket[${PYTHON_USEDEP}]
 	dev-python/flask-cors[${PYTHON_USEDEP}]
@@ -38,10 +38,10 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/diffusers[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/gradio[${PYTHON_USEDEP}]
-	dev-python/piexif[${PYTHON_USEDEP}]
+	~dev-python/piexif-1.1.3[${PYTHON_USEDEP}]
 	dev-python/safetensors[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]
 	dev-python/controlnet-aux[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]"
+	~dev-python/werkzeug-2.2.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

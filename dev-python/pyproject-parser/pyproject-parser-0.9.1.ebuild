@@ -25,24 +25,24 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli readme"
 DEPENDENCIES="dev-python/apeye-core[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-20.3.0[${PYTHON_USEDEP}]
 	dev-python/dom-toml[${PYTHON_USEDEP}]
 	dev-python/domdf-python-tools[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/natsort-7.1.1[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
 	dev-python/shippinglabel[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	all? ( dev-python/click[${PYTHON_USEDEP}] )
+	>=dev-python/typing-extensions-3.7.4.3[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.2.3[${PYTHON_USEDEP}]
+	all? ( >=dev-python/click-7.1.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/consolekit[${PYTHON_USEDEP}] )
-	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	all? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/docutils-0.16[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/readme-renderer-27.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sdjson[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/click-7.1.2[${PYTHON_USEDEP}] )
 	cli? ( dev-python/consolekit[${PYTHON_USEDEP}] )
 	cli? ( dev-python/sdjson[${PYTHON_USEDEP}] )
-	readme? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	readme? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )"
+	readme? ( ~dev-python/docutils-0.16[${PYTHON_USEDEP}] )
+	readme? ( >=dev-python/readme-renderer-27.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

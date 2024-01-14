@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/strictyaml[${PYTHON_USEDEP}]
 	dev-python/path-py[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/python-slugify[${PYTHON_USEDEP}]
+	>=dev-python/colorama-0.3.8[${PYTHON_USEDEP}]
+	>=dev-python/python-slugify-1.2.1[${PYTHON_USEDEP}]
 	dev-python/prettystack[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/mergedeep[${PYTHON_USEDEP}]"
+	>=dev-python/psutil-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/mergedeep-1.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/jupyter[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/jupyterlab-3.6[${PYTHON_USEDEP}]
 	dev-python/sympy-for-algebra[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

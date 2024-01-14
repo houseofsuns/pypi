@@ -28,9 +28,9 @@ DEPENDENCIES="dev-python/dask-cloudprovider[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
+	~dev-python/botocore-1.27.59[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
-	dev-python/dask[${PYTHON_USEDEP}]
+	~dev-python/dask-2023.3.0[${PYTHON_USEDEP}]
 	dev-python/GitPython[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

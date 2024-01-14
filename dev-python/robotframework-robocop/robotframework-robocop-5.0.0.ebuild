@@ -26,11 +26,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="dev doc"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/robotframework[${PYTHON_USEDEP}]
-	dev-python/pathspec[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
+	<dev-python/pathspec-0.13[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2022.7[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	<dev-python/platformdirs-4.2.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )

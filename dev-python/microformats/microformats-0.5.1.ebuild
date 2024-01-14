@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/easyuri[${PYTHON_USEDEP}]
 	dev-python/txtint[${PYTHON_USEDEP}]
 	dev-python/mf2py[${PYTHON_USEDEP}]"

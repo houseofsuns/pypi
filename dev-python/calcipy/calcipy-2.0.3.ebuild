@@ -24,55 +24,55 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ddict doc flake8 lint nox pylint stale tags test types"
-DEPENDENCIES="stale? ( dev-python/arrow[${PYTHON_USEDEP}] )
-	tags? ( dev-python/arrow[${PYTHON_USEDEP}] )
-	lint? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev-python/beartype[${PYTHON_USEDEP}]
+DEPENDENCIES="stale? ( >=dev-python/arrow-1.2.3[${PYTHON_USEDEP}] )
+	tags? ( >=dev-python/arrow-1.2.3[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/autopep8-2.0.1[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
+	>=dev-python/beartype-0.16.4[${PYTHON_USEDEP}]
 	stale? ( dev-python/bidict[${PYTHON_USEDEP}] )
 	doc? ( dev-python/commitizen[${PYTHON_USEDEP}] )
 	dev-python/corallium[${PYTHON_USEDEP}]
 	flake8? ( dev-python/dlint[${PYTHON_USEDEP}] )
-	flake8? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	flake8? ( >=dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-adjustable-complexity[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-annotations-complexity[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-expression-complexity[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-printf-formatting[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-sql[${PYTHON_USEDEP}] )
 	flake8? ( dev-python/flake8-string-format[${PYTHON_USEDEP}] )
-	dev-python/griffe[${PYTHON_USEDEP}]
-	stale? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	>=dev-python/griffe-0.32.3[${PYTHON_USEDEP}]
+	stale? ( >=dev-python/httpx-0.24.1[${PYTHON_USEDEP}] )
 	dev-python/invoke[${PYTHON_USEDEP}]
-	doc? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-build-plantuml-plugin[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-gen-files-0.4.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-git-revision-date-localized-plugin-1.0.1[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-include-markdown-plugin[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocs-material-9.4.8[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mkdocs-section-index[${PYTHON_USEDEP}] )
-	doc? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	types? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/mkdocstrings-0.21.1[${PYTHON_USEDEP}] )
+	types? ( >=dev-python/mypy-1.0.0[${PYTHON_USEDEP}] )
 	nox? ( dev-python/nox-poetry[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	tags? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
+	tags? ( >=dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
 	lint? ( dev-python/pip-check[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	doc? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	pylint? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pymdown-extensions[${PYTHON_USEDEP}] )
+	>=dev-python/pydantic-2.4.2[${PYTHON_USEDEP}]
+	doc? ( >=dev-python/pylint-2.16.2[${PYTHON_USEDEP}] )
+	pylint? ( >=dev-python/pylint-2.16.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/pymdown-extensions-10.0.1[${PYTHON_USEDEP}] )
 	stale? ( dev-python/pyrate_limiter[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-watcher[${PYTHON_USEDEP}] )
-	ddict? ( dev-python/python-box[${PYTHON_USEDEP}] )
-	doc? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	tags? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	ddict? ( >=dev-python/python-box-6.0.2[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/pyyaml-5.2[${PYTHON_USEDEP}] )
+	tags? ( >=dev-python/pyyaml-5.2[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev-python/semver[${PYTHON_USEDEP}]
-	tags? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	doc? ( dev-python/transitions[${PYTHON_USEDEP}] )
-	nox? ( dev-python/virtualenv[${PYTHON_USEDEP}] )"
+	>=dev-python/semver-3.0.1[${PYTHON_USEDEP}]
+	tags? ( >=dev-python/tabulate-0.9.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/transitions-0.9.0[${PYTHON_USEDEP}] )
+	nox? ( >=dev-python/virtualenv-20.24.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

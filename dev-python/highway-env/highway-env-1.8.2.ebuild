@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="deploy"
 DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
+	>=dev-python/pygame-2.0.2[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	deploy? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	deploy? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	deploy? ( <dev-python/sphinx-1.7.3[${PYTHON_USEDEP}] )
 	deploy? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

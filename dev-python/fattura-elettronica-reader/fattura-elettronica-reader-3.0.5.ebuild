@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/filetype[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/appdirs-1.5[${PYTHON_USEDEP}]
+	<dev-python/filetype-2.0[${PYTHON_USEDEP}]
 	dev-python/fpyutils[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/lxml-4.10[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

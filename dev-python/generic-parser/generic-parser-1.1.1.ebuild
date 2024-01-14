@@ -27,9 +27,9 @@ IUSE="doc test"
 DEPENDENCIES="doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/travis-sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/attrs[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.6[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-4.36.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/attrs-19.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

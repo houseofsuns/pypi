@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ows"
 DEPENDENCIES="dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/datacube[${PYTHON_USEDEP}]
 	dev-python/distributed[${PYTHON_USEDEP}]
@@ -40,10 +40,10 @@ DEPENDENCIES="dev-python/botocore[${PYTHON_USEDEP}]
 	dev-python/eodatasets3[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
+	>=dev-python/xarray-2023.1.0[${PYTHON_USEDEP}]
 	dev-python/ciso8601[${PYTHON_USEDEP}]
 	dev-python/gdal[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2022.1.0[${PYTHON_USEDEP}]
 	dev-python/fiona[${PYTHON_USEDEP}]
 	dev-python/rasterio[${PYTHON_USEDEP}]
 	ows? ( dev-python/datacube-ows[${PYTHON_USEDEP}] )

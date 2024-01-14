@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="datasets neuralnetworks notebooks tensorflow tensorflowwithgpu visualization"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.7[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	datasets? ( dev-python/observations[${PYTHON_USEDEP}] )
 	neuralnetworks? ( dev-python/keras[${PYTHON_USEDEP}] )
 	neuralnetworks? ( dev-python/prettytensor[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/jupyter[${PYTHON_USEDEP}] )
+	notebooks? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tensorflowwithgpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/seaborn[${PYTHON_USEDEP}] )"
+	visualization? ( >=dev-python/matplotlib-1.3[${PYTHON_USEDEP}] )
+	visualization? ( >=dev-python/pillow-3.4.2[${PYTHON_USEDEP}] )
+	visualization? ( >=dev-python/seaborn-0.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

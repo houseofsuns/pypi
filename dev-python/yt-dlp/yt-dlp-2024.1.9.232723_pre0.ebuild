@@ -27,9 +27,9 @@ IUSE=""
 DEPENDENCIES="dev-python/mutagen[${PYTHON_USEDEP}]
 	dev-python/pycryptodomex[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-3.0[${PYTHON_USEDEP}]
+	>=dev-python/websockets-12.0[${PYTHON_USEDEP}]
 	dev-python/brotlicffi[${PYTHON_USEDEP}]
 	dev-python/brotli[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

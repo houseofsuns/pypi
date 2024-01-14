@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cosmos docs ethereum mqtt nuls2 polkadot solana testing"
 DEPENDENCIES="dev-python/coincurve[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
 	dev-python/eciespy[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]

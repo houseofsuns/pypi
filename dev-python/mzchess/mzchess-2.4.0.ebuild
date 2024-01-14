@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/chess[${PYTHON_USEDEP}]
-	dev-python/ply[${PYTHON_USEDEP}]"
+	>=dev-python/ply-3.11[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

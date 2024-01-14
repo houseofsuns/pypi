@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="fastmurmur2 snappy"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
 	dev-python/Twisted[${PYTHON_USEDEP}]
 	fastmurmur2? ( dev-python/pyhash[${PYTHON_USEDEP}] )
-	snappy? ( dev-python/python-snappy[${PYTHON_USEDEP}] )"
+	snappy? ( >=dev-python/python-snappy-0.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

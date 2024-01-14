@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/paho-mqtt[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/paho-mqtt-2.0.0[${PYTHON_USEDEP}]
 	dev-python/binance-connector[${PYTHON_USEDEP}]
 	dev-python/fatsecret[${PYTHON_USEDEP}]
 	dev-python/notion-client[${PYTHON_USEDEP}]"

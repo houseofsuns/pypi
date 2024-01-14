@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="attrs optuna x-tensorflow x-torch-cpu"
-DEPENDENCIES="dev-python/joblib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/joblib-1.3[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1.1[${PYTHON_USEDEP}]
 	x-torch-cpu? ( dev-python/torch[${PYTHON_USEDEP}] )
 	x-tensorflow? ( dev-python/tensorflow-cpu[${PYTHON_USEDEP}] )
 	optuna? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	attrs? ( dev-python/attrs[${PYTHON_USEDEP}] )"
+	attrs? ( >=dev-python/attrs-22.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

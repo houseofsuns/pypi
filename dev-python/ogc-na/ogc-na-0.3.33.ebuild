@@ -25,20 +25,20 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/pyshacl[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	>=dev-python/rdflib-6.3.0[${PYTHON_USEDEP}]
 	dev-python/html5lib[${PYTHON_USEDEP}]
 	dev-python/jq[${PYTHON_USEDEP}]
 	dev-python/jsonpath-ng[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
 	dev-python/wcmatch[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.30[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
+	>=dev-python/GitPython-3.1.32[${PYTHON_USEDEP}]
 	dev-python/rfc3987[${PYTHON_USEDEP}]
 	dev-python/requests-cache[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )

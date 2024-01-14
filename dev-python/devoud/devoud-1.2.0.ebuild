@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/PySide6[${PYTHON_USEDEP}]
 	dev-python/braveblock[${PYTHON_USEDEP}]
 	dev-python/plyer[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]"
+	~dev-python/sqlalchemy-2.0.6[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/cycler[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/super-state-machine[${PYTHON_USEDEP}]
 	dev-python/toolz[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.44[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/zict[${PYTHON_USEDEP}]
 	all? ( dev-python/colorama[${PYTHON_USEDEP}] )

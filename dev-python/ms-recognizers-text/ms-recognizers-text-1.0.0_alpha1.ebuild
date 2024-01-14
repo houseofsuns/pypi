@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/emoji[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/emoji-2.0.0[${PYTHON_USEDEP}]
 	dev-python/multipledispatch[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

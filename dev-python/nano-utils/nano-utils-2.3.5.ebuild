@@ -24,24 +24,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc lint test test-no-optional"
-DEPENDENCIES="dev-python/packaging[${PYTHON_USEDEP}]
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/packaging-1.16.8[${PYTHON_USEDEP}]
+	doc? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/pydocstyle-6.1[${PYTHON_USEDEP}] )
 	lint? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	lint? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	lint? ( >=dev-python/numpy-1.21[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	test? ( dev-python/nano-utils[${PYTHON_USEDEP}] )
 	test? ( dev-python/schema[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/h5py[${PYTHON_USEDEP}] )
 	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/ipython-5.0.0[${PYTHON_USEDEP}] )
 	test-no-optional? ( dev-python/assertionlib[${PYTHON_USEDEP}] )
-	test-no-optional? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test-no-optional? ( >=dev-python/pytest-6.0.0[${PYTHON_USEDEP}] )
 	test-no-optional? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/PyArabic[${PYTHON_USEDEP}]
 	dev-python/farasapy[${PYTHON_USEDEP}]
-	dev-python/emoji[${PYTHON_USEDEP}]"
+	~dev-python/emoji-1.4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

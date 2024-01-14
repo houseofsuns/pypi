@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rich[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/rich-9.13.0[${PYTHON_USEDEP}]
 	dev-python/you-get[${PYTHON_USEDEP}]
 	dev-python/poimage[${PYTHON_USEDEP}]
 	dev-python/poexcel[${PYTHON_USEDEP}]

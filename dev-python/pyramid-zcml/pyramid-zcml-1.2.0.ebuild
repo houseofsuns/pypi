@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs testing"
 DEPENDENCIES="dev-python/pyramid[${PYTHON_USEDEP}]
 	dev-python/venusian[${PYTHON_USEDEP}]
-	dev-python/zope-configuration[${PYTHON_USEDEP}]
+	>=dev-python/zope-configuration-3.8.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/pylons-sphinx-themes[${PYTHON_USEDEP}] )
 	docs? ( dev-python/repoze-sphinx-autointerface[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )

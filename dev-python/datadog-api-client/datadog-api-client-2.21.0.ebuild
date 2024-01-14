@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="apm async tests zstandard"
-DEPENDENCIES="dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/urllib3-1.15[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
 	apm? ( dev-python/ddtrace[${PYTHON_USEDEP}] )
 	async? ( dev-python/aiosonic[${PYTHON_USEDEP}] )
 	tests? ( dev-python/aiosonic[${PYTHON_USEDEP}] )
 	tests? ( dev-python/glom[${PYTHON_USEDEP}] )
 	tests? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-bdd[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-bdd-6.0.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-recording[${PYTHON_USEDEP}] )

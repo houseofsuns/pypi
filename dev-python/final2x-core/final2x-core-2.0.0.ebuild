@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/realcugan-ncnn-py[${PYTHON_USEDEP}]
 	dev-python/realesrgan-ncnn-py[${PYTHON_USEDEP}]
 	dev-python/waifu2x-ncnn-py[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]"
+	~dev-python/loguru-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

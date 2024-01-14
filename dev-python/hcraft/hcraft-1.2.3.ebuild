@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all gui gym planning"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.5.1[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/hebg[${PYTHON_USEDEP}]
 	all? ( dev-python/gym[${PYTHON_USEDEP}] )
-	all? ( dev-python/pygame[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pygame-2.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pygame-menu[${PYTHON_USEDEP}] )
 	all? ( dev-python/unified-planning[${PYTHON_USEDEP}] )
-	gui? ( dev-python/pygame[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/pygame-2.1.0[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pygame-menu[${PYTHON_USEDEP}] )
 	gym? ( dev-python/gym[${PYTHON_USEDEP}] )
 	planning? ( dev-python/unified-planning[${PYTHON_USEDEP}] )"

@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mypy scripts"
-DEPENDENCIES="mypy? ( dev-python/click[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/twisted[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	scripts? ( dev-python/click[${PYTHON_USEDEP}] )
-	scripts? ( dev-python/twisted[${PYTHON_USEDEP}] )"
+DEPENDENCIES="mypy? ( >=dev-python/click-6.0[${PYTHON_USEDEP}] )
+	mypy? ( >=dev-python/twisted-16.4.0[${PYTHON_USEDEP}] )
+	mypy? ( ~dev-python/mypy-0.812[${PYTHON_USEDEP}] )
+	scripts? ( >=dev-python/click-6.0[${PYTHON_USEDEP}] )
+	scripts? ( >=dev-python/twisted-16.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

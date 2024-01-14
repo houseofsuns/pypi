@@ -27,17 +27,17 @@ IUSE="podcast streamlit xinference"
 DEPENDENCIES="dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/pymupdf[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	~dev-python/pydantic-1.10.13[${PYTHON_USEDEP}]
 	dev-python/pymilvus[${PYTHON_USEDEP}]
 	dev-python/tiktoken[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	<dev-python/redis-5.0.0[${PYTHON_USEDEP}]
 	dev-python/retry[${PYTHON_USEDEP}]
 	dev-python/stringcase[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	streamlit? ( dev-python/streamlit[${PYTHON_USEDEP}] )
 	podcast? ( dev-python/gTTS[${PYTHON_USEDEP}] )
-	xinference? ( dev-python/botocore[${PYTHON_USEDEP}] )
+	xinference? ( <dev-python/botocore-2.0.0[${PYTHON_USEDEP}] )
 	xinference? ( dev-python/xinference[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="elasticsearch7 mysql opensearch2 postgresql sqlite tests"
-DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/Babel-2.8[${PYTHON_USEDEP}]
+	>=dev-python/arrow-0.15.0[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/invenio-access[${PYTHON_USEDEP}]
 	dev-python/invenio-indexer[${PYTHON_USEDEP}]
@@ -33,22 +33,22 @@ DEPENDENCIES="dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/invenio-pidstore[${PYTHON_USEDEP}]
 	dev-python/invenio-records-rest[${PYTHON_USEDEP}]
 	dev-python/invenio-jsonschemas[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
 	elasticsearch7? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
-	elasticsearch7? ( dev-python/elasticsearch[${PYTHON_USEDEP}] )
+	elasticsearch7? ( <dev-python/elasticsearch-7.14[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
 	opensearch2? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
 	sqlite? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-black[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-mock-1.6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/celery[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-app[${PYTHON_USEDEP}] )
 	tests? ( dev-python/invenio-jsonschemas[${PYTHON_USEDEP}] )
 	tests? ( dev-python/Flask[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pydocstyle-6.1.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/sphinx-5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

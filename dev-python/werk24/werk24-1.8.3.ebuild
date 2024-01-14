@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gui"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.14.44[${PYTHON_USEDEP}]
 	dev-python/devtools[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.5.1[${PYTHON_USEDEP}]
 	dev-python/pydantic-extra-types[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	<dev-python/python-dotenv-1.0[${PYTHON_USEDEP}]
+	>=dev-python/websockets-10.3[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 	gui? ( dev-python/pillow[${PYTHON_USEDEP}] )"

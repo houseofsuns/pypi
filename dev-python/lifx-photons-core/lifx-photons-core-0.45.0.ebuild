@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="dev-python/bitarray[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/bitarray-2.9.2[${PYTHON_USEDEP}]
 	dev-python/delfick-project[${PYTHON_USEDEP}]
 	dev-python/kdtree[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	dev-python/rainbow-logging-handler[${PYTHON_USEDEP}]
 	dev-python/ruyaml[${PYTHON_USEDEP}]
 	tests? ( dev-python/alt-pytest-asyncio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/noseofyeti[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-helpers-namespace[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-helpers-namespace-2021.12.29[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

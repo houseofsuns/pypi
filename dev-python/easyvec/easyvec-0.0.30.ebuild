@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cython[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.7[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/cython-0.29.14[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

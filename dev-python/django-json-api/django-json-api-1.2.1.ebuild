@@ -25,29 +25,29 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev"
 DEPENDENCIES="dev-python/djangorestframework-jsonapi[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	>=dev-python/djangorestframework-3.14.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	all? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/coverage-5.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/django-coverage-plugin[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/requests-mock-1.8.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/testfixtures-6.17.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-5.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-coverage-plugin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.8.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.7.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/testfixtures[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.2.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-mock-1.8.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/testfixtures-6.17.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

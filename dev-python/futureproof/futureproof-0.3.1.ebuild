@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs tests"
 DEPENDENCIES="dev? ( dev-python/furo[${PYTHON_USEDEP}] )
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-20.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="doc testing"
-DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.5[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	dev-python/secondarycoolantprops[${PYTHON_USEDEP}]
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/tox[${PYTHON_USEDEP}] )"
+	doc? ( >=dev-python/numpydoc-1.2.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/recommonmark-0.6.0[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/tox-3.24.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

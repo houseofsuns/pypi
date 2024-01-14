@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="compile dash dev docs fastapi influxdb mariadb mongodb opcua postgredb redis"
-DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
+	<dev-python/msgpack-2.0[${PYTHON_USEDEP}]
 	dev-python/nats-py[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	compile? ( dev-python/Nuitka[${PYTHON_USEDEP}] )
+	compile? ( <dev-python/Nuitka-2.0[${PYTHON_USEDEP}] )
 	compile? ( dev-python/ordered-set[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash[${PYTHON_USEDEP}] )
-	dash? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	dash? ( ~dev-python/plotly-5.9.0[${PYTHON_USEDEP}] )
 	dash? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dash? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	dash? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
 	dash? ( dev-python/xlsxwriter[${PYTHON_USEDEP}] )
 	dash? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )
-	dash? ( dev-python/pymongo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dash? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tomli[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tomli-w[${PYTHON_USEDEP}] )
 	dev? ( dev-python/build[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typer[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
@@ -61,7 +61,7 @@ DEPENDENCIES="dev-python/pydantic[${PYTHON_USEDEP}]
 	fastapi? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	influxdb? ( dev-python/influxdb-client[${PYTHON_USEDEP}] )
 	mariadb? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	mongodb? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	mongodb? ( <dev-python/pymongo-5.0[${PYTHON_USEDEP}] )
 	opcua? ( dev-python/opcua[${PYTHON_USEDEP}] )
 	opcua? ( dev-python/asyncua[${PYTHON_USEDEP}] )
 	postgredb? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )

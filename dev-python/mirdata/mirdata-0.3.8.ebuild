@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cipi compmusic_carnatic_rhythm compmusic_hindustani_rhythm dali docs gcs haydn_op20 http s3 tests"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
+	>=dev-python/black-23.3.0[${PYTHON_USEDEP}]
+	>=dev-python/chardet-5.0.0[${PYTHON_USEDEP}]
 	dev-python/Deprecated[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.7.0[${PYTHON_USEDEP}]
 	dev-python/jams[${PYTHON_USEDEP}]
 	dev-python/librosa[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.6[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/pretty-midi[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.66.1[${PYTHON_USEDEP}]
 	cipi? ( dev-python/music21[${PYTHON_USEDEP}] )
-	compmusic_carnatic_rhythm? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	compmusic_hindustani_rhythm? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
+	compmusic_carnatic_rhythm? ( ~dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}] )
+	compmusic_hindustani_rhythm? ( ~dev-python/openpyxl-3.0.10[${PYTHON_USEDEP}] )
 	dali? ( dev-python/dali-dataset[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
 	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
@@ -52,14 +52,14 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	haydn_op20? ( dev-python/music21[${PYTHON_USEDEP}] )
 	http? ( dev-python/smart-open[${PYTHON_USEDEP}] )
 	s3? ( dev-python/smart-open[${PYTHON_USEDEP}] )
-	tests? ( dev-python/decorator[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/decorator-5.1.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-4.4.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-localserver[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-mock-1.10.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-localserver-0.5.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/testcontainers[${PYTHON_USEDEP}] )
-	tests? ( dev-python/future[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/future-0.17.1[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	tests? ( dev-python/types-chardet[${PYTHON_USEDEP}] )

@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli"
 DEPENDENCIES="dev-python/aioamqp[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	all? ( dev-python/click[${PYTHON_USEDEP}] )
-	all? ( dev-python/rich[${PYTHON_USEDEP}] )
+	>=dev-python/attrs-19.1.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/click-8.1.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/rich-12.6.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/trogon[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/rich[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/click-8.1.3[${PYTHON_USEDEP}] )
+	cli? ( >=dev-python/rich-12.6.0[${PYTHON_USEDEP}] )
 	cli? ( dev-python/trogon[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

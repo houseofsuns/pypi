@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/tornado[${PYTHON_USEDEP}]
-	dev-python/openapi-core[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/tornado-7.0[${PYTHON_USEDEP}]
+	<dev-python/openapi-core-0.15.0[${PYTHON_USEDEP}]
 	dev-python/ietfparse[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

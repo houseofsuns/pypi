@@ -29,6 +29,6 @@ DEPENDENCIES="dev-python/dash[${PYTHON_USEDEP}]
 	dev-python/dash-html-components[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-Dance[${PYTHON_USEDEP}]
-	dev-python/blinker[${PYTHON_USEDEP}]"
+	>=dev-python/blinker-1.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

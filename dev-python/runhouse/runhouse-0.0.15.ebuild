@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all aws azure docker gcp sagemaker"
 DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	<=dev-python/fsspec-2023.5.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp-proto-http[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
@@ -40,13 +40,13 @@ DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	dev-python/skypilot[${PYTHON_USEDEP}]
 	dev-python/sshfs[${PYTHON_USEDEP}]
-	dev-python/sshtunnel[${PYTHON_USEDEP}]
+	>=dev-python/sshtunnel-0.3.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	all? ( dev-python/awscli[${PYTHON_USEDEP}] )
-	all? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
-	all? ( dev-python/fsspec[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pycryptodome-3.12.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/fsspec-2023.1.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-cli[${PYTHON_USEDEP}] )
 	all? ( dev-python/azure-core[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
@@ -55,10 +55,10 @@ DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
 	all? ( dev-python/docker[${PYTHON_USEDEP}] )
 	all? ( dev-python/sagemaker-ssh-helper[${PYTHON_USEDEP}] )
 	all? ( dev-python/sagemaker[${PYTHON_USEDEP}] )
-	all? ( dev-python/paramiko[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/paramiko-3.2.0[${PYTHON_USEDEP}] )
 	aws? ( dev-python/awscli[${PYTHON_USEDEP}] )
-	aws? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
-	aws? ( dev-python/fsspec[${PYTHON_USEDEP}] )
+	aws? ( ~dev-python/pycryptodome-3.12.0[${PYTHON_USEDEP}] )
+	aws? ( ~dev-python/fsspec-2023.1.0[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-cli[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-core[${PYTHON_USEDEP}] )
 	docker? ( dev-python/docker[${PYTHON_USEDEP}] )
@@ -67,6 +67,6 @@ DEPENDENCIES="dev-python/python-dotenv[${PYTHON_USEDEP}]
 	gcp? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	sagemaker? ( dev-python/sagemaker-ssh-helper[${PYTHON_USEDEP}] )
 	sagemaker? ( dev-python/sagemaker[${PYTHON_USEDEP}] )
-	sagemaker? ( dev-python/paramiko[${PYTHON_USEDEP}] )"
+	sagemaker? ( >=dev-python/paramiko-3.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

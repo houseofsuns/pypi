@@ -26,30 +26,30 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs openapi test"
 DEPENDENCIES="dev-python/babel[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/json5[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/json5-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.18.0[${PYTHON_USEDEP}]
+	<dev-python/jupyter-server-3.0[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31[${PYTHON_USEDEP}]
 	docs? ( dev-python/autodoc-traits[${PYTHON_USEDEP}] )
 	docs? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mistune[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/mistune-4.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-openapi[${PYTHON_USEDEP}] )
-	openapi? ( dev-python/openapi-core[${PYTHON_USEDEP}] )
+	openapi? ( ~dev-python/openapi-core-0.18.0[${PYTHON_USEDEP}] )
 	openapi? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
 	test? ( dev-python/hatch[${PYTHON_USEDEP}] )
 	test? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	test? ( dev-python/openapi-core[${PYTHON_USEDEP}] )
-	test? ( dev-python/openapi-spec-validator[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/openapi-core-0.18.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/openapi-spec-validator-0.8.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-jupyter[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-jupyter-0.6.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
 	test? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )

@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/mmcv-full[${PYTHON_USEDEP}]
 	dev-python/mmdet[${PYTHON_USEDEP}]
 	dev-python/mmpose[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21.3[${PYTHON_USEDEP}]
 	dev-python/opencv-python-headless[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]"

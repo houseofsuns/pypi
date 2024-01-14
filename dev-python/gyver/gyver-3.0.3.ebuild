@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cache db-mariadb db-mysql db-pg db-sqlite"
-DEPENDENCIES="dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 	db-pg? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	db-pg? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	db-mysql? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
 	db-mariadb? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
-	db-mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	db-mariadb? ( dev-python/pymysql[${PYTHON_USEDEP}] )
-	db-sqlite? ( dev-python/aiosqlite[${PYTHON_USEDEP}] )
-	dev-python/tzdata[${PYTHON_USEDEP}]
-	db-mysql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	db-mariadb? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	db-pg? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	db-sqlite? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	cache? ( dev-python/redis[${PYTHON_USEDEP}] )
+	db-mysql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
+	db-mariadb? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
+	db-sqlite? ( <dev-python/aiosqlite-0.19.0[${PYTHON_USEDEP}] )
+	<dev-python/tzdata-2023.0[${PYTHON_USEDEP}]
+	db-mysql? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
+	db-mariadb? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
+	db-pg? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
+	db-sqlite? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
+	<dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
+	cache? ( <dev-python/redis-5.0.0[${PYTHON_USEDEP}] )
 	dev-python/gyver-attrs[${PYTHON_USEDEP}]
 	dev-python/faust-cchardet[${PYTHON_USEDEP}]
 	dev-python/env-star[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
 	dev-python/lazy-fields[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

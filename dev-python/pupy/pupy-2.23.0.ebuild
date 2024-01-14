@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="io"
 DEPENDENCIES="io? ( dev-python/toml[${PYTHON_USEDEP}] )
 	io? ( dev-python/python-rapidjson[${PYTHON_USEDEP}] )
-	io? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	io? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	io? ( dev-python/aiofiles[${PYTHON_USEDEP}] )"
+	io? ( <dev-python/msgpack-0.7.0[${PYTHON_USEDEP}] )
+	io? ( <dev-python/ruamel-yaml-0.16.0[${PYTHON_USEDEP}] )
+	io? ( <dev-python/aiofiles-0.5.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

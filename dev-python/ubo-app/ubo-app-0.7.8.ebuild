@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/psutil[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/ubo-gui[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ubo-gui[${PYTHON_USEDEP}] )
 	dev? ( dev-python/headless-kivy-pi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/headless-kivy-pi[${PYTHON_USEDEP}] )
 	dev-python/python-redux[${PYTHON_USEDEP}]
-	dev-python/pyzbar[${PYTHON_USEDEP}]
+	<dev-python/pyzbar-0.2.0[${PYTHON_USEDEP}]
 	dev-python/sdbus-networkmanager[${PYTHON_USEDEP}]
 	dev-python/python-debouncer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

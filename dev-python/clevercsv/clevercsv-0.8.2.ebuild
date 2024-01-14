@@ -24,30 +24,30 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs full precommit tests"
-DEPENDENCIES="dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/chardet-3.0[${PYTHON_USEDEP}]
+	>=dev-python/regex-2018.11[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/furo[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wilderness[${PYTHON_USEDEP}] )
 	dev? ( dev-python/faust-cchardet[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pandas-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tabview[${PYTHON_USEDEP}] )
 	dev? ( dev-python/green[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-2.6[${PYTHON_USEDEP}] )
 	dev? ( dev-python/termcolor[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/furo[${PYTHON_USEDEP}] )
 	full? ( dev-python/wilderness[${PYTHON_USEDEP}] )
 	full? ( dev-python/faust-cchardet[${PYTHON_USEDEP}] )
-	full? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/pandas-1.0.0[${PYTHON_USEDEP}] )
 	full? ( dev-python/tabview[${PYTHON_USEDEP}] )
 	precommit? ( dev-python/wilderness[${PYTHON_USEDEP}] )
 	tests? ( dev-python/wilderness[${PYTHON_USEDEP}] )
 	tests? ( dev-python/faust-cchardet[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pandas-1.0.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tabview[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -38,10 +38,10 @@ DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	all? ( dev-python/saq[${PYTHON_USEDEP}] )
 	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
 	all? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	sqlalchemy? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
 	dev-python/starlite[${PYTHON_USEDEP}]
-	dev-python/structlog[${PYTHON_USEDEP}]
+	>=dev-python/structlog-22.2.0[${PYTHON_USEDEP}]
 	dev-python/tenacity[${PYTHON_USEDEP}]
 	dev-python/uvicorn[${PYTHON_USEDEP}]
 	dev-python/uvloop[${PYTHON_USEDEP}]"

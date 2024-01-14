@@ -26,13 +26,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="kerchunk"
 DEPENDENCIES="dev-python/python-cmr[${PYTHON_USEDEP}]
 	dev-python/pqdm[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	dev-python/s3fs[${PYTHON_USEDEP}]
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	>=dev-python/fsspec-2022.11[${PYTHON_USEDEP}]
 	dev-python/tinynetrc[${PYTHON_USEDEP}]
 	dev-python/multimethod[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	kerchunk? ( dev-python/kerchunk[${PYTHON_USEDEP}] )
-	kerchunk? ( dev-python/dask[${PYTHON_USEDEP}] )"
+	kerchunk? ( >=dev-python/dask-2022.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

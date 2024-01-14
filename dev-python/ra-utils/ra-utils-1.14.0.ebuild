@@ -24,22 +24,22 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all frozendict headers jinja prometheus-client pydantic sentry"
-DEPENDENCIES="dev-python/more-itertools[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/more-itertools-9.1.0[${PYTHON_USEDEP}]
 	jinja? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	pydantic? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	sentry? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	headers? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	headers? ( dev-python/requests[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
-	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
-	all? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
+	pydantic? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
+	sentry? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
+	headers? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pydantic-2.0.0[${PYTHON_USEDEP}] )
+	headers? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	sentry? ( <dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sentry-sdk-2.0.0[${PYTHON_USEDEP}] )
 	frozendict? ( dev-python/frozendict[${PYTHON_USEDEP}] )
 	all? ( dev-python/frozendict[${PYTHON_USEDEP}] )
-	dev-python/structlog[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	prometheus-client? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	all? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )"
+	~dev-python/structlog-23.1.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
+	prometheus-client? ( <dev-python/prometheus-client-0.17.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/prometheus-client-0.17.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/astroid[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/pylint-1.6[${PYTHON_USEDEP}]
+	>=dev-python/astroid-1.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

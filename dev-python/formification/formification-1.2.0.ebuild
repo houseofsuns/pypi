@@ -27,15 +27,15 @@ IUSE=""
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-admin-ordering[${PYTHON_USEDEP}]
 	dev-python/django-ckeditor[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
+	>=dev-python/django-filter-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.11.2[${PYTHON_USEDEP}]
 	dev-python/nameparser[${PYTHON_USEDEP}]
 	dev-python/raven[${PYTHON_USEDEP}]
 	dev-python/pyzipcode[${PYTHON_USEDEP}]
 	dev-python/us[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/tzlocal[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
+	~dev-python/beautifulsoup4-4.4.1[${PYTHON_USEDEP}]
+	~dev-python/tzlocal-1.2.2[${PYTHON_USEDEP}]
+	>=dev-python/phonenumbers-8.12.40[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

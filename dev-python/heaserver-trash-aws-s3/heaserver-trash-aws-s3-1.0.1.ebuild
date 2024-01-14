@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/heaserver[${PYTHON_USEDEP}]
-	dev-python/aiostream[${PYTHON_USEDEP}]"
+	~dev-python/aiostream-0.5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

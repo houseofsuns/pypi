@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="azure vds xr zgy"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/segyio[${PYTHON_USEDEP}]
 	dev-python/zfpy[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	vds? ( dev-python/pyvds[${PYTHON_USEDEP}] )
-	xr? ( dev-python/xarray[${PYTHON_USEDEP}] )
+	xr? ( >=dev-python/xarray-0.20.2[${PYTHON_USEDEP}] )
 	zgy? ( dev-python/pyzgy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

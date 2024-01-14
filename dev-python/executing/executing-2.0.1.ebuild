@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="tests"
-DEPENDENCIES="tests? ( dev-python/asttokens[${PYTHON_USEDEP}] )
+DEPENDENCIES="tests? ( >=dev-python/asttokens-2.1.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )

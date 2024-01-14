@@ -34,8 +34,8 @@ DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/scipy[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
-	quality? ( dev-python/isort[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/black-23.1[${PYTHON_USEDEP}] )
+	quality? ( >=dev-python/isort-5.5.4[${PYTHON_USEDEP}] )
 	quality? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	testing? ( dev-python/filelock[${PYTHON_USEDEP}] )
 	testing? ( dev-python/GitPython[${PYTHON_USEDEP}] )

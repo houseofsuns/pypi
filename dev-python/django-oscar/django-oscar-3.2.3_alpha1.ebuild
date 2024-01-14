@@ -24,36 +24,36 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs easy-thumbnails sorl-thumbnail test"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/django-4.3[${PYTHON_USEDEP}]
+	>=dev-python/pillow-6.0[${PYTHON_USEDEP}]
 	dev-python/django-extra-views[${PYTHON_USEDEP}]
 	dev-python/django-haystack[${PYTHON_USEDEP}]
 	dev-python/django-treebeard[${PYTHON_USEDEP}]
-	dev-python/Babel[${PYTHON_USEDEP}]
+	<dev-python/Babel-3.0[${PYTHON_USEDEP}]
 	dev-python/purl[${PYTHON_USEDEP}]
 	dev-python/phonenumbers[${PYTHON_USEDEP}]
 	dev-python/django-phonenumber-field[${PYTHON_USEDEP}]
 	dev-python/factory-boy[${PYTHON_USEDEP}]
-	dev-python/django-tables2[${PYTHON_USEDEP}]
+	<dev-python/django-tables2-2.4[${PYTHON_USEDEP}]
 	dev-python/django-widget-tweaks[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-issues[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinxcontrib-spelling-7.5.1[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/sphinx-issues-3.0.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sorl-thumbnail[${PYTHON_USEDEP}] )
-	docs? ( dev-python/easy-thumbnails[${PYTHON_USEDEP}] )
-	easy-thumbnails? ( dev-python/easy-thumbnails[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/easy-thumbnails-2.8.6[${PYTHON_USEDEP}] )
+	easy-thumbnails? ( <dev-python/easy-thumbnails-2.8.6[${PYTHON_USEDEP}] )
 	sorl-thumbnail? ( dev-python/sorl-thumbnail[${PYTHON_USEDEP}] )
 	test? ( dev-python/WebTest[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( <dev-python/coverage-5.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/django-webtest[${PYTHON_USEDEP}] )
 	test? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/freezegun[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-django-3.9[${PYTHON_USEDEP}] )
+	test? ( <dev-python/pytest-xdist-3.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/tox-4.0[${PYTHON_USEDEP}] )
+	test? ( <dev-python/freezegun-2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	test? ( dev-python/sorl-thumbnail[${PYTHON_USEDEP}] )
-	test? ( dev-python/easy-thumbnails[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/easy-thumbnails-2.8.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/pan-os-python[${PYTHON_USEDEP}]
 	dev-python/pan-python[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]"
+	<dev-python/xmltodict-0.13[${PYTHON_USEDEP}]
+	<dev-python/pyopenssl-24.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

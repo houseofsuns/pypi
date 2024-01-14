@@ -28,6 +28,6 @@ DEPENDENCIES="dev-python/botw-utils[${PYTHON_USEDEP}]
 	dev-python/oead[${PYTHON_USEDEP}]
 	dev-python/pymsyt[${PYTHON_USEDEP}]
 	dev-python/rstb[${PYTHON_USEDEP}]
-	dev-python/xxhash[${PYTHON_USEDEP}]"
+	~dev-python/xxhash-1.4.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

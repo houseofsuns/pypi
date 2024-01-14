@@ -30,10 +30,10 @@ DEPENDENCIES="dev-python/imageio[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/pyaml[${PYTHON_USEDEP}]
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.0.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-4.0.2[${PYTHON_USEDEP}] )
 	gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-4.3.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

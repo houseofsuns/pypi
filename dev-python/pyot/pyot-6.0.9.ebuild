@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="diskcache mongodb redis test"
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/lor-deckcodes[${PYTHON_USEDEP}]
-	diskcache? ( dev-python/diskcache[${PYTHON_USEDEP}] )
-	diskcache? ( dev-python/asgiref[${PYTHON_USEDEP}] )
+	diskcache? ( >=dev-python/diskcache-5.1[${PYTHON_USEDEP}] )
+	diskcache? ( >=dev-python/asgiref-3.2[${PYTHON_USEDEP}] )
 	mongodb? ( dev-python/motor[${PYTHON_USEDEP}] )
-	redis? ( dev-python/redis[${PYTHON_USEDEP}] )
-	test? ( dev-python/typeguard[${PYTHON_USEDEP}] )
-	test? ( dev-python/redis[${PYTHON_USEDEP}] )
+	redis? ( >=dev-python/redis-4.5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/typeguard-2.13[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/redis-4.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/motor[${PYTHON_USEDEP}] )
-	test? ( dev-python/diskcache[${PYTHON_USEDEP}] )
-	test? ( dev-python/asgiref[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/diskcache-5.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/asgiref-3.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

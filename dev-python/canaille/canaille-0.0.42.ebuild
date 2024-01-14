@@ -24,31 +24,31 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all front ldap oidc sentry sql"
-DEPENDENCIES="dev-python/flask[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/flask-4.0.0[${PYTHON_USEDEP}]
 	dev-python/flask-wtf[${PYTHON_USEDEP}]
-	dev-python/wtforms[${PYTHON_USEDEP}]
+	<dev-python/wtforms-4.0.0[${PYTHON_USEDEP}]
 	front? ( dev-python/email_validator[${PYTHON_USEDEP}] )
 	all? ( dev-python/email_validator[${PYTHON_USEDEP}] )
-	front? ( dev-python/flask-babel[${PYTHON_USEDEP}] )
-	all? ( dev-python/flask-babel[${PYTHON_USEDEP}] )
+	front? ( <dev-python/flask-babel-5.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/flask-babel-5.0.0[${PYTHON_USEDEP}] )
 	front? ( dev-python/flask-themer[${PYTHON_USEDEP}] )
 	all? ( dev-python/flask-themer[${PYTHON_USEDEP}] )
-	front? ( dev-python/pycountry[${PYTHON_USEDEP}] )
-	all? ( dev-python/pycountry[${PYTHON_USEDEP}] )
-	front? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytz[${PYTHON_USEDEP}] )
+	front? ( >=dev-python/pycountry-22.1.10[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pycountry-22.1.10[${PYTHON_USEDEP}] )
+	front? ( >=dev-python/pytz-2022.7[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytz-2022.7[${PYTHON_USEDEP}] )
 	front? ( dev-python/toml[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )
 	oidc? ( dev-python/authlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/authlib[${PYTHON_USEDEP}] )
-	ldap? ( dev-python/python-ldap[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-ldap[${PYTHON_USEDEP}] )
-	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
-	all? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
-	sql? ( dev-python/passlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/passlib[${PYTHON_USEDEP}] )
-	sql? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	ldap? ( <dev-python/python-ldap-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/python-ldap-4.0.0[${PYTHON_USEDEP}] )
+	sentry? ( <dev-python/sentry-sdk-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sentry-sdk-2.0[${PYTHON_USEDEP}] )
+	sql? ( <dev-python/passlib-2.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/passlib-2.0.0[${PYTHON_USEDEP}] )
+	sql? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	sql? ( dev-python/sqlalchemy-json[${PYTHON_USEDEP}] )
 	all? ( dev-python/sqlalchemy-json[${PYTHON_USEDEP}] )
 	sql? ( dev-python/sqlalchemy-utils[${PYTHON_USEDEP}] )

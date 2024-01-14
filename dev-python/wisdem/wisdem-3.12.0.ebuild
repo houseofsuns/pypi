@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/dearpygui[${PYTHON_USEDEP}]
 	dev-python/marmot-agents[${PYTHON_USEDEP}]
 	dev-python/moorpy[${PYTHON_USEDEP}]
 	dev-python/nlopt[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.26[${PYTHON_USEDEP}]
 	dev-python/openmdao[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/dearpygui[${PYTHON_USEDEP}]
 	dev? ( dev-python/swig[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.3[${PYTHON_USEDEP}] )
 	opt? ( dev-python/pyoptsparse[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )

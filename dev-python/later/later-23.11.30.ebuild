@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev? ( dev-python/async-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flit[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/async-timeout-5.0.0[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-4.5.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flit-3.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

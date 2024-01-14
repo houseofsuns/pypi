@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all flickr google gpxpy importer ipernity keyring pillow pixelfed pyqt5 pyqt6 pyside2 pyside6 requests-oauthlib requests-toolbelt spelling"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/appdirs-1.3[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-3.0[${PYTHON_USEDEP}]
+	>=dev-python/chardet-3.0[${PYTHON_USEDEP}]
 	dev-python/exiv2[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.4[${PYTHON_USEDEP}]
 	pillow? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-	pyqt5? ( dev-python/PyQtWebEngine[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6[${PYTHON_USEDEP}] )
-	pyqt6? ( dev-python/PyQt6-WebEngine[${PYTHON_USEDEP}] )
+	pyqt5? ( >=dev-python/PyQt5-5.9[${PYTHON_USEDEP}] )
+	pyqt5? ( >=dev-python/PyQtWebEngine-5.12[${PYTHON_USEDEP}] )
+	pyqt6? ( >=dev-python/PyQt6-6.2[${PYTHON_USEDEP}] )
+	pyqt6? ( >=dev-python/PyQt6-WebEngine-6.2[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	pyside6? ( dev-python/PySide6[${PYTHON_USEDEP}] )
 	all? ( dev-python/photini[${PYTHON_USEDEP}] )
@@ -42,10 +42,10 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	gpxpy? ( dev-python/gpxpy[${PYTHON_USEDEP}] )
 	importer? ( dev-python/gphoto2[${PYTHON_USEDEP}] )
 	ipernity? ( dev-python/photini[${PYTHON_USEDEP}] )
-	keyring? ( dev-python/keyring[${PYTHON_USEDEP}] )
+	keyring? ( >=dev-python/keyring-7.0[${PYTHON_USEDEP}] )
 	pixelfed? ( dev-python/photini[${PYTHON_USEDEP}] )
-	requests-oauthlib? ( dev-python/requests-oauthlib[${PYTHON_USEDEP}] )
-	requests-toolbelt? ( dev-python/requests-toolbelt[${PYTHON_USEDEP}] )
-	spelling? ( dev-python/pyenchant[${PYTHON_USEDEP}] )"
+	requests-oauthlib? ( >=dev-python/requests-oauthlib-1.0[${PYTHON_USEDEP}] )
+	requests-toolbelt? ( >=dev-python/requests-toolbelt-0.9[${PYTHON_USEDEP}] )
+	spelling? ( >=dev-python/pyenchant-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

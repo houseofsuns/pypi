@@ -27,7 +27,7 @@ IUSE="test"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
+	~dev-python/networkx-1.11[${PYTHON_USEDEP}]
 	dev-python/pyreadline[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]

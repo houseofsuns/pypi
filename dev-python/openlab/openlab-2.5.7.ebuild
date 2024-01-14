@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/oauthlib-2.0.7[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-oauthlib-0.4[${PYTHON_USEDEP}]
 	dev-python/validators[${PYTHON_USEDEP}]
 	dev-python/datetime[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]

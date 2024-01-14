@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pendulum[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/pendulum-2.1.2[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
+	~dev-python/prettytable-3.6.0[${PYTHON_USEDEP}]
 	dev-python/validate-email[${PYTHON_USEDEP}]
 	dev-python/click-completion[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
+	~dev-python/pbr-5.8.0[${PYTHON_USEDEP}]
 	dev-python/notify-py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

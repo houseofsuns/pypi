@@ -28,7 +28,7 @@ DEPENDENCIES="dev-python/iWAN[${PYTHON_USEDEP}]
 	dev-python/iWAN-Request[${PYTHON_USEDEP}]
 	dev-python/pubkey2address[${PYTHON_USEDEP}]
 	dev-python/substrate-interface[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
+	~dev-python/websocket-client-0.58.0[${PYTHON_USEDEP}]
 	dev-python/BalanceSpider[${PYTHON_USEDEP}]
 	dev-python/multicall[${PYTHON_USEDEP}]
 	dev-python/web3[${PYTHON_USEDEP}]"

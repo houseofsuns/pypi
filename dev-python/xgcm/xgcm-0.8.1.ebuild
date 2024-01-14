@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="complete dev docs"
-DEPENDENCIES="dev-python/xarray[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/xarray-0.20.0[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/future[${PYTHON_USEDEP}]
-	complete? ( dev-python/xarray[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/xarray-0.20.0[${PYTHON_USEDEP}] )
 	complete? ( dev-python/dask[${PYTHON_USEDEP}] )
 	complete? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	complete? ( dev-python/future[${PYTHON_USEDEP}] )
-	dev? ( dev-python/xarray[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/xarray-0.20.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/dask[${PYTHON_USEDEP}] )
 	dev? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/future[${PYTHON_USEDEP}] )

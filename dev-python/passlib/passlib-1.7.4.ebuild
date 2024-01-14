@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="argon2 bcrypt build_docs totp"
-DEPENDENCIES="argon2? ( dev-python/argon2-cffi[${PYTHON_USEDEP}] )
-	bcrypt? ( dev-python/bcrypt[${PYTHON_USEDEP}] )
-	build_docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+DEPENDENCIES="argon2? ( >=dev-python/argon2-cffi-18.2.0[${PYTHON_USEDEP}] )
+	bcrypt? ( >=dev-python/bcrypt-3.1.0[${PYTHON_USEDEP}] )
+	build_docs? ( >=dev-python/sphinx-1.6[${PYTHON_USEDEP}] )
 	build_docs? ( dev-python/sphinxcontrib-fulltoc[${PYTHON_USEDEP}] )
 	build_docs? ( dev-python/cloud-sptheme[${PYTHON_USEDEP}] )
 	totp? ( dev-python/cryptography[${PYTHON_USEDEP}] )"

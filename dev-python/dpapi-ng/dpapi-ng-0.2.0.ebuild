@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="kerberos"
-DEPENDENCIES="dev-python/dnspython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dnspython-2.0.0[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/pyspnego[${PYTHON_USEDEP}]
-	kerberos? ( dev-python/pyspnego[${PYTHON_USEDEP}] )"
+	>=dev-python/pyspnego-0.9.0[${PYTHON_USEDEP}]
+	kerberos? ( >=dev-python/pyspnego-0.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/dacite[${PYTHON_USEDEP}]
 	dev-python/pyjson5[${PYTHON_USEDEP}]
-	dev-python/shellingham[${PYTHON_USEDEP}]"
+	<dev-python/shellingham-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

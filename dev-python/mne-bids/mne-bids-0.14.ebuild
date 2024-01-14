@@ -25,14 +25,14 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="full"
 DEPENDENCIES="dev-python/mne[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.2[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6.3[${PYTHON_USEDEP}]
 	full? ( dev-python/nibabel[${PYTHON_USEDEP}] )
 	full? ( dev-python/pybv[${PYTHON_USEDEP}] )
 	full? ( dev-python/eeglabio[${PYTHON_USEDEP}] )
 	full? ( dev-python/pymatreader[${PYTHON_USEDEP}] )
-	full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	full? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/matplotlib-3.4.0[${PYTHON_USEDEP}] )
+	full? ( >=dev-python/pandas-1.2.4[${PYTHON_USEDEP}] )
 	full? ( dev-python/EDFlib-Python[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

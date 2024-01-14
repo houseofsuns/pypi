@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/garpixcms[${PYTHON_USEDEP}]
 	dev-python/drf-nested-routers[${PYTHON_USEDEP}]
 	dev-python/django-fsm[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]"
+	>=dev-python/django-filter-21.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

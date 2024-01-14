@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci dev docs metadata package packagetest publish test"
-DEPENDENCIES="ci? ( dev-python/tox[${PYTHON_USEDEP}] )
+DEPENDENCIES="ci? ( ~dev-python/tox-4.5.1[${PYTHON_USEDEP}] )
 	ci? ( dev-python/tox-extras[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/coverage-7.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pdoc[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyroma[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/tox-4.5.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox-extras[${PYTHON_USEDEP}] )
 	docs? ( dev-python/pdoc[${PYTHON_USEDEP}] )
 	metadata? ( dev-python/pyroma[${PYTHON_USEDEP}] )
-	package? ( dev-python/build[${PYTHON_USEDEP}] )
-	packagetest? ( dev-python/twine[${PYTHON_USEDEP}] )
-	publish? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	package? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	packagetest? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	publish? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.3.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/coverage-7.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

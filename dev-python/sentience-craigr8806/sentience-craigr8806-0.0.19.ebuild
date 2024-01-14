@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/pyopencl[${PYTHON_USEDEP}]
-	dev-python/pytools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.22.2[${PYTHON_USEDEP}]
+	~dev-python/platformdirs-2.5.0[${PYTHON_USEDEP}]
+	~dev-python/pyopencl-2022.1[${PYTHON_USEDEP}]
+	~dev-python/pytools-2022.1[${PYTHON_USEDEP}]
 	dev-python/ParallelLinear-CraigR8806[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

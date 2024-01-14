@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="sounds speed"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	dev-python/iso8601[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	sounds? ( dev-python/yt-dlp[${PYTHON_USEDEP}] )
-	sounds? ( dev-python/pyaudio[${PYTHON_USEDEP}] )
-	speed? ( dev-python/ujson[${PYTHON_USEDEP}] )
+	sounds? ( ~dev-python/pyaudio-0.2.11[${PYTHON_USEDEP}] )
+	speed? ( <dev-python/ujson-6.0[${PYTHON_USEDEP}] )
 	speed? ( dev-python/ciso8601[${PYTHON_USEDEP}] )
-	speed? ( dev-python/cchardet[${PYTHON_USEDEP}] )"
+	speed? ( <dev-python/cchardet-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

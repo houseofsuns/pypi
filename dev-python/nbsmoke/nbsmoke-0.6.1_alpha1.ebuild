@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all build holoviews-magics lint tests verify"
 DEPENDENCIES="dev-python/param[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+	>=dev-python/pytest-3.1.1[${PYTHON_USEDEP}]
 	dev-python/pyflakes[${PYTHON_USEDEP}]
 	dev-python/jupyter-client[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
@@ -40,11 +40,11 @@ DEPENDENCIES="dev-python/param[${PYTHON_USEDEP}]
 	all? ( dev-python/pyct[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests[${PYTHON_USEDEP}] )
 	all? ( dev-python/rfc3986[${PYTHON_USEDEP}] )
-	all? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/setuptools-30.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/twine[${PYTHON_USEDEP}] )
 	build? ( dev-python/param[${PYTHON_USEDEP}] )
 	build? ( dev-python/pyct[${PYTHON_USEDEP}] )
-	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/setuptools-30.3.0[${PYTHON_USEDEP}] )
 	holoviews-magics? ( dev-python/holoviews[${PYTHON_USEDEP}] )
 	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )

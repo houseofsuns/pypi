@@ -24,65 +24,65 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all asana bigquery_preview dev jira oidc pyarrow"
-DEPENDENCIES="dev-python/responses[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/responses-0.12.1[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/retrying[${PYTHON_USEDEP}]
+	<dev-python/retrying-2.0[${PYTHON_USEDEP}]
 	dev-python/amundsen-common[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/flasgger[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.1.0[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.17.23[${PYTHON_USEDEP}]
+	~dev-python/click-7.0[${PYTHON_USEDEP}]
+	~dev-python/flasgger-0.9.5[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/Flask-RESTful[${PYTHON_USEDEP}]
-	dev-python/flask-cors[${PYTHON_USEDEP}]
-	dev-python/itsdangerous[${PYTHON_USEDEP}]
+	~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}]
+	<=dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}]
 	dev-python/Jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/marshmallow[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.0[${PYTHON_USEDEP}]
+	<=dev-python/marshmallow-3.6[${PYTHON_USEDEP}]
 	dev-python/marshmallow3-annotations[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/pytz-2021.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	dev-python/requests-aws4auth[${PYTHON_USEDEP}]
-	dev-python/statsd[${PYTHON_USEDEP}]
+	~dev-python/statsd-3.2.1[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]
-	dev-python/werkzeug[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	all? ( dev-python/responses[${PYTHON_USEDEP}] )
+	~dev-python/werkzeug-2.0.3[${PYTHON_USEDEP}]
+	~dev-python/wheel-0.36.2[${PYTHON_USEDEP}]
+	all? ( ~dev-python/responses-0.12.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
-	all? ( dev-python/retrying[${PYTHON_USEDEP}] )
+	all? ( <dev-python/retrying-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/amundsen-common[${PYTHON_USEDEP}] )
-	all? ( dev-python/attrs[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	all? ( dev-python/click[${PYTHON_USEDEP}] )
-	all? ( dev-python/flasgger[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/attrs-19.1.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/boto3-1.17.23[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/click-7.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/flasgger-0.9.5[${PYTHON_USEDEP}] )
 	all? ( dev-python/Flask[${PYTHON_USEDEP}] )
 	all? ( dev-python/Flask-RESTful[${PYTHON_USEDEP}] )
-	all? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
-	all? ( dev-python/itsdangerous[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/itsdangerous-2.0.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
-	all? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	all? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
+	all? ( <dev-python/jsonschema-4.0[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/marshmallow-3.6[${PYTHON_USEDEP}] )
 	all? ( dev-python/marshmallow3-annotations[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	all? ( dev-python/requests[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytz-2021.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/requests-2.25.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/requests-aws4auth[${PYTHON_USEDEP}] )
-	all? ( dev-python/statsd[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/statsd-3.2.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/typing[${PYTHON_USEDEP}] )
-	all? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	all? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/werkzeug-2.0.3[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/wheel-0.36.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-tidy-imports[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/isort-5.8.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
+	all? ( <dev-python/mypy-0.900[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.12.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-env-0.6.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/typed-ast[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	all? ( dev-python/flaskoidc[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	all? ( dev-python/flatten-dict[${PYTHON_USEDEP}] )
 	all? ( dev-python/jira[${PYTHON_USEDEP}] )
@@ -90,19 +90,19 @@ DEPENDENCIES="dev-python/responses[${PYTHON_USEDEP}]
 	asana? ( dev-python/asana[${PYTHON_USEDEP}] )
 	bigquery_preview? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
 	bigquery_preview? ( dev-python/flatten-dict[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-tidy-imports[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-5.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/mypy-0.900[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.12.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-env-0.6.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/typed-ast[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	jira? ( dev-python/jira[${PYTHON_USEDEP}] )
 	oidc? ( dev-python/flaskoidc[${PYTHON_USEDEP}] )
-	pyarrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )"
+	pyarrow? ( ~dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

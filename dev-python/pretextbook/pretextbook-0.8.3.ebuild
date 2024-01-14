@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/watchdog[${PYTHON_USEDEP}]
-	dev-python/GitPython[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/lxml-5.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/watchdog-3.0[${PYTHON_USEDEP}]
+	<dev-python/GitPython-4.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
 	dev-python/pdfCropMargins[${PYTHON_USEDEP}]
 	dev-python/PyPDF2[${PYTHON_USEDEP}]
-	dev-python/click-log[${PYTHON_USEDEP}]
-	dev-python/ghp-import[${PYTHON_USEDEP}]
+	<dev-python/click-log-0.5[${PYTHON_USEDEP}]
+	<dev-python/ghp-import-3.0[${PYTHON_USEDEP}]
 	dev-python/single-version[${PYTHON_USEDEP}]
 	dev-python/CodeChat-Server[${PYTHON_USEDEP}]
 	dev-python/pyppeteer[${PYTHON_USEDEP}]"

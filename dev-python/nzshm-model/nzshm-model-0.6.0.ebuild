@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="scripts toshi"
-DEPENDENCIES="toshi? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	scripts? ( dev-python/click[${PYTHON_USEDEP}] )
+DEPENDENCIES="toshi? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
+	scripts? ( <dev-python/click-9.0.0[${PYTHON_USEDEP}] )
 	dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	<dev-python/lxml-5.0.0[${PYTHON_USEDEP}]
 	toshi? ( dev-python/nshm-toshi-client[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

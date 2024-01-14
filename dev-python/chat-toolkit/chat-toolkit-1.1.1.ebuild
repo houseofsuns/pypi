@@ -27,10 +27,10 @@ IUSE=""
 DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]
-	dev-python/loguru[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	<dev-python/loguru-0.7.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
 	dev-python/keyboard[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	<dev-python/pytest-cov-5.0.0[${PYTHON_USEDEP}]
 	dev-python/pyttsx3[${PYTHON_USEDEP}]
 	dev-python/pyxhook[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

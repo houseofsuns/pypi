@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/auto-click-auto[${PYTHON_USEDEP}]
 	dev-python/securesystemslib[${PYTHON_USEDEP}]
 	dev-python/tuf[${PYTHON_USEDEP}]
 	psycopg2? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )"
+	sqlalchemy? ( >=dev-python/sqlalchemy-2.0.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

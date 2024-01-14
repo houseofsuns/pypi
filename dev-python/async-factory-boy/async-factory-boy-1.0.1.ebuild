@@ -30,7 +30,7 @@ DEPENDENCIES="dev-python/factory-boy[${PYTHON_USEDEP}]
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
 	dev? ( dev-python/SQLAlchemy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tortoise-orm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.32.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/zest-releaser[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

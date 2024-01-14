@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="factory"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-2.2[${PYTHON_USEDEP}]
 	factory? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	factory? ( dev-python/Faker[${PYTHON_USEDEP}] )
-	factory? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )"
+	factory? ( >=dev-python/Faker-0.8[${PYTHON_USEDEP}] )
+	factory? ( >=dev-python/python-dateutil-2.6[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

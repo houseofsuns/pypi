@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aliyunsms channels"
-DEPENDENCIES="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/django-3.1[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	channels? ( dev-python/channels[${PYTHON_USEDEP}] )
 	aliyunsms? ( dev-python/alibabacloud-dysmsapi20170525[${PYTHON_USEDEP}] )
 	dev-python/markdownify[${PYTHON_USEDEP}]

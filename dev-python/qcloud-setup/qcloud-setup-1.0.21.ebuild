@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/demjson3[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
+	~dev-python/paramiko-3.4.0[${PYTHON_USEDEP}]
 	dev-python/pick[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/pyopenssl[${PYTHON_USEDEP}]
+	>=dev-python/pyopenssl-22.1.0[${PYTHON_USEDEP}]
 	dev-python/Requests[${PYTHON_USEDEP}]
 	dev-python/aws-parallelcluster[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

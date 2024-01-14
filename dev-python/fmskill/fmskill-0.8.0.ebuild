@@ -32,10 +32,10 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-4.5.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/plotly[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/plotly-4.5[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/nbformat[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/jupyter[${PYTHON_USEDEP}] )

@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ipython"
-DEPENDENCIES="dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	ipython? ( dev-python/ipython[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/sphinx-3.2.0[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.8.1[${PYTHON_USEDEP}]
+	ipython? ( >dev-python/ipython-8.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

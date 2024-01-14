@@ -25,28 +25,28 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
 DEPENDENCIES="dev-python/asyncio[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
+	~dev-python/black-22.0[${PYTHON_USEDEP}]
+	<dev-python/flake8-5.0[${PYTHON_USEDEP}]
+	<dev-python/ipython-8.0[${PYTHON_USEDEP}]
+	~dev-python/isort-5.0[${PYTHON_USEDEP}]
 	dev-python/kedro[${PYTHON_USEDEP}]
 	dev-python/kedro-telemetry[${PYTHON_USEDEP}]
 	dev-python/kedro-datasets[${PYTHON_USEDEP}]
 	dev-python/nbstripout[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
-	dev-python/pytest-mock[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/pytest-cov-3.0[${PYTHON_USEDEP}]
+	<dev-python/pytest-mock-2.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-7.3.1[${PYTHON_USEDEP}]
+	~dev-python/redis-4.5.5[${PYTHON_USEDEP}]
 	dev-python/celery[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	~dev-python/click-8.1.3[${PYTHON_USEDEP}]
+	~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
-	dev-python/pymongo[${PYTHON_USEDEP}]
-	dev-python/python-dotenv[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	~dev-python/pymongo-4.3.3[${PYTHON_USEDEP}]
+	~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}]
 	test? ( dev-python/minio[${PYTHON_USEDEP}] )
 	test? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pandas-2.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

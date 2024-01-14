@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/environs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/environs-8.0.0[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-api[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-sdk[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-propagator-b3[${PYTHON_USEDEP}]
 	dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}]
-	test? ( dev-python/httpretty[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/httpretty-1.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

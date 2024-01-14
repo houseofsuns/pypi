@@ -26,23 +26,23 @@ KEYWORDS="~amd64 ~x86"
 IUSE="attribution doi test"
 DEPENDENCIES="dev-python/importlib-resources[${PYTHON_USEDEP}]
 	dev-python/backports-csv[${PYTHON_USEDEP}]
-	dev-python/cchardet[${PYTHON_USEDEP}]
+	~dev-python/cchardet-2.1.4[${PYTHON_USEDEP}]
 	dev-python/splitgill[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
-	dev-python/elasticsearch[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<dev-python/elasticsearch-7.0.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
+	~dev-python/openpyxl-2.5.8[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.4.1[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
+	~dev-python/xlrd-1.1.0[${PYTHON_USEDEP}]
 	dev-python/fastavro[${PYTHON_USEDEP}]
 	dev-python/ckantools[${PYTHON_USEDEP}]
 	attribution? ( dev-python/ckanext-attribution[${PYTHON_USEDEP}] )
 	doi? ( dev-python/ckanext-query-dois[${PYTHON_USEDEP}] )
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-4.6.5[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

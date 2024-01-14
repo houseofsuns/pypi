@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/basecmd[${PYTHON_USEDEP}]
 	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]
-	dev-python/ply[${PYTHON_USEDEP}]
+	~dev-python/paho-mqtt-1.4[${PYTHON_USEDEP}]
+	~dev-python/ply-3.0[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

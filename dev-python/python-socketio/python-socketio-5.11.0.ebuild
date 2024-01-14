@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="asyncio_client client docs"
 DEPENDENCIES="dev-python/bidict[${PYTHON_USEDEP}]
-	dev-python/python-engineio[${PYTHON_USEDEP}]
-	asyncio_client? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	client? ( dev-python/requests[${PYTHON_USEDEP}] )
-	client? ( dev-python/websocket-client[${PYTHON_USEDEP}] )
+	>=dev-python/python-engineio-4.8.0[${PYTHON_USEDEP}]
+	asyncio_client? ( >=dev-python/aiohttp-3.4[${PYTHON_USEDEP}] )
+	client? ( >=dev-python/requests-2.21.0[${PYTHON_USEDEP}] )
+	client? ( >=dev-python/websocket-client-0.54.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="crt"
-DEPENDENCIES="dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/s3transfer[${PYTHON_USEDEP}]
-	crt? ( dev-python/botocore[${PYTHON_USEDEP}] )"
+DEPENDENCIES="<dev-python/botocore-1.35.0[${PYTHON_USEDEP}]
+	<dev-python/jmespath-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/s3transfer-0.11.0[${PYTHON_USEDEP}]
+	crt? ( <dev-python/botocore-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

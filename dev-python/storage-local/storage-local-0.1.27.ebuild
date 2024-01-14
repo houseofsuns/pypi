@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.28.44[${PYTHON_USEDEP}]
 	dev-python/logger-local[${PYTHON_USEDEP}]
 	dev-python/user-context-remote[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

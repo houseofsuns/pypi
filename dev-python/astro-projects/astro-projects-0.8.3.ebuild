@@ -26,9 +26,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all amazon doc google postgres snowflake tests"
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/python-frontmatter[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	<=dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/markupsafe[${PYTHON_USEDEP}]
+	<dev-python/markupsafe-2.1.0[${PYTHON_USEDEP}]
 	dev-python/smart-open[${PYTHON_USEDEP}]
 	dev-python/pyarrow[${PYTHON_USEDEP}]
 	all? ( dev-python/apache-airflow-providers-amazon[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	amazon? ( dev-python/apache-airflow-providers-amazon[${PYTHON_USEDEP}] )
 	amazon? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	amazon? ( dev-python/smart-open[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( ~dev-python/sphinx-4.4.0[${PYTHON_USEDEP}] )
 	google? ( dev-python/apache-airflow-providers-google[${PYTHON_USEDEP}] )
 	google? ( dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}] )
 	google? ( dev-python/smart-open[${PYTHON_USEDEP}] )
@@ -51,8 +51,8 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	snowflake? ( dev-python/apache-airflow-providers-snowflake[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
-	tests? ( dev-python/click[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/click-8.0.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-split[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-dotenv[${PYTHON_USEDEP}] )
 	tests? ( dev-python/requests-mock[${PYTHON_USEDEP}] )

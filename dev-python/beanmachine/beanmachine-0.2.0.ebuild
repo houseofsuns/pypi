@@ -25,28 +25,28 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev test tutorials"
 DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
-	dev-python/astor[${PYTHON_USEDEP}]
-	dev-python/black[${PYTHON_USEDEP}]
+	>=dev-python/astor-0.7.1[${PYTHON_USEDEP}]
+	~dev-python/black-22.3.0[${PYTHON_USEDEP}]
 	dev-python/botorch[${PYTHON_USEDEP}]
 	dev-python/gpytorch[${PYTHON_USEDEP}]
-	dev-python/graphviz[${PYTHON_USEDEP}]
+	>=dev-python/graphviz-0.17[${PYTHON_USEDEP}]
 	dev-python/functorch[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/statsmodels[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.18.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.24.2[${PYTHON_USEDEP}]
+	>=dev-python/plotly-2.2.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.16[${PYTHON_USEDEP}]
+	>=dev-python/statsmodels-0.12.0[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/xarray[${PYTHON_USEDEP}]
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	>=dev-python/tqdm-4.46.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.10[${PYTHON_USEDEP}]
+	>=dev-python/xarray-0.16.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	dev? ( dev-python/cma[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/lxml-4.9[${PYTHON_USEDEP}] )
 	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdformat[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdformat-myst[${PYTHON_USEDEP}] )
@@ -54,23 +54,23 @@ DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
 	dev? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	dev? ( dev-python/libcst[${PYTHON_USEDEP}] )
 	dev? ( dev-python/nbval[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ufmt[${PYTHON_USEDEP}] )
 	dev? ( dev-python/usort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/cma[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/lxml[${PYTHON_USEDEP}] )
+	tutorials? ( >=dev-python/lxml-4.9[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/mdformat[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/mdformat-myst[${PYTHON_USEDEP}] )

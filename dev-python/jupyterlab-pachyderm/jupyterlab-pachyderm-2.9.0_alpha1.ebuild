@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/jupyter-server[${PYTHON_USEDEP}]
-	dev-python/pycurl[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	<dev-python/jupyter-server-2.8[${PYTHON_USEDEP}]
+	<dev-python/pycurl-8.0[${PYTHON_USEDEP}]
 	dev-python/pachyderm-sdk[${PYTHON_USEDEP}]
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyter-packaging[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/jupyter-packaging-0.10.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/jupyterlab-3.0.14[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )

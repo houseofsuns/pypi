@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/rsa[${PYTHON_USEDEP}]
-	dev-python/pyDes[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/rsa-4.9[${PYTHON_USEDEP}]
+	>=dev-python/pyDes-2.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

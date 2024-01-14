@@ -25,18 +25,18 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev gui selescrape unpacker"
 DEPENDENCIES="dev-python/pySmartDL[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/beautifulsoup4-4.6.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
 	dev-python/Click[${PYTHON_USEDEP}]
-	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+	>=dev-python/fuzzywuzzy-0.17.0[${PYTHON_USEDEP}]
+	>=dev-python/coloredlogs-10.0[${PYTHON_USEDEP}]
 	dev-python/cfscrape[${PYTHON_USEDEP}]
-	dev-python/requests-cache[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
+	>=dev-python/requests-cache-0.4.13[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.8.3[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.8.2[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/httpretty[${PYTHON_USEDEP}] )
-	gui? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	gui? ( >=dev-python/PyQt5-5.15.1[${PYTHON_USEDEP}] )
 	gui? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	selescrape? ( dev-python/selenium[${PYTHON_USEDEP}] )
 	unpacker? ( dev-python/jsbeautifier[${PYTHON_USEDEP}] )"

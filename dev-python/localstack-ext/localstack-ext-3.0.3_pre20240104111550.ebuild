@@ -24,68 +24,68 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="package runtime test typehint"
-DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/dill-0.3.2[${PYTHON_USEDEP}]
 	dev-python/dnslib[${PYTHON_USEDEP}]
-	dev-python/dnspython[${PYTHON_USEDEP}]
+	>=dev-python/dnspython-1.16.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/plux[${PYTHON_USEDEP}]
 	dev-python/localstack-core[${PYTHON_USEDEP}]
-	dev-python/pyaes[${PYTHON_USEDEP}]
-	dev-python/python-jose[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	>=dev-python/pyaes-1.6.0[${PYTHON_USEDEP}]
+	<dev-python/python-jose-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.8[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	runtime? ( dev-python/amazon-ion[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/avro[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/asgiref[${PYTHON_USEDEP}] )
+	runtime? ( ~dev-python/asgiref-3.7.2[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/aws-encryption-sdk[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/dirtyjson[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/distro[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/docker-registry-client[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/dulwich[${PYTHON_USEDEP}] )
+	runtime? ( >=dev-python/dulwich-0.19.16[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/janus[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/jsonpatch[${PYTHON_USEDEP}] )
+	runtime? ( >=dev-python/jsonpatch-1.32[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/Js2Py[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/localstack-core[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/paho-mqtt[${PYTHON_USEDEP}] )
+	runtime? ( >=dev-python/paho-mqtt-1.5[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/parquet[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/parse[${PYTHON_USEDEP}] )
+	runtime? ( ~dev-python/parse-1.19.0[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/pg8000[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/postgres[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/postgresql-proxy[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/presto-python-client[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/pyftpdlib[${PYTHON_USEDEP}] )
+	runtime? ( >=dev-python/pyftpdlib-1.5.6[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/pyhive[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/pure-sasl[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/thrift[${PYTHON_USEDEP}] )
+	runtime? ( >=dev-python/thrift-0.10.0[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/thrift_sasl[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/pyion2json[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/PyJWT[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/pymysql[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/pproxy-ext[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/pyqldb[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/python-snappy[${PYTHON_USEDEP}] )
+	runtime? ( >=dev-python/python-snappy-0.6[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/readerwriterlock[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/redis[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/rsa[${PYTHON_USEDEP}] )
+	runtime? ( >=dev-python/redis-5.0[${PYTHON_USEDEP}] )
+	runtime? ( >=dev-python/rsa-4.0[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/sql-metadata[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/srp-ext[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/testing-common-database[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/tornado[${PYTHON_USEDEP}] )
+	runtime? ( >=dev-python/tornado-6.0[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/warrant-ext[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/websockets[${PYTHON_USEDEP}] )
+	runtime? ( >=dev-python/websockets-8.1[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/Whoosh[${PYTHON_USEDEP}] )
 	test? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
 	test? ( dev-python/async-timeout[${PYTHON_USEDEP}] )
 	test? ( dev-python/awswrangler[${PYTHON_USEDEP}] )
 	test? ( dev-python/aws_xray_sdk[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/black-23.10.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/deepdiff[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/deepdiff-5.5.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/gremlinpython[${PYTHON_USEDEP}] )
 	test? ( dev-python/Js2Py[${PYTHON_USEDEP}] )
 	test? ( dev-python/jws[${PYTHON_USEDEP}] )
@@ -94,8 +94,8 @@ DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
 	test? ( dev-python/msal-extensions[${PYTHON_USEDEP}] )
 	test? ( dev-python/msrest[${PYTHON_USEDEP}] )
 	test? ( dev-python/neo4j[${PYTHON_USEDEP}] )
-	test? ( dev-python/nest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/paramiko[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/nest-asyncio-1.4.1[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/paramiko-2.11.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/portalocker[${PYTHON_USEDEP}] )
 	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
@@ -106,8 +106,8 @@ DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-instafail[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
 	test? ( dev-python/redshift_connector[${PYTHON_USEDEP}] )
-	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	test? ( dev-python/stomp-py[${PYTHON_USEDEP}] )
+	test? ( <dev-python/lxml-5.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/stomp-py-8.0.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/mysql-connector-python[${PYTHON_USEDEP}] )
 	test? ( dev-python/python-terraform[${PYTHON_USEDEP}] )
 	test? ( dev-python/aws-cdk-lib[${PYTHON_USEDEP}] )

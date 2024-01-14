@@ -24,79 +24,79 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all aws cwl encryption google htcondor kubernetes mesos server wdl"
-DEPENDENCIES="dev-python/dill[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/docker[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/dill-0.4[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0[${PYTHON_USEDEP}]
+	<dev-python/docker-6.0[${PYTHON_USEDEP}]
+	<dev-python/urllib3-2.0.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
 	dev-python/py-tes[${PYTHON_USEDEP}]
 	dev-python/PyPubSub[${PYTHON_USEDEP}]
 	dev-python/addict[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2012.0[${PYTHON_USEDEP}]
 	dev-python/enlighten[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	all? ( dev-python/boto[${PYTHON_USEDEP}] )
+	all? ( <dev-python/boto-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
 	all? ( dev-python/mypy-boto3-iam[${PYTHON_USEDEP}] )
-	all? ( dev-python/moto[${PYTHON_USEDEP}] )
+	all? ( <dev-python/moto-5.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/cwltool[${PYTHON_USEDEP}] )
 	all? ( dev-python/schema-salad[${PYTHON_USEDEP}] )
 	all? ( dev-python/galaxy-tool-util[${PYTHON_USEDEP}] )
-	all? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	all? ( dev-python/ruamel-yaml-clib[${PYTHON_USEDEP}] )
-	all? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	all? ( <=dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ruamel-yaml-clib-0.2.6[${PYTHON_USEDEP}] )
+	all? ( <dev-python/networkx-2.8.9[${PYTHON_USEDEP}] )
 	all? ( dev-python/CacheControl[${PYTHON_USEDEP}] )
-	all? ( dev-python/pynacl[${PYTHON_USEDEP}] )
-	all? ( dev-python/apache-libcloud[${PYTHON_USEDEP}] )
+	all? ( <dev-python/pynacl-2.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/apache-libcloud-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	all? ( dev-python/google-auth[${PYTHON_USEDEP}] )
+	all? ( <dev-python/google-auth-3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	all? ( dev-python/kubernetes-stubs[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
 	all? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	all? ( dev-python/idna[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/idna-2.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pymesos[${PYTHON_USEDEP}] )
 	all? ( dev-python/miniwdl[${PYTHON_USEDEP}] )
 	all? ( dev-python/wdlparse[${PYTHON_USEDEP}] )
 	all? ( dev-python/connexion[${PYTHON_USEDEP}] )
-	all? ( dev-python/flask[${PYTHON_USEDEP}] )
-	all? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	all? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
+	all? ( <dev-python/flask-3.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/werkzeug-3.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}] )
 	all? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	all? ( dev-python/celery[${PYTHON_USEDEP}] )
 	all? ( dev-python/wes-service[${PYTHON_USEDEP}] )
-	all? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	aws? ( dev-python/boto[${PYTHON_USEDEP}] )
+	all? ( <dev-python/ruamel-yaml-0.17.22[${PYTHON_USEDEP}] )
+	aws? ( <dev-python/boto-3.0[${PYTHON_USEDEP}] )
 	aws? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
 	aws? ( dev-python/mypy-boto3-iam[${PYTHON_USEDEP}] )
-	aws? ( dev-python/moto[${PYTHON_USEDEP}] )
+	aws? ( <dev-python/moto-5.0[${PYTHON_USEDEP}] )
 	cwl? ( dev-python/cwltool[${PYTHON_USEDEP}] )
 	cwl? ( dev-python/schema-salad[${PYTHON_USEDEP}] )
 	cwl? ( dev-python/galaxy-tool-util[${PYTHON_USEDEP}] )
-	cwl? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
-	cwl? ( dev-python/ruamel-yaml-clib[${PYTHON_USEDEP}] )
-	cwl? ( dev-python/networkx[${PYTHON_USEDEP}] )
+	cwl? ( <=dev-python/ruamel-yaml-0.17.21[${PYTHON_USEDEP}] )
+	cwl? ( >=dev-python/ruamel-yaml-clib-0.2.6[${PYTHON_USEDEP}] )
+	cwl? ( <dev-python/networkx-2.8.9[${PYTHON_USEDEP}] )
 	cwl? ( dev-python/CacheControl[${PYTHON_USEDEP}] )
-	encryption? ( dev-python/pynacl[${PYTHON_USEDEP}] )
-	google? ( dev-python/apache-libcloud[${PYTHON_USEDEP}] )
+	encryption? ( <dev-python/pynacl-2.0[${PYTHON_USEDEP}] )
+	google? ( <dev-python/apache-libcloud-3.0[${PYTHON_USEDEP}] )
 	google? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	google? ( dev-python/google-auth[${PYTHON_USEDEP}] )
+	google? ( <dev-python/google-auth-3.0[${PYTHON_USEDEP}] )
 	htcondor? ( dev-python/htcondor[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/kubernetes-stubs[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
 	kubernetes? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	kubernetes? ( dev-python/idna[${PYTHON_USEDEP}] )
+	kubernetes? ( >=dev-python/idna-2.0[${PYTHON_USEDEP}] )
 	mesos? ( dev-python/pymesos[${PYTHON_USEDEP}] )
 	server? ( dev-python/connexion[${PYTHON_USEDEP}] )
-	server? ( dev-python/flask[${PYTHON_USEDEP}] )
-	server? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
-	server? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
+	server? ( <dev-python/flask-3.0[${PYTHON_USEDEP}] )
+	server? ( <dev-python/werkzeug-3.0[${PYTHON_USEDEP}] )
+	server? ( ~dev-python/flask-cors-3.0.10[${PYTHON_USEDEP}] )
 	server? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	server? ( dev-python/celery[${PYTHON_USEDEP}] )
 	server? ( dev-python/wes-service[${PYTHON_USEDEP}] )
-	server? ( dev-python/ruamel-yaml[${PYTHON_USEDEP}] )
+	server? ( <dev-python/ruamel-yaml-0.17.22[${PYTHON_USEDEP}] )
 	wdl? ( dev-python/miniwdl[${PYTHON_USEDEP}] )
 	wdl? ( dev-python/wdlparse[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

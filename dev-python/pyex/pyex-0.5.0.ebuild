@@ -24,50 +24,50 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="async dev studies"
-DEPENDENCIES="dev-python/deprecation[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/deprecation-2.0.6[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.2.0[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.22[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2019.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/socketIO-client-nexus[${PYTHON_USEDEP}]
 	dev-python/sseclient[${PYTHON_USEDEP}]
 	dev-python/temporal-cache[${PYTHON_USEDEP}]
-	async? ( dev-python/deprecation[${PYTHON_USEDEP}] )
-	async? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	async? ( >=dev-python/deprecation-2.0.6[${PYTHON_USEDEP}] )
+	async? ( >=dev-python/ipython-7.2.0[${PYTHON_USEDEP}] )
 	async? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	async? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	async? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	async? ( dev-python/requests[${PYTHON_USEDEP}] )
+	async? ( >=dev-python/pandas-0.22[${PYTHON_USEDEP}] )
+	async? ( >=dev-python/pytz-2019.1[${PYTHON_USEDEP}] )
+	async? ( >=dev-python/requests-2.21.0[${PYTHON_USEDEP}] )
 	async? ( dev-python/six[${PYTHON_USEDEP}] )
 	async? ( dev-python/socketIO-client-nexus[${PYTHON_USEDEP}] )
 	async? ( dev-python/sseclient[${PYTHON_USEDEP}] )
 	async? ( dev-python/temporal-cache[${PYTHON_USEDEP}] )
-	async? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	async? ( >=dev-python/aiohttp-3.2[${PYTHON_USEDEP}] )
 	async? ( dev-python/aiohttp-sse-client[${PYTHON_USEDEP}] )
-	async? ( dev-python/aiostream[${PYTHON_USEDEP}] )
-	dev? ( dev-python/deprecation[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	async? ( >=dev-python/aiostream-0.3.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/deprecation-2.0.6[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Pillow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pandas-0.22[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytz-2019.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/requests-2.21.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/six[${PYTHON_USEDEP}] )
 	dev? ( dev-python/socketIO-client-nexus[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sseclient[${PYTHON_USEDEP}] )
 	dev? ( dev-python/temporal-cache[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/aiohttp-3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/aiohttp-sse-client[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aiostream[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/aiostream-0.3.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/TA-Lib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-20.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.7.8[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-4.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-markdown-builder[${PYTHON_USEDEP}] )

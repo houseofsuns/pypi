@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all docs recommended test test_all"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	dev-python/pyerfa[${PYTHON_USEDEP}]
 	dev-python/astropy-iers-data[${PYTHON_USEDEP}]
 	dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-19.0[${PYTHON_USEDEP}]
 	all? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	all? ( dev-python/certifi[${PYTHON_USEDEP}] )
 	all? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pyarrow-5.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
 	all? ( dev-python/html5lib[${PYTHON_USEDEP}] )
 	all? ( dev-python/bleach[${PYTHON_USEDEP}] )
@@ -44,30 +44,30 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	all? ( dev-python/mpmath[${PYTHON_USEDEP}] )
 	all? ( dev-python/asdf-astropy[${PYTHON_USEDEP}] )
 	all? ( dev-python/bottleneck[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	all? ( dev-python/fsspec[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipython-4.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/typing-extensions-3.10.0.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/fsspec-2023.4.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	docs? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-astropy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-changelog[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-design[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	recommended? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	recommended? ( >=dev-python/scipy-1.5[${PYTHON_USEDEP}] )
+	recommended? ( >=dev-python/matplotlib-3.3[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-astropy-header[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-astropy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test_all? ( dev-python/astropy[${PYTHON_USEDEP}] )
 	test_all? ( dev-python/objgraph[${PYTHON_USEDEP}] )
-	test_all? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	test_all? ( >=dev-python/ipython-4.2[${PYTHON_USEDEP}] )
 	test_all? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test_all? ( dev-python/skyfield[${PYTHON_USEDEP}] )
 	test_all? ( dev-python/sgp4[${PYTHON_USEDEP}] )"

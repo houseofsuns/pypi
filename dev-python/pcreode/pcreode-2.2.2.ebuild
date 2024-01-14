@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.11.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.17.1[${PYTHON_USEDEP}]
 	dev-python/python-igraph[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/sklearn[${PYTHON_USEDEP}]

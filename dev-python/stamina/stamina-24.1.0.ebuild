@@ -36,10 +36,10 @@ DEPENDENCIES="dev-python/tenacity[${PYTHON_USEDEP}]
 	docs? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-notfound-page[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-7.2.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/structlog[${PYTHON_USEDEP}] )
 	tests? ( dev-python/anyio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	typing? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	typing? ( >=dev-python/mypy-1.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

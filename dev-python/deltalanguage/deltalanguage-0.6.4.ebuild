@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="visualisation"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/dill[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-20.2[${PYTHON_USEDEP}]
+	>=dev-python/dill-0.3[${PYTHON_USEDEP}]
 	dev-python/migen[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
 	dev-python/pycapnp[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	visualisation? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	visualisation? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	visualisation? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	visualisation? ( dev-python/progress[${PYTHON_USEDEP}] )"
+	>=dev-python/tqdm-4.51[${PYTHON_USEDEP}]
+	visualisation? ( >=dev-python/jupyter-1.0[${PYTHON_USEDEP}] )
+	visualisation? ( >=dev-python/matplotlib-3.3[${PYTHON_USEDEP}] )
+	visualisation? ( >=dev-python/networkx-2.5[${PYTHON_USEDEP}] )
+	visualisation? ( >=dev-python/progress-1.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

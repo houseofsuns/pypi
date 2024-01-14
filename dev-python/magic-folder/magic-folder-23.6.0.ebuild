@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build test"
-DEPENDENCIES="dev-python/zope-interface[${PYTHON_USEDEP}]
-	dev-python/humanize[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/zope-interface-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/humanize-1.0.0[${PYTHON_USEDEP}]
 	dev-python/eliot[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/autobahn[${PYTHON_USEDEP}]
+	>=dev-python/autobahn-19.5.2[${PYTHON_USEDEP}]
 	dev-python/hyperlink[${PYTHON_USEDEP}]
 	dev-python/tahoe-lafs[${PYTHON_USEDEP}]
 	dev-python/treq[${PYTHON_USEDEP}]
 	dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/pyutil[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/klein[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/filelock[${PYTHON_USEDEP}]
-	build? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	build? ( dev-python/dulwich[${PYTHON_USEDEP}] )
-	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	build? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	build? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
-	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	>=dev-python/cryptography-2.6[${PYTHON_USEDEP}]
+	>=dev-python/klein-20.6.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.8.0[${PYTHON_USEDEP}]
+	build? ( >=dev-python/setuptools-scm-6.4.0[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/dulwich-0.20.30[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/twine-3.7.1[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/towncrier-21.3.0[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/readme-renderer-32.0[${PYTHON_USEDEP}] )
+	build? ( >=dev-python/wheel-0.37.1[${PYTHON_USEDEP}] )
 	build? ( dev-python/gpg[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-future-import[${PYTHON_USEDEP}] )
 	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	test? ( dev-python/tox[${PYTHON_USEDEP}] )
@@ -54,8 +54,8 @@ DEPENDENCIES="dev-python/zope-interface[${PYTHON_USEDEP}]
 	test? ( dev-python/colorama[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-twisted[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/hypothesis-3.6.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/towncrier-21.3.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/testtools[${PYTHON_USEDEP}] )
 	test? ( dev-python/fixtures[${PYTHON_USEDEP}] )
 	test? ( dev-python/psutil[${PYTHON_USEDEP}] )

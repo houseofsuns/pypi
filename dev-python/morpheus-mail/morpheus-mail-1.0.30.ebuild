@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/chevron[${PYTHON_USEDEP}]
-	dev-python/libsass[${PYTHON_USEDEP}]
+	>=dev-python/libsass-0.13.2[${PYTHON_USEDEP}]
 	dev-python/misaka[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

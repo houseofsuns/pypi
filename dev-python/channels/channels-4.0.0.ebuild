@@ -25,12 +25,12 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="daphne tests"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/asgiref[${PYTHON_USEDEP}]
+	<dev-python/asgiref-4.0[${PYTHON_USEDEP}]
 	daphne? ( dev-python/daphne[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/async-timeout[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/coverage-4.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

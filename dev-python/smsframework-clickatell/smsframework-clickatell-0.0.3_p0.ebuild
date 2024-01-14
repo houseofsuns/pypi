@@ -25,6 +25,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="receiver"
 DEPENDENCIES="dev-python/smsframework[${PYTHON_USEDEP}]
-	receiver? ( dev-python/flask[${PYTHON_USEDEP}] )"
+	receiver? ( >=dev-python/flask-0.10[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

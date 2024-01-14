@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
+	~dev-python/numpy-1.25.2[${PYTHON_USEDEP}]
+	~dev-python/imageio-2.31.1[${PYTHON_USEDEP}]
 	dev-python/Pillow[${PYTHON_USEDEP}]
 	dev-python/geographiclib[${PYTHON_USEDEP}]
 	dev-python/geopy[${PYTHON_USEDEP}]"

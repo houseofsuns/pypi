@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="python-vxi11 tcp tests"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/numpy-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.14[${PYTHON_USEDEP}]
 	dev-python/pint[${PYTHON_USEDEP}]
 	dev-python/pyvisa[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/pyqtgraph[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-2.7[${PYTHON_USEDEP}]
+	>=dev-python/pyqtgraph-0.12[${PYTHON_USEDEP}]
 	python-vxi11? ( dev-python/python-vxi11[${PYTHON_USEDEP}] )
-	tcp? ( dev-python/pyzmq[${PYTHON_USEDEP}] )
-	tcp? ( dev-python/cloudpickle[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
+	tcp? ( >=dev-python/pyzmq-16.0.2[${PYTHON_USEDEP}] )
+	tcp? ( >=dev-python/cloudpickle-0.3.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-2.9.1[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/pytest-qt-2.4.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pyvisa-sim[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

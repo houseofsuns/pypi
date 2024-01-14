@@ -29,14 +29,14 @@ DEPENDENCIES="dev-python/Jinja2[${PYTHON_USEDEP}]
 	dev-python/ansible-cached-lookup[${PYTHON_USEDEP}]
 	dev-python/ansible-core[${PYTHON_USEDEP}]
 	dev-python/ansible[${PYTHON_USEDEP}]
-	dev-python/cliff[${PYTHON_USEDEP}]
-	dev-python/hvac[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/oslo-config[${PYTHON_USEDEP}]
+	>=dev-python/cliff-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/hvac-0.10.1[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-5.0[${PYTHON_USEDEP}]
+	>=dev-python/netaddr-0.7.13[${PYTHON_USEDEP}]
+	>=dev-python/oslo-config-5.2.0[${PYTHON_USEDEP}]
 	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0[${PYTHON_USEDEP}]
 	dev-python/selinux[${PYTHON_USEDEP}]
-	dev-python/wcmatch[${PYTHON_USEDEP}]"
+	<=dev-python/wcmatch-9.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

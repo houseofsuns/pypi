@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="calplot h5py"
-DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
-	calplot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	h5py? ( dev-python/h5py[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/pandas-1.1.3[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.2[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/packaging-21.3[${PYTHON_USEDEP}]
+	calplot? ( >=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}] )
+	h5py? ( >=dev-python/h5py-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

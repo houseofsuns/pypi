@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/annotated-types[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
+	>=dev-python/annotated-types-0.5.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

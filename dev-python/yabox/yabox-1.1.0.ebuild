@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="notebooks show_progress visualization"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	notebooks? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	show_progress? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	visualization? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/numpy-1.7[${PYTHON_USEDEP}]
+	notebooks? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	show_progress? ( >=dev-python/tqdm-4.46.0[${PYTHON_USEDEP}] )
+	visualization? ( >=dev-python/matplotlib-1.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="ci dev sandbox"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]
-	ci? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )
+	>=dev-python/oauthlib-3.0.0[${PYTHON_USEDEP}]
+	ci? ( ~dev-python/twine-2.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/bandit-1.6.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipdb-0.12.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/ipython-7.9.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-0.761[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyfakefs-3.7.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.4.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/Django[${PYTHON_USEDEP}] )
-	sandbox? ( dev-python/django-configurations[${PYTHON_USEDEP}] )
+	sandbox? ( ~dev-python/django-configurations-2.4.1[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	sandbox? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	sandbox? ( dev-python/django-crispy-forms[${PYTHON_USEDEP}] )"
+	sandbox? ( ~dev-python/django-crispy-forms-1.9.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

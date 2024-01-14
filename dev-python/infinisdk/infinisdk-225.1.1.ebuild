@@ -25,34 +25,34 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="doc testing"
 DEPENDENCIES="dev-python/api-object-schema[${PYTHON_USEDEP}]
-	dev-python/arrow[${PYTHON_USEDEP}]
+	>=dev-python/arrow-0.6.0[${PYTHON_USEDEP}]
 	dev-python/capacity[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/confetti[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
+	>=dev-python/click-8.0.4[${PYTHON_USEDEP}]
 	dev-python/flux[${PYTHON_USEDEP}]
 	dev-python/gossip[${PYTHON_USEDEP}]
 	dev-python/infi-dtypes-wwn[${PYTHON_USEDEP}]
 	dev-python/infi-dtypes-iqn[${PYTHON_USEDEP}]
 	dev-python/infi-dtypes-nqn[${PYTHON_USEDEP}]
-	dev-python/logbook[${PYTHON_USEDEP}]
+	>=dev-python/logbook-0.11.0[${PYTHON_USEDEP}]
 	dev-python/munch[${PYTHON_USEDEP}]
 	dev-python/mitba[${PYTHON_USEDEP}]
 	dev-python/pact[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.4.0[${PYTHON_USEDEP}]
 	dev-python/sentinels[${PYTHON_USEDEP}]
 	dev-python/storage-interfaces[${PYTHON_USEDEP}]
 	dev-python/URLObject[${PYTHON_USEDEP}]
 	dev-python/vintage[${PYTHON_USEDEP}]
 	doc? ( dev-python/alabaster[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	testing? ( dev-python/click[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/astroid[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	testing? ( dev-python/isort[${PYTHON_USEDEP}] )
-	testing? ( dev-python/black[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/click-8.0.4[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pytest-4.6.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/astroid-2.0[${PYTHON_USEDEP}] )
+	testing? ( >=dev-python/pylint-2.0[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/isort-5.0.9[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/black-21.8[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pyforge[${PYTHON_USEDEP}] )
 	testing? ( dev-python/waiting[${PYTHON_USEDEP}] )
 	testing? ( dev-python/infinisim[${PYTHON_USEDEP}] )"

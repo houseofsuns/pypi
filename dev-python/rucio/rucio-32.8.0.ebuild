@@ -24,48 +24,48 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev globus kerberos mongo mysql oracle postgresql saml"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/dogpile-cache[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
-	dev-python/argcomplete[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
+DEPENDENCIES="<=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	~dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]
+	~dev-python/dogpile-cache-1.2.2[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-4.18.4[${PYTHON_USEDEP}]
+	~dev-python/paramiko-3.4.0[${PYTHON_USEDEP}]
+	~dev-python/argcomplete-3.1.1[${PYTHON_USEDEP}]
+	~dev-python/python-magic-0.4.27[${PYTHON_USEDEP}]
 	dev-python/SQLAlchemy[${PYTHON_USEDEP}]
-	dev-python/alembic[${PYTHON_USEDEP}]
+	~dev-python/alembic-1.11.1[${PYTHON_USEDEP}]
 	dev-python/pymemcache[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/stomp-py[${PYTHON_USEDEP}]
-	dev-python/statsd[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
+	~dev-python/stomp-py-8.1.0[${PYTHON_USEDEP}]
+	~dev-python/statsd-4.0.1[${PYTHON_USEDEP}]
 	dev-python/geoip2[${PYTHON_USEDEP}]
-	dev-python/google-auth[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/google-auth-2.22.0[${PYTHON_USEDEP}]
+	~dev-python/redis-4.6.0[${PYTHON_USEDEP}]
 	dev-python/Flask[${PYTHON_USEDEP}]
 	dev-python/oic[${PYTHON_USEDEP}]
 	dev-python/prometheus_client[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+	~dev-python/boto3-1.28.5[${PYTHON_USEDEP}]
 	oracle? ( dev-python/cx_oracle[${PYTHON_USEDEP}] )
-	mongo? ( dev-python/pymongo[${PYTHON_USEDEP}] )
+	mongo? ( ~dev-python/pymongo-4.4.1[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
 	mysql? ( dev-python/PyMySQL[${PYTHON_USEDEP}] )
-	kerberos? ( dev-python/kerberos[${PYTHON_USEDEP}] )
+	kerberos? ( ~dev-python/kerberos-1.3.1[${PYTHON_USEDEP}] )
 	kerberos? ( dev-python/pykerberos[${PYTHON_USEDEP}] )
-	kerberos? ( dev-python/requests-kerberos[${PYTHON_USEDEP}] )
+	kerberos? ( >=dev-python/requests-kerberos-0.14.0[${PYTHON_USEDEP}] )
 	globus? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
 	globus? ( dev-python/globus-sdk[${PYTHON_USEDEP}] )
-	saml? ( dev-python/python3-saml[${PYTHON_USEDEP}] )
+	saml? ( ~dev-python/python3-saml-1.15.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/PyYAML[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/virtualenv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytz[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pyflakes-3.0.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pycodestyle-2.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/virtualenv-20.24.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytz-2023.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pydoc-markdown[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sh[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/sh-2.0.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

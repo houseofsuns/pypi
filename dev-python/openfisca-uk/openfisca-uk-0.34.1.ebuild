@@ -24,26 +24,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	>=dev-python/pandas-1.1.4[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.17.5[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/pytest-5.4.3[${PYTHON_USEDEP}]
 	dev-python/OpenFisca-Core[${PYTHON_USEDEP}]
 	dev-python/microdf-python[${PYTHON_USEDEP}]
 	dev-python/OpenFisca-UK-Data[${PYTHON_USEDEP}]
 	dev-python/OpenFisca-Tools[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/plotly[${PYTHON_USEDEP}]
+	>=dev-python/tqdm-4.59.0[${PYTHON_USEDEP}]
+	>=dev-python/plotly-4.14.3[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/inquirer[${PYTHON_USEDEP}]
 	dev-python/gif[${PYTHON_USEDEP}]
 	dev-python/yaml-changelog[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	>=dev-python/click-8.0.0[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/autopep8-1.5[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/flake8-3.8.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pycodestyle-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	dev? ( dev-python/streamlit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

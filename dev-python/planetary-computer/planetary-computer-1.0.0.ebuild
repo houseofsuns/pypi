@@ -24,12 +24,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="adlfs azure dev"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-7.1[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.7.3[${PYTHON_USEDEP}]
 	dev-python/pystac[${PYTHON_USEDEP}]
 	dev-python/pystac-client[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2020.5[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/python-dotenv[${PYTHON_USEDEP}]
 	adlfs? ( dev-python/adlfs[${PYTHON_USEDEP}] )

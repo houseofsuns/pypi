@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="gurobi numpy test"
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cffi-1.15[${PYTHON_USEDEP}]
 	gurobi? ( dev-python/gurobipy[${PYTHON_USEDEP}] )
-	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
+	numpy? ( ~dev-python/numpy-1.24[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-7.2.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/networkx-2.8.8[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/matplotlib-3.6.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/fuzzfetch[${PYTHON_USEDEP}]
 	dev-python/grizzly-framework[${PYTHON_USEDEP}]
 	dev-python/lithium-reducer[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]"
+	<dev-python/platformdirs-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

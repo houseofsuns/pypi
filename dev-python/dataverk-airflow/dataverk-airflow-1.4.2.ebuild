@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/apache-airflow-providers-cncf-kubernetes[${PYTHON_USEDEP}]
 	dev-python/apache-airflow-providers-slack[${PYTHON_USEDEP}]
-	dev-python/exceptiongroup[${PYTHON_USEDEP}]
+	<dev-python/exceptiongroup-2.0.0[${PYTHON_USEDEP}]
 	dev-python/knatch[${PYTHON_USEDEP}]
 	dev-python/kubernetes[${PYTHON_USEDEP}]
 	dev-python/pathlib[${PYTHON_USEDEP}]"

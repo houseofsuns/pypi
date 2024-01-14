@@ -24,21 +24,21 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs quality tests"
-DEPENDENCIES="dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}]
 	dev-python/ddddocr[${PYTHON_USEDEP}]
 	dev-python/odin-functions[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	docs? ( dev-python/mkdocs-git-revision-date-localized-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
-	quality? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	~dev-python/pillow-9.5.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2023.3[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+	docs? ( ~dev-python/mkdocs-git-revision-date-localized-plugin-1.1.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-8.5.4[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.19.0[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.4.0[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/black-22.10.0[${PYTHON_USEDEP}] )
+	quality? ( ~dev-python/mypy-1.4.0[${PYTHON_USEDEP}] )
 	quality? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	quality? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

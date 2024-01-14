@@ -25,8 +25,8 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="docs"
 DEPENDENCIES="docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/tomlkit[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinx-autodoc-typehints-2.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/tomlkit-0.13.0[${PYTHON_USEDEP}] )
 	dev-python/ampel-interface[${PYTHON_USEDEP}]
 	dev-python/ampel-core[${PYTHON_USEDEP}]
 	dev-python/astropy[${PYTHON_USEDEP}]"

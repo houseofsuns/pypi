@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pygame[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/imageio[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/numpy-1.21.4[${PYTHON_USEDEP}]
+	>=dev-python/pygame-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-58.0.4[${PYTHON_USEDEP}]
+	>=dev-python/imageio-2.13.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

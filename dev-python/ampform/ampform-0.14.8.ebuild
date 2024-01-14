@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev doc format jupyter lint mypy sty test viz"
-DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/attrs-20.1.0[${PYTHON_USEDEP}]
 	dev-python/qrules[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
+	>=dev-python/sympy-1.10[${PYTHON_USEDEP}]
 	all? ( dev-python/ampform[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ampform[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ampform[${PYTHON_USEDEP}] )
@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/ampform[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ampform[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-1.9[${PYTHON_USEDEP}] )
 	doc? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ampform[${PYTHON_USEDEP}] )
 	doc? ( dev-python/black[${PYTHON_USEDEP}] )
@@ -42,7 +42,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mpl-interactions[${PYTHON_USEDEP}] )
 	doc? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbclient[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/nbclient-0.5.5[${PYTHON_USEDEP}] )
 	doc? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	doc? ( dev-python/rich[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-api-relink[${PYTHON_USEDEP}] )
@@ -55,7 +55,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx-pybtex-etal-style[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-thebe[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx-togglebutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinxcontrib-bibtex-2.0[${PYTHON_USEDEP}] )
 	format? ( dev-python/black[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/isort[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
@@ -67,7 +67,7 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	jupyter? ( dev-python/python-lsp-server[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ampform[${PYTHON_USEDEP}] )
 	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	mypy? ( >=dev-python/mypy-0.730[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/sphinx-api-relink[${PYTHON_USEDEP}] )
 	sty? ( dev-python/ampform[${PYTHON_USEDEP}] )
 	sty? ( dev-python/ampform[${PYTHON_USEDEP}] )

@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ci dev"
-DEPENDENCIES="dev-python/pycryptodome[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pycryptodome-3.10.1[${PYTHON_USEDEP}]
 	dev-python/stream-inflate[${PYTHON_USEDEP}]
-	ci? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	ci? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
-	ci? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	ci? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/coverage-6.2[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/pycryptodome-3.10.1[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	ci? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
 	ci? ( dev-python/stream-inflate[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/coverage-6.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

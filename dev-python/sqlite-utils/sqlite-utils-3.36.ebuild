@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="docs flake8 mypy test tui"
 DEPENDENCIES="dev-python/sqlite-fts4[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-default-group[${PYTHON_USEDEP}]
+	>=dev-python/click-default-group-1.2.3[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]

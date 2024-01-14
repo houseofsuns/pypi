@@ -26,10 +26,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="mfa saml"
 DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/python3-openid[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	saml? ( dev-python/python3-saml[${PYTHON_USEDEP}] )
-	mfa? ( dev-python/qrcode[${PYTHON_USEDEP}] )"
+	>=dev-python/requests-oauthlib-0.3.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pyjwt-1.7[${PYTHON_USEDEP}]
+	saml? ( <dev-python/python3-saml-2.0.0[${PYTHON_USEDEP}] )
+	mfa? ( >=dev-python/qrcode-7.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

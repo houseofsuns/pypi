@@ -24,55 +24,55 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs ipfs linter tester"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
 	dev-python/eth-hash[${PYTHON_USEDEP}]
 	dev-python/eth-typing[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]
 	dev-python/hexbytes[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	>=dev-python/jsonschema-4.0.0[${PYTHON_USEDEP}]
 	dev-python/lru-dict[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.16.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.0.1[${PYTHON_USEDEP}]
+	>=dev-python/websockets-10.0.0[${PYTHON_USEDEP}]
 	dev-python/pyunormalize[${PYTHON_USEDEP}]
 	dev? ( dev-python/py-geth[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.11.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/types-setuptools-57.4.4[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/towncrier-22.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ipfshttpclient[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flaky-3.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/hypothesis-3.31.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/pytest-asyncio-0.23[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-mock-1.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-xdist-1.29[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/setuptools-38.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-3.18.0[${PYTHON_USEDEP}] )
+	dev? ( >dev-python/tqdm-4.32[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-1.13[${PYTHON_USEDEP}] )
 	dev? ( dev-python/when-changed[${PYTHON_USEDEP}] )
-	dev? ( dev-python/build[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/towncrier[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/build-0.9.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/towncrier-22.0[${PYTHON_USEDEP}] )
 	ipfs? ( dev-python/ipfshttpclient[${PYTHON_USEDEP}] )
-	linter? ( dev-python/black[${PYTHON_USEDEP}] )
-	linter? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	linter? ( dev-python/isort[${PYTHON_USEDEP}] )
-	linter? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	linter? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
+	linter? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
+	linter? ( ~dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
+	linter? ( >=dev-python/isort-5.11.0[${PYTHON_USEDEP}] )
+	linter? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	linter? ( >=dev-python/types-setuptools-57.4.4[${PYTHON_USEDEP}] )
 	linter? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	linter? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
 	tester? ( dev-python/py-geth[${PYTHON_USEDEP}] )"

@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="aiomcache aioredis pycrypto pynacl secure"
-DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	aiomcache? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
-	aioredis? ( dev-python/redis[${PYTHON_USEDEP}] )
+	aioredis? ( >=dev-python/redis-4.3.1[${PYTHON_USEDEP}] )
 	pycrypto? ( dev-python/cryptography[${PYTHON_USEDEP}] )
 	pynacl? ( dev-python/pynacl[${PYTHON_USEDEP}] )
 	secure? ( dev-python/cryptography[${PYTHON_USEDEP}] )"

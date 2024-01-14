@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/elasticsearch[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/elasticsearch-8.0.0[${PYTHON_USEDEP}]
 	dev-python/edx-toggles[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/event-tracking[${PYTHON_USEDEP}]"

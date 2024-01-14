@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cli test"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/cliff[${PYTHON_USEDEP}]
-	dev-python/keystoneauth1[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	cli? ( dev-python/python-openstackclient[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/fixtures[${PYTHON_USEDEP}] )
-	test? ( dev-python/osc-lib[${PYTHON_USEDEP}] )
-	test? ( dev-python/oslo-concurrency[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-openstackclient[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/stestr[${PYTHON_USEDEP}] )"
+	>=dev-python/cliff-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/keystoneauth1-3.4.0[${PYTHON_USEDEP}]
+	>=dev-python/pbr-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.14.2[${PYTHON_USEDEP}]
+	cli? ( >=dev-python/python-openstackclient-3.12.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/fixtures-3.0.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/osc-lib-2.1.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/oslo-concurrency-3.25.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-openstackclient-3.12.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/requests-mock-1.2.0[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/stestr-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

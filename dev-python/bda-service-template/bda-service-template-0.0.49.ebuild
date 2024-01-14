@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/file-io-utilities[${PYTHON_USEDEP}]
 	dev-python/ds-io-utilities[${PYTHON_USEDEP}]
 	dev-python/bda-service-utils[${PYTHON_USEDEP}]
-	dev-python/kafka-python[${PYTHON_USEDEP}]
+	>=dev-python/kafka-python-2.0.2[${PYTHON_USEDEP}]
 	dev-python/alida-arg-parser[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

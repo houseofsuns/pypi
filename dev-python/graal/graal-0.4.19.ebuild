@@ -25,15 +25,15 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/lizard[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/networkx[${PYTHON_USEDEP}]
-	dev-python/pydot[${PYTHON_USEDEP}]
-	dev-python/bandit[${PYTHON_USEDEP}]
+	>=dev-python/pylint-1.8.4[${PYTHON_USEDEP}]
+	<dev-python/flake8-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/networkx-2.1[${PYTHON_USEDEP}]
+	>=dev-python/pydot-1.2.4[${PYTHON_USEDEP}]
+	>=dev-python/bandit-1.4.0[${PYTHON_USEDEP}]
 	dev-python/perceval[${PYTHON_USEDEP}]
 	dev-python/grimoirelab-toolkit[${PYTHON_USEDEP}]
 	dev-python/cloc[${PYTHON_USEDEP}]
-	dev-python/execnet[${PYTHON_USEDEP}]
-	dev-python/markdown-it-py[${PYTHON_USEDEP}]"
+	<dev-python/execnet-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

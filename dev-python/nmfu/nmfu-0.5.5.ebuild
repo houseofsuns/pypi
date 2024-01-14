@@ -24,9 +24,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="coverage debug tests"
-DEPENDENCIES="dev-python/lark[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/lark-1.0[${PYTHON_USEDEP}]
 	coverage? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	debug? ( dev-python/graphviz[${PYTHON_USEDEP}] )
+	debug? ( >=dev-python/graphviz-0.14[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

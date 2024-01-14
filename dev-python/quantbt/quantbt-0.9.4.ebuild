@@ -25,25 +25,25 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev-tools mkdocs tools"
 DEPENDENCIES="dev-python/numba[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}]
 	dev-python/mplfinance[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
+	<dev-python/prettytable-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}]
+	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
 	dev-python/python-binance[${PYTHON_USEDEP}]
 	dev-python/quantstats[${PYTHON_USEDEP}]
-	dev-python/seaborn[${PYTHON_USEDEP}]
-	dev-tools? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	<dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
+	dev-tools? ( <dev-python/ipython-9.0.0[${PYTHON_USEDEP}] )
 	mkdocs? ( dev-python/ta-lib[${PYTHON_USEDEP}] )
 	dev-tools? ( dev-python/pandas-ta[${PYTHON_USEDEP}] )
-	tools? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	tools? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
 	tools? ( dev-python/pytest-watcher[${PYTHON_USEDEP}] )
 	tools? ( dev-python/pyright[${PYTHON_USEDEP}] )
 	tools? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
 	mkdocs? ( dev-python/mkdocs-glightbox[${PYTHON_USEDEP}] )
-	mkdocs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	mkdocs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )"
+	mkdocs? ( <dev-python/mkdocs-material-10.0.0[${PYTHON_USEDEP}] )
+	mkdocs? ( <dev-python/mkdocs-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

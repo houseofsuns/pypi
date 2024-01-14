@@ -26,12 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bigquery snowflake"
 DEPENDENCIES="dev-python/dbt-core[${PYTHON_USEDEP}]
 	dev-python/layer[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
+	~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
+	<dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
 	dev-python/xgboost[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.5.1[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
 	bigquery? ( dev-python/dbt-bigquery[${PYTHON_USEDEP}] )
 	snowflake? ( dev-python/dbt-snowflake[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,19 +24,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/bottle[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/bottle-0.12.25[${PYTHON_USEDEP}]
 	dev-python/bottle-websocket[${PYTHON_USEDEP}]
 	dev-python/eel[${PYTHON_USEDEP}]
 	dev-python/gevent-websocket[${PYTHON_USEDEP}]
-	dev-python/pycparser[${PYTHON_USEDEP}]
+	~dev-python/pycparser-2.21[${PYTHON_USEDEP}]
 	dev-python/pymsgbox[${PYTHON_USEDEP}]
-	dev-python/whichcraft[${PYTHON_USEDEP}]
-	dev-python/zope-event[${PYTHON_USEDEP}]
-	dev-python/greenlet[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	dev-python/future[${PYTHON_USEDEP}]
+	~dev-python/whichcraft-0.6.1[${PYTHON_USEDEP}]
+	~dev-python/zope-event-4.6[${PYTHON_USEDEP}]
+	~dev-python/greenlet-2.0.2[${PYTHON_USEDEP}]
+	~dev-python/pyparsing-3.0.9[${PYTHON_USEDEP}]
+	~dev-python/future-0.18.3[${PYTHON_USEDEP}]
 	dev-python/gevent[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/zope-interface[${PYTHON_USEDEP}]"
+	~dev-python/setuptools-67.7.2[${PYTHON_USEDEP}]
+	~dev-python/zope-interface-6.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/warcio[${PYTHON_USEDEP}]
 	dev-python/surt[${PYTHON_USEDEP}]
-	dev-python/idna[${PYTHON_USEDEP}]
+	<dev-python/idna-3.0[${PYTHON_USEDEP}]
 	dev-python/py3amf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

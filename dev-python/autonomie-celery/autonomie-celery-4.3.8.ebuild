@@ -27,8 +27,8 @@ IUSE=""
 DEPENDENCIES="dev-python/celery[${PYTHON_USEDEP}]
 	dev-python/pyramid-celery[${PYTHON_USEDEP}]
 	dev-python/billiard[${PYTHON_USEDEP}]
-	dev-python/kombu[${PYTHON_USEDEP}]
-	dev-python/redis[${PYTHON_USEDEP}]
+	~dev-python/kombu-4.0.2[${PYTHON_USEDEP}]
+	~dev-python/redis-2.10.5[${PYTHON_USEDEP}]
 	dev-python/sylk-parser[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

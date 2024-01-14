@@ -31,21 +31,21 @@ DEPENDENCIES="dev-python/logilab-common[${PYTHON_USEDEP}]
 	dev-python/cubicweb-web[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/logilab-database[${PYTHON_USEDEP}]
-	dev-python/passlib[${PYTHON_USEDEP}]
+	>=dev-python/passlib-1.7[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/Markdown[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
-	dev-python/rdflib[${PYTHON_USEDEP}]
+	>=dev-python/rdflib-6.0.0[${PYTHON_USEDEP}]
 	dev-python/pyramid[${PYTHON_USEDEP}]
-	dev-python/waitress[${PYTHON_USEDEP}]
+	<dev-python/waitress-3.0.0[${PYTHON_USEDEP}]
 	dev-python/wsgicors[${PYTHON_USEDEP}]
 	dev-python/pyramid-multiauth[${PYTHON_USEDEP}]
 	dev-python/repoze-lru[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
 	captcha? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	crypto? ( dev-python/pycryptodomex[${PYTHON_USEDEP}] )
-	ext? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	ical? ( dev-python/vobject[${PYTHON_USEDEP}] )
+	ext? ( >=dev-python/docutils-0.6[${PYTHON_USEDEP}] )
+	ical? ( >=dev-python/vobject-0.6.0[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

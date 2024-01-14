@@ -26,8 +26,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/fugue[${PYTHON_USEDEP}]
 	dev-python/notebook[${PYTHON_USEDEP}]
-	dev-python/jupyterlab[${PYTHON_USEDEP}]
-	dev-python/jupyterlab-lsp[${PYTHON_USEDEP}]
-	dev-python/ipython[${PYTHON_USEDEP}]"
+	>=dev-python/jupyterlab-3.0[${PYTHON_USEDEP}]
+	<dev-python/jupyterlab-lsp-4.0[${PYTHON_USEDEP}]
+	>=dev-python/ipython-7.10.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

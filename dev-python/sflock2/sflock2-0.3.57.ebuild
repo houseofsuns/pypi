@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev shellcode"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/olefile[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-2.1[${PYTHON_USEDEP}]
+	>=dev-python/olefile-0.43[${PYTHON_USEDEP}]
+	>=dev-python/python-magic-0.4.13[${PYTHON_USEDEP}]
 	dev-python/pefile[${PYTHON_USEDEP}]
 	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	shellcode? ( dev-python/unicorn[${PYTHON_USEDEP}] )
-	shellcode? ( dev-python/yara-python[${PYTHON_USEDEP}] )"
+	shellcode? ( >=dev-python/yara-python-4.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

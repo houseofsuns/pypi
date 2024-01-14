@@ -25,42 +25,42 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev"
 DEPENDENCIES="dev-python/PyYAML[${PYTHON_USEDEP}]
-	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
+	>=dev-python/ruamel-yaml-0.17.10[${PYTHON_USEDEP}]
 	dev-python/docstring-parser[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.8[${PYTHON_USEDEP}]
 	all? ( dev-python/junitparser[${PYTHON_USEDEP}] )
 	all? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxcontrib-katex[${PYTHON_USEDEP}] )
 	all? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	all? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/toml[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	all? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	all? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/myst-parser-0.15.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/yapf-0.13.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-timeout-1.4.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/coverage-5.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/junitparser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-katex[${PYTHON_USEDEP}] )
-	dev? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-6.2.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/yapf-0.13.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/myst-parser-0.15.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.5[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-timeout-1.4.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/yamllint[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-copybutton-0.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bump2version[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/sphinx-4.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

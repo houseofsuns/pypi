@@ -27,7 +27,7 @@ IUSE=""
 DEPENDENCIES="dev-python/utm[${PYTHON_USEDEP}]
 	dev-python/marv-api[${PYTHON_USEDEP}]
 	dev-python/lz4[${PYTHON_USEDEP}]
-	dev-python/matplotlib[${PYTHON_USEDEP}]
+	~dev-python/matplotlib-3.2[${PYTHON_USEDEP}]
 	dev-python/mpld3[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]

@@ -24,29 +24,29 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="test"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	dev-python/globus-sdk[${PYTHON_USEDEP}]
 	dev-python/globus-compute-sdk[${PYTHON_USEDEP}]
 	dev-python/globus-compute-common[${PYTHON_USEDEP}]
 	dev-python/globus-identity-mapping[${PYTHON_USEDEP}]
-	dev-python/texttable[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/python-daemon[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/pyzmq[${PYTHON_USEDEP}]
+	<dev-python/texttable-2.0[${PYTHON_USEDEP}]
+	<dev-python/psutil-6.0[${PYTHON_USEDEP}]
+	<dev-python/python-daemon-3.0[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	<=dev-python/pyzmq-23.2.0[${PYTHON_USEDEP}]
 	dev-python/parsl[${PYTHON_USEDEP}]
-	dev-python/pika[${PYTHON_USEDEP}]
+	>=dev-python/pika-1.2.0[${PYTHON_USEDEP}]
 	dev-python/pyprctl[${PYTHON_USEDEP}]
-	dev-python/setproctitle[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	<dev-python/setproctitle-1.4[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
+	<dev-python/jsonschema-4.20[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-5.3.1[${PYTHON_USEDEP}]
 	dev-python/types-cachetools[${PYTHON_USEDEP}]
 	test? ( dev-python/responses[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.2[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/coverage-5.2[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-mock-3.2.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pyfakefs[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

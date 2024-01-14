@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pydata-sphinx-theme-0.13.1[${PYTHON_USEDEP}]
 	dev-python/sphinx-favicon[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

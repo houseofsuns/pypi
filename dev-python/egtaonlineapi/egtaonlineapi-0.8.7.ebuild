@@ -24,23 +24,23 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev-python/inflection[${PYTHON_USEDEP}]
-	dev-python/jsonschema[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/requests-mock[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/tabulate[${PYTHON_USEDEP}]
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+DEPENDENCIES="~dev-python/inflection-0.3[${PYTHON_USEDEP}]
+	~dev-python/jsonschema-2.6[${PYTHON_USEDEP}]
+	~dev-python/lxml-4.2[${PYTHON_USEDEP}]
+	~dev-python/requests-mock-1.4[${PYTHON_USEDEP}]
+	~dev-python/requests-2.18[${PYTHON_USEDEP}]
+	~dev-python/tabulate-0.8[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/ipython-6.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint-quotes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pylint-1.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-asyncio-0.8[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-2.5[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-env-0.6[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-xdist-1.18[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-3.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/sphinx-1.7[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/twine-1.9[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/wheel-0.30[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

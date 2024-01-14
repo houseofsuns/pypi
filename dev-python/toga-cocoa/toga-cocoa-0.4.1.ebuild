@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/fonttools[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/fonttools-5.0.0[${PYTHON_USEDEP}]
 	dev-python/rubicon-objc[${PYTHON_USEDEP}]
 	dev-python/toga-core[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

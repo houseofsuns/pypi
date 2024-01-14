@@ -41,13 +41,13 @@ DEPENDENCIES="dev-python/pymatgen[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	all-electron? ( dev-python/pawpyseed[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-minify-plugin[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-1.5.2[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-material-9.1.21[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocs-minify-plugin-0.7.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-macros-plugin[${PYTHON_USEDEP}] )
-	docs? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/markdown-include-0.8.1[${PYTHON_USEDEP}] )
 	docs? ( dev-python/markdown-katex[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="mongo sql testing"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev-python/fastapi[${PYTHON_USEDEP}]
 	dev-python/spoc[${PYTHON_USEDEP}]
 	dev-python/strawberry-graphql[${PYTHON_USEDEP}]
-	dev-python/uvicorn[${PYTHON_USEDEP}]
+	>=dev-python/uvicorn-0.18.3[${PYTHON_USEDEP}]
 	mongo? ( dev-python/dbcontroller[${PYTHON_USEDEP}] )
 	sql? ( dev-python/dbcontroller[${PYTHON_USEDEP}] )
 	testing? ( dev-python/dbcontroller[${PYTHON_USEDEP}] )"

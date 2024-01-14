@@ -25,10 +25,10 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev setup test"
 DEPENDENCIES="dev-python/aicsimageio[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.15.1[${PYTHON_USEDEP}]
 	dev-python/scikit-image[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
+	>=dev-python/pandas-0.23.4[${PYTHON_USEDEP}]
 	dev-python/itk[${PYTHON_USEDEP}]
 	dev-python/itkwidgets[${PYTHON_USEDEP}]
 	dev-python/jupyter[${PYTHON_USEDEP}]
@@ -36,10 +36,10 @@ DEPENDENCIES="dev-python/aicsimageio[${PYTHON_USEDEP}]
 	dev-python/dask[${PYTHON_USEDEP}]
 	dev-python/napari[${PYTHON_USEDEP}]
 	all? ( dev-python/aicsimageio[${PYTHON_USEDEP}] )
-	all? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/numpy[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/scipy-1.1.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/numpy-1.15.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-0.23.4[${PYTHON_USEDEP}] )
 	all? ( dev-python/itk[${PYTHON_USEDEP}] )
 	all? ( dev-python/itkwidgets[${PYTHON_USEDEP}] )
 	all? ( dev-python/jupyter[${PYTHON_USEDEP}] )
@@ -47,49 +47,49 @@ DEPENDENCIES="dev-python/aicsimageio[${PYTHON_USEDEP}]
 	all? ( dev-python/dask[${PYTHON_USEDEP}] )
 	all? ( dev-python/napari[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
 	all? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )
 	all? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/ipython-7.15.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	all? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	all? ( dev-python/tox[${PYTHON_USEDEP}] )
-	all? ( dev-python/twine[${PYTHON_USEDEP}] )
-	all? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/tox-3.15.2[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/wheel-0.34.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )
 	dev? ( dev-python/napari[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.15.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/m2r[${PYTHON_USEDEP}] )
 	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/tox-3.15.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/wheel-0.34.2[${PYTHON_USEDEP}] )
 	setup? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/black-19.10[${PYTHON_USEDEP}] )
 	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )
 	test? ( dev-python/napari[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

@@ -24,33 +24,33 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all dev docs"
-DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/pgpasslib[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/peewee[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
+	>=dev-python/peewee-3.9.6[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-1.3.6[${PYTHON_USEDEP}]
 	dev-python/sdsstools[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/h5py[${PYTHON_USEDEP}]
-	all? ( dev-python/progressbar2[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydot[${PYTHON_USEDEP}] )
+	>=dev-python/numpy-1.18.2[${PYTHON_USEDEP}]
+	>=dev-python/h5py-3.8.0[${PYTHON_USEDEP}]
+	all? ( >=dev-python/progressbar2-3.46.1[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pydot-1.4.1[${PYTHON_USEDEP}] )
 	all? ( dev-python/astropy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/inflect[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/pandas-1.0.0[${PYTHON_USEDEP}] )
+	all? ( >=dev-python/inflect-4.1.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-sugar-0.8.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-7.13.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipdb-0.13.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-postgresql[${PYTHON_USEDEP}] )
 	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-factoryboy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/astropy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydot[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pydot-1.4.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-bootstrap-theme[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-bootstrap-theme-0.4.12[${PYTHON_USEDEP}] )
 	docs? ( dev-python/releases[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

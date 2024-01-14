@@ -41,7 +41,7 @@ DEPENDENCIES="dev-python/cartopy[${PYTHON_USEDEP}]
 	dev-python/nc-time-axis[${PYTHON_USEDEP}]
 	dev-python/nested-lookup[${PYTHON_USEDEP}]
 	dev-python/netCDF4[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
+	>dev-python/numpy-1.24.3[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
@@ -51,9 +51,9 @@ DEPENDENCIES="dev-python/cartopy[${PYTHON_USEDEP}]
 	dev-python/pybtex[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.6[${PYTHON_USEDEP}]
 	dev-python/scitools-iris[${PYTHON_USEDEP}]
-	dev-python/shapely[${PYTHON_USEDEP}]
+	>=dev-python/shapely-2.0.0[${PYTHON_USEDEP}]
 	dev-python/stratify[${PYTHON_USEDEP}]
 	dev-python/yamale[${PYTHON_USEDEP}]
 	develop? ( dev-python/codespell[${PYTHON_USEDEP}] )
@@ -65,39 +65,39 @@ DEPENDENCIES="dev-python/cartopy[${PYTHON_USEDEP}]
 	develop? ( dev-python/yamllint[${PYTHON_USEDEP}] )
 	develop? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	develop? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-3.9[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pytest-metadata[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/pytest-metadata-1.5.1[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	develop? ( dev-python/ESMValTool-sample-data[${PYTHON_USEDEP}] )
-	develop? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/mypy-0.990[${PYTHON_USEDEP}] )
 	develop? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	develop? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
 	develop? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	develop? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	develop? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	develop? ( >=dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	doc? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
 	doc? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+	doc? ( >=dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pydata-sphinx-theme[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-3.9[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-cov-2.10.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-metadata[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/pytest-metadata-1.5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	test? ( dev-python/ESMValTool-sample-data[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/mypy-0.990[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	test? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

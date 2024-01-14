@@ -32,7 +32,7 @@ DEPENDENCIES="dev-python/jpy[${PYTHON_USEDEP}]
 	local? ( dev-python/isort[${PYTHON_USEDEP}] )
 	local? ( dev-python/tox[${PYTHON_USEDEP}] )
 	local? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/coverage-5.0.3[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

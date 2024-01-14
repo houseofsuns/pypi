@@ -35,12 +35,12 @@ DEPENDENCIES="dev-python/tabulator[${PYTHON_USEDEP}]
 	dev-python/tabulate[${PYTHON_USEDEP}]
 	dev-python/tableschema-sql[${PYTHON_USEDEP}]
 	dev-python/xmljson[${PYTHON_USEDEP}]
-	dev-python/bitstring[${PYTHON_USEDEP}]
+	>=dev-python/bitstring-3.0[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/openpyxl[${PYTHON_USEDEP}]
 	develop? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pylama-quotes[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
+	develop? ( <dev-python/pyflakes-2.5[${PYTHON_USEDEP}] )
 	develop? ( dev-python/mock[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

@@ -24,33 +24,33 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="display docs tests"
-DEPENDENCIES="dev-python/audioread[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/audioread-2.1.9[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.20.3[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
-	dev-python/joblib[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
+	>=dev-python/joblib-0.14[${PYTHON_USEDEP}]
+	>=dev-python/decorator-4.3.0[${PYTHON_USEDEP}]
 	dev-python/numba[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]
-	dev-python/pooch[${PYTHON_USEDEP}]
+	>=dev-python/pooch-1.0[${PYTHON_USEDEP}]
 	dev-python/soxr[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.1.1[${PYTHON_USEDEP}]
 	dev-python/lazy-loader[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
-	display? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	>=dev-python/msgpack-1.0[${PYTHON_USEDEP}]
+	display? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/sphinx-1.3.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/numba[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-multiversion[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-multiversion-0.2.3[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-gallery-0.7[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mir-eval[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ipython[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/ipython-7.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-svg2pdfconverter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/presets[${PYTHON_USEDEP}] )
-	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/packaging[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/matplotlib-3.3.0[${PYTHON_USEDEP}] )
+	tests? ( >=dev-python/packaging-20.0[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )

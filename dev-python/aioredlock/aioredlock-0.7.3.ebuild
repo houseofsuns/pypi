@@ -25,13 +25,13 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cicd examples package test"
 DEPENDENCIES="dev-python/aioredis[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-17.4.0[${PYTHON_USEDEP}]
 	cicd? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	examples? ( dev-python/aiodocker[${PYTHON_USEDEP}] )
 	package? ( dev-python/bump2version[${PYTHON_USEDEP}] )
 	package? ( dev-python/twine[${PYTHON_USEDEP}] )
 	package? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )

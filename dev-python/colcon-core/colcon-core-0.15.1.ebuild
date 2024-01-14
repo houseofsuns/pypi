@@ -31,8 +31,8 @@ DEPENDENCIES="dev-python/distlib[${PYTHON_USEDEP}]
 	dev-python/pytest-cov[${PYTHON_USEDEP}]
 	dev-python/pytest-repeat[${PYTHON_USEDEP}]
 	dev-python/pytest-rerunfailures[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
+	>=dev-python/setuptools-30.3.0[${PYTHON_USEDEP}]
+	test? ( <dev-python/flake8-6.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-class-newline[${PYTHON_USEDEP}] )

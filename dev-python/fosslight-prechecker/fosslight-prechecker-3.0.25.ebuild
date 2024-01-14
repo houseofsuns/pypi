@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/python-debian[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/python-debian-0.1.40[${PYTHON_USEDEP}]
 	dev-python/binaryornot[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/reuse[${PYTHON_USEDEP}]

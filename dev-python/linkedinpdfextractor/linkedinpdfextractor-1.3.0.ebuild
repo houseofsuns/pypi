@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="testing"
-DEPENDENCIES="dev-python/sortedcontainers[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/sortedcontainers-2.2.2[${PYTHON_USEDEP}]
 	dev-python/pdfminer-six[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/typing[${PYTHON_USEDEP}]

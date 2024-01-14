@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="build_sphinx"
-DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	build_sphinx? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+DEPENDENCIES=">=dev-python/numpy-1.9[${PYTHON_USEDEP}]
+	>=dev-python/scipy-0.8[${PYTHON_USEDEP}]
+	build_sphinx? ( >=dev-python/sphinx-1.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

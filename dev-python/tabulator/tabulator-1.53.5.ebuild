@@ -24,27 +24,27 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cchardet datapackage develop html ods"
-DEPENDENCIES="dev-python/six[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
-	dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/six-1.9[${PYTHON_USEDEP}]
+	>=dev-python/click-6.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.8[${PYTHON_USEDEP}]
+	>=dev-python/chardet-3.0[${PYTHON_USEDEP}]
+	>=dev-python/boto3-1.9[${PYTHON_USEDEP}]
 	dev-python/unicodecsv[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
+	>=dev-python/ijson-3.0.3[${PYTHON_USEDEP}]
 	dev-python/jsonlines[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	>=dev-python/sqlalchemy-0.9.6[${PYTHON_USEDEP}]
 	dev-python/linear-tsv[${PYTHON_USEDEP}]
-	dev-python/xlrd[${PYTHON_USEDEP}]
-	dev-python/openpyxl[${PYTHON_USEDEP}]
-	cchardet? ( dev-python/cchardet[${PYTHON_USEDEP}] )
+	>=dev-python/xlrd-1.0[${PYTHON_USEDEP}]
+	>=dev-python/openpyxl-2.6[${PYTHON_USEDEP}]
+	cchardet? ( >=dev-python/cchardet-2.0[${PYTHON_USEDEP}] )
 	datapackage? ( dev-python/datapackage[${PYTHON_USEDEP}] )
 	develop? ( dev-python/mock[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pylama[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	develop? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	develop? ( dev-python/moto[${PYTHON_USEDEP}] )
-	html? ( dev-python/pyquery[${PYTHON_USEDEP}] )
+	html? ( <dev-python/pyquery-1.4.2[${PYTHON_USEDEP}] )
 	ods? ( dev-python/ezodf[${PYTHON_USEDEP}] )
-	ods? ( dev-python/lxml[${PYTHON_USEDEP}] )"
+	ods? ( >=dev-python/lxml-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

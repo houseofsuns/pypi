@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="numpy tensorboard torch"
-DEPENDENCIES="dev-python/tqdm[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/tqdm-4.62.3[${PYTHON_USEDEP}]
 	tensorboard? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
 	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
-	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )"
+	>=dev-python/packaging-23.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-67.6.0[${PYTHON_USEDEP}]
+	numpy? ( >=dev-python/numpy-1.24.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

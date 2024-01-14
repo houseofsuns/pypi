@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="docs heif pillow testing wand"
-DEPENDENCIES="dev-python/filetype[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/filetype-1.0.10[${PYTHON_USEDEP}]
+	<dev-python/defusedxml-1.0[${PYTHON_USEDEP}]
 	docs? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-wagtail-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
+	docs? ( <dev-python/sphinxcontrib-spelling-9.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_copybutton[${PYTHON_USEDEP}] )
 	heif? ( dev-python/pillow-heif[${PYTHON_USEDEP}] )
 	heif? ( dev-python/pillow-heif[${PYTHON_USEDEP}] )
 	pillow? ( dev-python/Pillow[${PYTHON_USEDEP}] )
 	testing? ( dev-python/willow[${PYTHON_USEDEP}] )
-	testing? ( dev-python/coverage[${PYTHON_USEDEP}] )
+	testing? ( <dev-python/coverage-8.0[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	wand? ( dev-python/Wand[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

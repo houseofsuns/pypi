@@ -24,18 +24,18 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ldap"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/boto3-1.4.4[${PYTHON_USEDEP}]
 	dev-python/Django[${PYTHON_USEDEP}]
 	dev-python/django-fernet-fields[${PYTHON_USEDEP}]
 	dev-python/django-phonenumber-field[${PYTHON_USEDEP}]
 	dev-python/django-recaptcha[${PYTHON_USEDEP}]
-	dev-python/djangorestframework[${PYTHON_USEDEP}]
-	dev-python/phonenumbers[${PYTHON_USEDEP}]
+	>=dev-python/djangorestframework-3.9[${PYTHON_USEDEP}]
+	>=dev-python/phonenumbers-8.12.6[${PYTHON_USEDEP}]
 	dev-python/PyJWT[${PYTHON_USEDEP}]
-	dev-python/pyotp[${PYTHON_USEDEP}]
-	dev-python/python3-saml[${PYTHON_USEDEP}]
+	>=dev-python/pyotp-2.8.0[${PYTHON_USEDEP}]
+	>=dev-python/python3-saml-1.2.1[${PYTHON_USEDEP}]
 	dev-python/social-auth-app-django[${PYTHON_USEDEP}]
 	dev-python/social-auth-core[${PYTHON_USEDEP}]
-	ldap? ( dev-python/python-ldap[${PYTHON_USEDEP}] )"
+	ldap? ( >=dev-python/python-ldap-3.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

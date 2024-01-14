@@ -35,6 +35,6 @@ DEPENDENCIES="dev-python/pycrdt[${PYTHON_USEDEP}]
 	test? ( dev-python/pycrdt-websocket[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/websockets[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/websockets-10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

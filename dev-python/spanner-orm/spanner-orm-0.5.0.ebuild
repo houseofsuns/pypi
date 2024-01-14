@@ -26,6 +26,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="tests"
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/google-cloud-spanner[${PYTHON_USEDEP}]
-	tests? ( dev-python/black[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/black-20.8[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="all jaegertracing mongo pytz ujson"
 DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	all? ( dev-python/motor[${PYTHON_USEDEP}] )
-	all? ( dev-python/ujson[${PYTHON_USEDEP}] )
+	all? ( <dev-python/ujson-2.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytz[${PYTHON_USEDEP}] )
 	all? ( dev-python/jaeger-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/opentracing[${PYTHON_USEDEP}] )
@@ -34,6 +34,6 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	jaegertracing? ( dev-python/opentracing[${PYTHON_USEDEP}] )
 	mongo? ( dev-python/motor[${PYTHON_USEDEP}] )
 	pytz? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	ujson? ( dev-python/ujson[${PYTHON_USEDEP}] )"
+	ujson? ( <dev-python/ujson-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

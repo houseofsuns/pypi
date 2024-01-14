@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
-DEPENDENCIES="dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
+DEPENDENCIES="dev? ( ~dev-python/coverage-4.0.3[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/flake8-3.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-per-file-ignores[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

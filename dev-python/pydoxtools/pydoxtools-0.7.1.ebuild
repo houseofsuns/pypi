@@ -26,46 +26,46 @@ KEYWORDS="~amd64 ~x86"
 IUSE="etl inference"
 DEPENDENCIES="etl? ( dev-python/goose3[${PYTHON_USEDEP}] )
 	etl? ( dev-python/readability-lxml[${PYTHON_USEDEP}] )
-	dev-python/appdirs[${PYTHON_USEDEP}]
+	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	etl? ( dev-python/langdetect[${PYTHON_USEDEP}] )
 	inference? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	etl? ( dev-python/tldextract[${PYTHON_USEDEP}] )
+	etl? ( >=dev-python/tldextract-2.2.3[${PYTHON_USEDEP}] )
 	etl? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
 	etl? ( dev-python/extruct[${PYTHON_USEDEP}] )
 	etl? ( dev-python/quantulum3[${PYTHON_USEDEP}] )
-	etl? ( dev-python/quantities[${PYTHON_USEDEP}] )
-	inference? ( dev-python/tqdm[${PYTHON_USEDEP}] )
+	etl? ( >=dev-python/quantities-0.12.4[${PYTHON_USEDEP}] )
+	inference? ( >=dev-python/tqdm-4.47.0[${PYTHON_USEDEP}] )
 	etl? ( dev-python/urlextract[${PYTHON_USEDEP}] )
 	inference? ( dev-python/urlextract[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	etl? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	inference? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	dev-python/lxml[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-1.7.2[${PYTHON_USEDEP}]
+	etl? ( >=dev-python/beautifulsoup4-4.8.0[${PYTHON_USEDEP}] )
+	inference? ( >=dev-python/beautifulsoup4-4.8.0[${PYTHON_USEDEP}] )
+	>=dev-python/lxml-4.6.2[${PYTHON_USEDEP}]
 	etl? ( dev-python/stemming[${PYTHON_USEDEP}] )
 	dev-python/Pint[${PYTHON_USEDEP}]
-	dev-python/pikepdf[${PYTHON_USEDEP}]
+	>=dev-python/pikepdf-2.10.0[${PYTHON_USEDEP}]
 	inference? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
 	etl? ( dev-python/pdf2image[${PYTHON_USEDEP}] )
 	dev-python/Shapely[${PYTHON_USEDEP}]
 	inference? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	etl? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	inference? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	etl? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	inference? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	etl? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
+	inference? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
 	etl? ( dev-python/hnswlib[${PYTHON_USEDEP}] )
 	inference? ( dev-python/hnswlib[${PYTHON_USEDEP}] )
-	etl? ( dev-python/networkx[${PYTHON_USEDEP}] )
-	dev-python/python-magic[${PYTHON_USEDEP}]
+	etl? ( <dev-python/networkx-3.0.0[${PYTHON_USEDEP}] )
+	<dev-python/python-magic-0.5.0[${PYTHON_USEDEP}]
 	etl? ( dev-python/openai[${PYTHON_USEDEP}] )
 	etl? ( dev-python/python-pptx[${PYTHON_USEDEP}] )
 	etl? ( dev-python/pandoc[${PYTHON_USEDEP}] )
-	dev-python/packaging[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	inference? ( dev-python/torch[${PYTHON_USEDEP}] )
-	etl? ( dev-python/pytesseract[${PYTHON_USEDEP}] )
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	etl? ( dev-python/dask[${PYTHON_USEDEP}] )
-	dev-python/diskcache[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
+	etl? ( <dev-python/pytesseract-0.4.0[${PYTHON_USEDEP}] )
+	<dev-python/pyyaml-7.0[${PYTHON_USEDEP}]
+	etl? ( <dev-python/dask-2024.0.0[${PYTHON_USEDEP}] )
+	<dev-python/diskcache-6.0.0[${PYTHON_USEDEP}]
+	<dev-python/chardet-6.0.0[${PYTHON_USEDEP}]
 	inference? ( dev-python/chromadb[${PYTHON_USEDEP}] )
 	inference? ( dev-python/gpt4all[${PYTHON_USEDEP}] )
 	inference? ( dev-python/fastcoref[${PYTHON_USEDEP}] )

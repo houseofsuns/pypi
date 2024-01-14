@@ -24,8 +24,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="plotting"
-DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
-	plotting? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+DEPENDENCIES=">=dev-python/click-8.0.1[${PYTHON_USEDEP}]
+	plotting? ( <dev-python/matplotlib-4.0.0[${PYTHON_USEDEP}] )
 	dev-python/niftyreg[${PYTHON_USEDEP}]
 	plotting? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
 	dev-python/torch[${PYTHON_USEDEP}]

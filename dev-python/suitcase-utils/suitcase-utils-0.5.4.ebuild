@@ -27,10 +27,10 @@ IUSE="complete test_fixtures"
 DEPENDENCIES="complete? ( dev-python/bluesky[${PYTHON_USEDEP}] )
 	complete? ( dev-python/caproto[${PYTHON_USEDEP}] )
 	complete? ( dev-python/ophyd[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	complete? ( >=dev-python/pytest-3.9[${PYTHON_USEDEP}] )
 	test_fixtures? ( dev-python/bluesky[${PYTHON_USEDEP}] )
 	test_fixtures? ( dev-python/caproto[${PYTHON_USEDEP}] )
 	test_fixtures? ( dev-python/ophyd[${PYTHON_USEDEP}] )
-	test_fixtures? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	test_fixtures? ( >=dev-python/pytest-3.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

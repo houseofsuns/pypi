@@ -25,27 +25,27 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="cuda docs extras opencl tests tutorials"
 DEPENDENCIES="dev-python/neo[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/quantities[${PYTHON_USEDEP}]
-	dev-python/scipy[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.19.5[${PYTHON_USEDEP}]
+	>=dev-python/quantities-0.14.1[${PYTHON_USEDEP}]
+	>=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
+	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
-	cuda? ( dev-python/pycuda[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
+	cuda? ( >=dev-python/pycuda-2020.1[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/numpydoc-1.1.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-3.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/nbsphinx-0.8.0[${PYTHON_USEDEP}] )
+	docs? ( >dev-python/sphinxcontrib-bibtex-1.0.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/sphinx-tabs-1.3.0[${PYTHON_USEDEP}] )
+	docs? ( >=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}] )
 	extras? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	extras? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
+	extras? ( >=dev-python/statsmodels-0.12.1[${PYTHON_USEDEP}] )
 	extras? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	opencl? ( dev-python/pyopencl[${PYTHON_USEDEP}] )
+	opencl? ( >=dev-python/pyopencl-2020.2.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nixio[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/h5py[${PYTHON_USEDEP}] )
+	tutorials? ( >=dev-python/matplotlib-3.3.2[${PYTHON_USEDEP}] )
+	tutorials? ( >=dev-python/h5py-3.1.0[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/nixio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

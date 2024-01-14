@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev docs pypi"
-DEPENDENCIES="dev-python/cloudscraper[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/cloudscraper-1.2.71[${PYTHON_USEDEP}]
 	dev-python/Js2Py[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/regex[${PYTHON_USEDEP}]
-	dev-python/websockets[${PYTHON_USEDEP}]
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
+	~dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
+	~dev-python/regex-2023.6.3[${PYTHON_USEDEP}]
+	~dev-python/websockets-11.0.3[${PYTHON_USEDEP}]
+	dev? ( ~dev-python/autopep8-2.0.2[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pycodestyle-2.10.0[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/mypy-1.4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.17.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/requests-mock-1.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	pypi? ( dev-python/build[${PYTHON_USEDEP}] )
-	pypi? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/mkdocs-1.4.3[${PYTHON_USEDEP}] )
+	docs? ( ~dev-python/mkdocstrings-0.22.0[${PYTHON_USEDEP}] )
+	pypi? ( ~dev-python/build-0.10.0[${PYTHON_USEDEP}] )
+	pypi? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

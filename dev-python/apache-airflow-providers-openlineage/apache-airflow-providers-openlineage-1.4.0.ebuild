@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="common-sql"
 DEPENDENCIES="dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}]
 	dev-python/apache-airflow[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-22.2[${PYTHON_USEDEP}]
 	dev-python/openlineage-integration-common[${PYTHON_USEDEP}]
 	dev-python/openlineage-python[${PYTHON_USEDEP}]
 	common-sql? ( dev-python/apache-airflow-providers-common-sql[${PYTHON_USEDEP}] )"

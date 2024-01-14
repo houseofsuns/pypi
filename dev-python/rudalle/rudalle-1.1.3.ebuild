@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="dev-python/taming-transformers[${PYTHON_USEDEP}]
-	dev-python/more-itertools[${PYTHON_USEDEP}]
+	~dev-python/more-itertools-8.12.0[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/youtokentome[${PYTHON_USEDEP}]
 	dev-python/omegaconf[${PYTHON_USEDEP}]

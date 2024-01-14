@@ -25,17 +25,17 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="dev"
 DEPENDENCIES="dev-python/necessary[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/platformdirs[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autopep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )
+	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-2.4.0[${PYTHON_USEDEP}]
+	>=dev-python/cachetools-4.2.4[${PYTHON_USEDEP}]
+	dev? ( >=dev-python/black-22.6.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/mypy-0.971[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/pytest-5.2[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipython-8.4.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/autopep8-1.7.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/flake8-5.0[${PYTHON_USEDEP}] )
+	dev? ( >=dev-python/ipdb-0.13.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-pyi[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Flake8-pyproject[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

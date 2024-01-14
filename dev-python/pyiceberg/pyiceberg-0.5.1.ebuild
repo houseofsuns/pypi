@@ -25,31 +25,31 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="adlfs duckdb dynamodb gcsfs glue hive pandas pyarrow ray s3fs snappy sql-postgres zstandard"
 DEPENDENCIES="adlfs? ( dev-python/adlfs[${PYTHON_USEDEP}] )
-	glue? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dynamodb? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	dev-python/click[${PYTHON_USEDEP}]
+	glue? ( >=dev-python/boto3-1.24.59[${PYTHON_USEDEP}] )
+	dynamodb? ( >=dev-python/boto3-1.24.59[${PYTHON_USEDEP}] )
+	<dev-python/click-9.0.0[${PYTHON_USEDEP}]
 	duckdb? ( dev-python/duckdb[${PYTHON_USEDEP}] )
-	dev-python/fsspec[${PYTHON_USEDEP}]
+	<dev-python/fsspec-2024.1.0[${PYTHON_USEDEP}]
 	gcsfs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
 	dev-python/mmhash3[${PYTHON_USEDEP}]
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	ray? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	pandas? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
+	ray? ( <dev-python/pandas-3.0.0[${PYTHON_USEDEP}] )
 	sql-postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	pyarrow? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	duckdb? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	ray? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]
-	snappy? ( dev-python/python-snappy[${PYTHON_USEDEP}] )
+	pyarrow? ( <dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )
+	pandas? ( <dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )
+	duckdb? ( <dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )
+	ray? ( <dev-python/pyarrow-14.0.0[${PYTHON_USEDEP}] )
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	<dev-python/pyparsing-4.0.0[${PYTHON_USEDEP}]
+	snappy? ( <dev-python/python-snappy-1.0.0[${PYTHON_USEDEP}] )
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0.0[${PYTHON_USEDEP}]
 	s3fs? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	dev-python/sortedcontainers[${PYTHON_USEDEP}]
-	sql-postgres? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
+	~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
+	sql-postgres? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
 	dev-python/strictyaml[${PYTHON_USEDEP}]
-	hive? ( dev-python/thrift[${PYTHON_USEDEP}] )
-	zstandard? ( dev-python/zstandard[${PYTHON_USEDEP}] )"
+	hive? ( <dev-python/thrift-1.0.0[${PYTHON_USEDEP}] )
+	zstandard? ( <dev-python/zstandard-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -25,9 +25,9 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE="asgi-file-uploads dev telemetry test tracing"
 DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
-	dev-python/starlette[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	asgi-file-uploads? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
+	<dev-python/starlette-1.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-3.6.0[${PYTHON_USEDEP}]
+	asgi-file-uploads? ( >=dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
@@ -43,7 +43,7 @@ DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
+	test? ( >=dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}] )
 	test? ( dev-python/syrupy[${PYTHON_USEDEP}] )
 	test? ( dev-python/werkzeug[${PYTHON_USEDEP}] )
 	tracing? ( dev-python/opentracing[${PYTHON_USEDEP}] )"

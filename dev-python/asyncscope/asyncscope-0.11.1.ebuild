@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/trio[${PYTHON_USEDEP}]"
+DEPENDENCIES=">=dev-python/anyio-3.0[${PYTHON_USEDEP}]
+	>=dev-python/trio-0.17[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

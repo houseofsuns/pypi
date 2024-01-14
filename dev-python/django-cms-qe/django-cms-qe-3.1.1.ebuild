@@ -37,17 +37,17 @@ DEPENDENCIES="dev-python/easy-thumbnails[${PYTHON_USEDEP}]
 	dev-python/djangocms-googlemap[${PYTHON_USEDEP}]
 	dev-python/django-tablib[${PYTHON_USEDEP}]
 	dev-python/mailchimp3[${PYTHON_USEDEP}]
-	dev-python/argon2-cffi[${PYTHON_USEDEP}]
+	~dev-python/argon2-cffi-21.3[${PYTHON_USEDEP}]
 	dev-python/djangocms-aldryn-forms[${PYTHON_USEDEP}]
 	dev-python/djangocms-aldryn-search[${PYTHON_USEDEP}]
 	dev-python/django-haystack[${PYTHON_USEDEP}]
 	dev-python/pymemcache[${PYTHON_USEDEP}]
-	dev-python/whoosh[${PYTHON_USEDEP}]
+	~dev-python/whoosh-2.7[${PYTHON_USEDEP}]
 	build? ( dev-python/Jinja2[${PYTHON_USEDEP}] )
 	build? ( dev-python/Sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/django-debug-toolbar-4.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
+	mysql? ( ~dev-python/mysqlclient-2.2[${PYTHON_USEDEP}] )
 	newsblog? ( dev-python/djangocms-aldryn-newsblog[${PYTHON_USEDEP}] )
 	psql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
@@ -55,12 +55,12 @@ DEPENDENCIES="dev-python/easy-thumbnails[${PYTHON_USEDEP}]
 	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	test? ( dev-python/pylint-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-data[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-django-3.9.0[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-env-0.6.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-pythonpath[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/pytest-sugar-0.9.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	test? ( dev-python/PyVirtualDisplay[${PYTHON_USEDEP}] )
 	test? ( dev-python/webdriverwrapper[${PYTHON_USEDEP}] )

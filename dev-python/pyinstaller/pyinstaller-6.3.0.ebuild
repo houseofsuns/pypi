@@ -24,14 +24,14 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="completion hook_testing"
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-42.0.0[${PYTHON_USEDEP}]
 	dev-python/altgraph[${PYTHON_USEDEP}]
 	dev-python/pyinstaller-hooks-contrib[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]
 	dev-python/macholib[${PYTHON_USEDEP}]
 	completion? ( dev-python/argcomplete[${PYTHON_USEDEP}] )
-	hook_testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	hook_testing? ( dev-python/execnet[${PYTHON_USEDEP}] )
+	hook_testing? ( >=dev-python/pytest-2.7.3[${PYTHON_USEDEP}] )
+	hook_testing? ( >=dev-python/execnet-1.5.0[${PYTHON_USEDEP}] )
 	hook_testing? ( dev-python/psutil[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

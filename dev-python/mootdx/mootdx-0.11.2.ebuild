@@ -24,16 +24,16 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="all cli fetch"
-DEPENDENCIES="dev-python/httpx[${PYTHON_USEDEP}]
-	dev-python/tenacity[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/httpx-0.26.0[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
 	dev-python/tdxpy[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	fetch? ( dev-python/py-mini-racer[${PYTHON_USEDEP}] )
 	all? ( dev-python/py-mini-racer[${PYTHON_USEDEP}] )
-	cli? ( dev-python/prettytable[${PYTHON_USEDEP}] )
-	all? ( dev-python/prettytable[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	all? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	cli? ( <dev-python/prettytable-4.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/prettytable-4.0.0[${PYTHON_USEDEP}] )
+	cli? ( <dev-python/click-9.0.0[${PYTHON_USEDEP}] )
+	all? ( <dev-python/click-9.0.0[${PYTHON_USEDEP}] )
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

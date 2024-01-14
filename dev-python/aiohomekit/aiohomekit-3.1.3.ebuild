@@ -24,17 +24,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]
-	dev-python/commentjson[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/cryptography-2.9.2[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.128.4[${PYTHON_USEDEP}]
+	<dev-python/commentjson-0.10.0[${PYTHON_USEDEP}]
 	dev-python/aiocoap[${PYTHON_USEDEP}]
 	dev-python/bleak[${PYTHON_USEDEP}]
 	dev-python/chacha20poly1305-reuseable[${PYTHON_USEDEP}]
 	dev-python/bleak-retry-connector[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.7.8[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
 	dev-python/chacha20poly1305[${PYTHON_USEDEP}]
 	dev-python/async-interrupt[${PYTHON_USEDEP}]
-	dev-python/aiohappyeyeballs[${PYTHON_USEDEP}]"
+	>=dev-python/aiohappyeyeballs-2.3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

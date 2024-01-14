@@ -24,20 +24,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
-	dev-python/flake8[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/black-23.1.0[${PYTHON_USEDEP}]
+	>=dev-python/flake8-6.0.0[${PYTHON_USEDEP}]
 	dev-python/flake8-modern-annotations[${PYTHON_USEDEP}]
 	dev-python/flake8-pyproject[${PYTHON_USEDEP}]
 	dev-python/flake8-type-checking[${PYTHON_USEDEP}]
-	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/mypy[${PYTHON_USEDEP}]
+	>=dev-python/isort-5.10.1[${PYTHON_USEDEP}]
+	>=dev-python/mypy-1.7.0[${PYTHON_USEDEP}]
 	dev-python/nbmake[${PYTHON_USEDEP}]
-	dev-python/nbsphinx[${PYTHON_USEDEP}]
-	dev-python/pylint[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-cov[${PYTHON_USEDEP}]
+	>=dev-python/nbsphinx-0.9.0[${PYTHON_USEDEP}]
+	>=dev-python/pylint-2.15.0[${PYTHON_USEDEP}]
+	>=dev-python/pytest-6.2.5[${PYTHON_USEDEP}]
+	>=dev-python/pytest-cov-2.11.1[${PYTHON_USEDEP}]
 	dev-python/pytest-randomly[${PYTHON_USEDEP}]
 	dev-python/pytest-socket[${PYTHON_USEDEP}]
-	dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]"
+	>=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

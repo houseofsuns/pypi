@@ -24,11 +24,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="thehive"
-DEPENDENCIES="thehive? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	dev-python/coloredlogs[${PYTHON_USEDEP}]
+DEPENDENCIES="thehive? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
+	<dev-python/coloredlogs-16.0[${PYTHON_USEDEP}]
 	dev-python/dynaconf[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]"
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
+	<dev-python/pyarrow-13.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -27,16 +27,16 @@ IUSE="all tests"
 DEPENDENCIES="dev-python/inspire-schemas[${PYTHON_USEDEP}]
 	dev-python/inspire-utils[${PYTHON_USEDEP}]
 	dev-python/pypeg2[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
+	~dev-python/python-dateutil-2.0[${PYTHON_USEDEP}]
+	~dev-python/six-1.0[${PYTHON_USEDEP}]
 	dev-python/datefinder[${PYTHON_USEDEP}]
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	all? ( dev-python/mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	all? ( ~dev-python/flake8-3.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	all? ( ~dev-python/pytest-3.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/flake8-3.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/mock-2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-cov-2.0[${PYTHON_USEDEP}] )
+	tests? ( ~dev-python/pytest-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

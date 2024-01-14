@@ -24,32 +24,32 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="deltalake geopandas gremlin modin mysql opencypher openpyxl opensearch oracle postgres progressbar ray redshift sparql sqlserver"
-DEPENDENCIES="dev-python/boto3[${PYTHON_USEDEP}]
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]
-	dev-python/pyarrow[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/botocore-2.0.0[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyarrow-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+	<dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	redshift? ( dev-python/redshift-connector[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/pymysql[${PYTHON_USEDEP}] )
+	mysql? ( <dev-python/pymysql-2.0.0[${PYTHON_USEDEP}] )
 	postgres? ( dev-python/pg8000[${PYTHON_USEDEP}] )
 	sqlserver? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
 	oracle? ( dev-python/oracledb[${PYTHON_USEDEP}] )
 	gremlin? ( dev-python/gremlinpython[${PYTHON_USEDEP}] )
 	sparql? ( dev-python/SPARQLWrapper[${PYTHON_USEDEP}] )
-	gremlin? ( dev-python/requests[${PYTHON_USEDEP}] )
-	sparql? ( dev-python/requests[${PYTHON_USEDEP}] )
-	opencypher? ( dev-python/requests[${PYTHON_USEDEP}] )
-	gremlin? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	gremlin? ( dev-python/async-timeout[${PYTHON_USEDEP}] )
-	opensearch? ( dev-python/opensearch-py[${PYTHON_USEDEP}] )
+	gremlin? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	sparql? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	opencypher? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
+	gremlin? ( <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}] )
+	gremlin? ( <dev-python/async-timeout-5.0.0[${PYTHON_USEDEP}] )
+	opensearch? ( <dev-python/opensearch-py-3.0.0[${PYTHON_USEDEP}] )
 	opensearch? ( dev-python/requests-aws4auth[${PYTHON_USEDEP}] )
-	opensearch? ( dev-python/jsonpath-ng[${PYTHON_USEDEP}] )
-	openpyxl? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	progressbar? ( dev-python/progressbar2[${PYTHON_USEDEP}] )
+	opensearch? ( <dev-python/jsonpath-ng-2.0.0[${PYTHON_USEDEP}] )
+	openpyxl? ( <dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}] )
+	progressbar? ( <dev-python/progressbar2-5.0.0[${PYTHON_USEDEP}] )
 	deltalake? ( dev-python/deltalake[${PYTHON_USEDEP}] )
 	geopandas? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	geopandas? ( dev-python/geopandas[${PYTHON_USEDEP}] )

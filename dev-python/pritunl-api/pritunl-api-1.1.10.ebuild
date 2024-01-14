@@ -24,10 +24,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="cli repl"
-DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	repl? ( dev-python/ptpython[${PYTHON_USEDEP}] )
-	repl? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/rich[${PYTHON_USEDEP}] )"
+	repl? ( ~dev-python/ipython-8.11.0[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/click-8.1.3[${PYTHON_USEDEP}] )
+	cli? ( ~dev-python/rich-13.3.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

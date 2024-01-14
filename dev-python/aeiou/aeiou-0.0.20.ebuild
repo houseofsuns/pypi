@@ -46,6 +46,6 @@ DEPENDENCIES="dev-python/fastcore[${PYTHON_USEDEP}]
 	dev-python/soundfile[${PYTHON_USEDEP}]
 	dev-python/pedalboard[${PYTHON_USEDEP}]
 	dev-python/umap-learn[${PYTHON_USEDEP}]
-	dev? ( dev-python/nbformat[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/nbformat-4.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

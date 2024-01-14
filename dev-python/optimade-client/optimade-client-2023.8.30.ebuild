@@ -24,28 +24,28 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="dev server testing"
-DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/cachecontrol[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]
+DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
+	~dev-python/cachecontrol-0.13.1[${PYTHON_USEDEP}]
+	~dev-python/ipywidgets-7.7[${PYTHON_USEDEP}]
 	dev-python/ipywidgets-extended[${PYTHON_USEDEP}]
 	dev-python/nglview[${PYTHON_USEDEP}]
 	dev-python/optimade[${PYTHON_USEDEP}]
-	dev-python/pandas[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	~dev-python/pandas-2.0[${PYTHON_USEDEP}]
+	~dev-python/requests-2.31[${PYTHON_USEDEP}]
 	dev-python/widget-periodictable[${PYTHON_USEDEP}]
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pylint-2.17[${PYTHON_USEDEP}] )
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-tornasync[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	dev? ( ~dev-python/pytest-tornasync-0.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ase[${PYTHON_USEDEP}] )
 	dev? ( dev-python/voila[${PYTHON_USEDEP}] )
 	server? ( dev-python/ase[${PYTHON_USEDEP}] )
 	server? ( dev-python/voila[${PYTHON_USEDEP}] )
 	testing? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-tornasync[${PYTHON_USEDEP}] )"
+	testing? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-cov-4.1[${PYTHON_USEDEP}] )
+	testing? ( ~dev-python/pytest-tornasync-0.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

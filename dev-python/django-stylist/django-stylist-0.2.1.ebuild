@@ -29,7 +29,7 @@ DEPENDENCIES="dev-python/Django[${PYTHON_USEDEP}]
 	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
 	build? ( dev-python/wheel[${PYTHON_USEDEP}] )
 	build? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/django-crispy-forms[${PYTHON_USEDEP}] )
+	dev? ( <dev-python/django-crispy-forms-2.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-allauth[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-extensions[${PYTHON_USEDEP}] )
 	dev? ( dev-python/djangorestframework[${PYTHON_USEDEP}] )

@@ -40,7 +40,7 @@ DEPENDENCIES="dev-python/bumpversion[${PYTHON_USEDEP}]
 	test? ( dev-python/flake8-rst[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-rst-docstrings[${PYTHON_USEDEP}] )
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
+	test? ( ~dev-python/mypy-0.790[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	test? ( dev-python/pygments[${PYTHON_USEDEP}] )
 	test? ( dev-python/requests-mock[${PYTHON_USEDEP}] )"

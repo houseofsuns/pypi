@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/regex[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/regex-2022.0.0[${PYTHON_USEDEP}]
 	dev-python/textfsm[${PYTHON_USEDEP}]
 	dev-python/macaddr[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"

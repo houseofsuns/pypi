@@ -24,13 +24,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
+DEPENDENCIES=">=dev-python/setuptools-18.5[${PYTHON_USEDEP}]
 	dev-python/dronecan[${PYTHON_USEDEP}]
-	dev-python/pyserial[${PYTHON_USEDEP}]
+	>=dev-python/pyserial-3.0[${PYTHON_USEDEP}]
 	dev-python/pymavlink[${PYTHON_USEDEP}]
-	dev-python/qtawesome[${PYTHON_USEDEP}]
-	dev-python/qtconsole[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
+	>=dev-python/qtawesome-0.3.1[${PYTHON_USEDEP}]
+	>=dev-python/qtconsole-4.2.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	dev-python/easywebdav[${PYTHON_USEDEP}]
 	dev-python/pymonocypher[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]

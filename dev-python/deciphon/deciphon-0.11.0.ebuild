@@ -24,15 +24,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="dev-python/cffi[${PYTHON_USEDEP}]
+DEPENDENCIES="<dev-python/cffi-2.0.0[${PYTHON_USEDEP}]
 	dev-python/deciphon-core[${PYTHON_USEDEP}]
 	dev-python/deciphon-snap[${PYTHON_USEDEP}]
 	dev-python/fasta-reader[${PYTHON_USEDEP}]
 	dev-python/h3daemon[${PYTHON_USEDEP}]
 	dev-python/hmmer[${PYTHON_USEDEP}]
-	dev-python/ijson[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
+	<dev-python/ijson-4.0.0[${PYTHON_USEDEP}]
+	<dev-python/pydantic-3.0[${PYTHON_USEDEP}]
+	<dev-python/rich-14.0[${PYTHON_USEDEP}]
 	dev-python/typer[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

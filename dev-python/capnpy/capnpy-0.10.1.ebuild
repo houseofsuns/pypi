@@ -27,6 +27,6 @@ IUSE=""
 DEPENDENCIES="dev-python/pypytools[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]"
+	~dev-python/cython-0.29.36[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Modules and tools useful for use with advanced data solutions on Google Ads, Google Marketing Platform and Google Cloud. [topver 1.145.0]"
+DESCRIPTION="Modules and tools useful for use with advanced data solutions on Google Ads, Google Marketing Platform and Google Cloud. [topver 1.146.0]"
 
 HOMEPAGE="https://github.com/google/gps_building_blocks"
 LICENSE="Apache-2.0"

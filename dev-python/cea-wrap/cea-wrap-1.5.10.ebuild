@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python-Based wrapper for the NASA CEA Thermochemical Code [topver 1.6.1]"
+DESCRIPTION="A Python-Based wrapper for the NASA CEA Thermochemical Code [topver 1.7.2]"
 
 HOMEPAGE="https://github.com/civilwargeeky/CEA_Wrap"
 LICENSE=""

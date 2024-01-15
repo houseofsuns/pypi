@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="This package contains open source modules and integrations within Forloop.ai platform"
+DESCRIPTION="This package contains open source modules and integrations within Forloop.ai platform [topver 0.8.2]"
 
 HOMEPAGE="https://github.com/ForloopAI/forloop_modules"
 LICENSE=""

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Lumigo Tracer for Python v3.6 / v3.7 runtimes [topver 1.1.231]"
+DESCRIPTION="Lumigo Tracer for Python v3.6 / v3.7 runtimes [topver 1.1.232]"
 
 HOMEPAGE="https://github.com/lumigo-io/python_tracer.git"
 LICENSE="Apache-2.0"

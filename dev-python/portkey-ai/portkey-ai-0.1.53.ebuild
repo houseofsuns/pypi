@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python client library for the Portkey API [topver 1.1.3]"
+DESCRIPTION="Python client library for the Portkey API [topver 1.1.4]"
 
 HOMEPAGE="https://github.com/Portkey-AI/portkey-python-sdk"
 LICENSE=""

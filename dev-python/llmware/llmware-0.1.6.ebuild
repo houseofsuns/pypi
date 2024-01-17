@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="An enterprise-grade LLM-based development framework, tools, and fine-tuned models [topver 0.1.14]"
+DESCRIPTION="An enterprise-grade LLM-based development framework, tools, and fine-tuned models [topver 0.1.15]"
 
 HOMEPAGE="https://github.com/llmware-ai"
 LICENSE=""

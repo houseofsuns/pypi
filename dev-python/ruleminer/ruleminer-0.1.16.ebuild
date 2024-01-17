@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python package to mine association rules in datasets [topver 0.1.24]"
+DESCRIPTION="Python package to mine association rules in datasets [topver 0.1.25]"
 
 HOMEPAGE="https://github.com/wjwillemse/ruleminer"
 LICENSE="MIT"

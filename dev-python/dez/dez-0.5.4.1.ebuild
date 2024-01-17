@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A set of pyevent-based network services [topver 0.10.10.6]"
+DESCRIPTION="A set of pyevent-based network services [topver 0.10.10.7]"
 
 HOMEPAGE=""
 LICENSE="MIT"

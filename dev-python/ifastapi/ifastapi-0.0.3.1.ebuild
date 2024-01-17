@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="基于fastapi二次优化 旨在更便捷、快速的搭建API [topver 0.0.3.31.19.3]"
+DESCRIPTION="基于fastapi二次优化 旨在更便捷、快速的搭建API [topver 0.0.3.31.19.5]"
 
 HOMEPAGE="https://github.com/ifczt/iFastApi"
 LICENSE="MIT"

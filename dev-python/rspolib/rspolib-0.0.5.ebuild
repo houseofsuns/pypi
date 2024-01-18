@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Python bindings for the Rust crate rspolib."
+DESCRIPTION="Python bindings for the Rust crate rspolib. [topver 0.1.0]"
 
 HOMEPAGE=""
 LICENSE="MIT"

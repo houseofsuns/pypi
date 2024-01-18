@@ -34,7 +34,7 @@ DEPENDENCIES="~dev-python/incremental-21.3.0[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/attrs-22.1.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/Automat[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/Babel-2.10.3[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/backcall-0.2.0[${PYTHON_USEDEP}] )
+	dev? ( dev-python/backcall[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/bleach-5.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/build-0.8.0[${PYTHON_USEDEP}] )

@@ -34,7 +34,7 @@ DEPENDENCIES="dev-python/scipy[${PYTHON_USEDEP}]
 	test? ( ~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/attrs-18.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/babel[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/backcall-0.1.0[${PYTHON_USEDEP}] )
+	test? ( dev-python/backcall[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/bleach-3.1.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/certifi-2018.11.29[${PYTHON_USEDEP}] )

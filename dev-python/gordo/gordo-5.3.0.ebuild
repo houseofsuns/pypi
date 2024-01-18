@@ -62,7 +62,7 @@ DEPENDENCIES="~dev-python/dictdiffer-0.8[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/arrow-1.2.3[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/asttokens-2.3.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/attrs-23.1.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/backcall-0.2.0[${PYTHON_USEDEP}] )
+	tests? ( dev-python/backcall[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/beautifulsoup4-4.12.2[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/bleach-6.0.0[${PYTHON_USEDEP}] )

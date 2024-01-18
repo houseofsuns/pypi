@@ -46,7 +46,7 @@ DEPENDENCIES="dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
 	docs? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
 	docs? ( dev-python/azure-storage-common[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/Babel-2.9.0[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/backcall-0.2.0[${PYTHON_USEDEP}] )
+	docs? ( dev-python/backcall[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/bleach-3.2.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/boto3-1.15.18[${PYTHON_USEDEP}] )

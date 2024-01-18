@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="~dev-python/asttokens-2.2.1[${PYTHON_USEDEP}]
-	~dev-python/backcall-0.2.0[${PYTHON_USEDEP}]
+	dev-python/backcall[${PYTHON_USEDEP}]
 	~dev-python/certifi-2022.12.7[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	~dev-python/comm-0.1.2[${PYTHON_USEDEP}]

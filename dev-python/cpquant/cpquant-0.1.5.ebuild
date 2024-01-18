@@ -26,7 +26,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPENDENCIES="dev-python/appnope[${PYTHON_USEDEP}]
 	~dev-python/asttokens-2.2.1[${PYTHON_USEDEP}]
-	~dev-python/backcall-0.2.0[${PYTHON_USEDEP}]
+	dev-python/backcall[${PYTHON_USEDEP}]
 	~dev-python/bleach-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/blinker-1.6.2[${PYTHON_USEDEP}]
 	~dev-python/certifi-2023.5.7[${PYTHON_USEDEP}]

@@ -24,7 +24,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE=""
-DEPENDENCIES="~dev-python/backcall-0.1.0[${PYTHON_USEDEP}]
+DEPENDENCIES="dev-python/backcall[${PYTHON_USEDEP}]
 	~dev-python/click-7.1.1[${PYTHON_USEDEP}]
 	~dev-python/decorator-4.4.2[${PYTHON_USEDEP}]
 	>=dev-python/docutils-0.16[${PYTHON_USEDEP}]

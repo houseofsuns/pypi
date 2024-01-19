@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Veeroute.Routing [topver 6.17.2224]"
+DESCRIPTION="Veeroute.Routing [topver 6.18.2232]"
 
 HOMEPAGE="https://docs.veeroute.com/#/lss/routing"
 LICENSE=""

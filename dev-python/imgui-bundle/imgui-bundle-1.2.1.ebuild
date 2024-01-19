@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Dear ImGui Bundle: easily create ImGui applications in Python and C++. Batteries included!"
+DESCRIPTION="Dear ImGui Bundle: easily create ImGui applications in Python and C++. Batteries included! [topver 1.3.0]"
 
 HOMEPAGE="https://github.com/pthom/imgui_bundle"
 LICENSE=""

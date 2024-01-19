@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A simple cli tool to generate text using GPT-turbo [topver 0.0.11]"
+DESCRIPTION="A simple cli tool to generate text using GPT-turbo [topver 0.0.12]"
 
 HOMEPAGE=""
 LICENSE=""

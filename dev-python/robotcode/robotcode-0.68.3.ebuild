@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Language server, debugger and tools for Robot Framework"
+DESCRIPTION="Language server, debugger and tools for Robot Framework [topver 0.68.4]"
 
 HOMEPAGE="https://robotcode.io"
 LICENSE="Apache-2.0"

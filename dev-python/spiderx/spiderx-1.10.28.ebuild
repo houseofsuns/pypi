@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="spiderx function [topver 1.10.78]"
+DESCRIPTION="spiderx function [topver 1.10.79]"
 
 HOMEPAGE="https://pypi.org/project/spiderx/"
 LICENSE="https://pypi.org/project/spiderx/"

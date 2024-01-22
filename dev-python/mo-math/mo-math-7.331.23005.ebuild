@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="More Math! Many of the aggregates you are familiar with, but null-safe [topver 7.476.24007]"
+DESCRIPTION="More Math! Many of the aggregates you are familiar with, but null-safe [topver 7.492.24021]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-math"
 LICENSE="MPL 2.0"

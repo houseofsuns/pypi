@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION=" [topver 1.11.7]"
+DESCRIPTION=" [topver 1.11.8]"
 
 HOMEPAGE="https://github.com/epykure/epyk-ui"
 LICENSE=""

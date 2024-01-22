@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="INSPIRE-specific configuration of the JSON Merger."
+DESCRIPTION="INSPIRE-specific configuration of the JSON Merger. [topver 11.0.34]"
 
 HOMEPAGE="https://github.com/inspirehep/inspire-json-merger"
 LICENSE="GPL-3"

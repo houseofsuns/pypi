@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Object destructuring of function parameters for Python! [topver 7.476.24007]"
+DESCRIPTION="Object destructuring of function parameters for Python! [topver 7.492.24021]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-kwargs"
 LICENSE="MPL 2.0"

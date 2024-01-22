@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A python library for manipulating a stash database"
+DESCRIPTION="A python library for manipulating a stash database [topver 0.4.1]"
 
 HOMEPAGE="https://github.com/7dJx1qP/pystashlib"
 LICENSE="MIT"

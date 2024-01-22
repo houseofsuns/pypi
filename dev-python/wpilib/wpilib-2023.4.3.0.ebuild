@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Binary wrapper for FRC WPILib [topver 2024.2.1.0]"
+DESCRIPTION="Binary wrapper for FRC WPILib [topver 2024.2.1.1]"
 
 HOMEPAGE="https://github.com/robotpy/robotpy-wpilib"
 LICENSE="BSD"

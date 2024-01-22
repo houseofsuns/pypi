@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="DataReservoir.io Python API [topver 0.12.15]"
+DESCRIPTION="DataReservoir.io Python API [topver 0.12.16]"
 
 HOMEPAGE="https://www.datareservoir.io"
 LICENSE=""

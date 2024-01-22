@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="More Collections! Some useful data structures for dealing with Data [topver 5.486.24020]"
+DESCRIPTION="More Collections! Some useful data structures for dealing with Data [topver 5.492.24021]"
 
 HOMEPAGE="https://github.com/klahnakoski/mo-collections"
 LICENSE="MPL 2.0"

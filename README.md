@@ -44,10 +44,12 @@ limitations:
   that complicated cases like e.g. '<8.7,>=6.4' are reduced to
   automatically representable variants ('<8.7' in the example case).
 
-In two cases a comment in square brackets is added to the description of
+In some cases a comment in square brackets is added to the description of
 a package to make aberrations in the processing pipeline transparent:
 * topver x.y: the best version is x.y but was not chosen (most likely
   due to no source distfile being available),
+* newver x.y: the newest version is x.y but was not chosen (most likely
+  because this was a maintenance release for an older branch),
 * badver x.y: the version x.y is the official package version but failed
   to parse into a Gentoo-representable format.
 
